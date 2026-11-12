@@ -56,7 +56,9 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: launcher-release
-          path: dist/Wombatcraft-Launcher-Windows.zip
+          path: |
+            dist/Wombatcraft-Launcher-Windows.zip
+            dist/launcher-build.json
   publish:
     needs: [validate, launcher]
     runs-on: ubuntu-latest

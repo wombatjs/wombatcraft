@@ -1,8 +1,22 @@
 """Run with the launcher build venv on Windows."""
-import subprocess,sys,shutil,json
+import json
+import os
+import shutil
+import subprocess
+import sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-args=[sys.executable,'-m','PyInstaller','--noconfirm','--clean','--windowed','--onedir','--name','Wombatcraft','--distpath',str(ROOT/'dist/launcher'),'--workpath',str(ROOT/'dist/launcher-build'),'--specpath',str(ROOT/'dist'),'--add-data',str(ROOT/'launcher/config.json')+';.', '--add-data',str(ROOT/'branding')+';branding',str(ROOT/'launcher/main.py')]
+DIST = ROOT / 'dist'
+DIST.mkdir(exist_ok=True)
+build_file = DIST / 'launcher-build.json'
+revision = int(os.environ.get('GITHUB_RUN_NUMBER', '0'))
+commit = os.environ['GITHUB_SHA'] if revision else (
+    subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
+    if (ROOT / '.git').exists() else '0' * 40
+)
+build = {'commit': commit, 'revision': revision}
+build_file.write_text(json.dumps(build) + '\n', encoding='utf-8')
+args=[sys.executable,'-m','PyInstaller','--noconfirm','--clean','--windowed','--onedir','--name','Wombatcraft','--distpath',str(ROOT/'dist/launcher'),'--workpath',str(ROOT/'dist/launcher-build'),'--specpath',str(ROOT/'dist'),'--add-data',str(ROOT/'launcher/config.json')+';.', '--add-data',str(build_file)+';.', '--add-data',str(ROOT/'branding')+';branding',str(ROOT/'launcher/main.py')]
 subprocess.run(args,check=True)
 # Qt 6.12 uses the Windows ICU API. PyInstaller can pick an unrelated ICU
 # from PATH whose version-suffixed exports break QtCore at startup.
@@ -13,6 +27,7 @@ icu.unlink(missing_ok=True)
 report=ROOT/'dist/launcher-smoke.json'
 report.unlink(missing_ok=True)
 subprocess.run([str(bundle/'Wombatcraft.exe'),'--smoke-test',str(report)],check=True,timeout=30)
-assert json.loads(report.read_text())['window_created'], 'Packaged launcher did not create its window'
+result = json.loads(report.read_text(encoding='utf-8'))
+assert result['window_created'] and result['build'] == build, 'Packaged launcher did not start with the expected build metadata'
 shutil.make_archive(str(ROOT/'dist/Wombatcraft-Launcher-Windows'),'zip',ROOT/'dist/launcher')
 print(ROOT/'dist/launcher/Wombatcraft/Wombatcraft.exe')

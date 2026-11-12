@@ -83,7 +83,14 @@ def build(window, brand, config, data):
  except (OSError,ValueError,TypeError):pass
  w.memory.valueChanged.connect(lambda value:settings_path.write_text(json.dumps({'memory_gb':value})));cl.addWidget(w.memory);cl.addWidget(button('Open launcher files & game log',lambda:os.startfile(str(data))));st.addWidget(card);st.addStretch();w.pages.addWidget(settings)
 
- about=QWidget();ab=QVBoxLayout(about);ab.setContentsMargins(0,0,0,0);ab.addWidget(label('About Wombatcraft','heading'));card,cl=surface();cl.addWidget(label('Made for the journey together.','heading'));cl.addWidget(label('An independent modded Minecraft community. Wombatcraft brings engineering, magic and exploration into one shared world.',wrap=True));cl.addWidget(button('Source code & issue tracker',lambda:webbrowser.open('https://github.com/wombatjs/wombatcraft')));cl.addWidget(label('Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.','muted',True));ab.addWidget(card);ab.addStretch();w.pages.addWidget(about)
+ about=QWidget();ab=QVBoxLayout(about);ab.setContentsMargins(0,0,0,0);ab.addWidget(label('About Wombatcraft','heading'));card,cl=surface();cl.addWidget(label('Made for the journey together.','heading'));cl.addWidget(label('An independent modded Minecraft community. Wombatcraft brings engineering, magic and exploration into one shared world.',wrap=True));cl.addWidget(button('Source code & issue tracker',lambda:webbrowser.open('https://github.com/wombatjs/wombatcraft')));cl.addWidget(label('An independent project. Mojang and Microsoft do not endorse Wombatcraft.','muted',True));ab.addWidget(card)
+ updates,ul=surface()
+ ul.addWidget(label('Launcher updates','heading'))
+ w.launcher_update_status=label('The Windows launcher checks for updates when it opens.','muted',True)
+ ul.addWidget(w.launcher_update_status)
+ w.launcher_update_button=button('Check for launcher updates',w.check_launcher_release)
+ ul.addWidget(w.launcher_update_button)
+ ab.addWidget(updates);ab.addStretch();w.pages.addWidget(about)
  w.progress=QProgressBar();w.progress.setFixedHeight(5);w.progress.setTextVisible(False);w.progress.setRange(0,1);main.addWidget(w.progress)
  w.status=label('Checking for a published release…','muted',True);w.status.setMinimumHeight(34);main.addWidget(w.status)
  w.home_auth=label('Microsoft sign-in is not available in this preview. Use the Modrinth download in Your pack.','muted',True);w.home_auth.setVisible(not bool(config['microsoft_client_id']));main.addWidget(w.home_auth)
