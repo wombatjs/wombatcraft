@@ -10,8 +10,7 @@
       "title": "Plan the power room",
       "subtitle": "Manual (Powah!)",
       "description": [
-        "Read the manual before choosing a generator tier.",
-        "Goal: obtain Manual (Powah!). Keep it in your inventory until the quest records completion."
+        "Read the manual before choosing a generator tier."
       ],
       "icon": "powah:book",
       "x": 2.69,
@@ -42,8 +41,7 @@
       "title": "Burn a little fuel",
       "subtitle": "Furnator (Starter)",
       "description": [
-        "Start generating power with a small fuel-based generator.",
-        "Goal: obtain Furnator (Starter). Keep it in your inventory until the quest records completion."
+        "Start generating power with a small fuel-based generator."
       ],
       "icon": "powah:furnator_starter",
       "x": 3.94,
@@ -74,8 +72,7 @@
       "title": "Buffer the supply",
       "subtitle": "Energy Cell (Starter)",
       "description": [
-        "Use stored power to smooth out demand from intermittent machines.",
-        "Goal: obtain Energy Cell (Starter). Keep it in your inventory until the quest records completion."
+        "Use stored power to smooth out demand from intermittent machines."
       ],
       "icon": "powah:energy_cell_starter",
       "x": 5.2,
@@ -106,8 +103,7 @@
       "title": "Energized materials",
       "subtitle": "Energizing Orb",
       "description": [
-        "Set up the orb with energizing rods and check the required energy per recipe.",
-        "Goal: obtain Energizing Orb. Keep it in your inventory until the quest records completion."
+        "Set up the orb with energizing rods and check the required energy per recipe."
       ],
       "icon": "powah:energizing_orb",
       "x": 6.46,
@@ -138,8 +134,7 @@
       "title": "Feed the orb",
       "subtitle": "Energizing Rod (Starter)",
       "description": [
-        "Place rods where they can supply the orb and keep the system powered.",
-        "Goal: obtain Energizing Rod (Starter). Keep it in your inventory until the quest records completion."
+        "Place rods where they can supply the orb and keep the system powered."
       ],
       "icon": "powah:energizing_rod_starter",
       "x": 7.71,
@@ -170,8 +165,7 @@
       "title": "Prepare components",
       "subtitle": "Dielectric Paste",
       "description": [
-        "Produce the materials that recur across the power tiers.",
-        "Goal: obtain Dielectric Paste. Keep it in your inventory until the quest records completion."
+        "Produce the materials that recur across the power tiers."
       ],
       "icon": "powah:dielectric_paste",
       "x": 2.69,
@@ -202,8 +196,7 @@
       "title": "A hotter tier",
       "subtitle": "Blazing Crystal",
       "description": [
-        "Build up an energy reserve before crafting advanced energized materials.",
-        "Goal: obtain Blazing Crystal. Keep it in your inventory until the quest records completion."
+        "Build up an energy reserve before crafting advanced energized materials."
       ],
       "icon": "powah:crystal_blazing",
       "x": 3.94,
@@ -234,8 +227,7 @@
       "title": "A larger supply",
       "subtitle": "Reactor (Basic)",
       "description": [
-        "Use the manual to assemble and fuel the reactor. Add cooling and storage before scaling demand.",
-        "Goal: obtain Reactor (Basic). Keep it in your inventory until the quest records completion."
+        "Use the manual to assemble and fuel the reactor. Add cooling and storage before scaling demand."
       ],
       "icon": "powah:reactor_basic",
       "x": 5.2,
@@ -266,8 +258,7 @@
       "title": "Powah!",
       "subtitle": "Overview",
       "description": [
-        "Build reliable generation, buffering and energized materials.",
-        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+        "Build reliable generation, buffering and energized materials."
       ],
       "icon": "powah:book",
       "x": 1.43,

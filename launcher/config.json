@@ -1,0 +1,7 @@
+{
+  "name": "Wombatcraft",
+  "manifest_url": "https://github.com/wombatjs/wombatcraft/releases/latest/download/manifest.json",
+  "microsoft_client_id": "",
+  "redirect_uri": "http://localhost:8529/callback",
+  "server_address": "74.208.117.88:25565"
+}

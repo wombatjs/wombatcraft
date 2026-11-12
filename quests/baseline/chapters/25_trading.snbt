@@ -1,0 +1,945 @@
+{
+  "id": "0EE59D351678B6B3",
+  "group": "0E249DD4723B0E70",
+  "title": "Trading",
+  "order_index": 20,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "01788A170AE5E71E",
+      "title": "Laying Barrel",
+      "subtitle": "",
+      "description": [
+        "Craft this item and test the trading interaction with a small transaction first."
+      ],
+      "icon": "domum_ornamentum:blockbarreldeco_onside",
+      "x": 2.86,
+      "y": 11.43,
+      "shape": "circle",
+      "dependencies": [
+        "0C4090AA09D44B61"
+      ],
+      "tasks": [
+        {
+          "id": "01AF118BAD7E339D",
+          "type": "item",
+          "item": "domum_ornamentum:blockbarreldeco_onside",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07F412B0AE65EAE0",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "07571162917B0B54",
+      "title": "Standing Barrel",
+      "subtitle": "",
+      "description": [
+        "Craft this item and test the trading interaction with a small transaction first."
+      ],
+      "icon": "domum_ornamentum:blockbarreldeco_standing",
+      "x": 4.29,
+      "y": 11.43,
+      "shape": "circle",
+      "dependencies": [
+        "01788A170AE5E71E"
+      ],
+      "tasks": [
+        {
+          "id": "051B223A6E32C7AF",
+          "type": "item",
+          "item": "domum_ornamentum:blockbarreldeco_standing",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DDBDC5F86296744",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "09875E03FC45BED5",
+      "title": "Brick Extra",
+      "subtitle": "",
+      "description": [
+        "Craft this item and test the trading interaction with a small transaction first."
+      ],
+      "icon": "domum_ornamentum:brick_extra",
+      "x": 5.71,
+      "y": 11.43,
+      "shape": "circle",
+      "dependencies": [
+        "07571162917B0B54"
+      ],
+      "tasks": [
+        {
+          "id": "0DE3219241DCF329",
+          "type": "item",
+          "item": "domum_ornamentum:brick_extra",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F059A8361E185E6",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0C4090AA09D44B61",
+      "title": "Domum Ornamentum",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Domum Ornamentum. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "domum_ornamentum:blockbarreldeco_onside",
+      "x": 1.43,
+      "y": 11.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "021CBDE4CBE0C95F",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0399CEA98D16ECFB",
+      "title": "Field notes",
+      "subtitle": "",
+      "description": [
+        "Explore the features added by FTB Chunks (NeoForge) and record one useful discovery. This is a manual objective; mark it after trying the feature."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 2.86,
+      "y": 14.29,
+      "shape": "square",
+      "dependencies": [
+        "0FE6FA3F297BF60A"
+      ],
+      "tasks": [
+        {
+          "id": "00956B811E7DB0DE",
+          "type": "checkmark",
+          "title": "I have tested this feature"
+        }
+      ]
+    },
+    {
+      "id": "0FE6FA3F297BF60A",
+      "title": "FTB Chunks (NeoForge)",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces FTB Chunks (NeoForge). Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 1.43,
+      "y": 14.29,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0A6F05CB2509939B",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "08945106667F8E6E",
+      "title": "Field notes",
+      "subtitle": "",
+      "description": [
+        "Explore the features added by FTB Essentials (Forge & Fabric) and record one useful discovery. This is a manual objective; mark it after trying the feature."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 2.86,
+      "y": 1.43,
+      "shape": "square",
+      "dependencies": [
+        "02747476E255668E"
+      ],
+      "tasks": [
+        {
+          "id": "033BAA8EDDBAD658",
+          "type": "checkmark",
+          "title": "I have tested this feature"
+        }
+      ]
+    },
+    {
+      "id": "02747476E255668E",
+      "title": "FTB Essentials (Forge & Fabric)",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces FTB Essentials (Forge & Fabric). Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 1.43,
+      "y": 1.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0C6AFBCAC0BC4989",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0D283D86F40D71DA",
+      "title": "Quest Book",
+      "subtitle": "",
+      "description": [
+        "Craft this item and test the trading interaction with a small transaction first."
+      ],
+      "icon": "ftbquests:book",
+      "x": 2.86,
+      "y": 15.71,
+      "shape": "circle",
+      "dependencies": [
+        "0E59378EE6FDB13E"
+      ],
+      "tasks": [
+        {
+          "id": "06EF00DDB9AD3B3E",
+          "type": "item",
+          "item": "ftbquests:book",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0FBCFFDC1585CF83",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0CC8693E5A786BAC",
+      "title": "Task Screen (1x1)",
+      "subtitle": "",
+      "description": [
+        "Craft this item and test the trading interaction with a small transaction first."
+      ],
+      "icon": "ftbquests:screen_1",
+      "x": 4.29,
+      "y": 15.71,
+      "shape": "circle",
+      "dependencies": [
+        "0D283D86F40D71DA"
+      ],
+      "tasks": [
+        {
+          "id": "094114E6CEAC239B",
+          "type": "item",
+          "item": "ftbquests:screen_1",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07DABFF4D51BFB33",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0208B9EC11EC9FA3",
+      "title": "Task Screen (3x3)",
+      "subtitle": "",
+      "description": [
+        "Craft this item and test the trading interaction with a small transaction first."
+      ],
+      "icon": "ftbquests:screen_3",
+      "x": 5.71,
+      "y": 15.71,
+      "shape": "circle",
+      "dependencies": [
+        "0CC8693E5A786BAC"
+      ],
+      "tasks": [
+        {
+          "id": "04B35F7B49B3DD5F",
+          "type": "item",
+          "item": "ftbquests:screen_3",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DEE67F664A9C2F9",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0E59378EE6FDB13E",
+      "title": "FTB Quests (NeoForge)",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces FTB Quests (NeoForge). Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "ftbquests:book",
+      "x": 1.43,
+      "y": 15.71,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0AA030FE926C04AA",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0DAFC9D1BB03E999",
+      "title": "Field notes",
+      "subtitle": "",
+      "description": [
+        "Explore the features added by FTB Ranks (NeoForge) and record one useful discovery. This is a manual objective; mark it after trying the feature."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 2.86,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [
+        "013BE7BC24E24A78"
+      ],
+      "tasks": [
+        {
+          "id": "045B95A705C56ACB",
+          "type": "checkmark",
+          "title": "I have tested this feature"
+        }
+      ]
+    },
+    {
+      "id": "013BE7BC24E24A78",
+      "title": "FTB Ranks (NeoForge)",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces FTB Ranks (NeoForge). Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0797B44758DC7766",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0050DEF673D1D20F",
+      "title": "Field notes",
+      "subtitle": "",
+      "description": [
+        "Explore the features added by FTB Teams (NeoForge) and record one useful discovery. This is a manual objective; mark it after trying the feature."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 2.86,
+      "y": 12.86,
+      "shape": "square",
+      "dependencies": [
+        "0F119A08A3BB7C2B"
+      ],
+      "tasks": [
+        {
+          "id": "0B83E96B4DBDA90F",
+          "type": "checkmark",
+          "title": "I have tested this feature"
+        }
+      ]
+    },
+    {
+      "id": "0F119A08A3BB7C2B",
+      "title": "FTB Teams (NeoForge)",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces FTB Teams (NeoForge). Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 1.43,
+      "y": 12.86,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0F73C91D5A833CF4",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0C4314FEC6AF8D44",
+      "title": "Field notes",
+      "subtitle": "",
+      "description": [
+        "Explore the features added by FTB XMod Compat and record one useful discovery. This is a manual objective; mark it after trying the feature."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 2.86,
+      "y": 2.86,
+      "shape": "square",
+      "dependencies": [
+        "03C2BB14E4E40A5F"
+      ],
+      "tasks": [
+        {
+          "id": "0D0CF3277D629123",
+          "type": "checkmark",
+          "title": "I have tested this feature"
+        }
+      ]
+    },
+    {
+      "id": "03C2BB14E4E40A5F",
+      "title": "FTB XMod Compat",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces FTB XMod Compat. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 1.43,
+      "y": 2.86,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0F57A250958B5564",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "058291711E1896CB",
+      "title": "Oak Shelf",
+      "subtitle": "",
+      "description": [
+        "Craft this item and test the trading interaction with a small transaction first."
+      ],
+      "icon": "lightmanscurrency:shelf_oak",
+      "x": 2.86,
+      "y": 4.29,
+      "shape": "circle",
+      "dependencies": [
+        "028BAEBFF7F08417"
+      ],
+      "tasks": [
+        {
+          "id": "02E03EAD2C8C5635",
+          "type": "item",
+          "item": "lightmanscurrency:shelf_oak",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "025FE61B3BD0E007",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "086909F17A37690C",
+      "title": "Birch Shelf",
+      "subtitle": "",
+      "description": [
+        "Craft this item and test the trading interaction with a small transaction first."
+      ],
+      "icon": "lightmanscurrency:shelf_birch",
+      "x": 4.29,
+      "y": 4.29,
+      "shape": "circle",
+      "dependencies": [
+        "058291711E1896CB"
+      ],
+      "tasks": [
+        {
+          "id": "0204A47FFEB97CE5",
+          "type": "item",
+          "item": "lightmanscurrency:shelf_birch",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0746F3F97FB40374",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "02D080BAA8AD6F89",
+      "title": "ATM",
+      "subtitle": "",
+      "description": [
+        "Craft this item and test the trading interaction with a small transaction first."
+      ],
+      "icon": "lightmanscurrency:portable_atm",
+      "x": 5.71,
+      "y": 4.29,
+      "shape": "circle",
+      "dependencies": [
+        "086909F17A37690C"
+      ],
+      "tasks": [
+        {
+          "id": "0F2C9F191161A26E",
+          "type": "item",
+          "item": "lightmanscurrency:portable_atm",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E684FF889453961",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "028BAEBFF7F08417",
+      "title": "Lightman's Currency",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Lightman's Currency. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "lightmanscurrency:shelf_oak",
+      "x": 1.43,
+      "y": 4.29,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0AB529467BC948CC",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0E7C9BDBE8182152",
+      "title": "Amazon Camp",
+      "subtitle": "",
+      "description": [
+        "Enter the amazon camp structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 8.57,
+      "shape": "circle",
+      "dependencies": [
+        "079D23AC87866206"
+      ],
+      "tasks": [
+        {
+          "id": "06263FB10AA5C682",
+          "type": "structure",
+          "structure": "minecolonies:amazon_camp"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05AB55F0B1D13916",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "01F0196DCF89E190",
+      "title": "Asian Colony",
+      "subtitle": "",
+      "description": [
+        "Enter the asian colony structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 8.57,
+      "shape": "circle",
+      "dependencies": [
+        "0E7C9BDBE8182152"
+      ],
+      "tasks": [
+        {
+          "id": "06BF39EBCBD20484",
+          "type": "structure",
+          "structure": "minecolonies:asian_colony"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03F2C7EFC9624E61",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0B6418972B606B38",
+      "title": "Barbarian Camp",
+      "subtitle": "",
+      "description": [
+        "Enter the barbarian camp structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 8.57,
+      "shape": "circle",
+      "dependencies": [
+        "01F0196DCF89E190"
+      ],
+      "tasks": [
+        {
+          "id": "0A81C13EA54EDB54",
+          "type": "structure",
+          "structure": "minecolonies:barbarian_camp"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "08949B01AB35DDE4",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "079D23AC87866206",
+      "title": "MineColonies",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces MineColonies. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 8.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0FB8BF7B2AEE1F38",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0FE8471E99F92705",
+      "title": "Portable Radar",
+      "subtitle": "",
+      "description": [
+        "Craft this item and test the trading interaction with a small transaction first."
+      ],
+      "icon": "securitycraft:portable_radar",
+      "x": 2.86,
+      "y": 7.14,
+      "shape": "circle",
+      "dependencies": [
+        "0243EDDB55B32DB5"
+      ],
+      "tasks": [
+        {
+          "id": "000FF135F0D28F7C",
+          "type": "item",
+          "item": "securitycraft:portable_radar",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E135F776BE53333",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "08A2367C64C38634",
+      "title": "Keypad Door",
+      "subtitle": "",
+      "description": [
+        "Craft this item and test the trading interaction with a small transaction first."
+      ],
+      "icon": "securitycraft:keypad_door_item",
+      "x": 4.29,
+      "y": 7.14,
+      "shape": "circle",
+      "dependencies": [
+        "0FE8471E99F92705"
+      ],
+      "tasks": [
+        {
+          "id": "0F546B13395D1575",
+          "type": "item",
+          "item": "securitycraft:keypad_door_item",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "035D87760DA17250",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "084CB776369B9DB1",
+      "title": "Scanner Trapdoor",
+      "subtitle": "",
+      "description": [
+        "Craft this item and test the trading interaction with a small transaction first."
+      ],
+      "icon": "securitycraft:scanner_trapdoor",
+      "x": 5.71,
+      "y": 7.14,
+      "shape": "circle",
+      "dependencies": [
+        "08A2367C64C38634"
+      ],
+      "tasks": [
+        {
+          "id": "0C09F799A42AF0A1",
+          "type": "item",
+          "item": "securitycraft:scanner_trapdoor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04F50A0AD34CDE04",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0243EDDB55B32DB5",
+      "title": "SecurityCraft",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces SecurityCraft. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "securitycraft:portable_radar",
+      "x": 1.43,
+      "y": 7.14,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0F4677518DD1642D",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0776CB4255164B23",
+      "title": "Field notes",
+      "subtitle": "",
+      "description": [
+        "Explore the features added by Simple Voice Chat and record one useful discovery. This is a manual objective; mark it after trying the feature."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 2.86,
+      "y": 5.71,
+      "shape": "square",
+      "dependencies": [
+        "00A8B78B09F709ED"
+      ],
+      "tasks": [
+        {
+          "id": "0C02024EC1EF49A9",
+          "type": "checkmark",
+          "title": "I have tested this feature"
+        }
+      ]
+    },
+    {
+      "id": "00A8B78B09F709ED",
+      "title": "Simple Voice Chat",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Simple Voice Chat. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 1.43,
+      "y": 5.71,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "088050D475571D88",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0013F5B95E8C477A",
+      "title": "Calipers",
+      "subtitle": "",
+      "description": [
+        "Craft this item and test the trading interaction with a small transaction first."
+      ],
+      "icon": "structurize:caliper",
+      "x": 2.86,
+      "y": 10.0,
+      "shape": "circle",
+      "dependencies": [
+        "02FD193966D7E532"
+      ],
+      "tasks": [
+        {
+          "id": "09A6196E79CDC4A9",
+          "type": "item",
+          "item": "structurize:caliper",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0BCA034E249EC694",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0C9070E56ABD1132",
+      "title": "Build Tool",
+      "subtitle": "",
+      "description": [
+        "Craft this item and test the trading interaction with a small transaction first."
+      ],
+      "icon": "structurize:sceptergold",
+      "x": 4.29,
+      "y": 10.0,
+      "shape": "circle",
+      "dependencies": [
+        "0013F5B95E8C477A"
+      ],
+      "tasks": [
+        {
+          "id": "093475B7E208AF83",
+          "type": "item",
+          "item": "structurize:sceptergold",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E91C1E8E2137571",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "09E909505263CC78",
+      "title": "Scan Tool",
+      "subtitle": "",
+      "description": [
+        "Craft this item and test the trading interaction with a small transaction first."
+      ],
+      "icon": "structurize:sceptersteel",
+      "x": 5.71,
+      "y": 10.0,
+      "shape": "circle",
+      "dependencies": [
+        "0C9070E56ABD1132"
+      ],
+      "tasks": [
+        {
+          "id": "0BCA0F9B4A263518",
+          "type": "item",
+          "item": "structurize:sceptersteel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D03B87A84745FAA",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "02FD193966D7E532",
+      "title": "Structurize",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Structurize. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "structurize:caliper",
+      "x": 1.43,
+      "y": 10.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "08B3C7B92704B38B",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

@@ -10,8 +10,7 @@
       "title": "Read the Industrial Foregoing manual",
       "subtitle": "Pity Machine Frame",
       "description": [
-        "Plan machines by what they consume and produce. Leave room for power, fluids and items.",
-        "Goal: obtain Pity Machine Frame. Keep it in your inventory until the quest records completion."
+        "Plan machines by what they consume and produce. Leave room for power, fluids and items."
       ],
       "icon": "industrialforegoing:machine_frame_pity",
       "x": 2.69,
@@ -42,8 +41,7 @@
       "title": "The first machine frame",
       "subtitle": "Pity Machine Frame",
       "description": [
-        "Build the starting frame and inspect the resource-production machines it enables.",
-        "Goal: obtain Pity Machine Frame. Keep it in your inventory until the quest records completion."
+        "Build the starting frame and inspect the resource-production machines it enables."
       ],
       "icon": "industrialforegoing:machine_frame_pity",
       "x": 3.94,
@@ -74,8 +72,7 @@
       "title": "Extract latex",
       "subtitle": "Fluid Extractor",
       "description": [
-        "Place the extractor against a supported log and collect its output. Establish a renewable tree supply.",
-        "Goal: obtain Fluid Extractor. Keep it in your inventory until the quest records completion."
+        "Place the extractor against a supported log and collect its output. Establish a renewable tree supply."
       ],
       "icon": "industrialforegoing:fluid_extractor",
       "x": 5.2,
@@ -106,8 +103,7 @@
       "title": "Turn latex into plastic",
       "subtitle": "Latex Processing Unit",
       "description": [
-        "Supply latex, water and power. Watch both fluid tanks and collect the output.",
-        "Goal: obtain Latex Processing Unit. Keep it in your inventory until the quest records completion."
+        "Supply latex, water and power. Watch both fluid tanks and collect the output."
       ],
       "icon": "industrialforegoing:latex_processing_unit",
       "x": 6.46,
@@ -138,8 +134,7 @@
       "title": "Plastic production",
       "subtitle": "Plastic",
       "description": [
-        "Create a small stock of plastic before expanding your machinery.",
-        "Goal: obtain Plastic. Keep it in your inventory until the quest records completion."
+        "Create a small stock of plastic before expanding your machinery."
       ],
       "icon": "industrialforegoing:plastic",
       "x": 7.71,
@@ -170,8 +165,7 @@
       "title": "Advanced processing",
       "subtitle": "Dissolution Chamber",
       "description": [
-        "Build the chamber and arrange its item and fluid inputs for a known recipe.",
-        "Goal: obtain Dissolution Chamber. Keep it in your inventory until the quest records completion."
+        "Build the chamber and arrange its item and fluid inputs for a known recipe."
       ],
       "icon": "industrialforegoing:dissolution_chamber",
       "x": 2.69,
@@ -202,8 +196,7 @@
       "title": "Plant automatically",
       "subtitle": "Plant Sower",
       "description": [
-        "Configure a sower and keep it supplied. Verify the working area before covering a large farm.",
-        "Goal: obtain Plant Sower. Keep it in your inventory until the quest records completion."
+        "Configure a sower and keep it supplied. Verify the working area before covering a large farm."
       ],
       "icon": "industrialforegoing:plant_sower",
       "x": 3.94,
@@ -234,8 +227,7 @@
       "title": "Harvest automatically",
       "subtitle": "Plant Gatherer",
       "description": [
-        "Collect the harvest into storage and ensure the planting supply stays stocked.",
-        "Goal: obtain Plant Gatherer. Keep it in your inventory until the quest records completion."
+        "Collect the harvest into storage and ensure the planting supply stays stocked."
       ],
       "icon": "industrialforegoing:plant_gatherer",
       "x": 5.2,
@@ -266,8 +258,7 @@
       "title": "Contain the danger",
       "subtitle": "Mob Crusher",
       "description": [
-        "Build a secure enclosure before using a mob-processing machine. Confirm item, fluid and power routing.",
-        "Goal: obtain Mob Crusher. Keep it in your inventory until the quest records completion."
+        "Build a secure enclosure before using a mob-processing machine. Confirm item, fluid and power routing."
       ],
       "icon": "industrialforegoing:mob_crusher",
       "x": 6.46,
@@ -298,8 +289,7 @@
       "title": "Industrial Foregoing",
       "subtitle": "Overview",
       "description": [
-        "Automate renewable resources with dedicated machines. Every machine needs a working supply and output path, not just an inventory checkbox.",
-        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+        "Automate renewable resources with dedicated machines. Every machine needs a working supply and output path, not just an inventory checkbox."
       ],
       "icon": "industrialforegoing:machine_frame_pity",
       "x": 1.43,

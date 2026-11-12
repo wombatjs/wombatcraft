@@ -1,0 +1,1765 @@
+{
+  "id": "6751D340F72ED696",
+  "title": "Thermal Workshop",
+  "group": "0DCB27D2C77209FB",
+  "order_index": 23,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "74909E2579EF25AB",
+      "title": "Crescent Hammer",
+      "subtitle": "A warm beginning",
+      "description": [
+        "Build a powered processing pair and configure its faces. Keep fuel and output extraction simple until the line is reliable."
+      ],
+      "icon": "thermal:wrench",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "923827F9208ABE2A",
+          "type": "item",
+          "item": "thermal:wrench",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "57C2A90D4BD071E8",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "A1271D3838D62A98",
+      "title": "Redstone Flux Coil",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:rf_coil",
+      "x": 2.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "74909E2579EF25AB"
+      ],
+      "tasks": [
+        {
+          "id": "F60EB0F5A3FCF7AD",
+          "type": "item",
+          "item": "thermal:rf_coil",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "C038C993FE58DC6E",
+      "title": "Redstone Servo",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:redstone_servo",
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "A1271D3838D62A98"
+      ],
+      "tasks": [
+        {
+          "id": "7454C76FE1F4F13D",
+          "type": "item",
+          "item": "thermal:redstone_servo",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "43406228DEA85400",
+      "title": "Machine Frame",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:machine_frame",
+      "x": 6.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "C038C993FE58DC6E"
+      ],
+      "tasks": [
+        {
+          "id": "D4461F1E45EC440E",
+          "type": "item",
+          "item": "thermal:machine_frame",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "997A8F8B30F24765",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "14BC925362B894D3",
+      "title": "Stirling Dynamo",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:dynamo_stirling",
+      "x": 8.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "43406228DEA85400"
+      ],
+      "tasks": [
+        {
+          "id": "C2893EDDB9AEBDCF",
+          "type": "item",
+          "item": "thermal:dynamo_stirling",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "CF1278B15FD308B1",
+      "title": "Redstone Furnace",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:machine_furnace",
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "14BC925362B894D3"
+      ],
+      "tasks": [
+        {
+          "id": "9A9B66B9518458FB",
+          "type": "item",
+          "item": "thermal:machine_furnace",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "B7698683A125F820",
+      "title": "Pulverizer",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:machine_pulverizer",
+      "x": 12.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "CF1278B15FD308B1"
+      ],
+      "tasks": [
+        {
+          "id": "3E1908BFD360752A",
+          "type": "item",
+          "item": "thermal:machine_pulverizer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14328A1FD8836F86",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "88C07824A2A6ACA3",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "D229279272C2DB4F",
+      "title": "Invar Ingot",
+      "subtitle": "Alloys and presses",
+      "description": [
+        "Prepare alloys in useful batches. Dies give the press specialised work; switch them to match your current production needs."
+      ],
+      "icon": "thermal:invar_ingot",
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "B7698683A125F820"
+      ],
+      "tasks": [
+        {
+          "id": "1495B9A5FECD3745",
+          "type": "item",
+          "item": "thermal:invar_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "BAA7029055650777",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "785FFC41F645BA12",
+      "title": "Electrum Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:electrum_ingot",
+      "x": 2.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "D229279272C2DB4F"
+      ],
+      "tasks": [
+        {
+          "id": "36EA84383F84D6BB",
+          "type": "item",
+          "item": "thermal:electrum_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "AAA1AF3415409759",
+      "title": "Bronze Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:bronze_ingot",
+      "x": 4.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "785FFC41F645BA12"
+      ],
+      "tasks": [
+        {
+          "id": "115338CB6EBF48F7",
+          "type": "item",
+          "item": "thermal:bronze_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "CD0708389486D0BD",
+      "title": "Induction Smelter",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:machine_smelter",
+      "x": 6.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "AAA1AF3415409759"
+      ],
+      "tasks": [
+        {
+          "id": "F3B52731B4143C31",
+          "type": "item",
+          "item": "thermal:machine_smelter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4C608F0BD0922FCD",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "5A9E8E0748B6A303",
+      "title": "Multiservo Press",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:machine_press",
+      "x": 8.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "CD0708389486D0BD"
+      ],
+      "tasks": [
+        {
+          "id": "404B0C1029302A8E",
+          "type": "item",
+          "item": "thermal:machine_press",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3101979D235953FB",
+      "title": "Gearworking Die",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:press_gear_die",
+      "x": 10.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "5A9E8E0748B6A303"
+      ],
+      "tasks": [
+        {
+          "id": "7E97B60856E6ABE9",
+          "type": "item",
+          "item": "thermal:press_gear_die",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "83FA49A6D287DE48",
+      "title": "Numismatic Die",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:press_coin_die",
+      "x": 12.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "3101979D235953FB"
+      ],
+      "tasks": [
+        {
+          "id": "E1BCA418BFB729F2",
+          "type": "item",
+          "item": "thermal:press_coin_die",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6EB93700A6DD618C",
+          "type": "xp",
+          "xp": 15
+        },
+        {
+          "id": "8D709ED595F5205E",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "DB8C78478AED6EFC",
+      "title": "Magma Crucible",
+      "subtitle": "Heat and fluids",
+      "description": [
+        "Melting, cooling and bottling form a separate fluid workshop. Store hot products safely and keep incompatible fluids apart."
+      ],
+      "icon": "thermal:machine_crucible",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "CD0708389486D0BD"
+      ],
+      "tasks": [
+        {
+          "id": "764EA4DFBDBDF809",
+          "type": "item",
+          "item": "thermal:machine_crucible",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "9A947B7D29C98A50",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "BB659F54A938FC4A",
+      "title": "Blast Chiller",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:machine_chiller",
+      "x": 2.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "DB8C78478AED6EFC"
+      ],
+      "tasks": [
+        {
+          "id": "C5E6A81D84AB5706",
+          "type": "item",
+          "item": "thermal:machine_chiller",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2F0495AF93FB17D4",
+      "title": "Fluid Encapsulator",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:machine_bottler",
+      "x": 4.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "BB659F54A938FC4A"
+      ],
+      "tasks": [
+        {
+          "id": "44C94F94E6B74955",
+          "type": "item",
+          "item": "thermal:machine_bottler",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "725D880A0579AF29",
+      "title": "Fluid Cell",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:fluid_cell",
+      "x": 6.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "2F0495AF93FB17D4"
+      ],
+      "tasks": [
+        {
+          "id": "627BC10813B16C80",
+          "type": "item",
+          "item": "thermal:fluid_cell",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "EDABAFC8C58E07A5",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "1B5FEDCDA14D287F",
+      "title": "Reservoir",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:fluid_reservoir",
+      "x": 8.0,
+      "y": 6.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "725D880A0579AF29"
+      ],
+      "tasks": [
+        {
+          "id": "9982F9071F82B427",
+          "type": "item",
+          "item": "thermal:fluid_reservoir",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "59AB0F36209A833A",
+          "type": "xp",
+          "xp": 40
+        },
+        {
+          "id": "810D60FB62F4CF91",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "BA59BAB24CD4F8A4",
+      "title": "Arboreal Extractor",
+      "subtitle": "Renewable feedstock",
+      "description": [
+        "Turn a managed grove into a renewable supply. Collect every output so a full by-product tank cannot halt production."
+      ],
+      "icon": "thermal:device_tree_extractor",
+      "x": 0.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "43406228DEA85400"
+      ],
+      "tasks": [
+        {
+          "id": "8497D599F8389174",
+          "type": "item",
+          "item": "thermal:device_tree_extractor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "558F59F6B0EA59DC",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "45BCA75C6868045A",
+      "title": "Resin Bucket",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:resin_bucket",
+      "x": 2.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "BA59BAB24CD4F8A4"
+      ],
+      "tasks": [
+        {
+          "id": "CB75DDB47BF7CEEA",
+          "type": "item",
+          "item": "thermal:resin_bucket",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4FE26460B2FB65A8",
+      "title": "Rubber",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:rubber",
+      "x": 4.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "45BCA75C6868045A"
+      ],
+      "tasks": [
+        {
+          "id": "50962D4E6D21C230",
+          "type": "item",
+          "item": "thermal:rubber",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "33160C164B7B1B38",
+      "title": "Cured Rubber",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:cured_rubber",
+      "x": 6.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "4FE26460B2FB65A8"
+      ],
+      "tasks": [
+        {
+          "id": "17FF7465F0416CF0",
+          "type": "item",
+          "item": "thermal:cured_rubber",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "A586019F486F2A86",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "AC358773C1868D4D",
+      "title": "Sawmill",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:machine_sawmill",
+      "x": 8.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "33160C164B7B1B38"
+      ],
+      "tasks": [
+        {
+          "id": "E706945E4DDEF468",
+          "type": "item",
+          "item": "thermal:machine_sawmill",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5FBA26DAA09909B7",
+      "title": "Pyrolyzer",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:machine_pyrolyzer",
+      "x": 10.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "AC358773C1868D4D"
+      ],
+      "tasks": [
+        {
+          "id": "94ABD1658B408FEF",
+          "type": "item",
+          "item": "thermal:machine_pyrolyzer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F56127A30215B7A3",
+      "title": "Coke",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:coal_coke",
+      "x": 12.0,
+      "y": 9.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "5FBA26DAA09909B7"
+      ],
+      "tasks": [
+        {
+          "id": "E9FBCEC30BF0ECBF",
+          "type": "item",
+          "item": "thermal:coal_coke",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "38E2645E4E9D58A6",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "id": "6EEFEC107003A9CF",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "14BFAAC45DF42167",
+      "title": "Crude Oil Bucket",
+      "subtitle": "A refinery district",
+      "description": [
+        "Refining creates several useful fractions. Size storage for all of them before feeding the plant continuously."
+      ],
+      "icon": "thermal:crude_oil_bucket",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "DB8C78478AED6EFC"
+      ],
+      "tasks": [
+        {
+          "id": "FCFEC62E4B312870",
+          "type": "item",
+          "item": "thermal:crude_oil_bucket",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "274944415861ECD7",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "2B08E38CDF550FB2",
+      "title": "Fractionating Still",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:machine_refinery",
+      "x": 2.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "14BFAAC45DF42167"
+      ],
+      "tasks": [
+        {
+          "id": "21147D93AFE8DA2C",
+          "type": "item",
+          "item": "thermal:machine_refinery",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "8758D24F88DCB56E",
+      "title": "Heavy Oil Bucket",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:heavy_oil_bucket",
+      "x": 4.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "2B08E38CDF550FB2"
+      ],
+      "tasks": [
+        {
+          "id": "317A72D1AFAB1222",
+          "type": "item",
+          "item": "thermal:heavy_oil_bucket",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "DAE793A01C7D4AB1",
+      "title": "Light Oil Bucket",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:light_oil_bucket",
+      "x": 6.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "8758D24F88DCB56E"
+      ],
+      "tasks": [
+        {
+          "id": "5DB8B451D2B32D71",
+          "type": "item",
+          "item": "thermal:light_oil_bucket",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2A8A8FA749516E03",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "C6B4AE7F8193EFF4",
+      "title": "Refined Fuel Bucket",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:refined_fuel_bucket",
+      "x": 8.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "DAE793A01C7D4AB1"
+      ],
+      "tasks": [
+        {
+          "id": "0A354659EE09EFD2",
+          "type": "item",
+          "item": "thermal:refined_fuel_bucket",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3E66095307C20775",
+      "title": "Compression Dynamo",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:dynamo_compression",
+      "x": 10.0,
+      "y": 12.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "C6B4AE7F8193EFF4"
+      ],
+      "tasks": [
+        {
+          "id": "29159F2D5A323BB9",
+          "type": "item",
+          "item": "thermal:dynamo_compression",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "FC8591F7F9BC2F16",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "12E60EB2D2CCB7E3",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "B40A4726A1670A7E",
+      "title": "Magmatic Dynamo",
+      "subtitle": "A choice of generators",
+      "description": [
+        "Match generation to a resource you can replenish. Valuable fuel is not always the most economical fuel."
+      ],
+      "icon": "thermal:dynamo_magmatic",
+      "x": 0.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "14BC925362B894D3"
+      ],
+      "tasks": [
+        {
+          "id": "0266ADA68EE92179",
+          "type": "item",
+          "item": "thermal:dynamo_magmatic",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "A956FD5098DAD7F7",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "8F9E6A4EC9F65B08",
+      "title": "Lapidary Dynamo",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:dynamo_lapidary",
+      "x": 2.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "B40A4726A1670A7E"
+      ],
+      "tasks": [
+        {
+          "id": "BDEE57AC71996668",
+          "type": "item",
+          "item": "thermal:dynamo_lapidary",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7261DA88A25F79D9",
+      "title": "Numismatic Dynamo",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:dynamo_numismatic",
+      "x": 4.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "8F9E6A4EC9F65B08"
+      ],
+      "tasks": [
+        {
+          "id": "F797B21061F0F33D",
+          "type": "item",
+          "item": "thermal:dynamo_numismatic",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6EC005C8AF344B3B",
+      "title": "Disenchantment Dynamo",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:dynamo_disenchantment",
+      "x": 6.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "7261DA88A25F79D9"
+      ],
+      "tasks": [
+        {
+          "id": "038CCEFE63652403",
+          "type": "item",
+          "item": "thermal:dynamo_disenchantment",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "CE6276889E7D885C",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "85AA1A75D2081EDC",
+      "title": "Gourmand Dynamo",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:dynamo_gourmand",
+      "x": 8.0,
+      "y": 15.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "6EC005C8AF344B3B"
+      ],
+      "tasks": [
+        {
+          "id": "A1E722B5453A8344",
+          "type": "item",
+          "item": "thermal:dynamo_gourmand",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "ACAA275F0BB9931F",
+          "type": "xp",
+          "xp": 55
+        },
+        {
+          "id": "D124A6C8EA3A1507",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "2C20566A687D0BBA",
+      "title": "Redstone Flux Cell Frame",
+      "subtitle": "Energy distribution",
+      "description": [
+        "Buffer the workshop and carry a reserve for tools. Keep transfer limits in mind when a busy line draws more power."
+      ],
+      "icon": "thermal:energy_cell_frame",
+      "x": 0.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "A1271D3838D62A98"
+      ],
+      "tasks": [
+        {
+          "id": "07379AA681A7FD2A",
+          "type": "item",
+          "item": "thermal:energy_cell_frame",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "B84A93E633D40C99",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "0A5F02D3783E0FCE",
+      "title": "Redstone Flux Cell",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:energy_cell",
+      "x": 2.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "2C20566A687D0BBA"
+      ],
+      "tasks": [
+        {
+          "id": "627D0CA3FEDBB353",
+          "type": "item",
+          "item": "thermal:energy_cell",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "67CFB32C2EB99449",
+      "title": "Fluxduct",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:energy_duct",
+      "x": 4.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "0A5F02D3783E0FCE"
+      ],
+      "tasks": [
+        {
+          "id": "7633F4794E55271A",
+          "type": "item",
+          "item": "thermal:energy_duct",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "18106956A9E197C9",
+      "title": "Flux Capacitor",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:flux_capacitor",
+      "x": 6.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "67CFB32C2EB99449"
+      ],
+      "tasks": [
+        {
+          "id": "0E34E5CF1339CECA",
+          "type": "item",
+          "item": "thermal:flux_capacitor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "F78448C76E92E825",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "ADD7142C6F3E53D2",
+      "title": "Energetic Infuser",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:charge_bench",
+      "x": 8.0,
+      "y": 18.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "18106956A9E197C9"
+      ],
+      "tasks": [
+        {
+          "id": "ECF4FA743DD79A69",
+          "type": "item",
+          "item": "thermal:charge_bench",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "C1145C4F1A5D66EC",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "3C2905E5F0C936A8",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "271893EED314740B",
+      "title": "Signalum Ingot",
+      "subtitle": "Advanced materials",
+      "description": [
+        "Advanced alloys support stronger components. Establish the material chain before upgrading every machine at once."
+      ],
+      "icon": "thermal:signalum_ingot",
+      "x": 0.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "CD0708389486D0BD"
+      ],
+      "tasks": [
+        {
+          "id": "6BF6C6BC269DA7F1",
+          "type": "item",
+          "item": "thermal:signalum_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "D9F286FA8A4FF70D",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "838D75D3498400CD",
+      "title": "Lumium Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:lumium_ingot",
+      "x": 2.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "271893EED314740B"
+      ],
+      "tasks": [
+        {
+          "id": "FB812114F7502BD2",
+          "type": "item",
+          "item": "thermal:lumium_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "297B866E4AD50D41",
+      "title": "Enderium Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:enderium_ingot",
+      "x": 4.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "838D75D3498400CD"
+      ],
+      "tasks": [
+        {
+          "id": "04F39476EEFD7FC1",
+          "type": "item",
+          "item": "thermal:enderium_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "E2FCFAC83E05DA2B",
+      "title": "Signalum Gear",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:signalum_gear",
+      "x": 6.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "297B866E4AD50D41"
+      ],
+      "tasks": [
+        {
+          "id": "713B513F111DECE0",
+          "type": "item",
+          "item": "thermal:signalum_gear",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "26FB308400C9FA10",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "98D978259AA5F20D",
+      "title": "Lumium Gear",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:lumium_gear",
+      "x": 8.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "E2FCFAC83E05DA2B"
+      ],
+      "tasks": [
+        {
+          "id": "2614751F1C4D00FF",
+          "type": "item",
+          "item": "thermal:lumium_gear",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "81B1D713441499BB",
+      "title": "Enderium Gear",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:enderium_gear",
+      "x": 10.0,
+      "y": 21.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "98D978259AA5F20D"
+      ],
+      "tasks": [
+        {
+          "id": "AD5DD1656B172732",
+          "type": "item",
+          "item": "thermal:enderium_gear",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "094ECAC932F65BF7",
+          "type": "xp",
+          "xp": 65
+        },
+        {
+          "id": "77D9B74A06BA6294",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "0B8779CA2B513466",
+      "title": "Flux Linkage Amplifier",
+      "subtitle": "Tuning the machinery",
+      "description": [
+        "Speed, efficiency and output upgrades solve different problems. Measure the bottleneck before filling upgrade slots."
+      ],
+      "icon": "thermal:machine_speed_augment",
+      "x": 0.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "297B866E4AD50D41"
+      ],
+      "tasks": [
+        {
+          "id": "1D2BC1CFA0A995CC",
+          "type": "item",
+          "item": "thermal:machine_speed_augment",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "43536870A97D13DA",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "27D405AE6A3E6AC6",
+      "title": "Flux Efficiency",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:machine_efficiency_augment",
+      "x": 2.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "0B8779CA2B513466"
+      ],
+      "tasks": [
+        {
+          "id": "7046B5037294866D",
+          "type": "item",
+          "item": "thermal:machine_efficiency_augment",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "AAD57025418EE8E3",
+      "title": "Auxiliary Process Sieve",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:machine_output_augment",
+      "x": 4.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "27D405AE6A3E6AC6"
+      ],
+      "tasks": [
+        {
+          "id": "98B387D52176633A",
+          "type": "item",
+          "item": "thermal:machine_output_augment",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE12B959E4142DBE",
+      "title": "Cyclical Processing",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:machine_cycle_augment",
+      "x": 6.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "AAD57025418EE8E3"
+      ],
+      "tasks": [
+        {
+          "id": "1CA006BC87E74FB5",
+          "type": "item",
+          "item": "thermal:machine_cycle_augment",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "ED7024E6C28A1495",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "BEB1D022E22F5896",
+      "title": "Auxiliary Reaction Chamber",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:dynamo_output_augment",
+      "x": 8.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "FE12B959E4142DBE"
+      ],
+      "tasks": [
+        {
+          "id": "DA67E0DDBE7174E7",
+          "type": "item",
+          "item": "thermal:dynamo_output_augment",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "385BE19320CA1990",
+      "title": "Multi-cycle Injectors",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:dynamo_fuel_augment",
+      "x": 10.0,
+      "y": 24.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "BEB1D022E22F5896"
+      ],
+      "tasks": [
+        {
+          "id": "6D8EC85CA2F92E32",
+          "type": "item",
+          "item": "thermal:dynamo_fuel_augment",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "8742A36B531AD22C",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "3C13677E3A95C954",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "B6BD2C08AB623950",
+      "title": "Phyto-Gro",
+      "subtitle": "A managed greenhouse",
+      "description": [
+        "Supply water and fertiliser alongside seeds. Keep enough produce to restart the garden after a storage mistake."
+      ],
+      "icon": "thermal:phytogro",
+      "x": 0.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "43406228DEA85400"
+      ],
+      "tasks": [
+        {
+          "id": "B922A99262FDDD50",
+          "type": "item",
+          "item": "thermal:phytogro",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "81A4CA2A753920D7",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "83F367CB3291E7E7",
+      "title": "Phytogenic Insolator",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:machine_insolator",
+      "x": 2.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "B6BD2C08AB623950"
+      ],
+      "tasks": [
+        {
+          "id": "B8346B658E0A2082",
+          "type": "item",
+          "item": "thermal:machine_insolator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F380074B1C127087",
+      "title": "Aqueous Accumulator",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:device_water_gen",
+      "x": 4.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "83F367CB3291E7E7"
+      ],
+      "tasks": [
+        {
+          "id": "EB785B86C8703538",
+          "type": "item",
+          "item": "thermal:device_water_gen",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "27238673FB5EB749",
+      "title": "Batch Composter",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:device_composter",
+      "x": 6.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "F380074B1C127087"
+      ],
+      "tasks": [
+        {
+          "id": "1137CD8DF3DC4E85",
+          "type": "item",
+          "item": "thermal:device_composter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3473C45A4B688D4F",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "BDD0E839E785F6D8",
+      "title": "Phyto-Soil Infuser",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:device_soil_infuser",
+      "x": 8.0,
+      "y": 27.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "27238673FB5EB749"
+      ],
+      "tasks": [
+        {
+          "id": "19F2D337BC568440",
+          "type": "item",
+          "item": "thermal:device_soil_infuser",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4ADA2A17120D2ECD",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "FC1369C68BCD4E77",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "AC4EBD519F92BD93",
+      "title": "Centrifugal Separator",
+      "subtitle": "Useful by-products",
+      "description": [
+        "Recover value from the workshop's side streams. Reserve disposal for genuine excess after useful products have been extracted."
+      ],
+      "icon": "thermal:machine_centrifuge",
+      "x": 0.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "B7698683A125F820"
+      ],
+      "tasks": [
+        {
+          "id": "35330E8C5B186EB8",
+          "type": "item",
+          "item": "thermal:machine_centrifuge",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F5213AEA9004829",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "B548255D44E03CB5",
+      "title": "Alchemical Imbuer",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:machine_brewer",
+      "x": 2.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "AC4EBD519F92BD93"
+      ],
+      "tasks": [
+        {
+          "id": "5D3DA70416E7F70A",
+          "type": "item",
+          "item": "thermal:machine_brewer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "A37EDBAE465EE7C4",
+      "title": "Aquatic Entangler",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:device_fisher",
+      "x": 4.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "B548255D44E03CB5"
+      ],
+      "tasks": [
+        {
+          "id": "5D2DAAC89FB4D675",
+          "type": "item",
+          "item": "thermal:device_fisher",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5BCE1C6FB8E1A74B",
+      "title": "Vacuumulator",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:device_collector",
+      "x": 6.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "A37EDBAE465EE7C4"
+      ],
+      "tasks": [
+        {
+          "id": "D5D46B0B08BCAB6B",
+          "type": "item",
+          "item": "thermal:device_collector",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "D3B326BE9A37FF01",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "8C74EF62489D9F9A",
+      "title": "Insightful Condenser",
+      "subtitle": "",
+      "description": [],
+      "icon": "thermal:device_xp_condenser",
+      "x": 8.0,
+      "y": 30.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "5BCE1C6FB8E1A74B"
+      ],
+      "tasks": [
+        {
+          "id": "41C6593A888AD34F",
+          "type": "item",
+          "item": "thermal:device_xp_condenser",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "9F0D96AA58DF4D8D",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "F58549E51CB5B6ED",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

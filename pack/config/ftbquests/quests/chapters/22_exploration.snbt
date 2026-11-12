@@ -1485,7 +1485,7 @@
       "title": "Loot for everyone",
       "subtitle": "",
       "description": [
-        "Open a marked loot container. With another player, confirm that each player receives their own contents. This is a manual objective; mark it after trying the feature."
+        "The marked chests hold a separate share for each adventurer. Gather your spoils and leave the container for those who follow."
       ],
       "icon": "minecraft:writable_book",
       "x": 2.86,

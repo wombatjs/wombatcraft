@@ -1,0 +1,126 @@
+{
+  "id": "0A35B6F2FC745F1A",
+  "group": "0DCB27D2C77209FB",
+  "title": "Rail Network",
+  "order_index": 13,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0419A605070044C7",
+      "title": "Oak Train Track",
+      "subtitle": "",
+      "description": [
+        "Expand rail networks with specialized tracks, signals and railway equipment.",
+        "Obtain Oak Train Track and keep it in your inventory for detection."
+      ],
+      "icon": "railways:track_oak",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "09FC0E7F2518B73D"
+      ],
+      "tasks": [
+        {
+          "id": "00160728B4CCBAB8",
+          "type": "item",
+          "item": "railways:track_oak",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "021288B5D2AA3831",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "09568C4F22A43B8C",
+      "title": "Semaphore",
+      "subtitle": "",
+      "description": [
+        "Expand rail networks with specialized tracks, signals and railway equipment.",
+        "Obtain Semaphore and keep it in your inventory for detection."
+      ],
+      "icon": "railways:semaphore",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0419A605070044C7"
+      ],
+      "tasks": [
+        {
+          "id": "0D9D61CF4CA89DA5",
+          "type": "item",
+          "item": "railways:semaphore",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07F99B3F77AD8898",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0926614FC72A60D3",
+      "title": "Blue Conductor's Cap",
+      "subtitle": "",
+      "description": [
+        "Expand rail networks with specialized tracks, signals and railway equipment.",
+        "Obtain Blue Conductor's Cap and keep it in your inventory for detection."
+      ],
+      "icon": "railways:blue_conductor_cap",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "09568C4F22A43B8C"
+      ],
+      "tasks": [
+        {
+          "id": "08F2AD5F31B9AFEE",
+          "type": "item",
+          "item": "railways:blue_conductor_cap",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E3063468A1DB8C9",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "09FC0E7F2518B73D",
+      "title": "Create: Steam 'n' Rails",
+      "subtitle": "Optional branch",
+      "description": [
+        "Expand rail networks with specialized tracks, signals and railway equipment.",
+        "Use JEI to inspect the recipes. These milestones detect the item; placing or operating it is the next practical step."
+      ],
+      "icon": "railways:track_oak",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "049285E797D935F6",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

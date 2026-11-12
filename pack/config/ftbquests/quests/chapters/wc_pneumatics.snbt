@@ -1,0 +1,2079 @@
+{
+  "id": "29741812F5CC5D48",
+  "title": "Pneumatics",
+  "group": "0DCB27D2C77209FB",
+  "order_index": 21,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "2A992B8A8AD0E1D7",
+      "title": "Compressed Iron Ingot",
+      "subtitle": "Under pressure",
+      "description": [
+        "Pressure is a resource and a hazard. Fit a safety valve and watch the network before leaving a compressor running."
+      ],
+      "icon": "pneumaticcraft:ingot_iron_compressed",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "9FBD0C0463F31BD5",
+          "type": "item",
+          "item": "pneumaticcraft:ingot_iron_compressed",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "EFC13AC91D9A9027",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "7D443DC9CCA91847",
+      "title": "Pneumatic Wrench",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:pneumatic_wrench",
+      "x": 2.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "2A992B8A8AD0E1D7"
+      ],
+      "tasks": [
+        {
+          "id": "D76DA97C189DA27C",
+          "type": "item",
+          "item": "pneumaticcraft:pneumatic_wrench",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "08BF6E137B4E0281",
+      "title": "Air Compressor",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:air_compressor",
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "7D443DC9CCA91847"
+      ],
+      "tasks": [
+        {
+          "id": "3BE8A735FD1B877C",
+          "type": "item",
+          "item": "pneumaticcraft:air_compressor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6120EFB6DF6DB600",
+      "title": "Pressure Tube",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:pressure_tube",
+      "x": 6.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "08BF6E137B4E0281"
+      ],
+      "tasks": [
+        {
+          "id": "DDAE3891C10DA224",
+          "type": "item",
+          "item": "pneumaticcraft:pressure_tube",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4180F357E0ADC3F1",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "FE94C49213B8685B",
+      "title": "Manometer",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:manometer",
+      "x": 8.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "6120EFB6DF6DB600"
+      ],
+      "tasks": [
+        {
+          "id": "56C689060E0D1C26",
+          "type": "item",
+          "item": "pneumaticcraft:manometer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6D32B17CBFA5CB63",
+      "title": "Safety Tube Module",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:safety_tube_module",
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "FE94C49213B8685B"
+      ],
+      "tasks": [
+        {
+          "id": "66905EC824180E98",
+          "type": "item",
+          "item": "pneumaticcraft:safety_tube_module",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3DAB83FD6D70694E",
+          "type": "xp",
+          "xp": 30
+        },
+        {
+          "id": "90DC6458160BC6C8",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "03061C71960B990E",
+      "title": "Pressure Chamber Wall",
+      "subtitle": "The pressure chamber",
+      "description": [
+        "Build a sealed chamber with input and output interfaces. Match its working pressure to the recipe."
+      ],
+      "icon": "pneumaticcraft:pressure_chamber_wall",
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "6120EFB6DF6DB600"
+      ],
+      "tasks": [
+        {
+          "id": "7F8F018367C171FA",
+          "type": "item",
+          "item": "pneumaticcraft:pressure_chamber_wall",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "861E90039FC19519",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "1F2F69012F17E2ED",
+      "title": "Pressure Chamber Valve",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:pressure_chamber_valve",
+      "x": 2.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "03061C71960B990E"
+      ],
+      "tasks": [
+        {
+          "id": "EFC503A9D37BCE11",
+          "type": "item",
+          "item": "pneumaticcraft:pressure_chamber_valve",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F847E47FF2EF11CE",
+      "title": "Pressure Chamber Glass",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:pressure_chamber_glass",
+      "x": 4.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "1F2F69012F17E2ED"
+      ],
+      "tasks": [
+        {
+          "id": "A39866C03F083031",
+          "type": "item",
+          "item": "pneumaticcraft:pressure_chamber_glass",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "16639AB87C01414B",
+      "title": "Pressure Chamber Interface",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:pressure_chamber_interface",
+      "x": 6.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "F847E47FF2EF11CE"
+      ],
+      "tasks": [
+        {
+          "id": "7512CCCE70A2B584",
+          "type": "item",
+          "item": "pneumaticcraft:pressure_chamber_interface",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D001528791EB386",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "D6A36658EA13C780",
+      "title": "Compressed Iron Gear",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:compressed_iron_gear",
+      "x": 8.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "16639AB87C01414B"
+      ],
+      "tasks": [
+        {
+          "id": "9DB83107B57C9EF8",
+          "type": "item",
+          "item": "pneumaticcraft:compressed_iron_gear",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14B0F79E6A7EF5E7",
+          "type": "xp",
+          "xp": 35
+        },
+        {
+          "id": "6252759D483A378B",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "25206D3E48A85A40",
+      "title": "Pressure Gauge Tube Module",
+      "subtitle": "A controlled network",
+      "description": [
+        "Separate low-pressure branches from high-pressure supply. Regulators and gauges make faults visible before they become expensive."
+      ],
+      "icon": "pneumaticcraft:pressure_gauge_module",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "FE94C49213B8685B"
+      ],
+      "tasks": [
+        {
+          "id": "C0DFBB2A3448941F",
+          "type": "item",
+          "item": "pneumaticcraft:pressure_gauge_module",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "EBDB21197BBDF563",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "985DE81941B95E4E",
+      "title": "Regulator Tube Module",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:regulator_tube_module",
+      "x": 2.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "25206D3E48A85A40"
+      ],
+      "tasks": [
+        {
+          "id": "22D605FD678C5229",
+          "type": "item",
+          "item": "pneumaticcraft:regulator_tube_module",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "92BC83606366EE2A",
+      "title": "Flow Detector Tube Module",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:flow_detector_module",
+      "x": 4.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "985DE81941B95E4E"
+      ],
+      "tasks": [
+        {
+          "id": "91CB4231D1E22E74",
+          "type": "item",
+          "item": "pneumaticcraft:flow_detector_module",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "34B656506747BF33",
+      "title": "Redstone Module",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:redstone_module",
+      "x": 6.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "92BC83606366EE2A"
+      ],
+      "tasks": [
+        {
+          "id": "6028C478C3354A1D",
+          "type": "item",
+          "item": "pneumaticcraft:redstone_module",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "535DAC63ABF78087",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "98A6F1130C0F6427",
+      "title": "Tube Junction",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:tube_junction",
+      "x": 8.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "34B656506747BF33"
+      ],
+      "tasks": [
+        {
+          "id": "3DECDE63634DA831",
+          "type": "item",
+          "item": "pneumaticcraft:tube_junction",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "09525126A1587EA7",
+      "title": "Charging Module",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:charging_module",
+      "x": 10.0,
+      "y": 6.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "98A6F1130C0F6427"
+      ],
+      "tasks": [
+        {
+          "id": "4C3EA3F95AB7E20F",
+          "type": "item",
+          "item": "pneumaticcraft:charging_module",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "B8DB2A8B0306935A",
+          "type": "xp",
+          "xp": 40
+        },
+        {
+          "id": "7ED335A0909D1775",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "04CD79B5CEDCA607",
+      "title": "Refinery Controller",
+      "subtitle": "Refinery work",
+      "description": [
+        "Supply heat and separate the refinery outputs. Keep enough tank capacity for every product, including the less useful ones."
+      ],
+      "icon": "pneumaticcraft:refinery",
+      "x": 0.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "16639AB87C01414B"
+      ],
+      "tasks": [
+        {
+          "id": "3E7502CDAB4C636D",
+          "type": "item",
+          "item": "pneumaticcraft:refinery",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "FF60AC2F99CBDB86",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "843E5E1B976061CD",
+      "title": "Refinery Output",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:refinery_output",
+      "x": 2.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "04CD79B5CEDCA607"
+      ],
+      "tasks": [
+        {
+          "id": "F7966E6F7C505971",
+          "type": "item",
+          "item": "pneumaticcraft:refinery_output",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "412C74E0DF2D32A4",
+      "title": "Thermopneumatic Processing Plant",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:thermopneumatic_processing_plant",
+      "x": 4.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "843E5E1B976061CD"
+      ],
+      "tasks": [
+        {
+          "id": "034F4F7F2140C9C4",
+          "type": "item",
+          "item": "pneumaticcraft:thermopneumatic_processing_plant",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3C92FE3C97438E5C",
+      "title": "Plastic Sheet",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:plastic",
+      "x": 6.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "412C74E0DF2D32A4"
+      ],
+      "tasks": [
+        {
+          "id": "B14E7F1640BDF4C6",
+          "type": "item",
+          "item": "pneumaticcraft:plastic",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2B2F72E1F39940E4",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "B8B74F00966BC07F",
+      "title": "Fluid Mixer",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:fluid_mixer",
+      "x": 8.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "3C92FE3C97438E5C"
+      ],
+      "tasks": [
+        {
+          "id": "BAE22208CDE6CC73",
+          "type": "item",
+          "item": "pneumaticcraft:fluid_mixer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2B3E409958942282",
+      "title": "Lubricant Bucket",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:lubricant_bucket",
+      "x": 10.0,
+      "y": 9.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "B8B74F00966BC07F"
+      ],
+      "tasks": [
+        {
+          "id": "94BCFFA6CAD2CBD2",
+          "type": "item",
+          "item": "pneumaticcraft:lubricant_bucket",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D388FB01E8572A1",
+          "type": "xp",
+          "xp": 45
+        },
+        {
+          "id": "3E93CC796151AAA7",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "068DDA3B8B4D7B7C",
+      "title": "Empty PCB",
+      "subtitle": "Printed circuits",
+      "description": [
+        "Prepare and etch the board before assembly. Give each stage a clear input and output route."
+      ],
+      "icon": "pneumaticcraft:empty_pcb",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "3C92FE3C97438E5C"
+      ],
+      "tasks": [
+        {
+          "id": "42BC495D5F7BBF20",
+          "type": "item",
+          "item": "pneumaticcraft:empty_pcb",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "A991F9583787CBAE",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "DA440E557AAA7C04",
+      "title": "UV Light Box",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:uv_light_box",
+      "x": 2.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "068DDA3B8B4D7B7C"
+      ],
+      "tasks": [
+        {
+          "id": "FA572A933F49ED3F",
+          "type": "item",
+          "item": "pneumaticcraft:uv_light_box",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5A89CC98013B6ADE",
+      "title": "Etching Acid Bucket",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:etching_acid_bucket",
+      "x": 4.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "DA440E557AAA7C04"
+      ],
+      "tasks": [
+        {
+          "id": "1E29492EEEBAC853",
+          "type": "item",
+          "item": "pneumaticcraft:etching_acid_bucket",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "684D5A0BDED79859",
+      "title": "Etching Tank",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:etching_tank",
+      "x": 6.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "5A89CC98013B6ADE"
+      ],
+      "tasks": [
+        {
+          "id": "64736107F0316A0B",
+          "type": "item",
+          "item": "pneumaticcraft:etching_tank",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "568BAC5BDBF9FC98",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "2A36715388C01FF7",
+      "title": "Unassembled PCB",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:unassembled_pcb",
+      "x": 8.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "684D5A0BDED79859"
+      ],
+      "tasks": [
+        {
+          "id": "7EC11AFEB919434C",
+          "type": "item",
+          "item": "pneumaticcraft:unassembled_pcb",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "DEA4D489DC6219A3",
+      "title": "Transistor",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:transistor",
+      "x": 10.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "2A36715388C01FF7"
+      ],
+      "tasks": [
+        {
+          "id": "64B34E3D9CE9F6ED",
+          "type": "item",
+          "item": "pneumaticcraft:transistor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "8ADE76E1F83431B9",
+      "title": "Capacitor",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:capacitor",
+      "x": 12.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "DEA4D489DC6219A3"
+      ],
+      "tasks": [
+        {
+          "id": "8F78AB27B280CC78",
+          "type": "item",
+          "item": "pneumaticcraft:capacitor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "BE1A914314D69204",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "A5C0D91D4AA5670A",
+      "title": "Finished PCB",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:printed_circuit_board",
+      "x": 14.0,
+      "y": 12.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "8ADE76E1F83431B9"
+      ],
+      "tasks": [
+        {
+          "id": "31D522F4476CF671",
+          "type": "item",
+          "item": "pneumaticcraft:printed_circuit_board",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "58FA145B5B198B2C",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "81755DDEB2636E15",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "59EEF1C9CCF87D56",
+      "title": "Assembly Controller",
+      "subtitle": "Assembly floor",
+      "description": [
+        "Arrange the assembly line around a controller and load the correct program. Test one workpiece before sending a batch."
+      ],
+      "icon": "pneumaticcraft:assembly_controller",
+      "x": 0.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "A5C0D91D4AA5670A"
+      ],
+      "tasks": [
+        {
+          "id": "2713DC2C8877499C",
+          "type": "item",
+          "item": "pneumaticcraft:assembly_controller",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "D6665128B4D85F78",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "D0F70A902E16673D",
+      "title": "Assembly Platform",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:assembly_platform",
+      "x": 2.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "59EEF1C9CCF87D56"
+      ],
+      "tasks": [
+        {
+          "id": "5513F03E09B920FF",
+          "type": "item",
+          "item": "pneumaticcraft:assembly_platform",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "558E7D61973E2041",
+      "title": "Assembly IO Unit (import)",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:assembly_io_unit_import",
+      "x": 4.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "D0F70A902E16673D"
+      ],
+      "tasks": [
+        {
+          "id": "1977F7FFC4D05A60",
+          "type": "item",
+          "item": "pneumaticcraft:assembly_io_unit_import",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F96E1BFC660B2371",
+      "title": "Assembly IO Unit (export)",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:assembly_io_unit_export",
+      "x": 6.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "558E7D61973E2041"
+      ],
+      "tasks": [
+        {
+          "id": "0838B8B5EC6672EF",
+          "type": "item",
+          "item": "pneumaticcraft:assembly_io_unit_export",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "CF1FD98E2AD8A376",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "0395C7933874C83B",
+      "title": "Assembly Drill",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:assembly_drill",
+      "x": 8.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "F96E1BFC660B2371"
+      ],
+      "tasks": [
+        {
+          "id": "FA43D3E69EA6B0AC",
+          "type": "item",
+          "item": "pneumaticcraft:assembly_drill",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "B294C51CFF5AB71B",
+      "title": "Assembly Laser",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:assembly_laser",
+      "x": 10.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "0395C7933874C83B"
+      ],
+      "tasks": [
+        {
+          "id": "6A2C8A8D7AD64AF0",
+          "type": "item",
+          "item": "pneumaticcraft:assembly_laser",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "EA27181BFF8ECE0B",
+      "title": "Assembly Program: Drill & Laser",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:assembly_program_drill_laser",
+      "x": 12.0,
+      "y": 15.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "B294C51CFF5AB71B"
+      ],
+      "tasks": [
+        {
+          "id": "1D44FDC94B5F21DF",
+          "type": "item",
+          "item": "pneumaticcraft:assembly_program_drill_laser",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "E32BAAFA8FACAD43",
+          "type": "xp",
+          "xp": 35
+        },
+        {
+          "id": "8D5FF4E7485A3EE8",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "4B515AD8B0F5C04B",
+      "title": "Programmer",
+      "subtitle": "A programmed helper",
+      "description": [
+        "Begin with a short program in a small area. Include a charging route and a safe response when its task cannot finish."
+      ],
+      "icon": "pneumaticcraft:programmer",
+      "x": 0.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "A5C0D91D4AA5670A"
+      ],
+      "tasks": [
+        {
+          "id": "C1A50DFB6C783BE1",
+          "type": "item",
+          "item": "pneumaticcraft:programmer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "52D3E0D4B6BD79C1",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "9CC18FD730D5211B",
+      "title": "Programming Puzzle Piece",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:programming_puzzle",
+      "x": 2.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "4B515AD8B0F5C04B"
+      ],
+      "tasks": [
+        {
+          "id": "061E68947F833B99",
+          "type": "item",
+          "item": "pneumaticcraft:programming_puzzle",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "E2E4954943F51457",
+      "title": "Drone",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:drone",
+      "x": 4.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "9CC18FD730D5211B"
+      ],
+      "tasks": [
+        {
+          "id": "32143647B8CC483D",
+          "type": "item",
+          "item": "pneumaticcraft:drone",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7E17AAF03D9F8B3D",
+      "title": "GPS Tool",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:gps_tool",
+      "x": 6.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "E2E4954943F51457"
+      ],
+      "tasks": [
+        {
+          "id": "A04315C5D730F628",
+          "type": "item",
+          "item": "pneumaticcraft:gps_tool",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "06E6F2DD4EA7BF8C",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "8737920CD53D4191",
+      "title": "GPS Area Tool",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:gps_area_tool",
+      "x": 8.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "7E17AAF03D9F8B3D"
+      ],
+      "tasks": [
+        {
+          "id": "220CFE56368F98BC",
+          "type": "item",
+          "item": "pneumaticcraft:gps_area_tool",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "941B57AE3A130040",
+      "title": "Logistics Drone",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:logistics_drone",
+      "x": 10.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "8737920CD53D4191"
+      ],
+      "tasks": [
+        {
+          "id": "E320EE816B765669",
+          "type": "item",
+          "item": "pneumaticcraft:logistics_drone",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "DF7D35F5DCDC9646",
+      "title": "Harvesting Drone",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:harvesting_drone",
+      "x": 12.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "941B57AE3A130040"
+      ],
+      "tasks": [
+        {
+          "id": "801A807A61A518D9",
+          "type": "item",
+          "item": "pneumaticcraft:harvesting_drone",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "F798CAB5BC78B736",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "B80C4536F83E94B8",
+      "title": "Guard Drone",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:guard_drone",
+      "x": 14.0,
+      "y": 18.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "DF7D35F5DCDC9646"
+      ],
+      "tasks": [
+        {
+          "id": "3D339A24E6A6C6B2",
+          "type": "item",
+          "item": "pneumaticcraft:guard_drone",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BC66A14005D79F7",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "9427E337C59C5F11",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1C53B406CD16C80B",
+      "title": "Logistics Core",
+      "subtitle": "Pneumatic logistics",
+      "description": [
+        "Assign clear supply and request roles. A logistics network should have somewhere for excess items to go."
+      ],
+      "icon": "pneumaticcraft:logistics_core",
+      "x": 0.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "941B57AE3A130040"
+      ],
+      "tasks": [
+        {
+          "id": "B7A3B2E319658A1B",
+          "type": "item",
+          "item": "pneumaticcraft:logistics_core",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3465B7F59EDD5D2D",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "A11D1C4105845219",
+      "title": "Logistics Configurator",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:logistics_configurator",
+      "x": 2.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "1C53B406CD16C80B"
+      ],
+      "tasks": [
+        {
+          "id": "32909B4925610551",
+          "type": "item",
+          "item": "pneumaticcraft:logistics_configurator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "51EC3B638DC2FE83",
+      "title": "Logistic Passive Provider Frame",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:logistics_frame_passive_provider",
+      "x": 4.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "A11D1C4105845219"
+      ],
+      "tasks": [
+        {
+          "id": "A6A701310D8BEF62",
+          "type": "item",
+          "item": "pneumaticcraft:logistics_frame_passive_provider",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "CF750DF30635AFC7",
+      "title": "Logistic Requester Frame",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:logistics_frame_requester",
+      "x": 6.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "51EC3B638DC2FE83"
+      ],
+      "tasks": [
+        {
+          "id": "7DEC9722AAA6D768",
+          "type": "item",
+          "item": "pneumaticcraft:logistics_frame_requester",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "744DCD51622F808B",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "AB4502EA8996BBAF",
+      "title": "Logistic Storage Frame",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:logistics_frame_storage",
+      "x": 8.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "CF750DF30635AFC7"
+      ],
+      "tasks": [
+        {
+          "id": "9DA315CFEFA285EF",
+          "type": "item",
+          "item": "pneumaticcraft:logistics_frame_storage",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "67715D436625C7B5",
+      "title": "Logistics Module",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:logistics_module",
+      "x": 10.0,
+      "y": 21.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "AB4502EA8996BBAF"
+      ],
+      "tasks": [
+        {
+          "id": "EDA6802CA3C61619",
+          "type": "item",
+          "item": "pneumaticcraft:logistics_module",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "77915689028E4EAC",
+          "type": "xp",
+          "xp": 65
+        },
+        {
+          "id": "28BDAA8EB11FF8EF",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "1C368AC825370A56",
+      "title": "Charging Station",
+      "subtitle": "Armour station",
+      "description": [
+        "Charge equipment before departure. Fit only the upgrades you need and check the remaining air supply during long trips."
+      ],
+      "icon": "pneumaticcraft:charging_station",
+      "x": 0.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "A5C0D91D4AA5670A"
+      ],
+      "tasks": [
+        {
+          "id": "828BAF9F129AA330",
+          "type": "item",
+          "item": "pneumaticcraft:charging_station",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "57EDAE113CD32BDD",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "0123381DD1E15CDC",
+      "title": "Pneumatic Helmet",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:pneumatic_helmet",
+      "x": 2.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "1C368AC825370A56"
+      ],
+      "tasks": [
+        {
+          "id": "753E7BB9894706EB",
+          "type": "item",
+          "item": "pneumaticcraft:pneumatic_helmet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "8BDC924699A33416",
+      "title": "Pneumatic Chestplate",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:pneumatic_chestplate",
+      "x": 4.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "0123381DD1E15CDC"
+      ],
+      "tasks": [
+        {
+          "id": "8856D3CF86935598",
+          "type": "item",
+          "item": "pneumaticcraft:pneumatic_chestplate",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "A2E8A5ACF39D7F13",
+      "title": "Pneumatic Leggings",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:pneumatic_leggings",
+      "x": 6.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "8BDC924699A33416"
+      ],
+      "tasks": [
+        {
+          "id": "F1A07310271719D6",
+          "type": "item",
+          "item": "pneumaticcraft:pneumatic_leggings",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E3AEB2B0CB1CB23",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "2441A2116A31E0B2",
+      "title": "Pneumatic Boots",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:pneumatic_boots",
+      "x": 8.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "A2E8A5ACF39D7F13"
+      ],
+      "tasks": [
+        {
+          "id": "EE137EE8359C9F4A",
+          "type": "item",
+          "item": "pneumaticcraft:pneumatic_boots",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "E864E6A7E34AA163",
+      "title": "Armor Upgrade",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:armor_upgrade",
+      "x": 10.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "2441A2116A31E0B2"
+      ],
+      "tasks": [
+        {
+          "id": "56C16C024675CC0D",
+          "type": "item",
+          "item": "pneumaticcraft:armor_upgrade",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7848524CD49E8D9B",
+      "title": "Night Vision Upgrade",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:night_vision_upgrade",
+      "x": 12.0,
+      "y": 24.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "E864E6A7E34AA163"
+      ],
+      "tasks": [
+        {
+          "id": "36BB51270223A365",
+          "type": "item",
+          "item": "pneumaticcraft:night_vision_upgrade",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "F36BB4AF9B4E03C2",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "0DD7118B5BA058AA",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "2F63E30BC207AB23",
+      "title": "Advanced Air Compressor",
+      "subtitle": "Higher pressure",
+      "description": [
+        "Higher-tier supply requires suitable tubing and consumers. Upgrade the full route before increasing pressure."
+      ],
+      "icon": "pneumaticcraft:advanced_air_compressor",
+      "x": 0.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "59EEF1C9CCF87D56"
+      ],
+      "tasks": [
+        {
+          "id": "ECF24F90F588F8C4",
+          "type": "item",
+          "item": "pneumaticcraft:advanced_air_compressor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "989D9E940C1B60EB",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "703B103C03A3EEA4",
+      "title": "Advanced Pressure Tube",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:advanced_pressure_tube",
+      "x": 2.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "2F63E30BC207AB23"
+      ],
+      "tasks": [
+        {
+          "id": "B499D0B44B50F8FF",
+          "type": "item",
+          "item": "pneumaticcraft:advanced_pressure_tube",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "44F41FDB4D632E00",
+      "title": "Advanced Liquid Compressor",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:advanced_liquid_compressor",
+      "x": 4.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "703B103C03A3EEA4"
+      ],
+      "tasks": [
+        {
+          "id": "911B2F6FD3F8DCB7",
+          "type": "item",
+          "item": "pneumaticcraft:advanced_liquid_compressor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7B8D0D3730BC82F7",
+      "title": "Flux Compressor",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:flux_compressor",
+      "x": 6.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "44F41FDB4D632E00"
+      ],
+      "tasks": [
+        {
+          "id": "497A3A6F942DDD5B",
+          "type": "item",
+          "item": "pneumaticcraft:flux_compressor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03E7458A26C622E3",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "BDEBA51F3A29AC15",
+      "title": "Volume Upgrade",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:volume_upgrade",
+      "x": 8.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "7B8D0D3730BC82F7"
+      ],
+      "tasks": [
+        {
+          "id": "04FE288B0537A73D",
+          "type": "item",
+          "item": "pneumaticcraft:volume_upgrade",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5DC67D3C1563187B",
+      "title": "Speed Upgrade",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:speed_upgrade",
+      "x": 10.0,
+      "y": 27.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "BDEBA51F3A29AC15"
+      ],
+      "tasks": [
+        {
+          "id": "FFD6DAD0979B66F7",
+          "type": "item",
+          "item": "pneumaticcraft:speed_upgrade",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "52E6A2B9D763E647",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "E812D8C291DFCCBD",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "CB4841FB92B84250",
+      "title": "Heat Sink",
+      "subtitle": "Heat engineering",
+      "description": [
+        "Keep hot and cold sides separated. Inspect temperature under load rather than assuming a heat source is sufficient."
+      ],
+      "icon": "pneumaticcraft:heat_sink",
+      "x": 0.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "04CD79B5CEDCA607"
+      ],
+      "tasks": [
+        {
+          "id": "8A1D7450F11FA861",
+          "type": "item",
+          "item": "pneumaticcraft:heat_sink",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "378D0E0E5F2C2E34",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "B85B6ECB794B313F",
+      "title": "Heat Pipe",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:heat_pipe",
+      "x": 2.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "CB4841FB92B84250"
+      ],
+      "tasks": [
+        {
+          "id": "16DA760077BF3B43",
+          "type": "item",
+          "item": "pneumaticcraft:heat_pipe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7128B5EBE7068404",
+      "title": "Vortex Tube",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:vortex_tube",
+      "x": 4.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "B85B6ECB794B313F"
+      ],
+      "tasks": [
+        {
+          "id": "603B3452B02B731C",
+          "type": "item",
+          "item": "pneumaticcraft:vortex_tube",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "9F4AFDA3C53672E4",
+      "title": "Heat Frame",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:heat_frame",
+      "x": 6.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "7128B5EBE7068404"
+      ],
+      "tasks": [
+        {
+          "id": "8BDBEF8EF9652C07",
+          "type": "item",
+          "item": "pneumaticcraft:heat_frame",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "EAE50755F1B3DC1E",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "4F463E2CF6F1C605",
+      "title": "Thermostat Module",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:thermostat_module",
+      "x": 8.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "9F4AFDA3C53672E4"
+      ],
+      "tasks": [
+        {
+          "id": "727BEDDB17B14E85",
+          "type": "item",
+          "item": "pneumaticcraft:thermostat_module",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FF8DF57DF8F31265",
+      "title": "Thermal Compressor",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:thermal_compressor",
+      "x": 10.0,
+      "y": 30.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "4F463E2CF6F1C605"
+      ],
+      "tasks": [
+        {
+          "id": "608AAED953030493",
+          "type": "item",
+          "item": "pneumaticcraft:thermal_compressor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "73BC1325074AE883",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "C2589457DF2AED0E",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "3D0C61AB89713C83",
+      "title": "Drone Interface",
+      "subtitle": "Remote works",
+      "description": [
+        "Connect automation only after its local version is reliable. Test requests and remote access with inexpensive materials first."
+      ],
+      "icon": "pneumaticcraft:drone_interface",
+      "x": 0.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "E2E4954943F51457"
+      ],
+      "tasks": [
+        {
+          "id": "5FF31ACACC9F217A",
+          "type": "item",
+          "item": "pneumaticcraft:drone_interface",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "C02062C63CB362BF",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "2E11C629804D1008",
+      "title": "Programmable Controller",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:programmable_controller",
+      "x": 2.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "3D0C61AB89713C83"
+      ],
+      "tasks": [
+        {
+          "id": "91CBDFDB1C5F7652",
+          "type": "item",
+          "item": "pneumaticcraft:programmable_controller",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FBBB42578A6E419E",
+      "title": "Aerial Interface",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:aerial_interface",
+      "x": 4.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "2E11C629804D1008"
+      ],
+      "tasks": [
+        {
+          "id": "1B5516F5A277901A",
+          "type": "item",
+          "item": "pneumaticcraft:aerial_interface",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "351412D78F83E259",
+      "title": "Amadron Tablet",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:amadron_tablet",
+      "x": 6.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "FBBB42578A6E419E"
+      ],
+      "tasks": [
+        {
+          "id": "18E5EA7953ECBFFB",
+          "type": "item",
+          "item": "pneumaticcraft:amadron_tablet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "45502404AAEDA9ED",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5F67EF5829599B32",
+      "title": "Security Station",
+      "subtitle": "",
+      "description": [],
+      "icon": "pneumaticcraft:security_station",
+      "x": 8.0,
+      "y": 33.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "351412D78F83E259"
+      ],
+      "tasks": [
+        {
+          "id": "F47EC315255A0398",
+          "type": "item",
+          "item": "pneumaticcraft:security_station",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "EC9D0066761F3D4F",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "5DD2851BB8000F42",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
+        }
+      ]
+    }
+  ]
+}

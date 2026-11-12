@@ -1,0 +1,1155 @@
+{
+  "id": "FE0AC80B94E5B045",
+  "title": "Settlement",
+  "group": "0E249DD4723B0E70",
+  "order_index": 24,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "518C1324D22872F6",
+      "title": "Supply Camp",
+      "subtitle": "A place to belong",
+      "description": [
+        "Choose land with room to expand. Preview the town hall and builder's hut carefully; the builder needs materials and tools to begin."
+      ],
+      "icon": "minecolonies:supplycampdeployer",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "BD1A79003EC7443C",
+          "type": "item",
+          "item": "minecolonies:supplycampdeployer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "8C0298F46D5CB53D",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "70A5ADAFDB7915D1",
+      "title": "Town Hall",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhuttownhall",
+      "x": 2.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "518C1324D22872F6"
+      ],
+      "tasks": [
+        {
+          "id": "0896114239BC8A2C",
+          "type": "item",
+          "item": "minecolonies:blockhuttownhall",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5FE6C4B9126DE991",
+      "title": "Builder's Hut",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutbuilder",
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "70A5ADAFDB7915D1"
+      ],
+      "tasks": [
+        {
+          "id": "E701079DF936BFD1",
+          "type": "item",
+          "item": "minecolonies:blockhutbuilder",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "150039707E6189AB",
+      "title": "Builder's Goggles",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:build_goggles",
+      "x": 6.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "5FE6C4B9126DE991"
+      ],
+      "tasks": [
+        {
+          "id": "30DD594F2E40F4B1",
+          "type": "item",
+          "item": "minecolonies:build_goggles",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2BDF21B9B0B714D7",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "A31432BDF00EE7DD",
+      "title": "Resource Scroll",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:resourcescroll",
+      "x": 8.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "150039707E6189AB"
+      ],
+      "tasks": [
+        {
+          "id": "689B2A022769CDD0",
+          "type": "item",
+          "item": "minecolonies:resourcescroll",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "B1BB53F9027E2B51",
+      "title": "Tavern",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhuttavern",
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "A31432BDF00EE7DD"
+      ],
+      "tasks": [
+        {
+          "id": "490CFA7BBA515289",
+          "type": "item",
+          "item": "minecolonies:blockhuttavern",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "CB95E1879782BD17",
+      "title": "Residence",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutcitizen",
+      "x": 12.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "B1BB53F9027E2B51"
+      ],
+      "tasks": [
+        {
+          "id": "1B1ABA39CA4C614B",
+          "type": "item",
+          "item": "minecolonies:blockhutcitizen",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6685ADAC055D8EAA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "C9F8776D900A3998",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "D673FB720BD4355E",
+      "title": "Forester's Hut",
+      "subtitle": "Daily necessities",
+      "description": [
+        "A colony needs food, tools and raw materials before monuments. Keep workers supplied and watch their requests."
+      ],
+      "icon": "minecolonies:blockhutlumberjack",
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "5FE6C4B9126DE991"
+      ],
+      "tasks": [
+        {
+          "id": "6397FE8600A4BB70",
+          "type": "item",
+          "item": "minecolonies:blockhutlumberjack",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "32E52381B57DF9C9",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "8C60F534B9D71A2E",
+      "title": "Mine",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutminer",
+      "x": 2.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "D673FB720BD4355E"
+      ],
+      "tasks": [
+        {
+          "id": "46D1BBAEBD779684",
+          "type": "item",
+          "item": "minecolonies:blockhutminer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F259915F3CC6692E",
+      "title": "Fisher's Hut",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutfisherman",
+      "x": 4.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "8C60F534B9D71A2E"
+      ],
+      "tasks": [
+        {
+          "id": "8D112A2FE1E73A9C",
+          "type": "item",
+          "item": "minecolonies:blockhutfisherman",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "97D75C76CA68BB63",
+      "title": "Farm",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutfarmer",
+      "x": 6.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "F259915F3CC6692E"
+      ],
+      "tasks": [
+        {
+          "id": "6446C364E41B1AFD",
+          "type": "item",
+          "item": "minecolonies:blockhutfarmer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "CC77B366B2338F0D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "81FB9BA79B221B9B",
+      "title": "Field",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutfield",
+      "x": 8.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "97D75C76CA68BB63"
+      ],
+      "tasks": [
+        {
+          "id": "814B6DC0450CA68A",
+          "type": "item",
+          "item": "minecolonies:blockhutfield",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "89D97766243C7FD0",
+      "title": "Dining Hall",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutcook",
+      "x": 10.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "81FB9BA79B221B9B"
+      ],
+      "tasks": [
+        {
+          "id": "F0905877644D9359",
+          "type": "item",
+          "item": "minecolonies:blockhutcook",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "241E5262BEFF75E6",
+          "type": "xp",
+          "xp": 35
+        },
+        {
+          "id": "912CE0B94F60FF63",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "B66AC06CCCE8005C",
+      "title": "Warehouse",
+      "subtitle": "A working supply chain",
+      "description": [
+        "Couriers connect workers to the warehouse. Keep routes walkable and storage organised as the settlement grows."
+      ],
+      "icon": "minecolonies:blockhutwarehouse",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "B1BB53F9027E2B51"
+      ],
+      "tasks": [
+        {
+          "id": "1CA019E0E142C04C",
+          "type": "item",
+          "item": "minecolonies:blockhutwarehouse",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "67B811911318D32F",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "4A8271D86745EDE5",
+      "title": "Courier's Hut",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutdeliveryman",
+      "x": 2.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "B66AC06CCCE8005C"
+      ],
+      "tasks": [
+        {
+          "id": "F23EFA6943E8C722",
+          "type": "item",
+          "item": "minecolonies:blockhutdeliveryman",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "E8763CF654C3B71D",
+      "title": "Rack",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockminecoloniesrack",
+      "x": 4.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "4A8271D86745EDE5"
+      ],
+      "tasks": [
+        {
+          "id": "E45E91B7FE3E4799",
+          "type": "item",
+          "item": "minecolonies:blockminecoloniesrack",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "9C3462DDC5B51787",
+      "title": "Clipboard",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:clipboard",
+      "x": 6.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "E8763CF654C3B71D"
+      ],
+      "tasks": [
+        {
+          "id": "3C7F3D13965B6D32",
+          "type": "item",
+          "item": "minecolonies:clipboard",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "D998180D31D1A51B",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "99E3599280388927",
+      "title": "Postbox",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockpostbox",
+      "x": 8.0,
+      "y": 6.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "9C3462DDC5B51787"
+      ],
+      "tasks": [
+        {
+          "id": "E2863D3C36156793",
+          "type": "item",
+          "item": "minecolonies:blockpostbox",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5FF07594FCE6A82B",
+          "type": "xp",
+          "xp": 40
+        },
+        {
+          "id": "9E91E777C6F1BF9B",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "F7CD6D4010151EF8",
+      "title": "Sawmill",
+      "subtitle": "Trades and crafts",
+      "description": [
+        "Add workshops that solve recurring requests. Teach useful recipes and ensure their ingredients reach the right worker."
+      ],
+      "icon": "minecolonies:blockhutsawmill",
+      "x": 0.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "B66AC06CCCE8005C"
+      ],
+      "tasks": [
+        {
+          "id": "7164F7A6E462AF8A",
+          "type": "item",
+          "item": "minecolonies:blockhutsawmill",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "C78B4984BA6258D8",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "92EE7A572A42977D",
+      "title": "Stonemason's Hut",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutstonemason",
+      "x": 2.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "F7CD6D4010151EF8"
+      ],
+      "tasks": [
+        {
+          "id": "4A4295B10A19B71C",
+          "type": "item",
+          "item": "minecolonies:blockhutstonemason",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "BF258AA4AE4EAB85",
+      "title": "Smeltery",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutsmeltery",
+      "x": 4.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "92EE7A572A42977D"
+      ],
+      "tasks": [
+        {
+          "id": "3B59829100B05DE4",
+          "type": "item",
+          "item": "minecolonies:blockhutsmeltery",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "95C4398797AB414F",
+      "title": "Blacksmith's Hut",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutblacksmith",
+      "x": 6.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "BF258AA4AE4EAB85"
+      ],
+      "tasks": [
+        {
+          "id": "3E724C7F278B67CD",
+          "type": "item",
+          "item": "minecolonies:blockhutblacksmith",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "811D4C2FEE2F4B90",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "41D4A9F49BDB7DAA",
+      "title": "Mechanic's Hut",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutmechanic",
+      "x": 8.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "95C4398797AB414F"
+      ],
+      "tasks": [
+        {
+          "id": "C8E602DEBC07E1D4",
+          "type": "item",
+          "item": "minecolonies:blockhutmechanic",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7CEE78A3F7FDB817",
+      "title": "Glassblower's Hut",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutglassblower",
+      "x": 10.0,
+      "y": 9.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "41D4A9F49BDB7DAA"
+      ],
+      "tasks": [
+        {
+          "id": "A593073334121F08",
+          "type": "item",
+          "item": "minecolonies:blockhutglassblower",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "697961222C7A683D",
+          "type": "xp",
+          "xp": 45
+        },
+        {
+          "id": "9470493F36016963",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "511B0CE7148A6387",
+      "title": "University",
+      "subtitle": "Learning and care",
+      "description": [
+        "Research and education strengthen a mature colony. Provide care as well as production when welcoming more citizens."
+      ],
+      "icon": "minecolonies:blockhutuniversity",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "CB95E1879782BD17"
+      ],
+      "tasks": [
+        {
+          "id": "EA17162F2BB989D7",
+          "type": "item",
+          "item": "minecolonies:blockhutuniversity",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5E90D464AAAF9814",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "EFF6B50553680EC7",
+      "title": "School",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutschool",
+      "x": 2.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "511B0CE7148A6387"
+      ],
+      "tasks": [
+        {
+          "id": "BBDEF77A3E9FC839",
+          "type": "item",
+          "item": "minecolonies:blockhutschool",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4ADE08F1108B8E11",
+      "title": "Library",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutlibrary",
+      "x": 4.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "EFF6B50553680EC7"
+      ],
+      "tasks": [
+        {
+          "id": "F0DB957078BE63A0",
+          "type": "item",
+          "item": "minecolonies:blockhutlibrary",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F758493B75156E98",
+      "title": "Hospital",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhuthospital",
+      "x": 6.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "4ADE08F1108B8E11"
+      ],
+      "tasks": [
+        {
+          "id": "84AE2BA5ED90E665",
+          "type": "item",
+          "item": "minecolonies:blockhuthospital",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "372E746CCEC09AA9",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "234A4491BDD28A25",
+      "title": "Alchemist Tower",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutalchemist",
+      "x": 8.0,
+      "y": 12.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "F758493B75156E98"
+      ],
+      "tasks": [
+        {
+          "id": "4D40E4AB34CF27AA",
+          "type": "item",
+          "item": "minecolonies:blockhutalchemist",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "716CC7736C90F095",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1BF630BF213C1CA6",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "005A191765583618",
+      "title": "Guard Tower",
+      "subtitle": "Keeping watch",
+      "description": [
+        "Protect the roads and homes before stretching the border. Guards need equipment, food and a defensible route."
+      ],
+      "icon": "minecolonies:blockhutguardtower",
+      "x": 0.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "70A5ADAFDB7915D1"
+      ],
+      "tasks": [
+        {
+          "id": "D362ED73BFA6E1EF",
+          "type": "item",
+          "item": "minecolonies:blockhutguardtower",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4E90EC3A7BBBB851",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5B227730CF483A1A",
+      "title": "Archery",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutarchery",
+      "x": 2.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "005A191765583618"
+      ],
+      "tasks": [
+        {
+          "id": "DBF35FF9E8F44D4A",
+          "type": "item",
+          "item": "minecolonies:blockhutarchery",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "E25E9A487F58DAF8",
+      "title": "Combat Academy",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutcombatacademy",
+      "x": 4.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "5B227730CF483A1A"
+      ],
+      "tasks": [
+        {
+          "id": "B0983DB45BF6E041",
+          "type": "item",
+          "item": "minecolonies:blockhutcombatacademy",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "8A052606D45E0E6E",
+      "title": "Barracks",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutbarracks",
+      "x": 6.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "E25E9A487F58DAF8"
+      ],
+      "tasks": [
+        {
+          "id": "BAC689A88E1FDF0C",
+          "type": "item",
+          "item": "minecolonies:blockhutbarracks",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "590126EF92C08435",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "9E589841A5BB552E",
+      "title": "Barracks Tower",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutbarrackstower",
+      "x": 8.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "8A052606D45E0E6E"
+      ],
+      "tasks": [
+        {
+          "id": "0E197BF5FC30101E",
+          "type": "item",
+          "item": "minecolonies:blockhutbarrackstower",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "BE79060579B70E9D",
+      "title": "Guard Scepter",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:scepterguard",
+      "x": 10.0,
+      "y": 15.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "9E589841A5BB552E"
+      ],
+      "tasks": [
+        {
+          "id": "62A2F9DB0032EB24",
+          "type": "item",
+          "item": "minecolonies:scepterguard",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "884DD0B94547CC53",
+          "type": "xp",
+          "xp": 55
+        },
+        {
+          "id": "562A5F943C00BFDE",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "9F668B280055104C",
+      "title": "Bakery",
+      "subtitle": "A plentiful table",
+      "description": [
+        "Diversify the food supply and plan pasture space. Keep animal routes and fields clear of construction."
+      ],
+      "icon": "minecolonies:blockhutbaker",
+      "x": 0.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "97D75C76CA68BB63"
+      ],
+      "tasks": [
+        {
+          "id": "5AB68541A183A384",
+          "type": "item",
+          "item": "minecolonies:blockhutbaker",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0BBEFA20CB509D05",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "F782F28B8DB15CC1",
+      "title": "Chef's Kitchen",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutkitchen",
+      "x": 2.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "9F668B280055104C"
+      ],
+      "tasks": [
+        {
+          "id": "892DCD313FB70E06",
+          "type": "item",
+          "item": "minecolonies:blockhutkitchen",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "CEA6CD8DAC4953B9",
+      "title": "Cowhand's Hut",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutcowboy",
+      "x": 4.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "F782F28B8DB15CC1"
+      ],
+      "tasks": [
+        {
+          "id": "D4D92A9DBD9C8FB7",
+          "type": "item",
+          "item": "minecolonies:blockhutcowboy",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3B6AE95341172907",
+      "title": "Chicken Farmer's Hut",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutchickenherder",
+      "x": 6.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "CEA6CD8DAC4953B9"
+      ],
+      "tasks": [
+        {
+          "id": "DD3F0BD4522484BE",
+          "type": "item",
+          "item": "minecolonies:blockhutchickenherder",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6221DB320B39C3A8",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "098FA81CB4BF63CA",
+      "title": "Shepherd's Hut",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutshepherd",
+      "x": 8.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "3B6AE95341172907"
+      ],
+      "tasks": [
+        {
+          "id": "997DA8BD8E022CDB",
+          "type": "item",
+          "item": "minecolonies:blockhutshepherd",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "643B59D5EAC74880",
+      "title": "Apiary",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutbeekeeper",
+      "x": 10.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "098FA81CB4BF63CA"
+      ],
+      "tasks": [
+        {
+          "id": "3DA4A09C991C066E",
+          "type": "item",
+          "item": "minecolonies:blockhutbeekeeper",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "486914A0A374B984",
+      "title": "Plantation",
+      "subtitle": "",
+      "description": [],
+      "icon": "minecolonies:blockhutplantation",
+      "x": 12.0,
+      "y": 18.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "643B59D5EAC74880"
+      ],
+      "tasks": [
+        {
+          "id": "9EC44537CBCE82BD",
+          "type": "item",
+          "item": "minecolonies:blockhutplantation",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "95FF10D5B0704A0D",
+          "type": "xp",
+          "xp": 40
+        },
+        {
+          "id": "8FDBB2BC39DCF938",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ]
+    }
+  ]
+}

@@ -10,9 +10,9 @@
       "title": "Make a home together",
       "subtitle": "",
       "description": [
-        "Create or join an FTB Team, then use FTB Chunks to claim your home. Team membership also determines shared quest progression.",
-        "Test access with another player before trusting protection around valuables. Raiding rules remain undecided; protected cooperative play is the development default.",
-        "Use Lightman's Currency for player shops and transactions. Prices are player chosen; selling to another player requires another willing buyer."
+        "Found a team and claim land for your settlement. Invite trusted companions and protect the stores that sustain your home.",
+        "",
+        "Build a market with Lightman's Currency. Set a price, stock a shop and trade with fellow travellers."
       ],
       "icon": "minecraft:shield",
       "x": 3.94,
@@ -232,12 +232,11 @@
     },
     {
       "id": "0179D27BC15B2ADF",
-      "title": "Choose your direction",
+      "title": "A foothold in Wombatcraft",
       "subtitle": "",
       "description": [
-        "Choose technology, combat and magic, exploration, or economy. Develop several branches in parallel and bring their materials together in the Convergence chapter.",
-        "Item tasks detect your inventory without consuming items. Guidance tasks use a checkmark and give no rewards.",
-        "This Forge pack uses New TARDIS Mod. Follow its discovery and loyalty systems to earn a timeship. The dedicated TARDIS chapter explains the route."
+        "Raise a workshop, study the arcane, chart distant lands or build a thriving settlement. Each path has its own discoveries.",
+        "Their greatest works meet at the Convergence. Begin with a shelter and follow the branch that calls to you."
       ],
       "icon": "minecraft:compass",
       "x": 1.43,

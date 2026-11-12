@@ -1,0 +1,21 @@
+{
+  "x": 24,
+  "y": 54,
+  "width": 170,
+  "height": 22,
+  "anchor": "MIDDLE_LEFT",
+  "langKey": "Options",
+  "action": "OPEN_GUI",
+  "fontColor": 16773592,
+  "hoverFontColor": 16777215,
+  "texture": "packmenu:textures/gui/secondary.png",
+  "u": 0,
+  "v": 0,
+  "hoverU": 0,
+  "hoverV": 24,
+  "texWidth": 200,
+  "texHeight": 48,
+  "widgets": false,
+  "dropShadow": true,
+  "data": "OPTIONS"
+}

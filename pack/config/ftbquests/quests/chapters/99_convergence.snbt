@@ -9,8 +9,7 @@
       "id": "0209B29F8CFB053F",
       "title": "Industrial Sigil",
       "description": [
-        "Combine antimatter-era infrastructure, an AE2 singularity and awakened Draconic components. Build sustained power and material production first.",
-        "Use JEI to inspect the exact recipe. These ingredients are consumed by crafting; quest detection keeps the resulting item."
+        "Combine antimatter-era infrastructure, an AE2 singularity and awakened Draconic components. Build sustained power and material production first."
       ],
       "icon": "kubejs:industrial_sigil",
       "x": 0.0,
@@ -30,8 +29,7 @@
       "id": "0F68366FED1B407B",
       "title": "Arcane Sigil",
       "description": [
-        "Bring together Gaia materials, Cataclysm boss drops and advanced spellcraft. This is the combat and magic contribution.",
-        "Use JEI to inspect the exact recipe. These ingredients are consumed by crafting; quest detection keeps the resulting item."
+        "Bring together Gaia materials, Cataclysm boss drops and advanced spellcraft. This is the combat and magic contribution."
       ],
       "icon": "kubejs:arcane_sigil",
       "x": 2.0,
@@ -51,8 +49,7 @@
       "id": "05742B300F1756FE",
       "title": "Voyager Sigil",
       "description": [
-        "Space travel and the dimensional journey supply the exploration materials. Plan your fuel, oxygen and return routes before leaving.",
-        "Use JEI to inspect the exact recipe. These ingredients are consumed by crafting; quest detection keeps the resulting item."
+        "Space travel and the dimensional journey supply the exploration materials. Plan your fuel, oxygen and return routes before leaving."
       ],
       "icon": "kubejs:voyager_sigil",
       "x": 4.0,
@@ -72,8 +69,7 @@
       "id": "05E20ECC04CC71D2",
       "title": "Prosperity Sigil",
       "description": [
-        "Build productive farms and a trading settlement. This recipe uses earned or exchanged currency and high tier production components; it does not require another player to be online.",
-        "Use JEI to inspect the exact recipe. These ingredients are consumed by crafting; quest detection keeps the resulting item."
+        "Build productive farms and a trading settlement. This recipe uses earned or exchanged currency and high tier production components; it does not require another player to be online."
       ],
       "icon": "kubejs:prosperity_sigil",
       "x": 6.0,
@@ -93,8 +89,7 @@
       "id": "07880F2BE7FAFE56",
       "title": "Convergence Core",
       "description": [
-        "Combine all four sigils with additional awakened cores and Nether Stars. This is the first endgame recipe draft; difficulty and economy balance need a survival playthrough.",
-        "Use JEI to inspect the exact recipe. These ingredients are consumed by crafting; quest detection keeps the resulting item."
+        "Combine all four sigils with additional awakened cores and Nether Stars. Four disciplines, one enduring achievement."
       ],
       "icon": "kubejs:convergence_core",
       "x": 3.0,

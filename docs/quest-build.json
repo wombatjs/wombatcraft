@@ -1,0 +1,86 @@
+{
+  "authored_chapters": [
+    {
+      "chapter": "Create",
+      "quests": 84,
+      "lanes": 12
+    },
+    {
+      "chapter": "Mekanism",
+      "quests": 81,
+      "lanes": 13
+    },
+    {
+      "chapter": "Applied Energistics",
+      "quests": 75,
+      "lanes": 11
+    },
+    {
+      "chapter": "Ars Nouveau",
+      "quests": 111,
+      "lanes": 14
+    },
+    {
+      "chapter": "Botania",
+      "quests": 86,
+      "lanes": 13
+    },
+    {
+      "chapter": "Blood Magic",
+      "quests": 67,
+      "lanes": 10
+    },
+    {
+      "chapter": "Occultism",
+      "quests": 54,
+      "lanes": 10
+    },
+    {
+      "chapter": "Spellbooks",
+      "quests": 49,
+      "lanes": 9
+    },
+    {
+      "chapter": "Hexerei",
+      "quests": 40,
+      "lanes": 6
+    },
+    {
+      "chapter": "Eidolon",
+      "quests": 36,
+      "lanes": 6
+    },
+    {
+      "chapter": "Forbidden Arts",
+      "quests": 37,
+      "lanes": 7
+    },
+    {
+      "chapter": "Pneumatics",
+      "quests": 76,
+      "lanes": 12
+    },
+    {
+      "chapter": "Engineering",
+      "quests": 67,
+      "lanes": 10
+    },
+    {
+      "chapter": "Thermal Workshop",
+      "quests": 64,
+      "lanes": 11
+    },
+    {
+      "chapter": "Settlement",
+      "quests": 42,
+      "lanes": 7
+    },
+    {
+      "chapter": "Productive Bees",
+      "quests": 34,
+      "lanes": 6
+    }
+  ],
+  "total_quests": 1604,
+  "total_chapters": 37
+}

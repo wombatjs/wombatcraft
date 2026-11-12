@@ -10,16 +10,15 @@
       "title": "A workshop that runs itself",
       "subtitle": "",
       "description": [
-        "Build a repeatable production line with an input supply, processing and output storage. Run it long enough to spot a blocked output.",
-        "This is a manual project milestone. Mark it complete after the build or multiplayer test works."
+        "Build a repeatable production line with an input supply, processing and output storage. Run it long enough to spot a blocked output."
       ],
       "icon": "minecraft:nether_star",
       "x": 1.43,
       "y": 0.0,
       "shape": "square",
       "dependencies": [
-        "02A2F376C7D7E2C7",
-        "04BE36072D3BAF48"
+        "3FA3BA68CEC4E8B7",
+        "309DD644DC97FFAB"
       ],
       "tasks": [
         {
@@ -34,8 +33,7 @@
       "title": "A home worth returning to",
       "subtitle": "",
       "description": [
-        "Build a furnished home with bulk storage, a kitchen, protected land and a marked return point.",
-        "This is a manual project milestone. Mark it complete after the build or multiplayer test works."
+        "Build a furnished home with bulk storage, a kitchen, protected land and a marked return point."
       ],
       "icon": "minecraft:nether_star",
       "x": 3.43,
@@ -54,11 +52,10 @@
     },
     {
       "id": "03414DA64A0FFBCE",
-      "title": "A traveling observatory",
+      "title": "Beyond the familiar",
       "subtitle": "",
       "description": [
-        "Prepare your TARDIS for travel, visit a new destination and return safely. Test both sides of the doorway after landing.",
-        "This is a manual project milestone. Mark it complete after the build or multiplayer test works."
+        "Prepare a vessel for a journey, reach an unfamiliar destination and bring your discoveries safely home."
       ],
       "icon": "minecraft:nether_star",
       "x": 5.43,
@@ -80,8 +77,7 @@
       "title": "A shared settlement",
       "subtitle": "",
       "description": [
-        "Try party membership, a claim boundary and a small trade with another player. Confirm that outsiders cannot open protected storage.",
-        "This is a manual project milestone. Mark it complete after the build or multiplayer test works."
+        "Welcome a companion into your team, secure a home and complete a trade. A settlement becomes stronger when its members can rely on one another."
       ],
       "icon": "minecraft:nether_star",
       "x": 7.43,

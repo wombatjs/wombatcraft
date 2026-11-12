@@ -159,8 +159,7 @@
       "title": "Pack for the journey",
       "subtitle": "Standard Traveler's Backpack",
       "description": [
-        "Craft the standard backpack and learn its storage, equipment and tank interactions.",
-        "Goal: obtain Standard Traveler's Backpack. Keep it in your inventory until the quest records completion."
+        "Craft the standard backpack and learn its storage, equipment and tank interactions."
       ],
       "icon": "travelersbackpack:standard",
       "x": 2.69,
@@ -191,8 +190,7 @@
       "title": "Use the tanks",
       "subtitle": "Hose Nozzle",
       "description": [
-        "Inspect the fluid tools and learn how to manage the backpack's tanks.",
-        "Goal: obtain Hose Nozzle. Keep it in your inventory until the quest records completion."
+        "Inspect the fluid tools and learn how to manage the backpack's tanks."
       ],
       "icon": "travelersbackpack:hose_nozzle",
       "x": 3.94,
@@ -223,8 +221,7 @@
       "title": "Traveler's Backpack",
       "subtitle": "Overview",
       "description": [
-        "A travel-focused storage branch. Test the backpack controls and keep a safe return route when carrying valuable supplies.",
-        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+        "A travel-focused storage branch. Test the backpack controls and keep a safe return route when carrying valuable supplies."
       ],
       "icon": "travelersbackpack:standard",
       "x": 1.43,

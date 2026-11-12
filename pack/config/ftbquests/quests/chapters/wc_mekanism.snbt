@@ -1,0 +1,2208 @@
+{
+  "id": "431ED115FD66DAB4",
+  "title": "Mekanism",
+  "group": "0DCB27D2C77209FB",
+  "order_index": 11,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "797681802C60CF7C",
+      "title": "Osmium Ingot",
+      "subtitle": "The metallurgist",
+      "description": [
+        "Infusion turns raw metal into useful alloys. An enrichment chamber stretches the redstone and carbon used in later batches."
+      ],
+      "icon": "mekanism:ingot_osmium",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "74CC063EF73BFBE7",
+          "type": "item",
+          "item": "mekanism:ingot_osmium",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "A6F0FAB2A7E252F8",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "05179E5C316C9EAE",
+      "title": "Metallurgic Infuser",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:metallurgic_infuser",
+      "x": 2.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "797681802C60CF7C"
+      ],
+      "tasks": [
+        {
+          "id": "F29D85CE1BACC29C",
+          "type": "item",
+          "item": "mekanism:metallurgic_infuser",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "363DE4697A7C4ED1",
+      "title": "Enriched Iron",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:enriched_iron",
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "05179E5C316C9EAE"
+      ],
+      "tasks": [
+        {
+          "id": "6EAF19A56E13DDCC",
+          "type": "item",
+          "item": "mekanism:enriched_iron",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F36511745A5273F4",
+      "title": "Steel Dust",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:dust_steel",
+      "x": 6.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "363DE4697A7C4ED1"
+      ],
+      "tasks": [
+        {
+          "id": "B60BBEBD5E49C47F",
+          "type": "item",
+          "item": "mekanism:dust_steel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4C8EBF60DB1EAD87",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "B4C5076994808A41",
+      "title": "Steel Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:ingot_steel",
+      "x": 8.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "F36511745A5273F4"
+      ],
+      "tasks": [
+        {
+          "id": "28EDF95E8BBA7F6F",
+          "type": "item",
+          "item": "mekanism:ingot_steel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "8E4A2B03F3F12BE8",
+      "title": "Steel Casing",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:steel_casing",
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "B4C5076994808A41"
+      ],
+      "tasks": [
+        {
+          "id": "1330B771E0226FF0",
+          "type": "item",
+          "item": "mekanism:steel_casing",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "16E8B7CA910013DA",
+      "title": "Enrichment Chamber",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:enrichment_chamber",
+      "x": 12.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "8E4A2B03F3F12BE8"
+      ],
+      "tasks": [
+        {
+          "id": "C0628BE806A3E3F9",
+          "type": "item",
+          "item": "mekanism:enrichment_chamber",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0CA83331FA6FD326",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "0D4DA3BD597FE78A",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "90A6BA1CCC80816D",
+      "title": "Energy Tablet",
+      "subtitle": "A powered workshop",
+      "description": [
+        "Configure each machine's input and output faces. A buffer keeps short bursts of demand from starving the workshop."
+      ],
+      "icon": "mekanism:energy_tablet",
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "8E4A2B03F3F12BE8"
+      ],
+      "tasks": [
+        {
+          "id": "0FAED72A854CBEC6",
+          "type": "item",
+          "item": "mekanism:energy_tablet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "300E4650A622262A",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "56FF7D131E7294A7",
+      "title": "Basic Control Circuit",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:basic_control_circuit",
+      "x": 2.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "90A6BA1CCC80816D"
+      ],
+      "tasks": [
+        {
+          "id": "BA7F1B0436B375A4",
+          "type": "item",
+          "item": "mekanism:basic_control_circuit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "11A6D5840C5819FF",
+      "title": "Basic Energy Cube",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:basic_energy_cube",
+      "x": 4.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "56FF7D131E7294A7"
+      ],
+      "tasks": [
+        {
+          "id": "2943A82D09E8D59F",
+          "type": "item",
+          "item": "mekanism:basic_energy_cube",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5CA03A73CB83A21A",
+      "title": "Basic Universal Cable",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:basic_universal_cable",
+      "x": 6.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "11A6D5840C5819FF"
+      ],
+      "tasks": [
+        {
+          "id": "D62FCB7B188E8C4A",
+          "type": "item",
+          "item": "mekanism:basic_universal_cable",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A65696C1A7BDD82",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "BCCE00520587D5D1",
+      "title": "Configurator",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:configurator",
+      "x": 8.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "5CA03A73CB83A21A"
+      ],
+      "tasks": [
+        {
+          "id": "7721FAD25C593F7D",
+          "type": "item",
+          "item": "mekanism:configurator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "53925CE2E40ED374",
+          "type": "xp",
+          "xp": 35
+        },
+        {
+          "id": "C615FBABBC544CDA",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "F284F1F265A75A12",
+      "title": "Energized Smelter",
+      "subtitle": "Factory floor",
+      "description": [
+        "Factories process several stacks at once. Provide enough power and extraction before upgrading every machine."
+      ],
+      "icon": "mekanism:energized_smelter",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "16E8B7CA910013DA"
+      ],
+      "tasks": [
+        {
+          "id": "0925009B4EFD8B70",
+          "type": "item",
+          "item": "mekanism:energized_smelter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "8CC4D1DFFEB0EFEA",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "E10F4E07129E94E5",
+      "title": "Crusher",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:crusher",
+      "x": 2.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "F284F1F265A75A12"
+      ],
+      "tasks": [
+        {
+          "id": "197706D78EFDC7D2",
+          "type": "item",
+          "item": "mekanism:crusher",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "B41B15EA0C638F3D",
+      "title": "Precision Sawmill",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:precision_sawmill",
+      "x": 4.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "E10F4E07129E94E5"
+      ],
+      "tasks": [
+        {
+          "id": "7110111A3558868A",
+          "type": "item",
+          "item": "mekanism:precision_sawmill",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7CEA6DD341FBDC53",
+      "title": "Basic Enriching Factory",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:basic_enriching_factory",
+      "x": 6.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "B41B15EA0C638F3D"
+      ],
+      "tasks": [
+        {
+          "id": "30683F9D6B9D2364",
+          "type": "item",
+          "item": "mekanism:basic_enriching_factory",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "CD0262D75AA6CE78",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "32FAC8EC6587DB1F",
+      "title": "Basic Smelting Factory",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:basic_smelting_factory",
+      "x": 8.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "7CEA6DD341FBDC53"
+      ],
+      "tasks": [
+        {
+          "id": "C16231BFACEEE10B",
+          "type": "item",
+          "item": "mekanism:basic_smelting_factory",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "D1EF613A87F505BD",
+      "title": "Basic Crushing Factory",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:basic_crushing_factory",
+      "x": 10.0,
+      "y": 6.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "32FAC8EC6587DB1F"
+      ],
+      "tasks": [
+        {
+          "id": "21C1A2B038C33395",
+          "type": "item",
+          "item": "mekanism:basic_crushing_factory",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AE6FFABA50CA997",
+          "type": "xp",
+          "xp": 40
+        },
+        {
+          "id": "FA510665257BB7CF",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "61D724EB15B219CB",
+      "title": "Infused Alloy",
+      "subtitle": "Industrial alloys",
+      "description": [
+        "Prepare dedicated infusers for separate infusion materials. Keep intermediate alloys stocked for later machines."
+      ],
+      "icon": "mekanism:alloy_infused",
+      "x": 0.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "05179E5C316C9EAE"
+      ],
+      "tasks": [
+        {
+          "id": "FA6547081494106C",
+          "type": "item",
+          "item": "mekanism:alloy_infused",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "BB37F79C7A9A7C57",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "3AD82B84CFCD9F09",
+      "title": "Advanced Control Circuit",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:advanced_control_circuit",
+      "x": 2.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "61D724EB15B219CB"
+      ],
+      "tasks": [
+        {
+          "id": "5C9ABF2010BE1C6B",
+          "type": "item",
+          "item": "mekanism:advanced_control_circuit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "BA5803A882A51CFA",
+      "title": "Reinforced Alloy",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:alloy_reinforced",
+      "x": 4.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "3AD82B84CFCD9F09"
+      ],
+      "tasks": [
+        {
+          "id": "EADDD73F30593E4F",
+          "type": "item",
+          "item": "mekanism:alloy_reinforced",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "93ACBACCB6DF16F5",
+      "title": "Elite Control Circuit",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:elite_control_circuit",
+      "x": 6.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "BA5803A882A51CFA"
+      ],
+      "tasks": [
+        {
+          "id": "FA3CB4FF9D73F57E",
+          "type": "item",
+          "item": "mekanism:elite_control_circuit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "E73836937D4E6266",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "298D3065C7175547",
+      "title": "Atomic Alloy",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:alloy_atomic",
+      "x": 8.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "93ACBACCB6DF16F5"
+      ],
+      "tasks": [
+        {
+          "id": "72DE2E71741C159F",
+          "type": "item",
+          "item": "mekanism:alloy_atomic",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "171327944846021A",
+      "title": "Ultimate Control Circuit",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:ultimate_control_circuit",
+      "x": 10.0,
+      "y": 9.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "298D3065C7175547"
+      ],
+      "tasks": [
+        {
+          "id": "7F63481623D9817E",
+          "type": "item",
+          "item": "mekanism:ultimate_control_circuit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1741DB994F7A4345",
+          "type": "xp",
+          "xp": 45
+        },
+        {
+          "id": "6976D6A827586742",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "F70938D7E5FB79A4",
+      "title": "Basic Logistical Transporter",
+      "subtitle": "Sorting the output",
+      "description": [
+        "Items, fluids and chemicals use different transport lines. Colour-coded item routes help separate finished goods from ingredients."
+      ],
+      "icon": "mekanism:basic_logistical_transporter",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "5CA03A73CB83A21A"
+      ],
+      "tasks": [
+        {
+          "id": "E60F4354712711FD",
+          "type": "item",
+          "item": "mekanism:basic_logistical_transporter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "C0D6933A26E02914",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "F6CD3BBC73CE3E02",
+      "title": "Logistical Sorter",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:logistical_sorter",
+      "x": 2.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "F70938D7E5FB79A4"
+      ],
+      "tasks": [
+        {
+          "id": "D3A4FB811D13C90F",
+          "type": "item",
+          "item": "mekanism:logistical_sorter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "8E4C7A28BB8C6FF1",
+      "title": "Basic Mechanical Pipe",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:basic_mechanical_pipe",
+      "x": 4.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "F6CD3BBC73CE3E02"
+      ],
+      "tasks": [
+        {
+          "id": "D312DCB52FB0025A",
+          "type": "item",
+          "item": "mekanism:basic_mechanical_pipe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "74DF7B9572EB3B9F",
+      "title": "Basic Pressurized Tube",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:basic_pressurized_tube",
+      "x": 6.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "8E4C7A28BB8C6FF1"
+      ],
+      "tasks": [
+        {
+          "id": "249D1312B7D546F9",
+          "type": "item",
+          "item": "mekanism:basic_pressurized_tube",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "9C7130AB37AB5E62",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "0765DE6C69D15439",
+      "title": "Basic Chemical Tank",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:basic_chemical_tank",
+      "x": 8.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "74DF7B9572EB3B9F"
+      ],
+      "tasks": [
+        {
+          "id": "1DC170B386DF3CCE",
+          "type": "item",
+          "item": "mekanism:basic_chemical_tank",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "B2F2D1ED195CA86A",
+      "title": "Basic Fluid Tank",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:basic_fluid_tank",
+      "x": 10.0,
+      "y": 12.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "0765DE6C69D15439"
+      ],
+      "tasks": [
+        {
+          "id": "3F35F7AE6029C87F",
+          "type": "item",
+          "item": "mekanism:basic_fluid_tank",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "FC49F27DA85ECE4E",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "EF79C8F49A227F1C",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "B13B8DDAD6B920E6",
+      "title": "Electrolytic Separator",
+      "subtitle": "Ore purification",
+      "description": [
+        "Oxygen supports purification. Higher processing stages require additional chemicals and a complete downstream line."
+      ],
+      "icon": "mekanism:electrolytic_separator",
+      "x": 0.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "E10F4E07129E94E5"
+      ],
+      "tasks": [
+        {
+          "id": "60FAA39956CF8096",
+          "type": "item",
+          "item": "mekanism:electrolytic_separator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "DC9F48B9CFD7A126",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "6EAADC371A5B0E6C",
+      "title": "Purification Chamber",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:purification_chamber",
+      "x": 2.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "B13B8DDAD6B920E6"
+      ],
+      "tasks": [
+        {
+          "id": "D97FE972B556579A",
+          "type": "item",
+          "item": "mekanism:purification_chamber",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7A59B0D970581788",
+      "title": "Chemical Injection Chamber",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:chemical_injection_chamber",
+      "x": 4.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "6EAADC371A5B0E6C"
+      ],
+      "tasks": [
+        {
+          "id": "4B951E17E67AB125",
+          "type": "item",
+          "item": "mekanism:chemical_injection_chamber",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "C14F458D7B991649",
+      "title": "Chemical Infuser",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:chemical_infuser",
+      "x": 6.0,
+      "y": 15.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "7A59B0D970581788"
+      ],
+      "tasks": [
+        {
+          "id": "92E01C4E56D9A76A",
+          "type": "item",
+          "item": "mekanism:chemical_infuser",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B02B576A4B56F5F",
+          "type": "xp",
+          "xp": 35
+        },
+        {
+          "id": "F4A27BF6906CE6A7",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "391C552812A58551",
+      "title": "Chemical Dissolution Chamber",
+      "subtitle": "Fivefold processing",
+      "description": [
+        "Dissolve, wash and crystallize ore before returning it to the familiar processing line. Prevent one full output from stalling the chain."
+      ],
+      "icon": "mekanism:chemical_dissolution_chamber",
+      "x": 0.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "7A59B0D970581788"
+      ],
+      "tasks": [
+        {
+          "id": "CC040E5F799722BF",
+          "type": "item",
+          "item": "mekanism:chemical_dissolution_chamber",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "E42E88A5EB155CCE",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "85AF56F15F0C07AD",
+      "title": "Chemical Washer",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:chemical_washer",
+      "x": 2.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "391C552812A58551"
+      ],
+      "tasks": [
+        {
+          "id": "4C7160210E57F581",
+          "type": "item",
+          "item": "mekanism:chemical_washer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "E4981B724956250F",
+      "title": "Chemical Crystallizer",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:chemical_crystallizer",
+      "x": 4.0,
+      "y": 18.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "85AF56F15F0C07AD"
+      ],
+      "tasks": [
+        {
+          "id": "ACC5746172BC65FD",
+          "type": "item",
+          "item": "mekanism:chemical_crystallizer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "51EBD014A3E828D1",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "8E9CA1894850B81F",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "4ABF4A410060C05E",
+      "title": "Thermal Evaporation Block",
+      "subtitle": "Brine and polymers",
+      "description": [
+        "Build the evaporation tower with accessible valves. Chemical processing leads to polymers used in advanced equipment."
+      ],
+      "icon": "mekanism:thermal_evaporation_block",
+      "x": 0.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "C14F458D7B991649"
+      ],
+      "tasks": [
+        {
+          "id": "37B27C2910C7ABE9",
+          "type": "item",
+          "item": "mekanism:thermal_evaporation_block",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "DF141519B443F0B3",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "0D3B92F6DBBF996B",
+      "title": "Thermal Evaporation Controller",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:thermal_evaporation_controller",
+      "x": 2.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "4ABF4A410060C05E"
+      ],
+      "tasks": [
+        {
+          "id": "00335B6F4C3C3E0F",
+          "type": "item",
+          "item": "mekanism:thermal_evaporation_controller",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5F3577022130F724",
+      "title": "Thermal Evaporation Valve",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:thermal_evaporation_valve",
+      "x": 4.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "0D3B92F6DBBF996B"
+      ],
+      "tasks": [
+        {
+          "id": "7F6BB83409B54DEF",
+          "type": "item",
+          "item": "mekanism:thermal_evaporation_valve",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "D6C1D52B9E90BE73",
+      "title": "Rotary Condensentrator",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:rotary_condensentrator",
+      "x": 6.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "5F3577022130F724"
+      ],
+      "tasks": [
+        {
+          "id": "BCC0CA412422EC75",
+          "type": "item",
+          "item": "mekanism:rotary_condensentrator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "617BEFD8CC2505AA",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "BE98648A46511EBF",
+      "title": "Pressurized Reaction Chamber",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:pressurized_reaction_chamber",
+      "x": 8.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "D6C1D52B9E90BE73"
+      ],
+      "tasks": [
+        {
+          "id": "79E7BF536036A428",
+          "type": "item",
+          "item": "mekanism:pressurized_reaction_chamber",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "8534C8FF83AA97C9",
+      "title": "HDPE Pellet",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:hdpe_pellet",
+      "x": 10.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "BE98648A46511EBF"
+      ],
+      "tasks": [
+        {
+          "id": "FF6B551B66F759F3",
+          "type": "item",
+          "item": "mekanism:hdpe_pellet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "913D123C43E3DA7E",
+      "title": "HDPE Sheet",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:hdpe_sheet",
+      "x": 12.0,
+      "y": 21.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "8534C8FF83AA97C9"
+      ],
+      "tasks": [
+        {
+          "id": "87D7ECEAEAF46A15",
+          "type": "item",
+          "item": "mekanism:hdpe_sheet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "B66B2AD7CD22D63D",
+          "type": "xp",
+          "xp": 45
+        },
+        {
+          "id": "F448960A9A0B82B7",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "DABB910B566E89E3",
+      "title": "Electric Pump",
+      "subtitle": "Work beyond the walls",
+      "description": [
+        "Power portable equipment before departure. Give the miner a precise filter and inspect its proposed work area."
+      ],
+      "icon": "mekanism:electric_pump",
+      "x": 0.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "BA5803A882A51CFA"
+      ],
+      "tasks": [
+        {
+          "id": "2D2473CD4E504DBF",
+          "type": "item",
+          "item": "mekanism:electric_pump",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "48D5799A0858E89B",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "F4AA6DB9A57548FF",
+      "title": "Digital Miner",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:digital_miner",
+      "x": 2.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "DABB910B566E89E3"
+      ],
+      "tasks": [
+        {
+          "id": "698807085BAD4F27",
+          "type": "item",
+          "item": "mekanism:digital_miner",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5780B94CC8559CF2",
+      "title": "Atomic Disassembler",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:atomic_disassembler",
+      "x": 4.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "F4AA6DB9A57548FF"
+      ],
+      "tasks": [
+        {
+          "id": "026591808D471D2D",
+          "type": "item",
+          "item": "mekanism:atomic_disassembler",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "95C4E41C4E5267DA",
+      "title": "Jetpack",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:jetpack",
+      "x": 6.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "5780B94CC8559CF2"
+      ],
+      "tasks": [
+        {
+          "id": "9BA6811DAADC80D6",
+          "type": "item",
+          "item": "mekanism:jetpack",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "54101B1C1A3FA77B",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "EB5B543FC6C7F946",
+      "title": "Free Runners",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:free_runners",
+      "x": 8.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "95C4E41C4E5267DA"
+      ],
+      "tasks": [
+        {
+          "id": "150EBE016560B20C",
+          "type": "item",
+          "item": "mekanism:free_runners",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3D05D96442B5BEE2",
+      "title": "Armored Jetpack",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:jetpack_armored",
+      "x": 10.0,
+      "y": 24.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "EB5B543FC6C7F946"
+      ],
+      "tasks": [
+        {
+          "id": "40BE8FB8D70892B5",
+          "type": "item",
+          "item": "mekanism:jetpack_armored",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "525D285619956002",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "CDFD0510ECBE6C35",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "B7336DB7D1584EDD",
+      "title": "Induction Casing",
+      "subtitle": "An energy reserve",
+      "description": [
+        "Cells determine storage; providers determine transfer rate. Match both to the peak demand of your base."
+      ],
+      "icon": "mekanism:induction_casing",
+      "x": 0.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "298D3065C7175547"
+      ],
+      "tasks": [
+        {
+          "id": "C6EA133ECCCD4E92",
+          "type": "item",
+          "item": "mekanism:induction_casing",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "DE966F2FD5EDFB6F",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "419B54B5E535EB27",
+      "title": "Induction Port",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:induction_port",
+      "x": 2.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "B7336DB7D1584EDD"
+      ],
+      "tasks": [
+        {
+          "id": "968A67B2A6207CBD",
+          "type": "item",
+          "item": "mekanism:induction_port",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "BF434F6DB700D789",
+      "title": "Basic Induction Cell",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:basic_induction_cell",
+      "x": 4.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "419B54B5E535EB27"
+      ],
+      "tasks": [
+        {
+          "id": "1AD7F5EC2D8F1DF9",
+          "type": "item",
+          "item": "mekanism:basic_induction_cell",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2B0A362F5246BE42",
+      "title": "Basic Induction Provider",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:basic_induction_provider",
+      "x": 6.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "BF434F6DB700D789"
+      ],
+      "tasks": [
+        {
+          "id": "4185AC82578ADCD6",
+          "type": "item",
+          "item": "mekanism:basic_induction_provider",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "27EA3E1299E01B8F",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "E586A732248CD52D",
+      "title": "Advanced Induction Cell",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:advanced_induction_cell",
+      "x": 8.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "2B0A362F5246BE42"
+      ],
+      "tasks": [
+        {
+          "id": "C5BD400DE25C9E6A",
+          "type": "item",
+          "item": "mekanism:advanced_induction_cell",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "8E8022D034D3A8ED",
+      "title": "Elite Induction Cell",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:elite_induction_cell",
+      "x": 10.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "E586A732248CD52D"
+      ],
+      "tasks": [
+        {
+          "id": "3CF002594838474A",
+          "type": "item",
+          "item": "mekanism:elite_induction_cell",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2743A1A7C852427B",
+      "title": "Ultimate Induction Cell",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:ultimate_induction_cell",
+      "x": 12.0,
+      "y": 27.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "8E8022D034D3A8ED"
+      ],
+      "tasks": [
+        {
+          "id": "39AAEB27E1E2E9D3",
+          "type": "item",
+          "item": "mekanism:ultimate_induction_cell",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "9D579874B1F6C993",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "6B730D8B875BD6D7",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "9304F7B2859D6216",
+      "title": "Hazmat Mask",
+      "subtitle": "Containment",
+      "description": [
+        "Prepare radiation protection and waste handling before nuclear fuel production. Never dismantle containers holding radioactive material."
+      ],
+      "icon": "mekanism:hazmat_mask",
+      "x": 0.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "298D3065C7175547"
+      ],
+      "tasks": [
+        {
+          "id": "2ADA8F424A5E2C0F",
+          "type": "item",
+          "item": "mekanism:hazmat_mask",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0CFFC979E18968CB",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "705ECEC7D92231A1",
+      "title": "Hazmat Gown",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:hazmat_gown",
+      "x": 2.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "9304F7B2859D6216"
+      ],
+      "tasks": [
+        {
+          "id": "9C23A1A7B7C72F2F",
+          "type": "item",
+          "item": "mekanism:hazmat_gown",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "EAEBE6D6C024C929",
+      "title": "Hazmat Pants",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:hazmat_pants",
+      "x": 4.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "705ECEC7D92231A1"
+      ],
+      "tasks": [
+        {
+          "id": "76F222CCA1609E3D",
+          "type": "item",
+          "item": "mekanism:hazmat_pants",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "275CD4590165D261",
+      "title": "Hazmat Boots",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:hazmat_boots",
+      "x": 6.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "EAEBE6D6C024C929"
+      ],
+      "tasks": [
+        {
+          "id": "7F7A6B8F544D885C",
+          "type": "item",
+          "item": "mekanism:hazmat_boots",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "B17A76FC8DCEF90E",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "42C94C38F67EE96E",
+      "title": "Geiger Counter",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:geiger_counter",
+      "x": 8.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "275CD4590165D261"
+      ],
+      "tasks": [
+        {
+          "id": "7F6F4EA8944892A4",
+          "type": "item",
+          "item": "mekanism:geiger_counter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3E6A540855CD67DA",
+      "title": "Dosimeter",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:dosimeter",
+      "x": 10.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "42C94C38F67EE96E"
+      ],
+      "tasks": [
+        {
+          "id": "4D980242E05A4593",
+          "type": "item",
+          "item": "mekanism:dosimeter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4C9ABEF96C8607BD",
+      "title": "Radioactive Waste Barrel",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:radioactive_waste_barrel",
+      "x": 12.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "3E6A540855CD67DA"
+      ],
+      "tasks": [
+        {
+          "id": "8988C47B57AC5906",
+          "type": "item",
+          "item": "mekanism:radioactive_waste_barrel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "C8897483CCA4FF2B",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "B69DBA459A2A010F",
+      "title": "Isotopic Centrifuge",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:isotopic_centrifuge",
+      "x": 14.0,
+      "y": 30.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "4C9ABEF96C8607BD"
+      ],
+      "tasks": [
+        {
+          "id": "988B08B988EFF501",
+          "type": "item",
+          "item": "mekanism:isotopic_centrifuge",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "26E9ECDCEE00923F",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "7C1C9C5BE3E43683",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "3DD17552E70FDF7D",
+      "title": "Polonium Pellet",
+      "subtitle": "Antimatter research",
+      "description": [
+        "Antimatter demands sustained power and a stable nuclear supply chain. Commission each stage before connecting it to the next."
+      ],
+      "icon": "mekanism:pellet_polonium",
+      "x": 0.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "913D123C43E3DA7E"
+      ],
+      "tasks": [
+        {
+          "id": "FD327FC11CAB661A",
+          "type": "item",
+          "item": "mekanism:pellet_polonium",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "9F1D2A1F149DF800",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "FE583058F2D9ADD8",
+      "title": "Plutonium Pellet",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:pellet_plutonium",
+      "x": 2.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "3DD17552E70FDF7D"
+      ],
+      "tasks": [
+        {
+          "id": "BC1D6FACC870563B",
+          "type": "item",
+          "item": "mekanism:pellet_plutonium",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5871497568EA3DAA",
+      "title": "SPS Casing",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:sps_casing",
+      "x": 4.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "FE583058F2D9ADD8"
+      ],
+      "tasks": [
+        {
+          "id": "69A8E3017687C204",
+          "type": "item",
+          "item": "mekanism:sps_casing",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "39147D7FFC9AD280",
+      "title": "SPS Port",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:sps_port",
+      "x": 6.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "5871497568EA3DAA"
+      ],
+      "tasks": [
+        {
+          "id": "0161E924868C841E",
+          "type": "item",
+          "item": "mekanism:sps_port",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "DFDC7DC55FC10A00",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "D571C4B8004F20AB",
+      "title": "Supercharged Coil",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:supercharged_coil",
+      "x": 8.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "39147D7FFC9AD280"
+      ],
+      "tasks": [
+        {
+          "id": "14BF1A6218CC21F3",
+          "type": "item",
+          "item": "mekanism:supercharged_coil",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6A5C7224557E1EF5",
+      "title": "Antimatter Pellet",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:pellet_antimatter",
+      "x": 10.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "D571C4B8004F20AB"
+      ],
+      "tasks": [
+        {
+          "id": "5BAEACCE5C4154DF",
+          "type": "item",
+          "item": "mekanism:pellet_antimatter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "C3783E0E8E03A6E1",
+      "title": "Antiprotonic Nucleosynthesizer",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:antiprotonic_nucleosynthesizer",
+      "x": 12.0,
+      "y": 33.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "6A5C7224557E1EF5"
+      ],
+      "tasks": [
+        {
+          "id": "0A790A6866191F01",
+          "type": "item",
+          "item": "mekanism:antiprotonic_nucleosynthesizer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "A7A6377A29DEEC3C",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "7154BFE41ECF8C3C",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "CE70531598B05E49",
+      "title": "MekaSuit Helmet",
+      "subtitle": "Powered armour",
+      "description": [
+        "Install only the modules needed for the expedition. Check charge and protection before relying on the suit in a hazardous area."
+      ],
+      "icon": "mekanism:mekasuit_helmet",
+      "x": 0.0,
+      "y": 36.0,
+      "shape": "circle",
+      "dependencies": [
+        "3DD17552E70FDF7D"
+      ],
+      "tasks": [
+        {
+          "id": "5353075EABEAEF57",
+          "type": "item",
+          "item": "mekanism:mekasuit_helmet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E0088DBAC481DE9",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "2B1C02706D94BE77",
+      "title": "MekaSuit Bodyarmor",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:mekasuit_bodyarmor",
+      "x": 2.0,
+      "y": 36.0,
+      "shape": "circle",
+      "dependencies": [
+        "CE70531598B05E49"
+      ],
+      "tasks": [
+        {
+          "id": "E20D15BFDA908261",
+          "type": "item",
+          "item": "mekanism:mekasuit_bodyarmor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "BE9A81CB7DF53E08",
+      "title": "MekaSuit Pants",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:mekasuit_pants",
+      "x": 4.0,
+      "y": 36.0,
+      "shape": "circle",
+      "dependencies": [
+        "2B1C02706D94BE77"
+      ],
+      "tasks": [
+        {
+          "id": "FEB82FAFA28F2F12",
+          "type": "item",
+          "item": "mekanism:mekasuit_pants",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1FCD92A8AC3153DC",
+      "title": "MekaSuit Boots",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:mekasuit_boots",
+      "x": 6.0,
+      "y": 36.0,
+      "shape": "circle",
+      "dependencies": [
+        "BE9A81CB7DF53E08"
+      ],
+      "tasks": [
+        {
+          "id": "C19E22B1848ADE55",
+          "type": "item",
+          "item": "mekanism:mekasuit_boots",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A2E1489065C9F87",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "69A9C94160DD2080",
+      "title": "Modification Station",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:modification_station",
+      "x": 8.0,
+      "y": 36.0,
+      "shape": "circle",
+      "dependencies": [
+        "1FCD92A8AC3153DC"
+      ],
+      "tasks": [
+        {
+          "id": "7943914C893303EC",
+          "type": "item",
+          "item": "mekanism:modification_station",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "9DE51FB040AEFCC1",
+      "title": "Module Base",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:module_base",
+      "x": 10.0,
+      "y": 36.0,
+      "shape": "circle",
+      "dependencies": [
+        "69A9C94160DD2080"
+      ],
+      "tasks": [
+        {
+          "id": "FCF88EE0ED11F8AD",
+          "type": "item",
+          "item": "mekanism:module_base",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "A69392C1333E5795",
+      "title": "Module Energy Unit",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:module_energy_unit",
+      "x": 12.0,
+      "y": 36.0,
+      "shape": "circle",
+      "dependencies": [
+        "9DE51FB040AEFCC1"
+      ],
+      "tasks": [
+        {
+          "id": "DA4A72559012FA7A",
+          "type": "item",
+          "item": "mekanism:module_energy_unit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "75A15E745E48398A",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "D377B5FA5EDDEDB5",
+      "title": "Module Radiation Shielding Unit",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:module_radiation_shielding_unit",
+      "x": 14.0,
+      "y": 36.0,
+      "shape": "circle",
+      "dependencies": [
+        "A69392C1333E5795"
+      ],
+      "tasks": [
+        {
+          "id": "3248C487843456DB",
+          "type": "item",
+          "item": "mekanism:module_radiation_shielding_unit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "D991C625CE663715",
+      "title": "Meka-Tool",
+      "subtitle": "",
+      "description": [],
+      "icon": "mekanism:meka_tool",
+      "x": 16.0,
+      "y": 36.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "D377B5FA5EDDEDB5"
+      ],
+      "tasks": [
+        {
+          "id": "D4AB39615221B955",
+          "type": "item",
+          "item": "mekanism:meka_tool",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "BDB7D769DFF40D5B",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "B44DD466088E1841",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "0778738B733E7B71",
+  "group": "0F095C8E4FA42163",
+  "title": "Projects",
+  "order_index": 21,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "003FCF5AEA79BD0B",
+      "title": "A workshop that runs itself",
+      "subtitle": "",
+      "description": [
+        "Build a repeatable production line with an input supply, processing and output storage. Run it long enough to spot a blocked output.",
+        "This is a manual project milestone. Mark it complete after the build or multiplayer test works."
+      ],
+      "icon": "minecraft:nether_star",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [
+        "02A2F376C7D7E2C7",
+        "04BE36072D3BAF48"
+      ],
+      "tasks": [
+        {
+          "id": "0F11AAF4085B979D",
+          "type": "checkmark",
+          "title": "Project tested"
+        }
+      ]
+    },
+    {
+      "id": "023808F2AA654626",
+      "title": "A home worth returning to",
+      "subtitle": "",
+      "description": [
+        "Build a furnished home with bulk storage, a kitchen, protected land and a marked return point.",
+        "This is a manual project milestone. Mark it complete after the build or multiplayer test works."
+      ],
+      "icon": "minecraft:nether_star",
+      "x": 3.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [
+        "05A6207B7856AA6B"
+      ],
+      "tasks": [
+        {
+          "id": "07EA2C3221083DB1",
+          "type": "checkmark",
+          "title": "Project tested"
+        }
+      ]
+    },
+    {
+      "id": "03414DA64A0FFBCE",
+      "title": "A traveling observatory",
+      "subtitle": "",
+      "description": [
+        "Prepare your TARDIS for travel, visit a new destination and return safely. Test both sides of the doorway after landing.",
+        "This is a manual project milestone. Mark it complete after the build or multiplayer test works."
+      ],
+      "icon": "minecraft:nether_star",
+      "x": 5.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [
+        "0D781CFB7B516C4B"
+      ],
+      "tasks": [
+        {
+          "id": "034D932EE345A48D",
+          "type": "checkmark",
+          "title": "Project tested"
+        }
+      ]
+    },
+    {
+      "id": "08636940C6A5B18E",
+      "title": "A shared settlement",
+      "subtitle": "",
+      "description": [
+        "Try party membership, a claim boundary and a small trade with another player. Confirm that outsiders cannot open protected storage.",
+        "This is a manual project milestone. Mark it complete after the build or multiplayer test works."
+      ],
+      "icon": "minecraft:nether_star",
+      "x": 7.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [
+        "0A61808FE40FEB8B"
+      ],
+      "tasks": [
+        {
+          "id": "0B4443D7A04A00AB",
+          "type": "checkmark",
+          "title": "Project tested"
+        }
+      ]
+    }
+  ]
+}

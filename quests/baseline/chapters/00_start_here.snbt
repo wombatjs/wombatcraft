@@ -1,0 +1,256 @@
+{
+  "id": "076E9966AD9662D4",
+  "group": "000BB10F5887BBEC",
+  "title": "Start Here",
+  "order_index": 0,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0A61808FE40FEB8B",
+      "title": "Make a home together",
+      "subtitle": "",
+      "description": [
+        "Create or join an FTB Team, then use FTB Chunks to claim your home. Team membership also determines shared quest progression.",
+        "Test access with another player before trusting protection around valuables. Raiding rules remain undecided; protected cooperative play is the development default.",
+        "Use Lightman's Currency for player shops and transactions. Prices are player chosen; selling to another player requires another willing buyer."
+      ],
+      "icon": "minecraft:shield",
+      "x": 3.94,
+      "y": 1.43,
+      "shape": "square",
+      "dependencies": [
+        "0179D27BC15B2ADF"
+      ],
+      "tasks": [
+        {
+          "id": "076302DA5F90B0E5",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "07DC886E17A90B87",
+      "title": "The doorway test",
+      "subtitle": "",
+      "description": [
+        "Open the TARDIS doors and view the interior from outside. Walk in, look out, and return. This is an explicit playtest checklist; tick it only after checking the effect.",
+        "Renderer and shader changes need their own portal test. Keep the pinned core versions when trying new content."
+      ],
+      "icon": "minecraft:ender_pearl",
+      "x": 5.2,
+      "y": 1.43,
+      "shape": "square",
+      "dependencies": [
+        "0179D27BC15B2ADF"
+      ],
+      "tasks": [
+        {
+          "id": "0CC0B195F3135A4E",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "063B8BD59A482879",
+      "title": "Recipes at your fingertips",
+      "subtitle": "",
+      "description": [
+        "Hover an item and press R for recipes or U for uses. JEI shows the exact recipe for this pack. Search by name, or @ followed by a mod name.",
+        "Follow recipes through intermediate materials before building a production line. Polymorph handles overlapping crafting recipes."
+      ],
+      "icon": "minecraft:knowledge_book",
+      "x": 2.69,
+      "y": 1.43,
+      "shape": "square",
+      "dependencies": [
+        "0179D27BC15B2ADF"
+      ],
+      "tasks": [
+        {
+          "id": "00A68D54EFD90563",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0EA8707A02B8D8D4",
+      "title": "A place to begin",
+      "subtitle": "",
+      "description": [
+        "Set up a workbench and shelter before setting out."
+      ],
+      "icon": "minecraft:crafting_table",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0179D27BC15B2ADF"
+      ],
+      "tasks": [
+        {
+          "id": "04A9B1A1666CD2E9",
+          "type": "item",
+          "item": "minecraft:crafting_table",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "02B3ADF310501878",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "0919D581FCDD2595",
+      "title": "The first workshop",
+      "subtitle": "",
+      "description": [
+        "Smelt basic materials. Keep iron, copper, redstone and coal for the machines ahead."
+      ],
+      "icon": "minecraft:furnace",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0179D27BC15B2ADF"
+      ],
+      "tasks": [
+        {
+          "id": "0FD74C6FA2A36335",
+          "type": "item",
+          "item": "minecraft:furnace",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0234E16FD915EB58",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "00E53C8030F81AA8",
+      "title": "Below the surface",
+      "subtitle": "",
+      "description": [
+        "Bring food, torches and spare tools. Modded ores support different branches; keep samples."
+      ],
+      "icon": "minecraft:iron_pickaxe",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0179D27BC15B2ADF"
+      ],
+      "tasks": [
+        {
+          "id": "0789BD84CE9A0064",
+          "type": "item",
+          "item": "minecraft:iron_pickaxe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A355B22257CD8C4",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "0C2B641A6F487192",
+      "title": "Keep what matters",
+      "subtitle": "",
+      "description": [
+        "Organize your discoveries by purpose. The Storage chapter offers drawers, terminals and eventually digital storage."
+      ],
+      "icon": "minecraft:chest",
+      "x": 6.46,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0179D27BC15B2ADF"
+      ],
+      "tasks": [
+        {
+          "id": "096A7A32B64DD29F",
+          "type": "item",
+          "item": "minecraft:chest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03196088B1508862",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "028B610E33922C6C",
+      "title": "A safe return",
+      "subtitle": "",
+      "description": [
+        "Set a spawn point before exploring. Sleeping bags are for travel; a bed is your home anchor."
+      ],
+      "icon": "minecraft:white_bed",
+      "x": 7.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0179D27BC15B2ADF"
+      ],
+      "tasks": [
+        {
+          "id": "09F7B52CB771FAFF",
+          "type": "item",
+          "item": "minecraft:white_bed",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "057F6007915911CA",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "0179D27BC15B2ADF",
+      "title": "Choose your direction",
+      "subtitle": "",
+      "description": [
+        "Choose technology, combat and magic, exploration, or economy. Develop several branches in parallel and bring their materials together in the Convergence chapter.",
+        "Item tasks detect your inventory without consuming items. Guidance tasks use a checkmark and give no rewards.",
+        "This Forge pack uses New TARDIS Mod. Follow its discovery and loyalty systems to earn a timeship. The dedicated TARDIS chapter explains the route."
+      ],
+      "icon": "minecraft:compass",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "03B25620829D070E",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

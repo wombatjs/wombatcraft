@@ -1,0 +1,3638 @@
+{
+  "id": "0A722DDDCEACBB2B",
+  "group": "00AA8F374274B5F3",
+  "title": "Exploration",
+  "order_index": 17,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0F774E6A6EC16A11",
+      "title": "Bronze Dungeon",
+      "subtitle": "",
+      "description": [
+        "Enter the bronze dungeon structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 4.29,
+      "shape": "circle",
+      "dependencies": [
+        "072D29B73450C8D4"
+      ],
+      "tasks": [
+        {
+          "id": "02E00C36DD280E3E",
+          "type": "structure",
+          "structure": "aether:bronze_dungeon"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DCD66CD2B2030E3",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "033E5F7DCA349D44",
+      "title": "Gold Dungeon",
+      "subtitle": "",
+      "description": [
+        "Enter the gold dungeon structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 4.29,
+      "shape": "circle",
+      "dependencies": [
+        "0F774E6A6EC16A11"
+      ],
+      "tasks": [
+        {
+          "id": "04676ADD9ED41233",
+          "type": "structure",
+          "structure": "aether:gold_dungeon"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0CE42E0275CCE7B4",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "096DAFBB23BDB5DA",
+      "title": "Large Aercloud",
+      "subtitle": "",
+      "description": [
+        "Enter the large aercloud structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 4.29,
+      "shape": "circle",
+      "dependencies": [
+        "033E5F7DCA349D44"
+      ],
+      "tasks": [
+        {
+          "id": "02BD1BFDFBFC72DC",
+          "type": "structure",
+          "structure": "aether:large_aercloud"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0503C6B2C3CC41D3",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "072D29B73450C8D4",
+      "title": "The Aether",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces The Aether. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 4.29,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "031E2FFBC8DD9CAC",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "067DED7AD46A96A1",
+      "title": "Abyssal Ruins",
+      "subtitle": "",
+      "description": [
+        "Enter the abyssal ruins structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 10.0,
+      "shape": "circle",
+      "dependencies": [
+        "042DF1A6C0A02279"
+      ],
+      "tasks": [
+        {
+          "id": "0EAC5F12AD6F27E3",
+          "type": "structure",
+          "structure": "alexscaves:abyssal_ruins"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0FB4F9D3AE2373B5",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "032E02F49EA18250",
+      "title": "Acid Pit",
+      "subtitle": "",
+      "description": [
+        "Enter the acid pit structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 10.0,
+      "shape": "circle",
+      "dependencies": [
+        "067DED7AD46A96A1"
+      ],
+      "tasks": [
+        {
+          "id": "0DBFD0EC281F9CC2",
+          "type": "structure",
+          "structure": "alexscaves:acid_pit"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04C8DE95FDEC1F9E",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0BA50FFE571D0E34",
+      "title": "Cake Cave",
+      "subtitle": "",
+      "description": [
+        "Enter the cake cave structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 10.0,
+      "shape": "circle",
+      "dependencies": [
+        "032E02F49EA18250"
+      ],
+      "tasks": [
+        {
+          "id": "0BBC5BBCF604115A",
+          "type": "structure",
+          "structure": "alexscaves:cake_cave"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09802445EB590EDC",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "042DF1A6C0A02279",
+      "title": "Alex's Caves",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Alex's Caves. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 10.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "00E470E4EA73641A",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0E70DBA66D740E51",
+      "title": "Transmutation Table",
+      "subtitle": "",
+      "description": [
+        "Obtain this item during your travels and inspect its uses in JEI."
+      ],
+      "icon": "alexsmobs:transmutation_table",
+      "x": 2.86,
+      "y": 8.57,
+      "shape": "circle",
+      "dependencies": [
+        "0BC2543442CDDB26"
+      ],
+      "tasks": [
+        {
+          "id": "06EA6C788F335C72",
+          "type": "item",
+          "item": "alexsmobs:transmutation_table",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0193D3BD9437D640",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0F67AD1901597205",
+      "title": "Maraca",
+      "subtitle": "",
+      "description": [
+        "Obtain this item during your travels and inspect its uses in JEI."
+      ],
+      "icon": "alexsmobs:maraca",
+      "x": 4.29,
+      "y": 8.57,
+      "shape": "circle",
+      "dependencies": [
+        "0E70DBA66D740E51"
+      ],
+      "tasks": [
+        {
+          "id": "0FCE7AFC3DC0C963",
+          "type": "item",
+          "item": "alexsmobs:maraca",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04CE67D28F3DC4A6",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0D938BE6672233F5",
+      "title": "Fish Oil",
+      "subtitle": "",
+      "description": [
+        "Obtain this item during your travels and inspect its uses in JEI."
+      ],
+      "icon": "alexsmobs:fish_oil",
+      "x": 5.71,
+      "y": 8.57,
+      "shape": "circle",
+      "dependencies": [
+        "0F67AD1901597205"
+      ],
+      "tasks": [
+        {
+          "id": "040B5F46060548A9",
+          "type": "item",
+          "item": "alexsmobs:fish_oil",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0894163762B66575",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0BC2543442CDDB26",
+      "title": "Alex's Mobs",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Alex's Mobs. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "alexsmobs:transmutation_table",
+      "x": 1.43,
+      "y": 8.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "04E0AD2A46CC9614",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0A07E233F7F25B24",
+      "title": "Outpost",
+      "subtitle": "",
+      "description": [
+        "Enter the outpost structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 55.71,
+      "shape": "circle",
+      "dependencies": [
+        "02EC7C4F493DBC7E"
+      ],
+      "tasks": [
+        {
+          "id": "00B1433BE7E5A8FF",
+          "type": "structure",
+          "structure": "aquamirae:outpost"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D1FF6369B44269D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "08631D7E6456F9A6",
+      "title": "Shelter",
+      "subtitle": "",
+      "description": [
+        "Enter the shelter structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 55.71,
+      "shape": "circle",
+      "dependencies": [
+        "0A07E233F7F25B24"
+      ],
+      "tasks": [
+        {
+          "id": "05F1634D41CE2FF5",
+          "type": "structure",
+          "structure": "aquamirae:shelter"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D62F4C8D759FB88",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "012C89E722A1E942",
+      "title": "Ship",
+      "subtitle": "",
+      "description": [
+        "Enter the ship structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 55.71,
+      "shape": "circle",
+      "dependencies": [
+        "08631D7E6456F9A6"
+      ],
+      "tasks": [
+        {
+          "id": "0F7E10C16D07FD5D",
+          "type": "structure",
+          "structure": "aquamirae:ship"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0ED9E8E78E811ACB",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "02EC7C4F493DBC7E",
+      "title": "Aquamirae",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Aquamirae. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 55.71,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0424CDF4997D0051",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "02D95D9883741831",
+      "title": "Archeologist Camp Grassy",
+      "subtitle": "",
+      "description": [
+        "Enter the archeologist camp grassy structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 37.14,
+      "shape": "circle",
+      "dependencies": [
+        "0E36ABD0B7908B1A"
+      ],
+      "tasks": [
+        {
+          "id": "0BCE24603FF4526E",
+          "type": "structure",
+          "structure": "betterarcheology:archeologist_camp_grassy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D7FD23BEE84FAAB",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "01E3044CA552B41D",
+      "title": "Archeologist Camp Redsand",
+      "subtitle": "",
+      "description": [
+        "Enter the archeologist camp redsand structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 37.14,
+      "shape": "circle",
+      "dependencies": [
+        "02D95D9883741831"
+      ],
+      "tasks": [
+        {
+          "id": "03518CF5F85E4D73",
+          "type": "structure",
+          "structure": "betterarcheology:archeologist_camp_redsand"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A8B1232D18B4A5C",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "06E656714BD705CD",
+      "title": "Archeologist Camp Sand",
+      "subtitle": "",
+      "description": [
+        "Enter the archeologist camp sand structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 37.14,
+      "shape": "circle",
+      "dependencies": [
+        "01E3044CA552B41D"
+      ],
+      "tasks": [
+        {
+          "id": "0F8679400E70A4E9",
+          "type": "structure",
+          "structure": "betterarcheology:archeologist_camp_sand"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03425DCA3BD6B736",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0E36ABD0B7908B1A",
+      "title": "Better Archeology",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Better Archeology. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 37.14,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "05DD18B0769D7945",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0081D2CC4F87ACC0",
+      "title": "Auroral Garden",
+      "subtitle": "",
+      "description": [
+        "Visit this biome. Carry a compass and record a useful return point on your map."
+      ],
+      "icon": "minecraft:compass",
+      "x": 2.86,
+      "y": 51.43,
+      "shape": "circle",
+      "dependencies": [
+        "0EA40C671068FEA5"
+      ],
+      "tasks": [
+        {
+          "id": "0EA5012BE3A25054",
+          "type": "biome",
+          "biome": "biomesoplenty:auroral_garden"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09F91F1A8D01C969",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0DD698B357C0A3FD",
+      "title": "Bayou",
+      "subtitle": "",
+      "description": [
+        "Visit this biome. Carry a compass and record a useful return point on your map."
+      ],
+      "icon": "minecraft:compass",
+      "x": 4.29,
+      "y": 51.43,
+      "shape": "circle",
+      "dependencies": [
+        "0081D2CC4F87ACC0"
+      ],
+      "tasks": [
+        {
+          "id": "0B18F8C22EA651AF",
+          "type": "biome",
+          "biome": "biomesoplenty:bayou"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D33FC3F78F454C3",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "02593821AF082250",
+      "title": "Bog",
+      "subtitle": "",
+      "description": [
+        "Visit this biome. Carry a compass and record a useful return point on your map."
+      ],
+      "icon": "minecraft:compass",
+      "x": 5.71,
+      "y": 51.43,
+      "shape": "circle",
+      "dependencies": [
+        "0DD698B357C0A3FD"
+      ],
+      "tasks": [
+        {
+          "id": "0CAF273992A6C12B",
+          "type": "biome",
+          "biome": "biomesoplenty:bog"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0CD5EA5AA7526880",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0EA40C671068FEA5",
+      "title": "Biomes O' Plenty",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Biomes O' Plenty. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:compass",
+      "x": 1.43,
+      "y": 51.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "08EEEC7692E1D369",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0946545B4603BE07",
+      "title": "Everbright Blinding Dungeon",
+      "subtitle": "",
+      "description": [
+        "Enter the everbright blinding dungeon structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 45.71,
+      "shape": "circle",
+      "dependencies": [
+        "0FBE5AB21E22FDE4"
+      ],
+      "tasks": [
+        {
+          "id": "02B0BCC6BC1C7E7B",
+          "type": "structure",
+          "structure": "blue_skies:everbright_blinding_dungeon"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "01D5D1EC759870C8",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0BA6F463D0657EE1",
+      "title": "Everdawn Blinding Dungeon",
+      "subtitle": "",
+      "description": [
+        "Enter the everdawn blinding dungeon structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 45.71,
+      "shape": "circle",
+      "dependencies": [
+        "0946545B4603BE07"
+      ],
+      "tasks": [
+        {
+          "id": "0F67CF496F6CEE96",
+          "type": "structure",
+          "structure": "blue_skies:everdawn_blinding_dungeon"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B9B3A4D4AE6042E",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "057C1DE9C423F014",
+      "title": "Frozen Bunker",
+      "subtitle": "",
+      "description": [
+        "Enter the frozen bunker structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 45.71,
+      "shape": "circle",
+      "dependencies": [
+        "0BA6F463D0657EE1"
+      ],
+      "tasks": [
+        {
+          "id": "03643B4EA2F1E17D",
+          "type": "structure",
+          "structure": "blue_skies:frozen_bunker"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0933F6AF5D41B2AB",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0FBE5AB21E22FDE4",
+      "title": "Blue Skies",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Blue Skies. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 45.71,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "023C0132EC8172FD",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "067C316556F1C810",
+      "title": "Field notes",
+      "subtitle": "",
+      "description": [
+        "Explore the features added by Creeper Overhaul and record one useful discovery. This is a manual objective; mark it after trying the feature."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 2.86,
+      "y": 32.86,
+      "shape": "square",
+      "dependencies": [
+        "0DD903D87D5A191D"
+      ],
+      "tasks": [
+        {
+          "id": "045DFDBCCCFC37B2",
+          "type": "checkmark",
+          "title": "I have tested this feature"
+        }
+      ]
+    },
+    {
+      "id": "0DD903D87D5A191D",
+      "title": "Creeper Overhaul",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Creeper Overhaul. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 1.43,
+      "y": 32.86,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "05BDE5B38D4FAB69",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0F680A3620D4C934",
+      "title": "Pearl Necklace 1",
+      "subtitle": "",
+      "description": [
+        "Obtain this item during your travels and inspect its uses in JEI."
+      ],
+      "icon": "crittersandcompanions:pearl_necklace_1",
+      "x": 2.86,
+      "y": 38.57,
+      "shape": "circle",
+      "dependencies": [
+        "011598FA6F9458ED"
+      ],
+      "tasks": [
+        {
+          "id": "0A318E34BD1F0CD5",
+          "type": "item",
+          "item": "crittersandcompanions:pearl_necklace_1",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "06F20517E7C58FEE",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "01A5F164DE680EBB",
+      "title": "Pearl Necklace 2",
+      "subtitle": "",
+      "description": [
+        "Obtain this item during your travels and inspect its uses in JEI."
+      ],
+      "icon": "crittersandcompanions:pearl_necklace_2",
+      "x": 4.29,
+      "y": 38.57,
+      "shape": "circle",
+      "dependencies": [
+        "0F680A3620D4C934"
+      ],
+      "tasks": [
+        {
+          "id": "0DB0259AD677C819",
+          "type": "item",
+          "item": "crittersandcompanions:pearl_necklace_2",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "00734F77899E0B53",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0A5906C6E7CA160B",
+      "title": "Pearl Necklace 3",
+      "subtitle": "",
+      "description": [
+        "Obtain this item during your travels and inspect its uses in JEI."
+      ],
+      "icon": "crittersandcompanions:pearl_necklace_3",
+      "x": 5.71,
+      "y": 38.57,
+      "shape": "circle",
+      "dependencies": [
+        "01A5F164DE680EBB"
+      ],
+      "tasks": [
+        {
+          "id": "0A8C618F6D5F8768",
+          "type": "item",
+          "item": "crittersandcompanions:pearl_necklace_3",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "077E4B14997954DF",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "011598FA6F9458ED",
+      "title": "Critters and Companions",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Critters and Companions. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "crittersandcompanions:pearl_necklace_1",
+      "x": 1.43,
+      "y": 38.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "09568DFE1395503F",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "02515EDDE6C3AD1F",
+      "title": "Large / Village Beach",
+      "subtitle": "",
+      "description": [
+        "Enter the large/village beach structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 52.86,
+      "shape": "circle",
+      "dependencies": [
+        "034DF3A7653F0A67"
+      ],
+      "tasks": [
+        {
+          "id": "0195872F3DAE72B0",
+          "type": "structure",
+          "structure": "ctov:large/village_beach"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0AFB6BF28542A0F8",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0A3FA551BD43D6BF",
+      "title": "Large / Village Christmas",
+      "subtitle": "",
+      "description": [
+        "Enter the large/village christmas structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 52.86,
+      "shape": "circle",
+      "dependencies": [
+        "02515EDDE6C3AD1F"
+      ],
+      "tasks": [
+        {
+          "id": "0BFE55E5A1212D17",
+          "type": "structure",
+          "structure": "ctov:large/village_christmas"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0EAE1DE12EB37EF5",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0B36BB0E52D1487F",
+      "title": "Large / Village Dark Forest",
+      "subtitle": "",
+      "description": [
+        "Enter the large/village dark forest structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 52.86,
+      "shape": "circle",
+      "dependencies": [
+        "0A3FA551BD43D6BF"
+      ],
+      "tasks": [
+        {
+          "id": "090D69FAA1B856E5",
+          "type": "structure",
+          "structure": "ctov:large/village_dark_forest"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0763AB348862CBF7",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "034DF3A7653F0A67",
+      "title": "ChoiceTheorem's Overhauled Village",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces ChoiceTheorem's Overhauled Village. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 52.86,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "04CD826A7DBD5D48",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "08BB03AD648ADF0B",
+      "title": "Ancient Temple",
+      "subtitle": "",
+      "description": [
+        "Enter the ancient temple structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 7.14,
+      "shape": "circle",
+      "dependencies": [
+        "0B56867656A040B1"
+      ],
+      "tasks": [
+        {
+          "id": "0F7F5251AFB6FB1D",
+          "type": "structure",
+          "structure": "deeperdarker:ancient_temple"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0297E997C536397C",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0B56867656A040B1",
+      "title": "Deeper and Darker",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Deeper and Darker. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 7.14,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "02F186C6B81ED8FD",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "096DDA6F20EF3843",
+      "title": "Dungeon",
+      "subtitle": "",
+      "description": [
+        "Enter the dungeon structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 54.29,
+      "shape": "circle",
+      "dependencies": [
+        "0400E408E91A8386"
+      ],
+      "tasks": [
+        {
+          "id": "034B023517254AFA",
+          "type": "structure",
+          "structure": "dungeoncrawl:dungeon"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09DD16DED8B31FA8",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0400E408E91A8386",
+      "title": "Dungeon Crawl",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Dungeon Crawl. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 54.29,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0031B058DBEB1B5A",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "077424A160821580",
+      "title": "Corrupted Blade",
+      "subtitle": "",
+      "description": [
+        "Obtain this item during your travels and inspect its uses in JEI."
+      ],
+      "icon": "endermanoverhaul:corrupted_blade",
+      "x": 2.86,
+      "y": 34.29,
+      "shape": "circle",
+      "dependencies": [
+        "04ED972B6733EF47"
+      ],
+      "tasks": [
+        {
+          "id": "03838E035983C00B",
+          "type": "item",
+          "item": "endermanoverhaul:corrupted_blade",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F390A4582FD23FC",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0A999BF28C7D2604",
+      "title": "Corrupted Shield",
+      "subtitle": "",
+      "description": [
+        "Obtain this item during your travels and inspect its uses in JEI."
+      ],
+      "icon": "endermanoverhaul:corrupted_shield",
+      "x": 4.29,
+      "y": 34.29,
+      "shape": "circle",
+      "dependencies": [
+        "077424A160821580"
+      ],
+      "tasks": [
+        {
+          "id": "05C2484202AA676F",
+          "type": "item",
+          "item": "endermanoverhaul:corrupted_shield",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "08C3F745BE7E3084",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "04ED972B6733EF47",
+      "title": "Enderman Overhaul",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Enderman Overhaul. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "endermanoverhaul:corrupted_blade",
+      "x": 1.43,
+      "y": 34.29,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "09CAFE6087DB9A47",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "00645C9573F9572A",
+      "title": "Field notes",
+      "subtitle": "",
+      "description": [
+        "Explore the features added by Guard Villagers and record one useful discovery. This is a manual objective; mark it after trying the feature."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 2.86,
+      "y": 31.43,
+      "shape": "square",
+      "dependencies": [
+        "0780005D6B827260"
+      ],
+      "tasks": [
+        {
+          "id": "00330D4792D7E558",
+          "type": "checkmark",
+          "title": "I have tested this feature"
+        }
+      ]
+    },
+    {
+      "id": "0780005D6B827260",
+      "title": "Guard Villagers",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Guard Villagers. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 1.43,
+      "y": 31.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0C5179023B5AD45A",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "044EC43112A6E480",
+      "title": "Hull",
+      "subtitle": "",
+      "description": [
+        "Obtain this item during your travels and inspect its uses in JEI."
+      ],
+      "icon": "immersive_aircraft:hull",
+      "x": 2.86,
+      "y": 40.0,
+      "shape": "circle",
+      "dependencies": [
+        "02A2D1F099E55E02"
+      ],
+      "tasks": [
+        {
+          "id": "00DF52D78EFFFD6C",
+          "type": "item",
+          "item": "immersive_aircraft:hull",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E24B39D9F40A1C5",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0AC04D4AE11506DA",
+      "title": "Sail",
+      "subtitle": "",
+      "description": [
+        "Obtain this item during your travels and inspect its uses in JEI."
+      ],
+      "icon": "immersive_aircraft:sail",
+      "x": 4.29,
+      "y": 40.0,
+      "shape": "circle",
+      "dependencies": [
+        "044EC43112A6E480"
+      ],
+      "tasks": [
+        {
+          "id": "0428097F711A2D22",
+          "type": "item",
+          "item": "immersive_aircraft:sail",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0FC56AA2A3EAA6D1",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "09FCC42E5EBC7C17",
+      "title": "Boiler",
+      "subtitle": "",
+      "description": [
+        "Obtain this item during your travels and inspect its uses in JEI."
+      ],
+      "icon": "immersive_aircraft:boiler",
+      "x": 5.71,
+      "y": 40.0,
+      "shape": "circle",
+      "dependencies": [
+        "0AC04D4AE11506DA"
+      ],
+      "tasks": [
+        {
+          "id": "013B4DE7DF5DDEA2",
+          "type": "item",
+          "item": "immersive_aircraft:boiler",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "06035E57B9BAB90D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "02A2D1F099E55E02",
+      "title": "Immersive Aircraft",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Immersive Aircraft. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "immersive_aircraft:hull",
+      "x": 1.43,
+      "y": 40.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "054B80AAE3825446",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0D8ED2976CE9615B",
+      "title": "Abandoned Tower",
+      "subtitle": "",
+      "description": [
+        "Enter the abandoned tower structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "01517794F311EFC3"
+      ],
+      "tasks": [
+        {
+          "id": "08370C0D894457F4",
+          "type": "structure",
+          "structure": "incendium:abandoned_tower"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E4F6FECE030B149",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0BEF6E8D8DFDCCAD",
+      "title": "Forbidden Castle",
+      "subtitle": "",
+      "description": [
+        "Enter the forbidden castle structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0D8ED2976CE9615B"
+      ],
+      "tasks": [
+        {
+          "id": "0449640B4F6B62B0",
+          "type": "structure",
+          "structure": "incendium:forbidden_castle"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "058A7200B111D6E7",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0CDCF131F9488285",
+      "title": "Infernal Altar",
+      "subtitle": "",
+      "description": [
+        "Enter the infernal altar structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0BEF6E8D8DFDCCAD"
+      ],
+      "tasks": [
+        {
+          "id": "052940B0C5F13DD2",
+          "type": "structure",
+          "structure": "incendium:infernal_altar"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "00911B030B1EAB84",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "01517794F311EFC3",
+      "title": "Incendium Legacy",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Incendium Legacy. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 1.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "09A0FC63CA9A7385",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "03546427D464CFAB",
+      "title": "Loot for everyone",
+      "subtitle": "",
+      "description": [
+        "Open a marked loot container. With another player, confirm that each player receives their own contents. This is a manual objective; mark it after trying the feature."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 2.86,
+      "y": 35.71,
+      "shape": "square",
+      "dependencies": [
+        "0AA01E4CEC277FB3"
+      ],
+      "tasks": [
+        {
+          "id": "0DAF4C361DEC26E1",
+          "type": "checkmark",
+          "title": "I have tested this feature"
+        }
+      ]
+    },
+    {
+      "id": "0AA01E4CEC277FB3",
+      "title": "Lootr",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Lootr. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 1.43,
+      "y": 35.71,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0EFB2768AD42D73E",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "09CAB58C868AE622",
+      "title": "Acropolis",
+      "subtitle": "",
+      "description": [
+        "Locate and enter the Acropolis. Prepare armor, food and a return route; these sites contain dangerous enemies."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 42.86,
+      "shape": "circle",
+      "dependencies": [
+        "0FA492AEF0AADCFD"
+      ],
+      "tasks": [
+        {
+          "id": "0BF63FA2451AEBFB",
+          "type": "structure",
+          "structure": "cataclysm:acropolis"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0007CB7C74817B0B",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "06B1162067CD0EA1",
+      "title": "Ancient Factory",
+      "subtitle": "",
+      "description": [
+        "Locate and enter the Ancient Factory. Prepare armor, food and a return route; these sites contain dangerous enemies."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 42.86,
+      "shape": "circle",
+      "dependencies": [
+        "09CAB58C868AE622"
+      ],
+      "tasks": [
+        {
+          "id": "095CE02022A080E8",
+          "type": "structure",
+          "structure": "cataclysm:ancient_factory"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D14D42AD8EE5F10",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "02BEA8B956958BC5",
+      "title": "Burning Arena",
+      "subtitle": "",
+      "description": [
+        "Locate and enter the Burning Arena. Prepare armor, food and a return route; these sites contain dangerous enemies."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 42.86,
+      "shape": "circle",
+      "dependencies": [
+        "06B1162067CD0EA1"
+      ],
+      "tasks": [
+        {
+          "id": "0AEDDC990B428C1F",
+          "type": "structure",
+          "structure": "cataclysm:burning_arena"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04C047F3CE81D0CF",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0FA492AEF0AADCFD",
+      "title": "L_Ender's Cataclysm",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces L_Ender's Cataclysm. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 42.86,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0E3932ED77E716DD",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "00203D4753889063",
+      "title": "Frostmaw Spawn",
+      "subtitle": "",
+      "description": [
+        "Enter the frostmaw spawn structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 47.14,
+      "shape": "circle",
+      "dependencies": [
+        "0558EDF23B3D8CA2"
+      ],
+      "tasks": [
+        {
+          "id": "0CF17A8095358151",
+          "type": "structure",
+          "structure": "mowziesmobs:frostmaw_spawn"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "097142FC881DCEF8",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0FA2A3B828A0BD17",
+      "title": "Monastery",
+      "subtitle": "",
+      "description": [
+        "Enter the monastery structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 47.14,
+      "shape": "circle",
+      "dependencies": [
+        "00203D4753889063"
+      ],
+      "tasks": [
+        {
+          "id": "0B6767F30B211B6D",
+          "type": "structure",
+          "structure": "mowziesmobs:monastery"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "00A09C3C9DBB129E",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "07E8C73E6EDB5C68",
+      "title": "Umvuthana Grove",
+      "subtitle": "",
+      "description": [
+        "Enter the umvuthana grove structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 47.14,
+      "shape": "circle",
+      "dependencies": [
+        "0FA2A3B828A0BD17"
+      ],
+      "tasks": [
+        {
+          "id": "09ADDEA58E211F1B",
+          "type": "structure",
+          "structure": "mowziesmobs:umvuthana_grove"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04C2C0907C82E735",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0558EDF23B3D8CA2",
+      "title": "Mowzie's Mobs",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Mowzie's Mobs. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 47.14,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "07C2136185056FE2",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "09423435F5DFE5FC",
+      "title": "Bug Net",
+      "subtitle": "",
+      "description": [
+        "Obtain this item during your travels and inspect its uses in JEI."
+      ],
+      "icon": "naturalist:bug_net",
+      "x": 2.86,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "01861B907EA1010F"
+      ],
+      "tasks": [
+        {
+          "id": "02CC88566D2E27B8",
+          "type": "item",
+          "item": "naturalist:bug_net",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05A269C6330C71EB",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0CD5BB99B9E2C851",
+      "title": "Glow Goop",
+      "subtitle": "",
+      "description": [
+        "Obtain this item during your travels and inspect its uses in JEI."
+      ],
+      "icon": "naturalist:glow_goop",
+      "x": 4.29,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "09423435F5DFE5FC"
+      ],
+      "tasks": [
+        {
+          "id": "0DE046DFC8C57802",
+          "type": "item",
+          "item": "naturalist:glow_goop",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D68B573BFE4F3AA",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "039E0FC2FC61CBE8",
+      "title": "Cooked Egg",
+      "subtitle": "",
+      "description": [
+        "Obtain this item during your travels and inspect its uses in JEI."
+      ],
+      "icon": "naturalist:cooked_egg",
+      "x": 5.71,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "0CD5BB99B9E2C851"
+      ],
+      "tasks": [
+        {
+          "id": "0A889C25D3B70A04",
+          "type": "item",
+          "item": "naturalist:cooked_egg",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09CF32AA29E367A0",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "01861B907EA1010F",
+      "title": "Naturalist",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Naturalist. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "naturalist:bug_net",
+      "x": 1.43,
+      "y": 30.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0D98405686662333",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "00DFA678A557DC1F",
+      "title": "Dragon Skeleton",
+      "subtitle": "",
+      "description": [
+        "Enter the dragon skeleton structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "0B2D0B1486748AFF"
+      ],
+      "tasks": [
+        {
+          "id": "019EA22F07AE67A5",
+          "type": "structure",
+          "structure": "nullscape:dragon_skeleton"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DC9AB1071FC7BBB",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0B2D0B1486748AFF",
+      "title": "Nullscape",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Nullscape. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 2.86,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0B4E54ACFBCDE463",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0E180A124443B9A4",
+      "title": "Ancient City End",
+      "subtitle": "",
+      "description": [
+        "Enter the ancient city end structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 44.29,
+      "shape": "circle",
+      "dependencies": [
+        "00027094D5A01ABF"
+      ],
+      "tasks": [
+        {
+          "id": "0219BCDEFBDFC067",
+          "type": "structure",
+          "structure": "repurposed_structures:ancient_city_end"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D0C399C6FEDF601",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0B2750664D9FF0DF",
+      "title": "Ancient City Nether",
+      "subtitle": "",
+      "description": [
+        "Enter the ancient city nether structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 44.29,
+      "shape": "circle",
+      "dependencies": [
+        "0E180A124443B9A4"
+      ],
+      "tasks": [
+        {
+          "id": "0C6E4D96AD95AD3D",
+          "type": "structure",
+          "structure": "repurposed_structures:ancient_city_nether"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A4D3E3FFDDFB4FA",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "044EE81A5D424C24",
+      "title": "Ancient City Ocean",
+      "subtitle": "",
+      "description": [
+        "Enter the ancient city ocean structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 44.29,
+      "shape": "circle",
+      "dependencies": [
+        "0B2750664D9FF0DF"
+      ],
+      "tasks": [
+        {
+          "id": "08478D4DD1122CAF",
+          "type": "structure",
+          "structure": "repurposed_structures:ancient_city_ocean"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B517701889BAD83",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "00027094D5A01ABF",
+      "title": "Repurposed Structures - Neoforge/Forge",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Repurposed Structures - Neoforge/Forge. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 44.29,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "046050667AE34D17",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0D576E22B214E759",
+      "title": "Ship Cannon",
+      "subtitle": "",
+      "description": [
+        "Obtain this item during your travels and inspect its uses in JEI."
+      ],
+      "icon": "smallships:cannon",
+      "x": 2.86,
+      "y": 41.43,
+      "shape": "circle",
+      "dependencies": [
+        "0A65D3082556E08D"
+      ],
+      "tasks": [
+        {
+          "id": "00F46FDDBB0B9F57",
+          "type": "item",
+          "item": "smallships:cannon",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07365C98E26637EA",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "069FEC4160273BD4",
+      "title": "Dockyard",
+      "subtitle": "",
+      "description": [
+        "Obtain this item during your travels and inspect its uses in JEI."
+      ],
+      "icon": "smallships:dockyard",
+      "x": 4.29,
+      "y": 41.43,
+      "shape": "circle",
+      "dependencies": [
+        "0D576E22B214E759"
+      ],
+      "tasks": [
+        {
+          "id": "054550CA229DD5C4",
+          "type": "item",
+          "item": "smallships:dockyard",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "01D832134980F7D8",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "02CC2B762A667273",
+      "title": "Grape Shot",
+      "subtitle": "",
+      "description": [
+        "Obtain this item during your travels and inspect its uses in JEI."
+      ],
+      "icon": "smallships:grape_shot",
+      "x": 5.71,
+      "y": 41.43,
+      "shape": "circle",
+      "dependencies": [
+        "069FEC4160273BD4"
+      ],
+      "tasks": [
+        {
+          "id": "00BA106D3C695F1C",
+          "type": "item",
+          "item": "smallships:grape_shot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "02BD246CB161FE74",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0A65D3082556E08D",
+      "title": "Small Ships",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Small Ships. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "smallships:cannon",
+      "x": 1.43,
+      "y": 41.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0BCAC16C12B78A52",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0FC4FE91F7CFF4AC",
+      "title": "Cartouche / Red Sandstone Cartouche Monument",
+      "subtitle": "",
+      "description": [
+        "Enter the cartouche/red sandstone cartouche monument structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 57.14,
+      "shape": "circle",
+      "dependencies": [
+        "062B972195D9351F"
+      ],
+      "tasks": [
+        {
+          "id": "06646B5A7CC02649",
+          "type": "structure",
+          "structure": "common_stargates:cartouche/red_sandstone_cartouche_monument"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05894F0FC953783F",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "042555F8CC9C8DF5",
+      "title": "Cartouche / Sandstone Cartouche Monument",
+      "subtitle": "",
+      "description": [
+        "Enter the cartouche/sandstone cartouche monument structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 57.14,
+      "shape": "circle",
+      "dependencies": [
+        "0FC4FE91F7CFF4AC"
+      ],
+      "tasks": [
+        {
+          "id": "0201E34E464910C4",
+          "type": "structure",
+          "structure": "common_stargates:cartouche/sandstone_cartouche_monument"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "019F018AE07950CF",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0DBB53D877D01168",
+      "title": "Cartouche / Stone Cartouche Monument",
+      "subtitle": "",
+      "description": [
+        "Enter the cartouche/stone cartouche monument structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 57.14,
+      "shape": "circle",
+      "dependencies": [
+        "042555F8CC9C8DF5"
+      ],
+      "tasks": [
+        {
+          "id": "0B328F1393C683F1",
+          "type": "structure",
+          "structure": "common_stargates:cartouche/stone_cartouche_monument"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0187EBD007748C3E",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "062B972195D9351F",
+      "title": "Stargate Journey",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Stargate Journey. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 57.14,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "00E5D6A569877292",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "021392505CD753DF",
+      "title": "Desert Outpost",
+      "subtitle": "",
+      "description": [
+        "Enter the desert outpost structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0FAFB1D16C14733A"
+      ],
+      "tasks": [
+        {
+          "id": "0A8443594363A8EA",
+          "type": "structure",
+          "structure": "terralith:desert_outpost"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0ECEDAAF317B607A",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0DA9619E7AC2FCB2",
+      "title": "Fortified Desert Village",
+      "subtitle": "",
+      "description": [
+        "Enter the fortified desert village structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "021392505CD753DF"
+      ],
+      "tasks": [
+        {
+          "id": "09939FDC31E45F29",
+          "type": "structure",
+          "structure": "terralith:fortified_desert_village"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0FB49C686E1032C3",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0F830C469FD9729E",
+      "title": "Fortified Village",
+      "subtitle": "",
+      "description": [
+        "Enter the fortified village structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0DA9619E7AC2FCB2"
+      ],
+      "tasks": [
+        {
+          "id": "015C046A0614E88B",
+          "type": "structure",
+          "structure": "terralith:fortified_village"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0AE40E6B5F2C9D2B",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0FAFB1D16C14733A",
+      "title": "Terralith",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Terralith. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "08C852CA7F8BBB53",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "042FDF5DF6044A4B",
+      "title": "Ancient Hoops",
+      "subtitle": "",
+      "description": [
+        "Enter the ancient hoops structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 5.71,
+      "shape": "circle",
+      "dependencies": [
+        "04EEF63ADBC98FCB"
+      ],
+      "tasks": [
+        {
+          "id": "0A1D92EBB093D4B1",
+          "type": "structure",
+          "structure": "the_bumblezone:ancient_hoops"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0AEFD8180A5EA8AD",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "062FA834E3CF775C",
+      "title": "Ancient Shrine",
+      "subtitle": "",
+      "description": [
+        "Enter the ancient shrine structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 5.71,
+      "shape": "circle",
+      "dependencies": [
+        "042FDF5DF6044A4B"
+      ],
+      "tasks": [
+        {
+          "id": "0616BD40DBE0CE4A",
+          "type": "structure",
+          "structure": "the_bumblezone:ancient_shrine"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03BA2073BF236534",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0650612DE6A1A06E",
+      "title": "Battle Cubes",
+      "subtitle": "",
+      "description": [
+        "Enter the battle cubes structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 5.71,
+      "shape": "circle",
+      "dependencies": [
+        "062FA834E3CF775C"
+      ],
+      "tasks": [
+        {
+          "id": "08C0B05D7A28C7EC",
+          "type": "structure",
+          "structure": "the_bumblezone:battle_cubes"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0CDC90C23711A653",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "04EEF63ADBC98FCB",
+      "title": "The Bumblezone - NeoForge/Forge",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces The Bumblezone - NeoForge/Forge. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 5.71,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0615CDD6EF96B218",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0522A47DB109671E",
+      "title": "Altar",
+      "subtitle": "",
+      "description": [
+        "Enter the altar structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 58.57,
+      "shape": "circle",
+      "dependencies": [
+        "07E333639C8DF07F"
+      ],
+      "tasks": [
+        {
+          "id": "063F00AF822996AD",
+          "type": "structure",
+          "structure": "graveyard:altar"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "009B59FE0F901275",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0F5D13412EA40116",
+      "title": "Crypt",
+      "subtitle": "",
+      "description": [
+        "Enter the crypt structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 58.57,
+      "shape": "circle",
+      "dependencies": [
+        "0522A47DB109671E"
+      ],
+      "tasks": [
+        {
+          "id": "00715B859229E683",
+          "type": "structure",
+          "structure": "graveyard:crypt"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "06E31CE400C5783B",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0C9C13D903CA9882",
+      "title": "Dead Tree",
+      "subtitle": "",
+      "description": [
+        "Enter the dead tree structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 58.57,
+      "shape": "circle",
+      "dependencies": [
+        "0F5D13412EA40116"
+      ],
+      "tasks": [
+        {
+          "id": "0AC2C3A9D7DDA04C",
+          "type": "structure",
+          "structure": "graveyard:dead_tree"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0736A50470756BFB",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "07E333639C8DF07F",
+      "title": "The Graveyard (Forge)",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces The Graveyard (Forge). Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 58.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "047EC4194805198E",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "01505424DD73668E",
+      "title": "Exclusives / Pillager Outpost Classic",
+      "subtitle": "",
+      "description": [
+        "Enter the exclusives/pillager outpost classic structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 28.57,
+      "shape": "circle",
+      "dependencies": [
+        "0421FA5A4A5E85F0"
+      ],
+      "tasks": [
+        {
+          "id": "0C69DA6CD780EA06",
+          "type": "structure",
+          "structure": "towns_and_towers:exclusives/pillager_outpost_classic"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05806D723D22DEA5",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "02271792ACA3DB45",
+      "title": "Exclusives / Pillager Outpost Iberian",
+      "subtitle": "",
+      "description": [
+        "Enter the exclusives/pillager outpost iberian structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 28.57,
+      "shape": "circle",
+      "dependencies": [
+        "01505424DD73668E"
+      ],
+      "tasks": [
+        {
+          "id": "0491620A14B3C5B2",
+          "type": "structure",
+          "structure": "towns_and_towers:exclusives/pillager_outpost_iberian"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07DA60BD8B391C6D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0FFC3682BDAA2C83",
+      "title": "Exclusives / Pillager Outpost Mediterranean",
+      "subtitle": "",
+      "description": [
+        "Enter the exclusives/pillager outpost mediterranean structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 28.57,
+      "shape": "circle",
+      "dependencies": [
+        "02271792ACA3DB45"
+      ],
+      "tasks": [
+        {
+          "id": "09A63C8DD2737F8B",
+          "type": "structure",
+          "structure": "towns_and_towers:exclusives/pillager_outpost_mediterranean"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A7A6F11A1C2AE7F",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0421FA5A4A5E85F0",
+      "title": "Towns and Towers",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Towns and Towers. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 28.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "07FE7F09ABB4F06B",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0A754381126522F5",
+      "title": "Aurora Palace",
+      "subtitle": "",
+      "description": [
+        "Enter the aurora palace structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 48.57,
+      "shape": "circle",
+      "dependencies": [
+        "0BBDD123BF4A1E9F"
+      ],
+      "tasks": [
+        {
+          "id": "0371A02FE0C4D923",
+          "type": "structure",
+          "structure": "twilightforest:aurora_palace"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "06CB5D7C1C3DACD2",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "08EB496F96E45734",
+      "title": "Dark Tower",
+      "subtitle": "",
+      "description": [
+        "Enter the dark tower structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 48.57,
+      "shape": "circle",
+      "dependencies": [
+        "0A754381126522F5"
+      ],
+      "tasks": [
+        {
+          "id": "0280CF981D1A811D",
+          "type": "structure",
+          "structure": "twilightforest:dark_tower"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0086C4E41CE45164",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0DB766EE5BAE91E4",
+      "title": "Final Castle",
+      "subtitle": "",
+      "description": [
+        "Enter the final castle structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 48.57,
+      "shape": "circle",
+      "dependencies": [
+        "08EB496F96E45734"
+      ],
+      "tasks": [
+        {
+          "id": "07E843A7D8E74657",
+          "type": "structure",
+          "structure": "twilightforest:final_castle"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "044B27767F3317E0",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0BBDD123BF4A1E9F",
+      "title": "The Twilight Forest",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces The Twilight Forest. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 48.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "03449C4B926D3112",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "042DDA0299CDFB2D",
+      "title": "Catacombs",
+      "subtitle": "",
+      "description": [
+        "Enter the catacombs structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 50.0,
+      "shape": "circle",
+      "dependencies": [
+        "02EFA6DEE08B8B6C"
+      ],
+      "tasks": [
+        {
+          "id": "05C31176A8097E20",
+          "type": "structure",
+          "structure": "undergarden:catacombs"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09C5F71E97D21B57",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "00F802F74909C794",
+      "title": "Forgotten Vestige",
+      "subtitle": "",
+      "description": [
+        "Enter the forgotten vestige structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 50.0,
+      "shape": "circle",
+      "dependencies": [
+        "042DDA0299CDFB2D"
+      ],
+      "tasks": [
+        {
+          "id": "00224D8826A1B520",
+          "type": "structure",
+          "structure": "undergarden:forgotten_vestige"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0BD93812C9D5DFB3",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "02EFA6DEE08B8B6C",
+      "title": "The Undergarden",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces The Undergarden. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 50.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "023202CCD7CC8423",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0BD83C75FAE1C8C4",
+      "title": "Abandoned Temple",
+      "subtitle": "",
+      "description": [
+        "Enter the abandoned temple structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 11.43,
+      "shape": "circle",
+      "dependencies": [
+        "0AC8AE96E9972E88"
+      ],
+      "tasks": [
+        {
+          "id": "043FC8D000091EFA",
+          "type": "structure",
+          "structure": "dungeons_arise:abandoned_temple"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "013907D2132D6DCF",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "056953C141CBD7F6",
+      "title": "Aviary",
+      "subtitle": "",
+      "description": [
+        "Enter the aviary structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 11.43,
+      "shape": "circle",
+      "dependencies": [
+        "0BD83C75FAE1C8C4"
+      ],
+      "tasks": [
+        {
+          "id": "00861723B3786D12",
+          "type": "structure",
+          "structure": "dungeons_arise:aviary"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "01F3E50FD304DDCF",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0C73EDCFAB45A3F4",
+      "title": "Bandit Towers",
+      "subtitle": "",
+      "description": [
+        "Enter the bandit towers structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 11.43,
+      "shape": "circle",
+      "dependencies": [
+        "056953C141CBD7F6"
+      ],
+      "tasks": [
+        {
+          "id": "07DFBCAEA0DBF6C2",
+          "type": "structure",
+          "structure": "dungeons_arise:bandit_towers"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0BC7ABA6B663B687",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0AC8AE96E9972E88",
+      "title": "When Dungeons Arise",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces When Dungeons Arise. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 11.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0F059A1772E9BF84",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "04F89EFF2EC22A3F",
+      "title": "Desert Temple",
+      "subtitle": "",
+      "description": [
+        "Enter the desert temple structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 17.14,
+      "shape": "circle",
+      "dependencies": [
+        "0FC8C72179E25956"
+      ],
+      "tasks": [
+        {
+          "id": "05E535320439AD77",
+          "type": "structure",
+          "structure": "betterdeserttemples:desert_temple"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0AF9257B620ED745",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0FC8C72179E25956",
+      "title": "YUNG's Better Desert Temples",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces YUNG's Better Desert Temples. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 17.14,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0F1332F56C193314",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0FB4670934BD490B",
+      "title": "Skeleton Dungeon",
+      "subtitle": "",
+      "description": [
+        "Enter the skeleton dungeon structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 14.29,
+      "shape": "circle",
+      "dependencies": [
+        "03BE93BECBB2488E"
+      ],
+      "tasks": [
+        {
+          "id": "074F93713A1A3605",
+          "type": "structure",
+          "structure": "betterdungeons:skeleton_dungeon"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A195E2DF3571FD4",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "05A3E8E22BFDC573",
+      "title": "Small Dungeon",
+      "subtitle": "",
+      "description": [
+        "Enter the small dungeon structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 14.29,
+      "shape": "circle",
+      "dependencies": [
+        "0FB4670934BD490B"
+      ],
+      "tasks": [
+        {
+          "id": "01D057C4AD9011BB",
+          "type": "structure",
+          "structure": "betterdungeons:small_dungeon"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "091934B376CCCDD6",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0274F9B749E6C930",
+      "title": "Small Nether Dungeon",
+      "subtitle": "",
+      "description": [
+        "Enter the small nether dungeon structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 14.29,
+      "shape": "circle",
+      "dependencies": [
+        "05A3E8E22BFDC573"
+      ],
+      "tasks": [
+        {
+          "id": "09F24A7EEB0046C4",
+          "type": "structure",
+          "structure": "betterdungeons:small_nether_dungeon"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04911A2F6A636A20",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "03BE93BECBB2488E",
+      "title": "YUNG's Better Dungeons",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces YUNG's Better Dungeons. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 14.29,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0FBBFB547762B708",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "00E136E9A88F1A76",
+      "title": "The central island",
+      "subtitle": "",
+      "description": [
+        "Visit the central End island and inspect the redesigned approach. Prepare for the dragon before arriving. This is a manual objective; mark it after trying the feature."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 2.86,
+      "y": 24.29,
+      "shape": "square",
+      "dependencies": [
+        "02D166B3AFF7B88E"
+      ],
+      "tasks": [
+        {
+          "id": "0364F7C3BAA30EC5",
+          "type": "checkmark",
+          "title": "I have tested this feature"
+        }
+      ]
+    },
+    {
+      "id": "02D166B3AFF7B88E",
+      "title": "YUNG's Better End Island",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces YUNG's Better End Island. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 1.43,
+      "y": 24.29,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0B1FE56FFF4EB059",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "03A71BC3483D8789",
+      "title": "Jungle Temple",
+      "subtitle": "",
+      "description": [
+        "Enter the jungle temple structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 18.57,
+      "shape": "circle",
+      "dependencies": [
+        "0B2839214E086B2A"
+      ],
+      "tasks": [
+        {
+          "id": "0FFBB21CE305146F",
+          "type": "structure",
+          "structure": "betterjungletemples:jungle_temple"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D3ACBE390F7F9F5",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0B2839214E086B2A",
+      "title": "YUNG's Better Jungle Temples",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces YUNG's Better Jungle Temples. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 18.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0AA769D86FA8446C",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "030B0D1B39718F28",
+      "title": "Mineshaft Acacia",
+      "subtitle": "",
+      "description": [
+        "Enter the mineshaft acacia structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 12.86,
+      "shape": "circle",
+      "dependencies": [
+        "0487141C88EB3B70"
+      ],
+      "tasks": [
+        {
+          "id": "0DC8C1D05506D718",
+          "type": "structure",
+          "structure": "bettermineshafts:mineshaft_acacia"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B97193A2C9687FC",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0D245F87BC09A0CB",
+      "title": "Mineshaft Desert",
+      "subtitle": "",
+      "description": [
+        "Enter the mineshaft desert structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 12.86,
+      "shape": "circle",
+      "dependencies": [
+        "030B0D1B39718F28"
+      ],
+      "tasks": [
+        {
+          "id": "00E96D51F8DEB1A4",
+          "type": "structure",
+          "structure": "bettermineshafts:mineshaft_desert"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0910398AC3147A83",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "066002112B325717",
+      "title": "Mineshaft Dripstone",
+      "subtitle": "",
+      "description": [
+        "Enter the mineshaft dripstone structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 12.86,
+      "shape": "circle",
+      "dependencies": [
+        "0D245F87BC09A0CB"
+      ],
+      "tasks": [
+        {
+          "id": "01885A1FBCE1EBED",
+          "type": "structure",
+          "structure": "bettermineshafts:mineshaft_dripstone"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0215DFC6FD4B3F06",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0487141C88EB3B70",
+      "title": "YUNG's Better Mineshafts",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces YUNG's Better Mineshafts. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 12.86,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0114F8A7A43CE84E",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "005C50EB51F0624A",
+      "title": "Fortress",
+      "subtitle": "",
+      "description": [
+        "Enter the fortress structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 21.43,
+      "shape": "circle",
+      "dependencies": [
+        "04C86411B70B104A"
+      ],
+      "tasks": [
+        {
+          "id": "071118EDFE16A5F0",
+          "type": "structure",
+          "structure": "betterfortresses:fortress"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E3C9C748D26E671",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "04C86411B70B104A",
+      "title": "YUNG's Better Nether Fortresses",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces YUNG's Better Nether Fortresses. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 21.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "05BD66549CD2E735",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "036C895DA9135E42",
+      "title": "Ocean Monument",
+      "subtitle": "",
+      "description": [
+        "Enter the ocean monument structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 20.0,
+      "shape": "circle",
+      "dependencies": [
+        "0AB112BD4F73FF51"
+      ],
+      "tasks": [
+        {
+          "id": "01DC726943A04A02",
+          "type": "structure",
+          "structure": "betteroceanmonuments:ocean_monument"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E3652C60401E5D2",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0AB112BD4F73FF51",
+      "title": "YUNG's Better Ocean Monuments",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces YUNG's Better Ocean Monuments. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 20.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0039BD1E0BACB454",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0297978169615896",
+      "title": "Stronghold",
+      "subtitle": "",
+      "description": [
+        "Enter the stronghold structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 15.71,
+      "shape": "circle",
+      "dependencies": [
+        "0A3548806AFE2462"
+      ],
+      "tasks": [
+        {
+          "id": "0E891E45D4A4D35E",
+          "type": "structure",
+          "structure": "betterstrongholds:stronghold"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E605097DE451F17",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0A3548806AFE2462",
+      "title": "YUNG's Better Strongholds",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces YUNG's Better Strongholds. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 15.71,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "02F1119E68904D28",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0C30A22D24473F98",
+      "title": "Witch Circle",
+      "subtitle": "",
+      "description": [
+        "Enter the witch circle structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 22.86,
+      "shape": "circle",
+      "dependencies": [
+        "0EF46640EA4B2F0B"
+      ],
+      "tasks": [
+        {
+          "id": "06769091C5CF46B5",
+          "type": "structure",
+          "structure": "betterwitchhuts:witch_circle"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "026044AFAE57ADB2",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "05AAD68D15B91805",
+      "title": "Witch Hut",
+      "subtitle": "",
+      "description": [
+        "Enter the witch hut structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 22.86,
+      "shape": "circle",
+      "dependencies": [
+        "0C30A22D24473F98"
+      ],
+      "tasks": [
+        {
+          "id": "08930B9C163D2849",
+          "type": "structure",
+          "structure": "betterwitchhuts:witch_hut"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07F2E620471BECE6",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0EF46640EA4B2F0B",
+      "title": "YUNG's Better Witch Huts",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces YUNG's Better Witch Huts. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 22.86,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0F3EC2AB84C1CDCF",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0BCB1A59F53F60C0",
+      "title": "Field notes",
+      "subtitle": "",
+      "description": [
+        "Explore the features added by YUNG's Bridges and record one useful discovery. This is a manual objective; mark it after trying the feature."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 2.86,
+      "y": 25.71,
+      "shape": "square",
+      "dependencies": [
+        "03E8D20AC98D0620"
+      ],
+      "tasks": [
+        {
+          "id": "00E5EF1291D36934",
+          "type": "checkmark",
+          "title": "I have tested this feature"
+        }
+      ]
+    },
+    {
+      "id": "03E8D20AC98D0620",
+      "title": "YUNG's Bridges",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces YUNG's Bridges. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 1.43,
+      "y": 25.71,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0DCDD7E35F5F7C07",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0E8F0FE9F37AC235",
+      "title": "Field notes",
+      "subtitle": "",
+      "description": [
+        "Explore the features added by YUNG's Extras and record one useful discovery. This is a manual objective; mark it after trying the feature."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 2.86,
+      "y": 27.14,
+      "shape": "square",
+      "dependencies": [
+        "0E9A27FD31461DA9"
+      ],
+      "tasks": [
+        {
+          "id": "04F56A6748FA23B4",
+          "type": "checkmark",
+          "title": "I have tested this feature"
+        }
+      ]
+    },
+    {
+      "id": "0E9A27FD31461DA9",
+      "title": "YUNG's Extras",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces YUNG's Extras. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 1.43,
+      "y": 27.14,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0A1ED4BA118B2225",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

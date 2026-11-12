@@ -418,10 +418,10 @@
     },
     {
       "id": "0BEF8248754EDEB6",
-      "title": "Ars Énergistique",
+      "title": "Ars Ã‰nergistique",
       "subtitle": "Optional branch",
       "description": [
-        "This optional branch introduces Ars Énergistique. Follow its connected goals when it fits your current project.",
+        "This optional branch introduces Ars Ã‰nergistique. Follow its connected goals when it fits your current project.",
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "arseng:portable_source_cell_1k",

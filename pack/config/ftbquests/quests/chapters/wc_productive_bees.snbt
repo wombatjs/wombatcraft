@@ -1,0 +1,945 @@
+{
+  "id": "2A333DE524053FA6",
+  "title": "Productive Bees",
+  "group": "0E249DD4723B0E70",
+  "order_index": 25,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "3EF41A7BD72FC8B7",
+      "title": "Bee Cage",
+      "subtitle": "The beekeeper's kit",
+      "description": [
+        "Find wild bees in their preferred habitats. Prepare a hive and the correct flowering material before bringing them home."
+      ],
+      "icon": "productivebees:bee_cage",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "2DC2D3844424E2E6",
+          "type": "item",
+          "item": "productivebees:bee_cage",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "B8FC83BD747672F4",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "2996B21F4F54BD73",
+      "title": "Nest Locator",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:nest_locator",
+      "x": 2.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "3EF41A7BD72FC8B7"
+      ],
+      "tasks": [
+        {
+          "id": "5189060D4534E33D",
+          "type": "item",
+          "item": "productivebees:nest_locator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "14A8E6252D182781",
+      "title": "Honey Treat",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:honey_treat",
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "2996B21F4F54BD73"
+      ],
+      "tasks": [
+        {
+          "id": "0B9CD70042B86026",
+          "type": "item",
+          "item": "productivebees:honey_treat",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "35A24D971A992C4D",
+      "title": "Sturdy Bee Cage",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:sturdy_bee_cage",
+      "x": 6.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "14A8E6252D182781"
+      ],
+      "tasks": [
+        {
+          "id": "E8248960FEE629E8",
+          "type": "item",
+          "item": "productivebees:sturdy_bee_cage",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "CBBCA7AE06065C67",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "3AF37C3A4871245B",
+      "title": "Advanced Oak Beehive",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:advanced_oak_beehive",
+      "x": 8.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "35A24D971A992C4D"
+      ],
+      "tasks": [
+        {
+          "id": "1EF7FE244247EBFE",
+          "type": "item",
+          "item": "productivebees:advanced_oak_beehive",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "89420B03CB278896",
+      "title": "Oak Expansion Box",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:expansion_box_oak",
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "3AF37C3A4871245B"
+      ],
+      "tasks": [
+        {
+          "id": "808A587B7E75486D",
+          "type": "item",
+          "item": "productivebees:expansion_box_oak",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "158A04AFBF46B7A8",
+          "type": "xp",
+          "xp": 30
+        },
+        {
+          "id": "9DCFF597006A7E79",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "0902321970E5E412",
+      "title": "Centrifuge",
+      "subtitle": "Processing the harvest",
+      "description": [
+        "Process combs and collect the honey. Upgrade the line only after the hive has a steady supply of healthy workers."
+      ],
+      "icon": "productivebees:centrifuge",
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "3AF37C3A4871245B"
+      ],
+      "tasks": [
+        {
+          "id": "27B2E9AFE4620FF0",
+          "type": "item",
+          "item": "productivebees:centrifuge",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "F1A99F6E5250BBF4",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "2341CFA93CF13D50",
+      "title": "Powered Centrifuge",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:powered_centrifuge",
+      "x": 2.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "0902321970E5E412"
+      ],
+      "tasks": [
+        {
+          "id": "ED3C69E60569AE4E",
+          "type": "item",
+          "item": "productivebees:powered_centrifuge",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "010EEF4D13E4C86C",
+      "title": "Heated Centrifuge",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:heated_centrifuge",
+      "x": 4.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "2341CFA93CF13D50"
+      ],
+      "tasks": [
+        {
+          "id": "DA4893EEE7F876E2",
+          "type": "item",
+          "item": "productivebees:heated_centrifuge",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5C1EB6A1D2E65253",
+      "title": "Bottler",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:bottler",
+      "x": 6.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "010EEF4D13E4C86C"
+      ],
+      "tasks": [
+        {
+          "id": "3AB915720FE2A086",
+          "type": "item",
+          "item": "productivebees:bottler",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "62803C04A572DC28",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "B59C9BD437121593",
+      "title": "Honey Generator",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:honey_generator",
+      "x": 8.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "5C1EB6A1D2E65253"
+      ],
+      "tasks": [
+        {
+          "id": "CB3C62113E041B17",
+          "type": "item",
+          "item": "productivebees:honey_generator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6B3C261D88531B67",
+          "type": "xp",
+          "xp": 35
+        },
+        {
+          "id": "562463E39548C101",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "FBFBB37D723E30F8",
+      "title": "Feeding Slab",
+      "subtitle": "A protected apiary",
+      "description": [
+        "Control the bees' working area and keep it safe. A feeder makes the flowering layout easier to manage."
+      ],
+      "icon": "productivebees:feeder",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "3AF37C3A4871245B"
+      ],
+      "tasks": [
+        {
+          "id": "748E3741D38B68ED",
+          "type": "item",
+          "item": "productivebees:feeder",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "D93A8F65E3B41D31",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "1E1F6668E9B54750",
+      "title": "Catcher",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:catcher",
+      "x": 2.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "FBFBB37D723E30F8"
+      ],
+      "tasks": [
+        {
+          "id": "FB421DAE1F308CDE",
+          "type": "item",
+          "item": "productivebees:catcher",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "CF4BF48457A2A8FF",
+      "title": "Upgrade Base",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:upgrade_base",
+      "x": 4.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "1E1F6668E9B54750"
+      ],
+      "tasks": [
+        {
+          "id": "7EFC4F111FFE31F3",
+          "type": "item",
+          "item": "productivebees:upgrade_base",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5B4FE095DB844B81",
+      "title": "Upgrade: Range",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:upgrade_range",
+      "x": 6.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "CF4BF48457A2A8FF"
+      ],
+      "tasks": [
+        {
+          "id": "8FAB0A1030555F10",
+          "type": "item",
+          "item": "productivebees:upgrade_range",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "20E93F92AA8D5116",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "BA5385BC4FD99D94",
+      "title": "Upgrade: Filter",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:upgrade_filter",
+      "x": 8.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "5B4FE095DB844B81"
+      ],
+      "tasks": [
+        {
+          "id": "A7DE16FFDE10752F",
+          "type": "item",
+          "item": "productivebees:upgrade_filter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "A51AA7AE7CB6B615",
+      "title": "Upgrade: Anti Teleportation",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:upgrade_anti_teleport",
+      "x": 10.0,
+      "y": 6.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "BA5385BC4FD99D94"
+      ],
+      "tasks": [
+        {
+          "id": "6485C34A3F3769BD",
+          "type": "item",
+          "item": "productivebees:upgrade_anti_teleport",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E23A49936321647",
+          "type": "xp",
+          "xp": 40
+        },
+        {
+          "id": "53046C7789311A0A",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "BDCA919C0A39B829",
+      "title": "Breeding Chamber",
+      "subtitle": "Breeding stock",
+      "description": [
+        "Keep breeding records and preserve useful traits. Test one new pairing before committing the whole apiary."
+      ],
+      "icon": "productivebees:breeding_chamber",
+      "x": 0.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "14A8E6252D182781"
+      ],
+      "tasks": [
+        {
+          "id": "E8403F20084E6263",
+          "type": "item",
+          "item": "productivebees:breeding_chamber",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "F415213FA3BC4AA4",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "95F1B282422C75B2",
+      "title": "BaBee Incubator",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:incubator",
+      "x": 2.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "BDCA919C0A39B829"
+      ],
+      "tasks": [
+        {
+          "id": "5D47A9F6EFE8FD2C",
+          "type": "item",
+          "item": "productivebees:incubator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "80406BB6C85C5931",
+      "title": "Squashed Bee Material",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:gene_bottle",
+      "x": 4.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "95F1B282422C75B2"
+      ],
+      "tasks": [
+        {
+          "id": "BF6166A20C0161BE",
+          "type": "item",
+          "item": "productivebees:gene_bottle",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "414763D7F372039D",
+      "title": "Gene Sample",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:gene",
+      "x": 6.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "80406BB6C85C5931"
+      ],
+      "tasks": [
+        {
+          "id": "B95A436ED44007FC",
+          "type": "item",
+          "item": "productivebees:gene",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "8747D865006A1BA3",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "E6584E21954AAED1",
+      "title": "Gene Indexer",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:gene_indexer",
+      "x": 8.0,
+      "y": 9.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "414763D7F372039D"
+      ],
+      "tasks": [
+        {
+          "id": "CE08A9F6DAC4AE4D",
+          "type": "item",
+          "item": "productivebees:gene_indexer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "763ADF72A82BF496",
+          "type": "xp",
+          "xp": 45
+        },
+        {
+          "id": "83F2193AD571F9F2",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "EBA28ACB8DDBA741",
+      "title": "Upgrade: Productivity Alpha",
+      "subtitle": "A larger harvest",
+      "description": [
+        "Expand the processing line alongside the hives. Simulated production still needs the correct arrangement and supplies."
+      ],
+      "icon": "productivebees:upgrade_productivity",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "CF4BF48457A2A8FF"
+      ],
+      "tasks": [
+        {
+          "id": "C2DAFD1C14E6C1C4",
+          "type": "item",
+          "item": "productivebees:upgrade_productivity",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1728CCCA0B8253A2",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "B3476CCE1B93AB5E",
+      "title": "Upgrade: Productivity Beta",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:upgrade_productivity_2",
+      "x": 2.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "EBA28ACB8DDBA741"
+      ],
+      "tasks": [
+        {
+          "id": "01E59BD057DCFA3D",
+          "type": "item",
+          "item": "productivebees:upgrade_productivity_2",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2BE17959A9D1F86C",
+      "title": "Upgrade: Productivity Gamma",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:upgrade_productivity_3",
+      "x": 4.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "B3476CCE1B93AB5E"
+      ],
+      "tasks": [
+        {
+          "id": "997392B0D9091607",
+          "type": "item",
+          "item": "productivebees:upgrade_productivity_3",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "8C21F90F65D6909D",
+      "title": "Upgrade: Productivity Omega",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:upgrade_productivity_4",
+      "x": 6.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "2BE17959A9D1F86C"
+      ],
+      "tasks": [
+        {
+          "id": "EC0B0C0D9C06CCB7",
+          "type": "item",
+          "item": "productivebees:upgrade_productivity_4",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "A93483FE368DD443",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "75EFC667D090B46D",
+      "title": "Upgrade: Simulator",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:upgrade_simulator",
+      "x": 8.0,
+      "y": 12.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "8C21F90F65D6909D"
+      ],
+      "tasks": [
+        {
+          "id": "31A00A42DBB7B1E1",
+          "type": "item",
+          "item": "productivebees:upgrade_simulator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "CB93BE81EE2376DF",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "8BDE6D53194AB6AD",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "ECA750D40D2CDB38",
+      "title": "Quartz Nest",
+      "subtitle": "Beyond the meadow",
+      "description": [
+        "Some bees belong to distant and dangerous places. Prepare their habitats before beginning the expedition."
+      ],
+      "icon": "productivebees:nether_quartz_nest",
+      "x": 0.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "2996B21F4F54BD73"
+      ],
+      "tasks": [
+        {
+          "id": "1DE90691D24B5EFB",
+          "type": "item",
+          "item": "productivebees:nether_quartz_nest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "009EFA467B14A8BE",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "B943F46BCCE09322",
+      "title": "Nether Gold Nest",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:nether_gold_nest",
+      "x": 2.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "ECA750D40D2CDB38"
+      ],
+      "tasks": [
+        {
+          "id": "3C4B9804ED8D0F25",
+          "type": "item",
+          "item": "productivebees:nether_gold_nest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F47A292A769F372F",
+      "title": "Soul Sand Nest",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:soul_sand_nest",
+      "x": 4.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "B943F46BCCE09322"
+      ],
+      "tasks": [
+        {
+          "id": "A2BEABFA4CCD6B4C",
+          "type": "item",
+          "item": "productivebees:soul_sand_nest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7FE61DD29F32DCD2",
+      "title": "End Stone Nest",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:end_stone_nest",
+      "x": 6.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "F47A292A769F372F"
+      ],
+      "tasks": [
+        {
+          "id": "5ED43F7D7745E64C",
+          "type": "item",
+          "item": "productivebees:end_stone_nest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "FE42660E89200041",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "60CFCD55D34BBB00",
+      "title": "Obsidian Nest",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:obsidian_nest",
+      "x": 8.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "7FE61DD29F32DCD2"
+      ],
+      "tasks": [
+        {
+          "id": "B68FEE641A1CDFD1",
+          "type": "item",
+          "item": "productivebees:obsidian_nest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F4B5F4DCC372DFF2",
+      "title": "Dragon Egg Hive",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:dragon_egg_hive",
+      "x": 10.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "60CFCD55D34BBB00"
+      ],
+      "tasks": [
+        {
+          "id": "738FF27F283CE876",
+          "type": "item",
+          "item": "productivebees:dragon_egg_hive",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "626C62717AB9445B",
+      "title": "Draconic Dust",
+      "subtitle": "",
+      "description": [],
+      "icon": "productivebees:draconic_dust",
+      "x": 12.0,
+      "y": 15.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "F4B5F4DCC372DFF2"
+      ],
+      "tasks": [
+        {
+          "id": "F2D94CE0F6DA5520",
+          "type": "item",
+          "item": "productivebees:draconic_dust",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "96AF124A4B9BCE86",
+          "type": "xp",
+          "xp": 35
+        },
+        {
+          "id": "227E28BB9AB119B6",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "chapter_groups": [
+    {
+      "id": "000BB10F5887BBEC",
+      "title": "Getting Started"
+    },
+    {
+      "id": "0DCB27D2C77209FB",
+      "title": "Technology"
+    },
+    {
+      "id": "065A019E212476CF",
+      "title": "Combat and Magic"
+    },
+    {
+      "id": "00AA8F374274B5F3",
+      "title": "Exploration"
+    },
+    {
+      "id": "0E249DD4723B0E70",
+      "title": "Economy and Settlement"
+    },
+    {
+      "id": "0F095C8E4FA42163",
+      "title": "Convergence"
+    }
+  ]
+}

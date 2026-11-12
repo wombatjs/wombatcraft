@@ -8,10 +8,9 @@
     {
       "id": "0D1E5C99382622A4",
       "title": "Your first capture",
-      "subtitle": "Poké Ball",
+      "subtitle": "PokÃ© Ball",
       "description": [
-        "Choose a starter using Cobblemon's interface, then craft balls and attempt a wild capture.",
-        "Goal: obtain Poké Ball. Keep it in your inventory until the quest records completion."
+        "Choose a starter using Cobblemon's interface, then craft balls and attempt a wild capture."
       ],
       "icon": "cobblemon:poke_ball",
       "x": 2.69,
@@ -42,8 +41,7 @@
       "title": "A place to recover",
       "subtitle": "Healing Machine",
       "description": [
-        "Build a healing machine so your team can recover between expeditions.",
-        "Goal: obtain Healing Machine. Keep it in your inventory until the quest records completion."
+        "Build a healing machine so your team can recover between expeditions."
       ],
       "icon": "cobblemon:healing_machine",
       "x": 3.94,
@@ -74,8 +72,7 @@
       "title": "Room for a growing team",
       "subtitle": "PC",
       "description": [
-        "Set up a PC to organize captured Pokemon and choose a balanced traveling team.",
-        "Goal: obtain PC. Keep it in your inventory until the quest records completion."
+        "Set up a PC to organize captured Pokemon and choose a balanced traveling team."
       ],
       "icon": "cobblemon:pc",
       "x": 5.2,
@@ -106,8 +103,7 @@
       "title": "Broaden your collection",
       "subtitle": "Great Ball",
       "description": [
-        "Prepare improved balls for further exploration. Crafting this ball is the detected goal; making a new capture is your next step.",
-        "Goal: obtain Great Ball. Keep it in your inventory until the quest records completion."
+        "Prepare improved balls for further exploration. Crafting this ball is the detected goal; making a new capture is your next step."
       ],
       "icon": "cobblemon:great_ball",
       "x": 6.46,
@@ -138,8 +134,7 @@
       "title": "A serious expedition",
       "subtitle": "Ultra Ball",
       "description": [
-        "Bring a varied team and a reserve of supplies when searching for rare encounters.",
-        "Goal: obtain Ultra Ball. Keep it in your inventory until the quest records completion."
+        "Bring a varied team and a reserve of supplies when searching for rare encounters."
       ],
       "icon": "cobblemon:ultra_ball",
       "x": 7.71,
@@ -170,8 +165,7 @@
       "title": "Cobblemon",
       "subtitle": "Overview",
       "description": [
-        "An optional creature-collecting path. Train and trade alongside the rest of the pack without making it a requirement for technology or magic.",
-        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+        "An optional creature-collecting path. Train and trade alongside the rest of the pack without making it a requirement for technology or magic."
       ],
       "icon": "cobblemon:poke_ball",
       "x": 1.43,

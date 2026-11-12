@@ -10,8 +10,7 @@
       "title": "A door beyond the wall",
       "subtitle": "Item Ag Dim Minecraft Iron Door",
       "description": [
-        "Learn how dimensional doors and rifts connect spaces before traveling far from safety.",
-        "Goal: obtain Item Ag Dim Minecraft Iron Door. Keep it in your inventory until the quest records completion."
+        "Learn how dimensional doors and rifts connect spaces before traveling far from safety."
       ],
       "icon": "dimdoors:item_ag_dim_minecraft_iron_door",
       "x": 2.69,
@@ -42,8 +41,7 @@
       "title": "Keep control of the rifts",
       "subtitle": "Rift Remover",
       "description": [
-        "Prepare a way to manage unwanted rifts and read the item's instructions before using it.",
-        "Goal: obtain Rift Remover. Keep it in your inventory until the quest records completion."
+        "Prepare a way to manage unwanted rifts and read the item's instructions before using it."
       ],
       "icon": "dimdoors:rift_remover",
       "x": 3.94,
@@ -74,8 +72,7 @@
       "title": "Mark a connection",
       "subtitle": "Rift Signature",
       "description": [
-        "Use rift tools carefully to establish an intentional link.",
-        "Goal: obtain Rift Signature. Keep it in your inventory until the quest records completion."
+        "Use rift tools carefully to establish an intentional link."
       ],
       "icon": "dimdoors:rift_signature",
       "x": 5.2,
@@ -106,8 +103,7 @@
       "title": "Another kind of doorway",
       "subtitle": "Item Ag Dim Dimdoors Gold Door",
       "description": [
-        "Explore the available door types and their uses in your own pocket spaces.",
-        "Goal: obtain Item Ag Dim Dimdoors Gold Door. Keep it in your inventory until the quest records completion."
+        "Explore the available door types and their uses in your own pocket spaces."
       ],
       "icon": "dimdoors:item_ag_dim_dimdoors_gold_door",
       "x": 6.46,
@@ -138,8 +134,7 @@
       "title": "Dimensional Doors",
       "subtitle": "Overview",
       "description": [
-        "Explore strange spaces with a deliberate return plan. Keep experimental door networks away from the TARDIS entrance.",
-        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+        "Explore strange spaces with a deliberate return plan. Keep experimental door networks away from the TARDIS entrance."
       ],
       "icon": "dimdoors:item_ag_dim_minecraft_iron_door",
       "x": 1.43,

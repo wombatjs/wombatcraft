@@ -10,8 +10,7 @@
       "title": "Materials for space",
       "subtitle": "Steel Ingot",
       "description": [
-        "Produce steel for the early space program.",
-        "Goal: obtain Steel Ingot. Keep it in your inventory until the quest records completion."
+        "Produce steel for the early space program."
       ],
       "icon": "ad_astra:steel_ingot",
       "x": 2.69,
@@ -42,8 +41,7 @@
       "title": "Power the workshop",
       "subtitle": "Coal Generator",
       "description": [
-        "Set up power for your preparation machines.",
-        "Goal: obtain Coal Generator. Keep it in your inventory until the quest records completion."
+        "Set up power for your preparation machines."
       ],
       "icon": "ad_astra:coal_generator",
       "x": 3.94,
@@ -74,8 +72,7 @@
       "title": "Pressure-rated parts",
       "subtitle": "Compressor",
       "description": [
-        "Make plates and components for the spacecraft.",
-        "Goal: obtain Compressor. Keep it in your inventory until the quest records completion."
+        "Make plates and components for the spacecraft."
       ],
       "icon": "ad_astra:compressor",
       "x": 5.2,
@@ -106,8 +103,7 @@
       "title": "Prepare the fuel",
       "subtitle": "Fuel Refinery",
       "description": [
-        "Build the fuel supply before assembling a launch schedule.",
-        "Goal: obtain Fuel Refinery. Keep it in your inventory until the quest records completion."
+        "Build the fuel supply before assembling a launch schedule."
       ],
       "icon": "ad_astra:fuel_refinery",
       "x": 6.46,
@@ -138,8 +134,7 @@
       "title": "Breathing room",
       "subtitle": "Oxygen Loader",
       "description": [
-        "Prepare oxygen and fill your equipment before leaving the Overworld.",
-        "Goal: obtain Oxygen Loader. Keep it in your inventory until the quest records completion."
+        "Prepare oxygen and fill your equipment before leaving the Overworld."
       ],
       "icon": "ad_astra:oxygen_loader",
       "x": 7.71,
@@ -170,8 +165,7 @@
       "title": "Dress for the journey",
       "subtitle": "Space Suit",
       "description": [
-        "Assemble the full suit, including helmet and boots; this quest checks the chest piece only.",
-        "Goal: obtain Space Suit. Keep it in your inventory until the quest records completion."
+        "Assemble the full suit, including helmet and boots; this quest checks the chest piece only."
       ],
       "icon": "ad_astra:space_suit",
       "x": 2.69,
@@ -202,8 +196,7 @@
       "title": "Assemble a rocket",
       "subtitle": "Nasa Workbench",
       "description": [
-        "Use the workbench and JEI to plan the required components.",
-        "Goal: obtain Nasa Workbench. Keep it in your inventory until the quest records completion."
+        "Use the workbench and JEI to plan the required components."
       ],
       "icon": "ad_astra:nasa_workbench",
       "x": 3.94,
@@ -234,8 +227,7 @@
       "title": "First launch",
       "subtitle": "Tier 1 Rocket",
       "description": [
-        "Bring fuel, oxygen, food and a return plan before launching.",
-        "Goal: obtain Tier 1 Rocket. Keep it in your inventory until the quest records completion."
+        "Bring fuel, oxygen, food and a return plan before launching."
       ],
       "icon": "ad_astra:tier_1_rocket",
       "x": 5.2,
@@ -266,8 +258,7 @@
       "title": "Lunar industry",
       "subtitle": "Desh Ingot",
       "description": [
-        "Gather and process Desh for the next stage.",
-        "Goal: obtain Desh Ingot. Keep it in your inventory until the quest records completion."
+        "Gather and process Desh for the next stage."
       ],
       "icon": "ad_astra:desh_ingot",
       "x": 6.46,
@@ -298,8 +289,7 @@
       "title": "Beyond the Moon",
       "subtitle": "Tier 2 Rocket",
       "description": [
-        "Prepare the second rocket tier and supplies for a longer expedition.",
-        "Goal: obtain Tier 2 Rocket. Keep it in your inventory until the quest records completion."
+        "Prepare the second rocket tier and supplies for a longer expedition."
       ],
       "icon": "ad_astra:tier_2_rocket",
       "x": 7.71,
@@ -330,8 +320,7 @@
       "title": "Martian materials",
       "subtitle": "Ostrum Ingot",
       "description": [
-        "Process Ostrum and plan the next machines.",
-        "Goal: obtain Ostrum Ingot. Keep it in your inventory until the quest records completion."
+        "Process Ostrum and plan the next machines."
       ],
       "icon": "ad_astra:ostrum_ingot",
       "x": 2.69,
@@ -362,8 +351,7 @@
       "title": "A wider system",
       "subtitle": "Tier 3 Rocket",
       "description": [
-        "Advance your transport when your life-support supply is reliable.",
-        "Goal: obtain Tier 3 Rocket. Keep it in your inventory until the quest records completion."
+        "Advance your transport when your life-support supply is reliable."
       ],
       "icon": "ad_astra:tier_3_rocket",
       "x": 3.94,
@@ -394,8 +382,7 @@
       "title": "Extreme materials",
       "subtitle": "Calorite Ingot",
       "description": [
-        "Prepare for hostile environments while gathering Calorite.",
-        "Goal: obtain Calorite Ingot. Keep it in your inventory until the quest records completion."
+        "Prepare for hostile environments while gathering Calorite."
       ],
       "icon": "ad_astra:calorite_ingot",
       "x": 5.2,
@@ -426,8 +413,7 @@
       "title": "The farthest journey",
       "subtitle": "Tier 4 Rocket",
       "description": [
-        "Complete the final rocket tier and build a return-capable outpost.",
-        "Goal: obtain Tier 4 Rocket. Keep it in your inventory until the quest records completion."
+        "Complete the final rocket tier and build a return-capable outpost."
       ],
       "icon": "ad_astra:tier_4_rocket",
       "x": 6.46,
@@ -458,8 +444,7 @@
       "title": "Ad Astra",
       "subtitle": "Overview",
       "description": [
-        "Build a space program with preparation, transport and off-world industry.",
-        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+        "Build a space program with preparation, transport and off-world industry."
       ],
       "icon": "ad_astra:steel_ingot",
       "x": 1.43,

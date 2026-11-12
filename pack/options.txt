@@ -8,3 +8,5 @@ key_key.mute_microphone:key.keyboard.unknown
 key_key.drawMahoujin:key.keyboard.m:ALT
 key_key.mekanism.legs_mode:key.keyboard.j:ALT
 key_key.ars_elemental.open_pouch:key.keyboard.p:ALT
+guiScale:3
+tutorialStep:none

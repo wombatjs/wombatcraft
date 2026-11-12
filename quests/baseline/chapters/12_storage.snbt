@@ -1,0 +1,243 @@
+{
+  "id": "084E5E168F03DD5D",
+  "group": "0DCB27D2C77209FB",
+  "title": "Storage",
+  "order_index": 10,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0AABB7C2C008F7AE",
+      "title": "Inventory Connector",
+      "subtitle": "",
+      "description": [
+        "Link ordinary inventories and access them through a terminal.",
+        "Obtain Inventory Connector and keep it in your inventory for detection."
+      ],
+      "icon": "toms_storage:ts.inventory_connector",
+      "x": 2.69,
+      "y": 1.57,
+      "shape": "circle",
+      "dependencies": [
+        "0DCE4E0D9FA80624"
+      ],
+      "tasks": [
+        {
+          "id": "08C6ECF163739054",
+          "type": "item",
+          "item": "toms_storage:ts.inventory_connector",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07DB266F660EB322",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "07820630D93695CF",
+      "title": "Storage Terminal",
+      "subtitle": "",
+      "description": [
+        "Link ordinary inventories and access them through a terminal.",
+        "Obtain Storage Terminal and keep it in your inventory for detection."
+      ],
+      "icon": "toms_storage:ts.storage_terminal",
+      "x": 3.94,
+      "y": 1.57,
+      "shape": "circle",
+      "dependencies": [
+        "0AABB7C2C008F7AE"
+      ],
+      "tasks": [
+        {
+          "id": "020A5EA5793FC79C",
+          "type": "item",
+          "item": "toms_storage:ts.storage_terminal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0ABB9EEC15C48C9E",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0F7DC541341E0A31",
+      "title": "Crafting Terminal",
+      "subtitle": "",
+      "description": [
+        "Link ordinary inventories and access them through a terminal.",
+        "Obtain Crafting Terminal and keep it in your inventory for detection."
+      ],
+      "icon": "toms_storage:ts.crafting_terminal",
+      "x": 5.2,
+      "y": 1.57,
+      "shape": "circle",
+      "dependencies": [
+        "07820630D93695CF"
+      ],
+      "tasks": [
+        {
+          "id": "004E970F6DE61FDD",
+          "type": "item",
+          "item": "toms_storage:ts.crafting_terminal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B90B50AAB2D1A02",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "08EE5CE1A1B97233",
+      "title": "Wireless Terminal",
+      "subtitle": "",
+      "description": [
+        "Link ordinary inventories and access them through a terminal.",
+        "Obtain Wireless Terminal and keep it in your inventory for detection."
+      ],
+      "icon": "toms_storage:ts.wireless_terminal",
+      "x": 6.46,
+      "y": 1.57,
+      "shape": "circle",
+      "dependencies": [
+        "0F7DC541341E0A31"
+      ],
+      "tasks": [
+        {
+          "id": "0461019353F97EC7",
+          "type": "item",
+          "item": "toms_storage:ts.wireless_terminal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F33E5B84A6B7EF9",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0DCE4E0D9FA80624",
+      "title": "Tom's Simple Storage Mod",
+      "subtitle": "Optional branch",
+      "description": [
+        "Link ordinary inventories and access them through a terminal.",
+        "Use JEI to inspect the recipes. These milestones detect the item; placing or operating it is the next practical step."
+      ],
+      "icon": "toms_storage:ts.inventory_connector",
+      "x": 1.43,
+      "y": 1.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0B3FA2E2C054DAFA",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "01A11B973091EF56",
+      "title": "Pack for the journey",
+      "subtitle": "Standard Traveler's Backpack",
+      "description": [
+        "Craft the standard backpack and learn its storage, equipment and tank interactions.",
+        "Goal: obtain Standard Traveler's Backpack. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "travelersbackpack:standard",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "091BD612ACDBC7F1"
+      ],
+      "tasks": [
+        {
+          "id": "07F71BC84AB58905",
+          "type": "item",
+          "item": "travelersbackpack:standard",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0FDA10195CCA40F1",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0445D455A1BBBD97",
+      "title": "Use the tanks",
+      "subtitle": "Hose Nozzle",
+      "description": [
+        "Inspect the fluid tools and learn how to manage the backpack's tanks.",
+        "Goal: obtain Hose Nozzle. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "travelersbackpack:hose_nozzle",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "01A11B973091EF56"
+      ],
+      "tasks": [
+        {
+          "id": "02A20FCE4B6B6B65",
+          "type": "item",
+          "item": "travelersbackpack:hose_nozzle",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05EA2E4EC2C9F11A",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "091BD612ACDBC7F1",
+      "title": "Traveler's Backpack",
+      "subtitle": "Overview",
+      "description": [
+        "A travel-focused storage branch. Test the backpack controls and keep a safe return route when carrying valuable supplies.",
+        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+      ],
+      "icon": "travelersbackpack:standard",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "02BA9AA3D345F1DC",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

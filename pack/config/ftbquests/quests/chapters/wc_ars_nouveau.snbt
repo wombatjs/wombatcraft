@@ -1,0 +1,2978 @@
+{
+  "id": "699E3667F5FE6B63",
+  "title": "Ars Nouveau",
+  "group": "065A019E212476CF",
+  "order_index": 13,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "092E48B1FC833D8C",
+      "title": "Worn Notebook",
+      "subtitle": "An apprentice's desk",
+      "description": [
+        "A spell begins with a form and an effect. Prepare glyphs at the scribe's table, then assemble a simple spell in your book."
+      ],
+      "icon": "ars_nouveau:worn_notebook",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "7371D52F78D3D68C",
+          "type": "item",
+          "item": "ars_nouveau:worn_notebook",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "8F74A9D7C2214A9F",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "275452C942D08D53",
+      "title": "Novice Spell Book",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:novice_spell_book",
+      "x": 2.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "092E48B1FC833D8C"
+      ],
+      "tasks": [
+        {
+          "id": "05BFC771FDF0440B",
+          "type": "item",
+          "item": "ars_nouveau:novice_spell_book",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3F9BCDCB912F88F6",
+      "title": "Source Gem",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:source_gem",
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "275452C942D08D53"
+      ],
+      "tasks": [
+        {
+          "id": "9AAD92EFE3A98CE9",
+          "type": "item",
+          "item": "ars_nouveau:source_gem",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "70EF27A3F6CAB609",
+      "title": "Imbuement Chamber",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:imbuement_chamber",
+      "x": 6.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "3F9BCDCB912F88F6"
+      ],
+      "tasks": [
+        {
+          "id": "9DD37F3D30B77ACF",
+          "type": "item",
+          "item": "ars_nouveau:imbuement_chamber",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "234D3D7CF5C2322D",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "F505D06EB5FD3552",
+      "title": "Scribe's Table",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:scribes_table",
+      "x": 8.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "70EF27A3F6CAB609"
+      ],
+      "tasks": [
+        {
+          "id": "79AAC77EFA39231C",
+          "type": "item",
+          "item": "ars_nouveau:scribes_table",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "C2FECC0E21B0F212",
+          "type": "xp",
+          "xp": 30
+        },
+        {
+          "id": "6BEE358F60C23923",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "53BAC56B7EC6A911",
+      "title": "Glyph Touch",
+      "subtitle": "Useful first spells",
+      "description": [
+        "Start with one effect at a time. Test the spell in a clear area before adding modifiers."
+      ],
+      "icon": "ars_nouveau:glyph_touch",
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "F505D06EB5FD3552"
+      ],
+      "tasks": [
+        {
+          "id": "101F99BA9895286B",
+          "type": "item",
+          "item": "ars_nouveau:glyph_touch",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4C87D56B630BA20B",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "9F4B878F2277414E",
+      "title": "Glyph Projectile",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_projectile",
+      "x": 2.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "53BAC56B7EC6A911"
+      ],
+      "tasks": [
+        {
+          "id": "EA8E120203F17BB3",
+          "type": "item",
+          "item": "ars_nouveau:glyph_projectile",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5031816C95B1C192",
+      "title": "Glyph Self",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_self",
+      "x": 4.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "9F4B878F2277414E"
+      ],
+      "tasks": [
+        {
+          "id": "D48EA3E6C7589A5A",
+          "type": "item",
+          "item": "ars_nouveau:glyph_self",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "528B69C4CCC5EC23",
+      "title": "Glyph Break",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_break",
+      "x": 6.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "5031816C95B1C192"
+      ],
+      "tasks": [
+        {
+          "id": "5AD9440B02353B38",
+          "type": "item",
+          "item": "ars_nouveau:glyph_break",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "B85F81004DF7798C",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "26C12502DF553312",
+      "title": "Glyph Light",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_light",
+      "x": 8.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "528B69C4CCC5EC23"
+      ],
+      "tasks": [
+        {
+          "id": "D97303D9FCF6A6C7",
+          "type": "item",
+          "item": "ars_nouveau:glyph_light",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "AA55875974D0DA81",
+      "title": "Glyph Harm",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_harm",
+      "x": 10.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "26C12502DF553312"
+      ],
+      "tasks": [
+        {
+          "id": "9A4567CB2B238387",
+          "type": "item",
+          "item": "ars_nouveau:glyph_harm",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "C87BA17D3B1B34B2",
+      "title": "Glyph Heal",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_heal",
+      "x": 12.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "AA55875974D0DA81"
+      ],
+      "tasks": [
+        {
+          "id": "3005088A1B933610",
+          "type": "item",
+          "item": "ars_nouveau:glyph_heal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "DCE5897C074B3E04",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "3C6131463D548030",
+      "title": "Glyph Conjure Water",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_conjure_water",
+      "x": 14.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "C87BA17D3B1B34B2"
+      ],
+      "tasks": [
+        {
+          "id": "A893100A219BF416",
+          "type": "item",
+          "item": "ars_nouveau:glyph_conjure_water",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "341BDC221AB6FD31",
+      "title": "Glyph Pickup",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_pickup",
+      "x": 16.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "3C6131463D548030"
+      ],
+      "tasks": [
+        {
+          "id": "69DEC02FC18BAD77",
+          "type": "item",
+          "item": "ars_nouveau:glyph_pickup",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "C3A6F6251898439B",
+          "type": "xp",
+          "xp": 35
+        },
+        {
+          "id": "C8DB4B9398E81676",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "232E24456054577F",
+      "title": "Source Jar",
+      "subtitle": "A source garden",
+      "description": [
+        "Growing crops can feed a source network. Put jars within reach of the sourcelink and relay the supply toward your workshop."
+      ],
+      "icon": "ars_nouveau:source_jar",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "70EF27A3F6CAB609"
+      ],
+      "tasks": [
+        {
+          "id": "3874AA1589F48033",
+          "type": "item",
+          "item": "ars_nouveau:source_jar",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "22A1B1782C9F7111",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "353CDD3448DA0C6D",
+      "title": "Agronomic Sourcelink",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:agronomic_sourcelink",
+      "x": 2.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "232E24456054577F"
+      ],
+      "tasks": [
+        {
+          "id": "F68FC9479D986F4B",
+          "type": "item",
+          "item": "ars_nouveau:agronomic_sourcelink",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1919193B0BACA2CE",
+      "title": "Sourceberry",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:sourceberry_bush",
+      "x": 4.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "353CDD3448DA0C6D"
+      ],
+      "tasks": [
+        {
+          "id": "9AAE10CD1EADB8C2",
+          "type": "item",
+          "item": "ars_nouveau:sourceberry_bush",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7A34A6EFAEB1279B",
+      "title": "Source Relay",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:relay",
+      "x": 6.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "1919193B0BACA2CE"
+      ],
+      "tasks": [
+        {
+          "id": "524568795265FE30",
+          "type": "item",
+          "item": "ars_nouveau:relay",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4C3A1AABC6AFC382",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "C7BD8FBDA4C7760F",
+      "title": "Source Relay: Depositor",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:relay_deposit",
+      "x": 8.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "7A34A6EFAEB1279B"
+      ],
+      "tasks": [
+        {
+          "id": "9C3F337E635E91E9",
+          "type": "item",
+          "item": "ars_nouveau:relay_deposit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "9FA5479F3241ADDF",
+      "title": "Source Relay: Collector",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:relay_collector",
+      "x": 10.0,
+      "y": 6.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "C7BD8FBDA4C7760F"
+      ],
+      "tasks": [
+        {
+          "id": "E5A2114276054FD4",
+          "type": "item",
+          "item": "ars_nouveau:relay_collector",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "113BCE890D528236",
+          "type": "xp",
+          "xp": 40
+        },
+        {
+          "id": "BEDAEEED7CC2B470",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "B1B5BD0FDD1C35A2",
+      "title": "Arcane Core",
+      "subtitle": "The enchanting circle",
+      "description": [
+        "Arrange pedestals around the apparatus and keep source nearby. Confirm the central reagent before starting an enchantment."
+      ],
+      "icon": "ars_nouveau:arcane_core",
+      "x": 0.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "232E24456054577F"
+      ],
+      "tasks": [
+        {
+          "id": "DD8F555E090457EC",
+          "type": "item",
+          "item": "ars_nouveau:arcane_core",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "9F4B3194C3A61A32",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "7396E62BF2E08BFF",
+      "title": "Arcane Pedestal",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:arcane_pedestal",
+      "x": 2.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "B1B5BD0FDD1C35A2"
+      ],
+      "tasks": [
+        {
+          "id": "7DAB1A544613A1EE",
+          "type": "item",
+          "item": "ars_nouveau:arcane_pedestal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "BD2F2CB1C9E7405D",
+      "title": "Enchanting Apparatus",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:enchanting_apparatus",
+      "x": 4.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "7396E62BF2E08BFF"
+      ],
+      "tasks": [
+        {
+          "id": "DE7EB7E0ADC57899",
+          "type": "item",
+          "item": "ars_nouveau:enchanting_apparatus",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "ED4F2EB93DE80EE9",
+      "title": "Air Essence",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:air_essence",
+      "x": 6.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "BD2F2CB1C9E7405D"
+      ],
+      "tasks": [
+        {
+          "id": "29298454CAF036CD",
+          "type": "item",
+          "item": "ars_nouveau:air_essence",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "E9996A9304F55209",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "A0820BF8927A55ED",
+      "title": "Earth Essence",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:earth_essence",
+      "x": 8.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "ED4F2EB93DE80EE9"
+      ],
+      "tasks": [
+        {
+          "id": "B73ABB11EC877670",
+          "type": "item",
+          "item": "ars_nouveau:earth_essence",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "E197333974B639D3",
+      "title": "Fire Essence",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:fire_essence",
+      "x": 10.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "A0820BF8927A55ED"
+      ],
+      "tasks": [
+        {
+          "id": "E07B4B12B573F5F9",
+          "type": "item",
+          "item": "ars_nouveau:fire_essence",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "95C14682852829E1",
+      "title": "Water Essence",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:water_essence",
+      "x": 12.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "E197333974B639D3"
+      ],
+      "tasks": [
+        {
+          "id": "CAFADBAF0D476541",
+          "type": "item",
+          "item": "ars_nouveau:water_essence",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "922E2556F9BD2053",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "96E4EC8C8DC57206",
+      "title": "Abjuration Essence",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:abjuration_essence",
+      "x": 14.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "95C14682852829E1"
+      ],
+      "tasks": [
+        {
+          "id": "C11725D7A3C074B3",
+          "type": "item",
+          "item": "ars_nouveau:abjuration_essence",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "130CD59EF7BFB4A5",
+      "title": "Conjuration Essence",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:conjuration_essence",
+      "x": 16.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "96E4EC8C8DC57206"
+      ],
+      "tasks": [
+        {
+          "id": "89C658E7544946D6",
+          "type": "item",
+          "item": "ars_nouveau:conjuration_essence",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "AA24BA955FECC1B7",
+      "title": "Manipulation Essence",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:manipulation_essence",
+      "x": 18.0,
+      "y": 9.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "130CD59EF7BFB4A5"
+      ],
+      "tasks": [
+        {
+          "id": "07E9CCE9D1E2A6F5",
+          "type": "item",
+          "item": "ars_nouveau:manipulation_essence",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "8F8CD1419BFFA21E",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "id": "B8F51EF1D2F06F35",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "87070F811B4E3A0F",
+      "title": "Mage's Spell Book",
+      "subtitle": "A wider vocabulary",
+      "description": [
+        "Modifiers alter the effect before them. Watch mana cost as a spell grows; a reliable small spell is often the better tool."
+      ],
+      "icon": "ars_nouveau:apprentice_spell_book",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "BD2F2CB1C9E7405D"
+      ],
+      "tasks": [
+        {
+          "id": "71574958AFB712DD",
+          "type": "item",
+          "item": "ars_nouveau:apprentice_spell_book",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "A607922EAE3D38D1",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "F2150792F66EA9E6",
+      "title": "Glyph Amplify",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_amplify",
+      "x": 2.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "87070F811B4E3A0F"
+      ],
+      "tasks": [
+        {
+          "id": "B3468D37926AA036",
+          "type": "item",
+          "item": "ars_nouveau:glyph_amplify",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7BC6C794BABD4B2D",
+      "title": "Glyph Aoe",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_aoe",
+      "x": 4.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "F2150792F66EA9E6"
+      ],
+      "tasks": [
+        {
+          "id": "49377C3473BF0191",
+          "type": "item",
+          "item": "ars_nouveau:glyph_aoe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F5B0775E2354E775",
+      "title": "Glyph Pierce",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_pierce",
+      "x": 6.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "7BC6C794BABD4B2D"
+      ],
+      "tasks": [
+        {
+          "id": "35A2AD3E08C975A6",
+          "type": "item",
+          "item": "ars_nouveau:glyph_pierce",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "E89457FF0035390E",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "58FA1F242820D063",
+      "title": "Glyph Bounce",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_bounce",
+      "x": 8.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "F5B0775E2354E775"
+      ],
+      "tasks": [
+        {
+          "id": "85C85A08D268DFD0",
+          "type": "item",
+          "item": "ars_nouveau:glyph_bounce",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "08D67466D2DF04FB",
+      "title": "Glyph Split",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_split",
+      "x": 10.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "58FA1F242820D063"
+      ],
+      "tasks": [
+        {
+          "id": "5327133C936E8789",
+          "type": "item",
+          "item": "ars_nouveau:glyph_split",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "0FE92A2E04F4B388",
+      "title": "Glyph Accelerate",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_accelerate",
+      "x": 12.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "08D67466D2DF04FB"
+      ],
+      "tasks": [
+        {
+          "id": "7DB0DCF0E1C0A936",
+          "type": "item",
+          "item": "ars_nouveau:glyph_accelerate",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "FD217C691FD38783",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "194DD734B0BDF071",
+      "title": "Glyph Extend Time",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_extend_time",
+      "x": 14.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "0FE92A2E04F4B388"
+      ],
+      "tasks": [
+        {
+          "id": "92F77F924CB2E26C",
+          "type": "item",
+          "item": "ars_nouveau:glyph_extend_time",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1C1FB51DD4D09E11",
+      "title": "Glyph Delay",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_delay",
+      "x": 16.0,
+      "y": 12.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "194DD734B0BDF071"
+      ],
+      "tasks": [
+        {
+          "id": "441BB0DAFA056FD5",
+          "type": "item",
+          "item": "ars_nouveau:glyph_delay",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "CAC3E79D11FD48C1",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "B0C11FDCD599F06C",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "2FC5E2538C0E7B81",
+      "title": "Glyph Leap",
+      "subtitle": "Movement and utility",
+      "description": [
+        "Build a safe landing spell before experimenting with movement. Utility spells can reach controls and reshape terrain at a distance."
+      ],
+      "icon": "ars_nouveau:glyph_leap",
+      "x": 0.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "87070F811B4E3A0F"
+      ],
+      "tasks": [
+        {
+          "id": "81539C633B88EED4",
+          "type": "item",
+          "item": "ars_nouveau:glyph_leap",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "36658D38F9B7BCCF",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "AFE462443040B36D",
+      "title": "Glyph Launch",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_launch",
+      "x": 2.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "2FC5E2538C0E7B81"
+      ],
+      "tasks": [
+        {
+          "id": "CBA864D71676F5F8",
+          "type": "item",
+          "item": "ars_nouveau:glyph_launch",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "71464F1D82904257",
+      "title": "Glyph Slowfall",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_slowfall",
+      "x": 4.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "AFE462443040B36D"
+      ],
+      "tasks": [
+        {
+          "id": "463DCEE47A3C41FD",
+          "type": "item",
+          "item": "ars_nouveau:glyph_slowfall",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3B0C2AE4B7CE4A8C",
+      "title": "Glyph Glide",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_glide",
+      "x": 6.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "71464F1D82904257"
+      ],
+      "tasks": [
+        {
+          "id": "79329FB2E48836BA",
+          "type": "item",
+          "item": "ars_nouveau:glyph_glide",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DE080446A4270A5",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "2FEFA4BD08955CFA",
+      "title": "Glyph Blink",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_blink",
+      "x": 8.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "3B0C2AE4B7CE4A8C"
+      ],
+      "tasks": [
+        {
+          "id": "9D55A457F6A671E7",
+          "type": "item",
+          "item": "ars_nouveau:glyph_blink",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "58CFCB3AA73075A4",
+      "title": "Glyph Exchange",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_exchange",
+      "x": 10.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "2FEFA4BD08955CFA"
+      ],
+      "tasks": [
+        {
+          "id": "12B981F61D011B01",
+          "type": "item",
+          "item": "ars_nouveau:glyph_exchange",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7CD49DFF3B25BB04",
+      "title": "Glyph Place Block",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_place_block",
+      "x": 12.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "58CFCB3AA73075A4"
+      ],
+      "tasks": [
+        {
+          "id": "52839AB298D737C6",
+          "type": "item",
+          "item": "ars_nouveau:glyph_place_block",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "84F995E6EAAECA20",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "2FC554227DE58875",
+      "title": "Glyph Interact",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_interact",
+      "x": 14.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "7CD49DFF3B25BB04"
+      ],
+      "tasks": [
+        {
+          "id": "F351F3D2F92944E5",
+          "type": "item",
+          "item": "ars_nouveau:glyph_interact",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "626AB06282A1312E",
+      "title": "Glyph Redstone Signal",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_redstone_signal",
+      "x": 16.0,
+      "y": 15.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "2FC554227DE58875"
+      ],
+      "tasks": [
+        {
+          "id": "D7DD886973C7D2A9",
+          "type": "item",
+          "item": "ars_nouveau:glyph_redstone_signal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "F21C65C4A8341087",
+          "type": "xp",
+          "xp": 55
+        },
+        {
+          "id": "7447B54DE37F8958",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "C47548BC360F7DFE",
+      "title": "Glyph Ignite",
+      "subtitle": "Elemental practice",
+      "description": [
+        "Combine effects deliberately. Keep destructive spells away from shared homes and test their area before using them in battle."
+      ],
+      "icon": "ars_nouveau:glyph_ignite",
+      "x": 0.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "87070F811B4E3A0F"
+      ],
+      "tasks": [
+        {
+          "id": "4611BB19788FF26B",
+          "type": "item",
+          "item": "ars_nouveau:glyph_ignite",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2EB17B3BACA76AB7",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "AC49E6B9CFAFCA6F",
+      "title": "Glyph Flare",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_flare",
+      "x": 2.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "C47548BC360F7DFE"
+      ],
+      "tasks": [
+        {
+          "id": "105B590740884EB2",
+          "type": "item",
+          "item": "ars_nouveau:glyph_flare",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4CB6AD48EFC2EBF9",
+      "title": "Glyph Freeze",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_freeze",
+      "x": 4.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "AC49E6B9CFAFCA6F"
+      ],
+      "tasks": [
+        {
+          "id": "C071F8EE4F21AF47",
+          "type": "item",
+          "item": "ars_nouveau:glyph_freeze",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FDB54CC85E7D660B",
+      "title": "Glyph Cold Snap",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_cold_snap",
+      "x": 6.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "4CB6AD48EFC2EBF9"
+      ],
+      "tasks": [
+        {
+          "id": "A83B5E12905E232C",
+          "type": "item",
+          "item": "ars_nouveau:glyph_cold_snap",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "9AC919E26780E671",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "6AD43AB473169738",
+      "title": "Glyph Gust",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_gust",
+      "x": 8.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "FDB54CC85E7D660B"
+      ],
+      "tasks": [
+        {
+          "id": "1754D716C72A8C37",
+          "type": "item",
+          "item": "ars_nouveau:glyph_gust",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "B8AF235D9FB43040",
+      "title": "Glyph Pull",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_pull",
+      "x": 10.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "6AD43AB473169738"
+      ],
+      "tasks": [
+        {
+          "id": "8931B03462A93A86",
+          "type": "item",
+          "item": "ars_nouveau:glyph_pull",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "E2D7A96B89046D34",
+      "title": "Glyph Snare",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_snare",
+      "x": 12.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "B8AF235D9FB43040"
+      ],
+      "tasks": [
+        {
+          "id": "42E580A0F503603C",
+          "type": "item",
+          "item": "ars_nouveau:glyph_snare",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "D5F845D614BED7B1",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "7A918A3B1E4BEBE6",
+      "title": "Glyph Wither",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_wither",
+      "x": 14.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "E2D7A96B89046D34"
+      ],
+      "tasks": [
+        {
+          "id": "2AEA2A77C732427F",
+          "type": "item",
+          "item": "ars_nouveau:glyph_wither",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "26D84DED61E27A26",
+      "title": "Glyph Explosion",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_explosion",
+      "x": 16.0,
+      "y": 18.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "7A918A3B1E4BEBE6"
+      ],
+      "tasks": [
+        {
+          "id": "AF4400DA1BD7EF23",
+          "type": "item",
+          "item": "ars_nouveau:glyph_explosion",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0697A9E82BBC5937",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "295B44082F60AABC",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "B8B62B54D75F4F6D",
+      "title": "Dominion Wand",
+      "subtitle": "Spirits of the workshop",
+      "description": [
+        "Each spirit has its own work and habitat. Bind its task with the dominion wand and keep its workspace supplied."
+      ],
+      "icon": "ars_nouveau:dominion_wand",
+      "x": 0.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "BD2F2CB1C9E7405D"
+      ],
+      "tasks": [
+        {
+          "id": "A7C4B84A52A32542",
+          "type": "item",
+          "item": "ars_nouveau:dominion_wand",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BD79048D9CB7467",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "7B8699F7DB21FC69",
+      "title": "Starbuncle Charm",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:starbuncle_charm",
+      "x": 2.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "B8B62B54D75F4F6D"
+      ],
+      "tasks": [
+        {
+          "id": "1861948D26E897B4",
+          "type": "item",
+          "item": "ars_nouveau:starbuncle_charm",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "B4CA7583811B3B05",
+      "title": "Whirlisprig Charm",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:whirlisprig_charm",
+      "x": 4.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "7B8699F7DB21FC69"
+      ],
+      "tasks": [
+        {
+          "id": "B23EAAB222BF8DC7",
+          "type": "item",
+          "item": "ars_nouveau:whirlisprig_charm",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6B558D29502128AA",
+      "title": "Drygmy Charm",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:drygmy_charm",
+      "x": 6.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "B4CA7583811B3B05"
+      ],
+      "tasks": [
+        {
+          "id": "CF8156600F05BFFC",
+          "type": "item",
+          "item": "ars_nouveau:drygmy_charm",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "D548301AB2E01729",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "606F3882FA7D1832",
+      "title": "Wixie Charm",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:wixie_charm",
+      "x": 8.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "6B558D29502128AA"
+      ],
+      "tasks": [
+        {
+          "id": "A9F96BFC9C41BCA3",
+          "type": "item",
+          "item": "ars_nouveau:wixie_charm",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "323413AD92EF0E46",
+      "title": "Bookwyrm Charm",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:bookwyrm_charm",
+      "x": 10.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "606F3882FA7D1832"
+      ],
+      "tasks": [
+        {
+          "id": "88DDC65FB0796980",
+          "type": "item",
+          "item": "ars_nouveau:bookwyrm_charm",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "C13E1D542A5962C4",
+      "title": "Amethyst Golem Charm",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:amethyst_golem_charm",
+      "x": 12.0,
+      "y": 21.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "323413AD92EF0E46"
+      ],
+      "tasks": [
+        {
+          "id": "3BC46D0FE47CEF81",
+          "type": "item",
+          "item": "ars_nouveau:amethyst_golem_charm",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "393122164F3932E9",
+          "type": "xp",
+          "xp": 45
+        },
+        {
+          "id": "60BAC25F82F6555E",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "368B18F9EC5F9687",
+      "title": "Ritual Brazier",
+      "subtitle": "Ritual grounds",
+      "description": [
+        "Prepare an open ritual space. Read the tablet's reagents and area before beginning a rite near a settlement."
+      ],
+      "icon": "ars_nouveau:ritual_brazier",
+      "x": 0.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "BD2F2CB1C9E7405D"
+      ],
+      "tasks": [
+        {
+          "id": "279C70B9633DDDAE",
+          "type": "item",
+          "item": "ars_nouveau:ritual_brazier",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "57806981EDBC4A48",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "E2953492E6E332DF",
+      "title": "Sunrise",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:ritual_sunrise",
+      "x": 2.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "368B18F9EC5F9687"
+      ],
+      "tasks": [
+        {
+          "id": "7DF43B3EB83AEBEA",
+          "type": "item",
+          "item": "ars_nouveau:ritual_sunrise",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3E5439ECA1B3DE8E",
+      "title": "Moonfall",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:ritual_moonfall",
+      "x": 4.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "E2953492E6E332DF"
+      ],
+      "tasks": [
+        {
+          "id": "3ABE631B4E57473D",
+          "type": "item",
+          "item": "ars_nouveau:ritual_moonfall",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "D59C0CF80D8F987D",
+      "title": "Harvest",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:ritual_harvest",
+      "x": 6.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "3E5439ECA1B3DE8E"
+      ],
+      "tasks": [
+        {
+          "id": "38380EFD69C89565",
+          "type": "item",
+          "item": "ars_nouveau:ritual_harvest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "E762C75E4F9A7FD1",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "151C0D17DD0D6B8D",
+      "title": "Forestation",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:ritual_forestation",
+      "x": 8.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "D59C0CF80D8F987D"
+      ],
+      "tasks": [
+        {
+          "id": "4175CCEA591785DD",
+          "type": "item",
+          "item": "ars_nouveau:ritual_forestation",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "75B904B51B898F14",
+      "title": "Fertility",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:ritual_fertility",
+      "x": 10.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "151C0D17DD0D6B8D"
+      ],
+      "tasks": [
+        {
+          "id": "169AE6502CF574D5",
+          "type": "item",
+          "item": "ars_nouveau:ritual_fertility",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "362E9EC07735F9A8",
+      "title": "Warping",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:ritual_warping",
+      "x": 12.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "75B904B51B898F14"
+      ],
+      "tasks": [
+        {
+          "id": "769F90C44FECE838",
+          "type": "item",
+          "item": "ars_nouveau:ritual_warping",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3FC4ED0744CFC702",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "35125692506760E0",
+      "title": "Containment",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:ritual_containment",
+      "x": 14.0,
+      "y": 24.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "362E9EC07735F9A8"
+      ],
+      "tasks": [
+        {
+          "id": "C6FE3F3C5A8F1F8C",
+          "type": "item",
+          "item": "ars_nouveau:ritual_containment",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4D274C8F890959DE",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "88D282A8522FD3B5",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "19A8F15024462B58",
+      "title": "Wilden Horn",
+      "subtitle": "The Wilden trial",
+      "description": [
+        "Prepare healing, movement and a clear battlefield before summoning the Wilden. Victory opens the final tier of spellcraft."
+      ],
+      "icon": "ars_nouveau:wilden_horn",
+      "x": 0.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "368B18F9EC5F9687"
+      ],
+      "tasks": [
+        {
+          "id": "8E9536FCFDA92B76",
+          "type": "item",
+          "item": "ars_nouveau:wilden_horn",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "62C678199EF8141B",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "F2B6075887E6409F",
+      "title": "Wilden Wing",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:wilden_wing",
+      "x": 2.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "19A8F15024462B58"
+      ],
+      "tasks": [
+        {
+          "id": "73D580047FFF4D3F",
+          "type": "item",
+          "item": "ars_nouveau:wilden_wing",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7DC990405E262506",
+      "title": "Wilden Spike",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:wilden_spike",
+      "x": 4.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "F2B6075887E6409F"
+      ],
+      "tasks": [
+        {
+          "id": "0F53F27CA30E438D",
+          "type": "item",
+          "item": "ars_nouveau:wilden_spike",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "654F00C26D2880DD",
+      "title": "Summon Wilden",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:ritual_wilden_summon",
+      "x": 6.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "7DC990405E262506"
+      ],
+      "tasks": [
+        {
+          "id": "D12750A5CF5E5759",
+          "type": "item",
+          "item": "ars_nouveau:ritual_wilden_summon",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "FD13EE36A61E041A",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "E16780180267961D",
+      "title": "Wilden Tribute",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:wilden_tribute",
+      "x": 8.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "654F00C26D2880DD"
+      ],
+      "tasks": [
+        {
+          "id": "CF43BEF5417AF8BF",
+          "type": "item",
+          "item": "ars_nouveau:wilden_tribute",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "D2EE86BCDFD76FDD",
+      "title": "Archmage Spell Book",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:archmage_spell_book",
+      "x": 10.0,
+      "y": 27.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "E16780180267961D"
+      ],
+      "tasks": [
+        {
+          "id": "5B1D9AE9D4A0870C",
+          "type": "item",
+          "item": "ars_nouveau:archmage_spell_book",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "A378F1F0791F353C",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "43047A80133EB325",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "E09554F556C264BB",
+      "title": "Glyph Lightning",
+      "subtitle": "Archmage's arts",
+      "description": [
+        "Advanced spells reward careful composition. Carry a dependable escape spell alongside your strongest attack."
+      ],
+      "icon": "ars_nouveau:glyph_lightning",
+      "x": 0.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "D2EE86BCDFD76FDD"
+      ],
+      "tasks": [
+        {
+          "id": "30FF227A39B103EC",
+          "type": "item",
+          "item": "ars_nouveau:glyph_lightning",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B5E18724EB6CB89",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "6A10F2410A79ECDA",
+      "title": "Glyph Orbit",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_orbit",
+      "x": 2.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "E09554F556C264BB"
+      ],
+      "tasks": [
+        {
+          "id": "F7FB08F05F2F2B12",
+          "type": "item",
+          "item": "ars_nouveau:glyph_orbit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "93CF0AE0AD9F62DF",
+      "title": "Glyph Linger",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_linger",
+      "x": 4.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "6A10F2410A79ECDA"
+      ],
+      "tasks": [
+        {
+          "id": "A03169575DCA4B83",
+          "type": "item",
+          "item": "ars_nouveau:glyph_linger",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3C76C2F05D56BC23",
+      "title": "Glyph Intangible",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_intangible",
+      "x": 6.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "93CF0AE0AD9F62DF"
+      ],
+      "tasks": [
+        {
+          "id": "15EF035CC4626224",
+          "type": "item",
+          "item": "ars_nouveau:glyph_intangible",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "BAA676CAA939D38A",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "728F6A3F52ACAD74",
+      "title": "Glyph Ender Inventory",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_ender_inventory",
+      "x": 8.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "3C76C2F05D56BC23"
+      ],
+      "tasks": [
+        {
+          "id": "6ECB951916EA9A75",
+          "type": "item",
+          "item": "ars_nouveau:glyph_ender_inventory",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "9D389057DF2916D0",
+      "title": "Glyph Summon Vex",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_summon_vex",
+      "x": 10.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "728F6A3F52ACAD74"
+      ],
+      "tasks": [
+        {
+          "id": "49B14023B217F398",
+          "type": "item",
+          "item": "ars_nouveau:glyph_summon_vex",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "B9D951926A85FB45",
+      "title": "Glyph Summon Wolves",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_summon_wolves",
+      "x": 12.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "9D389057DF2916D0"
+      ],
+      "tasks": [
+        {
+          "id": "BC1C30A6AC4A85A9",
+          "type": "item",
+          "item": "ars_nouveau:glyph_summon_wolves",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "31012A0D41A215FF",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "81BDCEDF299FBC48",
+      "title": "Glyph Fortune",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_fortune",
+      "x": 14.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "B9D951926A85FB45"
+      ],
+      "tasks": [
+        {
+          "id": "ED9D1234209BCA14",
+          "type": "item",
+          "item": "ars_nouveau:glyph_fortune",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1E95B302A1204807",
+      "title": "Glyph Extract",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:glyph_extract",
+      "x": 16.0,
+      "y": 30.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "81BDCEDF299FBC48"
+      ],
+      "tasks": [
+        {
+          "id": "267B3E821CD08CFA",
+          "type": "item",
+          "item": "ars_nouveau:glyph_extract",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "C5D77A8E086A5715",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "8FEB55AF1EFD10FE",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "94E7E6611CCD47F2",
+      "title": "Enchanted Spell Turret",
+      "subtitle": "A self-working tower",
+      "description": [
+        "Automated spells still need source and safe targets. Add a shutoff before leaving a turret to work unattended."
+      ],
+      "icon": "ars_nouveau:spell_turret",
+      "x": 0.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "BD2F2CB1C9E7405D"
+      ],
+      "tasks": [
+        {
+          "id": "E625B331713F64BC",
+          "type": "item",
+          "item": "ars_nouveau:spell_turret",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EB8A64BCA1FD967",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "D63602539154890D",
+      "title": "Timer Spell Turret",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:timer_spell_turret",
+      "x": 2.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "94E7E6611CCD47F2"
+      ],
+      "tasks": [
+        {
+          "id": "15AF02773CC08AB7",
+          "type": "item",
+          "item": "ars_nouveau:timer_spell_turret",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "BB05A5867FC7249B",
+      "title": "Adjustable Spell Turret",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:rotating_spell_turret",
+      "x": 4.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "D63602539154890D"
+      ],
+      "tasks": [
+        {
+          "id": "4CA52873F0D342E6",
+          "type": "item",
+          "item": "ars_nouveau:rotating_spell_turret",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "A27A6BF784A6543E",
+      "title": "Spell Prism",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:spell_prism",
+      "x": 6.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "BB05A5867FC7249B"
+      ],
+      "tasks": [
+        {
+          "id": "EC11EB28F8428CF1",
+          "type": "item",
+          "item": "ars_nouveau:spell_prism",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "E6E4D8ED7AB226DB",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "7687BA3CD27B2B3B",
+      "title": "Spell Sensor",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:spell_sensor",
+      "x": 8.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "A27A6BF784A6543E"
+      ],
+      "tasks": [
+        {
+          "id": "0757EE874B9B395E",
+          "type": "item",
+          "item": "ars_nouveau:spell_sensor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "08643264DFE28EFE",
+      "title": "Display Case",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:item_detector",
+      "x": 10.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "7687BA3CD27B2B3B"
+      ],
+      "tasks": [
+        {
+          "id": "45ACED4B1E12622A",
+          "type": "item",
+          "item": "ars_nouveau:item_detector",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "A8A92714CFA28885",
+      "title": "Storage Lectern",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:storage_lectern",
+      "x": 12.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "08643264DFE28EFE"
+      ],
+      "tasks": [
+        {
+          "id": "8CDF4088243BC81C",
+          "type": "item",
+          "item": "ars_nouveau:storage_lectern",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "A5E617529C8CD7AE",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "840DEE6CE0324D41",
+      "title": "Repository",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:repository",
+      "x": 14.0,
+      "y": 33.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "A8A92714CFA28885"
+      ],
+      "tasks": [
+        {
+          "id": "49C56F478884F21C",
+          "type": "item",
+          "item": "ars_nouveau:repository",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "722412E4829CA798",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "87A267A87A6CD1F0",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "9F4A3E22D470800C",
+      "title": "Magebloom",
+      "subtitle": "Robes and relics",
+      "description": [
+        "Weave equipment around the spells you actually use. The alteration table prepares robes for specialised threads."
+      ],
+      "icon": "ars_nouveau:magebloom",
+      "x": 0.0,
+      "y": 36.0,
+      "shape": "circle",
+      "dependencies": [
+        "87070F811B4E3A0F"
+      ],
+      "tasks": [
+        {
+          "id": "F1BB53A10539B4FA",
+          "type": "item",
+          "item": "ars_nouveau:magebloom",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "84096A48240E6B88",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "06F82F955BB76241",
+      "title": "Magebloom Fiber",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:magebloom_fiber",
+      "x": 2.0,
+      "y": 36.0,
+      "shape": "circle",
+      "dependencies": [
+        "9F4A3E22D470800C"
+      ],
+      "tasks": [
+        {
+          "id": "B437C782B59DA02E",
+          "type": "item",
+          "item": "ars_nouveau:magebloom_fiber",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7F0AF95DD5D956D9",
+      "title": "Sorceror's Collar",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:sorcerer_hood",
+      "x": 4.0,
+      "y": 36.0,
+      "shape": "circle",
+      "dependencies": [
+        "06F82F955BB76241"
+      ],
+      "tasks": [
+        {
+          "id": "090F0D409CAD81FE",
+          "type": "item",
+          "item": "ars_nouveau:sorcerer_hood",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "CB2EABCB865E9B9C",
+      "title": "Sorceror's Wrap",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:sorcerer_robes",
+      "x": 6.0,
+      "y": 36.0,
+      "shape": "circle",
+      "dependencies": [
+        "7F0AF95DD5D956D9"
+      ],
+      "tasks": [
+        {
+          "id": "0B2F3678A5277691",
+          "type": "item",
+          "item": "ars_nouveau:sorcerer_robes",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5F59B4E0A02079D6",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "6158F5DE90B09E31",
+      "title": "Sorceror's Leggings",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:sorcerer_leggings",
+      "x": 8.0,
+      "y": 36.0,
+      "shape": "circle",
+      "dependencies": [
+        "CB2EABCB865E9B9C"
+      ],
+      "tasks": [
+        {
+          "id": "D772263A6967D290",
+          "type": "item",
+          "item": "ars_nouveau:sorcerer_leggings",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "B26CED6E8E9DDA7A",
+      "title": "Sorceror's Footpads",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:sorcerer_boots",
+      "x": 10.0,
+      "y": 36.0,
+      "shape": "circle",
+      "dependencies": [
+        "6158F5DE90B09E31"
+      ],
+      "tasks": [
+        {
+          "id": "CBFA4FD8D5DFF910",
+          "type": "item",
+          "item": "ars_nouveau:sorcerer_boots",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "BE96B5F201C2C5B0",
+      "title": "Alteration Table",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:alteration_table",
+      "x": 12.0,
+      "y": 36.0,
+      "shape": "circle",
+      "dependencies": [
+        "B26CED6E8E9DDA7A"
+      ],
+      "tasks": [
+        {
+          "id": "28B71ABDDFF22F4A",
+          "type": "item",
+          "item": "ars_nouveau:alteration_table",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "01C116A15567D661",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "FE4EFA4DF723B4F4",
+      "title": "Blank Thread",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:blank_thread",
+      "x": 14.0,
+      "y": 36.0,
+      "shape": "circle",
+      "dependencies": [
+        "BE96B5F201C2C5B0"
+      ],
+      "tasks": [
+        {
+          "id": "CDAEADD823A0F2A6",
+          "type": "item",
+          "item": "ars_nouveau:blank_thread",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "39CAE077144B3635",
+      "title": "Magic Capacity",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:thread_magic_capacity",
+      "x": 16.0,
+      "y": 36.0,
+      "shape": "circle",
+      "dependencies": [
+        "FE4EFA4DF723B4F4"
+      ],
+      "tasks": [
+        {
+          "id": "4B236D4A82E6351F",
+          "type": "item",
+          "item": "ars_nouveau:thread_magic_capacity",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7F32526068387286",
+      "title": "Spell Power",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:thread_spellpower",
+      "x": 18.0,
+      "y": 36.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "39CAE077144B3635"
+      ],
+      "tasks": [
+        {
+          "id": "8420C5C7530F3217",
+          "type": "item",
+          "item": "ars_nouveau:thread_spellpower",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "FDED4C7508A2EC6E",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "208ECD1454DA2F4C",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "FB316DDEA309FE3D",
+      "title": "Volcanic Sourcelink",
+      "subtitle": "Source beyond the garden",
+      "description": [
+        "Choose source generation that fits a renewable supply. Separate competing consumers and keep a reserve for rituals."
+      ],
+      "icon": "ars_nouveau:volcanic_sourcelink",
+      "x": 0.0,
+      "y": 39.0,
+      "shape": "circle",
+      "dependencies": [
+        "7A34A6EFAEB1279B"
+      ],
+      "tasks": [
+        {
+          "id": "31035EDB455F0838",
+          "type": "item",
+          "item": "ars_nouveau:volcanic_sourcelink",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "BE388424E863931B",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5EE39F17313BA01E",
+      "title": "Mycelial Sourcelink",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:mycelial_sourcelink",
+      "x": 2.0,
+      "y": 39.0,
+      "shape": "circle",
+      "dependencies": [
+        "FB316DDEA309FE3D"
+      ],
+      "tasks": [
+        {
+          "id": "1770C58DB0D8E372",
+          "type": "item",
+          "item": "ars_nouveau:mycelial_sourcelink",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "D4CF1EF0F1D889F8",
+      "title": "Vitalic Sourcelink",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:vitalic_sourcelink",
+      "x": 4.0,
+      "y": 39.0,
+      "shape": "circle",
+      "dependencies": [
+        "5EE39F17313BA01E"
+      ],
+      "tasks": [
+        {
+          "id": "470B76D47D89293E",
+          "type": "item",
+          "item": "ars_nouveau:vitalic_sourcelink",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "D476AF12B33BE6B1",
+      "title": "Alchemical Sourcelink",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:alchemical_sourcelink",
+      "x": 6.0,
+      "y": 39.0,
+      "shape": "circle",
+      "dependencies": [
+        "D4CF1EF0F1D889F8"
+      ],
+      "tasks": [
+        {
+          "id": "03A5368E61093DBE",
+          "type": "item",
+          "item": "ars_nouveau:alchemical_sourcelink",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "81EA9484871D4764",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "18D2A21C710D098D",
+      "title": "Source Relay: Splitter",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:relay_splitter",
+      "x": 8.0,
+      "y": 39.0,
+      "shape": "circle",
+      "dependencies": [
+        "D476AF12B33BE6B1"
+      ],
+      "tasks": [
+        {
+          "id": "642CBBF8FB54CBEB",
+          "type": "item",
+          "item": "ars_nouveau:relay_splitter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "DD47E002FDA652AC",
+      "title": "Source Relay: Warper",
+      "subtitle": "",
+      "description": [],
+      "icon": "ars_nouveau:relay_warp",
+      "x": 10.0,
+      "y": 39.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "18D2A21C710D098D"
+      ],
+      "tasks": [
+        {
+          "id": "951514E23CFABE41",
+          "type": "item",
+          "item": "ars_nouveau:relay_warp",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "FDE0A21173E3E5A3",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "057A58B128B48108",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

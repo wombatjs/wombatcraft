@@ -1,0 +1,14 @@
+[Unit]
+Description=Wombatcraft Minecraft and voice-chat proxy routes
+After=network-online.target docker.service fivem-wg.service fivem-proxy.service
+Wants=network-online.target
+PartOf=fivem-proxy.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/local/sbin/wombatcraft-forwarding apply
+ExecStop=/usr/local/sbin/wombatcraft-forwarding remove
+
+[Install]
+WantedBy=multi-user.target

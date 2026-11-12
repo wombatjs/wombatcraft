@@ -1,0 +1,2036 @@
+{
+  "id": "CC9B763DAAE348C4",
+  "title": "Applied Energistics",
+  "group": "0DCB27D2C77209FB",
+  "order_index": 12,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "7F302829125715E4",
+      "title": "Meteorite Compass",
+      "subtitle": "A signal in the stone",
+      "description": [
+        "Find the materials and presses that begin a network. Charge quartz and prepare fluix before building the first storage cell."
+      ],
+      "icon": "ae2:meteorite_compass",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "79E54AADD464152F",
+          "type": "item",
+          "item": "ae2:meteorite_compass",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2B62A3DE3F572876",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "BF175B4EF623E64F",
+      "title": "Certus Quartz Crystal",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:certus_quartz_crystal",
+      "x": 2.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "7F302829125715E4"
+      ],
+      "tasks": [
+        {
+          "id": "2A402DB00726AEB9",
+          "type": "item",
+          "item": "ae2:certus_quartz_crystal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "E7CFFC27E83C0BC3",
+      "title": "Charged Certus Quartz Crystal",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:charged_certus_quartz_crystal",
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "BF175B4EF623E64F"
+      ],
+      "tasks": [
+        {
+          "id": "F1935A2AA8B399F1",
+          "type": "item",
+          "item": "ae2:charged_certus_quartz_crystal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7F985E3EE76D1E8B",
+      "title": "Fluix Crystal",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:fluix_crystal",
+      "x": 6.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "E7CFFC27E83C0BC3"
+      ],
+      "tasks": [
+        {
+          "id": "0895772ECB4C3292",
+          "type": "item",
+          "item": "ae2:fluix_crystal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "EF0C8575C5E77B15",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "2117578B48965A72",
+      "title": "Charger",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:charger",
+      "x": 8.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "7F985E3EE76D1E8B"
+      ],
+      "tasks": [
+        {
+          "id": "106306ACFF954327",
+          "type": "item",
+          "item": "ae2:charger",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "DFC7FFCCF1EE5E02",
+      "title": "Inscriber",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:inscriber",
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "2117578B48965A72"
+      ],
+      "tasks": [
+        {
+          "id": "668E61F735156F18",
+          "type": "item",
+          "item": "ae2:inscriber",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "9ED3546A1AAE1A66",
+          "type": "xp",
+          "xp": 30
+        },
+        {
+          "id": "E76FF8695F2E1788",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "65357321D8B18994",
+      "title": "Silicon",
+      "subtitle": "Processor workshop",
+      "description": [
+        "Separate the pressing steps from final processor assembly. Automating these components makes every later expansion easier."
+      ],
+      "icon": "ae2:silicon",
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "DFC7FFCCF1EE5E02"
+      ],
+      "tasks": [
+        {
+          "id": "C74BE2CE17132650",
+          "type": "item",
+          "item": "ae2:silicon",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "8DA24A0CA6EA34E2",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "BAA680E9AD5AFC50",
+      "title": "Printed Silicon",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:printed_silicon",
+      "x": 2.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "65357321D8B18994"
+      ],
+      "tasks": [
+        {
+          "id": "F1BB5783CC73A80F",
+          "type": "item",
+          "item": "ae2:printed_silicon",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "E3400889BE6A83DA",
+      "title": "Printed Logic Circuit",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:printed_logic_processor",
+      "x": 4.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "BAA680E9AD5AFC50"
+      ],
+      "tasks": [
+        {
+          "id": "13DEF1567B3299F9",
+          "type": "item",
+          "item": "ae2:printed_logic_processor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "B3BC5C7457F89B64",
+      "title": "Logic Processor",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:logic_processor",
+      "x": 6.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "E3400889BE6A83DA"
+      ],
+      "tasks": [
+        {
+          "id": "BBD40CE8C9D410A7",
+          "type": "item",
+          "item": "ae2:logic_processor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "E0E2D2B21411D13E",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "444553B1F3E7A5D4",
+      "title": "Printed Calculation Circuit",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:printed_calculation_processor",
+      "x": 8.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "B3BC5C7457F89B64"
+      ],
+      "tasks": [
+        {
+          "id": "5DE955D79989AD33",
+          "type": "item",
+          "item": "ae2:printed_calculation_processor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7017062DE47694E7",
+      "title": "Calculation Processor",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:calculation_processor",
+      "x": 10.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "444553B1F3E7A5D4"
+      ],
+      "tasks": [
+        {
+          "id": "CB87EE182378A002",
+          "type": "item",
+          "item": "ae2:calculation_processor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5549E1557355458E",
+      "title": "Printed Engineering Circuit",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:printed_engineering_processor",
+      "x": 12.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "7017062DE47694E7"
+      ],
+      "tasks": [
+        {
+          "id": "D89BF65E9AF2414F",
+          "type": "item",
+          "item": "ae2:printed_engineering_processor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "F596F9751025703D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "65D9463EB1D84ECF",
+      "title": "Engineering Processor",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:engineering_processor",
+      "x": 14.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "5549E1557355458E"
+      ],
+      "tasks": [
+        {
+          "id": "6BD6867C6044FE89",
+          "type": "item",
+          "item": "ae2:engineering_processor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1861B0E150E1561A",
+          "type": "xp",
+          "xp": 35
+        },
+        {
+          "id": "07495DF6C8071E34",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "19BFD64F7E9458BF",
+      "title": "Energy Acceptor",
+      "subtitle": "First network",
+      "description": [
+        "Supply power, connect a drive and install a cell. Type limits and byte capacity are separate constraints."
+      ],
+      "icon": "ae2:energy_acceptor",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "B3BC5C7457F89B64"
+      ],
+      "tasks": [
+        {
+          "id": "7BA42C1DF700B6AF",
+          "type": "item",
+          "item": "ae2:energy_acceptor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6A61EF7D193DA593",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "8140BF924003D24A",
+      "title": "Fluix ME Glass Cable",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:fluix_glass_cable",
+      "x": 2.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "19BFD64F7E9458BF"
+      ],
+      "tasks": [
+        {
+          "id": "2BB3D946BA836941",
+          "type": "item",
+          "item": "ae2:fluix_glass_cable",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "251FAC7F63C89465",
+      "title": "1k ME Storage Component",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:cell_component_1k",
+      "x": 4.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "8140BF924003D24A"
+      ],
+      "tasks": [
+        {
+          "id": "0DD0B0955504FC71",
+          "type": "item",
+          "item": "ae2:cell_component_1k",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F9C984DB5AA06677",
+      "title": "ME Item Cell Housing",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:item_cell_housing",
+      "x": 6.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "251FAC7F63C89465"
+      ],
+      "tasks": [
+        {
+          "id": "96D01FA5010E302A",
+          "type": "item",
+          "item": "ae2:item_cell_housing",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "CB4103888FB4FBD4",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "21D00722A09F9B96",
+      "title": "1k ME Item Storage Cell",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:item_storage_cell_1k",
+      "x": 8.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "F9C984DB5AA06677"
+      ],
+      "tasks": [
+        {
+          "id": "5C68A0FC018C9FA2",
+          "type": "item",
+          "item": "ae2:item_storage_cell_1k",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "82485A550C1FC2D4",
+      "title": "ME Drive",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:drive",
+      "x": 10.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "21D00722A09F9B96"
+      ],
+      "tasks": [
+        {
+          "id": "40A25161BADB06D7",
+          "type": "item",
+          "item": "ae2:drive",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "D07AD8E89E851FFC",
+      "title": "ME Terminal",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:terminal",
+      "x": 12.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "82485A550C1FC2D4"
+      ],
+      "tasks": [
+        {
+          "id": "938C494C842B207E",
+          "type": "item",
+          "item": "ae2:terminal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "85E502663042DA23",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "309DD644DC97FFAB",
+      "title": "ME Crafting Terminal",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:crafting_terminal",
+      "x": 14.0,
+      "y": 6.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "D07AD8E89E851FFC"
+      ],
+      "tasks": [
+        {
+          "id": "FBCFD0C123A339B8",
+          "type": "item",
+          "item": "ae2:crafting_terminal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "ED702040C964D876",
+          "type": "xp",
+          "xp": 40
+        },
+        {
+          "id": "4D4995A2B2C0B3CC",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "44513250F5A05EA5",
+      "title": "Cell Workbench",
+      "subtitle": "Storage planning",
+      "description": [
+        "Partition cells for predictable contents. Bulk resources can remain in external storage connected through a storage bus."
+      ],
+      "icon": "ae2:cell_workbench",
+      "x": 0.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "21D00722A09F9B96"
+      ],
+      "tasks": [
+        {
+          "id": "4B3B9FFF6AA3791B",
+          "type": "item",
+          "item": "ae2:cell_workbench",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "F93B118253BF0882",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "03A32A23DD1BE503",
+      "title": "4k ME Item Storage Cell",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:item_storage_cell_4k",
+      "x": 2.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "44513250F5A05EA5"
+      ],
+      "tasks": [
+        {
+          "id": "F823717AF85A7155",
+          "type": "item",
+          "item": "ae2:item_storage_cell_4k",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "275A6C5D956F1A2E",
+      "title": "16k ME Item Storage Cell",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:item_storage_cell_16k",
+      "x": 4.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "03A32A23DD1BE503"
+      ],
+      "tasks": [
+        {
+          "id": "FB7A54A5749B3D37",
+          "type": "item",
+          "item": "ae2:item_storage_cell_16k",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "90C6F9866E87593A",
+      "title": "64k ME Item Storage Cell",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:item_storage_cell_64k",
+      "x": 6.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "275A6C5D956F1A2E"
+      ],
+      "tasks": [
+        {
+          "id": "06168F868083DD35",
+          "type": "item",
+          "item": "ae2:item_storage_cell_64k",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "64DF6E90CCBCB000",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "A30C16397F23E15A",
+      "title": "256k ME Item Storage Cell",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:item_storage_cell_256k",
+      "x": 8.0,
+      "y": 9.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "90C6F9866E87593A"
+      ],
+      "tasks": [
+        {
+          "id": "CD365819E4BD84CC",
+          "type": "item",
+          "item": "ae2:item_storage_cell_256k",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "359D17FB20AD46FC",
+          "type": "xp",
+          "xp": 45
+        },
+        {
+          "id": "2AAC78E18097B8AA",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "1F805BC6BD1AD092",
+      "title": "ME Controller",
+      "subtitle": "Channels and power",
+      "description": [
+        "Smart cable shows occupied channels. Plan controller faces and trunks before hiding the cabling inside walls."
+      ],
+      "icon": "ae2:controller",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "309DD644DC97FFAB"
+      ],
+      "tasks": [
+        {
+          "id": "76842C5BCFE1FEE5",
+          "type": "item",
+          "item": "ae2:controller",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "AD153EB390A48858",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "0721A721D2B285FB",
+      "title": "Fluix ME Smart Cable",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:fluix_smart_cable",
+      "x": 2.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "1F805BC6BD1AD092"
+      ],
+      "tasks": [
+        {
+          "id": "29B40879C9001069",
+          "type": "item",
+          "item": "ae2:fluix_smart_cable",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "EED53993E3AB0F3F",
+      "title": "Fluix ME Dense Smart Cable",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:fluix_smart_dense_cable",
+      "x": 4.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "0721A721D2B285FB"
+      ],
+      "tasks": [
+        {
+          "id": "E305AFFF0FD47A81",
+          "type": "item",
+          "item": "ae2:fluix_smart_dense_cable",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "05ED4C76D42D5A7F",
+      "title": "Energy Cell",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:energy_cell",
+      "x": 6.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "EED53993E3AB0F3F"
+      ],
+      "tasks": [
+        {
+          "id": "35089AEF04743F80",
+          "type": "item",
+          "item": "ae2:energy_cell",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "8806F314385A36BE",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "7D4CD081D2BDE615",
+      "title": "Dense Energy Cell",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:dense_energy_cell",
+      "x": 8.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "05ED4C76D42D5A7F"
+      ],
+      "tasks": [
+        {
+          "id": "1C04045FA7A9C5D8",
+          "type": "item",
+          "item": "ae2:dense_energy_cell",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "38482F87DF362692",
+      "title": "Network Tool",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:network_tool",
+      "x": 10.0,
+      "y": 12.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "7D4CD081D2BDE615"
+      ],
+      "tasks": [
+        {
+          "id": "71129EBB5D4EEC3C",
+          "type": "item",
+          "item": "ae2:network_tool",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "DF0521FFAEFFCB8A",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "2103877EEAE48161",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "C6DD4E8E7B4EC260",
+      "title": "ME Import Bus",
+      "subtitle": "Import and export",
+      "description": [
+        "Use an export bus for supplies and an import bus for results. Level emitters can shut down production once stock is sufficient."
+      ],
+      "icon": "ae2:import_bus",
+      "x": 0.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "D07AD8E89E851FFC"
+      ],
+      "tasks": [
+        {
+          "id": "AE655EDCCB2118AB",
+          "type": "item",
+          "item": "ae2:import_bus",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "C8E8CA0272BD2BDC",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "071D2CB0D74DDE28",
+      "title": "ME Export Bus",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:export_bus",
+      "x": 2.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "C6DD4E8E7B4EC260"
+      ],
+      "tasks": [
+        {
+          "id": "6BC4DFECCF4F5205",
+          "type": "item",
+          "item": "ae2:export_bus",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2EA9393D75A6771F",
+      "title": "ME Storage Bus",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:storage_bus",
+      "x": 4.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "071D2CB0D74DDE28"
+      ],
+      "tasks": [
+        {
+          "id": "39F4232729F82506",
+          "type": "item",
+          "item": "ae2:storage_bus",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FB2CD4CCD3EE5548",
+      "title": "ME Level Emitter",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:level_emitter",
+      "x": 6.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "2EA9393D75A6771F"
+      ],
+      "tasks": [
+        {
+          "id": "2FC6BFBC408B23F7",
+          "type": "item",
+          "item": "ae2:level_emitter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "D23D0AF9511E2A9F",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "E99F60B0D884B282",
+      "title": "Redstone Card",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:redstone_card",
+      "x": 8.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "FB2CD4CCD3EE5548"
+      ],
+      "tasks": [
+        {
+          "id": "F2D66BA8B6B2ED12",
+          "type": "item",
+          "item": "ae2:redstone_card",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "78B23E222CB967E8",
+      "title": "Capacity Card",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:capacity_card",
+      "x": 10.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "E99F60B0D884B282"
+      ],
+      "tasks": [
+        {
+          "id": "D5695B4D46FE1987",
+          "type": "item",
+          "item": "ae2:capacity_card",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "B88D3DB392C12E9F",
+      "title": "Acceleration Card",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:speed_card",
+      "x": 12.0,
+      "y": 15.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "78B23E222CB967E8"
+      ],
+      "tasks": [
+        {
+          "id": "F25FB16BE26D464B",
+          "type": "item",
+          "item": "ae2:speed_card",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F7770404AD252B1",
+          "type": "xp",
+          "xp": 35
+        },
+        {
+          "id": "27D3776D4EA6EF47",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "2ECB647E9F0EA5F7",
+      "title": "Blank Pattern",
+      "subtitle": "Patterns and assemblers",
+      "description": [
+        "Encode a small recipe first and request it from the terminal. Processing patterns must match what the connected machine actually returns."
+      ],
+      "icon": "ae2:blank_pattern",
+      "x": 0.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "7017062DE47694E7"
+      ],
+      "tasks": [
+        {
+          "id": "6DB03E07142016A8",
+          "type": "item",
+          "item": "ae2:blank_pattern",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E6EFD62350611C8",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "7EC1FBC074C0360F",
+      "title": "ME Pattern Encoding Terminal",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:pattern_encoding_terminal",
+      "x": 2.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "2ECB647E9F0EA5F7"
+      ],
+      "tasks": [
+        {
+          "id": "771AC3E722266061",
+          "type": "item",
+          "item": "ae2:pattern_encoding_terminal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F2C2C42FD430FE87",
+      "title": "ME Pattern Provider",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:pattern_provider",
+      "x": 4.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "7EC1FBC074C0360F"
+      ],
+      "tasks": [
+        {
+          "id": "50E56001B7C25C1B",
+          "type": "item",
+          "item": "ae2:pattern_provider",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1C5E6B03EC5F0834",
+      "title": "Molecular Assembler",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:molecular_assembler",
+      "x": 6.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "F2C2C42FD430FE87"
+      ],
+      "tasks": [
+        {
+          "id": "26265BCC81FD4FDB",
+          "type": "item",
+          "item": "ae2:molecular_assembler",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3BFDDABBA672DEDA",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "93973C5782183D99",
+      "title": "Crafting Unit",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:crafting_unit",
+      "x": 8.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "1C5E6B03EC5F0834"
+      ],
+      "tasks": [
+        {
+          "id": "416AC248AC33887D",
+          "type": "item",
+          "item": "ae2:crafting_unit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "8F10587AD9E4DB32",
+      "title": "1k Crafting Storage",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:1k_crafting_storage",
+      "x": 10.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "93973C5782183D99"
+      ],
+      "tasks": [
+        {
+          "id": "DA3D6E86D14FDF24",
+          "type": "item",
+          "item": "ae2:1k_crafting_storage",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4D4A8EE9DF651EE8",
+      "title": "Crafting Co-Processing Unit",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:crafting_accelerator",
+      "x": 12.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "8F10587AD9E4DB32"
+      ],
+      "tasks": [
+        {
+          "id": "DCE062DB02C5CB27",
+          "type": "item",
+          "item": "ae2:crafting_accelerator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "199E68CAAC8973D8",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "ABCF7F96371F53E5",
+      "title": "Crafting Monitor",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:crafting_monitor",
+      "x": 14.0,
+      "y": 18.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "4D4A8EE9DF651EE8"
+      ],
+      "tasks": [
+        {
+          "id": "41F568DE068CDCB8",
+          "type": "item",
+          "item": "ae2:crafting_monitor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "83F4ED98CD3749F2",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "EE7B3F41AE246045",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "E07EF4209BF1817C",
+      "title": "4k Crafting Storage",
+      "subtitle": "Scaling production",
+      "description": [
+        "Crafting storage limits job size; co-processors allow parallel work. Keep machine outputs from feeding back into their inputs."
+      ],
+      "icon": "ae2:4k_crafting_storage",
+      "x": 0.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "8F10587AD9E4DB32"
+      ],
+      "tasks": [
+        {
+          "id": "80C0555F378790A5",
+          "type": "item",
+          "item": "ae2:4k_crafting_storage",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4275992BBC9BADBC",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "CE4A5E22B92521CD",
+      "title": "16k Crafting Storage",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:16k_crafting_storage",
+      "x": 2.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "E07EF4209BF1817C"
+      ],
+      "tasks": [
+        {
+          "id": "3F58CC3F8046A68C",
+          "type": "item",
+          "item": "ae2:16k_crafting_storage",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "D79597940C6F17AF",
+      "title": "64k Crafting Storage",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:64k_crafting_storage",
+      "x": 4.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "CE4A5E22B92521CD"
+      ],
+      "tasks": [
+        {
+          "id": "DECAA31C0C83292A",
+          "type": "item",
+          "item": "ae2:64k_crafting_storage",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "C7744EA8B6257F2F",
+      "title": "256k Crafting Storage",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:256k_crafting_storage",
+      "x": 6.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "D79597940C6F17AF"
+      ],
+      "tasks": [
+        {
+          "id": "D0BCA86B4497FFB0",
+          "type": "item",
+          "item": "ae2:256k_crafting_storage",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "27D7962219ADC6B4",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "00DBD47B3BB540F3",
+      "title": "ME Pattern Access Terminal",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:pattern_access_terminal",
+      "x": 8.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "C7744EA8B6257F2F"
+      ],
+      "tasks": [
+        {
+          "id": "1E161A5B9B0466CD",
+          "type": "item",
+          "item": "ae2:pattern_access_terminal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "A7DFEFD432C1C914",
+      "title": "ME Interface",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:interface",
+      "x": 10.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "00DBD47B3BB540F3"
+      ],
+      "tasks": [
+        {
+          "id": "AEB077FD398F6826",
+          "type": "item",
+          "item": "ae2:interface",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "8A3885C58A522072",
+      "title": "Crafting Card",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:crafting_card",
+      "x": 12.0,
+      "y": 21.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "A7DFEFD432C1C914"
+      ],
+      "tasks": [
+        {
+          "id": "7F6C639AC335AC7D",
+          "type": "item",
+          "item": "ae2:crafting_card",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7AAF2652D680FA53",
+          "type": "xp",
+          "xp": 45
+        },
+        {
+          "id": "E33B1D88F058F491",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "0EB8F191DA7C88C4",
+      "title": "1k ME Fluid Storage Cell",
+      "subtitle": "Fluids and access",
+      "description": [
+        "Fluid cells handle tanks without item containers. Test wireless range before removing the terminal near your machines."
+      ],
+      "icon": "ae2:fluid_storage_cell_1k",
+      "x": 0.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "2EA9393D75A6771F"
+      ],
+      "tasks": [
+        {
+          "id": "0B05BB55F7524D8A",
+          "type": "item",
+          "item": "ae2:fluid_storage_cell_1k",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "8C916E8B48E7E689",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "7284BD6DE7EABBAF",
+      "title": "4k ME Fluid Storage Cell",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:fluid_storage_cell_4k",
+      "x": 2.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "0EB8F191DA7C88C4"
+      ],
+      "tasks": [
+        {
+          "id": "3CAA69ACE8E91275",
+          "type": "item",
+          "item": "ae2:fluid_storage_cell_4k",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "BDD356B5B3145C34",
+      "title": "16k ME Fluid Storage Cell",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:fluid_storage_cell_16k",
+      "x": 4.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "7284BD6DE7EABBAF"
+      ],
+      "tasks": [
+        {
+          "id": "CF8D68BCD23A8B18",
+          "type": "item",
+          "item": "ae2:fluid_storage_cell_16k",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1170B3B8AAF32553",
+      "title": "ME Wireless Access Point",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:wireless_access_point",
+      "x": 6.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "BDD356B5B3145C34"
+      ],
+      "tasks": [
+        {
+          "id": "C01A779FE1C8B7DC",
+          "type": "item",
+          "item": "ae2:wireless_access_point",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07CCA3A699053AF6",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "75DE5B9BF769F719",
+      "title": "Wireless Receiver",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:wireless_receiver",
+      "x": 8.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "1170B3B8AAF32553"
+      ],
+      "tasks": [
+        {
+          "id": "85C248A663544D76",
+          "type": "item",
+          "item": "ae2:wireless_receiver",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FDA2A8FF86870923",
+      "title": "Wireless Terminal",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:wireless_terminal",
+      "x": 10.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "75DE5B9BF769F719"
+      ],
+      "tasks": [
+        {
+          "id": "D310F4CA54448E22",
+          "type": "item",
+          "item": "ae2:wireless_terminal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "D982A7047C47F295",
+      "title": "Wireless Crafting Terminal",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:wireless_crafting_terminal",
+      "x": 12.0,
+      "y": 24.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "FDA2A8FF86870923"
+      ],
+      "tasks": [
+        {
+          "id": "152599F36914E518",
+          "type": "item",
+          "item": "ae2:wireless_crafting_terminal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "81E2874EA362599D",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "F61FE695FAE1070D",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "8D6293691578A0BA",
+      "title": "ME P2P Tunnel",
+      "subtitle": "Distant connections",
+      "description": [
+        "Pair endpoints carefully and keep remote networks powered. Quantum connections are a late-stage answer to distant infrastructure."
+      ],
+      "icon": "ae2:me_p2p_tunnel",
+      "x": 0.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "1F805BC6BD1AD092"
+      ],
+      "tasks": [
+        {
+          "id": "B4346C557F91887D",
+          "type": "item",
+          "item": "ae2:me_p2p_tunnel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "89445B260635F544",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "20064FC49B57EEBC",
+      "title": "Memory Card",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:memory_card",
+      "x": 2.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "8D6293691578A0BA"
+      ],
+      "tasks": [
+        {
+          "id": "C742D6845E890887",
+          "type": "item",
+          "item": "ae2:memory_card",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "701724B3F8EB09A7",
+      "title": "ME Quantum Ring",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:quantum_ring",
+      "x": 4.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "20064FC49B57EEBC"
+      ],
+      "tasks": [
+        {
+          "id": "B61CBA79FC4BEFBB",
+          "type": "item",
+          "item": "ae2:quantum_ring",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "A5561B3F575CAAE8",
+      "title": "ME Quantum Link Chamber",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:quantum_link",
+      "x": 6.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "701724B3F8EB09A7"
+      ],
+      "tasks": [
+        {
+          "id": "854C36532A46A5B4",
+          "type": "item",
+          "item": "ae2:quantum_link",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "02CFF981ABCBE988",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "92E14964358E8242",
+      "title": "Matter Condenser",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:condenser",
+      "x": 8.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "A5561B3F575CAAE8"
+      ],
+      "tasks": [
+        {
+          "id": "E497B33D38DC24E5",
+          "type": "item",
+          "item": "ae2:condenser",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "E8FCB737F5511104",
+      "title": "Singularity",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:singularity",
+      "x": 10.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "92E14964358E8242"
+      ],
+      "tasks": [
+        {
+          "id": "21EBAB8AB38CBBBE",
+          "type": "item",
+          "item": "ae2:singularity",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "C587DEA45B620375",
+      "title": "Quantum Entangled Singularity",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:quantum_entangled_singularity",
+      "x": 12.0,
+      "y": 27.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "E8FCB737F5511104"
+      ],
+      "tasks": [
+        {
+          "id": "BF4BB72C03F4D2D0",
+          "type": "item",
+          "item": "ae2:quantum_entangled_singularity",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F7916868BA7CFC1",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "15CB71DA9A1190A8",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "F9365C718CECF4C9",
+      "title": "Spatial Pylon",
+      "subtitle": "Spatial laboratory",
+      "description": [
+        "Test spatial storage with a small empty chamber. Keep a clear boundary and remove anything you cannot afford to move."
+      ],
+      "icon": "ae2:spatial_pylon",
+      "x": 0.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "701724B3F8EB09A7"
+      ],
+      "tasks": [
+        {
+          "id": "12DA4C2A1964F1B2",
+          "type": "item",
+          "item": "ae2:spatial_pylon",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "39AC25881054DFD6",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "D00C59E85295BD19",
+      "title": "Spatial IO Port",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:spatial_io_port",
+      "x": 2.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "F9365C718CECF4C9"
+      ],
+      "tasks": [
+        {
+          "id": "1F21B555E7EF8338",
+          "type": "item",
+          "item": "ae2:spatial_io_port",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F161F4040562B3C8",
+      "title": "2Â³ Spatial Component",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:spatial_cell_component_2",
+      "x": 4.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "D00C59E85295BD19"
+      ],
+      "tasks": [
+        {
+          "id": "BE858DBB6EF24E15",
+          "type": "item",
+          "item": "ae2:spatial_cell_component_2",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6381BA58DD049245",
+      "title": "2Â³ Spatial Storage Cell",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:spatial_storage_cell_2",
+      "x": 6.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "F161F4040562B3C8"
+      ],
+      "tasks": [
+        {
+          "id": "5CB95B4A07282660",
+          "type": "item",
+          "item": "ae2:spatial_storage_cell_2",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "9642654B22BECCE4",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "F79CE38C79F3B8A7",
+      "title": "16Â³ Spatial Storage Cell",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:spatial_storage_cell_16",
+      "x": 8.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "6381BA58DD049245"
+      ],
+      "tasks": [
+        {
+          "id": "09B4321BEBAF81D4",
+          "type": "item",
+          "item": "ae2:spatial_storage_cell_16",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "8432F44ADC230D05",
+      "title": "128Â³ Spatial Storage Cell",
+      "subtitle": "",
+      "description": [],
+      "icon": "ae2:spatial_storage_cell_128",
+      "x": 10.0,
+      "y": 30.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "F79CE38C79F3B8A7"
+      ],
+      "tasks": [
+        {
+          "id": "506CDF4CA6DAECB4",
+          "type": "item",
+          "item": "ae2:spatial_storage_cell_128",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "F2958945E2711832",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "74C0D36EDBC2DFDB",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

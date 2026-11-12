@@ -1,0 +1,1089 @@
+{
+  "id": "7DB154FD1B31F840",
+  "title": "Hexerei",
+  "group": "065A019E212476CF",
+  "order_index": 18,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "FB8CC4EA2F00EAAF",
+      "title": "Book of Shadows",
+      "subtitle": "The witch's garden",
+      "description": [
+        "Plant a varied herb garden and dry its harvest. Keep a labelled supply near the cauldron."
+      ],
+      "icon": "hexerei:book_of_shadows",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "6A9F80E975D4A3B0",
+          "type": "item",
+          "item": "hexerei:book_of_shadows",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "B31647F142CAACC9",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "5251CFE835C70403",
+      "title": "Sage",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:sage",
+      "x": 2.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "FB8CC4EA2F00EAAF"
+      ],
+      "tasks": [
+        {
+          "id": "09B83D62E33630FD",
+          "type": "item",
+          "item": "hexerei:sage",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "710D16B68787C79A",
+      "title": "Belladonna Flowers",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:belladonna_flowers",
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "5251CFE835C70403"
+      ],
+      "tasks": [
+        {
+          "id": "38CC1FFC3FBDBA3D",
+          "type": "item",
+          "item": "hexerei:belladonna_flowers",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "99F39ABABA57EB12",
+      "title": "Mandrake Root",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:mandrake_root",
+      "x": 6.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "710D16B68787C79A"
+      ],
+      "tasks": [
+        {
+          "id": "58F7E994CFBAE5AB",
+          "type": "item",
+          "item": "hexerei:mandrake_root",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "A1DBD86F60CD4802",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "F88539EB592E7FF3",
+      "title": "Mugwort Flowers",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:mugwort_flowers",
+      "x": 8.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "99F39ABABA57EB12"
+      ],
+      "tasks": [
+        {
+          "id": "0597711BADEDB851",
+          "type": "item",
+          "item": "hexerei:mugwort_flowers",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5E247FD5410E6917",
+      "title": "Yellow Dock Flowers",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:yellow_dock_flowers",
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "F88539EB592E7FF3"
+      ],
+      "tasks": [
+        {
+          "id": "ECE0657FC75BF88B",
+          "type": "item",
+          "item": "hexerei:yellow_dock_flowers",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "DD0F1774F629F7BF",
+      "title": "Drying Rack",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:herb_drying_rack",
+      "x": 12.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "5E247FD5410E6917"
+      ],
+      "tasks": [
+        {
+          "id": "C867B5BEF1A1BC1A",
+          "type": "item",
+          "item": "hexerei:herb_drying_rack",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "B6FCFB0BF565A9DA",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "720DA1FEA6911657",
+      "title": "Herb Jar",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:herb_jar",
+      "x": 14.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "DD0F1774F629F7BF"
+      ],
+      "tasks": [
+        {
+          "id": "A5EBC4A8BF764D4F",
+          "type": "item",
+          "item": "hexerei:herb_jar",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "EB715B171D34B320",
+          "type": "xp",
+          "xp": 30
+        },
+        {
+          "id": "4BCBDC5829AA0696",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "FD7D1D7FB9E6AAB7",
+      "title": "Mixing Cauldron",
+      "subtitle": "Beside the cauldron",
+      "description": [
+        "Work through the book's mixtures with the right heat and ingredients. Prepare small batches before filling the shelves."
+      ],
+      "icon": "hexerei:mixing_cauldron",
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "720DA1FEA6911657"
+      ],
+      "tasks": [
+        {
+          "id": "73A7DA7C8E28D06B",
+          "type": "item",
+          "item": "hexerei:mixing_cauldron",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1859C267BE1E3BCE",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "6E66EBF7B16DD555",
+      "title": "Pestle and Mortar",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:pestle_and_mortar",
+      "x": 2.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "FD7D1D7FB9E6AAB7"
+      ],
+      "tasks": [
+        {
+          "id": "2B9C9977D7F49A5D",
+          "type": "item",
+          "item": "hexerei:pestle_and_mortar",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3D06BD944F2AD8DC",
+      "title": "Dried Sage",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:dried_sage",
+      "x": 4.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "6E66EBF7B16DD555"
+      ],
+      "tasks": [
+        {
+          "id": "623F4EA375D95BAA",
+          "type": "item",
+          "item": "hexerei:dried_sage",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2A98E40429650FA6",
+      "title": "Sage Bundle",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:sage_bundle",
+      "x": 6.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "3D06BD944F2AD8DC"
+      ],
+      "tasks": [
+        {
+          "id": "961E9718EE10C32D",
+          "type": "item",
+          "item": "hexerei:sage_bundle",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2D4002233397C5BB",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "14E0B5E3ACD4B6F9",
+      "title": "Sage Burning Plate",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:sage_burning_plate",
+      "x": 8.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "2A98E40429650FA6"
+      ],
+      "tasks": [
+        {
+          "id": "591D726F78A8C3C0",
+          "type": "item",
+          "item": "hexerei:sage_burning_plate",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5B5FEB3DF219B5E4",
+      "title": "Moon Dust",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:moon_dust",
+      "x": 10.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "14E0B5E3ACD4B6F9"
+      ],
+      "tasks": [
+        {
+          "id": "E368F34E6FC66CD9",
+          "type": "item",
+          "item": "hexerei:moon_dust",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "8E3BC26AAD12F9B2",
+          "type": "xp",
+          "xp": 35
+        },
+        {
+          "id": "9739558EA9A3FBA5",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "C9CCFB3CC2E1B775",
+      "title": "Animal Fat",
+      "subtitle": "Wax and flame",
+      "description": [
+        "Dip candles and prepare wax in a dedicated work area. Keep ingredients close enough to compare each mixture."
+      ],
+      "icon": "hexerei:animal_fat",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "FD7D1D7FB9E6AAB7"
+      ],
+      "tasks": [
+        {
+          "id": "3640F97865AE86FC",
+          "type": "item",
+          "item": "hexerei:animal_fat",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "CB82222B76780F71",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "7FB23F778D6BD7D4",
+      "title": "Bottle of Tallow",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:tallow_bottle",
+      "x": 2.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "C9CCFB3CC2E1B775"
+      ],
+      "tasks": [
+        {
+          "id": "ABCA36F9E03EC0D5",
+          "type": "item",
+          "item": "hexerei:tallow_bottle",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "E17CBC5BCB2818E0",
+      "title": "Candle",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:candle",
+      "x": 4.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "7FB23F778D6BD7D4"
+      ],
+      "tasks": [
+        {
+          "id": "CD9D712895D85D8A",
+          "type": "item",
+          "item": "hexerei:candle",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "ED011AACCBF238EA",
+      "title": "Dipper",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:candle_dipper",
+      "x": 6.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "E17CBC5BCB2818E0"
+      ],
+      "tasks": [
+        {
+          "id": "CFE3D108AFCA5989",
+          "type": "item",
+          "item": "hexerei:candle_dipper",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4A68F8619DF5F395",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "F18AA1D7BD463515",
+      "title": "Wax Blend",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:wax_blend",
+      "x": 8.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "ED011AACCBF238EA"
+      ],
+      "tasks": [
+        {
+          "id": "90810A7984B39E74",
+          "type": "item",
+          "item": "hexerei:wax_blend",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "35AB5EE9A73AA527",
+      "title": "Waxing Kit",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:waxing_kit",
+      "x": 10.0,
+      "y": 6.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "F18AA1D7BD463515"
+      ],
+      "tasks": [
+        {
+          "id": "C43B43AA264EF9A9",
+          "type": "item",
+          "item": "hexerei:waxing_kit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "931833754D9A687D",
+          "type": "xp",
+          "xp": 40
+        },
+        {
+          "id": "A30F01CA6DF57CD4",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "11BEB65F9ACA2A0C",
+      "title": "Broom Brush",
+      "subtitle": "A broom of your own",
+      "description": [
+        "Fit a brush before taking flight. Test handling over safe ground and keep the whistle at hand."
+      ],
+      "icon": "hexerei:broom_brush",
+      "x": 0.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "5B5FEB3DF219B5E4"
+      ],
+      "tasks": [
+        {
+          "id": "6A38E3F62C73B6BC",
+          "type": "item",
+          "item": "hexerei:broom_brush",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "B88827F89F57FE10",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "B843B20EE811BE4C",
+      "title": "Mahogany Broom",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:mahogany_broom",
+      "x": 2.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "11BEB65F9ACA2A0C"
+      ],
+      "tasks": [
+        {
+          "id": "8B76BCAFE2750D44",
+          "type": "item",
+          "item": "hexerei:mahogany_broom",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "B2150C581E96A005",
+      "title": "Broom Whistle",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:broom_whistle",
+      "x": 4.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "B843B20EE811BE4C"
+      ],
+      "tasks": [
+        {
+          "id": "4745B7E7295358E5",
+          "type": "item",
+          "item": "hexerei:broom_whistle",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE6574EFA73E9E73",
+      "title": "Broom Seat",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:broom_seat",
+      "x": 6.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "B2150C581E96A005"
+      ],
+      "tasks": [
+        {
+          "id": "B4B642A3E354A048",
+          "type": "item",
+          "item": "hexerei:broom_seat",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DF1C9A26E1D4AE3",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "363DFE8A1256EA23",
+      "title": "Enhanced Broom Brush",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:herb_enhanced_broom_brush",
+      "x": 8.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "FE6574EFA73E9E73"
+      ],
+      "tasks": [
+        {
+          "id": "C7FF8EBCEAD510E7",
+          "type": "item",
+          "item": "hexerei:herb_enhanced_broom_brush",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "37E88380B3A1787B",
+      "title": "Broom Waterproof Tip",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:broom_waterproof_tip",
+      "x": 10.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "363DFE8A1256EA23"
+      ],
+      "tasks": [
+        {
+          "id": "CE11A2A53ED98540",
+          "type": "item",
+          "item": "hexerei:broom_waterproof_tip",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "E0702A52F14C21FC",
+      "title": "Broom Netherite Tip",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:broom_netherite_tip",
+      "x": 12.0,
+      "y": 9.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "37E88380B3A1787B"
+      ],
+      "tasks": [
+        {
+          "id": "1CACC18AB5400CB4",
+          "type": "item",
+          "item": "hexerei:broom_netherite_tip",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4D93EB5C512D2C2C",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "id": "952F465BCB8D8DB5",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "36ADDAB073F03BC7",
+      "title": "Crow Flute",
+      "subtitle": "The crow post",
+      "description": [
+        "Prepare both ends of a delivery route. Test a small parcel before trusting the post with valuable supplies."
+      ],
+      "icon": "hexerei:crow_flute",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "FD7D1D7FB9E6AAB7"
+      ],
+      "tasks": [
+        {
+          "id": "E1374EE75AD3A210",
+          "type": "item",
+          "item": "hexerei:crow_flute",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "C1DEE286AF5B55D7",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "AAE8D880A7E615E8",
+      "title": "Courier Letter",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:courier_letter",
+      "x": 2.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "36ADDAB073F03BC7"
+      ],
+      "tasks": [
+        {
+          "id": "1FC1035321BA3A0A",
+          "type": "item",
+          "item": "hexerei:courier_letter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "BD7B6909ECFB150A",
+      "title": "Courier Package",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:courier_package",
+      "x": 4.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "AAE8D880A7E615E8"
+      ],
+      "tasks": [
+        {
+          "id": "B53F18953DFB8640",
+          "type": "item",
+          "item": "hexerei:courier_package",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "70B2620B738BA107",
+      "title": "Mahogany Courier Depot",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:mahogany_courier_depot",
+      "x": 6.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "BD7B6909ECFB150A"
+      ],
+      "tasks": [
+        {
+          "id": "30D2954B16EABD5A",
+          "type": "item",
+          "item": "hexerei:mahogany_courier_depot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FBAB6121BF53C81",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "FE7BA91E9FC89E4A",
+      "title": "Crow Blank Amulet Trinket",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:crow_blank_amulet",
+      "x": 8.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "70B2620B738BA107"
+      ],
+      "tasks": [
+        {
+          "id": "888958DB9F0FEDCD",
+          "type": "item",
+          "item": "hexerei:crow_blank_amulet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "8B84EF06DCFEA906",
+      "title": "Crow Ankh Amulet",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:crow_ankh_amulet",
+      "x": 10.0,
+      "y": 12.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "FE7BA91E9FC89E4A"
+      ],
+      "tasks": [
+        {
+          "id": "4B6BEE6ADADB1CFB",
+          "type": "item",
+          "item": "hexerei:crow_ankh_amulet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2E37755FC720E8EB",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "91D5AE861D821128",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "573731F667F7BEC7",
+      "title": "Altar",
+      "subtitle": "Tools of the hearth",
+      "description": [
+        "Build a reading corner beside the workshop. Carry a satchel for gathering and leave space for unexpected finds."
+      ],
+      "icon": "hexerei:book_of_shadows_altar",
+      "x": 0.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "FB8CC4EA2F00EAAF"
+      ],
+      "tasks": [
+        {
+          "id": "423708EA0A7B9AB8",
+          "type": "item",
+          "item": "hexerei:book_of_shadows_altar",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "E4840C5CC913B54F",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "912B9E0AF5EF449F",
+      "title": "Crystal Ball",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:crystal_ball",
+      "x": 2.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "573731F667F7BEC7"
+      ],
+      "tasks": [
+        {
+          "id": "22A6505EC882767B",
+          "type": "item",
+          "item": "hexerei:crystal_ball",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2D7178D511175FED",
+      "title": "Dowsing Rod",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:dowsing_rod",
+      "x": 4.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "912B9E0AF5EF449F"
+      ],
+      "tasks": [
+        {
+          "id": "58111933F72E73FD",
+          "type": "item",
+          "item": "hexerei:dowsing_rod",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "EC5848319B070184",
+      "title": "Small Satchel",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:small_satchel",
+      "x": 6.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "2D7178D511175FED"
+      ],
+      "tasks": [
+        {
+          "id": "5499ACF2468B8C98",
+          "type": "item",
+          "item": "hexerei:small_satchel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "BCED080CF006CC80",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "718724E5A234EAFD",
+      "title": "Medium Satchel",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:medium_satchel",
+      "x": 8.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "EC5848319B070184"
+      ],
+      "tasks": [
+        {
+          "id": "AC335D0F645CDF07",
+          "type": "item",
+          "item": "hexerei:medium_satchel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "07F9E0AC53873FE2",
+      "title": "Large Satchel",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:large_satchel",
+      "x": 10.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "718724E5A234EAFD"
+      ],
+      "tasks": [
+        {
+          "id": "32452F74D6E01237",
+          "type": "item",
+          "item": "hexerei:large_satchel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "53362CE0D5551BEE",
+      "title": "Ender Satchel",
+      "subtitle": "",
+      "description": [],
+      "icon": "hexerei:ender_satchel",
+      "x": 12.0,
+      "y": 15.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "07F9E0AC53873FE2"
+      ],
+      "tasks": [
+        {
+          "id": "8D50560810914AB4",
+          "type": "item",
+          "item": "hexerei:ender_satchel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7B54C92D404162C9",
+          "type": "xp",
+          "xp": 35
+        },
+        {
+          "id": "BAE38B686596C871",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

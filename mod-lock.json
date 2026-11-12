@@ -110339,6 +110339,64 @@
         "size": 1007122,
         "file_type": null
       }
+    },
+    {
+      "project": {
+        "id": "cf-358191",
+        "slug": "packmenu",
+        "title": "PackMenu",
+        "server_side": "unsupported",
+        "source_url": "https://www.curseforge.com/minecraft/mc-mods/packmenu"
+      },
+      "version": {
+        "id": "cf-5503481",
+        "version_number": "6.1.2",
+        "dependencies": []
+      },
+      "category": "Branding",
+      "metadata": {
+        "modLoader": "javafml",
+        "loaderVersion": "[32,)",
+        "authors": "Shadows_of_Fire",
+        "license": "MIT License",
+        "mods": [
+          {
+            "modId": "packmenu",
+            "version": "6.1.2",
+            "displayName": "PackMenu",
+            "description": "A data-driven main menu mod!"
+          }
+        ],
+        "dependencies": {
+          "packmenu": [
+            {
+              "modId": "minecraft",
+              "mandatory": true,
+              "versionRange": "[1.20.1,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "placebo",
+              "mandatory": true,
+              "versionRange": "[8.3.5,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            }
+          ]
+        }
+      },
+      "file": {
+        "filename": "PackMenu-1.20.1-6.1.2.jar",
+        "url": "https://mediafilez.forgecdn.net/files/5503/481/PackMenu-1.20.1-6.1.2.jar",
+        "size": 543359,
+        "hashes": {
+          "sha512": "4064269ef04c6aa64ebeeb39651fb6ba72e507c2702b32ab46531a34b10ca30fd390c64482e556994c726801f74d13b7b79134c57563f4f115a2ca10a4ffa4a1",
+          "sha1": "f9949cf20abb021bcdc6a5865ccae47940c4fd1a"
+        }
+      },
+      "source_page": "https://www.curseforge.com/minecraft/mc-mods/packmenu/files/5503481",
+      "source": "curseforge"
     }
   ],
   "skipped": [],

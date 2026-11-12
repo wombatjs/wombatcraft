@@ -1,0 +1,2281 @@
+{
+  "id": "293239DF985611E6",
+  "title": "Create",
+  "group": "0DCB27D2C77209FB",
+  "order_index": 10,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "49E03A0625291FB4",
+      "title": "Andesite Alloy",
+      "subtitle": "Turning the first wheel",
+      "description": [
+        "Flowing water starts the workshop. Carry rotation through shafts and gears; a press turns ingots into sheets."
+      ],
+      "icon": "create:andesite_alloy",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "711B24EB70654298",
+          "type": "item",
+          "item": "create:andesite_alloy",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "67B88442BCCBFB34",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "C11C4C75B645489B",
+      "title": "Wrench",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:wrench",
+      "x": 2.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "49E03A0625291FB4"
+      ],
+      "tasks": [
+        {
+          "id": "5B129BD0BA971D77",
+          "type": "item",
+          "item": "create:wrench",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F6F19A449B710955",
+      "title": "Shaft",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:shaft",
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "C11C4C75B645489B"
+      ],
+      "tasks": [
+        {
+          "id": "1F2AB60816937573",
+          "type": "item",
+          "item": "create:shaft",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "109675BE493FCB04",
+      "title": "Cogwheel",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:cogwheel",
+      "x": 6.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "F6F19A449B710955"
+      ],
+      "tasks": [
+        {
+          "id": "92C85394BC617EBB",
+          "type": "item",
+          "item": "create:cogwheel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0EA305BBD81F5A9D",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "78BA82E034F16BF8",
+      "title": "Large Cogwheel",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:large_cogwheel",
+      "x": 8.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "109675BE493FCB04"
+      ],
+      "tasks": [
+        {
+          "id": "0BFA5289F27325EC",
+          "type": "item",
+          "item": "create:large_cogwheel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "01E6C5BADB72D8C6",
+      "title": "Water Wheel",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:water_wheel",
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "78BA82E034F16BF8"
+      ],
+      "tasks": [
+        {
+          "id": "8B93D47B9AA8B8F3",
+          "type": "item",
+          "item": "create:water_wheel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "C60AA0804F307021",
+      "title": "Gearbox",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:gearbox",
+      "x": 12.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "01E6C5BADB72D8C6"
+      ],
+      "tasks": [
+        {
+          "id": "688AA5742F8FFF7B",
+          "type": "item",
+          "item": "create:gearbox",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "A4C80C39055FFC4E",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "3FA3BA68CEC4E8B7",
+      "title": "Mechanical Press",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:mechanical_press",
+      "x": 14.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "C60AA0804F307021"
+      ],
+      "tasks": [
+        {
+          "id": "2C515839DD2058EF",
+          "type": "item",
+          "item": "create:mechanical_press",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "634E2AAFA45F9D8F",
+      "title": "Iron Sheet",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:iron_sheet",
+      "x": 16.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "3FA3BA68CEC4E8B7"
+      ],
+      "tasks": [
+        {
+          "id": "BAD26AF1B0FD3604",
+          "type": "item",
+          "item": "create:iron_sheet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "681D970836ED3175",
+          "type": "xp",
+          "xp": 30
+        },
+        {
+          "id": "898E956D3675898E",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "B8B69410EDC71B68",
+      "title": "Engineer's Goggles",
+      "subtitle": "Reading the workshop",
+      "description": [
+        "Measure speed and stress before expanding. A clutch isolates a machine without stopping the whole factory."
+      ],
+      "icon": "create:goggles",
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "3FA3BA68CEC4E8B7"
+      ],
+      "tasks": [
+        {
+          "id": "D20E99D78958F051",
+          "type": "item",
+          "item": "create:goggles",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "175EBA02007C0F7E",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "82D2DD6A67F1D72E",
+      "title": "Speedometer",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:speedometer",
+      "x": 2.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "B8B69410EDC71B68"
+      ],
+      "tasks": [
+        {
+          "id": "EB03626950C71F6E",
+          "type": "item",
+          "item": "create:speedometer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7836D3268613D548",
+      "title": "Stressometer",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:stressometer",
+      "x": 4.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "82D2DD6A67F1D72E"
+      ],
+      "tasks": [
+        {
+          "id": "A378FC2C75752295",
+          "type": "item",
+          "item": "create:stressometer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2497D10589288A50",
+      "title": "Clutch",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:clutch",
+      "x": 6.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "7836D3268613D548"
+      ],
+      "tasks": [
+        {
+          "id": "566EC47173A1F29D",
+          "type": "item",
+          "item": "create:clutch",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "59D0B611086A0DBE",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "FF0E61929DED5534",
+      "title": "Gearshift",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:gearshift",
+      "x": 8.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "2497D10589288A50"
+      ],
+      "tasks": [
+        {
+          "id": "496ECCABBCEAB4C5",
+          "type": "item",
+          "item": "create:gearshift",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "83943671F804CCD0",
+      "title": "Adjustable Chain Gearshift",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:adjustable_chain_gearshift",
+      "x": 10.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "FF0E61929DED5534"
+      ],
+      "tasks": [
+        {
+          "id": "1B4FCE64BBE5DA4D",
+          "type": "item",
+          "item": "create:adjustable_chain_gearshift",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2751EA4D0297A193",
+          "type": "xp",
+          "xp": 35
+        },
+        {
+          "id": "7479A600A73285C0",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "9F02C8F980681953",
+      "title": "Windmill Bearing",
+      "subtitle": "Wind and motion",
+      "description": [
+        "Assemble moving structures around a bearing. Glue joins their blocks; storage must travel with the contraption."
+      ],
+      "icon": "create:windmill_bearing",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "01E6C5BADB72D8C6"
+      ],
+      "tasks": [
+        {
+          "id": "821DBF92A2FDBE68",
+          "type": "item",
+          "item": "create:windmill_bearing",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "473001B3D79E3857",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "79A593140ECE9E80",
+      "title": "Windmill Sail",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:white_sail",
+      "x": 2.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "9F02C8F980681953"
+      ],
+      "tasks": [
+        {
+          "id": "7A952BF1993855E4",
+          "type": "item",
+          "item": "create:white_sail",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "EEF8BA7AFB20ADE6",
+      "title": "Mechanical Bearing",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:mechanical_bearing",
+      "x": 4.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "79A593140ECE9E80"
+      ],
+      "tasks": [
+        {
+          "id": "55146A6EB05B2BF1",
+          "type": "item",
+          "item": "create:mechanical_bearing",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4519A08DF7E5C802",
+      "title": "Super Glue",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:super_glue",
+      "x": 6.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "EEF8BA7AFB20ADE6"
+      ],
+      "tasks": [
+        {
+          "id": "904F25A94DD75011",
+          "type": "item",
+          "item": "create:super_glue",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "FE468F8BF7443A75",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "433CE7E124929BA2",
+      "title": "Linear Chassis",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:linear_chassis",
+      "x": 8.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "4519A08DF7E5C802"
+      ],
+      "tasks": [
+        {
+          "id": "AFC2904512FF2348",
+          "type": "item",
+          "item": "create:linear_chassis",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "09039AB2A6B7D9AD",
+      "title": "Radial Chassis",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:radial_chassis",
+      "x": 10.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "433CE7E124929BA2"
+      ],
+      "tasks": [
+        {
+          "id": "C5B72140CEC4BE9A",
+          "type": "item",
+          "item": "create:radial_chassis",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "D44E813665CD9469",
+      "title": "Rope Pulley",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:rope_pulley",
+      "x": 12.0,
+      "y": 6.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "09039AB2A6B7D9AD"
+      ],
+      "tasks": [
+        {
+          "id": "1BAA617D6A9B56F7",
+          "type": "item",
+          "item": "create:rope_pulley",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6B06565930BEA79C",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "7CECC1A683DCF096",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "F44CC4F7BB3CEB94",
+      "title": "Mechanical Harvester",
+      "subtitle": "A harvest that repeats",
+      "description": [
+        "Build a rotating farm, then align storage interfaces to unload each pass. Leave room for crops to regrow."
+      ],
+      "icon": "create:mechanical_harvester",
+      "x": 0.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "EEF8BA7AFB20ADE6"
+      ],
+      "tasks": [
+        {
+          "id": "9D78165726AA406A",
+          "type": "item",
+          "item": "create:mechanical_harvester",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "BBA7260B24BA3BCE",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "42D30DE2E7809AB4",
+      "title": "Mechanical Saw",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:mechanical_saw",
+      "x": 2.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "F44CC4F7BB3CEB94"
+      ],
+      "tasks": [
+        {
+          "id": "0261E4B27008222D",
+          "type": "item",
+          "item": "create:mechanical_saw",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "0308AC89E1D063C7",
+      "title": "Portable Storage Interface",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:portable_storage_interface",
+      "x": 4.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "42D30DE2E7809AB4"
+      ],
+      "tasks": [
+        {
+          "id": "A026D38081EF1BB2",
+          "type": "item",
+          "item": "create:portable_storage_interface",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F9CCBF05B1D8C0F5",
+      "title": "Mechanical Plough",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:mechanical_plough",
+      "x": 6.0,
+      "y": 9.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "0308AC89E1D063C7"
+      ],
+      "tasks": [
+        {
+          "id": "904C01B34F5C9A2F",
+          "type": "item",
+          "item": "create:mechanical_plough",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "C7B4ABD6809F01A3",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "id": "A4D8CA6CF23A84C8",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "12135D9B4D65A141",
+      "title": "Andesite Funnel",
+      "subtitle": "Moving materials",
+      "description": [
+        "Keep every transfer visible while testing. A short belt line is easier to troubleshoot than a buried network."
+      ],
+      "icon": "create:andesite_funnel",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "634E2AAFA45F9D8F"
+      ],
+      "tasks": [
+        {
+          "id": "926BCA2D8A1674C6",
+          "type": "item",
+          "item": "create:andesite_funnel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "DF44312AFC6ABD3A",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "ADFDC4A31673306D",
+      "title": "Mechanical Belt",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:belt_connector",
+      "x": 2.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "12135D9B4D65A141"
+      ],
+      "tasks": [
+        {
+          "id": "17AE6B78CE1D455B",
+          "type": "item",
+          "item": "create:belt_connector",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "8F787B4A292A179B",
+      "title": "Depot",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:depot",
+      "x": 4.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "ADFDC4A31673306D"
+      ],
+      "tasks": [
+        {
+          "id": "57C078FFAB4946A3",
+          "type": "item",
+          "item": "create:depot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "9AB8A434FC79CAC8",
+      "title": "Chute",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:chute",
+      "x": 6.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "8F787B4A292A179B"
+      ],
+      "tasks": [
+        {
+          "id": "67FEADE2DF4DFA36",
+          "type": "item",
+          "item": "create:chute",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3D20352D0A1E4FA1",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "455A115B070A406C",
+      "title": "Andesite Tunnel",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:andesite_tunnel",
+      "x": 8.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "9AB8A434FC79CAC8"
+      ],
+      "tasks": [
+        {
+          "id": "CB852ED933E1BBDE",
+          "type": "item",
+          "item": "create:andesite_tunnel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "326AAA9CE2ABE33E",
+      "title": "List Filter",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:filter",
+      "x": 10.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "455A115B070A406C"
+      ],
+      "tasks": [
+        {
+          "id": "2EC5D6E3BFB437FC",
+          "type": "item",
+          "item": "create:filter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "8E324F8AFF68D8CC",
+      "title": "Weighted Ejector",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:weighted_ejector",
+      "x": 12.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "326AAA9CE2ABE33E"
+      ],
+      "tasks": [
+        {
+          "id": "D4EEC9573B8AE214",
+          "type": "item",
+          "item": "create:weighted_ejector",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "A41ADE75AA75C025",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "AACE12527596CC55",
+      "title": "Item Vault",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:item_vault",
+      "x": 14.0,
+      "y": 12.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "8E324F8AFF68D8CC"
+      ],
+      "tasks": [
+        {
+          "id": "F798A8C294796AA1",
+          "type": "item",
+          "item": "create:item_vault",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "B51D7A6A2FCD44E1",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "5F174BF6C19335B3",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "CC40BE7A2FA1F9B8",
+      "title": "Basin",
+      "subtitle": "Heat and brass",
+      "description": [
+        "Capture a blaze in an empty burner. Heat beneath the basin unlocks brass and the next generation of machinery."
+      ],
+      "icon": "create:basin",
+      "x": 0.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "3FA3BA68CEC4E8B7"
+      ],
+      "tasks": [
+        {
+          "id": "CA92A1C9DA5F87A8",
+          "type": "item",
+          "item": "create:basin",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "CA47D4FF9DD7CAE6",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "348B017E378DB8CF",
+      "title": "Mechanical Mixer",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:mechanical_mixer",
+      "x": 2.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "CC40BE7A2FA1F9B8"
+      ],
+      "tasks": [
+        {
+          "id": "0C5FD9CBBD7841C2",
+          "type": "item",
+          "item": "create:mechanical_mixer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "AD65425DD7920F15",
+      "title": "Empty Blaze Burner",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:empty_blaze_burner",
+      "x": 4.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "348B017E378DB8CF"
+      ],
+      "tasks": [
+        {
+          "id": "CD059EE33ED897C9",
+          "type": "item",
+          "item": "create:empty_blaze_burner",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "74EC811DDF343016",
+      "title": "Blaze Burner",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:blaze_burner",
+      "x": 6.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "AD65425DD7920F15"
+      ],
+      "tasks": [
+        {
+          "id": "ABB0F5CC2BC07D22",
+          "type": "item",
+          "item": "create:blaze_burner",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "EA089C5F9E4126F4",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "3ABE5687E527D6E4",
+      "title": "Brass Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:brass_ingot",
+      "x": 8.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "74EC811DDF343016"
+      ],
+      "tasks": [
+        {
+          "id": "47B99D3FA9A49537",
+          "type": "item",
+          "item": "create:brass_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "669078D4DA7A78F9",
+      "title": "Brass Casing",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:brass_casing",
+      "x": 10.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "3ABE5687E527D6E4"
+      ],
+      "tasks": [
+        {
+          "id": "7D0B66D72EA47F16",
+          "type": "item",
+          "item": "create:brass_casing",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "0E52F9CAC119AB3A",
+      "title": "Brass Funnel",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:brass_funnel",
+      "x": 12.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "669078D4DA7A78F9"
+      ],
+      "tasks": [
+        {
+          "id": "BEBB146EB507EF7B",
+          "type": "item",
+          "item": "create:brass_funnel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "513BB63957A99AFE",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5123A2A51262CD4A",
+      "title": "Brass Tunnel",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:brass_tunnel",
+      "x": 14.0,
+      "y": 15.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "0E52F9CAC119AB3A"
+      ],
+      "tasks": [
+        {
+          "id": "F85064A735527D67",
+          "type": "item",
+          "item": "create:brass_tunnel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "671410191D7D59FF",
+          "type": "xp",
+          "xp": 55
+        },
+        {
+          "id": "3892621B70C81081",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "3066BCF7EDA24CDD",
+      "title": "Rose Quartz",
+      "subtitle": "Precision workshop",
+      "description": [
+        "Sequenced assembly returns the workpiece through several steps. Keep unfinished mechanisms circulating until the sequence ends."
+      ],
+      "icon": "create:rose_quartz",
+      "x": 0.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "3ABE5687E527D6E4"
+      ],
+      "tasks": [
+        {
+          "id": "2716FE5ADF16931F",
+          "type": "item",
+          "item": "create:rose_quartz",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "98977EA57AF6F595",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "13B92D6165C9502C",
+      "title": "Sand Paper",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:sand_paper",
+      "x": 2.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "3066BCF7EDA24CDD"
+      ],
+      "tasks": [
+        {
+          "id": "4845F49D89DA90DB",
+          "type": "item",
+          "item": "create:sand_paper",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7B1AEFF8B3D6559B",
+      "title": "Polished Rose Quartz",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:polished_rose_quartz",
+      "x": 4.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "13B92D6165C9502C"
+      ],
+      "tasks": [
+        {
+          "id": "0B1ACD93FB978F0F",
+          "type": "item",
+          "item": "create:polished_rose_quartz",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "DEEF0E602278A052",
+      "title": "Electron Tube",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:electron_tube",
+      "x": 6.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "7B1AEFF8B3D6559B"
+      ],
+      "tasks": [
+        {
+          "id": "DA9EB0F9DFD66AD1",
+          "type": "item",
+          "item": "create:electron_tube",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1279FD7A4E21F315",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "672270914CA8948C",
+      "title": "Deployer",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:deployer",
+      "x": 8.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "DEEF0E602278A052"
+      ],
+      "tasks": [
+        {
+          "id": "35A67044BC2E91D6",
+          "type": "item",
+          "item": "create:deployer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "BCA7DC2E33A8DF20",
+      "title": "Precision Mechanism",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:precision_mechanism",
+      "x": 10.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "672270914CA8948C"
+      ],
+      "tasks": [
+        {
+          "id": "9D790149D5E7D4DD",
+          "type": "item",
+          "item": "create:precision_mechanism",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "E17169D937AF6C5E",
+      "title": "Rotation Speed Controller",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:rotation_speed_controller",
+      "x": 12.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "BCA7DC2E33A8DF20"
+      ],
+      "tasks": [
+        {
+          "id": "3C0C0CD903ECC358",
+          "type": "item",
+          "item": "create:rotation_speed_controller",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "C2D7159D1C24E4CC",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "7AA184A963FF0C9D",
+      "title": "Mechanical Arm",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:mechanical_arm",
+      "x": 14.0,
+      "y": 18.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "E17169D937AF6C5E"
+      ],
+      "tasks": [
+        {
+          "id": "EC77808EA0C5824A",
+          "type": "item",
+          "item": "create:mechanical_arm",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "FAD77B93816A1072",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "8580D1B42721B328",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "909C45E0A6377825",
+      "title": "Millstone",
+      "subtitle": "Bulk processing",
+      "description": [
+        "Fans wash, smoke, blast or haunt items according to the block in their airflow. Crushing wheels open a separate bulk-processing route."
+      ],
+      "icon": "create:millstone",
+      "x": 0.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "348B017E378DB8CF"
+      ],
+      "tasks": [
+        {
+          "id": "06853E33F584718D",
+          "type": "item",
+          "item": "create:millstone",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07A3BC52BEFA4E8E",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "AE24603C12B05719",
+      "title": "Encased Fan",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:encased_fan",
+      "x": 2.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "909C45E0A6377825"
+      ],
+      "tasks": [
+        {
+          "id": "C52323F2BBF12F1A",
+          "type": "item",
+          "item": "create:encased_fan",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "B7AB00C48E8096F7",
+      "title": "Mechanical Crafter",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:mechanical_crafter",
+      "x": 4.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "AE24603C12B05719"
+      ],
+      "tasks": [
+        {
+          "id": "315ADFB849F69630",
+          "type": "item",
+          "item": "create:mechanical_crafter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "40E6F01D64F9CB7D",
+      "title": "Crushing Wheel",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:crushing_wheel",
+      "x": 6.0,
+      "y": 21.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "B7AB00C48E8096F7"
+      ],
+      "tasks": [
+        {
+          "id": "0F3F3FE2F9BF02B4",
+          "type": "item",
+          "item": "create:crushing_wheel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "CECC3EC29DD6DAB1",
+          "type": "xp",
+          "xp": 45
+        },
+        {
+          "id": "1ED30B7183A106E0",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "3771305C81BDBF26",
+      "title": "Fluid Pipe",
+      "subtitle": "Pipes and boilers",
+      "description": [
+        "A boiler needs water, heat and tank capacity. Watch its indicators and build reliable water delivery before increasing demand."
+      ],
+      "icon": "create:fluid_pipe",
+      "x": 0.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "669078D4DA7A78F9"
+      ],
+      "tasks": [
+        {
+          "id": "215F21ACAD2EAA18",
+          "type": "item",
+          "item": "create:fluid_pipe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "B67B52418868AD52",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "B4D81DF8D07C5539",
+      "title": "Mechanical Pump",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:mechanical_pump",
+      "x": 2.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "3771305C81BDBF26"
+      ],
+      "tasks": [
+        {
+          "id": "78F890C7EE451AB0",
+          "type": "item",
+          "item": "create:mechanical_pump",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6ACC1189FAA31650",
+      "title": "Fluid Tank",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:fluid_tank",
+      "x": 4.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "B4D81DF8D07C5539"
+      ],
+      "tasks": [
+        {
+          "id": "91052F6A3A3615AF",
+          "type": "item",
+          "item": "create:fluid_tank",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1524127FAE41227F",
+      "title": "Fluid Valve",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:fluid_valve",
+      "x": 6.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "6ACC1189FAA31650"
+      ],
+      "tasks": [
+        {
+          "id": "EA150FEA3F8A53AB",
+          "type": "item",
+          "item": "create:fluid_valve",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "61DEBAAEC4B3A411",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "862B7CEC83221960",
+      "title": "Smart Fluid Pipe",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:smart_fluid_pipe",
+      "x": 8.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "1524127FAE41227F"
+      ],
+      "tasks": [
+        {
+          "id": "DC72D163626C7C82",
+          "type": "item",
+          "item": "create:smart_fluid_pipe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "540417258E925019",
+      "title": "Spout",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:spout",
+      "x": 10.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "862B7CEC83221960"
+      ],
+      "tasks": [
+        {
+          "id": "B7171725C51A8708",
+          "type": "item",
+          "item": "create:spout",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "858873B984A6FC50",
+      "title": "Item Drain",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:item_drain",
+      "x": 12.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "540417258E925019"
+      ],
+      "tasks": [
+        {
+          "id": "DD91A4888724E894",
+          "type": "item",
+          "item": "create:item_drain",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "CDB4C58E0CE2699D",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "24ED81CCEE733297",
+      "title": "Hose Pulley",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:hose_pulley",
+      "x": 14.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "858873B984A6FC50"
+      ],
+      "tasks": [
+        {
+          "id": "A0BC052D781B7563",
+          "type": "item",
+          "item": "create:hose_pulley",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6BD118B0F14313A8",
+      "title": "Steam Engine",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:steam_engine",
+      "x": 16.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "24ED81CCEE733297"
+      ],
+      "tasks": [
+        {
+          "id": "0215D84FF6AB22C0",
+          "type": "item",
+          "item": "create:steam_engine",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3AD5F1A0D6BC740E",
+      "title": "Flywheel",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:flywheel",
+      "x": 18.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "6BD118B0F14313A8"
+      ],
+      "tasks": [
+        {
+          "id": "7CB3C350C7835664",
+          "type": "item",
+          "item": "create:flywheel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E711045C52FE983",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "BAC350F31718F718",
+      "title": "Blaze Cake",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:blaze_cake",
+      "x": 20.0,
+      "y": 24.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "3AD5F1A0D6BC740E"
+      ],
+      "tasks": [
+        {
+          "id": "F3B02B7E14512787",
+          "type": "item",
+          "item": "create:blaze_cake",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "ABE8A887CFEC3BB8",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "3A7EB111A906AB86",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "7FBC781DB5C4E4E9",
+      "title": "Sturdy Sheet",
+      "subtitle": "Railway charter",
+      "description": [
+        "Lay a short test line before a long railway. Stations define destinations; signals keep shared track sections clear."
+      ],
+      "icon": "create:sturdy_sheet",
+      "x": 0.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "BCA7DC2E33A8DF20"
+      ],
+      "tasks": [
+        {
+          "id": "C16F6066126391B6",
+          "type": "item",
+          "item": "create:sturdy_sheet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3471BAAE11CFE608",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "DDE10C0F0121A9A6",
+      "title": "Train Track",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:track",
+      "x": 2.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "7FBC781DB5C4E4E9"
+      ],
+      "tasks": [
+        {
+          "id": "1EBD24E7F3756F5F",
+          "type": "item",
+          "item": "create:track",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "24756482F668FCE8",
+      "title": "Train Controls",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:controls",
+      "x": 4.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "DDE10C0F0121A9A6"
+      ],
+      "tasks": [
+        {
+          "id": "5B26724187ECBFC5",
+          "type": "item",
+          "item": "create:controls",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "CD63A2ADAC7F8FFD",
+      "title": "Train Station",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:track_station",
+      "x": 6.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "24756482F668FCE8"
+      ],
+      "tasks": [
+        {
+          "id": "9663A5D3714CF476",
+          "type": "item",
+          "item": "create:track_station",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "94C97B3293182152",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "140A230F2A707663",
+      "title": "Train Schedule",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:schedule",
+      "x": 8.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "CD63A2ADAC7F8FFD"
+      ],
+      "tasks": [
+        {
+          "id": "C0459C6961C243C8",
+          "type": "item",
+          "item": "create:schedule",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "898BE74180B4DB88",
+      "title": "Train Signal",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:track_signal",
+      "x": 10.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "140A230F2A707663"
+      ],
+      "tasks": [
+        {
+          "id": "ED26F1A5DEEFACFF",
+          "type": "item",
+          "item": "create:track_signal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "108076896D14419D",
+      "title": "Train Observer",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:track_observer",
+      "x": 12.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "898BE74180B4DB88"
+      ],
+      "tasks": [
+        {
+          "id": "0608D2B0283D9EA7",
+          "type": "item",
+          "item": "create:track_observer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "8C4586B901D2D916",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "48C416DFD76F2F8A",
+      "title": "Train Casing",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:railway_casing",
+      "x": 14.0,
+      "y": 27.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "108076896D14419D"
+      ],
+      "tasks": [
+        {
+          "id": "6A3309F8036A5856",
+          "type": "item",
+          "item": "create:railway_casing",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "983BFEFDBE152D66",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "1E65E4B3E0B93B7B",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "29994A2AC1C77B98",
+      "title": "Redstone Link",
+      "subtitle": "Factory signals",
+      "description": [
+        "Use stock levels to stop surplus production. Wireless links carry control signals without long redstone runs."
+      ],
+      "icon": "create:redstone_link",
+      "x": 0.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "DEEF0E602278A052"
+      ],
+      "tasks": [
+        {
+          "id": "21A6EF60C12DD351",
+          "type": "item",
+          "item": "create:redstone_link",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "331197F912805DFE",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "ACF25990562C664B",
+      "title": "Threshold Switch",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:stockpile_switch",
+      "x": 2.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "29994A2AC1C77B98"
+      ],
+      "tasks": [
+        {
+          "id": "2E44C3839AF3ED78",
+          "type": "item",
+          "item": "create:stockpile_switch",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F3C8014C0799AF2C",
+      "title": "Display Link",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:display_link",
+      "x": 4.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "ACF25990562C664B"
+      ],
+      "tasks": [
+        {
+          "id": "C1D000CFB5E768D1",
+          "type": "item",
+          "item": "create:display_link",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "B438AD4A41C80CF9",
+      "title": "Display Board",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:display_board",
+      "x": 6.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "F3C8014C0799AF2C"
+      ],
+      "tasks": [
+        {
+          "id": "F5D1D5BA033D0EBD",
+          "type": "item",
+          "item": "create:display_board",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "60AEBA1C7C0BE14D",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "3725ED284EEFD811",
+      "title": "Smart Observer",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:content_observer",
+      "x": 8.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "B438AD4A41C80CF9"
+      ],
+      "tasks": [
+        {
+          "id": "6DA5EBA306629774",
+          "type": "item",
+          "item": "create:content_observer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "0DE4F034A7372566",
+      "title": "Pulse Repeater",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:pulse_repeater",
+      "x": 10.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "3725ED284EEFD811"
+      ],
+      "tasks": [
+        {
+          "id": "6BAAB176AFC67C06",
+          "type": "item",
+          "item": "create:pulse_repeater",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "A0420A42C182685A",
+      "title": "Pulse Extender",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:pulse_extender",
+      "x": 12.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "0DE4F034A7372566"
+      ],
+      "tasks": [
+        {
+          "id": "2CF16B1BFF8B56B4",
+          "type": "item",
+          "item": "create:pulse_extender",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17CDCC9BB7A2FC64",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "62D27B24481D46FA",
+      "title": "Sequenced Gearshift",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:sequenced_gearshift",
+      "x": 14.0,
+      "y": 30.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "A0420A42C182685A"
+      ],
+      "tasks": [
+        {
+          "id": "D873E16F136C7745",
+          "type": "item",
+          "item": "create:sequenced_gearshift",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "C32EE98C4E670EFD",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "5DBE49236A8549CD",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "5FB5A3FE1141E23E",
+      "title": "Schematic And Quill",
+      "subtitle": "Blueprint office",
+      "description": [
+        "Record a proven build and supply its materials to the cannon. Check the placement preview before construction begins."
+      ],
+      "icon": "create:schematic_and_quill",
+      "x": 0.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "B7AB00C48E8096F7"
+      ],
+      "tasks": [
+        {
+          "id": "6CBA89AA1C0538A4",
+          "type": "item",
+          "item": "create:schematic_and_quill",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "A28819A0D13EECA3",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "987B9B7BF54368A7",
+      "title": "Schematic Table",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:schematic_table",
+      "x": 2.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "5FB5A3FE1141E23E"
+      ],
+      "tasks": [
+        {
+          "id": "F50918FAAE7D5497",
+          "type": "item",
+          "item": "create:schematic_table",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "334EBEC77533A533",
+      "title": "Schematicannon",
+      "subtitle": "",
+      "description": [],
+      "icon": "create:schematicannon",
+      "x": 4.0,
+      "y": 33.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "987B9B7BF54368A7"
+      ],
+      "tasks": [
+        {
+          "id": "1D96BDCF45962441",
+          "type": "item",
+          "item": "create:schematicannon",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "39E34C8D19D73007",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "1E1019D0054AA4C1",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
+        }
+      ]
+    }
+  ]
+}

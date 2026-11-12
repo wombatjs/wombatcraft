@@ -1,0 +1,1034 @@
+{
+  "id": "FADE650568267BAC",
+  "title": "Forbidden Arts",
+  "group": "065A019E212476CF",
+  "order_index": 20,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "A8E011C131CA2F45",
+      "title": "Arcane Crystal",
+      "subtitle": "Beneath dark stone",
+      "description": [
+        "Gather arcane crystals and runes below ground. Preserve rare materials until the forge is ready to use them."
+      ],
+      "icon": "forbidden_arcanus:arcane_crystal",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "37DDA5AB6B6ED96E",
+          "type": "item",
+          "item": "forbidden_arcanus:arcane_crystal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "8427F5A6EFDE84CD",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "2D7C1188287EE8B0",
+      "title": "Rune",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:rune",
+      "x": 2.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "A8E011C131CA2F45"
+      ],
+      "tasks": [
+        {
+          "id": "D1652912668AA42A",
+          "type": "item",
+          "item": "forbidden_arcanus:rune",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "94FB4CF0E140F4EC",
+      "title": "Darkstone",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:darkstone",
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "2D7C1188287EE8B0"
+      ],
+      "tasks": [
+        {
+          "id": "4FF6B38E6D4343DA",
+          "type": "item",
+          "item": "forbidden_arcanus:darkstone",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "D7BE200A374825B2",
+      "title": "Arcane Crystal Dust",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:arcane_crystal_dust",
+      "x": 6.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "94FB4CF0E140F4EC"
+      ],
+      "tasks": [
+        {
+          "id": "8D4C84852E8E0782",
+          "type": "item",
+          "item": "forbidden_arcanus:arcane_crystal_dust",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "C9088945150557E7",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "A43E34F00417F203",
+      "title": "Mundabitur Dust",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:mundabitur_dust",
+      "x": 8.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "D7BE200A374825B2"
+      ],
+      "tasks": [
+        {
+          "id": "6996E93404B28C42",
+          "type": "item",
+          "item": "forbidden_arcanus:mundabitur_dust",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "83D96A4CF8E1890F",
+      "title": "Deorum Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:deorum_ingot",
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "A43E34F00417F203"
+      ],
+      "tasks": [
+        {
+          "id": "EA6BFC14E6DFCE6D",
+          "type": "item",
+          "item": "forbidden_arcanus:deorum_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03B8EEB25B0DB061",
+          "type": "xp",
+          "xp": 30
+        },
+        {
+          "id": "9A60759FE946E099",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "210CF668ACEF861C",
+      "title": "Hephaestus Forge",
+      "subtitle": "The Hephaestus forge",
+      "description": [
+        "Prepare the forge's structure and pedestal arrangement. A gavel begins the rite only when its requirements are met."
+      ],
+      "icon": "forbidden_arcanus:hephaestus_forge",
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "83D96A4CF8E1890F"
+      ],
+      "tasks": [
+        {
+          "id": "67A1D8B19DE95FF2",
+          "type": "item",
+          "item": "forbidden_arcanus:hephaestus_forge",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "A27CE09CA34D120F",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "8084F8B0BA1BC349",
+      "title": "Darkstone Pedestal",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:darkstone_pedestal",
+      "x": 2.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "210CF668ACEF861C"
+      ],
+      "tasks": [
+        {
+          "id": "F27E957C601FF130",
+          "type": "item",
+          "item": "forbidden_arcanus:darkstone_pedestal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "D38B3EF8E3065D7D",
+      "title": "Wooden Blacksmith Gavel",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:wooden_blacksmith_gavel",
+      "x": 4.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "8084F8B0BA1BC349"
+      ],
+      "tasks": [
+        {
+          "id": "BEFD122BD8456FA5",
+          "type": "item",
+          "item": "forbidden_arcanus:wooden_blacksmith_gavel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "138E249C59348B9E",
+      "title": "Stone Blacksmith Gavel",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:stone_blacksmith_gavel",
+      "x": 6.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "D38B3EF8E3065D7D"
+      ],
+      "tasks": [
+        {
+          "id": "E0434425AF571732",
+          "type": "item",
+          "item": "forbidden_arcanus:stone_blacksmith_gavel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "21772F4B7092FA64",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "2B8E543141282CB2",
+      "title": "Iron Blacksmith Gavel",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:iron_blacksmith_gavel",
+      "x": 8.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "138E249C59348B9E"
+      ],
+      "tasks": [
+        {
+          "id": "4E64561E7FBF0890",
+          "type": "item",
+          "item": "forbidden_arcanus:iron_blacksmith_gavel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04CDDBB2D94FAB24",
+          "type": "xp",
+          "xp": 35
+        },
+        {
+          "id": "3CDE9CB53A5B6EA8",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "8B40C70D27AEB6F4",
+      "title": "Test Tube",
+      "subtitle": "Four reserves",
+      "description": [
+        "The forge draws on several reserves. Keep blood, souls, aureal and experience supplied before attempting a demanding rite."
+      ],
+      "icon": "forbidden_arcanus:test_tube",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "210CF668ACEF861C"
+      ],
+      "tasks": [
+        {
+          "id": "183B1BFBB05CFFE1",
+          "type": "item",
+          "item": "forbidden_arcanus:test_tube",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "69964067A80C4B49",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "7A8EFB2AC5170969",
+      "title": "Blood Test Tube",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:blood_test_tube",
+      "x": 2.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "8B40C70D27AEB6F4"
+      ],
+      "tasks": [
+        {
+          "id": "610D8D8A1C806BDA",
+          "type": "item",
+          "item": "forbidden_arcanus:blood_test_tube",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7D4E4D6E41A94C0F",
+      "title": "Soul",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:soul",
+      "x": 4.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "7A8EFB2AC5170969"
+      ],
+      "tasks": [
+        {
+          "id": "76444A6D5CD032F9",
+          "type": "item",
+          "item": "forbidden_arcanus:soul",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "8D24278EFB86483E",
+      "title": "Aureal Bottle",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:aureal_bottle",
+      "x": 6.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "7D4E4D6E41A94C0F"
+      ],
+      "tasks": [
+        {
+          "id": "1AD06DFBE5A15160",
+          "type": "item",
+          "item": "forbidden_arcanus:aureal_bottle",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "E11AF3EEAF6DC896",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "2331EB59D4B906D5",
+      "title": "Xpetrified Orb",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:xpetrified_orb",
+      "x": 8.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "8D24278EFB86483E"
+      ],
+      "tasks": [
+        {
+          "id": "283606EE72D5D29E",
+          "type": "item",
+          "item": "forbidden_arcanus:xpetrified_orb",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "E83666A9CFA48D73",
+      "title": "Arcane Crystal Obelisk",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:arcane_crystal_obelisk",
+      "x": 10.0,
+      "y": 6.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "2331EB59D4B906D5"
+      ],
+      "tasks": [
+        {
+          "id": "026285C68D0BB280",
+          "type": "item",
+          "item": "forbidden_arcanus:arcane_crystal_obelisk",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "45BCEB700855CD07",
+          "type": "xp",
+          "xp": 40
+        },
+        {
+          "id": "F14D699B638E7456",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "6D93D6AA80D0CCD2",
+      "title": "Golden Blacksmith Gavel",
+      "subtitle": "A master smith",
+      "description": [
+        "Upgrade the forge and its tools together. Check the next ritual's required tier before spending rare materials."
+      ],
+      "icon": "forbidden_arcanus:golden_blacksmith_gavel",
+      "x": 0.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "2B8E543141282CB2"
+      ],
+      "tasks": [
+        {
+          "id": "E9814A80B96E076F",
+          "type": "item",
+          "item": "forbidden_arcanus:golden_blacksmith_gavel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "01164E8C280362F9",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "60398F9CE241ABFF",
+      "title": "Diamond Blacksmith Gavel",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:diamond_blacksmith_gavel",
+      "x": 2.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "6D93D6AA80D0CCD2"
+      ],
+      "tasks": [
+        {
+          "id": "2677C05720856980",
+          "type": "item",
+          "item": "forbidden_arcanus:diamond_blacksmith_gavel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3699D49802267336",
+      "title": "Netherite Blacksmith Gavel",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:netherite_blacksmith_gavel",
+      "x": 4.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "60398F9CE241ABFF"
+      ],
+      "tasks": [
+        {
+          "id": "2C900C6DDB657275",
+          "type": "item",
+          "item": "forbidden_arcanus:netherite_blacksmith_gavel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4AF61E51267F0315",
+      "title": "Reinforced Deorum Blacksmith Gavel",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:reinforced_deorum_blacksmith_gavel",
+      "x": 6.0,
+      "y": 9.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "3699D49802267336"
+      ],
+      "tasks": [
+        {
+          "id": "F1FAE3F6029F0AE9",
+          "type": "item",
+          "item": "forbidden_arcanus:reinforced_deorum_blacksmith_gavel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18A18BBFF17EC69B",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "id": "99FF3E9817332067",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "FD0E4E141584DB8E",
+      "title": "Soul Extractor",
+      "subtitle": "Capturing the unseen",
+      "description": [
+        "Prepare a place for captured creatures and spirits. Keep each experiment contained around a shared settlement."
+      ],
+      "icon": "forbidden_arcanus:soul_extractor",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "7D4E4D6E41A94C0F"
+      ],
+      "tasks": [
+        {
+          "id": "297D5762493BE3F0",
+          "type": "item",
+          "item": "forbidden_arcanus:soul_extractor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "C3787A95E2D1C6EC",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "9EC191AB5D35405B",
+      "title": "Corrupt Soul",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:corrupt_soul",
+      "x": 2.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "FD0E4E141584DB8E"
+      ],
+      "tasks": [
+        {
+          "id": "81F444B026EE6C35",
+          "type": "item",
+          "item": "forbidden_arcanus:corrupt_soul",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3CDB180A4F4A230F",
+      "title": "Enchanted Soul",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:enchanted_soul",
+      "x": 4.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "9EC191AB5D35405B"
+      ],
+      "tasks": [
+        {
+          "id": "037B4E5AB2E52AB9",
+          "type": "item",
+          "item": "forbidden_arcanus:enchanted_soul",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "CBE0D762873D15E5",
+      "title": "Quantum Catcher",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:quantum_catcher",
+      "x": 6.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "3CDB180A4F4A230F"
+      ],
+      "tasks": [
+        {
+          "id": "D0F237B49E11485F",
+          "type": "item",
+          "item": "forbidden_arcanus:quantum_catcher",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "C0187049309C6B04",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "99BE146F948720E2",
+      "title": "Spectral Eye Amulet",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:spectral_eye_amulet",
+      "x": 8.0,
+      "y": 12.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "CBE0D762873D15E5"
+      ],
+      "tasks": [
+        {
+          "id": "82350DBDECA6D164",
+          "type": "item",
+          "item": "forbidden_arcanus:spectral_eye_amulet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "D61893D57598332E",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "21A461AFAC4F332B",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "7AEF6DEA7B6BF915",
+      "title": "Stellarite Piece",
+      "subtitle": "An enduring craft",
+      "description": [
+        "Save stellar materials for equipment worth keeping. Review the rite carefully before committing them."
+      ],
+      "icon": "forbidden_arcanus:stellarite_piece",
+      "x": 0.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "60398F9CE241ABFF"
+      ],
+      "tasks": [
+        {
+          "id": "09C192F2E30A3912",
+          "type": "item",
+          "item": "forbidden_arcanus:stellarite_piece",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "95A920AD45F7EF1C",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "07EF554831950E70",
+      "title": "Stella Arcanum",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:stella_arcanum",
+      "x": 2.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "7AEF6DEA7B6BF915"
+      ],
+      "tasks": [
+        {
+          "id": "D24B3539AB465A5C",
+          "type": "item",
+          "item": "forbidden_arcanus:stella_arcanum",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "9BC00A8178460D0E",
+      "title": "Eternal Stella",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:eternal_stella",
+      "x": 4.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "07EF554831950E70"
+      ],
+      "tasks": [
+        {
+          "id": "9485DAE3349426CC",
+          "type": "item",
+          "item": "forbidden_arcanus:eternal_stella",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7F12F0DCBBF04536",
+      "title": "Obsidian Skull",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:obsidian_skull",
+      "x": 6.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "9BC00A8178460D0E"
+      ],
+      "tasks": [
+        {
+          "id": "635EE6F7F356B9E5",
+          "type": "item",
+          "item": "forbidden_arcanus:obsidian_skull",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "9FBF96A52D0F8FC8",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "17EB2092272DE793",
+      "title": "Eternal Obsidian Skull",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:eternal_obsidian_skull",
+      "x": 8.0,
+      "y": 15.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "7F12F0DCBBF04536"
+      ],
+      "tasks": [
+        {
+          "id": "860F166CDAC1F48B",
+          "type": "item",
+          "item": "forbidden_arcanus:eternal_obsidian_skull",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "B07506C5ABAE3804",
+          "type": "xp",
+          "xp": 55
+        },
+        {
+          "id": "4AA2A4238D3229DC",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "08C345232E61BCFC",
+      "title": "Dragon Scale",
+      "subtitle": "Dragon relics",
+      "description": [
+        "The final relics demand a well-supplied forge and dangerous trophies. Complete the workshops that support them first."
+      ],
+      "icon": "forbidden_arcanus:dragon_scale",
+      "x": 0.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "3699D49802267336"
+      ],
+      "tasks": [
+        {
+          "id": "7716E865FBD3DD65",
+          "type": "item",
+          "item": "forbidden_arcanus:dragon_scale",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "8CE433BAD8B6BC40",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "8C86A889094C2F70",
+      "title": "Golden Dragon Scale",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:golden_dragon_scale",
+      "x": 2.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "08C345232E61BCFC"
+      ],
+      "tasks": [
+        {
+          "id": "0BAB1953B998302B",
+          "type": "item",
+          "item": "forbidden_arcanus:golden_dragon_scale",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1B8BFCD55EC25ACA",
+      "title": "Draco Arcanus Sword",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:draco_arcanus_sword",
+      "x": 4.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "8C86A889094C2F70"
+      ],
+      "tasks": [
+        {
+          "id": "CC8712CAAF1B5F9E",
+          "type": "item",
+          "item": "forbidden_arcanus:draco_arcanus_sword",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "A24F98D1177C74B0",
+      "title": "Draco Arcanus Pickaxe",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:draco_arcanus_pickaxe",
+      "x": 6.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "1B8BFCD55EC25ACA"
+      ],
+      "tasks": [
+        {
+          "id": "7D6A7804C7A0F4BC",
+          "type": "item",
+          "item": "forbidden_arcanus:draco_arcanus_pickaxe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5082B4C484F79ED4",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "413E5B8C2E5B5C8B",
+      "title": "Draco Arcanus Staff",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:draco_arcanus_staff",
+      "x": 8.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "A24F98D1177C74B0"
+      ],
+      "tasks": [
+        {
+          "id": "2599AC6626A63E38",
+          "type": "item",
+          "item": "forbidden_arcanus:draco_arcanus_staff",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1D13B1AE8ACD44EB",
+      "title": "Arcane Dragon Egg",
+      "subtitle": "",
+      "description": [],
+      "icon": "forbidden_arcanus:arcane_dragon_egg",
+      "x": 10.0,
+      "y": 18.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "413E5B8C2E5B5C8B"
+      ],
+      "tasks": [
+        {
+          "id": "1E4C665531513BA0",
+          "type": "item",
+          "item": "forbidden_arcanus:arcane_dragon_egg",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F2B6D5B5315B021",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "B07BD9E7C270767A",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ]
+    }
+  ]
+}

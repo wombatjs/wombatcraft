@@ -7,11 +7,10 @@
   "quests": [
     {
       "id": "07AA1535F7EB28D4",
-      "title": "A bigger interior",
+      "title": "Across the threshold",
       "subtitle": "",
       "description": [
-        "Open the exterior doors, view the interior, walk inside, look back outside, and return. Repeat after a flight or exterior change.",
-        "This is a manual test objective. Only mark it after checking the doorway in your own world."
+        "Open the doors and step into your vessel. Leave the outside world behind, then return through the same doorway."
       ],
       "icon": "minecraft:ender_pearl",
       "x": 2.69,
@@ -30,11 +29,10 @@
     },
     {
       "id": "0C039A3819E8F7E5",
-      "title": "A different timeship",
+      "title": "The Type 40 field guide",
       "subtitle": "TARDIS Type 40 Manual",
       "description": [
-        "This Forge pack uses New TARDIS Mod. Read the Type 40 Manual; Refined's roots and terraforming steps do not apply here.",
-        "Goal: obtain TARDIS Type 40 Manual. Keep it in your inventory until the quest records completion."
+        "Some forgotten vessels are far larger within than their weathered shells suggest. Study the Type 40 Manual before seeking a ship of your own."
       ],
       "icon": "tardis:manual",
       "x": 2.69,
@@ -65,8 +63,7 @@
       "title": "Read the ship's personality",
       "subtitle": "Tools/Diagnostic Tool",
       "description": [
-        "Inspect an abandoned timeship with the diagnostic tool. Learn which offerings it likes before trying to gain its trust.",
-        "Goal: obtain Tools/Diagnostic Tool. Keep it in your inventory until the quest records completion."
+        "Inspect an abandoned timeship with the diagnostic tool. Learn which offerings it likes before trying to gain its trust."
       ],
       "icon": "tardis:tools/diagnostic_tool",
       "x": 3.94,
@@ -97,8 +94,7 @@
       "title": "Prepare a repair kit",
       "subtitle": "Tools/Sonic Welder",
       "description": [
-        "Use the manual to understand repairs and rift equipment. Keep useful materials ready before a long journey.",
-        "Goal: obtain Tools/Sonic Welder. Keep it in your inventory until the quest records completion."
+        "Use the manual to understand repairs and rift equipment. Keep useful materials ready before a long journey."
       ],
       "icon": "tardis:tools/sonic_welder",
       "x": 5.2,
@@ -129,8 +125,7 @@
       "title": "A sonic of your own",
       "subtitle": "Tools/Sonic",
       "description": [
-        "Learn the sonic's modes and interactions. Test it around your workshop before using it on ship systems.",
-        "Goal: obtain Tools/Sonic. Keep it in your inventory until the quest records completion."
+        "Learn the sonic's modes and interactions. Test it around your workshop before using it on ship systems."
       ],
       "icon": "tardis:tools/sonic",
       "x": 6.46,
@@ -161,8 +156,7 @@
       "title": "Maintain the engine",
       "subtitle": "Components/Demat Circuit",
       "description": [
-        "Inspect the engine and its component slots. Replace missing or damaged systems using the manual's instructions.",
-        "Goal: obtain Components/Demat Circuit. Keep it in your inventory until the quest records completion."
+        "Inspect the engine and its component slots. Replace missing or damaged systems using the manual's instructions."
       ],
       "icon": "tardis:components/demat_circuit",
       "x": 7.71,
@@ -193,8 +187,7 @@
       "title": "Choose your exterior",
       "subtitle": "Components/Chameleon Circuit",
       "description": [
-        "Learn the chameleon system and unlock options through normal progression. Check doorway alignment after changing the exterior.",
-        "Goal: obtain Components/Chameleon Circuit. Keep it in your inventory until the quest records completion."
+        "Learn the chameleon system and unlock options through normal progression. Check doorway alignment after changing the exterior."
       ],
       "icon": "tardis:components/chameleon_circuit",
       "x": 2.69,
@@ -225,8 +218,7 @@
       "title": "Tardis Mod",
       "subtitle": "Overview",
       "description": [
-        "Find a derelict timeship or follow the rift-summoning path, gain its trust, then learn its controls. The NTM Immersive Portals addon supplies the seamless doorway.",
-        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+        "Find a derelict timeship or follow the rift-summoning path, gain its trust, then learn its controls. The NTM Immersive Portals addon supplies the seamless doorway."
       ],
       "icon": "tardis:manual",
       "x": 1.43,

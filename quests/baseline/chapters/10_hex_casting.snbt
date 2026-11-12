@@ -1,0 +1,286 @@
+{
+  "id": "09252040EAF40198",
+  "group": "065A019E212476CF",
+  "title": "Hex Casting",
+  "order_index": 8,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "01746580DF89DE2E",
+      "title": "Read before drawing",
+      "subtitle": "Staff/Oak",
+      "description": [
+        "Keep the Hex Casting guide open while learning patterns.",
+        "Goal: obtain Staff/Oak. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "hexcasting:staff/oak",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0583A97E2844AE6A"
+      ],
+      "tasks": [
+        {
+          "id": "090CD22E4FA36D9B",
+          "type": "item",
+          "item": "hexcasting:staff/oak",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "092C117ECB79737E",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0743A937DC3862F2",
+      "title": "A small reserve",
+      "subtitle": "Amethyst Dust",
+      "description": [
+        "Gather media for your early spells and pay attention to casting costs.",
+        "Goal: obtain Amethyst Dust. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "hexcasting:amethyst_dust",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "01746580DF89DE2E"
+      ],
+      "tasks": [
+        {
+          "id": "060BD50979E8D0D0",
+          "type": "item",
+          "item": "hexcasting:amethyst_dust",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "02CEA8977F409421",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "00BCA5F08DCF5DF3",
+      "title": "A denser reserve",
+      "subtitle": "Charged Amethyst",
+      "description": [
+        "Keep stronger media for more demanding patterns.",
+        "Goal: obtain Charged Amethyst. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "hexcasting:charged_amethyst",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0743A937DC3862F2"
+      ],
+      "tasks": [
+        {
+          "id": "02FDF03ADA803A97",
+          "type": "item",
+          "item": "hexcasting:charged_amethyst",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0907ACB9CA2E485F",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0B8B356F77495442",
+      "title": "Keep your patterns",
+      "subtitle": "Spellbook",
+      "description": [
+        "Use a spellbook to organize useful patterns as you learn.",
+        "Goal: obtain Spellbook. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "hexcasting:spellbook",
+      "x": 6.46,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "00BCA5F08DCF5DF3"
+      ],
+      "tasks": [
+        {
+          "id": "0B74703B529A5802",
+          "type": "item",
+          "item": "hexcasting:spellbook",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0BF9DE236DA2F641",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "090591B73F77927F",
+      "title": "Hold an idea",
+      "subtitle": "Focus",
+      "description": [
+        "Store and reuse an iota instead of rebuilding every thought.",
+        "Goal: obtain Focus. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "hexcasting:focus",
+      "x": 7.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0B8B356F77495442"
+      ],
+      "tasks": [
+        {
+          "id": "0E3753F8ECAD673B",
+          "type": "item",
+          "item": "hexcasting:focus",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0381032531A736E6",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "019FBD8609842659",
+      "title": "A prepared spell",
+      "subtitle": "Cypher",
+      "description": [
+        "Build a stored spell only after you understand its inputs and costs.",
+        "Goal: obtain Cypher. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "hexcasting:cypher",
+      "x": 2.69,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "090591B73F77927F"
+      ],
+      "tasks": [
+        {
+          "id": "08B666FCC7EA89C4",
+          "type": "item",
+          "item": "hexcasting:cypher",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F2FF213741954E9",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "08D80B8E9B807294",
+      "title": "Reusable casting",
+      "subtitle": "Trinket",
+      "description": [
+        "Progress to a reusable casting device and test it with a simple spell first.",
+        "Goal: obtain Trinket. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "hexcasting:trinket",
+      "x": 3.94,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "019FBD8609842659"
+      ],
+      "tasks": [
+        {
+          "id": "060D1369E5C55A33",
+          "type": "item",
+          "item": "hexcasting:trinket",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0BCCDC63BD7AE760",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "01A82C0FBCC403D9",
+      "title": "An advanced working",
+      "subtitle": "Artifact",
+      "description": [
+        "Build an artifact when your knowledge and media supply can support it.",
+        "Goal: obtain Artifact. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "hexcasting:artifact",
+      "x": 5.2,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "08D80B8E9B807294"
+      ],
+      "tasks": [
+        {
+          "id": "07898EE07893FEDC",
+          "type": "item",
+          "item": "hexcasting:artifact",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0361D83A26D909DE",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "0583A97E2844AE6A",
+      "title": "Hex Casting",
+      "subtitle": "Overview",
+      "description": [
+        "A programmable magic branch. Practice small patterns before designing more elaborate spells.",
+        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+      ],
+      "icon": "hexcasting:staff/oak",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0E427D35C22EC3E0",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

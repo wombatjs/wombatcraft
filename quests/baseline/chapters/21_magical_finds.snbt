@@ -1,0 +1,1708 @@
+{
+  "id": "0530CD727B2682C6",
+  "group": "065A019E212476CF",
+  "title": "Magical Finds",
+  "order_index": 16,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0DBD2099FD0949C1",
+      "title": "Tower Leaf",
+      "subtitle": "",
+      "description": [
+        "Enter the tower leaf structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "05F75DF5E126909F"
+      ],
+      "tasks": [
+        {
+          "id": "00868298206BE1FF",
+          "type": "structure",
+          "structure": "apotheosis:tower_leaf"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A362BA44AC3BA9A",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0BCB8382373E6B8D",
+      "title": "Tower Main",
+      "subtitle": "",
+      "description": [
+        "Enter the tower main structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "0DBD2099FD0949C1"
+      ],
+      "tasks": [
+        {
+          "id": "029C2DA8642A4036",
+          "type": "structure",
+          "structure": "apotheosis:tower_main"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D02BD6C8CCD547D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "052EF160CCE60B08",
+      "title": "Tower Sand",
+      "subtitle": "",
+      "description": [
+        "Enter the tower sand structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "0BCB8382373E6B8D"
+      ],
+      "tasks": [
+        {
+          "id": "01E639D90278BEA5",
+          "type": "structure",
+          "structure": "apotheosis:tower_sand"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D0343D80DD80310",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "05F75DF5E126909F",
+      "title": "Apotheosis",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Apotheosis. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 2.86,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "019072F4DAF09919",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0A94DE3119EAF2F8",
+      "title": "Arcane Library",
+      "subtitle": "",
+      "description": [
+        "Enter the arcane library structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 14.29,
+      "shape": "circle",
+      "dependencies": [
+        "00094D6387FAA05F"
+      ],
+      "tasks": [
+        {
+          "id": "07159DAA1729D835",
+          "type": "structure",
+          "structure": "ars_additions:arcane_library"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0FCE7C86D79F476D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0F81617ECF65B98C",
+      "title": "Nexus Tower",
+      "subtitle": "",
+      "description": [
+        "Enter the nexus tower structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 14.29,
+      "shape": "circle",
+      "dependencies": [
+        "0A94DE3119EAF2F8"
+      ],
+      "tasks": [
+        {
+          "id": "02BEBF51E0F28C72",
+          "type": "structure",
+          "structure": "ars_additions:nexus_tower"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DB08C00BBB41768",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "035E986BE05A23CE",
+      "title": "Ruined Portal",
+      "subtitle": "",
+      "description": [
+        "Enter the ruined portal structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 14.29,
+      "shape": "circle",
+      "dependencies": [
+        "0F81617ECF65B98C"
+      ],
+      "tasks": [
+        {
+          "id": "0FEC890E0ABCA012",
+          "type": "structure",
+          "structure": "ars_additions:ruined_portal"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0AC56AE5FAFD2194",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "00094D6387FAA05F",
+      "title": "Ars Additions",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Ars Additions. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 14.29,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0BDB2010ED501EDE",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0169FD0836B2ED53",
+      "title": "Starbuncle Wheel",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "ars_creo:starbuncle_wheel",
+      "x": 2.86,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0BCDEBC40F89C051"
+      ],
+      "tasks": [
+        {
+          "id": "0894601DFAE83505",
+          "type": "item",
+          "item": "ars_creo:starbuncle_wheel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0482369C04698321",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0BCDEBC40F89C051",
+      "title": "Ars Creo",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Ars Creo. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "ars_creo:starbuncle_wheel",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "081BDA61217D972D",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0722C80733C34D7D",
+      "title": "Starbuncle Shrine",
+      "subtitle": "",
+      "description": [
+        "Enter the starbuncle shrine structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 20.0,
+      "shape": "circle",
+      "dependencies": [
+        "0E58A35E87685516"
+      ],
+      "tasks": [
+        {
+          "id": "02CBB23C1A33F17E",
+          "type": "structure",
+          "structure": "ars_elemental:starbuncle_shrine"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "052C0898A11964CB",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0E58A35E87685516",
+      "title": "Ars Elemental",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Ars Elemental. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 20.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0A98C7D2E514FBED",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0A95B2AB3FAEA436",
+      "title": "1k Portable Source Cell",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "arseng:portable_source_cell_1k",
+      "x": 2.86,
+      "y": 15.71,
+      "shape": "circle",
+      "dependencies": [
+        "0BEF8248754EDEB6"
+      ],
+      "tasks": [
+        {
+          "id": "0A6BCE1059E56624",
+          "type": "item",
+          "item": "arseng:portable_source_cell_1k",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09FBCA774308539A",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "07C13567DA86BB55",
+      "title": "4k Portable Source Cell",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "arseng:portable_source_cell_4k",
+      "x": 4.29,
+      "y": 15.71,
+      "shape": "circle",
+      "dependencies": [
+        "0A95B2AB3FAEA436"
+      ],
+      "tasks": [
+        {
+          "id": "0461B4DAE5B0FECD",
+          "type": "item",
+          "item": "arseng:portable_source_cell_4k",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E656305C1C2294F",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "01D2F6F5A497CC3E",
+      "title": "16k Portable Source Cell",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "arseng:portable_source_cell_16k",
+      "x": 5.71,
+      "y": 15.71,
+      "shape": "circle",
+      "dependencies": [
+        "07C13567DA86BB55"
+      ],
+      "tasks": [
+        {
+          "id": "04580F8B88459420",
+          "type": "item",
+          "item": "arseng:portable_source_cell_16k",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D197345884A9C2C",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0BEF8248754EDEB6",
+      "title": "Ars Énergistique",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Ars Énergistique. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "arseng:portable_source_cell_1k",
+      "x": 1.43,
+      "y": 15.71,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0CE497F39FF2AE55",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0845B3E7537A8163",
+      "title": "Tier 4 Dimensional Storage Stabilizer",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "occultism:storage_stabilizer_tier4",
+      "x": 2.86,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "08D605F6248B61DC"
+      ],
+      "tasks": [
+        {
+          "id": "099F298D6FFF34B0",
+          "type": "item",
+          "item": "occultism:storage_stabilizer_tier4",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C397C580F1D1585",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "08D605F6248B61DC",
+      "title": "Ars Ocultas",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Ars Ocultas. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "occultism:storage_stabilizer_tier4",
+      "x": 1.43,
+      "y": 1.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "023B3DB12FBEB058",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "07DE73635C01DE72",
+      "title": "Eternal Steak",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "artifacts:eternal_steak",
+      "x": 2.86,
+      "y": 11.43,
+      "shape": "circle",
+      "dependencies": [
+        "03D4624EB19DD491"
+      ],
+      "tasks": [
+        {
+          "id": "0D4C487EB516C710",
+          "type": "item",
+          "item": "artifacts:eternal_steak",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09E41021DC1771B2",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "03D4624EB19DD491",
+      "title": "Artifacts",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Artifacts. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "artifacts:eternal_steak",
+      "x": 1.43,
+      "y": 11.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "038E7DB9FACBD4AE",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "06546B6C3DA785EE",
+      "title": "Frozen Tablet",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "cataclysm_spellbooks:frozen_tablet",
+      "x": 2.86,
+      "y": 18.57,
+      "shape": "circle",
+      "dependencies": [
+        "08FFC0C5F07C4489"
+      ],
+      "tasks": [
+        {
+          "id": "017C2F007AAE15C8",
+          "type": "item",
+          "item": "cataclysm_spellbooks:frozen_tablet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0BB4B30944911E50",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0F8D1FC07D00FE3D",
+      "title": "Void Staff",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "cataclysm_spellbooks:void_staff",
+      "x": 4.29,
+      "y": 18.57,
+      "shape": "circle",
+      "dependencies": [
+        "06546B6C3DA785EE"
+      ],
+      "tasks": [
+        {
+          "id": "090C214D968C8FAE",
+          "type": "item",
+          "item": "cataclysm_spellbooks:void_staff",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F5CD1A38B2D75A4",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "07F732396621E778",
+      "title": "Coral Staff",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "cataclysm_spellbooks:coral_staff",
+      "x": 5.71,
+      "y": 18.57,
+      "shape": "circle",
+      "dependencies": [
+        "0F8D1FC07D00FE3D"
+      ],
+      "tasks": [
+        {
+          "id": "0522C944DD7FF3F9",
+          "type": "item",
+          "item": "cataclysm_spellbooks:coral_staff",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0AF2D3A6F633D0A6",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "08FFC0C5F07C4489",
+      "title": "Cataclysm: Spellbooks",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Cataclysm: Spellbooks. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "cataclysm_spellbooks:frozen_tablet",
+      "x": 1.43,
+      "y": 18.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0914125BDF36E3AD",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "03B8BFDD12F3EEEA",
+      "title": "Wyvern Sword",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "draconicevolution:wyvern_sword",
+      "x": 2.86,
+      "y": 22.86,
+      "shape": "circle",
+      "dependencies": [
+        "010887D783AF4AFD"
+      ],
+      "tasks": [
+        {
+          "id": "0404A743F334196F",
+          "type": "item",
+          "item": "draconicevolution:wyvern_sword",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0CC1AFC99C884820",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "00AB513E970F2B78",
+      "title": "Chaotic Sword",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "draconicevolution:chaotic_sword",
+      "x": 4.29,
+      "y": 22.86,
+      "shape": "circle",
+      "dependencies": [
+        "03B8BFDD12F3EEEA"
+      ],
+      "tasks": [
+        {
+          "id": "073940E5970BA3DC",
+          "type": "item",
+          "item": "draconicevolution:chaotic_sword",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "081F6497E081266C",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0D926E646DED687A",
+      "title": "Potentiometer",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "draconicevolution:potentiometer",
+      "x": 5.71,
+      "y": 22.86,
+      "shape": "circle",
+      "dependencies": [
+        "00AB513E970F2B78"
+      ],
+      "tasks": [
+        {
+          "id": "05B4570A5757AF37",
+          "type": "item",
+          "item": "draconicevolution:potentiometer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09EA9DF5822ACC7F",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "010887D783AF4AFD",
+      "title": "Draconic Evolution",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Draconic Evolution. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "draconicevolution:wyvern_sword",
+      "x": 1.43,
+      "y": 22.86,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "091361D3F82A8A46",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0240A6A0D439DCD7",
+      "title": "Kettle",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "enchanted:kettle",
+      "x": 2.86,
+      "y": 10.0,
+      "shape": "circle",
+      "dependencies": [
+        "0EE8B259B0AC1C75"
+      ],
+      "tasks": [
+        {
+          "id": "06027EC44F6699D2",
+          "type": "item",
+          "item": "enchanted:kettle",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "06127881AB835AEA",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "02A9CDC3CEE91814",
+      "title": "Poppet Shelf",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "enchanted:poppet_shelf",
+      "x": 4.29,
+      "y": 10.0,
+      "shape": "circle",
+      "dependencies": [
+        "0240A6A0D439DCD7"
+      ],
+      "tasks": [
+        {
+          "id": "09DB4CEF4A1E1083",
+          "type": "item",
+          "item": "enchanted:poppet_shelf",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04D9FCB44C0F07F3",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "07BD6AB114EEEF10",
+      "title": "Altar",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "enchanted:altar",
+      "x": 5.71,
+      "y": 10.0,
+      "shape": "circle",
+      "dependencies": [
+        "02A9CDC3CEE91814"
+      ],
+      "tasks": [
+        {
+          "id": "0E5528A61EFEFDD9",
+          "type": "item",
+          "item": "enchanted:altar",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C66000222C6F9AF",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0EE8B259B0AC1C75",
+      "title": "Enchanted: Witchcraft",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Enchanted: Witchcraft. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "enchanted:kettle",
+      "x": 1.43,
+      "y": 10.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0C8D69D0280E825B",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "053EA2F824AA42B6",
+      "title": "Dark Temple",
+      "subtitle": "",
+      "description": [
+        "Enter the dark temple structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 7.14,
+      "shape": "circle",
+      "dependencies": [
+        "0495F37EF2224C9E"
+      ],
+      "tasks": [
+        {
+          "id": "0627D335F277E159",
+          "type": "structure",
+          "structure": "evilcraft:dark_temple"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "054CB28B1AEC4B7B",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0495F37EF2224C9E",
+      "title": "EvilCraft",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces EvilCraft. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 7.14,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "05B31C12A3399E00",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "01DDCDEFF6D24E68",
+      "title": "Marble",
+      "subtitle": "",
+      "description": [
+        "Visit this biome. Carry a compass and record a useful return point on your map."
+      ],
+      "icon": "minecraft:compass",
+      "x": 2.86,
+      "y": 21.43,
+      "shape": "circle",
+      "dependencies": [
+        "0582E259B9C76B4D"
+      ],
+      "tasks": [
+        {
+          "id": "05292DD4525988E6",
+          "type": "biome",
+          "biome": "mahoutsukai:marble"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C3D86B66CAAA21B",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0582E259B9C76B4D",
+      "title": "Mahou Tsukai",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Mahou Tsukai. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:compass",
+      "x": 1.43,
+      "y": 21.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "09C7D21DC35A04D3",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0D5CDE6474CFDF1C",
+      "title": "Wand",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "mysticalagriculture:wand",
+      "x": 2.86,
+      "y": 4.29,
+      "shape": "circle",
+      "dependencies": [
+        "0998E56D28B94B80"
+      ],
+      "tasks": [
+        {
+          "id": "0FEAA1068F78DA6B",
+          "type": "item",
+          "item": "mysticalagriculture:wand",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0AA53A3AF984BF40",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0A9D18DA151A947C",
+      "title": "Inscriber Engineering Press",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "ae2:engineering_processor_press",
+      "x": 4.29,
+      "y": 4.29,
+      "shape": "circle",
+      "dependencies": [
+        "0D5CDE6474CFDF1C"
+      ],
+      "tasks": [
+        {
+          "id": "0FE2DE38D79C5934",
+          "type": "item",
+          "item": "ae2:engineering_processor_press",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0AC75B494F7B6C57",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "01AC65582F799796",
+      "title": "Watering Can",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "mysticalagriculture:watering_can",
+      "x": 5.71,
+      "y": 4.29,
+      "shape": "circle",
+      "dependencies": [
+        "0A9D18DA151A947C"
+      ],
+      "tasks": [
+        {
+          "id": "01445C4A2B4CEDE4",
+          "type": "item",
+          "item": "mysticalagriculture:watering_can",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07117282E88D2010",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0998E56D28B94B80",
+      "title": "Mystical Agriculture",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Mystical Agriculture. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "mysticalagriculture:wand",
+      "x": 1.43,
+      "y": 4.29,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "086E8207EAA1E5FC",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0AB346D37D70BEAF",
+      "title": "Everlasting Spring",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "naturesaura:spring",
+      "x": 2.86,
+      "y": 8.57,
+      "shape": "circle",
+      "dependencies": [
+        "04522E9AA9BC973C"
+      ],
+      "tasks": [
+        {
+          "id": "02C5B210CA58D370",
+          "type": "item",
+          "item": "naturesaura:spring",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C0C0A94AD5A6A53",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "03ECCACF7FF04FF7",
+      "title": "Skyseeker's Blade",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "naturesaura:sky_sword",
+      "x": 4.29,
+      "y": 8.57,
+      "shape": "circle",
+      "dependencies": [
+        "0AB346D37D70BEAF"
+      ],
+      "tasks": [
+        {
+          "id": "067F84CAD90CFD8C",
+          "type": "item",
+          "item": "naturesaura:sky_sword",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "00FC444A58D0B41C",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "047D3FFE2BC18115",
+      "title": "Ring of Last Chance",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "naturesaura:death_ring",
+      "x": 5.71,
+      "y": 8.57,
+      "shape": "circle",
+      "dependencies": [
+        "03ECCACF7FF04FF7"
+      ],
+      "tasks": [
+        {
+          "id": "0CD0F292FFC3FA3F",
+          "type": "item",
+          "item": "naturesaura:death_ring",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "08007A8F2BA8F4EA",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "04522E9AA9BC973C",
+      "title": "Nature's Aura",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Nature's Aura. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "naturesaura:spring",
+      "x": 1.43,
+      "y": 8.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0055753A91E2854D",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0FB7F62B21A334E1",
+      "title": "Field notes",
+      "subtitle": "",
+      "description": [
+        "Explore the features added by Origins (Forge) and record one useful discovery. This is a manual objective; mark it after trying the feature."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 2.86,
+      "y": 17.14,
+      "shape": "square",
+      "dependencies": [
+        "0EA2B7123C4F36E3"
+      ],
+      "tasks": [
+        {
+          "id": "009074ACF9A5308C",
+          "type": "checkmark",
+          "title": "I have tested this feature"
+        }
+      ]
+    },
+    {
+      "id": "0EA2B7123C4F36E3",
+      "title": "Origins (Forge)",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Origins (Forge). Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 1.43,
+      "y": 17.14,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0ACEA5EEACCBB994",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "04B377D5101C0D07",
+      "title": "Magicbane",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "reliquary:magicbane",
+      "x": 2.86,
+      "y": 5.71,
+      "shape": "circle",
+      "dependencies": [
+        "03C44060AB34EBD8"
+      ],
+      "tasks": [
+        {
+          "id": "0D3AE569FB7FF440",
+          "type": "item",
+          "item": "reliquary:magicbane",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A048CCF70240E28",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "08E38ABE9F2C8FC4",
+      "title": "Void Tear",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "reliquary:void_tear",
+      "x": 4.29,
+      "y": 5.71,
+      "shape": "circle",
+      "dependencies": [
+        "04B377D5101C0D07"
+      ],
+      "tasks": [
+        {
+          "id": "0ECB3B90BCE955DE",
+          "type": "item",
+          "item": "reliquary:void_tear",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "006DCDE53CBAD0BB",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "00D1C416DD7535FB",
+      "title": "Ender Staff",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "reliquary:ender_staff",
+      "x": 5.71,
+      "y": 5.71,
+      "shape": "circle",
+      "dependencies": [
+        "08E38ABE9F2C8FC4"
+      ],
+      "tasks": [
+        {
+          "id": "02878B481E19EC31",
+          "type": "item",
+          "item": "reliquary:ender_staff",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "06D0DE4DA9C1CA7B",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "03C44060AB34EBD8",
+      "title": "Reliquary Reincarnations",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Reliquary Reincarnations. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "reliquary:magicbane",
+      "x": 1.43,
+      "y": 5.71,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "01BA7DC3E3F61F12",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0A7E0F737E44768F",
+      "title": "Ring",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "silentgear:ring",
+      "x": 2.86,
+      "y": 24.29,
+      "shape": "circle",
+      "dependencies": [
+        "07F24B377B0B2186"
+      ],
+      "tasks": [
+        {
+          "id": "05F3E2CE5E4A7C62",
+          "type": "item",
+          "item": "silentgear:ring",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03330679D87C0ACC",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "045B40D29F0F1133",
+      "title": "Sword",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "silentgear:sword",
+      "x": 4.29,
+      "y": 24.29,
+      "shape": "circle",
+      "dependencies": [
+        "0A7E0F737E44768F"
+      ],
+      "tasks": [
+        {
+          "id": "0AD72B222B908C52",
+          "type": "item",
+          "item": "silentgear:sword",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E44C8E8BE974983",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0305B711488B6C3B",
+      "title": "Hammer",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "silentgear:hammer",
+      "x": 5.71,
+      "y": 24.29,
+      "shape": "circle",
+      "dependencies": [
+        "045B40D29F0F1133"
+      ],
+      "tasks": [
+        {
+          "id": "009586713D51AC4F",
+          "type": "item",
+          "item": "silentgear:hammer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0AA47E05E9C47BBE",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "07F24B377B0B2186",
+      "title": "Silent Gear",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Silent Gear. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "silentgear:ring",
+      "x": 1.43,
+      "y": 24.29,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "07C5634CA057A847",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "062E51D26C217971",
+      "title": "Gold Sai",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "simplyswords:gold_sai",
+      "x": 2.86,
+      "y": 12.86,
+      "shape": "circle",
+      "dependencies": [
+        "061762B2E1EB2463"
+      ],
+      "tasks": [
+        {
+          "id": "083DE769C07503E2",
+          "type": "item",
+          "item": "simplyswords:gold_sai",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0512BB191EC528FA",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "04142007C1D2D8FE",
+      "title": "Runic Sai",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "simplyswords:runic_sai",
+      "x": 4.29,
+      "y": 12.86,
+      "shape": "circle",
+      "dependencies": [
+        "062E51D26C217971"
+      ],
+      "tasks": [
+        {
+          "id": "0C8A97F48704DD4B",
+          "type": "item",
+          "item": "simplyswords:runic_sai",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07706D13357CE902",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "02F58A058C38DC7C",
+      "title": "Gold Spear",
+      "subtitle": "",
+      "description": [
+        "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
+      ],
+      "icon": "simplyswords:gold_spear",
+      "x": 5.71,
+      "y": 12.86,
+      "shape": "circle",
+      "dependencies": [
+        "04142007C1D2D8FE"
+      ],
+      "tasks": [
+        {
+          "id": "04898BF50D24FF1C",
+          "type": "item",
+          "item": "simplyswords:gold_spear",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05B10868BF7B54B5",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "061762B2E1EB2463",
+      "title": "Simply Swords",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Simply Swords. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "simplyswords:gold_sai",
+      "x": 1.43,
+      "y": 12.86,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "074AACD3BB9169E5",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "08194874FD935A17",
+      "title": "Blood Island",
+      "subtitle": "",
+      "description": [
+        "Enter the blood island structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 25.71,
+      "shape": "circle",
+      "dependencies": [
+        "0C0F0BC02224AB7D"
+      ],
+      "tasks": [
+        {
+          "id": "09C3CAAACC4F92FC",
+          "type": "structure",
+          "structure": "tconstruct:blood_island"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0841582D4102D694",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0088431F749119FE",
+      "title": "Clay Island",
+      "subtitle": "",
+      "description": [
+        "Enter the clay island structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 4.29,
+      "y": 25.71,
+      "shape": "circle",
+      "dependencies": [
+        "08194874FD935A17"
+      ],
+      "tasks": [
+        {
+          "id": "064C07DBCF036393",
+          "type": "structure",
+          "structure": "tconstruct:clay_island"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A35569693FFAF22",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0E5F26211192C8A5",
+      "title": "Earth Slime Island",
+      "subtitle": "",
+      "description": [
+        "Enter the earth slime island structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 5.71,
+      "y": 25.71,
+      "shape": "circle",
+      "dependencies": [
+        "0088431F749119FE"
+      ],
+      "tasks": [
+        {
+          "id": "00C5936E394B97F1",
+          "type": "structure",
+          "structure": "tconstruct:earth_slime_island"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B7FC4BDC4D10091",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0C0F0BC02224AB7D",
+      "title": "Tinkers Construct",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Tinkers Construct. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 25.71,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0BD0538A91647D73",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

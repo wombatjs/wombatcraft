@@ -10,8 +10,7 @@
       "title": "Read before drawing",
       "subtitle": "Staff/Oak",
       "description": [
-        "Keep the Hex Casting guide open while learning patterns.",
-        "Goal: obtain Staff/Oak. Keep it in your inventory until the quest records completion."
+        "Keep the Hex Casting guide open while learning patterns."
       ],
       "icon": "hexcasting:staff/oak",
       "x": 2.69,
@@ -42,8 +41,7 @@
       "title": "A small reserve",
       "subtitle": "Amethyst Dust",
       "description": [
-        "Gather media for your early spells and pay attention to casting costs.",
-        "Goal: obtain Amethyst Dust. Keep it in your inventory until the quest records completion."
+        "Gather media for your early spells and pay attention to casting costs."
       ],
       "icon": "hexcasting:amethyst_dust",
       "x": 3.94,
@@ -74,8 +72,7 @@
       "title": "A denser reserve",
       "subtitle": "Charged Amethyst",
       "description": [
-        "Keep stronger media for more demanding patterns.",
-        "Goal: obtain Charged Amethyst. Keep it in your inventory until the quest records completion."
+        "Keep stronger media for more demanding patterns."
       ],
       "icon": "hexcasting:charged_amethyst",
       "x": 5.2,
@@ -106,8 +103,7 @@
       "title": "Keep your patterns",
       "subtitle": "Spellbook",
       "description": [
-        "Use a spellbook to organize useful patterns as you learn.",
-        "Goal: obtain Spellbook. Keep it in your inventory until the quest records completion."
+        "Use a spellbook to organize useful patterns as you learn."
       ],
       "icon": "hexcasting:spellbook",
       "x": 6.46,
@@ -138,8 +134,7 @@
       "title": "Hold an idea",
       "subtitle": "Focus",
       "description": [
-        "Store and reuse an iota instead of rebuilding every thought.",
-        "Goal: obtain Focus. Keep it in your inventory until the quest records completion."
+        "Store and reuse an iota instead of rebuilding every thought."
       ],
       "icon": "hexcasting:focus",
       "x": 7.71,
@@ -170,8 +165,7 @@
       "title": "A prepared spell",
       "subtitle": "Cypher",
       "description": [
-        "Build a stored spell only after you understand its inputs and costs.",
-        "Goal: obtain Cypher. Keep it in your inventory until the quest records completion."
+        "Build a stored spell only after you understand its inputs and costs."
       ],
       "icon": "hexcasting:cypher",
       "x": 2.69,
@@ -202,8 +196,7 @@
       "title": "Reusable casting",
       "subtitle": "Trinket",
       "description": [
-        "Progress to a reusable casting device and test it with a simple spell first.",
-        "Goal: obtain Trinket. Keep it in your inventory until the quest records completion."
+        "Progress to a reusable casting device and test it with a simple spell first."
       ],
       "icon": "hexcasting:trinket",
       "x": 3.94,
@@ -234,8 +227,7 @@
       "title": "An advanced working",
       "subtitle": "Artifact",
       "description": [
-        "Build an artifact when your knowledge and media supply can support it.",
-        "Goal: obtain Artifact. Keep it in your inventory until the quest records completion."
+        "Build an artifact when your knowledge and media supply can support it."
       ],
       "icon": "hexcasting:artifact",
       "x": 5.2,
@@ -266,8 +258,7 @@
       "title": "Hex Casting",
       "subtitle": "Overview",
       "description": [
-        "A programmable magic branch. Practice small patterns before designing more elaborate spells.",
-        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+        "A programmable magic branch. Practice small patterns before designing more elaborate spells."
       ],
       "icon": "hexcasting:staff/oak",
       "x": 1.43,

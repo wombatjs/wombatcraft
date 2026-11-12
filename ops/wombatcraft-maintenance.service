@@ -1,0 +1,11 @@
+[Unit]
+Description=Wombatcraft release and daily maintenance controller
+After=network-online.target wings.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /opt/wombatcraft/ops/maintenance.py
+TimeoutStartSec=1800
+UMask=0077
+

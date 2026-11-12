@@ -1,0 +1,991 @@
+{
+  "id": "81F039C3EE82CAE4",
+  "title": "Eidolon",
+  "group": "065A019E212476CF",
+  "order_index": 19,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "C86A57687783AC2D",
+      "title": "Ars Ecclesia",
+      "subtitle": "Ash and pewter",
+      "description": [
+        "The crucible follows ordered additions. Read the whole mixture before starting and keep its ingredients ready."
+      ],
+      "icon": "eidolon:codex",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "E6856759519F1BA8",
+          "type": "item",
+          "item": "eidolon:codex",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "236FEB26CD8D1612",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "CBBEBDCE3688CA48",
+      "title": "Pewter Blend",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:pewter_blend",
+      "x": 2.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "C86A57687783AC2D"
+      ],
+      "tasks": [
+        {
+          "id": "229B18656EF5836E",
+          "type": "item",
+          "item": "eidolon:pewter_blend",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "A269E96CFF5C3C68",
+      "title": "Pewter Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:pewter_ingot",
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "CBBEBDCE3688CA48"
+      ],
+      "tasks": [
+        {
+          "id": "105ADAD2F4702FF6",
+          "type": "item",
+          "item": "eidolon:pewter_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "612FE7554D0600DD",
+      "title": "Crucible",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:crucible",
+      "x": 6.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "A269E96CFF5C3C68"
+      ],
+      "tasks": [
+        {
+          "id": "EA8644680668C907",
+          "type": "item",
+          "item": "eidolon:crucible",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FD3A396CDBE030D",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "2A5F8DC79D6C2877",
+      "title": "Magic Workbench",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:worktable",
+      "x": 8.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "612FE7554D0600DD"
+      ],
+      "tasks": [
+        {
+          "id": "A626DFE46A4405A1",
+          "type": "item",
+          "item": "eidolon:worktable",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "77A4A66967CB86BA",
+      "title": "Enchanted Ash",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:enchanted_ash",
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "2A5F8DC79D6C2877"
+      ],
+      "tasks": [
+        {
+          "id": "ACCBA1E8B5AE0882",
+          "type": "item",
+          "item": "eidolon:enchanted_ash",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "BD70CA06706DF6F2",
+          "type": "xp",
+          "xp": 30
+        },
+        {
+          "id": "FFFAA9423DA32621",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "BB6A29A364994D88",
+      "title": "Wooden Altar",
+      "subtitle": "A place of devotion",
+      "description": [
+        "Build an altar with room for offerings. Follow the codex's rites as your understanding grows."
+      ],
+      "icon": "eidolon:wooden_altar",
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "2A5F8DC79D6C2877"
+      ],
+      "tasks": [
+        {
+          "id": "68D99D2AD4942F2E",
+          "type": "item",
+          "item": "eidolon:wooden_altar",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3C6D3074307F3B40",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "FA38E5D53AD87532",
+      "title": "Plinth",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:plinth",
+      "x": 2.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "BB6A29A364994D88"
+      ],
+      "tasks": [
+        {
+          "id": "BE2352AE18ED9589",
+          "type": "item",
+          "item": "eidolon:plinth",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "047B9AC256EE2EEC",
+      "title": "Brazier",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:brazier",
+      "x": 4.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "FA38E5D53AD87532"
+      ],
+      "tasks": [
+        {
+          "id": "119268050EC9FEE1",
+          "type": "item",
+          "item": "eidolon:brazier",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "0A985FF8F5DDE842",
+      "title": "Candle",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:candle",
+      "x": 6.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "047B9AC256EE2EEC"
+      ],
+      "tasks": [
+        {
+          "id": "91323CC08C0EB80B",
+          "type": "item",
+          "item": "eidolon:candle",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "85C301E678B302D8",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "880FF0D8D6CF36A4",
+      "title": "Goblet",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:goblet",
+      "x": 8.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "0A985FF8F5DDE842"
+      ],
+      "tasks": [
+        {
+          "id": "A8935A8D76B45E81",
+          "type": "item",
+          "item": "eidolon:goblet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2684038A22948A8B",
+      "title": "Unholy Symbol",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:unholy_symbol",
+      "x": 10.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "880FF0D8D6CF36A4"
+      ],
+      "tasks": [
+        {
+          "id": "9A6E33ACF4D42F64",
+          "type": "item",
+          "item": "eidolon:unholy_symbol",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "9AFEFB9616BD65B1",
+          "type": "xp",
+          "xp": 35
+        },
+        {
+          "id": "D7A48CC6718DFEAF",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "4EC8555C4177C072",
+      "title": "Parchment",
+      "subtitle": "Written in the margins",
+      "description": [
+        "Research turns discoveries into new work. Keep notes beside the table rather than scattering them through storage."
+      ],
+      "icon": "eidolon:parchment",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "77A4A66967CB86BA"
+      ],
+      "tasks": [
+        {
+          "id": "6E915F8DFBE6ABF5",
+          "type": "item",
+          "item": "eidolon:parchment",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "CB05F3C262BB8644",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "5F88A80D25D7DD3B",
+      "title": "Magic Ink",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:magic_ink",
+      "x": 2.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "4EC8555C4177C072"
+      ],
+      "tasks": [
+        {
+          "id": "BB56AACD36D40C6B",
+          "type": "item",
+          "item": "eidolon:magic_ink",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "278D1CCCCEB299AB",
+      "title": "Note-taking Tools",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:notetaking_tools",
+      "x": 4.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "5F88A80D25D7DD3B"
+      ],
+      "tasks": [
+        {
+          "id": "C3BE88B87B1781C0",
+          "type": "item",
+          "item": "eidolon:notetaking_tools",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "9F74C45DC3B0E926",
+      "title": "Research Table",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:research_table",
+      "x": 6.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "278D1CCCCEB299AB"
+      ],
+      "tasks": [
+        {
+          "id": "809B5C5B284C3994",
+          "type": "item",
+          "item": "eidolon:research_table",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "51B43426E1BB89C0",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "3508C8192C2005D3",
+      "title": "Research Notes",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:research_notes",
+      "x": 8.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "9F74C45DC3B0E926"
+      ],
+      "tasks": [
+        {
+          "id": "2C7769F4B55725B3",
+          "type": "item",
+          "item": "eidolon:research_notes",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "77CD81D31D413CFA",
+      "title": "Scriptorium [WIP]",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:scriptorium",
+      "x": 10.0,
+      "y": 6.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "3508C8192C2005D3"
+      ],
+      "tasks": [
+        {
+          "id": "C2DBC2A093A5D92D",
+          "type": "item",
+          "item": "eidolon:scriptorium",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "8170B2F44E828540",
+          "type": "xp",
+          "xp": 40
+        },
+        {
+          "id": "C93A2FDB257742CE",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "5958F0CB820F6AAD",
+      "title": "Soul Shard",
+      "subtitle": "Soulcraft",
+      "description": [
+        "Prepare soul materials for the enchanter. Check the required arrangement before committing valuable equipment."
+      ],
+      "icon": "eidolon:soul_shard",
+      "x": 0.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "612FE7554D0600DD"
+      ],
+      "tasks": [
+        {
+          "id": "7DFBBDA6C732850E",
+          "type": "item",
+          "item": "eidolon:soul_shard",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "8D0453EB2CBBB2FB",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "AE0693B89AD0CDCA",
+      "title": "Lesser Soul Gem",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:lesser_soul_gem",
+      "x": 2.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "5958F0CB820F6AAD"
+      ],
+      "tasks": [
+        {
+          "id": "09542F02C4625DA7",
+          "type": "item",
+          "item": "eidolon:lesser_soul_gem",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "9AD4A5A68DBD72E4",
+      "title": "Soul Enchanter",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:soul_enchanter",
+      "x": 4.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "AE0693B89AD0CDCA"
+      ],
+      "tasks": [
+        {
+          "id": "4C685247F8F84BC8",
+          "type": "item",
+          "item": "eidolon:soul_enchanter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5295295B27802FC4",
+      "title": "Arcane Gold Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:arcane_gold_ingot",
+      "x": 6.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "9AD4A5A68DBD72E4"
+      ],
+      "tasks": [
+        {
+          "id": "A40648FD85DD6D9F",
+          "type": "item",
+          "item": "eidolon:arcane_gold_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "A793470416EA7CF4",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "7997455BC009C940",
+      "title": "Shadow Gem",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:shadow_gem",
+      "x": 8.0,
+      "y": 9.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "5295295B27802FC4"
+      ],
+      "tasks": [
+        {
+          "id": "2030E2074D2CFC47",
+          "type": "item",
+          "item": "eidolon:shadow_gem",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "629B6E6A69EDF8FA",
+          "type": "xp",
+          "xp": 45
+        },
+        {
+          "id": "C82393328D73A3CA",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "46763AD49E2FC14A",
+      "title": "Wicked Weave",
+      "subtitle": "A warlock's journey",
+      "description": [
+        "Weave protection before seeking dangerous relics. Test unfamiliar weapons away from your companions."
+      ],
+      "icon": "eidolon:wicked_weave",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "5295295B27802FC4"
+      ],
+      "tasks": [
+        {
+          "id": "840A13D03769F446",
+          "type": "item",
+          "item": "eidolon:wicked_weave",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "D6739C5DE73384B9",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "513E79E57B1CE24D",
+      "title": "Warlock's Hat",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:warlock_hat",
+      "x": 2.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "46763AD49E2FC14A"
+      ],
+      "tasks": [
+        {
+          "id": "E0BD538A31B6D1B1",
+          "type": "item",
+          "item": "eidolon:warlock_hat",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "918CF14477A03D6C",
+      "title": "Warlock's Cloak",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:warlock_cloak",
+      "x": 4.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "513E79E57B1CE24D"
+      ],
+      "tasks": [
+        {
+          "id": "0DEA46D1DBF70930",
+          "type": "item",
+          "item": "eidolon:warlock_cloak",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6A34C9D46640C4E7",
+      "title": "Warlock's Boots",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:warlock_boots",
+      "x": 6.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "918CF14477A03D6C"
+      ],
+      "tasks": [
+        {
+          "id": "A9772C012932DB92",
+          "type": "item",
+          "item": "eidolon:warlock_boots",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "123E8B736488032F",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "8A7C3EF4EEDCEFB7",
+      "title": "Bonechill Wand",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:bonechill_wand",
+      "x": 8.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "6A34C9D46640C4E7"
+      ],
+      "tasks": [
+        {
+          "id": "77E6199D649F9313",
+          "type": "item",
+          "item": "eidolon:bonechill_wand",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "D3F5488032DA8B4D",
+      "title": "Soulfire Wand",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:soulfire_wand",
+      "x": 10.0,
+      "y": 12.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "8A7C3EF4EEDCEFB7"
+      ],
+      "tasks": [
+        {
+          "id": "2110F0C2EFD538F6",
+          "type": "item",
+          "item": "eidolon:soulfire_wand",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "97B347DF7F7965DB",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "79874B0C683B71CB",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "26D73139EEFA8379",
+      "title": "Basic Ring",
+      "subtitle": "Relics and vows",
+      "description": [
+        "Choose relics that complement the journey. Keep a trusted return route when exploring beyond familiar ground."
+      ],
+      "icon": "eidolon:basic_ring",
+      "x": 0.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "7997455BC009C940"
+      ],
+      "tasks": [
+        {
+          "id": "D4FBBBDB4ACAA553",
+          "type": "item",
+          "item": "eidolon:basic_ring",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4749F20B157E4552",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "8836220BEFF5D6D9",
+      "title": "Basic Belt",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:basic_belt",
+      "x": 2.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "26D73139EEFA8379"
+      ],
+      "tasks": [
+        {
+          "id": "9AE55760DCDF7241",
+          "type": "item",
+          "item": "eidolon:basic_belt",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "285B1DB2CA8A4880",
+      "title": "Basic Amulet",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:basic_amulet",
+      "x": 4.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "8836220BEFF5D6D9"
+      ],
+      "tasks": [
+        {
+          "id": "61E7B4E91209EEBD",
+          "type": "item",
+          "item": "eidolon:basic_amulet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "DED9A6FBBEF4DF0F",
+      "title": "Sanguine Amulet",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:sanguine_amulet",
+      "x": 6.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "285B1DB2CA8A4880"
+      ],
+      "tasks": [
+        {
+          "id": "AF75F4B9463D474E",
+          "type": "item",
+          "item": "eidolon:sanguine_amulet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4734E4C8A9556F8C",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "69C537CE94937E63",
+      "title": "Gravity Belt",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:gravity_belt",
+      "x": 8.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "DED9A6FBBEF4DF0F"
+      ],
+      "tasks": [
+        {
+          "id": "664F499B5675D889",
+          "type": "item",
+          "item": "eidolon:gravity_belt",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5DDD4F6E7C00597A",
+      "title": "Raven Cloak",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:raven_cloak",
+      "x": 10.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "69C537CE94937E63"
+      ],
+      "tasks": [
+        {
+          "id": "EFDFFF8049C411F5",
+          "type": "item",
+          "item": "eidolon:raven_cloak",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "CA5C73EF81BA9B5B",
+      "title": "Mirror of Terminus",
+      "subtitle": "",
+      "description": [],
+      "icon": "eidolon:terminus_mirror",
+      "x": 12.0,
+      "y": 15.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "5DDD4F6E7C00597A"
+      ],
+      "tasks": [
+        {
+          "id": "E60733A10FB82202",
+          "type": "item",
+          "item": "eidolon:terminus_mirror",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "990E304D2C308732",
+          "type": "xp",
+          "xp": 35
+        },
+        {
+          "id": "49BDAE9FA7B41A4E",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

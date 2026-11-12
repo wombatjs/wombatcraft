@@ -1,0 +1,1826 @@
+{
+  "id": "64CA590C9C91428A",
+  "title": "Engineering",
+  "group": "0DCB27D2C77209FB",
+  "order_index": 22,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "10AF5B04F8E5FE9E",
+      "title": "Engineer's Manual",
+      "subtitle": "The engineer's yard",
+      "description": [
+        "Reserve a yard for large machines. Form the coke oven and blast furnace from the manual's diagrams, then put both solid and fluid outputs to work."
+      ],
+      "icon": "immersiveengineering:manual",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "AFD788275C00A30D",
+          "type": "item",
+          "item": "immersiveengineering:manual",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6A1BD297DCABB610",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "F73EB9D78D844688",
+      "title": "Engineer's Hammer",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:hammer",
+      "x": 2.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "10AF5B04F8E5FE9E"
+      ],
+      "tasks": [
+        {
+          "id": "CE8D55D1A89218B3",
+          "type": "item",
+          "item": "immersiveengineering:hammer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "D18E3BA3EB55BF65",
+      "title": "Engineer's Wire Cutters",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:wirecutter",
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "F73EB9D78D844688"
+      ],
+      "tasks": [
+        {
+          "id": "66717DAB3D1E2543",
+          "type": "item",
+          "item": "immersiveengineering:wirecutter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "B04BC684FFCBA4EE",
+      "title": "Coke Brick",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:cokebrick",
+      "x": 6.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "D18E3BA3EB55BF65"
+      ],
+      "tasks": [
+        {
+          "id": "43AC17D4A3E5746A",
+          "type": "item",
+          "item": "immersiveengineering:cokebrick",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "F2CCC64EDB7725FE",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "CA044FF5DD07B02D",
+      "title": "Bucket of Creosote Oil",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:creosote_bucket",
+      "x": 8.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "B04BC684FFCBA4EE"
+      ],
+      "tasks": [
+        {
+          "id": "FDE7BAF55619FA6F",
+          "type": "item",
+          "item": "immersiveengineering:creosote_bucket",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "05499BDDD2E9D008",
+      "title": "Blast Brick",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:blastbrick",
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "CA044FF5DD07B02D"
+      ],
+      "tasks": [
+        {
+          "id": "2BC942C9B21D0EBB",
+          "type": "item",
+          "item": "immersiveengineering:blastbrick",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6F760FAE664F1FC3",
+      "title": "Coal Coke",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:coal_coke",
+      "x": 12.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "05499BDDD2E9D008"
+      ],
+      "tasks": [
+        {
+          "id": "E6EB0B408435EEC4",
+          "type": "item",
+          "item": "immersiveengineering:coal_coke",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "EE1939082C653DD2",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "419E41AB89E3F6CB",
+      "title": "Steel Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:ingot_steel",
+      "x": 14.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "6F760FAE664F1FC3"
+      ],
+      "tasks": [
+        {
+          "id": "0ED5C4AF3E7FAD90",
+          "type": "item",
+          "item": "immersiveengineering:ingot_steel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "34B0B2BE674DFC54",
+          "type": "xp",
+          "xp": 30
+        },
+        {
+          "id": "481539F982654497",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "1607161F9F0609FF",
+      "title": "Kinetic Dynamo",
+      "subtitle": "Visible power",
+      "description": [
+        "Keep uninsulated wires away from walkways. Measure the network and provide a buffer before adding heavy machinery."
+      ],
+      "icon": "immersiveengineering:dynamo",
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "419E41AB89E3F6CB"
+      ],
+      "tasks": [
+        {
+          "id": "F22FA8DBAAF09410",
+          "type": "item",
+          "item": "immersiveengineering:dynamo",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6F588341B9A10787",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "3E58016D283322A3",
+      "title": "Water Wheel",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:watermill",
+      "x": 2.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "1607161F9F0609FF"
+      ],
+      "tasks": [
+        {
+          "id": "CDD0CA93775666C1",
+          "type": "item",
+          "item": "immersiveengineering:watermill",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "55264FECF0D4EE86",
+      "title": "Windmill",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:windmill",
+      "x": 4.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "3E58016D283322A3"
+      ],
+      "tasks": [
+        {
+          "id": "39BE6387E19D29BC",
+          "type": "item",
+          "item": "immersiveengineering:windmill",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "29D7E838546BF844",
+      "title": "LV Wire Coil",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:wirecoil_copper",
+      "x": 6.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "55264FECF0D4EE86"
+      ],
+      "tasks": [
+        {
+          "id": "3454E2F678B3FED5",
+          "type": "item",
+          "item": "immersiveengineering:wirecoil_copper",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "DD39890BC034DD7D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "C36DD2591A2A490C",
+      "title": "LV Wire Connector",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:connector_lv",
+      "x": 8.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "29D7E838546BF844"
+      ],
+      "tasks": [
+        {
+          "id": "898ED2867940C05E",
+          "type": "item",
+          "item": "immersiveengineering:connector_lv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "80CDFC7AE9DB33DC",
+      "title": "LV Wire Relay",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:connector_lv_relay",
+      "x": 10.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "C36DD2591A2A490C"
+      ],
+      "tasks": [
+        {
+          "id": "27EF6D477C581AEC",
+          "type": "item",
+          "item": "immersiveengineering:connector_lv_relay",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "A3A206E68CB8A9F9",
+      "title": "LV Accumulator",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:capacitor_lv",
+      "x": 12.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "80CDFC7AE9DB33DC"
+      ],
+      "tasks": [
+        {
+          "id": "F7B519673CF2675C",
+          "type": "item",
+          "item": "immersiveengineering:capacitor_lv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14563E834876FE53",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "F18B2BD2360670F4",
+      "title": "Engineer's Multimeter",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:voltmeter",
+      "x": 14.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "A3A206E68CB8A9F9"
+      ],
+      "tasks": [
+        {
+          "id": "3BB72F52983313C4",
+          "type": "item",
+          "item": "immersiveengineering:voltmeter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E7E2764C589251D",
+          "type": "xp",
+          "xp": 35
+        },
+        {
+          "id": "18F14133311AD2C9",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "5083CE378936A8BE",
+      "title": "Reinforced Blast Brick",
+      "subtitle": "Better steel",
+      "description": [
+        "A reinforced furnace supports a larger steel supply. Keep coke production and creosote storage ahead of demand."
+      ],
+      "icon": "immersiveengineering:blastbrick_reinforced",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "419E41AB89E3F6CB"
+      ],
+      "tasks": [
+        {
+          "id": "E9926ABF8413A5FF",
+          "type": "item",
+          "item": "immersiveengineering:blastbrick_reinforced",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "A4FA146E12CE6FFE",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "8C9B977C2015156D",
+      "title": "Blast Furnace Preheater",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:blastfurnace_preheater",
+      "x": 2.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "5083CE378936A8BE"
+      ],
+      "tasks": [
+        {
+          "id": "80B4C9073D194E31",
+          "type": "item",
+          "item": "immersiveengineering:blastfurnace_preheater",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "0504E9F7C27B9475",
+      "title": "Kiln Brick",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:alloybrick",
+      "x": 4.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "8C9B977C2015156D"
+      ],
+      "tasks": [
+        {
+          "id": "BE6D71A7FF8C86DA",
+          "type": "item",
+          "item": "immersiveengineering:alloybrick",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "A87F4B5BF099F4F9",
+      "title": "Electrum Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:ingot_electrum",
+      "x": 6.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "0504E9F7C27B9475"
+      ],
+      "tasks": [
+        {
+          "id": "00759A32B15F63D8",
+          "type": "item",
+          "item": "immersiveengineering:ingot_electrum",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "DD7FA7AACB4D0FC8",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "64AC7AEB079BFD9E",
+      "title": "Constantan Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:ingot_constantan",
+      "x": 8.0,
+      "y": 6.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "A87F4B5BF099F4F9"
+      ],
+      "tasks": [
+        {
+          "id": "7854D13DB09BAC5B",
+          "type": "item",
+          "item": "immersiveengineering:ingot_constantan",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "A283EADA5AC94D4C",
+          "type": "xp",
+          "xp": 40
+        },
+        {
+          "id": "55544A6F84BE6EE3",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "8F2F4296CFD3817F",
+      "title": "Iron Plate",
+      "subtitle": "Workshop components",
+      "description": [
+        "Prepare common construction components in batches. Leave maintenance space around every multiblock."
+      ],
+      "icon": "immersiveengineering:plate_iron",
+      "x": 0.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "F73EB9D78D844688"
+      ],
+      "tasks": [
+        {
+          "id": "99B04C0D81976E45",
+          "type": "item",
+          "item": "immersiveengineering:plate_iron",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3E8B795B517E6CB8",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "63BA833561CE6374",
+      "title": "Iron Mechanical Component",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:component_iron",
+      "x": 2.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "8F2F4296CFD3817F"
+      ],
+      "tasks": [
+        {
+          "id": "BEAA1D00419A9C16",
+          "type": "item",
+          "item": "immersiveengineering:component_iron",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "C148AA2F3C56859B",
+      "title": "Light Engineering Block",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:light_engineering",
+      "x": 4.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "63BA833561CE6374"
+      ],
+      "tasks": [
+        {
+          "id": "DE3CD52B76654700",
+          "type": "item",
+          "item": "immersiveengineering:light_engineering",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "68672A102C4606BF",
+      "title": "Redstone Engineering Block",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:rs_engineering",
+      "x": 6.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "C148AA2F3C56859B"
+      ],
+      "tasks": [
+        {
+          "id": "1E70D9984A5E4546",
+          "type": "item",
+          "item": "immersiveengineering:rs_engineering",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "413F97D794AEDA22",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "CB3051743BF63D85",
+      "title": "Steel Mechanical Component",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:component_steel",
+      "x": 8.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "68672A102C4606BF"
+      ],
+      "tasks": [
+        {
+          "id": "C59325345B9A92CD",
+          "type": "item",
+          "item": "immersiveengineering:component_steel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6299E3223A69F574",
+      "title": "Heavy Engineering Block",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:heavy_engineering",
+      "x": 10.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "CB3051743BF63D85"
+      ],
+      "tasks": [
+        {
+          "id": "9F269B2BD6AB76A7",
+          "type": "item",
+          "item": "immersiveengineering:heavy_engineering",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "CD8DB3FC152ACE48",
+      "title": "Steel Scaffolding",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:steel_scaffolding_standard",
+      "x": 12.0,
+      "y": 9.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "6299E3223A69F574"
+      ],
+      "tasks": [
+        {
+          "id": "F0F8FC6F97643840",
+          "type": "item",
+          "item": "immersiveengineering:steel_scaffolding_standard",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "32AEBF1A09785F1D",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "id": "1AC3A13F7BD70822",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "CDA5A0F87930E73C",
+      "title": "Conveyor Belt",
+      "subtitle": "Conveyors and sorting",
+      "description": [
+        "Build a visible route from input to storage. Guard against overflow before connecting a machine that produces continuously."
+      ],
+      "icon": "immersiveengineering:conveyor_basic",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "C148AA2F3C56859B"
+      ],
+      "tasks": [
+        {
+          "id": "0C97D48996275906",
+          "type": "item",
+          "item": "immersiveengineering:conveyor_basic",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "9B44DDEFE464BD52",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "EB1F5C7E35B2636E",
+      "title": "Extracting Conveyor Belt",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:conveyor_extract",
+      "x": 2.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "CDA5A0F87930E73C"
+      ],
+      "tasks": [
+        {
+          "id": "1260B5951B8A66B3",
+          "type": "item",
+          "item": "immersiveengineering:conveyor_extract",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "20BE1BC2480FDCB9",
+      "title": "Dropping Conveyor Belt",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:conveyor_dropper",
+      "x": 4.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "EB1F5C7E35B2636E"
+      ],
+      "tasks": [
+        {
+          "id": "C4A2C8BA92E692E5",
+          "type": "item",
+          "item": "immersiveengineering:conveyor_dropper",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "EF751C6023756851",
+      "title": "Vertical Conveyor Belt",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:conveyor_vertical",
+      "x": 6.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "20BE1BC2480FDCB9"
+      ],
+      "tasks": [
+        {
+          "id": "121762AE10C78FC6",
+          "type": "item",
+          "item": "immersiveengineering:conveyor_vertical",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "9B6FE7F27B19F6B4",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "2F077B938B5041C9",
+      "title": "Splitting Conveyor Belt",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:conveyor_splitter",
+      "x": 8.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "EF751C6023756851"
+      ],
+      "tasks": [
+        {
+          "id": "84640457DA6F9270",
+          "type": "item",
+          "item": "immersiveengineering:conveyor_splitter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "E5B1BCF5D6FF2173",
+      "title": "Item Router",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:sorter",
+      "x": 10.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "2F077B938B5041C9"
+      ],
+      "tasks": [
+        {
+          "id": "ECE4F14EA69EC283",
+          "type": "item",
+          "item": "immersiveengineering:sorter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5B22599283F97D08",
+      "title": "Item Batcher",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:item_batcher",
+      "x": 12.0,
+      "y": 12.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "E5B1BCF5D6FF2173"
+      ],
+      "tasks": [
+        {
+          "id": "A938F60B232519AE",
+          "type": "item",
+          "item": "immersiveengineering:item_batcher",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3EA9F51C6E0345A3",
+          "type": "xp",
+          "xp": 30
+        },
+        {
+          "id": "D595719C3E47C63F",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "AEF0E6C000809FBF",
+      "title": "Fluid Pipe",
+      "subtitle": "Fluid works",
+      "description": [
+        "Separate fuels and process fluids. Mark tanks clearly and keep a portable container for maintenance."
+      ],
+      "icon": "immersiveengineering:fluid_pipe",
+      "x": 0.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "C148AA2F3C56859B"
+      ],
+      "tasks": [
+        {
+          "id": "AECAE485F09F49A8",
+          "type": "item",
+          "item": "immersiveengineering:fluid_pipe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "C09712C933EE9071",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "AC58D4E0C1472415",
+      "title": "Fluid Pump",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:fluid_pump",
+      "x": 2.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "AEF0E6C000809FBF"
+      ],
+      "tasks": [
+        {
+          "id": "19DC98ADBFCEA614",
+          "type": "item",
+          "item": "immersiveengineering:fluid_pump",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1355F512CA28E9BA",
+      "title": "Wooden Barrel",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:wooden_barrel",
+      "x": 4.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "AC58D4E0C1472415"
+      ],
+      "tasks": [
+        {
+          "id": "3F2DE47AABAD39CC",
+          "type": "item",
+          "item": "immersiveengineering:wooden_barrel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "8F7BBF725A85DDA8",
+      "title": "Metal Barrel",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:metal_barrel",
+      "x": 6.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "1355F512CA28E9BA"
+      ],
+      "tasks": [
+        {
+          "id": "BAB4A9F30BAB8A3F",
+          "type": "item",
+          "item": "immersiveengineering:metal_barrel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10A353B02B027F69",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "C743B94024A3BA85",
+      "title": "Fluid Router",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:fluid_sorter",
+      "x": 8.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "8F7BBF725A85DDA8"
+      ],
+      "tasks": [
+        {
+          "id": "168718DB3D11CB3C",
+          "type": "item",
+          "item": "immersiveengineering:fluid_sorter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "73CF04849075FD28",
+      "title": "Jerrycan",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:jerrycan",
+      "x": 10.0,
+      "y": 15.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "C743B94024A3BA85"
+      ],
+      "tasks": [
+        {
+          "id": "FE76C7B60583EC69",
+          "type": "item",
+          "item": "immersiveengineering:jerrycan",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5E6DFB08A71507CE",
+          "type": "xp",
+          "xp": 55
+        },
+        {
+          "id": "5781FEC9EF6C19DF",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "FB803033B571DEA5",
+      "title": "MV Wire Coil",
+      "subtitle": "High-voltage yard",
+      "description": [
+        "Step voltage down before reaching lower-tier equipment. Place dangerous cables above normal paths and isolate the yard."
+      ],
+      "icon": "immersiveengineering:wirecoil_electrum",
+      "x": 0.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "A3A206E68CB8A9F9"
+      ],
+      "tasks": [
+        {
+          "id": "25C7090834C8A24F",
+          "type": "item",
+          "item": "immersiveengineering:wirecoil_electrum",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11B088691011097D",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "8E92AD3381BA8CE7",
+      "title": "MV Wire Connector",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:connector_mv",
+      "x": 2.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "FB803033B571DEA5"
+      ],
+      "tasks": [
+        {
+          "id": "F674E639087F167E",
+          "type": "item",
+          "item": "immersiveengineering:connector_mv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "E1ECF62AE0BE5DC0",
+      "title": "MV Accumulator",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:capacitor_mv",
+      "x": 4.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "8E92AD3381BA8CE7"
+      ],
+      "tasks": [
+        {
+          "id": "A01A95614EC31F24",
+          "type": "item",
+          "item": "immersiveengineering:capacitor_mv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2E11B4BC35911E53",
+      "title": "Transformer",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:transformer",
+      "x": 6.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "E1ECF62AE0BE5DC0"
+      ],
+      "tasks": [
+        {
+          "id": "5E9DD6B56C91DE9E",
+          "type": "item",
+          "item": "immersiveengineering:transformer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DC664A7664A530E",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "AECBDE1CE7EEB9BD",
+      "title": "HV Wire Coil",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:wirecoil_steel",
+      "x": 8.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "2E11B4BC35911E53"
+      ],
+      "tasks": [
+        {
+          "id": "13F95399B49F3824",
+          "type": "item",
+          "item": "immersiveengineering:wirecoil_steel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "AE13216F1F172204",
+      "title": "HV Wire Connector",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:connector_hv",
+      "x": 10.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "AECBDE1CE7EEB9BD"
+      ],
+      "tasks": [
+        {
+          "id": "1B091A988E815D99",
+          "type": "item",
+          "item": "immersiveengineering:connector_hv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "48FDFD7038790102",
+      "title": "HV Accumulator",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:capacitor_hv",
+      "x": 12.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "AE13216F1F172204"
+      ],
+      "tasks": [
+        {
+          "id": "AEF4D486FFC64455",
+          "type": "item",
+          "item": "immersiveengineering:capacitor_hv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "02DBF7849421144F",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "14CAAACF374A05A8",
+      "title": "HV Transformer",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:transformer_hv",
+      "x": 14.0,
+      "y": 18.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "48FDFD7038790102"
+      ],
+      "tasks": [
+        {
+          "id": "8CF8B958705928E7",
+          "type": "item",
+          "item": "immersiveengineering:transformer_hv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "D3E63B1DE011B070",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "EA0F90B9D260C87F",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "35F79A2E981678A5",
+      "title": "Engineer's Workbench",
+      "subtitle": "The engineer's bench",
+      "description": [
+        "The workbench turns prepared components into specialised equipment. Keep blueprints nearby and stock their common ingredients."
+      ],
+      "icon": "immersiveengineering:workbench",
+      "x": 0.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "CB3051743BF63D85"
+      ],
+      "tasks": [
+        {
+          "id": "242DC33E667F05FE",
+          "type": "item",
+          "item": "immersiveengineering:workbench",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "291A8E4BE59A3645",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "556605E3C7260CD1",
+      "title": "Engineer's Blueprint",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:blueprint",
+      "x": 2.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "35F79A2E981678A5"
+      ],
+      "tasks": [
+        {
+          "id": "6A431AE8058114C3",
+          "type": "item",
+          "item": "immersiveengineering:blueprint",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2719AD085E98A931",
+      "title": "Electronic Component",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:component_electronic",
+      "x": 4.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "556605E3C7260CD1"
+      ],
+      "tasks": [
+        {
+          "id": "1D5ADEE2AD3A79FC",
+          "type": "item",
+          "item": "immersiveengineering:component_electronic",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5CF86590444EA178",
+      "title": "Advanced Electronic Component",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:component_electronic_adv",
+      "x": 6.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "2719AD085E98A931"
+      ],
+      "tasks": [
+        {
+          "id": "FAC85980BA084703",
+          "type": "item",
+          "item": "immersiveengineering:component_electronic_adv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "B9ED7C675AF09EB6",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "EE584380621F334F",
+      "title": "Circuit Backplane",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:circuit_board",
+      "x": 8.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "5CF86590444EA178"
+      ],
+      "tasks": [
+        {
+          "id": "5CDC0D8DA5F14CC3",
+          "type": "item",
+          "item": "immersiveengineering:circuit_board",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2C49F8E8FEC7B6FC",
+      "title": "Logic Unit",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:logic_unit",
+      "x": 10.0,
+      "y": 21.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "EE584380621F334F"
+      ],
+      "tasks": [
+        {
+          "id": "F03818E79EEBDBEC",
+          "type": "item",
+          "item": "immersiveengineering:logic_unit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "BA332C92C026B381",
+          "type": "xp",
+          "xp": 65
+        },
+        {
+          "id": "B2F65F4674B47BAF",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "38D253228F0A2C21",
+      "title": "Mining Drill",
+      "subtitle": "Working in the field",
+      "description": [
+        "Fuel and charge tools before leaving the yard. Keep spare consumables where they can be reached during a long job."
+      ],
+      "icon": "immersiveengineering:drill",
+      "x": 0.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "35F79A2E981678A5"
+      ],
+      "tasks": [
+        {
+          "id": "5720B48FB8AA4570",
+          "type": "item",
+          "item": "immersiveengineering:drill",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B5748FAA0AB94C3",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5D3B02231CE4AA7F",
+      "title": "Iron Drill Head",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:drillhead_iron",
+      "x": 2.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "38D253228F0A2C21"
+      ],
+      "tasks": [
+        {
+          "id": "0059310C22545C8C",
+          "type": "item",
+          "item": "immersiveengineering:drillhead_iron",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "C7510341EE2F144A",
+      "title": "Steel Drill Head",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:drillhead_steel",
+      "x": 4.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "5D3B02231CE4AA7F"
+      ],
+      "tasks": [
+        {
+          "id": "1ACC78B8CBB6DE72",
+          "type": "item",
+          "item": "immersiveengineering:drillhead_steel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "628D043817E54ED3",
+      "title": "Buzzsaw",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:buzzsaw",
+      "x": 6.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "C7510341EE2F144A"
+      ],
+      "tasks": [
+        {
+          "id": "845DFACF19D44354",
+          "type": "item",
+          "item": "immersiveengineering:buzzsaw",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "34DA2C3E90DA96C8",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "B68D8CF58B50D7AC",
+      "title": "Sawblade",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:sawblade",
+      "x": 8.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "628D043817E54ED3"
+      ],
+      "tasks": [
+        {
+          "id": "295B04696C1FC218",
+          "type": "item",
+          "item": "immersiveengineering:sawblade",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2D1279201490D585",
+      "title": "Accumulator Backpack",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:powerpack",
+      "x": 10.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "B68D8CF58B50D7AC"
+      ],
+      "tasks": [
+        {
+          "id": "AE6900568E56E535",
+          "type": "item",
+          "item": "immersiveengineering:powerpack",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "E34DD40A0FD43909",
+      "title": "Engineer's Skyhook",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:skyhook",
+      "x": 12.0,
+      "y": 24.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "2D1279201490D585"
+      ],
+      "tasks": [
+        {
+          "id": "44F78653E14095F9",
+          "type": "item",
+          "item": "immersiveengineering:skyhook",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "206AC56027E6BC41",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "50F703C91A9BA166",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "AB6213F99C46429E",
+      "title": "Garden Cloche",
+      "subtitle": "A cultivated supply",
+      "description": [
+        "Garden cloches need water, power and suitable soil. Route their harvest into the processes that depend on it."
+      ],
+      "icon": "immersiveengineering:cloche",
+      "x": 0.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "C148AA2F3C56859B"
+      ],
+      "tasks": [
+        {
+          "id": "F2CB6657366C371F",
+          "type": "item",
+          "item": "immersiveengineering:cloche",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "865D434FB36A0D6B",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "2F9AD27520A1DFD3",
+      "title": "Industrial Fertilizer",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:fertilizer",
+      "x": 2.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "AB6213F99C46429E"
+      ],
+      "tasks": [
+        {
+          "id": "80AB059A9F4A0CA3",
+          "type": "item",
+          "item": "immersiveengineering:fertilizer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "9825301184DE90F7",
+      "title": "Industrial Hemp Seeds",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:seed",
+      "x": 4.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "2F9AD27520A1DFD3"
+      ],
+      "tasks": [
+        {
+          "id": "E8532238D652890F",
+          "type": "item",
+          "item": "immersiveengineering:seed",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F09D5EACC7C0EF45",
+      "title": "Industrial Hemp Fiber",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:hemp_fiber",
+      "x": 6.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "9825301184DE90F7"
+      ],
+      "tasks": [
+        {
+          "id": "9C79058C42FCC9DD",
+          "type": "item",
+          "item": "immersiveengineering:hemp_fiber",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "D15602D38EE0D90F",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "8D0BA3A34B086632",
+      "title": "Tough Fabric",
+      "subtitle": "",
+      "description": [],
+      "icon": "immersiveengineering:hemp_fabric",
+      "x": 8.0,
+      "y": 27.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "F09D5EACC7C0EF45"
+      ],
+      "tasks": [
+        {
+          "id": "C4BD2E21B9807E3A",
+          "type": "item",
+          "item": "immersiveengineering:hemp_fabric",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "9F8A29E0B5C0C96C",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "8581D9C8350EFD92",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    }
+  ]
+}

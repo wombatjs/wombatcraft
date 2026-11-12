@@ -1,0 +1,2335 @@
+{
+  "id": "2001B734D7629EE0",
+  "title": "Botania",
+  "group": "065A019E212476CF",
+  "order_index": 14,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "7EEB16D136BD6F3C",
+      "title": "Lexica Botania",
+      "subtitle": "The living garden",
+      "description": [
+        "The Pure Daisy transforms nearby stone and wood. Give it room, then prepare the living materials for a mana garden."
+      ],
+      "icon": "botania:lexicon",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "9E6537C5052221D6",
+          "type": "item",
+          "item": "botania:lexicon",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "F8D69DD62C904623",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "BB3C226317183C1B",
+      "title": "Petal Apothecary",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:apothecary_default",
+      "x": 2.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "7EEB16D136BD6F3C"
+      ],
+      "tasks": [
+        {
+          "id": "7A316D93FA88D43F",
+          "type": "item",
+          "item": "botania:apothecary_default",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "0CE7AD0C114BF59E",
+      "title": "Pure Daisy",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:pure_daisy",
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "BB3C226317183C1B"
+      ],
+      "tasks": [
+        {
+          "id": "703194098E019494",
+          "type": "item",
+          "item": "botania:pure_daisy",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "9C289356FF38B77A",
+      "title": "Livingrock",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:livingrock",
+      "x": 6.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0CE7AD0C114BF59E"
+      ],
+      "tasks": [
+        {
+          "id": "518E8381A439C6A9",
+          "type": "item",
+          "item": "botania:livingrock",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4E94AB220E57448D",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "FDDFE5D56858CC86",
+      "title": "Livingwood Log",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:livingwood_log",
+      "x": 8.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "9C289356FF38B77A"
+      ],
+      "tasks": [
+        {
+          "id": "17D67E6AD4ABE773",
+          "type": "item",
+          "item": "botania:livingwood_log",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "CA42A05B66D996D0",
+      "title": "Wand of the Forest",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:twig_wand",
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "FDDFE5D56858CC86"
+      ],
+      "tasks": [
+        {
+          "id": "A45D37945388010F",
+          "type": "item",
+          "item": "botania:twig_wand",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6E7018AA84DD36F8",
+          "type": "xp",
+          "xp": 30
+        },
+        {
+          "id": "1D057DB26843EF68",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "7336CF36A96DF7E9",
+      "title": "Endoflame",
+      "subtitle": "A first mana pool",
+      "description": [
+        "Feed generating flowers and bind them to a spreader. Aim the spreader at the pool before supplying fuel."
+      ],
+      "icon": "botania:endoflame",
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "CA42A05B66D996D0"
+      ],
+      "tasks": [
+        {
+          "id": "16DD857ABB235CBA",
+          "type": "item",
+          "item": "botania:endoflame",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6101F65ED892311F",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "3B55BA07633DCDA8",
+      "title": "Mana Spreader",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:mana_spreader",
+      "x": 2.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "7336CF36A96DF7E9"
+      ],
+      "tasks": [
+        {
+          "id": "B285D8C71B66F0B2",
+          "type": "item",
+          "item": "botania:mana_spreader",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4556D96C36F3BDB3",
+      "title": "Mana Pool",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:mana_pool",
+      "x": 4.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "3B55BA07633DCDA8"
+      ],
+      "tasks": [
+        {
+          "id": "82EB52FF22375468",
+          "type": "item",
+          "item": "botania:mana_pool",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7A8179E6883160F1",
+      "title": "Mana Diamond",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:mana_diamond",
+      "x": 6.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "4556D96C36F3BDB3"
+      ],
+      "tasks": [
+        {
+          "id": "9549626F3A58F139",
+          "type": "item",
+          "item": "botania:mana_diamond",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "8EFFAFB2846E4F9F",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "06ACA2A2C496E68F",
+      "title": "Mana Pearl",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:mana_pearl",
+      "x": 8.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "7A8179E6883160F1"
+      ],
+      "tasks": [
+        {
+          "id": "142D19CAFEEEE0BA",
+          "type": "item",
+          "item": "botania:mana_pearl",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F8D80CA9FF2836B6",
+      "title": "Manasteel Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:manasteel_ingot",
+      "x": 10.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "06ACA2A2C496E68F"
+      ],
+      "tasks": [
+        {
+          "id": "AEBE7B6F694A14B0",
+          "type": "item",
+          "item": "botania:manasteel_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "B0D7B6372FC5F1FC",
+          "type": "xp",
+          "xp": 35
+        },
+        {
+          "id": "9743FBB4237ED1C6",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "27C622D35289162B",
+      "title": "Runic Altar",
+      "subtitle": "Runes of the seasons",
+      "description": [
+        "Deliver mana to the altar and place the required ingredients. Finish the rite with livingrock and the wand."
+      ],
+      "icon": "botania:runic_altar",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "4556D96C36F3BDB3"
+      ],
+      "tasks": [
+        {
+          "id": "8CD3A182E4573218",
+          "type": "item",
+          "item": "botania:runic_altar",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "8524CCCDDDF586F5",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "94CC092734DD4925",
+      "title": "Rune of Water",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:rune_water",
+      "x": 2.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "27C622D35289162B"
+      ],
+      "tasks": [
+        {
+          "id": "0986223420AAA079",
+          "type": "item",
+          "item": "botania:rune_water",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "D3619C79E3E79DDA",
+      "title": "Rune of Fire",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:rune_fire",
+      "x": 4.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "94CC092734DD4925"
+      ],
+      "tasks": [
+        {
+          "id": "E8CB22C7444A8232",
+          "type": "item",
+          "item": "botania:rune_fire",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4BE00D511E39D26E",
+      "title": "Rune of Earth",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:rune_earth",
+      "x": 6.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "D3619C79E3E79DDA"
+      ],
+      "tasks": [
+        {
+          "id": "3D567B8ED582A67B",
+          "type": "item",
+          "item": "botania:rune_earth",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2A6444FE5B062E60",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "735FE3436963B54A",
+      "title": "Rune of Air",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:rune_air",
+      "x": 8.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "4BE00D511E39D26E"
+      ],
+      "tasks": [
+        {
+          "id": "7DBFDA2ADFA4AD8B",
+          "type": "item",
+          "item": "botania:rune_air",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "0E1A20FF79A62F64",
+      "title": "Rune of Spring",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:rune_spring",
+      "x": 10.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "735FE3436963B54A"
+      ],
+      "tasks": [
+        {
+          "id": "E8A761EDDD47AB38",
+          "type": "item",
+          "item": "botania:rune_spring",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F52F3D78A6A278F2",
+      "title": "Rune of Summer",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:rune_summer",
+      "x": 12.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "0E1A20FF79A62F64"
+      ],
+      "tasks": [
+        {
+          "id": "12F4793C05AE72B7",
+          "type": "item",
+          "item": "botania:rune_summer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B9EF7BD40FD0DC6",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "F06AD864BECF170F",
+      "title": "Rune of Autumn",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:rune_autumn",
+      "x": 14.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "F52F3D78A6A278F2"
+      ],
+      "tasks": [
+        {
+          "id": "46EDBAB4CAE44E52",
+          "type": "item",
+          "item": "botania:rune_autumn",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "398F9E16BE0503E0",
+      "title": "Rune of Winter",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:rune_winter",
+      "x": 16.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "F06AD864BECF170F"
+      ],
+      "tasks": [
+        {
+          "id": "532208461EF3F4B7",
+          "type": "item",
+          "item": "botania:rune_winter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "093B6AEE4EEA08D6",
+      "title": "Rune of Mana",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:rune_mana",
+      "x": 18.0,
+      "y": 6.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "398F9E16BE0503E0"
+      ],
+      "tasks": [
+        {
+          "id": "EF69C5C9EA81E696",
+          "type": "item",
+          "item": "botania:rune_mana",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "A721B46E5ED4FBDC",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "7F1B65727D4D049E",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "5434236AD4B918C7",
+      "title": "Hydroangeas",
+      "subtitle": "A varied mana garden",
+      "description": [
+        "Different flowers consume different resources. Build the supply around the flower rather than leaving it hungry beside an impressive pool."
+      ],
+      "icon": "botania:hydroangeas",
+      "x": 0.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "27C622D35289162B"
+      ],
+      "tasks": [
+        {
+          "id": "68C8587BCD4995D8",
+          "type": "item",
+          "item": "botania:hydroangeas",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "E946C01D4B42CF3C",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "EA3E3312FE0C6B6C",
+      "title": "Thermalily",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:thermalily",
+      "x": 2.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "5434236AD4B918C7"
+      ],
+      "tasks": [
+        {
+          "id": "04453F2D9F190575",
+          "type": "item",
+          "item": "botania:thermalily",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "EA1E744FA3E8E5B8",
+      "title": "Gourmaryllis",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:gourmaryllis",
+      "x": 4.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "EA3E3312FE0C6B6C"
+      ],
+      "tasks": [
+        {
+          "id": "AB8DAFCE29D14EC5",
+          "type": "item",
+          "item": "botania:gourmaryllis",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1F30F353B08AA202",
+      "title": "Rosa Arcana",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:rosa_arcana",
+      "x": 6.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "EA1E744FA3E8E5B8"
+      ],
+      "tasks": [
+        {
+          "id": "E69F9A83212EC654",
+          "type": "item",
+          "item": "botania:rosa_arcana",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "324080FFC529DA26",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "A06682815E67F42D",
+      "title": "Munchdew",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:munchdew",
+      "x": 8.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "1F30F353B08AA202"
+      ],
+      "tasks": [
+        {
+          "id": "D80A4704253A7DC4",
+          "type": "item",
+          "item": "botania:munchdew",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F5E188BA0462055E",
+      "title": "Entropinnyum",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:entropinnyum",
+      "x": 10.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "A06682815E67F42D"
+      ],
+      "tasks": [
+        {
+          "id": "DB9657D3042D2037",
+          "type": "item",
+          "item": "botania:entropinnyum",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "EA04BEE316DFF7C8",
+      "title": "Kekimurus",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:kekimurus",
+      "x": 12.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "F5E188BA0462055E"
+      ],
+      "tasks": [
+        {
+          "id": "AF70332135722E59",
+          "type": "item",
+          "item": "botania:kekimurus",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4247BFC968F6C9A7",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "58ACA96B202B67CC",
+      "title": "Spectrolus",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:spectrolus",
+      "x": 14.0,
+      "y": 9.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "EA04BEE316DFF7C8"
+      ],
+      "tasks": [
+        {
+          "id": "D35CF2163CBB26D0",
+          "type": "item",
+          "item": "botania:spectrolus",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "B60503FB04C4CCCF",
+          "type": "xp",
+          "xp": 45
+        },
+        {
+          "id": "95482AFE0520D23B",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "8BD34CF0B5C96604",
+      "title": "Hopperhock",
+      "subtitle": "Hands of the garden",
+      "description": [
+        "Functional flowers spend mana to work on their surroundings. Mark their range and test the collection path before scaling up."
+      ],
+      "icon": "botania:hopperhock",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "F8D80CA9FF2836B6"
+      ],
+      "tasks": [
+        {
+          "id": "0897B636D8650C21",
+          "type": "item",
+          "item": "botania:hopperhock",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7E66C21301E1A4A4",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "5FC239F20C915740",
+      "title": "Rannuncarpus",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:rannuncarpus",
+      "x": 2.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "8BD34CF0B5C96604"
+      ],
+      "tasks": [
+        {
+          "id": "C05C940DE7046059",
+          "type": "item",
+          "item": "botania:rannuncarpus",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F19F900DE4F0AD78",
+      "title": "Agricarnation",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:agricarnation",
+      "x": 4.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "5FC239F20C915740"
+      ],
+      "tasks": [
+        {
+          "id": "FE519CFEA11063CD",
+          "type": "item",
+          "item": "botania:agricarnation",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "A1CD54D6DF9C9B41",
+      "title": "Clayconia",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:clayconia",
+      "x": 6.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "F19F900DE4F0AD78"
+      ],
+      "tasks": [
+        {
+          "id": "6BBBDD5780C9073F",
+          "type": "item",
+          "item": "botania:clayconia",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3EE33E51A0841EF1",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "555788EE5743914E",
+      "title": "Orechid",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:orechid",
+      "x": 8.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "A1CD54D6DF9C9B41"
+      ],
+      "tasks": [
+        {
+          "id": "C6FB3F1D6596D035",
+          "type": "item",
+          "item": "botania:orechid",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F5F9B2D092201BD3",
+      "title": "Exoflame",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:exoflame",
+      "x": 10.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "555788EE5743914E"
+      ],
+      "tasks": [
+        {
+          "id": "ED30FC31424D5648",
+          "type": "item",
+          "item": "botania:exoflame",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4625B752219A8929",
+      "title": "Solegnolia",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:solegnolia",
+      "x": 12.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "F5F9B2D092201BD3"
+      ],
+      "tasks": [
+        {
+          "id": "2297E99FF7EAC608",
+          "type": "item",
+          "item": "botania:solegnolia",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6E9D35C28FBB48C7",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "C3148A40B2756C35",
+      "title": "Daffomill",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:daffomill",
+      "x": 14.0,
+      "y": 12.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "4625B752219A8929"
+      ],
+      "tasks": [
+        {
+          "id": "35D17344C9D353D6",
+          "type": "item",
+          "item": "botania:daffomill",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "96FAEC9B84575AF0",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "A09AF8ED989736D0",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "4D5EBAE8036C5FC9",
+      "title": "Spark",
+      "subtitle": "A spark network",
+      "description": [
+        "Sparks move mana between compatible blocks. Use transfer priorities to keep critical consumers supplied."
+      ],
+      "icon": "botania:spark",
+      "x": 0.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "7A8179E6883160F1"
+      ],
+      "tasks": [
+        {
+          "id": "477A40DAA29AE0BD",
+          "type": "item",
+          "item": "botania:spark",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "24E1526CCE0C2056",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "A59AE4AC9627DE20",
+      "title": "Spark Augment: Dominant",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:spark_upgrade_dominant",
+      "x": 2.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "4D5EBAE8036C5FC9"
+      ],
+      "tasks": [
+        {
+          "id": "638FF28896FB3D09",
+          "type": "item",
+          "item": "botania:spark_upgrade_dominant",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "C88112F0C37143AB",
+      "title": "Spark Augment: Recessive",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:spark_upgrade_recessive",
+      "x": 4.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "A59AE4AC9627DE20"
+      ],
+      "tasks": [
+        {
+          "id": "43342E8340AC54E2",
+          "type": "item",
+          "item": "botania:spark_upgrade_recessive",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "EDE46D839ECA6DDD",
+      "title": "Spark Augment: Dispersive",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:spark_upgrade_dispersive",
+      "x": 6.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "C88112F0C37143AB"
+      ],
+      "tasks": [
+        {
+          "id": "610CD8D5FE0B55F4",
+          "type": "item",
+          "item": "botania:spark_upgrade_dispersive",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "A2879328AB9619F4",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "80639C565BB7570C",
+      "title": "Mana Splitter",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:mana_distributor",
+      "x": 8.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "EDE46D839ECA6DDD"
+      ],
+      "tasks": [
+        {
+          "id": "02BCCBD7CCE6ED7A",
+          "type": "item",
+          "item": "botania:mana_distributor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4C242399C360242F",
+      "title": "Mana Void",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:mana_void",
+      "x": 10.0,
+      "y": 15.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "80639C565BB7570C"
+      ],
+      "tasks": [
+        {
+          "id": "780F301C61971B8F",
+          "type": "item",
+          "item": "botania:mana_void",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2FA3418446BD4163",
+          "type": "xp",
+          "xp": 55
+        },
+        {
+          "id": "1980E7E88471DCF6",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "DD8EE20DEC3ACD1F",
+      "title": "Terrestrial Agglomeration Plate",
+      "subtitle": "Terrestrial steel",
+      "description": [
+        "Prepare a charged mana reserve before the terrestrial rite. Do not remove its ingredients while the plate is working."
+      ],
+      "icon": "botania:terra_plate",
+      "x": 0.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "27C622D35289162B"
+      ],
+      "tasks": [
+        {
+          "id": "7D900664D16E6413",
+          "type": "item",
+          "item": "botania:terra_plate",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3E448A35C440E75B",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "0262D0BC8D63949B",
+      "title": "Terrasteel Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:terrasteel_ingot",
+      "x": 2.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "DD8EE20DEC3ACD1F"
+      ],
+      "tasks": [
+        {
+          "id": "0FA63F26C2C96C74",
+          "type": "item",
+          "item": "botania:terrasteel_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "E10878671ED16E4C",
+      "title": "Terrasteel Helmet",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:terrasteel_helmet",
+      "x": 4.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "0262D0BC8D63949B"
+      ],
+      "tasks": [
+        {
+          "id": "0FE06629BF8BF5A3",
+          "type": "item",
+          "item": "botania:terrasteel_helmet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "9D8A239EE4D29713",
+      "title": "Terrasteel Chestplate",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:terrasteel_chestplate",
+      "x": 6.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "E10878671ED16E4C"
+      ],
+      "tasks": [
+        {
+          "id": "0507FEF593D48DBF",
+          "type": "item",
+          "item": "botania:terrasteel_chestplate",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "208C6512CD610466",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "4A6DC33980AF7F1A",
+      "title": "Terrasteel Leggings",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:terrasteel_leggings",
+      "x": 8.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "9D8A239EE4D29713"
+      ],
+      "tasks": [
+        {
+          "id": "40A826E566EA20A5",
+          "type": "item",
+          "item": "botania:terrasteel_leggings",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4F569B6D4FB7D8CF",
+      "title": "Terrasteel Boots",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:terrasteel_boots",
+      "x": 10.0,
+      "y": 18.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "4A6DC33980AF7F1A"
+      ],
+      "tasks": [
+        {
+          "id": "F8F6E71C31A049A9",
+          "type": "item",
+          "item": "botania:terrasteel_boots",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "F7E76B315ABD1D52",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0D0015E285519157",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "B6F50C1366FB7592",
+      "title": "Elven Gateway Core",
+      "subtitle": "The elven exchange",
+      "description": [
+        "Open the gateway with the required mana support. Exchange a small batch first and keep the return area clear."
+      ],
+      "icon": "botania:alfheim_portal",
+      "x": 0.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "0262D0BC8D63949B"
+      ],
+      "tasks": [
+        {
+          "id": "74ADD85CA6A98864",
+          "type": "item",
+          "item": "botania:alfheim_portal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2547655EFF8EB15A",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "CB64479361C970A9",
+      "title": "Elementium Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:elementium_ingot",
+      "x": 2.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "B6F50C1366FB7592"
+      ],
+      "tasks": [
+        {
+          "id": "CB864C000FB33C66",
+          "type": "item",
+          "item": "botania:elementium_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "E6AD254400D9041C",
+      "title": "Dragonstone",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:dragonstone",
+      "x": 4.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "CB64479361C970A9"
+      ],
+      "tasks": [
+        {
+          "id": "EC2F9A256F22E573",
+          "type": "item",
+          "item": "botania:dragonstone",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7EE1D347F990A245",
+      "title": "Pixie Dust",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:pixie_dust",
+      "x": 6.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "E6AD254400D9041C"
+      ],
+      "tasks": [
+        {
+          "id": "9FC19B62CE26C365",
+          "type": "item",
+          "item": "botania:pixie_dust",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "27C9F0293C4DE853",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "A8A831E248968E01",
+      "title": "Dreamwood Log",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:dreamwood_log",
+      "x": 8.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "7EE1D347F990A245"
+      ],
+      "tasks": [
+        {
+          "id": "312E428BCB2209F7",
+          "type": "item",
+          "item": "botania:dreamwood_log",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "DFA642F4083EAA21",
+      "title": "Elven Mana Spreader",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:elven_spreader",
+      "x": 10.0,
+      "y": 21.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "A8A831E248968E01"
+      ],
+      "tasks": [
+        {
+          "id": "8411394956DD9F87",
+          "type": "item",
+          "item": "botania:elven_spreader",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "AED2A171ED3755D5",
+          "type": "xp",
+          "xp": 65
+        },
+        {
+          "id": "23BB32B48560DA82",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "E8D81BBB9390E657",
+      "title": "Manasteel Pickaxe",
+      "subtitle": "Tools of living steel",
+      "description": [
+        "Carry a mana supply when relying on these tools. Understand a tool's special action before using it near finished builds."
+      ],
+      "icon": "botania:manasteel_pick",
+      "x": 0.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "F8D80CA9FF2836B6"
+      ],
+      "tasks": [
+        {
+          "id": "7BAEF6B119506173",
+          "type": "item",
+          "item": "botania:manasteel_pick",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "64417BDFA046969D",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "57F3975173A7F139",
+      "title": "Manasteel Axe",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:manasteel_axe",
+      "x": 2.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "E8D81BBB9390E657"
+      ],
+      "tasks": [
+        {
+          "id": "C6DE0699DBF7508F",
+          "type": "item",
+          "item": "botania:manasteel_axe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "01130BCBFE99313E",
+      "title": "Manasteel Shovel",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:manasteel_shovel",
+      "x": 4.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "57F3975173A7F139"
+      ],
+      "tasks": [
+        {
+          "id": "61CF866C906394DA",
+          "type": "item",
+          "item": "botania:manasteel_shovel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F54BAE889050AC14",
+      "title": "Manasteel Shears",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:manasteel_shears",
+      "x": 6.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "01130BCBFE99313E"
+      ],
+      "tasks": [
+        {
+          "id": "3A7687F5A9E26FDB",
+          "type": "item",
+          "item": "botania:manasteel_shears",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "CD6AAAEC61B4A6B5",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "7CA54D4C67261C13",
+      "title": "Terra Shatterer",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:terra_pick",
+      "x": 8.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "F54BAE889050AC14"
+      ],
+      "tasks": [
+        {
+          "id": "5A1C97EB13077002",
+          "type": "item",
+          "item": "botania:terra_pick",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "44259C7964CB8D44",
+      "title": "Terra Truncator",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:terra_axe",
+      "x": 10.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "7CA54D4C67261C13"
+      ],
+      "tasks": [
+        {
+          "id": "7CB1256E48A4515A",
+          "type": "item",
+          "item": "botania:terra_axe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "B46AAE4FD591F37E",
+      "title": "Terra Blade",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:terra_sword",
+      "x": 12.0,
+      "y": 24.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "44259C7964CB8D44"
+      ],
+      "tasks": [
+        {
+          "id": "E29191F8CA04F2EA",
+          "type": "item",
+          "item": "botania:terra_sword",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7B4EEDDEA8FEA827",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "8319DF1EA1FBA359",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "C6340A9B0FD94705",
+      "title": "Mana Tablet",
+      "subtitle": "Travelling light",
+      "description": [
+        "Mana equipment draws from your carried reserve. Match accessories to the journey and keep spare food and a return route."
+      ],
+      "icon": "botania:mana_tablet",
+      "x": 0.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "06ACA2A2C496E68F"
+      ],
+      "tasks": [
+        {
+          "id": "7797FB7FD4EE1DFC",
+          "type": "item",
+          "item": "botania:mana_tablet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "002756EDC0A8B0BE",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "956531DE5E0C2471",
+      "title": "Band of Mana",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:mana_ring",
+      "x": 2.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "C6340A9B0FD94705"
+      ],
+      "tasks": [
+        {
+          "id": "316A4558813CF411",
+          "type": "item",
+          "item": "botania:mana_ring",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "983414F04787BC56",
+      "title": "Sojourner's Sash",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:travel_belt",
+      "x": 4.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "956531DE5E0C2471"
+      ],
+      "tasks": [
+        {
+          "id": "2D309BA2AF1ABAF2",
+          "type": "item",
+          "item": "botania:travel_belt",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "60EA8B1857AEFF73",
+      "title": "Cirrus Amulet",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:cloud_pendant",
+      "x": 6.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "983414F04787BC56"
+      ],
+      "tasks": [
+        {
+          "id": "D2A0E01064AB4DFB",
+          "type": "item",
+          "item": "botania:cloud_pendant",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0EE813C8A86FBB4E",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "EB11FA8F8CF79316",
+      "title": "Pyroclast Pendant",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:lava_pendant",
+      "x": 8.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "60EA8B1857AEFF73"
+      ],
+      "tasks": [
+        {
+          "id": "0A449333194DE7A6",
+          "type": "item",
+          "item": "botania:lava_pendant",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "F5A91507753955A2",
+      "title": "Ring of Chordata",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:water_ring",
+      "x": 10.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "EB11FA8F8CF79316"
+      ],
+      "tasks": [
+        {
+          "id": "6EE7A513E19E14A3",
+          "type": "item",
+          "item": "botania:water_ring",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "A574BB4E5E3A79D8",
+      "title": "Ring of Magnetization",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:magnet_ring",
+      "x": 12.0,
+      "y": 27.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "F5A91507753955A2"
+      ],
+      "tasks": [
+        {
+          "id": "A6FFA04A45ED2058",
+          "type": "item",
+          "item": "botania:magnet_ring",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "719E33678AFEEEFA",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "E040024266461745",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "948D5C310970EA8F",
+      "title": "Botanical Brewery",
+      "subtitle": "Brews and enchantments",
+      "description": [
+        "Brew useful effects before a dangerous expedition. The enchanter offers a separate route for transferring enchantments."
+      ],
+      "icon": "botania:brewery",
+      "x": 0.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "27C622D35289162B"
+      ],
+      "tasks": [
+        {
+          "id": "91346636853374BF",
+          "type": "item",
+          "item": "botania:brewery",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "A71965B12EB25402",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "1CD08D72942B4D03",
+      "title": "Managlass Vial",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:vial",
+      "x": 2.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "948D5C310970EA8F"
+      ],
+      "tasks": [
+        {
+          "id": "6875F825343AC7B6",
+          "type": "item",
+          "item": "botania:vial",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "CB00887F615D8029",
+      "title": "Vial of %s (%s)",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:brew_vial",
+      "x": 4.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "1CD08D72942B4D03"
+      ],
+      "tasks": [
+        {
+          "id": "F4674903E268AA9E",
+          "type": "item",
+          "item": "botania:brew_vial",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "193BFAE010354099",
+      "title": "Alfglass Flask",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:flask",
+      "x": 6.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "CB00887F615D8029"
+      ],
+      "tasks": [
+        {
+          "id": "3B0223CD380F2D4F",
+          "type": "item",
+          "item": "botania:flask",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "9AA089B605B88BA4",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "2007E52441DD0882",
+      "title": "Flask of %s (%s)",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:brew_flask",
+      "x": 8.0,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "193BFAE010354099"
+      ],
+      "tasks": [
+        {
+          "id": "1BB55EB7CB66E5DD",
+          "type": "item",
+          "item": "botania:brew_flask",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "84E5CE83603EC192",
+      "title": "Mana Enchanter",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:enchanter",
+      "x": 10.0,
+      "y": 30.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "2007E52441DD0882"
+      ],
+      "tasks": [
+        {
+          "id": "5694142FD3D13CBA",
+          "type": "item",
+          "item": "botania:enchanter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "DEF6CCEC8B2E93A7",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "B539B66569A88F47",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "2E2B3319AD057AFA",
+      "title": "Corporea Spark",
+      "subtitle": "Corporea stores",
+      "description": [
+        "Connect inventories with sparks and test a request from the index. Keep overflow and failed requests visible."
+      ],
+      "icon": "botania:corporea_spark",
+      "x": 0.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "7EE1D347F990A245"
+      ],
+      "tasks": [
+        {
+          "id": "B7AEC5D893AD7C72",
+          "type": "item",
+          "item": "botania:corporea_spark",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "DCFF2CD00553B688",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "A5D0C103DFD2C21F",
+      "title": "Master Corporea Spark",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:corporea_spark_master",
+      "x": 2.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "2E2B3319AD057AFA"
+      ],
+      "tasks": [
+        {
+          "id": "927E3F3B41114702",
+          "type": "item",
+          "item": "botania:corporea_spark_master",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "9D77C1BA101DD865",
+      "title": "Corporea Index",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:corporea_index",
+      "x": 4.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "A5D0C103DFD2C21F"
+      ],
+      "tasks": [
+        {
+          "id": "C7910106E7AF3DB4",
+          "type": "item",
+          "item": "botania:corporea_index",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "87B76516B4FE8656",
+      "title": "Corporea Funnel",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:corporea_funnel",
+      "x": 6.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "9D77C1BA101DD865"
+      ],
+      "tasks": [
+        {
+          "id": "8D4BC58C0B8A8D17",
+          "type": "item",
+          "item": "botania:corporea_funnel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "D09F55B7B4AB1C07",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "D44B59A9A60471C6",
+      "title": "Corporea Interceptor",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:corporea_interceptor",
+      "x": 8.0,
+      "y": 33.0,
+      "shape": "circle",
+      "dependencies": [
+        "87B76516B4FE8656"
+      ],
+      "tasks": [
+        {
+          "id": "022B4911E7D5383B",
+          "type": "item",
+          "item": "botania:corporea_interceptor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "690C07557A1141A2",
+      "title": "Corporea Retainer",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:corporea_retainer",
+      "x": 10.0,
+      "y": 33.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "D44B59A9A60471C6"
+      ],
+      "tasks": [
+        {
+          "id": "73991A8B6D86E262",
+          "type": "item",
+          "item": "botania:corporea_retainer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6C8F7D76EBCCA4FE",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "56E41F39EBB2752B",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "0C83ABD427E3FB80",
+      "title": "Gaia Spirit",
+      "subtitle": "The guardian's challenge",
+      "description": [
+        "Prepare the ritual arena and equipment before challenging Gaia. Keep the fighting space clear for every participant."
+      ],
+      "icon": "botania:life_essence",
+      "x": 0.0,
+      "y": 36.0,
+      "shape": "circle",
+      "dependencies": [
+        "CB64479361C970A9"
+      ],
+      "tasks": [
+        {
+          "id": "BEE7ADECB043AB0A",
+          "type": "item",
+          "item": "botania:life_essence",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "E901CD2EC045E902",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5DD498537058C2A0",
+      "title": "Gaia Spirit Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:gaia_ingot",
+      "x": 2.0,
+      "y": 36.0,
+      "shape": "circle",
+      "dependencies": [
+        "0C83ABD427E3FB80"
+      ],
+      "tasks": [
+        {
+          "id": "C946CA10F0D367A6",
+          "type": "item",
+          "item": "botania:gaia_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2B2BB7B4238DEDF6",
+      "title": "Gaia Mana Spreader",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:gaia_spreader",
+      "x": 4.0,
+      "y": 36.0,
+      "shape": "circle",
+      "dependencies": [
+        "5DD498537058C2A0"
+      ],
+      "tasks": [
+        {
+          "id": "BDD2478DEE4111F6",
+          "type": "item",
+          "item": "botania:gaia_spreader",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "29D5019DA5B3C4A9",
+      "title": "FlÃ¼gel Tiara",
+      "subtitle": "",
+      "description": [],
+      "icon": "botania:flight_tiara",
+      "x": 6.0,
+      "y": 36.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "2B2BB7B4238DEDF6"
+      ],
+      "tasks": [
+        {
+          "id": "39838F812DDFA09D",
+          "type": "item",
+          "item": "botania:flight_tiara",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6F4F61E3ACE6C82F",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "58356F4FA19B77BF",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    }
+  ]
+}

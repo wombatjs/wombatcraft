@@ -1,0 +1,478 @@
+{
+  "id": "0B716866A2FF66FA",
+  "group": "00AA8F374274B5F3",
+  "title": "Ad Astra",
+  "order_index": 9,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0576D08BEF9CA8FD",
+      "title": "Materials for space",
+      "subtitle": "Steel Ingot",
+      "description": [
+        "Produce steel for the early space program.",
+        "Goal: obtain Steel Ingot. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ad_astra:steel_ingot",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "028B549E08CC8566"
+      ],
+      "tasks": [
+        {
+          "id": "0B1C4E0766F5B1ED",
+          "type": "item",
+          "item": "ad_astra:steel_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "062245544C3F8820",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "05AF9152BE0C949E",
+      "title": "Power the workshop",
+      "subtitle": "Coal Generator",
+      "description": [
+        "Set up power for your preparation machines.",
+        "Goal: obtain Coal Generator. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ad_astra:coal_generator",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0576D08BEF9CA8FD"
+      ],
+      "tasks": [
+        {
+          "id": "067B47055F5FDFD0",
+          "type": "item",
+          "item": "ad_astra:coal_generator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D9F940697D1D057",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "080A6699E1EFA66C",
+      "title": "Pressure-rated parts",
+      "subtitle": "Compressor",
+      "description": [
+        "Make plates and components for the spacecraft.",
+        "Goal: obtain Compressor. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ad_astra:compressor",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "05AF9152BE0C949E"
+      ],
+      "tasks": [
+        {
+          "id": "07E04FDC9B8ED0B5",
+          "type": "item",
+          "item": "ad_astra:compressor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09F48F948FC2DE94",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0DCD1112B6462B8A",
+      "title": "Prepare the fuel",
+      "subtitle": "Fuel Refinery",
+      "description": [
+        "Build the fuel supply before assembling a launch schedule.",
+        "Goal: obtain Fuel Refinery. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ad_astra:fuel_refinery",
+      "x": 6.46,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "080A6699E1EFA66C"
+      ],
+      "tasks": [
+        {
+          "id": "01F8D5C53D8917C0",
+          "type": "item",
+          "item": "ad_astra:fuel_refinery",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F6F44C0217CCE53",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "0D75261CE9AD3AC9",
+      "title": "Breathing room",
+      "subtitle": "Oxygen Loader",
+      "description": [
+        "Prepare oxygen and fill your equipment before leaving the Overworld.",
+        "Goal: obtain Oxygen Loader. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ad_astra:oxygen_loader",
+      "x": 7.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0DCD1112B6462B8A"
+      ],
+      "tasks": [
+        {
+          "id": "0E357A09B300FD4D",
+          "type": "item",
+          "item": "ad_astra:oxygen_loader",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "053DDC78B4521828",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "09A7884E98999818",
+      "title": "Dress for the journey",
+      "subtitle": "Space Suit",
+      "description": [
+        "Assemble the full suit, including helmet and boots; this quest checks the chest piece only.",
+        "Goal: obtain Space Suit. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ad_astra:space_suit",
+      "x": 2.69,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0D75261CE9AD3AC9"
+      ],
+      "tasks": [
+        {
+          "id": "0BA51C811D89E0D9",
+          "type": "item",
+          "item": "ad_astra:space_suit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "012D25143A3D496F",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "0666D18E7E385A78",
+      "title": "Assemble a rocket",
+      "subtitle": "Nasa Workbench",
+      "description": [
+        "Use the workbench and JEI to plan the required components.",
+        "Goal: obtain Nasa Workbench. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ad_astra:nasa_workbench",
+      "x": 3.94,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "09A7884E98999818"
+      ],
+      "tasks": [
+        {
+          "id": "0C68EFE21D9BA2F4",
+          "type": "item",
+          "item": "ad_astra:nasa_workbench",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A89825E405C991C",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "0AF2283BFEE6178E",
+      "title": "First launch",
+      "subtitle": "Tier 1 Rocket",
+      "description": [
+        "Bring fuel, oxygen, food and a return plan before launching.",
+        "Goal: obtain Tier 1 Rocket. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ad_astra:tier_1_rocket",
+      "x": 5.2,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0666D18E7E385A78"
+      ],
+      "tasks": [
+        {
+          "id": "08EA5962970280D6",
+          "type": "item",
+          "item": "ad_astra:tier_1_rocket",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A52F68039C16A09",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "0D9DCE4317641FE9",
+      "title": "Lunar industry",
+      "subtitle": "Desh Ingot",
+      "description": [
+        "Gather and process Desh for the next stage.",
+        "Goal: obtain Desh Ingot. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ad_astra:desh_ingot",
+      "x": 6.46,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0AF2283BFEE6178E"
+      ],
+      "tasks": [
+        {
+          "id": "04CB5A0359F7DEDA",
+          "type": "item",
+          "item": "ad_astra:desh_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "057DD4888338DCF9",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "042E2C4EE248E5CA",
+      "title": "Beyond the Moon",
+      "subtitle": "Tier 2 Rocket",
+      "description": [
+        "Prepare the second rocket tier and supplies for a longer expedition.",
+        "Goal: obtain Tier 2 Rocket. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ad_astra:tier_2_rocket",
+      "x": 7.71,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0D9DCE4317641FE9"
+      ],
+      "tasks": [
+        {
+          "id": "0533D8215C18884F",
+          "type": "item",
+          "item": "ad_astra:tier_2_rocket",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "02E3AFB913B6CC4E",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "083C9CB38D11C801",
+      "title": "Martian materials",
+      "subtitle": "Ostrum Ingot",
+      "description": [
+        "Process Ostrum and plan the next machines.",
+        "Goal: obtain Ostrum Ingot. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ad_astra:ostrum_ingot",
+      "x": 2.69,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "042E2C4EE248E5CA"
+      ],
+      "tasks": [
+        {
+          "id": "07ADD9A030C960E5",
+          "type": "item",
+          "item": "ad_astra:ostrum_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "038675D5F08870AC",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "0DEF1C9EA092988B",
+      "title": "A wider system",
+      "subtitle": "Tier 3 Rocket",
+      "description": [
+        "Advance your transport when your life-support supply is reliable.",
+        "Goal: obtain Tier 3 Rocket. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ad_astra:tier_3_rocket",
+      "x": 3.94,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "083C9CB38D11C801"
+      ],
+      "tasks": [
+        {
+          "id": "0CDDD678BE112D03",
+          "type": "item",
+          "item": "ad_astra:tier_3_rocket",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "039F683C5B5891EF",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "0FBB5996680B086B",
+      "title": "Extreme materials",
+      "subtitle": "Calorite Ingot",
+      "description": [
+        "Prepare for hostile environments while gathering Calorite.",
+        "Goal: obtain Calorite Ingot. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ad_astra:calorite_ingot",
+      "x": 5.2,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "0DEF1C9EA092988B"
+      ],
+      "tasks": [
+        {
+          "id": "00B212349FEC1637",
+          "type": "item",
+          "item": "ad_astra:calorite_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "009BABFA5BCA328A",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "06421CAC07BEB225",
+      "title": "The farthest journey",
+      "subtitle": "Tier 4 Rocket",
+      "description": [
+        "Complete the final rocket tier and build a return-capable outpost.",
+        "Goal: obtain Tier 4 Rocket. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ad_astra:tier_4_rocket",
+      "x": 6.46,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "0FBB5996680B086B"
+      ],
+      "tasks": [
+        {
+          "id": "075D1670AD4AA122",
+          "type": "item",
+          "item": "ad_astra:tier_4_rocket",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E41E4838451A13C",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "028B549E08CC8566",
+      "title": "Ad Astra",
+      "subtitle": "Overview",
+      "description": [
+        "Build a space program with preparation, transport and off-world industry.",
+        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+      ],
+      "icon": "ad_astra:steel_ingot",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0BE31572F7F592C7",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

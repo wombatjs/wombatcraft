@@ -1,0 +1,1491 @@
+{
+  "id": "6D44C0B9CEA652C4",
+  "title": "Occultism",
+  "group": "065A019E212476CF",
+  "order_index": 16,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "78CBD3AAEA3D371F",
+      "title": "Dictionary Of Spirits",
+      "subtitle": "Beyond ordinary sight",
+      "description": [
+        "Demon's Dream reveals materials hidden in familiar places. Gather what you need before its vision fades."
+      ],
+      "icon": "occultism:dictionary_of_spirits",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "89218560F823E1BE",
+          "type": "item",
+          "item": "occultism:dictionary_of_spirits",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "B47FD549CB36601B",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "F1FCAB4CBA835771",
+      "title": "Demon's Dream Seeds",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:datura_seeds",
+      "x": 2.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "78CBD3AAEA3D371F"
+      ],
+      "tasks": [
+        {
+          "id": "EBFDCA6402BC62B2",
+          "type": "item",
+          "item": "occultism:datura_seeds",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "A8A03D2C0D89E63F",
+      "title": "Demon's Dream Fruit",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:datura",
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "F1FCAB4CBA835771"
+      ],
+      "tasks": [
+        {
+          "id": "AC3CCBDB5C030269",
+          "type": "item",
+          "item": "occultism:datura",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "B5FD36E343D05370",
+      "title": "Otherworld Ashes",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:otherworld_ashes",
+      "x": 6.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "A8A03D2C0D89E63F"
+      ],
+      "tasks": [
+        {
+          "id": "9A6145ED81E85EB9",
+          "type": "item",
+          "item": "occultism:otherworld_ashes",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "BDADC1CC6A7DD24C",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "C63F7BF6950C18BF",
+      "title": "Otherstone",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:otherstone",
+      "x": 8.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "B5FD36E343D05370"
+      ],
+      "tasks": [
+        {
+          "id": "2A0823DF999D931A",
+          "type": "item",
+          "item": "occultism:otherstone",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "D9CF4652E91E6C1E",
+      "title": "Otherworld Sapling",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:otherworld_sapling",
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "C63F7BF6950C18BF"
+      ],
+      "tasks": [
+        {
+          "id": "51BE0F93C7CD07B9",
+          "type": "item",
+          "item": "occultism:otherworld_sapling",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "81898AC7C25AB10E",
+      "title": "Spirit Attuned Gem",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:spirit_attuned_gem",
+      "x": 12.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "D9CF4652E91E6C1E"
+      ],
+      "tasks": [
+        {
+          "id": "129B495D1005A4B3",
+          "type": "item",
+          "item": "occultism:spirit_attuned_gem",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "140A4D787FFA20AF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "4621AAC7728582AB",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "27A3FB8A7ED47DC0",
+      "title": "Tallow",
+      "subtitle": "A circle in chalk",
+      "description": [
+        "Draw the exact pentacle shown in the dictionary. Bind a named spirit and check the offerings before beginning the rite."
+      ],
+      "icon": "occultism:tallow",
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "B5FD36E343D05370"
+      ],
+      "tasks": [
+        {
+          "id": "A69E1928361604BD",
+          "type": "item",
+          "item": "occultism:tallow",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "44BDA986F90EF523",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "E5354C334E669CF0",
+      "title": "Sacrificial Bowl",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:sacrificial_bowl",
+      "x": 2.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "27A3FB8A7ED47DC0"
+      ],
+      "tasks": [
+        {
+          "id": "A18B6961634D2944",
+          "type": "item",
+          "item": "occultism:sacrificial_bowl",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "68D277A9F0E48747",
+      "title": "Impure White Chalk",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:chalk_white_impure",
+      "x": 4.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "E5354C334E669CF0"
+      ],
+      "tasks": [
+        {
+          "id": "680DDF6669529247",
+          "type": "item",
+          "item": "occultism:chalk_white_impure",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "0924804F5847E796",
+      "title": "White Chalk",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:chalk_white",
+      "x": 6.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "68D277A9F0E48747"
+      ],
+      "tasks": [
+        {
+          "id": "E86E93F230855005",
+          "type": "item",
+          "item": "occultism:chalk_white",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3EF094D8B4C06496",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "FD48C5F730911D94",
+      "title": "Book of Binding: Empty",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:book_of_binding_empty",
+      "x": 8.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "0924804F5847E796"
+      ],
+      "tasks": [
+        {
+          "id": "AD64153F5C5EA593",
+          "type": "item",
+          "item": "occultism:book_of_binding_empty",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "EECD1201F11B32B9",
+      "title": "Book of Binding: Foliot",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:book_of_binding_foliot",
+      "x": 10.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "FD48C5F730911D94"
+      ],
+      "tasks": [
+        {
+          "id": "430D0A5093770FC6",
+          "type": "item",
+          "item": "occultism:book_of_binding_foliot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1BCC467E28C178F1",
+      "title": "Book of Binding: Foliot (Bound)",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:book_of_binding_bound_foliot",
+      "x": 12.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "EECD1201F11B32B9"
+      ],
+      "tasks": [
+        {
+          "id": "4229288E0B04C941",
+          "type": "item",
+          "item": "occultism:book_of_binding_bound_foliot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "EE1A2D085C8952C8",
+          "type": "xp",
+          "xp": 15
+        },
+        {
+          "id": "A0C2AB9952AC9505",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "D365BD243B04943A",
+      "title": "Book of Calling: Foliot Lumberjack",
+      "subtitle": "The first servants",
+      "description": [
+        "Give each servant a clear work area and destination. Keep its calling book where it can be found again."
+      ],
+      "icon": "occultism:book_of_calling_foliot_lumberjack",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "1BCC467E28C178F1"
+      ],
+      "tasks": [
+        {
+          "id": "A1C334F7D726112C",
+          "type": "item",
+          "item": "occultism:book_of_calling_foliot_lumberjack",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "191F26E622BFD9A2",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "E78FDF4DCB8DA02E",
+      "title": "Book of Calling: Foliot Transporter",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:book_of_calling_foliot_transport_items",
+      "x": 2.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "D365BD243B04943A"
+      ],
+      "tasks": [
+        {
+          "id": "17489E2DEF083D66",
+          "type": "item",
+          "item": "occultism:book_of_calling_foliot_transport_items",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "9ABC64805F980F52",
+      "title": "Book of Calling: Foliot Janitor",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:book_of_calling_foliot_cleaner",
+      "x": 4.0,
+      "y": 6.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "E78FDF4DCB8DA02E"
+      ],
+      "tasks": [
+        {
+          "id": "A2AD139DC5CC0E46",
+          "type": "item",
+          "item": "occultism:book_of_calling_foliot_cleaner",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "97F46F68EBBAA872",
+          "type": "xp",
+          "xp": 40
+        },
+        {
+          "id": "CC4915F4D737B3B9",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "0509CFF9C0C5192B",
+      "title": "Impure Golden Chalk",
+      "subtitle": "A stronger name",
+      "description": [
+        "Stronger spirits require more elaborate circles. Prepare the working area before asking one to manage a machine."
+      ],
+      "icon": "occultism:chalk_gold_impure",
+      "x": 0.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "0924804F5847E796"
+      ],
+      "tasks": [
+        {
+          "id": "11FE45D0F5A0A4F5",
+          "type": "item",
+          "item": "occultism:chalk_gold_impure",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A0889766B3E6A3E",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "8EC94136C8D44FB5",
+      "title": "Golden Chalk",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:chalk_gold",
+      "x": 2.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "0509CFF9C0C5192B"
+      ],
+      "tasks": [
+        {
+          "id": "A9DF6493CC97C0A6",
+          "type": "item",
+          "item": "occultism:chalk_gold",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "80E491755AA55DD1",
+      "title": "Book of Binding: Djinni",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:book_of_binding_djinni",
+      "x": 4.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "8EC94136C8D44FB5"
+      ],
+      "tasks": [
+        {
+          "id": "3163C3BAD59CC059",
+          "type": "item",
+          "item": "occultism:book_of_binding_djinni",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "461DC2B185457E73",
+      "title": "Book of Binding: Djinni (Bound)",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:book_of_binding_bound_djinni",
+      "x": 6.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "80E491755AA55DD1"
+      ],
+      "tasks": [
+        {
+          "id": "A126FD0E04720E5B",
+          "type": "item",
+          "item": "occultism:book_of_binding_bound_djinni",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "06EC606009CD8F49",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "26F9CB77334CBC70",
+      "title": "Book of Calling: Djinni Machine Operator",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:book_of_calling_djinni_manage_machine",
+      "x": 8.0,
+      "y": 9.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "461DC2B185457E73"
+      ],
+      "tasks": [
+        {
+          "id": "BF15EEA2E4E752D2",
+          "type": "item",
+          "item": "occultism:book_of_calling_djinni_manage_machine",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "86AA7B4B98F2B9CF",
+          "type": "xp",
+          "xp": 45
+        },
+        {
+          "id": "E4DB43413F6C3684",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "46E8928B0A803837",
+      "title": "Storage Actuator Base",
+      "subtitle": "Storage between worlds",
+      "description": [
+        "Keep stabilizers near the storage controller. Bind remote access before leaving your base."
+      ],
+      "icon": "occultism:storage_controller_base",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "461DC2B185457E73"
+      ],
+      "tasks": [
+        {
+          "id": "8217A5A0B1DF1248",
+          "type": "item",
+          "item": "occultism:storage_controller_base",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3FE66772CBD2CCE1",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "1BD1E2E439CC07D7",
+      "title": "Dimensional Crystal Matrix",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:dimensional_matrix",
+      "x": 2.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "46E8928B0A803837"
+      ],
+      "tasks": [
+        {
+          "id": "1581D6B80FDC44A0",
+          "type": "item",
+          "item": "occultism:dimensional_matrix",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FB6F872A5A6318F7",
+      "title": "Dimensional Storage Actuator",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:storage_controller",
+      "x": 4.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "1BD1E2E439CC07D7"
+      ],
+      "tasks": [
+        {
+          "id": "672CDDE1468FF735",
+          "type": "item",
+          "item": "occultism:storage_controller",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "C5E79D4078514ADF",
+      "title": "Tier 1 Dimensional Storage Stabilizer",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:storage_stabilizer_tier1",
+      "x": 6.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "FB6F872A5A6318F7"
+      ],
+      "tasks": [
+        {
+          "id": "CC3B5EB0BE20B670",
+          "type": "item",
+          "item": "occultism:storage_stabilizer_tier1",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "D6EF7DA3C6D98001",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "AF6CB5342FA13149",
+      "title": "Tier 2 Dimensional Storage Stabilizer",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:storage_stabilizer_tier2",
+      "x": 8.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "C5E79D4078514ADF"
+      ],
+      "tasks": [
+        {
+          "id": "E9FCA332AB344BAF",
+          "type": "item",
+          "item": "occultism:storage_stabilizer_tier2",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2090337EF42B426F",
+      "title": "Inert Storage Accessor",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:storage_remote_inert",
+      "x": 10.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "AF6CB5342FA13149"
+      ],
+      "tasks": [
+        {
+          "id": "10CC6B381816BEF1",
+          "type": "item",
+          "item": "occultism:storage_remote_inert",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7DD4A5598168ADE8",
+      "title": "Storage Accessor",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:storage_remote",
+      "x": 12.0,
+      "y": 12.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "2090337EF42B426F"
+      ],
+      "tasks": [
+        {
+          "id": "9BE3F09EDB23C6A7",
+          "type": "item",
+          "item": "occultism:storage_remote",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0FB3FE52C57BFE42",
+          "type": "xp",
+          "xp": 30
+        },
+        {
+          "id": "F13B737ED6C7BA2F",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "F9DCFAC474C4D3F5",
+      "title": "Divination Rod",
+      "subtitle": "Otherworld ore",
+      "description": [
+        "Use the rod and otherworld vision to locate hidden ore. Bring the correct tool before descending."
+      ],
+      "icon": "occultism:divination_rod",
+      "x": 0.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "81898AC7C25AB10E"
+      ],
+      "tasks": [
+        {
+          "id": "44FFF937F4EE0882",
+          "type": "item",
+          "item": "occultism:divination_rod",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7ACC1C03313DC17C",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "0870714A05547CA3",
+      "title": "Infused Pickaxe",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:infused_pickaxe",
+      "x": 2.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "F9DCFAC474C4D3F5"
+      ],
+      "tasks": [
+        {
+          "id": "0766F6BBF29AB23A",
+          "type": "item",
+          "item": "occultism:infused_pickaxe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "C15C509EE68982F1",
+      "title": "Raw Iesnium",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:raw_iesnium",
+      "x": 4.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "0870714A05547CA3"
+      ],
+      "tasks": [
+        {
+          "id": "446FC085CE8226AF",
+          "type": "item",
+          "item": "occultism:raw_iesnium",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "B6AA1242734B2A02",
+      "title": "Iesnium Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:iesnium_ingot",
+      "x": 6.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "C15C509EE68982F1"
+      ],
+      "tasks": [
+        {
+          "id": "08795D9B11A11EDE",
+          "type": "item",
+          "item": "occultism:iesnium_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "EE0B9DAC6457B9A0",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "0EECAE7F6C657400",
+      "title": "Iesnium Pickaxe",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:iesnium_pickaxe",
+      "x": 8.0,
+      "y": 15.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "B6AA1242734B2A02"
+      ],
+      "tasks": [
+        {
+          "id": "7676CD76F8264B3F",
+          "type": "item",
+          "item": "occultism:iesnium_pickaxe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "B685293499550F6F",
+          "type": "xp",
+          "xp": 55
+        },
+        {
+          "id": "29A092747755F920",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "23C9AF379D647464",
+      "title": "Impure Purple Chalk",
+      "subtitle": "The fiery pact",
+      "description": [
+        "Clear the ritual ground and prepare protection before dealing with an afrit. Contain the summoning before approaching it."
+      ],
+      "icon": "occultism:chalk_purple_impure",
+      "x": 0.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "B6AA1242734B2A02"
+      ],
+      "tasks": [
+        {
+          "id": "91F35FFB6D84A3B8",
+          "type": "item",
+          "item": "occultism:chalk_purple_impure",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7682DA0559D9DCFB",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "7DC7905272D9D6E3",
+      "title": "Purple Chalk",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:chalk_purple",
+      "x": 2.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "23C9AF379D647464"
+      ],
+      "tasks": [
+        {
+          "id": "419A11941FCBDDE7",
+          "type": "item",
+          "item": "occultism:chalk_purple",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4D6E7A8DFE953FC6",
+      "title": "Book of Binding: Afrit",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:book_of_binding_afrit",
+      "x": 4.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "7DC7905272D9D6E3"
+      ],
+      "tasks": [
+        {
+          "id": "9E46AE994C62367A",
+          "type": "item",
+          "item": "occultism:book_of_binding_afrit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7F52B93AC9D24271",
+      "title": "Book of Binding: Afrit (Bound)",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:book_of_binding_bound_afrit",
+      "x": 6.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "4D6E7A8DFE953FC6"
+      ],
+      "tasks": [
+        {
+          "id": "08EC5BB8431E7D8E",
+          "type": "item",
+          "item": "occultism:book_of_binding_bound_afrit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18416C9498BF07E7",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "18901224F1A383D8",
+      "title": "Afrit Essence",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:afrit_essence",
+      "x": 8.0,
+      "y": 18.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "7F52B93AC9D24271"
+      ],
+      "tasks": [
+        {
+          "id": "4831EA8F26E69634",
+          "type": "item",
+          "item": "occultism:afrit_essence",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3AB6ADB7B63AE8A7",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5EAA17632560A5A2",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "614794E5498CEE9D",
+      "title": "Dimensional Mineshaft",
+      "subtitle": "A mine without tunnels",
+      "description": [
+        "Dimensional miners wear down while working. Provide extraction and a plan for replacing them before stockpiling ore."
+      ],
+      "icon": "occultism:dimensional_mineshaft",
+      "x": 0.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "1BD1E2E439CC07D7"
+      ],
+      "tasks": [
+        {
+          "id": "BC291AC3AF934D84",
+          "type": "item",
+          "item": "occultism:dimensional_mineshaft",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "EDEE9F1904F9FC51",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "02D5E550E2D0715C",
+      "title": "Miner Foliot",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:miner_foliot_unspecialized",
+      "x": 2.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "614794E5498CEE9D"
+      ],
+      "tasks": [
+        {
+          "id": "98D67AF3BFF4A013",
+          "type": "item",
+          "item": "occultism:miner_foliot_unspecialized",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "24DFCD2F2F7B2F27",
+      "title": "Ore Miner Djinni",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:miner_djinni_ores",
+      "x": 4.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "02D5E550E2D0715C"
+      ],
+      "tasks": [
+        {
+          "id": "3006B0E969325A16",
+          "type": "item",
+          "item": "occultism:miner_djinni_ores",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7D66F8F5A16E2BFB",
+      "title": "Deep Ore Miner Afrit",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:miner_afrit_deeps",
+      "x": 6.0,
+      "y": 21.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "24DFCD2F2F7B2F27"
+      ],
+      "tasks": [
+        {
+          "id": "94A14364A47A9752",
+          "type": "item",
+          "item": "occultism:miner_afrit_deeps",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "37BA6EE90A1903F4",
+          "type": "xp",
+          "xp": 45
+        },
+        {
+          "id": "68BB1A05F0BE0363",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "3908142C3A3BA86B",
+      "title": "Impure Red Chalk",
+      "subtitle": "The deepest contract",
+      "description": [
+        "The most demanding contracts reward a prepared summoner. Keep the full offering ready and protect the working circle."
+      ],
+      "icon": "occultism:chalk_red_impure",
+      "x": 0.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "7DC7905272D9D6E3"
+      ],
+      "tasks": [
+        {
+          "id": "BF494E0CC29616FB",
+          "type": "item",
+          "item": "occultism:chalk_red_impure",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "E1C5F4A1F3417092",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "22974E3811441589",
+      "title": "Red Chalk",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:chalk_red",
+      "x": 2.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "3908142C3A3BA86B"
+      ],
+      "tasks": [
+        {
+          "id": "CDBE5575725D7C2F",
+          "type": "item",
+          "item": "occultism:chalk_red",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "C1E82540A7C2C029",
+      "title": "Book of Binding: Marid",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:book_of_binding_marid",
+      "x": 4.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "22974E3811441589"
+      ],
+      "tasks": [
+        {
+          "id": "589AF6BB7FAFFDF9",
+          "type": "item",
+          "item": "occultism:book_of_binding_marid",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "CB50310D83EF5959",
+      "title": "Book of Binding: Marid (Bound)",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:book_of_binding_bound_marid",
+      "x": 6.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "C1E82540A7C2C029"
+      ],
+      "tasks": [
+        {
+          "id": "9B46A4D67259A8F5",
+          "type": "item",
+          "item": "occultism:book_of_binding_bound_marid",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "38E6A3B20D828E56",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "298B2672BDA3F765",
+      "title": "Master Miner Marid",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:miner_marid_master",
+      "x": 8.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "CB50310D83EF5959"
+      ],
+      "tasks": [
+        {
+          "id": "F041D491188F5A7C",
+          "type": "item",
+          "item": "occultism:miner_marid_master",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "CEF94752D74314F1",
+      "title": "Tier 3 Dimensional Storage Stabilizer",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:storage_stabilizer_tier3",
+      "x": 10.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "298B2672BDA3F765"
+      ],
+      "tasks": [
+        {
+          "id": "868E8D7DFD9A3545",
+          "type": "item",
+          "item": "occultism:storage_stabilizer_tier3",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "49DAA77980215AFF",
+      "title": "Tier 4 Dimensional Storage Stabilizer",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:storage_stabilizer_tier4",
+      "x": 12.0,
+      "y": 24.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "CEF94752D74314F1"
+      ],
+      "tasks": [
+        {
+          "id": "9765F2C441410FB7",
+          "type": "item",
+          "item": "occultism:storage_stabilizer_tier4",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "DC0C7F0727F97AC6",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "F6AC20BD778BA3A0",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "5624C5CF46F893F6",
+      "title": "Familiar Ring",
+      "subtitle": "Companions and curios",
+      "description": [
+        "Carry only the tools needed for the journey. A familiar is a companion to protect, not a substitute for preparation."
+      ],
+      "icon": "occultism:familiar_ring",
+      "x": 0.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "1BCC467E28C178F1"
+      ],
+      "tasks": [
+        {
+          "id": "35554B73449D5141",
+          "type": "item",
+          "item": "occultism:familiar_ring",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2C604F05B4A8473F",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "99E6FF7F5722BF2D",
+      "title": "Soul Gem",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:soul_gem",
+      "x": 2.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "5624C5CF46F893F6"
+      ],
+      "tasks": [
+        {
+          "id": "A563B6EC80D211FF",
+          "type": "item",
+          "item": "occultism:soul_gem",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE820407086E2563",
+      "title": "Surprisingly Substantial Satchel",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:satchel",
+      "x": 4.0,
+      "y": 27.0,
+      "shape": "circle",
+      "dependencies": [
+        "99E6FF7F5722BF2D"
+      ],
+      "tasks": [
+        {
+          "id": "77EBB42643BAD465",
+          "type": "item",
+          "item": "occultism:satchel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "539FC02A1D51BE6B",
+      "title": "Otherworld Goggles",
+      "subtitle": "",
+      "description": [],
+      "icon": "occultism:otherworld_goggles",
+      "x": 6.0,
+      "y": 27.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "FE820407086E2563"
+      ],
+      "tasks": [
+        {
+          "id": "DFC2BF24B38D5503",
+          "type": "item",
+          "item": "occultism:otherworld_goggles",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "B0A5FC4787C313D6",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "9985F287987853B7",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}
