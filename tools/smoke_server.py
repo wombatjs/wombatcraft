@@ -45,7 +45,7 @@ for boot in range(2):
    recipes=set((dest/'recipe-registry.txt').read_text().splitlines());endgame={'kubejs:endgame/'+name for name in ['industrial_sigil','arcane_sigil','voyager_sigil','prosperity_sigil','convergence_core']};assert endgame<=recipes,'Missing endgame recipes'
    assert 'Parsing error loading recipe' not in text,'Recipe parse errors'
    commands=set((dest/'command-registry.txt').read_text().splitlines())
-   required_commands={'home','sethome','spawn','tpa','warp','ftbranks','ftbchunks','lcadmin','spark','chunky','pp'}
+   required_commands={'home','sethome','spawn','tpa','warp','mute','unmute','ftbranks','ftbchunks','lcadmin','spark','chunky','pp','servercore'}
    assert required_commands<=commands,'Missing server commands: '+str(sorted(required_commands-commands))
    (ROOT/'dist/server-validation.json').write_text(json.dumps(dict(quests=len(quests),registry_items=len(registry),recipes=len(recipes),endgame_recipes=sorted(endgame),server_commands=sorted(required_commands),fresh_world_started=True,restarted_cleanly=boot==1),indent=2))
    print('Dedicated server, quest registry and endgame recipe validation passed.')
