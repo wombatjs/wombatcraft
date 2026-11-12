@@ -2,6 +2,8 @@ import collections,json,re,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 chapters=[json.loads(p.read_text(encoding='utf-8')) for p in (ROOT/'pack/config/ftbquests/quests/chapters').glob('*.snbt')]
+for p in (ROOT/'pack/config/ftbquests/quests/chapters').glob('*.snbt'):
+ assert json.loads(p.read_text(encoding='utf-8')).get('filename')==p.stem,'Stable chapter filename is required'
 quests=[q for c in chapters for q in c['quests']];ids=[]
 for c in chapters:
  positions=set();ids.append(c['id'])

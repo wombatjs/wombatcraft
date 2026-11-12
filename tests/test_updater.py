@@ -5,6 +5,23 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'launcher'))
 import updater
 
 class UpdateTests(unittest.TestCase):
+ def test_generated_quest_chapters_are_retired_transactionally(self):
+  for fail in [False,True]:
+   with self.subTest(fail=fail),tempfile.TemporaryDirectory() as tmp:
+    root=Path(tmp);instance=root/'game';stage=root/'stage';prefix='config/ftbquests/quests/chapters/'
+    (instance/prefix).mkdir(parents=True);(stage/prefix).mkdir(parents=True)
+    old=instance/(prefix+'0123456789ABCDEF.snbt');old.write_text('generated duplicate')
+    new=prefix+'wc_create.snbt';(stage/new).write_text('canonical chapter')
+    (instance/'world/ftbquests').mkdir(parents=True);progress=instance/'world/ftbquests/team.snbt';progress.write_text('player progress')
+    if fail:
+     with patch.object(updater.os,'replace',side_effect=OSError('disk failure')),self.assertRaises(OSError):
+      updater.activate({'commit':'new'},[{'path':new}],stage,instance,root/'transaction')
+     self.assertEqual(old.read_text(),'generated duplicate');self.assertFalse((instance/new).exists())
+    else:
+     updater.activate({'commit':'new'},[{'path':new}],stage,instance,root/'transaction')
+     self.assertFalse(old.exists());self.assertEqual((instance/new).read_text(),'canonical chapter')
+     self.assertEqual((root/'transaction/before'/prefix/old.name).read_text(),'generated duplicate')
+    self.assertEqual(progress.read_text(),'player progress')
  def test_reject_paths_that_can_touch_saves_or_escape(self):
   for path in ['../world/level.dat','saves/world/level.dat','C:/mods/a.jar','mods/../../secret','mods\\a.jar','/mods/a.jar','server.properties']:
    with self.subTest(path=path),self.assertRaises(ValueError):updater.safe_path(Path('instance'),path)

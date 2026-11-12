@@ -92,6 +92,7 @@ def build(registry,names):
      dep=replacement_goals.get(item,chapter_heads[title])
     fixed.append(dep)
    q['dependencies']=fixed
+  d['filename']=p.stem
   save(p,d)
  allq=[q for p in chapters.glob('*.snbt') for q in json.loads(p.read_text())['quests']]
  qids={q['id'] for q in allq};assert len(qids)==len(allq),'Duplicate quest IDs'

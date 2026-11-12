@@ -25,28 +25,30 @@ with zipfile.ZipFile(mods/'forge-quest-audit.jar','w') as z:
  for p in classes.rglob('*.class'):z.write(p,p.relative_to(classes).as_posix())
 (dest/'eula.txt').write_text('eula=true\n');(dest/'server.properties').write_text('server-ip=127.0.0.1\nserver-port=25577\nlevel-name=smoke-world\nonline-mode=true\nview-distance=4\nsimulation-distance=4\nmax-tick-time=180000\n')
 args='win_args.txt' if os.name=='nt' else 'unix_args.txt'
-with (dest/'console.log').open('w') as log:
- process=subprocess.Popen(['java','-Xms1G','-Xmx5G',f'@libraries/net/minecraftforge/forge/{version}/{args}','nogui'],cwd=dest,stdin=subprocess.PIPE,stdout=log,stderr=subprocess.STDOUT)
- try:
-  deadline=time.monotonic()+900
-  while time.monotonic()<deadline:
-   if process.poll() is not None:raise RuntimeError('Dedicated server exited before startup completed')
-   text=(dest/'console.log').read_text(errors='replace')
-   if ')! For help, type ' in text and 'QUEST_AUDIT_COMPLETE' in text and 'RECIPE_AUDIT_COMPLETE' in text:break
-   time.sleep(5)
-  else:raise TimeoutError('Dedicated server startup timed out')
-  chapters=[json.loads(p.read_text()) for p in (ROOT/'pack/config/ftbquests/quests/chapters').glob('*.snbt')];quests=[q for c in chapters for q in c['quests']]
-  actual={line.split('\t')[0].upper() for line in (dest/'quest-runtime-audit.tsv').read_text().splitlines()};expected={q['id'].upper() for q in quests};assert actual==expected,'Runtime quest IDs differ from source: missing='+str(sorted(expected-actual)[:8])+' unexpected='+str(sorted(actual-expected)[:8])
-  registry=set((dest/'item-registry.txt').read_text().splitlines());refs={q['icon'] for q in quests if isinstance(q.get('icon'),str)}
-  refs|={t['item'] for q in quests for t in q.get('tasks',[]) if t.get('type')=='item' and isinstance(t.get('item'),str)}
-  refs|={r['item'] for q in quests for r in q.get('rewards',[]) if r.get('type')=='item' and isinstance(r.get('item'),str)}
-  assert not refs-registry,'Missing runtime items: '+str(sorted(refs-registry))
-  recipes=set((dest/'recipe-registry.txt').read_text().splitlines());endgame={'kubejs:endgame/'+name for name in ['industrial_sigil','arcane_sigil','voyager_sigil','prosperity_sigil','convergence_core']};assert endgame<=recipes,'Missing endgame recipes'
-  assert 'Parsing error loading recipe' not in text,'Recipe parse errors'
-  (ROOT/'dist/server-validation.json').write_text(json.dumps(dict(quests=len(quests),registry_items=len(registry),recipes=len(recipes),endgame_recipes=sorted(endgame),fresh_world_started=True),indent=2))
-  print('Dedicated server, quest registry and endgame recipe validation passed.')
- finally:
-  if process.poll() is None:
-   process.stdin.write(b'stop\n');process.stdin.flush()
-   try:process.wait(timeout=120)
-   except subprocess.TimeoutExpired:process.terminate();process.wait(timeout=30)
+for boot in range(2):
+ with (dest/'console.log').open('w') as log:
+  process=subprocess.Popen(['java','-Xms1G','-Xmx5G',f'@libraries/net/minecraftforge/forge/{version}/{args}','nogui'],cwd=dest,stdin=subprocess.PIPE,stdout=log,stderr=subprocess.STDOUT)
+  try:
+   deadline=time.monotonic()+900
+   while time.monotonic()<deadline:
+    if process.poll() is not None:raise RuntimeError('Dedicated server exited before startup completed')
+    text=(dest/'console.log').read_text(errors='replace')
+    if ')! For help, type ' in text and 'QUEST_AUDIT_COMPLETE' in text and 'RECIPE_AUDIT_COMPLETE' in text:break
+    time.sleep(5)
+   else:raise TimeoutError('Dedicated server startup timed out')
+   chapters=[json.loads(p.read_text()) for p in (ROOT/'pack/config/ftbquests/quests/chapters').glob('*.snbt')];quests=[q for c in chapters for q in c['quests']]
+   actual={line.split('\t')[0].upper() for line in (dest/'quest-runtime-audit.tsv').read_text().splitlines()};expected={q['id'].upper() for q in quests};assert actual==expected,'Runtime quest IDs differ from source: missing='+str(sorted(expected-actual)[:8])+' unexpected='+str(sorted(actual-expected)[:8])
+   registry=set((dest/'item-registry.txt').read_text().splitlines());refs={q['icon'] for q in quests if isinstance(q.get('icon'),str)}
+   refs|={t['item'] for q in quests for t in q.get('tasks',[]) if t.get('type')=='item' and isinstance(t.get('item'),str)}
+   refs|={r['item'] for q in quests for r in q.get('rewards',[]) if r.get('type')=='item' and isinstance(r.get('item'),str)}
+   assert not refs-registry,'Missing runtime items: '+str(sorted(refs-registry))
+   recipes=set((dest/'recipe-registry.txt').read_text().splitlines());endgame={'kubejs:endgame/'+name for name in ['industrial_sigil','arcane_sigil','voyager_sigil','prosperity_sigil','convergence_core']};assert endgame<=recipes,'Missing endgame recipes'
+   assert 'Parsing error loading recipe' not in text,'Recipe parse errors'
+   (ROOT/'dist/server-validation.json').write_text(json.dumps(dict(quests=len(quests),registry_items=len(registry),recipes=len(recipes),endgame_recipes=sorted(endgame),fresh_world_started=True,restarted_cleanly=boot==1),indent=2))
+   print('Dedicated server, quest registry and endgame recipe validation passed.')
+  finally:
+   if process.poll() is None:
+    process.stdin.write(b'stop\n');process.stdin.flush()
+    try:process.wait(timeout=120)
+    except subprocess.TimeoutExpired:process.terminate();process.wait(timeout=30)
+ if boot==0:shutil.copy2(dest/'console.log',dest/'console-first-start.log')

@@ -84,7 +84,16 @@ def activate(m,records,stage_dir,instance,transaction):
  current=instance/'.wombatcraft.json';old=json.loads(current.read_text()) if current.exists() else {'managed':[]}
  if current.exists():shutil.copy2(current,transaction/'previous-manifest.json')
  elif (transaction/'previous-manifest.json').exists():(transaction/'previous-manifest.json').unlink()
- new={f['path']:f for f in records};names=sorted(set(old.get('managed',[]))|set(new))
+ new={f['path']:f for f in records}
+ # FTB rewrites chapters on shutdown. This one directory is pack-owned;
+ # journal obsolete generated chapters too, so updates cannot duplicate them.
+ # Player/team completion data lives in world/, which is never managed here.
+ quest_prefix='config/ftbquests/quests/chapters/'
+ retired=set()
+ if any(name.startswith(quest_prefix) for name in new):
+  folder=safe_path(instance,quest_prefix)
+  if folder.exists():retired={p.relative_to(instance).as_posix() for p in folder.glob('*.snbt') if p.is_file()}
+ names=sorted(set(old.get('managed',[]))|set(new)|retired)
  entries=[]
  for name in names:
   target=safe_path(instance,name)
