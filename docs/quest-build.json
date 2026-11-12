@@ -79,8 +79,43 @@
       "chapter": "Productive Bees",
       "quests": 34,
       "lanes": 6
+    },
+    {
+      "chapter": "Power",
+      "quests": 61,
+      "lanes": 10
+    },
+    {
+      "chapter": "Automation",
+      "quests": 79,
+      "lanes": 13
+    },
+    {
+      "chapter": "Mystical Agriculture",
+      "quests": 60,
+      "lanes": 9
+    },
+    {
+      "chapter": "Draconic Evolution",
+      "quests": 53,
+      "lanes": 9
+    },
+    {
+      "chapter": "Nature's Aura",
+      "quests": 44,
+      "lanes": 8
+    },
+    {
+      "chapter": "Ender IO",
+      "quests": 56,
+      "lanes": 9
+    },
+    {
+      "chapter": "Reactor Engineering",
+      "quests": 36,
+      "lanes": 6
     }
   ],
-  "total_quests": 1604,
-  "total_chapters": 37
+  "total_quests": 1936,
+  "total_chapters": 42
 }

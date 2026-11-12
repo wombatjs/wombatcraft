@@ -3,14 +3,15 @@
 - [x] Create public GitHub repository.
 - [x] Preserve the tested unbranded Forge baseline and Fabric backup.
 - [x] Measure ATM9 chapter structure, task types and reward distribution at a pinned commit.
-- [ ] Replace shallow major-mod chapters with original progression and integrated addon branches.
-- [x] Validate quest dependencies, signed task IDs and live item/recipe registry references (1604 quests).
+- [x] Expand 23 major-mod chapters with original progression; remove superseded shallow introductions.
+- [x] Validate quest dependencies, signed task IDs and live item/recipe registry references (1936 quests, two-start validation).
 - [ ] Build and test branded menu with official-server join action.
 - [x] Publish a reproducible client/server release manifest after dedicated-server validation.
 - [x] Create Pterodactyl Forge instance and validate fresh-world startup.
 - [x] Add dedicated ports to the existing public proxy; verify external Minecraft status.
 - [ ] Verify voice chat end to end with connected players.
-- [ ] Install backup, daily maintenance and empty-server update controller; test rollback.
+- [x] Install backup, daily maintenance and empty-server update controller; test pack rollback and world snapshot restoration.
+- [ ] Complete an induced startup-failure rollback drill on a disposable full server.
 - [ ] Build launcher, test installation/update recovery and launch command.
 - [ ] Register Microsoft application and obtain Minecraft API approval (external dependency).
 - [ ] Complete licensed-account join, claim protection and multiplayer acceptance tests.
@@ -24,4 +25,4 @@ Structure to learn from: prerequisite-driven subbranches, multiple stages per ma
 
 Launcher UI follows the user-supplied purple/sidebar reference. Native Qt Home was reviewed at 1000x680; settings navigation was tested. Account authentication and game launch are separate outstanding checks.
 
-Sixteen major quest chapters are expanded. Remaining mixed-addon branches and multiplayer progression balancing still need a content pass; quest quantity alone is not acceptance.
+Twenty-three major quest chapters are expanded. Remaining mixed-addon branches and multiplayer progression balancing still need a content pass; quest quantity alone is not acceptance.

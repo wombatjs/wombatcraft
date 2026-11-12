@@ -1,0 +1,1536 @@
+{
+  "id": "506B98708578C929",
+  "title": "Ender IO",
+  "group": "0DCB27D2C77209FB",
+  "order_index": 31,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "4F7223C9A0732010",
+      "title": "Grains of Infinity",
+      "subtitle": "The alloy workshop",
+      "description": [
+        "Begin with an alloy supply and a modest generator. Fit the machine's capacitor before expecting it to work, then check its power and side configuration."
+      ],
+      "icon": "enderio:grains_of_infinity",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "656F6081B89E0CCA",
+          "type": "item",
+          "item": "enderio:grains_of_infinity",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "75CFB430C2F6B6A4",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "186E134D7AF2770E",
+      "title": "Copper Alloy Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:copper_alloy_ingot",
+      "x": 2.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "4F7223C9A0732010"
+      ],
+      "tasks": [
+        {
+          "id": "6F11768F8323E2A8",
+          "type": "item",
+          "item": "enderio:copper_alloy_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "45DC7F7A9E0EC3DF",
+      "title": "Primitive Alloy Smelter",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:primitive_alloy_smelter",
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "186E134D7AF2770E"
+      ],
+      "tasks": [
+        {
+          "id": "3D2F44DABBD1AD1D",
+          "type": "item",
+          "item": "enderio:primitive_alloy_smelter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "14AFB97B126D6A71",
+      "title": "Basic Capacitor",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:basic_capacitor",
+      "x": 6.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "45DC7F7A9E0EC3DF"
+      ],
+      "tasks": [
+        {
+          "id": "32EA29BB5EBBEF8D",
+          "type": "item",
+          "item": "enderio:basic_capacitor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "192602648AE944DD",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "574605A2BC579CB2",
+      "title": "Stirling Generator",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:stirling_generator",
+      "x": 8.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "14AFB97B126D6A71"
+      ],
+      "tasks": [
+        {
+          "id": "19E5068DC852CF37",
+          "type": "item",
+          "item": "enderio:stirling_generator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "328C81F5581CD6C7",
+      "title": "Alloy Smelter",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:alloy_smelter",
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "574605A2BC579CB2"
+      ],
+      "tasks": [
+        {
+          "id": "0CEC389CD6F6D9F8",
+          "type": "item",
+          "item": "enderio:alloy_smelter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "67FDEDDDC7FA6B25",
+          "type": "xp",
+          "xp": 30
+        },
+        {
+          "id": "314E513E8927BF4C",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "16C80591C62D8D91",
+      "title": "SAG Mill",
+      "subtitle": "Grinding and refining",
+      "description": [
+        "Grinding balls change the mill's performance. Keep the chosen material in supply and collect every output before increasing processing speed."
+      ],
+      "icon": "enderio:sag_mill",
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "328C81F5581CD6C7"
+      ],
+      "tasks": [
+        {
+          "id": "097C4265589F6AB3",
+          "type": "item",
+          "item": "enderio:sag_mill",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "61C61BDEEF0741E3",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "5DB49FFC44DADAAA",
+      "title": "Dark Steel Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:dark_steel_ingot",
+      "x": 2.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "16C80591C62D8D91"
+      ],
+      "tasks": [
+        {
+          "id": "23207032A2A30243",
+          "type": "item",
+          "item": "enderio:dark_steel_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7F34AAADF6609961",
+      "title": "Energetic Alloy Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:energetic_alloy_ingot",
+      "x": 4.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "5DB49FFC44DADAAA"
+      ],
+      "tasks": [
+        {
+          "id": "71E495C10E024692",
+          "type": "item",
+          "item": "enderio:energetic_alloy_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "29296AC9FB4948FA",
+      "title": "Vibrant Alloy Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:vibrant_alloy_ingot",
+      "x": 6.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "7F34AAADF6609961"
+      ],
+      "tasks": [
+        {
+          "id": "31D61C25F0F23B60",
+          "type": "item",
+          "item": "enderio:vibrant_alloy_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3D1605383580539C",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "5A35443A019C9AF4",
+      "title": "Dark Steel Grinding Ball",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:dark_steel_grinding_ball",
+      "x": 8.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "29296AC9FB4948FA"
+      ],
+      "tasks": [
+        {
+          "id": "6011134178041F44",
+          "type": "item",
+          "item": "enderio:dark_steel_grinding_ball",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "38B099ED905ACB50",
+      "title": "Vibrant Alloy Grinding Ball",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:vibrant_alloy_grinding_ball",
+      "x": 10.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "5A35443A019C9AF4"
+      ],
+      "tasks": [
+        {
+          "id": "3BFE2D484250CC48",
+          "type": "item",
+          "item": "enderio:vibrant_alloy_grinding_ball",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5F9EE2E9A9AE4A27",
+          "type": "xp",
+          "xp": 35
+        },
+        {
+          "id": "6920D4F151F7BC4F",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "1AEA091FF7B9FA26",
+      "title": "Conduit Binder Composite",
+      "subtitle": "A compact conduit network",
+      "description": [
+        "Several conduit types can share one space. Set extraction and insertion on each connection, then use the probe to check the network."
+      ],
+      "icon": "enderio:conduit_binder_composite",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "328C81F5581CD6C7"
+      ],
+      "tasks": [
+        {
+          "id": "56C856DF32B5FFF3",
+          "type": "item",
+          "item": "enderio:conduit_binder_composite",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "33F9536005301DD0",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "23E6D23E6B713620",
+      "title": "Conduit Binder",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:conduit_binder",
+      "x": 2.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "1AEA091FF7B9FA26"
+      ],
+      "tasks": [
+        {
+          "id": "7E4303888DD9B86B",
+          "type": "item",
+          "item": "enderio:conduit_binder",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4D15032C4A267638",
+      "title": "Yeta Wrench",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:yeta_wrench",
+      "x": 4.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "23E6D23E6B713620"
+      ],
+      "tasks": [
+        {
+          "id": "1F17FAC97C647D18",
+          "type": "item",
+          "item": "enderio:yeta_wrench",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "090B727A70B0FBFD",
+      "title": "Energy Conduit",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:energy_conduit",
+      "x": 6.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "4D15032C4A267638"
+      ],
+      "tasks": [
+        {
+          "id": "15B6E30B4EDE4601",
+          "type": "item",
+          "item": "enderio:energy_conduit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2B7178F25ABAA47B",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "02C6C3F23E67552B",
+      "title": "Item Conduit",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:item_conduit",
+      "x": 8.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "090B727A70B0FBFD"
+      ],
+      "tasks": [
+        {
+          "id": "74347BA6E736ACB1",
+          "type": "item",
+          "item": "enderio:item_conduit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "726F9FE1C4E5E0BE",
+      "title": "Fluid Conduit",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:fluid_conduit",
+      "x": 10.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "02C6C3F23E67552B"
+      ],
+      "tasks": [
+        {
+          "id": "1802DC769E8E8536",
+          "type": "item",
+          "item": "enderio:fluid_conduit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5798DB5274B17186",
+      "title": "Redstone Conduit",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:redstone_conduit",
+      "x": 12.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "726F9FE1C4E5E0BE"
+      ],
+      "tasks": [
+        {
+          "id": "6813CA392B3378F8",
+          "type": "item",
+          "item": "enderio:redstone_conduit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14661B8B915B1499",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "5396F4D903385B5B",
+      "title": "Conduit Probe",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:conduit_probe",
+      "x": 14.0,
+      "y": 6.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "5798DB5274B17186"
+      ],
+      "tasks": [
+        {
+          "id": "4C345F46359F6EB6",
+          "type": "item",
+          "item": "enderio:conduit_probe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4D99A7506BE6817C",
+          "type": "xp",
+          "xp": 40
+        },
+        {
+          "id": "126A01C4F611DF2E",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "005E6EDA413D9617",
+      "title": "Basic Item Filter",
+      "subtitle": "Routing with purpose",
+      "description": [
+        "Filter important ingredients before enabling extraction. Test the destination with a small stack and keep different fluids on the intended routes."
+      ],
+      "icon": "enderio:basic_item_filter",
+      "x": 0.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "02C6C3F23E67552B"
+      ],
+      "tasks": [
+        {
+          "id": "17376438D1B7BC05",
+          "type": "item",
+          "item": "enderio:basic_item_filter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "56F5DAC3F7E924EC",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "3113702CD8C95918",
+      "title": "Advanced Item Filter",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:advanced_item_filter",
+      "x": 2.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "005E6EDA413D9617"
+      ],
+      "tasks": [
+        {
+          "id": "682A7964D402E364",
+          "type": "item",
+          "item": "enderio:advanced_item_filter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7C609CCE6BF4EE9F",
+      "title": "Tier 1 Extraction Speed Upgrade",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:extraction_speed_upgrade_1",
+      "x": 4.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "3113702CD8C95918"
+      ],
+      "tasks": [
+        {
+          "id": "06F75CD563C2DD9F",
+          "type": "item",
+          "item": "enderio:extraction_speed_upgrade_1",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "121FA15FDF65BB9F",
+      "title": "Tier 2 Extraction Speed Upgrade",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:extraction_speed_upgrade_2",
+      "x": 6.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "7C609CCE6BF4EE9F"
+      ],
+      "tasks": [
+        {
+          "id": "6300B4662C4F41EE",
+          "type": "item",
+          "item": "enderio:extraction_speed_upgrade_2",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D374EFEDFFA2DA1",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "0D6DF19ECF3C5341",
+      "title": "Basic Fluid Filter",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:basic_fluid_filter",
+      "x": 8.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "121FA15FDF65BB9F"
+      ],
+      "tasks": [
+        {
+          "id": "06D1371F1D6B7E36",
+          "type": "item",
+          "item": "enderio:basic_fluid_filter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "503DE9BE81CE721C",
+      "title": "Pressurized Fluid Conduit",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:pressurized_fluid_conduit",
+      "x": 10.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "0D6DF19ECF3C5341"
+      ],
+      "tasks": [
+        {
+          "id": "4AD5366402C7BD84",
+          "type": "item",
+          "item": "enderio:pressurized_fluid_conduit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "447C25E76957C754",
+      "title": "Ender Fluid Conduit",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:ender_fluid_conduit",
+      "x": 12.0,
+      "y": 9.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "503DE9BE81CE721C"
+      ],
+      "tasks": [
+        {
+          "id": "56E9DC8111AD6EA6",
+          "type": "item",
+          "item": "enderio:ender_fluid_conduit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7A9CAA85BE8B354F",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "id": "448247B1D4F3F0A4",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "70AA88F4CDD968BC",
+      "title": "Double Layer Capacitor",
+      "subtitle": "A stronger supply",
+      "description": [
+        "Higher capacitor tiers strengthen the machines that accept them. Size the power reserve for the whole line, not just its largest machine."
+      ],
+      "icon": "enderio:double_layer_capacitor",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "14AFB97B126D6A71"
+      ],
+      "tasks": [
+        {
+          "id": "015BE3F8A150CBD7",
+          "type": "item",
+          "item": "enderio:double_layer_capacitor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "20FC5D1876B27513",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "76D7C2CA215B7346",
+      "title": "Octadic Capacitor",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:octadic_capacitor",
+      "x": 2.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "70AA88F4CDD968BC"
+      ],
+      "tasks": [
+        {
+          "id": "37AC3D1D91F026A0",
+          "type": "item",
+          "item": "enderio:octadic_capacitor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1C9D45CD64B051E0",
+      "title": "Basic Capacitor Bank",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:basic_capacitor_bank",
+      "x": 4.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "76D7C2CA215B7346"
+      ],
+      "tasks": [
+        {
+          "id": "04161D767C91753F",
+          "type": "item",
+          "item": "enderio:basic_capacitor_bank",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6963846818BE72D7",
+      "title": "Advanced Capacitor Bank",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:advanced_capacitor_bank",
+      "x": 6.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "1C9D45CD64B051E0"
+      ],
+      "tasks": [
+        {
+          "id": "739AF5D4A8398611",
+          "type": "item",
+          "item": "enderio:advanced_capacitor_bank",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1668F228677DF4D0",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "6E60FCDBEDC7A667",
+      "title": "Vibrant Capacitor Bank",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:vibrant_capacitor_bank",
+      "x": 8.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "6963846818BE72D7"
+      ],
+      "tasks": [
+        {
+          "id": "69E653DFE9C494F8",
+          "type": "item",
+          "item": "enderio:vibrant_capacitor_bank",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1ADB653628FD950B",
+      "title": "Wired Charger",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:wired_charger",
+      "x": 10.0,
+      "y": 12.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "6E60FCDBEDC7A667"
+      ],
+      "tasks": [
+        {
+          "id": "1A257FD814AEBB76",
+          "type": "item",
+          "item": "enderio:wired_charger",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "152E07A169EEBCDC",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1A70CACEA8F02EFA",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "043AA7789EFFC584",
+      "title": "Soularium Ingot",
+      "subtitle": "Holding a soul",
+      "description": [
+        "Capture the required creature in a soul vial before binding. Keep the workshop's experience supply available for recipes that need it."
+      ],
+      "icon": "enderio:soularium_ingot",
+      "x": 0.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "328C81F5581CD6C7"
+      ],
+      "tasks": [
+        {
+          "id": "11F72C98B8A75368",
+          "type": "item",
+          "item": "enderio:soularium_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3AAE94F38DA6EB56",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5717115DC1594B6E",
+      "title": "Empty Soul Vial",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:empty_soul_vial",
+      "x": 2.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "043AA7789EFFC584"
+      ],
+      "tasks": [
+        {
+          "id": "13578F5CF66296FF",
+          "type": "item",
+          "item": "enderio:empty_soul_vial",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "315A12CA198E8262",
+      "title": "Soul Binder",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:soul_binder",
+      "x": 4.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "5717115DC1594B6E"
+      ],
+      "tasks": [
+        {
+          "id": "4A5409D7257501F9",
+          "type": "item",
+          "item": "enderio:soul_binder",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "521CCFD1AD0DED9F",
+      "title": "Enderman Head",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:enderman_head",
+      "x": 6.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "315A12CA198E8262"
+      ],
+      "tasks": [
+        {
+          "id": "37708EF86F0C98D7",
+          "type": "item",
+          "item": "enderio:enderman_head",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6EA5E1F856E3AB50",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "1EAA99B184E09756",
+      "title": "Slice'N'Splice",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:slice_and_splice",
+      "x": 8.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "521CCFD1AD0DED9F"
+      ],
+      "tasks": [
+        {
+          "id": "4F08061523553EB3",
+          "type": "item",
+          "item": "enderio:slice_and_splice",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "374AFA7DA33AC7F6",
+      "title": "Z-Logic Controller",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:z_logic_controller",
+      "x": 10.0,
+      "y": 15.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "1EAA99B184E09756"
+      ],
+      "tasks": [
+        {
+          "id": "68FACCEB94C39C09",
+          "type": "item",
+          "item": "enderio:z_logic_controller",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6E9DDE9839D48FBF",
+          "type": "xp",
+          "xp": 55
+        },
+        {
+          "id": "10EB1138F1BED6D3",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "13BC22AFF9B365F1",
+      "title": "Broken Spawner",
+      "subtitle": "A chamber of echoes",
+      "description": [
+        "Build a secure chamber and verify the spawner's settings before powering it. Collect experience and drops separately so neither fills the other's storage."
+      ],
+      "icon": "enderio:broken_spawner",
+      "x": 0.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "315A12CA198E8262"
+      ],
+      "tasks": [
+        {
+          "id": "7117971F7E1BCC86",
+          "type": "item",
+          "item": "enderio:broken_spawner",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BA46CC4C3AC2F30",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "57C50BCD06CA03C1",
+      "title": "Powered Spawner",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:powered_spawner",
+      "x": 2.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "13BC22AFF9B365F1"
+      ],
+      "tasks": [
+        {
+          "id": "4F926CF231B1A813",
+          "type": "item",
+          "item": "enderio:powered_spawner",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "0AFECE8606E3787F",
+      "title": "Enticing Crystal",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:enticing_crystal",
+      "x": 4.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "57C50BCD06CA03C1"
+      ],
+      "tasks": [
+        {
+          "id": "05DC1CECD49FF63E",
+          "type": "item",
+          "item": "enderio:enticing_crystal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1DE3242E366F3934",
+      "title": "Aversion Obelisk",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:aversion_obelisk",
+      "x": 6.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "0AFECE8606E3787F"
+      ],
+      "tasks": [
+        {
+          "id": "3CCCA3A7E7182409",
+          "type": "item",
+          "item": "enderio:aversion_obelisk",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "55B2DA9205A239F0",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "71CE833C7372B657",
+      "title": "XP Vacuum",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:xp_vacuum",
+      "x": 8.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "1DE3242E366F3934"
+      ],
+      "tasks": [
+        {
+          "id": "313DD6A1A093400A",
+          "type": "item",
+          "item": "enderio:xp_vacuum",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "257C3DDCB0E89033",
+      "title": "XP Obelisk",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:xp_obelisk",
+      "x": 10.0,
+      "y": 18.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "71CE833C7372B657"
+      ],
+      "tasks": [
+        {
+          "id": "051EB88D22BFD180",
+          "type": "item",
+          "item": "enderio:xp_obelisk",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "67F59DCF9845DA96",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0FD5EDEC0406FE2D",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1FA2589AF497AFFA",
+      "title": "Crafter",
+      "subtitle": "A linked workshop",
+      "description": [
+        "Give repeatable recipes dedicated ingredients and outputs. Keep enchanted tools and rare materials out of bulk collection routes."
+      ],
+      "icon": "enderio:crafter",
+      "x": 0.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "374AFA7DA33AC7F6"
+      ],
+      "tasks": [
+        {
+          "id": "395B4150529EF094",
+          "type": "item",
+          "item": "enderio:crafter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "70618F993886965A",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "10D7A23515A7EEBD",
+      "title": "Impulse Hopper",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:impulse_hopper",
+      "x": 2.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "1FA2589AF497AFFA"
+      ],
+      "tasks": [
+        {
+          "id": "3941C8A8D049A450",
+          "type": "item",
+          "item": "enderio:impulse_hopper",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2E980235D5775F0A",
+      "title": "Vacuum Chest",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:vacuum_chest",
+      "x": 4.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "10D7A23515A7EEBD"
+      ],
+      "tasks": [
+        {
+          "id": "79FDDDB7E97D71F5",
+          "type": "item",
+          "item": "enderio:vacuum_chest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1DEDC7B927FEF25E",
+      "title": "Fluid Tank",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:fluid_tank",
+      "x": 6.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "2E980235D5775F0A"
+      ],
+      "tasks": [
+        {
+          "id": "491AD4404382EE3D",
+          "type": "item",
+          "item": "enderio:fluid_tank",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "478F2444E03B6FCA",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "3A65AE6CDFDA86F1",
+      "title": "Pressurized Fluid Tank",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:pressurized_fluid_tank",
+      "x": 8.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "1DEDC7B927FEF25E"
+      ],
+      "tasks": [
+        {
+          "id": "6B7F1E1D16F2C25F",
+          "type": "item",
+          "item": "enderio:pressurized_fluid_tank",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5DB52B410CA73484",
+      "title": "Enchanter",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:enchanter",
+      "x": 10.0,
+      "y": 21.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "3A65AE6CDFDA86F1"
+      ],
+      "tasks": [
+        {
+          "id": "02721E281914096B",
+          "type": "item",
+          "item": "enderio:enchanter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "503BB9B5912EFE91",
+          "type": "xp",
+          "xp": 65
+        },
+        {
+          "id": "24DA1A0FE281A9D8",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "77A2F47DD7BB4290",
+      "title": "Travel Anchor",
+      "subtitle": "Routes through the settlement",
+      "description": [
+        "Mark useful travel anchors around the settlement. Clear the arrival space and distinguish public routes from private workshop entrances."
+      ],
+      "icon": "enderio:travel_anchor",
+      "x": 0.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "29296AC9FB4948FA"
+      ],
+      "tasks": [
+        {
+          "id": "5A2D46BFD9BE2418",
+          "type": "item",
+          "item": "enderio:travel_anchor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "490D5F319FA9334C",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "15AE0E268661F812",
+      "title": "Staff Of Travelling",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:staff_of_travelling",
+      "x": 2.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "77A2F47DD7BB4290"
+      ],
+      "tasks": [
+        {
+          "id": "025FAEF870429F1B",
+          "type": "item",
+          "item": "enderio:staff_of_travelling",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "712B5086EFE18A8A",
+      "title": "Coordinate Selector",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:coordinate_selector",
+      "x": 4.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "15AE0E268661F812"
+      ],
+      "tasks": [
+        {
+          "id": "07483A310E751EB3",
+          "type": "item",
+          "item": "enderio:coordinate_selector",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "164EDC984DE121B0",
+      "title": "Electromagnet",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:electromagnet",
+      "x": 6.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "712B5086EFE18A8A"
+      ],
+      "tasks": [
+        {
+          "id": "341BF14F26337929",
+          "type": "item",
+          "item": "enderio:electromagnet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14B45F6880C0E448",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "73411B822CB5F636",
+      "title": "Painting Machine",
+      "subtitle": "",
+      "description": [],
+      "icon": "enderio:painting_machine",
+      "x": 8.0,
+      "y": 24.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "164EDC984DE121B0"
+      ],
+      "tasks": [
+        {
+          "id": "74CB3C1098965EF0",
+          "type": "item",
+          "item": "enderio:painting_machine",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "353CC7AD55786AF0",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "4A2E63FBBAC7A9F4",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    }
+  ],
+  "filename": "wc_ender_io"
+}

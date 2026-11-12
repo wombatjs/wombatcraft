@@ -26,6 +26,7 @@ def build(registry,names):
  for p in chapters.glob('*.snbt'):p.unlink()
  for p in (ROOT/'quests/baseline/chapters').glob('*.snbt'):shutil.copy2(p,chapters/p.name)
  old_goals={}
+ ns_to_title={lane['ns']:title for title,ls in lanes.items() for lane in ls}
  # Exact original names are resolved below; unrelated mixed addon chapters stay intact.
  for p in chapters.glob('*.snbt'):
   d=json.loads(p.read_text(encoding='utf-8'))
@@ -33,6 +34,27 @@ def build(registry,names):
    for q in d['quests']:
     task=q['tasks'][0];old_goals[q['id']]=(d['title'],task.get('item'))
    p.unlink()
+  else:
+   # Retire shallow mixed-chapter introductions once their whole mod has an
+   # authored chapter. Redirect outside prerequisites to the matching goal.
+   by_id={q['id']:q for q in d['quests']};children=collections.defaultdict(list)
+   for q in d['quests']:
+    for dep in q.get('dependencies',[]):children[dep].append(q['id'])
+   removed=set()
+   for root in d['quests']:
+    if root.get('dependencies') or not all(t.get('type')=='checkmark' for t in root.get('tasks',[])):continue
+    component=set();todo=[root['id']]
+    while todo:
+     key=todo.pop()
+     if key in component:continue
+     component.add(key);todo.extend(children[key])
+    goals=[t for key in component for t in by_id[key].get('tasks',[]) if t.get('type')!='checkmark']
+    targets={ns_to_title.get(t.get('item','').split(':')[0]) for t in goals}
+    if not goals or None in targets or len(targets)!=1 or any(t.get('type')!='item' for t in goals):continue
+    target=targets.pop();removed.update(component)
+    for key in component:
+     old_goals[key]=(target,next((t.get('item') for t in by_id[key].get('tasks',[]) if t.get('type')=='item'),None))
+   if removed:d['quests']=[q for q in d['quests'] if q['id'] not in removed];save(p,d)
  reports=[]
  for order,(title,ls) in enumerate(lanes.items(),10):
   items={i for l in ls for i in l['items']};quest_ids={i:uid(title+'/'+i) for i in items};seen=set();qs=[]

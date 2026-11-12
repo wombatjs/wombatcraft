@@ -1,0 +1,1467 @@
+{
+  "id": "055424FD5A23E406",
+  "title": "Draconic Evolution",
+  "group": "065A019E212476CF",
+  "order_index": 29,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "27045B649AF7B744",
+      "title": "Information Tablet",
+      "subtitle": "A trace of dragons",
+      "description": [
+        "Study draconic machinery before building it. Draconium begins the path, but its greater workings demand power and trophies from beyond the workshop."
+      ],
+      "icon": "draconicevolution:info_tablet",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "08AF20438B2B802C",
+          "type": "item",
+          "item": "draconicevolution:info_tablet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F0DD39BBA0D9E42",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "23C1C2A2917EB0D2",
+      "title": "Draconium Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:draconium_ingot",
+      "x": 2.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "27045B649AF7B744"
+      ],
+      "tasks": [
+        {
+          "id": "6BA8D1B9395C72A1",
+          "type": "item",
+          "item": "draconicevolution:draconium_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "735E8E86B7C2E969",
+      "title": "Draconium Core",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:draconium_core",
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "23C1C2A2917EB0D2"
+      ],
+      "tasks": [
+        {
+          "id": "6D2419C22B365414",
+          "type": "item",
+          "item": "draconicevolution:draconium_core",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "55CA5ECBAA575D83",
+      "title": "Wyvern Core",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:wyvern_core",
+      "x": 6.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "735E8E86B7C2E969"
+      ],
+      "tasks": [
+        {
+          "id": "0A467B5EF8D3D476",
+          "type": "item",
+          "item": "draconicevolution:wyvern_core",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2689AB0E01A1EDE3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "6C7EA34A389CFE32",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "1D5842409B7C92F9",
+      "title": "Fusion Crafting Core",
+      "subtitle": "Fusion crafting",
+      "description": [
+        "Arrange injectors around a crafting core with space for their beams. Supply power to the injectors and check their tier against the intended recipe."
+      ],
+      "icon": "draconicevolution:crafting_core",
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "55CA5ECBAA575D83"
+      ],
+      "tasks": [
+        {
+          "id": "0BCEDC1E31F4D8B8",
+          "type": "item",
+          "item": "draconicevolution:crafting_core",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F71A569BCDCD899",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "02DD79B78AF930A1",
+      "title": "Draconium Fusion Crafting Injector",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:basic_crafting_injector",
+      "x": 2.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "1D5842409B7C92F9"
+      ],
+      "tasks": [
+        {
+          "id": "5F266B04467F5FB9",
+          "type": "item",
+          "item": "draconicevolution:basic_crafting_injector",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "33018CC5D4CE0F56",
+      "title": "Wyvern Fusion Crafting Injector",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:wyvern_crafting_injector",
+      "x": 4.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "02DD79B78AF930A1"
+      ],
+      "tasks": [
+        {
+          "id": "54D93160FE93A6D1",
+          "type": "item",
+          "item": "draconicevolution:wyvern_crafting_injector",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1FE33060C0952EDE",
+      "title": "Draconic Fusion Crafting Injector",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:awakened_crafting_injector",
+      "x": 6.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "33018CC5D4CE0F56"
+      ],
+      "tasks": [
+        {
+          "id": "2C6CACE2BFD21231",
+          "type": "item",
+          "item": "draconicevolution:awakened_crafting_injector",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05E58ABCC3F05546",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "4910396FD943F11A",
+      "title": "Chaotic Fusion Crafting Injector",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:chaotic_crafting_injector",
+      "x": 8.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "1FE33060C0952EDE"
+      ],
+      "tasks": [
+        {
+          "id": "6EC22CDE4F276E0B",
+          "type": "item",
+          "item": "draconicevolution:chaotic_crafting_injector",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "182B465BECB48989",
+          "type": "xp",
+          "xp": 35
+        },
+        {
+          "id": "22E4E60FD92273BD",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "07A541957084023B",
+      "title": "Dragon Heart",
+      "subtitle": "The awakened metal",
+      "description": [
+        "A dragon's heart is the foundation of awakened draconium. Prepare the fusion ingredients and energy reserve before beginning the craft."
+      ],
+      "icon": "draconicevolution:dragon_heart",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "33018CC5D4CE0F56"
+      ],
+      "tasks": [
+        {
+          "id": "3C12BC3E90C86A75",
+          "type": "item",
+          "item": "draconicevolution:dragon_heart",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2BC21211E6DAE64F",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "35203DDD9853636F",
+      "title": "Awakened Draconium Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:awakened_draconium_ingot",
+      "x": 2.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "07A541957084023B"
+      ],
+      "tasks": [
+        {
+          "id": "125B0E775DB6FC48",
+          "type": "item",
+          "item": "draconicevolution:awakened_draconium_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "13D55D08B72C1CAF",
+      "title": "Draconic Core",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:awakened_core",
+      "x": 4.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "35203DDD9853636F"
+      ],
+      "tasks": [
+        {
+          "id": "049DD22CA2ED93E0",
+          "type": "item",
+          "item": "draconicevolution:awakened_core",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1D812B7CCA7C5B08",
+      "title": "Draconic Energy Controller",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:draconic_energy_core",
+      "x": 6.0,
+      "y": 6.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "13D55D08B72C1CAF"
+      ],
+      "tasks": [
+        {
+          "id": "648F0B5ACA65691C",
+          "type": "item",
+          "item": "draconicevolution:draconic_energy_core",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "74A4A639BCEDB756",
+          "type": "xp",
+          "xp": 20
+        },
+        {
+          "id": "7F56CA067C602DBD",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "5A6A90042602782D",
+      "title": "Energy Core",
+      "subtitle": "A reserve for the settlement",
+      "description": [
+        "Build a storage core with correctly placed stabilizers and pylons. Set transfer limits deliberately and test charging before connecting the whole settlement."
+      ],
+      "icon": "draconicevolution:energy_core",
+      "x": 0.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "735E8E86B7C2E969"
+      ],
+      "tasks": [
+        {
+          "id": "1872BAB5003528C8",
+          "type": "item",
+          "item": "draconicevolution:energy_core",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3ED1F04601867A75",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "39B37A707F71A698",
+      "title": "Energy Core Stabilizer",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:energy_core_stabilizer",
+      "x": 2.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "5A6A90042602782D"
+      ],
+      "tasks": [
+        {
+          "id": "3E25375F48509BC8",
+          "type": "item",
+          "item": "draconicevolution:energy_core_stabilizer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1AE59E527E627396",
+      "title": "Energy Pylon",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:energy_pylon",
+      "x": 4.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "39B37A707F71A698"
+      ],
+      "tasks": [
+        {
+          "id": "44CA82A1D013679F",
+          "type": "item",
+          "item": "draconicevolution:energy_pylon",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6B2907A313AD6AF6",
+      "title": "Flux Gate",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:flux_gate",
+      "x": 6.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "1AE59E527E627396"
+      ],
+      "tasks": [
+        {
+          "id": "397CE3789E1C9FAC",
+          "type": "item",
+          "item": "draconicevolution:flux_gate",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0CC126F893D57618",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "145B0C82EE9E84CA",
+      "title": "Energy Transfuser",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:energy_transfuser",
+      "x": 8.0,
+      "y": 9.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "6B2907A313AD6AF6"
+      ],
+      "tasks": [
+        {
+          "id": "713FAAFED63657BF",
+          "type": "item",
+          "item": "draconicevolution:energy_transfuser",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07CF15ECD61B5081",
+          "type": "xp",
+          "xp": 45
+        },
+        {
+          "id": "704D018E4D925F67",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "553A444423D50E9D",
+      "title": "Crystal Binder",
+      "subtitle": "Crystal transmission",
+      "description": [
+        "Bind each crystal link and check its direction. Relay crystals bridge distance; wireless connections serve nearby machines without a cable at every face."
+      ],
+      "icon": "draconicevolution:crystal_binder",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "735E8E86B7C2E969"
+      ],
+      "tasks": [
+        {
+          "id": "7C7C04229E838A29",
+          "type": "item",
+          "item": "draconicevolution:crystal_binder",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "604995ACAB481981",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "50EE1667A4842006",
+      "title": "Basic Energy I/O Crystal",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:basic_io_crystal",
+      "x": 2.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "553A444423D50E9D"
+      ],
+      "tasks": [
+        {
+          "id": "5B7F74142B9ECF26",
+          "type": "item",
+          "item": "draconicevolution:basic_io_crystal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4FDE6FD5EC6619CD",
+      "title": "Basic Energy Relay Crystal",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:basic_relay_crystal",
+      "x": 4.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "50EE1667A4842006"
+      ],
+      "tasks": [
+        {
+          "id": "1D80AD80D71251C2",
+          "type": "item",
+          "item": "draconicevolution:basic_relay_crystal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5A26E45FCBB28608",
+      "title": "Basic Wireless Energy Crystal",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:basic_wireless_crystal",
+      "x": 6.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "4FDE6FD5EC6619CD"
+      ],
+      "tasks": [
+        {
+          "id": "118129C859655EB7",
+          "type": "item",
+          "item": "draconicevolution:basic_wireless_crystal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "276D49ED7499777D",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "244C9533573F3335",
+      "title": "Wyvern Energy I/O Crystal",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:wyvern_io_crystal",
+      "x": 8.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "5A26E45FCBB28608"
+      ],
+      "tasks": [
+        {
+          "id": "11074456F1B7752D",
+          "type": "item",
+          "item": "draconicevolution:wyvern_io_crystal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "057A149EF043BA06",
+      "title": "Wyvern Energy Relay Crystal",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:wyvern_relay_crystal",
+      "x": 10.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "244C9533573F3335"
+      ],
+      "tasks": [
+        {
+          "id": "281F5966B505AC7C",
+          "type": "item",
+          "item": "draconicevolution:wyvern_relay_crystal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "0B4EF81846C154D8",
+      "title": "Draconic Energy I/O Crystal",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:draconic_io_crystal",
+      "x": 12.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "057A149EF043BA06"
+      ],
+      "tasks": [
+        {
+          "id": "04A42EA5AF38BAC4",
+          "type": "item",
+          "item": "draconicevolution:draconic_io_crystal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "729DFA279A5A757D",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "45B93CE572300178",
+      "title": "Draconic Energy Relay Crystal",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:draconic_relay_crystal",
+      "x": 14.0,
+      "y": 12.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "0B4EF81846C154D8"
+      ],
+      "tasks": [
+        {
+          "id": "6BAE6A9192832973",
+          "type": "item",
+          "item": "draconicevolution:draconic_relay_crystal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4F63255C89AAE122",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "2010CE5F9681ACE9",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "120D384B1BF89F18",
+      "title": "Wyvern Capacitor",
+      "subtitle": "A wyvern's equipment",
+      "description": [
+        "Build the equipment and its modules as a system. Charge it fully and test the shield before relying on it during a difficult fight."
+      ],
+      "icon": "draconicevolution:wyvern_capacitor",
+      "x": 0.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "55CA5ECBAA575D83"
+      ],
+      "tasks": [
+        {
+          "id": "0EB0D5A14213F019",
+          "type": "item",
+          "item": "draconicevolution:wyvern_capacitor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0CB92FE62A710CCF",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "26AEA93A3ECA38CC",
+      "title": "Wyvern Pickaxe",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:wyvern_pickaxe",
+      "x": 2.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "120D384B1BF89F18"
+      ],
+      "tasks": [
+        {
+          "id": "56E1053FA376AA8F",
+          "type": "item",
+          "item": "draconicevolution:wyvern_pickaxe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7DC9B9AC1E7DFB00",
+      "title": "Wyvern Sword",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:wyvern_sword",
+      "x": 4.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "26AEA93A3ECA38CC"
+      ],
+      "tasks": [
+        {
+          "id": "308DBBBEE4D8C2ED",
+          "type": "item",
+          "item": "draconicevolution:wyvern_sword",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "50BD8269B52C56D7",
+      "title": "Wyvern Bow",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:wyvern_bow",
+      "x": 6.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "7DC9B9AC1E7DFB00"
+      ],
+      "tasks": [
+        {
+          "id": "086BC6199930D41C",
+          "type": "item",
+          "item": "draconicevolution:wyvern_bow",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "388E197F223300D8",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "4736AE94EA660564",
+      "title": "Wyvern Chestpiece",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:wyvern_chestpiece",
+      "x": 8.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "50BD8269B52C56D7"
+      ],
+      "tasks": [
+        {
+          "id": "1DE197BB11684534",
+          "type": "item",
+          "item": "draconicevolution:wyvern_chestpiece",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "173572D1BEB3470F",
+      "title": "Wyvern Energy Module",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:item_wyvern_energy",
+      "x": 10.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "4736AE94EA660564"
+      ],
+      "tasks": [
+        {
+          "id": "67888C4A8D7464FC",
+          "type": "item",
+          "item": "draconicevolution:item_wyvern_energy",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4F23B79A08FC3840",
+      "title": "Wyvern Shield Control Module",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:item_wyvern_shield_control",
+      "x": 12.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "173572D1BEB3470F"
+      ],
+      "tasks": [
+        {
+          "id": "1FB2733C0B9C0D1B",
+          "type": "item",
+          "item": "draconicevolution:item_wyvern_shield_control",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "37A77481D4692656",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "362DF97AC7F33A3C",
+      "title": "Wyvern Shield Capacity Module",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:item_wyvern_shield_capacity",
+      "x": 14.0,
+      "y": 15.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "4F23B79A08FC3840"
+      ],
+      "tasks": [
+        {
+          "id": "5B6546A21541E58E",
+          "type": "item",
+          "item": "draconicevolution:item_wyvern_shield_capacity",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1332FE950D35783E",
+          "type": "xp",
+          "xp": 55
+        },
+        {
+          "id": "7F2571C8B691E2FF",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "2901DC40D2176EE4",
+      "title": "Draconic Capacitor",
+      "subtitle": "Draconic mastery",
+      "description": [
+        "Awakened equipment supports more demanding modules. Balance energy, movement and defence instead of filling every space with damage upgrades."
+      ],
+      "icon": "draconicevolution:draconic_capacitor",
+      "x": 0.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "13D55D08B72C1CAF"
+      ],
+      "tasks": [
+        {
+          "id": "2B632D1B0475ED19",
+          "type": "item",
+          "item": "draconicevolution:draconic_capacitor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "39536877664A36FD",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "6435F1FEFBAEE870",
+      "title": "Draconic Pickaxe",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:draconic_pickaxe",
+      "x": 2.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "2901DC40D2176EE4"
+      ],
+      "tasks": [
+        {
+          "id": "5B154125290D4396",
+          "type": "item",
+          "item": "draconicevolution:draconic_pickaxe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4AD7049E2D87E568",
+      "title": "Draconic Sword",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:draconic_sword",
+      "x": 4.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "6435F1FEFBAEE870"
+      ],
+      "tasks": [
+        {
+          "id": "4C358A0E46C4EFF8",
+          "type": "item",
+          "item": "draconicevolution:draconic_sword",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6E6638AA9B6BF812",
+      "title": "Draconic Bow",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:draconic_bow",
+      "x": 6.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "4AD7049E2D87E568"
+      ],
+      "tasks": [
+        {
+          "id": "6E6E5C5271BA1CE6",
+          "type": "item",
+          "item": "draconicevolution:draconic_bow",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6BCD2A8A7A476701",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "202BB65D2DD215A1",
+      "title": "Draconic Chestpiece",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:draconic_chestpiece",
+      "x": 8.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "6E6638AA9B6BF812"
+      ],
+      "tasks": [
+        {
+          "id": "68DBF89BAB7A8704",
+          "type": "item",
+          "item": "draconicevolution:draconic_chestpiece",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "0D97E6015979BEE5",
+      "title": "Draconic Staff of Power",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:draconic_staff",
+      "x": 10.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "202BB65D2DD215A1"
+      ],
+      "tasks": [
+        {
+          "id": "1AE62553C1DF5757",
+          "type": "item",
+          "item": "draconicevolution:draconic_staff",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "703C0B491868F918",
+      "title": "Draconic Flight Module",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:item_draconic_flight",
+      "x": 12.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "0D97E6015979BEE5"
+      ],
+      "tasks": [
+        {
+          "id": "0932A53991C82402",
+          "type": "item",
+          "item": "draconicevolution:item_draconic_flight",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "01D8CB9C50C82C82",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "360034F620CF7546",
+      "title": "Draconic Undying Module",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:item_draconic_undying",
+      "x": 14.0,
+      "y": 18.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "703C0B491868F918"
+      ],
+      "tasks": [
+        {
+          "id": "59DA0F9F4E781F7A",
+          "type": "item",
+          "item": "draconicevolution:item_draconic_undying",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "50838360A3C572B1",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "1841935710C8DB80",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "377CF0B8EEC484F8",
+      "title": "Dislocator",
+      "subtitle": "Across the void",
+      "description": [
+        "Mark safe destinations and preserve a route home. Keep arrival spaces clear, especially where other travellers share the same doorway."
+      ],
+      "icon": "draconicevolution:dislocator",
+      "x": 0.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "735E8E86B7C2E969"
+      ],
+      "tasks": [
+        {
+          "id": "1972EA6AFA1FD109",
+          "type": "item",
+          "item": "draconicevolution:dislocator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7CE2A0B5A7A9487A",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "76183A595E2A9B15",
+      "title": "Dislocator Pedestal",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:dislocator_pedestal",
+      "x": 2.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "377CF0B8EEC484F8"
+      ],
+      "tasks": [
+        {
+          "id": "0C30C1D71C29B4C0",
+          "type": "item",
+          "item": "draconicevolution:dislocator_pedestal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "38D53D834F2E784E",
+      "title": "Advanced Dislocator",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:advanced_dislocator",
+      "x": 4.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "76183A595E2A9B15"
+      ],
+      "tasks": [
+        {
+          "id": "62F605C84861D75D",
+          "type": "item",
+          "item": "draconicevolution:advanced_dislocator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "46029F344D5ACB52",
+      "title": "Dislocator Receptacle",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:dislocator_receptacle",
+      "x": 6.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "38D53D834F2E784E"
+      ],
+      "tasks": [
+        {
+          "id": "64701B1DCCDECB08",
+          "type": "item",
+          "item": "draconicevolution:dislocator_receptacle",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11B6EE823ECA35AB",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "506752D7E819E414",
+      "title": "Dislocation Normalization Field Projector",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:dislocation_inhibitor",
+      "x": 8.0,
+      "y": 21.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "46029F344D5ACB52"
+      ],
+      "tasks": [
+        {
+          "id": "57621FA379C182F2",
+          "type": "item",
+          "item": "draconicevolution:dislocation_inhibitor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "413220432A8060E9",
+          "type": "xp",
+          "xp": 65
+        },
+        {
+          "id": "59F12273F9FC6728",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "0AE2C2187942A3E4",
+      "title": "Chaos Shard",
+      "subtitle": "A fragment of chaos",
+      "description": [
+        "Prepare carefully before seeking chaos. Carry a return route, a charged defensive system and equipment you can recover from a failed expedition."
+      ],
+      "icon": "draconicevolution:chaos_shard",
+      "x": 0.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "202BB65D2DD215A1"
+      ],
+      "tasks": [
+        {
+          "id": "25B5ABCB8CF930BE",
+          "type": "item",
+          "item": "draconicevolution:chaos_shard",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4F637B157C96472B",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "063754CBE3C02CEB",
+      "title": "Chaotic Core",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:chaotic_core",
+      "x": 2.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "0AE2C2187942A3E4"
+      ],
+      "tasks": [
+        {
+          "id": "21F65B56D4725DE5",
+          "type": "item",
+          "item": "draconicevolution:chaotic_core",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4FE819C2ECC42360",
+      "title": "Chaotic Energy Controller",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:chaotic_energy_core",
+      "x": 4.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "063754CBE3C02CEB"
+      ],
+      "tasks": [
+        {
+          "id": "34B2018D34098A95",
+          "type": "item",
+          "item": "draconicevolution:chaotic_energy_core",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6351880C26A27005",
+      "title": "Chaotic Capacitor",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:chaotic_capacitor",
+      "x": 6.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "4FE819C2ECC42360"
+      ],
+      "tasks": [
+        {
+          "id": "753BFFF9A718A390",
+          "type": "item",
+          "item": "draconicevolution:chaotic_capacitor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03B53F7F77E4B9B0",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "01180082349CA01A",
+      "title": "Chaotic Chestpiece",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:chaotic_chestpiece",
+      "x": 8.0,
+      "y": 24.0,
+      "shape": "circle",
+      "dependencies": [
+        "6351880C26A27005"
+      ],
+      "tasks": [
+        {
+          "id": "1562AC5A37DFE14D",
+          "type": "item",
+          "item": "draconicevolution:chaotic_chestpiece",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "67F335B5AB7F6DA8",
+      "title": "Chaotic Staff of Power",
+      "subtitle": "",
+      "description": [],
+      "icon": "draconicevolution:chaotic_staff",
+      "x": 10.0,
+      "y": 24.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "01180082349CA01A"
+      ],
+      "tasks": [
+        {
+          "id": "6FA50B7958B735F1",
+          "type": "item",
+          "item": "draconicevolution:chaotic_staff",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "636005C901825AFF",
+          "type": "xp",
+          "xp": 70
+        },
+        {
+          "id": "7BC1C139237FF085",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    }
+  ],
+  "filename": "wc_draconic_evolution"
+}

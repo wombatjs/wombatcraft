@@ -1,0 +1,1222 @@
+{
+  "id": "5C5226A5C053F56F",
+  "title": "Nature's Aura",
+  "group": "065A019E212476CF",
+  "order_index": 30,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "28DAF3F7044ECD9A",
+      "title": "Brilliant Fiber",
+      "subtitle": "Gold among the leaves",
+      "description": [
+        "Cultivate golden leaves and collect their gifts. Lay out a quiet ritual grove with room for the ancient tree to grow."
+      ],
+      "icon": "naturesaura:gold_fiber",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "7E4D7DB439D5A410",
+          "type": "item",
+          "item": "naturesaura:gold_fiber",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "25C46CD241875DA8",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "2720A14D783DCA95",
+      "title": "Golden Leaves",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:golden_leaves",
+      "x": 2.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "28DAF3F7044ECD9A"
+      ],
+      "tasks": [
+        {
+          "id": "215428DFAE673A5A",
+          "type": "item",
+          "item": "naturesaura:golden_leaves",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "719BACA849558C22",
+      "title": "Gold Leaf",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:gold_leaf",
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "2720A14D783DCA95"
+      ],
+      "tasks": [
+        {
+          "id": "2E67E028EAF54F5C",
+          "type": "item",
+          "item": "naturesaura:gold_leaf",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "139F4271F2792CE6",
+      "title": "Gold Powder",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:gold_powder",
+      "x": 6.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "719BACA849558C22"
+      ],
+      "tasks": [
+        {
+          "id": "6184C9509FE7D6F5",
+          "type": "item",
+          "item": "naturesaura:gold_powder",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3D1205CD1826AABF",
+          "type": "xp",
+          "xp": 10
+        }
+      ]
+    },
+    {
+      "id": "5A8423921E31B06F",
+      "title": "Wooden Stand",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:wood_stand",
+      "x": 8.0,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "139F4271F2792CE6"
+      ],
+      "tasks": [
+        {
+          "id": "75DCC0749D907164",
+          "type": "item",
+          "item": "naturesaura:wood_stand",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "41EF78BF109CDB40",
+      "title": "Ancient Sapling",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:ancient_sapling",
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "5A8423921E31B06F"
+      ],
+      "tasks": [
+        {
+          "id": "1E566E536BE6B5DC",
+          "type": "item",
+          "item": "naturesaura:ancient_sapling",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "66A832B265A32DF3",
+          "type": "xp",
+          "xp": 30
+        },
+        {
+          "id": "43D9BD63D41600FE",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "602840AF63B164A4",
+      "title": "Ancient Log",
+      "subtitle": "The living altar",
+      "description": [
+        "Aura belongs to the land around the altar. Watch the local supply and restore what the grove spends instead of draining one place indefinitely."
+      ],
+      "icon": "naturesaura:ancient_log",
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "41EF78BF109CDB40"
+      ],
+      "tasks": [
+        {
+          "id": "07D6AAC6F8B87133",
+          "type": "item",
+          "item": "naturesaura:ancient_log",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "68223DD60C23B044",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "024C7EC921212512",
+      "title": "Ancient Wood Rod",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:ancient_stick",
+      "x": 2.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "602840AF63B164A4"
+      ],
+      "tasks": [
+        {
+          "id": "4ADBBF7FDA58638E",
+          "type": "item",
+          "item": "naturesaura:ancient_stick",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "57ADD460F81C9128",
+      "title": "Natural Altar",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:nature_altar",
+      "x": 4.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "024C7EC921212512"
+      ],
+      "tasks": [
+        {
+          "id": "3B036B893C3041CC",
+          "type": "item",
+          "item": "naturesaura:nature_altar",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "079C4C98A688EA0D",
+      "title": "Infused Iron Ingot",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:infused_iron",
+      "x": 6.0,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "57ADD460F81C9128"
+      ],
+      "tasks": [
+        {
+          "id": "349AB3FC0192BCDF",
+          "type": "item",
+          "item": "naturesaura:infused_iron",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C5C0A46D7AE80F2",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "59792C12C449A131",
+      "title": "Infused Rock",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:infused_stone",
+      "x": 8.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "079C4C98A688EA0D"
+      ],
+      "tasks": [
+        {
+          "id": "6AD7B96A902DD7EE",
+          "type": "item",
+          "item": "naturesaura:infused_stone",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5022167B18873F00",
+          "type": "xp",
+          "xp": 35
+        },
+        {
+          "id": "636EE3F0C6B007E2",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "34819B65B3977BB8",
+      "title": "Environmental Eye",
+      "subtitle": "Reading the grove",
+      "description": [
+        "Learn to see and measure the grove's reserves. A limiter can help a machine stop before its surroundings are exhausted."
+      ],
+      "icon": "naturesaura:eye",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "57ADD460F81C9128"
+      ],
+      "tasks": [
+        {
+          "id": "06AA6583295D9181",
+          "type": "item",
+          "item": "naturesaura:eye",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3048D10AC1EBF0D5",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "31BEF935D55B4D8A",
+      "title": "Environmental Ocular",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:eye_improved",
+      "x": 2.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "34819B65B3977BB8"
+      ],
+      "tasks": [
+        {
+          "id": "192A3B3D718FBB58",
+          "type": "item",
+          "item": "naturesaura:eye_improved",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5E5A0D32CE8C8433",
+      "title": "Aura Detector",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:aura_detector",
+      "x": 4.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "31BEF935D55B4D8A"
+      ],
+      "tasks": [
+        {
+          "id": "4C0C3EC46C2BF7AC",
+          "type": "item",
+          "item": "naturesaura:aura_detector",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "501899D86FCFF53F",
+      "title": "Redstone Aura Vaporizer",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:aura_timer",
+      "x": 6.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "5E5A0D32CE8C8433"
+      ],
+      "tasks": [
+        {
+          "id": "6DD86776C803E35B",
+          "type": "item",
+          "item": "naturesaura:aura_timer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3E3A643158486703",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "466DC232843FA232",
+      "title": "Mystical Magnifier",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:range_visualizer",
+      "x": 8.0,
+      "y": 6.0,
+      "shape": "circle",
+      "dependencies": [
+        "501899D86FCFF53F"
+      ],
+      "tasks": [
+        {
+          "id": "23F3625D93C95B0A",
+          "type": "item",
+          "item": "naturesaura:range_visualizer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "0EC1DF69F89DC0BD",
+      "title": "Aura Imbalance Ward",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:lower_limiter",
+      "x": 10.0,
+      "y": 6.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "466DC232843FA232"
+      ],
+      "tasks": [
+        {
+          "id": "74BE25EED3A9B0F5",
+          "type": "item",
+          "item": "naturesaura:lower_limiter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3C875FC3B915CCFE",
+          "type": "xp",
+          "xp": 40
+        },
+        {
+          "id": "7571BE3832886A9B",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "4B0C63F16A2FD3DD",
+      "title": "Herbivorous Absorber",
+      "subtitle": "Returning what is taken",
+      "description": [
+        "Choose a source of aura that your settlement can sustain. Give generation its own supplies and compare recovery with the altar's consumption."
+      ],
+      "icon": "naturesaura:flower_generator",
+      "x": 0.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "57ADD460F81C9128"
+      ],
+      "tasks": [
+        {
+          "id": "1A3508EC018EE0B1",
+          "type": "item",
+          "item": "naturesaura:flower_generator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "34C711AF38FAAEB8",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "261021D66F8436A5",
+      "title": "Canopy Diminisher",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:oak_generator",
+      "x": 2.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "4B0C63F16A2FD3DD"
+      ],
+      "tasks": [
+        {
+          "id": "493274039D353256",
+          "type": "item",
+          "item": "naturesaura:oak_generator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2EAC0AFA6F4E7E53",
+      "title": "Disentangler of Mortals",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:animal_generator",
+      "x": 4.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "261021D66F8436A5"
+      ],
+      "tasks": [
+        {
+          "id": "7E64893C734EA05B",
+          "type": "item",
+          "item": "naturesaura:animal_generator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7FE97C35710CEDBB",
+      "title": "Lingering Absorber",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:potion_generator",
+      "x": 6.0,
+      "y": 9.0,
+      "shape": "circle",
+      "dependencies": [
+        "2EAC0AFA6F4E7E53"
+      ],
+      "tasks": [
+        {
+          "id": "1DD20A743BCAB43F",
+          "type": "item",
+          "item": "naturesaura:potion_generator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "370B4D6368F122CC",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "7566CD57AF9661AD",
+      "title": "Firecracker Gaze",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:firework_generator",
+      "x": 8.0,
+      "y": 9.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "7FE97C35710CEDBB"
+      ],
+      "tasks": [
+        {
+          "id": "4967D63379834925",
+          "type": "item",
+          "item": "naturesaura:firework_generator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "54C3C88A86AA231A",
+          "type": "xp",
+          "xp": 45
+        },
+        {
+          "id": "44CBE9A642E35FBF",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "307E8836F275A5B6",
+      "title": "Bottle and Cork",
+      "subtitle": "Bottling a season",
+      "description": [
+        "Carry a reserve for work beyond the grove. Keep the main altar supplied while filling portable storage."
+      ],
+      "icon": "naturesaura:bottle_two_the_rebottling",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "079C4C98A688EA0D"
+      ],
+      "tasks": [
+        {
+          "id": "61BD63116029F594",
+          "type": "item",
+          "item": "naturesaura:bottle_two_the_rebottling",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04291C06103010E1",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "0543212E8BED6A77",
+      "title": "Aura Bottle",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:aura_bottle",
+      "x": 2.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "307E8836F275A5B6"
+      ],
+      "tasks": [
+        {
+          "id": "0F6D7C86B4FA240F",
+          "type": "item",
+          "item": "naturesaura:aura_bottle",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1B00ED46E35580C3",
+      "title": "Aura Cache",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:aura_cache",
+      "x": 4.0,
+      "y": 12.0,
+      "shape": "circle",
+      "dependencies": [
+        "0543212E8BED6A77"
+      ],
+      "tasks": [
+        {
+          "id": "1CFB98AC0317B367",
+          "type": "item",
+          "item": "naturesaura:aura_cache",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2BA1032D1A783EA2",
+      "title": "Aura Trove",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:aura_trove",
+      "x": 6.0,
+      "y": 12.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "1B00ED46E35580C3"
+      ],
+      "tasks": [
+        {
+          "id": "2178B662A7083178",
+          "type": "item",
+          "item": "naturesaura:aura_trove",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "35DB5132658AD598",
+          "type": "xp",
+          "xp": 30
+        },
+        {
+          "id": "4CED30F7147C0636",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "4632A8A02DC8DF6B",
+      "title": "Offering Table",
+      "subtitle": "Gifts beyond the grove",
+      "description": [
+        "Offerings open another branch of the art. Check the required token and prepare its ingredients before making the journey."
+      ],
+      "icon": "naturesaura:offering_table",
+      "x": 0.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "57ADD460F81C9128"
+      ],
+      "tasks": [
+        {
+          "id": "0D498CE21B79ADF0",
+          "type": "item",
+          "item": "naturesaura:offering_table",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "27C2080CE41FC8CD",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "73C99211BE322CD5",
+      "title": "Token of Joy",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:token_joy",
+      "x": 2.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "4632A8A02DC8DF6B"
+      ],
+      "tasks": [
+        {
+          "id": "6546DC928E1CE17A",
+          "type": "item",
+          "item": "naturesaura:token_joy",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "010BF7FA14067AA2",
+      "title": "Token of Fear",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:token_fear",
+      "x": 4.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "73C99211BE322CD5"
+      ],
+      "tasks": [
+        {
+          "id": "2D1657763C67FAA7",
+          "type": "item",
+          "item": "naturesaura:token_fear",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6762845E7643F3D9",
+      "title": "Token of Sorrow",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:token_sorrow",
+      "x": 6.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "010BF7FA14067AA2"
+      ],
+      "tasks": [
+        {
+          "id": "46F10681C2CB5EC9",
+          "type": "item",
+          "item": "naturesaura:token_sorrow",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14E5080367FFA91C",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "251367FFEFC9E32B",
+      "title": "Token of Anger",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:token_anger",
+      "x": 8.0,
+      "y": 15.0,
+      "shape": "circle",
+      "dependencies": [
+        "6762845E7643F3D9"
+      ],
+      "tasks": [
+        {
+          "id": "0262621BD31AB586",
+          "type": "item",
+          "item": "naturesaura:token_anger",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "721D865A930FF023",
+      "title": "Ingot of the Skies",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:sky_ingot",
+      "x": 10.0,
+      "y": 15.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "251367FFEFC9E32B"
+      ],
+      "tasks": [
+        {
+          "id": "0EB4E75C104B6C69",
+          "type": "item",
+          "item": "naturesaura:sky_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "408EC8E55D66B199",
+          "type": "xp",
+          "xp": 55
+        },
+        {
+          "id": "6E3C781D75DDE2B7",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "5874E71C728AD7D9",
+      "title": "Extraneous Firestarter",
+      "subtitle": "A living workshop",
+      "description": [
+        "Use aura where it solves a real workshop problem. Route ingredients and outputs carefully so a full container cannot stall the grove."
+      ],
+      "icon": "naturesaura:furnace_heater",
+      "x": 0.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "079C4C98A688EA0D"
+      ],
+      "tasks": [
+        {
+          "id": "4F12E38793E3F603",
+          "type": "item",
+          "item": "naturesaura:furnace_heater",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3E1F6BC8BD0F7304",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "423EF480C0643101",
+      "title": "Armorer's Aid",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:blast_furnace_booster",
+      "x": 2.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "5874E71C728AD7D9"
+      ],
+      "tasks": [
+        {
+          "id": "567502634371A460",
+          "type": "item",
+          "item": "naturesaura:blast_furnace_booster",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "0346F1340CF6288A",
+      "title": "Crumbling Catalyst",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:crushing_catalyst",
+      "x": 4.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "423EF480C0643101"
+      ],
+      "tasks": [
+        {
+          "id": "19ECF7266F42B476",
+          "type": "item",
+          "item": "naturesaura:crushing_catalyst",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "73CF951785D6F532",
+      "title": "Transmutation Catalyst",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:conversion_catalyst",
+      "x": 6.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "0346F1340CF6288A"
+      ],
+      "tasks": [
+        {
+          "id": "2BDE488AE9302A30",
+          "type": "item",
+          "item": "naturesaura:conversion_catalyst",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DD0401FF9821E69",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "68DF784BE8042A4A",
+      "title": "Automatic Constructor",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:auto_crafter",
+      "x": 8.0,
+      "y": 18.0,
+      "shape": "circle",
+      "dependencies": [
+        "73CF951785D6F532"
+      ],
+      "tasks": [
+        {
+          "id": "4BEDD8657F01DBC1",
+          "type": "item",
+          "item": "naturesaura:auto_crafter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "7691DE04A8C1339B",
+      "title": "Item Distributor",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:item_distributor",
+      "x": 10.0,
+      "y": 18.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "68DF784BE8042A4A"
+      ],
+      "tasks": [
+        {
+          "id": "6D387F8DED6A45B7",
+          "type": "item",
+          "item": "naturesaura:item_distributor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "06458B06708F0836",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "745EE42AC472283E",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "40C3EFA6595D1184",
+      "title": "Staff of Baldur",
+      "subtitle": "The land remembers",
+      "description": [
+        "The mature grove reaches beyond crafting. Experiment with each working near home before carrying it into unfamiliar lands."
+      ],
+      "icon": "naturesaura:light_staff",
+      "x": 0.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "721D865A930FF023"
+      ],
+      "tasks": [
+        {
+          "id": "0C65E90B83B9128E",
+          "type": "item",
+          "item": "naturesaura:light_staff",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12E3A7B4E5BD2A88",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "169189DF9D7A0EE0",
+      "title": "Farming Stencil",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:farming_stencil",
+      "x": 2.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "40C3EFA6595D1184"
+      ],
+      "tasks": [
+        {
+          "id": "23B780B0A4F362B7",
+          "type": "item",
+          "item": "naturesaura:farming_stencil",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2E6FC4A6CDCFE2FA",
+      "title": "Lamp of Sanctuary",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:spawn_lamp",
+      "x": 4.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "169189DF9D7A0EE0"
+      ],
+      "tasks": [
+        {
+          "id": "6D9A5BCE8F5675A9",
+          "type": "item",
+          "item": "naturesaura:spawn_lamp",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5FCF6B3A0CCCFB2F",
+      "title": "Cloudshifter",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:weather_changer",
+      "x": 6.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "2E6FC4A6CDCFE2FA"
+      ],
+      "tasks": [
+        {
+          "id": "46B165ED50C265D5",
+          "type": "item",
+          "item": "naturesaura:weather_changer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "52694490B5414D55",
+          "type": "xp",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "60758F11DD9D958C",
+      "title": "Shifting Sundial",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:time_changer",
+      "x": 8.0,
+      "y": 21.0,
+      "shape": "circle",
+      "dependencies": [
+        "5FCF6B3A0CCCFB2F"
+      ],
+      "tasks": [
+        {
+          "id": "5627D9B8BBAB1C5B",
+          "type": "item",
+          "item": "naturesaura:time_changer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5B7D96EADEC59A10",
+      "title": "Token of Undying Friendship",
+      "subtitle": "",
+      "description": [],
+      "icon": "naturesaura:pet_reviver",
+      "x": 10.0,
+      "y": 21.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "60758F11DD9D958C"
+      ],
+      "tasks": [
+        {
+          "id": "6C07C99A3690D43A",
+          "type": "item",
+          "item": "naturesaura:pet_reviver",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "042B615CAD85167F",
+          "type": "xp",
+          "xp": 65
+        },
+        {
+          "id": "190D55108A0A35BC",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    }
+  ],
+  "filename": "wc_nature_s_aura"
+}
