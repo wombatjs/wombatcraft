@@ -15,6 +15,8 @@ description = "Starting Minecraft"
 state = "Forge 1.20.1"
 largeImageKey = ["wombatcraft"]
 largeImageText = "Wombatcraft"
+smallImageKey = []
+smallImageText = ""
 buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
 
 [main_menu]
@@ -25,6 +27,8 @@ description = "At the main menu"
 state = "Ready to explore"
 largeImageKey = ["wombatcraft"]
 largeImageText = "Wombatcraft"
+smallImageKey = []
+smallImageText = ""
 buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
 
 [server_list]
@@ -35,6 +39,8 @@ description = "Browsing servers"
 state = "Multiplayer"
 largeImageKey = ["wombatcraft"]
 largeImageText = "Wombatcraft"
+smallImageKey = []
+smallImageText = ""
 buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
 
 [join_game]
@@ -45,6 +51,8 @@ description = "Entering the world"
 state = "Wombatcraft modpack"
 largeImageKey = ["wombatcraft"]
 largeImageText = "Wombatcraft"
+smallImageKey = []
+smallImageText = ""
 buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
 
 [single_player]
@@ -55,6 +63,8 @@ description = "Exploring the frontier"
 state = "Singleplayer"
 largeImageKey = ["wombatcraft"]
 largeImageText = "Wombatcraft"
+smallImageKey = []
+smallImageText = ""
 buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
 
 [multi_player]
@@ -65,6 +75,8 @@ description = "Exploring with friends"
 state = "Multiplayer"
 largeImageKey = ["wombatcraft"]
 largeImageText = "Wombatcraft"
+smallImageKey = []
+smallImageText = ""
 buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
 
 [paused]
@@ -75,6 +87,8 @@ description = "Taking a breather"
 state = "Paused"
 largeImageKey = ["wombatcraft"]
 largeImageText = "Wombatcraft"
+smallImageKey = []
+smallImageText = ""
 buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
 
 [generic]
@@ -84,6 +98,8 @@ description = "Exploring the frontier"
 state = "Wombatcraft modpack"
 largeImageKey = ["wombatcraft"]
 largeImageText = "Wombatcraft"
+smallImageKey = []
+smallImageText = ""
 buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
 
 [realms_list]

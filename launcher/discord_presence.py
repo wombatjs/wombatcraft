@@ -2,7 +2,9 @@
 
 import asyncio
 from contextlib import suppress
+from pathlib import Path
 import re
+import tempfile
 from threading import Event, Thread
 from time import time
 import tomllib
@@ -22,6 +24,46 @@ def application_id(path):
     if not isinstance(value, str) or not re.fullmatch(r'[1-9][0-9]{16,19}', value):
         raise ValueError('Discord presence requires a valid Application ID.')
     return value
+
+
+def repair_game_config(path):
+    """Fill fields required by Simple RPC 4.1 without replacing player settings."""
+    from tomlkit import parse, dumps
+    from tomlkit.exceptions import ParseError
+
+    try:
+        config = parse(path.read_text(encoding='utf-8'))
+    except (FileNotFoundError, ParseError):
+        return False
+
+    changed = False
+    for section in config.values():
+        if not isinstance(section, dict):
+            continue
+        cards = section.get('presence', [])
+        if not isinstance(cards, list):
+            continue
+        for card in cards:
+            if not isinstance(card, dict):
+                continue
+            for key, default in (('smallImageKey', []), ('smallImageText', '')):
+                if key not in card:
+                    card[key] = default
+                    changed = True
+    if not changed:
+        return False
+
+    fixed = dumps(config)
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile('w', encoding='utf-8', dir=path.parent, delete=False) as output:
+            temporary = Path(output.name)
+            output.write(fixed)
+        temporary.replace(path)
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
+    return True
 
 
 class LauncherPresence:

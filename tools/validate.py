@@ -1,4 +1,4 @@
-import collections,json,re,sys
+import collections,json,re,sys,tomllib
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 chapters=[json.loads(p.read_text(encoding='utf-8')) for p in (ROOT/'pack/config/ftbquests/quests/chapters').glob('*.snbt')]
@@ -30,4 +30,10 @@ for f in [r['file'] for r in lock['mods']]+shaders:
  assert f['url'].startswith('https://');assert re.fullmatch('[a-f0-9]{128}',f['hashes']['sha512']);assert f['size']>0
 for p in (ROOT/'pack/packmenu/resources/assets/packmenu/buttons').glob('*.json'):
  b=json.loads(p.read_text());assert b['action'] in ['OPEN_GUI','CONNECT_TO_SERVER','QUIT','OPEN_URL','NONE']
+discord=ROOT/'pack/config/simple-rpc'
+client_cards=tomllib.loads((discord/'simple-rpc.toml').read_text(encoding='utf-8')).values()
+server_cards=tomllib.loads((discord/'server-entries.toml').read_text(encoding='utf-8'))['entry']
+for section in [*client_cards,*server_cards]:
+ for card in section.get('presence',[]):
+  assert isinstance(card.get('smallImageKey'),list) and isinstance(card.get('smallImageText'),str), 'Simple RPC cards require both small image fields'
 print(f'Validated {len(quests)} quests, {len(chapters)} chapters, {len(names)} mod files and {len(shaders)} shader packs; dependency graph is acyclic.')

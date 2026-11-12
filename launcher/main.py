@@ -167,16 +167,20 @@ class Window(QWidget):
   if official_launcher.launcher_running() and official_launcher.has_managed_profile(official_launcher.minecraft_directory()):
    raise RuntimeError('Close Minecraft Launcher before updating the Wombatcraft pack.')
 
+ def repair_game_discord(self):
+  if DISCORD_APP_ID and not official_launcher.game_running(RUNTIME):
+   discord_presence.repair_game_config(INSTANCE/'config/simple-rpc/simple-rpc.toml')
+
  def sync_pack(self, manifest, progress):
   progress('Checking installed Wombatcraft files…')
-  if self.pack_ready(manifest):
-   return
-  self.require_pack_idle()
-  stage = DATA / 'staging' / manifest['commit']
-  records = updater.stage(manifest, stage, DATA / 'cache', progress=progress)
-  self.require_pack_idle()
-  progress('Applying verified pack files…')
-  updater.activate(manifest, records, stage, INSTANCE, DATA / 'transaction')
+  if not self.pack_ready(manifest):
+   self.require_pack_idle()
+   stage = DATA / 'staging' / manifest['commit']
+   records = updater.stage(manifest, stage, DATA / 'cache', progress=progress)
+   self.require_pack_idle()
+   progress('Applying verified pack files…')
+   updater.activate(manifest, records, stage, INSTANCE, DATA / 'transaction')
+  self.repair_game_discord()
 
  def install_pack(self, progress):
   manifest = self.pack_manifest(progress)
@@ -233,6 +237,7 @@ class Window(QWidget):
     or not official_launcher.profile_matches(profiles, official_launcher.profile_values(INSTANCE, version, java, memory))
    ):
     raise RuntimeError('Close Minecraft Launcher, then click Play here so Wombatcraft can prepare its installation.')
+   self.repair_game_discord()
   else:
    result = self.prepare(progress, manifest, runtime=root)
    progress('Adding Wombatcraft to Minecraft Launcher…')
