@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-12T07:04:23.939965+00:00",
+  "title": "Design System: Wombatcraft",
+  "extensions": {
+    "colorMeta": {
+      "shell": {
+        "role": "neutral",
+        "displayName": "Shell",
+        "tonalRamp": [
+          "oklch(15.00% 0.0285 300.19)",
+          "oklch(26.43% 0.0285 300.19)",
+          "oklch(37.86% 0.0285 300.19)",
+          "oklch(49.29% 0.0285 300.19)",
+          "oklch(60.71% 0.0285 300.19)",
+          "oklch(72.14% 0.0285 300.19)",
+          "oklch(83.57% 0.0285 300.19)",
+          "oklch(95.00% 0.0285 300.19)"
+        ]
+      },
+      "sidebar": {
+        "role": "neutral",
+        "displayName": "Sidebar",
+        "tonalRamp": [
+          "oklch(15.00% 0.0391 301.85)",
+          "oklch(26.43% 0.0391 301.85)",
+          "oklch(37.86% 0.0391 301.85)",
+          "oklch(49.29% 0.0391 301.85)",
+          "oklch(60.71% 0.0391 301.85)",
+          "oklch(72.14% 0.0391 301.85)",
+          "oklch(83.57% 0.0391 301.85)",
+          "oklch(95.00% 0.0391 301.85)"
+        ]
+      },
+      "sidebar-border": {
+        "role": "neutral",
+        "displayName": "Sidebar Border",
+        "tonalRamp": [
+          "oklch(15.00% 0.0529 304.18)",
+          "oklch(26.43% 0.0529 304.18)",
+          "oklch(37.86% 0.0529 304.18)",
+          "oklch(49.29% 0.0529 304.18)",
+          "oklch(60.71% 0.0529 304.18)",
+          "oklch(72.14% 0.0529 304.18)",
+          "oklch(83.57% 0.0529 304.18)",
+          "oklch(95.00% 0.0529 304.18)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "tonalRamp": [
+          "oklch(15.00% 0.0384 302.12)",
+          "oklch(26.43% 0.0384 302.12)",
+          "oklch(37.86% 0.0384 302.12)",
+          "oklch(49.29% 0.0384 302.12)",
+          "oklch(60.71% 0.0384 302.12)",
+          "oklch(72.14% 0.0384 302.12)",
+          "oklch(83.57% 0.0384 302.12)",
+          "oklch(95.00% 0.0384 302.12)"
+        ]
+      },
+      "surface-border": {
+        "role": "neutral",
+        "displayName": "Surface Border",
+        "tonalRamp": [
+          "oklch(15.00% 0.0456 304.14)",
+          "oklch(26.43% 0.0456 304.14)",
+          "oklch(37.86% 0.0456 304.14)",
+          "oklch(49.29% 0.0456 304.14)",
+          "oklch(60.71% 0.0456 304.14)",
+          "oklch(72.14% 0.0456 304.14)",
+          "oklch(83.57% 0.0456 304.14)",
+          "oklch(95.00% 0.0456 304.14)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Text",
+        "tonalRamp": [
+          "oklch(15.00% 0.0221 302.94)",
+          "oklch(26.43% 0.0221 302.94)",
+          "oklch(37.86% 0.0221 302.94)",
+          "oklch(49.29% 0.0221 302.94)",
+          "oklch(60.71% 0.0221 302.94)",
+          "oklch(72.14% 0.0221 302.94)",
+          "oklch(83.57% 0.0221 302.94)",
+          "oklch(95.00% 0.0221 302.94)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15.00% 0.0497 303.97)",
+          "oklch(26.43% 0.0497 303.97)",
+          "oklch(37.86% 0.0497 303.97)",
+          "oklch(49.29% 0.0497 303.97)",
+          "oklch(60.71% 0.0497 303.97)",
+          "oklch(72.14% 0.0497 303.97)",
+          "oklch(83.57% 0.0497 303.97)",
+          "oklch(95.00% 0.0497 303.97)"
+        ]
+      },
+      "control": {
+        "role": "neutral",
+        "displayName": "Control",
+        "tonalRamp": [
+          "oklch(15.00% 0.0505 303.83)",
+          "oklch(26.43% 0.0505 303.83)",
+          "oklch(37.86% 0.0505 303.83)",
+          "oklch(49.29% 0.0505 303.83)",
+          "oklch(60.71% 0.0505 303.83)",
+          "oklch(72.14% 0.0505 303.83)",
+          "oklch(83.57% 0.0505 303.83)",
+          "oklch(95.00% 0.0505 303.83)"
+        ]
+      },
+      "control-border": {
+        "role": "neutral",
+        "displayName": "Control Border",
+        "tonalRamp": [
+          "oklch(15.00% 0.0741 307.00)",
+          "oklch(26.43% 0.0741 307.00)",
+          "oklch(37.86% 0.0741 307.00)",
+          "oklch(49.29% 0.0741 307.00)",
+          "oklch(60.71% 0.0741 307.00)",
+          "oklch(72.14% 0.0741 307.00)",
+          "oklch(83.57% 0.0741 307.00)",
+          "oklch(95.00% 0.0741 307.00)"
+        ]
+      },
+      "control-hover": {
+        "role": "neutral",
+        "displayName": "Control Hover",
+        "tonalRamp": [
+          "oklch(15.00% 0.0806 303.64)",
+          "oklch(26.43% 0.0806 303.64)",
+          "oklch(37.86% 0.0806 303.64)",
+          "oklch(49.29% 0.0806 303.64)",
+          "oklch(60.71% 0.0806 303.64)",
+          "oklch(72.14% 0.0806 303.64)",
+          "oklch(83.57% 0.0806 303.64)",
+          "oklch(95.00% 0.0806 303.64)"
+        ]
+      },
+      "hover-border": {
+        "role": "neutral",
+        "displayName": "Hover Border",
+        "tonalRamp": [
+          "oklch(15.00% 0.1461 302.90)",
+          "oklch(26.43% 0.1461 302.90)",
+          "oklch(37.86% 0.1461 302.90)",
+          "oklch(49.29% 0.1461 302.90)",
+          "oklch(60.71% 0.1461 302.90)",
+          "oklch(72.14% 0.1461 302.90)",
+          "oklch(83.57% 0.1461 302.90)",
+          "oklch(95.00% 0.1461 302.90)"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Focus",
+        "tonalRamp": [
+          "oklch(15.00% 0.0999 304.86)",
+          "oklch(26.43% 0.0999 304.86)",
+          "oklch(37.86% 0.0999 304.86)",
+          "oklch(49.29% 0.0999 304.86)",
+          "oklch(60.71% 0.0999 304.86)",
+          "oklch(72.14% 0.0999 304.86)",
+          "oklch(83.57% 0.0999 304.86)",
+          "oklch(95.00% 0.0999 304.86)"
+        ]
+      },
+      "disabled-text": {
+        "role": "neutral",
+        "displayName": "Disabled Text",
+        "tonalRamp": [
+          "oklch(15.00% 0.0532 308.28)",
+          "oklch(26.43% 0.0532 308.28)",
+          "oklch(37.86% 0.0532 308.28)",
+          "oklch(49.29% 0.0532 308.28)",
+          "oklch(60.71% 0.0532 308.28)",
+          "oklch(72.14% 0.0532 308.28)",
+          "oklch(83.57% 0.0532 308.28)",
+          "oklch(95.00% 0.0532 308.28)"
+        ]
+      },
+      "disabled-border": {
+        "role": "neutral",
+        "displayName": "Disabled Border",
+        "tonalRamp": [
+          "oklch(15.00% 0.0581 306.07)",
+          "oklch(26.43% 0.0581 306.07)",
+          "oklch(37.86% 0.0581 306.07)",
+          "oklch(49.29% 0.0581 306.07)",
+          "oklch(60.71% 0.0581 306.07)",
+          "oklch(72.14% 0.0581 306.07)",
+          "oklch(83.57% 0.0581 306.07)",
+          "oklch(95.00% 0.0581 306.07)"
+        ]
+      },
+      "nav-active": {
+        "role": "neutral",
+        "displayName": "Nav Active",
+        "tonalRamp": [
+          "oklch(15.00% 0.1237 300.93)",
+          "oklch(26.43% 0.1237 300.93)",
+          "oklch(37.86% 0.1237 300.93)",
+          "oklch(49.29% 0.1237 300.93)",
+          "oklch(60.71% 0.1237 300.93)",
+          "oklch(72.14% 0.1237 300.93)",
+          "oklch(83.57% 0.1237 300.93)",
+          "oklch(95.00% 0.1237 300.93)"
+        ]
+      },
+      "nav-active-border": {
+        "role": "neutral",
+        "displayName": "Nav Active Border",
+        "tonalRamp": [
+          "oklch(15.00% 0.1488 304.68)",
+          "oklch(26.43% 0.1488 304.68)",
+          "oklch(37.86% 0.1488 304.68)",
+          "oklch(49.29% 0.1488 304.68)",
+          "oklch(60.71% 0.1488 304.68)",
+          "oklch(72.14% 0.1488 304.68)",
+          "oklch(83.57% 0.1488 304.68)",
+          "oklch(95.00% 0.1488 304.68)"
+        ]
+      },
+      "nav-hover": {
+        "role": "neutral",
+        "displayName": "Nav Hover",
+        "tonalRamp": [
+          "oklch(15.00% 0.0596 306.14)",
+          "oklch(26.43% 0.0596 306.14)",
+          "oklch(37.86% 0.0596 306.14)",
+          "oklch(49.29% 0.0596 306.14)",
+          "oklch(60.71% 0.0596 306.14)",
+          "oklch(72.14% 0.0596 306.14)",
+          "oklch(83.57% 0.0596 306.14)",
+          "oklch(95.00% 0.0596 306.14)"
+        ]
+      },
+      "primary": {
+        "role": "primary",
+        "displayName": "Primary",
+        "tonalRamp": [
+          "oklch(15.00% 0.2319 292.83)",
+          "oklch(26.43% 0.2319 292.83)",
+          "oklch(37.86% 0.2319 292.83)",
+          "oklch(49.29% 0.2319 292.83)",
+          "oklch(60.71% 0.2319 292.83)",
+          "oklch(72.14% 0.2319 292.83)",
+          "oklch(83.57% 0.2319 292.83)",
+          "oklch(95.00% 0.2319 292.83)"
+        ]
+      },
+      "primary-border": {
+        "role": "primary",
+        "displayName": "Primary Border",
+        "tonalRamp": [
+          "oklch(15.00% 0.1888 299.43)",
+          "oklch(26.43% 0.1888 299.43)",
+          "oklch(37.86% 0.1888 299.43)",
+          "oklch(49.29% 0.1888 299.43)",
+          "oklch(60.71% 0.1888 299.43)",
+          "oklch(72.14% 0.1888 299.43)",
+          "oklch(83.57% 0.1888 299.43)",
+          "oklch(95.00% 0.1888 299.43)"
+        ]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "Primary Hover",
+        "tonalRamp": [
+          "oklch(15.00% 0.2235 296.00)",
+          "oklch(26.43% 0.2235 296.00)",
+          "oklch(37.86% 0.2235 296.00)",
+          "oklch(49.29% 0.2235 296.00)",
+          "oklch(60.71% 0.2235 296.00)",
+          "oklch(72.14% 0.2235 296.00)",
+          "oklch(83.57% 0.2235 296.00)",
+          "oklch(95.00% 0.2235 296.00)"
+        ]
+      },
+      "primary-disabled": {
+        "role": "primary",
+        "displayName": "Primary Disabled",
+        "tonalRamp": [
+          "oklch(15.00% 0.0795 306.42)",
+          "oklch(26.43% 0.0795 306.42)",
+          "oklch(37.86% 0.0795 306.42)",
+          "oklch(49.29% 0.0795 306.42)",
+          "oklch(60.71% 0.0795 306.42)",
+          "oklch(72.14% 0.0795 306.42)",
+          "oklch(83.57% 0.0795 306.42)",
+          "oklch(95.00% 0.0795 306.42)"
+        ]
+      },
+      "primary-disabled-text": {
+        "role": "primary",
+        "displayName": "Primary Disabled Text",
+        "tonalRamp": [
+          "oklch(15.00% 0.0635 307.53)",
+          "oklch(26.43% 0.0635 307.53)",
+          "oklch(37.86% 0.0635 307.53)",
+          "oklch(49.29% 0.0635 307.53)",
+          "oklch(60.71% 0.0635 307.53)",
+          "oklch(72.14% 0.0635 307.53)",
+          "oklch(83.57% 0.0635 307.53)",
+          "oklch(95.00% 0.0635 307.53)"
+        ]
+      },
+      "primary-disabled-border": {
+        "role": "primary",
+        "displayName": "Primary Disabled Border",
+        "tonalRamp": [
+          "oklch(15.00% 0.0827 307.85)",
+          "oklch(26.43% 0.0827 307.85)",
+          "oklch(37.86% 0.0827 307.85)",
+          "oklch(49.29% 0.0827 307.85)",
+          "oklch(60.71% 0.0827 307.85)",
+          "oklch(72.14% 0.0827 307.85)",
+          "oklch(83.57% 0.0827 307.85)",
+          "oklch(95.00% 0.0827 307.85)"
+        ]
+      },
+      "progress-track": {
+        "role": "neutral",
+        "displayName": "Progress Track",
+        "tonalRamp": [
+          "oklch(15.00% 0.0549 303.29)",
+          "oklch(26.43% 0.0549 303.29)",
+          "oklch(37.86% 0.0549 303.29)",
+          "oklch(49.29% 0.0549 303.29)",
+          "oklch(60.71% 0.0549 303.29)",
+          "oklch(72.14% 0.0549 303.29)",
+          "oklch(83.57% 0.0549 303.29)",
+          "oklch(95.00% 0.0549 303.29)"
+        ]
+      },
+      "progress-fill": {
+        "role": "primary",
+        "displayName": "Progress Fill",
+        "tonalRamp": [
+          "oklch(15.00% 0.1908 300.79)",
+          "oklch(26.43% 0.1908 300.79)",
+          "oklch(37.86% 0.1908 300.79)",
+          "oklch(49.29% 0.1908 300.79)",
+          "oklch(60.71% 0.1908 300.79)",
+          "oklch(72.14% 0.1908 300.79)",
+          "oklch(83.57% 0.1908 300.79)",
+          "oklch(95.00% 0.1908 300.79)"
+        ]
+      },
+      "input": {
+        "role": "neutral",
+        "displayName": "Input",
+        "tonalRamp": [
+          "oklch(15.00% 0.0413 303.03)",
+          "oklch(26.43% 0.0413 303.03)",
+          "oklch(37.86% 0.0413 303.03)",
+          "oklch(49.29% 0.0413 303.03)",
+          "oklch(60.71% 0.0413 303.03)",
+          "oklch(72.14% 0.0413 303.03)",
+          "oklch(83.57% 0.0413 303.03)",
+          "oklch(95.00% 0.0413 303.03)"
+        ]
+      },
+      "input-border": {
+        "role": "neutral",
+        "displayName": "Input Border",
+        "tonalRamp": [
+          "oklch(15.00% 0.1099 305.98)",
+          "oklch(26.43% 0.1099 305.98)",
+          "oklch(37.86% 0.1099 305.98)",
+          "oklch(49.29% 0.1099 305.98)",
+          "oklch(60.71% 0.1099 305.98)",
+          "oklch(72.14% 0.1099 305.98)",
+          "oklch(83.57% 0.1099 305.98)",
+          "oklch(95.00% 0.1099 305.98)"
+        ]
+      },
+      "server-text": {
+        "role": "neutral",
+        "displayName": "Server Text",
+        "tonalRamp": [
+          "oklch(15.00% 0.0901 302.67)",
+          "oklch(26.43% 0.0901 302.67)",
+          "oklch(37.86% 0.0901 302.67)",
+          "oklch(49.29% 0.0901 302.67)",
+          "oklch(60.71% 0.0901 302.67)",
+          "oklch(72.14% 0.0901 302.67)",
+          "oklch(83.57% 0.0901 302.67)",
+          "oklch(95.00% 0.0901 302.67)"
+        ]
+      },
+      "wordmark": {
+        "role": "neutral",
+        "displayName": "Wordmark",
+        "tonalRamp": [
+          "oklch(15.00% 0.0101 325.65)",
+          "oklch(26.43% 0.0101 325.65)",
+          "oklch(37.86% 0.0101 325.65)",
+          "oklch(49.29% 0.0101 325.65)",
+          "oklch(60.71% 0.0101 325.65)",
+          "oklch(72.14% 0.0101 325.65)",
+          "oklch(83.57% 0.0101 325.65)",
+          "oklch(95.00% 0.0101 325.65)"
+        ]
+      },
+      "wordmark-outline": {
+        "role": "neutral",
+        "displayName": "Wordmark Outline",
+        "tonalRamp": [
+          "oklch(15.00% 0.0353 298.92)",
+          "oklch(26.43% 0.0353 298.92)",
+          "oklch(37.86% 0.0353 298.92)",
+          "oklch(49.29% 0.0353 298.92)",
+          "oklch(60.71% 0.0353 298.92)",
+          "oklch(72.14% 0.0353 298.92)",
+          "oklch(83.57% 0.0353 298.92)",
+          "oklch(95.00% 0.0353 298.92)"
+        ]
+      },
+      "tagline": {
+        "role": "neutral",
+        "displayName": "Tagline",
+        "tonalRamp": [
+          "oklch(15.00% 0.0203 325.73)",
+          "oklch(26.43% 0.0203 325.73)",
+          "oklch(37.86% 0.0203 325.73)",
+          "oklch(49.29% 0.0203 325.73)",
+          "oklch(60.71% 0.0203 325.73)",
+          "oklch(72.14% 0.0203 325.73)",
+          "oklch(83.57% 0.0203 325.73)",
+          "oklch(95.00% 0.0203 325.73)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Native banner size: max(26, min(49, int(width * 0.048))) pixels."
+      },
+      "brand": {
+        "displayName": "Brand",
+        "purpose": "See DESIGN.md Typography for implemented role."
+      },
+      "heading": {
+        "displayName": "Heading",
+        "purpose": "See DESIGN.md Typography for implemented role."
+      },
+      "action": {
+        "displayName": "Action",
+        "purpose": "See DESIGN.md Typography for implemented role."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "See DESIGN.md Typography for implemented role."
+      },
+      "muted": {
+        "displayName": "Muted",
+        "purpose": "See DESIGN.md Typography for implemented role."
+      },
+      "tagline": {
+        "displayName": "Tagline",
+        "purpose": "See DESIGN.md Typography for implemented role."
+      }
+    },
+    "shadows": [],
+    "motion": [],
+    "breakpoints": []
+  },
+  "components": [
+    {
+      "name": "Play",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "HTML approximation of Qt Play states. Object-specific Qt borders override generic focus; browser focus is native.",
+      "html": "<button class=\"ds-play\">Play Wombatcraft</button>",
+      "css": ".ds-play{font:15px \"Segoe UI\",sans-serif;color:#f5efff;border:1px solid #59436e;border-radius:8px;padding:11px 16px;text-align:left;background:#783ee3;border-color:#af7cff;font-size:25px;font-weight:700;padding:17px 24px}.ds-play:hover{background:#8c51ee}.ds-play:focus-visible{border:1px solid #af7cff}.ds-play:disabled{background:#49325f;color:#baa5cf;border-color:#674d7e}"
+    },
+    {
+      "name": "Secondary action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Supporting native Qt action translated for preview.",
+      "html": "<button class=\"ds-action\">Explore the pack</button>",
+      "css": ".ds-action{font:15px \"Segoe UI\",sans-serif;color:#f5efff;border:1px solid #59436e;border-radius:8px;padding:11px 16px;text-align:left;background:#30243f}.ds-action:hover{background:#45305e;border-color:#b58aed}.ds-action:focus-visible{outline:none;border:2px solid #d9baff}.ds-action:disabled{background:#30243f;color:#b7a5c8;border-color:#4c3c5d}"
+    },
+    {
+      "name": "Sidebar navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "One selected stacked page; hover overrides selected fill. Browser preview uses native focus.",
+      "html": "<nav class=\"ds-nav\"><button aria-current=\"page\">Home</button><button>Your pack</button><button>Account</button><button>Settings</button><button>About</button></nav>",
+      "css": ".ds-nav{background:#21192d;padding:16px;width:172px;display:grid;gap:9px}.ds-nav button{font:15px \"Segoe UI\",sans-serif;color:#f5efff;border:1px solid #59436e;border-radius:8px;padding:11px 16px;text-align:left;background:transparent;border-color:transparent;padding:14px 16px}.ds-nav button[aria-current]{background:#4e2d78;border-color:#8051b0;font-weight:600}.ds-nav button:hover{background:#352545}.ds-nav button:focus-visible{outline:auto}"
+    },
+    {
+      "name": "Content surface",
+      "kind": "card",
+      "refersTo": "surface",
+      "description": "Plum card with tonal border; no hover motion or elevation.",
+      "html": "<section class=\"ds-card\"><h2>A world worth making yours</h2><p>Raise a workshop. Learn forgotten magic. Build a home together.</p></section>",
+      "css": ".ds-card{background:#261e32;border:1px solid #392e47;border-radius:12px;padding:20px 22px;color:#f5efff;font:15px \"Segoe UI\",sans-serif}.ds-card h2{font-size:22px;font-weight:600;margin:0 0 12px}.ds-card p{margin:0}"
+    },
+    {
+      "name": "Memory input",
+      "kind": "input",
+      "refersTo": "memory-input",
+      "description": "Native spin box approximation; 6\u201316 GB, persisted value, default 10. Browser supplies native focus and arrows.",
+      "html": "<label class=\"ds-memory\">Minecraft memory <input type=\"number\" min=\"6\" max=\"16\" value=\"10\" aria-label=\"Memory in GB\"> GB</label>",
+      "css": ".ds-memory{font:15px \"Segoe UI\",sans-serif;color:#f5efff}.ds-memory input{font:15px \"Segoe UI\",sans-serif;color:#f5efff;background:#21182d;border:1px solid #79579b;border-radius:6px;padding:9px;width:65px}"
+    },
+    {
+      "name": "Progress",
+      "kind": "custom",
+      "refersTo": "progress",
+      "description": "Completed state; runtime is native indeterminate during work, not a percentage.",
+      "html": "<div class=\"ds-progress\" role=\"progressbar\" aria-label=\"Installation complete\" aria-valuenow=\"1\" aria-valuemin=\"0\" aria-valuemax=\"1\"><span></span></div>",
+      "css": ".ds-progress{background:#362947;border-radius:2px;height:5px;width:100%}.ds-progress span{display:block;height:5px;background:#b27bff;border-radius:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Play. Mod. Wombat.",
+    "overview": "A friendly brown wombat welcomes players into a Minecraft voxel sunset. Dark plum surfaces and saturated purple actions follow the user's replacement launcher reference, with block lettering and clear sidebar navigation.\n\nThe native Windows launcher organizes one official pack into approachable pages. Illustrated warmth belongs to the banner and mascot; controls remain readable, steady and practical. This purple launcher supersedes the previous woodland/copper launcher design. The woodland direction remains scoped to the separate Minecraft menu.",
+    "keyCharacteristics": [
+      "Friendly wombat mascot and voxel sunset banner.",
+      "Dark plum shell, layered panels and purple primary actions.",
+      "Block wordmark with readable Segoe UI controls.",
+      "Persistent operation status and distinct account/settings pages."
+    ],
+    "rules": [
+      {
+        "name": "The Verified Status Rule",
+        "body": "Show online wording and player counts only after a successful server status response.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "**Do** follow the user's purple launcher reference with plum panels, violet Play and a friendly wombat.",
+      "**Do** keep the official pack, real server status and persistent operation status easy to find.",
+      "**Do** preserve the sunset banner and clear five-page sidebar hierarchy.",
+      "**Do** keep the woodland Minecraft menu direction scoped to that separate surface."
+    ],
+    "donts": [
+      "**Don't** restore copper launcher styling or treat purple as prohibited.",
+      "**Don't** invent online counts or hide unavailable authentication behind an enabled Play button.",
+      "**Don't** add decorative statistics or development explanations to player controls.",
+      "**Don't** equate update tests or UI screenshots with verified authentication and game launch."
+    ]
+  }
+}

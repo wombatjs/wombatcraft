@@ -94,11 +94,15 @@ def main():
  except Exception:
   panel('start')
   raise
- rollback=STATE/'rollback-pack';rollback.mkdir(exist_ok=True)
- for name in current.get('managed',[]):
-  p=updater.safe_path(instance,name)
-  if p.is_file():
-   dest=updater.safe_path(rollback,name);dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,dest)
+ try:
+  rollback=STATE/'rollback-pack';rollback.mkdir(exist_ok=True)
+  for name in current.get('managed',[]):
+   p=updater.safe_path(instance,name)
+   if p.is_file():
+    dest=updater.safe_path(rollback,name);dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,dest)
+ except Exception:
+  panel('start')
+  raise
  try:
   if pending:updater.activate(m,records,stage,instance,STATE/'transaction')
   subprocess.run(['chown','-R',cfg['owner'],str(instance)],check=True)
@@ -116,6 +120,8 @@ def main():
      target=updater.safe_path(instance,name);target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,target)
    restore_snapshot(instance,backup,roots);state['failed_commit']=m['commit'];write(state_file,state)
    subprocess.run(['chown','-R',cfg['owner'],str(instance)],check=True)
+   panel('start');wait_healthy(host,instance)
+  else:
    panel('start');wait_healthy(host,instance)
   raise
  state.update(last_daily=today,active_commit=m['commit'] if pending else current['commit']);state.pop('warned_at',None);state.pop('final_warning',None);state.pop('empty_since',None);write(state_file,state)

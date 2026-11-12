@@ -9,6 +9,7 @@ for c in chapters:
   point=(q['x'],q['y']);assert point not in positions,(c['title'],point);positions.add(point)
   ids.extend([q['id']]+[x['id'] for x in q.get('tasks',[])]+[x['id'] for x in q.get('rewards',[])])
 assert len(ids)==len(set(ids)),'Duplicate FTB IDs'
+assert all(0<int(i,16)<=0x7FFFFFFFFFFFFFFF for i in ids),'FTB IDs must be positive signed longs'
 graph={q['id']:q.get('dependencies',[]) for q in quests};done=set();active=set()
 def visit(k):
  assert k in graph,'Missing quest dependency '+k

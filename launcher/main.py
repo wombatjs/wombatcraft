@@ -4,7 +4,7 @@ from PySide6.QtCore import Qt,QObject,Signal,QRunnable,QThreadPool,QTimer,QLockF
 from PySide6.QtGui import QPainter,QPixmap,QColor,QLinearGradient,QFontDatabase,QFont
 from PySide6.QtWidgets import QApplication,QWidget,QVBoxLayout,QHBoxLayout,QLabel,QPushButton,QProgressBar,QSpinBox,QMessageBox
 import minecraft_launcher_lib as mc
-import auth,updater,server_status
+import auth,updater,server_status,interface
 
 BASE=Path(getattr(sys,'_MEIPASS',Path(__file__).resolve().parent))
 BRAND=BASE/'branding' if (BASE/'branding').exists() else BASE.parent/'branding'
@@ -27,35 +27,11 @@ class Work(QRunnable):
 
 class Window(QWidget):
  def __init__(self):
-  super().__init__();self.setWindowTitle('Wombatcraft');self.resize(1160,720);self.setMinimumSize(920,620)
-  self.art=QPixmap(str(BRAND/'woodland.png'));self.account=None;self.busy=False;self.game=None;self.log=None;self.release_available=False;self.checking_server=False
-  fontid=QFontDatabase.addApplicationFont(str(BRAND/'Cinzel.ttf'));self.display=QFontDatabase.applicationFontFamilies(fontid)[0] if fontid>=0 else 'Georgia'
-  self.setStyleSheet('''QWidget{color:#f5e6ca;font-family:"Segoe UI";font-size:15px} QLabel{background:transparent} QPushButton{background:#23382f;color:#f5e6ca;border:1px solid #55705b;border-radius:5px;padding:11px 18px;text-align:left} QPushButton:hover{background:#35543f} QPushButton:focus{border:2px solid #e3c698} QPushButton:disabled{color:#a9b5aa;background:#26352b} QPushButton#play{background:#ad673d;border:1px solid #e1bd85;font-size:20px;font-weight:600} QPushButton#play:hover{background:#c2814c} QProgressBar{background:#243a2d;border:0;height:5px} QProgressBar::chunk{background:#72c9bc} QSpinBox{background:#23382f;border:1px solid #55705b;padding:5px}''')
-  outer=QVBoxLayout(self);outer.setContentsMargins(44,40,44,26)
-  title=QLabel('WOMBATCRAFT');title.setStyleSheet(f'font-family:"{self.display}";font-size:46px;font-weight:600;color:#f5e6ca');outer.addWidget(title)
-  tagline=QLabel('Build a home. Master the wild.');tagline.setStyleSheet('font-size:19px;color:#dfcfb2');outer.addWidget(tagline)
-  outer.addStretch(1)
-  self.panel=QWidget();self.panel.setFixedWidth(372);layout=QVBoxLayout(self.panel);layout.setContentsMargins(0,0,0,0);layout.setSpacing(12)
-  self.account_label=QLabel('Your next expedition starts here.');layout.addWidget(self.account_label)
-  self.server_label=QLabel('Official server · Checking…');self.server_label.setStyleSheet('color:#a4d8c7;font-size:14px');layout.addWidget(self.server_label)
-  self.sign=QPushButton('Sign in with Microsoft');self.sign.clicked.connect(self.sign_in);layout.addWidget(self.sign)
-  self.auth_note=QLabel('Microsoft sign-in is not available yet. Use the Modrinth package from Releases.');self.auth_note.setWordWrap(True);self.auth_note.setStyleSheet('font-size:12px;color:#d8c8aa');self.auth_note.setVisible(not bool(CONFIG['microsoft_client_id']));layout.addWidget(self.auth_note)
-  self.play=QPushButton('Play Wombatcraft');self.play.setObjectName('play');self.play.clicked.connect(self.play_game);layout.addWidget(self.play)
-  self.install=QPushButton('Install / check for updates');self.install.clicked.connect(lambda:self.run(self.prepare,self.installed) if self.release_available else self.check_release());layout.addWidget(self.install)
-  self.progress=QProgressBar();self.progress.setFixedHeight(5);self.progress.setTextVisible(False);self.progress.setRange(0,1);self.progress.setValue(0);layout.addWidget(self.progress)
-  self.status=QLabel('Checking for a published release…');self.status.setWordWrap(True);self.status.setMinimumHeight(54);self.status.setStyleSheet('color:#e4d7bf;font-size:14px');layout.addWidget(self.status)
-  settings=QHBoxLayout();settings.addWidget(QLabel('Memory'));self.memory=QSpinBox();self.memory.setRange(6,16);self.memory.setSuffix(' GB');self.memory.setValue(10);settings.addWidget(self.memory);settings.addStretch();layout.addLayout(settings)
-  links=QHBoxLayout();folder=QPushButton('Files');folder.clicked.connect(lambda:os.startfile(str(DATA)));links.addWidget(folder);news=QPushButton('Releases');news.clicked.connect(lambda:webbrowser.open('https://github.com/wombatjs/wombatcraft/releases'));links.addWidget(news);self.logout_button=QPushButton('Sign out');self.logout_button.clicked.connect(self.sign_out);links.addWidget(self.logout_button);layout.addLayout(links)
-  outer.addWidget(self.panel);outer.addSpacing(22)
-  footer=QLabel('Minecraft Java 1.20.1  ·  Forge  ·  Official community server');footer.setStyleSheet('font-size:12px;color:#d1c4ac');outer.addWidget(footer)
+  super().__init__();self.account=None;self.busy=False;self.game=None;self.log=None;self.release_available=False;self.checking_server=False
+  interface.build(self,BRAND,CONFIG,DATA)
   self.timer=QTimer(self);self.timer.timeout.connect(self.poll_game);self.timer.start(1500)
   self.server_timer=QTimer(self);self.server_timer.timeout.connect(self.check_server);self.server_timer.start(30000)
   self.set_busy(False);QTimer.singleShot(200,self.check_release);QTimer.singleShot(300,self.check_server)
- def paintEvent(self,event):
-  p=QPainter(self);p.setRenderHint(QPainter.SmoothPixmapTransform)
-  scaled=self.art.scaled(self.size(),Qt.KeepAspectRatioByExpanding,Qt.SmoothTransformation)
-  p.drawPixmap(self.width()-scaled.width(),(self.height()-scaled.height())//2,scaled)
-  gradient=QLinearGradient(0,0,self.width()*.72,0);gradient.setColorAt(0,QColor(9,23,16,235));gradient.setColorAt(.65,QColor(9,23,16,180));gradient.setColorAt(1,QColor(9,23,16,0));p.fillRect(self.rect(),gradient)
  def set_busy(self,busy):
   self.busy=busy
   idle=not busy and self.game is None
@@ -84,8 +60,8 @@ class Window(QWidget):
   self.status_worker.signals.success.connect(self.server_checked);self.status_worker.signals.error.connect(lambda message:self.server_unavailable())
   QThreadPool.globalInstance().start(self.status_worker)
  def server_checked(self,result):
-  self.checking_server=False;players=result.get('players',{});self.server_label.setText(f'Official server · Online · {players.get("online",0)} / {players.get("max",0)} players')
- def server_unavailable(self):self.checking_server=False;self.server_label.setText('Official server · Status unavailable')
+  self.checking_server=False;players=result.get('players',{});self.server_label.setText(f'Online · {players.get("online",0)} / {players.get("max",0)} players')
+ def server_unavailable(self):self.checking_server=False;self.server_label.setText('Status unavailable')
  def sign_in(self):
   self.status.setText('Complete sign-in in your browser.');self.run(lambda progress:auth.login(CONFIG),self.signed_in)
  def signed_in(self,account):self.account=account;self.account_label.setText('Welcome, '+account['name']);self.sign.setText('Switch Microsoft account');self.set_busy(False);self.status.setText('Signed in. Play will check and install the latest release.' if self.release_available else 'Signed in. Check Releases for pack availability.')
@@ -135,5 +111,5 @@ if __name__=='__main__':
  if not lock.tryLock(100):QMessageBox.information(None,'Wombatcraft','Wombatcraft is already open.');sys.exit(1)
  updater.recover(INSTANCE,DATA/'transaction')
  window=Window()
- if '--compact' in sys.argv:window.resize(920,620)
+ if '--compact' in sys.argv:window.resize(1000,680)
  window.show();sys.exit(app.exec())
