@@ -1,0 +1,57 @@
+name: Validate and publish Wombatcraft
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: wombatcraft-release
+  cancel-in-progress: false
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - run: python tools/validate.py
+      - run: python -m unittest discover -s tests -v
+      - run: python tools/build_release.py
+      - run: python tools/smoke_server.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: server-validation
+          path: |
+            dist/server-validation.json
+            dist/server-smoke/console.log
+            dist/server-smoke/install.log
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pack-release
+          path: |
+            dist/manifest.json
+            dist/overrides.zip
+            dist/Wombatcraft.mrpack
+            dist/server-validation.json
+  publish:
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: pack-release
+          path: release
+      - name: Publish tested commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh release create "build-${GITHUB_SHA}" release/* --target "${GITHUB_SHA}" --title "Wombatcraft ${GITHUB_SHA:0:8}" --notes "Validated client/server pack update. See server-validation.json for the automated smoke-test results." --latest

@@ -1,10 +1,10 @@
 import json,os,subprocess,sys,threading,webbrowser,urllib.error
 from pathlib import Path
-from PySide6.QtCore import Qt,QObject,Signal,QRunnable,QThreadPool,QTimer,QLockFile
+from PySide6.QtCore import Qt,QObject,Signal,QRunnable,QThreadPool,QTimer,QLockFile,QRect
 from PySide6.QtGui import QPainter,QPixmap,QColor,QLinearGradient,QFontDatabase,QFont
 from PySide6.QtWidgets import QApplication,QWidget,QVBoxLayout,QHBoxLayout,QLabel,QPushButton,QProgressBar,QSpinBox,QMessageBox
 import minecraft_launcher_lib as mc
-import auth,updater
+import auth,updater,server_status
 
 BASE=Path(getattr(sys,'_MEIPASS',Path(__file__).resolve().parent))
 BRAND=BASE/'branding' if (BASE/'branding').exists() else BASE.parent/'branding'
@@ -28,7 +28,7 @@ class Work(QRunnable):
 class Window(QWidget):
  def __init__(self):
   super().__init__();self.setWindowTitle('Wombatcraft');self.resize(1160,720);self.setMinimumSize(920,620)
-  self.art=QPixmap(str(BRAND/'woodland.png'));self.account=None;self.busy=False;self.game=None;self.log=None
+  self.art=QPixmap(str(BRAND/'woodland.png'));self.account=None;self.busy=False;self.game=None;self.log=None;self.release_available=False;self.checking_server=False
   fontid=QFontDatabase.addApplicationFont(str(BRAND/'Cinzel.ttf'));self.display=QFontDatabase.applicationFontFamilies(fontid)[0] if fontid>=0 else 'Georgia'
   self.setStyleSheet('''QWidget{color:#f5e6ca;font-family:"Segoe UI";font-size:15px} QLabel{background:transparent} QPushButton{background:#23382f;color:#f5e6ca;border:1px solid #55705b;border-radius:5px;padding:11px 18px;text-align:left} QPushButton:hover{background:#35543f} QPushButton:focus{border:2px solid #e3c698} QPushButton:disabled{color:#a9b5aa;background:#26352b} QPushButton#play{background:#ad673d;border:1px solid #e1bd85;font-size:20px;font-weight:600} QPushButton#play:hover{background:#c2814c} QProgressBar{background:#243a2d;border:0;height:5px} QProgressBar::chunk{background:#72c9bc} QSpinBox{background:#23382f;border:1px solid #55705b;padding:5px}''')
   outer=QVBoxLayout(self);outer.setContentsMargins(44,40,44,26)
@@ -37,7 +37,9 @@ class Window(QWidget):
   outer.addStretch(1)
   self.panel=QWidget();self.panel.setFixedWidth(372);layout=QVBoxLayout(self.panel);layout.setContentsMargins(0,0,0,0);layout.setSpacing(12)
   self.account_label=QLabel('Your next expedition starts here.');layout.addWidget(self.account_label)
+  self.server_label=QLabel('Official server · Checking…');self.server_label.setStyleSheet('color:#a4d8c7;font-size:14px');layout.addWidget(self.server_label)
   self.sign=QPushButton('Sign in with Microsoft');self.sign.clicked.connect(self.sign_in);layout.addWidget(self.sign)
+  self.auth_note=QLabel('Microsoft sign-in is not available yet. Use the Modrinth package from Releases.');self.auth_note.setWordWrap(True);self.auth_note.setStyleSheet('font-size:12px;color:#d8c8aa');self.auth_note.setVisible(not bool(CONFIG['microsoft_client_id']));layout.addWidget(self.auth_note)
   self.play=QPushButton('Play Wombatcraft');self.play.setObjectName('play');self.play.clicked.connect(self.play_game);layout.addWidget(self.play)
   self.install=QPushButton('Install / check for updates');self.install.clicked.connect(lambda:self.run(self.prepare,self.installed));layout.addWidget(self.install)
   self.progress=QProgressBar();self.progress.setFixedHeight(5);self.progress.setTextVisible(False);self.progress.setRange(0,1);self.progress.setValue(0);layout.addWidget(self.progress)
@@ -47,14 +49,21 @@ class Window(QWidget):
   outer.addWidget(self.panel);outer.addSpacing(22)
   footer=QLabel('Minecraft Java 1.20.1  ·  Forge  ·  Official community server');footer.setStyleSheet('font-size:12px;color:#d1c4ac');outer.addWidget(footer)
   self.timer=QTimer(self);self.timer.timeout.connect(self.poll_game);self.timer.start(1500)
-  QTimer.singleShot(200,self.check_release)
+  self.server_timer=QTimer(self);self.server_timer.timeout.connect(self.check_server);self.server_timer.start(30000)
+  self.set_busy(False);QTimer.singleShot(200,self.check_release);QTimer.singleShot(300,self.check_server)
  def paintEvent(self,event):
   p=QPainter(self);p.setRenderHint(QPainter.SmoothPixmapTransform)
-  p.drawPixmap(self.rect(),self.art)
+  scaled=self.art.scaled(self.size(),Qt.KeepAspectRatioByExpanding,Qt.SmoothTransformation)
+  p.drawPixmap(self.width()-scaled.width(),(self.height()-scaled.height())//2,scaled)
   gradient=QLinearGradient(0,0,self.width()*.72,0);gradient.setColorAt(0,QColor(9,23,16,235));gradient.setColorAt(.65,QColor(9,23,16,180));gradient.setColorAt(1,QColor(9,23,16,0));p.fillRect(self.rect(),gradient)
  def set_busy(self,busy):
   self.busy=busy
-  for w in [self.sign,self.play,self.install,self.memory,self.logout_button]:w.setEnabled(not busy and self.game is None)
+  idle=not busy and self.game is None
+  self.sign.setEnabled(idle and bool(CONFIG['microsoft_client_id']))
+  self.play.setEnabled(idle and self.release_available and bool(CONFIG['microsoft_client_id']))
+  self.install.setEnabled(idle);self.memory.setEnabled(idle)
+  self.install.setText('Install / check for updates' if self.release_available else 'Check for a release')
+  self.logout_button.setEnabled(idle and self.account is not None)
   self.progress.setRange(0,0 if busy else 1);self.progress.setValue(0)
  def run(self,fn,success):
   if self.busy or self.game:return
@@ -65,12 +74,23 @@ class Window(QWidget):
  def check_release(self):
   def check(progress):
    m=updater.fetch_json(CONFIG['manifest_url']);updater.validate_manifest(m);return m
-  self.run(check,lambda m:self.status.setText('Release '+m['commit'][:8]+' is available. Install it or choose Play.'))
+  self.run(check,self.release_checked)
+ def release_checked(self,m):
+  self.release_available=True;self.set_busy(False);self.status.setText('Release '+m['commit'][:8]+' is available. Install the pack to get ready.')
+ def check_server(self):
+  if self.checking_server:return
+  self.checking_server=True;host,port=CONFIG['server_address'].rsplit(':',1)
+  self.status_worker=Work(lambda progress:server_status.status(host,int(port)))
+  self.status_worker.signals.success.connect(self.server_checked);self.status_worker.signals.error.connect(lambda message:self.server_unavailable())
+  QThreadPool.globalInstance().start(self.status_worker)
+ def server_checked(self,result):
+  self.checking_server=False;players=result.get('players',{});self.server_label.setText(f'Official server · Online · {players.get("online",0)} / {players.get("max",0)} players')
+ def server_unavailable(self):self.checking_server=False;self.server_label.setText('Official server · Status unavailable')
  def sign_in(self):
   self.status.setText('Complete sign-in in your browser.');self.run(lambda progress:auth.login(CONFIG),self.signed_in)
- def signed_in(self,account):self.account=account;self.account_label.setText('Welcome, '+account['name']);self.sign.setText('Switch Microsoft account');self.status.setText('Signed in. Ready for your next expedition.')
+ def signed_in(self,account):self.account=account;self.account_label.setText('Welcome, '+account['name']);self.sign.setText('Switch Microsoft account');self.set_busy(False);self.status.setText('Signed in. Play will check and install the latest release.' if self.release_available else 'Signed in. Check Releases for pack availability.')
  def sign_out(self):
-  auth.logout();self.account=None;self.account_label.setText('Your next expedition starts here.');self.sign.setText('Sign in with Microsoft');self.status.setText('Signed out on this computer.')
+  auth.logout();self.account=None;self.account_label.setText('Your next expedition starts here.');self.sign.setText('Sign in with Microsoft');self.set_busy(False);self.status.setText('Signed out on this computer.')
  def prepare(self,progress):
   progress('Checking the latest published release…');m=updater.fetch_json(CONFIG['manifest_url']);updater.validate_manifest(m)
   stage=DATA/'staging'/m['commit'];records=updater.stage(m,stage,DATA/'cache',progress=progress)
@@ -88,7 +108,8 @@ class Window(QWidget):
    import winreg
    with winreg.CreateKey(winreg.HKEY_CURRENT_USER,r'Software\Microsoft\DirectX\UserGpuPreferences') as key:winreg.SetValueEx(key,str(Path(java).resolve()),0,winreg.REG_SZ,'GpuPreference=2;')
   return dict(manifest=m,java=java,version=installed)
- def installed(self,result):self.status.setText('Release '+result['manifest']['commit'][:8]+' is installed. Sign in and choose Play.');self.progress.setValue(1)
+ def installed(self,result):
+  self.release_available=True;self.set_busy(False);suffix='Choose Play to join.' if self.account else 'Sign in to play.' if CONFIG['microsoft_client_id'] else 'Use Modrinth to play while Microsoft sign-in is unavailable.';self.status.setText('Release '+result['manifest']['commit'][:8]+' is installed. '+suffix);self.progress.setValue(1)
  def play_game(self):
   memory=self.memory.value()
   def launch(progress):
@@ -113,4 +134,6 @@ if __name__=='__main__':
  lock=QLockFile(str(DATA/'launcher.lock'));lock.setStaleLockTime(0)
  if not lock.tryLock(100):QMessageBox.information(None,'Wombatcraft','Wombatcraft is already open.');sys.exit(1)
  updater.recover(INSTANCE,DATA/'transaction')
- window=Window();window.show();sys.exit(app.exec())
+ window=Window()
+ if '--compact' in sys.argv:window.resize(920,620)
+ window.show();sys.exit(app.exec())

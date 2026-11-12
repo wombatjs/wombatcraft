@@ -23,4 +23,5 @@ server.properties
 usercache.json
 ops.json
 whitelist.json
+.impeccable/review/
 pack/config/ftbquests/quests/README.md
