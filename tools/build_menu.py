@@ -22,7 +22,7 @@ for name,bg,hover in [('primary','#ad673d','#cf8b55'),('secondary','#23382f','#3
  im.save(assets/f'textures/gui/{name}.png')
 buttons=[('join','Join Wombatcraft','CONNECT_TO_SERVER','74.208.117.88:25565'),('singleplayer','Singleplayer','OPEN_GUI','SINGLEPLAYER'),('multiplayer','Other servers','OPEN_GUI','MULTIPLAYER'),('options','Options','OPEN_GUI','OPTIONS'),('mods','Mods','OPEN_GUI','MODS'),('quit','Quit game','QUIT',None)]
 for i,(name,label,action,data) in enumerate(buttons):
- obj=dict(x=24,y=-24+i*26,width=170,height=22,anchor='MIDDLE_LEFT',langKey=label,action=action,fontColor=0xFFF1D8,hoverFontColor=0xFFFFFF,texture=f'packmenu:textures/gui/{"primary" if i==0 else "secondary"}.png',u=0,v=0,hoverU=0,hoverV=24,texWidth=200,texHeight=48,widgets=False,dropShadow=True)
+ obj=dict(x=24,y=-55+i*26,width=170,height=22,anchor='MIDDLE_LEFT',langKey=label,action=action,fontColor=0xFFF1D8,hoverFontColor=0xFFFFFF,texture=f'packmenu:textures/gui/{"primary" if i==0 else "secondary"}.png',u=0,v=0,hoverU=0,hoverV=24,texWidth=200,texHeight=48,widgets=False,dropShadow=True)
  if data:obj['data']=data
  (assets/f'buttons/{i:02}_{name}.json').write_text(json.dumps(obj,indent=2)+'\n')
 (ROOT/'pack/config/packmenu.cfg').write_text('''general {
@@ -37,7 +37,7 @@ logo {
  S:"Texture Path"=packmenu:textures/gui/logo.png
  S:"Anchor Point"=MIDDLE_LEFT
  I:"X Offset"=120
- I:"Y Offset"=-410
+ I:"Y Offset"=-550
  I:Width=220
  I:Height=34
  I:"Texture Width"=1100
