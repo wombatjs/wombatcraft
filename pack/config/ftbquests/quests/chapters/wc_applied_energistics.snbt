@@ -1,5 +1,5 @@
 {
-  "id": "CC9B763DAAE348C4",
+  "id": "4C9B763DAAE348C4",
   "title": "Applied Energistics",
   "group": "0DCB27D2C77209FB",
   "order_index": 12,
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "id": "BF175B4EF623E64F",
+      "id": "3F175B4EF623E64F",
       "title": "Certus Quartz Crystal",
       "subtitle": "",
       "description": [],
@@ -58,7 +58,7 @@
       "rewards": []
     },
     {
-      "id": "E7CFFC27E83C0BC3",
+      "id": "67CFFC27E83C0BC3",
       "title": "Charged Certus Quartz Crystal",
       "subtitle": "",
       "description": [],
@@ -67,11 +67,11 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "BF175B4EF623E64F"
+        "3F175B4EF623E64F"
       ],
       "tasks": [
         {
-          "id": "F1935A2AA8B399F1",
+          "id": "71935A2AA8B399F1",
           "type": "item",
           "item": "ae2:charged_certus_quartz_crystal",
           "count": 1,
@@ -90,7 +90,7 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "E7CFFC27E83C0BC3"
+        "67CFFC27E83C0BC3"
       ],
       "tasks": [
         {
@@ -103,7 +103,7 @@
       ],
       "rewards": [
         {
-          "id": "EF0C8575C5E77B15",
+          "id": "6F0C8575C5E77B15",
           "type": "xp",
           "xp": 10
         }
@@ -133,7 +133,7 @@
       "rewards": []
     },
     {
-      "id": "DFC7FFCCF1EE5E02",
+      "id": "5FC7FFCCF1EE5E02",
       "title": "Inscriber",
       "subtitle": "",
       "description": [],
@@ -155,12 +155,12 @@
       ],
       "rewards": [
         {
-          "id": "9ED3546A1AAE1A66",
+          "id": "1ED3546A1AAE1A66",
           "type": "xp",
           "xp": 30
         },
         {
-          "id": "E76FF8695F2E1788",
+          "id": "676FF8695F2E1788",
           "type": "item",
           "item": "minecraft:iron_ingot",
           "count": 8
@@ -179,11 +179,11 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "DFC7FFCCF1EE5E02"
+        "5FC7FFCCF1EE5E02"
       ],
       "tasks": [
         {
-          "id": "C74BE2CE17132650",
+          "id": "474BE2CE17132650",
           "type": "item",
           "item": "ae2:silicon",
           "count": 1,
@@ -192,14 +192,14 @@
       ],
       "rewards": [
         {
-          "id": "8DA24A0CA6EA34E2",
+          "id": "0DA24A0CA6EA34E2",
           "type": "xp",
           "xp": 15
         }
       ]
     },
     {
-      "id": "BAA680E9AD5AFC50",
+      "id": "3AA680E9AD5AFC50",
       "title": "Printed Silicon",
       "subtitle": "",
       "description": [],
@@ -212,7 +212,7 @@
       ],
       "tasks": [
         {
-          "id": "F1BB5783CC73A80F",
+          "id": "71BB5783CC73A80F",
           "type": "item",
           "item": "ae2:printed_silicon",
           "count": 1,
@@ -222,7 +222,7 @@
       "rewards": []
     },
     {
-      "id": "E3400889BE6A83DA",
+      "id": "63400889BE6A83DA",
       "title": "Printed Logic Circuit",
       "subtitle": "",
       "description": [],
@@ -231,7 +231,7 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "BAA680E9AD5AFC50"
+        "3AA680E9AD5AFC50"
       ],
       "tasks": [
         {
@@ -245,7 +245,7 @@
       "rewards": []
     },
     {
-      "id": "B3BC5C7457F89B64",
+      "id": "33BC5C7457F89B64",
       "title": "Logic Processor",
       "subtitle": "",
       "description": [],
@@ -254,11 +254,11 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "E3400889BE6A83DA"
+        "63400889BE6A83DA"
       ],
       "tasks": [
         {
-          "id": "BBD40CE8C9D410A7",
+          "id": "3BD40CE8C9D410A7",
           "type": "item",
           "item": "ae2:logic_processor",
           "count": 1,
@@ -267,7 +267,7 @@
       ],
       "rewards": [
         {
-          "id": "E0E2D2B21411D13E",
+          "id": "60E2D2B21411D13E",
           "type": "xp",
           "xp": 15
         }
@@ -283,7 +283,7 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "B3BC5C7457F89B64"
+        "33BC5C7457F89B64"
       ],
       "tasks": [
         {
@@ -310,7 +310,7 @@
       ],
       "tasks": [
         {
-          "id": "CB87EE182378A002",
+          "id": "4B87EE182378A002",
           "type": "item",
           "item": "ae2:calculation_processor",
           "count": 1,
@@ -333,7 +333,7 @@
       ],
       "tasks": [
         {
-          "id": "D89BF65E9AF2414F",
+          "id": "589BF65E9AF2414F",
           "type": "item",
           "item": "ae2:printed_engineering_processor",
           "count": 1,
@@ -342,7 +342,7 @@
       ],
       "rewards": [
         {
-          "id": "F596F9751025703D",
+          "id": "7596F9751025703D",
           "type": "xp",
           "xp": 15
         }
@@ -395,7 +395,7 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "B3BC5C7457F89B64"
+        "33BC5C7457F89B64"
       ],
       "tasks": [
         {
@@ -415,7 +415,7 @@
       ]
     },
     {
-      "id": "8140BF924003D24A",
+      "id": "0140BF924003D24A",
       "title": "Fluix ME Glass Cable",
       "subtitle": "",
       "description": [],
@@ -447,7 +447,7 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "8140BF924003D24A"
+        "0140BF924003D24A"
       ],
       "tasks": [
         {
@@ -461,7 +461,7 @@
       "rewards": []
     },
     {
-      "id": "F9C984DB5AA06677",
+      "id": "79C984DB5AA06677",
       "title": "ME Item Cell Housing",
       "subtitle": "",
       "description": [],
@@ -474,7 +474,7 @@
       ],
       "tasks": [
         {
-          "id": "96D01FA5010E302A",
+          "id": "16D01FA5010E302A",
           "type": "item",
           "item": "ae2:item_cell_housing",
           "count": 1,
@@ -483,7 +483,7 @@
       ],
       "rewards": [
         {
-          "id": "CB4103888FB4FBD4",
+          "id": "4B4103888FB4FBD4",
           "type": "xp",
           "xp": 20
         }
@@ -499,7 +499,7 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "F9C984DB5AA06677"
+        "79C984DB5AA06677"
       ],
       "tasks": [
         {
@@ -513,7 +513,7 @@
       "rewards": []
     },
     {
-      "id": "82485A550C1FC2D4",
+      "id": "02485A550C1FC2D4",
       "title": "ME Drive",
       "subtitle": "",
       "description": [],
@@ -536,7 +536,7 @@
       "rewards": []
     },
     {
-      "id": "D07AD8E89E851FFC",
+      "id": "507AD8E89E851FFC",
       "title": "ME Terminal",
       "subtitle": "",
       "description": [],
@@ -545,11 +545,11 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "82485A550C1FC2D4"
+        "02485A550C1FC2D4"
       ],
       "tasks": [
         {
-          "id": "938C494C842B207E",
+          "id": "138C494C842B207E",
           "type": "item",
           "item": "ae2:terminal",
           "count": 1,
@@ -558,7 +558,7 @@
       ],
       "rewards": [
         {
-          "id": "85E502663042DA23",
+          "id": "05E502663042DA23",
           "type": "xp",
           "xp": 20
         }
@@ -574,11 +574,11 @@
       "y": 6.0,
       "shape": "hexagon",
       "dependencies": [
-        "D07AD8E89E851FFC"
+        "507AD8E89E851FFC"
       ],
       "tasks": [
         {
-          "id": "FBCFD0C123A339B8",
+          "id": "7BCFD0C123A339B8",
           "type": "item",
           "item": "ae2:crafting_terminal",
           "count": 1,
@@ -587,7 +587,7 @@
       ],
       "rewards": [
         {
-          "id": "ED702040C964D876",
+          "id": "6D702040C964D876",
           "type": "xp",
           "xp": 40
         },
@@ -624,7 +624,7 @@
       ],
       "rewards": [
         {
-          "id": "F93B118253BF0882",
+          "id": "793B118253BF0882",
           "type": "xp",
           "xp": 25
         }
@@ -644,7 +644,7 @@
       ],
       "tasks": [
         {
-          "id": "F823717AF85A7155",
+          "id": "7823717AF85A7155",
           "type": "item",
           "item": "ae2:item_storage_cell_4k",
           "count": 1,
@@ -667,7 +667,7 @@
       ],
       "tasks": [
         {
-          "id": "FB7A54A5749B3D37",
+          "id": "7B7A54A5749B3D37",
           "type": "item",
           "item": "ae2:item_storage_cell_16k",
           "count": 1,
@@ -677,7 +677,7 @@
       "rewards": []
     },
     {
-      "id": "90C6F9866E87593A",
+      "id": "10C6F9866E87593A",
       "title": "64k ME Item Storage Cell",
       "subtitle": "",
       "description": [],
@@ -706,7 +706,7 @@
       ]
     },
     {
-      "id": "A30C16397F23E15A",
+      "id": "230C16397F23E15A",
       "title": "256k ME Item Storage Cell",
       "subtitle": "",
       "description": [],
@@ -715,11 +715,11 @@
       "y": 9.0,
       "shape": "hexagon",
       "dependencies": [
-        "90C6F9866E87593A"
+        "10C6F9866E87593A"
       ],
       "tasks": [
         {
-          "id": "CD365819E4BD84CC",
+          "id": "4D365819E4BD84CC",
           "type": "item",
           "item": "ae2:item_storage_cell_256k",
           "count": 1,
@@ -765,7 +765,7 @@
       ],
       "rewards": [
         {
-          "id": "AD153EB390A48858",
+          "id": "2D153EB390A48858",
           "type": "xp",
           "xp": 30
         }
@@ -795,7 +795,7 @@
       "rewards": []
     },
     {
-      "id": "EED53993E3AB0F3F",
+      "id": "6ED53993E3AB0F3F",
       "title": "Fluix ME Dense Smart Cable",
       "subtitle": "",
       "description": [],
@@ -808,7 +808,7 @@
       ],
       "tasks": [
         {
-          "id": "E305AFFF0FD47A81",
+          "id": "6305AFFF0FD47A81",
           "type": "item",
           "item": "ae2:fluix_smart_dense_cable",
           "count": 1,
@@ -827,7 +827,7 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "EED53993E3AB0F3F"
+        "6ED53993E3AB0F3F"
       ],
       "tasks": [
         {
@@ -840,7 +840,7 @@
       ],
       "rewards": [
         {
-          "id": "8806F314385A36BE",
+          "id": "0806F314385A36BE",
           "type": "xp",
           "xp": 30
         }
@@ -892,7 +892,7 @@
       ],
       "rewards": [
         {
-          "id": "DF0521FFAEFFCB8A",
+          "id": "5F0521FFAEFFCB8A",
           "type": "xp",
           "xp": 50
         },
@@ -905,7 +905,7 @@
       ]
     },
     {
-      "id": "C6DD4E8E7B4EC260",
+      "id": "46DD4E8E7B4EC260",
       "title": "ME Import Bus",
       "subtitle": "Import and export",
       "description": [
@@ -916,11 +916,11 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "D07AD8E89E851FFC"
+        "507AD8E89E851FFC"
       ],
       "tasks": [
         {
-          "id": "AE655EDCCB2118AB",
+          "id": "2E655EDCCB2118AB",
           "type": "item",
           "item": "ae2:import_bus",
           "count": 1,
@@ -929,7 +929,7 @@
       ],
       "rewards": [
         {
-          "id": "C8E8CA0272BD2BDC",
+          "id": "48E8CA0272BD2BDC",
           "type": "xp",
           "xp": 35
         }
@@ -945,7 +945,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "C6DD4E8E7B4EC260"
+        "46DD4E8E7B4EC260"
       ],
       "tasks": [
         {
@@ -982,7 +982,7 @@
       "rewards": []
     },
     {
-      "id": "FB2CD4CCD3EE5548",
+      "id": "7B2CD4CCD3EE5548",
       "title": "ME Level Emitter",
       "subtitle": "",
       "description": [],
@@ -1004,14 +1004,14 @@
       ],
       "rewards": [
         {
-          "id": "D23D0AF9511E2A9F",
+          "id": "523D0AF9511E2A9F",
           "type": "xp",
           "xp": 35
         }
       ]
     },
     {
-      "id": "E99F60B0D884B282",
+      "id": "699F60B0D884B282",
       "title": "Redstone Card",
       "subtitle": "",
       "description": [],
@@ -1020,11 +1020,11 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "FB2CD4CCD3EE5548"
+        "7B2CD4CCD3EE5548"
       ],
       "tasks": [
         {
-          "id": "F2D66BA8B6B2ED12",
+          "id": "72D66BA8B6B2ED12",
           "type": "item",
           "item": "ae2:redstone_card",
           "count": 1,
@@ -1043,11 +1043,11 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "E99F60B0D884B282"
+        "699F60B0D884B282"
       ],
       "tasks": [
         {
-          "id": "D5695B4D46FE1987",
+          "id": "55695B4D46FE1987",
           "type": "item",
           "item": "ae2:capacity_card",
           "count": 1,
@@ -1057,7 +1057,7 @@
       "rewards": []
     },
     {
-      "id": "B88D3DB392C12E9F",
+      "id": "388D3DB392C12E9F",
       "title": "Acceleration Card",
       "subtitle": "",
       "description": [],
@@ -1070,7 +1070,7 @@
       ],
       "tasks": [
         {
-          "id": "F25FB16BE26D464B",
+          "id": "725FB16BE26D464B",
           "type": "item",
           "item": "ae2:speed_card",
           "count": 1,
@@ -1146,7 +1146,7 @@
       "rewards": []
     },
     {
-      "id": "F2C2C42FD430FE87",
+      "id": "72C2C42FD430FE87",
       "title": "ME Pattern Provider",
       "subtitle": "",
       "description": [],
@@ -1178,7 +1178,7 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "F2C2C42FD430FE87"
+        "72C2C42FD430FE87"
       ],
       "tasks": [
         {
@@ -1198,7 +1198,7 @@
       ]
     },
     {
-      "id": "93973C5782183D99",
+      "id": "13973C5782183D99",
       "title": "Crafting Unit",
       "subtitle": "",
       "description": [],
@@ -1221,7 +1221,7 @@
       "rewards": []
     },
     {
-      "id": "8F10587AD9E4DB32",
+      "id": "0F10587AD9E4DB32",
       "title": "1k Crafting Storage",
       "subtitle": "",
       "description": [],
@@ -1230,11 +1230,11 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "93973C5782183D99"
+        "13973C5782183D99"
       ],
       "tasks": [
         {
-          "id": "DA3D6E86D14FDF24",
+          "id": "5A3D6E86D14FDF24",
           "type": "item",
           "item": "ae2:1k_crafting_storage",
           "count": 1,
@@ -1253,11 +1253,11 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "8F10587AD9E4DB32"
+        "0F10587AD9E4DB32"
       ],
       "tasks": [
         {
-          "id": "DCE062DB02C5CB27",
+          "id": "5CE062DB02C5CB27",
           "type": "item",
           "item": "ae2:crafting_accelerator",
           "count": 1,
@@ -1273,7 +1273,7 @@
       ]
     },
     {
-      "id": "ABCF7F96371F53E5",
+      "id": "2BCF7F96371F53E5",
       "title": "Crafting Monitor",
       "subtitle": "",
       "description": [],
@@ -1295,12 +1295,12 @@
       ],
       "rewards": [
         {
-          "id": "83F4ED98CD3749F2",
+          "id": "03F4ED98CD3749F2",
           "type": "xp",
           "xp": 60
         },
         {
-          "id": "EE7B3F41AE246045",
+          "id": "6E7B3F41AE246045",
           "type": "item",
           "item": "minecraft:gold_ingot",
           "count": 4
@@ -1308,7 +1308,7 @@
       ]
     },
     {
-      "id": "E07EF4209BF1817C",
+      "id": "607EF4209BF1817C",
       "title": "4k Crafting Storage",
       "subtitle": "Scaling production",
       "description": [
@@ -1319,11 +1319,11 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "8F10587AD9E4DB32"
+        "0F10587AD9E4DB32"
       ],
       "tasks": [
         {
-          "id": "80C0555F378790A5",
+          "id": "00C0555F378790A5",
           "type": "item",
           "item": "ae2:4k_crafting_storage",
           "count": 1,
@@ -1339,7 +1339,7 @@
       ]
     },
     {
-      "id": "CE4A5E22B92521CD",
+      "id": "4E4A5E22B92521CD",
       "title": "16k Crafting Storage",
       "subtitle": "",
       "description": [],
@@ -1348,7 +1348,7 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "E07EF4209BF1817C"
+        "607EF4209BF1817C"
       ],
       "tasks": [
         {
@@ -1362,7 +1362,7 @@
       "rewards": []
     },
     {
-      "id": "D79597940C6F17AF",
+      "id": "579597940C6F17AF",
       "title": "64k Crafting Storage",
       "subtitle": "",
       "description": [],
@@ -1371,11 +1371,11 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "CE4A5E22B92521CD"
+        "4E4A5E22B92521CD"
       ],
       "tasks": [
         {
-          "id": "DECAA31C0C83292A",
+          "id": "5ECAA31C0C83292A",
           "type": "item",
           "item": "ae2:64k_crafting_storage",
           "count": 1,
@@ -1385,7 +1385,7 @@
       "rewards": []
     },
     {
-      "id": "C7744EA8B6257F2F",
+      "id": "47744EA8B6257F2F",
       "title": "256k Crafting Storage",
       "subtitle": "",
       "description": [],
@@ -1394,11 +1394,11 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "D79597940C6F17AF"
+        "579597940C6F17AF"
       ],
       "tasks": [
         {
-          "id": "D0BCA86B4497FFB0",
+          "id": "50BCA86B4497FFB0",
           "type": "item",
           "item": "ae2:256k_crafting_storage",
           "count": 1,
@@ -1423,7 +1423,7 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "C7744EA8B6257F2F"
+        "47744EA8B6257F2F"
       ],
       "tasks": [
         {
@@ -1437,7 +1437,7 @@
       "rewards": []
     },
     {
-      "id": "A7DFEFD432C1C914",
+      "id": "27DFEFD432C1C914",
       "title": "ME Interface",
       "subtitle": "",
       "description": [],
@@ -1450,7 +1450,7 @@
       ],
       "tasks": [
         {
-          "id": "AEB077FD398F6826",
+          "id": "2EB077FD398F6826",
           "type": "item",
           "item": "ae2:interface",
           "count": 1,
@@ -1460,7 +1460,7 @@
       "rewards": []
     },
     {
-      "id": "8A3885C58A522072",
+      "id": "0A3885C58A522072",
       "title": "Crafting Card",
       "subtitle": "",
       "description": [],
@@ -1469,7 +1469,7 @@
       "y": 21.0,
       "shape": "hexagon",
       "dependencies": [
-        "A7DFEFD432C1C914"
+        "27DFEFD432C1C914"
       ],
       "tasks": [
         {
@@ -1487,7 +1487,7 @@
           "xp": 45
         },
         {
-          "id": "E33B1D88F058F491",
+          "id": "633B1D88F058F491",
           "type": "item",
           "item": "minecraft:quartz",
           "count": 8
@@ -1519,7 +1519,7 @@
       ],
       "rewards": [
         {
-          "id": "8C916E8B48E7E689",
+          "id": "0C916E8B48E7E689",
           "type": "xp",
           "xp": 50
         }
@@ -1549,7 +1549,7 @@
       "rewards": []
     },
     {
-      "id": "BDD356B5B3145C34",
+      "id": "3DD356B5B3145C34",
       "title": "16k ME Fluid Storage Cell",
       "subtitle": "",
       "description": [],
@@ -1562,7 +1562,7 @@
       ],
       "tasks": [
         {
-          "id": "CF8D68BCD23A8B18",
+          "id": "4F8D68BCD23A8B18",
           "type": "item",
           "item": "ae2:fluid_storage_cell_16k",
           "count": 1,
@@ -1581,11 +1581,11 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "BDD356B5B3145C34"
+        "3DD356B5B3145C34"
       ],
       "tasks": [
         {
-          "id": "C01A779FE1C8B7DC",
+          "id": "401A779FE1C8B7DC",
           "type": "item",
           "item": "ae2:wireless_access_point",
           "count": 1,
@@ -1614,7 +1614,7 @@
       ],
       "tasks": [
         {
-          "id": "85C248A663544D76",
+          "id": "05C248A663544D76",
           "type": "item",
           "item": "ae2:wireless_receiver",
           "count": 1,
@@ -1624,7 +1624,7 @@
       "rewards": []
     },
     {
-      "id": "FDA2A8FF86870923",
+      "id": "7DA2A8FF86870923",
       "title": "Wireless Terminal",
       "subtitle": "",
       "description": [],
@@ -1637,7 +1637,7 @@
       ],
       "tasks": [
         {
-          "id": "D310F4CA54448E22",
+          "id": "5310F4CA54448E22",
           "type": "item",
           "item": "ae2:wireless_terminal",
           "count": 1,
@@ -1647,7 +1647,7 @@
       "rewards": []
     },
     {
-      "id": "D982A7047C47F295",
+      "id": "5982A7047C47F295",
       "title": "Wireless Crafting Terminal",
       "subtitle": "",
       "description": [],
@@ -1656,7 +1656,7 @@
       "y": 24.0,
       "shape": "hexagon",
       "dependencies": [
-        "FDA2A8FF86870923"
+        "7DA2A8FF86870923"
       ],
       "tasks": [
         {
@@ -1669,12 +1669,12 @@
       ],
       "rewards": [
         {
-          "id": "81E2874EA362599D",
+          "id": "01E2874EA362599D",
           "type": "xp",
           "xp": 50
         },
         {
-          "id": "F61FE695FAE1070D",
+          "id": "761FE695FAE1070D",
           "type": "item",
           "item": "minecraft:iron_ingot",
           "count": 8
@@ -1682,7 +1682,7 @@
       ]
     },
     {
-      "id": "8D6293691578A0BA",
+      "id": "0D6293691578A0BA",
       "title": "ME P2P Tunnel",
       "subtitle": "Distant connections",
       "description": [
@@ -1697,7 +1697,7 @@
       ],
       "tasks": [
         {
-          "id": "B4346C557F91887D",
+          "id": "34346C557F91887D",
           "type": "item",
           "item": "ae2:me_p2p_tunnel",
           "count": 1,
@@ -1706,7 +1706,7 @@
       ],
       "rewards": [
         {
-          "id": "89445B260635F544",
+          "id": "09445B260635F544",
           "type": "xp",
           "xp": 50
         }
@@ -1722,11 +1722,11 @@
       "y": 27.0,
       "shape": "circle",
       "dependencies": [
-        "8D6293691578A0BA"
+        "0D6293691578A0BA"
       ],
       "tasks": [
         {
-          "id": "C742D6845E890887",
+          "id": "4742D6845E890887",
           "type": "item",
           "item": "ae2:memory_card",
           "count": 1,
@@ -1749,7 +1749,7 @@
       ],
       "tasks": [
         {
-          "id": "B61CBA79FC4BEFBB",
+          "id": "361CBA79FC4BEFBB",
           "type": "item",
           "item": "ae2:quantum_ring",
           "count": 1,
@@ -1759,7 +1759,7 @@
       "rewards": []
     },
     {
-      "id": "A5561B3F575CAAE8",
+      "id": "25561B3F575CAAE8",
       "title": "ME Quantum Link Chamber",
       "subtitle": "",
       "description": [],
@@ -1772,7 +1772,7 @@
       ],
       "tasks": [
         {
-          "id": "854C36532A46A5B4",
+          "id": "054C36532A46A5B4",
           "type": "item",
           "item": "ae2:quantum_link",
           "count": 1,
@@ -1788,7 +1788,7 @@
       ]
     },
     {
-      "id": "92E14964358E8242",
+      "id": "12E14964358E8242",
       "title": "Matter Condenser",
       "subtitle": "",
       "description": [],
@@ -1797,11 +1797,11 @@
       "y": 27.0,
       "shape": "circle",
       "dependencies": [
-        "A5561B3F575CAAE8"
+        "25561B3F575CAAE8"
       ],
       "tasks": [
         {
-          "id": "E497B33D38DC24E5",
+          "id": "6497B33D38DC24E5",
           "type": "item",
           "item": "ae2:condenser",
           "count": 1,
@@ -1811,7 +1811,7 @@
       "rewards": []
     },
     {
-      "id": "E8FCB737F5511104",
+      "id": "68FCB737F5511104",
       "title": "Singularity",
       "subtitle": "",
       "description": [],
@@ -1820,7 +1820,7 @@
       "y": 27.0,
       "shape": "circle",
       "dependencies": [
-        "92E14964358E8242"
+        "12E14964358E8242"
       ],
       "tasks": [
         {
@@ -1834,7 +1834,7 @@
       "rewards": []
     },
     {
-      "id": "C587DEA45B620375",
+      "id": "4587DEA45B620375",
       "title": "Quantum Entangled Singularity",
       "subtitle": "",
       "description": [],
@@ -1843,11 +1843,11 @@
       "y": 27.0,
       "shape": "hexagon",
       "dependencies": [
-        "E8FCB737F5511104"
+        "68FCB737F5511104"
       ],
       "tasks": [
         {
-          "id": "BF4BB72C03F4D2D0",
+          "id": "3F4BB72C03F4D2D0",
           "type": "item",
           "item": "ae2:quantum_entangled_singularity",
           "count": 1,
@@ -1869,7 +1869,7 @@
       ]
     },
     {
-      "id": "F9365C718CECF4C9",
+      "id": "79365C718CECF4C9",
       "title": "Spatial Pylon",
       "subtitle": "Spatial laboratory",
       "description": [
@@ -1900,7 +1900,7 @@
       ]
     },
     {
-      "id": "D00C59E85295BD19",
+      "id": "500C59E85295BD19",
       "title": "Spatial IO Port",
       "subtitle": "",
       "description": [],
@@ -1909,7 +1909,7 @@
       "y": 30.0,
       "shape": "circle",
       "dependencies": [
-        "F9365C718CECF4C9"
+        "79365C718CECF4C9"
       ],
       "tasks": [
         {
@@ -1923,7 +1923,7 @@
       "rewards": []
     },
     {
-      "id": "F161F4040562B3C8",
+      "id": "7161F4040562B3C8",
       "title": "2Â³ Spatial Component",
       "subtitle": "",
       "description": [],
@@ -1932,11 +1932,11 @@
       "y": 30.0,
       "shape": "circle",
       "dependencies": [
-        "D00C59E85295BD19"
+        "500C59E85295BD19"
       ],
       "tasks": [
         {
-          "id": "BE858DBB6EF24E15",
+          "id": "3E858DBB6EF24E15",
           "type": "item",
           "item": "ae2:spatial_cell_component_2",
           "count": 1,
@@ -1955,7 +1955,7 @@
       "y": 30.0,
       "shape": "circle",
       "dependencies": [
-        "F161F4040562B3C8"
+        "7161F4040562B3C8"
       ],
       "tasks": [
         {
@@ -1968,14 +1968,14 @@
       ],
       "rewards": [
         {
-          "id": "9642654B22BECCE4",
+          "id": "1642654B22BECCE4",
           "type": "xp",
           "xp": 50
         }
       ]
     },
     {
-      "id": "F79CE38C79F3B8A7",
+      "id": "779CE38C79F3B8A7",
       "title": "16Â³ Spatial Storage Cell",
       "subtitle": "",
       "description": [],
@@ -1998,7 +1998,7 @@
       "rewards": []
     },
     {
-      "id": "8432F44ADC230D05",
+      "id": "0432F44ADC230D05",
       "title": "128Â³ Spatial Storage Cell",
       "subtitle": "",
       "description": [],
@@ -2007,7 +2007,7 @@
       "y": 30.0,
       "shape": "hexagon",
       "dependencies": [
-        "F79CE38C79F3B8A7"
+        "779CE38C79F3B8A7"
       ],
       "tasks": [
         {
@@ -2020,7 +2020,7 @@
       ],
       "rewards": [
         {
-          "id": "F2958945E2711832",
+          "id": "72958945E2711832",
           "type": "xp",
           "xp": 70
         },

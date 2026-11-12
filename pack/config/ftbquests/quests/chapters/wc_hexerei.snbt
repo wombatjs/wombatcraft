@@ -6,7 +6,7 @@
   "default_quest_shape": "circle",
   "quests": [
     {
-      "id": "FB8CC4EA2F00EAAF",
+      "id": "7B8CC4EA2F00EAAF",
       "title": "Book of Shadows",
       "subtitle": "The witch's garden",
       "description": [
@@ -28,7 +28,7 @@
       ],
       "rewards": [
         {
-          "id": "B31647F142CAACC9",
+          "id": "331647F142CAACC9",
           "type": "xp",
           "xp": 10
         }
@@ -44,7 +44,7 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "FB8CC4EA2F00EAAF"
+        "7B8CC4EA2F00EAAF"
       ],
       "tasks": [
         {
@@ -81,7 +81,7 @@
       "rewards": []
     },
     {
-      "id": "99F39ABABA57EB12",
+      "id": "19F39ABABA57EB12",
       "title": "Mandrake Root",
       "subtitle": "",
       "description": [],
@@ -103,14 +103,14 @@
       ],
       "rewards": [
         {
-          "id": "A1DBD86F60CD4802",
+          "id": "21DBD86F60CD4802",
           "type": "xp",
           "xp": 10
         }
       ]
     },
     {
-      "id": "F88539EB592E7FF3",
+      "id": "788539EB592E7FF3",
       "title": "Mugwort Flowers",
       "subtitle": "",
       "description": [],
@@ -119,7 +119,7 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "99F39ABABA57EB12"
+        "19F39ABABA57EB12"
       ],
       "tasks": [
         {
@@ -142,11 +142,11 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "F88539EB592E7FF3"
+        "788539EB592E7FF3"
       ],
       "tasks": [
         {
-          "id": "ECE0657FC75BF88B",
+          "id": "6CE0657FC75BF88B",
           "type": "item",
           "item": "hexerei:yellow_dock_flowers",
           "count": 1,
@@ -156,7 +156,7 @@
       "rewards": []
     },
     {
-      "id": "DD0F1774F629F7BF",
+      "id": "5D0F1774F629F7BF",
       "title": "Drying Rack",
       "subtitle": "",
       "description": [],
@@ -169,7 +169,7 @@
       ],
       "tasks": [
         {
-          "id": "C867B5BEF1A1BC1A",
+          "id": "4867B5BEF1A1BC1A",
           "type": "item",
           "item": "hexerei:herb_drying_rack",
           "count": 1,
@@ -178,7 +178,7 @@
       ],
       "rewards": [
         {
-          "id": "B6FCFB0BF565A9DA",
+          "id": "36FCFB0BF565A9DA",
           "type": "xp",
           "xp": 10
         }
@@ -194,11 +194,11 @@
       "y": 0.0,
       "shape": "hexagon",
       "dependencies": [
-        "DD0F1774F629F7BF"
+        "5D0F1774F629F7BF"
       ],
       "tasks": [
         {
-          "id": "A5EBC4A8BF764D4F",
+          "id": "25EBC4A8BF764D4F",
           "type": "item",
           "item": "hexerei:herb_jar",
           "count": 1,
@@ -207,7 +207,7 @@
       ],
       "rewards": [
         {
-          "id": "EB715B171D34B320",
+          "id": "6B715B171D34B320",
           "type": "xp",
           "xp": 30
         },
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "id": "FD7D1D7FB9E6AAB7",
+      "id": "7D7D1D7FB9E6AAB7",
       "title": "Mixing Cauldron",
       "subtitle": "Beside the cauldron",
       "description": [
@@ -260,7 +260,7 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "FD7D1D7FB9E6AAB7"
+        "7D7D1D7FB9E6AAB7"
       ],
       "tasks": [
         {
@@ -310,7 +310,7 @@
       ],
       "tasks": [
         {
-          "id": "961E9718EE10C32D",
+          "id": "161E9718EE10C32D",
           "type": "item",
           "item": "hexerei:sage_bundle",
           "count": 1,
@@ -362,7 +362,7 @@
       ],
       "tasks": [
         {
-          "id": "E368F34E6FC66CD9",
+          "id": "6368F34E6FC66CD9",
           "type": "item",
           "item": "hexerei:moon_dust",
           "count": 1,
@@ -371,12 +371,12 @@
       ],
       "rewards": [
         {
-          "id": "8E3BC26AAD12F9B2",
+          "id": "0E3BC26AAD12F9B2",
           "type": "xp",
           "xp": 35
         },
         {
-          "id": "9739558EA9A3FBA5",
+          "id": "1739558EA9A3FBA5",
           "type": "item",
           "item": "minecraft:book",
           "count": 4
@@ -384,7 +384,7 @@
       ]
     },
     {
-      "id": "C9CCFB3CC2E1B775",
+      "id": "49CCFB3CC2E1B775",
       "title": "Animal Fat",
       "subtitle": "Wax and flame",
       "description": [
@@ -395,7 +395,7 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "FD7D1D7FB9E6AAB7"
+        "7D7D1D7FB9E6AAB7"
       ],
       "tasks": [
         {
@@ -408,7 +408,7 @@
       ],
       "rewards": [
         {
-          "id": "CB82222B76780F71",
+          "id": "4B82222B76780F71",
           "type": "xp",
           "xp": 20
         }
@@ -424,11 +424,11 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "C9CCFB3CC2E1B775"
+        "49CCFB3CC2E1B775"
       ],
       "tasks": [
         {
-          "id": "ABCA36F9E03EC0D5",
+          "id": "2BCA36F9E03EC0D5",
           "type": "item",
           "item": "hexerei:tallow_bottle",
           "count": 1,
@@ -438,7 +438,7 @@
       "rewards": []
     },
     {
-      "id": "E17CBC5BCB2818E0",
+      "id": "617CBC5BCB2818E0",
       "title": "Candle",
       "subtitle": "",
       "description": [],
@@ -451,7 +451,7 @@
       ],
       "tasks": [
         {
-          "id": "CD9D712895D85D8A",
+          "id": "4D9D712895D85D8A",
           "type": "item",
           "item": "hexerei:candle",
           "count": 1,
@@ -461,7 +461,7 @@
       "rewards": []
     },
     {
-      "id": "ED011AACCBF238EA",
+      "id": "6D011AACCBF238EA",
       "title": "Dipper",
       "subtitle": "",
       "description": [],
@@ -470,11 +470,11 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "E17CBC5BCB2818E0"
+        "617CBC5BCB2818E0"
       ],
       "tasks": [
         {
-          "id": "CFE3D108AFCA5989",
+          "id": "4FE3D108AFCA5989",
           "type": "item",
           "item": "hexerei:candle_dipper",
           "count": 1,
@@ -490,7 +490,7 @@
       ]
     },
     {
-      "id": "F18AA1D7BD463515",
+      "id": "718AA1D7BD463515",
       "title": "Wax Blend",
       "subtitle": "",
       "description": [],
@@ -499,11 +499,11 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "ED011AACCBF238EA"
+        "6D011AACCBF238EA"
       ],
       "tasks": [
         {
-          "id": "90810A7984B39E74",
+          "id": "10810A7984B39E74",
           "type": "item",
           "item": "hexerei:wax_blend",
           "count": 1,
@@ -522,11 +522,11 @@
       "y": 6.0,
       "shape": "hexagon",
       "dependencies": [
-        "F18AA1D7BD463515"
+        "718AA1D7BD463515"
       ],
       "tasks": [
         {
-          "id": "C43B43AA264EF9A9",
+          "id": "443B43AA264EF9A9",
           "type": "item",
           "item": "hexerei:waxing_kit",
           "count": 1,
@@ -535,12 +535,12 @@
       ],
       "rewards": [
         {
-          "id": "931833754D9A687D",
+          "id": "131833754D9A687D",
           "type": "xp",
           "xp": 40
         },
         {
-          "id": "A30F01CA6DF57CD4",
+          "id": "230F01CA6DF57CD4",
           "type": "item",
           "item": "minecraft:amethyst_shard",
           "count": 8
@@ -572,14 +572,14 @@
       ],
       "rewards": [
         {
-          "id": "B88827F89F57FE10",
+          "id": "388827F89F57FE10",
           "type": "xp",
           "xp": 25
         }
       ]
     },
     {
-      "id": "B843B20EE811BE4C",
+      "id": "3843B20EE811BE4C",
       "title": "Mahogany Broom",
       "subtitle": "",
       "description": [],
@@ -592,7 +592,7 @@
       ],
       "tasks": [
         {
-          "id": "8B76BCAFE2750D44",
+          "id": "0B76BCAFE2750D44",
           "type": "item",
           "item": "hexerei:mahogany_broom",
           "count": 1,
@@ -602,7 +602,7 @@
       "rewards": []
     },
     {
-      "id": "B2150C581E96A005",
+      "id": "32150C581E96A005",
       "title": "Broom Whistle",
       "subtitle": "",
       "description": [],
@@ -611,7 +611,7 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "B843B20EE811BE4C"
+        "3843B20EE811BE4C"
       ],
       "tasks": [
         {
@@ -625,7 +625,7 @@
       "rewards": []
     },
     {
-      "id": "FE6574EFA73E9E73",
+      "id": "7E6574EFA73E9E73",
       "title": "Broom Seat",
       "subtitle": "",
       "description": [],
@@ -634,11 +634,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "B2150C581E96A005"
+        "32150C581E96A005"
       ],
       "tasks": [
         {
-          "id": "B4B642A3E354A048",
+          "id": "34B642A3E354A048",
           "type": "item",
           "item": "hexerei:broom_seat",
           "count": 1,
@@ -663,11 +663,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "FE6574EFA73E9E73"
+        "7E6574EFA73E9E73"
       ],
       "tasks": [
         {
-          "id": "C7FF8EBCEAD510E7",
+          "id": "47FF8EBCEAD510E7",
           "type": "item",
           "item": "hexerei:herb_enhanced_broom_brush",
           "count": 1,
@@ -690,7 +690,7 @@
       ],
       "tasks": [
         {
-          "id": "CE11A2A53ED98540",
+          "id": "4E11A2A53ED98540",
           "type": "item",
           "item": "hexerei:broom_waterproof_tip",
           "count": 1,
@@ -700,7 +700,7 @@
       "rewards": []
     },
     {
-      "id": "E0702A52F14C21FC",
+      "id": "60702A52F14C21FC",
       "title": "Broom Netherite Tip",
       "subtitle": "",
       "description": [],
@@ -727,7 +727,7 @@
           "xp": 25
         },
         {
-          "id": "952F465BCB8D8DB5",
+          "id": "152F465BCB8D8DB5",
           "type": "item",
           "item": "minecraft:golden_carrot",
           "count": 4
@@ -746,11 +746,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "FD7D1D7FB9E6AAB7"
+        "7D7D1D7FB9E6AAB7"
       ],
       "tasks": [
         {
-          "id": "E1374EE75AD3A210",
+          "id": "61374EE75AD3A210",
           "type": "item",
           "item": "hexerei:crow_flute",
           "count": 1,
@@ -759,14 +759,14 @@
       ],
       "rewards": [
         {
-          "id": "C1DEE286AF5B55D7",
+          "id": "41DEE286AF5B55D7",
           "type": "xp",
           "xp": 30
         }
       ]
     },
     {
-      "id": "AAE8D880A7E615E8",
+      "id": "2AE8D880A7E615E8",
       "title": "Courier Letter",
       "subtitle": "",
       "description": [],
@@ -789,7 +789,7 @@
       "rewards": []
     },
     {
-      "id": "BD7B6909ECFB150A",
+      "id": "3D7B6909ECFB150A",
       "title": "Courier Package",
       "subtitle": "",
       "description": [],
@@ -798,11 +798,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "AAE8D880A7E615E8"
+        "2AE8D880A7E615E8"
       ],
       "tasks": [
         {
-          "id": "B53F18953DFB8640",
+          "id": "353F18953DFB8640",
           "type": "item",
           "item": "hexerei:courier_package",
           "count": 1,
@@ -821,7 +821,7 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "BD7B6909ECFB150A"
+        "3D7B6909ECFB150A"
       ],
       "tasks": [
         {
@@ -841,7 +841,7 @@
       ]
     },
     {
-      "id": "FE7BA91E9FC89E4A",
+      "id": "7E7BA91E9FC89E4A",
       "title": "Crow Blank Amulet Trinket",
       "subtitle": "",
       "description": [],
@@ -854,7 +854,7 @@
       ],
       "tasks": [
         {
-          "id": "888958DB9F0FEDCD",
+          "id": "088958DB9F0FEDCD",
           "type": "item",
           "item": "hexerei:crow_blank_amulet",
           "count": 1,
@@ -864,7 +864,7 @@
       "rewards": []
     },
     {
-      "id": "8B84EF06DCFEA906",
+      "id": "0B84EF06DCFEA906",
       "title": "Crow Ankh Amulet",
       "subtitle": "",
       "description": [],
@@ -873,7 +873,7 @@
       "y": 12.0,
       "shape": "hexagon",
       "dependencies": [
-        "FE7BA91E9FC89E4A"
+        "7E7BA91E9FC89E4A"
       ],
       "tasks": [
         {
@@ -891,7 +891,7 @@
           "xp": 50
         },
         {
-          "id": "91D5AE861D821128",
+          "id": "11D5AE861D821128",
           "type": "item",
           "item": "minecraft:lapis_lazuli",
           "count": 12
@@ -910,7 +910,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "FB8CC4EA2F00EAAF"
+        "7B8CC4EA2F00EAAF"
       ],
       "tasks": [
         {
@@ -923,14 +923,14 @@
       ],
       "rewards": [
         {
-          "id": "E4840C5CC913B54F",
+          "id": "64840C5CC913B54F",
           "type": "xp",
           "xp": 35
         }
       ]
     },
     {
-      "id": "912B9E0AF5EF449F",
+      "id": "112B9E0AF5EF449F",
       "title": "Crystal Ball",
       "subtitle": "",
       "description": [],
@@ -962,7 +962,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "912B9E0AF5EF449F"
+        "112B9E0AF5EF449F"
       ],
       "tasks": [
         {
@@ -976,7 +976,7 @@
       "rewards": []
     },
     {
-      "id": "EC5848319B070184",
+      "id": "6C5848319B070184",
       "title": "Small Satchel",
       "subtitle": "",
       "description": [],
@@ -998,7 +998,7 @@
       ],
       "rewards": [
         {
-          "id": "BCED080CF006CC80",
+          "id": "3CED080CF006CC80",
           "type": "xp",
           "xp": 35
         }
@@ -1014,11 +1014,11 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "EC5848319B070184"
+        "6C5848319B070184"
       ],
       "tasks": [
         {
-          "id": "AC335D0F645CDF07",
+          "id": "2C335D0F645CDF07",
           "type": "item",
           "item": "hexerei:medium_satchel",
           "count": 1,
@@ -1064,7 +1064,7 @@
       ],
       "tasks": [
         {
-          "id": "8D50560810914AB4",
+          "id": "0D50560810914AB4",
           "type": "item",
           "item": "hexerei:ender_satchel",
           "count": 1,
@@ -1078,7 +1078,7 @@
           "xp": 35
         },
         {
-          "id": "BAE38B686596C871",
+          "id": "3AE38B686596C871",
           "type": "item",
           "item": "minecraft:book",
           "count": 4

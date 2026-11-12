@@ -19,7 +19,7 @@
       "dependencies": [],
       "tasks": [
         {
-          "id": "AFD788275C00A30D",
+          "id": "2FD788275C00A30D",
           "type": "item",
           "item": "immersiveengineering:manual",
           "count": 1,
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "id": "F73EB9D78D844688",
+      "id": "773EB9D78D844688",
       "title": "Engineer's Hammer",
       "subtitle": "",
       "description": [],
@@ -48,7 +48,7 @@
       ],
       "tasks": [
         {
-          "id": "CE8D55D1A89218B3",
+          "id": "4E8D55D1A89218B3",
           "type": "item",
           "item": "immersiveengineering:hammer",
           "count": 1,
@@ -58,7 +58,7 @@
       "rewards": []
     },
     {
-      "id": "D18E3BA3EB55BF65",
+      "id": "518E3BA3EB55BF65",
       "title": "Engineer's Wire Cutters",
       "subtitle": "",
       "description": [],
@@ -67,7 +67,7 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "F73EB9D78D844688"
+        "773EB9D78D844688"
       ],
       "tasks": [
         {
@@ -81,7 +81,7 @@
       "rewards": []
     },
     {
-      "id": "B04BC684FFCBA4EE",
+      "id": "304BC684FFCBA4EE",
       "title": "Coke Brick",
       "subtitle": "",
       "description": [],
@@ -90,7 +90,7 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "D18E3BA3EB55BF65"
+        "518E3BA3EB55BF65"
       ],
       "tasks": [
         {
@@ -103,14 +103,14 @@
       ],
       "rewards": [
         {
-          "id": "F2CCC64EDB7725FE",
+          "id": "72CCC64EDB7725FE",
           "type": "xp",
           "xp": 10
         }
       ]
     },
     {
-      "id": "CA044FF5DD07B02D",
+      "id": "4A044FF5DD07B02D",
       "title": "Bucket of Creosote Oil",
       "subtitle": "",
       "description": [],
@@ -119,11 +119,11 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "B04BC684FFCBA4EE"
+        "304BC684FFCBA4EE"
       ],
       "tasks": [
         {
-          "id": "FDE7BAF55619FA6F",
+          "id": "7DE7BAF55619FA6F",
           "type": "item",
           "item": "immersiveengineering:creosote_bucket",
           "count": 1,
@@ -142,7 +142,7 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "CA044FF5DD07B02D"
+        "4A044FF5DD07B02D"
       ],
       "tasks": [
         {
@@ -169,7 +169,7 @@
       ],
       "tasks": [
         {
-          "id": "E6EB0B408435EEC4",
+          "id": "66EB0B408435EEC4",
           "type": "item",
           "item": "immersiveengineering:coal_coke",
           "count": 1,
@@ -178,7 +178,7 @@
       ],
       "rewards": [
         {
-          "id": "EE1939082C653DD2",
+          "id": "6E1939082C653DD2",
           "type": "xp",
           "xp": 10
         }
@@ -235,7 +235,7 @@
       ],
       "tasks": [
         {
-          "id": "F22FA8DBAAF09410",
+          "id": "722FA8DBAAF09410",
           "type": "item",
           "item": "immersiveengineering:dynamo",
           "count": 1,
@@ -264,7 +264,7 @@
       ],
       "tasks": [
         {
-          "id": "CDD0CA93775666C1",
+          "id": "4DD0CA93775666C1",
           "type": "item",
           "item": "immersiveengineering:watermill",
           "count": 1,
@@ -319,14 +319,14 @@
       ],
       "rewards": [
         {
-          "id": "DD39890BC034DD7D",
+          "id": "5D39890BC034DD7D",
           "type": "xp",
           "xp": 15
         }
       ]
     },
     {
-      "id": "C36DD2591A2A490C",
+      "id": "436DD2591A2A490C",
       "title": "LV Wire Connector",
       "subtitle": "",
       "description": [],
@@ -339,7 +339,7 @@
       ],
       "tasks": [
         {
-          "id": "898ED2867940C05E",
+          "id": "098ED2867940C05E",
           "type": "item",
           "item": "immersiveengineering:connector_lv",
           "count": 1,
@@ -349,7 +349,7 @@
       "rewards": []
     },
     {
-      "id": "80CDFC7AE9DB33DC",
+      "id": "00CDFC7AE9DB33DC",
       "title": "LV Wire Relay",
       "subtitle": "",
       "description": [],
@@ -358,7 +358,7 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "C36DD2591A2A490C"
+        "436DD2591A2A490C"
       ],
       "tasks": [
         {
@@ -372,7 +372,7 @@
       "rewards": []
     },
     {
-      "id": "A3A206E68CB8A9F9",
+      "id": "23A206E68CB8A9F9",
       "title": "LV Accumulator",
       "subtitle": "",
       "description": [],
@@ -381,11 +381,11 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "80CDFC7AE9DB33DC"
+        "00CDFC7AE9DB33DC"
       ],
       "tasks": [
         {
-          "id": "F7B519673CF2675C",
+          "id": "77B519673CF2675C",
           "type": "item",
           "item": "immersiveengineering:capacitor_lv",
           "count": 1,
@@ -401,7 +401,7 @@
       ]
     },
     {
-      "id": "F18B2BD2360670F4",
+      "id": "718B2BD2360670F4",
       "title": "Engineer's Multimeter",
       "subtitle": "",
       "description": [],
@@ -410,7 +410,7 @@
       "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
-        "A3A206E68CB8A9F9"
+        "23A206E68CB8A9F9"
       ],
       "tasks": [
         {
@@ -451,7 +451,7 @@
       ],
       "tasks": [
         {
-          "id": "E9926ABF8413A5FF",
+          "id": "69926ABF8413A5FF",
           "type": "item",
           "item": "immersiveengineering:blastbrick_reinforced",
           "count": 1,
@@ -460,14 +460,14 @@
       ],
       "rewards": [
         {
-          "id": "A4FA146E12CE6FFE",
+          "id": "24FA146E12CE6FFE",
           "type": "xp",
           "xp": 20
         }
       ]
     },
     {
-      "id": "8C9B977C2015156D",
+      "id": "0C9B977C2015156D",
       "title": "Blast Furnace Preheater",
       "subtitle": "",
       "description": [],
@@ -480,7 +480,7 @@
       ],
       "tasks": [
         {
-          "id": "80B4C9073D194E31",
+          "id": "00B4C9073D194E31",
           "type": "item",
           "item": "immersiveengineering:blastfurnace_preheater",
           "count": 1,
@@ -499,11 +499,11 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "8C9B977C2015156D"
+        "0C9B977C2015156D"
       ],
       "tasks": [
         {
-          "id": "BE6D71A7FF8C86DA",
+          "id": "3E6D71A7FF8C86DA",
           "type": "item",
           "item": "immersiveengineering:alloybrick",
           "count": 1,
@@ -513,7 +513,7 @@
       "rewards": []
     },
     {
-      "id": "A87F4B5BF099F4F9",
+      "id": "287F4B5BF099F4F9",
       "title": "Electrum Ingot",
       "subtitle": "",
       "description": [],
@@ -535,7 +535,7 @@
       ],
       "rewards": [
         {
-          "id": "DD7FA7AACB4D0FC8",
+          "id": "5D7FA7AACB4D0FC8",
           "type": "xp",
           "xp": 20
         }
@@ -551,7 +551,7 @@
       "y": 6.0,
       "shape": "hexagon",
       "dependencies": [
-        "A87F4B5BF099F4F9"
+        "287F4B5BF099F4F9"
       ],
       "tasks": [
         {
@@ -564,7 +564,7 @@
       ],
       "rewards": [
         {
-          "id": "A283EADA5AC94D4C",
+          "id": "2283EADA5AC94D4C",
           "type": "xp",
           "xp": 40
         },
@@ -577,7 +577,7 @@
       ]
     },
     {
-      "id": "8F2F4296CFD3817F",
+      "id": "0F2F4296CFD3817F",
       "title": "Iron Plate",
       "subtitle": "Workshop components",
       "description": [
@@ -588,11 +588,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "F73EB9D78D844688"
+        "773EB9D78D844688"
       ],
       "tasks": [
         {
-          "id": "99B04C0D81976E45",
+          "id": "19B04C0D81976E45",
           "type": "item",
           "item": "immersiveengineering:plate_iron",
           "count": 1,
@@ -617,11 +617,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "8F2F4296CFD3817F"
+        "0F2F4296CFD3817F"
       ],
       "tasks": [
         {
-          "id": "BEAA1D00419A9C16",
+          "id": "3EAA1D00419A9C16",
           "type": "item",
           "item": "immersiveengineering:component_iron",
           "count": 1,
@@ -631,7 +631,7 @@
       "rewards": []
     },
     {
-      "id": "C148AA2F3C56859B",
+      "id": "4148AA2F3C56859B",
       "title": "Light Engineering Block",
       "subtitle": "",
       "description": [],
@@ -644,7 +644,7 @@
       ],
       "tasks": [
         {
-          "id": "DE3CD52B76654700",
+          "id": "5E3CD52B76654700",
           "type": "item",
           "item": "immersiveengineering:light_engineering",
           "count": 1,
@@ -663,7 +663,7 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "C148AA2F3C56859B"
+        "4148AA2F3C56859B"
       ],
       "tasks": [
         {
@@ -683,7 +683,7 @@
       ]
     },
     {
-      "id": "CB3051743BF63D85",
+      "id": "4B3051743BF63D85",
       "title": "Steel Mechanical Component",
       "subtitle": "",
       "description": [],
@@ -696,7 +696,7 @@
       ],
       "tasks": [
         {
-          "id": "C59325345B9A92CD",
+          "id": "459325345B9A92CD",
           "type": "item",
           "item": "immersiveengineering:component_steel",
           "count": 1,
@@ -715,11 +715,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "CB3051743BF63D85"
+        "4B3051743BF63D85"
       ],
       "tasks": [
         {
-          "id": "9F269B2BD6AB76A7",
+          "id": "1F269B2BD6AB76A7",
           "type": "item",
           "item": "immersiveengineering:heavy_engineering",
           "count": 1,
@@ -729,7 +729,7 @@
       "rewards": []
     },
     {
-      "id": "CD8DB3FC152ACE48",
+      "id": "4D8DB3FC152ACE48",
       "title": "Steel Scaffolding",
       "subtitle": "",
       "description": [],
@@ -742,7 +742,7 @@
       ],
       "tasks": [
         {
-          "id": "F0F8FC6F97643840",
+          "id": "70F8FC6F97643840",
           "type": "item",
           "item": "immersiveengineering:steel_scaffolding_standard",
           "count": 1,
@@ -764,7 +764,7 @@
       ]
     },
     {
-      "id": "CDA5A0F87930E73C",
+      "id": "4DA5A0F87930E73C",
       "title": "Conveyor Belt",
       "subtitle": "Conveyors and sorting",
       "description": [
@@ -775,7 +775,7 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "C148AA2F3C56859B"
+        "4148AA2F3C56859B"
       ],
       "tasks": [
         {
@@ -788,14 +788,14 @@
       ],
       "rewards": [
         {
-          "id": "9B44DDEFE464BD52",
+          "id": "1B44DDEFE464BD52",
           "type": "xp",
           "xp": 30
         }
       ]
     },
     {
-      "id": "EB1F5C7E35B2636E",
+      "id": "6B1F5C7E35B2636E",
       "title": "Extracting Conveyor Belt",
       "subtitle": "",
       "description": [],
@@ -804,7 +804,7 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "CDA5A0F87930E73C"
+        "4DA5A0F87930E73C"
       ],
       "tasks": [
         {
@@ -827,11 +827,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "EB1F5C7E35B2636E"
+        "6B1F5C7E35B2636E"
       ],
       "tasks": [
         {
-          "id": "C4A2C8BA92E692E5",
+          "id": "44A2C8BA92E692E5",
           "type": "item",
           "item": "immersiveengineering:conveyor_dropper",
           "count": 1,
@@ -841,7 +841,7 @@
       "rewards": []
     },
     {
-      "id": "EF751C6023756851",
+      "id": "6F751C6023756851",
       "title": "Vertical Conveyor Belt",
       "subtitle": "",
       "description": [],
@@ -863,7 +863,7 @@
       ],
       "rewards": [
         {
-          "id": "9B6FE7F27B19F6B4",
+          "id": "1B6FE7F27B19F6B4",
           "type": "xp",
           "xp": 30
         }
@@ -879,11 +879,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "EF751C6023756851"
+        "6F751C6023756851"
       ],
       "tasks": [
         {
-          "id": "84640457DA6F9270",
+          "id": "04640457DA6F9270",
           "type": "item",
           "item": "immersiveengineering:conveyor_splitter",
           "count": 1,
@@ -893,7 +893,7 @@
       "rewards": []
     },
     {
-      "id": "E5B1BCF5D6FF2173",
+      "id": "65B1BCF5D6FF2173",
       "title": "Item Router",
       "subtitle": "",
       "description": [],
@@ -906,7 +906,7 @@
       ],
       "tasks": [
         {
-          "id": "ECE4F14EA69EC283",
+          "id": "6CE4F14EA69EC283",
           "type": "item",
           "item": "immersiveengineering:sorter",
           "count": 1,
@@ -925,11 +925,11 @@
       "y": 12.0,
       "shape": "hexagon",
       "dependencies": [
-        "E5B1BCF5D6FF2173"
+        "65B1BCF5D6FF2173"
       ],
       "tasks": [
         {
-          "id": "A938F60B232519AE",
+          "id": "2938F60B232519AE",
           "type": "item",
           "item": "immersiveengineering:item_batcher",
           "count": 1,
@@ -943,7 +943,7 @@
           "xp": 30
         },
         {
-          "id": "D595719C3E47C63F",
+          "id": "5595719C3E47C63F",
           "type": "item",
           "item": "minecraft:iron_ingot",
           "count": 8
@@ -951,7 +951,7 @@
       ]
     },
     {
-      "id": "AEF0E6C000809FBF",
+      "id": "2EF0E6C000809FBF",
       "title": "Fluid Pipe",
       "subtitle": "Fluid works",
       "description": [
@@ -962,11 +962,11 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "C148AA2F3C56859B"
+        "4148AA2F3C56859B"
       ],
       "tasks": [
         {
-          "id": "AECAE485F09F49A8",
+          "id": "2ECAE485F09F49A8",
           "type": "item",
           "item": "immersiveengineering:fluid_pipe",
           "count": 1,
@@ -975,14 +975,14 @@
       ],
       "rewards": [
         {
-          "id": "C09712C933EE9071",
+          "id": "409712C933EE9071",
           "type": "xp",
           "xp": 35
         }
       ]
     },
     {
-      "id": "AC58D4E0C1472415",
+      "id": "2C58D4E0C1472415",
       "title": "Fluid Pump",
       "subtitle": "",
       "description": [],
@@ -991,7 +991,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "AEF0E6C000809FBF"
+        "2EF0E6C000809FBF"
       ],
       "tasks": [
         {
@@ -1014,7 +1014,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "AC58D4E0C1472415"
+        "2C58D4E0C1472415"
       ],
       "tasks": [
         {
@@ -1028,7 +1028,7 @@
       "rewards": []
     },
     {
-      "id": "8F7BBF725A85DDA8",
+      "id": "0F7BBF725A85DDA8",
       "title": "Metal Barrel",
       "subtitle": "",
       "description": [],
@@ -1041,7 +1041,7 @@
       ],
       "tasks": [
         {
-          "id": "BAB4A9F30BAB8A3F",
+          "id": "3AB4A9F30BAB8A3F",
           "type": "item",
           "item": "immersiveengineering:metal_barrel",
           "count": 1,
@@ -1057,7 +1057,7 @@
       ]
     },
     {
-      "id": "C743B94024A3BA85",
+      "id": "4743B94024A3BA85",
       "title": "Fluid Router",
       "subtitle": "",
       "description": [],
@@ -1066,7 +1066,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "8F7BBF725A85DDA8"
+        "0F7BBF725A85DDA8"
       ],
       "tasks": [
         {
@@ -1089,11 +1089,11 @@
       "y": 15.0,
       "shape": "hexagon",
       "dependencies": [
-        "C743B94024A3BA85"
+        "4743B94024A3BA85"
       ],
       "tasks": [
         {
-          "id": "FE76C7B60583EC69",
+          "id": "7E76C7B60583EC69",
           "type": "item",
           "item": "immersiveengineering:jerrycan",
           "count": 1,
@@ -1115,7 +1115,7 @@
       ]
     },
     {
-      "id": "FB803033B571DEA5",
+      "id": "7B803033B571DEA5",
       "title": "MV Wire Coil",
       "subtitle": "High-voltage yard",
       "description": [
@@ -1126,7 +1126,7 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "A3A206E68CB8A9F9"
+        "23A206E68CB8A9F9"
       ],
       "tasks": [
         {
@@ -1146,7 +1146,7 @@
       ]
     },
     {
-      "id": "8E92AD3381BA8CE7",
+      "id": "0E92AD3381BA8CE7",
       "title": "MV Wire Connector",
       "subtitle": "",
       "description": [],
@@ -1155,11 +1155,11 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "FB803033B571DEA5"
+        "7B803033B571DEA5"
       ],
       "tasks": [
         {
-          "id": "F674E639087F167E",
+          "id": "7674E639087F167E",
           "type": "item",
           "item": "immersiveengineering:connector_mv",
           "count": 1,
@@ -1169,7 +1169,7 @@
       "rewards": []
     },
     {
-      "id": "E1ECF62AE0BE5DC0",
+      "id": "61ECF62AE0BE5DC0",
       "title": "MV Accumulator",
       "subtitle": "",
       "description": [],
@@ -1178,11 +1178,11 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "8E92AD3381BA8CE7"
+        "0E92AD3381BA8CE7"
       ],
       "tasks": [
         {
-          "id": "A01A95614EC31F24",
+          "id": "201A95614EC31F24",
           "type": "item",
           "item": "immersiveengineering:capacitor_mv",
           "count": 1,
@@ -1201,7 +1201,7 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "E1ECF62AE0BE5DC0"
+        "61ECF62AE0BE5DC0"
       ],
       "tasks": [
         {
@@ -1221,7 +1221,7 @@
       ]
     },
     {
-      "id": "AECBDE1CE7EEB9BD",
+      "id": "2ECBDE1CE7EEB9BD",
       "title": "HV Wire Coil",
       "subtitle": "",
       "description": [],
@@ -1244,7 +1244,7 @@
       "rewards": []
     },
     {
-      "id": "AE13216F1F172204",
+      "id": "2E13216F1F172204",
       "title": "HV Wire Connector",
       "subtitle": "",
       "description": [],
@@ -1253,7 +1253,7 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "AECBDE1CE7EEB9BD"
+        "2ECBDE1CE7EEB9BD"
       ],
       "tasks": [
         {
@@ -1276,11 +1276,11 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "AE13216F1F172204"
+        "2E13216F1F172204"
       ],
       "tasks": [
         {
-          "id": "AEF4D486FFC64455",
+          "id": "2EF4D486FFC64455",
           "type": "item",
           "item": "immersiveengineering:capacitor_hv",
           "count": 1,
@@ -1309,7 +1309,7 @@
       ],
       "tasks": [
         {
-          "id": "8CF8B958705928E7",
+          "id": "0CF8B958705928E7",
           "type": "item",
           "item": "immersiveengineering:transformer_hv",
           "count": 1,
@@ -1318,12 +1318,12 @@
       ],
       "rewards": [
         {
-          "id": "D3E63B1DE011B070",
+          "id": "53E63B1DE011B070",
           "type": "xp",
           "xp": 60
         },
         {
-          "id": "EA0F90B9D260C87F",
+          "id": "6A0F90B9D260C87F",
           "type": "item",
           "item": "minecraft:gold_ingot",
           "count": 4
@@ -1342,7 +1342,7 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "CB3051743BF63D85"
+        "4B3051743BF63D85"
       ],
       "tasks": [
         {
@@ -1421,7 +1421,7 @@
       ],
       "tasks": [
         {
-          "id": "FAC85980BA084703",
+          "id": "7AC85980BA084703",
           "type": "item",
           "item": "immersiveengineering:component_electronic_adv",
           "count": 1,
@@ -1430,14 +1430,14 @@
       ],
       "rewards": [
         {
-          "id": "B9ED7C675AF09EB6",
+          "id": "39ED7C675AF09EB6",
           "type": "xp",
           "xp": 45
         }
       ]
     },
     {
-      "id": "EE584380621F334F",
+      "id": "6E584380621F334F",
       "title": "Circuit Backplane",
       "subtitle": "",
       "description": [],
@@ -1469,11 +1469,11 @@
       "y": 21.0,
       "shape": "hexagon",
       "dependencies": [
-        "EE584380621F334F"
+        "6E584380621F334F"
       ],
       "tasks": [
         {
-          "id": "F03818E79EEBDBEC",
+          "id": "703818E79EEBDBEC",
           "type": "item",
           "item": "immersiveengineering:logic_unit",
           "count": 1,
@@ -1482,12 +1482,12 @@
       ],
       "rewards": [
         {
-          "id": "BA332C92C026B381",
+          "id": "3A332C92C026B381",
           "type": "xp",
           "xp": 65
         },
         {
-          "id": "B2F65F4674B47BAF",
+          "id": "32F65F4674B47BAF",
           "type": "item",
           "item": "minecraft:quartz",
           "count": 8
@@ -1549,7 +1549,7 @@
       "rewards": []
     },
     {
-      "id": "C7510341EE2F144A",
+      "id": "47510341EE2F144A",
       "title": "Steel Drill Head",
       "subtitle": "",
       "description": [],
@@ -1581,11 +1581,11 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "C7510341EE2F144A"
+        "47510341EE2F144A"
       ],
       "tasks": [
         {
-          "id": "845DFACF19D44354",
+          "id": "045DFACF19D44354",
           "type": "item",
           "item": "immersiveengineering:buzzsaw",
           "count": 1,
@@ -1601,7 +1601,7 @@
       ]
     },
     {
-      "id": "B68D8CF58B50D7AC",
+      "id": "368D8CF58B50D7AC",
       "title": "Sawblade",
       "subtitle": "",
       "description": [],
@@ -1633,11 +1633,11 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "B68D8CF58B50D7AC"
+        "368D8CF58B50D7AC"
       ],
       "tasks": [
         {
-          "id": "AE6900568E56E535",
+          "id": "2E6900568E56E535",
           "type": "item",
           "item": "immersiveengineering:powerpack",
           "count": 1,
@@ -1647,7 +1647,7 @@
       "rewards": []
     },
     {
-      "id": "E34DD40A0FD43909",
+      "id": "634DD40A0FD43909",
       "title": "Engineer's Skyhook",
       "subtitle": "",
       "description": [],
@@ -1682,7 +1682,7 @@
       ]
     },
     {
-      "id": "AB6213F99C46429E",
+      "id": "2B6213F99C46429E",
       "title": "Garden Cloche",
       "subtitle": "A cultivated supply",
       "description": [
@@ -1693,11 +1693,11 @@
       "y": 27.0,
       "shape": "circle",
       "dependencies": [
-        "C148AA2F3C56859B"
+        "4148AA2F3C56859B"
       ],
       "tasks": [
         {
-          "id": "F2CB6657366C371F",
+          "id": "72CB6657366C371F",
           "type": "item",
           "item": "immersiveengineering:cloche",
           "count": 1,
@@ -1706,7 +1706,7 @@
       ],
       "rewards": [
         {
-          "id": "865D434FB36A0D6B",
+          "id": "065D434FB36A0D6B",
           "type": "xp",
           "xp": 50
         }
@@ -1722,11 +1722,11 @@
       "y": 27.0,
       "shape": "circle",
       "dependencies": [
-        "AB6213F99C46429E"
+        "2B6213F99C46429E"
       ],
       "tasks": [
         {
-          "id": "80AB059A9F4A0CA3",
+          "id": "00AB059A9F4A0CA3",
           "type": "item",
           "item": "immersiveengineering:fertilizer",
           "count": 1,
@@ -1736,7 +1736,7 @@
       "rewards": []
     },
     {
-      "id": "9825301184DE90F7",
+      "id": "1825301184DE90F7",
       "title": "Industrial Hemp Seeds",
       "subtitle": "",
       "description": [],
@@ -1749,7 +1749,7 @@
       ],
       "tasks": [
         {
-          "id": "E8532238D652890F",
+          "id": "68532238D652890F",
           "type": "item",
           "item": "immersiveengineering:seed",
           "count": 1,
@@ -1759,7 +1759,7 @@
       "rewards": []
     },
     {
-      "id": "F09D5EACC7C0EF45",
+      "id": "709D5EACC7C0EF45",
       "title": "Industrial Hemp Fiber",
       "subtitle": "",
       "description": [],
@@ -1768,11 +1768,11 @@
       "y": 27.0,
       "shape": "circle",
       "dependencies": [
-        "9825301184DE90F7"
+        "1825301184DE90F7"
       ],
       "tasks": [
         {
-          "id": "9C79058C42FCC9DD",
+          "id": "1C79058C42FCC9DD",
           "type": "item",
           "item": "immersiveengineering:hemp_fiber",
           "count": 1,
@@ -1781,14 +1781,14 @@
       ],
       "rewards": [
         {
-          "id": "D15602D38EE0D90F",
+          "id": "515602D38EE0D90F",
           "type": "xp",
           "xp": 50
         }
       ]
     },
     {
-      "id": "8D0BA3A34B086632",
+      "id": "0D0BA3A34B086632",
       "title": "Tough Fabric",
       "subtitle": "",
       "description": [],
@@ -1797,11 +1797,11 @@
       "y": 27.0,
       "shape": "hexagon",
       "dependencies": [
-        "F09D5EACC7C0EF45"
+        "709D5EACC7C0EF45"
       ],
       "tasks": [
         {
-          "id": "C4BD2E21B9807E3A",
+          "id": "44BD2E21B9807E3A",
           "type": "item",
           "item": "immersiveengineering:hemp_fabric",
           "count": 1,
@@ -1810,12 +1810,12 @@
       ],
       "rewards": [
         {
-          "id": "9F8A29E0B5C0C96C",
+          "id": "1F8A29E0B5C0C96C",
           "type": "xp",
           "xp": 70
         },
         {
-          "id": "8581D9C8350EFD92",
+          "id": "0581D9C8350EFD92",
           "type": "item",
           "item": "minecraft:redstone",
           "count": 16

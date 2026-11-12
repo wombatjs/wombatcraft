@@ -6,7 +6,7 @@
   "default_quest_shape": "circle",
   "quests": [
     {
-      "id": "8A41F77E091CBFE9",
+      "id": "0A41F77E091CBFE9",
       "title": "Arcane Essence",
       "subtitle": "The scribe's bench",
       "description": [
@@ -19,7 +19,7 @@
       "dependencies": [],
       "tasks": [
         {
-          "id": "A2F4645A305EBE2B",
+          "id": "22F4645A305EBE2B",
           "type": "item",
           "item": "irons_spellbooks:arcane_essence",
           "count": 1,
@@ -28,14 +28,14 @@
       ],
       "rewards": [
         {
-          "id": "FF7397D3579BA12A",
+          "id": "7F7397D3579BA12A",
           "type": "xp",
           "xp": 10
         }
       ]
     },
     {
-      "id": "C4493B7EBECCE27F",
+      "id": "44493B7EBECCE27F",
       "title": "Common Ink",
       "subtitle": "",
       "description": [],
@@ -44,7 +44,7 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "8A41F77E091CBFE9"
+        "0A41F77E091CBFE9"
       ],
       "tasks": [
         {
@@ -67,11 +67,11 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "C4493B7EBECCE27F"
+        "44493B7EBECCE27F"
       ],
       "tasks": [
         {
-          "id": "9A173607C5B7721A",
+          "id": "1A173607C5B7721A",
           "type": "item",
           "item": "irons_spellbooks:scroll",
           "count": 1,
@@ -94,7 +94,7 @@
       ],
       "tasks": [
         {
-          "id": "8A73EAFA4E2E4103",
+          "id": "0A73EAFA4E2E4103",
           "type": "item",
           "item": "irons_spellbooks:inscription_table",
           "count": 1,
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "id": "B23930B0412815F2",
+      "id": "323930B0412815F2",
       "title": "Flimsy Journal",
       "subtitle": "",
       "description": [],
@@ -133,7 +133,7 @@
       "rewards": []
     },
     {
-      "id": "F3D9AE5D41E53733",
+      "id": "73D9AE5D41E53733",
       "title": "Scroll Forge",
       "subtitle": "",
       "description": [],
@@ -142,7 +142,7 @@
       "y": 0.0,
       "shape": "hexagon",
       "dependencies": [
-        "B23930B0412815F2"
+        "323930B0412815F2"
       ],
       "tasks": [
         {
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "id": "DF001A8F5FE6C667",
+      "id": "5F001A8F5FE6C667",
       "title": "Ironbound Tome",
       "subtitle": "Better bindings",
       "description": [
@@ -179,11 +179,11 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "B23930B0412815F2"
+        "323930B0412815F2"
       ],
       "tasks": [
         {
-          "id": "F304CB06DB335B32",
+          "id": "7304CB06DB335B32",
           "type": "item",
           "item": "irons_spellbooks:iron_spell_book",
           "count": 1,
@@ -208,7 +208,7 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "DF001A8F5FE6C667"
+        "5F001A8F5FE6C667"
       ],
       "tasks": [
         {
@@ -267,12 +267,12 @@
       ],
       "rewards": [
         {
-          "id": "C356691CA5DA7CAE",
+          "id": "4356691CA5DA7CAE",
           "type": "xp",
           "xp": 15
         },
         {
-          "id": "F5EAF79D3C5F517A",
+          "id": "75EAF79D3C5F517A",
           "type": "item",
           "item": "minecraft:book",
           "count": 4
@@ -280,7 +280,7 @@
       ]
     },
     {
-      "id": "E5AED1CCFEA59032",
+      "id": "65AED1CCFEA59032",
       "title": "Uncommon Ink",
       "subtitle": "The ink trade",
       "description": [
@@ -291,7 +291,7 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "F3D9AE5D41E53733"
+        "73D9AE5D41E53733"
       ],
       "tasks": [
         {
@@ -311,7 +311,7 @@
       ]
     },
     {
-      "id": "E16494FADF0B6CB3",
+      "id": "616494FADF0B6CB3",
       "title": "Rare Ink",
       "subtitle": "",
       "description": [],
@@ -320,11 +320,11 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "E5AED1CCFEA59032"
+        "65AED1CCFEA59032"
       ],
       "tasks": [
         {
-          "id": "8EC108265AE8ADAA",
+          "id": "0EC108265AE8ADAA",
           "type": "item",
           "item": "irons_spellbooks:rare_ink",
           "count": 1,
@@ -334,7 +334,7 @@
       "rewards": []
     },
     {
-      "id": "C577451F0E31137C",
+      "id": "4577451F0E31137C",
       "title": "Epic Ink",
       "subtitle": "",
       "description": [],
@@ -343,11 +343,11 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "E16494FADF0B6CB3"
+        "616494FADF0B6CB3"
       ],
       "tasks": [
         {
-          "id": "A997FFFFAE8ED174",
+          "id": "2997FFFFAE8ED174",
           "type": "item",
           "item": "irons_spellbooks:epic_ink",
           "count": 1,
@@ -366,11 +366,11 @@
       "y": 6.0,
       "shape": "hexagon",
       "dependencies": [
-        "C577451F0E31137C"
+        "4577451F0E31137C"
       ],
       "tasks": [
         {
-          "id": "F6B5FCEEBBC77558",
+          "id": "76B5FCEEBBC77558",
           "type": "item",
           "item": "irons_spellbooks:legendary_ink",
           "count": 1,
@@ -379,12 +379,12 @@
       ],
       "rewards": [
         {
-          "id": "BDD622FBCC96BD37",
+          "id": "3DD622FBCC96BD37",
           "type": "xp",
           "xp": 20
         },
         {
-          "id": "9A8E2514852B82E4",
+          "id": "1A8E2514852B82E4",
           "type": "item",
           "item": "minecraft:amethyst_shard",
           "count": 8
@@ -392,7 +392,7 @@
       ]
     },
     {
-      "id": "C410BBBF9060C5DC",
+      "id": "4410BBBF9060C5DC",
       "title": "Arcane Anvil",
       "subtitle": "Arcane smithing",
       "description": [
@@ -403,7 +403,7 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "8A41F77E091CBFE9"
+        "0A41F77E091CBFE9"
       ],
       "tasks": [
         {
@@ -416,7 +416,7 @@
       ],
       "rewards": [
         {
-          "id": "CD5755987081FE0E",
+          "id": "4D5755987081FE0E",
           "type": "xp",
           "xp": 25
         }
@@ -432,7 +432,7 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "C410BBBF9060C5DC"
+        "4410BBBF9060C5DC"
       ],
       "tasks": [
         {
@@ -459,7 +459,7 @@
       ],
       "tasks": [
         {
-          "id": "C82AF73347028014",
+          "id": "482AF73347028014",
           "type": "item",
           "item": "irons_spellbooks:upgrade_orb",
           "count": 1,
@@ -482,7 +482,7 @@
       ],
       "tasks": [
         {
-          "id": "C7E2AE626013A903",
+          "id": "47E2AE626013A903",
           "type": "item",
           "item": "irons_spellbooks:mana_upgrade_orb",
           "count": 1,
@@ -498,7 +498,7 @@
       ]
     },
     {
-      "id": "B07F690CF93353E8",
+      "id": "307F690CF93353E8",
       "title": "Cooldown Upgrade Orb",
       "subtitle": "",
       "description": [],
@@ -530,7 +530,7 @@
       "y": 9.0,
       "shape": "hexagon",
       "dependencies": [
-        "B07F690CF93353E8"
+        "307F690CF93353E8"
       ],
       "tasks": [
         {
@@ -556,7 +556,7 @@
       ]
     },
     {
-      "id": "A320CDF189DC6554",
+      "id": "2320CDF189DC6554",
       "title": "Fire Rune",
       "subtitle": "Schools of power",
       "description": [
@@ -571,7 +571,7 @@
       ],
       "tasks": [
         {
-          "id": "8F81DC453D8BC875",
+          "id": "0F81DC453D8BC875",
           "type": "item",
           "item": "irons_spellbooks:fire_rune",
           "count": 1,
@@ -596,7 +596,7 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "A320CDF189DC6554"
+        "2320CDF189DC6554"
       ],
       "tasks": [
         {
@@ -610,7 +610,7 @@
       "rewards": []
     },
     {
-      "id": "861917872E696F25",
+      "id": "061917872E696F25",
       "title": "Lightning Rune",
       "subtitle": "",
       "description": [],
@@ -633,7 +633,7 @@
       "rewards": []
     },
     {
-      "id": "AF66405EDAADD7A3",
+      "id": "2F66405EDAADD7A3",
       "title": "Holy Rune",
       "subtitle": "",
       "description": [],
@@ -642,7 +642,7 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "861917872E696F25"
+        "061917872E696F25"
       ],
       "tasks": [
         {
@@ -662,7 +662,7 @@
       ]
     },
     {
-      "id": "88E02FD283ED7095",
+      "id": "08E02FD283ED7095",
       "title": "Ender Rune",
       "subtitle": "",
       "description": [],
@@ -671,7 +671,7 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "AF66405EDAADD7A3"
+        "2F66405EDAADD7A3"
       ],
       "tasks": [
         {
@@ -694,11 +694,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "88E02FD283ED7095"
+        "08E02FD283ED7095"
       ],
       "tasks": [
         {
-          "id": "D80FBDE319466AC3",
+          "id": "580FBDE319466AC3",
           "type": "item",
           "item": "irons_spellbooks:blood_rune",
           "count": 1,
@@ -708,7 +708,7 @@
       "rewards": []
     },
     {
-      "id": "9D0E29CD82525CB8",
+      "id": "1D0E29CD82525CB8",
       "title": "Evocation Rune",
       "subtitle": "",
       "description": [],
@@ -746,7 +746,7 @@
       "y": 12.0,
       "shape": "hexagon",
       "dependencies": [
-        "9D0E29CD82525CB8"
+        "1D0E29CD82525CB8"
       ],
       "tasks": [
         {
@@ -759,12 +759,12 @@
       ],
       "rewards": [
         {
-          "id": "B4E2519ACF9B87DC",
+          "id": "34E2519ACF9B87DC",
           "type": "xp",
           "xp": 50
         },
         {
-          "id": "C0E4FCA3432C7DC6",
+          "id": "40E4FCA3432C7DC6",
           "type": "item",
           "item": "minecraft:lapis_lazuli",
           "count": 12
@@ -772,7 +772,7 @@
       ]
     },
     {
-      "id": "A134AA8CF33B4F8F",
+      "id": "2134AA8CF33B4F8F",
       "title": "Wizard Helmet",
       "subtitle": "A mage's equipment",
       "description": [
@@ -783,7 +783,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "DF001A8F5FE6C667"
+        "5F001A8F5FE6C667"
       ],
       "tasks": [
         {
@@ -803,7 +803,7 @@
       ]
     },
     {
-      "id": "84DBE09A9778FBFA",
+      "id": "04DBE09A9778FBFA",
       "title": "Wizard Boots",
       "subtitle": "",
       "description": [],
@@ -812,7 +812,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "A134AA8CF33B4F8F"
+        "2134AA8CF33B4F8F"
       ],
       "tasks": [
         {
@@ -826,7 +826,7 @@
       "rewards": []
     },
     {
-      "id": "E606B5D5043A2CA6",
+      "id": "6606B5D5043A2CA6",
       "title": "Ring of Mana",
       "subtitle": "",
       "description": [],
@@ -835,7 +835,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "84DBE09A9778FBFA"
+        "04DBE09A9778FBFA"
       ],
       "tasks": [
         {
@@ -858,7 +858,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "E606B5D5043A2CA6"
+        "6606B5D5043A2CA6"
       ],
       "tasks": [
         {
@@ -871,14 +871,14 @@
       ],
       "rewards": [
         {
-          "id": "DF4F305215D3C69D",
+          "id": "5F4F305215D3C69D",
           "type": "xp",
           "xp": 35
         }
       ]
     },
     {
-      "id": "F82A5A870AF9C1B7",
+      "id": "782A5A870AF9C1B7",
       "title": "Ring of Expediency",
       "subtitle": "",
       "description": [],
@@ -891,7 +891,7 @@
       ],
       "tasks": [
         {
-          "id": "D081ED2B08E4B510",
+          "id": "5081ED2B08E4B510",
           "type": "item",
           "item": "irons_spellbooks:cast_time_ring",
           "count": 1,
@@ -910,11 +910,11 @@
       "y": 15.0,
       "shape": "hexagon",
       "dependencies": [
-        "F82A5A870AF9C1B7"
+        "782A5A870AF9C1B7"
       ],
       "tasks": [
         {
-          "id": "844141291D1852E4",
+          "id": "044141291D1852E4",
           "type": "item",
           "item": "irons_spellbooks:concentration_amulet",
           "count": 1,
@@ -960,14 +960,14 @@
       ],
       "rewards": [
         {
-          "id": "83DA4548EC19DC6E",
+          "id": "03DA4548EC19DC6E",
           "type": "xp",
           "xp": 40
         }
       ]
     },
     {
-      "id": "9DC69925927B5CED",
+      "id": "1DC69925927B5CED",
       "title": "Frostbranded Book",
       "subtitle": "",
       "description": [],
@@ -990,7 +990,7 @@
       "rewards": []
     },
     {
-      "id": "D079E292D571C107",
+      "id": "5079E292D571C107",
       "title": "Grimoire of Evokation",
       "subtitle": "",
       "description": [],
@@ -999,11 +999,11 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "9DC69925927B5CED"
+        "1DC69925927B5CED"
       ],
       "tasks": [
         {
-          "id": "8ECF847C6029B358",
+          "id": "0ECF847C6029B358",
           "type": "item",
           "item": "irons_spellbooks:evoker_spell_book",
           "count": 1,
@@ -1022,11 +1022,11 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "D079E292D571C107"
+        "5079E292D571C107"
       ],
       "tasks": [
         {
-          "id": "D7579C7105492029",
+          "id": "57579C7105492029",
           "type": "item",
           "item": "irons_spellbooks:necronomicon_spell_book",
           "count": 1,
@@ -1035,7 +1035,7 @@
       ],
       "rewards": [
         {
-          "id": "EE017A2F20FF0991",
+          "id": "6E017A2F20FF0991",
           "type": "xp",
           "xp": 40
         }
@@ -1065,7 +1065,7 @@
       "rewards": []
     },
     {
-      "id": "DEA464AE460BDC50",
+      "id": "5EA464AE460BDC50",
       "title": "Legendary Spell Book",
       "subtitle": "",
       "description": [],
@@ -1092,7 +1092,7 @@
           "xp": 60
         },
         {
-          "id": "82A9F71A93FC80B9",
+          "id": "02A9F71A93FC80B9",
           "type": "item",
           "item": "minecraft:amethyst_shard",
           "count": 8
@@ -1100,7 +1100,7 @@
       ]
     },
     {
-      "id": "A22E5139A6979F2F",
+      "id": "222E5139A6979F2F",
       "title": "Alchemist Cauldron",
       "subtitle": "An alchemist's provisions",
       "description": [
@@ -1111,7 +1111,7 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "C410BBBF9060C5DC"
+        "4410BBBF9060C5DC"
       ],
       "tasks": [
         {
@@ -1140,11 +1140,11 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "A22E5139A6979F2F"
+        "222E5139A6979F2F"
       ],
       "tasks": [
         {
-          "id": "B535E3C8892DE8AB",
+          "id": "3535E3C8892DE8AB",
           "type": "item",
           "item": "irons_spellbooks:oakskin_elixir",
           "count": 1,
@@ -1190,7 +1190,7 @@
       ],
       "tasks": [
         {
-          "id": "A4CCAAE4DAC0D9B2",
+          "id": "24CCAAE4DAC0D9B2",
           "type": "item",
           "item": "irons_spellbooks:greater_healing_potion",
           "count": 1,
@@ -1206,7 +1206,7 @@
       ]
     },
     {
-      "id": "A3016D81F0F3DD53",
+      "id": "23016D81F0F3DD53",
       "title": "Greater Oakskin Elixir",
       "subtitle": "",
       "description": [],
@@ -1252,11 +1252,11 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "DEA464AE460BDC50"
+        "5EA464AE460BDC50"
       ],
       "tasks": [
         {
-          "id": "FAD851E44A2A9173",
+          "id": "7AD851E44A2A9173",
           "type": "item",
           "item": "irons_spellbooks:ancient_knowledge_fragment",
           "count": 1,
@@ -1265,7 +1265,7 @@
       ],
       "rewards": [
         {
-          "id": "D4AE3A180233C783",
+          "id": "54AE3A180233C783",
           "type": "xp",
           "xp": 50
         }
@@ -1285,7 +1285,7 @@
       ],
       "tasks": [
         {
-          "id": "C7A62C4BF272A731",
+          "id": "47A62C4BF272A731",
           "type": "item",
           "item": "irons_spellbooks:eldritch_manuscript",
           "count": 1,
@@ -1295,7 +1295,7 @@
       "rewards": []
     },
     {
-      "id": "8283F32982FDB198",
+      "id": "0283F32982FDB198",
       "title": "Dead King Phylactery Shard",
       "subtitle": "",
       "description": [],
@@ -1308,7 +1308,7 @@
       ],
       "tasks": [
         {
-          "id": "EA61AC73E2AA6E6E",
+          "id": "6A61AC73E2AA6E6E",
           "type": "item",
           "item": "irons_spellbooks:dead_king_phylactery_shard",
           "count": 1,
@@ -1327,11 +1327,11 @@
       "y": 24.0,
       "shape": "hexagon",
       "dependencies": [
-        "8283F32982FDB198"
+        "0283F32982FDB198"
       ],
       "tasks": [
         {
-          "id": "90BCDF190385446F",
+          "id": "10BCDF190385446F",
           "type": "item",
           "item": "irons_spellbooks:dead_king_phylactery",
           "count": 1,
@@ -1345,7 +1345,7 @@
           "xp": 50
         },
         {
-          "id": "E4B96FB2EB6F3F2E",
+          "id": "64B96FB2EB6F3F2E",
           "type": "item",
           "item": "minecraft:lapis_lazuli",
           "count": 12

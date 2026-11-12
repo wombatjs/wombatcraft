@@ -1,12 +1,12 @@
 {
-  "id": "FADE650568267BAC",
+  "id": "7ADE650568267BAC",
   "title": "Forbidden Arts",
   "group": "065A019E212476CF",
   "order_index": 20,
   "default_quest_shape": "circle",
   "quests": [
     {
-      "id": "A8E011C131CA2F45",
+      "id": "28E011C131CA2F45",
       "title": "Arcane Crystal",
       "subtitle": "Beneath dark stone",
       "description": [
@@ -28,7 +28,7 @@
       ],
       "rewards": [
         {
-          "id": "8427F5A6EFDE84CD",
+          "id": "0427F5A6EFDE84CD",
           "type": "xp",
           "xp": 10
         }
@@ -44,11 +44,11 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "A8E011C131CA2F45"
+        "28E011C131CA2F45"
       ],
       "tasks": [
         {
-          "id": "D1652912668AA42A",
+          "id": "51652912668AA42A",
           "type": "item",
           "item": "forbidden_arcanus:rune",
           "count": 1,
@@ -58,7 +58,7 @@
       "rewards": []
     },
     {
-      "id": "94FB4CF0E140F4EC",
+      "id": "14FB4CF0E140F4EC",
       "title": "Darkstone",
       "subtitle": "",
       "description": [],
@@ -81,7 +81,7 @@
       "rewards": []
     },
     {
-      "id": "D7BE200A374825B2",
+      "id": "57BE200A374825B2",
       "title": "Arcane Crystal Dust",
       "subtitle": "",
       "description": [],
@@ -90,11 +90,11 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "94FB4CF0E140F4EC"
+        "14FB4CF0E140F4EC"
       ],
       "tasks": [
         {
-          "id": "8D4C84852E8E0782",
+          "id": "0D4C84852E8E0782",
           "type": "item",
           "item": "forbidden_arcanus:arcane_crystal_dust",
           "count": 1,
@@ -103,14 +103,14 @@
       ],
       "rewards": [
         {
-          "id": "C9088945150557E7",
+          "id": "49088945150557E7",
           "type": "xp",
           "xp": 10
         }
       ]
     },
     {
-      "id": "A43E34F00417F203",
+      "id": "243E34F00417F203",
       "title": "Mundabitur Dust",
       "subtitle": "",
       "description": [],
@@ -119,7 +119,7 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "D7BE200A374825B2"
+        "57BE200A374825B2"
       ],
       "tasks": [
         {
@@ -133,7 +133,7 @@
       "rewards": []
     },
     {
-      "id": "83D96A4CF8E1890F",
+      "id": "03D96A4CF8E1890F",
       "title": "Deorum Ingot",
       "subtitle": "",
       "description": [],
@@ -142,11 +142,11 @@
       "y": 0.0,
       "shape": "hexagon",
       "dependencies": [
-        "A43E34F00417F203"
+        "243E34F00417F203"
       ],
       "tasks": [
         {
-          "id": "EA6BFC14E6DFCE6D",
+          "id": "6A6BFC14E6DFCE6D",
           "type": "item",
           "item": "forbidden_arcanus:deorum_ingot",
           "count": 1,
@@ -160,7 +160,7 @@
           "xp": 30
         },
         {
-          "id": "9A60759FE946E099",
+          "id": "1A60759FE946E099",
           "type": "item",
           "item": "minecraft:lapis_lazuli",
           "count": 12
@@ -179,7 +179,7 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "83D96A4CF8E1890F"
+        "03D96A4CF8E1890F"
       ],
       "tasks": [
         {
@@ -192,14 +192,14 @@
       ],
       "rewards": [
         {
-          "id": "A27CE09CA34D120F",
+          "id": "227CE09CA34D120F",
           "type": "xp",
           "xp": 15
         }
       ]
     },
     {
-      "id": "8084F8B0BA1BC349",
+      "id": "0084F8B0BA1BC349",
       "title": "Darkstone Pedestal",
       "subtitle": "",
       "description": [],
@@ -212,7 +212,7 @@
       ],
       "tasks": [
         {
-          "id": "F27E957C601FF130",
+          "id": "727E957C601FF130",
           "type": "item",
           "item": "forbidden_arcanus:darkstone_pedestal",
           "count": 1,
@@ -222,7 +222,7 @@
       "rewards": []
     },
     {
-      "id": "D38B3EF8E3065D7D",
+      "id": "538B3EF8E3065D7D",
       "title": "Wooden Blacksmith Gavel",
       "subtitle": "",
       "description": [],
@@ -231,11 +231,11 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "8084F8B0BA1BC349"
+        "0084F8B0BA1BC349"
       ],
       "tasks": [
         {
-          "id": "BEFD122BD8456FA5",
+          "id": "3EFD122BD8456FA5",
           "type": "item",
           "item": "forbidden_arcanus:wooden_blacksmith_gavel",
           "count": 1,
@@ -254,11 +254,11 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "D38B3EF8E3065D7D"
+        "538B3EF8E3065D7D"
       ],
       "tasks": [
         {
-          "id": "E0434425AF571732",
+          "id": "60434425AF571732",
           "type": "item",
           "item": "forbidden_arcanus:stone_blacksmith_gavel",
           "count": 1,
@@ -309,7 +309,7 @@
       ]
     },
     {
-      "id": "8B40C70D27AEB6F4",
+      "id": "0B40C70D27AEB6F4",
       "title": "Test Tube",
       "subtitle": "Four reserves",
       "description": [
@@ -349,7 +349,7 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "8B40C70D27AEB6F4"
+        "0B40C70D27AEB6F4"
       ],
       "tasks": [
         {
@@ -386,7 +386,7 @@
       "rewards": []
     },
     {
-      "id": "8D24278EFB86483E",
+      "id": "0D24278EFB86483E",
       "title": "Aureal Bottle",
       "subtitle": "",
       "description": [],
@@ -408,7 +408,7 @@
       ],
       "rewards": [
         {
-          "id": "E11AF3EEAF6DC896",
+          "id": "611AF3EEAF6DC896",
           "type": "xp",
           "xp": 20
         }
@@ -424,7 +424,7 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "8D24278EFB86483E"
+        "0D24278EFB86483E"
       ],
       "tasks": [
         {
@@ -438,7 +438,7 @@
       "rewards": []
     },
     {
-      "id": "E83666A9CFA48D73",
+      "id": "683666A9CFA48D73",
       "title": "Arcane Crystal Obelisk",
       "subtitle": "",
       "description": [],
@@ -465,7 +465,7 @@
           "xp": 40
         },
         {
-          "id": "F14D699B638E7456",
+          "id": "714D699B638E7456",
           "type": "item",
           "item": "minecraft:amethyst_shard",
           "count": 8
@@ -488,7 +488,7 @@
       ],
       "tasks": [
         {
-          "id": "E9814A80B96E076F",
+          "id": "69814A80B96E076F",
           "type": "item",
           "item": "forbidden_arcanus:golden_blacksmith_gavel",
           "count": 1,
@@ -563,7 +563,7 @@
       ],
       "tasks": [
         {
-          "id": "F1FAE3F6029F0AE9",
+          "id": "71FAE3F6029F0AE9",
           "type": "item",
           "item": "forbidden_arcanus:reinforced_deorum_blacksmith_gavel",
           "count": 1,
@@ -577,7 +577,7 @@
           "xp": 25
         },
         {
-          "id": "99FF3E9817332067",
+          "id": "19FF3E9817332067",
           "type": "item",
           "item": "minecraft:golden_carrot",
           "count": 4
@@ -585,7 +585,7 @@
       ]
     },
     {
-      "id": "FD0E4E141584DB8E",
+      "id": "7D0E4E141584DB8E",
       "title": "Soul Extractor",
       "subtitle": "Capturing the unseen",
       "description": [
@@ -609,14 +609,14 @@
       ],
       "rewards": [
         {
-          "id": "C3787A95E2D1C6EC",
+          "id": "43787A95E2D1C6EC",
           "type": "xp",
           "xp": 30
         }
       ]
     },
     {
-      "id": "9EC191AB5D35405B",
+      "id": "1EC191AB5D35405B",
       "title": "Corrupt Soul",
       "subtitle": "",
       "description": [],
@@ -625,11 +625,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "FD0E4E141584DB8E"
+        "7D0E4E141584DB8E"
       ],
       "tasks": [
         {
-          "id": "81F444B026EE6C35",
+          "id": "01F444B026EE6C35",
           "type": "item",
           "item": "forbidden_arcanus:corrupt_soul",
           "count": 1,
@@ -648,7 +648,7 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "9EC191AB5D35405B"
+        "1EC191AB5D35405B"
       ],
       "tasks": [
         {
@@ -662,7 +662,7 @@
       "rewards": []
     },
     {
-      "id": "CBE0D762873D15E5",
+      "id": "4BE0D762873D15E5",
       "title": "Quantum Catcher",
       "subtitle": "",
       "description": [],
@@ -675,7 +675,7 @@
       ],
       "tasks": [
         {
-          "id": "D0F237B49E11485F",
+          "id": "50F237B49E11485F",
           "type": "item",
           "item": "forbidden_arcanus:quantum_catcher",
           "count": 1,
@@ -684,14 +684,14 @@
       ],
       "rewards": [
         {
-          "id": "C0187049309C6B04",
+          "id": "40187049309C6B04",
           "type": "xp",
           "xp": 30
         }
       ]
     },
     {
-      "id": "99BE146F948720E2",
+      "id": "19BE146F948720E2",
       "title": "Spectral Eye Amulet",
       "subtitle": "",
       "description": [],
@@ -700,11 +700,11 @@
       "y": 12.0,
       "shape": "hexagon",
       "dependencies": [
-        "CBE0D762873D15E5"
+        "4BE0D762873D15E5"
       ],
       "tasks": [
         {
-          "id": "82350DBDECA6D164",
+          "id": "02350DBDECA6D164",
           "type": "item",
           "item": "forbidden_arcanus:spectral_eye_amulet",
           "count": 1,
@@ -713,7 +713,7 @@
       ],
       "rewards": [
         {
-          "id": "D61893D57598332E",
+          "id": "561893D57598332E",
           "type": "xp",
           "xp": 50
         },
@@ -750,7 +750,7 @@
       ],
       "rewards": [
         {
-          "id": "95A920AD45F7EF1C",
+          "id": "15A920AD45F7EF1C",
           "type": "xp",
           "xp": 35
         }
@@ -770,7 +770,7 @@
       ],
       "tasks": [
         {
-          "id": "D24B3539AB465A5C",
+          "id": "524B3539AB465A5C",
           "type": "item",
           "item": "forbidden_arcanus:stella_arcanum",
           "count": 1,
@@ -780,7 +780,7 @@
       "rewards": []
     },
     {
-      "id": "9BC00A8178460D0E",
+      "id": "1BC00A8178460D0E",
       "title": "Eternal Stella",
       "subtitle": "",
       "description": [],
@@ -793,7 +793,7 @@
       ],
       "tasks": [
         {
-          "id": "9485DAE3349426CC",
+          "id": "1485DAE3349426CC",
           "type": "item",
           "item": "forbidden_arcanus:eternal_stella",
           "count": 1,
@@ -812,7 +812,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "9BC00A8178460D0E"
+        "1BC00A8178460D0E"
       ],
       "tasks": [
         {
@@ -825,7 +825,7 @@
       ],
       "rewards": [
         {
-          "id": "9FBF96A52D0F8FC8",
+          "id": "1FBF96A52D0F8FC8",
           "type": "xp",
           "xp": 35
         }
@@ -845,7 +845,7 @@
       ],
       "tasks": [
         {
-          "id": "860F166CDAC1F48B",
+          "id": "060F166CDAC1F48B",
           "type": "item",
           "item": "forbidden_arcanus:eternal_obsidian_skull",
           "count": 1,
@@ -854,7 +854,7 @@
       ],
       "rewards": [
         {
-          "id": "B07506C5ABAE3804",
+          "id": "307506C5ABAE3804",
           "type": "xp",
           "xp": 55
         },
@@ -891,14 +891,14 @@
       ],
       "rewards": [
         {
-          "id": "8CE433BAD8B6BC40",
+          "id": "0CE433BAD8B6BC40",
           "type": "xp",
           "xp": 40
         }
       ]
     },
     {
-      "id": "8C86A889094C2F70",
+      "id": "0C86A889094C2F70",
       "title": "Golden Dragon Scale",
       "subtitle": "",
       "description": [],
@@ -930,11 +930,11 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "8C86A889094C2F70"
+        "0C86A889094C2F70"
       ],
       "tasks": [
         {
-          "id": "CC8712CAAF1B5F9E",
+          "id": "4C8712CAAF1B5F9E",
           "type": "item",
           "item": "forbidden_arcanus:draco_arcanus_sword",
           "count": 1,
@@ -944,7 +944,7 @@
       "rewards": []
     },
     {
-      "id": "A24F98D1177C74B0",
+      "id": "224F98D1177C74B0",
       "title": "Draco Arcanus Pickaxe",
       "subtitle": "",
       "description": [],
@@ -982,7 +982,7 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "A24F98D1177C74B0"
+        "224F98D1177C74B0"
       ],
       "tasks": [
         {
@@ -1023,7 +1023,7 @@
           "xp": 60
         },
         {
-          "id": "B07BD9E7C270767A",
+          "id": "307BD9E7C270767A",
           "type": "item",
           "item": "minecraft:amethyst_shard",
           "count": 8

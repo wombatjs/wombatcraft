@@ -28,7 +28,7 @@
       ],
       "rewards": [
         {
-          "id": "8F74A9D7C2214A9F",
+          "id": "0F74A9D7C2214A9F",
           "type": "xp",
           "xp": 10
         }
@@ -71,7 +71,7 @@
       ],
       "tasks": [
         {
-          "id": "9AAD92EFE3A98CE9",
+          "id": "1AAD92EFE3A98CE9",
           "type": "item",
           "item": "ars_nouveau:source_gem",
           "count": 1,
@@ -94,7 +94,7 @@
       ],
       "tasks": [
         {
-          "id": "9DD37F3D30B77ACF",
+          "id": "1DD37F3D30B77ACF",
           "type": "item",
           "item": "ars_nouveau:imbuement_chamber",
           "count": 1,
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "id": "F505D06EB5FD3552",
+      "id": "7505D06EB5FD3552",
       "title": "Scribe's Table",
       "subtitle": "",
       "description": [],
@@ -132,7 +132,7 @@
       ],
       "rewards": [
         {
-          "id": "C2FECC0E21B0F212",
+          "id": "42FECC0E21B0F212",
           "type": "xp",
           "xp": 30
         },
@@ -156,7 +156,7 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "F505D06EB5FD3552"
+        "7505D06EB5FD3552"
       ],
       "tasks": [
         {
@@ -176,7 +176,7 @@
       ]
     },
     {
-      "id": "9F4B878F2277414E",
+      "id": "1F4B878F2277414E",
       "title": "Glyph Projectile",
       "subtitle": "",
       "description": [],
@@ -189,7 +189,7 @@
       ],
       "tasks": [
         {
-          "id": "EA8E120203F17BB3",
+          "id": "6A8E120203F17BB3",
           "type": "item",
           "item": "ars_nouveau:glyph_projectile",
           "count": 1,
@@ -208,11 +208,11 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "9F4B878F2277414E"
+        "1F4B878F2277414E"
       ],
       "tasks": [
         {
-          "id": "D48EA3E6C7589A5A",
+          "id": "548EA3E6C7589A5A",
           "type": "item",
           "item": "ars_nouveau:glyph_self",
           "count": 1,
@@ -244,7 +244,7 @@
       ],
       "rewards": [
         {
-          "id": "B85F81004DF7798C",
+          "id": "385F81004DF7798C",
           "type": "xp",
           "xp": 15
         }
@@ -264,7 +264,7 @@
       ],
       "tasks": [
         {
-          "id": "D97303D9FCF6A6C7",
+          "id": "597303D9FCF6A6C7",
           "type": "item",
           "item": "ars_nouveau:glyph_light",
           "count": 1,
@@ -274,7 +274,7 @@
       "rewards": []
     },
     {
-      "id": "AA55875974D0DA81",
+      "id": "2A55875974D0DA81",
       "title": "Glyph Harm",
       "subtitle": "",
       "description": [],
@@ -287,7 +287,7 @@
       ],
       "tasks": [
         {
-          "id": "9A4567CB2B238387",
+          "id": "1A4567CB2B238387",
           "type": "item",
           "item": "ars_nouveau:glyph_harm",
           "count": 1,
@@ -297,7 +297,7 @@
       "rewards": []
     },
     {
-      "id": "C87BA17D3B1B34B2",
+      "id": "487BA17D3B1B34B2",
       "title": "Glyph Heal",
       "subtitle": "",
       "description": [],
@@ -306,7 +306,7 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "AA55875974D0DA81"
+        "2A55875974D0DA81"
       ],
       "tasks": [
         {
@@ -319,7 +319,7 @@
       ],
       "rewards": [
         {
-          "id": "DCE5897C074B3E04",
+          "id": "5CE5897C074B3E04",
           "type": "xp",
           "xp": 15
         }
@@ -335,11 +335,11 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "C87BA17D3B1B34B2"
+        "487BA17D3B1B34B2"
       ],
       "tasks": [
         {
-          "id": "A893100A219BF416",
+          "id": "2893100A219BF416",
           "type": "item",
           "item": "ars_nouveau:glyph_conjure_water",
           "count": 1,
@@ -371,12 +371,12 @@
       ],
       "rewards": [
         {
-          "id": "C3A6F6251898439B",
+          "id": "43A6F6251898439B",
           "type": "xp",
           "xp": 35
         },
         {
-          "id": "C8DB4B9398E81676",
+          "id": "48DB4B9398E81676",
           "type": "item",
           "item": "minecraft:book",
           "count": 4
@@ -428,7 +428,7 @@
       ],
       "tasks": [
         {
-          "id": "F68FC9479D986F4B",
+          "id": "768FC9479D986F4B",
           "type": "item",
           "item": "ars_nouveau:agronomic_sourcelink",
           "count": 1,
@@ -451,7 +451,7 @@
       ],
       "tasks": [
         {
-          "id": "9AAE10CD1EADB8C2",
+          "id": "1AAE10CD1EADB8C2",
           "type": "item",
           "item": "ars_nouveau:sourceberry_bush",
           "count": 1,
@@ -490,7 +490,7 @@
       ]
     },
     {
-      "id": "C7BD8FBDA4C7760F",
+      "id": "47BD8FBDA4C7760F",
       "title": "Source Relay: Depositor",
       "subtitle": "",
       "description": [],
@@ -503,7 +503,7 @@
       ],
       "tasks": [
         {
-          "id": "9C3F337E635E91E9",
+          "id": "1C3F337E635E91E9",
           "type": "item",
           "item": "ars_nouveau:relay_deposit",
           "count": 1,
@@ -513,7 +513,7 @@
       "rewards": []
     },
     {
-      "id": "9FA5479F3241ADDF",
+      "id": "1FA5479F3241ADDF",
       "title": "Source Relay: Collector",
       "subtitle": "",
       "description": [],
@@ -522,11 +522,11 @@
       "y": 6.0,
       "shape": "hexagon",
       "dependencies": [
-        "C7BD8FBDA4C7760F"
+        "47BD8FBDA4C7760F"
       ],
       "tasks": [
         {
-          "id": "E5A2114276054FD4",
+          "id": "65A2114276054FD4",
           "type": "item",
           "item": "ars_nouveau:relay_collector",
           "count": 1,
@@ -540,7 +540,7 @@
           "xp": 40
         },
         {
-          "id": "BEDAEEED7CC2B470",
+          "id": "3EDAEEED7CC2B470",
           "type": "item",
           "item": "minecraft:amethyst_shard",
           "count": 8
@@ -548,7 +548,7 @@
       ]
     },
     {
-      "id": "B1B5BD0FDD1C35A2",
+      "id": "31B5BD0FDD1C35A2",
       "title": "Arcane Core",
       "subtitle": "The enchanting circle",
       "description": [
@@ -563,7 +563,7 @@
       ],
       "tasks": [
         {
-          "id": "DD8F555E090457EC",
+          "id": "5D8F555E090457EC",
           "type": "item",
           "item": "ars_nouveau:arcane_core",
           "count": 1,
@@ -572,7 +572,7 @@
       ],
       "rewards": [
         {
-          "id": "9F4B3194C3A61A32",
+          "id": "1F4B3194C3A61A32",
           "type": "xp",
           "xp": 25
         }
@@ -588,7 +588,7 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "B1B5BD0FDD1C35A2"
+        "31B5BD0FDD1C35A2"
       ],
       "tasks": [
         {
@@ -602,7 +602,7 @@
       "rewards": []
     },
     {
-      "id": "BD2F2CB1C9E7405D",
+      "id": "3D2F2CB1C9E7405D",
       "title": "Enchanting Apparatus",
       "subtitle": "",
       "description": [],
@@ -615,7 +615,7 @@
       ],
       "tasks": [
         {
-          "id": "DE7EB7E0ADC57899",
+          "id": "5E7EB7E0ADC57899",
           "type": "item",
           "item": "ars_nouveau:enchanting_apparatus",
           "count": 1,
@@ -625,7 +625,7 @@
       "rewards": []
     },
     {
-      "id": "ED4F2EB93DE80EE9",
+      "id": "6D4F2EB93DE80EE9",
       "title": "Air Essence",
       "subtitle": "",
       "description": [],
@@ -634,7 +634,7 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "BD2F2CB1C9E7405D"
+        "3D2F2CB1C9E7405D"
       ],
       "tasks": [
         {
@@ -647,14 +647,14 @@
       ],
       "rewards": [
         {
-          "id": "E9996A9304F55209",
+          "id": "69996A9304F55209",
           "type": "xp",
           "xp": 25
         }
       ]
     },
     {
-      "id": "A0820BF8927A55ED",
+      "id": "20820BF8927A55ED",
       "title": "Earth Essence",
       "subtitle": "",
       "description": [],
@@ -663,11 +663,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "ED4F2EB93DE80EE9"
+        "6D4F2EB93DE80EE9"
       ],
       "tasks": [
         {
-          "id": "B73ABB11EC877670",
+          "id": "373ABB11EC877670",
           "type": "item",
           "item": "ars_nouveau:earth_essence",
           "count": 1,
@@ -677,7 +677,7 @@
       "rewards": []
     },
     {
-      "id": "E197333974B639D3",
+      "id": "6197333974B639D3",
       "title": "Fire Essence",
       "subtitle": "",
       "description": [],
@@ -686,11 +686,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "A0820BF8927A55ED"
+        "20820BF8927A55ED"
       ],
       "tasks": [
         {
-          "id": "E07B4B12B573F5F9",
+          "id": "607B4B12B573F5F9",
           "type": "item",
           "item": "ars_nouveau:fire_essence",
           "count": 1,
@@ -700,7 +700,7 @@
       "rewards": []
     },
     {
-      "id": "95C14682852829E1",
+      "id": "15C14682852829E1",
       "title": "Water Essence",
       "subtitle": "",
       "description": [],
@@ -709,11 +709,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "E197333974B639D3"
+        "6197333974B639D3"
       ],
       "tasks": [
         {
-          "id": "CAFADBAF0D476541",
+          "id": "4AFADBAF0D476541",
           "type": "item",
           "item": "ars_nouveau:water_essence",
           "count": 1,
@@ -722,14 +722,14 @@
       ],
       "rewards": [
         {
-          "id": "922E2556F9BD2053",
+          "id": "122E2556F9BD2053",
           "type": "xp",
           "xp": 25
         }
       ]
     },
     {
-      "id": "96E4EC8C8DC57206",
+      "id": "16E4EC8C8DC57206",
       "title": "Abjuration Essence",
       "subtitle": "",
       "description": [],
@@ -738,11 +738,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "95C14682852829E1"
+        "15C14682852829E1"
       ],
       "tasks": [
         {
-          "id": "C11725D7A3C074B3",
+          "id": "411725D7A3C074B3",
           "type": "item",
           "item": "ars_nouveau:abjuration_essence",
           "count": 1,
@@ -761,11 +761,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "96E4EC8C8DC57206"
+        "16E4EC8C8DC57206"
       ],
       "tasks": [
         {
-          "id": "89C658E7544946D6",
+          "id": "09C658E7544946D6",
           "type": "item",
           "item": "ars_nouveau:conjuration_essence",
           "count": 1,
@@ -775,7 +775,7 @@
       "rewards": []
     },
     {
-      "id": "AA24BA955FECC1B7",
+      "id": "2A24BA955FECC1B7",
       "title": "Manipulation Essence",
       "subtitle": "",
       "description": [],
@@ -797,12 +797,12 @@
       ],
       "rewards": [
         {
-          "id": "8F8CD1419BFFA21E",
+          "id": "0F8CD1419BFFA21E",
           "type": "xp",
           "xp": 25
         },
         {
-          "id": "B8F51EF1D2F06F35",
+          "id": "38F51EF1D2F06F35",
           "type": "item",
           "item": "minecraft:golden_carrot",
           "count": 4
@@ -810,7 +810,7 @@
       ]
     },
     {
-      "id": "87070F811B4E3A0F",
+      "id": "07070F811B4E3A0F",
       "title": "Mage's Spell Book",
       "subtitle": "A wider vocabulary",
       "description": [
@@ -821,7 +821,7 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "BD2F2CB1C9E7405D"
+        "3D2F2CB1C9E7405D"
       ],
       "tasks": [
         {
@@ -834,14 +834,14 @@
       ],
       "rewards": [
         {
-          "id": "A607922EAE3D38D1",
+          "id": "2607922EAE3D38D1",
           "type": "xp",
           "xp": 30
         }
       ]
     },
     {
-      "id": "F2150792F66EA9E6",
+      "id": "72150792F66EA9E6",
       "title": "Glyph Amplify",
       "subtitle": "",
       "description": [],
@@ -850,11 +850,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "87070F811B4E3A0F"
+        "07070F811B4E3A0F"
       ],
       "tasks": [
         {
-          "id": "B3468D37926AA036",
+          "id": "33468D37926AA036",
           "type": "item",
           "item": "ars_nouveau:glyph_amplify",
           "count": 1,
@@ -873,7 +873,7 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "F2150792F66EA9E6"
+        "72150792F66EA9E6"
       ],
       "tasks": [
         {
@@ -887,7 +887,7 @@
       "rewards": []
     },
     {
-      "id": "F5B0775E2354E775",
+      "id": "75B0775E2354E775",
       "title": "Glyph Pierce",
       "subtitle": "",
       "description": [],
@@ -909,7 +909,7 @@
       ],
       "rewards": [
         {
-          "id": "E89457FF0035390E",
+          "id": "689457FF0035390E",
           "type": "xp",
           "xp": 30
         }
@@ -925,11 +925,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "F5B0775E2354E775"
+        "75B0775E2354E775"
       ],
       "tasks": [
         {
-          "id": "85C85A08D268DFD0",
+          "id": "05C85A08D268DFD0",
           "type": "item",
           "item": "ars_nouveau:glyph_bounce",
           "count": 1,
@@ -984,7 +984,7 @@
       ],
       "rewards": [
         {
-          "id": "FD217C691FD38783",
+          "id": "7D217C691FD38783",
           "type": "xp",
           "xp": 30
         }
@@ -1004,7 +1004,7 @@
       ],
       "tasks": [
         {
-          "id": "92F77F924CB2E26C",
+          "id": "12F77F924CB2E26C",
           "type": "item",
           "item": "ars_nouveau:glyph_extend_time",
           "count": 1,
@@ -1036,12 +1036,12 @@
       ],
       "rewards": [
         {
-          "id": "CAC3E79D11FD48C1",
+          "id": "4AC3E79D11FD48C1",
           "type": "xp",
           "xp": 50
         },
         {
-          "id": "B0C11FDCD599F06C",
+          "id": "30C11FDCD599F06C",
           "type": "item",
           "item": "minecraft:lapis_lazuli",
           "count": 12
@@ -1060,11 +1060,11 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "87070F811B4E3A0F"
+        "07070F811B4E3A0F"
       ],
       "tasks": [
         {
-          "id": "81539C633B88EED4",
+          "id": "01539C633B88EED4",
           "type": "item",
           "item": "ars_nouveau:glyph_leap",
           "count": 1,
@@ -1080,7 +1080,7 @@
       ]
     },
     {
-      "id": "AFE462443040B36D",
+      "id": "2FE462443040B36D",
       "title": "Glyph Launch",
       "subtitle": "",
       "description": [],
@@ -1093,7 +1093,7 @@
       ],
       "tasks": [
         {
-          "id": "CBA864D71676F5F8",
+          "id": "4BA864D71676F5F8",
           "type": "item",
           "item": "ars_nouveau:glyph_launch",
           "count": 1,
@@ -1112,7 +1112,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "AFE462443040B36D"
+        "2FE462443040B36D"
       ],
       "tasks": [
         {
@@ -1168,7 +1168,7 @@
       ],
       "tasks": [
         {
-          "id": "9D55A457F6A671E7",
+          "id": "1D55A457F6A671E7",
           "type": "item",
           "item": "ars_nouveau:glyph_blink",
           "count": 1,
@@ -1223,7 +1223,7 @@
       ],
       "rewards": [
         {
-          "id": "84F995E6EAAECA20",
+          "id": "04F995E6EAAECA20",
           "type": "xp",
           "xp": 35
         }
@@ -1243,7 +1243,7 @@
       ],
       "tasks": [
         {
-          "id": "F351F3D2F92944E5",
+          "id": "7351F3D2F92944E5",
           "type": "item",
           "item": "ars_nouveau:glyph_interact",
           "count": 1,
@@ -1266,7 +1266,7 @@
       ],
       "tasks": [
         {
-          "id": "D7DD886973C7D2A9",
+          "id": "57DD886973C7D2A9",
           "type": "item",
           "item": "ars_nouveau:glyph_redstone_signal",
           "count": 1,
@@ -1275,7 +1275,7 @@
       ],
       "rewards": [
         {
-          "id": "F21C65C4A8341087",
+          "id": "721C65C4A8341087",
           "type": "xp",
           "xp": 55
         },
@@ -1288,7 +1288,7 @@
       ]
     },
     {
-      "id": "C47548BC360F7DFE",
+      "id": "447548BC360F7DFE",
       "title": "Glyph Ignite",
       "subtitle": "Elemental practice",
       "description": [
@@ -1299,7 +1299,7 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "87070F811B4E3A0F"
+        "07070F811B4E3A0F"
       ],
       "tasks": [
         {
@@ -1319,7 +1319,7 @@
       ]
     },
     {
-      "id": "AC49E6B9CFAFCA6F",
+      "id": "2C49E6B9CFAFCA6F",
       "title": "Glyph Flare",
       "subtitle": "",
       "description": [],
@@ -1328,7 +1328,7 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "C47548BC360F7DFE"
+        "447548BC360F7DFE"
       ],
       "tasks": [
         {
@@ -1351,11 +1351,11 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "AC49E6B9CFAFCA6F"
+        "2C49E6B9CFAFCA6F"
       ],
       "tasks": [
         {
-          "id": "C071F8EE4F21AF47",
+          "id": "4071F8EE4F21AF47",
           "type": "item",
           "item": "ars_nouveau:glyph_freeze",
           "count": 1,
@@ -1365,7 +1365,7 @@
       "rewards": []
     },
     {
-      "id": "FDB54CC85E7D660B",
+      "id": "7DB54CC85E7D660B",
       "title": "Glyph Cold Snap",
       "subtitle": "",
       "description": [],
@@ -1378,7 +1378,7 @@
       ],
       "tasks": [
         {
-          "id": "A83B5E12905E232C",
+          "id": "283B5E12905E232C",
           "type": "item",
           "item": "ars_nouveau:glyph_cold_snap",
           "count": 1,
@@ -1387,7 +1387,7 @@
       ],
       "rewards": [
         {
-          "id": "9AC919E26780E671",
+          "id": "1AC919E26780E671",
           "type": "xp",
           "xp": 40
         }
@@ -1403,7 +1403,7 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "FDB54CC85E7D660B"
+        "7DB54CC85E7D660B"
       ],
       "tasks": [
         {
@@ -1417,7 +1417,7 @@
       "rewards": []
     },
     {
-      "id": "B8AF235D9FB43040",
+      "id": "38AF235D9FB43040",
       "title": "Glyph Pull",
       "subtitle": "",
       "description": [],
@@ -1430,7 +1430,7 @@
       ],
       "tasks": [
         {
-          "id": "8931B03462A93A86",
+          "id": "0931B03462A93A86",
           "type": "item",
           "item": "ars_nouveau:glyph_pull",
           "count": 1,
@@ -1440,7 +1440,7 @@
       "rewards": []
     },
     {
-      "id": "E2D7A96B89046D34",
+      "id": "62D7A96B89046D34",
       "title": "Glyph Snare",
       "subtitle": "",
       "description": [],
@@ -1449,7 +1449,7 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "B8AF235D9FB43040"
+        "38AF235D9FB43040"
       ],
       "tasks": [
         {
@@ -1462,7 +1462,7 @@
       ],
       "rewards": [
         {
-          "id": "D5F845D614BED7B1",
+          "id": "55F845D614BED7B1",
           "type": "xp",
           "xp": 40
         }
@@ -1478,7 +1478,7 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "E2D7A96B89046D34"
+        "62D7A96B89046D34"
       ],
       "tasks": [
         {
@@ -1505,7 +1505,7 @@
       ],
       "tasks": [
         {
-          "id": "AF4400DA1BD7EF23",
+          "id": "2F4400DA1BD7EF23",
           "type": "item",
           "item": "ars_nouveau:glyph_explosion",
           "count": 1,
@@ -1527,7 +1527,7 @@
       ]
     },
     {
-      "id": "B8B62B54D75F4F6D",
+      "id": "38B62B54D75F4F6D",
       "title": "Dominion Wand",
       "subtitle": "Spirits of the workshop",
       "description": [
@@ -1538,11 +1538,11 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "BD2F2CB1C9E7405D"
+        "3D2F2CB1C9E7405D"
       ],
       "tasks": [
         {
-          "id": "A7C4B84A52A32542",
+          "id": "27C4B84A52A32542",
           "type": "item",
           "item": "ars_nouveau:dominion_wand",
           "count": 1,
@@ -1567,7 +1567,7 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "B8B62B54D75F4F6D"
+        "38B62B54D75F4F6D"
       ],
       "tasks": [
         {
@@ -1581,7 +1581,7 @@
       "rewards": []
     },
     {
-      "id": "B4CA7583811B3B05",
+      "id": "34CA7583811B3B05",
       "title": "Whirlisprig Charm",
       "subtitle": "",
       "description": [],
@@ -1594,7 +1594,7 @@
       ],
       "tasks": [
         {
-          "id": "B23EAAB222BF8DC7",
+          "id": "323EAAB222BF8DC7",
           "type": "item",
           "item": "ars_nouveau:whirlisprig_charm",
           "count": 1,
@@ -1613,11 +1613,11 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "B4CA7583811B3B05"
+        "34CA7583811B3B05"
       ],
       "tasks": [
         {
-          "id": "CF8156600F05BFFC",
+          "id": "4F8156600F05BFFC",
           "type": "item",
           "item": "ars_nouveau:drygmy_charm",
           "count": 1,
@@ -1626,7 +1626,7 @@
       ],
       "rewards": [
         {
-          "id": "D548301AB2E01729",
+          "id": "5548301AB2E01729",
           "type": "xp",
           "xp": 45
         }
@@ -1646,7 +1646,7 @@
       ],
       "tasks": [
         {
-          "id": "A9F96BFC9C41BCA3",
+          "id": "29F96BFC9C41BCA3",
           "type": "item",
           "item": "ars_nouveau:wixie_charm",
           "count": 1,
@@ -1669,7 +1669,7 @@
       ],
       "tasks": [
         {
-          "id": "88DDC65FB0796980",
+          "id": "08DDC65FB0796980",
           "type": "item",
           "item": "ars_nouveau:bookwyrm_charm",
           "count": 1,
@@ -1679,7 +1679,7 @@
       "rewards": []
     },
     {
-      "id": "C13E1D542A5962C4",
+      "id": "413E1D542A5962C4",
       "title": "Amethyst Golem Charm",
       "subtitle": "",
       "description": [],
@@ -1725,7 +1725,7 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "BD2F2CB1C9E7405D"
+        "3D2F2CB1C9E7405D"
       ],
       "tasks": [
         {
@@ -1745,7 +1745,7 @@
       ]
     },
     {
-      "id": "E2953492E6E332DF",
+      "id": "62953492E6E332DF",
       "title": "Sunrise",
       "subtitle": "",
       "description": [],
@@ -1777,7 +1777,7 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "E2953492E6E332DF"
+        "62953492E6E332DF"
       ],
       "tasks": [
         {
@@ -1791,7 +1791,7 @@
       "rewards": []
     },
     {
-      "id": "D59C0CF80D8F987D",
+      "id": "559C0CF80D8F987D",
       "title": "Harvest",
       "subtitle": "",
       "description": [],
@@ -1813,7 +1813,7 @@
       ],
       "rewards": [
         {
-          "id": "E762C75E4F9A7FD1",
+          "id": "6762C75E4F9A7FD1",
           "type": "xp",
           "xp": 50
         }
@@ -1829,7 +1829,7 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "D59C0CF80D8F987D"
+        "559C0CF80D8F987D"
       ],
       "tasks": [
         {
@@ -1908,7 +1908,7 @@
       ],
       "tasks": [
         {
-          "id": "C6FE3F3C5A8F1F8C",
+          "id": "46FE3F3C5A8F1F8C",
           "type": "item",
           "item": "ars_nouveau:ritual_containment",
           "count": 1,
@@ -1922,7 +1922,7 @@
           "xp": 70
         },
         {
-          "id": "88D282A8522FD3B5",
+          "id": "08D282A8522FD3B5",
           "type": "item",
           "item": "minecraft:lapis_lazuli",
           "count": 12
@@ -1945,7 +1945,7 @@
       ],
       "tasks": [
         {
-          "id": "8E9536FCFDA92B76",
+          "id": "0E9536FCFDA92B76",
           "type": "item",
           "item": "ars_nouveau:wilden_horn",
           "count": 1,
@@ -1961,7 +1961,7 @@
       ]
     },
     {
-      "id": "F2B6075887E6409F",
+      "id": "72B6075887E6409F",
       "title": "Wilden Wing",
       "subtitle": "",
       "description": [],
@@ -1993,7 +1993,7 @@
       "y": 27.0,
       "shape": "circle",
       "dependencies": [
-        "F2B6075887E6409F"
+        "72B6075887E6409F"
       ],
       "tasks": [
         {
@@ -2020,7 +2020,7 @@
       ],
       "tasks": [
         {
-          "id": "D12750A5CF5E5759",
+          "id": "512750A5CF5E5759",
           "type": "item",
           "item": "ars_nouveau:ritual_wilden_summon",
           "count": 1,
@@ -2029,14 +2029,14 @@
       ],
       "rewards": [
         {
-          "id": "FD13EE36A61E041A",
+          "id": "7D13EE36A61E041A",
           "type": "xp",
           "xp": 50
         }
       ]
     },
     {
-      "id": "E16780180267961D",
+      "id": "616780180267961D",
       "title": "Wilden Tribute",
       "subtitle": "",
       "description": [],
@@ -2049,7 +2049,7 @@
       ],
       "tasks": [
         {
-          "id": "CF43BEF5417AF8BF",
+          "id": "4F43BEF5417AF8BF",
           "type": "item",
           "item": "ars_nouveau:wilden_tribute",
           "count": 1,
@@ -2059,7 +2059,7 @@
       "rewards": []
     },
     {
-      "id": "D2EE86BCDFD76FDD",
+      "id": "52EE86BCDFD76FDD",
       "title": "Archmage Spell Book",
       "subtitle": "",
       "description": [],
@@ -2068,7 +2068,7 @@
       "y": 27.0,
       "shape": "hexagon",
       "dependencies": [
-        "E16780180267961D"
+        "616780180267961D"
       ],
       "tasks": [
         {
@@ -2081,7 +2081,7 @@
       ],
       "rewards": [
         {
-          "id": "A378F1F0791F353C",
+          "id": "2378F1F0791F353C",
           "type": "xp",
           "xp": 70
         },
@@ -2094,7 +2094,7 @@
       ]
     },
     {
-      "id": "E09554F556C264BB",
+      "id": "609554F556C264BB",
       "title": "Glyph Lightning",
       "subtitle": "Archmage's arts",
       "description": [
@@ -2105,7 +2105,7 @@
       "y": 30.0,
       "shape": "circle",
       "dependencies": [
-        "D2EE86BCDFD76FDD"
+        "52EE86BCDFD76FDD"
       ],
       "tasks": [
         {
@@ -2134,11 +2134,11 @@
       "y": 30.0,
       "shape": "circle",
       "dependencies": [
-        "E09554F556C264BB"
+        "609554F556C264BB"
       ],
       "tasks": [
         {
-          "id": "F7FB08F05F2F2B12",
+          "id": "77FB08F05F2F2B12",
           "type": "item",
           "item": "ars_nouveau:glyph_orbit",
           "count": 1,
@@ -2148,7 +2148,7 @@
       "rewards": []
     },
     {
-      "id": "93CF0AE0AD9F62DF",
+      "id": "13CF0AE0AD9F62DF",
       "title": "Glyph Linger",
       "subtitle": "",
       "description": [],
@@ -2161,7 +2161,7 @@
       ],
       "tasks": [
         {
-          "id": "A03169575DCA4B83",
+          "id": "203169575DCA4B83",
           "type": "item",
           "item": "ars_nouveau:glyph_linger",
           "count": 1,
@@ -2180,7 +2180,7 @@
       "y": 30.0,
       "shape": "circle",
       "dependencies": [
-        "93CF0AE0AD9F62DF"
+        "13CF0AE0AD9F62DF"
       ],
       "tasks": [
         {
@@ -2193,7 +2193,7 @@
       ],
       "rewards": [
         {
-          "id": "BAA676CAA939D38A",
+          "id": "3AA676CAA939D38A",
           "type": "xp",
           "xp": 50
         }
@@ -2223,7 +2223,7 @@
       "rewards": []
     },
     {
-      "id": "9D389057DF2916D0",
+      "id": "1D389057DF2916D0",
       "title": "Glyph Summon Vex",
       "subtitle": "",
       "description": [],
@@ -2246,7 +2246,7 @@
       "rewards": []
     },
     {
-      "id": "B9D951926A85FB45",
+      "id": "39D951926A85FB45",
       "title": "Glyph Summon Wolves",
       "subtitle": "",
       "description": [],
@@ -2255,11 +2255,11 @@
       "y": 30.0,
       "shape": "circle",
       "dependencies": [
-        "9D389057DF2916D0"
+        "1D389057DF2916D0"
       ],
       "tasks": [
         {
-          "id": "BC1C30A6AC4A85A9",
+          "id": "3C1C30A6AC4A85A9",
           "type": "item",
           "item": "ars_nouveau:glyph_summon_wolves",
           "count": 1,
@@ -2275,7 +2275,7 @@
       ]
     },
     {
-      "id": "81BDCEDF299FBC48",
+      "id": "01BDCEDF299FBC48",
       "title": "Glyph Fortune",
       "subtitle": "",
       "description": [],
@@ -2284,11 +2284,11 @@
       "y": 30.0,
       "shape": "circle",
       "dependencies": [
-        "B9D951926A85FB45"
+        "39D951926A85FB45"
       ],
       "tasks": [
         {
-          "id": "ED9D1234209BCA14",
+          "id": "6D9D1234209BCA14",
           "type": "item",
           "item": "ars_nouveau:glyph_fortune",
           "count": 1,
@@ -2307,7 +2307,7 @@
       "y": 30.0,
       "shape": "hexagon",
       "dependencies": [
-        "81BDCEDF299FBC48"
+        "01BDCEDF299FBC48"
       ],
       "tasks": [
         {
@@ -2320,12 +2320,12 @@
       ],
       "rewards": [
         {
-          "id": "C5D77A8E086A5715",
+          "id": "45D77A8E086A5715",
           "type": "xp",
           "xp": 70
         },
         {
-          "id": "8FEB55AF1EFD10FE",
+          "id": "0FEB55AF1EFD10FE",
           "type": "item",
           "item": "minecraft:amethyst_shard",
           "count": 8
@@ -2333,7 +2333,7 @@
       ]
     },
     {
-      "id": "94E7E6611CCD47F2",
+      "id": "14E7E6611CCD47F2",
       "title": "Enchanted Spell Turret",
       "subtitle": "A self-working tower",
       "description": [
@@ -2344,11 +2344,11 @@
       "y": 33.0,
       "shape": "circle",
       "dependencies": [
-        "BD2F2CB1C9E7405D"
+        "3D2F2CB1C9E7405D"
       ],
       "tasks": [
         {
-          "id": "E625B331713F64BC",
+          "id": "6625B331713F64BC",
           "type": "item",
           "item": "ars_nouveau:spell_turret",
           "count": 1,
@@ -2364,7 +2364,7 @@
       ]
     },
     {
-      "id": "D63602539154890D",
+      "id": "563602539154890D",
       "title": "Timer Spell Turret",
       "subtitle": "",
       "description": [],
@@ -2373,7 +2373,7 @@
       "y": 33.0,
       "shape": "circle",
       "dependencies": [
-        "94E7E6611CCD47F2"
+        "14E7E6611CCD47F2"
       ],
       "tasks": [
         {
@@ -2387,7 +2387,7 @@
       "rewards": []
     },
     {
-      "id": "BB05A5867FC7249B",
+      "id": "3B05A5867FC7249B",
       "title": "Adjustable Spell Turret",
       "subtitle": "",
       "description": [],
@@ -2396,7 +2396,7 @@
       "y": 33.0,
       "shape": "circle",
       "dependencies": [
-        "D63602539154890D"
+        "563602539154890D"
       ],
       "tasks": [
         {
@@ -2410,7 +2410,7 @@
       "rewards": []
     },
     {
-      "id": "A27A6BF784A6543E",
+      "id": "227A6BF784A6543E",
       "title": "Spell Prism",
       "subtitle": "",
       "description": [],
@@ -2419,11 +2419,11 @@
       "y": 33.0,
       "shape": "circle",
       "dependencies": [
-        "BB05A5867FC7249B"
+        "3B05A5867FC7249B"
       ],
       "tasks": [
         {
-          "id": "EC11EB28F8428CF1",
+          "id": "6C11EB28F8428CF1",
           "type": "item",
           "item": "ars_nouveau:spell_prism",
           "count": 1,
@@ -2432,7 +2432,7 @@
       ],
       "rewards": [
         {
-          "id": "E6E4D8ED7AB226DB",
+          "id": "66E4D8ED7AB226DB",
           "type": "xp",
           "xp": 50
         }
@@ -2448,7 +2448,7 @@
       "y": 33.0,
       "shape": "circle",
       "dependencies": [
-        "A27A6BF784A6543E"
+        "227A6BF784A6543E"
       ],
       "tasks": [
         {
@@ -2485,7 +2485,7 @@
       "rewards": []
     },
     {
-      "id": "A8A92714CFA28885",
+      "id": "28A92714CFA28885",
       "title": "Storage Lectern",
       "subtitle": "",
       "description": [],
@@ -2498,7 +2498,7 @@
       ],
       "tasks": [
         {
-          "id": "8CDF4088243BC81C",
+          "id": "0CDF4088243BC81C",
           "type": "item",
           "item": "ars_nouveau:storage_lectern",
           "count": 1,
@@ -2507,14 +2507,14 @@
       ],
       "rewards": [
         {
-          "id": "A5E617529C8CD7AE",
+          "id": "25E617529C8CD7AE",
           "type": "xp",
           "xp": 50
         }
       ]
     },
     {
-      "id": "840DEE6CE0324D41",
+      "id": "040DEE6CE0324D41",
       "title": "Repository",
       "subtitle": "",
       "description": [],
@@ -2523,7 +2523,7 @@
       "y": 33.0,
       "shape": "hexagon",
       "dependencies": [
-        "A8A92714CFA28885"
+        "28A92714CFA28885"
       ],
       "tasks": [
         {
@@ -2541,7 +2541,7 @@
           "xp": 70
         },
         {
-          "id": "87A267A87A6CD1F0",
+          "id": "07A267A87A6CD1F0",
           "type": "item",
           "item": "minecraft:golden_carrot",
           "count": 4
@@ -2549,7 +2549,7 @@
       ]
     },
     {
-      "id": "9F4A3E22D470800C",
+      "id": "1F4A3E22D470800C",
       "title": "Magebloom",
       "subtitle": "Robes and relics",
       "description": [
@@ -2560,11 +2560,11 @@
       "y": 36.0,
       "shape": "circle",
       "dependencies": [
-        "87070F811B4E3A0F"
+        "07070F811B4E3A0F"
       ],
       "tasks": [
         {
-          "id": "F1BB53A10539B4FA",
+          "id": "71BB53A10539B4FA",
           "type": "item",
           "item": "ars_nouveau:magebloom",
           "count": 1,
@@ -2573,7 +2573,7 @@
       ],
       "rewards": [
         {
-          "id": "84096A48240E6B88",
+          "id": "04096A48240E6B88",
           "type": "xp",
           "xp": 50
         }
@@ -2589,11 +2589,11 @@
       "y": 36.0,
       "shape": "circle",
       "dependencies": [
-        "9F4A3E22D470800C"
+        "1F4A3E22D470800C"
       ],
       "tasks": [
         {
-          "id": "B437C782B59DA02E",
+          "id": "3437C782B59DA02E",
           "type": "item",
           "item": "ars_nouveau:magebloom_fiber",
           "count": 1,
@@ -2626,7 +2626,7 @@
       "rewards": []
     },
     {
-      "id": "CB2EABCB865E9B9C",
+      "id": "4B2EABCB865E9B9C",
       "title": "Sorceror's Wrap",
       "subtitle": "",
       "description": [],
@@ -2664,11 +2664,11 @@
       "y": 36.0,
       "shape": "circle",
       "dependencies": [
-        "CB2EABCB865E9B9C"
+        "4B2EABCB865E9B9C"
       ],
       "tasks": [
         {
-          "id": "D772263A6967D290",
+          "id": "5772263A6967D290",
           "type": "item",
           "item": "ars_nouveau:sorcerer_leggings",
           "count": 1,
@@ -2678,7 +2678,7 @@
       "rewards": []
     },
     {
-      "id": "B26CED6E8E9DDA7A",
+      "id": "326CED6E8E9DDA7A",
       "title": "Sorceror's Footpads",
       "subtitle": "",
       "description": [],
@@ -2691,7 +2691,7 @@
       ],
       "tasks": [
         {
-          "id": "CBFA4FD8D5DFF910",
+          "id": "4BFA4FD8D5DFF910",
           "type": "item",
           "item": "ars_nouveau:sorcerer_boots",
           "count": 1,
@@ -2701,7 +2701,7 @@
       "rewards": []
     },
     {
-      "id": "BE96B5F201C2C5B0",
+      "id": "3E96B5F201C2C5B0",
       "title": "Alteration Table",
       "subtitle": "",
       "description": [],
@@ -2710,7 +2710,7 @@
       "y": 36.0,
       "shape": "circle",
       "dependencies": [
-        "B26CED6E8E9DDA7A"
+        "326CED6E8E9DDA7A"
       ],
       "tasks": [
         {
@@ -2730,7 +2730,7 @@
       ]
     },
     {
-      "id": "FE4EFA4DF723B4F4",
+      "id": "7E4EFA4DF723B4F4",
       "title": "Blank Thread",
       "subtitle": "",
       "description": [],
@@ -2739,11 +2739,11 @@
       "y": 36.0,
       "shape": "circle",
       "dependencies": [
-        "BE96B5F201C2C5B0"
+        "3E96B5F201C2C5B0"
       ],
       "tasks": [
         {
-          "id": "CDAEADD823A0F2A6",
+          "id": "4DAEADD823A0F2A6",
           "type": "item",
           "item": "ars_nouveau:blank_thread",
           "count": 1,
@@ -2762,7 +2762,7 @@
       "y": 36.0,
       "shape": "circle",
       "dependencies": [
-        "FE4EFA4DF723B4F4"
+        "7E4EFA4DF723B4F4"
       ],
       "tasks": [
         {
@@ -2789,7 +2789,7 @@
       ],
       "tasks": [
         {
-          "id": "8420C5C7530F3217",
+          "id": "0420C5C7530F3217",
           "type": "item",
           "item": "ars_nouveau:thread_spellpower",
           "count": 1,
@@ -2798,7 +2798,7 @@
       ],
       "rewards": [
         {
-          "id": "FDED4C7508A2EC6E",
+          "id": "7DED4C7508A2EC6E",
           "type": "xp",
           "xp": 50
         },
@@ -2811,7 +2811,7 @@
       ]
     },
     {
-      "id": "FB316DDEA309FE3D",
+      "id": "7B316DDEA309FE3D",
       "title": "Volcanic Sourcelink",
       "subtitle": "Source beyond the garden",
       "description": [
@@ -2835,7 +2835,7 @@
       ],
       "rewards": [
         {
-          "id": "BE388424E863931B",
+          "id": "3E388424E863931B",
           "type": "xp",
           "xp": 50
         }
@@ -2851,7 +2851,7 @@
       "y": 39.0,
       "shape": "circle",
       "dependencies": [
-        "FB316DDEA309FE3D"
+        "7B316DDEA309FE3D"
       ],
       "tasks": [
         {
@@ -2865,7 +2865,7 @@
       "rewards": []
     },
     {
-      "id": "D4CF1EF0F1D889F8",
+      "id": "54CF1EF0F1D889F8",
       "title": "Vitalic Sourcelink",
       "subtitle": "",
       "description": [],
@@ -2888,7 +2888,7 @@
       "rewards": []
     },
     {
-      "id": "D476AF12B33BE6B1",
+      "id": "5476AF12B33BE6B1",
       "title": "Alchemical Sourcelink",
       "subtitle": "",
       "description": [],
@@ -2897,7 +2897,7 @@
       "y": 39.0,
       "shape": "circle",
       "dependencies": [
-        "D4CF1EF0F1D889F8"
+        "54CF1EF0F1D889F8"
       ],
       "tasks": [
         {
@@ -2910,7 +2910,7 @@
       ],
       "rewards": [
         {
-          "id": "81EA9484871D4764",
+          "id": "01EA9484871D4764",
           "type": "xp",
           "xp": 50
         }
@@ -2926,7 +2926,7 @@
       "y": 39.0,
       "shape": "circle",
       "dependencies": [
-        "D476AF12B33BE6B1"
+        "5476AF12B33BE6B1"
       ],
       "tasks": [
         {
@@ -2940,7 +2940,7 @@
       "rewards": []
     },
     {
-      "id": "DD47E002FDA652AC",
+      "id": "5D47E002FDA652AC",
       "title": "Source Relay: Warper",
       "subtitle": "",
       "description": [],
@@ -2953,7 +2953,7 @@
       ],
       "tasks": [
         {
-          "id": "951514E23CFABE41",
+          "id": "151514E23CFABE41",
           "type": "item",
           "item": "ars_nouveau:relay_warp",
           "count": 1,
@@ -2962,7 +2962,7 @@
       ],
       "rewards": [
         {
-          "id": "FDE0A21173E3E5A3",
+          "id": "7DE0A21173E3E5A3",
           "type": "xp",
           "xp": 70
         },

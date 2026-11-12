@@ -19,7 +19,7 @@
       "dependencies": [],
       "tasks": [
         {
-          "id": "9FBD0C0463F31BD5",
+          "id": "1FBD0C0463F31BD5",
           "type": "item",
           "item": "pneumaticcraft:ingot_iron_compressed",
           "count": 1,
@@ -28,7 +28,7 @@
       ],
       "rewards": [
         {
-          "id": "EFC13AC91D9A9027",
+          "id": "6FC13AC91D9A9027",
           "type": "xp",
           "xp": 10
         }
@@ -48,7 +48,7 @@
       ],
       "tasks": [
         {
-          "id": "D76DA97C189DA27C",
+          "id": "576DA97C189DA27C",
           "type": "item",
           "item": "pneumaticcraft:pneumatic_wrench",
           "count": 1,
@@ -94,7 +94,7 @@
       ],
       "tasks": [
         {
-          "id": "DDAE3891C10DA224",
+          "id": "5DAE3891C10DA224",
           "type": "item",
           "item": "pneumaticcraft:pressure_tube",
           "count": 1,
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "id": "FE94C49213B8685B",
+      "id": "7E94C49213B8685B",
       "title": "Manometer",
       "subtitle": "",
       "description": [],
@@ -142,7 +142,7 @@
       "y": 0.0,
       "shape": "hexagon",
       "dependencies": [
-        "FE94C49213B8685B"
+        "7E94C49213B8685B"
       ],
       "tasks": [
         {
@@ -160,7 +160,7 @@
           "xp": 30
         },
         {
-          "id": "90DC6458160BC6C8",
+          "id": "10DC6458160BC6C8",
           "type": "item",
           "item": "minecraft:iron_ingot",
           "count": 8
@@ -192,7 +192,7 @@
       ],
       "rewards": [
         {
-          "id": "861E90039FC19519",
+          "id": "061E90039FC19519",
           "type": "xp",
           "xp": 15
         }
@@ -212,7 +212,7 @@
       ],
       "tasks": [
         {
-          "id": "EFC503A9D37BCE11",
+          "id": "6FC503A9D37BCE11",
           "type": "item",
           "item": "pneumaticcraft:pressure_chamber_valve",
           "count": 1,
@@ -222,7 +222,7 @@
       "rewards": []
     },
     {
-      "id": "F847E47FF2EF11CE",
+      "id": "7847E47FF2EF11CE",
       "title": "Pressure Chamber Glass",
       "subtitle": "",
       "description": [],
@@ -235,7 +235,7 @@
       ],
       "tasks": [
         {
-          "id": "A39866C03F083031",
+          "id": "239866C03F083031",
           "type": "item",
           "item": "pneumaticcraft:pressure_chamber_glass",
           "count": 1,
@@ -254,7 +254,7 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "F847E47FF2EF11CE"
+        "7847E47FF2EF11CE"
       ],
       "tasks": [
         {
@@ -274,7 +274,7 @@
       ]
     },
     {
-      "id": "D6A36658EA13C780",
+      "id": "56A36658EA13C780",
       "title": "Compressed Iron Gear",
       "subtitle": "",
       "description": [],
@@ -287,7 +287,7 @@
       ],
       "tasks": [
         {
-          "id": "9DB83107B57C9EF8",
+          "id": "1DB83107B57C9EF8",
           "type": "item",
           "item": "pneumaticcraft:compressed_iron_gear",
           "count": 1,
@@ -320,11 +320,11 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "FE94C49213B8685B"
+        "7E94C49213B8685B"
       ],
       "tasks": [
         {
-          "id": "C0DFBB2A3448941F",
+          "id": "40DFBB2A3448941F",
           "type": "item",
           "item": "pneumaticcraft:pressure_gauge_module",
           "count": 1,
@@ -333,14 +333,14 @@
       ],
       "rewards": [
         {
-          "id": "EBDB21197BBDF563",
+          "id": "6BDB21197BBDF563",
           "type": "xp",
           "xp": 20
         }
       ]
     },
     {
-      "id": "985DE81941B95E4E",
+      "id": "185DE81941B95E4E",
       "title": "Regulator Tube Module",
       "subtitle": "",
       "description": [],
@@ -363,7 +363,7 @@
       "rewards": []
     },
     {
-      "id": "92BC83606366EE2A",
+      "id": "12BC83606366EE2A",
       "title": "Flow Detector Tube Module",
       "subtitle": "",
       "description": [],
@@ -372,11 +372,11 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "985DE81941B95E4E"
+        "185DE81941B95E4E"
       ],
       "tasks": [
         {
-          "id": "91CB4231D1E22E74",
+          "id": "11CB4231D1E22E74",
           "type": "item",
           "item": "pneumaticcraft:flow_detector_module",
           "count": 1,
@@ -395,7 +395,7 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "92BC83606366EE2A"
+        "12BC83606366EE2A"
       ],
       "tasks": [
         {
@@ -415,7 +415,7 @@
       ]
     },
     {
-      "id": "98A6F1130C0F6427",
+      "id": "18A6F1130C0F6427",
       "title": "Tube Junction",
       "subtitle": "",
       "description": [],
@@ -447,7 +447,7 @@
       "y": 6.0,
       "shape": "hexagon",
       "dependencies": [
-        "98A6F1130C0F6427"
+        "18A6F1130C0F6427"
       ],
       "tasks": [
         {
@@ -460,7 +460,7 @@
       ],
       "rewards": [
         {
-          "id": "B8DB2A8B0306935A",
+          "id": "38DB2A8B0306935A",
           "type": "xp",
           "xp": 40
         },
@@ -497,14 +497,14 @@
       ],
       "rewards": [
         {
-          "id": "FF60AC2F99CBDB86",
+          "id": "7F60AC2F99CBDB86",
           "type": "xp",
           "xp": 25
         }
       ]
     },
     {
-      "id": "843E5E1B976061CD",
+      "id": "043E5E1B976061CD",
       "title": "Refinery Output",
       "subtitle": "",
       "description": [],
@@ -517,7 +517,7 @@
       ],
       "tasks": [
         {
-          "id": "F7966E6F7C505971",
+          "id": "77966E6F7C505971",
           "type": "item",
           "item": "pneumaticcraft:refinery_output",
           "count": 1,
@@ -536,7 +536,7 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "843E5E1B976061CD"
+        "043E5E1B976061CD"
       ],
       "tasks": [
         {
@@ -563,7 +563,7 @@
       ],
       "tasks": [
         {
-          "id": "B14E7F1640BDF4C6",
+          "id": "314E7F1640BDF4C6",
           "type": "item",
           "item": "pneumaticcraft:plastic",
           "count": 1,
@@ -579,7 +579,7 @@
       ]
     },
     {
-      "id": "B8B74F00966BC07F",
+      "id": "38B74F00966BC07F",
       "title": "Fluid Mixer",
       "subtitle": "",
       "description": [],
@@ -592,7 +592,7 @@
       ],
       "tasks": [
         {
-          "id": "BAE22208CDE6CC73",
+          "id": "3AE22208CDE6CC73",
           "type": "item",
           "item": "pneumaticcraft:fluid_mixer",
           "count": 1,
@@ -611,11 +611,11 @@
       "y": 9.0,
       "shape": "hexagon",
       "dependencies": [
-        "B8B74F00966BC07F"
+        "38B74F00966BC07F"
       ],
       "tasks": [
         {
-          "id": "94BCFFA6CAD2CBD2",
+          "id": "14BCFFA6CAD2CBD2",
           "type": "item",
           "item": "pneumaticcraft:lubricant_bucket",
           "count": 1,
@@ -661,14 +661,14 @@
       ],
       "rewards": [
         {
-          "id": "A991F9583787CBAE",
+          "id": "2991F9583787CBAE",
           "type": "xp",
           "xp": 30
         }
       ]
     },
     {
-      "id": "DA440E557AAA7C04",
+      "id": "5A440E557AAA7C04",
       "title": "UV Light Box",
       "subtitle": "",
       "description": [],
@@ -681,7 +681,7 @@
       ],
       "tasks": [
         {
-          "id": "FA572A933F49ED3F",
+          "id": "7A572A933F49ED3F",
           "type": "item",
           "item": "pneumaticcraft:uv_light_box",
           "count": 1,
@@ -700,7 +700,7 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "DA440E557AAA7C04"
+        "5A440E557AAA7C04"
       ],
       "tasks": [
         {
@@ -766,7 +766,7 @@
       "rewards": []
     },
     {
-      "id": "DEA4D489DC6219A3",
+      "id": "5EA4D489DC6219A3",
       "title": "Transistor",
       "subtitle": "",
       "description": [],
@@ -789,7 +789,7 @@
       "rewards": []
     },
     {
-      "id": "8ADE76E1F83431B9",
+      "id": "0ADE76E1F83431B9",
       "title": "Capacitor",
       "subtitle": "",
       "description": [],
@@ -798,11 +798,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "DEA4D489DC6219A3"
+        "5EA4D489DC6219A3"
       ],
       "tasks": [
         {
-          "id": "8F78AB27B280CC78",
+          "id": "0F78AB27B280CC78",
           "type": "item",
           "item": "pneumaticcraft:capacitor",
           "count": 1,
@@ -811,14 +811,14 @@
       ],
       "rewards": [
         {
-          "id": "BE1A914314D69204",
+          "id": "3E1A914314D69204",
           "type": "xp",
           "xp": 30
         }
       ]
     },
     {
-      "id": "A5C0D91D4AA5670A",
+      "id": "25C0D91D4AA5670A",
       "title": "Finished PCB",
       "subtitle": "",
       "description": [],
@@ -827,7 +827,7 @@
       "y": 12.0,
       "shape": "hexagon",
       "dependencies": [
-        "8ADE76E1F83431B9"
+        "0ADE76E1F83431B9"
       ],
       "tasks": [
         {
@@ -845,7 +845,7 @@
           "xp": 50
         },
         {
-          "id": "81755DDEB2636E15",
+          "id": "01755DDEB2636E15",
           "type": "item",
           "item": "minecraft:iron_ingot",
           "count": 8
@@ -864,7 +864,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "A5C0D91D4AA5670A"
+        "25C0D91D4AA5670A"
       ],
       "tasks": [
         {
@@ -877,14 +877,14 @@
       ],
       "rewards": [
         {
-          "id": "D6665128B4D85F78",
+          "id": "56665128B4D85F78",
           "type": "xp",
           "xp": 35
         }
       ]
     },
     {
-      "id": "D0F70A902E16673D",
+      "id": "50F70A902E16673D",
       "title": "Assembly Platform",
       "subtitle": "",
       "description": [],
@@ -916,7 +916,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "D0F70A902E16673D"
+        "50F70A902E16673D"
       ],
       "tasks": [
         {
@@ -930,7 +930,7 @@
       "rewards": []
     },
     {
-      "id": "F96E1BFC660B2371",
+      "id": "796E1BFC660B2371",
       "title": "Assembly IO Unit (export)",
       "subtitle": "",
       "description": [],
@@ -952,7 +952,7 @@
       ],
       "rewards": [
         {
-          "id": "CF1FD98E2AD8A376",
+          "id": "4F1FD98E2AD8A376",
           "type": "xp",
           "xp": 35
         }
@@ -968,11 +968,11 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "F96E1BFC660B2371"
+        "796E1BFC660B2371"
       ],
       "tasks": [
         {
-          "id": "FA43D3E69EA6B0AC",
+          "id": "7A43D3E69EA6B0AC",
           "type": "item",
           "item": "pneumaticcraft:assembly_drill",
           "count": 1,
@@ -982,7 +982,7 @@
       "rewards": []
     },
     {
-      "id": "B294C51CFF5AB71B",
+      "id": "3294C51CFF5AB71B",
       "title": "Assembly Laser",
       "subtitle": "",
       "description": [],
@@ -1005,7 +1005,7 @@
       "rewards": []
     },
     {
-      "id": "EA27181BFF8ECE0B",
+      "id": "6A27181BFF8ECE0B",
       "title": "Assembly Program: Drill & Laser",
       "subtitle": "",
       "description": [],
@@ -1014,7 +1014,7 @@
       "y": 15.0,
       "shape": "hexagon",
       "dependencies": [
-        "B294C51CFF5AB71B"
+        "3294C51CFF5AB71B"
       ],
       "tasks": [
         {
@@ -1027,12 +1027,12 @@
       ],
       "rewards": [
         {
-          "id": "E32BAAFA8FACAD43",
+          "id": "632BAAFA8FACAD43",
           "type": "xp",
           "xp": 35
         },
         {
-          "id": "8D5FF4E7485A3EE8",
+          "id": "0D5FF4E7485A3EE8",
           "type": "item",
           "item": "minecraft:redstone",
           "count": 16
@@ -1051,11 +1051,11 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "A5C0D91D4AA5670A"
+        "25C0D91D4AA5670A"
       ],
       "tasks": [
         {
-          "id": "C1A50DFB6C783BE1",
+          "id": "41A50DFB6C783BE1",
           "type": "item",
           "item": "pneumaticcraft:programmer",
           "count": 1,
@@ -1071,7 +1071,7 @@
       ]
     },
     {
-      "id": "9CC18FD730D5211B",
+      "id": "1CC18FD730D5211B",
       "title": "Programming Puzzle Piece",
       "subtitle": "",
       "description": [],
@@ -1094,7 +1094,7 @@
       "rewards": []
     },
     {
-      "id": "E2E4954943F51457",
+      "id": "62E4954943F51457",
       "title": "Drone",
       "subtitle": "",
       "description": [],
@@ -1103,7 +1103,7 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "9CC18FD730D5211B"
+        "1CC18FD730D5211B"
       ],
       "tasks": [
         {
@@ -1126,11 +1126,11 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "E2E4954943F51457"
+        "62E4954943F51457"
       ],
       "tasks": [
         {
-          "id": "A04315C5D730F628",
+          "id": "204315C5D730F628",
           "type": "item",
           "item": "pneumaticcraft:gps_tool",
           "count": 1,
@@ -1146,7 +1146,7 @@
       ]
     },
     {
-      "id": "8737920CD53D4191",
+      "id": "0737920CD53D4191",
       "title": "GPS Area Tool",
       "subtitle": "",
       "description": [],
@@ -1169,7 +1169,7 @@
       "rewards": []
     },
     {
-      "id": "941B57AE3A130040",
+      "id": "141B57AE3A130040",
       "title": "Logistics Drone",
       "subtitle": "",
       "description": [],
@@ -1178,11 +1178,11 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "8737920CD53D4191"
+        "0737920CD53D4191"
       ],
       "tasks": [
         {
-          "id": "E320EE816B765669",
+          "id": "6320EE816B765669",
           "type": "item",
           "item": "pneumaticcraft:logistics_drone",
           "count": 1,
@@ -1192,7 +1192,7 @@
       "rewards": []
     },
     {
-      "id": "DF7D35F5DCDC9646",
+      "id": "5F7D35F5DCDC9646",
       "title": "Harvesting Drone",
       "subtitle": "",
       "description": [],
@@ -1201,11 +1201,11 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "941B57AE3A130040"
+        "141B57AE3A130040"
       ],
       "tasks": [
         {
-          "id": "801A807A61A518D9",
+          "id": "001A807A61A518D9",
           "type": "item",
           "item": "pneumaticcraft:harvesting_drone",
           "count": 1,
@@ -1214,14 +1214,14 @@
       ],
       "rewards": [
         {
-          "id": "F798CAB5BC78B736",
+          "id": "7798CAB5BC78B736",
           "type": "xp",
           "xp": 40
         }
       ]
     },
     {
-      "id": "B80C4536F83E94B8",
+      "id": "380C4536F83E94B8",
       "title": "Guard Drone",
       "subtitle": "",
       "description": [],
@@ -1230,7 +1230,7 @@
       "y": 18.0,
       "shape": "hexagon",
       "dependencies": [
-        "DF7D35F5DCDC9646"
+        "5F7D35F5DCDC9646"
       ],
       "tasks": [
         {
@@ -1248,7 +1248,7 @@
           "xp": 60
         },
         {
-          "id": "9427E337C59C5F11",
+          "id": "1427E337C59C5F11",
           "type": "item",
           "item": "minecraft:gold_ingot",
           "count": 4
@@ -1267,11 +1267,11 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "941B57AE3A130040"
+        "141B57AE3A130040"
       ],
       "tasks": [
         {
-          "id": "B7A3B2E319658A1B",
+          "id": "37A3B2E319658A1B",
           "type": "item",
           "item": "pneumaticcraft:logistics_core",
           "count": 1,
@@ -1287,7 +1287,7 @@
       ]
     },
     {
-      "id": "A11D1C4105845219",
+      "id": "211D1C4105845219",
       "title": "Logistics Configurator",
       "subtitle": "",
       "description": [],
@@ -1319,11 +1319,11 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "A11D1C4105845219"
+        "211D1C4105845219"
       ],
       "tasks": [
         {
-          "id": "A6A701310D8BEF62",
+          "id": "26A701310D8BEF62",
           "type": "item",
           "item": "pneumaticcraft:logistics_frame_passive_provider",
           "count": 1,
@@ -1333,7 +1333,7 @@
       "rewards": []
     },
     {
-      "id": "CF750DF30635AFC7",
+      "id": "4F750DF30635AFC7",
       "title": "Logistic Requester Frame",
       "subtitle": "",
       "description": [],
@@ -1362,7 +1362,7 @@
       ]
     },
     {
-      "id": "AB4502EA8996BBAF",
+      "id": "2B4502EA8996BBAF",
       "title": "Logistic Storage Frame",
       "subtitle": "",
       "description": [],
@@ -1371,11 +1371,11 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "CF750DF30635AFC7"
+        "4F750DF30635AFC7"
       ],
       "tasks": [
         {
-          "id": "9DA315CFEFA285EF",
+          "id": "1DA315CFEFA285EF",
           "type": "item",
           "item": "pneumaticcraft:logistics_frame_storage",
           "count": 1,
@@ -1394,11 +1394,11 @@
       "y": 21.0,
       "shape": "hexagon",
       "dependencies": [
-        "AB4502EA8996BBAF"
+        "2B4502EA8996BBAF"
       ],
       "tasks": [
         {
-          "id": "EDA6802CA3C61619",
+          "id": "6DA6802CA3C61619",
           "type": "item",
           "item": "pneumaticcraft:logistics_module",
           "count": 1,
@@ -1431,11 +1431,11 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "A5C0D91D4AA5670A"
+        "25C0D91D4AA5670A"
       ],
       "tasks": [
         {
-          "id": "828BAF9F129AA330",
+          "id": "028BAF9F129AA330",
           "type": "item",
           "item": "pneumaticcraft:charging_station",
           "count": 1,
@@ -1474,7 +1474,7 @@
       "rewards": []
     },
     {
-      "id": "8BDC924699A33416",
+      "id": "0BDC924699A33416",
       "title": "Pneumatic Chestplate",
       "subtitle": "",
       "description": [],
@@ -1487,7 +1487,7 @@
       ],
       "tasks": [
         {
-          "id": "8856D3CF86935598",
+          "id": "0856D3CF86935598",
           "type": "item",
           "item": "pneumaticcraft:pneumatic_chestplate",
           "count": 1,
@@ -1497,7 +1497,7 @@
       "rewards": []
     },
     {
-      "id": "A2E8A5ACF39D7F13",
+      "id": "22E8A5ACF39D7F13",
       "title": "Pneumatic Leggings",
       "subtitle": "",
       "description": [],
@@ -1506,11 +1506,11 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "8BDC924699A33416"
+        "0BDC924699A33416"
       ],
       "tasks": [
         {
-          "id": "F1A07310271719D6",
+          "id": "71A07310271719D6",
           "type": "item",
           "item": "pneumaticcraft:pneumatic_leggings",
           "count": 1,
@@ -1535,11 +1535,11 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "A2E8A5ACF39D7F13"
+        "22E8A5ACF39D7F13"
       ],
       "tasks": [
         {
-          "id": "EE137EE8359C9F4A",
+          "id": "6E137EE8359C9F4A",
           "type": "item",
           "item": "pneumaticcraft:pneumatic_boots",
           "count": 1,
@@ -1549,7 +1549,7 @@
       "rewards": []
     },
     {
-      "id": "E864E6A7E34AA163",
+      "id": "6864E6A7E34AA163",
       "title": "Armor Upgrade",
       "subtitle": "",
       "description": [],
@@ -1581,7 +1581,7 @@
       "y": 24.0,
       "shape": "hexagon",
       "dependencies": [
-        "E864E6A7E34AA163"
+        "6864E6A7E34AA163"
       ],
       "tasks": [
         {
@@ -1594,7 +1594,7 @@
       ],
       "rewards": [
         {
-          "id": "F36BB4AF9B4E03C2",
+          "id": "736BB4AF9B4E03C2",
           "type": "xp",
           "xp": 50
         },
@@ -1622,7 +1622,7 @@
       ],
       "tasks": [
         {
-          "id": "ECF24F90F588F8C4",
+          "id": "6CF24F90F588F8C4",
           "type": "item",
           "item": "pneumaticcraft:advanced_air_compressor",
           "count": 1,
@@ -1631,7 +1631,7 @@
       ],
       "rewards": [
         {
-          "id": "989D9E940C1B60EB",
+          "id": "189D9E940C1B60EB",
           "type": "xp",
           "xp": 50
         }
@@ -1651,7 +1651,7 @@
       ],
       "tasks": [
         {
-          "id": "B499D0B44B50F8FF",
+          "id": "3499D0B44B50F8FF",
           "type": "item",
           "item": "pneumaticcraft:advanced_pressure_tube",
           "count": 1,
@@ -1674,7 +1674,7 @@
       ],
       "tasks": [
         {
-          "id": "911B2F6FD3F8DCB7",
+          "id": "111B2F6FD3F8DCB7",
           "type": "item",
           "item": "pneumaticcraft:advanced_liquid_compressor",
           "count": 1,
@@ -1713,7 +1713,7 @@
       ]
     },
     {
-      "id": "BDEBA51F3A29AC15",
+      "id": "3DEBA51F3A29AC15",
       "title": "Volume Upgrade",
       "subtitle": "",
       "description": [],
@@ -1745,11 +1745,11 @@
       "y": 27.0,
       "shape": "hexagon",
       "dependencies": [
-        "BDEBA51F3A29AC15"
+        "3DEBA51F3A29AC15"
       ],
       "tasks": [
         {
-          "id": "FFD6DAD0979B66F7",
+          "id": "7FD6DAD0979B66F7",
           "type": "item",
           "item": "pneumaticcraft:speed_upgrade",
           "count": 1,
@@ -1763,7 +1763,7 @@
           "xp": 70
         },
         {
-          "id": "E812D8C291DFCCBD",
+          "id": "6812D8C291DFCCBD",
           "type": "item",
           "item": "minecraft:redstone",
           "count": 16
@@ -1771,7 +1771,7 @@
       ]
     },
     {
-      "id": "CB4841FB92B84250",
+      "id": "4B4841FB92B84250",
       "title": "Heat Sink",
       "subtitle": "Heat engineering",
       "description": [
@@ -1786,7 +1786,7 @@
       ],
       "tasks": [
         {
-          "id": "8A1D7450F11FA861",
+          "id": "0A1D7450F11FA861",
           "type": "item",
           "item": "pneumaticcraft:heat_sink",
           "count": 1,
@@ -1802,7 +1802,7 @@
       ]
     },
     {
-      "id": "B85B6ECB794B313F",
+      "id": "385B6ECB794B313F",
       "title": "Heat Pipe",
       "subtitle": "",
       "description": [],
@@ -1811,7 +1811,7 @@
       "y": 30.0,
       "shape": "circle",
       "dependencies": [
-        "CB4841FB92B84250"
+        "4B4841FB92B84250"
       ],
       "tasks": [
         {
@@ -1834,7 +1834,7 @@
       "y": 30.0,
       "shape": "circle",
       "dependencies": [
-        "B85B6ECB794B313F"
+        "385B6ECB794B313F"
       ],
       "tasks": [
         {
@@ -1848,7 +1848,7 @@
       "rewards": []
     },
     {
-      "id": "9F4AFDA3C53672E4",
+      "id": "1F4AFDA3C53672E4",
       "title": "Heat Frame",
       "subtitle": "",
       "description": [],
@@ -1861,7 +1861,7 @@
       ],
       "tasks": [
         {
-          "id": "8BDBEF8EF9652C07",
+          "id": "0BDBEF8EF9652C07",
           "type": "item",
           "item": "pneumaticcraft:heat_frame",
           "count": 1,
@@ -1870,7 +1870,7 @@
       ],
       "rewards": [
         {
-          "id": "EAE50755F1B3DC1E",
+          "id": "6AE50755F1B3DC1E",
           "type": "xp",
           "xp": 50
         }
@@ -1886,7 +1886,7 @@
       "y": 30.0,
       "shape": "circle",
       "dependencies": [
-        "9F4AFDA3C53672E4"
+        "1F4AFDA3C53672E4"
       ],
       "tasks": [
         {
@@ -1900,7 +1900,7 @@
       "rewards": []
     },
     {
-      "id": "FF8DF57DF8F31265",
+      "id": "7F8DF57DF8F31265",
       "title": "Thermal Compressor",
       "subtitle": "",
       "description": [],
@@ -1927,7 +1927,7 @@
           "xp": 70
         },
         {
-          "id": "C2589457DF2AED0E",
+          "id": "42589457DF2AED0E",
           "type": "item",
           "item": "minecraft:gold_ingot",
           "count": 4
@@ -1946,7 +1946,7 @@
       "y": 33.0,
       "shape": "circle",
       "dependencies": [
-        "E2E4954943F51457"
+        "62E4954943F51457"
       ],
       "tasks": [
         {
@@ -1959,7 +1959,7 @@
       ],
       "rewards": [
         {
-          "id": "C02062C63CB362BF",
+          "id": "402062C63CB362BF",
           "type": "xp",
           "xp": 50
         }
@@ -1979,7 +1979,7 @@
       ],
       "tasks": [
         {
-          "id": "91CBDFDB1C5F7652",
+          "id": "11CBDFDB1C5F7652",
           "type": "item",
           "item": "pneumaticcraft:programmable_controller",
           "count": 1,
@@ -1989,7 +1989,7 @@
       "rewards": []
     },
     {
-      "id": "FBBB42578A6E419E",
+      "id": "7BBB42578A6E419E",
       "title": "Aerial Interface",
       "subtitle": "",
       "description": [],
@@ -2021,7 +2021,7 @@
       "y": 33.0,
       "shape": "circle",
       "dependencies": [
-        "FBBB42578A6E419E"
+        "7BBB42578A6E419E"
       ],
       "tasks": [
         {
@@ -2054,7 +2054,7 @@
       ],
       "tasks": [
         {
-          "id": "F47EC315255A0398",
+          "id": "747EC315255A0398",
           "type": "item",
           "item": "pneumaticcraft:security_station",
           "count": 1,
@@ -2063,7 +2063,7 @@
       ],
       "rewards": [
         {
-          "id": "EC9D0066761F3D4F",
+          "id": "6C9D0066761F3D4F",
           "type": "xp",
           "xp": 70
         },

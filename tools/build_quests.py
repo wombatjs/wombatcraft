@@ -6,7 +6,7 @@ Existing addon chapters remain until they receive an authored replacement.
 import argparse,collections,hashlib,json,re,shutil
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-def uid(s):return hashlib.sha256(('wombatcraft/'+s).encode()).hexdigest()[:16].upper()
+def uid(s):return f"{int(hashlib.sha256(('wombatcraft/'+s).encode()).hexdigest()[:16],16) & 0x7FFFFFFFFFFFFFFF:016X}"
 def save(p,d):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(d,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
 
 def build(registry,names):

@@ -1,12 +1,12 @@
 {
-  "id": "81F039C3EE82CAE4",
+  "id": "01F039C3EE82CAE4",
   "title": "Eidolon",
   "group": "065A019E212476CF",
   "order_index": 19,
   "default_quest_shape": "circle",
   "quests": [
     {
-      "id": "C86A57687783AC2D",
+      "id": "486A57687783AC2D",
       "title": "Ars Ecclesia",
       "subtitle": "Ash and pewter",
       "description": [
@@ -19,7 +19,7 @@
       "dependencies": [],
       "tasks": [
         {
-          "id": "E6856759519F1BA8",
+          "id": "66856759519F1BA8",
           "type": "item",
           "item": "eidolon:codex",
           "count": 1,
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "id": "CBBEBDCE3688CA48",
+      "id": "4BBEBDCE3688CA48",
       "title": "Pewter Blend",
       "subtitle": "",
       "description": [],
@@ -44,7 +44,7 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "C86A57687783AC2D"
+        "486A57687783AC2D"
       ],
       "tasks": [
         {
@@ -58,7 +58,7 @@
       "rewards": []
     },
     {
-      "id": "A269E96CFF5C3C68",
+      "id": "2269E96CFF5C3C68",
       "title": "Pewter Ingot",
       "subtitle": "",
       "description": [],
@@ -67,7 +67,7 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "CBBEBDCE3688CA48"
+        "4BBEBDCE3688CA48"
       ],
       "tasks": [
         {
@@ -90,11 +90,11 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "A269E96CFF5C3C68"
+        "2269E96CFF5C3C68"
       ],
       "tasks": [
         {
-          "id": "EA8644680668C907",
+          "id": "6A8644680668C907",
           "type": "item",
           "item": "eidolon:crucible",
           "count": 1,
@@ -123,7 +123,7 @@
       ],
       "tasks": [
         {
-          "id": "A626DFE46A4405A1",
+          "id": "2626DFE46A4405A1",
           "type": "item",
           "item": "eidolon:worktable",
           "count": 1,
@@ -146,7 +146,7 @@
       ],
       "tasks": [
         {
-          "id": "ACCBA1E8B5AE0882",
+          "id": "2CCBA1E8B5AE0882",
           "type": "item",
           "item": "eidolon:enchanted_ash",
           "count": 1,
@@ -155,12 +155,12 @@
       ],
       "rewards": [
         {
-          "id": "BD70CA06706DF6F2",
+          "id": "3D70CA06706DF6F2",
           "type": "xp",
           "xp": 30
         },
         {
-          "id": "FFFAA9423DA32621",
+          "id": "7FFAA9423DA32621",
           "type": "item",
           "item": "minecraft:lapis_lazuli",
           "count": 12
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "id": "BB6A29A364994D88",
+      "id": "3B6A29A364994D88",
       "title": "Wooden Altar",
       "subtitle": "A place of devotion",
       "description": [
@@ -199,7 +199,7 @@
       ]
     },
     {
-      "id": "FA38E5D53AD87532",
+      "id": "7A38E5D53AD87532",
       "title": "Plinth",
       "subtitle": "",
       "description": [],
@@ -208,11 +208,11 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "BB6A29A364994D88"
+        "3B6A29A364994D88"
       ],
       "tasks": [
         {
-          "id": "BE2352AE18ED9589",
+          "id": "3E2352AE18ED9589",
           "type": "item",
           "item": "eidolon:plinth",
           "count": 1,
@@ -231,7 +231,7 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "FA38E5D53AD87532"
+        "7A38E5D53AD87532"
       ],
       "tasks": [
         {
@@ -258,7 +258,7 @@
       ],
       "tasks": [
         {
-          "id": "91323CC08C0EB80B",
+          "id": "11323CC08C0EB80B",
           "type": "item",
           "item": "eidolon:candle",
           "count": 1,
@@ -267,14 +267,14 @@
       ],
       "rewards": [
         {
-          "id": "85C301E678B302D8",
+          "id": "05C301E678B302D8",
           "type": "xp",
           "xp": 15
         }
       ]
     },
     {
-      "id": "880FF0D8D6CF36A4",
+      "id": "080FF0D8D6CF36A4",
       "title": "Goblet",
       "subtitle": "",
       "description": [],
@@ -287,7 +287,7 @@
       ],
       "tasks": [
         {
-          "id": "A8935A8D76B45E81",
+          "id": "28935A8D76B45E81",
           "type": "item",
           "item": "eidolon:goblet",
           "count": 1,
@@ -306,11 +306,11 @@
       "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
-        "880FF0D8D6CF36A4"
+        "080FF0D8D6CF36A4"
       ],
       "tasks": [
         {
-          "id": "9A6E33ACF4D42F64",
+          "id": "1A6E33ACF4D42F64",
           "type": "item",
           "item": "eidolon:unholy_symbol",
           "count": 1,
@@ -319,12 +319,12 @@
       ],
       "rewards": [
         {
-          "id": "9AFEFB9616BD65B1",
+          "id": "1AFEFB9616BD65B1",
           "type": "xp",
           "xp": 35
         },
         {
-          "id": "D7A48CC6718DFEAF",
+          "id": "57A48CC6718DFEAF",
           "type": "item",
           "item": "minecraft:book",
           "count": 4
@@ -356,7 +356,7 @@
       ],
       "rewards": [
         {
-          "id": "CB05F3C262BB8644",
+          "id": "4B05F3C262BB8644",
           "type": "xp",
           "xp": 20
         }
@@ -376,7 +376,7 @@
       ],
       "tasks": [
         {
-          "id": "BB56AACD36D40C6B",
+          "id": "3B56AACD36D40C6B",
           "type": "item",
           "item": "eidolon:magic_ink",
           "count": 1,
@@ -399,7 +399,7 @@
       ],
       "tasks": [
         {
-          "id": "C3BE88B87B1781C0",
+          "id": "43BE88B87B1781C0",
           "type": "item",
           "item": "eidolon:notetaking_tools",
           "count": 1,
@@ -409,7 +409,7 @@
       "rewards": []
     },
     {
-      "id": "9F74C45DC3B0E926",
+      "id": "1F74C45DC3B0E926",
       "title": "Research Table",
       "subtitle": "",
       "description": [],
@@ -422,7 +422,7 @@
       ],
       "tasks": [
         {
-          "id": "809B5C5B284C3994",
+          "id": "009B5C5B284C3994",
           "type": "item",
           "item": "eidolon:research_table",
           "count": 1,
@@ -447,7 +447,7 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "9F74C45DC3B0E926"
+        "1F74C45DC3B0E926"
       ],
       "tasks": [
         {
@@ -474,7 +474,7 @@
       ],
       "tasks": [
         {
-          "id": "C2DBC2A093A5D92D",
+          "id": "42DBC2A093A5D92D",
           "type": "item",
           "item": "eidolon:scriptorium",
           "count": 1,
@@ -483,12 +483,12 @@
       ],
       "rewards": [
         {
-          "id": "8170B2F44E828540",
+          "id": "0170B2F44E828540",
           "type": "xp",
           "xp": 40
         },
         {
-          "id": "C93A2FDB257742CE",
+          "id": "493A2FDB257742CE",
           "type": "item",
           "item": "minecraft:amethyst_shard",
           "count": 8
@@ -520,14 +520,14 @@
       ],
       "rewards": [
         {
-          "id": "8D0453EB2CBBB2FB",
+          "id": "0D0453EB2CBBB2FB",
           "type": "xp",
           "xp": 25
         }
       ]
     },
     {
-      "id": "AE0693B89AD0CDCA",
+      "id": "2E0693B89AD0CDCA",
       "title": "Lesser Soul Gem",
       "subtitle": "",
       "description": [],
@@ -550,7 +550,7 @@
       "rewards": []
     },
     {
-      "id": "9AD4A5A68DBD72E4",
+      "id": "1AD4A5A68DBD72E4",
       "title": "Soul Enchanter",
       "subtitle": "",
       "description": [],
@@ -559,7 +559,7 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "AE0693B89AD0CDCA"
+        "2E0693B89AD0CDCA"
       ],
       "tasks": [
         {
@@ -582,11 +582,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "9AD4A5A68DBD72E4"
+        "1AD4A5A68DBD72E4"
       ],
       "tasks": [
         {
-          "id": "A40648FD85DD6D9F",
+          "id": "240648FD85DD6D9F",
           "type": "item",
           "item": "eidolon:arcane_gold_ingot",
           "count": 1,
@@ -595,7 +595,7 @@
       ],
       "rewards": [
         {
-          "id": "A793470416EA7CF4",
+          "id": "2793470416EA7CF4",
           "type": "xp",
           "xp": 25
         }
@@ -629,7 +629,7 @@
           "xp": 45
         },
         {
-          "id": "C82393328D73A3CA",
+          "id": "482393328D73A3CA",
           "type": "item",
           "item": "minecraft:golden_carrot",
           "count": 4
@@ -652,7 +652,7 @@
       ],
       "tasks": [
         {
-          "id": "840A13D03769F446",
+          "id": "040A13D03769F446",
           "type": "item",
           "item": "eidolon:wicked_weave",
           "count": 1,
@@ -661,7 +661,7 @@
       ],
       "rewards": [
         {
-          "id": "D6739C5DE73384B9",
+          "id": "56739C5DE73384B9",
           "type": "xp",
           "xp": 30
         }
@@ -681,7 +681,7 @@
       ],
       "tasks": [
         {
-          "id": "E0BD538A31B6D1B1",
+          "id": "60BD538A31B6D1B1",
           "type": "item",
           "item": "eidolon:warlock_hat",
           "count": 1,
@@ -691,7 +691,7 @@
       "rewards": []
     },
     {
-      "id": "918CF14477A03D6C",
+      "id": "118CF14477A03D6C",
       "title": "Warlock's Cloak",
       "subtitle": "",
       "description": [],
@@ -723,11 +723,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "918CF14477A03D6C"
+        "118CF14477A03D6C"
       ],
       "tasks": [
         {
-          "id": "A9772C012932DB92",
+          "id": "29772C012932DB92",
           "type": "item",
           "item": "eidolon:warlock_boots",
           "count": 1,
@@ -743,7 +743,7 @@
       ]
     },
     {
-      "id": "8A7C3EF4EEDCEFB7",
+      "id": "0A7C3EF4EEDCEFB7",
       "title": "Bonechill Wand",
       "subtitle": "",
       "description": [],
@@ -766,7 +766,7 @@
       "rewards": []
     },
     {
-      "id": "D3F5488032DA8B4D",
+      "id": "53F5488032DA8B4D",
       "title": "Soulfire Wand",
       "subtitle": "",
       "description": [],
@@ -775,7 +775,7 @@
       "y": 12.0,
       "shape": "hexagon",
       "dependencies": [
-        "8A7C3EF4EEDCEFB7"
+        "0A7C3EF4EEDCEFB7"
       ],
       "tasks": [
         {
@@ -788,7 +788,7 @@
       ],
       "rewards": [
         {
-          "id": "97B347DF7F7965DB",
+          "id": "17B347DF7F7965DB",
           "type": "xp",
           "xp": 50
         },
@@ -816,7 +816,7 @@
       ],
       "tasks": [
         {
-          "id": "D4FBBBDB4ACAA553",
+          "id": "54FBBBDB4ACAA553",
           "type": "item",
           "item": "eidolon:basic_ring",
           "count": 1,
@@ -832,7 +832,7 @@
       ]
     },
     {
-      "id": "8836220BEFF5D6D9",
+      "id": "0836220BEFF5D6D9",
       "title": "Basic Belt",
       "subtitle": "",
       "description": [],
@@ -845,7 +845,7 @@
       ],
       "tasks": [
         {
-          "id": "9AE55760DCDF7241",
+          "id": "1AE55760DCDF7241",
           "type": "item",
           "item": "eidolon:basic_belt",
           "count": 1,
@@ -864,7 +864,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "8836220BEFF5D6D9"
+        "0836220BEFF5D6D9"
       ],
       "tasks": [
         {
@@ -878,7 +878,7 @@
       "rewards": []
     },
     {
-      "id": "DED9A6FBBEF4DF0F",
+      "id": "5ED9A6FBBEF4DF0F",
       "title": "Sanguine Amulet",
       "subtitle": "",
       "description": [],
@@ -891,7 +891,7 @@
       ],
       "tasks": [
         {
-          "id": "AF75F4B9463D474E",
+          "id": "2F75F4B9463D474E",
           "type": "item",
           "item": "eidolon:sanguine_amulet",
           "count": 1,
@@ -916,7 +916,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "DED9A6FBBEF4DF0F"
+        "5ED9A6FBBEF4DF0F"
       ],
       "tasks": [
         {
@@ -943,7 +943,7 @@
       ],
       "tasks": [
         {
-          "id": "EFDFFF8049C411F5",
+          "id": "6FDFFF8049C411F5",
           "type": "item",
           "item": "eidolon:raven_cloak",
           "count": 1,
@@ -953,7 +953,7 @@
       "rewards": []
     },
     {
-      "id": "CA5C73EF81BA9B5B",
+      "id": "4A5C73EF81BA9B5B",
       "title": "Mirror of Terminus",
       "subtitle": "",
       "description": [],
@@ -966,7 +966,7 @@
       ],
       "tasks": [
         {
-          "id": "E60733A10FB82202",
+          "id": "660733A10FB82202",
           "type": "item",
           "item": "eidolon:terminus_mirror",
           "count": 1,
@@ -975,7 +975,7 @@
       ],
       "rewards": [
         {
-          "id": "990E304D2C308732",
+          "id": "190E304D2C308732",
           "type": "xp",
           "xp": 35
         },

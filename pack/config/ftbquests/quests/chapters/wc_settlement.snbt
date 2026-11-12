@@ -1,5 +1,5 @@
 {
-  "id": "FE0AC80B94E5B045",
+  "id": "7E0AC80B94E5B045",
   "title": "Settlement",
   "group": "0E249DD4723B0E70",
   "order_index": 24,
@@ -19,7 +19,7 @@
       "dependencies": [],
       "tasks": [
         {
-          "id": "BD1A79003EC7443C",
+          "id": "3D1A79003EC7443C",
           "type": "item",
           "item": "minecolonies:supplycampdeployer",
           "count": 1,
@@ -28,7 +28,7 @@
       ],
       "rewards": [
         {
-          "id": "8C0298F46D5CB53D",
+          "id": "0C0298F46D5CB53D",
           "type": "xp",
           "xp": 10
         }
@@ -71,7 +71,7 @@
       ],
       "tasks": [
         {
-          "id": "E701079DF936BFD1",
+          "id": "6701079DF936BFD1",
           "type": "item",
           "item": "minecolonies:blockhutbuilder",
           "count": 1,
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "id": "A31432BDF00EE7DD",
+      "id": "231432BDF00EE7DD",
       "title": "Resource Scroll",
       "subtitle": "",
       "description": [],
@@ -133,7 +133,7 @@
       "rewards": []
     },
     {
-      "id": "B1BB53F9027E2B51",
+      "id": "31BB53F9027E2B51",
       "title": "Tavern",
       "subtitle": "",
       "description": [],
@@ -142,7 +142,7 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "A31432BDF00EE7DD"
+        "231432BDF00EE7DD"
       ],
       "tasks": [
         {
@@ -156,7 +156,7 @@
       "rewards": []
     },
     {
-      "id": "CB95E1879782BD17",
+      "id": "4B95E1879782BD17",
       "title": "Residence",
       "subtitle": "",
       "description": [],
@@ -165,7 +165,7 @@
       "y": 0.0,
       "shape": "hexagon",
       "dependencies": [
-        "B1BB53F9027E2B51"
+        "31BB53F9027E2B51"
       ],
       "tasks": [
         {
@@ -183,7 +183,7 @@
           "xp": 10
         },
         {
-          "id": "C9F8776D900A3998",
+          "id": "49F8776D900A3998",
           "type": "item",
           "item": "minecraft:lapis_lazuli",
           "count": 12
@@ -191,7 +191,7 @@
       ]
     },
     {
-      "id": "D673FB720BD4355E",
+      "id": "5673FB720BD4355E",
       "title": "Forester's Hut",
       "subtitle": "Daily necessities",
       "description": [
@@ -222,7 +222,7 @@
       ]
     },
     {
-      "id": "8C60F534B9D71A2E",
+      "id": "0C60F534B9D71A2E",
       "title": "Mine",
       "subtitle": "",
       "description": [],
@@ -231,7 +231,7 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "D673FB720BD4355E"
+        "5673FB720BD4355E"
       ],
       "tasks": [
         {
@@ -245,7 +245,7 @@
       "rewards": []
     },
     {
-      "id": "F259915F3CC6692E",
+      "id": "7259915F3CC6692E",
       "title": "Fisher's Hut",
       "subtitle": "",
       "description": [],
@@ -254,11 +254,11 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "8C60F534B9D71A2E"
+        "0C60F534B9D71A2E"
       ],
       "tasks": [
         {
-          "id": "8D112A2FE1E73A9C",
+          "id": "0D112A2FE1E73A9C",
           "type": "item",
           "item": "minecolonies:blockhutfisherman",
           "count": 1,
@@ -268,7 +268,7 @@
       "rewards": []
     },
     {
-      "id": "97D75C76CA68BB63",
+      "id": "17D75C76CA68BB63",
       "title": "Farm",
       "subtitle": "",
       "description": [],
@@ -277,7 +277,7 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "F259915F3CC6692E"
+        "7259915F3CC6692E"
       ],
       "tasks": [
         {
@@ -290,14 +290,14 @@
       ],
       "rewards": [
         {
-          "id": "CC77B366B2338F0D",
+          "id": "4C77B366B2338F0D",
           "type": "xp",
           "xp": 15
         }
       ]
     },
     {
-      "id": "81FB9BA79B221B9B",
+      "id": "01FB9BA79B221B9B",
       "title": "Field",
       "subtitle": "",
       "description": [],
@@ -306,11 +306,11 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "97D75C76CA68BB63"
+        "17D75C76CA68BB63"
       ],
       "tasks": [
         {
-          "id": "814B6DC0450CA68A",
+          "id": "014B6DC0450CA68A",
           "type": "item",
           "item": "minecolonies:blockhutfield",
           "count": 1,
@@ -320,7 +320,7 @@
       "rewards": []
     },
     {
-      "id": "89D97766243C7FD0",
+      "id": "09D97766243C7FD0",
       "title": "Dining Hall",
       "subtitle": "",
       "description": [],
@@ -329,11 +329,11 @@
       "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
-        "81FB9BA79B221B9B"
+        "01FB9BA79B221B9B"
       ],
       "tasks": [
         {
-          "id": "F0905877644D9359",
+          "id": "70905877644D9359",
           "type": "item",
           "item": "minecolonies:blockhutcook",
           "count": 1,
@@ -347,7 +347,7 @@
           "xp": 35
         },
         {
-          "id": "912CE0B94F60FF63",
+          "id": "112CE0B94F60FF63",
           "type": "item",
           "item": "minecraft:book",
           "count": 4
@@ -355,7 +355,7 @@
       ]
     },
     {
-      "id": "B66AC06CCCE8005C",
+      "id": "366AC06CCCE8005C",
       "title": "Warehouse",
       "subtitle": "A working supply chain",
       "description": [
@@ -366,7 +366,7 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "B1BB53F9027E2B51"
+        "31BB53F9027E2B51"
       ],
       "tasks": [
         {
@@ -395,11 +395,11 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "B66AC06CCCE8005C"
+        "366AC06CCCE8005C"
       ],
       "tasks": [
         {
-          "id": "F23EFA6943E8C722",
+          "id": "723EFA6943E8C722",
           "type": "item",
           "item": "minecolonies:blockhutdeliveryman",
           "count": 1,
@@ -409,7 +409,7 @@
       "rewards": []
     },
     {
-      "id": "E8763CF654C3B71D",
+      "id": "68763CF654C3B71D",
       "title": "Rack",
       "subtitle": "",
       "description": [],
@@ -422,7 +422,7 @@
       ],
       "tasks": [
         {
-          "id": "E45E91B7FE3E4799",
+          "id": "645E91B7FE3E4799",
           "type": "item",
           "item": "minecolonies:blockminecoloniesrack",
           "count": 1,
@@ -432,7 +432,7 @@
       "rewards": []
     },
     {
-      "id": "9C3462DDC5B51787",
+      "id": "1C3462DDC5B51787",
       "title": "Clipboard",
       "subtitle": "",
       "description": [],
@@ -441,7 +441,7 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "E8763CF654C3B71D"
+        "68763CF654C3B71D"
       ],
       "tasks": [
         {
@@ -454,14 +454,14 @@
       ],
       "rewards": [
         {
-          "id": "D998180D31D1A51B",
+          "id": "5998180D31D1A51B",
           "type": "xp",
           "xp": 20
         }
       ]
     },
     {
-      "id": "99E3599280388927",
+      "id": "19E3599280388927",
       "title": "Postbox",
       "subtitle": "",
       "description": [],
@@ -470,11 +470,11 @@
       "y": 6.0,
       "shape": "hexagon",
       "dependencies": [
-        "9C3462DDC5B51787"
+        "1C3462DDC5B51787"
       ],
       "tasks": [
         {
-          "id": "E2863D3C36156793",
+          "id": "62863D3C36156793",
           "type": "item",
           "item": "minecolonies:blockpostbox",
           "count": 1,
@@ -488,7 +488,7 @@
           "xp": 40
         },
         {
-          "id": "9E91E777C6F1BF9B",
+          "id": "1E91E777C6F1BF9B",
           "type": "item",
           "item": "minecraft:amethyst_shard",
           "count": 8
@@ -496,7 +496,7 @@
       ]
     },
     {
-      "id": "F7CD6D4010151EF8",
+      "id": "77CD6D4010151EF8",
       "title": "Sawmill",
       "subtitle": "Trades and crafts",
       "description": [
@@ -507,7 +507,7 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "B66AC06CCCE8005C"
+        "366AC06CCCE8005C"
       ],
       "tasks": [
         {
@@ -520,14 +520,14 @@
       ],
       "rewards": [
         {
-          "id": "C78B4984BA6258D8",
+          "id": "478B4984BA6258D8",
           "type": "xp",
           "xp": 25
         }
       ]
     },
     {
-      "id": "92EE7A572A42977D",
+      "id": "12EE7A572A42977D",
       "title": "Stonemason's Hut",
       "subtitle": "",
       "description": [],
@@ -536,7 +536,7 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "F7CD6D4010151EF8"
+        "77CD6D4010151EF8"
       ],
       "tasks": [
         {
@@ -550,7 +550,7 @@
       "rewards": []
     },
     {
-      "id": "BF258AA4AE4EAB85",
+      "id": "3F258AA4AE4EAB85",
       "title": "Smeltery",
       "subtitle": "",
       "description": [],
@@ -559,7 +559,7 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "92EE7A572A42977D"
+        "12EE7A572A42977D"
       ],
       "tasks": [
         {
@@ -573,7 +573,7 @@
       "rewards": []
     },
     {
-      "id": "95C4398797AB414F",
+      "id": "15C4398797AB414F",
       "title": "Blacksmith's Hut",
       "subtitle": "",
       "description": [],
@@ -582,7 +582,7 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "BF258AA4AE4EAB85"
+        "3F258AA4AE4EAB85"
       ],
       "tasks": [
         {
@@ -595,7 +595,7 @@
       ],
       "rewards": [
         {
-          "id": "811D4C2FEE2F4B90",
+          "id": "011D4C2FEE2F4B90",
           "type": "xp",
           "xp": 25
         }
@@ -611,11 +611,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "95C4398797AB414F"
+        "15C4398797AB414F"
       ],
       "tasks": [
         {
-          "id": "C8E602DEBC07E1D4",
+          "id": "48E602DEBC07E1D4",
           "type": "item",
           "item": "minecolonies:blockhutmechanic",
           "count": 1,
@@ -638,7 +638,7 @@
       ],
       "tasks": [
         {
-          "id": "A593073334121F08",
+          "id": "2593073334121F08",
           "type": "item",
           "item": "minecolonies:blockhutglassblower",
           "count": 1,
@@ -652,7 +652,7 @@
           "xp": 45
         },
         {
-          "id": "9470493F36016963",
+          "id": "1470493F36016963",
           "type": "item",
           "item": "minecraft:golden_carrot",
           "count": 4
@@ -671,11 +671,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "CB95E1879782BD17"
+        "4B95E1879782BD17"
       ],
       "tasks": [
         {
-          "id": "EA17162F2BB989D7",
+          "id": "6A17162F2BB989D7",
           "type": "item",
           "item": "minecolonies:blockhutuniversity",
           "count": 1,
@@ -691,7 +691,7 @@
       ]
     },
     {
-      "id": "EFF6B50553680EC7",
+      "id": "6FF6B50553680EC7",
       "title": "School",
       "subtitle": "",
       "description": [],
@@ -704,7 +704,7 @@
       ],
       "tasks": [
         {
-          "id": "BBDEF77A3E9FC839",
+          "id": "3BDEF77A3E9FC839",
           "type": "item",
           "item": "minecolonies:blockhutschool",
           "count": 1,
@@ -723,11 +723,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "EFF6B50553680EC7"
+        "6FF6B50553680EC7"
       ],
       "tasks": [
         {
-          "id": "F0DB957078BE63A0",
+          "id": "70DB957078BE63A0",
           "type": "item",
           "item": "minecolonies:blockhutlibrary",
           "count": 1,
@@ -737,7 +737,7 @@
       "rewards": []
     },
     {
-      "id": "F758493B75156E98",
+      "id": "7758493B75156E98",
       "title": "Hospital",
       "subtitle": "",
       "description": [],
@@ -750,7 +750,7 @@
       ],
       "tasks": [
         {
-          "id": "84AE2BA5ED90E665",
+          "id": "04AE2BA5ED90E665",
           "type": "item",
           "item": "minecolonies:blockhuthospital",
           "count": 1,
@@ -775,7 +775,7 @@
       "y": 12.0,
       "shape": "hexagon",
       "dependencies": [
-        "F758493B75156E98"
+        "7758493B75156E98"
       ],
       "tasks": [
         {
@@ -816,7 +816,7 @@
       ],
       "tasks": [
         {
-          "id": "D362ED73BFA6E1EF",
+          "id": "5362ED73BFA6E1EF",
           "type": "item",
           "item": "minecolonies:blockhutguardtower",
           "count": 1,
@@ -845,7 +845,7 @@
       ],
       "tasks": [
         {
-          "id": "DBF35FF9E8F44D4A",
+          "id": "5BF35FF9E8F44D4A",
           "type": "item",
           "item": "minecolonies:blockhutarchery",
           "count": 1,
@@ -855,7 +855,7 @@
       "rewards": []
     },
     {
-      "id": "E25E9A487F58DAF8",
+      "id": "625E9A487F58DAF8",
       "title": "Combat Academy",
       "subtitle": "",
       "description": [],
@@ -868,7 +868,7 @@
       ],
       "tasks": [
         {
-          "id": "B0983DB45BF6E041",
+          "id": "30983DB45BF6E041",
           "type": "item",
           "item": "minecolonies:blockhutcombatacademy",
           "count": 1,
@@ -878,7 +878,7 @@
       "rewards": []
     },
     {
-      "id": "8A052606D45E0E6E",
+      "id": "0A052606D45E0E6E",
       "title": "Barracks",
       "subtitle": "",
       "description": [],
@@ -887,11 +887,11 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "E25E9A487F58DAF8"
+        "625E9A487F58DAF8"
       ],
       "tasks": [
         {
-          "id": "BAC689A88E1FDF0C",
+          "id": "3AC689A88E1FDF0C",
           "type": "item",
           "item": "minecolonies:blockhutbarracks",
           "count": 1,
@@ -907,7 +907,7 @@
       ]
     },
     {
-      "id": "9E589841A5BB552E",
+      "id": "1E589841A5BB552E",
       "title": "Barracks Tower",
       "subtitle": "",
       "description": [],
@@ -916,7 +916,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "8A052606D45E0E6E"
+        "0A052606D45E0E6E"
       ],
       "tasks": [
         {
@@ -930,7 +930,7 @@
       "rewards": []
     },
     {
-      "id": "BE79060579B70E9D",
+      "id": "3E79060579B70E9D",
       "title": "Guard Scepter",
       "subtitle": "",
       "description": [],
@@ -939,7 +939,7 @@
       "y": 15.0,
       "shape": "hexagon",
       "dependencies": [
-        "9E589841A5BB552E"
+        "1E589841A5BB552E"
       ],
       "tasks": [
         {
@@ -952,7 +952,7 @@
       ],
       "rewards": [
         {
-          "id": "884DD0B94547CC53",
+          "id": "084DD0B94547CC53",
           "type": "xp",
           "xp": 55
         },
@@ -965,7 +965,7 @@
       ]
     },
     {
-      "id": "9F668B280055104C",
+      "id": "1F668B280055104C",
       "title": "Bakery",
       "subtitle": "A plentiful table",
       "description": [
@@ -976,7 +976,7 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "97D75C76CA68BB63"
+        "17D75C76CA68BB63"
       ],
       "tasks": [
         {
@@ -996,7 +996,7 @@
       ]
     },
     {
-      "id": "F782F28B8DB15CC1",
+      "id": "7782F28B8DB15CC1",
       "title": "Chef's Kitchen",
       "subtitle": "",
       "description": [],
@@ -1005,11 +1005,11 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "9F668B280055104C"
+        "1F668B280055104C"
       ],
       "tasks": [
         {
-          "id": "892DCD313FB70E06",
+          "id": "092DCD313FB70E06",
           "type": "item",
           "item": "minecolonies:blockhutkitchen",
           "count": 1,
@@ -1019,7 +1019,7 @@
       "rewards": []
     },
     {
-      "id": "CEA6CD8DAC4953B9",
+      "id": "4EA6CD8DAC4953B9",
       "title": "Cowhand's Hut",
       "subtitle": "",
       "description": [],
@@ -1028,11 +1028,11 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "F782F28B8DB15CC1"
+        "7782F28B8DB15CC1"
       ],
       "tasks": [
         {
-          "id": "D4D92A9DBD9C8FB7",
+          "id": "54D92A9DBD9C8FB7",
           "type": "item",
           "item": "minecolonies:blockhutcowboy",
           "count": 1,
@@ -1051,11 +1051,11 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "CEA6CD8DAC4953B9"
+        "4EA6CD8DAC4953B9"
       ],
       "tasks": [
         {
-          "id": "DD3F0BD4522484BE",
+          "id": "5D3F0BD4522484BE",
           "type": "item",
           "item": "minecolonies:blockhutchickenherder",
           "count": 1,
@@ -1084,7 +1084,7 @@
       ],
       "tasks": [
         {
-          "id": "997DA8BD8E022CDB",
+          "id": "197DA8BD8E022CDB",
           "type": "item",
           "item": "minecolonies:blockhutshepherd",
           "count": 1,
@@ -1130,7 +1130,7 @@
       ],
       "tasks": [
         {
-          "id": "9EC44537CBCE82BD",
+          "id": "1EC44537CBCE82BD",
           "type": "item",
           "item": "minecolonies:blockhutplantation",
           "count": 1,
@@ -1139,12 +1139,12 @@
       ],
       "rewards": [
         {
-          "id": "95FF10D5B0704A0D",
+          "id": "15FF10D5B0704A0D",
           "type": "xp",
           "xp": 40
         },
         {
-          "id": "8FDBB2BC39DCF938",
+          "id": "0FDBB2BC39DCF938",
           "type": "item",
           "item": "minecraft:amethyst_shard",
           "count": 8

@@ -1,5 +1,5 @@
 {
-  "id": "D083EC78DC941843",
+  "id": "5083EC78DC941843",
   "title": "Blood Magic",
   "group": "065A019E212476CF",
   "order_index": 15,
@@ -19,7 +19,7 @@
       "dependencies": [],
       "tasks": [
         {
-          "id": "D775A7446177A8FA",
+          "id": "5775A7446177A8FA",
           "type": "item",
           "item": "bloodmagic:sacrificialdagger",
           "count": 1,
@@ -28,7 +28,7 @@
       ],
       "rewards": [
         {
-          "id": "F331DB991EEC51EB",
+          "id": "7331DB991EEC51EB",
           "type": "xp",
           "xp": 10
         }
@@ -48,7 +48,7 @@
       ],
       "tasks": [
         {
-          "id": "9824C54BB1D9A403",
+          "id": "1824C54BB1D9A403",
           "type": "item",
           "item": "bloodmagic:altar",
           "count": 1,
@@ -81,7 +81,7 @@
       "rewards": []
     },
     {
-      "id": "9E3C9EF56C2481A6",
+      "id": "1E3C9EF56C2481A6",
       "title": "Weak Blood Orb",
       "subtitle": "",
       "description": [],
@@ -94,7 +94,7 @@
       ],
       "tasks": [
         {
-          "id": "AEB9E8C0888E6F3C",
+          "id": "2EB9E8C0888E6F3C",
           "type": "item",
           "item": "bloodmagic:weakbloodorb",
           "count": 1,
@@ -103,14 +103,14 @@
       ],
       "rewards": [
         {
-          "id": "CD043434FA847228",
+          "id": "4D043434FA847228",
           "type": "xp",
           "xp": 10
         }
       ]
     },
     {
-      "id": "A701722D0B68D5B8",
+      "id": "2701722D0B68D5B8",
       "title": "Divination Sigil",
       "subtitle": "",
       "description": [],
@@ -119,11 +119,11 @@
       "y": 0.0,
       "shape": "hexagon",
       "dependencies": [
-        "9E3C9EF56C2481A6"
+        "1E3C9EF56C2481A6"
       ],
       "tasks": [
         {
-          "id": "AEE84DCE8E25448C",
+          "id": "2EE84DCE8E25448C",
           "type": "item",
           "item": "bloodmagic:divinationsigil",
           "count": 1,
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "id": "C3F02F6BAB8098E0",
+      "id": "43F02F6BAB8098E0",
       "title": "Blank Rune",
       "subtitle": "Stone and sacrifice",
       "description": [
@@ -156,11 +156,11 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "9E3C9EF56C2481A6"
+        "1E3C9EF56C2481A6"
       ],
       "tasks": [
         {
-          "id": "EFBB6D14AD3B5596",
+          "id": "6FBB6D14AD3B5596",
           "type": "item",
           "item": "bloodmagic:blankrune",
           "count": 1,
@@ -169,14 +169,14 @@
       ],
       "rewards": [
         {
-          "id": "B370D34E7F55B1A2",
+          "id": "3370D34E7F55B1A2",
           "type": "xp",
           "xp": 15
         }
       ]
     },
     {
-      "id": "FE198C2AB409BC1F",
+      "id": "7E198C2AB409BC1F",
       "title": "Speed Rune",
       "subtitle": "",
       "description": [],
@@ -185,11 +185,11 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "C3F02F6BAB8098E0"
+        "43F02F6BAB8098E0"
       ],
       "tasks": [
         {
-          "id": "EB7A3F81D9BB29D2",
+          "id": "6B7A3F81D9BB29D2",
           "type": "item",
           "item": "bloodmagic:speedrune",
           "count": 1,
@@ -208,7 +208,7 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "FE198C2AB409BC1F"
+        "7E198C2AB409BC1F"
       ],
       "tasks": [
         {
@@ -251,7 +251,7 @@
       ]
     },
     {
-      "id": "BAA86057B7E896C7",
+      "id": "3AA86057B7E896C7",
       "title": "Apprentice Blood Orb",
       "subtitle": "",
       "description": [],
@@ -274,7 +274,7 @@
       "rewards": []
     },
     {
-      "id": "B783CAE3F3105D8B",
+      "id": "3783CAE3F3105D8B",
       "title": "Dagger of Sacrifice",
       "subtitle": "",
       "description": [],
@@ -283,7 +283,7 @@
       "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
-        "BAA86057B7E896C7"
+        "3AA86057B7E896C7"
       ],
       "tasks": [
         {
@@ -309,7 +309,7 @@
       ]
     },
     {
-      "id": "D085511970A95F38",
+      "id": "5085511970A95F38",
       "title": "Alchemy Table",
       "subtitle": "Alchemical workshop",
       "description": [
@@ -320,7 +320,7 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "BAA86057B7E896C7"
+        "3AA86057B7E896C7"
       ],
       "tasks": [
         {
@@ -349,11 +349,11 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "D085511970A95F38"
+        "5085511970A95F38"
       ],
       "tasks": [
         {
-          "id": "CAE3B80E1C8A3897",
+          "id": "4AE3B80E1C8A3897",
           "type": "item",
           "item": "bloodmagic:arcaneashes",
           "count": 1,
@@ -408,14 +408,14 @@
       ],
       "rewards": [
         {
-          "id": "D4B546BCD2825B7A",
+          "id": "54B546BCD2825B7A",
           "type": "xp",
           "xp": 20
         }
       ]
     },
     {
-      "id": "D2ECF06CACB11AA2",
+      "id": "52ECF06CACB11AA2",
       "title": "Lava Reagent",
       "subtitle": "",
       "description": [],
@@ -438,7 +438,7 @@
       "rewards": []
     },
     {
-      "id": "E300F0906992DF06",
+      "id": "6300F0906992DF06",
       "title": "Lava Sigil",
       "subtitle": "",
       "description": [],
@@ -447,7 +447,7 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "D2ECF06CACB11AA2"
+        "52ECF06CACB11AA2"
       ],
       "tasks": [
         {
@@ -461,7 +461,7 @@
       "rewards": []
     },
     {
-      "id": "A62E2D3763C368C8",
+      "id": "262E2D3763C368C8",
       "title": "Air Reagent",
       "subtitle": "",
       "description": [],
@@ -470,7 +470,7 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "E300F0906992DF06"
+        "6300F0906992DF06"
       ],
       "tasks": [
         {
@@ -499,11 +499,11 @@
       "y": 6.0,
       "shape": "hexagon",
       "dependencies": [
-        "A62E2D3763C368C8"
+        "262E2D3763C368C8"
       ],
       "tasks": [
         {
-          "id": "D8303B00E74DB210",
+          "id": "58303B00E74DB210",
           "type": "item",
           "item": "bloodmagic:airsigil",
           "count": 1,
@@ -512,12 +512,12 @@
       ],
       "rewards": [
         {
-          "id": "B1C26CE17234938D",
+          "id": "31C26CE17234938D",
           "type": "xp",
           "xp": 40
         },
         {
-          "id": "F4E1E573181CDEA5",
+          "id": "74E1E573181CDEA5",
           "type": "item",
           "item": "minecraft:amethyst_shard",
           "count": 8
@@ -536,11 +536,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "9E3C9EF56C2481A6"
+        "1E3C9EF56C2481A6"
       ],
       "tasks": [
         {
-          "id": "E29242C38703EF39",
+          "id": "629242C38703EF39",
           "type": "item",
           "item": "bloodmagic:soulsnare",
           "count": 1,
@@ -549,14 +549,14 @@
       ],
       "rewards": [
         {
-          "id": "A6A202697073C9EB",
+          "id": "26A202697073C9EB",
           "type": "xp",
           "xp": 25
         }
       ]
     },
     {
-      "id": "E005B041C278BC66",
+      "id": "6005B041C278BC66",
       "title": "Demon Will",
       "subtitle": "",
       "description": [],
@@ -588,11 +588,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "E005B041C278BC66"
+        "6005B041C278BC66"
       ],
       "tasks": [
         {
-          "id": "DC978F33E8453331",
+          "id": "5C978F33E8453331",
           "type": "item",
           "item": "bloodmagic:soulforge",
           "count": 1,
@@ -624,14 +624,14 @@
       ],
       "rewards": [
         {
-          "id": "8017CE2037B9B687",
+          "id": "0017CE2037B9B687",
           "type": "xp",
           "xp": 25
         }
       ]
     },
     {
-      "id": "EDD8414D5543FEA8",
+      "id": "6DD8414D5543FEA8",
       "title": "Sentient Sword",
       "subtitle": "",
       "description": [],
@@ -644,7 +644,7 @@
       ],
       "tasks": [
         {
-          "id": "AEF15AEF9B48D642",
+          "id": "2EF15AEF9B48D642",
           "type": "item",
           "item": "bloodmagic:soulsword",
           "count": 1,
@@ -663,11 +663,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "EDD8414D5543FEA8"
+        "6DD8414D5543FEA8"
       ],
       "tasks": [
         {
-          "id": "FB13FDD4D19F64D4",
+          "id": "7B13FDD4D19F64D4",
           "type": "item",
           "item": "bloodmagic:soulgemlesser",
           "count": 1,
@@ -677,7 +677,7 @@
       "rewards": []
     },
     {
-      "id": "81A236DBB801FBBA",
+      "id": "01A236DBB801FBBA",
       "title": "Common Tartaric Gem",
       "subtitle": "",
       "description": [],
@@ -690,7 +690,7 @@
       ],
       "tasks": [
         {
-          "id": "ED3B0D858766C9E6",
+          "id": "6D3B0D858766C9E6",
           "type": "item",
           "item": "bloodmagic:soulgemcommon",
           "count": 1,
@@ -706,7 +706,7 @@
       ]
     },
     {
-      "id": "D14FD16162FECC9D",
+      "id": "514FD16162FECC9D",
       "title": "Greater Tartaric Gem",
       "subtitle": "",
       "description": [],
@@ -715,11 +715,11 @@
       "y": 9.0,
       "shape": "hexagon",
       "dependencies": [
-        "81A236DBB801FBBA"
+        "01A236DBB801FBBA"
       ],
       "tasks": [
         {
-          "id": "EA7728E07F6B7C74",
+          "id": "6A7728E07F6B7C74",
           "type": "item",
           "item": "bloodmagic:soulgemgreater",
           "count": 1,
@@ -728,7 +728,7 @@
       ],
       "rewards": [
         {
-          "id": "9C011089A53AE07B",
+          "id": "1C011089A53AE07B",
           "type": "xp",
           "xp": 45
         },
@@ -741,7 +741,7 @@
       ]
     },
     {
-      "id": "BDFF912074D9F0D7",
+      "id": "3DFF912074D9F0D7",
       "title": "Imbued Slate",
       "subtitle": "The altar ascends",
       "description": [
@@ -765,7 +765,7 @@
       ],
       "rewards": [
         {
-          "id": "C8F528610277CE94",
+          "id": "48F528610277CE94",
           "type": "xp",
           "xp": 30
         }
@@ -781,11 +781,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "BDFF912074D9F0D7"
+        "3DFF912074D9F0D7"
       ],
       "tasks": [
         {
-          "id": "AC2D4B8237413B71",
+          "id": "2C2D4B8237413B71",
           "type": "item",
           "item": "bloodmagic:magicianbloodorb",
           "count": 1,
@@ -795,7 +795,7 @@
       "rewards": []
     },
     {
-      "id": "D1B0BC28ED4AF730",
+      "id": "51B0BC28ED4AF730",
       "title": "Bloodstone Brick",
       "subtitle": "",
       "description": [],
@@ -818,7 +818,7 @@
       "rewards": []
     },
     {
-      "id": "CB27E71D5AB60576",
+      "id": "4B27E71D5AB60576",
       "title": "Master Blood Orb",
       "subtitle": "",
       "description": [],
@@ -827,11 +827,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "D1B0BC28ED4AF730"
+        "51B0BC28ED4AF730"
       ],
       "tasks": [
         {
-          "id": "B7550881A7066CF8",
+          "id": "37550881A7066CF8",
           "type": "item",
           "item": "bloodmagic:masterbloodorb",
           "count": 1,
@@ -840,7 +840,7 @@
       ],
       "rewards": [
         {
-          "id": "9104A1A7F852F5B1",
+          "id": "1104A1A7F852F5B1",
           "type": "xp",
           "xp": 30
         }
@@ -856,7 +856,7 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "CB27E71D5AB60576"
+        "4B27E71D5AB60576"
       ],
       "tasks": [
         {
@@ -870,7 +870,7 @@
       "rewards": []
     },
     {
-      "id": "809D591A6B278D65",
+      "id": "009D591A6B278D65",
       "title": "Archmage's Blood Orb",
       "subtitle": "",
       "description": [],
@@ -883,7 +883,7 @@
       ],
       "tasks": [
         {
-          "id": "BC85BD1EE1CB1A5F",
+          "id": "3C85BD1EE1CB1A5F",
           "type": "item",
           "item": "bloodmagic:archmagebloodorb",
           "count": 1,
@@ -893,7 +893,7 @@
       "rewards": []
     },
     {
-      "id": "8BA2D2FA51A1AFE4",
+      "id": "0BA2D2FA51A1AFE4",
       "title": "Demonic Slate",
       "subtitle": "",
       "description": [],
@@ -902,7 +902,7 @@
       "y": 12.0,
       "shape": "hexagon",
       "dependencies": [
-        "809D591A6B278D65"
+        "009D591A6B278D65"
       ],
       "tasks": [
         {
@@ -915,12 +915,12 @@
       ],
       "rewards": [
         {
-          "id": "C03C4CECAFAF1CB3",
+          "id": "403C4CECAFAF1CB3",
           "type": "xp",
           "xp": 30
         },
         {
-          "id": "E98791360D229935",
+          "id": "698791360D229935",
           "type": "item",
           "item": "minecraft:lapis_lazuli",
           "count": 12
@@ -952,7 +952,7 @@
       ],
       "rewards": [
         {
-          "id": "B058DCE17D0BCC67",
+          "id": "3058DCE17D0BCC67",
           "type": "xp",
           "xp": 35
         }
@@ -982,7 +982,7 @@
       "rewards": []
     },
     {
-      "id": "8E4B6920C1B87246",
+      "id": "0E4B6920C1B87246",
       "title": "Ritual Diviner",
       "subtitle": "",
       "description": [],
@@ -995,7 +995,7 @@
       ],
       "tasks": [
         {
-          "id": "C71F8C7744D5D962",
+          "id": "471F8C7744D5D962",
           "type": "item",
           "item": "bloodmagic:ritualdiviner",
           "count": 1,
@@ -1014,7 +1014,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "8E4B6920C1B87246"
+        "0E4B6920C1B87246"
       ],
       "tasks": [
         {
@@ -1027,14 +1027,14 @@
       ],
       "rewards": [
         {
-          "id": "B29AA9199F2D7870",
+          "id": "329AA9199F2D7870",
           "type": "xp",
           "xp": 35
         }
       ]
     },
     {
-      "id": "F6572DEC4A5618F1",
+      "id": "76572DEC4A5618F1",
       "title": "Ritual Tinkerer",
       "subtitle": "",
       "description": [],
@@ -1047,7 +1047,7 @@
       ],
       "tasks": [
         {
-          "id": "F59E636689D3A4AB",
+          "id": "759E636689D3A4AB",
           "type": "item",
           "item": "bloodmagic:ritualtinkerer",
           "count": 1,
@@ -1066,7 +1066,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "F6572DEC4A5618F1"
+        "76572DEC4A5618F1"
       ],
       "tasks": [
         {
@@ -1080,7 +1080,7 @@
       "rewards": []
     },
     {
-      "id": "9224B97AEDF5AF11",
+      "id": "1224B97AEDF5AF11",
       "title": "Ritual Diviner [Dusk]",
       "subtitle": "",
       "description": [],
@@ -1118,11 +1118,11 @@
       "y": 15.0,
       "shape": "hexagon",
       "dependencies": [
-        "9224B97AEDF5AF11"
+        "1224B97AEDF5AF11"
       ],
       "tasks": [
         {
-          "id": "CD990464F101537E",
+          "id": "4D990464F101537E",
           "type": "item",
           "item": "bloodmagic:activationcrystalawakened",
           "count": 1,
@@ -1144,7 +1144,7 @@
       ]
     },
     {
-      "id": "ADF5716C2D119001",
+      "id": "2DF5716C2D119001",
       "title": "Living Helmet",
       "subtitle": "Living armour",
       "description": [
@@ -1184,7 +1184,7 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "ADF5716C2D119001"
+        "2DF5716C2D119001"
       ],
       "tasks": [
         {
@@ -1198,7 +1198,7 @@
       "rewards": []
     },
     {
-      "id": "A82F1C39E023EC3B",
+      "id": "282F1C39E023EC3B",
       "title": "Living Leggings",
       "subtitle": "",
       "description": [],
@@ -1211,7 +1211,7 @@
       ],
       "tasks": [
         {
-          "id": "C0AC6D0720CA3AF4",
+          "id": "40AC6D0720CA3AF4",
           "type": "item",
           "item": "bloodmagic:livingleggings",
           "count": 1,
@@ -1221,7 +1221,7 @@
       "rewards": []
     },
     {
-      "id": "D37D3AD15314762C",
+      "id": "537D3AD15314762C",
       "title": "Living Boots",
       "subtitle": "",
       "description": [],
@@ -1230,11 +1230,11 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "A82F1C39E023EC3B"
+        "282F1C39E023EC3B"
       ],
       "tasks": [
         {
-          "id": "B20418EC2006A34D",
+          "id": "320418EC2006A34D",
           "type": "item",
           "item": "bloodmagic:livingboots",
           "count": 1,
@@ -1250,7 +1250,7 @@
       ]
     },
     {
-      "id": "8E88AEEA1BB5C353",
+      "id": "0E88AEEA1BB5C353",
       "title": "Living Armour Upgrade Tome",
       "subtitle": "",
       "description": [],
@@ -1259,11 +1259,11 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "D37D3AD15314762C"
+        "537D3AD15314762C"
       ],
       "tasks": [
         {
-          "id": "DF4B97EE4EE7359C",
+          "id": "5F4B97EE4EE7359C",
           "type": "item",
           "item": "bloodmagic:upgradetome",
           "count": 1,
@@ -1273,7 +1273,7 @@
       "rewards": []
     },
     {
-      "id": "928448F1E17DB4B9",
+      "id": "128448F1E17DB4B9",
       "title": "Living Armour Training Bracelet",
       "subtitle": "",
       "description": [],
@@ -1282,11 +1282,11 @@
       "y": 18.0,
       "shape": "hexagon",
       "dependencies": [
-        "8E88AEEA1BB5C353"
+        "0E88AEEA1BB5C353"
       ],
       "tasks": [
         {
-          "id": "B642072D18BB4F7F",
+          "id": "3642072D18BB4F7F",
           "type": "item",
           "item": "bloodmagic:upgradetrainer",
           "count": 1,
@@ -1295,7 +1295,7 @@
       ],
       "rewards": [
         {
-          "id": "813FEAC6A668E970",
+          "id": "013FEAC6A668E970",
           "type": "xp",
           "xp": 60
         },
@@ -1308,7 +1308,7 @@
       ]
     },
     {
-      "id": "89A18FC210B0EC4E",
+      "id": "09A18FC210B0EC4E",
       "title": "Demon Crucible",
       "subtitle": "Will and crystal",
       "description": [
@@ -1319,7 +1319,7 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "81A236DBB801FBBA"
+        "01A236DBB801FBBA"
       ],
       "tasks": [
         {
@@ -1332,7 +1332,7 @@
       ],
       "rewards": [
         {
-          "id": "B6F292994C4B47AD",
+          "id": "36F292994C4B47AD",
           "type": "xp",
           "xp": 45
         }
@@ -1348,7 +1348,7 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "89A18FC210B0EC4E"
+        "09A18FC210B0EC4E"
       ],
       "tasks": [
         {
@@ -1375,7 +1375,7 @@
       ],
       "tasks": [
         {
-          "id": "ECCBFDD6D19CB691",
+          "id": "6CCBFDD6D19CB691",
           "type": "item",
           "item": "bloodmagic:rawdemoncrystal",
           "count": 1,
@@ -1385,7 +1385,7 @@
       "rewards": []
     },
     {
-      "id": "EBAF77B705AE6705",
+      "id": "6BAF77B705AE6705",
       "title": "Steadfast Crystal Cluster",
       "subtitle": "",
       "description": [],
@@ -1423,7 +1423,7 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "EBAF77B705AE6705"
+        "6BAF77B705AE6705"
       ],
       "tasks": [
         {
@@ -1437,7 +1437,7 @@
       "rewards": []
     },
     {
-      "id": "9FB5A81721655253",
+      "id": "1FB5A81721655253",
       "title": "Vengeful Crystal Cluster",
       "subtitle": "",
       "description": [],
@@ -1450,7 +1450,7 @@
       ],
       "tasks": [
         {
-          "id": "B92DF790F87832C5",
+          "id": "392DF790F87832C5",
           "type": "item",
           "item": "bloodmagic:vengefuldemoncrystal",
           "count": 1,
@@ -1460,7 +1460,7 @@
       "rewards": []
     },
     {
-      "id": "A2F10E1514B0D39F",
+      "id": "22F10E1514B0D39F",
       "title": "Corrosive Crystal Cluster",
       "subtitle": "",
       "description": [],
@@ -1469,7 +1469,7 @@
       "y": 21.0,
       "shape": "hexagon",
       "dependencies": [
-        "9FB5A81721655253"
+        "1FB5A81721655253"
       ],
       "tasks": [
         {
@@ -1482,7 +1482,7 @@
       ],
       "rewards": [
         {
-          "id": "9F388BAA5076ABC3",
+          "id": "1F388BAA5076ABC3",
           "type": "xp",
           "xp": 45
         },
@@ -1495,7 +1495,7 @@
       ]
     },
     {
-      "id": "8FE42E84614BF74E",
+      "id": "0FE42E84614BF74E",
       "title": "Iron Key",
       "subtitle": "Beyond the seal",
       "description": [
@@ -1506,7 +1506,7 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "CB27E71D5AB60576"
+        "4B27E71D5AB60576"
       ],
       "tasks": [
         {
@@ -1526,7 +1526,7 @@
       ]
     },
     {
-      "id": "91DDFCE33CA9FA03",
+      "id": "11DDFCE33CA9FA03",
       "title": "Foreman's Key",
       "subtitle": "",
       "description": [],
@@ -1535,11 +1535,11 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "8FE42E84614BF74E"
+        "0FE42E84614BF74E"
       ],
       "tasks": [
         {
-          "id": "A00E845CF4CBB2C3",
+          "id": "200E845CF4CBB2C3",
           "type": "item",
           "item": "bloodmagic:mineentrancekey",
           "count": 1,
@@ -1549,7 +1549,7 @@
       "rewards": []
     },
     {
-      "id": "F782F37339A6BAB6",
+      "id": "7782F37339A6BAB6",
       "title": "Raw Demonite",
       "subtitle": "",
       "description": [],
@@ -1558,7 +1558,7 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "91DDFCE33CA9FA03"
+        "11DDFCE33CA9FA03"
       ],
       "tasks": [
         {
@@ -1572,7 +1572,7 @@
       "rewards": []
     },
     {
-      "id": "845B1CA327014978",
+      "id": "045B1CA327014978",
       "title": "Hellforged Ingot",
       "subtitle": "",
       "description": [],
@@ -1581,7 +1581,7 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "F782F37339A6BAB6"
+        "7782F37339A6BAB6"
       ],
       "tasks": [
         {
@@ -1594,14 +1594,14 @@
       ],
       "rewards": [
         {
-          "id": "9E3D0B07A7225A36",
+          "id": "1E3D0B07A7225A36",
           "type": "xp",
           "xp": 50
         }
       ]
     },
     {
-      "id": "F565241C9B58C3FC",
+      "id": "7565241C9B58C3FC",
       "title": "Intricate Hellforged Parts",
       "subtitle": "",
       "description": [],
@@ -1610,11 +1610,11 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "845B1CA327014978"
+        "045B1CA327014978"
       ],
       "tasks": [
         {
-          "id": "EA77299B3AAB6A9B",
+          "id": "6A77299B3AAB6A9B",
           "type": "item",
           "item": "bloodmagic:hellforgedparts",
           "count": 1,
@@ -1624,7 +1624,7 @@
       "rewards": []
     },
     {
-      "id": "93726ED6D913D9DB",
+      "id": "13726ED6D913D9DB",
       "title": "Alchemical Reaction Chamber",
       "subtitle": "",
       "description": [],
@@ -1633,7 +1633,7 @@
       "y": 24.0,
       "shape": "hexagon",
       "dependencies": [
-        "F565241C9B58C3FC"
+        "7565241C9B58C3FC"
       ],
       "tasks": [
         {
@@ -1670,11 +1670,11 @@
       "y": 27.0,
       "shape": "circle",
       "dependencies": [
-        "CB27E71D5AB60576"
+        "4B27E71D5AB60576"
       ],
       "tasks": [
         {
-          "id": "952E7703C7CBF4C1",
+          "id": "152E7703C7CBF4C1",
           "type": "item",
           "item": "bloodmagic:altarcapacityrune",
           "count": 1,
@@ -1683,7 +1683,7 @@
       ],
       "rewards": [
         {
-          "id": "8ACE11BED48C9FE0",
+          "id": "0ACE11BED48C9FE0",
           "type": "xp",
           "xp": 50
         }
@@ -1703,7 +1703,7 @@
       ],
       "tasks": [
         {
-          "id": "998F5A8AF2C9AE15",
+          "id": "198F5A8AF2C9AE15",
           "type": "item",
           "item": "bloodmagic:bettercapacityrune",
           "count": 1,
@@ -1726,7 +1726,7 @@
       ],
       "tasks": [
         {
-          "id": "D7EEE50D878971B1",
+          "id": "57EEE50D878971B1",
           "type": "item",
           "item": "bloodmagic:sacrificerune",
           "count": 1,
@@ -1736,7 +1736,7 @@
       "rewards": []
     },
     {
-      "id": "C4F89F592A5557CD",
+      "id": "44F89F592A5557CD",
       "title": "Rune of the Orb",
       "subtitle": "",
       "description": [],
@@ -1749,7 +1749,7 @@
       ],
       "tasks": [
         {
-          "id": "E932887B8B998BD7",
+          "id": "6932887B8B998BD7",
           "type": "item",
           "item": "bloodmagic:orbcapacityrune",
           "count": 1,
@@ -1774,7 +1774,7 @@
       "y": 27.0,
       "shape": "circle",
       "dependencies": [
-        "C4F89F592A5557CD"
+        "44F89F592A5557CD"
       ],
       "tasks": [
         {
@@ -1788,7 +1788,7 @@
       "rewards": []
     },
     {
-      "id": "C4DBBAD36487C99F",
+      "id": "44DBBAD36487C99F",
       "title": "Charging Rune",
       "subtitle": "",
       "description": [],
@@ -1815,7 +1815,7 @@
           "xp": 70
         },
         {
-          "id": "C30C92A9D9DF69E3",
+          "id": "430C92A9D9DF69E3",
           "type": "item",
           "item": "minecraft:book",
           "count": 4

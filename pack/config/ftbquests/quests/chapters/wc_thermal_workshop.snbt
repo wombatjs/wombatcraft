@@ -19,7 +19,7 @@
       "dependencies": [],
       "tasks": [
         {
-          "id": "923827F9208ABE2A",
+          "id": "123827F9208ABE2A",
           "type": "item",
           "item": "thermal:wrench",
           "count": 1,
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "id": "A1271D3838D62A98",
+      "id": "21271D3838D62A98",
       "title": "Redstone Flux Coil",
       "subtitle": "",
       "description": [],
@@ -48,7 +48,7 @@
       ],
       "tasks": [
         {
-          "id": "F60EB0F5A3FCF7AD",
+          "id": "760EB0F5A3FCF7AD",
           "type": "item",
           "item": "thermal:rf_coil",
           "count": 1,
@@ -58,7 +58,7 @@
       "rewards": []
     },
     {
-      "id": "C038C993FE58DC6E",
+      "id": "4038C993FE58DC6E",
       "title": "Redstone Servo",
       "subtitle": "",
       "description": [],
@@ -67,7 +67,7 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "A1271D3838D62A98"
+        "21271D3838D62A98"
       ],
       "tasks": [
         {
@@ -90,11 +90,11 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "C038C993FE58DC6E"
+        "4038C993FE58DC6E"
       ],
       "tasks": [
         {
-          "id": "D4461F1E45EC440E",
+          "id": "54461F1E45EC440E",
           "type": "item",
           "item": "thermal:machine_frame",
           "count": 1,
@@ -103,7 +103,7 @@
       ],
       "rewards": [
         {
-          "id": "997A8F8B30F24765",
+          "id": "197A8F8B30F24765",
           "type": "xp",
           "xp": 10
         }
@@ -123,7 +123,7 @@
       ],
       "tasks": [
         {
-          "id": "C2893EDDB9AEBDCF",
+          "id": "42893EDDB9AEBDCF",
           "type": "item",
           "item": "thermal:dynamo_stirling",
           "count": 1,
@@ -133,7 +133,7 @@
       "rewards": []
     },
     {
-      "id": "CF1278B15FD308B1",
+      "id": "4F1278B15FD308B1",
       "title": "Redstone Furnace",
       "subtitle": "",
       "description": [],
@@ -146,7 +146,7 @@
       ],
       "tasks": [
         {
-          "id": "9A9B66B9518458FB",
+          "id": "1A9B66B9518458FB",
           "type": "item",
           "item": "thermal:machine_furnace",
           "count": 1,
@@ -156,7 +156,7 @@
       "rewards": []
     },
     {
-      "id": "B7698683A125F820",
+      "id": "37698683A125F820",
       "title": "Pulverizer",
       "subtitle": "",
       "description": [],
@@ -165,7 +165,7 @@
       "y": 0.0,
       "shape": "hexagon",
       "dependencies": [
-        "CF1278B15FD308B1"
+        "4F1278B15FD308B1"
       ],
       "tasks": [
         {
@@ -183,7 +183,7 @@
           "xp": 10
         },
         {
-          "id": "88C07824A2A6ACA3",
+          "id": "08C07824A2A6ACA3",
           "type": "item",
           "item": "minecraft:iron_ingot",
           "count": 8
@@ -191,7 +191,7 @@
       ]
     },
     {
-      "id": "D229279272C2DB4F",
+      "id": "5229279272C2DB4F",
       "title": "Invar Ingot",
       "subtitle": "Alloys and presses",
       "description": [
@@ -202,7 +202,7 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "B7698683A125F820"
+        "37698683A125F820"
       ],
       "tasks": [
         {
@@ -215,7 +215,7 @@
       ],
       "rewards": [
         {
-          "id": "BAA7029055650777",
+          "id": "3AA7029055650777",
           "type": "xp",
           "xp": 15
         }
@@ -231,7 +231,7 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "D229279272C2DB4F"
+        "5229279272C2DB4F"
       ],
       "tasks": [
         {
@@ -245,7 +245,7 @@
       "rewards": []
     },
     {
-      "id": "AAA1AF3415409759",
+      "id": "2AA1AF3415409759",
       "title": "Bronze Ingot",
       "subtitle": "",
       "description": [],
@@ -268,7 +268,7 @@
       "rewards": []
     },
     {
-      "id": "CD0708389486D0BD",
+      "id": "4D0708389486D0BD",
       "title": "Induction Smelter",
       "subtitle": "",
       "description": [],
@@ -277,11 +277,11 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "AAA1AF3415409759"
+        "2AA1AF3415409759"
       ],
       "tasks": [
         {
-          "id": "F3B52731B4143C31",
+          "id": "73B52731B4143C31",
           "type": "item",
           "item": "thermal:machine_smelter",
           "count": 1,
@@ -306,7 +306,7 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "CD0708389486D0BD"
+        "4D0708389486D0BD"
       ],
       "tasks": [
         {
@@ -343,7 +343,7 @@
       "rewards": []
     },
     {
-      "id": "83FA49A6D287DE48",
+      "id": "03FA49A6D287DE48",
       "title": "Numismatic Die",
       "subtitle": "",
       "description": [],
@@ -356,7 +356,7 @@
       ],
       "tasks": [
         {
-          "id": "E1BCA418BFB729F2",
+          "id": "61BCA418BFB729F2",
           "type": "item",
           "item": "thermal:press_coin_die",
           "count": 1,
@@ -370,7 +370,7 @@
           "xp": 15
         },
         {
-          "id": "8D709ED595F5205E",
+          "id": "0D709ED595F5205E",
           "type": "item",
           "item": "minecraft:redstone",
           "count": 16
@@ -378,7 +378,7 @@
       ]
     },
     {
-      "id": "DB8C78478AED6EFC",
+      "id": "5B8C78478AED6EFC",
       "title": "Magma Crucible",
       "subtitle": "Heat and fluids",
       "description": [
@@ -389,7 +389,7 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "CD0708389486D0BD"
+        "4D0708389486D0BD"
       ],
       "tasks": [
         {
@@ -402,14 +402,14 @@
       ],
       "rewards": [
         {
-          "id": "9A947B7D29C98A50",
+          "id": "1A947B7D29C98A50",
           "type": "xp",
           "xp": 20
         }
       ]
     },
     {
-      "id": "BB659F54A938FC4A",
+      "id": "3B659F54A938FC4A",
       "title": "Blast Chiller",
       "subtitle": "",
       "description": [],
@@ -418,11 +418,11 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "DB8C78478AED6EFC"
+        "5B8C78478AED6EFC"
       ],
       "tasks": [
         {
-          "id": "C5E6A81D84AB5706",
+          "id": "45E6A81D84AB5706",
           "type": "item",
           "item": "thermal:machine_chiller",
           "count": 1,
@@ -441,7 +441,7 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "BB659F54A938FC4A"
+        "3B659F54A938FC4A"
       ],
       "tasks": [
         {
@@ -477,7 +477,7 @@
       ],
       "rewards": [
         {
-          "id": "EDABAFC8C58E07A5",
+          "id": "6DABAFC8C58E07A5",
           "type": "xp",
           "xp": 20
         }
@@ -497,7 +497,7 @@
       ],
       "tasks": [
         {
-          "id": "9982F9071F82B427",
+          "id": "1982F9071F82B427",
           "type": "item",
           "item": "thermal:fluid_reservoir",
           "count": 1,
@@ -511,7 +511,7 @@
           "xp": 40
         },
         {
-          "id": "810D60FB62F4CF91",
+          "id": "010D60FB62F4CF91",
           "type": "item",
           "item": "minecraft:gold_ingot",
           "count": 4
@@ -519,7 +519,7 @@
       ]
     },
     {
-      "id": "BA59BAB24CD4F8A4",
+      "id": "3A59BAB24CD4F8A4",
       "title": "Arboreal Extractor",
       "subtitle": "Renewable feedstock",
       "description": [
@@ -534,7 +534,7 @@
       ],
       "tasks": [
         {
-          "id": "8497D599F8389174",
+          "id": "0497D599F8389174",
           "type": "item",
           "item": "thermal:device_tree_extractor",
           "count": 1,
@@ -559,11 +559,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "BA59BAB24CD4F8A4"
+        "3A59BAB24CD4F8A4"
       ],
       "tasks": [
         {
-          "id": "CB75DDB47BF7CEEA",
+          "id": "4B75DDB47BF7CEEA",
           "type": "item",
           "item": "thermal:resin_bucket",
           "count": 1,
@@ -618,14 +618,14 @@
       ],
       "rewards": [
         {
-          "id": "A586019F486F2A86",
+          "id": "2586019F486F2A86",
           "type": "xp",
           "xp": 25
         }
       ]
     },
     {
-      "id": "AC358773C1868D4D",
+      "id": "2C358773C1868D4D",
       "title": "Sawmill",
       "subtitle": "",
       "description": [],
@@ -638,7 +638,7 @@
       ],
       "tasks": [
         {
-          "id": "E706945E4DDEF468",
+          "id": "6706945E4DDEF468",
           "type": "item",
           "item": "thermal:machine_sawmill",
           "count": 1,
@@ -657,11 +657,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "AC358773C1868D4D"
+        "2C358773C1868D4D"
       ],
       "tasks": [
         {
-          "id": "94ABD1658B408FEF",
+          "id": "14ABD1658B408FEF",
           "type": "item",
           "item": "thermal:machine_pyrolyzer",
           "count": 1,
@@ -671,7 +671,7 @@
       "rewards": []
     },
     {
-      "id": "F56127A30215B7A3",
+      "id": "756127A30215B7A3",
       "title": "Coke",
       "subtitle": "",
       "description": [],
@@ -684,7 +684,7 @@
       ],
       "tasks": [
         {
-          "id": "E9FBCEC30BF0ECBF",
+          "id": "69FBCEC30BF0ECBF",
           "type": "item",
           "item": "thermal:coal_coke",
           "count": 1,
@@ -717,11 +717,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "DB8C78478AED6EFC"
+        "5B8C78478AED6EFC"
       ],
       "tasks": [
         {
-          "id": "FCFEC62E4B312870",
+          "id": "7CFEC62E4B312870",
           "type": "item",
           "item": "thermal:crude_oil_bucket",
           "count": 1,
@@ -760,7 +760,7 @@
       "rewards": []
     },
     {
-      "id": "8758D24F88DCB56E",
+      "id": "0758D24F88DCB56E",
       "title": "Heavy Oil Bucket",
       "subtitle": "",
       "description": [],
@@ -783,7 +783,7 @@
       "rewards": []
     },
     {
-      "id": "DAE793A01C7D4AB1",
+      "id": "5AE793A01C7D4AB1",
       "title": "Light Oil Bucket",
       "subtitle": "",
       "description": [],
@@ -792,7 +792,7 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "8758D24F88DCB56E"
+        "0758D24F88DCB56E"
       ],
       "tasks": [
         {
@@ -812,7 +812,7 @@
       ]
     },
     {
-      "id": "C6B4AE7F8193EFF4",
+      "id": "46B4AE7F8193EFF4",
       "title": "Refined Fuel Bucket",
       "subtitle": "",
       "description": [],
@@ -821,7 +821,7 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "DAE793A01C7D4AB1"
+        "5AE793A01C7D4AB1"
       ],
       "tasks": [
         {
@@ -844,7 +844,7 @@
       "y": 12.0,
       "shape": "hexagon",
       "dependencies": [
-        "C6B4AE7F8193EFF4"
+        "46B4AE7F8193EFF4"
       ],
       "tasks": [
         {
@@ -857,7 +857,7 @@
       ],
       "rewards": [
         {
-          "id": "FC8591F7F9BC2F16",
+          "id": "7C8591F7F9BC2F16",
           "type": "xp",
           "xp": 50
         },
@@ -870,7 +870,7 @@
       ]
     },
     {
-      "id": "B40A4726A1670A7E",
+      "id": "340A4726A1670A7E",
       "title": "Magmatic Dynamo",
       "subtitle": "A choice of generators",
       "description": [
@@ -894,14 +894,14 @@
       ],
       "rewards": [
         {
-          "id": "A956FD5098DAD7F7",
+          "id": "2956FD5098DAD7F7",
           "type": "xp",
           "xp": 35
         }
       ]
     },
     {
-      "id": "8F9E6A4EC9F65B08",
+      "id": "0F9E6A4EC9F65B08",
       "title": "Lapidary Dynamo",
       "subtitle": "",
       "description": [],
@@ -910,11 +910,11 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "B40A4726A1670A7E"
+        "340A4726A1670A7E"
       ],
       "tasks": [
         {
-          "id": "BDEE57AC71996668",
+          "id": "3DEE57AC71996668",
           "type": "item",
           "item": "thermal:dynamo_lapidary",
           "count": 1,
@@ -933,11 +933,11 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "8F9E6A4EC9F65B08"
+        "0F9E6A4EC9F65B08"
       ],
       "tasks": [
         {
-          "id": "F797B21061F0F33D",
+          "id": "7797B21061F0F33D",
           "type": "item",
           "item": "thermal:dynamo_numismatic",
           "count": 1,
@@ -969,14 +969,14 @@
       ],
       "rewards": [
         {
-          "id": "CE6276889E7D885C",
+          "id": "4E6276889E7D885C",
           "type": "xp",
           "xp": 35
         }
       ]
     },
     {
-      "id": "85AA1A75D2081EDC",
+      "id": "05AA1A75D2081EDC",
       "title": "Gourmand Dynamo",
       "subtitle": "",
       "description": [],
@@ -989,7 +989,7 @@
       ],
       "tasks": [
         {
-          "id": "A1E722B5453A8344",
+          "id": "21E722B5453A8344",
           "type": "item",
           "item": "thermal:dynamo_gourmand",
           "count": 1,
@@ -998,12 +998,12 @@
       ],
       "rewards": [
         {
-          "id": "ACAA275F0BB9931F",
+          "id": "2CAA275F0BB9931F",
           "type": "xp",
           "xp": 55
         },
         {
-          "id": "D124A6C8EA3A1507",
+          "id": "5124A6C8EA3A1507",
           "type": "item",
           "item": "minecraft:redstone",
           "count": 16
@@ -1022,7 +1022,7 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "A1271D3838D62A98"
+        "21271D3838D62A98"
       ],
       "tasks": [
         {
@@ -1035,7 +1035,7 @@
       ],
       "rewards": [
         {
-          "id": "B84A93E633D40C99",
+          "id": "384A93E633D40C99",
           "type": "xp",
           "xp": 40
         }
@@ -1110,14 +1110,14 @@
       ],
       "rewards": [
         {
-          "id": "F78448C76E92E825",
+          "id": "778448C76E92E825",
           "type": "xp",
           "xp": 40
         }
       ]
     },
     {
-      "id": "ADD7142C6F3E53D2",
+      "id": "2DD7142C6F3E53D2",
       "title": "Energetic Infuser",
       "subtitle": "",
       "description": [],
@@ -1130,7 +1130,7 @@
       ],
       "tasks": [
         {
-          "id": "ECF4FA743DD79A69",
+          "id": "6CF4FA743DD79A69",
           "type": "item",
           "item": "thermal:charge_bench",
           "count": 1,
@@ -1139,7 +1139,7 @@
       ],
       "rewards": [
         {
-          "id": "C1145C4F1A5D66EC",
+          "id": "41145C4F1A5D66EC",
           "type": "xp",
           "xp": 60
         },
@@ -1163,7 +1163,7 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "CD0708389486D0BD"
+        "4D0708389486D0BD"
       ],
       "tasks": [
         {
@@ -1176,14 +1176,14 @@
       ],
       "rewards": [
         {
-          "id": "D9F286FA8A4FF70D",
+          "id": "59F286FA8A4FF70D",
           "type": "xp",
           "xp": 45
         }
       ]
     },
     {
-      "id": "838D75D3498400CD",
+      "id": "038D75D3498400CD",
       "title": "Lumium Ingot",
       "subtitle": "",
       "description": [],
@@ -1196,7 +1196,7 @@
       ],
       "tasks": [
         {
-          "id": "FB812114F7502BD2",
+          "id": "7B812114F7502BD2",
           "type": "item",
           "item": "thermal:lumium_ingot",
           "count": 1,
@@ -1215,7 +1215,7 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "838D75D3498400CD"
+        "038D75D3498400CD"
       ],
       "tasks": [
         {
@@ -1229,7 +1229,7 @@
       "rewards": []
     },
     {
-      "id": "E2FCFAC83E05DA2B",
+      "id": "62FCFAC83E05DA2B",
       "title": "Signalum Gear",
       "subtitle": "",
       "description": [],
@@ -1258,7 +1258,7 @@
       ]
     },
     {
-      "id": "98D978259AA5F20D",
+      "id": "18D978259AA5F20D",
       "title": "Lumium Gear",
       "subtitle": "",
       "description": [],
@@ -1267,7 +1267,7 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "E2FCFAC83E05DA2B"
+        "62FCFAC83E05DA2B"
       ],
       "tasks": [
         {
@@ -1281,7 +1281,7 @@
       "rewards": []
     },
     {
-      "id": "81B1D713441499BB",
+      "id": "01B1D713441499BB",
       "title": "Enderium Gear",
       "subtitle": "",
       "description": [],
@@ -1290,11 +1290,11 @@
       "y": 21.0,
       "shape": "hexagon",
       "dependencies": [
-        "98D978259AA5F20D"
+        "18D978259AA5F20D"
       ],
       "tasks": [
         {
-          "id": "AD5DD1656B172732",
+          "id": "2D5DD1656B172732",
           "type": "item",
           "item": "thermal:enderium_gear",
           "count": 1,
@@ -1370,7 +1370,7 @@
       "rewards": []
     },
     {
-      "id": "AAD57025418EE8E3",
+      "id": "2AD57025418EE8E3",
       "title": "Auxiliary Process Sieve",
       "subtitle": "",
       "description": [],
@@ -1383,7 +1383,7 @@
       ],
       "tasks": [
         {
-          "id": "98B387D52176633A",
+          "id": "18B387D52176633A",
           "type": "item",
           "item": "thermal:machine_output_augment",
           "count": 1,
@@ -1393,7 +1393,7 @@
       "rewards": []
     },
     {
-      "id": "FE12B959E4142DBE",
+      "id": "7E12B959E4142DBE",
       "title": "Cyclical Processing",
       "subtitle": "",
       "description": [],
@@ -1402,7 +1402,7 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "AAD57025418EE8E3"
+        "2AD57025418EE8E3"
       ],
       "tasks": [
         {
@@ -1415,14 +1415,14 @@
       ],
       "rewards": [
         {
-          "id": "ED7024E6C28A1495",
+          "id": "6D7024E6C28A1495",
           "type": "xp",
           "xp": 50
         }
       ]
     },
     {
-      "id": "BEB1D022E22F5896",
+      "id": "3EB1D022E22F5896",
       "title": "Auxiliary Reaction Chamber",
       "subtitle": "",
       "description": [],
@@ -1431,11 +1431,11 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "FE12B959E4142DBE"
+        "7E12B959E4142DBE"
       ],
       "tasks": [
         {
-          "id": "DA67E0DDBE7174E7",
+          "id": "5A67E0DDBE7174E7",
           "type": "item",
           "item": "thermal:dynamo_output_augment",
           "count": 1,
@@ -1454,7 +1454,7 @@
       "y": 24.0,
       "shape": "hexagon",
       "dependencies": [
-        "BEB1D022E22F5896"
+        "3EB1D022E22F5896"
       ],
       "tasks": [
         {
@@ -1467,7 +1467,7 @@
       ],
       "rewards": [
         {
-          "id": "8742A36B531AD22C",
+          "id": "0742A36B531AD22C",
           "type": "xp",
           "xp": 70
         },
@@ -1480,7 +1480,7 @@
       ]
     },
     {
-      "id": "B6BD2C08AB623950",
+      "id": "36BD2C08AB623950",
       "title": "Phyto-Gro",
       "subtitle": "A managed greenhouse",
       "description": [
@@ -1495,7 +1495,7 @@
       ],
       "tasks": [
         {
-          "id": "B922A99262FDDD50",
+          "id": "3922A99262FDDD50",
           "type": "item",
           "item": "thermal:phytogro",
           "count": 1,
@@ -1504,14 +1504,14 @@
       ],
       "rewards": [
         {
-          "id": "81A4CA2A753920D7",
+          "id": "01A4CA2A753920D7",
           "type": "xp",
           "xp": 50
         }
       ]
     },
     {
-      "id": "83F367CB3291E7E7",
+      "id": "03F367CB3291E7E7",
       "title": "Phytogenic Insolator",
       "subtitle": "",
       "description": [],
@@ -1520,11 +1520,11 @@
       "y": 27.0,
       "shape": "circle",
       "dependencies": [
-        "B6BD2C08AB623950"
+        "36BD2C08AB623950"
       ],
       "tasks": [
         {
-          "id": "B8346B658E0A2082",
+          "id": "38346B658E0A2082",
           "type": "item",
           "item": "thermal:machine_insolator",
           "count": 1,
@@ -1534,7 +1534,7 @@
       "rewards": []
     },
     {
-      "id": "F380074B1C127087",
+      "id": "7380074B1C127087",
       "title": "Aqueous Accumulator",
       "subtitle": "",
       "description": [],
@@ -1543,11 +1543,11 @@
       "y": 27.0,
       "shape": "circle",
       "dependencies": [
-        "83F367CB3291E7E7"
+        "03F367CB3291E7E7"
       ],
       "tasks": [
         {
-          "id": "EB785B86C8703538",
+          "id": "6B785B86C8703538",
           "type": "item",
           "item": "thermal:device_water_gen",
           "count": 1,
@@ -1566,7 +1566,7 @@
       "y": 27.0,
       "shape": "circle",
       "dependencies": [
-        "F380074B1C127087"
+        "7380074B1C127087"
       ],
       "tasks": [
         {
@@ -1586,7 +1586,7 @@
       ]
     },
     {
-      "id": "BDD0E839E785F6D8",
+      "id": "3DD0E839E785F6D8",
       "title": "Phyto-Soil Infuser",
       "subtitle": "",
       "description": [],
@@ -1613,7 +1613,7 @@
           "xp": 70
         },
         {
-          "id": "FC1369C68BCD4E77",
+          "id": "7C1369C68BCD4E77",
           "type": "item",
           "item": "minecraft:redstone",
           "count": 16
@@ -1621,7 +1621,7 @@
       ]
     },
     {
-      "id": "AC4EBD519F92BD93",
+      "id": "2C4EBD519F92BD93",
       "title": "Centrifugal Separator",
       "subtitle": "Useful by-products",
       "description": [
@@ -1632,7 +1632,7 @@
       "y": 30.0,
       "shape": "circle",
       "dependencies": [
-        "B7698683A125F820"
+        "37698683A125F820"
       ],
       "tasks": [
         {
@@ -1652,7 +1652,7 @@
       ]
     },
     {
-      "id": "B548255D44E03CB5",
+      "id": "3548255D44E03CB5",
       "title": "Alchemical Imbuer",
       "subtitle": "",
       "description": [],
@@ -1661,7 +1661,7 @@
       "y": 30.0,
       "shape": "circle",
       "dependencies": [
-        "AC4EBD519F92BD93"
+        "2C4EBD519F92BD93"
       ],
       "tasks": [
         {
@@ -1675,7 +1675,7 @@
       "rewards": []
     },
     {
-      "id": "A37EDBAE465EE7C4",
+      "id": "237EDBAE465EE7C4",
       "title": "Aquatic Entangler",
       "subtitle": "",
       "description": [],
@@ -1684,7 +1684,7 @@
       "y": 30.0,
       "shape": "circle",
       "dependencies": [
-        "B548255D44E03CB5"
+        "3548255D44E03CB5"
       ],
       "tasks": [
         {
@@ -1707,11 +1707,11 @@
       "y": 30.0,
       "shape": "circle",
       "dependencies": [
-        "A37EDBAE465EE7C4"
+        "237EDBAE465EE7C4"
       ],
       "tasks": [
         {
-          "id": "D5D46B0B08BCAB6B",
+          "id": "55D46B0B08BCAB6B",
           "type": "item",
           "item": "thermal:device_collector",
           "count": 1,
@@ -1720,14 +1720,14 @@
       ],
       "rewards": [
         {
-          "id": "D3B326BE9A37FF01",
+          "id": "53B326BE9A37FF01",
           "type": "xp",
           "xp": 50
         }
       ]
     },
     {
-      "id": "8C74EF62489D9F9A",
+      "id": "0C74EF62489D9F9A",
       "title": "Insightful Condenser",
       "subtitle": "",
       "description": [],
@@ -1749,12 +1749,12 @@
       ],
       "rewards": [
         {
-          "id": "9F0D96AA58DF4D8D",
+          "id": "1F0D96AA58DF4D8D",
           "type": "xp",
           "xp": 70
         },
         {
-          "id": "F58549E51CB5B6ED",
+          "id": "758549E51CB5B6ED",
           "type": "item",
           "item": "minecraft:gold_ingot",
           "count": 4

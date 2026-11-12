@@ -36,7 +36,7 @@ with (dest/'console.log').open('w') as log:
    time.sleep(5)
   else:raise TimeoutError('Dedicated server startup timed out')
   chapters=[json.loads(p.read_text()) for p in (ROOT/'pack/config/ftbquests/quests/chapters').glob('*.snbt')];quests=[q for c in chapters for q in c['quests']]
-  actual={line.split('\t')[0].upper() for line in (dest/'quest-runtime-audit.tsv').read_text().splitlines()};expected={q['id'].upper() for q in quests};assert actual==expected,'Runtime quest IDs differ from source'
+  actual={line.split('\t')[0].upper() for line in (dest/'quest-runtime-audit.tsv').read_text().splitlines()};expected={q['id'].upper() for q in quests};assert actual==expected,'Runtime quest IDs differ from source: missing='+str(sorted(expected-actual)[:8])+' unexpected='+str(sorted(actual-expected)[:8])
   registry=set((dest/'item-registry.txt').read_text().splitlines());refs={q['icon'] for q in quests if isinstance(q.get('icon'),str)}
   refs|={t['item'] for q in quests for t in q.get('tasks',[]) if t.get('type')=='item' and isinstance(t.get('item'),str)}
   refs|={r['item'] for q in quests for r in q.get('rewards',[]) if r.get('type')=='item' and isinstance(r.get('item'),str)}

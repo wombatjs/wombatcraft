@@ -19,7 +19,7 @@
       "dependencies": [],
       "tasks": [
         {
-          "id": "89218560F823E1BE",
+          "id": "09218560F823E1BE",
           "type": "item",
           "item": "occultism:dictionary_of_spirits",
           "count": 1,
@@ -28,14 +28,14 @@
       ],
       "rewards": [
         {
-          "id": "B47FD549CB36601B",
+          "id": "347FD549CB36601B",
           "type": "xp",
           "xp": 10
         }
       ]
     },
     {
-      "id": "F1FCAB4CBA835771",
+      "id": "71FCAB4CBA835771",
       "title": "Demon's Dream Seeds",
       "subtitle": "",
       "description": [],
@@ -48,7 +48,7 @@
       ],
       "tasks": [
         {
-          "id": "EBFDCA6402BC62B2",
+          "id": "6BFDCA6402BC62B2",
           "type": "item",
           "item": "occultism:datura_seeds",
           "count": 1,
@@ -58,7 +58,7 @@
       "rewards": []
     },
     {
-      "id": "A8A03D2C0D89E63F",
+      "id": "28A03D2C0D89E63F",
       "title": "Demon's Dream Fruit",
       "subtitle": "",
       "description": [],
@@ -67,11 +67,11 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "F1FCAB4CBA835771"
+        "71FCAB4CBA835771"
       ],
       "tasks": [
         {
-          "id": "AC3CCBDB5C030269",
+          "id": "2C3CCBDB5C030269",
           "type": "item",
           "item": "occultism:datura",
           "count": 1,
@@ -81,7 +81,7 @@
       "rewards": []
     },
     {
-      "id": "B5FD36E343D05370",
+      "id": "35FD36E343D05370",
       "title": "Otherworld Ashes",
       "subtitle": "",
       "description": [],
@@ -90,11 +90,11 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "A8A03D2C0D89E63F"
+        "28A03D2C0D89E63F"
       ],
       "tasks": [
         {
-          "id": "9A6145ED81E85EB9",
+          "id": "1A6145ED81E85EB9",
           "type": "item",
           "item": "occultism:otherworld_ashes",
           "count": 1,
@@ -103,14 +103,14 @@
       ],
       "rewards": [
         {
-          "id": "BDADC1CC6A7DD24C",
+          "id": "3DADC1CC6A7DD24C",
           "type": "xp",
           "xp": 10
         }
       ]
     },
     {
-      "id": "C63F7BF6950C18BF",
+      "id": "463F7BF6950C18BF",
       "title": "Otherstone",
       "subtitle": "",
       "description": [],
@@ -119,7 +119,7 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "B5FD36E343D05370"
+        "35FD36E343D05370"
       ],
       "tasks": [
         {
@@ -133,7 +133,7 @@
       "rewards": []
     },
     {
-      "id": "D9CF4652E91E6C1E",
+      "id": "59CF4652E91E6C1E",
       "title": "Otherworld Sapling",
       "subtitle": "",
       "description": [],
@@ -142,7 +142,7 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "C63F7BF6950C18BF"
+        "463F7BF6950C18BF"
       ],
       "tasks": [
         {
@@ -156,7 +156,7 @@
       "rewards": []
     },
     {
-      "id": "81898AC7C25AB10E",
+      "id": "01898AC7C25AB10E",
       "title": "Spirit Attuned Gem",
       "subtitle": "",
       "description": [],
@@ -165,7 +165,7 @@
       "y": 0.0,
       "shape": "hexagon",
       "dependencies": [
-        "D9CF4652E91E6C1E"
+        "59CF4652E91E6C1E"
       ],
       "tasks": [
         {
@@ -202,11 +202,11 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "B5FD36E343D05370"
+        "35FD36E343D05370"
       ],
       "tasks": [
         {
-          "id": "A69E1928361604BD",
+          "id": "269E1928361604BD",
           "type": "item",
           "item": "occultism:tallow",
           "count": 1,
@@ -222,7 +222,7 @@
       ]
     },
     {
-      "id": "E5354C334E669CF0",
+      "id": "65354C334E669CF0",
       "title": "Sacrificial Bowl",
       "subtitle": "",
       "description": [],
@@ -235,7 +235,7 @@
       ],
       "tasks": [
         {
-          "id": "A18B6961634D2944",
+          "id": "218B6961634D2944",
           "type": "item",
           "item": "occultism:sacrificial_bowl",
           "count": 1,
@@ -254,7 +254,7 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "E5354C334E669CF0"
+        "65354C334E669CF0"
       ],
       "tasks": [
         {
@@ -281,7 +281,7 @@
       ],
       "tasks": [
         {
-          "id": "E86E93F230855005",
+          "id": "686E93F230855005",
           "type": "item",
           "item": "occultism:chalk_white",
           "count": 1,
@@ -297,7 +297,7 @@
       ]
     },
     {
-      "id": "FD48C5F730911D94",
+      "id": "7D48C5F730911D94",
       "title": "Book of Binding: Empty",
       "subtitle": "",
       "description": [],
@@ -310,7 +310,7 @@
       ],
       "tasks": [
         {
-          "id": "AD64153F5C5EA593",
+          "id": "2D64153F5C5EA593",
           "type": "item",
           "item": "occultism:book_of_binding_empty",
           "count": 1,
@@ -320,7 +320,7 @@
       "rewards": []
     },
     {
-      "id": "EECD1201F11B32B9",
+      "id": "6ECD1201F11B32B9",
       "title": "Book of Binding: Foliot",
       "subtitle": "",
       "description": [],
@@ -329,7 +329,7 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "FD48C5F730911D94"
+        "7D48C5F730911D94"
       ],
       "tasks": [
         {
@@ -352,7 +352,7 @@
       "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
-        "EECD1201F11B32B9"
+        "6ECD1201F11B32B9"
       ],
       "tasks": [
         {
@@ -365,12 +365,12 @@
       ],
       "rewards": [
         {
-          "id": "EE1A2D085C8952C8",
+          "id": "6E1A2D085C8952C8",
           "type": "xp",
           "xp": 15
         },
         {
-          "id": "A0C2AB9952AC9505",
+          "id": "20C2AB9952AC9505",
           "type": "item",
           "item": "minecraft:book",
           "count": 4
@@ -378,7 +378,7 @@
       ]
     },
     {
-      "id": "D365BD243B04943A",
+      "id": "5365BD243B04943A",
       "title": "Book of Calling: Foliot Lumberjack",
       "subtitle": "The first servants",
       "description": [
@@ -393,7 +393,7 @@
       ],
       "tasks": [
         {
-          "id": "A1C334F7D726112C",
+          "id": "21C334F7D726112C",
           "type": "item",
           "item": "occultism:book_of_calling_foliot_lumberjack",
           "count": 1,
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "E78FDF4DCB8DA02E",
+      "id": "678FDF4DCB8DA02E",
       "title": "Book of Calling: Foliot Transporter",
       "subtitle": "",
       "description": [],
@@ -418,7 +418,7 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "D365BD243B04943A"
+        "5365BD243B04943A"
       ],
       "tasks": [
         {
@@ -432,7 +432,7 @@
       "rewards": []
     },
     {
-      "id": "9ABC64805F980F52",
+      "id": "1ABC64805F980F52",
       "title": "Book of Calling: Foliot Janitor",
       "subtitle": "",
       "description": [],
@@ -441,11 +441,11 @@
       "y": 6.0,
       "shape": "hexagon",
       "dependencies": [
-        "E78FDF4DCB8DA02E"
+        "678FDF4DCB8DA02E"
       ],
       "tasks": [
         {
-          "id": "A2AD139DC5CC0E46",
+          "id": "22AD139DC5CC0E46",
           "type": "item",
           "item": "occultism:book_of_calling_foliot_cleaner",
           "count": 1,
@@ -454,12 +454,12 @@
       ],
       "rewards": [
         {
-          "id": "97F46F68EBBAA872",
+          "id": "17F46F68EBBAA872",
           "type": "xp",
           "xp": 40
         },
         {
-          "id": "CC4915F4D737B3B9",
+          "id": "4C4915F4D737B3B9",
           "type": "item",
           "item": "minecraft:amethyst_shard",
           "count": 8
@@ -498,7 +498,7 @@
       ]
     },
     {
-      "id": "8EC94136C8D44FB5",
+      "id": "0EC94136C8D44FB5",
       "title": "Golden Chalk",
       "subtitle": "",
       "description": [],
@@ -511,7 +511,7 @@
       ],
       "tasks": [
         {
-          "id": "A9DF6493CC97C0A6",
+          "id": "29DF6493CC97C0A6",
           "type": "item",
           "item": "occultism:chalk_gold",
           "count": 1,
@@ -521,7 +521,7 @@
       "rewards": []
     },
     {
-      "id": "80E491755AA55DD1",
+      "id": "00E491755AA55DD1",
       "title": "Book of Binding: Djinni",
       "subtitle": "",
       "description": [],
@@ -530,7 +530,7 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "8EC94136C8D44FB5"
+        "0EC94136C8D44FB5"
       ],
       "tasks": [
         {
@@ -553,11 +553,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "80E491755AA55DD1"
+        "00E491755AA55DD1"
       ],
       "tasks": [
         {
-          "id": "A126FD0E04720E5B",
+          "id": "2126FD0E04720E5B",
           "type": "item",
           "item": "occultism:book_of_binding_bound_djinni",
           "count": 1,
@@ -586,7 +586,7 @@
       ],
       "tasks": [
         {
-          "id": "BF15EEA2E4E752D2",
+          "id": "3F15EEA2E4E752D2",
           "type": "item",
           "item": "occultism:book_of_calling_djinni_manage_machine",
           "count": 1,
@@ -595,12 +595,12 @@
       ],
       "rewards": [
         {
-          "id": "86AA7B4B98F2B9CF",
+          "id": "06AA7B4B98F2B9CF",
           "type": "xp",
           "xp": 45
         },
         {
-          "id": "E4DB43413F6C3684",
+          "id": "64DB43413F6C3684",
           "type": "item",
           "item": "minecraft:golden_carrot",
           "count": 4
@@ -623,7 +623,7 @@
       ],
       "tasks": [
         {
-          "id": "8217A5A0B1DF1248",
+          "id": "0217A5A0B1DF1248",
           "type": "item",
           "item": "occultism:storage_controller_base",
           "count": 1,
@@ -662,7 +662,7 @@
       "rewards": []
     },
     {
-      "id": "FB6F872A5A6318F7",
+      "id": "7B6F872A5A6318F7",
       "title": "Dimensional Storage Actuator",
       "subtitle": "",
       "description": [],
@@ -685,7 +685,7 @@
       "rewards": []
     },
     {
-      "id": "C5E79D4078514ADF",
+      "id": "45E79D4078514ADF",
       "title": "Tier 1 Dimensional Storage Stabilizer",
       "subtitle": "",
       "description": [],
@@ -694,11 +694,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "FB6F872A5A6318F7"
+        "7B6F872A5A6318F7"
       ],
       "tasks": [
         {
-          "id": "CC3B5EB0BE20B670",
+          "id": "4C3B5EB0BE20B670",
           "type": "item",
           "item": "occultism:storage_stabilizer_tier1",
           "count": 1,
@@ -707,14 +707,14 @@
       ],
       "rewards": [
         {
-          "id": "D6EF7DA3C6D98001",
+          "id": "56EF7DA3C6D98001",
           "type": "xp",
           "xp": 30
         }
       ]
     },
     {
-      "id": "AF6CB5342FA13149",
+      "id": "2F6CB5342FA13149",
       "title": "Tier 2 Dimensional Storage Stabilizer",
       "subtitle": "",
       "description": [],
@@ -723,11 +723,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "C5E79D4078514ADF"
+        "45E79D4078514ADF"
       ],
       "tasks": [
         {
-          "id": "E9FCA332AB344BAF",
+          "id": "69FCA332AB344BAF",
           "type": "item",
           "item": "occultism:storage_stabilizer_tier2",
           "count": 1,
@@ -746,7 +746,7 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "AF6CB5342FA13149"
+        "2F6CB5342FA13149"
       ],
       "tasks": [
         {
@@ -773,7 +773,7 @@
       ],
       "tasks": [
         {
-          "id": "9BE3F09EDB23C6A7",
+          "id": "1BE3F09EDB23C6A7",
           "type": "item",
           "item": "occultism:storage_remote",
           "count": 1,
@@ -787,7 +787,7 @@
           "xp": 30
         },
         {
-          "id": "F13B737ED6C7BA2F",
+          "id": "713B737ED6C7BA2F",
           "type": "item",
           "item": "minecraft:lapis_lazuli",
           "count": 12
@@ -795,7 +795,7 @@
       ]
     },
     {
-      "id": "F9DCFAC474C4D3F5",
+      "id": "79DCFAC474C4D3F5",
       "title": "Divination Rod",
       "subtitle": "Otherworld ore",
       "description": [
@@ -806,7 +806,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "81898AC7C25AB10E"
+        "01898AC7C25AB10E"
       ],
       "tasks": [
         {
@@ -835,7 +835,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "F9DCFAC474C4D3F5"
+        "79DCFAC474C4D3F5"
       ],
       "tasks": [
         {
@@ -849,7 +849,7 @@
       "rewards": []
     },
     {
-      "id": "C15C509EE68982F1",
+      "id": "415C509EE68982F1",
       "title": "Raw Iesnium",
       "subtitle": "",
       "description": [],
@@ -872,7 +872,7 @@
       "rewards": []
     },
     {
-      "id": "B6AA1242734B2A02",
+      "id": "36AA1242734B2A02",
       "title": "Iesnium Ingot",
       "subtitle": "",
       "description": [],
@@ -881,7 +881,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "C15C509EE68982F1"
+        "415C509EE68982F1"
       ],
       "tasks": [
         {
@@ -894,7 +894,7 @@
       ],
       "rewards": [
         {
-          "id": "EE0B9DAC6457B9A0",
+          "id": "6E0B9DAC6457B9A0",
           "type": "xp",
           "xp": 35
         }
@@ -910,7 +910,7 @@
       "y": 15.0,
       "shape": "hexagon",
       "dependencies": [
-        "B6AA1242734B2A02"
+        "36AA1242734B2A02"
       ],
       "tasks": [
         {
@@ -923,7 +923,7 @@
       ],
       "rewards": [
         {
-          "id": "B685293499550F6F",
+          "id": "3685293499550F6F",
           "type": "xp",
           "xp": 55
         },
@@ -947,11 +947,11 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "B6AA1242734B2A02"
+        "36AA1242734B2A02"
       ],
       "tasks": [
         {
-          "id": "91F35FFB6D84A3B8",
+          "id": "11F35FFB6D84A3B8",
           "type": "item",
           "item": "occultism:chalk_purple_impure",
           "count": 1,
@@ -1003,7 +1003,7 @@
       ],
       "tasks": [
         {
-          "id": "9E46AE994C62367A",
+          "id": "1E46AE994C62367A",
           "type": "item",
           "item": "occultism:book_of_binding_afrit",
           "count": 1,
@@ -1092,7 +1092,7 @@
       ],
       "tasks": [
         {
-          "id": "BC291AC3AF934D84",
+          "id": "3C291AC3AF934D84",
           "type": "item",
           "item": "occultism:dimensional_mineshaft",
           "count": 1,
@@ -1101,7 +1101,7 @@
       ],
       "rewards": [
         {
-          "id": "EDEE9F1904F9FC51",
+          "id": "6DEE9F1904F9FC51",
           "type": "xp",
           "xp": 45
         }
@@ -1121,7 +1121,7 @@
       ],
       "tasks": [
         {
-          "id": "98D67AF3BFF4A013",
+          "id": "18D67AF3BFF4A013",
           "type": "item",
           "item": "occultism:miner_foliot_unspecialized",
           "count": 1,
@@ -1167,7 +1167,7 @@
       ],
       "tasks": [
         {
-          "id": "94A14364A47A9752",
+          "id": "14A14364A47A9752",
           "type": "item",
           "item": "occultism:miner_afrit_deeps",
           "count": 1,
@@ -1204,7 +1204,7 @@
       ],
       "tasks": [
         {
-          "id": "BF494E0CC29616FB",
+          "id": "3F494E0CC29616FB",
           "type": "item",
           "item": "occultism:chalk_red_impure",
           "count": 1,
@@ -1213,7 +1213,7 @@
       ],
       "rewards": [
         {
-          "id": "E1C5F4A1F3417092",
+          "id": "61C5F4A1F3417092",
           "type": "xp",
           "xp": 50
         }
@@ -1233,7 +1233,7 @@
       ],
       "tasks": [
         {
-          "id": "CDBE5575725D7C2F",
+          "id": "4DBE5575725D7C2F",
           "type": "item",
           "item": "occultism:chalk_red",
           "count": 1,
@@ -1243,7 +1243,7 @@
       "rewards": []
     },
     {
-      "id": "C1E82540A7C2C029",
+      "id": "41E82540A7C2C029",
       "title": "Book of Binding: Marid",
       "subtitle": "",
       "description": [],
@@ -1266,7 +1266,7 @@
       "rewards": []
     },
     {
-      "id": "CB50310D83EF5959",
+      "id": "4B50310D83EF5959",
       "title": "Book of Binding: Marid (Bound)",
       "subtitle": "",
       "description": [],
@@ -1275,11 +1275,11 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "C1E82540A7C2C029"
+        "41E82540A7C2C029"
       ],
       "tasks": [
         {
-          "id": "9B46A4D67259A8F5",
+          "id": "1B46A4D67259A8F5",
           "type": "item",
           "item": "occultism:book_of_binding_bound_marid",
           "count": 1,
@@ -1304,11 +1304,11 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "CB50310D83EF5959"
+        "4B50310D83EF5959"
       ],
       "tasks": [
         {
-          "id": "F041D491188F5A7C",
+          "id": "7041D491188F5A7C",
           "type": "item",
           "item": "occultism:miner_marid_master",
           "count": 1,
@@ -1318,7 +1318,7 @@
       "rewards": []
     },
     {
-      "id": "CEF94752D74314F1",
+      "id": "4EF94752D74314F1",
       "title": "Tier 3 Dimensional Storage Stabilizer",
       "subtitle": "",
       "description": [],
@@ -1331,7 +1331,7 @@
       ],
       "tasks": [
         {
-          "id": "868E8D7DFD9A3545",
+          "id": "068E8D7DFD9A3545",
           "type": "item",
           "item": "occultism:storage_stabilizer_tier3",
           "count": 1,
@@ -1350,11 +1350,11 @@
       "y": 24.0,
       "shape": "hexagon",
       "dependencies": [
-        "CEF94752D74314F1"
+        "4EF94752D74314F1"
       ],
       "tasks": [
         {
-          "id": "9765F2C441410FB7",
+          "id": "1765F2C441410FB7",
           "type": "item",
           "item": "occultism:storage_stabilizer_tier4",
           "count": 1,
@@ -1363,12 +1363,12 @@
       ],
       "rewards": [
         {
-          "id": "DC0C7F0727F97AC6",
+          "id": "5C0C7F0727F97AC6",
           "type": "xp",
           "xp": 50
         },
         {
-          "id": "F6AC20BD778BA3A0",
+          "id": "76AC20BD778BA3A0",
           "type": "item",
           "item": "minecraft:lapis_lazuli",
           "count": 12
@@ -1407,7 +1407,7 @@
       ]
     },
     {
-      "id": "99E6FF7F5722BF2D",
+      "id": "19E6FF7F5722BF2D",
       "title": "Soul Gem",
       "subtitle": "",
       "description": [],
@@ -1420,7 +1420,7 @@
       ],
       "tasks": [
         {
-          "id": "A563B6EC80D211FF",
+          "id": "2563B6EC80D211FF",
           "type": "item",
           "item": "occultism:soul_gem",
           "count": 1,
@@ -1430,7 +1430,7 @@
       "rewards": []
     },
     {
-      "id": "FE820407086E2563",
+      "id": "7E820407086E2563",
       "title": "Surprisingly Substantial Satchel",
       "subtitle": "",
       "description": [],
@@ -1439,7 +1439,7 @@
       "y": 27.0,
       "shape": "circle",
       "dependencies": [
-        "99E6FF7F5722BF2D"
+        "19E6FF7F5722BF2D"
       ],
       "tasks": [
         {
@@ -1462,11 +1462,11 @@
       "y": 27.0,
       "shape": "hexagon",
       "dependencies": [
-        "FE820407086E2563"
+        "7E820407086E2563"
       ],
       "tasks": [
         {
-          "id": "DFC2BF24B38D5503",
+          "id": "5FC2BF24B38D5503",
           "type": "item",
           "item": "occultism:otherworld_goggles",
           "count": 1,
@@ -1475,12 +1475,12 @@
       ],
       "rewards": [
         {
-          "id": "B0A5FC4787C313D6",
+          "id": "30A5FC4787C313D6",
           "type": "xp",
           "xp": 50
         },
         {
-          "id": "9985F287987853B7",
+          "id": "1985F287987853B7",
           "type": "item",
           "item": "minecraft:book",
           "count": 4

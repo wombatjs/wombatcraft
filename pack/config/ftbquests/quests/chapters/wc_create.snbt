@@ -35,7 +35,7 @@
       ]
     },
     {
-      "id": "C11C4C75B645489B",
+      "id": "411C4C75B645489B",
       "title": "Wrench",
       "subtitle": "",
       "description": [],
@@ -58,7 +58,7 @@
       "rewards": []
     },
     {
-      "id": "F6F19A449B710955",
+      "id": "76F19A449B710955",
       "title": "Shaft",
       "subtitle": "",
       "description": [],
@@ -67,7 +67,7 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "C11C4C75B645489B"
+        "411C4C75B645489B"
       ],
       "tasks": [
         {
@@ -90,11 +90,11 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "F6F19A449B710955"
+        "76F19A449B710955"
       ],
       "tasks": [
         {
-          "id": "92C85394BC617EBB",
+          "id": "12C85394BC617EBB",
           "type": "item",
           "item": "create:cogwheel",
           "count": 1,
@@ -146,7 +146,7 @@
       ],
       "tasks": [
         {
-          "id": "8B93D47B9AA8B8F3",
+          "id": "0B93D47B9AA8B8F3",
           "type": "item",
           "item": "create:water_wheel",
           "count": 1,
@@ -156,7 +156,7 @@
       "rewards": []
     },
     {
-      "id": "C60AA0804F307021",
+      "id": "460AA0804F307021",
       "title": "Gearbox",
       "subtitle": "",
       "description": [],
@@ -178,7 +178,7 @@
       ],
       "rewards": [
         {
-          "id": "A4C80C39055FFC4E",
+          "id": "24C80C39055FFC4E",
           "type": "xp",
           "xp": 10
         }
@@ -194,7 +194,7 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "C60AA0804F307021"
+        "460AA0804F307021"
       ],
       "tasks": [
         {
@@ -221,7 +221,7 @@
       ],
       "tasks": [
         {
-          "id": "BAD26AF1B0FD3604",
+          "id": "3AD26AF1B0FD3604",
           "type": "item",
           "item": "create:iron_sheet",
           "count": 1,
@@ -235,7 +235,7 @@
           "xp": 30
         },
         {
-          "id": "898E956D3675898E",
+          "id": "098E956D3675898E",
           "type": "item",
           "item": "minecraft:iron_ingot",
           "count": 8
@@ -243,7 +243,7 @@
       ]
     },
     {
-      "id": "B8B69410EDC71B68",
+      "id": "38B69410EDC71B68",
       "title": "Engineer's Goggles",
       "subtitle": "Reading the workshop",
       "description": [
@@ -258,7 +258,7 @@
       ],
       "tasks": [
         {
-          "id": "D20E99D78958F051",
+          "id": "520E99D78958F051",
           "type": "item",
           "item": "create:goggles",
           "count": 1,
@@ -274,7 +274,7 @@
       ]
     },
     {
-      "id": "82D2DD6A67F1D72E",
+      "id": "02D2DD6A67F1D72E",
       "title": "Speedometer",
       "subtitle": "",
       "description": [],
@@ -283,11 +283,11 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "B8B69410EDC71B68"
+        "38B69410EDC71B68"
       ],
       "tasks": [
         {
-          "id": "EB03626950C71F6E",
+          "id": "6B03626950C71F6E",
           "type": "item",
           "item": "create:speedometer",
           "count": 1,
@@ -306,11 +306,11 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "82D2DD6A67F1D72E"
+        "02D2DD6A67F1D72E"
       ],
       "tasks": [
         {
-          "id": "A378FC2C75752295",
+          "id": "2378FC2C75752295",
           "type": "item",
           "item": "create:stressometer",
           "count": 1,
@@ -349,7 +349,7 @@
       ]
     },
     {
-      "id": "FF0E61929DED5534",
+      "id": "7F0E61929DED5534",
       "title": "Gearshift",
       "subtitle": "",
       "description": [],
@@ -372,7 +372,7 @@
       "rewards": []
     },
     {
-      "id": "83943671F804CCD0",
+      "id": "03943671F804CCD0",
       "title": "Adjustable Chain Gearshift",
       "subtitle": "",
       "description": [],
@@ -381,7 +381,7 @@
       "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
-        "FF0E61929DED5534"
+        "7F0E61929DED5534"
       ],
       "tasks": [
         {
@@ -407,7 +407,7 @@
       ]
     },
     {
-      "id": "9F02C8F980681953",
+      "id": "1F02C8F980681953",
       "title": "Windmill Bearing",
       "subtitle": "Wind and motion",
       "description": [
@@ -422,7 +422,7 @@
       ],
       "tasks": [
         {
-          "id": "821DBF92A2FDBE68",
+          "id": "021DBF92A2FDBE68",
           "type": "item",
           "item": "create:windmill_bearing",
           "count": 1,
@@ -447,7 +447,7 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "9F02C8F980681953"
+        "1F02C8F980681953"
       ],
       "tasks": [
         {
@@ -461,7 +461,7 @@
       "rewards": []
     },
     {
-      "id": "EEF8BA7AFB20ADE6",
+      "id": "6EF8BA7AFB20ADE6",
       "title": "Mechanical Bearing",
       "subtitle": "",
       "description": [],
@@ -493,11 +493,11 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "EEF8BA7AFB20ADE6"
+        "6EF8BA7AFB20ADE6"
       ],
       "tasks": [
         {
-          "id": "904F25A94DD75011",
+          "id": "104F25A94DD75011",
           "type": "item",
           "item": "create:super_glue",
           "count": 1,
@@ -506,7 +506,7 @@
       ],
       "rewards": [
         {
-          "id": "FE468F8BF7443A75",
+          "id": "7E468F8BF7443A75",
           "type": "xp",
           "xp": 20
         }
@@ -526,7 +526,7 @@
       ],
       "tasks": [
         {
-          "id": "AFC2904512FF2348",
+          "id": "2FC2904512FF2348",
           "type": "item",
           "item": "create:linear_chassis",
           "count": 1,
@@ -549,7 +549,7 @@
       ],
       "tasks": [
         {
-          "id": "C5B72140CEC4BE9A",
+          "id": "45B72140CEC4BE9A",
           "type": "item",
           "item": "create:radial_chassis",
           "count": 1,
@@ -559,7 +559,7 @@
       "rewards": []
     },
     {
-      "id": "D44E813665CD9469",
+      "id": "544E813665CD9469",
       "title": "Rope Pulley",
       "subtitle": "",
       "description": [],
@@ -594,7 +594,7 @@
       ]
     },
     {
-      "id": "F44CC4F7BB3CEB94",
+      "id": "744CC4F7BB3CEB94",
       "title": "Mechanical Harvester",
       "subtitle": "A harvest that repeats",
       "description": [
@@ -605,11 +605,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "EEF8BA7AFB20ADE6"
+        "6EF8BA7AFB20ADE6"
       ],
       "tasks": [
         {
-          "id": "9D78165726AA406A",
+          "id": "1D78165726AA406A",
           "type": "item",
           "item": "create:mechanical_harvester",
           "count": 1,
@@ -618,7 +618,7 @@
       ],
       "rewards": [
         {
-          "id": "BBA7260B24BA3BCE",
+          "id": "3BA7260B24BA3BCE",
           "type": "xp",
           "xp": 25
         }
@@ -634,7 +634,7 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "F44CC4F7BB3CEB94"
+        "744CC4F7BB3CEB94"
       ],
       "tasks": [
         {
@@ -661,7 +661,7 @@
       ],
       "tasks": [
         {
-          "id": "A026D38081EF1BB2",
+          "id": "2026D38081EF1BB2",
           "type": "item",
           "item": "create:portable_storage_interface",
           "count": 1,
@@ -671,7 +671,7 @@
       "rewards": []
     },
     {
-      "id": "F9CCBF05B1D8C0F5",
+      "id": "79CCBF05B1D8C0F5",
       "title": "Mechanical Plough",
       "subtitle": "",
       "description": [],
@@ -684,7 +684,7 @@
       ],
       "tasks": [
         {
-          "id": "904C01B34F5C9A2F",
+          "id": "104C01B34F5C9A2F",
           "type": "item",
           "item": "create:mechanical_plough",
           "count": 1,
@@ -693,12 +693,12 @@
       ],
       "rewards": [
         {
-          "id": "C7B4ABD6809F01A3",
+          "id": "47B4ABD6809F01A3",
           "type": "xp",
           "xp": 25
         },
         {
-          "id": "A4D8CA6CF23A84C8",
+          "id": "24D8CA6CF23A84C8",
           "type": "item",
           "item": "minecraft:quartz",
           "count": 8
@@ -721,7 +721,7 @@
       ],
       "tasks": [
         {
-          "id": "926BCA2D8A1674C6",
+          "id": "126BCA2D8A1674C6",
           "type": "item",
           "item": "create:andesite_funnel",
           "count": 1,
@@ -730,14 +730,14 @@
       ],
       "rewards": [
         {
-          "id": "DF44312AFC6ABD3A",
+          "id": "5F44312AFC6ABD3A",
           "type": "xp",
           "xp": 30
         }
       ]
     },
     {
-      "id": "ADFDC4A31673306D",
+      "id": "2DFDC4A31673306D",
       "title": "Mechanical Belt",
       "subtitle": "",
       "description": [],
@@ -760,7 +760,7 @@
       "rewards": []
     },
     {
-      "id": "8F787B4A292A179B",
+      "id": "0F787B4A292A179B",
       "title": "Depot",
       "subtitle": "",
       "description": [],
@@ -769,7 +769,7 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "ADFDC4A31673306D"
+        "2DFDC4A31673306D"
       ],
       "tasks": [
         {
@@ -783,7 +783,7 @@
       "rewards": []
     },
     {
-      "id": "9AB8A434FC79CAC8",
+      "id": "1AB8A434FC79CAC8",
       "title": "Chute",
       "subtitle": "",
       "description": [],
@@ -792,7 +792,7 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "8F787B4A292A179B"
+        "0F787B4A292A179B"
       ],
       "tasks": [
         {
@@ -821,11 +821,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "9AB8A434FC79CAC8"
+        "1AB8A434FC79CAC8"
       ],
       "tasks": [
         {
-          "id": "CB852ED933E1BBDE",
+          "id": "4B852ED933E1BBDE",
           "type": "item",
           "item": "create:andesite_tunnel",
           "count": 1,
@@ -858,7 +858,7 @@
       "rewards": []
     },
     {
-      "id": "8E324F8AFF68D8CC",
+      "id": "0E324F8AFF68D8CC",
       "title": "Weighted Ejector",
       "subtitle": "",
       "description": [],
@@ -871,7 +871,7 @@
       ],
       "tasks": [
         {
-          "id": "D4EEC9573B8AE214",
+          "id": "54EEC9573B8AE214",
           "type": "item",
           "item": "create:weighted_ejector",
           "count": 1,
@@ -880,14 +880,14 @@
       ],
       "rewards": [
         {
-          "id": "A41ADE75AA75C025",
+          "id": "241ADE75AA75C025",
           "type": "xp",
           "xp": 30
         }
       ]
     },
     {
-      "id": "AACE12527596CC55",
+      "id": "2ACE12527596CC55",
       "title": "Item Vault",
       "subtitle": "",
       "description": [],
@@ -896,11 +896,11 @@
       "y": 12.0,
       "shape": "hexagon",
       "dependencies": [
-        "8E324F8AFF68D8CC"
+        "0E324F8AFF68D8CC"
       ],
       "tasks": [
         {
-          "id": "F798A8C294796AA1",
+          "id": "7798A8C294796AA1",
           "type": "item",
           "item": "create:item_vault",
           "count": 1,
@@ -909,7 +909,7 @@
       ],
       "rewards": [
         {
-          "id": "B51D7A6A2FCD44E1",
+          "id": "351D7A6A2FCD44E1",
           "type": "xp",
           "xp": 50
         },
@@ -922,7 +922,7 @@
       ]
     },
     {
-      "id": "CC40BE7A2FA1F9B8",
+      "id": "4C40BE7A2FA1F9B8",
       "title": "Basin",
       "subtitle": "Heat and brass",
       "description": [
@@ -937,7 +937,7 @@
       ],
       "tasks": [
         {
-          "id": "CA92A1C9DA5F87A8",
+          "id": "4A92A1C9DA5F87A8",
           "type": "item",
           "item": "create:basin",
           "count": 1,
@@ -946,7 +946,7 @@
       ],
       "rewards": [
         {
-          "id": "CA47D4FF9DD7CAE6",
+          "id": "4A47D4FF9DD7CAE6",
           "type": "xp",
           "xp": 35
         }
@@ -962,7 +962,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "CC40BE7A2FA1F9B8"
+        "4C40BE7A2FA1F9B8"
       ],
       "tasks": [
         {
@@ -976,7 +976,7 @@
       "rewards": []
     },
     {
-      "id": "AD65425DD7920F15",
+      "id": "2D65425DD7920F15",
       "title": "Empty Blaze Burner",
       "subtitle": "",
       "description": [],
@@ -989,7 +989,7 @@
       ],
       "tasks": [
         {
-          "id": "CD059EE33ED897C9",
+          "id": "4D059EE33ED897C9",
           "type": "item",
           "item": "create:empty_blaze_burner",
           "count": 1,
@@ -1008,11 +1008,11 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "AD65425DD7920F15"
+        "2D65425DD7920F15"
       ],
       "tasks": [
         {
-          "id": "ABB0F5CC2BC07D22",
+          "id": "2BB0F5CC2BC07D22",
           "type": "item",
           "item": "create:blaze_burner",
           "count": 1,
@@ -1021,7 +1021,7 @@
       ],
       "rewards": [
         {
-          "id": "EA089C5F9E4126F4",
+          "id": "6A089C5F9E4126F4",
           "type": "xp",
           "xp": 35
         }
@@ -1087,7 +1087,7 @@
       ],
       "tasks": [
         {
-          "id": "BEBB146EB507EF7B",
+          "id": "3EBB146EB507EF7B",
           "type": "item",
           "item": "create:brass_funnel",
           "count": 1,
@@ -1116,7 +1116,7 @@
       ],
       "tasks": [
         {
-          "id": "F85064A735527D67",
+          "id": "785064A735527D67",
           "type": "item",
           "item": "create:brass_tunnel",
           "count": 1,
@@ -1162,7 +1162,7 @@
       ],
       "rewards": [
         {
-          "id": "98977EA57AF6F595",
+          "id": "18977EA57AF6F595",
           "type": "xp",
           "xp": 40
         }
@@ -1215,7 +1215,7 @@
       "rewards": []
     },
     {
-      "id": "DEEF0E602278A052",
+      "id": "5EEF0E602278A052",
       "title": "Electron Tube",
       "subtitle": "",
       "description": [],
@@ -1228,7 +1228,7 @@
       ],
       "tasks": [
         {
-          "id": "DA9EB0F9DFD66AD1",
+          "id": "5A9EB0F9DFD66AD1",
           "type": "item",
           "item": "create:electron_tube",
           "count": 1,
@@ -1253,7 +1253,7 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "DEEF0E602278A052"
+        "5EEF0E602278A052"
       ],
       "tasks": [
         {
@@ -1267,7 +1267,7 @@
       "rewards": []
     },
     {
-      "id": "BCA7DC2E33A8DF20",
+      "id": "3CA7DC2E33A8DF20",
       "title": "Precision Mechanism",
       "subtitle": "",
       "description": [],
@@ -1280,7 +1280,7 @@
       ],
       "tasks": [
         {
-          "id": "9D790149D5E7D4DD",
+          "id": "1D790149D5E7D4DD",
           "type": "item",
           "item": "create:precision_mechanism",
           "count": 1,
@@ -1290,7 +1290,7 @@
       "rewards": []
     },
     {
-      "id": "E17169D937AF6C5E",
+      "id": "617169D937AF6C5E",
       "title": "Rotation Speed Controller",
       "subtitle": "",
       "description": [],
@@ -1299,7 +1299,7 @@
       "y": 18.0,
       "shape": "circle",
       "dependencies": [
-        "BCA7DC2E33A8DF20"
+        "3CA7DC2E33A8DF20"
       ],
       "tasks": [
         {
@@ -1312,7 +1312,7 @@
       ],
       "rewards": [
         {
-          "id": "C2D7159D1C24E4CC",
+          "id": "42D7159D1C24E4CC",
           "type": "xp",
           "xp": 40
         }
@@ -1328,11 +1328,11 @@
       "y": 18.0,
       "shape": "hexagon",
       "dependencies": [
-        "E17169D937AF6C5E"
+        "617169D937AF6C5E"
       ],
       "tasks": [
         {
-          "id": "EC77808EA0C5824A",
+          "id": "6C77808EA0C5824A",
           "type": "item",
           "item": "create:mechanical_arm",
           "count": 1,
@@ -1341,12 +1341,12 @@
       ],
       "rewards": [
         {
-          "id": "FAD77B93816A1072",
+          "id": "7AD77B93816A1072",
           "type": "xp",
           "xp": 60
         },
         {
-          "id": "8580D1B42721B328",
+          "id": "0580D1B42721B328",
           "type": "item",
           "item": "minecraft:gold_ingot",
           "count": 4
@@ -1354,7 +1354,7 @@
       ]
     },
     {
-      "id": "909C45E0A6377825",
+      "id": "109C45E0A6377825",
       "title": "Millstone",
       "subtitle": "Bulk processing",
       "description": [
@@ -1385,7 +1385,7 @@
       ]
     },
     {
-      "id": "AE24603C12B05719",
+      "id": "2E24603C12B05719",
       "title": "Encased Fan",
       "subtitle": "",
       "description": [],
@@ -1394,11 +1394,11 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "909C45E0A6377825"
+        "109C45E0A6377825"
       ],
       "tasks": [
         {
-          "id": "C52323F2BBF12F1A",
+          "id": "452323F2BBF12F1A",
           "type": "item",
           "item": "create:encased_fan",
           "count": 1,
@@ -1408,7 +1408,7 @@
       "rewards": []
     },
     {
-      "id": "B7AB00C48E8096F7",
+      "id": "37AB00C48E8096F7",
       "title": "Mechanical Crafter",
       "subtitle": "",
       "description": [],
@@ -1417,7 +1417,7 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "AE24603C12B05719"
+        "2E24603C12B05719"
       ],
       "tasks": [
         {
@@ -1440,7 +1440,7 @@
       "y": 21.0,
       "shape": "hexagon",
       "dependencies": [
-        "B7AB00C48E8096F7"
+        "37AB00C48E8096F7"
       ],
       "tasks": [
         {
@@ -1453,7 +1453,7 @@
       ],
       "rewards": [
         {
-          "id": "CECC3EC29DD6DAB1",
+          "id": "4ECC3EC29DD6DAB1",
           "type": "xp",
           "xp": 45
         },
@@ -1490,14 +1490,14 @@
       ],
       "rewards": [
         {
-          "id": "B67B52418868AD52",
+          "id": "367B52418868AD52",
           "type": "xp",
           "xp": 50
         }
       ]
     },
     {
-      "id": "B4D81DF8D07C5539",
+      "id": "34D81DF8D07C5539",
       "title": "Mechanical Pump",
       "subtitle": "",
       "description": [],
@@ -1529,11 +1529,11 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "B4D81DF8D07C5539"
+        "34D81DF8D07C5539"
       ],
       "tasks": [
         {
-          "id": "91052F6A3A3615AF",
+          "id": "11052F6A3A3615AF",
           "type": "item",
           "item": "create:fluid_tank",
           "count": 1,
@@ -1556,7 +1556,7 @@
       ],
       "tasks": [
         {
-          "id": "EA150FEA3F8A53AB",
+          "id": "6A150FEA3F8A53AB",
           "type": "item",
           "item": "create:fluid_valve",
           "count": 1,
@@ -1572,7 +1572,7 @@
       ]
     },
     {
-      "id": "862B7CEC83221960",
+      "id": "062B7CEC83221960",
       "title": "Smart Fluid Pipe",
       "subtitle": "",
       "description": [],
@@ -1585,7 +1585,7 @@
       ],
       "tasks": [
         {
-          "id": "DC72D163626C7C82",
+          "id": "5C72D163626C7C82",
           "type": "item",
           "item": "create:smart_fluid_pipe",
           "count": 1,
@@ -1604,11 +1604,11 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "862B7CEC83221960"
+        "062B7CEC83221960"
       ],
       "tasks": [
         {
-          "id": "B7171725C51A8708",
+          "id": "37171725C51A8708",
           "type": "item",
           "item": "create:spout",
           "count": 1,
@@ -1618,7 +1618,7 @@
       "rewards": []
     },
     {
-      "id": "858873B984A6FC50",
+      "id": "058873B984A6FC50",
       "title": "Item Drain",
       "subtitle": "",
       "description": [],
@@ -1631,7 +1631,7 @@
       ],
       "tasks": [
         {
-          "id": "DD91A4888724E894",
+          "id": "5D91A4888724E894",
           "type": "item",
           "item": "create:item_drain",
           "count": 1,
@@ -1640,7 +1640,7 @@
       ],
       "rewards": [
         {
-          "id": "CDB4C58E0CE2699D",
+          "id": "4DB4C58E0CE2699D",
           "type": "xp",
           "xp": 50
         }
@@ -1656,11 +1656,11 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "858873B984A6FC50"
+        "058873B984A6FC50"
       ],
       "tasks": [
         {
-          "id": "A0BC052D781B7563",
+          "id": "20BC052D781B7563",
           "type": "item",
           "item": "create:hose_pulley",
           "count": 1,
@@ -1722,7 +1722,7 @@
       ]
     },
     {
-      "id": "BAC350F31718F718",
+      "id": "3AC350F31718F718",
       "title": "Blaze Cake",
       "subtitle": "",
       "description": [],
@@ -1735,7 +1735,7 @@
       ],
       "tasks": [
         {
-          "id": "F3B02B7E14512787",
+          "id": "73B02B7E14512787",
           "type": "item",
           "item": "create:blaze_cake",
           "count": 1,
@@ -1744,7 +1744,7 @@
       ],
       "rewards": [
         {
-          "id": "ABE8A887CFEC3BB8",
+          "id": "2BE8A887CFEC3BB8",
           "type": "xp",
           "xp": 70
         },
@@ -1768,11 +1768,11 @@
       "y": 27.0,
       "shape": "circle",
       "dependencies": [
-        "BCA7DC2E33A8DF20"
+        "3CA7DC2E33A8DF20"
       ],
       "tasks": [
         {
-          "id": "C16F6066126391B6",
+          "id": "416F6066126391B6",
           "type": "item",
           "item": "create:sturdy_sheet",
           "count": 1,
@@ -1788,7 +1788,7 @@
       ]
     },
     {
-      "id": "DDE10C0F0121A9A6",
+      "id": "5DE10C0F0121A9A6",
       "title": "Train Track",
       "subtitle": "",
       "description": [],
@@ -1820,7 +1820,7 @@
       "y": 27.0,
       "shape": "circle",
       "dependencies": [
-        "DDE10C0F0121A9A6"
+        "5DE10C0F0121A9A6"
       ],
       "tasks": [
         {
@@ -1834,7 +1834,7 @@
       "rewards": []
     },
     {
-      "id": "CD63A2ADAC7F8FFD",
+      "id": "4D63A2ADAC7F8FFD",
       "title": "Train Station",
       "subtitle": "",
       "description": [],
@@ -1847,7 +1847,7 @@
       ],
       "tasks": [
         {
-          "id": "9663A5D3714CF476",
+          "id": "1663A5D3714CF476",
           "type": "item",
           "item": "create:track_station",
           "count": 1,
@@ -1856,7 +1856,7 @@
       ],
       "rewards": [
         {
-          "id": "94C97B3293182152",
+          "id": "14C97B3293182152",
           "type": "xp",
           "xp": 50
         }
@@ -1872,11 +1872,11 @@
       "y": 27.0,
       "shape": "circle",
       "dependencies": [
-        "CD63A2ADAC7F8FFD"
+        "4D63A2ADAC7F8FFD"
       ],
       "tasks": [
         {
-          "id": "C0459C6961C243C8",
+          "id": "40459C6961C243C8",
           "type": "item",
           "item": "create:schedule",
           "count": 1,
@@ -1886,7 +1886,7 @@
       "rewards": []
     },
     {
-      "id": "898BE74180B4DB88",
+      "id": "098BE74180B4DB88",
       "title": "Train Signal",
       "subtitle": "",
       "description": [],
@@ -1899,7 +1899,7 @@
       ],
       "tasks": [
         {
-          "id": "ED26F1A5DEEFACFF",
+          "id": "6D26F1A5DEEFACFF",
           "type": "item",
           "item": "create:track_signal",
           "count": 1,
@@ -1918,7 +1918,7 @@
       "y": 27.0,
       "shape": "circle",
       "dependencies": [
-        "898BE74180B4DB88"
+        "098BE74180B4DB88"
       ],
       "tasks": [
         {
@@ -1931,7 +1931,7 @@
       ],
       "rewards": [
         {
-          "id": "8C4586B901D2D916",
+          "id": "0C4586B901D2D916",
           "type": "xp",
           "xp": 50
         }
@@ -1960,7 +1960,7 @@
       ],
       "rewards": [
         {
-          "id": "983BFEFDBE152D66",
+          "id": "183BFEFDBE152D66",
           "type": "xp",
           "xp": 70
         },
@@ -1984,7 +1984,7 @@
       "y": 30.0,
       "shape": "circle",
       "dependencies": [
-        "DEEF0E602278A052"
+        "5EEF0E602278A052"
       ],
       "tasks": [
         {
@@ -2004,7 +2004,7 @@
       ]
     },
     {
-      "id": "ACF25990562C664B",
+      "id": "2CF25990562C664B",
       "title": "Threshold Switch",
       "subtitle": "",
       "description": [],
@@ -2027,7 +2027,7 @@
       "rewards": []
     },
     {
-      "id": "F3C8014C0799AF2C",
+      "id": "73C8014C0799AF2C",
       "title": "Display Link",
       "subtitle": "",
       "description": [],
@@ -2036,11 +2036,11 @@
       "y": 30.0,
       "shape": "circle",
       "dependencies": [
-        "ACF25990562C664B"
+        "2CF25990562C664B"
       ],
       "tasks": [
         {
-          "id": "C1D000CFB5E768D1",
+          "id": "41D000CFB5E768D1",
           "type": "item",
           "item": "create:display_link",
           "count": 1,
@@ -2050,7 +2050,7 @@
       "rewards": []
     },
     {
-      "id": "B438AD4A41C80CF9",
+      "id": "3438AD4A41C80CF9",
       "title": "Display Board",
       "subtitle": "",
       "description": [],
@@ -2059,11 +2059,11 @@
       "y": 30.0,
       "shape": "circle",
       "dependencies": [
-        "F3C8014C0799AF2C"
+        "73C8014C0799AF2C"
       ],
       "tasks": [
         {
-          "id": "F5D1D5BA033D0EBD",
+          "id": "75D1D5BA033D0EBD",
           "type": "item",
           "item": "create:display_board",
           "count": 1,
@@ -2088,7 +2088,7 @@
       "y": 30.0,
       "shape": "circle",
       "dependencies": [
-        "B438AD4A41C80CF9"
+        "3438AD4A41C80CF9"
       ],
       "tasks": [
         {
@@ -2125,7 +2125,7 @@
       "rewards": []
     },
     {
-      "id": "A0420A42C182685A",
+      "id": "20420A42C182685A",
       "title": "Pulse Extender",
       "subtitle": "",
       "description": [],
@@ -2163,11 +2163,11 @@
       "y": 30.0,
       "shape": "hexagon",
       "dependencies": [
-        "A0420A42C182685A"
+        "20420A42C182685A"
       ],
       "tasks": [
         {
-          "id": "D873E16F136C7745",
+          "id": "5873E16F136C7745",
           "type": "item",
           "item": "create:sequenced_gearshift",
           "count": 1,
@@ -2176,7 +2176,7 @@
       ],
       "rewards": [
         {
-          "id": "C32EE98C4E670EFD",
+          "id": "432EE98C4E670EFD",
           "type": "xp",
           "xp": 70
         },
@@ -2200,7 +2200,7 @@
       "y": 33.0,
       "shape": "circle",
       "dependencies": [
-        "B7AB00C48E8096F7"
+        "37AB00C48E8096F7"
       ],
       "tasks": [
         {
@@ -2213,14 +2213,14 @@
       ],
       "rewards": [
         {
-          "id": "A28819A0D13EECA3",
+          "id": "228819A0D13EECA3",
           "type": "xp",
           "xp": 50
         }
       ]
     },
     {
-      "id": "987B9B7BF54368A7",
+      "id": "187B9B7BF54368A7",
       "title": "Schematic Table",
       "subtitle": "",
       "description": [],
@@ -2233,7 +2233,7 @@
       ],
       "tasks": [
         {
-          "id": "F50918FAAE7D5497",
+          "id": "750918FAAE7D5497",
           "type": "item",
           "item": "create:schematic_table",
           "count": 1,
@@ -2252,7 +2252,7 @@
       "y": 33.0,
       "shape": "hexagon",
       "dependencies": [
-        "987B9B7BF54368A7"
+        "187B9B7BF54368A7"
       ],
       "tasks": [
         {

@@ -28,7 +28,7 @@
       ],
       "rewards": [
         {
-          "id": "A6F0FAB2A7E252F8",
+          "id": "26F0FAB2A7E252F8",
           "type": "xp",
           "xp": 10
         }
@@ -48,7 +48,7 @@
       ],
       "tasks": [
         {
-          "id": "F29D85CE1BACC29C",
+          "id": "729D85CE1BACC29C",
           "type": "item",
           "item": "mekanism:metallurgic_infuser",
           "count": 1,
@@ -81,7 +81,7 @@
       "rewards": []
     },
     {
-      "id": "F36511745A5273F4",
+      "id": "736511745A5273F4",
       "title": "Steel Dust",
       "subtitle": "",
       "description": [],
@@ -94,7 +94,7 @@
       ],
       "tasks": [
         {
-          "id": "B60BBEBD5E49C47F",
+          "id": "360BBEBD5E49C47F",
           "type": "item",
           "item": "mekanism:dust_steel",
           "count": 1,
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "id": "B4C5076994808A41",
+      "id": "34C5076994808A41",
       "title": "Steel Ingot",
       "subtitle": "",
       "description": [],
@@ -119,7 +119,7 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "F36511745A5273F4"
+        "736511745A5273F4"
       ],
       "tasks": [
         {
@@ -133,7 +133,7 @@
       "rewards": []
     },
     {
-      "id": "8E4A2B03F3F12BE8",
+      "id": "0E4A2B03F3F12BE8",
       "title": "Steel Casing",
       "subtitle": "",
       "description": [],
@@ -142,7 +142,7 @@
       "y": 0.0,
       "shape": "circle",
       "dependencies": [
-        "B4C5076994808A41"
+        "34C5076994808A41"
       ],
       "tasks": [
         {
@@ -165,11 +165,11 @@
       "y": 0.0,
       "shape": "hexagon",
       "dependencies": [
-        "8E4A2B03F3F12BE8"
+        "0E4A2B03F3F12BE8"
       ],
       "tasks": [
         {
-          "id": "C0628BE806A3E3F9",
+          "id": "40628BE806A3E3F9",
           "type": "item",
           "item": "mekanism:enrichment_chamber",
           "count": 1,
@@ -191,7 +191,7 @@
       ]
     },
     {
-      "id": "90A6BA1CCC80816D",
+      "id": "10A6BA1CCC80816D",
       "title": "Energy Tablet",
       "subtitle": "A powered workshop",
       "description": [
@@ -202,7 +202,7 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "8E4A2B03F3F12BE8"
+        "0E4A2B03F3F12BE8"
       ],
       "tasks": [
         {
@@ -231,11 +231,11 @@
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
-        "90A6BA1CCC80816D"
+        "10A6BA1CCC80816D"
       ],
       "tasks": [
         {
-          "id": "BA7F1B0436B375A4",
+          "id": "3A7F1B0436B375A4",
           "type": "item",
           "item": "mekanism:basic_control_circuit",
           "count": 1,
@@ -281,7 +281,7 @@
       ],
       "tasks": [
         {
-          "id": "D62FCB7B188E8C4A",
+          "id": "562FCB7B188E8C4A",
           "type": "item",
           "item": "mekanism:basic_universal_cable",
           "count": 1,
@@ -297,7 +297,7 @@
       ]
     },
     {
-      "id": "BCCE00520587D5D1",
+      "id": "3CCE00520587D5D1",
       "title": "Configurator",
       "subtitle": "",
       "description": [],
@@ -324,7 +324,7 @@
           "xp": 35
         },
         {
-          "id": "C615FBABBC544CDA",
+          "id": "4615FBABBC544CDA",
           "type": "item",
           "item": "minecraft:redstone",
           "count": 16
@@ -332,7 +332,7 @@
       ]
     },
     {
-      "id": "F284F1F265A75A12",
+      "id": "7284F1F265A75A12",
       "title": "Energized Smelter",
       "subtitle": "Factory floor",
       "description": [
@@ -356,14 +356,14 @@
       ],
       "rewards": [
         {
-          "id": "8CC4D1DFFEB0EFEA",
+          "id": "0CC4D1DFFEB0EFEA",
           "type": "xp",
           "xp": 20
         }
       ]
     },
     {
-      "id": "E10F4E07129E94E5",
+      "id": "610F4E07129E94E5",
       "title": "Crusher",
       "subtitle": "",
       "description": [],
@@ -372,7 +372,7 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "F284F1F265A75A12"
+        "7284F1F265A75A12"
       ],
       "tasks": [
         {
@@ -386,7 +386,7 @@
       "rewards": []
     },
     {
-      "id": "B41B15EA0C638F3D",
+      "id": "341B15EA0C638F3D",
       "title": "Precision Sawmill",
       "subtitle": "",
       "description": [],
@@ -395,7 +395,7 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "E10F4E07129E94E5"
+        "610F4E07129E94E5"
       ],
       "tasks": [
         {
@@ -418,7 +418,7 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "B41B15EA0C638F3D"
+        "341B15EA0C638F3D"
       ],
       "tasks": [
         {
@@ -431,7 +431,7 @@
       ],
       "rewards": [
         {
-          "id": "CD0262D75AA6CE78",
+          "id": "4D0262D75AA6CE78",
           "type": "xp",
           "xp": 20
         }
@@ -451,7 +451,7 @@
       ],
       "tasks": [
         {
-          "id": "C16231BFACEEE10B",
+          "id": "416231BFACEEE10B",
           "type": "item",
           "item": "mekanism:basic_smelting_factory",
           "count": 1,
@@ -461,7 +461,7 @@
       "rewards": []
     },
     {
-      "id": "D1EF613A87F505BD",
+      "id": "51EF613A87F505BD",
       "title": "Basic Crushing Factory",
       "subtitle": "",
       "description": [],
@@ -488,7 +488,7 @@
           "xp": 40
         },
         {
-          "id": "FA510665257BB7CF",
+          "id": "7A510665257BB7CF",
           "type": "item",
           "item": "minecraft:gold_ingot",
           "count": 4
@@ -511,7 +511,7 @@
       ],
       "tasks": [
         {
-          "id": "FA6547081494106C",
+          "id": "7A6547081494106C",
           "type": "item",
           "item": "mekanism:alloy_infused",
           "count": 1,
@@ -520,7 +520,7 @@
       ],
       "rewards": [
         {
-          "id": "BB37F79C7A9A7C57",
+          "id": "3B37F79C7A9A7C57",
           "type": "xp",
           "xp": 25
         }
@@ -550,7 +550,7 @@
       "rewards": []
     },
     {
-      "id": "BA5803A882A51CFA",
+      "id": "3A5803A882A51CFA",
       "title": "Reinforced Alloy",
       "subtitle": "",
       "description": [],
@@ -563,7 +563,7 @@
       ],
       "tasks": [
         {
-          "id": "EADDD73F30593E4F",
+          "id": "6ADDD73F30593E4F",
           "type": "item",
           "item": "mekanism:alloy_reinforced",
           "count": 1,
@@ -573,7 +573,7 @@
       "rewards": []
     },
     {
-      "id": "93ACBACCB6DF16F5",
+      "id": "13ACBACCB6DF16F5",
       "title": "Elite Control Circuit",
       "subtitle": "",
       "description": [],
@@ -582,11 +582,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "BA5803A882A51CFA"
+        "3A5803A882A51CFA"
       ],
       "tasks": [
         {
-          "id": "FA3CB4FF9D73F57E",
+          "id": "7A3CB4FF9D73F57E",
           "type": "item",
           "item": "mekanism:elite_control_circuit",
           "count": 1,
@@ -595,7 +595,7 @@
       ],
       "rewards": [
         {
-          "id": "E73836937D4E6266",
+          "id": "673836937D4E6266",
           "type": "xp",
           "xp": 25
         }
@@ -611,7 +611,7 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "93ACBACCB6DF16F5"
+        "13ACBACCB6DF16F5"
       ],
       "tasks": [
         {
@@ -660,7 +660,7 @@
       ]
     },
     {
-      "id": "F70938D7E5FB79A4",
+      "id": "770938D7E5FB79A4",
       "title": "Basic Logistical Transporter",
       "subtitle": "Sorting the output",
       "description": [
@@ -675,7 +675,7 @@
       ],
       "tasks": [
         {
-          "id": "E60F4354712711FD",
+          "id": "660F4354712711FD",
           "type": "item",
           "item": "mekanism:basic_logistical_transporter",
           "count": 1,
@@ -684,14 +684,14 @@
       ],
       "rewards": [
         {
-          "id": "C0D6933A26E02914",
+          "id": "40D6933A26E02914",
           "type": "xp",
           "xp": 30
         }
       ]
     },
     {
-      "id": "F6CD3BBC73CE3E02",
+      "id": "76CD3BBC73CE3E02",
       "title": "Logistical Sorter",
       "subtitle": "",
       "description": [],
@@ -700,11 +700,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "F70938D7E5FB79A4"
+        "770938D7E5FB79A4"
       ],
       "tasks": [
         {
-          "id": "D3A4FB811D13C90F",
+          "id": "53A4FB811D13C90F",
           "type": "item",
           "item": "mekanism:logistical_sorter",
           "count": 1,
@@ -714,7 +714,7 @@
       "rewards": []
     },
     {
-      "id": "8E4C7A28BB8C6FF1",
+      "id": "0E4C7A28BB8C6FF1",
       "title": "Basic Mechanical Pipe",
       "subtitle": "",
       "description": [],
@@ -723,11 +723,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "F6CD3BBC73CE3E02"
+        "76CD3BBC73CE3E02"
       ],
       "tasks": [
         {
-          "id": "D312DCB52FB0025A",
+          "id": "5312DCB52FB0025A",
           "type": "item",
           "item": "mekanism:basic_mechanical_pipe",
           "count": 1,
@@ -746,7 +746,7 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "8E4C7A28BB8C6FF1"
+        "0E4C7A28BB8C6FF1"
       ],
       "tasks": [
         {
@@ -759,7 +759,7 @@
       ],
       "rewards": [
         {
-          "id": "9C7130AB37AB5E62",
+          "id": "1C7130AB37AB5E62",
           "type": "xp",
           "xp": 30
         }
@@ -789,7 +789,7 @@
       "rewards": []
     },
     {
-      "id": "B2F2D1ED195CA86A",
+      "id": "32F2D1ED195CA86A",
       "title": "Basic Fluid Tank",
       "subtitle": "",
       "description": [],
@@ -811,12 +811,12 @@
       ],
       "rewards": [
         {
-          "id": "FC49F27DA85ECE4E",
+          "id": "7C49F27DA85ECE4E",
           "type": "xp",
           "xp": 50
         },
         {
-          "id": "EF79C8F49A227F1C",
+          "id": "6F79C8F49A227F1C",
           "type": "item",
           "item": "minecraft:iron_ingot",
           "count": 8
@@ -824,7 +824,7 @@
       ]
     },
     {
-      "id": "B13B8DDAD6B920E6",
+      "id": "313B8DDAD6B920E6",
       "title": "Electrolytic Separator",
       "subtitle": "Ore purification",
       "description": [
@@ -835,7 +835,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "E10F4E07129E94E5"
+        "610F4E07129E94E5"
       ],
       "tasks": [
         {
@@ -848,7 +848,7 @@
       ],
       "rewards": [
         {
-          "id": "DC9F48B9CFD7A126",
+          "id": "5C9F48B9CFD7A126",
           "type": "xp",
           "xp": 35
         }
@@ -864,11 +864,11 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "B13B8DDAD6B920E6"
+        "313B8DDAD6B920E6"
       ],
       "tasks": [
         {
-          "id": "D97FE972B556579A",
+          "id": "597FE972B556579A",
           "type": "item",
           "item": "mekanism:purification_chamber",
           "count": 1,
@@ -901,7 +901,7 @@
       "rewards": []
     },
     {
-      "id": "C14F458D7B991649",
+      "id": "414F458D7B991649",
       "title": "Chemical Infuser",
       "subtitle": "",
       "description": [],
@@ -914,7 +914,7 @@
       ],
       "tasks": [
         {
-          "id": "92E01C4E56D9A76A",
+          "id": "12E01C4E56D9A76A",
           "type": "item",
           "item": "mekanism:chemical_infuser",
           "count": 1,
@@ -928,7 +928,7 @@
           "xp": 35
         },
         {
-          "id": "F4A27BF6906CE6A7",
+          "id": "74A27BF6906CE6A7",
           "type": "item",
           "item": "minecraft:redstone",
           "count": 16
@@ -951,7 +951,7 @@
       ],
       "tasks": [
         {
-          "id": "CC040E5F799722BF",
+          "id": "4C040E5F799722BF",
           "type": "item",
           "item": "mekanism:chemical_dissolution_chamber",
           "count": 1,
@@ -960,14 +960,14 @@
       ],
       "rewards": [
         {
-          "id": "E42E88A5EB155CCE",
+          "id": "642E88A5EB155CCE",
           "type": "xp",
           "xp": 40
         }
       ]
     },
     {
-      "id": "85AF56F15F0C07AD",
+      "id": "05AF56F15F0C07AD",
       "title": "Chemical Washer",
       "subtitle": "",
       "description": [],
@@ -990,7 +990,7 @@
       "rewards": []
     },
     {
-      "id": "E4981B724956250F",
+      "id": "64981B724956250F",
       "title": "Chemical Crystallizer",
       "subtitle": "",
       "description": [],
@@ -999,11 +999,11 @@
       "y": 18.0,
       "shape": "hexagon",
       "dependencies": [
-        "85AF56F15F0C07AD"
+        "05AF56F15F0C07AD"
       ],
       "tasks": [
         {
-          "id": "ACC5746172BC65FD",
+          "id": "2CC5746172BC65FD",
           "type": "item",
           "item": "mekanism:chemical_crystallizer",
           "count": 1,
@@ -1017,7 +1017,7 @@
           "xp": 60
         },
         {
-          "id": "8E9CA1894850B81F",
+          "id": "0E9CA1894850B81F",
           "type": "item",
           "item": "minecraft:gold_ingot",
           "count": 4
@@ -1036,7 +1036,7 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "C14F458D7B991649"
+        "414F458D7B991649"
       ],
       "tasks": [
         {
@@ -1049,7 +1049,7 @@
       ],
       "rewards": [
         {
-          "id": "DF141519B443F0B3",
+          "id": "5F141519B443F0B3",
           "type": "xp",
           "xp": 45
         }
@@ -1102,7 +1102,7 @@
       "rewards": []
     },
     {
-      "id": "D6C1D52B9E90BE73",
+      "id": "56C1D52B9E90BE73",
       "title": "Rotary Condensentrator",
       "subtitle": "",
       "description": [],
@@ -1115,7 +1115,7 @@
       ],
       "tasks": [
         {
-          "id": "BCC0CA412422EC75",
+          "id": "3CC0CA412422EC75",
           "type": "item",
           "item": "mekanism:rotary_condensentrator",
           "count": 1,
@@ -1131,7 +1131,7 @@
       ]
     },
     {
-      "id": "BE98648A46511EBF",
+      "id": "3E98648A46511EBF",
       "title": "Pressurized Reaction Chamber",
       "subtitle": "",
       "description": [],
@@ -1140,7 +1140,7 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "D6C1D52B9E90BE73"
+        "56C1D52B9E90BE73"
       ],
       "tasks": [
         {
@@ -1154,7 +1154,7 @@
       "rewards": []
     },
     {
-      "id": "8534C8FF83AA97C9",
+      "id": "0534C8FF83AA97C9",
       "title": "HDPE Pellet",
       "subtitle": "",
       "description": [],
@@ -1163,11 +1163,11 @@
       "y": 21.0,
       "shape": "circle",
       "dependencies": [
-        "BE98648A46511EBF"
+        "3E98648A46511EBF"
       ],
       "tasks": [
         {
-          "id": "FF6B551B66F759F3",
+          "id": "7F6B551B66F759F3",
           "type": "item",
           "item": "mekanism:hdpe_pellet",
           "count": 1,
@@ -1177,7 +1177,7 @@
       "rewards": []
     },
     {
-      "id": "913D123C43E3DA7E",
+      "id": "113D123C43E3DA7E",
       "title": "HDPE Sheet",
       "subtitle": "",
       "description": [],
@@ -1186,11 +1186,11 @@
       "y": 21.0,
       "shape": "hexagon",
       "dependencies": [
-        "8534C8FF83AA97C9"
+        "0534C8FF83AA97C9"
       ],
       "tasks": [
         {
-          "id": "87D7ECEAEAF46A15",
+          "id": "07D7ECEAEAF46A15",
           "type": "item",
           "item": "mekanism:hdpe_sheet",
           "count": 1,
@@ -1199,12 +1199,12 @@
       ],
       "rewards": [
         {
-          "id": "B66B2AD7CD22D63D",
+          "id": "366B2AD7CD22D63D",
           "type": "xp",
           "xp": 45
         },
         {
-          "id": "F448960A9A0B82B7",
+          "id": "7448960A9A0B82B7",
           "type": "item",
           "item": "minecraft:quartz",
           "count": 8
@@ -1212,7 +1212,7 @@
       ]
     },
     {
-      "id": "DABB910B566E89E3",
+      "id": "5ABB910B566E89E3",
       "title": "Electric Pump",
       "subtitle": "Work beyond the walls",
       "description": [
@@ -1223,7 +1223,7 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "BA5803A882A51CFA"
+        "3A5803A882A51CFA"
       ],
       "tasks": [
         {
@@ -1243,7 +1243,7 @@
       ]
     },
     {
-      "id": "F4AA6DB9A57548FF",
+      "id": "74AA6DB9A57548FF",
       "title": "Digital Miner",
       "subtitle": "",
       "description": [],
@@ -1252,7 +1252,7 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "DABB910B566E89E3"
+        "5ABB910B566E89E3"
       ],
       "tasks": [
         {
@@ -1275,7 +1275,7 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "F4AA6DB9A57548FF"
+        "74AA6DB9A57548FF"
       ],
       "tasks": [
         {
@@ -1289,7 +1289,7 @@
       "rewards": []
     },
     {
-      "id": "95C4E41C4E5267DA",
+      "id": "15C4E41C4E5267DA",
       "title": "Jetpack",
       "subtitle": "",
       "description": [],
@@ -1302,7 +1302,7 @@
       ],
       "tasks": [
         {
-          "id": "9BA6811DAADC80D6",
+          "id": "1BA6811DAADC80D6",
           "type": "item",
           "item": "mekanism:jetpack",
           "count": 1,
@@ -1318,7 +1318,7 @@
       ]
     },
     {
-      "id": "EB5B543FC6C7F946",
+      "id": "6B5B543FC6C7F946",
       "title": "Free Runners",
       "subtitle": "",
       "description": [],
@@ -1327,7 +1327,7 @@
       "y": 24.0,
       "shape": "circle",
       "dependencies": [
-        "95C4E41C4E5267DA"
+        "15C4E41C4E5267DA"
       ],
       "tasks": [
         {
@@ -1350,7 +1350,7 @@
       "y": 24.0,
       "shape": "hexagon",
       "dependencies": [
-        "EB5B543FC6C7F946"
+        "6B5B543FC6C7F946"
       ],
       "tasks": [
         {
@@ -1368,7 +1368,7 @@
           "xp": 70
         },
         {
-          "id": "CDFD0510ECBE6C35",
+          "id": "4DFD0510ECBE6C35",
           "type": "item",
           "item": "minecraft:iron_ingot",
           "count": 8
@@ -1376,7 +1376,7 @@
       ]
     },
     {
-      "id": "B7336DB7D1584EDD",
+      "id": "37336DB7D1584EDD",
       "title": "Induction Casing",
       "subtitle": "An energy reserve",
       "description": [
@@ -1391,7 +1391,7 @@
       ],
       "tasks": [
         {
-          "id": "C6EA133ECCCD4E92",
+          "id": "46EA133ECCCD4E92",
           "type": "item",
           "item": "mekanism:induction_casing",
           "count": 1,
@@ -1400,7 +1400,7 @@
       ],
       "rewards": [
         {
-          "id": "DE966F2FD5EDFB6F",
+          "id": "5E966F2FD5EDFB6F",
           "type": "xp",
           "xp": 50
         }
@@ -1416,11 +1416,11 @@
       "y": 27.0,
       "shape": "circle",
       "dependencies": [
-        "B7336DB7D1584EDD"
+        "37336DB7D1584EDD"
       ],
       "tasks": [
         {
-          "id": "968A67B2A6207CBD",
+          "id": "168A67B2A6207CBD",
           "type": "item",
           "item": "mekanism:induction_port",
           "count": 1,
@@ -1430,7 +1430,7 @@
       "rewards": []
     },
     {
-      "id": "BF434F6DB700D789",
+      "id": "3F434F6DB700D789",
       "title": "Basic Induction Cell",
       "subtitle": "",
       "description": [],
@@ -1462,7 +1462,7 @@
       "y": 27.0,
       "shape": "circle",
       "dependencies": [
-        "BF434F6DB700D789"
+        "3F434F6DB700D789"
       ],
       "tasks": [
         {
@@ -1482,7 +1482,7 @@
       ]
     },
     {
-      "id": "E586A732248CD52D",
+      "id": "6586A732248CD52D",
       "title": "Advanced Induction Cell",
       "subtitle": "",
       "description": [],
@@ -1495,7 +1495,7 @@
       ],
       "tasks": [
         {
-          "id": "C5BD400DE25C9E6A",
+          "id": "45BD400DE25C9E6A",
           "type": "item",
           "item": "mekanism:advanced_induction_cell",
           "count": 1,
@@ -1505,7 +1505,7 @@
       "rewards": []
     },
     {
-      "id": "8E8022D034D3A8ED",
+      "id": "0E8022D034D3A8ED",
       "title": "Elite Induction Cell",
       "subtitle": "",
       "description": [],
@@ -1514,7 +1514,7 @@
       "y": 27.0,
       "shape": "circle",
       "dependencies": [
-        "E586A732248CD52D"
+        "6586A732248CD52D"
       ],
       "tasks": [
         {
@@ -1537,7 +1537,7 @@
       "y": 27.0,
       "shape": "hexagon",
       "dependencies": [
-        "8E8022D034D3A8ED"
+        "0E8022D034D3A8ED"
       ],
       "tasks": [
         {
@@ -1550,7 +1550,7 @@
       ],
       "rewards": [
         {
-          "id": "9D579874B1F6C993",
+          "id": "1D579874B1F6C993",
           "type": "xp",
           "xp": 50
         },
@@ -1563,7 +1563,7 @@
       ]
     },
     {
-      "id": "9304F7B2859D6216",
+      "id": "1304F7B2859D6216",
       "title": "Hazmat Mask",
       "subtitle": "Containment",
       "description": [
@@ -1603,11 +1603,11 @@
       "y": 30.0,
       "shape": "circle",
       "dependencies": [
-        "9304F7B2859D6216"
+        "1304F7B2859D6216"
       ],
       "tasks": [
         {
-          "id": "9C23A1A7B7C72F2F",
+          "id": "1C23A1A7B7C72F2F",
           "type": "item",
           "item": "mekanism:hazmat_gown",
           "count": 1,
@@ -1617,7 +1617,7 @@
       "rewards": []
     },
     {
-      "id": "EAEBE6D6C024C929",
+      "id": "6AEBE6D6C024C929",
       "title": "Hazmat Pants",
       "subtitle": "",
       "description": [],
@@ -1649,7 +1649,7 @@
       "y": 30.0,
       "shape": "circle",
       "dependencies": [
-        "EAEBE6D6C024C929"
+        "6AEBE6D6C024C929"
       ],
       "tasks": [
         {
@@ -1662,7 +1662,7 @@
       ],
       "rewards": [
         {
-          "id": "B17A76FC8DCEF90E",
+          "id": "317A76FC8DCEF90E",
           "type": "xp",
           "xp": 50
         }
@@ -1728,7 +1728,7 @@
       ],
       "tasks": [
         {
-          "id": "8988C47B57AC5906",
+          "id": "0988C47B57AC5906",
           "type": "item",
           "item": "mekanism:radioactive_waste_barrel",
           "count": 1,
@@ -1737,14 +1737,14 @@
       ],
       "rewards": [
         {
-          "id": "C8897483CCA4FF2B",
+          "id": "48897483CCA4FF2B",
           "type": "xp",
           "xp": 50
         }
       ]
     },
     {
-      "id": "B69DBA459A2A010F",
+      "id": "369DBA459A2A010F",
       "title": "Isotopic Centrifuge",
       "subtitle": "",
       "description": [],
@@ -1757,7 +1757,7 @@
       ],
       "tasks": [
         {
-          "id": "988B08B988EFF501",
+          "id": "188B08B988EFF501",
           "type": "item",
           "item": "mekanism:isotopic_centrifuge",
           "count": 1,
@@ -1790,11 +1790,11 @@
       "y": 33.0,
       "shape": "circle",
       "dependencies": [
-        "913D123C43E3DA7E"
+        "113D123C43E3DA7E"
       ],
       "tasks": [
         {
-          "id": "FD327FC11CAB661A",
+          "id": "7D327FC11CAB661A",
           "type": "item",
           "item": "mekanism:pellet_polonium",
           "count": 1,
@@ -1803,14 +1803,14 @@
       ],
       "rewards": [
         {
-          "id": "9F1D2A1F149DF800",
+          "id": "1F1D2A1F149DF800",
           "type": "xp",
           "xp": 50
         }
       ]
     },
     {
-      "id": "FE583058F2D9ADD8",
+      "id": "7E583058F2D9ADD8",
       "title": "Plutonium Pellet",
       "subtitle": "",
       "description": [],
@@ -1823,7 +1823,7 @@
       ],
       "tasks": [
         {
-          "id": "BC1D6FACC870563B",
+          "id": "3C1D6FACC870563B",
           "type": "item",
           "item": "mekanism:pellet_plutonium",
           "count": 1,
@@ -1842,7 +1842,7 @@
       "y": 33.0,
       "shape": "circle",
       "dependencies": [
-        "FE583058F2D9ADD8"
+        "7E583058F2D9ADD8"
       ],
       "tasks": [
         {
@@ -1878,14 +1878,14 @@
       ],
       "rewards": [
         {
-          "id": "DFDC7DC55FC10A00",
+          "id": "5FDC7DC55FC10A00",
           "type": "xp",
           "xp": 50
         }
       ]
     },
     {
-      "id": "D571C4B8004F20AB",
+      "id": "5571C4B8004F20AB",
       "title": "Supercharged Coil",
       "subtitle": "",
       "description": [],
@@ -1917,7 +1917,7 @@
       "y": 33.0,
       "shape": "circle",
       "dependencies": [
-        "D571C4B8004F20AB"
+        "5571C4B8004F20AB"
       ],
       "tasks": [
         {
@@ -1931,7 +1931,7 @@
       "rewards": []
     },
     {
-      "id": "C3783E0E8E03A6E1",
+      "id": "43783E0E8E03A6E1",
       "title": "Antiprotonic Nucleosynthesizer",
       "subtitle": "",
       "description": [],
@@ -1953,7 +1953,7 @@
       ],
       "rewards": [
         {
-          "id": "A7A6377A29DEEC3C",
+          "id": "27A6377A29DEEC3C",
           "type": "xp",
           "xp": 50
         },
@@ -1966,7 +1966,7 @@
       ]
     },
     {
-      "id": "CE70531598B05E49",
+      "id": "4E70531598B05E49",
       "title": "MekaSuit Helmet",
       "subtitle": "Powered armour",
       "description": [
@@ -2006,11 +2006,11 @@
       "y": 36.0,
       "shape": "circle",
       "dependencies": [
-        "CE70531598B05E49"
+        "4E70531598B05E49"
       ],
       "tasks": [
         {
-          "id": "E20D15BFDA908261",
+          "id": "620D15BFDA908261",
           "type": "item",
           "item": "mekanism:mekasuit_bodyarmor",
           "count": 1,
@@ -2020,7 +2020,7 @@
       "rewards": []
     },
     {
-      "id": "BE9A81CB7DF53E08",
+      "id": "3E9A81CB7DF53E08",
       "title": "MekaSuit Pants",
       "subtitle": "",
       "description": [],
@@ -2033,7 +2033,7 @@
       ],
       "tasks": [
         {
-          "id": "FEB82FAFA28F2F12",
+          "id": "7EB82FAFA28F2F12",
           "type": "item",
           "item": "mekanism:mekasuit_pants",
           "count": 1,
@@ -2052,11 +2052,11 @@
       "y": 36.0,
       "shape": "circle",
       "dependencies": [
-        "BE9A81CB7DF53E08"
+        "3E9A81CB7DF53E08"
       ],
       "tasks": [
         {
-          "id": "C19E22B1848ADE55",
+          "id": "419E22B1848ADE55",
           "type": "item",
           "item": "mekanism:mekasuit_boots",
           "count": 1,
@@ -2095,7 +2095,7 @@
       "rewards": []
     },
     {
-      "id": "9DE51FB040AEFCC1",
+      "id": "1DE51FB040AEFCC1",
       "title": "Module Base",
       "subtitle": "",
       "description": [],
@@ -2108,7 +2108,7 @@
       ],
       "tasks": [
         {
-          "id": "FCF88EE0ED11F8AD",
+          "id": "7CF88EE0ED11F8AD",
           "type": "item",
           "item": "mekanism:module_base",
           "count": 1,
@@ -2118,7 +2118,7 @@
       "rewards": []
     },
     {
-      "id": "A69392C1333E5795",
+      "id": "269392C1333E5795",
       "title": "Module Energy Unit",
       "subtitle": "",
       "description": [],
@@ -2127,11 +2127,11 @@
       "y": 36.0,
       "shape": "circle",
       "dependencies": [
-        "9DE51FB040AEFCC1"
+        "1DE51FB040AEFCC1"
       ],
       "tasks": [
         {
-          "id": "DA4A72559012FA7A",
+          "id": "5A4A72559012FA7A",
           "type": "item",
           "item": "mekanism:module_energy_unit",
           "count": 1,
@@ -2147,7 +2147,7 @@
       ]
     },
     {
-      "id": "D377B5FA5EDDEDB5",
+      "id": "5377B5FA5EDDEDB5",
       "title": "Module Radiation Shielding Unit",
       "subtitle": "",
       "description": [],
@@ -2156,7 +2156,7 @@
       "y": 36.0,
       "shape": "circle",
       "dependencies": [
-        "A69392C1333E5795"
+        "269392C1333E5795"
       ],
       "tasks": [
         {
@@ -2170,7 +2170,7 @@
       "rewards": []
     },
     {
-      "id": "D991C625CE663715",
+      "id": "5991C625CE663715",
       "title": "Meka-Tool",
       "subtitle": "",
       "description": [],
@@ -2179,11 +2179,11 @@
       "y": 36.0,
       "shape": "hexagon",
       "dependencies": [
-        "D377B5FA5EDDEDB5"
+        "5377B5FA5EDDEDB5"
       ],
       "tasks": [
         {
-          "id": "D4AB39615221B955",
+          "id": "54AB39615221B955",
           "type": "item",
           "item": "mekanism:meka_tool",
           "count": 1,
@@ -2192,12 +2192,12 @@
       ],
       "rewards": [
         {
-          "id": "BDB7D769DFF40D5B",
+          "id": "3DB7D769DFF40D5B",
           "type": "xp",
           "xp": 70
         },
         {
-          "id": "B44DD466088E1841",
+          "id": "344DD466088E1841",
           "type": "item",
           "item": "minecraft:iron_ingot",
           "count": 8

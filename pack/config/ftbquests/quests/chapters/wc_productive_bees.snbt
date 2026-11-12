@@ -28,7 +28,7 @@
       ],
       "rewards": [
         {
-          "id": "B8FC83BD747672F4",
+          "id": "38FC83BD747672F4",
           "type": "xp",
           "xp": 10
         }
@@ -94,7 +94,7 @@
       ],
       "tasks": [
         {
-          "id": "E8248960FEE629E8",
+          "id": "68248960FEE629E8",
           "type": "item",
           "item": "productivebees:sturdy_bee_cage",
           "count": 1,
@@ -103,7 +103,7 @@
       ],
       "rewards": [
         {
-          "id": "CBBCA7AE06065C67",
+          "id": "4BBCA7AE06065C67",
           "type": "xp",
           "xp": 10
         }
@@ -133,7 +133,7 @@
       "rewards": []
     },
     {
-      "id": "89420B03CB278896",
+      "id": "09420B03CB278896",
       "title": "Oak Expansion Box",
       "subtitle": "",
       "description": [],
@@ -146,7 +146,7 @@
       ],
       "tasks": [
         {
-          "id": "808A587B7E75486D",
+          "id": "008A587B7E75486D",
           "type": "item",
           "item": "productivebees:expansion_box_oak",
           "count": 1,
@@ -160,7 +160,7 @@
           "xp": 30
         },
         {
-          "id": "9DCFF597006A7E79",
+          "id": "1DCFF597006A7E79",
           "type": "item",
           "item": "minecraft:lapis_lazuli",
           "count": 12
@@ -192,7 +192,7 @@
       ],
       "rewards": [
         {
-          "id": "F1A99F6E5250BBF4",
+          "id": "71A99F6E5250BBF4",
           "type": "xp",
           "xp": 15
         }
@@ -212,7 +212,7 @@
       ],
       "tasks": [
         {
-          "id": "ED3C69E60569AE4E",
+          "id": "6D3C69E60569AE4E",
           "type": "item",
           "item": "productivebees:powered_centrifuge",
           "count": 1,
@@ -235,7 +235,7 @@
       ],
       "tasks": [
         {
-          "id": "DA4893EEE7F876E2",
+          "id": "5A4893EEE7F876E2",
           "type": "item",
           "item": "productivebees:heated_centrifuge",
           "count": 1,
@@ -274,7 +274,7 @@
       ]
     },
     {
-      "id": "B59C9BD437121593",
+      "id": "359C9BD437121593",
       "title": "Honey Generator",
       "subtitle": "",
       "description": [],
@@ -287,7 +287,7 @@
       ],
       "tasks": [
         {
-          "id": "CB3C62113E041B17",
+          "id": "4B3C62113E041B17",
           "type": "item",
           "item": "productivebees:honey_generator",
           "count": 1,
@@ -309,7 +309,7 @@
       ]
     },
     {
-      "id": "FBFBB37D723E30F8",
+      "id": "7BFBB37D723E30F8",
       "title": "Feeding Slab",
       "subtitle": "A protected apiary",
       "description": [
@@ -333,7 +333,7 @@
       ],
       "rewards": [
         {
-          "id": "D93A8F65E3B41D31",
+          "id": "593A8F65E3B41D31",
           "type": "xp",
           "xp": 20
         }
@@ -349,11 +349,11 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "FBFBB37D723E30F8"
+        "7BFBB37D723E30F8"
       ],
       "tasks": [
         {
-          "id": "FB421DAE1F308CDE",
+          "id": "7B421DAE1F308CDE",
           "type": "item",
           "item": "productivebees:catcher",
           "count": 1,
@@ -363,7 +363,7 @@
       "rewards": []
     },
     {
-      "id": "CF4BF48457A2A8FF",
+      "id": "4F4BF48457A2A8FF",
       "title": "Upgrade Base",
       "subtitle": "",
       "description": [],
@@ -395,11 +395,11 @@
       "y": 6.0,
       "shape": "circle",
       "dependencies": [
-        "CF4BF48457A2A8FF"
+        "4F4BF48457A2A8FF"
       ],
       "tasks": [
         {
-          "id": "8FAB0A1030555F10",
+          "id": "0FAB0A1030555F10",
           "type": "item",
           "item": "productivebees:upgrade_range",
           "count": 1,
@@ -415,7 +415,7 @@
       ]
     },
     {
-      "id": "BA5385BC4FD99D94",
+      "id": "3A5385BC4FD99D94",
       "title": "Upgrade: Filter",
       "subtitle": "",
       "description": [],
@@ -428,7 +428,7 @@
       ],
       "tasks": [
         {
-          "id": "A7DE16FFDE10752F",
+          "id": "27DE16FFDE10752F",
           "type": "item",
           "item": "productivebees:upgrade_filter",
           "count": 1,
@@ -438,7 +438,7 @@
       "rewards": []
     },
     {
-      "id": "A51AA7AE7CB6B615",
+      "id": "251AA7AE7CB6B615",
       "title": "Upgrade: Anti Teleportation",
       "subtitle": "",
       "description": [],
@@ -447,7 +447,7 @@
       "y": 6.0,
       "shape": "hexagon",
       "dependencies": [
-        "BA5385BC4FD99D94"
+        "3A5385BC4FD99D94"
       ],
       "tasks": [
         {
@@ -473,7 +473,7 @@
       ]
     },
     {
-      "id": "BDCA919C0A39B829",
+      "id": "3DCA919C0A39B829",
       "title": "Breeding Chamber",
       "subtitle": "Breeding stock",
       "description": [
@@ -488,7 +488,7 @@
       ],
       "tasks": [
         {
-          "id": "E8403F20084E6263",
+          "id": "68403F20084E6263",
           "type": "item",
           "item": "productivebees:breeding_chamber",
           "count": 1,
@@ -497,14 +497,14 @@
       ],
       "rewards": [
         {
-          "id": "F415213FA3BC4AA4",
+          "id": "7415213FA3BC4AA4",
           "type": "xp",
           "xp": 25
         }
       ]
     },
     {
-      "id": "95F1B282422C75B2",
+      "id": "15F1B282422C75B2",
       "title": "BaBee Incubator",
       "subtitle": "",
       "description": [],
@@ -513,7 +513,7 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "BDCA919C0A39B829"
+        "3DCA919C0A39B829"
       ],
       "tasks": [
         {
@@ -527,7 +527,7 @@
       "rewards": []
     },
     {
-      "id": "80406BB6C85C5931",
+      "id": "00406BB6C85C5931",
       "title": "Squashed Bee Material",
       "subtitle": "",
       "description": [],
@@ -536,11 +536,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "95F1B282422C75B2"
+        "15F1B282422C75B2"
       ],
       "tasks": [
         {
-          "id": "BF6166A20C0161BE",
+          "id": "3F6166A20C0161BE",
           "type": "item",
           "item": "productivebees:gene_bottle",
           "count": 1,
@@ -559,11 +559,11 @@
       "y": 9.0,
       "shape": "circle",
       "dependencies": [
-        "80406BB6C85C5931"
+        "00406BB6C85C5931"
       ],
       "tasks": [
         {
-          "id": "B95A436ED44007FC",
+          "id": "395A436ED44007FC",
           "type": "item",
           "item": "productivebees:gene",
           "count": 1,
@@ -572,14 +572,14 @@
       ],
       "rewards": [
         {
-          "id": "8747D865006A1BA3",
+          "id": "0747D865006A1BA3",
           "type": "xp",
           "xp": 25
         }
       ]
     },
     {
-      "id": "E6584E21954AAED1",
+      "id": "66584E21954AAED1",
       "title": "Gene Indexer",
       "subtitle": "",
       "description": [],
@@ -592,7 +592,7 @@
       ],
       "tasks": [
         {
-          "id": "CE08A9F6DAC4AE4D",
+          "id": "4E08A9F6DAC4AE4D",
           "type": "item",
           "item": "productivebees:gene_indexer",
           "count": 1,
@@ -606,7 +606,7 @@
           "xp": 45
         },
         {
-          "id": "83F2193AD571F9F2",
+          "id": "03F2193AD571F9F2",
           "type": "item",
           "item": "minecraft:golden_carrot",
           "count": 4
@@ -614,7 +614,7 @@
       ]
     },
     {
-      "id": "EBA28ACB8DDBA741",
+      "id": "6BA28ACB8DDBA741",
       "title": "Upgrade: Productivity Alpha",
       "subtitle": "A larger harvest",
       "description": [
@@ -625,11 +625,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "CF4BF48457A2A8FF"
+        "4F4BF48457A2A8FF"
       ],
       "tasks": [
         {
-          "id": "C2DAFD1C14E6C1C4",
+          "id": "42DAFD1C14E6C1C4",
           "type": "item",
           "item": "productivebees:upgrade_productivity",
           "count": 1,
@@ -645,7 +645,7 @@
       ]
     },
     {
-      "id": "B3476CCE1B93AB5E",
+      "id": "33476CCE1B93AB5E",
       "title": "Upgrade: Productivity Beta",
       "subtitle": "",
       "description": [],
@@ -654,7 +654,7 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "EBA28ACB8DDBA741"
+        "6BA28ACB8DDBA741"
       ],
       "tasks": [
         {
@@ -677,11 +677,11 @@
       "y": 12.0,
       "shape": "circle",
       "dependencies": [
-        "B3476CCE1B93AB5E"
+        "33476CCE1B93AB5E"
       ],
       "tasks": [
         {
-          "id": "997392B0D9091607",
+          "id": "197392B0D9091607",
           "type": "item",
           "item": "productivebees:upgrade_productivity_3",
           "count": 1,
@@ -691,7 +691,7 @@
       "rewards": []
     },
     {
-      "id": "8C21F90F65D6909D",
+      "id": "0C21F90F65D6909D",
       "title": "Upgrade: Productivity Omega",
       "subtitle": "",
       "description": [],
@@ -704,7 +704,7 @@
       ],
       "tasks": [
         {
-          "id": "EC0B0C0D9C06CCB7",
+          "id": "6C0B0C0D9C06CCB7",
           "type": "item",
           "item": "productivebees:upgrade_productivity_4",
           "count": 1,
@@ -713,7 +713,7 @@
       ],
       "rewards": [
         {
-          "id": "A93483FE368DD443",
+          "id": "293483FE368DD443",
           "type": "xp",
           "xp": 30
         }
@@ -729,7 +729,7 @@
       "y": 12.0,
       "shape": "hexagon",
       "dependencies": [
-        "8C21F90F65D6909D"
+        "0C21F90F65D6909D"
       ],
       "tasks": [
         {
@@ -742,12 +742,12 @@
       ],
       "rewards": [
         {
-          "id": "CB93BE81EE2376DF",
+          "id": "4B93BE81EE2376DF",
           "type": "xp",
           "xp": 50
         },
         {
-          "id": "8BDE6D53194AB6AD",
+          "id": "0BDE6D53194AB6AD",
           "type": "item",
           "item": "minecraft:lapis_lazuli",
           "count": 12
@@ -755,7 +755,7 @@
       ]
     },
     {
-      "id": "ECA750D40D2CDB38",
+      "id": "6CA750D40D2CDB38",
       "title": "Quartz Nest",
       "subtitle": "Beyond the meadow",
       "description": [
@@ -786,7 +786,7 @@
       ]
     },
     {
-      "id": "B943F46BCCE09322",
+      "id": "3943F46BCCE09322",
       "title": "Nether Gold Nest",
       "subtitle": "",
       "description": [],
@@ -795,7 +795,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "ECA750D40D2CDB38"
+        "6CA750D40D2CDB38"
       ],
       "tasks": [
         {
@@ -809,7 +809,7 @@
       "rewards": []
     },
     {
-      "id": "F47A292A769F372F",
+      "id": "747A292A769F372F",
       "title": "Soul Sand Nest",
       "subtitle": "",
       "description": [],
@@ -818,11 +818,11 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "B943F46BCCE09322"
+        "3943F46BCCE09322"
       ],
       "tasks": [
         {
-          "id": "A2BEABFA4CCD6B4C",
+          "id": "22BEABFA4CCD6B4C",
           "type": "item",
           "item": "productivebees:soul_sand_nest",
           "count": 1,
@@ -841,7 +841,7 @@
       "y": 15.0,
       "shape": "circle",
       "dependencies": [
-        "F47A292A769F372F"
+        "747A292A769F372F"
       ],
       "tasks": [
         {
@@ -854,7 +854,7 @@
       ],
       "rewards": [
         {
-          "id": "FE42660E89200041",
+          "id": "7E42660E89200041",
           "type": "xp",
           "xp": 35
         }
@@ -874,7 +874,7 @@
       ],
       "tasks": [
         {
-          "id": "B68FEE641A1CDFD1",
+          "id": "368FEE641A1CDFD1",
           "type": "item",
           "item": "productivebees:obsidian_nest",
           "count": 1,
@@ -884,7 +884,7 @@
       "rewards": []
     },
     {
-      "id": "F4B5F4DCC372DFF2",
+      "id": "74B5F4DCC372DFF2",
       "title": "Dragon Egg Hive",
       "subtitle": "",
       "description": [],
@@ -916,11 +916,11 @@
       "y": 15.0,
       "shape": "hexagon",
       "dependencies": [
-        "F4B5F4DCC372DFF2"
+        "74B5F4DCC372DFF2"
       ],
       "tasks": [
         {
-          "id": "F2D94CE0F6DA5520",
+          "id": "72D94CE0F6DA5520",
           "type": "item",
           "item": "productivebees:draconic_dust",
           "count": 1,
@@ -929,7 +929,7 @@
       ],
       "rewards": [
         {
-          "id": "96AF124A4B9BCE86",
+          "id": "16AF124A4B9BCE86",
           "type": "xp",
           "xp": 35
         },
