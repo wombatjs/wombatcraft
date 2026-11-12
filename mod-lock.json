@@ -114982,6 +114982,33 @@
       },
       "server": false,
       "requires_discord_app": true
+    },
+    {
+      "project": {
+        "slug": "jeiemi-optimizations",
+        "title": "JEI/EMI Optimizations",
+        "server_side": "unsupported",
+        "client_side": "required",
+        "curseforge_id": 1755877
+      },
+      "version": {
+        "version_number": "1.0.4",
+        "game_versions": [
+          "1.20.1"
+        ],
+        "loaders": [
+          "forge"
+        ],
+        "curseforge_file_id": 9344130
+      },
+      "file": {
+        "filename": "jeioptimizations-1.0.4+1.20.1-forge.jar",
+        "url": "https://edge.forgecdn.net/files/9344/130/jeioptimizations-1.0.4%2B1.20.1-forge.jar",
+        "hashes": {
+          "sha512": "2374fc1c7c8c46bc2c9367f7147ab84e51aa2a5c83be0d683f86973df5e612c2bd2e6b777565b123981a2d3816ee6b50896a0c5cb0c5fe6bd63a1cd24cf543b7"
+        },
+        "size": 184030
+      }
     }
   ],
   "skipped": [],

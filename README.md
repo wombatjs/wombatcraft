@@ -4,7 +4,7 @@ A shared frontier of industry, spellcraft, exploration and settlement for Minecr
 
 ## Development status
 
-The pack contains 285 pinned mod files and 1,936 quests across 42 chapters. Discord Rich Presence adds two client mods when activated. Twenty-three major-mod chapters have authored progression branches. Automated release validation boots a fresh Forge world and checks quest IDs, item references, endgame recipes and server commands, then repeats the check after a clean restart.
+The pack contains 286 pinned mod files and 1,936 quests across 42 chapters. Discord Rich Presence adds two client mods when activated. Twenty-three major-mod chapters have authored progression branches. Automated release validation boots a fresh Forge world and checks quest IDs, item references, endgame recipes and server commands, then repeats the check after a clean restart.
 
 The public server is `74.208.117.88:25565`, hosted in Pterodactyl through the existing proxy. Download the Windows launcher from [Releases](https://github.com/wombatjs/wombatcraft/releases/latest).
 
