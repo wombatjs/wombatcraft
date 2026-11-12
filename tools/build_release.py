@@ -7,9 +7,12 @@ if subprocess.check_output(['git','-C',str(ROOT),'status','--porcelain'],text=Tr
 sha=subprocess.check_output(['git','-C',str(ROOT),'rev-parse','HEAD'],text=True).strip()
 base=f'https://github.com/wombatjs/wombatcraft/releases/download/build-{sha}/'
 lock=json.loads((ROOT/'mod-lock.json').read_text())
+# The client also hosts integrated singleplayer servers. Include server-side
+# world generation and AI libraries there; upstream client-side metadata only
+# describes a dedicated multiplayer client, not a complete singleplayer pack.
 files=[]
 for record in lock['mods']:
- f=record['file'];files.append(dict(path='mods/'+f['filename'],url=f['url'],sha512=f['hashes']['sha512'],size=f['size'],client=record['project'].get('client_side')!='unsupported',server=record['project'].get('server_side')!='unsupported'))
+ f=record['file'];files.append(dict(path='mods/'+f['filename'],url=f['url'],sha512=f['hashes']['sha512'],size=f['size'],client=True,server=record['project'].get('server_side')!='unsupported'))
 overrides=[]
 with zipfile.ZipFile(OUT/'overrides.zip','w',zipfile.ZIP_DEFLATED) as z:
  for p in sorted((ROOT/'pack').rglob('*')):
