@@ -10,7 +10,35 @@ public class ForgeQuestAudit {
  public ForgeQuestAudit(){
   try { Object bus=Class.forName("net.minecraftforge.common.MinecraftForge").getField("EVENT_BUS").get(null);Class.forName("net.minecraftforge.eventbus.api.IEventBus").getMethod("register",Object.class).invoke(bus,this); } catch(Exception e){throw new RuntimeException(e);}
  }
- @SubscribeEvent public void started(ServerStartedEvent event){audit();auditRecipes(event);auditCommands(event);}
+ @SubscribeEvent public void started(ServerStartedEvent event){audit();auditRecipes(event);auditCommands(event);auditPortalChunkTracking(event);}
+ static void auditPortalChunkTracking(Object event){
+  try{
+   Object server=call(event,"getServer");
+   Class<?> serverType=Class.forName("net.minecraft.server.MinecraftServer");
+   Class<?> levelType=Class.forName("net.minecraft.server.level.ServerLevel");
+   Class<?> playerType=Class.forName("net.minecraft.server.level.ServerPlayer");
+   Class<?> profileType=Class.forName("com.mojang.authlib.GameProfile");
+   Object level=serverType.getMethod("m_129783_").invoke(server);
+   Object profile=profileType.getConstructor(UUID.class,String.class).newInstance(UUID.randomUUID(),"PortalAudit");
+   Object player=playerType.getConstructor(serverType,levelType,profileType).newInstance(server,level,profile);
+   Class<?> graph=Class.forName("qouteall.imm_ptl.core.chunk_loading.NewChunkTrackingGraph");
+   Field playerInfo=graph.getDeclaredField("playerInfoMap");
+   playerInfo.setAccessible(true);
+   Map<?,?> trackedPlayers=(Map<?,?>)playerInfo.get(null);
+   Method tickPlayer=graph.getDeclaredMethod("lambda$tick$12",long.class,playerType);
+   tickPlayer.setAccessible(true);
+   int entityId=(Integer)playerType.getMethod("m_19879_").invoke(player);
+   long offCycleTick=(entityId+1L)%13;
+   tickPlayer.invoke(null,offCycleTick,player);
+   if(!trackedPlayers.containsKey(player))throw new IllegalStateException("Active player was skipped");
+   trackedPlayers.remove(player);
+   Class<?> reason=Class.forName("net.minecraft.world.entity.Entity$RemovalReason");
+   playerType.getMethod("m_142467_",reason).invoke(player,reason.getField("KILLED").get(null));
+   tickPlayer.invoke(null,offCycleTick,player);
+   if(trackedPlayers.containsKey(player))throw new IllegalStateException("Removed player was tracked again");
+   System.out.println("PORTAL_CHUNK_AUDIT_COMPLETE");
+  }catch(Exception e){throw new IllegalStateException("Portal chunk tracking audit failed",e);}
+ }
  static void auditCommands(Object event){
   try{
    Object server=call(event,"getServer");

@@ -1,12 +1,14 @@
 """Boot a disposable dedicated server and validate live quest/item/recipe registries."""
 import hashlib,json,os,shutil,subprocess,sys,time,urllib.request,zipfile
 from pathlib import Path
+from portal_patch import PATCH_NAME, build_portal_patch
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'launcher'));import updater
 dest=ROOT/'dist/server-smoke';dest.mkdir(parents=True,exist_ok=True)
 lock=json.loads((ROOT/'mod-lock.json').read_text());mods=dest/'mods';mods.mkdir(exist_ok=True)
 for r in lock['mods']:
  if not r.get('server',r['project'].get('server_side')!='unsupported'):continue
  f=r['file'];updater.download(dict(url=f['url'],sha512=f['hashes']['sha512'],size=f['size']),mods/f['filename'])
+(mods/PATCH_NAME).write_bytes(build_portal_patch())
 for name in ['config','kubejs','defaultconfigs']:
  if (ROOT/'pack'/name).exists():shutil.copytree(ROOT/'pack'/name,dest/name,dirs_exist_ok=True,ignore=shutil.ignore_patterns('simple-rpc','oculus.properties'))
 version='1.20.1-47.4.28';installer=dest/'installer.jar'
@@ -33,7 +35,7 @@ for boot in range(2):
    while time.monotonic()<deadline:
     if process.poll() is not None:raise RuntimeError('Dedicated server exited before startup completed')
     text=(dest/'console.log').read_text(errors='replace')
-    if ')! For help, type ' in text and all(marker in text for marker in ('QUEST_AUDIT_COMPLETE','RECIPE_AUDIT_COMPLETE','COMMAND_AUDIT_COMPLETE')):break
+    if ')! For help, type ' in text and all(marker in text for marker in ('QUEST_AUDIT_COMPLETE','RECIPE_AUDIT_COMPLETE','COMMAND_AUDIT_COMPLETE','PORTAL_CHUNK_AUDIT_COMPLETE')):break
     time.sleep(5)
    else:raise TimeoutError('Dedicated server startup timed out')
    chapters=[json.loads(p.read_text()) for p in (ROOT/'pack/config/ftbquests/quests/chapters').glob('*.snbt')];quests=[q for c in chapters for q in c['quests']]
@@ -44,10 +46,11 @@ for boot in range(2):
    assert not refs-registry,'Missing runtime items: '+str(sorted(refs-registry))
    recipes=set((dest/'recipe-registry.txt').read_text().splitlines());endgame={'kubejs:endgame/'+name for name in ['industrial_sigil','arcane_sigil','voyager_sigil','prosperity_sigil','convergence_core']};assert endgame<=recipes,'Missing endgame recipes'
    assert 'Parsing error loading recipe' not in text,'Recipe parse errors'
+   assert 'Wombatcraft portal chunk guard applied' in text,'Portal chunk guard did not load'
    commands=set((dest/'command-registry.txt').read_text().splitlines())
    required_commands={'home','sethome','spawn','tpa','warp','mute','unmute','ftbranks','ftbchunks','lcadmin','spark','chunky','pp','servercore'}
    assert required_commands<=commands,'Missing server commands: '+str(sorted(required_commands-commands))
-   (ROOT/'dist/server-validation.json').write_text(json.dumps(dict(quests=len(quests),registry_items=len(registry),recipes=len(recipes),endgame_recipes=sorted(endgame),server_commands=sorted(required_commands),fresh_world_started=True,restarted_cleanly=boot==1),indent=2))
+   (ROOT/'dist/server-validation.json').write_text(json.dumps(dict(quests=len(quests),registry_items=len(registry),recipes=len(recipes),endgame_recipes=sorted(endgame),server_commands=sorted(required_commands),portal_chunk_tracking_verified=True,fresh_world_started=True,restarted_cleanly=boot==1),indent=2))
    print('Dedicated server, quest registry and endgame recipe validation passed.')
   finally:
    if process.poll() is None:

@@ -31,6 +31,7 @@ class Work(QRunnable):
   except Exception as e:
    # Authentication tokens and full HTTP bodies must never be shown or logged.
    message=str(e) if isinstance(e,(RuntimeError,ValueError)) else 'The operation could not finish. Check your connection and retry.'
+   if updater.disk_full(e):message='The Wombatcraft drive is full. Free up disk space, then retry.'
    if isinstance(e,urllib.error.HTTPError) and e.code==404:message='The first public release is being prepared. Check Releases for availability.'
    self.signals.error.emit(message[:500])
 
@@ -149,7 +150,7 @@ class Window(QWidget):
    for file in manifest['files']:
     if file['client']:
      path = updater.safe_path(INSTANCE, file['path'])
-     if path.stat().st_size != file['size'] or updater.digest(path) != file['sha512']:
+     if not updater.matches(path, file):
       return False
    return all(
     updater.safe_path(INSTANCE, file['path']).is_file()
@@ -176,10 +177,11 @@ class Window(QWidget):
   if not self.pack_ready(manifest):
    self.require_pack_idle()
    stage = DATA / 'staging' / manifest['commit']
-   records = updater.stage(manifest, stage, DATA / 'cache', progress=progress)
+   records = updater.stage(manifest, stage, DATA / 'cache', progress=progress, installed=INSTANCE)
    self.require_pack_idle()
    progress('Applying verified pack files…')
    updater.activate(manifest, records, stage, INSTANCE, DATA / 'transaction')
+  launcher_update.prune(DATA / 'staging', keep=set())
   self.repair_game_discord()
 
  def install_pack(self, progress):

@@ -1,10 +1,40 @@
-import hashlib,json,sys,tempfile,unittest
+import errno,hashlib,json,sys,tempfile,unittest,zipfile
 from pathlib import Path
 from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'launcher'))
 import updater
 
 class UpdateTests(unittest.TestCase):
+ def test_existing_verified_mod_is_neither_staged_nor_backed_up(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   root=Path(tmp);instance=root/'game';stage=root/'stage';cache=root/'cache';transaction=root/'transaction'
+   installed=instance/'mods/verified.jar'
+   installed.parent.mkdir(parents=True);installed.write_bytes(b'verified')
+   record={'path':'mods/verified.jar','size':installed.stat().st_size,'sha512':updater.digest(installed),'client':True}
+   cache.mkdir()
+   archive=cache/'overrides.zip'
+   with zipfile.ZipFile(archive,'w'):pass
+   manifest={
+    'schema':1,'minecraft':'1.20.1','forge':'47.4.28','commit':'a'*40,
+    'files':[record],'overrides':{'size':archive.stat().st_size,'sha512':updater.digest(archive),'files':[]},
+   }
+   archive.rename(cache/(manifest['overrides']['sha512']+'.zip'))
+   records=updater.stage(manifest,stage,cache,installed=instance)
+   self.assertFalse((stage/record['path']).exists())
+   updater.activate(manifest,records,stage,instance,transaction)
+   self.assertFalse((transaction/'before'/record['path']).exists())
+   self.assertEqual(json.loads((instance/'.wombatcraft.json').read_text())['managed'],[record['path']])
+   self.assertEqual(installed.read_bytes(),b'verified')
+   installed.write_bytes(b'modified')
+   with self.assertRaisesRegex(RuntimeError,'changed during the update'):
+    updater.activate(manifest,records,stage,instance,transaction)
+   self.assertEqual(installed.read_bytes(),b'modified')
+
+ def test_disk_full_is_distinct_from_other_io_errors(self):
+  self.assertTrue(updater.disk_full(OSError(errno.ENOSPC,'disk full')))
+  self.assertFalse(updater.disk_full(OSError(errno.EACCES,'access denied')))
+  self.assertFalse(updater.disk_full(ValueError('invalid manifest')))
+
  def test_generated_quest_chapters_are_retired_transactionally(self):
   for fail in [False,True]:
    with self.subTest(fail=fail),tempfile.TemporaryDirectory() as tmp:

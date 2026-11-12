@@ -1,5 +1,5 @@
 """Verified staging and recoverable activation shared by client and server tooling."""
-import concurrent.futures,hashlib,json,os,shutil,urllib.request,zipfile
+import concurrent.futures,errno,hashlib,json,os,shutil,urllib.request,zipfile
 from pathlib import Path,PurePosixPath
 
 RELEASE='https://github.com/wombatjs/wombatcraft/releases/latest/download/manifest.json'
@@ -18,6 +18,17 @@ def digest(path):
  with path.open('rb') as f:
   for chunk in iter(lambda:f.read(1024*1024),b''):h.update(chunk)
  return h.hexdigest()
+
+def matches(path, record):
+ return (
+  'size' in record and 'sha512' in record and path.is_file()
+  and path.stat().st_size == record['size'] and digest(path) == record['sha512']
+ )
+
+def disk_full(error):
+ return isinstance(error,OSError) and (
+  error.errno == errno.ENOSPC or getattr(error,'winerror',None) in {39,112}
+ )
 
 def fetch_json(url):
  if not url.startswith('https://'):raise ValueError('HTTPS is required')
@@ -48,11 +59,15 @@ def validate_manifest(m):
   if len(f['sha512'])!=128 or f['size']<0:raise ValueError('Invalid file metadata')
  if len(names)!=len(set(names)):raise ValueError('Duplicate release path')
 
-def stage(m,stage_dir,cache,side='client',progress=lambda s:None):
+def stage(m,stage_dir,cache,side='client',progress=lambda s:None,installed=None):
  validate_manifest(m);stage_dir.mkdir(parents=True,exist_ok=True);cache.mkdir(parents=True,exist_ok=True)
  files=[f for f in m['files'] if f[side]]
  def one(f):
-  blob=cache/f['sha512'];download(f,blob);target=safe_path(stage_dir,f['path']);target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(blob,target)
+  if installed is not None and matches(safe_path(installed,f['path']),f):return
+  target=safe_path(stage_dir,f['path'])
+  if matches(target,f):return
+  blob=cache/f['sha512'];download(f,blob)
+  target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(blob,target)
  with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
   for n,_ in enumerate(pool.map(one,files),1):progress(f'Preparing mods {n} / {len(files)}')
  archive=cache/(m['overrides']['sha512']+'.zip');download(m['overrides'],archive)
@@ -70,10 +85,12 @@ def recover(instance,transaction):
  state=json.loads(journal.read_text())
  for entry in reversed(state['entries']):
   target=safe_path(instance,entry['path']);backup=safe_path(transaction/'before',entry['path'])
+  target.with_name(target.name+'.wombatcraft-new').unlink(missing_ok=True)
   if entry['existed']:
    target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(backup,target)
   elif target.exists():target.unlink()
  old=transaction/'previous-manifest.json';manifest=instance/'.wombatcraft.json'
+ (instance/'.wombatcraft-new.json').unlink(missing_ok=True)
  if old.exists():shutil.copy2(old,manifest)
  elif manifest.exists():manifest.unlink()
  journal.unlink()
@@ -97,12 +114,26 @@ def activate(m,records,stage_dir,instance,transaction):
  entries=[]
  for name in names:
   target=safe_path(instance,name)
-  if new.get(name,{}).get('seed_only') and target.exists():continue
+  record=new.get(name)
+  if record is not None:
+   if record.get('seed_only') and target.exists():continue
+   if matches(target,record):continue
+   staged=safe_path(stage_dir,name)
+   if not staged.is_file() or ('sha512' in record and not matches(staged,record)):
+    raise RuntimeError('A pack file changed during the update. Close Minecraft and retry.')
   existed=target.is_file()
-  if existed:
-   backup=safe_path(transaction/'before',name);backup.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(target,backup)
+  if not existed and record is None:continue
   entries.append(dict(path=name,existed=existed))
- journal=transaction/'journal.json';journal.write_text(json.dumps({'entries':entries}))
+ for entry in entries:
+  if entry['existed']:
+   name=entry['path'];target=safe_path(instance,name)
+   backup=safe_path(transaction/'before',name);backup.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(target,backup)
+ journal=transaction/'journal.json';pending=transaction/'journal.tmp'
+ try:
+  pending.write_text(json.dumps({'entries':entries}))
+  os.replace(pending,journal)
+ finally:
+  pending.unlink(missing_ok=True)
  try:
   for entry in entries:
    name=entry['path'];target=safe_path(instance,name)

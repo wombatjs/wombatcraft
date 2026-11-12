@@ -1,0 +1,17 @@
+modLoader = "lowcodefml"
+loaderVersion = "[47,48)"
+license = "MIT"
+
+[[mods]]
+modId = "wombatcraft_portal_fix"
+version = "1.0.0"
+displayName = "Wombatcraft Portal Fix"
+displayTest = "IGNORE_ALL_VERSION"
+description = "Stops Immersive Portals from resending terrain to removed players awaiting respawn."
+
+[[dependencies.wombatcraft_portal_fix]]
+modId = "immersive_portals"
+mandatory = true
+versionRange = "[3.0.7]"
+ordering = "AFTER"
+side = "BOTH"
