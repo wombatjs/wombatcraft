@@ -23,9 +23,13 @@ SCOPE = 'XboxLive.signin offline_access'
 NO_UI = 1  # CRYPTPROTECT_UI_FORBIDDEN
 
 
+class SignInRequired(RuntimeError):
+    """The player needs to sign in or use another launcher to play."""
+
+
 def _require_registration(config):
     if not config.get('microsoft_client_id'):
-        raise RuntimeError('Microsoft sign-in is unavailable in this build. Use the Modrinth download to play.')
+        raise SignInRequired('Use Minecraft Launcher to sign in and play.')
 
 
 def _store_token(data, token):
@@ -50,7 +54,7 @@ def _load_token(data):
         # A successful refresh migrates sessions saved by earlier builds.
         return WinVaultKeyring().get_password(SERVICE, 'refresh_token')
     except (OSError, UnicodeError, pywintypes.error):
-        raise RuntimeError('Windows could not read your saved session. Sign in again from Account.') from None
+        raise SignInRequired('Windows could not read your saved session. Sign in again.') from None
 
 
 def _request(service, request, *args, **kwargs):
@@ -81,7 +85,7 @@ def _exchange_microsoft(config, grant_type, **grant):
     if (code and code.group() == 'AADSTS7000218') or result.get('error') == 'invalid_client':
         raise RuntimeError('Microsoft rejected the app configuration. Check that the callback is registered under Mobile and desktop applications in Entra.')
     if result.get('error') == 'invalid_grant':
-        raise RuntimeError('Microsoft rejected the sign-in session. Start a fresh sign-in from Account.')
+        raise SignInRequired('Microsoft rejected the sign-in session. Start a fresh sign-in.')
     suffix = f' ({code.group()})' if code else ''
     raise RuntimeError(f'Microsoft could not exchange the sign-in code{suffix}.')
 
@@ -103,7 +107,7 @@ def _minecraft_session(tokens, data):
     session = _request('Minecraft Services', microsoft_account.authenticate_with_minecraft, user_hash, xsts['Token'])
     if not session.get('access_token'):
         if 'invalid app registration' in str(session.get('errorMessage', '')).lower():
-            raise RuntimeError('Minecraft Services rejected the app registration. Wombatcraft’s client ID needs Minecraft API approval.')
+            raise SignInRequired('Wombatcraft is waiting for Minecraft API approval. You can sign in through Minecraft Launcher.')
         raise RuntimeError('Minecraft Services rejected the Xbox session. Try signing in again.')
 
     profile = _request('Minecraft profile', microsoft_account.get_profile, session['access_token'])
@@ -120,7 +124,7 @@ def refresh(config, data):
     _require_registration(config)
     token = _load_token(data)
     if not token:
-        raise RuntimeError('Sign in with Microsoft before playing.')
+        raise SignInRequired('Sign in with your Minecraft account to play.')
     tokens = _exchange_microsoft(config, 'refresh_token', refresh_token=token)
     return _minecraft_session(tokens, data)
 

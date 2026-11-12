@@ -10,6 +10,6 @@ Before public sign-in can work:
 4. Set `microsoft_client_id` in `launcher/config.json` to the approved application/client ID. The ID is public configuration, not a secret.
 5. Rebuild the launcher. Test a licensed account's browser sign-in, launch, token refresh, sign-out, cancellation and a rejected/no-entitlement account before calling authentication validated.
 
-Wombatcraft's registered client ID is configured in the launcher. Minecraft API approval and a full sign-in with a licensed account still need verification. Players can use `Wombatcraft.mrpack` in Modrinth App in the meantime.
+Wombatcraft's registered client ID is configured in the launcher. Minecraft API approval and a full sign-in with a licensed account still need verification. Signed-out players can use Play to install the pack and sign in through the official Minecraft Launcher.
 
 References: [library authentication documentation](https://minecraft-launcher-lib.readthedocs.io/en/stable/modules/microsoft_account.html), [Microsoft app registration](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app).

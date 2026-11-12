@@ -4,7 +4,7 @@ from PySide6.QtCore import Qt,QObject,Signal,QRunnable,QThreadPool,QTimer,QLockF
 from PySide6.QtGui import QPainter,QPixmap,QColor,QLinearGradient,QFontDatabase,QFont
 from PySide6.QtWidgets import QApplication,QWidget,QVBoxLayout,QHBoxLayout,QLabel,QPushButton,QProgressBar,QSpinBox,QMessageBox
 import minecraft_launcher_lib as mc
-import auth,updater,server_status,interface,launcher_update
+import auth,updater,server_status,interface,launcher_update,official_launcher
 
 BASE=Path(getattr(sys,'_MEIPASS',Path(__file__).resolve().parent))
 BRAND=BASE/'branding' if (BASE/'branding').exists() else BASE.parent/'branding'
@@ -18,10 +18,13 @@ LAUNCHER_UPDATES = DATA / 'launcher-updates'
 
 class Signals(QObject):
  status=Signal(str);success=Signal(object);error=Signal(str)
+ sign_in_required = Signal(str)
 class Work(QRunnable):
  def __init__(self,fn):super().__init__();self.fn=fn;self.signals=Signals()
  def run(self):
   try:self.signals.success.emit(self.fn(self.signals.status.emit))
+  except auth.SignInRequired as error:
+   self.signals.sign_in_required.emit(str(error))
   except Exception as e:
    # Authentication tokens and full HTTP bodies must never be shown or logged.
    message=str(e) if isinstance(e,(RuntimeError,ValueError)) else 'The operation could not finish. Check your connection and retry.'
@@ -42,7 +45,8 @@ class Window(QWidget):
   self.busy=busy
   idle=not busy and self.game is None
   self.sign.setEnabled(idle and bool(CONFIG['microsoft_client_id']))
-  self.play.setEnabled(idle and self.release_available and bool(CONFIG['microsoft_client_id']))
+  self.play.setEnabled(idle)
+  self.official_play.setEnabled(idle)
   self.install.setEnabled(idle);self.memory.setEnabled(idle)
   self.install.setText('Install / check for updates' if self.release_available else 'Check for a release')
   self.logout_button.setEnabled(idle and self.account is not None)
@@ -52,6 +56,7 @@ class Window(QWidget):
   if self.busy or self.game:return
   self.set_busy(True);self.worker=Work(fn);self.worker.signals.status.connect(self.status.setText);self.worker.signals.error.connect(self.failed)
   self.worker.signals.success.connect(lambda value:(self.set_busy(False),success(value)))
+  self.worker.signals.sign_in_required.connect(self.show_sign_in)
   QThreadPool.globalInstance().start(self.worker)
  def failed(self,message):self.set_busy(False);self.status.setText(message)
  def check_launcher_release(self):
@@ -113,39 +118,148 @@ class Window(QWidget):
  def server_checked(self,result):
   self.checking_server=False;players=result.get('players',{});self.server_label.setText(f'Online · {players.get("online",0)} / {players.get("max",0)} players')
  def server_unavailable(self):self.checking_server=False;self.server_label.setText('Status unavailable')
+ def show_sign_in(self, message):
+  self.set_busy(False)
+  interface.show_page(self, 2)
+  self.status.setText(message)
+
  def sign_in(self):
   self.status.setText('Complete sign-in in your browser.');self.run(lambda progress:auth.login(CONFIG,DATA),self.signed_in)
  def signed_in(self,account):self.account=account;self.account_label.setText('Welcome, '+account['name']);self.sign.setText('Switch Microsoft account');self.set_busy(False);self.status.setText('Signed in. Play will check and install the latest release.' if self.release_available else 'Signed in. Check Releases for pack availability.')
  def sign_out(self):
   auth.logout(DATA);self.account=None;self.account_label.setText('Your next expedition starts here.');self.sign.setText('Sign in with Microsoft');self.set_busy(False);self.status.setText('Signed out on this computer.')
- def prepare(self,progress):
-  progress('Checking the latest published release…');m=updater.fetch_json(CONFIG['manifest_url']);updater.validate_manifest(m)
-  stage=DATA/'staging'/m['commit'];records=updater.stage(m,stage,DATA/'cache',progress=progress)
-  progress('Installing Minecraft and Java…');callback={'setStatus':progress}
-  mc.install.install_minecraft_version(m['minecraft'],str(RUNTIME),callback)
+ def pack_manifest(self, progress):
+  progress('Checking the latest published release…')
+  manifest = updater.fetch_json(CONFIG['manifest_url'])
+  updater.validate_manifest(manifest)
+  return manifest
+
+ def pack_ready(self, manifest):
+  try:
+   installed = json.loads((INSTANCE / '.wombatcraft.json').read_text(encoding='utf-8'))
+   if installed.get('commit') != manifest['commit']:
+    return False
+   for file in manifest['files']:
+    if file['client']:
+     path = updater.safe_path(INSTANCE, file['path'])
+     if path.stat().st_size != file['size'] or updater.digest(path) != file['sha512']:
+      return False
+   return all(
+    updater.safe_path(INSTANCE, file['path']).is_file()
+    for file in manifest['overrides']['files'] if file['client']
+   )
+  except (OSError, ValueError, TypeError):
+   return False
+
+ def require_game_closed(self):
+  if official_launcher.game_running(RUNTIME):
+   raise RuntimeError('Wombatcraft is already running. Close Minecraft before updating or opening it again.')
+
+ def require_pack_idle(self):
+  self.require_game_closed()
+  if official_launcher.launcher_running() and official_launcher.has_managed_profile(official_launcher.minecraft_directory()):
+   raise RuntimeError('Close Minecraft Launcher before updating the Wombatcraft pack.')
+
+ def sync_pack(self, manifest, progress):
+  progress('Checking installed Wombatcraft files…')
+  if self.pack_ready(manifest):
+   return
+  self.require_pack_idle()
+  stage = DATA / 'staging' / manifest['commit']
+  records = updater.stage(manifest, stage, DATA / 'cache', progress=progress)
+  self.require_pack_idle()
+  progress('Applying verified pack files…')
+  updater.activate(manifest, records, stage, INSTANCE, DATA / 'transaction')
+
+ def install_pack(self, progress):
+  manifest = self.pack_manifest(progress)
+  self.sync_pack(manifest, progress)
+  return {'manifest': manifest}
+
+ def prepare(self, progress, manifest=None, runtime=None):
+  m = manifest if manifest is not None else self.pack_manifest(progress)
+  runtime = RUNTIME if runtime is None else runtime
+  self.require_game_closed()
+  self.sync_pack(m, progress)
+
+  progress('Checking Java and Forge…')
+  callback = {'setStatus': progress}
   java=mc.runtime.get_executable_path('java-runtime-gamma',str(RUNTIME))
   if not java:
    mc.runtime.install_jvm_runtime('java-runtime-gamma',str(RUNTIME),callback);java=mc.runtime.get_executable_path('java-runtime-gamma',str(RUNTIME))
   if not java:raise RuntimeError('Java 17 installation did not finish. Retry installation.')
   version=m['minecraft']+'-'+m['forge'];installed=mc.forge.forge_to_installed_version(version)
-  if not (RUNTIME/'versions'/installed/(installed+'.json')).exists():mc.forge.install_forge_version(version,str(RUNTIME),callback,java=java)
-  progress('Applying verified pack files…');updater.activate(m,records,stage,INSTANCE,DATA/'transaction')
+  if not official_launcher.forge_ready(runtime, m['minecraft'], m['forge'], installed):
+   mc.forge.install_forge_version(version,str(runtime),callback,java=java)
+   if not official_launcher.forge_ready(runtime, m['minecraft'], m['forge'], installed):
+    raise RuntimeError('Forge installation did not finish. Retry Play to repair it.')
   # Tell Windows to prefer the high-performance GPU for this Java runtime.
   if sys.platform=='win32':
    import winreg
-   with winreg.CreateKey(winreg.HKEY_CURRENT_USER,r'Software\Microsoft\DirectX\UserGpuPreferences') as key:winreg.SetValueEx(key,str(Path(java).resolve()),0,winreg.REG_SZ,'GpuPreference=2;')
+   with winreg.CreateKey(winreg.HKEY_CURRENT_USER,r'Software\Microsoft\DirectX\UserGpuPreferences') as key:
+    for executable in (Path(java), Path(java).with_name('javaw.exe')):
+     if executable.is_file():
+      winreg.SetValueEx(key, str(executable.resolve()), 0, winreg.REG_SZ, 'GpuPreference=2;')
   return dict(manifest=m,java=java,version=installed)
+
+ def prepare_official(self, progress, memory):
+  target = official_launcher.find_launcher()
+  if target is None:
+   webbrowser.open(official_launcher.DOWNLOAD_URL)
+   return 'Install Minecraft Launcher, open it once, then return to Wombatcraft and click Play.'
+
+  root = official_launcher.minecraft_directory()
+  profiles = official_launcher.profile_files(root)
+  if not profiles:
+   official_launcher.open_launcher(target)
+   return 'Sign in, open Java Edition in Minecraft Launcher once, then close it and click Play here again.'
+
+  self.require_game_closed()
+  manifest = self.pack_manifest(progress)
+  version = mc.forge.forge_to_installed_version(manifest['minecraft'] + '-' + manifest['forge'])
+  if official_launcher.launcher_running():
+   java = mc.runtime.get_executable_path('java-runtime-gamma', str(RUNTIME))
+   if (
+    not java
+    or not self.pack_ready(manifest)
+    or not official_launcher.forge_ready(root, manifest['minecraft'], manifest['forge'], version)
+    or not official_launcher.profile_matches(profiles, official_launcher.profile_values(INSTANCE, version, java, memory))
+   ):
+    raise RuntimeError('Close Minecraft Launcher, then click Play here so Wombatcraft can prepare its installation.')
+  else:
+   result = self.prepare(progress, manifest, runtime=root)
+   progress('Adding Wombatcraft to Minecraft Launcher…')
+   official_launcher.register_profiles(
+    profiles, official_launcher.profile_values(INSTANCE, version, result['java'], memory),
+   )
+  official_launcher.open_launcher(target)
+  return 'In Minecraft Launcher, sign in and choose Wombatcraft under Java Edition, then click Play.'
+
+ def play_with_official(self):
+  memory = self.memory.value()
+  self.run(lambda progress: self.prepare_official(progress, memory), self.status.setText)
  def installed(self,result):
-  self.release_available=True;self.set_busy(False);suffix='Choose Play to join.' if self.account else 'Sign in to play.' if CONFIG['microsoft_client_id'] else 'Use Modrinth to play while Microsoft sign-in is unavailable.';self.status.setText('Release '+result['manifest']['commit'][:8]+' is installed. '+suffix);self.progress.setValue(1)
+  self.release_available=True;self.set_busy(False);self.status.setText('Release '+result['manifest']['commit'][:8]+' is installed. Choose Play to continue.');self.progress.setValue(1)
  def play_game(self):
   memory=self.memory.value()
   def launch(progress):
-   progress('Refreshing your Microsoft session…');account=auth.refresh(CONFIG,DATA);result=self.prepare(progress)
+   progress('Checking your Microsoft session…')
+   try:
+    account = auth.refresh(CONFIG, DATA)
+   except auth.SignInRequired:
+    return self.prepare_official(progress, memory)
+   result = self.prepare(progress)
+   self.require_game_closed()
    options={'username':account['name'],'uuid':account['id'],'token':account['access_token'],'executablePath':result['java'],'gameDirectory':str(INSTANCE),'jvmArguments':['-Xms2G',f'-Xmx{memory}G'],'launcherName':'Wombatcraft','launcherVersion':'0.1.0','server':CONFIG['server_address'].split(':')[0],'port':CONFIG['server_address'].split(':')[1]}
    command=mc.command.get_minecraft_command(result['version'],str(RUNTIME),options)
    log=(DATA/'game.log').open('w',encoding='utf-8');process=subprocess.Popen(command,cwd=INSTANCE,stdout=log,stderr=subprocess.STDOUT,creationflags=subprocess.CREATE_NO_WINDOW)
    return process,log,account
-  self.run(launch,self.started)
+  self.run(launch,self.play_ready)
+ def play_ready(self, result):
+  if isinstance(result, str):
+   self.status.setText(result)
+  else:
+   self.started(result)
  def started(self,result):
   self.game,self.log,self.account=result;self.set_busy(False);self.status.setText('Minecraft is starting. The first launch can take several minutes.');self.play.setText('Minecraft is running')
  def poll_game(self):
@@ -180,7 +294,8 @@ if __name__=='__main__':
    else:
     lock.unlock()
     sys.exit(0)
- updater.recover(INSTANCE,DATA/'transaction')
+ if not official_launcher.game_running(RUNTIME):
+  updater.recover(INSTANCE,DATA/'transaction')
  window=Window()
  if '--compact' in sys.argv:window.resize(1000,680)
  window.show()

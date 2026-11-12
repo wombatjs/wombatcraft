@@ -6,11 +6,11 @@ A shared frontier of industry, spellcraft, exploration and settlement for Minecr
 
 The pack contains 277 pinned mod files and 1,936 quests across 42 chapters. Twenty-three major-mod chapters now have authored progression branches. The earlier client was tested on an RTX 4070 and its seamless TARDIS doorway was traversed in both directions. Automated release validation boots a fresh Forge world and checks every quest ID, item reference and endgame recipe, then repeats the check after a clean restart.
 
-The public server is `74.208.117.88:25565`, hosted in Pterodactyl through the existing proxy. Download **Wombatcraft.mrpack** from [Releases](https://github.com/wombatjs/wombatcraft/releases/latest) and import it into Modrinth App.
+The public server is `74.208.117.88:25565`, hosted in Pterodactyl through the existing proxy. Download the Windows launcher from [Releases](https://github.com/wombatjs/wombatcraft/releases/latest).
 
 Extract the complete Windows launcher ZIP before opening `Wombatcraft.exe`. The launcher checks GitHub Releases at startup and restarts into a newer launcher after verifying the download and testing that it opens. You can also check from **About → Check for launcher updates**. Older launcher ZIPs need a one-time manual replacement to gain this feature.
 
-Wombatcraft's client ID is configured for Microsoft sign-in. Minecraft API approval and full sign-in with a licensed account still need verification. The Modrinth pack is available in Releases.
+Click **Play** in Wombatcraft to check and install the current pack. If you're signed out, Wombatcraft prepares its Java Edition installation and opens the official Minecraft Launcher. Sign in there and select **Wombatcraft** to play. If Minecraft Launcher is new, open Java Edition once to complete setup before returning to Wombatcraft. Direct sign-in inside Wombatcraft still needs Minecraft API approval and a licensed account test.
 
 `pack/` contains distributable configuration, original quests and scripts. `mod-lock.json` pins upstream downloads and hashes; third-party mod binaries are not stored in Git. The earlier Fabric pack remains a separate backup.
 
