@@ -5,10 +5,10 @@ ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'launcher'))
 dest=ROOT/'dist/server-smoke';dest.mkdir(parents=True,exist_ok=True)
 lock=json.loads((ROOT/'mod-lock.json').read_text());mods=dest/'mods';mods.mkdir(exist_ok=True)
 for r in lock['mods']:
- if r['project'].get('server_side')=='unsupported':continue
+ if not r.get('server',r['project'].get('server_side')!='unsupported'):continue
  f=r['file'];updater.download(dict(url=f['url'],sha512=f['hashes']['sha512'],size=f['size']),mods/f['filename'])
 for name in ['config','kubejs','defaultconfigs']:
- if (ROOT/'pack'/name).exists():shutil.copytree(ROOT/'pack'/name,dest/name,dirs_exist_ok=True)
+ if (ROOT/'pack'/name).exists():shutil.copytree(ROOT/'pack'/name,dest/name,dirs_exist_ok=True,ignore=shutil.ignore_patterns('simple-rpc','oculus.properties'))
 version='1.20.1-47.4.28';installer=dest/'installer.jar'
 downloaded=False
 for origin in ['https://maven.minecraftforge.net','https://files.minecraftforge.net/maven']:

@@ -4,7 +4,7 @@ A shared frontier of industry, spellcraft, exploration and settlement for Minecr
 
 ## Development status
 
-The pack contains 285 pinned mod files and 1,936 quests across 42 chapters. Twenty-three major-mod chapters have authored progression branches. Automated release validation boots a fresh Forge world and checks quest IDs, item references, endgame recipes and server commands, then repeats the check after a clean restart.
+The pack contains 285 pinned mod files and 1,936 quests across 42 chapters. Discord Rich Presence adds two client mods when activated. Twenty-three major-mod chapters have authored progression branches. Automated release validation boots a fresh Forge world and checks quest IDs, item references, endgame recipes and server commands, then repeats the check after a clean restart.
 
 The public server is `74.208.117.88:25565`, hosted in Pterodactyl through the existing proxy. Download the Windows launcher from [Releases](https://github.com/wombatjs/wombatcraft/releases/latest).
 
@@ -21,6 +21,8 @@ Embeddium, ImmediatelyFast and Dynamic FPS are included. To enable Complementary
 Members can set three homes with `/sethome`. Use `/home`, `/spawn`, `/tpa` and `/warp` to get around. FTB Chunks manages claims and Lightman’s Currency provides coins and player shops. Titles unlock through advancements, and Cosmetic Armor lets players change the appearance of their armor.
 
 Staff can use `/spark` for profiling and `/pp` for PrismProtect block history and rollback. The Moderator rank grants chat moderation. Assign it through FTB Ranks when a staff member needs it.
+
+See the [Discord Rich Presence setup](discord/README.md) for the launcher and Minecraft activity cards and their artwork.
 
 ## Release contract
 

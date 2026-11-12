@@ -2,7 +2,7 @@
 import json, os, webbrowser
 from PySide6.QtCore import Qt, QSize
 from PySide6.QtGui import QColor, QFont, QFontDatabase, QIcon, QPainter, QPainterPath, QPixmap, QLinearGradient
-from PySide6.QtWidgets import QWidget, QFrame, QLabel, QPushButton, QVBoxLayout, QHBoxLayout, QStackedWidget, QSpinBox, QProgressBar
+from PySide6.QtWidgets import QWidget, QFrame, QLabel, QPushButton, QVBoxLayout, QHBoxLayout, QStackedWidget, QSpinBox, QProgressBar, QCheckBox
 
 STYLE='''
 QWidget { color:#f5efff; font-family:"Segoe UI"; font-size:15px; }
@@ -51,7 +51,7 @@ class Banner(QWidget):
   path=QPainterPath();path.addText(26,self.height()*.53,font,'WOMBATCRAFT');p.setPen(QColor('#120c1d'));pen=p.pen();pen.setWidth(6);p.setPen(pen);p.setBrush(QColor('#fff9ff'));p.drawPath(path);p.fillPath(path,QColor('#fff9ff'))
   p.setPen(QColor('#fff3ff'));font=QFont('Segoe UI');font.setPixelSize(17);p.setFont(font);p.drawText(28,int(self.height()*.53+35),'Play. Mod. Wombat.')
 
-def build(window, brand, config, data):
+def build(window, brand, config, data, *, discord_configured=False):
  w=window;w.setObjectName('shell');w.setWindowTitle('Wombatcraft Launcher');w.setWindowIcon(QIcon(str(brand/'mascot.png')));w.resize(1220,760);w.setMinimumSize(1000,680);w.setStyleSheet(STYLE)
  root=QHBoxLayout(w);root.setContentsMargins(0,0,0,0);root.setSpacing(0)
  sidebar=QFrame();sidebar.setObjectName('sidebar');sidebar.setFixedWidth(204);side=QVBoxLayout(sidebar);side.setContentsMargins(16,24,16,20);side.setSpacing(9)
@@ -79,9 +79,31 @@ def build(window, brand, config, data):
 
  settings=QWidget();st=QVBoxLayout(settings);st.setContentsMargins(0,0,0,0);st.addWidget(label('Settings','heading'));card,cl=surface();cl.addWidget(label('Minecraft memory','heading'));cl.addWidget(label('10 GB is the default for this pack. Leave memory available for Windows and your other apps.',wrap=True));w.memory=QSpinBox();w.memory.setRange(6,16);w.memory.setSuffix(' GB');w.memory.setValue(10)
  settings_path=data/'settings.json'
- try:w.memory.setValue(int(json.loads(settings_path.read_text()).get('memory_gb',10)))
- except (OSError,ValueError,TypeError):pass
- w.memory.valueChanged.connect(lambda value:settings_path.write_text(json.dumps({'memory_gb':value})));cl.addWidget(w.memory);cl.addWidget(button('Open launcher files & game log',lambda:os.startfile(str(data))));st.addWidget(card);st.addStretch();w.pages.addWidget(settings)
+ try:
+  preferences=json.loads(settings_path.read_text(encoding='utf-8'))
+  if not isinstance(preferences,dict):preferences={}
+ except (OSError,ValueError):
+  preferences={}
+ try:w.memory.setValue(int(preferences.get('memory_gb',10)))
+ except (ValueError,TypeError):pass
+
+ def save_preference(key,value):
+  preferences[key]=value
+  settings_path.write_text(json.dumps(preferences),encoding='utf-8')
+
+ w.memory.valueChanged.connect(lambda value:save_preference('memory_gb',value))
+ cl.addWidget(w.memory)
+ cl.addWidget(button('Open launcher files & game log',lambda:os.startfile(str(data))))
+ st.addWidget(card)
+ if discord_configured:
+  discord_card,discord_layout=surface()
+  discord_layout.addWidget(label('Discord','heading'))
+  w.discord_activity=QCheckBox('Show launcher activity in Discord')
+  w.discord_activity.setChecked(preferences.get('discord_activity',True) is True)
+  w.discord_activity.toggled.connect(lambda value:save_preference('discord_activity',value))
+  discord_layout.addWidget(w.discord_activity)
+  st.addWidget(discord_card)
+ st.addStretch();w.pages.addWidget(settings)
 
  about=QWidget();ab=QVBoxLayout(about);ab.setContentsMargins(0,0,0,0);ab.addWidget(label('About Wombatcraft','heading'));card,cl=surface();cl.addWidget(label('Made for the journey together.','heading'));cl.addWidget(label('An independent modded Minecraft community. Wombatcraft brings engineering, magic and exploration into one shared world.',wrap=True));cl.addWidget(button('Source code & issue tracker',lambda:webbrowser.open('https://github.com/wombatjs/wombatcraft')));cl.addWidget(label('An independent project. Mojang and Microsoft do not endorse Wombatcraft.','muted',True));ab.addWidget(card)
  updates,ul=surface()

@@ -16,7 +16,8 @@ commit = os.environ['GITHUB_SHA'] if revision else (
 )
 build = {'commit': commit, 'revision': revision}
 build_file.write_text(json.dumps(build) + '\n', encoding='utf-8')
-args=[sys.executable,'-m','PyInstaller','--noconfirm','--clean','--windowed','--onedir','--name','Wombatcraft','--distpath',str(ROOT/'dist/launcher'),'--workpath',str(ROOT/'dist/launcher-build'),'--specpath',str(ROOT/'dist'),'--add-data',str(ROOT/'launcher/config.json')+';.', '--add-data',str(build_file)+';.', '--add-data',str(ROOT/'branding')+';branding',str(ROOT/'launcher/main.py')]
+discord_config = ROOT / 'pack/config/simple-rpc/simple-rpc.toml'
+args=[sys.executable,'-m','PyInstaller','--noconfirm','--clean','--windowed','--onedir','--name','Wombatcraft','--distpath',str(ROOT/'dist/launcher'),'--workpath',str(ROOT/'dist/launcher-build'),'--specpath',str(ROOT/'dist'),'--add-data',str(ROOT/'launcher/config.json')+';.', '--add-data',str(build_file)+';.', '--add-data',str(ROOT/'branding')+';branding', '--add-data',str(discord_config)+';discord',str(ROOT/'launcher/main.py')]
 subprocess.run(args,check=True)
 # Qt 6.12 uses the Windows ICU API. PyInstaller can pick an unrelated ICU
 # from PATH whose version-suffixed exports break QtCore at startup.

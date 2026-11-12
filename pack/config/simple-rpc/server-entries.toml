@@ -1,0 +1,26 @@
+enabled = true
+version = 3
+
+[[entry]]
+ip = "74.208.117.88:25565"
+[[entry.presence]]
+type = "PLAYING"
+description = "On the official server"
+state = "Building the frontier together"
+largeImageKey = ["wombatcraft_frontier"]
+largeImageText = "The Wombatcraft Frontier"
+smallImageKey = ["wombatcraft"]
+smallImageText = "Wombatcraft"
+buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
+
+[[entry]]
+ip = "74.208.117.88"
+[[entry.presence]]
+type = "PLAYING"
+description = "On the official server"
+state = "Building the frontier together"
+largeImageKey = ["wombatcraft_frontier"]
+largeImageText = "The Wombatcraft Frontier"
+smallImageKey = ["wombatcraft"]
+smallImageText = "Wombatcraft"
+buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]

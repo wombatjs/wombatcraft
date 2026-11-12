@@ -1,0 +1,96 @@
+# The application ID also configures the Wombatcraft Windows launcher.
+[general]
+applicationID = ""
+enabled = false
+debugging = false
+launcherIntegration = false
+rpcImageServer = false
+version = 27
+
+[init]
+enabled = true
+[[init.presence]]
+type = "PLAYING"
+description = "Starting Minecraft"
+state = "Forge 1.20.1"
+largeImageKey = ["wombatcraft"]
+largeImageText = "Wombatcraft"
+buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
+
+[main_menu]
+enabled = true
+[[main_menu.presence]]
+type = "PLAYING"
+description = "At the main menu"
+state = "Ready to explore"
+largeImageKey = ["wombatcraft"]
+largeImageText = "Wombatcraft"
+buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
+
+[server_list]
+enabled = true
+[[server_list.presence]]
+type = "PLAYING"
+description = "Browsing servers"
+state = "Multiplayer"
+largeImageKey = ["wombatcraft"]
+largeImageText = "Wombatcraft"
+buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
+
+[join_game]
+enabled = true
+[[join_game.presence]]
+type = "PLAYING"
+description = "Entering the world"
+state = "Wombatcraft modpack"
+largeImageKey = ["wombatcraft"]
+largeImageText = "Wombatcraft"
+buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
+
+[single_player]
+enabled = true
+[[single_player.presence]]
+type = "PLAYING"
+description = "Exploring the frontier"
+state = "Singleplayer"
+largeImageKey = ["wombatcraft"]
+largeImageText = "Wombatcraft"
+buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
+
+[multi_player]
+enabled = true
+[[multi_player.presence]]
+type = "PLAYING"
+description = "Exploring with friends"
+state = "Multiplayer"
+largeImageKey = ["wombatcraft"]
+largeImageText = "Wombatcraft"
+buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
+
+[paused]
+enabled = true
+[[paused.presence]]
+type = "PLAYING"
+description = "Taking a breather"
+state = "Paused"
+largeImageKey = ["wombatcraft"]
+largeImageText = "Wombatcraft"
+buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
+
+[generic]
+[[generic.presence]]
+type = "PLAYING"
+description = "Exploring the frontier"
+state = "Wombatcraft modpack"
+largeImageKey = ["wombatcraft"]
+largeImageText = "Wombatcraft"
+buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
+
+[realms_list]
+enabled = false
+
+[realms]
+enabled = false
+
+[dimension_overrides]
+enabled = false

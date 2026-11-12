@@ -5,11 +5,14 @@ from PySide6.QtGui import QPainter,QPixmap,QColor,QLinearGradient,QFontDatabase,
 from PySide6.QtWidgets import QApplication,QWidget,QVBoxLayout,QHBoxLayout,QLabel,QPushButton,QProgressBar,QSpinBox,QMessageBox
 import minecraft_launcher_lib as mc
 import auth,updater,server_status,interface,launcher_update,official_launcher
+import discord_presence
 
 BASE=Path(getattr(sys,'_MEIPASS',Path(__file__).resolve().parent))
 BRAND=BASE/'branding' if (BASE/'branding').exists() else BASE.parent/'branding'
 CONFIG=json.loads((BASE/'config.json').read_text())
 PACKAGED = getattr(sys, 'frozen', False)
+DISCORD_CONFIG = BASE/'discord/simple-rpc.toml' if PACKAGED else BASE.parent/'pack/config/simple-rpc/simple-rpc.toml'
+DISCORD_APP_ID = discord_presence.application_id(DISCORD_CONFIG)
 BUILD = launcher_update.read_build(BASE / launcher_update.BUILD_FILE) if PACKAGED else launcher_update.Build('0' * 40, 0)
 DATA=Path(os.environ.get('LOCALAPPDATA',str(Path.home()/'.local/share')))/'Wombatcraft'
 DATA.mkdir(parents=True,exist_ok=True)
@@ -34,7 +37,11 @@ class Work(QRunnable):
 class Window(QWidget):
  def __init__(self):
   super().__init__();self.account=None;self.busy=False;self.game=None;self.log=None;self.release_available=False;self.checking_server=False
-  interface.build(self,BRAND,CONFIG,DATA)
+  interface.build(self,BRAND,CONFIG,DATA,discord_configured=bool(DISCORD_APP_ID))
+  self.discord = None
+  if DISCORD_APP_ID and '--smoke-test' not in sys.argv:
+   self.discord = discord_presence.LauncherPresence(DISCORD_APP_ID, RUNTIME, self.discord_activity.isChecked())
+   self.discord_activity.toggled.connect(self.discord.set_enabled)
   self.timer=QTimer(self);self.timer.timeout.connect(self.poll_game);self.timer.start(1500)
   self.server_timer=QTimer(self);self.server_timer.timeout.connect(self.check_server);self.server_timer.start(30000)
   self.set_busy(False)
@@ -268,7 +275,10 @@ class Window(QWidget):
  def closeEvent(self,event):
   if self.busy or self.game:
    QMessageBox.information(self,'Wombatcraft','Close Minecraft or let the current operation finish before closing the launcher.');event.ignore()
-  else:event.accept()
+  else:
+   if self.discord is not None:
+    self.discord.close()
+   event.accept()
 
 if __name__=='__main__':
  app=QApplication(sys.argv);app.setApplicationName('Wombatcraft')
