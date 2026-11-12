@@ -1,7 +1,7 @@
 # The application ID also configures the Wombatcraft Windows launcher.
 [general]
-applicationID = ""
-enabled = false
+applicationID = "318787432738717696"
+enabled = true
 debugging = false
 launcherIntegration = false
 rpcImageServer = false
