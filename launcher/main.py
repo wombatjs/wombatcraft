@@ -41,7 +41,7 @@ class Window(QWidget):
   self.sign=QPushButton('Sign in with Microsoft');self.sign.clicked.connect(self.sign_in);layout.addWidget(self.sign)
   self.auth_note=QLabel('Microsoft sign-in is not available yet. Use the Modrinth package from Releases.');self.auth_note.setWordWrap(True);self.auth_note.setStyleSheet('font-size:12px;color:#d8c8aa');self.auth_note.setVisible(not bool(CONFIG['microsoft_client_id']));layout.addWidget(self.auth_note)
   self.play=QPushButton('Play Wombatcraft');self.play.setObjectName('play');self.play.clicked.connect(self.play_game);layout.addWidget(self.play)
-  self.install=QPushButton('Install / check for updates');self.install.clicked.connect(lambda:self.run(self.prepare,self.installed));layout.addWidget(self.install)
+  self.install=QPushButton('Install / check for updates');self.install.clicked.connect(lambda:self.run(self.prepare,self.installed) if self.release_available else self.check_release());layout.addWidget(self.install)
   self.progress=QProgressBar();self.progress.setFixedHeight(5);self.progress.setTextVisible(False);self.progress.setRange(0,1);self.progress.setValue(0);layout.addWidget(self.progress)
   self.status=QLabel('Checking for a published release…');self.status.setWordWrap(True);self.status.setMinimumHeight(54);self.status.setStyleSheet('color:#e4d7bf;font-size:14px');layout.addWidget(self.status)
   settings=QHBoxLayout();settings.addWidget(QLabel('Memory'));self.memory=QSpinBox();self.memory.setRange(6,16);self.memory.setSuffix(' GB');self.memory.setValue(10);settings.addWidget(self.memory);settings.addStretch();layout.addLayout(settings)

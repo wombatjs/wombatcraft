@@ -1,5 +1,5 @@
 """Boot a disposable dedicated server and validate live quest/item/recipe registries."""
-import json,os,shutil,subprocess,sys,time,urllib.request,zipfile
+import hashlib,json,os,shutil,subprocess,sys,time,urllib.request,zipfile
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'launcher'));import updater
 dest=ROOT/'dist/server-smoke';dest.mkdir(parents=True,exist_ok=True)
@@ -10,7 +10,12 @@ for r in lock['mods']:
 for name in ['config','kubejs','defaultconfigs']:
  if (ROOT/'pack'/name).exists():shutil.copytree(ROOT/'pack'/name,dest/name,dirs_exist_ok=True)
 version='1.20.1-47.4.28';installer=dest/'installer.jar'
-urllib.request.urlretrieve(f'https://maven.minecraftforge.net/net/minecraftforge/forge/{version}/forge-{version}-installer.jar',installer)
+downloaded=False
+for origin in ['https://maven.minecraftforge.net','https://files.minecraftforge.net/maven']:
+ result=subprocess.run(['curl','--fail','--location','--retry','3','--retry-all-errors','--retry-delay','4','--max-time','120','--user-agent','Wombatcraft/0.1',origin+f'/net/minecraftforge/forge/{version}/forge-{version}-installer.jar','--output',str(installer)],capture_output=True,text=True)
+ if result.returncode==0:downloaded=True;break
+if not downloaded:raise RuntimeError('Official Forge download failed from both official endpoints')
+assert hashlib.sha512(installer.read_bytes()).hexdigest()=='8fd435b269ea75a97340127ab9f745410595ce70e52c39fe1aa70ad00419ae8c4580049d6538c3a24adf9bfc6bc2b42026f2a4cca33015f9f3c5bb8152c1fd35','Forge installer hash mismatch'
 with (dest/'install.log').open('w') as log:subprocess.run(['java','-jar',str(installer),'--installServer'],cwd=dest,stdout=log,stderr=subprocess.STDOUT,check=True,timeout=600)
 classes=dest/'qa-classes';classes.mkdir(exist_ok=True)
 cp=os.pathsep.join(str(p) for folder in ['net/minecraftforge/forge','net/minecraftforge/javafmllanguage','net/minecraftforge/eventbus'] for p in (dest/'libraries'/folder).rglob('*.jar') if not any(k in p.name for k in ['sources','installer','client','extra']))
@@ -36,7 +41,7 @@ with (dest/'console.log').open('w') as log:
   refs|={t['item'] for q in quests for t in q.get('tasks',[]) if t.get('type')=='item' and isinstance(t.get('item'),str)}
   refs|={r['item'] for q in quests for r in q.get('rewards',[]) if r.get('type')=='item' and isinstance(r.get('item'),str)}
   assert not refs-registry,'Missing runtime items: '+str(sorted(refs-registry))
-  recipes=set((dest/'recipe-registry.txt').read_text().splitlines());endgame={'kubejs:'+name for name in ['industrial_sigil','arcane_sigil','voyager_sigil','prosperity_sigil','convergence_core']};assert endgame<=recipes,'Missing endgame recipes'
+  recipes=set((dest/'recipe-registry.txt').read_text().splitlines());endgame={'kubejs:endgame/'+name for name in ['industrial_sigil','arcane_sigil','voyager_sigil','prosperity_sigil','convergence_core']};assert endgame<=recipes,'Missing endgame recipes'
   assert 'Parsing error loading recipe' not in text,'Recipe parse errors'
   (ROOT/'dist/server-validation.json').write_text(json.dumps(dict(quests=len(quests),registry_items=len(registry),recipes=len(recipes),endgame_recipes=sorted(endgame),fresh_world_started=True),indent=2))
   print('Dedicated server, quest registry and endgame recipe validation passed.')
