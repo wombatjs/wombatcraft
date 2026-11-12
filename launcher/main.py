@@ -107,6 +107,15 @@ class Window(QWidget):
 
 if __name__=='__main__':
  app=QApplication(sys.argv);app.setApplicationName('Wombatcraft')
+ if '--smoke-test' in sys.argv:
+  # Exercise the packaged Qt imports, fonts, artwork and widgets without auth
+  # or changes to an installed pack. A startup error cannot produce this file.
+  from PySide6.QtCore import __version__ as qt_version
+  report=Path(sys.argv[sys.argv.index('--smoke-test')+1])
+  smoke=Window()
+  smoke.show()
+  report.write_text(json.dumps({'window_created':smoke.isVisible(),'qt':qt_version}))
+  sys.exit(0)
  lock=QLockFile(str(DATA/'launcher.lock'));lock.setStaleLockTime(0)
  if not lock.tryLock(100):QMessageBox.information(None,'Wombatcraft','Wombatcraft is already open.');sys.exit(1)
  updater.recover(INSTANCE,DATA/'transaction')
