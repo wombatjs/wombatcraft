@@ -46540,59 +46540,59 @@
           "forge"
         ],
         "environment": "client_or_server_prefers_both",
-        "id": "6E4ps2ER",
+        "id": "Dd0gxTsG",
         "project_id": "u6dRKJwZ",
         "author_id": "nMXRSbhF",
         "featured": false,
-        "name": "15.74.0.234 for Forge 1.20.1",
-        "version_number": "15.74.0.234",
-        "changelog": "  * [Fix #4599 Preserve chat item link click actions](https://github.com/mezz/JustEnoughItems/commit/d200ba67c3c90a2c43edd13de158abe98f7727b9) - mezz\n  * [Cache ingredient type visibility snapshots](https://github.com/mezz/JustEnoughItems/commit/a2e6be7e292237a1d5b90478aa70e852ef5e000f) - mezz\n  * [Remove redundant recipe category sorting](https://github.com/mezz/JustEnoughItems/commit/9138657ac85f36a14e70022f21cdae514813abc4) - mezz\n  * [Close #4590 Close inventory on Escape during ingredient navigation](https://github.com/mezz/JustEnoughItems/commit/672e9f85b7706ec83b4ff2a3f56cdbaa249ac001) - mezz\n  * [Avoid retaining unsupported menus during recipe transfer lookup](https://github.com/mezz/JustEnoughItems/commit/1380b892787ff0518e00fbfe788d8a8dcc3a3555) - mezz\n  * [Implement sorting snapshots in ingredient filter tests](https://github.com/mezz/JustEnoughItems/commit/d6324b53d01c8380dbd9c2d6c22cd2ca1461d002) - mezz\n  * [Check API compatibility in final runtime jars](https://github.com/mezz/JustEnoughItems/commit/c58cf1696431bbbc5a3a3a4910acb60e8356f8dc) - mezz\n  * [Support Minecraft 26.1.2 instead of 26.2](https://github.com/mezz/JustEnoughItems/commit/b13718152db9a7488547d1babfc9c2a48c0c42ab) - mezz\n  * [Use single-use Gradle daemons in Jenkins](https://github.com/mezz/JustEnoughItems/commit/9374f793dfad7831b44cf9ec439dcfb5bc7c4e16) - mezz\n  * [Test item decorations in batched rendering](https://github.com/mezz/JustEnoughItems/commit/68c6a7793fba055593c309c1c285a99bf4e1665e) - Reece Mackie\n  * [Optimize recipe category visibility check](https://github.com/mezz/JustEnoughItems/commit/644e2cb8a5df0937a471dfee00d822546c552238) - mezz\n  * [Fix #4600 IME input after search actions](https://github.com/mezz/JustEnoughItems/commit/ebaeff31cb749b273d264296ae8b476df3433e48) - mezz\n  * [Speed up Fabric client test tick and render waits](https://github.com/mezz/JustEnoughItems/commit/d12cb30e8460dc3fbfec0ba6dfc474399b8334f7) - mezz\n  * [Advance requested Fabric client test ticks per frame](https://github.com/mezz/JustEnoughItems/commit/79525be58f7c8cc7bfeef9b52a38b92a0b04e575) - mezz\n  * [Update Russian localization (#4597)](https://github.com/mezz/JustEnoughItems/commit/16e60c685eef8718c694e3294104d430cc7cc244) - makkaor\n  * [Fix #4586 exclude shaded dependency module descriptors](https://github.com/mezz/JustEnoughItems/commit/42e772892a60a508fd58cf54f36778bc005fc1db) - mezz\n",
+        "name": "15.74.0.229 for Forge 1.20.1",
+        "version_number": "15.74.0.229",
+        "changelog": "  * [Standardize GUI sprite paths for resource packs (#4575)](https://github.com/mezz/JustEnoughItems/commit/c93881f06d50f8f9fe9c3047dc5533d6d4e3d152) - mezz\n",
         "changelog_url": null,
-        "date_published": "2026-11-01T12:21:01.304590Z",
-        "downloads": 79130,
+        "date_published": "2026-10-23T14:04:03.464976Z",
+        "downloads": 32899,
         "version_type": "beta",
         "status": "listed",
         "requested_status": null,
         "files": [
           {
-            "id": "ZI2DZOC0",
+            "id": "3w8ZiSH9",
             "hashes": {
-              "sha512": "ea5f2b8bfe602e33fb8ac82633ccb1d0214cdf27f124d0c395bf8d2a2e691df758948930e64d23171ab919e2542b9d96b16b06b7e42936489fba6240d4363424",
-              "sha1": "1ae408badfe8b57417f465a06fc4d03215dba993"
+              "sha1": "f3ef3096188703d5e5dcddea226cf8952cdf01ee",
+              "sha512": "b21a5eb5d61ebf8b4a81a43a72591f8c7027fac25026e3cec898a2540e87e43739fc8223ef982ecc51128dc6b60c8b450c293d64832587a61bf582a11b4eface"
             },
-            "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/6E4ps2ER/jei-1.20.1-forge-15.74.0.234.jar",
-            "filename": "jei-1.20.1-forge-15.74.0.234.jar",
+            "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/Dd0gxTsG/jei-1.20.1-forge-15.74.0.229.jar",
+            "filename": "jei-1.20.1-forge-15.74.0.229.jar",
             "primary": true,
-            "size": 4805946,
+            "size": 6892564,
             "file_type": null
           }
         ],
         "dependencies": [
           {
             "version_id": null,
-            "project_id": "7tEfOcA7",
-            "file_name": null,
-            "dependency_type": "required"
-          },
-          {
-            "version_id": null,
             "project_id": "BOHUKqOz",
             "file_name": null,
             "dependency_type": "optional"
+          },
+          {
+            "version_id": null,
+            "project_id": "7tEfOcA7",
+            "file_name": null,
+            "dependency_type": "required"
           }
         ]
       },
       "category": "Utility",
       "file": {
-        "id": "ZI2DZOC0",
+        "id": "3w8ZiSH9",
         "hashes": {
-          "sha512": "ea5f2b8bfe602e33fb8ac82633ccb1d0214cdf27f124d0c395bf8d2a2e691df758948930e64d23171ab919e2542b9d96b16b06b7e42936489fba6240d4363424",
-          "sha1": "1ae408badfe8b57417f465a06fc4d03215dba993"
+          "sha1": "f3ef3096188703d5e5dcddea226cf8952cdf01ee",
+          "sha512": "b21a5eb5d61ebf8b4a81a43a72591f8c7027fac25026e3cec898a2540e87e43739fc8223ef982ecc51128dc6b60c8b450c293d64832587a61bf582a11b4eface"
         },
-        "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/6E4ps2ER/jei-1.20.1-forge-15.74.0.234.jar",
-        "filename": "jei-1.20.1-forge-15.74.0.234.jar",
+        "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/Dd0gxTsG/jei-1.20.1-forge-15.74.0.229.jar",
+        "filename": "jei-1.20.1-forge-15.74.0.229.jar",
         "primary": true,
-        "size": 4805946,
+        "size": 6892564,
         "file_type": null
       },
       "metadata": {
