@@ -1,0 +1,26 @@
+# Runtime and credentials never belong in the distributable source.
+*.jar
+*.mrpack
+*.zip
+*.exe
+*.msi
+*.log
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+build/
+__pycache__/
+world/
+saves/
+logs/
+crash-reports/
+backups/
+accounts.json
+tokens.json
+server.properties
+usercache.json
+ops.json
+whitelist.json
+pack/config/ftbquests/quests/README.md

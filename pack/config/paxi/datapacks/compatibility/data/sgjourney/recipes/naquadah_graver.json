@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "sgjourney:naquadah"
+  },
+  "base": {
+    "item": "sgjourney:diamond_graver"
+  },
+  "result": {
+    "item": "sgjourney:naquadah_graver"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "id": "09E9A000554DF175",
+  "group": "0DCB27D2C77209FB",
+  "title": "Pneumatics",
+  "order_index": 32,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "04CAA53FE324955D",
+      "title": "Read the pneumatic manual",
+      "subtitle": "Compressed Iron Ingot",
+      "description": [
+        "Learn pressure limits and safety valves before building an air network.",
+        "Goal: obtain Compressed Iron Ingot. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "pneumaticcraft:ingot_iron_compressed",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0DC98E9B84BA29C5"
+      ],
+      "tasks": [
+        {
+          "id": "0F79AC9C4B0EEEC5",
+          "type": "item",
+          "item": "pneumaticcraft:ingot_iron_compressed",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "00FEAE31796B976D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0C94D28969564C98",
+      "title": "Compressed iron",
+      "subtitle": "Compressed Iron Ingot",
+      "description": [
+        "Follow the manual's initial production method in a safe location away from your base.",
+        "Goal: obtain Compressed Iron Ingot. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "pneumaticcraft:ingot_iron_compressed",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "04CAA53FE324955D"
+      ],
+      "tasks": [
+        {
+          "id": "083C2206E9DCB85D",
+          "type": "item",
+          "item": "pneumaticcraft:ingot_iron_compressed",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D3DCFFF9018DD99",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0CE35049CD4CBE7E",
+      "title": "Make compressed air",
+      "subtitle": "Air Compressor",
+      "description": [
+        "Supply the compressor and monitor its pressure. Build pressure control before leaving it unattended.",
+        "Goal: obtain Air Compressor. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "pneumaticcraft:air_compressor",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0C94D28969564C98"
+      ],
+      "tasks": [
+        {
+          "id": "02056136EC73F976",
+          "type": "item",
+          "item": "pneumaticcraft:air_compressor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0CC099B8595BA33E",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0EEFE20A2A7818A9",
+      "title": "Route the air",
+      "subtitle": "Pressure Tube",
+      "description": [
+        "Connect a short tube network. Check the ratings of every connected device.",
+        "Goal: obtain Pressure Tube. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "pneumaticcraft:pressure_tube",
+      "x": 6.46,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0CE35049CD4CBE7E"
+      ],
+      "tasks": [
+        {
+          "id": "06C6B83CFF667C97",
+          "type": "item",
+          "item": "pneumaticcraft:pressure_tube",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09650535F1742D2A",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "0E23AAB249240C68",
+      "title": "Build a pressure chamber",
+      "subtitle": "Pressure Chamber Wall",
+      "description": [
+        "Follow the multiblock diagram and include the required valve and interfaces.",
+        "Goal: obtain Pressure Chamber Wall. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "pneumaticcraft:pressure_chamber_wall",
+      "x": 7.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0EEFE20A2A7818A9"
+      ],
+      "tasks": [
+        {
+          "id": "0BB06D442EB8E1B6",
+          "type": "item",
+          "item": "pneumaticcraft:pressure_chamber_wall",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0162223A41509AAF",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "0A05E8A19938A3EA",
+      "title": "Circuit production",
+      "subtitle": "Finished PCB",
+      "description": [
+        "Build the processing chain shown in the manual and keep a steady component supply.",
+        "Goal: obtain Finished PCB. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "pneumaticcraft:printed_circuit_board",
+      "x": 2.69,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0E23AAB249240C68"
+      ],
+      "tasks": [
+        {
+          "id": "0C88333A9F2D46E9",
+          "type": "item",
+          "item": "pneumaticcraft:printed_circuit_board",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "00237E297F9FB26C",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "05EB53B6981971FC",
+      "title": "Assembly automation",
+      "subtitle": "Assembly Controller",
+      "description": [
+        "Arrange the required assembly machines and programs. Test one recipe before automating input.",
+        "Goal: obtain Assembly Controller. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "pneumaticcraft:assembly_controller",
+      "x": 3.94,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0A05E8A19938A3EA"
+      ],
+      "tasks": [
+        {
+          "id": "059A8C6BAC05AED9",
+          "type": "item",
+          "item": "pneumaticcraft:assembly_controller",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07158EF404F7134D",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "0DC98E9B84BA29C5",
+      "title": "PneumaticCraft: Repressurized",
+      "subtitle": "Overview",
+      "description": [
+        "An automation branch powered by compressed air. Pressure management and process layout are as important as making the machines.",
+        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+      ],
+      "icon": "pneumaticcraft:ingot_iron_compressed",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0F183B073C8A00E8",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

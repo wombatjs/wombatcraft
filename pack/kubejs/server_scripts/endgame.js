@@ -1,0 +1,8 @@
+// Crafted sigils connect four branches; no repeatable quest rewards supply these materials.
+ServerEvents.recipes(event => {
+  event.shaped("kubejs:industrial_sigil", ["ACA", "SPS", "ANA"], {"A": "mekanism:pellet_antimatter", "C": "draconicevolution:awakened_core", "S": "mekanism:sps_casing", "P": "ae2:singularity", "N": "powah:crystal_nitro"}).id("kubejs:endgame/industrial_sigil");
+  event.shaped("kubejs:arcane_sigil", ["GIG", "BVA", "GIG"], {"G": "botania:gaia_ingot", "I": "cataclysm:ignitium_ingot", "B": "bloodmagic:masterbloodorb", "V": "cataclysm:void_core", "A": "ars_nouveau:archmage_spell_book"}).id("kubejs:endgame/arcane_sigil");
+  event.shaped("kubejs:voyager_sigil", ["CEC", "OTO", "CEC"], {"C": "ad_astra:calorite_block", "E": "minecraft:elytra", "O": "ad_astra:ostrum_block", "T": "twilightforest:fiery_block"}).id("kubejs:endgame/voyager_sigil");
+  event.shaped("kubejs:prosperity_sigil", ["NSN", "DED", "NSN"], {"N": "lightmanscurrency:coin_netherite", "S": "mysticalagriculture:awakened_supremium_essence", "D": "minecraft:diamond_block", "E": "minecraft:emerald_block"}).id("kubejs:endgame/prosperity_sigil");
+  event.shaped("kubejs:convergence_core", ["AIT", "CNC", "VEP"], {"A": "draconicevolution:awakened_core", "I": "kubejs:industrial_sigil", "T": "draconicevolution:awakened_core", "C": "minecraft:nether_star", "N": "minecraft:dragon_egg", "V": "kubejs:voyager_sigil", "E": "kubejs:arcane_sigil", "P": "kubejs:prosperity_sigil"}).id("kubejs:endgame/convergence_core");
+});

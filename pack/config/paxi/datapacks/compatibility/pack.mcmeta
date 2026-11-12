@@ -1,0 +1,90 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "Forge 1.20.1 compatibility recipes"
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "create",
+        "path": "recipes/milling/compat/biomesoplenty/endbloom\\.json"
+      },
+      {
+        "namespace": "create",
+        "path": "recipes/milling/compat/biomesoplenty/tall_white_lavender\\.json"
+      },
+      {
+        "namespace": "create",
+        "path": "recipes/milling/compat/biomesoplenty/tiny_cactus\\.json"
+      },
+      {
+        "namespace": "create",
+        "path": "recipes/milling/compat/biomesoplenty/white_lavender\\.json"
+      },
+      {
+        "namespace": "culturaldelights",
+        "path": "recipes/fermenting/pickle\\.json"
+      },
+      {
+        "namespace": "farmersrespite",
+        "path": "recipes/emptying/water_cup\\.json"
+      },
+      {
+        "namespace": "farmersrespite",
+        "path": "recipes/filling/water_cup\\.json"
+      },
+      {
+        "namespace": "farmersrespite",
+        "path": "recipes/pouring/water_cup\\.json"
+      },
+      {
+        "namespace": "railways",
+        "path": "recipes/sequenced_assembly/track_biomesoplenty_empyreal\\.json"
+      },
+      {
+        "namespace": "railways",
+        "path": "recipes/sequenced_assembly/track_biomesoplenty_empyreal_narrow\\.json"
+      },
+      {
+        "namespace": "railways",
+        "path": "recipes/sequenced_assembly/track_biomesoplenty_empyreal_wide\\.json"
+      },
+      {
+        "namespace": "railways",
+        "path": "recipes/sequenced_assembly/track_biomesoplenty_maple\\.json"
+      },
+      {
+        "namespace": "railways",
+        "path": "recipes/sequenced_assembly/track_biomesoplenty_maple_narrow\\.json"
+      },
+      {
+        "namespace": "railways",
+        "path": "recipes/sequenced_assembly/track_biomesoplenty_maple_wide\\.json"
+      },
+      {
+        "namespace": "railways",
+        "path": "recipes/sequenced_assembly/track_biomesoplenty_pine\\.json"
+      },
+      {
+        "namespace": "railways",
+        "path": "recipes/sequenced_assembly/track_biomesoplenty_pine_narrow\\.json"
+      },
+      {
+        "namespace": "railways",
+        "path": "recipes/sequenced_assembly/track_biomesoplenty_pine_wide\\.json"
+      },
+      {
+        "namespace": "rusticdelight",
+        "path": "recipes/cooking/batter\\.json"
+      },
+      {
+        "namespace": "farmersrespite",
+        "path": "advancements/main/stunt_tea_bush\\.json"
+      },
+      {
+        "namespace": "sob",
+        "path": "advancements/get_prickly_pear\\.json"
+      }
+    ]
+  }
+}

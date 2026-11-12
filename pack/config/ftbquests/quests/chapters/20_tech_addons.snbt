@@ -1,0 +1,3272 @@
+{
+  "id": "06CAFC616EFBBD79",
+  "group": "0DCB27D2C77209FB",
+  "title": "Tech Addons",
+  "order_index": 15,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "08ECECFC6259F334",
+      "title": "Portable Workbench Card",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "advanced_ae:portable_workbench_card",
+      "x": 2.86,
+      "y": 25.71,
+      "shape": "circle",
+      "dependencies": [
+        "0BC5D3CA5223CE85"
+      ],
+      "tasks": [
+        {
+          "id": "0795A3FBA8188BE7",
+          "type": "item",
+          "item": "advanced_ae:portable_workbench_card",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05DE2C1EC5086076",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "07E417FBDE6DF9FA",
+      "title": "Luck Card",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "advanced_ae:luck_card",
+      "x": 4.29,
+      "y": 25.71,
+      "shape": "circle",
+      "dependencies": [
+        "08ECECFC6259F334"
+      ],
+      "tasks": [
+        {
+          "id": "07AB904C0006905B",
+          "type": "item",
+          "item": "advanced_ae:luck_card",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "068CA3E1FA4812B0",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0E5D65EB877DA916",
+      "title": "Reach Card",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "advanced_ae:reach_card",
+      "x": 5.71,
+      "y": 25.71,
+      "shape": "circle",
+      "dependencies": [
+        "07E417FBDE6DF9FA"
+      ],
+      "tasks": [
+        {
+          "id": "0FAA7D0A41FFE00E",
+          "type": "item",
+          "item": "advanced_ae:reach_card",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "00C50A16B3C7B175",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0BC5D3CA5223CE85",
+      "title": "AdvancedAE",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces AdvancedAE. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "advanced_ae:portable_workbench_card",
+      "x": 1.43,
+      "y": 25.71,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0A447783354838BA",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "04BDE49A7F6BBE2F",
+      "title": "Guide Book",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "patchouli:guide_book",
+      "x": 2.86,
+      "y": 41.43,
+      "shape": "circle",
+      "dependencies": [
+        "01002A820DCDF1DC"
+      ],
+      "tasks": [
+        {
+          "id": "0CD5D54B477488D4",
+          "type": "item",
+          "item": "patchouli:guide_book",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DC0D705DE5517D9",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0C624E349C8DCE72",
+      "title": "Chat Box",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "advancedperipherals:chat_box",
+      "x": 4.29,
+      "y": 41.43,
+      "shape": "circle",
+      "dependencies": [
+        "04BDE49A7F6BBE2F"
+      ],
+      "tasks": [
+        {
+          "id": "02E8BE96611E5B2F",
+          "type": "item",
+          "item": "advancedperipherals:chat_box",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F8659D3B68B8565",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0BA985261203E51E",
+      "title": "Geo Scanner",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "advancedperipherals:geo_scanner",
+      "x": 5.71,
+      "y": 41.43,
+      "shape": "circle",
+      "dependencies": [
+        "0C624E349C8DCE72"
+      ],
+      "tasks": [
+        {
+          "id": "0FCFD36C9926B5F4",
+          "type": "item",
+          "item": "advancedperipherals:geo_scanner",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03B6E22BE2514D78",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "01002A820DCDF1DC",
+      "title": "Advanced Peripherals",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Advanced Peripherals. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "patchouli:guide_book",
+      "x": 1.43,
+      "y": 41.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "020EF9734A83109C",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "09BC60E397C58F6A",
+      "title": "1k ME Super Storage Cell",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "ae2additions:super_cell_1k",
+      "x": 2.86,
+      "y": 27.14,
+      "shape": "circle",
+      "dependencies": [
+        "01FCCD8B0B98E280"
+      ],
+      "tasks": [
+        {
+          "id": "08BA84348EFF2FC6",
+          "type": "item",
+          "item": "ae2additions:super_cell_1k",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "080234C94FABAFBA",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "03D653C8A075CD2C",
+      "title": "4k ME Super Storage Cell",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "ae2additions:super_cell_4k",
+      "x": 4.29,
+      "y": 27.14,
+      "shape": "circle",
+      "dependencies": [
+        "09BC60E397C58F6A"
+      ],
+      "tasks": [
+        {
+          "id": "03EABA6AFB4AC93A",
+          "type": "item",
+          "item": "ae2additions:super_cell_4k",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D0ACAE55E06064A",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "098C224E7259452C",
+      "title": "16k ME Super Storage Cell",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "ae2additions:super_cell_16k",
+      "x": 5.71,
+      "y": 27.14,
+      "shape": "circle",
+      "dependencies": [
+        "03D653C8A075CD2C"
+      ],
+      "tasks": [
+        {
+          "id": "0EA6CBC475EB31A5",
+          "type": "item",
+          "item": "ae2additions:super_cell_16k",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "06464476ED281ECD",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "01FCCD8B0B98E280",
+      "title": "AE Additions",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces AE Additions. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "ae2additions:super_cell_1k",
+      "x": 1.43,
+      "y": 27.14,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0E6890993EA66E97",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0BE5ABA8DE56D661",
+      "title": "Zinc Door",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "createdeco:zinc_door",
+      "x": 2.86,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0773C28111BDDE25"
+      ],
+      "tasks": [
+        {
+          "id": "0EF9D19EBF998417",
+          "type": "item",
+          "item": "createdeco:zinc_door",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0948039650EA3C44",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0C5589560C365D58",
+      "title": "Brass Door",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "createdeco:brass_door",
+      "x": 4.29,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0BE5ABA8DE56D661"
+      ],
+      "tasks": [
+        {
+          "id": "0D493B120A774324",
+          "type": "item",
+          "item": "createdeco:brass_door",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0CA4F60C1A742834",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0397EDB0210CD267",
+      "title": "Copper Door",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "createdeco:copper_door",
+      "x": 5.71,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0C5589560C365D58"
+      ],
+      "tasks": [
+        {
+          "id": "0BE950DE8A06E15B",
+          "type": "item",
+          "item": "createdeco:copper_door",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0378B6F0879A983C",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0773C28111BDDE25",
+      "title": "Create Deco",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Create Deco. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "createdeco:zinc_door",
+      "x": 1.43,
+      "y": 1.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0A00B6FD8D901EB3",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0284592DFAD0E210",
+      "title": "Printer",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "create_enchantment_industry:printer",
+      "x": 2.86,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0F12CBA18AEAAFD4"
+      ],
+      "tasks": [
+        {
+          "id": "0CA961218AFF7C18",
+          "type": "item",
+          "item": "create_enchantment_industry:printer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "078EE57E75EA5A1C",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0072526889B7851F",
+      "title": "Disenchanter",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "create_enchantment_industry:disenchanter",
+      "x": 4.29,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0284592DFAD0E210"
+      ],
+      "tasks": [
+        {
+          "id": "08CE8FE099B0507D",
+          "type": "item",
+          "item": "create_enchantment_industry:disenchanter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0FD2DFA1F0568CBD",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0BDDB21B01ABEE6D",
+      "title": "Enchanting Guide",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "create_enchantment_industry:enchanting_guide",
+      "x": 5.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0072526889B7851F"
+      ],
+      "tasks": [
+        {
+          "id": "0C37B5F3075D81DD",
+          "type": "item",
+          "item": "create_enchantment_industry:enchanting_guide",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "08D524583D3C232A",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0F12CBA18AEAAFD4",
+      "title": "Create: Enchantment Industry",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Create: Enchantment Industry. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "create_enchantment_industry:printer",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0E5E207189830C47",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "05770759F2B0501C",
+      "title": "Dark Steel Door",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "enderio:dark_steel_door",
+      "x": 2.86,
+      "y": 28.57,
+      "shape": "circle",
+      "dependencies": [
+        "0403546B6916018D"
+      ],
+      "tasks": [
+        {
+          "id": "014F91B6EAEE8F9A",
+          "type": "item",
+          "item": "enderio:dark_steel_door",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "00421B2182FB9244",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0FB860A3B002F748",
+      "title": "The Ender",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "enderio:dark_steel_sword",
+      "x": 4.29,
+      "y": 28.57,
+      "shape": "circle",
+      "dependencies": [
+        "05770759F2B0501C"
+      ],
+      "tasks": [
+        {
+          "id": "01131296AAF64C5D",
+          "type": "item",
+          "item": "enderio:dark_steel_sword",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04D2BF52B0DE1552",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0629A350E388AD38",
+      "title": "Dark Steel Trapdoor",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "enderio:dark_steel_trapdoor",
+      "x": 5.71,
+      "y": 28.57,
+      "shape": "circle",
+      "dependencies": [
+        "0FB860A3B002F748"
+      ],
+      "tasks": [
+        {
+          "id": "0B35A90E408E7A60",
+          "type": "item",
+          "item": "enderio:dark_steel_trapdoor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0BBD7573B1D70E6E",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0403546B6916018D",
+      "title": "Ender IO",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Ender IO. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "enderio:dark_steel_door",
+      "x": 1.43,
+      "y": 28.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0707227BFC527B89",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0B47253BD1CA01F0",
+      "title": "Item",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "entangled:item",
+      "x": 2.86,
+      "y": 21.43,
+      "shape": "circle",
+      "dependencies": [
+        "096D77B7282FADD6"
+      ],
+      "tasks": [
+        {
+          "id": "07F8C3A85941D9B5",
+          "type": "item",
+          "item": "entangled:item",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D15150A1C0D9DD0",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0DCFF3411AFFF0F8",
+      "title": "Block",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "entangled:block",
+      "x": 4.29,
+      "y": 21.43,
+      "shape": "circle",
+      "dependencies": [
+        "0B47253BD1CA01F0"
+      ],
+      "tasks": [
+        {
+          "id": "02E4CE6F8C2AEC52",
+          "type": "item",
+          "item": "entangled:block",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0AFB0E0A7117E904",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "096D77B7282FADD6",
+      "title": "Entangled",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Entangled. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "entangled:item",
+      "x": 1.43,
+      "y": 21.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "06F46ACEAED58B6B",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "05389D81485649C8",
+      "title": "Turbine Rotor Bearing (Basic)",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "bigreactors:basic_turbinerotorbearing",
+      "x": 2.86,
+      "y": 31.43,
+      "shape": "circle",
+      "dependencies": [
+        "0E23280A329AD47D"
+      ],
+      "tasks": [
+        {
+          "id": "0989EA4E096719E5",
+          "type": "item",
+          "item": "bigreactors:basic_turbinerotorbearing",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "072B0F93C3677B6F",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0F25D34FEC35DDFA",
+      "title": "Turbine Active Forge Fluid Port (Basic)",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "bigreactors:basic_turbinefluidport_forge_active",
+      "x": 4.29,
+      "y": 31.43,
+      "shape": "circle",
+      "dependencies": [
+        "05389D81485649C8"
+      ],
+      "tasks": [
+        {
+          "id": "0BE4CEE3F4E27876",
+          "type": "item",
+          "item": "bigreactors:basic_turbinefluidport_forge_active",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DD484C0AF432ACC",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "001D78CAFF32D880",
+      "title": "Turbine Passive Forge Fluid Port (Basic)",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "bigreactors:basic_turbinefluidport_forge_passive",
+      "x": 5.71,
+      "y": 31.43,
+      "shape": "circle",
+      "dependencies": [
+        "0F25D34FEC35DDFA"
+      ],
+      "tasks": [
+        {
+          "id": "0DADA9E99E54DC52",
+          "type": "item",
+          "item": "bigreactors:basic_turbinefluidport_forge_passive",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0EA78D01AF848BED",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0E23280A329AD47D",
+      "title": "Extreme Reactors",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Extreme Reactors. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "bigreactors:basic_turbinerotorbearing",
+      "x": 1.43,
+      "y": 31.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "084D164A51C3AB7E",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "03B89572E087618E",
+      "title": "Flux Core",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "fluxnetworks:flux_core",
+      "x": 2.86,
+      "y": 35.71,
+      "shape": "circle",
+      "dependencies": [
+        "0AE8B055F33E6C18"
+      ],
+      "tasks": [
+        {
+          "id": "078261A74E92C508",
+          "type": "item",
+          "item": "fluxnetworks:flux_core",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0BDF9D87237A6136",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0AF5F555A4BE2C02",
+      "title": "Flux Plug",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "fluxnetworks:flux_plug",
+      "x": 4.29,
+      "y": 35.71,
+      "shape": "circle",
+      "dependencies": [
+        "03B89572E087618E"
+      ],
+      "tasks": [
+        {
+          "id": "0753CD34633E9B84",
+          "type": "item",
+          "item": "fluxnetworks:flux_plug",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "00D4038477B19018",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "052F5A6DD3A6F3C8",
+      "title": "Flux Block",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "fluxnetworks:flux_block",
+      "x": 5.71,
+      "y": 35.71,
+      "shape": "circle",
+      "dependencies": [
+        "0AF5F555A4BE2C02"
+      ],
+      "tasks": [
+        {
+          "id": "01F6AC0293CD54CE",
+          "type": "item",
+          "item": "fluxnetworks:flux_block",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E652439B1A0622D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0AE8B055F33E6C18",
+      "title": "Flux Networks",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Flux Networks. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "fluxnetworks:flux_core",
+      "x": 1.43,
+      "y": 35.71,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "01636447ED52DC9C",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0C40B606250DCAB1",
+      "title": "Netherite Upgrade",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "functionalstorage:netherite_upgrade",
+      "x": 2.86,
+      "y": 38.57,
+      "shape": "circle",
+      "dependencies": [
+        "0001340F31DFF17F"
+      ],
+      "tasks": [
+        {
+          "id": "0FC00584C53252F4",
+          "type": "item",
+          "item": "functionalstorage:netherite_upgrade",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0685B6E404C45E6C",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0001340F31DFF17F",
+      "title": "Functional Storage",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Functional Storage. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "functionalstorage:netherite_upgrade",
+      "x": 1.43,
+      "y": 38.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "03B77D337EB46139",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0090244A8D000CFE",
+      "title": "Meneglin",
+      "subtitle": "",
+      "description": [
+        "Visit this biome. Carry a compass and record a useful return point on your map."
+      ],
+      "icon": "minecraft:compass",
+      "x": 2.86,
+      "y": 32.86,
+      "shape": "circle",
+      "dependencies": [
+        "0A8F6A54A2A91D14"
+      ],
+      "tasks": [
+        {
+          "id": "089433708E83B11A",
+          "type": "biome",
+          "biome": "integrateddynamics:meneglin"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05F2089717264747",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0A8F6A54A2A91D14",
+      "title": "Integrated Dynamics",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Integrated Dynamics. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:compass",
+      "x": 1.43,
+      "y": 32.86,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0E48E0BE4FA2248F",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0F1EC1E6C49811E2",
+      "title": "Part Exporter Item",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "integratedtunnels:part_exporter_item",
+      "x": 2.86,
+      "y": 34.29,
+      "shape": "circle",
+      "dependencies": [
+        "0EFD5C7CC2FE0DA0"
+      ],
+      "tasks": [
+        {
+          "id": "0845328792C1DC2E",
+          "type": "item",
+          "item": "integratedtunnels:part_exporter_item",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03EADE769558EED6",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "074029F45AE7FA85",
+      "title": "Part Importer Item",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "integratedtunnels:part_importer_item",
+      "x": 4.29,
+      "y": 34.29,
+      "shape": "circle",
+      "dependencies": [
+        "0F1EC1E6C49811E2"
+      ],
+      "tasks": [
+        {
+          "id": "096586D0C1CC47D7",
+          "type": "item",
+          "item": "integratedtunnels:part_importer_item",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0800FF73BFAA8486",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0611A23C6E4BCFB0",
+      "title": "Part Exporter Fluid",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "integratedtunnels:part_exporter_fluid",
+      "x": 5.71,
+      "y": 34.29,
+      "shape": "circle",
+      "dependencies": [
+        "074029F45AE7FA85"
+      ],
+      "tasks": [
+        {
+          "id": "065CABCB2624E550",
+          "type": "item",
+          "item": "integratedtunnels:part_exporter_fluid",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C44087D84566E5A",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0EFD5C7CC2FE0DA0",
+      "title": "Integrated Tunnels",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Integrated Tunnels. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "integratedtunnels:part_exporter_item",
+      "x": 1.43,
+      "y": 34.29,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0636459FE333FD27",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0A3074BAC11FC597",
+      "title": "1M Portable Item Cell",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "megacells:portable_item_cell_1m",
+      "x": 2.86,
+      "y": 24.29,
+      "shape": "circle",
+      "dependencies": [
+        "0268C70287AD15A3"
+      ],
+      "tasks": [
+        {
+          "id": "0453BADDBBD7AF36",
+          "type": "item",
+          "item": "megacells:portable_item_cell_1m",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09A293BC4363E229",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "022BA4CDDC7D4394",
+      "title": "4M Portable Item Cell",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "megacells:portable_item_cell_4m",
+      "x": 4.29,
+      "y": 24.29,
+      "shape": "circle",
+      "dependencies": [
+        "0A3074BAC11FC597"
+      ],
+      "tasks": [
+        {
+          "id": "08E23023018358F0",
+          "type": "item",
+          "item": "megacells:portable_item_cell_4m",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F100FB76AC1949E",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "038A8F4CBE3C1102",
+      "title": "1M Portable Fluid Cell",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "megacells:portable_fluid_cell_1m",
+      "x": 5.71,
+      "y": 24.29,
+      "shape": "circle",
+      "dependencies": [
+        "022BA4CDDC7D4394"
+      ],
+      "tasks": [
+        {
+          "id": "04AD4019AB42D7E0",
+          "type": "item",
+          "item": "megacells:portable_fluid_cell_1m",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "044CD40764EA651C",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0268C70287AD15A3",
+      "title": "MEGA Cells",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces MEGA Cells. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "megacells:portable_item_cell_1m",
+      "x": 1.43,
+      "y": 24.29,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0733B387334A8AC8",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0155F0E0B2932B71",
+      "title": "Solar Panel",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "mekanismgenerators:solar_panel",
+      "x": 2.86,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "01334B70F9A7E5D0"
+      ],
+      "tasks": [
+        {
+          "id": "0EF2107265944FDC",
+          "type": "item",
+          "item": "mekanismgenerators:solar_panel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "008B9B7E0E5A49F9",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "00F97BEEC0419326",
+      "title": "Turbine Vent",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "mekanismgenerators:turbine_vent",
+      "x": 4.29,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "0155F0E0B2932B71"
+      ],
+      "tasks": [
+        {
+          "id": "03B0E5D0E1C71B09",
+          "type": "item",
+          "item": "mekanismgenerators:turbine_vent",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09B35FA143C7E9E5",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0ABA1D5E2C89798D",
+      "title": "Bio-Generator",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "mekanismgenerators:bio_generator",
+      "x": 5.71,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "00F97BEEC0419326"
+      ],
+      "tasks": [
+        {
+          "id": "0C430E809FFC193C",
+          "type": "item",
+          "item": "mekanismgenerators:bio_generator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "045A99A847972267",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "01334B70F9A7E5D0",
+      "title": "Mekanism Generators",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Mekanism Generators. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "mekanismgenerators:solar_panel",
+      "x": 1.43,
+      "y": 2.86,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "083FD16539D77042",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "089FF687E93B64FF",
+      "title": "Steel Sword",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "mekanismtools:steel_sword",
+      "x": 2.86,
+      "y": 4.29,
+      "shape": "circle",
+      "dependencies": [
+        "0E28D25DE37F8A92"
+      ],
+      "tasks": [
+        {
+          "id": "00D12A6D2F97AB44",
+          "type": "item",
+          "item": "mekanismtools:steel_sword",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03E10A3DC0D25E32",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0D9348C5FAEC7BBC",
+      "title": "Bronze Sword",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "mekanismtools:bronze_sword",
+      "x": 4.29,
+      "y": 4.29,
+      "shape": "circle",
+      "dependencies": [
+        "089FF687E93B64FF"
+      ],
+      "tasks": [
+        {
+          "id": "02E14A24C1A79AE1",
+          "type": "item",
+          "item": "mekanismtools:bronze_sword",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "02E887A11966D8B3",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "01C2DE0502345859",
+      "title": "Osmium Sword",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "mekanismtools:osmium_sword",
+      "x": 5.71,
+      "y": 4.29,
+      "shape": "circle",
+      "dependencies": [
+        "0D9348C5FAEC7BBC"
+      ],
+      "tasks": [
+        {
+          "id": "0140CCD6F24ACBF7",
+          "type": "item",
+          "item": "mekanismtools:osmium_sword",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "00B5FB6FE170BBDB",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0E28D25DE37F8A92",
+      "title": "Mekanism Tools",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Mekanism Tools. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "mekanismtools:steel_sword",
+      "x": 1.43,
+      "y": 4.29,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "02106CBE276B7FFD",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "07C7ACFBB31AAF00",
+      "title": "Mod Filter",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "modularrouters:mod_filter",
+      "x": 2.86,
+      "y": 22.86,
+      "shape": "circle",
+      "dependencies": [
+        "0E2758B4EA984438"
+      ],
+      "tasks": [
+        {
+          "id": "05D22965A514F161",
+          "type": "item",
+          "item": "modularrouters:mod_filter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "00F5F85BFA586244",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0BFEC53B07286B47",
+      "title": "Tag Filter",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "modularrouters:tag_filter",
+      "x": 4.29,
+      "y": 22.86,
+      "shape": "circle",
+      "dependencies": [
+        "07C7ACFBB31AAF00"
+      ],
+      "tasks": [
+        {
+          "id": "0604A8BCBA3E6917",
+          "type": "item",
+          "item": "modularrouters:tag_filter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "01782407E71B099D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0A2B2BA13A668039",
+      "title": "Void Module",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "modularrouters:void_module",
+      "x": 5.71,
+      "y": 22.86,
+      "shape": "circle",
+      "dependencies": [
+        "0BFEC53B07286B47"
+      ],
+      "tasks": [
+        {
+          "id": "021A137AD3F02C94",
+          "type": "item",
+          "item": "modularrouters:void_module",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "082CEFCE2A0D91B6",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0E2758B4EA984438",
+      "title": "Modular Routers",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Modular Routers. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "modularrouters:mod_filter",
+      "x": 1.43,
+      "y": 22.86,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "00002CC2E483C0F0",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0AA5C385AE4E463B",
+      "title": "Pipe Wrench",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "pipez:wrench",
+      "x": 2.86,
+      "y": 40.0,
+      "shape": "circle",
+      "dependencies": [
+        "0D021D62A5259264"
+      ],
+      "tasks": [
+        {
+          "id": "04860D465E0928CA",
+          "type": "item",
+          "item": "pipez:wrench",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DD69DB8370001DB",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0D1DE5955D4F5F57",
+      "title": "Gas Pipe",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "pipez:gas_pipe",
+      "x": 4.29,
+      "y": 40.0,
+      "shape": "circle",
+      "dependencies": [
+        "0AA5C385AE4E463B"
+      ],
+      "tasks": [
+        {
+          "id": "0FE8184C83F71E67",
+          "type": "item",
+          "item": "pipez:gas_pipe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0BE2B9478F551EAB",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0F558A036132D1BE",
+      "title": "Item Pipe",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "pipez:item_pipe",
+      "x": 5.71,
+      "y": 40.0,
+      "shape": "circle",
+      "dependencies": [
+        "0D1DE5955D4F5F57"
+      ],
+      "tasks": [
+        {
+          "id": "0D502AE524A5CDC8",
+          "type": "item",
+          "item": "pipez:item_pipe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E3D6397D5919B14",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0D021D62A5259264",
+      "title": "Pipez",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Pipez. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "pipez:wrench",
+      "x": 1.43,
+      "y": 40.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "07FBBEC846759595",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0742D7671C275735",
+      "title": "Tablet (empty)",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "rftoolsbase:tablet",
+      "x": 2.86,
+      "y": 12.86,
+      "shape": "circle",
+      "dependencies": [
+        "029CE9319B309D53"
+      ],
+      "tasks": [
+        {
+          "id": "0864524C4741158D",
+          "type": "item",
+          "item": "rftoolsbase:tablet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0BB9F20FB15794AA",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0E98644DCB50EF10",
+      "title": "Technology Guide",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "rftoolsbase:manual",
+      "x": 4.29,
+      "y": 12.86,
+      "shape": "circle",
+      "dependencies": [
+        "0742D7671C275735"
+      ],
+      "tasks": [
+        {
+          "id": "001C70A40822BA74",
+          "type": "item",
+          "item": "rftoolsbase:manual",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A0C675B72DBF765",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0FE431CF0FCBAF90",
+      "title": "Smart Wrench",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "rftoolsbase:smartwrench",
+      "x": 5.71,
+      "y": 12.86,
+      "shape": "circle",
+      "dependencies": [
+        "0E98644DCB50EF10"
+      ],
+      "tasks": [
+        {
+          "id": "0DFF1221CA9D1BFC",
+          "type": "item",
+          "item": "rftoolsbase:smartwrench",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B987804A86A5993",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "029CE9319B309D53",
+      "title": "RFTools Base",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces RFTools Base. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "rftoolsbase:tablet",
+      "x": 1.43,
+      "y": 12.86,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0BBF0B8372A76A7C",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "00F12F904A861A6F",
+      "title": "Mover",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "rftoolsbuilder:mover",
+      "x": 2.86,
+      "y": 15.71,
+      "shape": "circle",
+      "dependencies": [
+        "05C0916C46F02BDC"
+      ],
+      "tasks": [
+        {
+          "id": "001EA49DA5301D6C",
+          "type": "item",
+          "item": "rftoolsbuilder:mover",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04777D5A475E8BBD",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "011169A4F2DB8A26",
+      "title": "Builder",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "rftoolsbuilder:builder",
+      "x": 4.29,
+      "y": 15.71,
+      "shape": "circle",
+      "dependencies": [
+        "00F12F904A861A6F"
+      ],
+      "tasks": [
+        {
+          "id": "09C1086AECF4EE6A",
+          "type": "item",
+          "item": "rftoolsbuilder:builder",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04E6836DAEE67A8B",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "05CD72FBD0399DF2",
+      "title": "Scanner",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "rftoolsbuilder:scanner",
+      "x": 5.71,
+      "y": 15.71,
+      "shape": "circle",
+      "dependencies": [
+        "011169A4F2DB8A26"
+      ],
+      "tasks": [
+        {
+          "id": "0FE37C3459F744AC",
+          "type": "item",
+          "item": "rftoolsbuilder:scanner",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "01AECA749D7E6C0D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "05C0916C46F02BDC",
+      "title": "RFTools Builder",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces RFTools Builder. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "rftoolsbuilder:mover",
+      "x": 1.43,
+      "y": 15.71,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0C80D2F7EF77A4AD",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "08FAE0F99FAE062B",
+      "title": "Dump Screen Module",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "rftoolsstorage:dump_module",
+      "x": 2.86,
+      "y": 17.14,
+      "shape": "circle",
+      "dependencies": [
+        "09AE95269558AD05"
+      ],
+      "tasks": [
+        {
+          "id": "0FD496D9C27D88D6",
+          "type": "item",
+          "item": "rftoolsstorage:dump_module",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0048EAE8EBF6D45E",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "08D099E68BA3D984",
+      "title": "Modular Storage",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "rftoolsstorage:modular_storage",
+      "x": 4.29,
+      "y": 17.14,
+      "shape": "circle",
+      "dependencies": [
+        "08FAE0F99FAE062B"
+      ],
+      "tasks": [
+        {
+          "id": "0949951F2852346A",
+          "type": "item",
+          "item": "rftoolsstorage:modular_storage",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0BB6FEF15572620F",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "01BCC636245608F8",
+      "title": "Tier 1 Storage Module",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "rftoolsstorage:storage_module0",
+      "x": 5.71,
+      "y": 17.14,
+      "shape": "circle",
+      "dependencies": [
+        "08D099E68BA3D984"
+      ],
+      "tasks": [
+        {
+          "id": "0FDE6B1D748670F3",
+          "type": "item",
+          "item": "rftoolsstorage:storage_module0",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0140A6740F7B5DD1",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "09AE95269558AD05",
+      "title": "RFTools Storage",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces RFTools Storage. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "rftoolsstorage:dump_module",
+      "x": 1.43,
+      "y": 17.14,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0587BA1DAE3C3401",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "02D09A462F94A148",
+      "title": "Syringe",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "rftoolsutility:syringe",
+      "x": 2.86,
+      "y": 14.29,
+      "shape": "circle",
+      "dependencies": [
+        "09540E42FBA6B3B8"
+      ],
+      "tasks": [
+        {
+          "id": "0EAFE0DCD0CC8D5B",
+          "type": "item",
+          "item": "rftoolsutility:syringe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0BD7ED8F3FDB80E1",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0662D2ADAB38342F",
+      "title": "Tank",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "rftoolsutility:tank",
+      "x": 4.29,
+      "y": 14.29,
+      "shape": "circle",
+      "dependencies": [
+        "02D09A462F94A148"
+      ],
+      "tasks": [
+        {
+          "id": "0AC79C7F10F38792",
+          "type": "item",
+          "item": "rftoolsutility:tank",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03E5EC6954CAADA7",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "081E74BD2C190D7F",
+      "title": "Wire",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "rftoolsutility:wire",
+      "x": 5.71,
+      "y": 14.29,
+      "shape": "circle",
+      "dependencies": [
+        "0662D2ADAB38342F"
+      ],
+      "tasks": [
+        {
+          "id": "041FDB81F2312BBF",
+          "type": "item",
+          "item": "rftoolsutility:wire",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0950E8B6655D1ADB",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "09540E42FBA6B3B8",
+      "title": "RFTools Utility",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces RFTools Utility. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "rftoolsutility:syringe",
+      "x": 1.43,
+      "y": 14.29,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "02736A8E41FE3B6C",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0F0D04BA158F7E70",
+      "title": "Chipped/Loom Table Upgrade",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "sophisticatedbackpacks:chipped/loom_table_upgrade",
+      "x": 2.86,
+      "y": 18.57,
+      "shape": "circle",
+      "dependencies": [
+        "08B32DA0F62B4E2F"
+      ],
+      "tasks": [
+        {
+          "id": "07ABF3C0B5E6B464",
+          "type": "item",
+          "item": "sophisticatedbackpacks:chipped/loom_table_upgrade",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "01DFF23CB053D191",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "07D162505B1661B9",
+      "title": "Chipped/Mason Table Upgrade",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "sophisticatedbackpacks:chipped/mason_table_upgrade",
+      "x": 4.29,
+      "y": 18.57,
+      "shape": "circle",
+      "dependencies": [
+        "0F0D04BA158F7E70"
+      ],
+      "tasks": [
+        {
+          "id": "06E0149283797A70",
+          "type": "item",
+          "item": "sophisticatedbackpacks:chipped/mason_table_upgrade",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0000D59D3D4A3B43",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "080CC26A6E93B818",
+      "title": "Chipped/Alchemy Bench Upgrade",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "sophisticatedbackpacks:chipped/alchemy_bench_upgrade",
+      "x": 5.71,
+      "y": 18.57,
+      "shape": "circle",
+      "dependencies": [
+        "07D162505B1661B9"
+      ],
+      "tasks": [
+        {
+          "id": "030EF72287BD6590",
+          "type": "item",
+          "item": "sophisticatedbackpacks:chipped/alchemy_bench_upgrade",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "01A9A61188438980",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "08B32DA0F62B4E2F",
+      "title": "Sophisticated Backpacks",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Sophisticated Backpacks. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "sophisticatedbackpacks:chipped/loom_table_upgrade",
+      "x": 1.43,
+      "y": 18.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "034EA19F26149241",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0C5C9175AE9A438C",
+      "title": "%s%sBarrel",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "sophisticatedstorage:barrel",
+      "x": 2.86,
+      "y": 37.14,
+      "shape": "circle",
+      "dependencies": [
+        "0586E11B980085FE"
+      ],
+      "tasks": [
+        {
+          "id": "0F518C86D1107ECA",
+          "type": "item",
+          "item": "sophisticatedstorage:barrel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "027A2D99D94DF872",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "02258AA0690CAA3E",
+      "title": "%s%sCopper Barrel",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "sophisticatedstorage:copper_barrel",
+      "x": 4.29,
+      "y": 37.14,
+      "shape": "circle",
+      "dependencies": [
+        "0C5C9175AE9A438C"
+      ],
+      "tasks": [
+        {
+          "id": "08379136D906584F",
+          "type": "item",
+          "item": "sophisticatedstorage:copper_barrel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D0B32EC50A8AB11",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0AF64269A93321D6",
+      "title": "Decoration Table",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "sophisticatedstorage:decoration_table",
+      "x": 5.71,
+      "y": 37.14,
+      "shape": "circle",
+      "dependencies": [
+        "02258AA0690CAA3E"
+      ],
+      "tasks": [
+        {
+          "id": "07B9E61CEEB87E10",
+          "type": "item",
+          "item": "sophisticatedstorage:decoration_table",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05C29D976A95C56B",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0586E11B980085FE",
+      "title": "Sophisticated Storage",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Sophisticated Storage. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "sophisticatedstorage:barrel",
+      "x": 1.43,
+      "y": 37.14,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0E685C97F804BC8E",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "01758414441E9EC5",
+      "title": "Framing Table",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "storagedrawers:framing_table",
+      "x": 2.86,
+      "y": 20.0,
+      "shape": "circle",
+      "dependencies": [
+        "0592069E2E55F3A0"
+      ],
+      "tasks": [
+        {
+          "id": "0B03FCB61AA35854",
+          "type": "item",
+          "item": "storagedrawers:framing_table",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "00950FF21A968FEE",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "03DBA2609A0BE789",
+      "title": "Oak Trim",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "storagedrawers:oak_trim",
+      "x": 4.29,
+      "y": 20.0,
+      "shape": "circle",
+      "dependencies": [
+        "01758414441E9EC5"
+      ],
+      "tasks": [
+        {
+          "id": "08298101D0594690",
+          "type": "item",
+          "item": "storagedrawers:oak_trim",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "000257647F11AB82",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0A4CB8998DAB7BF8",
+      "title": "Drawer Controller",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "storagedrawers:controller",
+      "x": 5.71,
+      "y": 20.0,
+      "shape": "circle",
+      "dependencies": [
+        "03DBA2609A0BE789"
+      ],
+      "tasks": [
+        {
+          "id": "017665F2FBFEE5F0",
+          "type": "item",
+          "item": "storagedrawers:controller",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0249085921DDC289",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0592069E2E55F3A0",
+      "title": "Storage Drawers",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Storage Drawers. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "storagedrawers:framing_table",
+      "x": 1.43,
+      "y": 20.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0C005BB9E1CCECA7",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0254170654E01B80",
+      "title": "Witch's Food Cake",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "thermal:potion_cake",
+      "x": 2.86,
+      "y": 10.0,
+      "shape": "circle",
+      "dependencies": [
+        "07B29CB56D45FF25"
+      ],
+      "tasks": [
+        {
+          "id": "0949A3B7F15A118E",
+          "type": "item",
+          "item": "thermal:potion_cake",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05030547468D8036",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0627A65AD718066C",
+      "title": "Spring Salad",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "thermal:spring_salad",
+      "x": 4.29,
+      "y": 10.0,
+      "shape": "circle",
+      "dependencies": [
+        "0254170654E01B80"
+      ],
+      "tasks": [
+        {
+          "id": "0806E83D8F98B526",
+          "type": "item",
+          "item": "thermal:spring_salad",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E017D9A384B578D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0DCCFFD2BCA8C2A8",
+      "title": "Watering Can",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "thermal:watering_can",
+      "x": 5.71,
+      "y": 10.0,
+      "shape": "circle",
+      "dependencies": [
+        "0627A65AD718066C"
+      ],
+      "tasks": [
+        {
+          "id": "000BFD9707BC0881",
+          "type": "item",
+          "item": "thermal:watering_can",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07CFAA51373FE23D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "07B29CB56D45FF25",
+      "title": "Thermal Cultivation",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Thermal Cultivation. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "thermal:potion_cake",
+      "x": 1.43,
+      "y": 10.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0FC16DA629A465A4",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "07CC764320A7D05C",
+      "title": "Fluiduct",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "thermal:fluid_duct",
+      "x": 2.86,
+      "y": 11.43,
+      "shape": "circle",
+      "dependencies": [
+        "0A49E0032941E8A9"
+      ],
+      "tasks": [
+        {
+          "id": "067E14829AE3080A",
+          "type": "item",
+          "item": "thermal:fluid_duct",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A80E1E3211F3FD5",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0B46F09DE735C757",
+      "title": "Fluxduct",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "thermal:energy_duct",
+      "x": 4.29,
+      "y": 11.43,
+      "shape": "circle",
+      "dependencies": [
+        "07CC764320A7D05C"
+      ],
+      "tasks": [
+        {
+          "id": "094BC4C0E0DBC8D2",
+          "type": "item",
+          "item": "thermal:energy_duct",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E7FFE1905ADED66",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0CE4B40FF5EDEE35",
+      "title": "Logistical Item Buffer",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "thermal:item_buffer",
+      "x": 5.71,
+      "y": 11.43,
+      "shape": "circle",
+      "dependencies": [
+        "0B46F09DE735C757"
+      ],
+      "tasks": [
+        {
+          "id": "063B360775E344F9",
+          "type": "item",
+          "item": "thermal:item_buffer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "094D4789A13ED807",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0A49E0032941E8A9",
+      "title": "Thermal Dynamics",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Thermal Dynamics. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "thermal:fluid_duct",
+      "x": 1.43,
+      "y": 11.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0A80585527BA6F8E",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0E03DC97F1A1A983",
+      "title": "Slot Seal",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "thermal:slot_seal",
+      "x": 2.86,
+      "y": 5.71,
+      "shape": "circle",
+      "dependencies": [
+        "0539B52490361F65"
+      ],
+      "tasks": [
+        {
+          "id": "07037611ECFB9353",
+          "type": "item",
+          "item": "thermal:slot_seal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DD7E4F75E06CA65",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0AADCD27D8CF5AE1",
+      "title": "Multiservo Press",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "thermal:machine_press",
+      "x": 4.29,
+      "y": 5.71,
+      "shape": "circle",
+      "dependencies": [
+        "0E03DC97F1A1A983"
+      ],
+      "tasks": [
+        {
+          "id": "0AF9C3B84989230B",
+          "type": "item",
+          "item": "thermal:machine_press",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D0342587D4B540A",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "05BCFC24FF94A40F",
+      "title": "Alchemical Imbuer",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "thermal:machine_brewer",
+      "x": 5.71,
+      "y": 5.71,
+      "shape": "circle",
+      "dependencies": [
+        "0AADCD27D8CF5AE1"
+      ],
+      "tasks": [
+        {
+          "id": "0881E17F7AD13037",
+          "type": "item",
+          "item": "thermal:machine_brewer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0337288B7B2685FF",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0539B52490361F65",
+      "title": "Thermal Expansion",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Thermal Expansion. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "thermal:slot_seal",
+      "x": 1.43,
+      "y": 5.71,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0C3C537FE8590FD1",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "062F5266CC9F7A2D",
+      "title": "Lumium Sword",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "thermal_extra:lumium_sword",
+      "x": 2.86,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "0FF518A9CBB489E0"
+      ],
+      "tasks": [
+        {
+          "id": "0BE8DBC1ABED5E8C",
+          "type": "item",
+          "item": "thermal_extra:lumium_sword",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A66A349FA4A677E",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0E75E824C60B5D54",
+      "title": "Abyssal Sword",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "thermal_extra:abyssal_sword",
+      "x": 4.29,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "062F5266CC9F7A2D"
+      ],
+      "tasks": [
+        {
+          "id": "0E19DAE914EB90A8",
+          "type": "item",
+          "item": "thermal_extra:abyssal_sword",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "093D70554629394E",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0B8989BAB2F46A3E",
+      "title": "Lumium Hammer",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "thermal_extra:lumium_hammer",
+      "x": 5.71,
+      "y": 30.0,
+      "shape": "circle",
+      "dependencies": [
+        "0E75E824C60B5D54"
+      ],
+      "tasks": [
+        {
+          "id": "0CBB242B74703AFF",
+          "type": "item",
+          "item": "thermal_extra:lumium_hammer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "095F718FA192A6AE",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0FF518A9CBB489E0",
+      "title": "Thermal: Extra",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Thermal: Extra. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "thermal_extra:lumium_sword",
+      "x": 1.43,
+      "y": 30.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0F8D11CD58508CB4",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0282F87DC6F2528B",
+      "title": "Rubberwood Door",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "thermal:rubberwood_door",
+      "x": 2.86,
+      "y": 7.14,
+      "shape": "circle",
+      "dependencies": [
+        "034083BB7094ABFC"
+      ],
+      "tasks": [
+        {
+          "id": "051FB02E9DFED8C9",
+          "type": "item",
+          "item": "thermal:rubberwood_door",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "014B304CB417A403",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "00CBC247E5A83031",
+      "title": "Rubberwood Trapdoor",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "thermal:rubberwood_trapdoor",
+      "x": 4.29,
+      "y": 7.14,
+      "shape": "circle",
+      "dependencies": [
+        "0282F87DC6F2528B"
+      ],
+      "tasks": [
+        {
+          "id": "037C0F53102EA587",
+          "type": "item",
+          "item": "thermal:rubberwood_trapdoor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0282BCCA1CAC888E",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "03394CDF2B8D73CE",
+      "title": "Niter",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "thermal:niter",
+      "x": 5.71,
+      "y": 7.14,
+      "shape": "circle",
+      "dependencies": [
+        "00CBC247E5A83031"
+      ],
+      "tasks": [
+        {
+          "id": "07F80282FDD1EE91",
+          "type": "item",
+          "item": "thermal:niter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0CF37953A05830C4",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "034083BB7094ABFC",
+      "title": "Thermal Foundation",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Thermal Foundation. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "thermal:rubberwood_door",
+      "x": 1.43,
+      "y": 7.14,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "09E2D64DB8F2A253",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "011CC4E51A8F2013",
+      "title": "Alchemical Quiver",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "thermal:potion_quiver",
+      "x": 2.86,
+      "y": 8.57,
+      "shape": "circle",
+      "dependencies": [
+        "0D27FBAD6E4437E5"
+      ],
+      "tasks": [
+        {
+          "id": "0A4B7C37F86E8D8A",
+          "type": "item",
+          "item": "thermal:potion_quiver",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05014F75ACF64232",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0CBE2BD243EA811D",
+      "title": "Potion Infuser",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "thermal:potion_infuser",
+      "x": 4.29,
+      "y": 8.57,
+      "shape": "circle",
+      "dependencies": [
+        "011CC4E51A8F2013"
+      ],
+      "tasks": [
+        {
+          "id": "077FB33F5C72E89C",
+          "type": "item",
+          "item": "thermal:potion_infuser",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "08E53EEE14B67161",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0D60705DCDD32707",
+      "title": "Fluxsaw",
+      "subtitle": "",
+      "description": [
+        "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
+      ],
+      "icon": "thermal:flux_saw",
+      "x": 5.71,
+      "y": 8.57,
+      "shape": "circle",
+      "dependencies": [
+        "0CBE2BD243EA811D"
+      ],
+      "tasks": [
+        {
+          "id": "0410B9E3D60905AB",
+          "type": "item",
+          "item": "thermal:flux_saw",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0BB77BBD6A5062AA",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0D27FBAD6E4437E5",
+      "title": "Thermal Innovation",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Thermal Innovation. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "thermal:potion_quiver",
+      "x": 1.43,
+      "y": 8.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0E0C288369600481",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

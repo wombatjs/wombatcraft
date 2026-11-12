@@ -1,0 +1,349 @@
+{
+  "id": "0D26D905D1DEA091",
+  "group": "00AA8F374274B5F3",
+  "title": "Travel",
+  "order_index": 12,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0AC445193B479081",
+      "title": "White Sleeping Bag",
+      "subtitle": "",
+      "description": [
+        "Prepare a temporary resting place for long journeys.",
+        "Obtain White Sleeping Bag and keep it in your inventory for detection."
+      ],
+      "icon": "comforts:sleeping_bag_white",
+      "x": 2.69,
+      "y": 4.71,
+      "shape": "circle",
+      "dependencies": [
+        "082E626531457A29"
+      ],
+      "tasks": [
+        {
+          "id": "0E7D678395AAF4D7",
+          "type": "item",
+          "item": "comforts:sleeping_bag_white",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E759012CC0B8CA1",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0C2E1F8B4941EAFD",
+      "title": "White Hammock Cloth",
+      "subtitle": "",
+      "description": [
+        "Prepare a temporary resting place for long journeys.",
+        "Obtain White Hammock Cloth and keep it in your inventory for detection."
+      ],
+      "icon": "comforts:hammock_white",
+      "x": 3.94,
+      "y": 4.71,
+      "shape": "circle",
+      "dependencies": [
+        "0AC445193B479081"
+      ],
+      "tasks": [
+        {
+          "id": "075E205D2978CFE0",
+          "type": "item",
+          "item": "comforts:hammock_white",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E44F5EE453337A3",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "082E626531457A29",
+      "title": "Comforts",
+      "subtitle": "Optional branch",
+      "description": [
+        "Prepare a temporary resting place for long journeys.",
+        "Use JEI to inspect the recipes. These milestones detect the item; placing or operating it is the next practical step."
+      ],
+      "icon": "comforts:sleeping_bag_white",
+      "x": 1.43,
+      "y": 4.71,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "09A58C527169AA7B",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0E773BB52F14A40C",
+      "title": "Explorer's Compass",
+      "subtitle": "",
+      "description": [
+        "Locate a structure and bring the equipment needed to explore it.",
+        "Obtain Explorer's Compass and keep it in your inventory for detection."
+      ],
+      "icon": "explorerscompass:explorerscompass",
+      "x": 2.69,
+      "y": 3.14,
+      "shape": "circle",
+      "dependencies": [
+        "05C0DD0158DAB0F5"
+      ],
+      "tasks": [
+        {
+          "id": "0EFDCBE7E31B8006",
+          "type": "item",
+          "item": "explorerscompass:explorerscompass",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0FCF129EC51F18DF",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "05C0DD0158DAB0F5",
+      "title": "Explorer's Compass",
+      "subtitle": "Optional branch",
+      "description": [
+        "Locate a structure and bring the equipment needed to explore it.",
+        "Use JEI to inspect the recipes. These milestones detect the item; placing or operating it is the next practical step."
+      ],
+      "icon": "explorerscompass:explorerscompass",
+      "x": 1.43,
+      "y": 3.14,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0BBBC9CCD776BB3E",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0660FA8AD3F3B735",
+      "title": "Nature's Compass",
+      "subtitle": "",
+      "description": [
+        "Find a biome and plan a route before traveling.",
+        "Obtain Nature's Compass and keep it in your inventory for detection."
+      ],
+      "icon": "naturescompass:naturescompass",
+      "x": 2.69,
+      "y": 1.57,
+      "shape": "circle",
+      "dependencies": [
+        "0E41B0DB8A8FC2AB"
+      ],
+      "tasks": [
+        {
+          "id": "09B8ADC3DB35EAE6",
+          "type": "item",
+          "item": "naturescompass:naturescompass",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "06C37ABFF940755F",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0E41B0DB8A8FC2AB",
+      "title": "Nature's Compass",
+      "subtitle": "Optional branch",
+      "description": [
+        "Find a biome and plan a route before traveling.",
+        "Use JEI to inspect the recipes. These milestones detect the item; placing or operating it is the next practical step."
+      ],
+      "icon": "naturescompass:naturescompass",
+      "x": 1.43,
+      "y": 1.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "048F080B28BC3FED",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0EBD317EF6E56EF8",
+      "title": "Warp Dust",
+      "subtitle": "",
+      "description": [
+        "Build a network of reliable return points. Keep the TARDIS for adventures beyond the network.",
+        "Obtain Warp Dust and keep it in your inventory for detection."
+      ],
+      "icon": "waystones:warp_dust",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0B78B655F8D64F56"
+      ],
+      "tasks": [
+        {
+          "id": "0B13894F1963BBFF",
+          "type": "item",
+          "item": "waystones:warp_dust",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "00ECD2FD412F5E60",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "03E9D14062504603",
+      "title": "Warp Stone",
+      "subtitle": "",
+      "description": [
+        "Build a network of reliable return points. Keep the TARDIS for adventures beyond the network.",
+        "Obtain Warp Stone and keep it in your inventory for detection."
+      ],
+      "icon": "waystones:warp_stone",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0EBD317EF6E56EF8"
+      ],
+      "tasks": [
+        {
+          "id": "017212EAF4899A55",
+          "type": "item",
+          "item": "waystones:warp_stone",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E2AF9F48F90C4CA",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0CDDC34CBF019C9D",
+      "title": "Waystone",
+      "subtitle": "",
+      "description": [
+        "Build a network of reliable return points. Keep the TARDIS for adventures beyond the network.",
+        "Obtain Waystone and keep it in your inventory for detection."
+      ],
+      "icon": "waystones:waystone",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "03E9D14062504603"
+      ],
+      "tasks": [
+        {
+          "id": "045FD0D82B9E97E4",
+          "type": "item",
+          "item": "waystones:waystone",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05B76F81532B3941",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0E4DF3F8042C82B6",
+      "title": "Warp Scroll",
+      "subtitle": "",
+      "description": [
+        "Build a network of reliable return points. Keep the TARDIS for adventures beyond the network.",
+        "Obtain Warp Scroll and keep it in your inventory for detection."
+      ],
+      "icon": "waystones:warp_scroll",
+      "x": 6.46,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0CDDC34CBF019C9D"
+      ],
+      "tasks": [
+        {
+          "id": "0A0B75F54DF2EFE8",
+          "type": "item",
+          "item": "waystones:warp_scroll",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D7E0BD31910E0AF",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0B78B655F8D64F56",
+      "title": "Waystones",
+      "subtitle": "Optional branch",
+      "description": [
+        "Build a network of reliable return points. Keep the TARDIS for adventures beyond the network.",
+        "Use JEI to inspect the recipes. These milestones detect the item; placing or operating it is the next practical step."
+      ],
+      "icon": "waystones:warp_dust",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "02F82EA1CF6A5411",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "id": "0AD582B5C4E1EFFD",
+  "group": "065A019E212476CF",
+  "title": "Blood Magic",
+  "order_index": 27,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0E156A2BBA66E334",
+      "title": "Read the Sanguine Scientiem",
+      "subtitle": "Blood Altar",
+      "description": [
+        "Read the in-game guide before using the altar. Understand health costs and keep food nearby.",
+        "Goal: obtain Blood Altar. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "bloodmagic:altar",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0E36EE539733F049"
+      ],
+      "tasks": [
+        {
+          "id": "0AD530D1E9CFC79B",
+          "type": "item",
+          "item": "bloodmagic:altar",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E2004EBAC8D4850",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0FAF7FFCCE40FC09",
+      "title": "Build the Blood Altar",
+      "subtitle": "Blood Altar",
+      "description": [
+        "Place the altar in a safe workshop. Inspect the tier requirements before planning the surrounding room.",
+        "Goal: obtain Blood Altar. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "bloodmagic:altar",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0E156A2BBA66E334"
+      ],
+      "tasks": [
+        {
+          "id": "0EC7DF05D53D79C3",
+          "type": "item",
+          "item": "bloodmagic:altar",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09986D17E9E26B04",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0950467873B26C9A",
+      "title": "Life essence",
+      "subtitle": "Sacrificial Knife",
+      "description": [
+        "Use the dagger cautiously and recover between uses. Do not repeatedly drain your health without watching it.",
+        "Goal: obtain Sacrificial Knife. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "bloodmagic:sacrificialdagger",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0FAF7FFCCE40FC09"
+      ],
+      "tasks": [
+        {
+          "id": "03632E18305EC501",
+          "type": "item",
+          "item": "bloodmagic:sacrificialdagger",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E4D9AB69CB2DE07",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "029CCBA853E41882",
+      "title": "The first slate",
+      "subtitle": "Blank Slate",
+      "description": [
+        "Process stone into a blank slate with enough life essence available. Avoid starting a recipe the altar cannot sustain.",
+        "Goal: obtain Blank Slate. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "bloodmagic:blankslate",
+      "x": 6.46,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0950467873B26C9A"
+      ],
+      "tasks": [
+        {
+          "id": "0CF54C6D3EE36C90",
+          "type": "item",
+          "item": "bloodmagic:blankslate",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "08D4868BC6546C40",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "05E4BA3F681DC910",
+      "title": "A personal network",
+      "subtitle": "Weak Blood Orb",
+      "description": [
+        "Bind the orb as instructed and learn how personal life essence differs from the altar's stored essence.",
+        "Goal: obtain Weak Blood Orb. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "bloodmagic:weakbloodorb",
+      "x": 7.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "029CCBA853E41882"
+      ],
+      "tasks": [
+        {
+          "id": "069F04B1E1E69A93",
+          "type": "item",
+          "item": "bloodmagic:weakbloodorb",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "008087B26008D898",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "0688FED9765AD306",
+      "title": "Expand the altar",
+      "subtitle": "Reinforced Slate",
+      "description": [
+        "Build the next altar tier and make reinforced slates. Verify the structure before attempting new recipes.",
+        "Goal: obtain Reinforced Slate. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "bloodmagic:reinforcedslate",
+      "x": 2.69,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "05E4BA3F681DC910"
+      ],
+      "tasks": [
+        {
+          "id": "0D27B95D72F52722",
+          "type": "item",
+          "item": "bloodmagic:reinforcedslate",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C384BA606A5EFF6",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "04BB4D7F185005DB",
+      "title": "Alchemy beside the altar",
+      "subtitle": "Alchemy Table",
+      "description": [
+        "Use the Alchemy Table to produce reagents and utility supplies. Plan a steady ingredient supply.",
+        "Goal: obtain Alchemy Table. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "bloodmagic:alchemytable",
+      "x": 3.94,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0688FED9765AD306"
+      ],
+      "tasks": [
+        {
+          "id": "055DA22247830B5E",
+          "type": "item",
+          "item": "bloodmagic:alchemytable",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "079CCF2EC7E8E208",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "0A8E0A51C7317A8E",
+      "title": "Ritual engineering",
+      "subtitle": "Master Ritual Stone",
+      "description": [
+        "Choose a ritual and build its full layout. Read its operating cost before activating it.",
+        "Goal: obtain Master Ritual Stone. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "bloodmagic:masterritualstone",
+      "x": 5.2,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "04BB4D7F185005DB"
+      ],
+      "tasks": [
+        {
+          "id": "07E271D0FB267254",
+          "type": "item",
+          "item": "bloodmagic:masterritualstone",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07EC23F005278A00",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "0087CB5A18B5BD6C",
+      "title": "Lay out rituals",
+      "subtitle": "Ritual Diviner",
+      "description": [
+        "Use the Ritual Diviner to help construct valid patterns. Check the selected ritual before spending stones.",
+        "Goal: obtain Ritual Diviner. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "bloodmagic:ritualdiviner",
+      "x": 6.46,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0A8E0A51C7317A8E"
+      ],
+      "tasks": [
+        {
+          "id": "04D4F5F38EB5217A",
+          "type": "item",
+          "item": "bloodmagic:ritualdiviner",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0AA2CEFFD055BF91",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "0E36EE539733F049",
+      "title": "Blood Magic",
+      "subtitle": "Overview",
+      "description": [
+        "A structured ritual and alchemy path built around life essence. Progress through altar tiers and maintain a safe supply before expanding.",
+        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+      ],
+      "icon": "bloodmagic:altar",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0F52BB9B5591365B",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

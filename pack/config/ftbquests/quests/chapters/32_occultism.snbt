@@ -1,0 +1,350 @@
+{
+  "id": "0B9B6DDA1B5B4536",
+  "group": "065A019E212476CF",
+  "title": "Occultism",
+  "order_index": 26,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0CC7D52331F9EF1F",
+      "title": "Read the Dictionary",
+      "subtitle": "Dictionary Of Spirits",
+      "description": [
+        "Follow the Dictionary of Spirits for ritual diagrams, ingredients and binding instructions.",
+        "Goal: obtain Dictionary Of Spirits. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "occultism:dictionary_of_spirits",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0514FFE488DDB1BA"
+      ],
+      "tasks": [
+        {
+          "id": "0CA0AB8935307A29",
+          "type": "item",
+          "item": "occultism:dictionary_of_spirits",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DBB93B3B0738679",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0E99F1367C3CC1BF",
+      "title": "A glimpse beyond",
+      "subtitle": "Demon's Dream Fruit",
+      "description": [
+        "Grow demon's dream plants and use their effects as the guide describes. Prepare a safe place before experimenting.",
+        "Goal: obtain Demon's Dream Fruit. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "occultism:datura",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0CC7D52331F9EF1F"
+      ],
+      "tasks": [
+        {
+          "id": "0B03B936AC743C6A",
+          "type": "item",
+          "item": "occultism:datura",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F7358DBEED099D8",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0C9684FA983A4B0A",
+      "title": "The otherworld's materials",
+      "subtitle": "Otherworld Ashes",
+      "description": [
+        "Make otherworld ashes and inspect the recipes they unlock.",
+        "Goal: obtain Otherworld Ashes. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "occultism:otherworld_ashes",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0E99F1367C3CC1BF"
+      ],
+      "tasks": [
+        {
+          "id": "0A1A36AADCCCB38B",
+          "type": "item",
+          "item": "occultism:otherworld_ashes",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DE74C142B486C05",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0791897E406909B4",
+      "title": "Draw the circle",
+      "subtitle": "White Chalk",
+      "description": [
+        "Craft chalk and copy a ritual diagram carefully. Keep the floor clear and verify every mark before summoning.",
+        "Goal: obtain White Chalk. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "occultism:chalk_white",
+      "x": 6.46,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0C9684FA983A4B0A"
+      ],
+      "tasks": [
+        {
+          "id": "004FB39153B04EC0",
+          "type": "item",
+          "item": "occultism:chalk_white",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "074A7BD602C413FC",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "0447FE91E048FD34",
+      "title": "The ritual center",
+      "subtitle": "Golden Sacrificial Bowl",
+      "description": [
+        "Place the central bowl and arrange surrounding offerings. Use the guide's exact ritual instructions.",
+        "Goal: obtain Golden Sacrificial Bowl. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "occultism:golden_sacrificial_bowl",
+      "x": 7.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0791897E406909B4"
+      ],
+      "tasks": [
+        {
+          "id": "0988FA7C7F4B28CB",
+          "type": "item",
+          "item": "occultism:golden_sacrificial_bowl",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "01254E2C51C9DD84",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "048BBB8B2D4ACDF0",
+      "title": "Bind a foliot",
+      "subtitle": "Book of Binding: Foliot",
+      "description": [
+        "Prepare the correct binding book and summon your first spirit. Read what it needs and what it will do.",
+        "Goal: obtain Book of Binding: Foliot. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "occultism:book_of_binding_foliot",
+      "x": 2.69,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0447FE91E048FD34"
+      ],
+      "tasks": [
+        {
+          "id": "0228A400050E5865",
+          "type": "item",
+          "item": "occultism:book_of_binding_foliot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "08C1176EE5738552",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "0A5DA3FE507B01A9",
+      "title": "Storage beyond space",
+      "subtitle": "Dimensional Storage Actuator",
+      "description": [
+        "Build the dimensional storage system and test insertion and retrieval with common items first.",
+        "Goal: obtain Dimensional Storage Actuator. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "occultism:storage_controller",
+      "x": 3.94,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "048BBB8B2D4ACDF0"
+      ],
+      "tasks": [
+        {
+          "id": "0AB55D3DDCF34B9F",
+          "type": "item",
+          "item": "occultism:storage_controller",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0605634C28F0F3FA",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "0969CD54942173B4",
+      "title": "Reach your storage",
+      "subtitle": "Storage Accessor",
+      "description": [
+        "Link a remote to your storage and test its range before leaving on an expedition.",
+        "Goal: obtain Storage Accessor. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "occultism:storage_remote",
+      "x": 5.2,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0A5DA3FE507B01A9"
+      ],
+      "tasks": [
+        {
+          "id": "09DAC262148209EB",
+          "type": "item",
+          "item": "occultism:storage_remote",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "01BCC3E47E7502AA",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "0103E36C8C2B2B30",
+      "title": "Resources from elsewhere",
+      "subtitle": "Dimensional Mineshaft",
+      "description": [
+        "Prepare a dimensional mineshaft and a suitable miner. Arrange collection and watch for a full output inventory.",
+        "Goal: obtain Dimensional Mineshaft. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "occultism:dimensional_mineshaft",
+      "x": 6.46,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0969CD54942173B4"
+      ],
+      "tasks": [
+        {
+          "id": "02697C1C74AB98BE",
+          "type": "item",
+          "item": "occultism:dimensional_mineshaft",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C45167AF21EC6F5",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "00B7ADA02DE331A1",
+      "title": "Greater spirits",
+      "subtitle": "Book of Binding: Marid",
+      "description": [
+        "Work toward higher-tier rituals only after your basic material and spirit systems are reliable.",
+        "Goal: obtain Book of Binding: Marid. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "occultism:book_of_binding_marid",
+      "x": 7.71,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0103E36C8C2B2B30"
+      ],
+      "tasks": [
+        {
+          "id": "06600D39CB1FF3B7",
+          "type": "item",
+          "item": "occultism:book_of_binding_marid",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0ACA9353C0501AED",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "0514FFE488DDB1BA",
+      "title": "Occultism",
+      "subtitle": "Overview",
+      "description": [
+        "Occultism combines ritual summoning, spirit helpers, storage and resource production. The guidebook is the authority for each circle.",
+        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+      ],
+      "icon": "occultism:dictionary_of_spirits",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "045CEC9F489294ED",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

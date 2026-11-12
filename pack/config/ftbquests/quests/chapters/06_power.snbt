@@ -1,0 +1,286 @@
+{
+  "id": "0714816E31EDB271",
+  "group": "0DCB27D2C77209FB",
+  "title": "Power",
+  "order_index": 6,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0501744D3E2C17E2",
+      "title": "Plan the power room",
+      "subtitle": "Manual (Powah!)",
+      "description": [
+        "Read the manual before choosing a generator tier.",
+        "Goal: obtain Manual (Powah!). Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "powah:book",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "07614610A72F7CC3"
+      ],
+      "tasks": [
+        {
+          "id": "02A82FE482BBBCB0",
+          "type": "item",
+          "item": "powah:book",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C47023F0FC89971",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0089D69E03948399",
+      "title": "Burn a little fuel",
+      "subtitle": "Furnator (Starter)",
+      "description": [
+        "Start generating power with a small fuel-based generator.",
+        "Goal: obtain Furnator (Starter). Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "powah:furnator_starter",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0501744D3E2C17E2"
+      ],
+      "tasks": [
+        {
+          "id": "0739619E4D9E4133",
+          "type": "item",
+          "item": "powah:furnator_starter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F69017914407A65",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "07153A63C8F97ABC",
+      "title": "Buffer the supply",
+      "subtitle": "Energy Cell (Starter)",
+      "description": [
+        "Use stored power to smooth out demand from intermittent machines.",
+        "Goal: obtain Energy Cell (Starter). Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "powah:energy_cell_starter",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0089D69E03948399"
+      ],
+      "tasks": [
+        {
+          "id": "0B9FF2640C5D4189",
+          "type": "item",
+          "item": "powah:energy_cell_starter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E8AEE5067F84133",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0B9279F262CB2F36",
+      "title": "Energized materials",
+      "subtitle": "Energizing Orb",
+      "description": [
+        "Set up the orb with energizing rods and check the required energy per recipe.",
+        "Goal: obtain Energizing Orb. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "powah:energizing_orb",
+      "x": 6.46,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "07153A63C8F97ABC"
+      ],
+      "tasks": [
+        {
+          "id": "06C6CF708D3845B0",
+          "type": "item",
+          "item": "powah:energizing_orb",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0227BC4A92C1DD3C",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "05BB3EAE69700434",
+      "title": "Feed the orb",
+      "subtitle": "Energizing Rod (Starter)",
+      "description": [
+        "Place rods where they can supply the orb and keep the system powered.",
+        "Goal: obtain Energizing Rod (Starter). Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "powah:energizing_rod_starter",
+      "x": 7.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0B9279F262CB2F36"
+      ],
+      "tasks": [
+        {
+          "id": "0112E7E1440316FA",
+          "type": "item",
+          "item": "powah:energizing_rod_starter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "02AE6FC53D9E8608",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "0D2088D23613B260",
+      "title": "Prepare components",
+      "subtitle": "Dielectric Paste",
+      "description": [
+        "Produce the materials that recur across the power tiers.",
+        "Goal: obtain Dielectric Paste. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "powah:dielectric_paste",
+      "x": 2.69,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "05BB3EAE69700434"
+      ],
+      "tasks": [
+        {
+          "id": "0ECD589485CF53D0",
+          "type": "item",
+          "item": "powah:dielectric_paste",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F615D1C6B702BE0",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "0685454C63237EA9",
+      "title": "A hotter tier",
+      "subtitle": "Blazing Crystal",
+      "description": [
+        "Build up an energy reserve before crafting advanced energized materials.",
+        "Goal: obtain Blazing Crystal. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "powah:crystal_blazing",
+      "x": 3.94,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0D2088D23613B260"
+      ],
+      "tasks": [
+        {
+          "id": "044523AD921FCB90",
+          "type": "item",
+          "item": "powah:crystal_blazing",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "070FA6C00DA8B654",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "0218FE7C36F00CBE",
+      "title": "A larger supply",
+      "subtitle": "Reactor (Basic)",
+      "description": [
+        "Use the manual to assemble and fuel the reactor. Add cooling and storage before scaling demand.",
+        "Goal: obtain Reactor (Basic). Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "powah:reactor_basic",
+      "x": 5.2,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0685454C63237EA9"
+      ],
+      "tasks": [
+        {
+          "id": "0C84C2790211FD2A",
+          "type": "item",
+          "item": "powah:reactor_basic",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F6A9BA439757D5D",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "07614610A72F7CC3",
+      "title": "Powah!",
+      "subtitle": "Overview",
+      "description": [
+        "Build reliable generation, buffering and energized materials.",
+        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+      ],
+      "icon": "powah:book",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "07AD5BB6FE740687",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

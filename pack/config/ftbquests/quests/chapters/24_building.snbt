@@ -1,0 +1,1866 @@
+{
+  "id": "09C7CC7EC18E6205",
+  "group": "0E249DD4723B0E70",
+  "title": "Building",
+  "order_index": 19,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0127CE9036A11B81",
+      "title": "Dragon Charge",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "amendments:dragon_charge",
+      "x": 2.86,
+      "y": 4.29,
+      "shape": "circle",
+      "dependencies": [
+        "0D466563E5C33EAE"
+      ],
+      "tasks": [
+        {
+          "id": "0EF935A293796D85",
+          "type": "item",
+          "item": "amendments:dragon_charge",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0FF1AB3D2527E1A3",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0D466563E5C33EAE",
+      "title": "Amendments",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Amendments. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "amendments:dragon_charge",
+      "x": 1.43,
+      "y": 4.29,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "06175CB88926D2D6",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0541356C63C8C382",
+      "title": "Building Gadget",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "buildinggadgets2:gadget_building",
+      "x": 2.86,
+      "y": 24.29,
+      "shape": "circle",
+      "dependencies": [
+        "02FC3419E4BBE5DE"
+      ],
+      "tasks": [
+        {
+          "id": "04D016347BE6B8B6",
+          "type": "item",
+          "item": "buildinggadgets2:gadget_building",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "02F9CDD0FE0B4A35",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0971D781579ED906",
+      "title": "Cut Paste Gadget",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "buildinggadgets2:gadget_cut_paste",
+      "x": 4.29,
+      "y": 24.29,
+      "shape": "circle",
+      "dependencies": [
+        "0541356C63C8C382"
+      ],
+      "tasks": [
+        {
+          "id": "0500EC77CAC30EB5",
+          "type": "item",
+          "item": "buildinggadgets2:gadget_cut_paste",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "002A75B5964DAFF6",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0EC6DB300E6D11F7",
+      "title": "Template Manager",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "buildinggadgets2:template_manager",
+      "x": 5.71,
+      "y": 24.29,
+      "shape": "circle",
+      "dependencies": [
+        "0971D781579ED906"
+      ],
+      "tasks": [
+        {
+          "id": "0A9E7B93085018F1",
+          "type": "item",
+          "item": "buildinggadgets2:template_manager",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DCC001C74653631",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "02FC3419E4BBE5DE",
+      "title": "Building Gadgets",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Building Gadgets. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "buildinggadgets2:gadget_building",
+      "x": 1.43,
+      "y": 24.29,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "02C9286D6659D8F3",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "064FCC9CBC62131E",
+      "title": "Loom Table",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "chipped:loom_table",
+      "x": 2.86,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "071AA7B61441C1DE"
+      ],
+      "tasks": [
+        {
+          "id": "06C4DC8C977F73D0",
+          "type": "item",
+          "item": "chipped:loom_table",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "033B9B942383D9B3",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "021B836A4C01629F",
+      "title": "Mason Table",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "chipped:mason_table",
+      "x": 4.29,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "064FCC9CBC62131E"
+      ],
+      "tasks": [
+        {
+          "id": "0FFDF807629B03BF",
+          "type": "item",
+          "item": "chipped:mason_table",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B5A03C28AFBFDBB",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0F782941C815F0D3",
+      "title": "Alchemy Bench",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "chipped:alchemy_bench",
+      "x": 5.71,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "021B836A4C01629F"
+      ],
+      "tasks": [
+        {
+          "id": "043DE02EA83CAEC3",
+          "type": "item",
+          "item": "chipped:alchemy_bench",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0594423BDBF73056",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "071AA7B61441C1DE",
+      "title": "Chipped",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Chipped. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "chipped:loom_table",
+      "x": 1.43,
+      "y": 1.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0ADC376B3B218768",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "01A2569415E09B72",
+      "title": "Big Chain",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "decorative_blocks:chain",
+      "x": 2.86,
+      "y": 21.43,
+      "shape": "circle",
+      "dependencies": [
+        "06571853B5AC2B79"
+      ],
+      "tasks": [
+        {
+          "id": "04B02F84CEEE219B",
+          "type": "item",
+          "item": "decorative_blocks:chain",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "067B41BD1C5D464C",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0D2027A8F1B5C6D4",
+      "title": "Brazier",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "decorative_blocks:brazier",
+      "x": 4.29,
+      "y": 21.43,
+      "shape": "circle",
+      "dependencies": [
+        "01A2569415E09B72"
+      ],
+      "tasks": [
+        {
+          "id": "0ACC62C26F2F5E64",
+          "type": "item",
+          "item": "decorative_blocks:brazier",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "002E85983AF3C205",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "02FB45CC42150C19",
+      "title": "Lattice",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "decorative_blocks:lattice",
+      "x": 5.71,
+      "y": 21.43,
+      "shape": "circle",
+      "dependencies": [
+        "0D2027A8F1B5C6D4"
+      ],
+      "tasks": [
+        {
+          "id": "0FE340CF4C93D754",
+          "type": "item",
+          "item": "decorative_blocks:lattice",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "076DBE231B39BB40",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "06571853B5AC2B79",
+      "title": "Decorative Blocks",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Decorative Blocks. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "decorative_blocks:chain",
+      "x": 1.43,
+      "y": 21.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "06F477291FCE35B9",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "065369C8DE3553E2",
+      "title": "Framed Door",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "framedblocks:framed_door",
+      "x": 2.86,
+      "y": 18.57,
+      "shape": "circle",
+      "dependencies": [
+        "0A1FC379A32FECFE"
+      ],
+      "tasks": [
+        {
+          "id": "0AA059B26385BC41",
+          "type": "item",
+          "item": "framedblocks:framed_door",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "049A9CDD07F25964",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0A9526903BE3DFE8",
+      "title": "Framed Hammer",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "framedblocks:framed_hammer",
+      "x": 4.29,
+      "y": 18.57,
+      "shape": "circle",
+      "dependencies": [
+        "065369C8DE3553E2"
+      ],
+      "tasks": [
+        {
+          "id": "0C5419507C9B7640",
+          "type": "item",
+          "item": "framedblocks:framed_hammer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "057E0BD59AE052EB",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "06AC4940071F29FF",
+      "title": "Framed Trapdoor",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "framedblocks:framed_trapdoor",
+      "x": 5.71,
+      "y": 18.57,
+      "shape": "circle",
+      "dependencies": [
+        "0A9526903BE3DFE8"
+      ],
+      "tasks": [
+        {
+          "id": "086821E844246776",
+          "type": "item",
+          "item": "framedblocks:framed_trapdoor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F9FAFDE8564376A",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0A1FC379A32FECFE",
+      "title": "FramedBlocks",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces FramedBlocks. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "framedblocks:framed_door",
+      "x": 1.43,
+      "y": 18.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0F27824E3A1E3F53",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "015A9EB57CC45431",
+      "title": "Bench",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "handcrafted:bench",
+      "x": 2.86,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "002AA8E84636941B"
+      ],
+      "tasks": [
+        {
+          "id": "0EAEC0DC5B4A084B",
+          "type": "item",
+          "item": "handcrafted:bench",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "028F83B7331ED3E3",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0F5F8AAB8267CC62",
+      "title": "Hammer",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "handcrafted:hammer",
+      "x": 4.29,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "015A9EB57CC45431"
+      ],
+      "tasks": [
+        {
+          "id": "0680614310D7D110",
+          "type": "item",
+          "item": "handcrafted:hammer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0417D17B0D7D131C",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0241D551D0AE56CB",
+      "title": "Oak Chair",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "handcrafted:oak_chair",
+      "x": 5.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0F5F8AAB8267CC62"
+      ],
+      "tasks": [
+        {
+          "id": "04EF8E7A9C3F2796",
+          "type": "item",
+          "item": "handcrafted:oak_chair",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "012F7BF04EE4D28C",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "002AA8E84636941B",
+      "title": "Handcrafted",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Handcrafted. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "handcrafted:bench",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0517D7859D96A2BA",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0751E3208FF4A581",
+      "title": "Pliers",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwbridges:pliers",
+      "x": 2.86,
+      "y": 5.71,
+      "shape": "circle",
+      "dependencies": [
+        "0E6481128C61D541"
+      ],
+      "tasks": [
+        {
+          "id": "0E83DE27EBC2195D",
+          "type": "item",
+          "item": "mcwbridges:pliers",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0CA451018E537BB6",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0380C655F45C8760",
+      "title": "Iron Bridge",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwbridges:iron_bridge",
+      "x": 4.29,
+      "y": 5.71,
+      "shape": "circle",
+      "dependencies": [
+        "0751E3208FF4A581"
+      ],
+      "tasks": [
+        {
+          "id": "0C9BFEC5933CE840",
+          "type": "item",
+          "item": "mcwbridges:iron_bridge",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0543CFC4C2ED965C",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "032715092F08EC3F",
+      "title": "Brick Bridge",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwbridges:brick_bridge",
+      "x": 5.71,
+      "y": 5.71,
+      "shape": "circle",
+      "dependencies": [
+        "0380C655F45C8760"
+      ],
+      "tasks": [
+        {
+          "id": "07C4178994F8CF91",
+          "type": "item",
+          "item": "mcwbridges:brick_bridge",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DD1ECC0E97B00DC",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0E6481128C61D541",
+      "title": "Macaw's Bridges",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Macaw's Bridges. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "mcwbridges:pliers",
+      "x": 1.43,
+      "y": 5.71,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "069482ADE8CD3FC8",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "04AE19BE1031340A",
+      "title": "Jail Door",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwdoors:jail_door",
+      "x": 2.86,
+      "y": 7.14,
+      "shape": "circle",
+      "dependencies": [
+        "0B71E1B0082234D2"
+      ],
+      "tasks": [
+        {
+          "id": "00BE5F3D50E6C9A2",
+          "type": "item",
+          "item": "mcwdoors:jail_door",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F41EC7D5F5CDA9F",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0484A5097D8D4A9F",
+      "title": "Classic Door Print",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwdoors:print_oak",
+      "x": 4.29,
+      "y": 7.14,
+      "shape": "circle",
+      "dependencies": [
+        "04AE19BE1031340A"
+      ],
+      "tasks": [
+        {
+          "id": "043B1CC266C6DC58",
+          "type": "item",
+          "item": "mcwdoors:print_oak",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D055745A4C8428A",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "011E88A737EE136F",
+      "title": "Metal Door",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwdoors:metal_door",
+      "x": 5.71,
+      "y": 7.14,
+      "shape": "circle",
+      "dependencies": [
+        "0484A5097D8D4A9F"
+      ],
+      "tasks": [
+        {
+          "id": "02A1675C39D5CDF3",
+          "type": "item",
+          "item": "mcwdoors:metal_door",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "044520E9AA1DE530",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0B71E1B0082234D2",
+      "title": "Macaw's Doors",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Macaw's Doors. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "mcwdoors:jail_door",
+      "x": 1.43,
+      "y": 7.14,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0C2E1296C11519CA",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0659893703AA4EF0",
+      "title": "Flowering Azalea Hedge",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwfences:flowering_azalea_hedge",
+      "x": 2.86,
+      "y": 8.57,
+      "shape": "circle",
+      "dependencies": [
+        "07B26F1834358452"
+      ],
+      "tasks": [
+        {
+          "id": "08A8DB56A6134F60",
+          "type": "item",
+          "item": "mcwfences:flowering_azalea_hedge",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "02BDF4D2C8D3BEBB",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0A94AFE356CB3461",
+      "title": "Oak Hedge",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwfences:oak_hedge",
+      "x": 4.29,
+      "y": 8.57,
+      "shape": "circle",
+      "dependencies": [
+        "0659893703AA4EF0"
+      ],
+      "tasks": [
+        {
+          "id": "099E39499447EE7E",
+          "type": "item",
+          "item": "mcwfences:oak_hedge",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04D57DD195747C99",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0A30C7C7913FB156",
+      "title": "Azalea Hedge",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwfences:azalea_hedge",
+      "x": 5.71,
+      "y": 8.57,
+      "shape": "circle",
+      "dependencies": [
+        "0A94AFE356CB3461"
+      ],
+      "tasks": [
+        {
+          "id": "01DDFA3793097D1A",
+          "type": "item",
+          "item": "mcwfences:azalea_hedge",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F21B01F560FA68A",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "07B26F1834358452",
+      "title": "Macaw's Fences and Walls",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Macaw's Fences and Walls. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "mcwfences:flowering_azalea_hedge",
+      "x": 1.43,
+      "y": 8.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "051321BAECC8D2BA",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "03C5E24D05D5F905",
+      "title": "Oak Chair",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwfurnitures:oak_chair",
+      "x": 2.86,
+      "y": 10.0,
+      "shape": "circle",
+      "dependencies": [
+        "01AD9764BC40D22E"
+      ],
+      "tasks": [
+        {
+          "id": "0C4D5100CE6525A1",
+          "type": "item",
+          "item": "mcwfurnitures:oak_chair",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "02BFB4D6E40F6A3D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "00A4F586B6BCE695",
+      "title": "Oak Table",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwfurnitures:oak_table",
+      "x": 4.29,
+      "y": 10.0,
+      "shape": "circle",
+      "dependencies": [
+        "03C5E24D05D5F905"
+      ],
+      "tasks": [
+        {
+          "id": "00F646E368F7A747",
+          "type": "item",
+          "item": "mcwfurnitures:oak_table",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0EE7AB2955B77C6B",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "01EB4ECA26594A01",
+      "title": "Cabinet Door",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwfurnitures:cabinet_door",
+      "x": 5.71,
+      "y": 10.0,
+      "shape": "circle",
+      "dependencies": [
+        "00A4F586B6BCE695"
+      ],
+      "tasks": [
+        {
+          "id": "0F6F7BC86B830A20",
+          "type": "item",
+          "item": "mcwfurnitures:cabinet_door",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09A561C5DB6C5C08",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "01AD9764BC40D22E",
+      "title": "Macaw's Furniture",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Macaw's Furniture. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "mcwfurnitures:oak_chair",
+      "x": 1.43,
+      "y": 10.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0E20D11E18ECB44D",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0DF58AE009060ADD",
+      "title": "Red Lamp",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwlights:red_lamp",
+      "x": 2.86,
+      "y": 11.43,
+      "shape": "circle",
+      "dependencies": [
+        "09633898E7A9C07D"
+      ],
+      "tasks": [
+        {
+          "id": "05252E54470A46E1",
+          "type": "item",
+          "item": "mcwlights:red_lamp",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D6BE336AD57CFCC",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "00EA65C182F8F3D8",
+      "title": "Cyan Lamp",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwlights:cyan_lamp",
+      "x": 4.29,
+      "y": 11.43,
+      "shape": "circle",
+      "dependencies": [
+        "0DF58AE009060ADD"
+      ],
+      "tasks": [
+        {
+          "id": "03BE7EDD93F16D87",
+          "type": "item",
+          "item": "mcwlights:cyan_lamp",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "093F382839391B3C",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "05ACEED7DC34E5A1",
+      "title": "Gray Lamp",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwlights:gray_lamp",
+      "x": 5.71,
+      "y": 11.43,
+      "shape": "circle",
+      "dependencies": [
+        "00EA65C182F8F3D8"
+      ],
+      "tasks": [
+        {
+          "id": "0E9FE650E8EB55D5",
+          "type": "item",
+          "item": "mcwlights:gray_lamp",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0385A5281112F791",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "09633898E7A9C07D",
+      "title": "Macaw's Lights and Lamps",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Macaw's Lights and Lamps. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "mcwlights:red_lamp",
+      "x": 1.43,
+      "y": 11.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0D1E264B7E1EE57E",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "077136844DBDB910",
+      "title": "Brick Flagstone",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwpaths:brick_flagstone",
+      "x": 2.86,
+      "y": 12.86,
+      "shape": "circle",
+      "dependencies": [
+        "0503C3C517A9302E"
+      ],
+      "tasks": [
+        {
+          "id": "0B381EB0B5416DB8",
+          "type": "item",
+          "item": "mcwpaths:brick_flagstone",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0FD1BF0A31A30039",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "098F5C4674E4DC62",
+      "title": "Dirt Path Block",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwpaths:dirt_path_block",
+      "x": 4.29,
+      "y": 12.86,
+      "shape": "circle",
+      "dependencies": [
+        "077136844DBDB910"
+      ],
+      "tasks": [
+        {
+          "id": "0FE15192A0C11DF7",
+          "type": "item",
+          "item": "mcwpaths:dirt_path_block",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "095D73DD7BF2548D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0DBF1B2838009F30",
+      "title": "Oak Planks Path",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwpaths:oak_planks_path",
+      "x": 5.71,
+      "y": 12.86,
+      "shape": "circle",
+      "dependencies": [
+        "098F5C4674E4DC62"
+      ],
+      "tasks": [
+        {
+          "id": "093C7AAD073751A8",
+          "type": "item",
+          "item": "mcwpaths:oak_planks_path",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B8D045A20FB74A2",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0503C3C517A9302E",
+      "title": "Macaw's Paths and Pavings",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Macaw's Paths and Pavings. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "mcwpaths:brick_flagstone",
+      "x": 1.43,
+      "y": 12.86,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0AA4623CBF937214",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "095C1FDCFC4A920B",
+      "title": "Roofing Hammer",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwroofs:roofing_hammer",
+      "x": 2.86,
+      "y": 14.29,
+      "shape": "circle",
+      "dependencies": [
+        "068C435BC1872110"
+      ],
+      "tasks": [
+        {
+          "id": "099ABD89EB14F4C6",
+          "type": "item",
+          "item": "mcwroofs:roofing_hammer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D95CD7E6D3EB624",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "00DCA6CB68FD10A7",
+      "title": "Oak Roof",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwroofs:oak_roof",
+      "x": 4.29,
+      "y": 14.29,
+      "shape": "circle",
+      "dependencies": [
+        "095C1FDCFC4A920B"
+      ],
+      "tasks": [
+        {
+          "id": "04C1CDFE8769FD6A",
+          "type": "item",
+          "item": "mcwroofs:oak_roof",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "063D1B9DF579B7A7",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0BED9CC550EDF086",
+      "title": "Base Roof",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwroofs:base_roof",
+      "x": 5.71,
+      "y": 14.29,
+      "shape": "circle",
+      "dependencies": [
+        "00DCA6CB68FD10A7"
+      ],
+      "tasks": [
+        {
+          "id": "0868757939285D8A",
+          "type": "item",
+          "item": "mcwroofs:base_roof",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "06CAA07D546299C5",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "068C435BC1872110",
+      "title": "Macaw's Roofs",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Macaw's Roofs. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "mcwroofs:roofing_hammer",
+      "x": 1.43,
+      "y": 14.29,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "046200E4272060C9",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "016B765149DB24DD",
+      "title": "Beach Trapdoor Print",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwtrpdoors:print_beach",
+      "x": 2.86,
+      "y": 15.71,
+      "shape": "circle",
+      "dependencies": [
+        "001D47720F03B8AD"
+      ],
+      "tasks": [
+        {
+          "id": "0E73E5203E24E1A8",
+          "type": "item",
+          "item": "mcwtrpdoors:print_beach",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D2F18916CDCCDE5",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0F815A5619C65EF6",
+      "title": "Paper Trapdoor Print",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwtrpdoors:print_paper",
+      "x": 4.29,
+      "y": 15.71,
+      "shape": "circle",
+      "dependencies": [
+        "016B765149DB24DD"
+      ],
+      "tasks": [
+        {
+          "id": "007C78FF04A12EC0",
+          "type": "item",
+          "item": "mcwtrpdoors:print_paper",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "02C8EFED5E74862D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0CEB0F217E34FD62",
+      "title": "Swamp Trapdoor Print",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwtrpdoors:print_swamp",
+      "x": 5.71,
+      "y": 15.71,
+      "shape": "circle",
+      "dependencies": [
+        "0F815A5619C65EF6"
+      ],
+      "tasks": [
+        {
+          "id": "047597C162F82B4B",
+          "type": "item",
+          "item": "mcwtrpdoors:print_swamp",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C80A46F641D2986",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "001D47720F03B8AD",
+      "title": "Macaw's Trapdoors",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Macaw's Trapdoors. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "mcwtrpdoors:print_beach",
+      "x": 1.43,
+      "y": 15.71,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "05D7E83A813519DB",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "055F22B7835F225F",
+      "title": "Window Hammer",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwwindows:hammer",
+      "x": 2.86,
+      "y": 17.14,
+      "shape": "circle",
+      "dependencies": [
+        "035BEAB5F25222DA"
+      ],
+      "tasks": [
+        {
+          "id": "071FABE342FC2235",
+          "type": "item",
+          "item": "mcwwindows:hammer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "01F848D3111BD52A",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0B01604C37499F21",
+      "title": "Window Key",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwwindows:key",
+      "x": 4.29,
+      "y": 17.14,
+      "shape": "circle",
+      "dependencies": [
+        "055F22B7835F225F"
+      ],
+      "tasks": [
+        {
+          "id": "0BA4FC45C6CE6D87",
+          "type": "item",
+          "item": "mcwwindows:key",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03027468E2AC2B97",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0058061B8B85902A",
+      "title": "Oak Blinds",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "mcwwindows:oak_blinds",
+      "x": 5.71,
+      "y": 17.14,
+      "shape": "circle",
+      "dependencies": [
+        "0B01604C37499F21"
+      ],
+      "tasks": [
+        {
+          "id": "07B8FB4132DC2653",
+          "type": "item",
+          "item": "mcwwindows:oak_blinds",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03D5118CCDD4763E",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "035BEAB5F25222DA",
+      "title": "Macaw's Windows",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Macaw's Windows. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "mcwwindows:hammer",
+      "x": 1.43,
+      "y": 17.14,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "01570D7347D75A5D",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0FDBD97891922720",
+      "title": "Glimmering Weald",
+      "subtitle": "",
+      "description": [
+        "Visit this biome. Carry a compass and record a useful return point on your map."
+      ],
+      "icon": "minecraft:compass",
+      "x": 2.86,
+      "y": 22.86,
+      "shape": "circle",
+      "dependencies": [
+        "08FBE339020D5AA9"
+      ],
+      "tasks": [
+        {
+          "id": "0BE2A818861F789E",
+          "type": "biome",
+          "biome": "quark:glimmering_weald"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B504902338EDCCF",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "08FBE339020D5AA9",
+      "title": "Quark",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Quark. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:compass",
+      "x": 1.43,
+      "y": 22.86,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "03C5272F29F31E68",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0523E72EC34FE422",
+      "title": "Chisel",
+      "subtitle": "",
+      "description": [
+        "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
+      ],
+      "icon": "rechiseled:chisel",
+      "x": 2.86,
+      "y": 20.0,
+      "shape": "circle",
+      "dependencies": [
+        "00460CCC6DE1143A"
+      ],
+      "tasks": [
+        {
+          "id": "06F5E94382EA0F28",
+          "type": "item",
+          "item": "rechiseled:chisel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "032B9E2F155658D9",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "00460CCC6DE1143A",
+      "title": "Rechiseled",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Rechiseled. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "rechiseled:chisel",
+      "x": 1.43,
+      "y": 20.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0C5E47028BEA3125",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0008987E9AAD4EF3",
+      "title": "Way Sign",
+      "subtitle": "",
+      "description": [
+        "Enter the way sign structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 2.86,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "0B648412DC5D34E7"
+      ],
+      "tasks": [
+        {
+          "id": "060659E74FF3B209",
+          "type": "structure",
+          "structure": "supplementaries:way_sign"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E9DC9AA540D6274",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0B648412DC5D34E7",
+      "title": "Supplementaries",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Supplementaries. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 1.43,
+      "y": 2.86,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "01B72E82DB78F7D4",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0A5DB2FB5E3D5E2A",
+      "title": "Rechiseled: Create",
+      "description": [
+        "Use the Mechanical Chisel to automate decorative block variants. Connect rotational power and provide the source blocks; inspect available variants in JEI."
+      ],
+      "icon": "minecraft:book",
+      "x": 0.0,
+      "y": 40.0,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0B76C346A63B93C4",
+          "type": "checkmark"
+        }
+      ]
+    },
+    {
+      "id": "006C6C3A0B8FBD63",
+      "title": "Mechanical Chisel",
+      "description": [
+        "Craft the machine, supply rotation and test one block before feeding it a bulk supply."
+      ],
+      "icon": "rechiseledcreate:mechanical_chisel",
+      "x": 2.0,
+      "y": 40.0,
+      "dependencies": [
+        "0A5DB2FB5E3D5E2A"
+      ],
+      "tasks": [
+        {
+          "id": "063C32C63BEAEF8D",
+          "type": "item",
+          "item": "rechiseledcreate:mechanical_chisel",
+          "consume_items": false
+        }
+      ]
+    },
+    {
+      "id": "04060BDB979C96C6",
+      "title": "A finished workshop",
+      "description": [
+        "Use a consistent palette of chiseled Create materials around your machines. Leave maintenance access and space for expansion. Mark this project after checking the build in game."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 4.0,
+      "y": 40.0,
+      "dependencies": [
+        "006C6C3A0B8FBD63"
+      ],
+      "tasks": [
+        {
+          "id": "0C99CC4D306A27FA",
+          "type": "checkmark"
+        }
+      ]
+    }
+  ]
+}

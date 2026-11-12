@@ -1,0 +1,10 @@
+resourcePacks:["vanilla","file/Quest UI"]
+renderDistance:8
+simulationDistance:5
+key_key.ftbquests.quests:key.keyboard.f6
+key_key.ftbchunks.map:key.keyboard.f7
+key_key.ftbteams.open_gui:key.keyboard.f8
+key_key.mute_microphone:key.keyboard.unknown
+key_key.drawMahoujin:key.keyboard.m:ALT
+key_key.mekanism.legs_mode:key.keyboard.j:ALT
+key_key.ars_elemental.open_pouch:key.keyboard.p:ALT

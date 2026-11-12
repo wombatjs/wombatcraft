@@ -1,0 +1,446 @@
+{
+  "id": "0518B991DD0EA9FE",
+  "group": "065A019E212476CF",
+  "title": "Botania",
+  "order_index": 7,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0B0BE46D3F1F11F7",
+      "title": "The living manual",
+      "subtitle": "Lexica Botania",
+      "description": [
+        "The Lexica Botania is your reference for flowers, mana and multiblocks.",
+        "Goal: obtain Lexica Botania. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "botania:lexicon",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0E62DAE362557EE4"
+      ],
+      "tasks": [
+        {
+          "id": "0EFCD8EDA3D17D24",
+          "type": "item",
+          "item": "botania:lexicon",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E161FDE238BB21B",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "07B9B6C9599F3E64",
+      "title": "Petals into possibility",
+      "subtitle": "Petal Apothecary",
+      "description": [
+        "Build a Petal Apothecary and gather a variety of mystical petals.",
+        "Goal: obtain Petal Apothecary. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "botania:apothecary_default",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0B0BE46D3F1F11F7"
+      ],
+      "tasks": [
+        {
+          "id": "09D5AA4FE66C0E80",
+          "type": "item",
+          "item": "botania:apothecary_default",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05449A982B1397EB",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0B00C1638CA45FC9",
+      "title": "Living materials",
+      "subtitle": "Pure Daisy",
+      "description": [
+        "Use a Pure Daisy to transform suitable nearby blocks.",
+        "Goal: obtain Pure Daisy. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "botania:pure_daisy",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "07B9B6C9599F3E64"
+      ],
+      "tasks": [
+        {
+          "id": "0A4B59203DF6CAD3",
+          "type": "item",
+          "item": "botania:pure_daisy",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F0E220FD2BF65B8",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "01DC88275F315713",
+      "title": "A living framework",
+      "subtitle": "Livingwood Log",
+      "description": [
+        "Prepare Livingwood for your first mana equipment.",
+        "Goal: obtain Livingwood Log. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "botania:livingwood_log",
+      "x": 6.46,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0B00C1638CA45FC9"
+      ],
+      "tasks": [
+        {
+          "id": "03637E627206648B",
+          "type": "item",
+          "item": "botania:livingwood_log",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E62DF3553899792",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "098CFD7DC445A616",
+      "title": "Stone with purpose",
+      "subtitle": "Livingrock",
+      "description": [
+        "Prepare Livingrock for mana storage and functional blocks.",
+        "Goal: obtain Livingrock. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "botania:livingrock",
+      "x": 7.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "01DC88275F315713"
+      ],
+      "tasks": [
+        {
+          "id": "0D502CF46028ACCE",
+          "type": "item",
+          "item": "botania:livingrock",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C69CC446CD5BC76",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "0CECB0BC73A25645",
+      "title": "Feed the flowers",
+      "subtitle": "Endoflame",
+      "description": [
+        "Use a generating flower to turn fuel into mana. Keep fuel delivery controlled.",
+        "Goal: obtain Endoflame. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "botania:endoflame",
+      "x": 2.69,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "098CFD7DC445A616"
+      ],
+      "tasks": [
+        {
+          "id": "018F08E410A9DD12",
+          "type": "item",
+          "item": "botania:endoflame",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B214F612DD07C86",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "00B536D19460C32F",
+      "title": "Send the mana",
+      "subtitle": "Mana Spreader",
+      "description": [
+        "Aim a spreader at a valid destination and check its connection.",
+        "Goal: obtain Mana Spreader. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "botania:mana_spreader",
+      "x": 3.94,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0CECB0BC73A25645"
+      ],
+      "tasks": [
+        {
+          "id": "001C2D45CFEFE28F",
+          "type": "item",
+          "item": "botania:mana_spreader",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C50B3DF51E8BB31",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "078E26428B7AC047",
+      "title": "Store your progress",
+      "subtitle": "Mana Pool",
+      "description": [
+        "A pool buffers mana for crafting and machinery.",
+        "Goal: obtain Mana Pool. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "botania:mana_pool",
+      "x": 5.2,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "00B536D19460C32F"
+      ],
+      "tasks": [
+        {
+          "id": "0AF4EF48A0576C1A",
+          "type": "item",
+          "item": "botania:mana_pool",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "037C8862EE9C34CB",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "00F1B83A5DB915AF",
+      "title": "Metal and mana",
+      "subtitle": "Manasteel Ingot",
+      "description": [
+        "Infuse iron using the mana system.",
+        "Goal: obtain Manasteel Ingot. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "botania:manasteel_ingot",
+      "x": 6.46,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "078E26428B7AC047"
+      ],
+      "tasks": [
+        {
+          "id": "04ACC2C8CA6AD3EB",
+          "type": "item",
+          "item": "botania:manasteel_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "080581CE58BEC1D0",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "09E76E6C77D675E7",
+      "title": "Runic craft",
+      "subtitle": "Runic Altar",
+      "description": [
+        "Use the altar and consult the Lexica for each rune recipe.",
+        "Goal: obtain Runic Altar. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "botania:runic_altar",
+      "x": 7.71,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "00F1B83A5DB915AF"
+      ],
+      "tasks": [
+        {
+          "id": "0DCD34D16B90E681",
+          "type": "item",
+          "item": "botania:runic_altar",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0EF1F7FB2B6F018C",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "00A88DB0742DEC84",
+      "title": "A greater investment",
+      "subtitle": "Terrasteel Ingot",
+      "description": [
+        "Prepare the agglomeration setup and enough mana before starting.",
+        "Goal: obtain Terrasteel Ingot. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "botania:terrasteel_ingot",
+      "x": 2.69,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "09E76E6C77D675E7"
+      ],
+      "tasks": [
+        {
+          "id": "0464B5B5605CF09B",
+          "type": "item",
+          "item": "botania:terrasteel_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "038545757459AC88",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "0C9C5999DF2C010A",
+      "title": "Trade beyond the world",
+      "subtitle": "Elven Gateway Core",
+      "description": [
+        "Build the portal according to the Lexica and prepare items to exchange.",
+        "Goal: obtain Elven Gateway Core. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "botania:alfheim_portal",
+      "x": 3.94,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "00A88DB0742DEC84"
+      ],
+      "tasks": [
+        {
+          "id": "0902D7DF5CB87563",
+          "type": "item",
+          "item": "botania:alfheim_portal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C3D4C1C81BE43D4",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "06CBD9C8F580AE8B",
+      "title": "A mythic milestone",
+      "subtitle": "Gaia Spirit Ingot",
+      "description": [
+        "Prepare for the Guardian encounter and pursue Gaia-tier materials.",
+        "Goal: obtain Gaia Spirit Ingot. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "botania:gaia_ingot",
+      "x": 5.2,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "0C9C5999DF2C010A"
+      ],
+      "tasks": [
+        {
+          "id": "08CDF57DF3D6189C",
+          "type": "item",
+          "item": "botania:gaia_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F6C3AB92729460D",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "0E62DAE362557EE4",
+      "title": "Botania",
+      "subtitle": "Overview",
+      "description": [
+        "Automate with flowers and mana. This branch rewards a working system, not a rush through a checklist.",
+        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+      ],
+      "icon": "botania:lexicon",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "00CF6C304DFB1D98",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

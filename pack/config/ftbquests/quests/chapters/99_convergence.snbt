@@ -1,0 +1,119 @@
+{
+  "id": "003495F6F148C66B",
+  "group": "0F095C8E4FA42163",
+  "title": "Convergence",
+  "order_index": 33,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0209B29F8CFB053F",
+      "title": "Industrial Sigil",
+      "description": [
+        "Combine antimatter-era infrastructure, an AE2 singularity and awakened Draconic components. Build sustained power and material production first.",
+        "Use JEI to inspect the exact recipe. These ingredients are consumed by crafting; quest detection keeps the resulting item."
+      ],
+      "icon": "kubejs:industrial_sigil",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "03A62840A01CD855",
+          "type": "item",
+          "item": "kubejs:industrial_sigil",
+          "consume_items": false
+        }
+      ]
+    },
+    {
+      "id": "0F68366FED1B407B",
+      "title": "Arcane Sigil",
+      "description": [
+        "Bring together Gaia materials, Cataclysm boss drops and advanced spellcraft. This is the combat and magic contribution.",
+        "Use JEI to inspect the exact recipe. These ingredients are consumed by crafting; quest detection keeps the resulting item."
+      ],
+      "icon": "kubejs:arcane_sigil",
+      "x": 2.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "084527EDB02ED8E3",
+          "type": "item",
+          "item": "kubejs:arcane_sigil",
+          "consume_items": false
+        }
+      ]
+    },
+    {
+      "id": "05742B300F1756FE",
+      "title": "Voyager Sigil",
+      "description": [
+        "Space travel and the dimensional journey supply the exploration materials. Plan your fuel, oxygen and return routes before leaving.",
+        "Use JEI to inspect the exact recipe. These ingredients are consumed by crafting; quest detection keeps the resulting item."
+      ],
+      "icon": "kubejs:voyager_sigil",
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "058D104A4400D9CA",
+          "type": "item",
+          "item": "kubejs:voyager_sigil",
+          "consume_items": false
+        }
+      ]
+    },
+    {
+      "id": "05E20ECC04CC71D2",
+      "title": "Prosperity Sigil",
+      "description": [
+        "Build productive farms and a trading settlement. This recipe uses earned or exchanged currency and high tier production components; it does not require another player to be online.",
+        "Use JEI to inspect the exact recipe. These ingredients are consumed by crafting; quest detection keeps the resulting item."
+      ],
+      "icon": "kubejs:prosperity_sigil",
+      "x": 6.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "044C9B4E4F156E47",
+          "type": "item",
+          "item": "kubejs:prosperity_sigil",
+          "consume_items": false
+        }
+      ]
+    },
+    {
+      "id": "07880F2BE7FAFE56",
+      "title": "Convergence Core",
+      "description": [
+        "Combine all four sigils with additional awakened cores and Nether Stars. This is the first endgame recipe draft; difficulty and economy balance need a survival playthrough.",
+        "Use JEI to inspect the exact recipe. These ingredients are consumed by crafting; quest detection keeps the resulting item."
+      ],
+      "icon": "kubejs:convergence_core",
+      "x": 3.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "dependencies": [
+        "0209B29F8CFB053F",
+        "0F68366FED1B407B",
+        "05742B300F1756FE",
+        "05E20ECC04CC71D2"
+      ],
+      "tasks": [
+        {
+          "id": "0EECEE5D91A57D05",
+          "type": "item",
+          "item": "kubejs:convergence_core",
+          "consume_items": false
+        }
+      ]
+    }
+  ]
+}

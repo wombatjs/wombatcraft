@@ -1,0 +1,222 @@
+{
+  "id": "0B159351E063CB09",
+  "group": "065A019E212476CF",
+  "title": "Forbidden Arts",
+  "order_index": 30,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0809638499D0DE11",
+      "title": "Something beneath the stone",
+      "subtitle": "Arcane Crystal",
+      "description": [
+        "Collect arcane crystals while mining. Inspect their uses and save a reserve.",
+        "Goal: obtain Arcane Crystal. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "forbidden_arcanus:arcane_crystal",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0D1FC8C6E7EA4504"
+      ],
+      "tasks": [
+        {
+          "id": "014C15CE34D7A765",
+          "type": "item",
+          "item": "forbidden_arcanus:arcane_crystal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "005168A76419FD54",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0DEA87DEBFF23033",
+      "title": "A foundation of darkstone",
+      "subtitle": "Darkstone",
+      "description": [
+        "Gather darkstone for your workshop and magical construction.",
+        "Goal: obtain Darkstone. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "forbidden_arcanus:darkstone",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0809638499D0DE11"
+      ],
+      "tasks": [
+        {
+          "id": "0C97289CEF86D160",
+          "type": "item",
+          "item": "forbidden_arcanus:darkstone",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "01982F8CD8641E85",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0EFFB47EE783F677",
+      "title": "Strange timber",
+      "subtitle": "Edelwood Log",
+      "description": [
+        "Find edelwood and inspect its processing options. Keep saplings or renewable supplies where available.",
+        "Goal: obtain Edelwood Log. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "forbidden_arcanus:edelwood_log",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0DEA87DEBFF23033"
+      ],
+      "tasks": [
+        {
+          "id": "043CE18F1F32D2D7",
+          "type": "item",
+          "item": "forbidden_arcanus:edelwood_log",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07481A6F422C6768",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "04E078A115FD1B68",
+      "title": "Arrange your work area",
+      "subtitle": "Darkstone Pedestal",
+      "description": [
+        "Prepare pedestals and a clear area for the forge. Inspect the forge's structure requirements.",
+        "Goal: obtain Darkstone Pedestal. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "forbidden_arcanus:darkstone_pedestal",
+      "x": 6.46,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0EFFB47EE783F677"
+      ],
+      "tasks": [
+        {
+          "id": "095814978CFEDF8C",
+          "type": "item",
+          "item": "forbidden_arcanus:darkstone_pedestal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C590B55AFE78FB0",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "08E39EE9B50A4287",
+      "title": "The Hephaestus Forge",
+      "subtitle": "Hephaestus Forge",
+      "description": [
+        "Build the forge and follow its resource and ritual requirements. Verify the structure before adding rare offerings.",
+        "Goal: obtain Hephaestus Forge. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "forbidden_arcanus:hephaestus_forge",
+      "x": 7.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "04E078A115FD1B68"
+      ],
+      "tasks": [
+        {
+          "id": "08C6851FAAEFAA05",
+          "type": "item",
+          "item": "forbidden_arcanus:hephaestus_forge",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "071F0F863F0D651F",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "043EB4F87102D710",
+      "title": "An enduring tool",
+      "subtitle": "Eternal Stella",
+      "description": [
+        "Work toward an Eternal Stella and inspect what it can be applied to before using it.",
+        "Goal: obtain Eternal Stella. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "forbidden_arcanus:eternal_stella",
+      "x": 2.69,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "08E39EE9B50A4287"
+      ],
+      "tasks": [
+        {
+          "id": "043E94AAC7DB1005",
+          "type": "item",
+          "item": "forbidden_arcanus:eternal_stella",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "035905FD2DC77952",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "0D1FC8C6E7EA4504",
+      "title": "Forbidden and Arcanus ",
+      "subtitle": "Overview",
+      "description": [
+        "A separate magical crafting branch focused on rare materials and the Hephaestus Forge. JEI shows recipes; the forge still needs its working setup.",
+        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+      ],
+      "icon": "forbidden_arcanus:arcane_crystal",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "05255FA928DE9D3B",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

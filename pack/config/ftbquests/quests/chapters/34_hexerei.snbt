@@ -1,0 +1,222 @@
+{
+  "id": "0EFBA21F2792364A",
+  "group": "065A019E212476CF",
+  "title": "Hexerei",
+  "order_index": 28,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "08B413157DCB601D",
+      "title": "Open the Book of Shadows",
+      "subtitle": "Book of Shadows",
+      "description": [
+        "Use the book to learn Hexerei's herbs, crafting and magical equipment.",
+        "Goal: obtain Book of Shadows. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "hexerei:book_of_shadows",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0A2DD81AF6931073"
+      ],
+      "tasks": [
+        {
+          "id": "0501399FA9AEAA5A",
+          "type": "item",
+          "item": "hexerei:book_of_shadows",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F3D460B6549AD3B",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0531B2C931C6104F",
+      "title": "A witch's workshop",
+      "subtitle": "Mixing Cauldron",
+      "description": [
+        "Place a Mixing Cauldron and follow the book's recipe and heat requirements.",
+        "Goal: obtain Mixing Cauldron. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "hexerei:mixing_cauldron",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "08B413157DCB601D"
+      ],
+      "tasks": [
+        {
+          "id": "09C98FB203D6CB4B",
+          "type": "item",
+          "item": "hexerei:mixing_cauldron",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B8B7AC76AD170CA",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0A2421745DBC6DCF",
+      "title": "Keep your herbs",
+      "subtitle": "Herb Jar",
+      "description": [
+        "Organize herbs in jars near the cauldron. Label or separate ingredients you use frequently.",
+        "Goal: obtain Herb Jar. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "hexerei:herb_jar",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0531B2C931C6104F"
+      ],
+      "tasks": [
+        {
+          "id": "0B8F879FA3ED3F58",
+          "type": "item",
+          "item": "hexerei:herb_jar",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0656ED2E894793C5",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0DAFED9803AD9122",
+      "title": "Prepare ingredients",
+      "subtitle": "Drying Rack",
+      "description": [
+        "Use drying racks to process herbs. Build a small garden to keep supplies renewable.",
+        "Goal: obtain Drying Rack. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "hexerei:herb_drying_rack",
+      "x": 6.46,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0A2421745DBC6DCF"
+      ],
+      "tasks": [
+        {
+          "id": "07A4C6DED52D3A69",
+          "type": "item",
+          "item": "hexerei:herb_drying_rack",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0466A33DF7D6C09B",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "09B5C4FADA1A9298",
+      "title": "Process the harvest",
+      "subtitle": "Pestle and Mortar",
+      "description": [
+        "Use the mortar for supported recipes and inspect the next crafting steps in the guide.",
+        "Goal: obtain Pestle and Mortar. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "hexerei:pestle_and_mortar",
+      "x": 7.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0DAFED9803AD9122"
+      ],
+      "tasks": [
+        {
+          "id": "0D8438B31BFD0EEE",
+          "type": "item",
+          "item": "hexerei:pestle_and_mortar",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07B9FDF92B506F13",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "02B55D406047E8D7",
+      "title": "Take to the air",
+      "subtitle": "Willow Broom",
+      "description": [
+        "Craft a broom and read its controls and attachments. Test low over a clear field first.",
+        "Goal: obtain Willow Broom. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "hexerei:willow_broom",
+      "x": 2.69,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "09B5C4FADA1A9298"
+      ],
+      "tasks": [
+        {
+          "id": "00E802A54AF9CA14",
+          "type": "item",
+          "item": "hexerei:willow_broom",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0BC792206D2C1409",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "0A2DD81AF6931073",
+      "title": "Hexerei",
+      "subtitle": "Overview",
+      "description": [
+        "Build a witch's cottage with useful herbs, a cauldron and broom travel. Treat the garden as part of your magical workshop.",
+        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+      ],
+      "icon": "hexerei:book_of_shadows",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "07929F9D7A71CF62",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

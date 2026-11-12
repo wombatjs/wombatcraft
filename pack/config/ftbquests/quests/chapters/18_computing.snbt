@@ -1,0 +1,222 @@
+{
+  "id": "020515F07A485979",
+  "group": "0DCB27D2C77209FB",
+  "title": "Computing",
+  "order_index": 14,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "09082434ED225108",
+      "title": "Computer",
+      "subtitle": "",
+      "description": [
+        "Learn the computer interface, then write small programs to monitor or automate a process.",
+        "Obtain Computer and keep it in your inventory for detection."
+      ],
+      "icon": "computercraft:computer_normal",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "068EFAAB766E046A"
+      ],
+      "tasks": [
+        {
+          "id": "06FB6513F4369A67",
+          "type": "item",
+          "item": "computercraft:computer_normal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F94FF026ECDFEFE",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "00BB4FE51DAAA1F7",
+      "title": "Disk Drive",
+      "subtitle": "",
+      "description": [
+        "Learn the computer interface, then write small programs to monitor or automate a process.",
+        "Obtain Disk Drive and keep it in your inventory for detection."
+      ],
+      "icon": "computercraft:disk_drive",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "09082434ED225108"
+      ],
+      "tasks": [
+        {
+          "id": "0DD9301BC765C153",
+          "type": "item",
+          "item": "computercraft:disk_drive",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A098F1C938FC323",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "009AD8685BF0B465",
+      "title": "Monitor",
+      "subtitle": "",
+      "description": [
+        "Learn the computer interface, then write small programs to monitor or automate a process.",
+        "Obtain Monitor and keep it in your inventory for detection."
+      ],
+      "icon": "computercraft:monitor_normal",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "00BB4FE51DAAA1F7"
+      ],
+      "tasks": [
+        {
+          "id": "0FCDFD1E70EA8612",
+          "type": "item",
+          "item": "computercraft:monitor_normal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D36634E2EA9DB31",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0345D986C0E049DF",
+      "title": "Turtle",
+      "subtitle": "",
+      "description": [
+        "Learn the computer interface, then write small programs to monitor or automate a process.",
+        "Obtain Turtle and keep it in your inventory for detection."
+      ],
+      "icon": "computercraft:turtle_normal",
+      "x": 6.46,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "009AD8685BF0B465"
+      ],
+      "tasks": [
+        {
+          "id": "04AFB5B6187D9829",
+          "type": "item",
+          "item": "computercraft:turtle_normal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "090E3ACE19436E39",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0CF8F7CAC39F3BD1",
+      "title": "Wireless Modem",
+      "subtitle": "",
+      "description": [
+        "Learn the computer interface, then write small programs to monitor or automate a process.",
+        "Obtain Wireless Modem and keep it in your inventory for detection."
+      ],
+      "icon": "computercraft:wireless_modem_normal",
+      "x": 7.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0345D986C0E049DF"
+      ],
+      "tasks": [
+        {
+          "id": "02DB3B4EA2B994B8",
+          "type": "item",
+          "item": "computercraft:wireless_modem_normal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0841F3197536013A",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0592B88EE32AA58E",
+      "title": "Advanced Computer",
+      "subtitle": "",
+      "description": [
+        "Learn the computer interface, then write small programs to monitor or automate a process.",
+        "Obtain Advanced Computer and keep it in your inventory for detection."
+      ],
+      "icon": "computercraft:computer_advanced",
+      "x": 8.97,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0CF8F7CAC39F3BD1"
+      ],
+      "tasks": [
+        {
+          "id": "0C1CD4FFAC399D70",
+          "type": "item",
+          "item": "computercraft:computer_advanced",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0453EAACF9A7D14C",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "068EFAAB766E046A",
+      "title": "CC: Tweaked",
+      "subtitle": "Optional branch",
+      "description": [
+        "Learn the computer interface, then write small programs to monitor or automate a process.",
+        "Use JEI to inspect the recipes. These milestones detect the item; placing or operating it is the next practical step."
+      ],
+      "icon": "computercraft:computer_normal",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0B7F23A5923405CC",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

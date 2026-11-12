@@ -1,0 +1,286 @@
+{
+  "id": "0CF4E828B5BE93A5",
+  "group": "0DCB27D2C77209FB",
+  "title": "Engineering",
+  "order_index": 4,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "065DF869DFBBCD78",
+      "title": "The Engineer's Manual",
+      "subtitle": "Engineer's Manual",
+      "description": [
+        "Read the manual's multiblock diagrams and wiring rules. Reserve a spacious workshop.",
+        "Goal: obtain Engineer's Manual. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "immersiveengineering:manual",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0766D95A3968507D"
+      ],
+      "tasks": [
+        {
+          "id": "0D2A3D963F328934",
+          "type": "item",
+          "item": "immersiveengineering:manual",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E6181AC84A2FDA1",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0696B83791A0B25E",
+      "title": "The engineer's hammer",
+      "subtitle": "Engineer's Hammer",
+      "description": [
+        "Use the hammer to form supported multiblocks and configure connections.",
+        "Goal: obtain Engineer's Hammer. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "immersiveengineering:hammer",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "065DF869DFBBCD78"
+      ],
+      "tasks": [
+        {
+          "id": "0AA09E2F36D3B538",
+          "type": "item",
+          "item": "immersiveengineering:hammer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B7EE0BCF28B5EA1",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "010C9E751CFC19BF",
+      "title": "Cut and connect",
+      "subtitle": "Engineer's Wire Cutters",
+      "description": [
+        "Prepare wire tools and connectors. Keep exposed wiring clear of walkways.",
+        "Goal: obtain Engineer's Wire Cutters. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "immersiveengineering:wirecutter",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0696B83791A0B25E"
+      ],
+      "tasks": [
+        {
+          "id": "0317A6A08BB87810",
+          "type": "item",
+          "item": "immersiveengineering:wirecutter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "08088EF895AD9B01",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "00565E3CD71105AE",
+      "title": "Coke and creosote",
+      "subtitle": "Coke Brick",
+      "description": [
+        "Build a Coke Oven from the manual's diagram. Store both solid and fluid outputs.",
+        "Goal: obtain Coke Brick. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "immersiveengineering:cokebrick",
+      "x": 6.46,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "010C9E751CFC19BF"
+      ],
+      "tasks": [
+        {
+          "id": "00883F40E7177C95",
+          "type": "item",
+          "item": "immersiveengineering:cokebrick",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0CAAF2A7FCCF0233",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "0BA3E20FB636F4DB",
+      "title": "The first steelworks",
+      "subtitle": "Blast Brick",
+      "description": [
+        "Build a Blast Furnace and provide the correct fuel. Establish steel production before bigger machines.",
+        "Goal: obtain Blast Brick. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "immersiveengineering:blastbrick",
+      "x": 7.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "00565E3CD71105AE"
+      ],
+      "tasks": [
+        {
+          "id": "0E1F358C41AC0CCB",
+          "type": "item",
+          "item": "immersiveengineering:blastbrick",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0466BEAD542A546E",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "095A3DA23BA3B5DA",
+      "title": "Mechanical power",
+      "subtitle": "Water Wheel",
+      "description": [
+        "Place a watermill where water can drive it, then connect a dynamo and wiring as the manual explains.",
+        "Goal: obtain Water Wheel. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "immersiveengineering:watermill",
+      "x": 2.69,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0BA3E20FB636F4DB"
+      ],
+      "tasks": [
+        {
+          "id": "0AE9EDC74193B175",
+          "type": "item",
+          "item": "immersiveengineering:watermill",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0CACBC8BAD1D0E1D",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "0EE82971A6EDA00F",
+      "title": "Buffer your power",
+      "subtitle": "LV Accumulator",
+      "description": [
+        "Store low-voltage energy and test a modest load. Match voltage tiers when expanding the network.",
+        "Goal: obtain LV Accumulator. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "immersiveengineering:capacitor_lv",
+      "x": 3.94,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "095A3DA23BA3B5DA"
+      ],
+      "tasks": [
+        {
+          "id": "0BB1CF3FE2FA3823",
+          "type": "item",
+          "item": "immersiveengineering:capacitor_lv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0BD1D843091CEF06",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "0DB2A82BDA527DCF",
+      "title": "Industrial components",
+      "subtitle": "Iron Mechanical Component",
+      "description": [
+        "Prepare components for larger machines. Batch production makes expansion easier.",
+        "Goal: obtain Iron Mechanical Component. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "immersiveengineering:component_iron",
+      "x": 5.2,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0EE82971A6EDA00F"
+      ],
+      "tasks": [
+        {
+          "id": "0A0C1B49B417C439",
+          "type": "item",
+          "item": "immersiveengineering:component_iron",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "059F3B15109A0A59",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "0766D95A3968507D",
+      "title": "Immersive Engineering",
+      "subtitle": "Overview",
+      "description": [
+        "Large physical machines and visible power networks. Follow the Engineer's Manual for construction rather than treating multiblock preview items as craftable machines.",
+        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+      ],
+      "icon": "immersiveengineering:manual",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0E82B83155660B07",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

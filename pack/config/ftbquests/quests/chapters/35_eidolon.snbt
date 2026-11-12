@@ -1,0 +1,222 @@
+{
+  "id": "0DBA1BB0E6269AD1",
+  "group": "065A019E212476CF",
+  "title": "Eidolon",
+  "order_index": 29,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0F346C173FE467EB",
+      "title": "Read the Ars Ecclesia",
+      "subtitle": "Ars Ecclesia",
+      "description": [
+        "Read the codex and follow its research instructions. Keep track of discoveries instead of guessing ritual sequences.",
+        "Goal: obtain Ars Ecclesia. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "eidolon:codex",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0D60D15012DF798A"
+      ],
+      "tasks": [
+        {
+          "id": "06546318E18621CD",
+          "type": "item",
+          "item": "eidolon:codex",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "047DE014A446AF4E",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0712E228BDDC91F6",
+      "title": "Crucible experiments",
+      "subtitle": "Crucible",
+      "description": [
+        "Build the crucible and follow ingredient order and stirring instructions carefully.",
+        "Goal: obtain Crucible. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "eidolon:crucible",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0F346C173FE467EB"
+      ],
+      "tasks": [
+        {
+          "id": "0F85147AA57FA5A9",
+          "type": "item",
+          "item": "eidolon:crucible",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "00FA9D2755CD94D0",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0C793F03B5829ABD",
+      "title": "A dark workshop",
+      "subtitle": "Magic Workbench",
+      "description": [
+        "Use the worktable to craft components. Keep magical materials separate from ordinary building supplies.",
+        "Goal: obtain Magic Workbench. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "eidolon:worktable",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0712E228BDDC91F6"
+      ],
+      "tasks": [
+        {
+          "id": "0D76EDC8F1425AD6",
+          "type": "item",
+          "item": "eidolon:worktable",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0164614AE2614ABD",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "002219793A876EA7",
+      "title": "An altar of your own",
+      "subtitle": "Wooden Altar",
+      "description": [
+        "Arrange an altar as described in the codex. Read the requirements for offerings and symbols.",
+        "Goal: obtain Wooden Altar. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "eidolon:wooden_altar",
+      "x": 6.46,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0C793F03B5829ABD"
+      ],
+      "tasks": [
+        {
+          "id": "0A688DD50F489D14",
+          "type": "item",
+          "item": "eidolon:wooden_altar",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0164440C0EB2003B",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "05A422F4CF140B3F",
+      "title": "Record discoveries",
+      "subtitle": "Research Table",
+      "description": [
+        "Use the research system to advance your knowledge and revisit unlocked codex entries.",
+        "Goal: obtain Research Table. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "eidolon:research_table",
+      "x": 7.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "002219793A876EA7"
+      ],
+      "tasks": [
+        {
+          "id": "0C8D2C8AFC014024",
+          "type": "item",
+          "item": "eidolon:research_table",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C597C8E198FFC8D",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "0CB7431BBFB0F96A",
+      "title": "Enchant with purpose",
+      "subtitle": "Soul Enchanter",
+      "description": [
+        "Build the Soul Enchanter's required setup and try a modest enchantment before spending rare resources.",
+        "Goal: obtain Soul Enchanter. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "eidolon:soul_enchanter",
+      "x": 2.69,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "05A422F4CF140B3F"
+      ],
+      "tasks": [
+        {
+          "id": "02C97593907C93D8",
+          "type": "item",
+          "item": "eidolon:soul_enchanter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "08D02398FB776F18",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "0D60D15012DF798A",
+      "title": "Eidolon:Repraised",
+      "subtitle": "Overview",
+      "description": [
+        "Research, crucible crafting and rituals form a distinct magic path. Follow discoveries in the codex as they become available.",
+        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+      ],
+      "icon": "eidolon:codex",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "04B46A4111D45EF8",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

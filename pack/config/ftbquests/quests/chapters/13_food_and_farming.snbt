@@ -1,0 +1,371 @@
+{
+  "id": "08DDECE9A763118F",
+  "group": "0E249DD4723B0E70",
+  "title": "Food and Farming",
+  "order_index": 11,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0E8FBCB21FFF2CD8",
+      "title": "Cooking Table",
+      "subtitle": "",
+      "description": [
+        "Connect a practical kitchen around stored ingredients.",
+        "Obtain Cooking Table and keep it in your inventory for detection."
+      ],
+      "icon": "cookingforblockheads:cooking_table",
+      "x": 2.69,
+      "y": 1.57,
+      "shape": "circle",
+      "dependencies": [
+        "066D244FC121D8BF"
+      ],
+      "tasks": [
+        {
+          "id": "030586000A7F30BE",
+          "type": "item",
+          "item": "cookingforblockheads:cooking_table",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "060DCD62E8E8DD14",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0DD2ACC7B1DB6A6B",
+      "title": "Fridge",
+      "subtitle": "",
+      "description": [
+        "Connect a practical kitchen around stored ingredients.",
+        "Obtain Fridge and keep it in your inventory for detection."
+      ],
+      "icon": "cookingforblockheads:fridge",
+      "x": 3.94,
+      "y": 1.57,
+      "shape": "circle",
+      "dependencies": [
+        "0E8FBCB21FFF2CD8"
+      ],
+      "tasks": [
+        {
+          "id": "0F46C091FAE84B01",
+          "type": "item",
+          "item": "cookingforblockheads:fridge",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D5B9FE54FA456E7",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "03C2F44371290A39",
+      "title": "Oven",
+      "subtitle": "",
+      "description": [
+        "Connect a practical kitchen around stored ingredients.",
+        "Obtain Oven and keep it in your inventory for detection."
+      ],
+      "icon": "cookingforblockheads:oven",
+      "x": 5.2,
+      "y": 1.57,
+      "shape": "circle",
+      "dependencies": [
+        "0DD2ACC7B1DB6A6B"
+      ],
+      "tasks": [
+        {
+          "id": "0FB4CAE3FC8585CC",
+          "type": "item",
+          "item": "cookingforblockheads:oven",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DEB0F3B7FE5585B",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "00279CAD5D2ED92D",
+      "title": "Sink",
+      "subtitle": "",
+      "description": [
+        "Connect a practical kitchen around stored ingredients.",
+        "Obtain Sink and keep it in your inventory for detection."
+      ],
+      "icon": "cookingforblockheads:sink",
+      "x": 6.46,
+      "y": 1.57,
+      "shape": "circle",
+      "dependencies": [
+        "03C2F44371290A39"
+      ],
+      "tasks": [
+        {
+          "id": "025ED7C479ECD278",
+          "type": "item",
+          "item": "cookingforblockheads:sink",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "047BBF54CC7B3525",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "066D244FC121D8BF",
+      "title": "Cooking for Blockheads",
+      "subtitle": "Optional branch",
+      "description": [
+        "Connect a practical kitchen around stored ingredients.",
+        "Use JEI to inspect the recipes. These milestones detect the item; placing or operating it is the next practical step."
+      ],
+      "icon": "cookingforblockheads:cooking_table",
+      "x": 1.43,
+      "y": 1.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "00D7E577C75471E2",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0BB0FAB028765AA9",
+      "title": "Flint Knife",
+      "subtitle": "",
+      "description": [
+        "Build a kitchen, improve your growing space and cook varied meals.",
+        "Obtain Flint Knife and keep it in your inventory for detection."
+      ],
+      "icon": "farmersdelight:flint_knife",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "07B185048314EDEC"
+      ],
+      "tasks": [
+        {
+          "id": "0410D6CAC8672ABC",
+          "type": "item",
+          "item": "farmersdelight:flint_knife",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0901EB58A4BA1F5B",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "089D6F1739AF5B00",
+      "title": "Cutting Board",
+      "subtitle": "",
+      "description": [
+        "Build a kitchen, improve your growing space and cook varied meals.",
+        "Obtain Cutting Board and keep it in your inventory for detection."
+      ],
+      "icon": "farmersdelight:cutting_board",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0BB0FAB028765AA9"
+      ],
+      "tasks": [
+        {
+          "id": "0650AE9400EE01DA",
+          "type": "item",
+          "item": "farmersdelight:cutting_board",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0BF41DE8A5E646A1",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "05A6207B7856AA6B",
+      "title": "Cooking Pot",
+      "subtitle": "",
+      "description": [
+        "Build a kitchen, improve your growing space and cook varied meals.",
+        "Obtain Cooking Pot and keep it in your inventory for detection."
+      ],
+      "icon": "farmersdelight:cooking_pot",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "089D6F1739AF5B00"
+      ],
+      "tasks": [
+        {
+          "id": "0088C428345D7389",
+          "type": "item",
+          "item": "farmersdelight:cooking_pot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B044BA8322CF682",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0C1996936C3CC629",
+      "title": "Stove",
+      "subtitle": "",
+      "description": [
+        "Build a kitchen, improve your growing space and cook varied meals.",
+        "Obtain Stove and keep it in your inventory for detection."
+      ],
+      "icon": "farmersdelight:stove",
+      "x": 6.46,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "05A6207B7856AA6B"
+      ],
+      "tasks": [
+        {
+          "id": "0C958DDFF48DA006",
+          "type": "item",
+          "item": "farmersdelight:stove",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B7F4E6C8EBABAFE",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0A177F13840C9FE6",
+      "title": "Rich Soil",
+      "subtitle": "",
+      "description": [
+        "Build a kitchen, improve your growing space and cook varied meals.",
+        "Obtain Rich Soil and keep it in your inventory for detection."
+      ],
+      "icon": "farmersdelight:rich_soil",
+      "x": 7.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0C1996936C3CC629"
+      ],
+      "tasks": [
+        {
+          "id": "055CABF0ECE3081A",
+          "type": "item",
+          "item": "farmersdelight:rich_soil",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D50BE891432B637",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0241B8D3965F4881",
+      "title": "Vegetable Soup",
+      "subtitle": "",
+      "description": [
+        "Build a kitchen, improve your growing space and cook varied meals.",
+        "Obtain Vegetable Soup and keep it in your inventory for detection."
+      ],
+      "icon": "farmersdelight:vegetable_soup",
+      "x": 8.97,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0A177F13840C9FE6"
+      ],
+      "tasks": [
+        {
+          "id": "0F6742DAD031A6F2",
+          "type": "item",
+          "item": "farmersdelight:vegetable_soup",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "066BA8DBF4C7B7DB",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "07B185048314EDEC",
+      "title": "Farmer's Delight",
+      "subtitle": "Optional branch",
+      "description": [
+        "Build a kitchen, improve your growing space and cook varied meals.",
+        "Use JEI to inspect the recipes. These milestones detect the item; placing or operating it is the next practical step."
+      ],
+      "icon": "farmersdelight:flint_knife",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0159E1BF28F2C348",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

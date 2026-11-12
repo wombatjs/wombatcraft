@@ -1,0 +1,190 @@
+{
+  "id": "0728A89C6CE8BDD4",
+  "group": "00AA8F374274B5F3",
+  "title": "Cobblemon",
+  "order_index": 22,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0D1E5C99382622A4",
+      "title": "Your first capture",
+      "subtitle": "Poké Ball",
+      "description": [
+        "Choose a starter using Cobblemon's interface, then craft balls and attempt a wild capture.",
+        "Goal: obtain Poké Ball. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "cobblemon:poke_ball",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0785246BA31518C9"
+      ],
+      "tasks": [
+        {
+          "id": "095C84B933502749",
+          "type": "item",
+          "item": "cobblemon:poke_ball",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05A68F6B354746E7",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0CDC92A6F239F517",
+      "title": "A place to recover",
+      "subtitle": "Healing Machine",
+      "description": [
+        "Build a healing machine so your team can recover between expeditions.",
+        "Goal: obtain Healing Machine. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "cobblemon:healing_machine",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0D1E5C99382622A4"
+      ],
+      "tasks": [
+        {
+          "id": "0B86F50F0504BC23",
+          "type": "item",
+          "item": "cobblemon:healing_machine",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09AB51AA53FAE7BC",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0310B538F7304E59",
+      "title": "Room for a growing team",
+      "subtitle": "PC",
+      "description": [
+        "Set up a PC to organize captured Pokemon and choose a balanced traveling team.",
+        "Goal: obtain PC. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "cobblemon:pc",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0CDC92A6F239F517"
+      ],
+      "tasks": [
+        {
+          "id": "05CDF706217DBCC9",
+          "type": "item",
+          "item": "cobblemon:pc",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04ADE0F4407D8A17",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0EE857E5CE43842B",
+      "title": "Broaden your collection",
+      "subtitle": "Great Ball",
+      "description": [
+        "Prepare improved balls for further exploration. Crafting this ball is the detected goal; making a new capture is your next step.",
+        "Goal: obtain Great Ball. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "cobblemon:great_ball",
+      "x": 6.46,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0310B538F7304E59"
+      ],
+      "tasks": [
+        {
+          "id": "01EAEB039DC843BD",
+          "type": "item",
+          "item": "cobblemon:great_ball",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0864DC2258B14521",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "000E69B129F7561E",
+      "title": "A serious expedition",
+      "subtitle": "Ultra Ball",
+      "description": [
+        "Bring a varied team and a reserve of supplies when searching for rare encounters.",
+        "Goal: obtain Ultra Ball. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "cobblemon:ultra_ball",
+      "x": 7.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0EE857E5CE43842B"
+      ],
+      "tasks": [
+        {
+          "id": "0B3B6F0C5D8CE8B0",
+          "type": "item",
+          "item": "cobblemon:ultra_ball",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "01C0A3FB01A55148",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "0785246BA31518C9",
+      "title": "Cobblemon",
+      "subtitle": "Overview",
+      "description": [
+        "An optional creature-collecting path. Train and trade alongside the rest of the pack without making it a requirement for technology or magic.",
+        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+      ],
+      "icon": "cobblemon:poke_ball",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "07288C1CBB168431",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

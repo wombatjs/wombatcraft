@@ -1,0 +1,318 @@
+{
+  "id": "0849BD45E0C4B72F",
+  "group": "065A019E212476CF",
+  "title": "Spellbooks",
+  "order_index": 25,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0E1416AFCB6B5171",
+      "title": "Gather arcane material",
+      "subtitle": "Arcane Essence",
+      "description": [
+        "Collect arcane essence while exploring. Save it for your first spell equipment.",
+        "Goal: obtain Arcane Essence. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "irons_spellbooks:arcane_essence",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0FA10508A7FF694E"
+      ],
+      "tasks": [
+        {
+          "id": "0958054D7027B360",
+          "type": "item",
+          "item": "irons_spellbooks:arcane_essence",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D9B0D98D59CEB87",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "04DDACEC3B019A7F",
+      "title": "Ink and scrolls",
+      "subtitle": "Common Ink",
+      "description": [
+        "Inspect the scroll and ink recipes. Compare spell rarity and level before spending rarer ink.",
+        "Goal: obtain Common Ink. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "irons_spellbooks:common_ink",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0E1416AFCB6B5171"
+      ],
+      "tasks": [
+        {
+          "id": "063A720AAF394AA4",
+          "type": "item",
+          "item": "irons_spellbooks:common_ink",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E4250C5F698669D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0D9A31C3A0851422",
+      "title": "Prepare your spellbook",
+      "subtitle": "Inscription Table",
+      "description": [
+        "Use the Inscription Table to manage spells in a compatible spellbook. Check the equipment requirements shown on scrolls.",
+        "Goal: obtain Inscription Table. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "irons_spellbooks:inscription_table",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "04DDACEC3B019A7F"
+      ],
+      "tasks": [
+        {
+          "id": "02711F67482FC756",
+          "type": "item",
+          "item": "irons_spellbooks:inscription_table",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "06CF1F35EB40D1F3",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0E598A8738CAE024",
+      "title": "Refine your supplies",
+      "subtitle": "Alchemist Cauldron",
+      "description": [
+        "Build an Alchemist Cauldron and inspect its recipes. Keep ingredients and output containers nearby.",
+        "Goal: obtain Alchemist Cauldron. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "irons_spellbooks:alchemist_cauldron",
+      "x": 6.46,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0D9A31C3A0851422"
+      ],
+      "tasks": [
+        {
+          "id": "045ABB70CCAB61BC",
+          "type": "item",
+          "item": "irons_spellbooks:alchemist_cauldron",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0CF0C49A1913BCAC",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "071B9503CBD9BC56",
+      "title": "Choose a school",
+      "subtitle": "Scroll Forge",
+      "description": [
+        "Use the Scroll Forge recipes to work toward a school you enjoy. Test damage, cooldown and mana use in a safe area.",
+        "Goal: obtain Scroll Forge. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "irons_spellbooks:scroll_forge",
+      "x": 7.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0E598A8738CAE024"
+      ],
+      "tasks": [
+        {
+          "id": "0DC5A6B6B4C3C767",
+          "type": "item",
+          "item": "irons_spellbooks:scroll_forge",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D9D5660A3A7C3BB",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "025DB72F739C9CA9",
+      "title": "Improve your equipment",
+      "subtitle": "Arcane Anvil",
+      "description": [
+        "Use the Arcane Anvil for supported upgrades. Preview the result before spending materials.",
+        "Goal: obtain Arcane Anvil. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "irons_spellbooks:arcane_anvil",
+      "x": 2.69,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "071B9503CBD9BC56"
+      ],
+      "tasks": [
+        {
+          "id": "0189F8C4028109F5",
+          "type": "item",
+          "item": "irons_spellbooks:arcane_anvil",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F4C3E0C4B14037E",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "0DDB605247878C23",
+      "title": "Stronger spellcraft",
+      "subtitle": "Rare Ink",
+      "description": [
+        "Build a reliable supply of rarer ink. A higher-level spell can cost more mana than your equipment supports.",
+        "Goal: obtain Rare Ink. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "irons_spellbooks:rare_ink",
+      "x": 3.94,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "025DB72F739C9CA9"
+      ],
+      "tasks": [
+        {
+          "id": "0142497434F814E8",
+          "type": "item",
+          "item": "irons_spellbooks:rare_ink",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05D4EE9455024EFE",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "004450568DE56D6D",
+      "title": "Prepare for harder fights",
+      "subtitle": "Epic Ink",
+      "description": [
+        "Improve mana and spell power alongside spell levels. Bring a mobility or defensive option to dangerous structures.",
+        "Goal: obtain Epic Ink. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "irons_spellbooks:epic_ink",
+      "x": 5.2,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0DDB605247878C23"
+      ],
+      "tasks": [
+        {
+          "id": "09D4A0D1F05467F5",
+          "type": "item",
+          "item": "irons_spellbooks:epic_ink",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B8196CDEFC33FE5",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "0D32B70E6028FC19",
+      "title": "A complete spell loadout",
+      "subtitle": "Legendary Ink",
+      "description": [
+        "Plan a loadout with sustained damage, defense and movement. Test it on ordinary enemies before committing to a boss encounter.",
+        "Goal: obtain Legendary Ink. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "irons_spellbooks:legendary_ink",
+      "x": 6.46,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "004450568DE56D6D"
+      ],
+      "tasks": [
+        {
+          "id": "058155E11AFB09C8",
+          "type": "item",
+          "item": "irons_spellbooks:legendary_ink",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D641FDE3328EDDE",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "0FA10508A7FF694E",
+      "title": "Iron's Spells 'n Spellbooks",
+      "subtitle": "Overview",
+      "description": [
+        "A combat-focused magic branch with spell schools, scrolls and equipment. Learn how mana and cooldowns interact before investing in high-tier spells.",
+        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+      ],
+      "icon": "irons_spellbooks:arcane_essence",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "069E9C588B24FFD2",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

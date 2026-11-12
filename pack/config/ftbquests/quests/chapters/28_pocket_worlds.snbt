@@ -1,0 +1,158 @@
+{
+  "id": "0DBD2B438BE09E8B",
+  "group": "00AA8F374274B5F3",
+  "title": "Pocket Worlds",
+  "order_index": 23,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0BF2B1BF7F254FD4",
+      "title": "A door beyond the wall",
+      "subtitle": "Item Ag Dim Minecraft Iron Door",
+      "description": [
+        "Learn how dimensional doors and rifts connect spaces before traveling far from safety.",
+        "Goal: obtain Item Ag Dim Minecraft Iron Door. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "dimdoors:item_ag_dim_minecraft_iron_door",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "014FC4A0A83B1379"
+      ],
+      "tasks": [
+        {
+          "id": "0A1DAB94313500E0",
+          "type": "item",
+          "item": "dimdoors:item_ag_dim_minecraft_iron_door",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "036350922EE463DD",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0CA6F3D5CDDDCEC7",
+      "title": "Keep control of the rifts",
+      "subtitle": "Rift Remover",
+      "description": [
+        "Prepare a way to manage unwanted rifts and read the item's instructions before using it.",
+        "Goal: obtain Rift Remover. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "dimdoors:rift_remover",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0BF2B1BF7F254FD4"
+      ],
+      "tasks": [
+        {
+          "id": "0B78C48523414F2A",
+          "type": "item",
+          "item": "dimdoors:rift_remover",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0EA8EC0D65A39FA5",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0E1EC1C9E1AF23E6",
+      "title": "Mark a connection",
+      "subtitle": "Rift Signature",
+      "description": [
+        "Use rift tools carefully to establish an intentional link.",
+        "Goal: obtain Rift Signature. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "dimdoors:rift_signature",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0CA6F3D5CDDDCEC7"
+      ],
+      "tasks": [
+        {
+          "id": "09ED0FBCE68B9556",
+          "type": "item",
+          "item": "dimdoors:rift_signature",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "00C12078651E8282",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "005B11EE54DDB685",
+      "title": "Another kind of doorway",
+      "subtitle": "Item Ag Dim Dimdoors Gold Door",
+      "description": [
+        "Explore the available door types and their uses in your own pocket spaces.",
+        "Goal: obtain Item Ag Dim Dimdoors Gold Door. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "dimdoors:item_ag_dim_dimdoors_gold_door",
+      "x": 6.46,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0E1EC1C9E1AF23E6"
+      ],
+      "tasks": [
+        {
+          "id": "06BCE9229C4EFBD5",
+          "type": "item",
+          "item": "dimdoors:item_ag_dim_dimdoors_gold_door",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "027E3469E374454C",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "014FC4A0A83B1379",
+      "title": "Dimensional Doors",
+      "subtitle": "Overview",
+      "description": [
+        "Explore strange spaces with a deliberate return plan. Keep experimental door networks away from the TARDIS entrance.",
+        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+      ],
+      "icon": "dimdoors:item_ag_dim_minecraft_iron_door",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0B3851BE79C1F310",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1721 @@
+{
+  "id": "0901A76692DBE5DC",
+  "group": "0E249DD4723B0E70",
+  "title": "Food & Farming",
+  "order_index": 18,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0B6ECACC69BC62FD",
+      "title": "Neptunium Sword",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "aquaculture:neptunium_sword",
+      "x": 2.86,
+      "y": 22.86,
+      "shape": "circle",
+      "dependencies": [
+        "0B854A8F4842ABCF"
+      ],
+      "tasks": [
+        {
+          "id": "019A33041E9999B2",
+          "type": "item",
+          "item": "aquaculture:neptunium_sword",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0BEC5E080FA830DA",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0E17785A2C3A493F",
+      "title": "Sushi",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "aquaculture:sushi",
+      "x": 4.29,
+      "y": 22.86,
+      "shape": "circle",
+      "dependencies": [
+        "0B6ECACC69BC62FD"
+      ],
+      "tasks": [
+        {
+          "id": "0693B7BA09F4B694",
+          "type": "item",
+          "item": "aquaculture:sushi",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04405BB5B32F89AE",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0BC486B7C7A83C7C",
+      "title": "Bobber",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "aquaculture:bobber",
+      "x": 5.71,
+      "y": 22.86,
+      "shape": "circle",
+      "dependencies": [
+        "0E17785A2C3A493F"
+      ],
+      "tasks": [
+        {
+          "id": "0A080505A5A1EDD7",
+          "type": "item",
+          "item": "aquaculture:bobber",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "08A26394B1E3AE17",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0B854A8F4842ABCF",
+      "title": "Aquaculture 2",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Aquaculture 2. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "aquaculture:neptunium_sword",
+      "x": 1.43,
+      "y": 22.86,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0BAA39F68B034A50",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0ABEDF463AD4837E",
+      "title": "Botany Pot",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "botanypots:terracotta_botany_pot",
+      "x": 2.86,
+      "y": 14.29,
+      "shape": "circle",
+      "dependencies": [
+        "0EB7B320737FA500"
+      ],
+      "tasks": [
+        {
+          "id": "08BA2B49A44615D7",
+          "type": "item",
+          "item": "botanypots:terracotta_botany_pot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D5C0D9C1274872D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "012A1D8CEBEAC427",
+      "title": "Red Botany Pot",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "botanypots:red_concrete_botany_pot",
+      "x": 4.29,
+      "y": 14.29,
+      "shape": "circle",
+      "dependencies": [
+        "0ABEDF463AD4837E"
+      ],
+      "tasks": [
+        {
+          "id": "0B456D321AF59875",
+          "type": "item",
+          "item": "botanypots:red_concrete_botany_pot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07EDB331C75A4F50",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0AC9A0700D741F22",
+      "title": "Cyan Botany Pot",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "botanypots:cyan_concrete_botany_pot",
+      "x": 5.71,
+      "y": 14.29,
+      "shape": "circle",
+      "dependencies": [
+        "012A1D8CEBEAC427"
+      ],
+      "tasks": [
+        {
+          "id": "0CB921CA4DBDFED6",
+          "type": "item",
+          "item": "botanypots:cyan_concrete_botany_pot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F5F05E0A9FD7F31",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0EB7B320737FA500",
+      "title": "Botany Pots",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Botany Pots. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "botanypots:terracotta_botany_pot",
+      "x": 1.43,
+      "y": 14.29,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "00B70CCF1645EA40",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "094687F9CB229A67",
+      "title": "Field notes",
+      "subtitle": "",
+      "description": [
+        "Explore the features added by Botany Trees and record one useful discovery. This is a manual objective; mark it after trying the feature."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 2.86,
+      "y": 15.71,
+      "shape": "square",
+      "dependencies": [
+        "0BE25CE0E92CD069"
+      ],
+      "tasks": [
+        {
+          "id": "0F87966CC1B4A01B",
+          "type": "checkmark",
+          "title": "I have tested this feature"
+        }
+      ]
+    },
+    {
+      "id": "0BE25CE0E92CD069",
+      "title": "Botany Trees",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Botany Trees. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:writable_book",
+      "x": 1.43,
+      "y": 15.71,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "03ED428D0DB0F7B4",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0CF2254E83881AF9",
+      "title": "Decree",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "bountiful:decree",
+      "x": 2.86,
+      "y": 4.29,
+      "shape": "circle",
+      "dependencies": [
+        "088F2E5D31F9D228"
+      ],
+      "tasks": [
+        {
+          "id": "0A3E4DC414EA5080",
+          "type": "item",
+          "item": "bountiful:decree",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0EBEF6852DD9A83F",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "01487D82D6956EA3",
+      "title": "Bounty Board",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "bountiful:bountyboard",
+      "x": 4.29,
+      "y": 4.29,
+      "shape": "circle",
+      "dependencies": [
+        "0CF2254E83881AF9"
+      ],
+      "tasks": [
+        {
+          "id": "095EC723FB6C7E2A",
+          "type": "item",
+          "item": "bountiful:bountyboard",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0689EB377E727D77",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "088F2E5D31F9D228",
+      "title": "Bountiful",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Bountiful. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "bountiful:decree",
+      "x": 1.43,
+      "y": 4.29,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "07AA6A1998A7B7AE",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "010C2CF026B13B3C",
+      "title": "Meringue",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "croptopia:meringue",
+      "x": 2.86,
+      "y": 21.43,
+      "shape": "circle",
+      "dependencies": [
+        "0D35E9AE976F4A99"
+      ],
+      "tasks": [
+        {
+          "id": "041FBA3A8F7C3052",
+          "type": "item",
+          "item": "croptopia:meringue",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "08EE1FF1805A74E0",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "02D113E7B803B42E",
+      "title": "Cooking Pot",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "croptopia:cooking_pot",
+      "x": 4.29,
+      "y": 21.43,
+      "shape": "circle",
+      "dependencies": [
+        "010C2CF026B13B3C"
+      ],
+      "tasks": [
+        {
+          "id": "0BA6E8E2F15F2CA2",
+          "type": "item",
+          "item": "croptopia:cooking_pot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "005C10C78AE4A64A",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "07F59CB579B3B148",
+      "title": "Onion Rings",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "croptopia:onion_rings",
+      "x": 5.71,
+      "y": 21.43,
+      "shape": "circle",
+      "dependencies": [
+        "02D113E7B803B42E"
+      ],
+      "tasks": [
+        {
+          "id": "0C0022486199F667",
+          "type": "item",
+          "item": "croptopia:onion_rings",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0CFBB2E956711991",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0D35E9AE976F4A99",
+      "title": "Croptopia",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Croptopia. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "croptopia:meringue",
+      "x": 1.43,
+      "y": 21.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0D2BC9AF85278A75",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "011F70D3A94CD88E",
+      "title": "Elote",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "culturaldelights:elote",
+      "x": 2.86,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "0E01906F293B7343"
+      ],
+      "tasks": [
+        {
+          "id": "02D1248E69483A27",
+          "type": "item",
+          "item": "culturaldelights:elote",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0523AB285A33C1DD",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0765DB6B04DE0A6D",
+      "title": "Pickle",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "culturaldelights:pickle",
+      "x": 4.29,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "011F70D3A94CD88E"
+      ],
+      "tasks": [
+        {
+          "id": "01DE4420A748D0A4",
+          "type": "item",
+          "item": "culturaldelights:pickle",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0CCC17B7418C9BD4",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "04956FB876859A2D",
+      "title": "Avocado",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "culturaldelights:avocado",
+      "x": 5.71,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "0765DB6B04DE0A6D"
+      ],
+      "tasks": [
+        {
+          "id": "0084827C90DB1188",
+          "type": "item",
+          "item": "culturaldelights:avocado",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0BCE41F87462D51A",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0E01906F293B7343",
+      "title": "Cultural Delights",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Cultural Delights. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "culturaldelights:elote",
+      "x": 1.43,
+      "y": 2.86,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0D46BCC6F46CAFCA",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "03A8F3483FA805A4",
+      "title": "Stuffed Potato",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "farmersdelight:stuffed_potato",
+      "x": 2.86,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0ED44D25B0E3C7F4"
+      ],
+      "tasks": [
+        {
+          "id": "0797EB22965D17D1",
+          "type": "item",
+          "item": "farmersdelight:stuffed_potato",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B85922E38BFA017",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0ED44D25B0E3C7F4",
+      "title": "Delightful",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Delightful. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "farmersdelight:stuffed_potato",
+      "x": 1.43,
+      "y": 1.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "08E34845D0A3B3A3",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "05D5EF08C461E677",
+      "title": "Barterer",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "easy_piglins:barterer",
+      "x": 2.86,
+      "y": 18.57,
+      "shape": "circle",
+      "dependencies": [
+        "09ACFABD5AC29373"
+      ],
+      "tasks": [
+        {
+          "id": "07AE72D373C8F2D2",
+          "type": "item",
+          "item": "easy_piglins:barterer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0730A179514D3F5E",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "09ACFABD5AC29373",
+      "title": "Easy Piglins",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Easy Piglins. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "easy_piglins:barterer",
+      "x": 1.43,
+      "y": 18.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "003B1A0C94BD2743",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0D5F5E64708E5BEB",
+      "title": "Farmer",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "easy_villagers:farmer",
+      "x": 2.86,
+      "y": 17.14,
+      "shape": "circle",
+      "dependencies": [
+        "063FE18A4BEB56DC"
+      ],
+      "tasks": [
+        {
+          "id": "0488150F601BE08F",
+          "type": "item",
+          "item": "easy_villagers:farmer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07E4C7EADDB300DD",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0EE3CCE6A0586D06",
+      "title": "Trader",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "easy_villagers:trader",
+      "x": 4.29,
+      "y": 17.14,
+      "shape": "circle",
+      "dependencies": [
+        "0D5F5E64708E5BEB"
+      ],
+      "tasks": [
+        {
+          "id": "0382662222CC02A3",
+          "type": "item",
+          "item": "easy_villagers:trader",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E032834AB57B30F",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0A3AD7756F3467F9",
+      "title": "Breeder",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "easy_villagers:breeder",
+      "x": 5.71,
+      "y": 17.14,
+      "shape": "circle",
+      "dependencies": [
+        "0EE3CCE6A0586D06"
+      ],
+      "tasks": [
+        {
+          "id": "09506043D7B489B6",
+          "type": "item",
+          "item": "easy_villagers:breeder",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07CC6E4B5D8A65CC",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "063FE18A4BEB56DC",
+      "title": "Easy Villagers",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Easy Villagers. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "easy_villagers:farmer",
+      "x": 1.43,
+      "y": 17.14,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0276F421E0C35D0D",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "08557E3EA1716CCB",
+      "title": "End Stove",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "ends_delight:end_stove",
+      "x": 2.86,
+      "y": 5.71,
+      "shape": "circle",
+      "dependencies": [
+        "0AA2F0A2CA561ABD"
+      ],
+      "tasks": [
+        {
+          "id": "01637D14B616446E",
+          "type": "item",
+          "item": "ends_delight:end_stove",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09BCFCFE089B9C7C",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0146D4124F5BD217",
+      "title": "Bubble Tea",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "ends_delight:bubble_tea",
+      "x": 4.29,
+      "y": 5.71,
+      "shape": "circle",
+      "dependencies": [
+        "08557E3EA1716CCB"
+      ],
+      "tasks": [
+        {
+          "id": "02A12337FD115E9D",
+          "type": "item",
+          "item": "ends_delight:bubble_tea",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B5A50BF6C50F411",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0BB854536FF255D8",
+      "title": "Chorus Sauce",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "ends_delight:chorus_sauce",
+      "x": 5.71,
+      "y": 5.71,
+      "shape": "circle",
+      "dependencies": [
+        "0146D4124F5BD217"
+      ],
+      "tasks": [
+        {
+          "id": "09AFC7BB4F13CA82",
+          "type": "item",
+          "item": "ends_delight:chorus_sauce",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0324CB26467AF64E",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0AA2F0A2CA561ABD",
+      "title": "End's Delight",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces End's Delight. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "ends_delight:end_stove",
+      "x": 1.43,
+      "y": 5.71,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0B39AAA702283736",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0954E884116E0DF1",
+      "title": "Kettle",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "farmersrespite:kettle",
+      "x": 2.86,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "02BC9516173109F0"
+      ],
+      "tasks": [
+        {
+          "id": "05DB91714AA483E5",
+          "type": "item",
+          "item": "farmersrespite:kettle",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0ED9E4BF5119902F",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "07A5F847F87DF1BA",
+      "title": "Black Cod",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "farmersrespite:black_cod",
+      "x": 4.29,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0954E884116E0DF1"
+      ],
+      "tasks": [
+        {
+          "id": "061BCB550BAB241A",
+          "type": "item",
+          "item": "farmersrespite:black_cod",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07AB20313E5CD8BB",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "03BF6A1870019C27",
+      "title": "Tea Curry",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "farmersrespite:tea_curry",
+      "x": 5.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "07A5F847F87DF1BA"
+      ],
+      "tasks": [
+        {
+          "id": "09CC33BBA1183262",
+          "type": "item",
+          "item": "farmersrespite:tea_curry",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04B546828975245B",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "02BC9516173109F0",
+      "title": "Farmer's Respite",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Farmer's Respite. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "farmersrespite:kettle",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "05385999A5313714",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0187147FEE319595",
+      "title": "Market",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "farmingforblockheads:market",
+      "x": 2.86,
+      "y": 20.0,
+      "shape": "circle",
+      "dependencies": [
+        "0A2A59D2BA41B706"
+      ],
+      "tasks": [
+        {
+          "id": "0845F11D1E3948CC",
+          "type": "item",
+          "item": "farmingforblockheads:market",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C3327055DE0D653",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0B5DA3F1C6D85E21",
+      "title": "Chicken Nest",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "farmingforblockheads:chicken_nest",
+      "x": 4.29,
+      "y": 20.0,
+      "shape": "circle",
+      "dependencies": [
+        "0187147FEE319595"
+      ],
+      "tasks": [
+        {
+          "id": "01231AF85D729379",
+          "type": "item",
+          "item": "farmingforblockheads:chicken_nest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03F75189687F6804",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0BC367E5F614E52A",
+      "title": "Feeding Trough",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "farmingforblockheads:feeding_trough",
+      "x": 5.71,
+      "y": 20.0,
+      "shape": "circle",
+      "dependencies": [
+        "0B5DA3F1C6D85E21"
+      ],
+      "tasks": [
+        {
+          "id": "018A515EFCD4C80C",
+          "type": "item",
+          "item": "farmingforblockheads:feeding_trough",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0859298178A22B3D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0A2A59D2BA41B706",
+      "title": "Farming for Blockheads",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Farming for Blockheads. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "farmingforblockheads:market",
+      "x": 1.43,
+      "y": 20.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "01AE780E0AA825E5",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0D7755B525E77A0E",
+      "title": "Cicada",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "twilightforest:cicada",
+      "x": 2.86,
+      "y": 11.43,
+      "shape": "circle",
+      "dependencies": [
+        "0D8B57E47D2A5C09"
+      ],
+      "tasks": [
+        {
+          "id": "0C29509BE77C2D59",
+          "type": "item",
+          "item": "twilightforest:cicada",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A48D20ECD20BC5E",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0701E8EBA3904661",
+      "title": "Firefly",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "twilightforest:firefly",
+      "x": 4.29,
+      "y": 11.43,
+      "shape": "circle",
+      "dependencies": [
+        "0D7755B525E77A0E"
+      ],
+      "tasks": [
+        {
+          "id": "0EC7B5273A421D70",
+          "type": "item",
+          "item": "twilightforest:firefly",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F96284D587B7A94",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0CD84C2C44672485",
+      "title": "Liveroot",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "twilightforest:liveroot",
+      "x": 5.71,
+      "y": 11.43,
+      "shape": "circle",
+      "dependencies": [
+        "0701E8EBA3904661"
+      ],
+      "tasks": [
+        {
+          "id": "0B69CE12F1EF64E0",
+          "type": "item",
+          "item": "twilightforest:liveroot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09ADDDCC5D692E90",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0D8B57E47D2A5C09",
+      "title": "Hostile Neural Networks",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Hostile Neural Networks. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "twilightforest:cicada",
+      "x": 1.43,
+      "y": 11.43,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "003EC70F171F7807",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "03A132D0D95F4F91",
+      "title": "Mob Fan",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "mob_grinding_utils:fan",
+      "x": 2.86,
+      "y": 12.86,
+      "shape": "circle",
+      "dependencies": [
+        "0EFA4B82DCCAB04B"
+      ],
+      "tasks": [
+        {
+          "id": "0EC28947425FC6F3",
+          "type": "item",
+          "item": "mob_grinding_utils:fan",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0621519E7A26A9CB",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "08D1F3936CCB8C19",
+      "title": "Mob Masher",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "mob_grinding_utils:saw",
+      "x": 4.29,
+      "y": 12.86,
+      "shape": "circle",
+      "dependencies": [
+        "03A132D0D95F4F91"
+      ],
+      "tasks": [
+        {
+          "id": "0F10D2C6492498C6",
+          "type": "item",
+          "item": "mob_grinding_utils:saw",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A97311975D8329D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0D90E64CB6D3CDDE",
+      "title": "Singularity Tank",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "mob_grinding_utils:tank",
+      "x": 5.71,
+      "y": 12.86,
+      "shape": "circle",
+      "dependencies": [
+        "08D1F3936CCB8C19"
+      ],
+      "tasks": [
+        {
+          "id": "0FC4247133E26458",
+          "type": "item",
+          "item": "mob_grinding_utils:tank",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "036CA24D7CA9EEF4",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0EFA4B82DCCAB04B",
+      "title": "Mob Grinding Utils",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Mob Grinding Utils. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "mob_grinding_utils:fan",
+      "x": 1.43,
+      "y": 12.86,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "04DA6927B5BD220F",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "08EFF3502DA7D1D1",
+      "title": "Nitro Crystal",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "powah:crystal_nitro",
+      "x": 2.86,
+      "y": 7.14,
+      "shape": "circle",
+      "dependencies": [
+        "0B229F364ED68A7A"
+      ],
+      "tasks": [
+        {
+          "id": "072DF2A6B052EEF9",
+          "type": "item",
+          "item": "powah:crystal_nitro",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "052CFFB3111E5232",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "02FEC15383FAA647",
+      "title": "Gaia Spirit",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "botania:life_essence",
+      "x": 4.29,
+      "y": 7.14,
+      "shape": "circle",
+      "dependencies": [
+        "08EFF3502DA7D1D1"
+      ],
+      "tasks": [
+        {
+          "id": "016B5EA219AEF1CE",
+          "type": "item",
+          "item": "botania:life_essence",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A30237A4FC1AC27",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0F742FB02FA80592",
+      "title": "Tertium Coal",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "mysticalagradditions:tertium_coal",
+      "x": 5.71,
+      "y": 7.14,
+      "shape": "circle",
+      "dependencies": [
+        "02FEC15383FAA647"
+      ],
+      "tasks": [
+        {
+          "id": "0EE3670DAACC5416",
+          "type": "item",
+          "item": "mysticalagradditions:tertium_coal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04BBEC308496AC38",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0B229F364ED68A7A",
+      "title": "Mystical Agradditions",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Mystical Agradditions. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "powah:crystal_nitro",
+      "x": 1.43,
+      "y": 7.14,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "034854CFFC026CDA",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "03D444BB10EA792D",
+      "title": "Wax",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "productivebees:wax",
+      "x": 2.86,
+      "y": 8.57,
+      "shape": "circle",
+      "dependencies": [
+        "0A635DC974C1719B"
+      ],
+      "tasks": [
+        {
+          "id": "07428E9E57B3AD3F",
+          "type": "item",
+          "item": "productivebees:wax",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03659A2F2CF8F11D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "036ADD5CADC39048",
+      "title": "Guide Book",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "patchouli:guide_book",
+      "x": 4.29,
+      "y": 8.57,
+      "shape": "circle",
+      "dependencies": [
+        "03D444BB10EA792D"
+      ],
+      "tasks": [
+        {
+          "id": "00B4A2DDE8B70534",
+          "type": "item",
+          "item": "patchouli:guide_book",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "08FD11CB761AE64E",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "050DAE823D6E8E02",
+      "title": "Feeding Slab",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "productivebees:feeder",
+      "x": 5.71,
+      "y": 8.57,
+      "shape": "circle",
+      "dependencies": [
+        "036ADD5CADC39048"
+      ],
+      "tasks": [
+        {
+          "id": "023844BFEA2C2809",
+          "type": "item",
+          "item": "productivebees:feeder",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "014834E46AA1B8B4",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0A635DC974C1719B",
+      "title": "Productive Bees",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Productive Bees. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "productivebees:wax",
+      "x": 1.43,
+      "y": 8.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "02BD4D217AAA4BA8",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "03AE5A5416CD494D",
+      "title": "Ash Door",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "productivetrees:ash_door",
+      "x": 2.86,
+      "y": 10.0,
+      "shape": "circle",
+      "dependencies": [
+        "0B1AD8BC916755E0"
+      ],
+      "tasks": [
+        {
+          "id": "02E843BF1D17A421",
+          "type": "item",
+          "item": "productivetrees:ash_door",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04E9870E7661D70B",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "016423AB29BDD7B2",
+      "title": "Elm Door",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "productivetrees:elm_door",
+      "x": 4.29,
+      "y": 10.0,
+      "shape": "circle",
+      "dependencies": [
+        "03AE5A5416CD494D"
+      ],
+      "tasks": [
+        {
+          "id": "09FDA59DDEE75240",
+          "type": "item",
+          "item": "productivetrees:elm_door",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "02EF1D43660C7CE8",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "08038F711F870B61",
+      "title": "Ipe Door",
+      "subtitle": "",
+      "description": [
+        "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
+      ],
+      "icon": "productivetrees:ipe_door",
+      "x": 5.71,
+      "y": 10.0,
+      "shape": "circle",
+      "dependencies": [
+        "016423AB29BDD7B2"
+      ],
+      "tasks": [
+        {
+          "id": "0920562E86A4A5A3",
+          "type": "item",
+          "item": "productivetrees:ipe_door",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "08F226287A632932",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0B1AD8BC916755E0",
+      "title": "Productive Trees",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Productive Trees. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "productivetrees:ash_door",
+      "x": 1.43,
+      "y": 10.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "033D64247804CCA9",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

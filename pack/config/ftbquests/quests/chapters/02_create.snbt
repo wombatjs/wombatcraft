@@ -1,0 +1,563 @@
+{
+  "id": "0156D41E0E013001",
+  "group": "0DCB27D2C77209FB",
+  "title": "Create",
+  "order_index": 2,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "09A5002D3A766B9A",
+      "title": "Alternator",
+      "subtitle": "",
+      "description": [
+        "Connect mechanical power and electricity, then produce components for the interface.",
+        "Obtain Alternator and keep it in your inventory for detection."
+      ],
+      "icon": "createaddition:alternator",
+      "x": 2.69,
+      "y": 1.57,
+      "shape": "circle",
+      "dependencies": [
+        "0660E63223FB0F38"
+      ],
+      "tasks": [
+        {
+          "id": "0D3D1496CCC4C50E",
+          "type": "item",
+          "item": "createaddition:alternator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "033F1E5A6F77B383",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0E43257BBC950DCA",
+      "title": "Electric Motor",
+      "subtitle": "",
+      "description": [
+        "Connect mechanical power and electricity, then produce components for the interface.",
+        "Obtain Electric Motor and keep it in your inventory for detection."
+      ],
+      "icon": "createaddition:electric_motor",
+      "x": 3.94,
+      "y": 1.57,
+      "shape": "circle",
+      "dependencies": [
+        "09A5002D3A766B9A"
+      ],
+      "tasks": [
+        {
+          "id": "09B6C074531666EF",
+          "type": "item",
+          "item": "createaddition:electric_motor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F2A10178520D05F",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "06DC828C36312F0B",
+      "title": "Rolling Mill",
+      "subtitle": "",
+      "description": [
+        "Connect mechanical power and electricity, then produce components for the interface.",
+        "Obtain Rolling Mill and keep it in your inventory for detection."
+      ],
+      "icon": "createaddition:rolling_mill",
+      "x": 5.2,
+      "y": 1.57,
+      "shape": "circle",
+      "dependencies": [
+        "0E43257BBC950DCA"
+      ],
+      "tasks": [
+        {
+          "id": "03E77A80D0D3A109",
+          "type": "item",
+          "item": "createaddition:rolling_mill",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "08006FF0E31E1622",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0660E63223FB0F38",
+      "title": "Create Crafts & Additions",
+      "subtitle": "Optional branch",
+      "description": [
+        "Connect mechanical power and electricity, then produce components for the interface.",
+        "Use JEI to inspect the recipes. These milestones detect the item; placing or operating it is the next practical step."
+      ],
+      "icon": "createaddition:alternator",
+      "x": 1.43,
+      "y": 1.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0A3D2C034C86CFC9",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "0160F85B90E3EE0C",
+      "title": "Mechanical beginnings",
+      "subtitle": "Andesite Alloy",
+      "description": [
+        "Andesite Alloy is the starting material for many moving parts.",
+        "Goal: obtain Andesite Alloy. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "create:andesite_alloy",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0090E4BBF3D58401"
+      ],
+      "tasks": [
+        {
+          "id": "00D7BC537FAA1902",
+          "type": "item",
+          "item": "create:andesite_alloy",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07BDDA747E04B74F",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0B949418597E2752",
+      "title": "Let the river work",
+      "subtitle": "Water Wheel",
+      "description": [
+        "Use flowing water to produce rotation. Keep room for shafts and larger machines.",
+        "Goal: obtain Water Wheel. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "create:water_wheel",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0160F85B90E3EE0C"
+      ],
+      "tasks": [
+        {
+          "id": "0B2D5646A6E2C56A",
+          "type": "item",
+          "item": "create:water_wheel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0229DBEC3D3370A7",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0E96628D7F11C4EA",
+      "title": "Transfer motion",
+      "subtitle": "Cogwheel",
+      "description": [
+        "Use cogs and shafts to route rotation. Speed and available stress capacity are different limits.",
+        "Goal: obtain Cogwheel. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "create:cogwheel",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0B949418597E2752"
+      ],
+      "tasks": [
+        {
+          "id": "0B58A70D47E18279",
+          "type": "item",
+          "item": "create:cogwheel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0134B4C025613822",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "02A2F376C7D7E2C7",
+      "title": "Under pressure",
+      "subtitle": "Mechanical Press",
+      "description": [
+        "Set a press above a depot or belt to turn ingots into sheets.",
+        "Goal: obtain Mechanical Press. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "create:mechanical_press",
+      "x": 6.46,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0E96628D7F11C4EA"
+      ],
+      "tasks": [
+        {
+          "id": "0CE4CF9485C46370",
+          "type": "item",
+          "item": "create:mechanical_press",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A725CC8B1AB863E",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "03B09E9DD24B773F",
+      "title": "Mixing station",
+      "subtitle": "Mechanical Mixer",
+      "description": [
+        "Build a basin and mixer. Some recipes need heat beneath the basin.",
+        "Goal: obtain Mechanical Mixer. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "create:mechanical_mixer",
+      "x": 7.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "02A2F376C7D7E2C7"
+      ],
+      "tasks": [
+        {
+          "id": "0854A21C7EF0DCE2",
+          "type": "item",
+          "item": "create:mechanical_mixer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09F427081BA1157D",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "0A6E8D74E49DFCAD",
+      "title": "Air does the work",
+      "subtitle": "Encased Fan",
+      "description": [
+        "Use a fan with the right processing medium to build a washing, smoking or blasting station.",
+        "Goal: obtain Encased Fan. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "create:encased_fan",
+      "x": 2.69,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "03B09E9DD24B773F"
+      ],
+      "tasks": [
+        {
+          "id": "0E7EC772BC773D41",
+          "type": "item",
+          "item": "create:encased_fan",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04B13F2178D378D0",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "045772FB3FCD4039",
+      "title": "A more capable workshop",
+      "subtitle": "Brass Ingot",
+      "description": [
+        "Produce brass using the mixer and appropriate heat source. Consult JEI for the exact ingredients.",
+        "Goal: obtain Brass Ingot. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "create:brass_ingot",
+      "x": 3.94,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0A6E8D74E49DFCAD"
+      ],
+      "tasks": [
+        {
+          "id": "0EB3E61FC7EF418C",
+          "type": "item",
+          "item": "create:brass_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0320232ABDDB3DA0",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "06276E6F1773CAE2",
+      "title": "Repeatable actions",
+      "subtitle": "Deployer",
+      "description": [
+        "Use a deployer for repeated item interactions and sequenced assembly.",
+        "Goal: obtain Deployer. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "create:deployer",
+      "x": 5.2,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "045772FB3FCD4039"
+      ],
+      "tasks": [
+        {
+          "id": "0A8B5331F35FD27B",
+          "type": "item",
+          "item": "create:deployer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0193771E1D2582C4",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "03C8E84737AF1866",
+      "title": "Precision work",
+      "subtitle": "Precision Mechanism",
+      "description": [
+        "Build a sequenced assembly line and leave room to recycle incomplete results.",
+        "Goal: obtain Precision Mechanism. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "create:precision_mechanism",
+      "x": 6.46,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "06276E6F1773CAE2"
+      ],
+      "tasks": [
+        {
+          "id": "0E3F577EED782E8C",
+          "type": "item",
+          "item": "create:precision_mechanism",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "010991CA3EEFD23F",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "03817267931F7C6E",
+      "title": "Heavy processing",
+      "subtitle": "Crushing Wheel",
+      "description": [
+        "A pair of crushing wheels opens higher-throughput processing options.",
+        "Goal: obtain Crushing Wheel. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "create:crushing_wheel",
+      "x": 7.71,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "03C8E84737AF1866"
+      ],
+      "tasks": [
+        {
+          "id": "012AE08F14024903",
+          "type": "item",
+          "item": "create:crushing_wheel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04B86B15CEACE48C",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "017830DC52BFD52A",
+      "title": "Assembly at scale",
+      "subtitle": "Mechanical Crafter",
+      "description": [
+        "Lay out mechanical crafters to match a recipe and route the finished output.",
+        "Goal: obtain Mechanical Crafter. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "create:mechanical_crafter",
+      "x": 2.69,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "03817267931F7C6E"
+      ],
+      "tasks": [
+        {
+          "id": "084B52EFD7F853E4",
+          "type": "item",
+          "item": "create:mechanical_crafter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "076A7B8FD9ED5792",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "0AD3E3205D2F6083",
+      "title": "Steam power",
+      "subtitle": "Steam Engine",
+      "description": [
+        "Build a boiler system and balance water, heat and engines. Do not rely on the item alone: run it under load.",
+        "Goal: obtain Steam Engine. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "create:steam_engine",
+      "x": 3.94,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "017830DC52BFD52A"
+      ],
+      "tasks": [
+        {
+          "id": "029320F1AD5760E8",
+          "type": "item",
+          "item": "create:steam_engine",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0CA67DD578306E12",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "0DBBFD29E6DBD788",
+      "title": "A connected world",
+      "subtitle": "Train Station",
+      "description": [
+        "Establish a station and plan a route before building your first train.",
+        "Goal: obtain Train Station. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "create:track_station",
+      "x": 5.2,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "0AD3E3205D2F6083"
+      ],
+      "tasks": [
+        {
+          "id": "019D3E6B46505813",
+          "type": "item",
+          "item": "create:track_station",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C101B529FBB5358",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "0090E4BBF3D58401",
+      "title": "Create",
+      "subtitle": "Overview",
+      "description": [
+        "Build visible production lines, route moving machinery and connect settlements by rail.",
+        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+      ],
+      "icon": "create:andesite_alloy",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "05DF39D07D97BE81",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

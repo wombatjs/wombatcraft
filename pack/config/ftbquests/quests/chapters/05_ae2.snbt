@@ -1,0 +1,467 @@
+{
+  "id": "075EFAF39D011EBF",
+  "group": "0DCB27D2C77209FB",
+  "title": "AE2",
+  "order_index": 5,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "08EACF0EAB0E45F2",
+      "title": "Learn the network",
+      "subtitle": "Guide",
+      "description": [
+        "Use the AE2 guide for meteors, crystal growth and network rules.",
+        "Goal: obtain Guide. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ae2:guide",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0F0BD7B3DBA79386"
+      ],
+      "tasks": [
+        {
+          "id": "0410D20E99C2E8EA",
+          "type": "item",
+          "item": "ae2:guide",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "091BB52FB075F2E6",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0AC45E64480DDC4B",
+      "title": "Crystal foundations",
+      "subtitle": "Certus Quartz Crystal",
+      "description": [
+        "Gather Certus Quartz and reserve supplies for components.",
+        "Goal: obtain Certus Quartz Crystal. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ae2:certus_quartz_crystal",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "08EACF0EAB0E45F2"
+      ],
+      "tasks": [
+        {
+          "id": "08804FC12D81CF98",
+          "type": "item",
+          "item": "ae2:certus_quartz_crystal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "00BAAB2F4252623D",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0A4CBEA3D9EC1A76",
+      "title": "Charge your quartz",
+      "subtitle": "Charger",
+      "description": [
+        "Build a charger to prepare charged crystals.",
+        "Goal: obtain Charger. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ae2:charger",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0AC45E64480DDC4B"
+      ],
+      "tasks": [
+        {
+          "id": "063A0496530F67B6",
+          "type": "item",
+          "item": "ae2:charger",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B0633C57B6C2C29",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0CDD75B22C50BC81",
+      "title": "Make the connection",
+      "subtitle": "Fluix Crystal",
+      "description": [
+        "Produce Fluix Crystals using the guide's process.",
+        "Goal: obtain Fluix Crystal. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ae2:fluix_crystal",
+      "x": 6.46,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0A4CBEA3D9EC1A76"
+      ],
+      "tasks": [
+        {
+          "id": "0DFB87BD6F868D1D",
+          "type": "item",
+          "item": "ae2:fluix_crystal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "026312AA22930AF9",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "05DA481E70210DA4",
+      "title": "Print the processors",
+      "subtitle": "Inscriber",
+      "description": [
+        "Collect the presses and set up an inscriber workflow.",
+        "Goal: obtain Inscriber. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ae2:inscriber",
+      "x": 7.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0CDD75B22C50BC81"
+      ],
+      "tasks": [
+        {
+          "id": "0F718696BDBF17DB",
+          "type": "item",
+          "item": "ae2:inscriber",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05B546B14C671C6F",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "0D4D17DBF4499050",
+      "title": "Power the network",
+      "subtitle": "Energy Acceptor",
+      "description": [
+        "Supply power to the network through an energy acceptor.",
+        "Goal: obtain Energy Acceptor. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ae2:energy_acceptor",
+      "x": 2.69,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "05DA481E70210DA4"
+      ],
+      "tasks": [
+        {
+          "id": "099B9E6CF2AC8AFA",
+          "type": "item",
+          "item": "ae2:energy_acceptor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A73D4780F8B0323",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "08F9ECF2E5F6FC6F",
+      "title": "A home for cells",
+      "subtitle": "ME Drive",
+      "description": [
+        "Use a drive with storage cells; an empty drive has no item capacity.",
+        "Goal: obtain ME Drive. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ae2:drive",
+      "x": 3.94,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0D4D17DBF4499050"
+      ],
+      "tasks": [
+        {
+          "id": "0F52BFBF37699B2C",
+          "type": "item",
+          "item": "ae2:drive",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B143CFCA18DB742",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "0F38025ED6810E81",
+      "title": "Your first storage cell",
+      "subtitle": "1k ME Item Storage Cell",
+      "description": [
+        "Start small and watch both item types and total capacity.",
+        "Goal: obtain 1k ME Item Storage Cell. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ae2:item_storage_cell_1k",
+      "x": 5.2,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "08F9ECF2E5F6FC6F"
+      ],
+      "tasks": [
+        {
+          "id": "030F031E6EC488E7",
+          "type": "item",
+          "item": "ae2:item_storage_cell_1k",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DCA5E2A80D4A814",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "04BE36072D3BAF48",
+      "title": "Everything within reach",
+      "subtitle": "ME Crafting Terminal",
+      "description": [
+        "Connect a crafting terminal to your powered storage network.",
+        "Goal: obtain ME Crafting Terminal. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ae2:crafting_terminal",
+      "x": 6.46,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0F38025ED6810E81"
+      ],
+      "tasks": [
+        {
+          "id": "0D65326351A97441",
+          "type": "item",
+          "item": "ae2:crafting_terminal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05C2F8008AD0AFEE",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "04B5D2B9F25125DA",
+      "title": "Organize your channels",
+      "subtitle": "ME Controller",
+      "description": [
+        "Plan channels before expanding a large network.",
+        "Goal: obtain ME Controller. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ae2:controller",
+      "x": 7.71,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "04BE36072D3BAF48"
+      ],
+      "tasks": [
+        {
+          "id": "0EFD70765142E988",
+          "type": "item",
+          "item": "ae2:controller",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C5E22447A699565",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "0E4541D65B5C556D",
+      "title": "Teach a recipe",
+      "subtitle": "ME Pattern Provider",
+      "description": [
+        "Place patterns in a provider and plan how ingredients reach their crafting destination.",
+        "Goal: obtain ME Pattern Provider. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ae2:pattern_provider",
+      "x": 2.69,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "04B5D2B9F25125DA"
+      ],
+      "tasks": [
+        {
+          "id": "0B42171985A96472",
+          "type": "item",
+          "item": "ae2:pattern_provider",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A65988E10E47B87",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "02005E34CF556E10",
+      "title": "Automatic crafting",
+      "subtitle": "Molecular Assembler",
+      "description": [
+        "Pair an assembler with patterns and crafting CPU storage to complete requested crafts.",
+        "Goal: obtain Molecular Assembler. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "ae2:molecular_assembler",
+      "x": 3.94,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "0E4541D65B5C556D"
+      ],
+      "tasks": [
+        {
+          "id": "02C544B071B6AD9C",
+          "type": "item",
+          "item": "ae2:molecular_assembler",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "01B2E5CE076621BE",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "0F0BD7B3DBA79386",
+      "title": "Applied Energistics 2",
+      "subtitle": "Overview",
+      "description": [
+        "Replace scattered chests with a network, then teach it to craft.",
+        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+      ],
+      "icon": "ae2:guide",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "01C4E11461E61CD8",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "06A8E1514C84063A",
+      "title": "Wireless Universal Terminal",
+      "subtitle": "",
+      "description": [
+        "Extend your working AE2 network with wireless access after understanding range and power.",
+        "Obtain Wireless Universal Terminal and keep it in your inventory for detection."
+      ],
+      "icon": "ae2wtlib:wireless_universal_terminal",
+      "x": 2.69,
+      "y": 1.57,
+      "shape": "circle",
+      "dependencies": [
+        "0FEFE094B0499B88"
+      ],
+      "tasks": [
+        {
+          "id": "0A942F3C4DB5993C",
+          "type": "item",
+          "item": "ae2wtlib:wireless_universal_terminal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0624D5C17247D38B",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0FEFE094B0499B88",
+      "title": "Applied Energistics 2 Wireless Terminals",
+      "subtitle": "Optional branch",
+      "description": [
+        "Extend your working AE2 network with wireless access after understanding range and power.",
+        "Use JEI to inspect the recipes. These milestones detect the item; placing or operating it is the next practical step."
+      ],
+      "icon": "ae2wtlib:wireless_universal_terminal",
+      "x": 1.43,
+      "y": 1.57,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "02F94E290E315C81",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}

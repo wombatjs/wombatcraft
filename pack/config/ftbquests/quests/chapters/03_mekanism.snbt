@@ -1,0 +1,382 @@
+{
+  "id": "0A74A44612622FD4",
+  "group": "0DCB27D2C77209FB",
+  "title": "Mekanism",
+  "order_index": 3,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "041BEB3539205CD4",
+      "title": "Start with osmium",
+      "subtitle": "Osmium Ingot",
+      "description": [
+        "Mine and smelt osmium. Reserve some for the first machines and power connections.",
+        "Goal: obtain Osmium Ingot. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "mekanism:ingot_osmium",
+      "x": 2.69,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0CDB474B111314C8"
+      ],
+      "tasks": [
+        {
+          "id": "0BEA8338E2CEBAE0",
+          "type": "item",
+          "item": "mekanism:ingot_osmium",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0781D0B9A7BBC8C5",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "01E9B8482F3A8D1D",
+      "title": "Infusion begins",
+      "subtitle": "Metallurgic Infuser",
+      "description": [
+        "Supply power and the correct infusion material. Check the input and output side configuration.",
+        "Goal: obtain Metallurgic Infuser. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "mekanism:metallurgic_infuser",
+      "x": 3.94,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "041BEB3539205CD4"
+      ],
+      "tasks": [
+        {
+          "id": "018B3C1608B4F6C8",
+          "type": "item",
+          "item": "mekanism:metallurgic_infuser",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0939DABBD76F6D8C",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "051ACE55CFA6C8CC",
+      "title": "Control circuits",
+      "subtitle": "Basic Control Circuit",
+      "description": [
+        "Make a batch of basic circuits and inspect the recipes they unlock.",
+        "Goal: obtain Basic Control Circuit. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "mekanism:basic_control_circuit",
+      "x": 5.2,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "01E9B8482F3A8D1D"
+      ],
+      "tasks": [
+        {
+          "id": "0EFB061677D4B9DE",
+          "type": "item",
+          "item": "mekanism:basic_control_circuit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "06C845ADA2BD256A",
+          "type": "xp",
+          "xp": 15
+        }
+      ]
+    },
+    {
+      "id": "0786FF62C536ADAB",
+      "title": "A machine foundation",
+      "subtitle": "Steel Casing",
+      "description": [
+        "Build steel casings for your workshop. Plan repeatable steel production before expanding.",
+        "Goal: obtain Steel Casing. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "mekanism:steel_casing",
+      "x": 6.46,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "051ACE55CFA6C8CC"
+      ],
+      "tasks": [
+        {
+          "id": "0F6466DDEDF0AF28",
+          "type": "item",
+          "item": "mekanism:steel_casing",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0619D68C5985ED9F",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "02CEE46EE76F1DE4",
+      "title": "Enrich your resources",
+      "subtitle": "Enrichment Chamber",
+      "description": [
+        "Power an Enrichment Chamber and compare its outputs with ordinary smelting.",
+        "Goal: obtain Enrichment Chamber. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "mekanism:enrichment_chamber",
+      "x": 7.71,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [
+        "0786FF62C536ADAB"
+      ],
+      "tasks": [
+        {
+          "id": "0127E209225ECB83",
+          "type": "item",
+          "item": "mekanism:enrichment_chamber",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05F2F08A09AFCF7F",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "0B5496607E2559D9",
+      "title": "Powered smelting",
+      "subtitle": "Energized Smelter",
+      "description": [
+        "Connect a smelter to your processing line and provide an output inventory.",
+        "Goal: obtain Energized Smelter. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "mekanism:energized_smelter",
+      "x": 2.69,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "02CEE46EE76F1DE4"
+      ],
+      "tasks": [
+        {
+          "id": "078C0983CFB80A03",
+          "type": "item",
+          "item": "mekanism:energized_smelter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "06368122B145F968",
+          "type": "xp",
+          "xp": 20
+        }
+      ]
+    },
+    {
+      "id": "01F9BE8FD22F58E9",
+      "title": "Break materials down",
+      "subtitle": "Crusher",
+      "description": [
+        "Use the Crusher for dusts and recipe ingredients. Check recipes before processing valuable items.",
+        "Goal: obtain Crusher. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "mekanism:crusher",
+      "x": 3.94,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0B5496607E2559D9"
+      ],
+      "tasks": [
+        {
+          "id": "06711EAEAE31BB0B",
+          "type": "item",
+          "item": "mekanism:crusher",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DF0E78BBCF29B27",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "0CFB8F09CCF40D8B",
+      "title": "Separate fluids",
+      "subtitle": "Electrolytic Separator",
+      "description": [
+        "Supply water and power, then route both products deliberately. Do not discard a gas you intend to use later.",
+        "Goal: obtain Electrolytic Separator. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "mekanism:electrolytic_separator",
+      "x": 5.2,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "01F9BE8FD22F58E9"
+      ],
+      "tasks": [
+        {
+          "id": "0C7F8F404DCEE211",
+          "type": "item",
+          "item": "mekanism:electrolytic_separator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "00D0F61C48A8A18F",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "0F3C24020C9BDEEE",
+      "title": "A deeper processing chain",
+      "subtitle": "Purification Chamber",
+      "description": [
+        "Add purification only after its gas supply works. Trace each input and output along the line.",
+        "Goal: obtain Purification Chamber. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "mekanism:purification_chamber",
+      "x": 6.46,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0CFB8F09CCF40D8B"
+      ],
+      "tasks": [
+        {
+          "id": "02DC925E36602E20",
+          "type": "item",
+          "item": "mekanism:purification_chamber",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0AFA5E757FBEE676",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "0C8CD6061E54DCEC",
+      "title": "Chemical processing",
+      "subtitle": "Chemical Injection Chamber",
+      "description": [
+        "Plan reagents, power and storage together. Test a small batch before scaling.",
+        "Goal: obtain Chemical Injection Chamber. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "mekanism:chemical_injection_chamber",
+      "x": 7.71,
+      "y": 1.43,
+      "shape": "circle",
+      "dependencies": [
+        "0F3C24020C9BDEEE"
+      ],
+      "tasks": [
+        {
+          "id": "04D81DE3F62FE630",
+          "type": "item",
+          "item": "mekanism:chemical_injection_chamber",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "078BE50AC2A2CDB3",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "05873E43A0E887A5",
+      "title": "Choose what to mine",
+      "subtitle": "Digital Miner",
+      "description": [
+        "Set filters and range carefully. Test the Digital Miner on a small area and provide sufficient power.",
+        "Goal: obtain Digital Miner. Keep it in your inventory until the quest records completion."
+      ],
+      "icon": "mekanism:digital_miner",
+      "x": 2.69,
+      "y": 2.86,
+      "shape": "circle",
+      "dependencies": [
+        "0C8CD6061E54DCEC"
+      ],
+      "tasks": [
+        {
+          "id": "0A68A91EADE1A19D",
+          "type": "item",
+          "item": "mekanism:digital_miner",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0043AC48CFE1E7A7",
+          "type": "xp",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "0CDB474B111314C8",
+      "title": "Mekanism",
+      "subtitle": "Overview",
+      "description": [
+        "A major industrial progression from basic infusion to chemical processing and automated mining. Read machine tabs and side configuration before connecting pipes.",
+        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+      ],
+      "icon": "mekanism:ingot_osmium",
+      "x": 1.43,
+      "y": 0.0,
+      "shape": "square",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "021582995869D270",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ]
+    }
+  ]
+}
