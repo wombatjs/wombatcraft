@@ -33,7 +33,7 @@ for boot in range(2):
    while time.monotonic()<deadline:
     if process.poll() is not None:raise RuntimeError('Dedicated server exited before startup completed')
     text=(dest/'console.log').read_text(errors='replace')
-    if ')! For help, type ' in text and 'QUEST_AUDIT_COMPLETE' in text and 'RECIPE_AUDIT_COMPLETE' in text:break
+    if ')! For help, type ' in text and all(marker in text for marker in ('QUEST_AUDIT_COMPLETE','RECIPE_AUDIT_COMPLETE','COMMAND_AUDIT_COMPLETE')):break
     time.sleep(5)
    else:raise TimeoutError('Dedicated server startup timed out')
    chapters=[json.loads(p.read_text()) for p in (ROOT/'pack/config/ftbquests/quests/chapters').glob('*.snbt')];quests=[q for c in chapters for q in c['quests']]
@@ -44,7 +44,10 @@ for boot in range(2):
    assert not refs-registry,'Missing runtime items: '+str(sorted(refs-registry))
    recipes=set((dest/'recipe-registry.txt').read_text().splitlines());endgame={'kubejs:endgame/'+name for name in ['industrial_sigil','arcane_sigil','voyager_sigil','prosperity_sigil','convergence_core']};assert endgame<=recipes,'Missing endgame recipes'
    assert 'Parsing error loading recipe' not in text,'Recipe parse errors'
-   (ROOT/'dist/server-validation.json').write_text(json.dumps(dict(quests=len(quests),registry_items=len(registry),recipes=len(recipes),endgame_recipes=sorted(endgame),fresh_world_started=True,restarted_cleanly=boot==1),indent=2))
+   commands=set((dest/'command-registry.txt').read_text().splitlines())
+   required_commands={'home','sethome','spawn','tpa','warp','ftbranks','ftbchunks','lcadmin','spark','chunky','pp'}
+   assert required_commands<=commands,'Missing server commands: '+str(sorted(required_commands-commands))
+   (ROOT/'dist/server-validation.json').write_text(json.dumps(dict(quests=len(quests),registry_items=len(registry),recipes=len(recipes),endgame_recipes=sorted(endgame),server_commands=sorted(required_commands),fresh_world_started=True,restarted_cleanly=boot==1),indent=2))
    print('Dedicated server, quest registry and endgame recipe validation passed.')
   finally:
    if process.poll() is None:

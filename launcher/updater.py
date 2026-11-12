@@ -3,7 +3,7 @@ import concurrent.futures,hashlib,json,os,shutil,urllib.request,zipfile
 from pathlib import Path,PurePosixPath
 
 RELEASE='https://github.com/wombatjs/wombatcraft/releases/latest/download/manifest.json'
-ALLOWED={'mods','config','kubejs','resourcepacks','packmenu','defaultconfigs'}
+ALLOWED={'mods','config','kubejs','resourcepacks','packmenu','defaultconfigs','shaderpacks'}
 
 def safe_path(root,name):
  p=PurePosixPath(name)

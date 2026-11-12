@@ -12,13 +12,16 @@ lock=json.loads((ROOT/'mod-lock.json').read_text())
 # describes a dedicated multiplayer client, not a complete singleplayer pack.
 files=[]
 for record in lock['mods']:
- f=record['file'];files.append(dict(path='mods/'+f['filename'],url=f['url'],sha512=f['hashes']['sha512'],size=f['size'],client=True,server=record['project'].get('server_side')!='unsupported'))
+ f=record['file'];files.append(dict(path='mods/'+f['filename'],url=f['url'],sha512=f['hashes']['sha512'],size=f['size'],client=record.get('client',True),server=record['project'].get('server_side')!='unsupported'))
+for f in lock.get('shaderpacks',[]):
+ files.append(dict(path='shaderpacks/'+f['filename'],url=f['url'],sha512=f['hashes']['sha512'],size=f['size'],client=True,server=False))
 overrides=[]
+client_defaults={'options.txt','config/oculus.properties'}
 with zipfile.ZipFile(OUT/'overrides.zip','w',zipfile.ZIP_DEFLATED) as z:
  for p in sorted((ROOT/'pack').rglob('*')):
   if not p.is_file():continue
   name=p.relative_to(ROOT/'pack').as_posix();data=p.read_bytes();z.writestr(name,data)
-  overrides.append(dict(path=name,sha512=hashlib.sha512(data).hexdigest(),size=len(data),client=True,server=not name.startswith(('packmenu/','resourcepacks/')) and name!='options.txt',seed_only=name=='options.txt'))
+  overrides.append(dict(path=name,sha512=hashlib.sha512(data).hexdigest(),size=len(data),client=True,server=not name.startswith(('packmenu/','resourcepacks/')) and name not in client_defaults,seed_only=name in client_defaults))
 archive=(OUT/'overrides.zip').read_bytes()
 manifest=dict(schema=1,name='Wombatcraft',commit=sha,minecraft='1.20.1',forge='47.4.28',server_address='74.208.117.88:25565',files=files,overrides=dict(url=base+'overrides.zip',sha512=hashlib.sha512(archive).hexdigest(),size=len(archive),files=overrides))
 (OUT/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
@@ -27,4 +30,4 @@ with zipfile.ZipFile(OUT/'Wombatcraft.mrpack','w',zipfile.ZIP_DEFLATED) as z:
  z.writestr('modrinth.index.json',json.dumps(index,indent=2))
  for p in (ROOT/'pack').rglob('*'):
   if p.is_file():z.write(p,'overrides/'+p.relative_to(ROOT/'pack').as_posix())
-print(json.dumps(dict(commit=sha,mods=len(files),overrides=len(overrides))))
+print(json.dumps(dict(commit=sha,mods=len(lock['mods']),shaderpacks=len(lock.get('shaderpacks',[])),overrides=len(overrides))))

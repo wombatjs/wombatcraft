@@ -1,0 +1,26 @@
+{
+  member: {
+    name: "Member"
+    power: 1
+    condition: "always_active"
+    ftbessentials.home.max: 3
+  }
+  vip: {
+    name: "VIP"
+    power: 50
+    ftbranks.name_format: "&bVIP {name}"
+  }
+  moderator: {
+    name: "Moderator"
+    power: 100
+    ftbranks.name_format: "&3[Mod] &r{name}"
+    command.mute: true
+    command.unmute: true
+  }
+  admin: {
+    name: "Admin"
+    power: 1000
+    condition: "op"
+    ftbranks.name_format: "&2{name}"
+  }
+}

@@ -10,7 +10,33 @@ public class ForgeQuestAudit {
  public ForgeQuestAudit(){
   try { Object bus=Class.forName("net.minecraftforge.common.MinecraftForge").getField("EVENT_BUS").get(null);Class.forName("net.minecraftforge.eventbus.api.IEventBus").getMethod("register",Object.class).invoke(bus,this); } catch(Exception e){throw new RuntimeException(e);}
  }
- @SubscribeEvent public void started(ServerStartedEvent event){audit();auditRecipes(event);}
+ @SubscribeEvent public void started(ServerStartedEvent event){audit();auditRecipes(event);auditCommands(event);}
+ static void auditCommands(Object event){
+  try{
+   Object server=call(event,"getServer");
+   Object commands=null;
+   for(Method method:server.getClass().getMethods()){
+    if(method.getParameterCount()==0 && method.getReturnType().getName().equals("net.minecraft.commands.Commands")){
+     commands=method.invoke(server);
+     break;
+    }
+   }
+   if(commands==null)throw new IllegalStateException("Server commands not found");
+   Object dispatcher=null;
+   for(Method method:commands.getClass().getMethods()){
+    if(method.getParameterCount()==0 && method.getReturnType().getName().equals("com.mojang.brigadier.CommandDispatcher")){
+     dispatcher=method.invoke(commands);
+     break;
+    }
+   }
+   if(dispatcher==null)throw new IllegalStateException("Command dispatcher not found");
+   List<String> names=new ArrayList<>();
+   for(Object node:(Iterable<?>)call(call(dispatcher,"getRoot"),"getChildren"))names.add(call(node,"getName").toString());
+   Collections.sort(names);
+   Files.write(Path.of("command-registry.txt"),names);
+   System.out.println("COMMAND_AUDIT_COMPLETE commands="+names.size());
+  }catch(Exception e){e.printStackTrace();}
+ }
  static void auditRecipes(Object event){
   try{
    Object server=event.getClass().getMethod("getServer").invoke(event);Object manager=null;

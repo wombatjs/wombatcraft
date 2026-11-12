@@ -22,8 +22,12 @@ def visit(k):
  active.remove(k);done.add(k)
 for k in graph:visit(k)
 lock=json.loads((ROOT/'mod-lock.json').read_text());names=[r['file']['filename'] for r in lock['mods']];assert len(names)==len(set(names))
-for r in lock['mods']:
- f=r['file'];assert f['url'].startswith('https://');assert re.fullmatch('[a-f0-9]{128}',f['hashes']['sha512']);assert f['size']>0
+shaders=lock.get('shaderpacks',[])
+shader_names=[f['filename'] for f in shaders]
+assert len(shader_names)==len(set(shader_names))
+assert all(re.fullmatch(r'[\w.+-]+\.zip',name) for name in shader_names)
+for f in [r['file'] for r in lock['mods']]+shaders:
+ assert f['url'].startswith('https://');assert re.fullmatch('[a-f0-9]{128}',f['hashes']['sha512']);assert f['size']>0
 for p in (ROOT/'pack/packmenu/resources/assets/packmenu/buttons').glob('*.json'):
  b=json.loads(p.read_text());assert b['action'] in ['OPEN_GUI','CONNECT_TO_SERVER','QUIT','OPEN_URL','NONE']
-print(f'Validated {len(quests)} quests, {len(chapters)} chapters, {len(names)} mod files; dependency graph is acyclic.')
+print(f'Validated {len(quests)} quests, {len(chapters)} chapters, {len(names)} mod files and {len(shaders)} shader packs; dependency graph is acyclic.')

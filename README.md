@@ -4,7 +4,7 @@ A shared frontier of industry, spellcraft, exploration and settlement for Minecr
 
 ## Development status
 
-The pack contains 277 pinned mod files and 1,936 quests across 42 chapters. Twenty-three major-mod chapters now have authored progression branches. The earlier client was tested on an RTX 4070 and its seamless TARDIS doorway was traversed in both directions. Automated release validation boots a fresh Forge world and checks every quest ID, item reference and endgame recipe, then repeats the check after a clean restart.
+The pack contains 285 pinned mod files and 1,936 quests across 42 chapters. Twenty-three major-mod chapters have authored progression branches. Automated release validation boots a fresh Forge world and checks quest IDs, item references, endgame recipes and server commands, then repeats the check after a clean restart.
 
 The public server is `74.208.117.88:25565`, hosted in Pterodactyl through the existing proxy. Download the Windows launcher from [Releases](https://github.com/wombatjs/wombatcraft/releases/latest).
 
@@ -13,6 +13,14 @@ Extract the complete Windows launcher ZIP before opening `Wombatcraft.exe`. The 
 Click **Play** in Wombatcraft to check and install the current pack. If you're signed out, Wombatcraft prepares its Java Edition installation and opens the official Minecraft Launcher. Sign in there and select **Wombatcraft** to play. If Minecraft Launcher is new, open Java Edition once to complete setup before returning to Wombatcraft. Direct sign-in inside Wombatcraft still needs Minecraft API approval and a licensed account test.
 
 `pack/` contains distributable configuration, original quests and scripts. `mod-lock.json` pins upstream downloads and hashes; third-party mod binaries are not stored in Git. The earlier Fabric pack remains a separate backup.
+
+## Graphics and multiplayer
+
+Embeddium, ImmediatelyFast and Dynamic FPS are included. To enable Complementary Reimagined, open **Options → Video Settings → Shader Packs** and turn shaders on. Shaders are off by default.
+
+Members can set three homes with `/sethome`. Use `/home`, `/spawn`, `/tpa` and `/warp` to get around. FTB Chunks manages claims and Lightman’s Currency provides coins and player shops. Titles unlock through advancements, and Cosmetic Armor lets players change the appearance of their armor.
+
+Staff can use `/spark` for profiling and `/pp` for PrismProtect block history and rollback. The Moderator rank grants chat moderation. Assign it through FTB Ranks when a staff member needs it.
 
 ## Release contract
 
