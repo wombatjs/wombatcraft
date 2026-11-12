@@ -1,8 +1,8 @@
 {
   "x": 24,
-  "y": 75,
+  "y": 35,
   "width": 170,
-  "height": 22,
+  "height": 18,
   "anchor": "MIDDLE_LEFT",
   "langKey": "Quit game",
   "action": "QUIT",

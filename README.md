@@ -4,7 +4,7 @@ A shared frontier of industry, spellcraft, exploration and settlement for Minecr
 
 ## Development status
 
-The pack contains 276 pinned mod files and 1,936 quests across 42 chapters. Twenty-three major-mod chapters now have authored progression branches. The earlier client was tested on an RTX 4070 and its seamless TARDIS doorway was traversed in both directions. Automated release validation boots a fresh Forge world and checks every quest ID, item reference and endgame recipe, then repeats the check after a clean restart.
+The pack contains 277 pinned mod files and 1,936 quests across 42 chapters. Twenty-three major-mod chapters now have authored progression branches. The earlier client was tested on an RTX 4070 and its seamless TARDIS doorway was traversed in both directions. Automated release validation boots a fresh Forge world and checks every quest ID, item reference and endgame recipe, then repeats the check after a clean restart.
 
 The public server is `74.208.117.88:25565`, hosted in Pterodactyl through the existing proxy. Download **Wombatcraft.mrpack** from [Releases](https://github.com/wombatjs/wombatcraft/releases/latest) and import it into Modrinth App.
 

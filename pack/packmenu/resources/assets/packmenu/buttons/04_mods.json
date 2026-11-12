@@ -1,8 +1,8 @@
 {
   "x": 24,
-  "y": 49,
+  "y": 15,
   "width": 170,
-  "height": 22,
+  "height": 18,
   "anchor": "MIDDLE_LEFT",
   "langKey": "Mods",
   "action": "OPEN_GUI",

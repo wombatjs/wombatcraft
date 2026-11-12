@@ -1,0 +1,6 @@
+[Gui]
+"Enables Aether menu button" = false
+"Enables toggle world button" = false
+"Enables quick load button" = false
+[Miscellaneous]
+"Disable Cumulus button" = true

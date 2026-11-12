@@ -1,8 +1,8 @@
 {
   "x": 24,
-  "y": -3,
+  "y": -25,
   "width": 170,
-  "height": 22,
+  "height": 18,
   "anchor": "MIDDLE_LEFT",
   "langKey": "Other servers",
   "action": "OPEN_GUI",

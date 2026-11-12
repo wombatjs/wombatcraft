@@ -1,8 +1,8 @@
 {
   "x": 24,
-  "y": -29,
+  "y": -45,
   "width": 170,
-  "height": 22,
+  "height": 18,
   "anchor": "MIDDLE_LEFT",
   "langKey": "Singleplayer",
   "action": "OPEN_GUI",

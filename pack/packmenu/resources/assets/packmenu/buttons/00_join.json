@@ -1,8 +1,8 @@
 {
   "x": 24,
-  "y": -55,
+  "y": -65,
   "width": 170,
-  "height": 22,
+  "height": 18,
   "anchor": "MIDDLE_LEFT",
   "langKey": "Join Wombatcraft",
   "action": "CONNECT_TO_SERVER",

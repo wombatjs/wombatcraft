@@ -1,8 +1,8 @@
 {
   "x": 24,
-  "y": 23,
+  "y": -5,
   "width": 170,
-  "height": 22,
+  "height": 18,
   "anchor": "MIDDLE_LEFT",
   "langKey": "Options",
   "action": "OPEN_GUI",
