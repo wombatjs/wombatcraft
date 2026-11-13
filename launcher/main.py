@@ -260,7 +260,7 @@ class Window(QWidget):
  def poll_game(self):
   running = official_launcher.game_running(RUNTIME)
   if running != bool(self.game):
-   self.game = running
+   self.game = True if running else None
    self.set_busy(self.busy)
    self.play.setText('Minecraft is running' if running else 'Play Wombatcraft')
  def closeEvent(self,event):
