@@ -76347,30 +76347,30 @@
           "forge"
         ],
         "environment": "client_and_server",
-        "id": "CPftDBcY",
+        "id": "h1YW5QgP",
         "project_id": "FoVacERa",
         "author_id": "euCx076k",
         "featured": false,
-        "name": "Lionfish-API 3.0",
-        "version_number": "3.0",
-        "changelog": "Optimazed",
+        "name": "Lionfish-API 2.8",
+        "version_number": "2.8",
+        "changelog": "\nOptimization",
         "changelog_url": null,
-        "date_published": "2026-06-11T08:09:56.313734Z",
-        "downloads": 1326869,
+        "date_published": "2026-05-15T17:30:17.683953Z",
+        "downloads": 77434,
         "version_type": "release",
         "status": "listed",
         "requested_status": null,
         "files": [
           {
-            "id": "9oKytVQa",
+            "id": "nxyCMvWI",
             "hashes": {
-              "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
-              "sha512": "a7cf6c9bf27a77b45efe434a166f9c99efdb6db14e5d88ce8417c6364aea9d250a9f43627e9e0ac162e106517fccf51cebb5035852c8449fb7fb299a083770c4"
+              "sha1": "9571aefe90a3d9690fc847848e41bdcc26be4dd4",
+              "sha512": "6f114eca28002095b6c106effb6311754186b20fe40122778f45087d8e8d0b2395fed110cc471e38fc5d3fc1e5383551eb64fd6bf9a8f33345055acc3d9cfb36"
             },
-            "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
-            "filename": "lionfishapi-3.0.jar",
+            "url": "https://cdn.modrinth.com/data/FoVacERa/versions/h1YW5QgP/lionfishapi-2.8.jar",
+            "filename": "lionfishapi-2.8.jar",
             "primary": true,
-            "size": 101931,
+            "size": 122525,
             "file_type": null
           }
         ],
@@ -76378,15 +76378,15 @@
       },
       "category": "Library",
       "file": {
-        "id": "9oKytVQa",
+        "id": "nxyCMvWI",
         "hashes": {
-          "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
-          "sha512": "a7cf6c9bf27a77b45efe434a166f9c99efdb6db14e5d88ce8417c6364aea9d250a9f43627e9e0ac162e106517fccf51cebb5035852c8449fb7fb299a083770c4"
+          "sha1": "9571aefe90a3d9690fc847848e41bdcc26be4dd4",
+          "sha512": "6f114eca28002095b6c106effb6311754186b20fe40122778f45087d8e8d0b2395fed110cc471e38fc5d3fc1e5383551eb64fd6bf9a8f33345055acc3d9cfb36"
         },
-        "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
-        "filename": "lionfishapi-3.0.jar",
+        "url": "https://cdn.modrinth.com/data/FoVacERa/versions/h1YW5QgP/lionfishapi-2.8.jar",
+        "filename": "lionfishapi-2.8.jar",
         "primary": true,
-        "size": 101931,
+        "size": 122525,
         "file_type": null
       },
       "metadata": {
@@ -76396,7 +76396,7 @@
         "mods": [
           {
             "modId": "lionfishapi",
-            "version": "3.0",
+            "version": "2.8",
             "displayName": "LionfishAPI",
             "description": "HELLO"
           }
@@ -113727,7 +113727,8 @@
     "tardis": "New TARDIS Mod with NTM Immersive Portals; keep AIT as an alternative, not a second simultaneous TARDIS."
   },
   "compatibility_pins": {
-    "cataclysm": "3.16: newer versions removed classes used by Cataclysm Spellbooks 1.2.9"
+    "cataclysm": "3.16: newer versions removed classes used by Cataclysm Spellbooks 1.2.9",
+    "lionfish-api": "2.8: Cataclysm 3.16 models use the iterable parts API. Lionfish 3.0 expects an incompatible root method."
   },
   "shaderpacks": [
     {
