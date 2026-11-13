@@ -173,7 +173,7 @@
       "title": "Field notes",
       "subtitle": "",
       "description": [
-        "Explore the features added by FTB Essentials (Forge & Fabric) and record one useful discovery. This is a manual objective; mark it after trying the feature."
+        "Explore the features added by FTB Essentials (Forge and Fabric) and record one useful discovery. This is a manual objective; mark it after trying the feature."
       ],
       "icon": "minecraft:writable_book",
       "x": 0.0,
@@ -193,10 +193,10 @@
     },
     {
       "id": "02747476E255668E",
-      "title": "FTB Essentials (Forge & Fabric)",
+      "title": "FTB Essentials (Forge and Fabric)",
       "subtitle": "Optional branch",
       "description": [
-        "This optional branch introduces FTB Essentials (Forge & Fabric). Follow its connected goals when it fits your current project.",
+        "This optional branch introduces FTB Essentials (Forge and Fabric). Follow its connected goals when it fits your current project.",
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:writable_book",

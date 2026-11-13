@@ -96,7 +96,9 @@ def build(registry,names):
  book={}
  for p in chapters.glob('*.snbt'):
   d=json.loads(p.read_text())
+  d['title']=d['title'].replace(' & ',' and ')
   for q in d['quests']:
+   q['title']=q['title'].replace(' & ',' and ')
    clean=[]
    for text in q.get('description',[]):
     text=re.sub(r'Goal: obtain .*?Keep it in your inventory until the quest records completion\.?','',text)
@@ -104,6 +106,7 @@ def build(registry,names):
     text=re.sub(r'Follow the connected milestones from left to right\..*','',text)
     text=text.replace('Mark this project after checking the build in game.','').replace('Use JEI to inspect the exact recipe. These ingredients are consumed by crafting; quest detection keeps the resulting item.','')
     text=text.replace('This is the first endgame recipe draft; difficulty and economy balance need a survival playthrough.','Four disciplines, one enduring achievement.')
+    text=text.replace(' & ',' and ')
     if text.strip():clean.append(text.strip())
    q['description']=clean
    if q['title']=='Make a home together':q['description']=['Found a team and claim land for your settlement. Invite trusted companions and protect the stores that sustain your home.','', 'Build a market with Lightman\'s Currency. Set a price, stock a shop and trade with fellow travellers.']
