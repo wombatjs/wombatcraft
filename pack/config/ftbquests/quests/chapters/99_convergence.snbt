@@ -12,8 +12,8 @@
         "Combine antimatter-era infrastructure, an AE2 singularity and awakened Draconic components. Build sustained power and material production first."
       ],
       "icon": "kubejs:industrial_sigil",
-      "x": 0.0,
-      "y": 0.0,
+      "x": -3.45,
+      "y": 0,
       "shape": "hexagon",
       "dependencies": [],
       "tasks": [
@@ -23,7 +23,8 @@
           "item": "kubejs:industrial_sigil",
           "consume_items": false
         }
-      ]
+      ],
+      "size": 1.38
     },
     {
       "id": "0F68366FED1B407B",
@@ -32,8 +33,8 @@
         "Bring together Gaia materials, Cataclysm boss drops and advanced spellcraft. This is the combat and magic contribution."
       ],
       "icon": "kubejs:arcane_sigil",
-      "x": 2.0,
-      "y": 0.0,
+      "x": 0,
+      "y": -3.15,
       "shape": "hexagon",
       "dependencies": [],
       "tasks": [
@@ -43,7 +44,8 @@
           "item": "kubejs:arcane_sigil",
           "consume_items": false
         }
-      ]
+      ],
+      "size": 1.38
     },
     {
       "id": "05742B300F1756FE",
@@ -52,8 +54,8 @@
         "Space travel and the dimensional journey supply the exploration materials. Plan your fuel, oxygen and return routes before leaving."
       ],
       "icon": "kubejs:voyager_sigil",
-      "x": 4.0,
-      "y": 0.0,
+      "x": 3.45,
+      "y": 0,
       "shape": "hexagon",
       "dependencies": [],
       "tasks": [
@@ -63,17 +65,18 @@
           "item": "kubejs:voyager_sigil",
           "consume_items": false
         }
-      ]
+      ],
+      "size": 1.38
     },
     {
       "id": "05E20ECC04CC71D2",
       "title": "Prosperity Sigil",
       "description": [
-        "Build productive farms and a trading settlement. This recipe uses earned or exchanged currency and high tier production components; it does not require another player to be online."
+        "Bring the yield of a thriving settlement to the forge. Earn or exchange coin and prepare the rare harvests required for the sigil."
       ],
       "icon": "kubejs:prosperity_sigil",
-      "x": 6.0,
-      "y": 0.0,
+      "x": 0,
+      "y": 3.15,
       "shape": "hexagon",
       "dependencies": [],
       "tasks": [
@@ -83,7 +86,8 @@
           "item": "kubejs:prosperity_sigil",
           "consume_items": false
         }
-      ]
+      ],
+      "size": 1.38
     },
     {
       "id": "07880F2BE7FAFE56",
@@ -92,9 +96,9 @@
         "Combine all four sigils with additional awakened cores and Nether Stars. Four disciplines, one enduring achievement."
       ],
       "icon": "kubejs:convergence_core",
-      "x": 3.0,
-      "y": 3.0,
-      "shape": "hexagon",
+      "x": 0,
+      "y": 0,
+      "shape": "octagon",
       "dependencies": [
         "0209B29F8CFB053F",
         "0F68366FED1B407B",
@@ -108,8 +112,28 @@
           "item": "kubejs:convergence_core",
           "consume_items": false
         }
+      ],
+      "size": 1.95,
+      "rewards": [
+        {
+          "id": "2909AA6C94E6176A",
+          "type": "item",
+          "item": "minecraft:firework_rocket",
+          "count": 32
+        }
       ]
     }
   ],
-  "filename": "99_convergence"
+  "filename": "99_convergence",
+  "icon": "kubejs:convergence_core",
+  "autofocus_id": "07880F2BE7FAFE56",
+  "images": [
+    {
+      "x": 0,
+      "y": -5.6,
+      "width": 7.8,
+      "height": 1.3,
+      "image": "wombatcraft:textures/questbook/convergence.png"
+    }
+  ]
 }

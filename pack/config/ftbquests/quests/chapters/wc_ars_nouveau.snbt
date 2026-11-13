@@ -13,9 +13,9 @@
         "A spell begins with a form and an effect. Prepare glyphs at the scribe's table, then assemble a simple spell in your book."
       ],
       "icon": "ars_nouveau:worn_notebook",
-      "x": 0.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -3.3,
+      "y": 0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -32,7 +32,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.5
     },
     {
       "id": "275452C942D08D53",
@@ -40,9 +41,9 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:novice_spell_book",
-      "x": 2.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -1.65,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "092E48B1FC833D8C"
       ],
@@ -55,7 +56,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "3F9BCDCB912F88F6",
@@ -63,9 +65,9 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:source_gem",
-      "x": 4.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 0.0,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "275452C942D08D53"
       ],
@@ -78,7 +80,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "70EF27A3F6CAB609",
@@ -86,9 +89,9 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:imbuement_chamber",
-      "x": 6.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 1.65,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "3F9BCDCB912F88F6"
       ],
@@ -107,7 +110,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "7505D06EB5FD3552",
@@ -115,9 +119,9 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:scribes_table",
-      "x": 8.0,
-      "y": 0.0,
-      "shape": "hexagon",
+      "x": 3.3,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "70EF27A3F6CAB609"
       ],
@@ -142,7 +146,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "53BAC56B7EC6A911",
@@ -152,9 +157,9 @@
         "Start with one effect at a time. Test the spell in a clear area before adding modifiers."
       ],
       "icon": "ars_nouveau:glyph_touch",
-      "x": 0.0,
+      "x": -1.8,
       "y": 3.0,
-      "shape": "circle",
+      "shape": "rsquare",
       "dependencies": [
         "7505D06EB5FD3552"
       ],
@@ -173,7 +178,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "1F4B878F2277414E",
@@ -181,7 +187,7 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_projectile",
-      "x": 2.0,
+      "x": -3.35,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -196,7 +202,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5031816C95B1C192",
@@ -204,7 +211,7 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_self",
-      "x": 4.0,
+      "x": -4.9,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -219,7 +226,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "528B69C4CCC5EC23",
@@ -227,7 +235,7 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_break",
-      "x": 6.0,
+      "x": -6.45,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -248,7 +256,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "26C12502DF553312",
@@ -256,7 +265,7 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_light",
-      "x": 8.0,
+      "x": -8.0,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -271,7 +280,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2A55875974D0DA81",
@@ -279,7 +289,7 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_harm",
-      "x": 10.0,
+      "x": -9.55,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -294,7 +304,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "487BA17D3B1B34B2",
@@ -302,8 +313,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_heal",
-      "x": 12.0,
-      "y": 3.0,
+      "x": -9.55,
+      "y": 4.55,
       "shape": "circle",
       "dependencies": [
         "2A55875974D0DA81"
@@ -323,7 +334,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "3C6131463D548030",
@@ -331,8 +343,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_conjure_water",
-      "x": 14.0,
-      "y": 3.0,
+      "x": -8.0,
+      "y": 4.55,
       "shape": "circle",
       "dependencies": [
         "487BA17D3B1B34B2"
@@ -346,7 +358,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "341BDC221AB6FD31",
@@ -354,8 +367,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_pickup",
-      "x": 16.0,
-      "y": 3.0,
+      "x": -6.45,
+      "y": 4.55,
       "shape": "hexagon",
       "dependencies": [
         "3C6131463D548030"
@@ -381,7 +394,8 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "232E24456054577F",
@@ -391,9 +405,9 @@
         "Growing crops can feed a source network. Put jars within reach of the sourcelink and relay the supply toward your workshop."
       ],
       "icon": "ars_nouveau:source_jar",
-      "x": 0.0,
-      "y": 6.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 3.0,
+      "shape": "rsquare",
       "dependencies": [
         "70EF27A3F6CAB609"
       ],
@@ -412,7 +426,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "353CDD3448DA0C6D",
@@ -420,8 +435,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:agronomic_sourcelink",
-      "x": 2.0,
-      "y": 6.0,
+      "x": 3.35,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "232E24456054577F"
@@ -435,7 +450,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1919193B0BACA2CE",
@@ -443,8 +459,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:sourceberry_bush",
-      "x": 4.0,
-      "y": 6.0,
+      "x": 4.9,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "353CDD3448DA0C6D"
@@ -458,7 +474,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7A34A6EFAEB1279B",
@@ -466,8 +483,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:relay",
-      "x": 6.0,
-      "y": 6.0,
+      "x": 6.45,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "1919193B0BACA2CE"
@@ -487,7 +504,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "47BD8FBDA4C7760F",
@@ -496,7 +514,7 @@
       "description": [],
       "icon": "ars_nouveau:relay_deposit",
       "x": 8.0,
-      "y": 6.0,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "7A34A6EFAEB1279B"
@@ -510,7 +528,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1FA5479F3241ADDF",
@@ -518,8 +537,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:relay_collector",
-      "x": 10.0,
-      "y": 6.0,
+      "x": 9.55,
+      "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
         "47BD8FBDA4C7760F"
@@ -545,7 +564,8 @@
           "item": "minecraft:amethyst_shard",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "31B5BD0FDD1C35A2",
@@ -555,9 +575,9 @@
         "Arrange pedestals around the apparatus and keep source nearby. Confirm the central reagent before starting an enchantment."
       ],
       "icon": "ars_nouveau:arcane_core",
-      "x": 0.0,
-      "y": 9.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 5.35,
+      "shape": "rsquare",
       "dependencies": [
         "232E24456054577F"
       ],
@@ -576,7 +596,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "7396E62BF2E08BFF",
@@ -584,8 +605,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:arcane_pedestal",
-      "x": 2.0,
-      "y": 9.0,
+      "x": 3.35,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "31B5BD0FDD1C35A2"
@@ -599,7 +620,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3D2F2CB1C9E7405D",
@@ -607,8 +629,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:enchanting_apparatus",
-      "x": 4.0,
-      "y": 9.0,
+      "x": 4.9,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "7396E62BF2E08BFF"
@@ -622,7 +644,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6D4F2EB93DE80EE9",
@@ -630,8 +653,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:air_essence",
-      "x": 6.0,
-      "y": 9.0,
+      "x": 6.45,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "3D2F2CB1C9E7405D"
@@ -651,7 +674,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "20820BF8927A55ED",
@@ -660,7 +684,7 @@
       "description": [],
       "icon": "ars_nouveau:earth_essence",
       "x": 8.0,
-      "y": 9.0,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "6D4F2EB93DE80EE9"
@@ -674,7 +698,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6197333974B639D3",
@@ -682,8 +707,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:fire_essence",
-      "x": 10.0,
-      "y": 9.0,
+      "x": 9.55,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "20820BF8927A55ED"
@@ -697,7 +722,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "15C14682852829E1",
@@ -705,8 +731,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:water_essence",
-      "x": 12.0,
-      "y": 9.0,
+      "x": 9.55,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "6197333974B639D3"
@@ -726,7 +752,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "16E4EC8C8DC57206",
@@ -734,8 +761,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:abjuration_essence",
-      "x": 14.0,
-      "y": 9.0,
+      "x": 8.0,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "15C14682852829E1"
@@ -749,7 +776,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "130CD59EF7BFB4A5",
@@ -757,8 +785,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:conjuration_essence",
-      "x": 16.0,
-      "y": 9.0,
+      "x": 6.45,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "16E4EC8C8DC57206"
@@ -772,7 +800,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2A24BA955FECC1B7",
@@ -780,8 +809,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:manipulation_essence",
-      "x": 18.0,
-      "y": 9.0,
+      "x": 4.9,
+      "y": 6.9,
       "shape": "hexagon",
       "dependencies": [
         "130CD59EF7BFB4A5"
@@ -807,7 +836,8 @@
           "item": "minecraft:golden_carrot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "07070F811B4E3A0F",
@@ -817,9 +847,9 @@
         "Modifiers alter the effect before them. Watch mana cost as a spell grows; a reliable small spell is often the better tool."
       ],
       "icon": "ars_nouveau:apprentice_spell_book",
-      "x": 0.0,
-      "y": 12.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 9.25,
+      "shape": "rsquare",
       "dependencies": [
         "3D2F2CB1C9E7405D"
       ],
@@ -838,7 +868,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "72150792F66EA9E6",
@@ -846,8 +877,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_amplify",
-      "x": 2.0,
-      "y": 12.0,
+      "x": 3.35,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "07070F811B4E3A0F"
@@ -861,7 +892,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7BC6C794BABD4B2D",
@@ -869,8 +901,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_aoe",
-      "x": 4.0,
-      "y": 12.0,
+      "x": 4.9,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "72150792F66EA9E6"
@@ -884,7 +916,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "75B0775E2354E775",
@@ -892,8 +925,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_pierce",
-      "x": 6.0,
-      "y": 12.0,
+      "x": 6.45,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "7BC6C794BABD4B2D"
@@ -913,7 +946,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "58FA1F242820D063",
@@ -922,7 +956,7 @@
       "description": [],
       "icon": "ars_nouveau:glyph_bounce",
       "x": 8.0,
-      "y": 12.0,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "75B0775E2354E775"
@@ -936,7 +970,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "08D67466D2DF04FB",
@@ -944,8 +979,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_split",
-      "x": 10.0,
-      "y": 12.0,
+      "x": 9.55,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "58FA1F242820D063"
@@ -959,7 +994,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0FE92A2E04F4B388",
@@ -967,8 +1003,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_accelerate",
-      "x": 12.0,
-      "y": 12.0,
+      "x": 9.55,
+      "y": 10.8,
       "shape": "circle",
       "dependencies": [
         "08D67466D2DF04FB"
@@ -988,7 +1024,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "194DD734B0BDF071",
@@ -996,8 +1033,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_extend_time",
-      "x": 14.0,
-      "y": 12.0,
+      "x": 8.0,
+      "y": 10.8,
       "shape": "circle",
       "dependencies": [
         "0FE92A2E04F4B388"
@@ -1011,7 +1048,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1C1FB51DD4D09E11",
@@ -1019,8 +1057,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_delay",
-      "x": 16.0,
-      "y": 12.0,
+      "x": 6.45,
+      "y": 10.8,
       "shape": "hexagon",
       "dependencies": [
         "194DD734B0BDF071"
@@ -1046,7 +1084,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "2FC5E2538C0E7B81",
@@ -1056,9 +1095,9 @@
         "Build a safe landing spell before experimenting with movement. Utility spells can reach controls and reshape terrain at a distance."
       ],
       "icon": "ars_nouveau:glyph_leap",
-      "x": 0.0,
-      "y": 15.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 13.15,
+      "shape": "rsquare",
       "dependencies": [
         "07070F811B4E3A0F"
       ],
@@ -1077,7 +1116,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "2FE462443040B36D",
@@ -1085,8 +1125,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_launch",
-      "x": 2.0,
-      "y": 15.0,
+      "x": 3.35,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "2FC5E2538C0E7B81"
@@ -1100,7 +1140,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "71464F1D82904257",
@@ -1108,8 +1149,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_slowfall",
-      "x": 4.0,
-      "y": 15.0,
+      "x": 4.9,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "2FE462443040B36D"
@@ -1123,7 +1164,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3B0C2AE4B7CE4A8C",
@@ -1131,8 +1173,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_glide",
-      "x": 6.0,
-      "y": 15.0,
+      "x": 6.45,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "71464F1D82904257"
@@ -1152,7 +1194,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "2FEFA4BD08955CFA",
@@ -1161,7 +1204,7 @@
       "description": [],
       "icon": "ars_nouveau:glyph_blink",
       "x": 8.0,
-      "y": 15.0,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "3B0C2AE4B7CE4A8C"
@@ -1175,7 +1218,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "58CFCB3AA73075A4",
@@ -1183,8 +1227,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_exchange",
-      "x": 10.0,
-      "y": 15.0,
+      "x": 9.55,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "2FEFA4BD08955CFA"
@@ -1198,7 +1242,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7CD49DFF3B25BB04",
@@ -1206,8 +1251,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_place_block",
-      "x": 12.0,
-      "y": 15.0,
+      "x": 9.55,
+      "y": 14.7,
       "shape": "circle",
       "dependencies": [
         "58CFCB3AA73075A4"
@@ -1227,7 +1272,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "2FC554227DE58875",
@@ -1235,8 +1281,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_interact",
-      "x": 14.0,
-      "y": 15.0,
+      "x": 8.0,
+      "y": 14.7,
       "shape": "circle",
       "dependencies": [
         "7CD49DFF3B25BB04"
@@ -1250,7 +1296,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "626AB06282A1312E",
@@ -1258,8 +1305,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_redstone_signal",
-      "x": 16.0,
-      "y": 15.0,
+      "x": 6.45,
+      "y": 14.7,
       "shape": "hexagon",
       "dependencies": [
         "2FC554227DE58875"
@@ -1285,7 +1332,8 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "447548BC360F7DFE",
@@ -1295,9 +1343,9 @@
         "Combine effects deliberately. Keep destructive spells away from shared homes and test their area before using them in battle."
       ],
       "icon": "ars_nouveau:glyph_ignite",
-      "x": 0.0,
-      "y": 18.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 17.05,
+      "shape": "rsquare",
       "dependencies": [
         "07070F811B4E3A0F"
       ],
@@ -1316,7 +1364,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "2C49E6B9CFAFCA6F",
@@ -1324,8 +1373,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_flare",
-      "x": 2.0,
-      "y": 18.0,
+      "x": 3.35,
+      "y": 17.05,
       "shape": "circle",
       "dependencies": [
         "447548BC360F7DFE"
@@ -1339,7 +1388,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4CB6AD48EFC2EBF9",
@@ -1347,8 +1397,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_freeze",
-      "x": 4.0,
-      "y": 18.0,
+      "x": 4.9,
+      "y": 17.05,
       "shape": "circle",
       "dependencies": [
         "2C49E6B9CFAFCA6F"
@@ -1362,7 +1412,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7DB54CC85E7D660B",
@@ -1370,8 +1421,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_cold_snap",
-      "x": 6.0,
-      "y": 18.0,
+      "x": 6.45,
+      "y": 17.05,
       "shape": "circle",
       "dependencies": [
         "4CB6AD48EFC2EBF9"
@@ -1391,7 +1442,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "6AD43AB473169738",
@@ -1400,7 +1452,7 @@
       "description": [],
       "icon": "ars_nouveau:glyph_gust",
       "x": 8.0,
-      "y": 18.0,
+      "y": 17.05,
       "shape": "circle",
       "dependencies": [
         "7DB54CC85E7D660B"
@@ -1414,7 +1466,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "38AF235D9FB43040",
@@ -1422,8 +1475,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_pull",
-      "x": 10.0,
-      "y": 18.0,
+      "x": 9.55,
+      "y": 17.05,
       "shape": "circle",
       "dependencies": [
         "6AD43AB473169738"
@@ -1437,7 +1490,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "62D7A96B89046D34",
@@ -1445,8 +1499,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_snare",
-      "x": 12.0,
-      "y": 18.0,
+      "x": 9.55,
+      "y": 18.6,
       "shape": "circle",
       "dependencies": [
         "38AF235D9FB43040"
@@ -1466,7 +1520,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "7A918A3B1E4BEBE6",
@@ -1474,8 +1529,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_wither",
-      "x": 14.0,
-      "y": 18.0,
+      "x": 8.0,
+      "y": 18.6,
       "shape": "circle",
       "dependencies": [
         "62D7A96B89046D34"
@@ -1489,7 +1544,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "26D84DED61E27A26",
@@ -1497,8 +1553,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_explosion",
-      "x": 16.0,
-      "y": 18.0,
+      "x": 6.45,
+      "y": 18.6,
       "shape": "hexagon",
       "dependencies": [
         "7A918A3B1E4BEBE6"
@@ -1524,7 +1580,8 @@
           "item": "minecraft:amethyst_shard",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "38B62B54D75F4F6D",
@@ -1534,9 +1591,9 @@
         "Each spirit has its own work and habitat. Bind its task with the dominion wand and keep its workspace supplied."
       ],
       "icon": "ars_nouveau:dominion_wand",
-      "x": 0.0,
-      "y": 21.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 24.85,
+      "shape": "rsquare",
       "dependencies": [
         "3D2F2CB1C9E7405D"
       ],
@@ -1555,7 +1612,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "7B8699F7DB21FC69",
@@ -1563,8 +1621,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:starbuncle_charm",
-      "x": 2.0,
-      "y": 21.0,
+      "x": 3.35,
+      "y": 24.85,
       "shape": "circle",
       "dependencies": [
         "38B62B54D75F4F6D"
@@ -1578,7 +1636,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "34CA7583811B3B05",
@@ -1586,8 +1645,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:whirlisprig_charm",
-      "x": 4.0,
-      "y": 21.0,
+      "x": 4.9,
+      "y": 24.85,
       "shape": "circle",
       "dependencies": [
         "7B8699F7DB21FC69"
@@ -1601,7 +1660,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6B558D29502128AA",
@@ -1609,8 +1669,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:drygmy_charm",
-      "x": 6.0,
-      "y": 21.0,
+      "x": 6.45,
+      "y": 24.85,
       "shape": "circle",
       "dependencies": [
         "34CA7583811B3B05"
@@ -1630,7 +1690,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "606F3882FA7D1832",
@@ -1639,7 +1700,7 @@
       "description": [],
       "icon": "ars_nouveau:wixie_charm",
       "x": 8.0,
-      "y": 21.0,
+      "y": 24.85,
       "shape": "circle",
       "dependencies": [
         "6B558D29502128AA"
@@ -1653,7 +1714,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "323413AD92EF0E46",
@@ -1661,8 +1723,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:bookwyrm_charm",
-      "x": 10.0,
-      "y": 21.0,
+      "x": 9.55,
+      "y": 24.85,
       "shape": "circle",
       "dependencies": [
         "606F3882FA7D1832"
@@ -1676,7 +1738,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "413E1D542A5962C4",
@@ -1684,8 +1747,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:amethyst_golem_charm",
-      "x": 12.0,
-      "y": 21.0,
+      "x": 9.55,
+      "y": 26.4,
       "shape": "hexagon",
       "dependencies": [
         "323413AD92EF0E46"
@@ -1711,7 +1774,8 @@
           "item": "minecraft:golden_carrot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "368B18F9EC5F9687",
@@ -1721,9 +1785,9 @@
         "Prepare an open ritual space. Read the tablet's reagents and area before beginning a rite near a settlement."
       ],
       "icon": "ars_nouveau:ritual_brazier",
-      "x": 0.0,
-      "y": 24.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 28.75,
+      "shape": "rsquare",
       "dependencies": [
         "3D2F2CB1C9E7405D"
       ],
@@ -1742,7 +1806,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "62953492E6E332DF",
@@ -1750,8 +1815,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:ritual_sunrise",
-      "x": 2.0,
-      "y": 24.0,
+      "x": 3.35,
+      "y": 28.75,
       "shape": "circle",
       "dependencies": [
         "368B18F9EC5F9687"
@@ -1765,7 +1830,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3E5439ECA1B3DE8E",
@@ -1773,8 +1839,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:ritual_moonfall",
-      "x": 4.0,
-      "y": 24.0,
+      "x": 4.9,
+      "y": 28.75,
       "shape": "circle",
       "dependencies": [
         "62953492E6E332DF"
@@ -1788,7 +1854,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "559C0CF80D8F987D",
@@ -1796,8 +1863,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:ritual_harvest",
-      "x": 6.0,
-      "y": 24.0,
+      "x": 6.45,
+      "y": 28.75,
       "shape": "circle",
       "dependencies": [
         "3E5439ECA1B3DE8E"
@@ -1817,7 +1884,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "151C0D17DD0D6B8D",
@@ -1826,7 +1894,7 @@
       "description": [],
       "icon": "ars_nouveau:ritual_forestation",
       "x": 8.0,
-      "y": 24.0,
+      "y": 28.75,
       "shape": "circle",
       "dependencies": [
         "559C0CF80D8F987D"
@@ -1840,7 +1908,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "75B904B51B898F14",
@@ -1848,8 +1917,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:ritual_fertility",
-      "x": 10.0,
-      "y": 24.0,
+      "x": 9.55,
+      "y": 28.75,
       "shape": "circle",
       "dependencies": [
         "151C0D17DD0D6B8D"
@@ -1863,7 +1932,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "362E9EC07735F9A8",
@@ -1871,8 +1941,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:ritual_warping",
-      "x": 12.0,
-      "y": 24.0,
+      "x": 9.55,
+      "y": 30.3,
       "shape": "circle",
       "dependencies": [
         "75B904B51B898F14"
@@ -1892,7 +1962,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "35125692506760E0",
@@ -1900,8 +1971,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:ritual_containment",
-      "x": 14.0,
-      "y": 24.0,
+      "x": 8.0,
+      "y": 30.3,
       "shape": "hexagon",
       "dependencies": [
         "362E9EC07735F9A8"
@@ -1927,7 +1998,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "19A8F15024462B58",
@@ -1937,9 +2009,9 @@
         "Prepare healing, movement and a clear battlefield before summoning the Wilden. Victory opens the final tier of spellcraft."
       ],
       "icon": "ars_nouveau:wilden_horn",
-      "x": 0.0,
-      "y": 27.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 32.65,
+      "shape": "rsquare",
       "dependencies": [
         "368B18F9EC5F9687"
       ],
@@ -1958,7 +2030,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "72B6075887E6409F",
@@ -1966,8 +2039,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:wilden_wing",
-      "x": 2.0,
-      "y": 27.0,
+      "x": 3.35,
+      "y": 32.65,
       "shape": "circle",
       "dependencies": [
         "19A8F15024462B58"
@@ -1981,7 +2054,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7DC990405E262506",
@@ -1989,8 +2063,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:wilden_spike",
-      "x": 4.0,
-      "y": 27.0,
+      "x": 4.9,
+      "y": 32.65,
       "shape": "circle",
       "dependencies": [
         "72B6075887E6409F"
@@ -2004,7 +2078,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "654F00C26D2880DD",
@@ -2012,8 +2087,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:ritual_wilden_summon",
-      "x": 6.0,
-      "y": 27.0,
+      "x": 6.45,
+      "y": 32.65,
       "shape": "circle",
       "dependencies": [
         "7DC990405E262506"
@@ -2033,7 +2108,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "616780180267961D",
@@ -2042,7 +2118,7 @@
       "description": [],
       "icon": "ars_nouveau:wilden_tribute",
       "x": 8.0,
-      "y": 27.0,
+      "y": 32.65,
       "shape": "circle",
       "dependencies": [
         "654F00C26D2880DD"
@@ -2056,7 +2132,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "52EE86BCDFD76FDD",
@@ -2064,8 +2141,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:archmage_spell_book",
-      "x": 10.0,
-      "y": 27.0,
+      "x": 9.55,
+      "y": 32.65,
       "shape": "hexagon",
       "dependencies": [
         "616780180267961D"
@@ -2091,7 +2168,8 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "609554F556C264BB",
@@ -2101,9 +2179,9 @@
         "Advanced spells reward careful composition. Carry a dependable escape spell alongside your strongest attack."
       ],
       "icon": "ars_nouveau:glyph_lightning",
-      "x": 0.0,
-      "y": 30.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 35.0,
+      "shape": "rsquare",
       "dependencies": [
         "52EE86BCDFD76FDD"
       ],
@@ -2122,7 +2200,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "6A10F2410A79ECDA",
@@ -2130,8 +2209,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_orbit",
-      "x": 2.0,
-      "y": 30.0,
+      "x": 3.35,
+      "y": 35.0,
       "shape": "circle",
       "dependencies": [
         "609554F556C264BB"
@@ -2145,7 +2224,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "13CF0AE0AD9F62DF",
@@ -2153,8 +2233,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_linger",
-      "x": 4.0,
-      "y": 30.0,
+      "x": 4.9,
+      "y": 35.0,
       "shape": "circle",
       "dependencies": [
         "6A10F2410A79ECDA"
@@ -2168,7 +2248,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3C76C2F05D56BC23",
@@ -2176,8 +2257,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_intangible",
-      "x": 6.0,
-      "y": 30.0,
+      "x": 6.45,
+      "y": 35.0,
       "shape": "circle",
       "dependencies": [
         "13CF0AE0AD9F62DF"
@@ -2197,7 +2278,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "728F6A3F52ACAD74",
@@ -2206,7 +2288,7 @@
       "description": [],
       "icon": "ars_nouveau:glyph_ender_inventory",
       "x": 8.0,
-      "y": 30.0,
+      "y": 35.0,
       "shape": "circle",
       "dependencies": [
         "3C76C2F05D56BC23"
@@ -2220,7 +2302,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1D389057DF2916D0",
@@ -2228,8 +2311,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_summon_vex",
-      "x": 10.0,
-      "y": 30.0,
+      "x": 9.55,
+      "y": 35.0,
       "shape": "circle",
       "dependencies": [
         "728F6A3F52ACAD74"
@@ -2243,7 +2326,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "39D951926A85FB45",
@@ -2251,8 +2335,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_summon_wolves",
-      "x": 12.0,
-      "y": 30.0,
+      "x": 9.55,
+      "y": 36.55,
       "shape": "circle",
       "dependencies": [
         "1D389057DF2916D0"
@@ -2272,7 +2356,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "01BDCEDF299FBC48",
@@ -2280,8 +2365,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_fortune",
-      "x": 14.0,
-      "y": 30.0,
+      "x": 8.0,
+      "y": 36.55,
       "shape": "circle",
       "dependencies": [
         "39D951926A85FB45"
@@ -2295,7 +2380,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1E95B302A1204807",
@@ -2303,8 +2389,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:glyph_extract",
-      "x": 16.0,
-      "y": 30.0,
+      "x": 6.45,
+      "y": 36.55,
       "shape": "hexagon",
       "dependencies": [
         "01BDCEDF299FBC48"
@@ -2330,7 +2416,8 @@
           "item": "minecraft:amethyst_shard",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "14E7E6611CCD47F2",
@@ -2340,9 +2427,9 @@
         "Automated spells still need source and safe targets. Add a shutoff before leaving a turret to work unattended."
       ],
       "icon": "ars_nouveau:spell_turret",
-      "x": 0.0,
-      "y": 33.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 38.9,
+      "shape": "rsquare",
       "dependencies": [
         "3D2F2CB1C9E7405D"
       ],
@@ -2361,7 +2448,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "563602539154890D",
@@ -2369,8 +2457,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:timer_spell_turret",
-      "x": 2.0,
-      "y": 33.0,
+      "x": 3.35,
+      "y": 38.9,
       "shape": "circle",
       "dependencies": [
         "14E7E6611CCD47F2"
@@ -2384,7 +2472,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3B05A5867FC7249B",
@@ -2392,8 +2481,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:rotating_spell_turret",
-      "x": 4.0,
-      "y": 33.0,
+      "x": 4.9,
+      "y": 38.9,
       "shape": "circle",
       "dependencies": [
         "563602539154890D"
@@ -2407,7 +2496,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "227A6BF784A6543E",
@@ -2415,8 +2505,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:spell_prism",
-      "x": 6.0,
-      "y": 33.0,
+      "x": 6.45,
+      "y": 38.9,
       "shape": "circle",
       "dependencies": [
         "3B05A5867FC7249B"
@@ -2436,7 +2526,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "7687BA3CD27B2B3B",
@@ -2445,7 +2536,7 @@
       "description": [],
       "icon": "ars_nouveau:spell_sensor",
       "x": 8.0,
-      "y": 33.0,
+      "y": 38.9,
       "shape": "circle",
       "dependencies": [
         "227A6BF784A6543E"
@@ -2459,7 +2550,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "08643264DFE28EFE",
@@ -2467,8 +2559,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:item_detector",
-      "x": 10.0,
-      "y": 33.0,
+      "x": 9.55,
+      "y": 38.9,
       "shape": "circle",
       "dependencies": [
         "7687BA3CD27B2B3B"
@@ -2482,7 +2574,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "28A92714CFA28885",
@@ -2490,8 +2583,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:storage_lectern",
-      "x": 12.0,
-      "y": 33.0,
+      "x": 9.55,
+      "y": 40.45,
       "shape": "circle",
       "dependencies": [
         "08643264DFE28EFE"
@@ -2511,7 +2604,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "040DEE6CE0324D41",
@@ -2519,8 +2613,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:repository",
-      "x": 14.0,
-      "y": 33.0,
+      "x": 8.0,
+      "y": 40.45,
       "shape": "hexagon",
       "dependencies": [
         "28A92714CFA28885"
@@ -2546,7 +2640,8 @@
           "item": "minecraft:golden_carrot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "1F4A3E22D470800C",
@@ -2556,9 +2651,9 @@
         "Weave equipment around the spells you actually use. The alteration table prepares robes for specialised threads."
       ],
       "icon": "ars_nouveau:magebloom",
-      "x": 0.0,
-      "y": 36.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 20.95,
+      "shape": "rsquare",
       "dependencies": [
         "07070F811B4E3A0F"
       ],
@@ -2577,7 +2672,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "06F82F955BB76241",
@@ -2585,8 +2681,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:magebloom_fiber",
-      "x": 2.0,
-      "y": 36.0,
+      "x": 3.35,
+      "y": 20.95,
       "shape": "circle",
       "dependencies": [
         "1F4A3E22D470800C"
@@ -2600,7 +2696,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7F0AF95DD5D956D9",
@@ -2608,8 +2705,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:sorcerer_hood",
-      "x": 4.0,
-      "y": 36.0,
+      "x": 4.9,
+      "y": 20.95,
       "shape": "circle",
       "dependencies": [
         "06F82F955BB76241"
@@ -2623,7 +2720,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4B2EABCB865E9B9C",
@@ -2631,8 +2729,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:sorcerer_robes",
-      "x": 6.0,
-      "y": 36.0,
+      "x": 6.45,
+      "y": 20.95,
       "shape": "circle",
       "dependencies": [
         "7F0AF95DD5D956D9"
@@ -2652,7 +2750,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "6158F5DE90B09E31",
@@ -2661,7 +2760,7 @@
       "description": [],
       "icon": "ars_nouveau:sorcerer_leggings",
       "x": 8.0,
-      "y": 36.0,
+      "y": 20.95,
       "shape": "circle",
       "dependencies": [
         "4B2EABCB865E9B9C"
@@ -2675,7 +2774,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "326CED6E8E9DDA7A",
@@ -2683,8 +2783,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:sorcerer_boots",
-      "x": 10.0,
-      "y": 36.0,
+      "x": 9.55,
+      "y": 20.95,
       "shape": "circle",
       "dependencies": [
         "6158F5DE90B09E31"
@@ -2698,7 +2798,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3E96B5F201C2C5B0",
@@ -2706,8 +2807,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:alteration_table",
-      "x": 12.0,
-      "y": 36.0,
+      "x": 9.55,
+      "y": 22.5,
       "shape": "circle",
       "dependencies": [
         "326CED6E8E9DDA7A"
@@ -2727,7 +2828,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "7E4EFA4DF723B4F4",
@@ -2735,8 +2837,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:blank_thread",
-      "x": 14.0,
-      "y": 36.0,
+      "x": 8.0,
+      "y": 22.5,
       "shape": "circle",
       "dependencies": [
         "3E96B5F201C2C5B0"
@@ -2750,7 +2852,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "39CAE077144B3635",
@@ -2758,8 +2861,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:thread_magic_capacity",
-      "x": 16.0,
-      "y": 36.0,
+      "x": 6.45,
+      "y": 22.5,
       "shape": "circle",
       "dependencies": [
         "7E4EFA4DF723B4F4"
@@ -2773,7 +2876,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7F32526068387286",
@@ -2781,8 +2885,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:thread_spellpower",
-      "x": 18.0,
-      "y": 36.0,
+      "x": 4.9,
+      "y": 22.5,
       "shape": "hexagon",
       "dependencies": [
         "39CAE077144B3635"
@@ -2808,7 +2912,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "7B316DDEA309FE3D",
@@ -2818,9 +2923,9 @@
         "Choose source generation that fits a renewable supply. Separate competing consumers and keep a reserve for rituals."
       ],
       "icon": "ars_nouveau:volcanic_sourcelink",
-      "x": 0.0,
-      "y": 39.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 42.8,
+      "shape": "rsquare",
       "dependencies": [
         "7A34A6EFAEB1279B"
       ],
@@ -2839,7 +2944,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "5EE39F17313BA01E",
@@ -2847,8 +2953,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:mycelial_sourcelink",
-      "x": 2.0,
-      "y": 39.0,
+      "x": 3.35,
+      "y": 42.8,
       "shape": "circle",
       "dependencies": [
         "7B316DDEA309FE3D"
@@ -2862,7 +2968,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "54CF1EF0F1D889F8",
@@ -2870,8 +2977,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:vitalic_sourcelink",
-      "x": 4.0,
-      "y": 39.0,
+      "x": 4.9,
+      "y": 42.8,
       "shape": "circle",
       "dependencies": [
         "5EE39F17313BA01E"
@@ -2885,7 +2992,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5476AF12B33BE6B1",
@@ -2893,8 +3001,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:alchemical_sourcelink",
-      "x": 6.0,
-      "y": 39.0,
+      "x": 6.45,
+      "y": 42.8,
       "shape": "circle",
       "dependencies": [
         "54CF1EF0F1D889F8"
@@ -2914,7 +3022,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "18D2A21C710D098D",
@@ -2923,7 +3032,7 @@
       "description": [],
       "icon": "ars_nouveau:relay_splitter",
       "x": 8.0,
-      "y": 39.0,
+      "y": 42.8,
       "shape": "circle",
       "dependencies": [
         "5476AF12B33BE6B1"
@@ -2937,7 +3046,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5D47E002FDA652AC",
@@ -2945,8 +3055,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ars_nouveau:relay_warp",
-      "x": 10.0,
-      "y": 39.0,
+      "x": 9.55,
+      "y": 42.8,
       "shape": "hexagon",
       "dependencies": [
         "18D2A21C710D098D"
@@ -2972,8 +3082,131 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
+    },
+    {
+      "id": "30BA8D439B33ACBF",
+      "title": "A Shortcut Home",
+      "description": [
+        "Bind a warp scroll to a familiar destination and use it with a portal frame and source. Check the route before trusting it with a long expedition."
+      ],
+      "icon": "ars_nouveau:warp_scroll",
+      "dependencies": [
+        "3D2F2CB1C9E7405D",
+        "232E24456054577F"
+      ],
+      "tasks": [
+        {
+          "id": "5B7F501122A6B020",
+          "type": "advancement",
+          "advancement": "ars_nouveau:create_portal"
+        }
+      ],
+      "optional": true,
+      "rewards": [
+        {
+          "id": "67DBDAB55804AA8D",
+          "type": "item",
+          "item": "ars_nouveau:source_gem",
+          "count": 12
+        },
+        {
+          "id": "552E4A5998CA4609",
+          "type": "xp",
+          "xp": 40
+        }
+      ],
+      "x": -3.1,
+      "y": 45.4,
+      "shape": "diamond",
+      "size": 1.42
+    },
+    {
+      "id": "0578145B73843456",
+      "title": "The Wilden Hunt",
+      "description": [
+        "Carry a healing spell and make room to move around the chimera. Its tribute opens the path to the archmage's book."
+      ],
+      "icon": "ars_nouveau:ritual_wilden_summon",
+      "dependencies": [
+        "654F00C26D2880DD"
+      ],
+      "tasks": [
+        {
+          "id": "2D466BF4D7BF7C3B",
+          "type": "advancement",
+          "advancement": "ars_nouveau:wilden_tribute"
+        }
+      ],
+      "optional": true,
+      "rewards": [
+        {
+          "id": "4750D54AD3A9E029",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 12
+        },
+        {
+          "id": "366A074386B0B75E",
+          "type": "xp",
+          "xp": 40
+        }
+      ],
+      "x": 0.0,
+      "y": 45.4,
+      "shape": "diamond",
+      "size": 1.42
+    },
+    {
+      "id": "61142CA26E3C4209",
+      "title": "The Tower Keeps Working",
+      "description": [
+        "Run a harmless spell from a turret, trigger it from a sensor and confirm that it stops when you cut the signal."
+      ],
+      "icon": "ars_nouveau:spell_turret",
+      "dependencies": [
+        "14E7E6611CCD47F2",
+        "232E24456054577F",
+        "7687BA3CD27B2B3B"
+      ],
+      "tasks": [
+        {
+          "id": "52038AACE269CE2E",
+          "type": "checkmark",
+          "title": "Complete the build"
+        }
+      ],
+      "optional": true,
+      "rewards": [
+        {
+          "id": "2A12FE8FF9374758",
+          "type": "item",
+          "item": "ars_nouveau:source_gem",
+          "count": 16
+        },
+        {
+          "id": "67253ABABF969DB9",
+          "type": "xp",
+          "xp": 40
+        }
+      ],
+      "x": 3.1,
+      "y": 45.4,
+      "shape": "diamond",
+      "size": 1.42
     }
   ],
-  "filename": "wc_ars_nouveau"
+  "icon": "ars_nouveau:worn_notebook",
+  "autofocus_id": "092E48B1FC833D8C",
+  "filename": "wc_ars_nouveau",
+  "images": [
+    {
+      "x": 0,
+      "y": -2.65,
+      "width": 7.8,
+      "height": 1.3,
+      "image": "wombatcraft:textures/questbook/arcane.png"
+    }
+  ]
 }

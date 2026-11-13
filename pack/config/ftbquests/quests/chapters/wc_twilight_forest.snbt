@@ -1,0 +1,381 @@
+{
+  "filename": "wc_twilight_forest",
+  "id": "2F069AE9C00E84AD",
+  "title": "Twilight Forest",
+  "group": "00AA8F374274B5F3",
+  "order_index": 12,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "09380102448A8D1F",
+      "title": "Where the Sun Stands Still",
+      "description": [
+        "Ring a shallow pool with flowers and throw in a diamond. Bring food, torches and a map before stepping through."
+      ],
+      "icon": "minecraft:oak_sapling",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "39CB442E75BA13D7",
+          "type": "dimension",
+          "dimension": "twilightforest:twilight_forest"
+        }
+      ],
+      "optional": false,
+      "rewards": [
+        {
+          "id": "63D9A9B510E78D18",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        },
+        {
+          "id": "595F1FE969B13F5F",
+          "type": "xp",
+          "xp": 60
+        }
+      ],
+      "x": 0,
+      "y": -5.5,
+      "shape": "octagon",
+      "size": 1.65
+    },
+    {
+      "id": "128AA0619413B172",
+      "title": "Scales in the Courtyard",
+      "description": [
+        "Hunt the Naga in its walled courtyard. Keep the serpent in view as it breaks through the stone."
+      ],
+      "icon": "twilightforest:naga_trophy",
+      "dependencies": [
+        "09380102448A8D1F"
+      ],
+      "tasks": [
+        {
+          "id": "522BDE412EC05DDB",
+          "type": "advancement",
+          "advancement": "twilightforest:progress_naga"
+        }
+      ],
+      "optional": false,
+      "rewards": [
+        {
+          "id": "7C775C74FB91DB26",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        },
+        {
+          "id": "6B082FC8862FB812",
+          "type": "xp",
+          "xp": 60
+        }
+      ],
+      "x": 0,
+      "y": -3.3,
+      "shape": "diamond",
+      "size": 1.35
+    },
+    {
+      "id": "17AC570F3F24B5CB",
+      "title": "The Lich's Tower",
+      "description": [
+        "Climb the tower with room in your pack. Return the Lich's projectiles to break its shields."
+      ],
+      "icon": "twilightforest:lich_trophy",
+      "dependencies": [
+        "128AA0619413B172"
+      ],
+      "tasks": [
+        {
+          "id": "7F16D291CAB54724",
+          "type": "advancement",
+          "advancement": "twilightforest:progress_lich"
+        }
+      ],
+      "optional": false,
+      "rewards": [
+        {
+          "id": "410519E53E4DFCB5",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        },
+        {
+          "id": "0D7E766A98EDC488",
+          "type": "xp",
+          "xp": 60
+        }
+      ],
+      "x": 0,
+      "y": -1.1,
+      "shape": "diamond",
+      "size": 1.35
+    },
+    {
+      "id": "23CE0D1D45BFE776",
+      "title": "Beneath the Swamp",
+      "description": [
+        "Descend into the labyrinth. Defeat the Minoshroom and eat its Meef Stroganoff to clear the swamp's curse."
+      ],
+      "icon": "twilightforest:maze_map",
+      "dependencies": [
+        "17AC570F3F24B5CB"
+      ],
+      "tasks": [
+        {
+          "id": "04A8862670FDA7F1",
+          "type": "advancement",
+          "advancement": "twilightforest:progress_labyrinth"
+        }
+      ],
+      "optional": false,
+      "rewards": [
+        {
+          "id": "542F352025BFDD86",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        },
+        {
+          "id": "39B6FB2F6A2BA9EC",
+          "type": "xp",
+          "xp": 60
+        }
+      ],
+      "x": -3.8,
+      "y": 1.2,
+      "shape": "diamond",
+      "size": 1.35
+    },
+    {
+      "id": "3934957461BF7F90",
+      "title": "The Fire Swamp",
+      "description": [
+        "Face the Hydra in the fire swamp. Attack the open mouths and move between volleys."
+      ],
+      "icon": "twilightforest:hydra_trophy",
+      "dependencies": [
+        "23CE0D1D45BFE776"
+      ],
+      "tasks": [
+        {
+          "id": "7E6F8C1E6C092A24",
+          "type": "advancement",
+          "advancement": "twilightforest:progress_hydra"
+        }
+      ],
+      "optional": false,
+      "rewards": [
+        {
+          "id": "1E234925571C4238",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        },
+        {
+          "id": "6D7242CFEDCF2BE9",
+          "type": "xp",
+          "xp": 60
+        }
+      ],
+      "x": -3.8,
+      "y": 3.6,
+      "shape": "hexagon",
+      "size": 1.35
+    },
+    {
+      "id": "595C9748C701F78C",
+      "title": "Beneath the Dark Forest",
+      "description": [
+        "Bring a trophy to the stronghold pedestal. Search the lower rooms for the Knight Phantoms."
+      ],
+      "icon": "twilightforest:knight_phantom_trophy",
+      "dependencies": [
+        "17AC570F3F24B5CB"
+      ],
+      "tasks": [
+        {
+          "id": "267FAB56FCEEE0FB",
+          "type": "advancement",
+          "advancement": "twilightforest:progress_knights"
+        }
+      ],
+      "optional": false,
+      "rewards": [
+        {
+          "id": "65B0E39347A2238C",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        },
+        {
+          "id": "24BF2119CEB75EF9",
+          "type": "xp",
+          "xp": 60
+        }
+      ],
+      "x": 0,
+      "y": 1.8,
+      "shape": "diamond",
+      "size": 1.35
+    },
+    {
+      "id": "62A0F96BCF026D00",
+      "title": "Above the Dark Tower",
+      "description": [
+        "Scale the Dark Tower and use its ghast traps to bring the Ur-Ghast into reach."
+      ],
+      "icon": "twilightforest:ur_ghast_trophy",
+      "dependencies": [
+        "595C9748C701F78C"
+      ],
+      "tasks": [
+        {
+          "id": "5D173EA408AE4104",
+          "type": "advancement",
+          "advancement": "twilightforest:progress_ur_ghast"
+        }
+      ],
+      "optional": false,
+      "rewards": [
+        {
+          "id": "0E15A9C5ED096793",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        },
+        {
+          "id": "6D1D05884A00EAF2",
+          "type": "xp",
+          "xp": 60
+        }
+      ],
+      "x": 0,
+      "y": 4.2,
+      "shape": "hexagon",
+      "size": 1.35
+    },
+    {
+      "id": "159638ADF07F7CF9",
+      "title": "Under the Snow",
+      "description": [
+        "Find the Yeti's lair in the snowy forest. Keep away from its grab and bring a ranged weapon."
+      ],
+      "icon": "twilightforest:alpha_yeti_trophy",
+      "dependencies": [
+        "17AC570F3F24B5CB"
+      ],
+      "tasks": [
+        {
+          "id": "0EA2164539069B76",
+          "type": "advancement",
+          "advancement": "twilightforest:progress_yeti"
+        }
+      ],
+      "optional": false,
+      "rewards": [
+        {
+          "id": "5D60803CBA124005",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        },
+        {
+          "id": "7DE165C0713EDC2C",
+          "type": "xp",
+          "xp": 60
+        }
+      ],
+      "x": 3.8,
+      "y": 1.2,
+      "shape": "diamond",
+      "size": 1.35
+    },
+    {
+      "id": "5928FA50159D1217",
+      "title": "The Palace on the Glacier",
+      "description": [
+        "Follow the towers of the Aurora Palace upward and defeat the Snow Queen above the glacier."
+      ],
+      "icon": "twilightforest:snow_queen_trophy",
+      "dependencies": [
+        "159638ADF07F7CF9"
+      ],
+      "tasks": [
+        {
+          "id": "1D92C9BFDFD7DC4B",
+          "type": "advancement",
+          "advancement": "twilightforest:progress_glacier"
+        }
+      ],
+      "optional": false,
+      "rewards": [
+        {
+          "id": "7DCAAC69B234D5DB",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        },
+        {
+          "id": "69CA7178D1181098",
+          "type": "xp",
+          "xp": 60
+        }
+      ],
+      "x": 3.8,
+      "y": 3.6,
+      "shape": "hexagon",
+      "size": 1.35
+    },
+    {
+      "id": "008EB52A6A728950",
+      "title": "Into the Highlands",
+      "description": [
+        "Search the troll caves for magic beans and plant one in Uberous Soil. The beanstalk climbs to the giants."
+      ],
+      "icon": "twilightforest:magic_beans",
+      "dependencies": [
+        "3934957461BF7F90",
+        "62A0F96BCF026D00",
+        "5928FA50159D1217"
+      ],
+      "tasks": [
+        {
+          "id": "7FA3072326DBC154",
+          "type": "advancement",
+          "advancement": "twilightforest:progress_troll"
+        }
+      ],
+      "optional": false,
+      "rewards": [
+        {
+          "id": "7CD36279DBCC3EE2",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        },
+        {
+          "id": "68CF8B001C21B122",
+          "type": "xp",
+          "xp": 60
+        }
+      ],
+      "x": 0,
+      "y": 7.3,
+      "shape": "hexagon",
+      "size": 1.35
+    }
+  ],
+  "icon": "twilightforest:magic_map",
+  "autofocus_id": "09380102448A8D1F",
+  "images": [
+    {
+      "x": 0,
+      "y": -7.9,
+      "width": 7.8,
+      "height": 1.3,
+      "image": "wombatcraft:textures/questbook/twilight.png"
+    }
+  ]
+}

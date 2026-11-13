@@ -1,5 +1,5 @@
 [Unit]
-Description=Wombatcraft Minecraft and voice-chat proxy routes
+Description=Wombatcraft voice-chat proxy route
 After=network-online.target docker.service fivem-wg.service fivem-proxy.service
 Wants=network-online.target
 PartOf=fivem-proxy.service

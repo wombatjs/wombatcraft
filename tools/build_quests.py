@@ -5,6 +5,8 @@ Existing addon chapters remain until they receive an authored replacement.
 """
 import argparse,collections,hashlib,json,re,shutil
 from pathlib import Path
+from quest_content import refine_chapters
+from quest_layout import chapter_key, lay_out_atlas, lay_out_lanes
 ROOT=Path(__file__).resolve().parents[1]
 def uid(s):return f"{int(hashlib.sha256(('wombatcraft/'+s).encode()).hexdigest()[:16],16) & 0x7FFFFFFFFFFFFFFF:016X}"
 def save(p,d):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(d,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
@@ -75,8 +77,10 @@ def build(registry,names):
      if not rewards or rewards[0]['type']!='xp':rewards.insert(0,dict(id=uid(title+'/'+item+'/xp'),type='xp',xp=xp+20))
     q=dict(id=quest_ids[item],title=label,subtitle=lane['title'] if col==0 else '',description=desc,icon=item,x=col*2.0,y=row*3.0,shape='hexagon' if col==len(lane['items'])-1 else 'circle',dependencies=[prev] if prev else [],tasks=[dict(id=uid(title+'/'+item+'/task'),type='item',item=item,count=1,consume_items=False)],rewards=rewards)
     qs.append(q);lane_quests.append(q);prev=q['id']
-  filename='wc_'+re.sub('[^a-z0-9]+','_',title.lower())+'.snbt'
-  save(chapters/filename,dict(id=uid('chapter/'+title),title=title,group=gids[ls[0]['group']],order_index=order,default_quest_shape='circle',quests=qs))
+  filename=chapter_key(title)+'.snbt'
+  chapter=dict(id=uid('chapter/'+title),title=title,group=gids[ls[0]['group']],order_index=order,default_quest_shape='circle',quests=qs)
+  lay_out_lanes(chapter,ls)
+  save(chapters/filename,chapter)
   reports.append(dict(chapter=title,quests=len(qs),lanes=len(ls)))
  # Player-facing starter copy stays in the world, with technical notes in README.
  p=chapters/'00_start_here.snbt';d=json.loads(p.read_text())
@@ -89,6 +93,7 @@ def build(registry,names):
  for p in chapters.glob('wc_*.snbt'):
   d=json.loads(p.read_text());chapter_heads[d['title']]=d['quests'][0]['id']
   for q in d['quests']:replacement_goals[q['tasks'][0]['item']]=q['id']
+ book={}
  for p in chapters.glob('*.snbt'):
   d=json.loads(p.read_text())
   for q in d['quests']:
@@ -115,12 +120,17 @@ def build(registry,names):
     fixed.append(dep)
    q['dependencies']=fixed
   d['filename']=p.stem
-  save(p,d)
- allq=[q for p in chapters.glob('*.snbt') for q in json.loads(p.read_text())['quests']]
+  if p.stem.startswith(('20_','21_','22_','23_','24_','25_')):
+   lay_out_atlas(d)
+  book[p.stem]=d
+ refine_chapters(book,uid)
+ for filename,d in book.items():save(chapters/(filename+'.snbt'),d)
+ for entry in reports:entry['quests']=len(book[chapter_key(entry['chapter'])]['quests'])
+ allq=[q for chapter in book.values() for q in chapter['quests']]
  qids={q['id'] for q in allq};assert len(qids)==len(allq),'Duplicate quest IDs'
  for q in allq:
   assert all(dep in qids for dep in q.get('dependencies',[])),q['title']
- report=dict(authored_chapters=reports,total_quests=len(allq),total_chapters=len(list(chapters.glob('*.snbt'))))
+ report=dict(authored_chapters=reports,total_quests=len(allq),total_chapters=len(book))
  save(ROOT/'docs/quest-build.json',report);print(json.dumps(report,indent=2))
 
 if __name__=='__main__':

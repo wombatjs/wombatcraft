@@ -13,9 +13,9 @@
         "Begin with a small fuel-powered supply. Connect the generator to a buffer and reserve room for additional cables."
       ],
       "icon": "powah:book",
-      "x": 0.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -5.77,
+      "y": 0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -32,7 +32,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.5
     },
     {
       "id": "0279ED0DBDFE57BD",
@@ -40,9 +41,9 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:dielectric_paste",
-      "x": 2.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -4.12,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "3DCE6FD387622AE9"
       ],
@@ -55,7 +56,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "4FDB9D1E1A048CFF",
@@ -63,9 +65,9 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:dielectric_rod",
-      "x": 4.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -2.47,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "0279ED0DBDFE57BD"
       ],
@@ -78,7 +80,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "69F40659E0AD1056",
@@ -86,9 +89,9 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:dielectric_casing",
-      "x": 6.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "4FDB9D1E1A048CFF"
       ],
@@ -107,7 +110,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "115D7984D6278082",
@@ -115,9 +119,9 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:capacitor_basic_tiny",
-      "x": 8.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "69F40659E0AD1056"
       ],
@@ -130,7 +134,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "23A5A2BFAD7E3DF5",
@@ -138,9 +143,9 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:furnator_starter",
-      "x": 10.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 2.47,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "115D7984D6278082"
       ],
@@ -153,7 +158,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "618E58E45FA3C051",
@@ -161,9 +167,9 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:energy_cable_starter",
-      "x": 12.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 4.12,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "23A5A2BFAD7E3DF5"
       ],
@@ -182,7 +188,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "2371D611168D835B",
@@ -190,9 +197,9 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:energy_cell_starter",
-      "x": 14.0,
-      "y": 0.0,
-      "shape": "hexagon",
+      "x": 5.77,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "618E58E45FA3C051"
       ],
@@ -217,7 +224,8 @@
           "item": "minecraft:iron_ingot",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "6C0CC0D8E3709FF9",
@@ -227,9 +235,9 @@
         "Different generators suit different homes. Check each generator's conditions and fuel supply before relying on it overnight."
       ],
       "icon": "powah:thermoelectric_plate",
-      "x": 0.0,
+      "x": -1.8,
       "y": 3.0,
-      "shape": "circle",
+      "shape": "rsquare",
       "dependencies": [
         "69F40659E0AD1056"
       ],
@@ -248,7 +256,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "151ED28E5890EA33",
@@ -256,7 +265,7 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:thermo_generator_starter",
-      "x": 2.0,
+      "x": -3.35,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -271,7 +280,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0548FE49CAD6986F",
@@ -279,7 +289,7 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:magmator_starter",
-      "x": 4.0,
+      "x": -4.9,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -294,7 +304,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5D2A6EBE9FEDEDC1",
@@ -302,7 +313,7 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:photoelectric_pane",
-      "x": 6.0,
+      "x": -6.45,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -323,7 +334,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "27C5BFA5D01903CF",
@@ -331,7 +343,7 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:solar_panel_starter",
-      "x": 8.0,
+      "x": -8.0,
       "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
@@ -358,7 +370,8 @@
           "item": "minecraft:redstone",
           "count": 16
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "01EE36ABAFB8DC44",
@@ -368,9 +381,9 @@
         "Place energizing rods around an orb and supply them with power. The orb transforms ingredients; an unfinished recipe can tie up the whole station."
       ],
       "icon": "powah:energizing_orb",
-      "x": 0.0,
-      "y": 6.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 3.0,
+      "shape": "rsquare",
       "dependencies": [
         "2371D611168D835B"
       ],
@@ -389,7 +402,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "2CABAB5DFCE4B15C",
@@ -397,8 +411,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:energizing_rod_starter",
-      "x": 2.0,
-      "y": 6.0,
+      "x": 3.35,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "01EE36ABAFB8DC44"
@@ -412,7 +426,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "637C75C9278837A2",
@@ -420,8 +435,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:energizing_rod_basic",
-      "x": 4.0,
-      "y": 6.0,
+      "x": 4.9,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "2CABAB5DFCE4B15C"
@@ -435,7 +450,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6913CF683CBD35DD",
@@ -443,8 +459,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:steel_energized",
-      "x": 6.0,
-      "y": 6.0,
+      "x": 6.45,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "637C75C9278837A2"
@@ -464,7 +480,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "373BC493A382B88E",
@@ -473,7 +490,7 @@
       "description": [],
       "icon": "powah:energizing_rod_hardened",
       "x": 8.0,
-      "y": 6.0,
+      "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
         "6913CF683CBD35DD"
@@ -499,7 +516,8 @@
           "item": "minecraft:gold_ingot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "25E8EA5B6E15E711",
@@ -509,9 +527,9 @@
         "Blazing crystals unlock a stronger workshop. Upgrade generation and transfer together so the orb can use its new capacity."
       ],
       "icon": "powah:crystal_blazing",
-      "x": 0.0,
-      "y": 9.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 5.35,
+      "shape": "rsquare",
       "dependencies": [
         "6913CF683CBD35DD"
       ],
@@ -530,7 +548,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "6FBEAE83908397A6",
@@ -538,8 +557,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:capacitor_blazing",
-      "x": 2.0,
-      "y": 9.0,
+      "x": 3.35,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "25E8EA5B6E15E711"
@@ -553,7 +572,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "668FCBF650383263",
@@ -561,8 +581,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:energizing_rod_blazing",
-      "x": 4.0,
-      "y": 9.0,
+      "x": 4.9,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "6FBEAE83908397A6"
@@ -576,7 +596,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "504602AAC8F3D489",
@@ -584,8 +605,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:energy_cable_blazing",
-      "x": 6.0,
-      "y": 9.0,
+      "x": 6.45,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "668FCBF650383263"
@@ -605,7 +626,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "618BF2A84D819612",
@@ -614,7 +636,7 @@
       "description": [],
       "icon": "powah:furnator_blazing",
       "x": 8.0,
-      "y": 9.0,
+      "y": 5.35,
       "shape": "hexagon",
       "dependencies": [
         "504602AAC8F3D489"
@@ -640,7 +662,8 @@
           "item": "minecraft:quartz",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "548B0592AEE6BA3E",
@@ -650,9 +673,9 @@
         "Niotic components demand a substantial reserve. Keep a buffer between the energizing station and machines that must run continuously."
       ],
       "icon": "powah:crystal_niotic",
-      "x": 0.0,
-      "y": 12.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 7.7,
+      "shape": "rsquare",
       "dependencies": [
         "25E8EA5B6E15E711"
       ],
@@ -671,7 +694,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "4C3EF52C2099DE93",
@@ -679,8 +703,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:capacitor_niotic",
-      "x": 2.0,
-      "y": 12.0,
+      "x": 3.35,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "548B0592AEE6BA3E"
@@ -694,7 +718,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4FC115514446751F",
@@ -702,8 +727,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:energizing_rod_niotic",
-      "x": 4.0,
-      "y": 12.0,
+      "x": 4.9,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "4C3EF52C2099DE93"
@@ -717,7 +742,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2A34D53033F81E58",
@@ -725,8 +751,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:energy_cell_niotic",
-      "x": 6.0,
-      "y": 12.0,
+      "x": 6.45,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "4FC115514446751F"
@@ -746,7 +772,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "473311C46C6EF0D0",
@@ -755,7 +782,7 @@
       "description": [],
       "icon": "powah:energy_cable_niotic",
       "x": 8.0,
-      "y": 12.0,
+      "y": 7.7,
       "shape": "hexagon",
       "dependencies": [
         "2A34D53033F81E58"
@@ -781,7 +808,8 @@
           "item": "minecraft:iron_ingot",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "48414F0C54A30DDC",
@@ -791,9 +819,9 @@
         "Build the next tier around a reliable material supply. A larger battery cannot compensate for a generator that has run out of fuel."
       ],
       "icon": "powah:crystal_spirited",
-      "x": 0.0,
-      "y": 15.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 10.05,
+      "shape": "rsquare",
       "dependencies": [
         "548B0592AEE6BA3E"
       ],
@@ -812,7 +840,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "7409E3DDB3743DF5",
@@ -820,8 +849,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:capacitor_spirited",
-      "x": 2.0,
-      "y": 15.0,
+      "x": 3.35,
+      "y": 10.05,
       "shape": "circle",
       "dependencies": [
         "48414F0C54A30DDC"
@@ -835,7 +864,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "05EC4F6AB30690D8",
@@ -843,8 +873,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:energizing_rod_spirited",
-      "x": 4.0,
-      "y": 15.0,
+      "x": 4.9,
+      "y": 10.05,
       "shape": "circle",
       "dependencies": [
         "7409E3DDB3743DF5"
@@ -858,7 +888,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2B95E18FBAAE3FF0",
@@ -866,8 +897,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:energy_cell_spirited",
-      "x": 6.0,
-      "y": 15.0,
+      "x": 6.45,
+      "y": 10.05,
       "shape": "circle",
       "dependencies": [
         "05EC4F6AB30690D8"
@@ -887,7 +918,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "7B508399058C3A40",
@@ -896,7 +928,7 @@
       "description": [],
       "icon": "powah:energy_cable_spirited",
       "x": 8.0,
-      "y": 15.0,
+      "y": 10.05,
       "shape": "hexagon",
       "dependencies": [
         "2B95E18FBAAE3FF0"
@@ -922,7 +954,8 @@
           "item": "minecraft:redstone",
           "count": 16
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "24A84C367788EE1E",
@@ -932,9 +965,9 @@
         "Nitro is the final material tier. Prepare the full recipe before committing the orb and give the station its own power reserve."
       ],
       "icon": "powah:crystal_nitro",
-      "x": 0.0,
-      "y": 18.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 12.4,
+      "shape": "rsquare",
       "dependencies": [
         "48414F0C54A30DDC"
       ],
@@ -953,7 +986,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "633BF9F9A9FD5236",
@@ -961,8 +995,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:capacitor_nitro",
-      "x": 2.0,
-      "y": 18.0,
+      "x": 3.35,
+      "y": 12.4,
       "shape": "circle",
       "dependencies": [
         "24A84C367788EE1E"
@@ -976,7 +1010,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1727F5289049E0A5",
@@ -984,8 +1019,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:energizing_rod_nitro",
-      "x": 4.0,
-      "y": 18.0,
+      "x": 4.9,
+      "y": 12.4,
       "shape": "circle",
       "dependencies": [
         "633BF9F9A9FD5236"
@@ -999,7 +1034,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6395B224CA7C51CE",
@@ -1007,8 +1043,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:energy_cell_nitro",
-      "x": 6.0,
-      "y": 18.0,
+      "x": 6.45,
+      "y": 12.4,
       "shape": "circle",
       "dependencies": [
         "1727F5289049E0A5"
@@ -1028,7 +1064,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "07195F4D85B18E7F",
@@ -1037,7 +1074,7 @@
       "description": [],
       "icon": "powah:energy_cable_nitro",
       "x": 8.0,
-      "y": 18.0,
+      "y": 12.4,
       "shape": "hexagon",
       "dependencies": [
         "6395B224CA7C51CE"
@@ -1063,7 +1100,8 @@
           "item": "minecraft:gold_ingot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "7D513EAC59306CC4",
@@ -1073,9 +1111,9 @@
         "Assemble the reactor according to the guide. Keep fuel and cooling supplies stocked, and inspect operating conditions before increasing demand."
       ],
       "icon": "powah:uraninite",
-      "x": 0.0,
-      "y": 21.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 14.75,
+      "shape": "rsquare",
       "dependencies": [
         "373BC493A382B88E"
       ],
@@ -1094,7 +1132,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "75EA41EB93D543D6",
@@ -1102,8 +1141,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:reactor_starter",
-      "x": 2.0,
-      "y": 21.0,
+      "x": 3.35,
+      "y": 14.75,
       "shape": "circle",
       "dependencies": [
         "7D513EAC59306CC4"
@@ -1117,7 +1156,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "505F29455177385D",
@@ -1125,8 +1165,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:reactor_basic",
-      "x": 4.0,
-      "y": 21.0,
+      "x": 4.9,
+      "y": 14.75,
       "shape": "circle",
       "dependencies": [
         "75EA41EB93D543D6"
@@ -1140,7 +1180,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6F8F9B215CFA66FC",
@@ -1148,8 +1189,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:reactor_hardened",
-      "x": 6.0,
-      "y": 21.0,
+      "x": 6.45,
+      "y": 14.75,
       "shape": "circle",
       "dependencies": [
         "505F29455177385D"
@@ -1169,7 +1210,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "76DC9557429C9F80",
@@ -1178,7 +1220,7 @@
       "description": [],
       "icon": "powah:reactor_blazing",
       "x": 8.0,
-      "y": 21.0,
+      "y": 14.75,
       "shape": "circle",
       "dependencies": [
         "6F8F9B215CFA66FC"
@@ -1192,7 +1234,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4FB45A0A441CEDBF",
@@ -1200,8 +1243,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:reactor_niotic",
-      "x": 10.0,
-      "y": 21.0,
+      "x": 9.55,
+      "y": 14.75,
       "shape": "circle",
       "dependencies": [
         "76DC9557429C9F80"
@@ -1215,7 +1258,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "47DEADACDDBA71CC",
@@ -1223,8 +1267,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:reactor_spirited",
-      "x": 12.0,
-      "y": 21.0,
+      "x": 9.55,
+      "y": 16.3,
       "shape": "circle",
       "dependencies": [
         "4FB45A0A441CEDBF"
@@ -1244,7 +1288,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "2E38919562079D34",
@@ -1252,8 +1297,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:reactor_nitro",
-      "x": 14.0,
-      "y": 21.0,
+      "x": 8.0,
+      "y": 16.3,
       "shape": "hexagon",
       "dependencies": [
         "47DEADACDDBA71CC"
@@ -1279,7 +1324,8 @@
           "item": "minecraft:quartz",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "3094EC31ABAB4C5E",
@@ -1289,9 +1335,9 @@
         "An ender network carries power between distant work sites. Match the channel and make sure its supply can support every connected machine."
       ],
       "icon": "powah:ender_core",
-      "x": 0.0,
-      "y": 24.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 5.35,
+      "shape": "rsquare",
       "dependencies": [
         "2371D611168D835B"
       ],
@@ -1310,7 +1356,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "3295BA2099B0EE4A",
@@ -1318,8 +1365,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:ender_cell_starter",
-      "x": 2.0,
-      "y": 24.0,
+      "x": -3.35,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "3094EC31ABAB4C5E"
@@ -1333,7 +1380,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7A44376109A9262B",
@@ -1341,8 +1389,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:ender_gate_starter",
-      "x": 4.0,
-      "y": 24.0,
+      "x": -4.9,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "3295BA2099B0EE4A"
@@ -1356,7 +1404,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3EE4164D27766380",
@@ -1364,8 +1413,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:ender_cell_hardened",
-      "x": 6.0,
-      "y": 24.0,
+      "x": -6.45,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "7A44376109A9262B"
@@ -1385,7 +1434,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "2E3CA539D7A7C729",
@@ -1393,8 +1443,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:ender_gate_hardened",
-      "x": 8.0,
-      "y": 24.0,
+      "x": -8.0,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "3EE4164D27766380"
@@ -1408,7 +1458,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2B863E25F78A1141",
@@ -1416,8 +1467,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:ender_cell_nitro",
-      "x": 10.0,
-      "y": 24.0,
+      "x": -9.55,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "2E3CA539D7A7C729"
@@ -1431,7 +1482,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2AED5FC22F43CE4D",
@@ -1439,8 +1491,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:ender_gate_nitro",
-      "x": 12.0,
-      "y": 24.0,
+      "x": -9.55,
+      "y": 6.9,
       "shape": "hexagon",
       "dependencies": [
         "2B863E25F78A1141"
@@ -1466,7 +1518,8 @@
           "item": "minecraft:iron_ingot",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "70D85C25FBFE2012",
@@ -1476,9 +1529,9 @@
         "Carry power beyond the workshop. Bind the transmitter to its intended player and check the connection before setting out."
       ],
       "icon": "powah:battery_starter",
-      "x": 0.0,
-      "y": 27.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 9.25,
+      "shape": "rsquare",
       "dependencies": [
         "69F40659E0AD1056"
       ],
@@ -1497,7 +1550,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "36C165B8055222EE",
@@ -1505,8 +1559,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:battery_hardened",
-      "x": 2.0,
-      "y": 27.0,
+      "x": -3.35,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "70D85C25FBFE2012"
@@ -1520,7 +1574,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7E4C071A7C1133F3",
@@ -1528,8 +1583,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:battery_nitro",
-      "x": 4.0,
-      "y": 27.0,
+      "x": -4.9,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "36C165B8055222EE"
@@ -1543,7 +1598,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "348E99D0348D879E",
@@ -1551,8 +1607,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:aerial_pearl",
-      "x": 6.0,
-      "y": 27.0,
+      "x": -6.45,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "7E4C071A7C1133F3"
@@ -1572,7 +1628,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "240373F7C037252B",
@@ -1580,8 +1637,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:binding_card",
-      "x": 8.0,
-      "y": 27.0,
+      "x": -8.0,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "348E99D0348D879E"
@@ -1595,7 +1652,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "67C9FE91E64A4452",
@@ -1603,8 +1661,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:player_transmitter_starter",
-      "x": 10.0,
-      "y": 27.0,
+      "x": -9.55,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "240373F7C037252B"
@@ -1618,7 +1676,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "603B8FB123B98BC5",
@@ -1626,8 +1685,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:binding_card_dim",
-      "x": 12.0,
-      "y": 27.0,
+      "x": -9.55,
+      "y": 10.8,
       "shape": "circle",
       "dependencies": [
         "67C9FE91E64A4452"
@@ -1647,7 +1706,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "0DAA59F1B0A288A6",
@@ -1655,8 +1715,8 @@
       "subtitle": "",
       "description": [],
       "icon": "powah:player_transmitter_nitro",
-      "x": 14.0,
-      "y": 27.0,
+      "x": -8.0,
+      "y": 10.8,
       "shape": "hexagon",
       "dependencies": [
         "603B8FB123B98BC5"
@@ -1682,8 +1742,11 @@
           "item": "minecraft:redstone",
           "count": 16
         }
-      ]
+      ],
+      "size": 1.24
     }
   ],
+  "icon": "powah:book",
+  "autofocus_id": "3DCE6FD387622AE9",
   "filename": "wc_power"
 }

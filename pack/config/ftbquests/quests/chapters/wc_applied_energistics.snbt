@@ -13,9 +13,9 @@
         "Find the materials and presses that begin a network. Charge quartz and prepare fluix before building the first storage cell."
       ],
       "icon": "ae2:meteorite_compass",
-      "x": 0.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -4.12,
+      "y": 0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -32,7 +32,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.5
     },
     {
       "id": "3F175B4EF623E64F",
@@ -40,9 +41,9 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:certus_quartz_crystal",
-      "x": 2.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -2.47,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "7F302829125715E4"
       ],
@@ -55,7 +56,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "67CFFC27E83C0BC3",
@@ -63,9 +65,9 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:charged_certus_quartz_crystal",
-      "x": 4.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "3F175B4EF623E64F"
       ],
@@ -78,7 +80,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "7F985E3EE76D1E8B",
@@ -86,9 +89,9 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:fluix_crystal",
-      "x": 6.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "67CFFC27E83C0BC3"
       ],
@@ -107,7 +110,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "2117578B48965A72",
@@ -115,9 +119,9 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:charger",
-      "x": 8.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 2.47,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "7F985E3EE76D1E8B"
       ],
@@ -130,7 +134,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "5FC7FFCCF1EE5E02",
@@ -138,9 +143,9 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:inscriber",
-      "x": 10.0,
-      "y": 0.0,
-      "shape": "hexagon",
+      "x": 4.12,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "2117578B48965A72"
       ],
@@ -165,7 +170,8 @@
           "item": "minecraft:iron_ingot",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "65357321D8B18994",
@@ -175,9 +181,9 @@
         "Separate the pressing steps from final processor assembly. Automating these components makes every later expansion easier."
       ],
       "icon": "ae2:silicon",
-      "x": 0.0,
+      "x": -1.8,
       "y": 3.0,
-      "shape": "circle",
+      "shape": "rsquare",
       "dependencies": [
         "5FC7FFCCF1EE5E02"
       ],
@@ -196,7 +202,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "3AA680E9AD5AFC50",
@@ -204,7 +211,7 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:printed_silicon",
-      "x": 2.0,
+      "x": -3.35,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -219,7 +226,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "63400889BE6A83DA",
@@ -227,7 +235,7 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:printed_logic_processor",
-      "x": 4.0,
+      "x": -4.9,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -242,7 +250,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "33BC5C7457F89B64",
@@ -250,7 +259,7 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:logic_processor",
-      "x": 6.0,
+      "x": -6.45,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -271,7 +280,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "444553B1F3E7A5D4",
@@ -279,7 +289,7 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:printed_calculation_processor",
-      "x": 8.0,
+      "x": -8.0,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -294,7 +304,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7017062DE47694E7",
@@ -302,7 +313,7 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:calculation_processor",
-      "x": 10.0,
+      "x": -9.55,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -317,7 +328,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5549E1557355458E",
@@ -325,8 +337,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:printed_engineering_processor",
-      "x": 12.0,
-      "y": 3.0,
+      "x": -9.55,
+      "y": 4.55,
       "shape": "circle",
       "dependencies": [
         "7017062DE47694E7"
@@ -346,7 +358,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "65D9463EB1D84ECF",
@@ -354,8 +367,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:engineering_processor",
-      "x": 14.0,
-      "y": 3.0,
+      "x": -8.0,
+      "y": 4.55,
       "shape": "hexagon",
       "dependencies": [
         "5549E1557355458E"
@@ -381,7 +394,8 @@
           "item": "minecraft:redstone",
           "count": 16
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "19BFD64F7E9458BF",
@@ -391,9 +405,9 @@
         "Supply power, connect a drive and install a cell. Type limits and byte capacity are separate constraints."
       ],
       "icon": "ae2:energy_acceptor",
-      "x": 0.0,
-      "y": 6.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 6.9,
+      "shape": "rsquare",
       "dependencies": [
         "33BC5C7457F89B64"
       ],
@@ -412,7 +426,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "0140BF924003D24A",
@@ -420,8 +435,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:fluix_glass_cable",
-      "x": 2.0,
-      "y": 6.0,
+      "x": -3.35,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "19BFD64F7E9458BF"
@@ -435,7 +450,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "251FAC7F63C89465",
@@ -443,8 +459,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:cell_component_1k",
-      "x": 4.0,
-      "y": 6.0,
+      "x": -4.9,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "0140BF924003D24A"
@@ -458,7 +474,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "79C984DB5AA06677",
@@ -466,8 +483,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:item_cell_housing",
-      "x": 6.0,
-      "y": 6.0,
+      "x": -6.45,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "251FAC7F63C89465"
@@ -487,7 +504,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "21D00722A09F9B96",
@@ -495,8 +513,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:item_storage_cell_1k",
-      "x": 8.0,
-      "y": 6.0,
+      "x": -8.0,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "79C984DB5AA06677"
@@ -510,7 +528,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "02485A550C1FC2D4",
@@ -518,8 +537,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:drive",
-      "x": 10.0,
-      "y": 6.0,
+      "x": -9.55,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "21D00722A09F9B96"
@@ -533,7 +552,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "507AD8E89E851FFC",
@@ -541,8 +561,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:terminal",
-      "x": 12.0,
-      "y": 6.0,
+      "x": -9.55,
+      "y": 8.45,
       "shape": "circle",
       "dependencies": [
         "02485A550C1FC2D4"
@@ -562,7 +582,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "309DD644DC97FFAB",
@@ -570,8 +591,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:crafting_terminal",
-      "x": 14.0,
-      "y": 6.0,
+      "x": -8.0,
+      "y": 8.45,
       "shape": "hexagon",
       "dependencies": [
         "507AD8E89E851FFC"
@@ -597,7 +618,8 @@
           "item": "minecraft:gold_ingot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "44513250F5A05EA5",
@@ -607,9 +629,9 @@
         "Partition cells for predictable contents. Bulk resources can remain in external storage connected through a storage bus."
       ],
       "icon": "ae2:cell_workbench",
-      "x": 0.0,
-      "y": 9.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 10.8,
+      "shape": "rsquare",
       "dependencies": [
         "21D00722A09F9B96"
       ],
@@ -628,7 +650,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "03A32A23DD1BE503",
@@ -636,8 +659,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:item_storage_cell_4k",
-      "x": 2.0,
-      "y": 9.0,
+      "x": -3.35,
+      "y": 10.8,
       "shape": "circle",
       "dependencies": [
         "44513250F5A05EA5"
@@ -651,7 +674,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "275A6C5D956F1A2E",
@@ -659,8 +683,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:item_storage_cell_16k",
-      "x": 4.0,
-      "y": 9.0,
+      "x": -4.9,
+      "y": 10.8,
       "shape": "circle",
       "dependencies": [
         "03A32A23DD1BE503"
@@ -674,7 +698,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "10C6F9866E87593A",
@@ -682,8 +707,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:item_storage_cell_64k",
-      "x": 6.0,
-      "y": 9.0,
+      "x": -6.45,
+      "y": 10.8,
       "shape": "circle",
       "dependencies": [
         "275A6C5D956F1A2E"
@@ -703,7 +728,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "230C16397F23E15A",
@@ -711,8 +737,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:item_storage_cell_256k",
-      "x": 8.0,
-      "y": 9.0,
+      "x": -8.0,
+      "y": 10.8,
       "shape": "hexagon",
       "dependencies": [
         "10C6F9866E87593A"
@@ -738,7 +764,8 @@
           "item": "minecraft:quartz",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "1F805BC6BD1AD092",
@@ -748,9 +775,9 @@
         "Smart cable shows occupied channels. Plan controller faces and trunks before hiding the cabling inside walls."
       ],
       "icon": "ae2:controller",
-      "x": 0.0,
-      "y": 12.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 13.15,
+      "shape": "rsquare",
       "dependencies": [
         "309DD644DC97FFAB"
       ],
@@ -769,7 +796,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "0721A721D2B285FB",
@@ -777,8 +805,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:fluix_smart_cable",
-      "x": 2.0,
-      "y": 12.0,
+      "x": -3.35,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "1F805BC6BD1AD092"
@@ -792,7 +820,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6ED53993E3AB0F3F",
@@ -800,8 +829,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:fluix_smart_dense_cable",
-      "x": 4.0,
-      "y": 12.0,
+      "x": -4.9,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "0721A721D2B285FB"
@@ -815,7 +844,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "05ED4C76D42D5A7F",
@@ -823,8 +853,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:energy_cell",
-      "x": 6.0,
-      "y": 12.0,
+      "x": -6.45,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "6ED53993E3AB0F3F"
@@ -844,7 +874,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "7D4CD081D2BDE615",
@@ -852,8 +883,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:dense_energy_cell",
-      "x": 8.0,
-      "y": 12.0,
+      "x": -8.0,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "05ED4C76D42D5A7F"
@@ -867,7 +898,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "38482F87DF362692",
@@ -875,8 +907,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:network_tool",
-      "x": 10.0,
-      "y": 12.0,
+      "x": -9.55,
+      "y": 13.15,
       "shape": "hexagon",
       "dependencies": [
         "7D4CD081D2BDE615"
@@ -902,7 +934,8 @@
           "item": "minecraft:iron_ingot",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "46DD4E8E7B4EC260",
@@ -912,9 +945,9 @@
         "Use an export bus for supplies and an import bus for results. Level emitters can shut down production once stock is sufficient."
       ],
       "icon": "ae2:import_bus",
-      "x": 0.0,
-      "y": 15.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 21.75,
+      "shape": "rsquare",
       "dependencies": [
         "507AD8E89E851FFC"
       ],
@@ -933,7 +966,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "071D2CB0D74DDE28",
@@ -941,8 +975,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:export_bus",
-      "x": 2.0,
-      "y": 15.0,
+      "x": -3.35,
+      "y": 21.75,
       "shape": "circle",
       "dependencies": [
         "46DD4E8E7B4EC260"
@@ -956,7 +990,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2EA9393D75A6771F",
@@ -964,8 +999,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:storage_bus",
-      "x": 4.0,
-      "y": 15.0,
+      "x": -4.9,
+      "y": 21.75,
       "shape": "circle",
       "dependencies": [
         "071D2CB0D74DDE28"
@@ -979,7 +1014,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7B2CD4CCD3EE5548",
@@ -987,8 +1023,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:level_emitter",
-      "x": 6.0,
-      "y": 15.0,
+      "x": -6.45,
+      "y": 21.75,
       "shape": "circle",
       "dependencies": [
         "2EA9393D75A6771F"
@@ -1008,7 +1044,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "699F60B0D884B282",
@@ -1016,8 +1053,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:redstone_card",
-      "x": 8.0,
-      "y": 15.0,
+      "x": -8.0,
+      "y": 21.75,
       "shape": "circle",
       "dependencies": [
         "7B2CD4CCD3EE5548"
@@ -1031,7 +1068,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "78B23E222CB967E8",
@@ -1039,8 +1077,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:capacity_card",
-      "x": 10.0,
-      "y": 15.0,
+      "x": -9.55,
+      "y": 21.75,
       "shape": "circle",
       "dependencies": [
         "699F60B0D884B282"
@@ -1054,7 +1092,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "388D3DB392C12E9F",
@@ -1062,8 +1101,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:speed_card",
-      "x": 12.0,
-      "y": 15.0,
+      "x": -9.55,
+      "y": 23.3,
       "shape": "hexagon",
       "dependencies": [
         "78B23E222CB967E8"
@@ -1089,7 +1128,8 @@
           "item": "minecraft:redstone",
           "count": 16
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "2ECB647E9F0EA5F7",
@@ -1099,9 +1139,9 @@
         "Encode a small recipe first and request it from the terminal. Processing patterns must match what the connected machine actually returns."
       ],
       "icon": "ae2:blank_pattern",
-      "x": 0.0,
-      "y": 18.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 29.55,
+      "shape": "rsquare",
       "dependencies": [
         "7017062DE47694E7"
       ],
@@ -1120,7 +1160,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "7EC1FBC074C0360F",
@@ -1128,8 +1169,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:pattern_encoding_terminal",
-      "x": 2.0,
-      "y": 18.0,
+      "x": -3.35,
+      "y": 29.55,
       "shape": "circle",
       "dependencies": [
         "2ECB647E9F0EA5F7"
@@ -1143,7 +1184,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "72C2C42FD430FE87",
@@ -1151,8 +1193,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:pattern_provider",
-      "x": 4.0,
-      "y": 18.0,
+      "x": -4.9,
+      "y": 29.55,
       "shape": "circle",
       "dependencies": [
         "7EC1FBC074C0360F"
@@ -1166,7 +1208,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1C5E6B03EC5F0834",
@@ -1174,8 +1217,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:molecular_assembler",
-      "x": 6.0,
-      "y": 18.0,
+      "x": -6.45,
+      "y": 29.55,
       "shape": "circle",
       "dependencies": [
         "72C2C42FD430FE87"
@@ -1195,7 +1238,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "13973C5782183D99",
@@ -1203,8 +1247,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:crafting_unit",
-      "x": 8.0,
-      "y": 18.0,
+      "x": -8.0,
+      "y": 29.55,
       "shape": "circle",
       "dependencies": [
         "1C5E6B03EC5F0834"
@@ -1218,7 +1262,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0F10587AD9E4DB32",
@@ -1226,8 +1271,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:1k_crafting_storage",
-      "x": 10.0,
-      "y": 18.0,
+      "x": -9.55,
+      "y": 29.55,
       "shape": "circle",
       "dependencies": [
         "13973C5782183D99"
@@ -1241,7 +1286,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4D4A8EE9DF651EE8",
@@ -1249,8 +1295,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:crafting_accelerator",
-      "x": 12.0,
-      "y": 18.0,
+      "x": -9.55,
+      "y": 31.1,
       "shape": "circle",
       "dependencies": [
         "0F10587AD9E4DB32"
@@ -1270,7 +1316,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "2BCF7F96371F53E5",
@@ -1278,8 +1325,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:crafting_monitor",
-      "x": 14.0,
-      "y": 18.0,
+      "x": -8.0,
+      "y": 31.1,
       "shape": "hexagon",
       "dependencies": [
         "4D4A8EE9DF651EE8"
@@ -1305,7 +1352,8 @@
           "item": "minecraft:gold_ingot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "607EF4209BF1817C",
@@ -1315,9 +1363,9 @@
         "Crafting storage limits job size; co-processors allow parallel work. Keep machine outputs from feeding back into their inputs."
       ],
       "icon": "ae2:4k_crafting_storage",
-      "x": 0.0,
-      "y": 21.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 33.45,
+      "shape": "rsquare",
       "dependencies": [
         "0F10587AD9E4DB32"
       ],
@@ -1336,7 +1384,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "4E4A5E22B92521CD",
@@ -1344,8 +1393,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:16k_crafting_storage",
-      "x": 2.0,
-      "y": 21.0,
+      "x": -3.35,
+      "y": 33.45,
       "shape": "circle",
       "dependencies": [
         "607EF4209BF1817C"
@@ -1359,7 +1408,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "579597940C6F17AF",
@@ -1367,8 +1417,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:64k_crafting_storage",
-      "x": 4.0,
-      "y": 21.0,
+      "x": -4.9,
+      "y": 33.45,
       "shape": "circle",
       "dependencies": [
         "4E4A5E22B92521CD"
@@ -1382,7 +1432,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "47744EA8B6257F2F",
@@ -1390,8 +1441,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:256k_crafting_storage",
-      "x": 6.0,
-      "y": 21.0,
+      "x": -6.45,
+      "y": 33.45,
       "shape": "circle",
       "dependencies": [
         "579597940C6F17AF"
@@ -1411,7 +1462,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "00DBD47B3BB540F3",
@@ -1419,8 +1471,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:pattern_access_terminal",
-      "x": 8.0,
-      "y": 21.0,
+      "x": -8.0,
+      "y": 33.45,
       "shape": "circle",
       "dependencies": [
         "47744EA8B6257F2F"
@@ -1434,7 +1486,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "27DFEFD432C1C914",
@@ -1442,8 +1495,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:interface",
-      "x": 10.0,
-      "y": 21.0,
+      "x": -9.55,
+      "y": 33.45,
       "shape": "circle",
       "dependencies": [
         "00DBD47B3BB540F3"
@@ -1457,7 +1510,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0A3885C58A522072",
@@ -1465,8 +1519,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:crafting_card",
-      "x": 12.0,
-      "y": 21.0,
+      "x": -9.55,
+      "y": 35.0,
       "shape": "hexagon",
       "dependencies": [
         "27DFEFD432C1C914"
@@ -1492,7 +1546,8 @@
           "item": "minecraft:quartz",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "0EB8F191DA7C88C4",
@@ -1502,9 +1557,9 @@
         "Fluid cells handle tanks without item containers. Test wireless range before removing the terminal near your machines."
       ],
       "icon": "ae2:fluid_storage_cell_1k",
-      "x": 0.0,
-      "y": 24.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 25.65,
+      "shape": "rsquare",
       "dependencies": [
         "2EA9393D75A6771F"
       ],
@@ -1523,7 +1578,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "7284BD6DE7EABBAF",
@@ -1531,8 +1587,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:fluid_storage_cell_4k",
-      "x": 2.0,
-      "y": 24.0,
+      "x": -3.35,
+      "y": 25.65,
       "shape": "circle",
       "dependencies": [
         "0EB8F191DA7C88C4"
@@ -1546,7 +1602,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3DD356B5B3145C34",
@@ -1554,8 +1611,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:fluid_storage_cell_16k",
-      "x": 4.0,
-      "y": 24.0,
+      "x": -4.9,
+      "y": 25.65,
       "shape": "circle",
       "dependencies": [
         "7284BD6DE7EABBAF"
@@ -1569,7 +1626,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1170B3B8AAF32553",
@@ -1577,8 +1635,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:wireless_access_point",
-      "x": 6.0,
-      "y": 24.0,
+      "x": -6.45,
+      "y": 25.65,
       "shape": "circle",
       "dependencies": [
         "3DD356B5B3145C34"
@@ -1598,7 +1656,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "75DE5B9BF769F719",
@@ -1606,8 +1665,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:wireless_receiver",
-      "x": 8.0,
-      "y": 24.0,
+      "x": -8.0,
+      "y": 25.65,
       "shape": "circle",
       "dependencies": [
         "1170B3B8AAF32553"
@@ -1621,7 +1680,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7DA2A8FF86870923",
@@ -1629,8 +1689,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:wireless_terminal",
-      "x": 10.0,
-      "y": 24.0,
+      "x": -9.55,
+      "y": 25.65,
       "shape": "circle",
       "dependencies": [
         "75DE5B9BF769F719"
@@ -1644,7 +1704,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5982A7047C47F295",
@@ -1652,8 +1713,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:wireless_crafting_terminal",
-      "x": 12.0,
-      "y": 24.0,
+      "x": -9.55,
+      "y": 27.2,
       "shape": "hexagon",
       "dependencies": [
         "7DA2A8FF86870923"
@@ -1679,7 +1740,8 @@
           "item": "minecraft:iron_ingot",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "0D6293691578A0BA",
@@ -1689,9 +1751,9 @@
         "Pair endpoints carefully and keep remote networks powered. Quantum connections are a late-stage answer to distant infrastructure."
       ],
       "icon": "ae2:me_p2p_tunnel",
-      "x": 0.0,
-      "y": 27.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 15.5,
+      "shape": "rsquare",
       "dependencies": [
         "1F805BC6BD1AD092"
       ],
@@ -1710,7 +1772,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "20064FC49B57EEBC",
@@ -1718,8 +1781,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:memory_card",
-      "x": 2.0,
-      "y": 27.0,
+      "x": -3.35,
+      "y": 15.5,
       "shape": "circle",
       "dependencies": [
         "0D6293691578A0BA"
@@ -1733,7 +1796,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "701724B3F8EB09A7",
@@ -1741,8 +1805,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:quantum_ring",
-      "x": 4.0,
-      "y": 27.0,
+      "x": -4.9,
+      "y": 15.5,
       "shape": "circle",
       "dependencies": [
         "20064FC49B57EEBC"
@@ -1756,7 +1820,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "25561B3F575CAAE8",
@@ -1764,8 +1829,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:quantum_link",
-      "x": 6.0,
-      "y": 27.0,
+      "x": -6.45,
+      "y": 15.5,
       "shape": "circle",
       "dependencies": [
         "701724B3F8EB09A7"
@@ -1785,7 +1850,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "12E14964358E8242",
@@ -1793,8 +1859,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:condenser",
-      "x": 8.0,
-      "y": 27.0,
+      "x": -8.0,
+      "y": 15.5,
       "shape": "circle",
       "dependencies": [
         "25561B3F575CAAE8"
@@ -1808,7 +1874,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "68FCB737F5511104",
@@ -1816,8 +1883,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:singularity",
-      "x": 10.0,
-      "y": 27.0,
+      "x": -9.55,
+      "y": 15.5,
       "shape": "circle",
       "dependencies": [
         "12E14964358E8242"
@@ -1831,7 +1898,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4587DEA45B620375",
@@ -1839,8 +1907,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:quantum_entangled_singularity",
-      "x": 12.0,
-      "y": 27.0,
+      "x": -9.55,
+      "y": 17.05,
       "shape": "hexagon",
       "dependencies": [
         "68FCB737F5511104"
@@ -1866,7 +1934,8 @@
           "item": "minecraft:redstone",
           "count": 16
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "79365C718CECF4C9",
@@ -1876,9 +1945,9 @@
         "Test spatial storage with a small empty chamber. Keep a clear boundary and remove anything you cannot afford to move."
       ],
       "icon": "ae2:spatial_pylon",
-      "x": 0.0,
-      "y": 30.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 19.4,
+      "shape": "rsquare",
       "dependencies": [
         "701724B3F8EB09A7"
       ],
@@ -1897,7 +1966,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "500C59E85295BD19",
@@ -1905,8 +1975,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:spatial_io_port",
-      "x": 2.0,
-      "y": 30.0,
+      "x": -3.35,
+      "y": 19.4,
       "shape": "circle",
       "dependencies": [
         "79365C718CECF4C9"
@@ -1920,7 +1990,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7161F4040562B3C8",
@@ -1928,8 +1999,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:spatial_cell_component_2",
-      "x": 4.0,
-      "y": 30.0,
+      "x": -4.9,
+      "y": 19.4,
       "shape": "circle",
       "dependencies": [
         "500C59E85295BD19"
@@ -1943,7 +2014,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6381BA58DD049245",
@@ -1951,8 +2023,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:spatial_storage_cell_2",
-      "x": 6.0,
-      "y": 30.0,
+      "x": -6.45,
+      "y": 19.4,
       "shape": "circle",
       "dependencies": [
         "7161F4040562B3C8"
@@ -1972,7 +2044,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "779CE38C79F3B8A7",
@@ -1980,8 +2053,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:spatial_storage_cell_16",
-      "x": 8.0,
-      "y": 30.0,
+      "x": -8.0,
+      "y": 19.4,
       "shape": "circle",
       "dependencies": [
         "6381BA58DD049245"
@@ -1995,7 +2068,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0432F44ADC230D05",
@@ -2003,8 +2077,8 @@
       "subtitle": "",
       "description": [],
       "icon": "ae2:spatial_storage_cell_128",
-      "x": 10.0,
-      "y": 30.0,
+      "x": -9.55,
+      "y": 19.4,
       "shape": "hexagon",
       "dependencies": [
         "779CE38C79F3B8A7"
@@ -2030,8 +2104,133 @@
           "item": "minecraft:gold_ingot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
+    },
+    {
+      "id": "4686B860413340F0",
+      "title": "A Network With Room to Grow",
+      "description": [
+        "Bring several devices online together and read the channels on a smart cable. Leave spare channels on the trunk for your next workshop."
+      ],
+      "icon": "ae2:fluix_smart_cable",
+      "dependencies": [
+        "1F805BC6BD1AD092",
+        "0721A721D2B285FB"
+      ],
+      "tasks": [
+        {
+          "id": "1830374D581D0E2B",
+          "type": "advancement",
+          "advancement": "ae2:main/network2"
+        }
+      ],
+      "optional": true,
+      "rewards": [
+        {
+          "id": "026AFBF374982911",
+          "type": "item",
+          "item": "ae2:fluix_glass_cable",
+          "count": 16
+        },
+        {
+          "id": "6B0AF4927F558DA1",
+          "type": "xp",
+          "xp": 40
+        }
+      ],
+      "x": -3.1,
+      "y": 37.6,
+      "shape": "diamond",
+      "size": 1.42
+    },
+    {
+      "id": "48B9E41E5C8E3049",
+      "title": "The Pattern Library",
+      "description": [
+        "Encode a crafting pattern and a processing pattern. Request each from a terminal and check that both jobs finish without manual transfers."
+      ],
+      "icon": "ae2:crafting_monitor",
+      "dependencies": [
+        "72C2C42FD430FE87",
+        "1C5E6B03EC5F0834",
+        "0F10587AD9E4DB32"
+      ],
+      "tasks": [
+        {
+          "id": "3669688D0FCDA929",
+          "type": "checkmark",
+          "title": "Complete the build"
+        }
+      ],
+      "optional": true,
+      "rewards": [
+        {
+          "id": "26A354A03CA72B4A",
+          "type": "item",
+          "item": "ae2:blank_pattern",
+          "count": 8
+        },
+        {
+          "id": "5B4C860CAED06C2C",
+          "type": "xp",
+          "xp": 40
+        }
+      ],
+      "x": 0.0,
+      "y": 37.6,
+      "shape": "diamond",
+      "size": 1.42
+    },
+    {
+      "id": "54FB257E10A106A2",
+      "title": "A Room in a Cell",
+      "description": [
+        "Use a small empty test chamber to learn spatial transfer. Align the pylons and bring enough power to bring the room back."
+      ],
+      "icon": "ae2:spatial_io_port",
+      "dependencies": [
+        "79365C718CECF4C9",
+        "500C59E85295BD19",
+        "6381BA58DD049245"
+      ],
+      "tasks": [
+        {
+          "id": "2BFF44699AEF81C7",
+          "type": "advancement",
+          "advancement": "ae2:main/spatial_explorer"
+        }
+      ],
+      "optional": true,
+      "rewards": [
+        {
+          "id": "744A71DA0E8E8866",
+          "type": "item",
+          "item": "ae2:fluix_crystal",
+          "count": 16
+        },
+        {
+          "id": "136640533B5A5E30",
+          "type": "xp",
+          "xp": 40
+        }
+      ],
+      "x": 3.1,
+      "y": 37.6,
+      "shape": "diamond",
+      "size": 1.42
     }
   ],
-  "filename": "wc_applied_energistics"
+  "icon": "ae2:meteorite_compass",
+  "autofocus_id": "7F302829125715E4",
+  "filename": "wc_applied_energistics",
+  "images": [
+    {
+      "x": 0,
+      "y": -2.65,
+      "width": 7.8,
+      "height": 1.3,
+      "image": "wombatcraft:textures/questbook/network.png"
+    }
+  ]
 }

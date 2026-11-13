@@ -1,0 +1,13 @@
+[Unit]
+Description=Wombatcraft public Minecraft listener
+After=network-online.target fivem-wg.service
+Wants=network-online.target
+
+[Socket]
+ListenStream=74.208.117.88:25565
+FreeBind=yes
+NoDelay=yes
+KeepAlive=yes
+
+[Install]
+WantedBy=sockets.target

@@ -13,9 +13,9 @@
         "The crucible follows ordered additions. Read the whole mixture before starting and keep its ingredients ready."
       ],
       "icon": "eidolon:codex",
-      "x": 0.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -4.12,
+      "y": 0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -32,7 +32,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.5
     },
     {
       "id": "4BBEBDCE3688CA48",
@@ -40,9 +41,9 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:pewter_blend",
-      "x": 2.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -2.47,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "486A57687783AC2D"
       ],
@@ -55,7 +56,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "2269E96CFF5C3C68",
@@ -63,9 +65,9 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:pewter_ingot",
-      "x": 4.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "4BBEBDCE3688CA48"
       ],
@@ -78,7 +80,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "612FE7554D0600DD",
@@ -86,9 +89,9 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:crucible",
-      "x": 6.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "2269E96CFF5C3C68"
       ],
@@ -107,7 +110,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "2A5F8DC79D6C2877",
@@ -115,9 +119,9 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:worktable",
-      "x": 8.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 2.47,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "612FE7554D0600DD"
       ],
@@ -130,7 +134,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "77A4A66967CB86BA",
@@ -138,9 +143,9 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:enchanted_ash",
-      "x": 10.0,
-      "y": 0.0,
-      "shape": "hexagon",
+      "x": 4.12,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "2A5F8DC79D6C2877"
       ],
@@ -165,7 +170,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "3B6A29A364994D88",
@@ -175,9 +181,9 @@
         "Build an altar with room for offerings. Follow the codex's rites as your understanding grows."
       ],
       "icon": "eidolon:wooden_altar",
-      "x": 0.0,
+      "x": -1.8,
       "y": 3.0,
-      "shape": "circle",
+      "shape": "rsquare",
       "dependencies": [
         "2A5F8DC79D6C2877"
       ],
@@ -196,7 +202,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "7A38E5D53AD87532",
@@ -204,7 +211,7 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:plinth",
-      "x": 2.0,
+      "x": -3.35,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -219,7 +226,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "047B9AC256EE2EEC",
@@ -227,7 +235,7 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:brazier",
-      "x": 4.0,
+      "x": -4.9,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -242,7 +250,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0A985FF8F5DDE842",
@@ -250,7 +259,7 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:candle",
-      "x": 6.0,
+      "x": -6.45,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -271,7 +280,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "080FF0D8D6CF36A4",
@@ -279,7 +289,7 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:goblet",
-      "x": 8.0,
+      "x": -8.0,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -294,7 +304,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2684038A22948A8B",
@@ -302,7 +313,7 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:unholy_symbol",
-      "x": 10.0,
+      "x": -9.55,
       "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
@@ -329,7 +340,8 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "4EC8555C4177C072",
@@ -339,9 +351,9 @@
         "Research turns discoveries into new work. Keep notes beside the table rather than scattering them through storage."
       ],
       "icon": "eidolon:parchment",
-      "x": 0.0,
-      "y": 6.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 3.0,
+      "shape": "rsquare",
       "dependencies": [
         "77A4A66967CB86BA"
       ],
@@ -360,7 +372,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "5F88A80D25D7DD3B",
@@ -368,8 +381,8 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:magic_ink",
-      "x": 2.0,
-      "y": 6.0,
+      "x": 3.35,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "4EC8555C4177C072"
@@ -383,7 +396,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "278D1CCCCEB299AB",
@@ -391,8 +405,8 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:notetaking_tools",
-      "x": 4.0,
-      "y": 6.0,
+      "x": 4.9,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "5F88A80D25D7DD3B"
@@ -406,7 +420,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1F74C45DC3B0E926",
@@ -414,8 +429,8 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:research_table",
-      "x": 6.0,
-      "y": 6.0,
+      "x": 6.45,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "278D1CCCCEB299AB"
@@ -435,7 +450,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "3508C8192C2005D3",
@@ -444,7 +460,7 @@
       "description": [],
       "icon": "eidolon:research_notes",
       "x": 8.0,
-      "y": 6.0,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "1F74C45DC3B0E926"
@@ -458,7 +474,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "77CD81D31D413CFA",
@@ -466,8 +483,8 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:scriptorium",
-      "x": 10.0,
-      "y": 6.0,
+      "x": 9.55,
+      "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
         "3508C8192C2005D3"
@@ -493,7 +510,8 @@
           "item": "minecraft:amethyst_shard",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "5958F0CB820F6AAD",
@@ -503,9 +521,9 @@
         "Prepare soul materials for the enchanter. Check the required arrangement before committing valuable equipment."
       ],
       "icon": "eidolon:soul_shard",
-      "x": 0.0,
-      "y": 9.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 5.35,
+      "shape": "rsquare",
       "dependencies": [
         "612FE7554D0600DD"
       ],
@@ -524,7 +542,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "2E0693B89AD0CDCA",
@@ -532,8 +551,8 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:lesser_soul_gem",
-      "x": 2.0,
-      "y": 9.0,
+      "x": -3.35,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "5958F0CB820F6AAD"
@@ -547,7 +566,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1AD4A5A68DBD72E4",
@@ -555,8 +575,8 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:soul_enchanter",
-      "x": 4.0,
-      "y": 9.0,
+      "x": -4.9,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "2E0693B89AD0CDCA"
@@ -570,7 +590,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5295295B27802FC4",
@@ -578,8 +599,8 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:arcane_gold_ingot",
-      "x": 6.0,
-      "y": 9.0,
+      "x": -6.45,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "1AD4A5A68DBD72E4"
@@ -599,7 +620,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "7997455BC009C940",
@@ -607,8 +629,8 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:shadow_gem",
-      "x": 8.0,
-      "y": 9.0,
+      "x": -8.0,
+      "y": 5.35,
       "shape": "hexagon",
       "dependencies": [
         "5295295B27802FC4"
@@ -634,7 +656,8 @@
           "item": "minecraft:golden_carrot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "46763AD49E2FC14A",
@@ -644,9 +667,9 @@
         "Weave protection before seeking dangerous relics. Test unfamiliar weapons away from your companions."
       ],
       "icon": "eidolon:wicked_weave",
-      "x": 0.0,
-      "y": 12.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 7.7,
+      "shape": "rsquare",
       "dependencies": [
         "5295295B27802FC4"
       ],
@@ -665,7 +688,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "513E79E57B1CE24D",
@@ -673,8 +697,8 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:warlock_hat",
-      "x": 2.0,
-      "y": 12.0,
+      "x": -3.35,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "46763AD49E2FC14A"
@@ -688,7 +712,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "118CF14477A03D6C",
@@ -696,8 +721,8 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:warlock_cloak",
-      "x": 4.0,
-      "y": 12.0,
+      "x": -4.9,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "513E79E57B1CE24D"
@@ -711,7 +736,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6A34C9D46640C4E7",
@@ -719,8 +745,8 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:warlock_boots",
-      "x": 6.0,
-      "y": 12.0,
+      "x": -6.45,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "118CF14477A03D6C"
@@ -740,7 +766,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "0A7C3EF4EEDCEFB7",
@@ -748,8 +775,8 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:bonechill_wand",
-      "x": 8.0,
-      "y": 12.0,
+      "x": -8.0,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "6A34C9D46640C4E7"
@@ -763,7 +790,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "53F5488032DA8B4D",
@@ -771,8 +799,8 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:soulfire_wand",
-      "x": 10.0,
-      "y": 12.0,
+      "x": -9.55,
+      "y": 7.7,
       "shape": "hexagon",
       "dependencies": [
         "0A7C3EF4EEDCEFB7"
@@ -798,7 +826,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "26D73139EEFA8379",
@@ -808,9 +837,9 @@
         "Choose relics that complement the journey. Keep a trusted return route when exploring beyond familiar ground."
       ],
       "icon": "eidolon:basic_ring",
-      "x": 0.0,
-      "y": 15.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 10.05,
+      "shape": "rsquare",
       "dependencies": [
         "7997455BC009C940"
       ],
@@ -829,7 +858,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "0836220BEFF5D6D9",
@@ -837,8 +867,8 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:basic_belt",
-      "x": 2.0,
-      "y": 15.0,
+      "x": -3.35,
+      "y": 10.05,
       "shape": "circle",
       "dependencies": [
         "26D73139EEFA8379"
@@ -852,7 +882,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "285B1DB2CA8A4880",
@@ -860,8 +891,8 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:basic_amulet",
-      "x": 4.0,
-      "y": 15.0,
+      "x": -4.9,
+      "y": 10.05,
       "shape": "circle",
       "dependencies": [
         "0836220BEFF5D6D9"
@@ -875,7 +906,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5ED9A6FBBEF4DF0F",
@@ -883,8 +915,8 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:sanguine_amulet",
-      "x": 6.0,
-      "y": 15.0,
+      "x": -6.45,
+      "y": 10.05,
       "shape": "circle",
       "dependencies": [
         "285B1DB2CA8A4880"
@@ -904,7 +936,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "69C537CE94937E63",
@@ -912,8 +945,8 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:gravity_belt",
-      "x": 8.0,
-      "y": 15.0,
+      "x": -8.0,
+      "y": 10.05,
       "shape": "circle",
       "dependencies": [
         "5ED9A6FBBEF4DF0F"
@@ -927,7 +960,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5DDD4F6E7C00597A",
@@ -935,8 +969,8 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:raven_cloak",
-      "x": 10.0,
-      "y": 15.0,
+      "x": -9.55,
+      "y": 10.05,
       "shape": "circle",
       "dependencies": [
         "69C537CE94937E63"
@@ -950,7 +984,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4A5C73EF81BA9B5B",
@@ -958,8 +993,8 @@
       "subtitle": "",
       "description": [],
       "icon": "eidolon:terminus_mirror",
-      "x": 12.0,
-      "y": 15.0,
+      "x": -9.55,
+      "y": 11.6,
       "shape": "hexagon",
       "dependencies": [
         "5DDD4F6E7C00597A"
@@ -985,8 +1020,11 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     }
   ],
+  "icon": "eidolon:codex",
+  "autofocus_id": "486A57687783AC2D",
   "filename": "wc_eidolon"
 }

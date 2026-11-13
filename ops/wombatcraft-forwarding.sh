@@ -21,7 +21,8 @@ trap remove ERR
 "$ipt" -N WOMBATCRAFT
 "$ipt" -t nat -N WOMBATCRAFT_IN
 "$ipt" -t nat -N WOMBATCRAFT_OUT
-for spec in tcp:25565 udp:24454; do
+# The socket-activated relay handles Minecraft TCP. Keep the UDP voice route.
+for spec in udp:24454; do
  proto=${spec%:*}; port=${spec#*:}
  "$ipt" -A WOMBATCRAFT -i ens6 -o wg-fivem -d 10.77.5.2/32 -p "$proto" --dport "$port" -j ACCEPT
  "$ipt" -A WOMBATCRAFT -i wg-fivem -o ens6 -s 10.77.5.2/32 -p "$proto" --sport "$port" -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT

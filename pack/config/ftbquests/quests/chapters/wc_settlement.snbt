@@ -13,9 +13,9 @@
         "Choose land with room to expand. Preview the town hall and builder's hut carefully; the builder needs materials and tools to begin."
       ],
       "icon": "minecolonies:supplycampdeployer",
-      "x": 0.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -4.95,
+      "y": 0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -32,7 +32,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.5
     },
     {
       "id": "70A5ADAFDB7915D1",
@@ -40,9 +41,9 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhuttownhall",
-      "x": 2.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -3.3,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "518C1324D22872F6"
       ],
@@ -55,7 +56,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "5FE6C4B9126DE991",
@@ -63,9 +65,9 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutbuilder",
-      "x": 4.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -1.65,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "70A5ADAFDB7915D1"
       ],
@@ -78,7 +80,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "150039707E6189AB",
@@ -86,9 +89,9 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:build_goggles",
-      "x": 6.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 0.0,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "5FE6C4B9126DE991"
       ],
@@ -107,7 +110,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "231432BDF00EE7DD",
@@ -115,9 +119,9 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:resourcescroll",
-      "x": 8.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 1.65,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "150039707E6189AB"
       ],
@@ -130,7 +134,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "31BB53F9027E2B51",
@@ -138,9 +143,9 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhuttavern",
-      "x": 10.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 3.3,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "231432BDF00EE7DD"
       ],
@@ -153,7 +158,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "4B95E1879782BD17",
@@ -161,9 +167,9 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutcitizen",
-      "x": 12.0,
-      "y": 0.0,
-      "shape": "hexagon",
+      "x": 4.95,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "31BB53F9027E2B51"
       ],
@@ -188,7 +194,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "5673FB720BD4355E",
@@ -198,9 +205,9 @@
         "A colony needs food, tools and raw materials before monuments. Keep workers supplied and watch their requests."
       ],
       "icon": "minecolonies:blockhutlumberjack",
-      "x": 0.0,
+      "x": -1.8,
       "y": 3.0,
-      "shape": "circle",
+      "shape": "rsquare",
       "dependencies": [
         "5FE6C4B9126DE991"
       ],
@@ -219,7 +226,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "0C60F534B9D71A2E",
@@ -227,7 +235,7 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutminer",
-      "x": 2.0,
+      "x": -3.35,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -242,7 +250,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7259915F3CC6692E",
@@ -250,7 +259,7 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutfisherman",
-      "x": 4.0,
+      "x": -4.9,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -265,7 +274,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "17D75C76CA68BB63",
@@ -273,7 +283,7 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutfarmer",
-      "x": 6.0,
+      "x": -6.45,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -294,7 +304,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "01FB9BA79B221B9B",
@@ -302,7 +313,7 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutfield",
-      "x": 8.0,
+      "x": -8.0,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -317,7 +328,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "09D97766243C7FD0",
@@ -325,7 +337,7 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutcook",
-      "x": 10.0,
+      "x": -9.55,
       "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
@@ -352,7 +364,8 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "366AC06CCCE8005C",
@@ -362,9 +375,9 @@
         "Couriers connect workers to the warehouse. Keep routes walkable and storage organised as the settlement grows."
       ],
       "icon": "minecolonies:blockhutwarehouse",
-      "x": 0.0,
-      "y": 6.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 3.0,
+      "shape": "rsquare",
       "dependencies": [
         "31BB53F9027E2B51"
       ],
@@ -383,7 +396,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "4A8271D86745EDE5",
@@ -391,8 +405,8 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutdeliveryman",
-      "x": 2.0,
-      "y": 6.0,
+      "x": 3.35,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "366AC06CCCE8005C"
@@ -406,7 +420,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "68763CF654C3B71D",
@@ -414,8 +429,8 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockminecoloniesrack",
-      "x": 4.0,
-      "y": 6.0,
+      "x": 4.9,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "4A8271D86745EDE5"
@@ -429,7 +444,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1C3462DDC5B51787",
@@ -437,8 +453,8 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:clipboard",
-      "x": 6.0,
-      "y": 6.0,
+      "x": 6.45,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "68763CF654C3B71D"
@@ -458,7 +474,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "19E3599280388927",
@@ -467,7 +484,7 @@
       "description": [],
       "icon": "minecolonies:blockpostbox",
       "x": 8.0,
-      "y": 6.0,
+      "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
         "1C3462DDC5B51787"
@@ -493,7 +510,8 @@
           "item": "minecraft:amethyst_shard",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "77CD6D4010151EF8",
@@ -503,9 +521,9 @@
         "Add workshops that solve recurring requests. Teach useful recipes and ensure their ingredients reach the right worker."
       ],
       "icon": "minecolonies:blockhutsawmill",
-      "x": 0.0,
-      "y": 9.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 5.35,
+      "shape": "rsquare",
       "dependencies": [
         "366AC06CCCE8005C"
       ],
@@ -524,7 +542,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "12EE7A572A42977D",
@@ -532,8 +551,8 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutstonemason",
-      "x": 2.0,
-      "y": 9.0,
+      "x": 3.35,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "77CD6D4010151EF8"
@@ -547,7 +566,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3F258AA4AE4EAB85",
@@ -555,8 +575,8 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutsmeltery",
-      "x": 4.0,
-      "y": 9.0,
+      "x": 4.9,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "12EE7A572A42977D"
@@ -570,7 +590,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "15C4398797AB414F",
@@ -578,8 +599,8 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutblacksmith",
-      "x": 6.0,
-      "y": 9.0,
+      "x": 6.45,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "3F258AA4AE4EAB85"
@@ -599,7 +620,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "41D4A9F49BDB7DAA",
@@ -608,7 +630,7 @@
       "description": [],
       "icon": "minecolonies:blockhutmechanic",
       "x": 8.0,
-      "y": 9.0,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "15C4398797AB414F"
@@ -622,7 +644,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7CEE78A3F7FDB817",
@@ -630,8 +653,8 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutglassblower",
-      "x": 10.0,
-      "y": 9.0,
+      "x": 9.55,
+      "y": 5.35,
       "shape": "hexagon",
       "dependencies": [
         "41D4A9F49BDB7DAA"
@@ -657,7 +680,8 @@
           "item": "minecraft:golden_carrot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "511B0CE7148A6387",
@@ -667,9 +691,9 @@
         "Research and education strengthen a mature colony. Provide care as well as production when welcoming more citizens."
       ],
       "icon": "minecolonies:blockhutuniversity",
-      "x": 0.0,
-      "y": 12.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 7.7,
+      "shape": "rsquare",
       "dependencies": [
         "4B95E1879782BD17"
       ],
@@ -688,7 +712,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "6FF6B50553680EC7",
@@ -696,8 +721,8 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutschool",
-      "x": 2.0,
-      "y": 12.0,
+      "x": 3.35,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "511B0CE7148A6387"
@@ -711,7 +736,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4ADE08F1108B8E11",
@@ -719,8 +745,8 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutlibrary",
-      "x": 4.0,
-      "y": 12.0,
+      "x": 4.9,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "6FF6B50553680EC7"
@@ -734,7 +760,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7758493B75156E98",
@@ -742,8 +769,8 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhuthospital",
-      "x": 6.0,
-      "y": 12.0,
+      "x": 6.45,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "4ADE08F1108B8E11"
@@ -763,7 +790,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "234A4491BDD28A25",
@@ -772,7 +800,7 @@
       "description": [],
       "icon": "minecolonies:blockhutalchemist",
       "x": 8.0,
-      "y": 12.0,
+      "y": 7.7,
       "shape": "hexagon",
       "dependencies": [
         "7758493B75156E98"
@@ -798,7 +826,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "005A191765583618",
@@ -808,9 +837,9 @@
         "Protect the roads and homes before stretching the border. Guards need equipment, food and a defensible route."
       ],
       "icon": "minecolonies:blockhutguardtower",
-      "x": 0.0,
-      "y": 15.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 9.25,
+      "shape": "rsquare",
       "dependencies": [
         "70A5ADAFDB7915D1"
       ],
@@ -829,7 +858,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "5B227730CF483A1A",
@@ -837,8 +867,8 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutarchery",
-      "x": 2.0,
-      "y": 15.0,
+      "x": -3.35,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "005A191765583618"
@@ -852,7 +882,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "625E9A487F58DAF8",
@@ -860,8 +891,8 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutcombatacademy",
-      "x": 4.0,
-      "y": 15.0,
+      "x": -4.9,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "5B227730CF483A1A"
@@ -875,7 +906,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0A052606D45E0E6E",
@@ -883,8 +915,8 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutbarracks",
-      "x": 6.0,
-      "y": 15.0,
+      "x": -6.45,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "625E9A487F58DAF8"
@@ -904,7 +936,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "1E589841A5BB552E",
@@ -912,8 +945,8 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutbarrackstower",
-      "x": 8.0,
-      "y": 15.0,
+      "x": -8.0,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "0A052606D45E0E6E"
@@ -927,7 +960,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3E79060579B70E9D",
@@ -935,8 +969,8 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:scepterguard",
-      "x": 10.0,
-      "y": 15.0,
+      "x": -9.55,
+      "y": 9.25,
       "shape": "hexagon",
       "dependencies": [
         "1E589841A5BB552E"
@@ -962,7 +996,8 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "1F668B280055104C",
@@ -972,9 +1007,9 @@
         "Diversify the food supply and plan pasture space. Keep animal routes and fields clear of construction."
       ],
       "icon": "minecolonies:blockhutbaker",
-      "x": 0.0,
-      "y": 18.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 5.35,
+      "shape": "rsquare",
       "dependencies": [
         "17D75C76CA68BB63"
       ],
@@ -993,7 +1028,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "7782F28B8DB15CC1",
@@ -1001,8 +1037,8 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutkitchen",
-      "x": 2.0,
-      "y": 18.0,
+      "x": -3.35,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "1F668B280055104C"
@@ -1016,7 +1052,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4EA6CD8DAC4953B9",
@@ -1024,8 +1061,8 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutcowboy",
-      "x": 4.0,
-      "y": 18.0,
+      "x": -4.9,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "7782F28B8DB15CC1"
@@ -1039,7 +1076,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3B6AE95341172907",
@@ -1047,8 +1085,8 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutchickenherder",
-      "x": 6.0,
-      "y": 18.0,
+      "x": -6.45,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "4EA6CD8DAC4953B9"
@@ -1068,7 +1106,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "098FA81CB4BF63CA",
@@ -1076,8 +1115,8 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutshepherd",
-      "x": 8.0,
-      "y": 18.0,
+      "x": -8.0,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "3B6AE95341172907"
@@ -1091,7 +1130,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "643B59D5EAC74880",
@@ -1099,8 +1139,8 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutbeekeeper",
-      "x": 10.0,
-      "y": 18.0,
+      "x": -9.55,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "098FA81CB4BF63CA"
@@ -1114,7 +1154,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "486914A0A374B984",
@@ -1122,8 +1163,8 @@
       "subtitle": "",
       "description": [],
       "icon": "minecolonies:blockhutplantation",
-      "x": 12.0,
-      "y": 18.0,
+      "x": -9.55,
+      "y": 6.9,
       "shape": "hexagon",
       "dependencies": [
         "643B59D5EAC74880"
@@ -1149,8 +1190,11 @@
           "item": "minecraft:amethyst_shard",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     }
   ],
+  "icon": "minecolonies:supplycampdeployer",
+  "autofocus_id": "518C1324D22872F6",
   "filename": "wc_settlement"
 }

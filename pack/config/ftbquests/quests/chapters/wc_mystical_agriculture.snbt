@@ -13,9 +13,9 @@
         "Begin with inferium and a protected garden. Keep seed stock separate from crafting materials so each harvest can be planted again."
       ],
       "icon": "mysticalagriculture:prosperity_shard",
-      "x": 0.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -4.12,
+      "y": 0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -32,7 +32,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.5
     },
     {
       "id": "07DC33F13653DAE9",
@@ -40,9 +41,9 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:inferium_essence",
-      "x": 2.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -2.47,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "54F61A6A02A01DDF"
       ],
@@ -55,7 +56,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "5B6734C18DA75EB1",
@@ -63,9 +65,9 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:prosperity_seed_base",
-      "x": 4.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "07DC33F13653DAE9"
       ],
@@ -78,7 +80,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "2F7EE194561646A3",
@@ -86,9 +89,9 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:inferium_seeds",
-      "x": 6.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "5B6734C18DA75EB1"
       ],
@@ -107,7 +110,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "74BE2AF9696161CE",
@@ -115,9 +119,9 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:inferium_farmland",
-      "x": 8.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 2.47,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "2F7EE194561646A3"
       ],
@@ -130,7 +134,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "4CDAA33F96C49365",
@@ -138,9 +143,9 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:watering_can",
-      "x": 10.0,
-      "y": 0.0,
-      "shape": "hexagon",
+      "x": 4.12,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "74BE2AF9696161CE"
       ],
@@ -165,7 +170,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "7A81231CA0A8989F",
@@ -175,9 +181,9 @@
         "Refine essence through its successive tiers. An ordinary infusion crystal wears out; reserve materials for a replacement until a master crystal is within reach."
       ],
       "icon": "mysticalagriculture:infusion_crystal",
-      "x": 0.0,
+      "x": -1.8,
       "y": 3.0,
-      "shape": "circle",
+      "shape": "rsquare",
       "dependencies": [
         "07DC33F13653DAE9"
       ],
@@ -196,7 +202,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "327AA9FD845509C3",
@@ -204,7 +211,7 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:prudentium_essence",
-      "x": 2.0,
+      "x": -3.35,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -219,7 +226,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4DDBD8C840A19181",
@@ -227,7 +235,7 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:tertium_essence",
-      "x": 4.0,
+      "x": -4.9,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -242,7 +250,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "217755ECD6D513F3",
@@ -250,7 +259,7 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:imperium_essence",
-      "x": 6.0,
+      "x": -6.45,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -271,7 +280,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "543E69DC2C62BA61",
@@ -279,7 +289,7 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:supremium_essence",
-      "x": 8.0,
+      "x": -8.0,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -294,7 +304,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "69069A601DE7B436",
@@ -302,7 +313,7 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:master_infusion_crystal",
-      "x": 10.0,
+      "x": -9.55,
       "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
@@ -329,7 +340,8 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "70EDB537D8938B38",
@@ -339,9 +351,9 @@
         "Arrange the pedestals around the altar and match the recipe. Elemental crops form a useful first collection before rarer resources claim the garden."
       ],
       "icon": "mysticalagriculture:infusion_altar",
-      "x": 0.0,
-      "y": 6.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 3.0,
+      "shape": "rsquare",
       "dependencies": [
         "5B6734C18DA75EB1"
       ],
@@ -360,7 +372,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "7C213FE9BEFC673F",
@@ -368,8 +381,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:infusion_pedestal",
-      "x": 2.0,
-      "y": 6.0,
+      "x": 3.35,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "70EDB537D8938B38"
@@ -383,7 +396,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "67C2606B3597E0DB",
@@ -391,8 +405,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:air_seeds",
-      "x": 4.0,
-      "y": 6.0,
+      "x": 4.9,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "7C213FE9BEFC673F"
@@ -406,7 +420,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "007F572FE2120C91",
@@ -414,8 +429,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:earth_seeds",
-      "x": 6.0,
-      "y": 6.0,
+      "x": 6.45,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "67C2606B3597E0DB"
@@ -435,7 +450,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "3A2A70A9ED763400",
@@ -444,7 +460,7 @@
       "description": [],
       "icon": "mysticalagriculture:water_seeds",
       "x": 8.0,
-      "y": 6.0,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "007F572FE2120C91"
@@ -458,7 +474,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "78B7D222D10C87B9",
@@ -466,8 +483,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:fire_seeds",
-      "x": 10.0,
-      "y": 6.0,
+      "x": 9.55,
+      "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
         "3A2A70A9ED763400"
@@ -493,7 +510,8 @@
           "item": "minecraft:amethyst_shard",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "38D8E083BF7A29BE",
@@ -503,9 +521,9 @@
         "Grow resources that your workshops consume regularly. Expand processing and storage with the fields rather than letting essence accumulate without a purpose."
       ],
       "icon": "mysticalagriculture:coal_seeds",
-      "x": 0.0,
-      "y": 9.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 5.35,
+      "shape": "rsquare",
       "dependencies": [
         "70EDB537D8938B38"
       ],
@@ -524,7 +542,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "3E3D9AA68C35EFFF",
@@ -532,8 +551,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:iron_seeds",
-      "x": 2.0,
-      "y": 9.0,
+      "x": 3.35,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "38D8E083BF7A29BE"
@@ -547,7 +566,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3E13B1D56C67E219",
@@ -555,8 +575,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:copper_seeds",
-      "x": 4.0,
-      "y": 9.0,
+      "x": 4.9,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "3E3D9AA68C35EFFF"
@@ -570,7 +590,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "36A978FA68DC99EC",
@@ -578,8 +599,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:redstone_seeds",
-      "x": 6.0,
-      "y": 9.0,
+      "x": 6.45,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "3E13B1D56C67E219"
@@ -599,7 +620,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "44088E6B247EBD65",
@@ -608,7 +630,7 @@
       "description": [],
       "icon": "mysticalagriculture:gold_seeds",
       "x": 8.0,
-      "y": 9.0,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "36A978FA68DC99EC"
@@ -622,7 +644,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "53F2B4BB80936E3E",
@@ -630,8 +653,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:diamond_seeds",
-      "x": 10.0,
-      "y": 9.0,
+      "x": 9.55,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "44088E6B247EBD65"
@@ -645,7 +668,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2ADAFE53088BF887",
@@ -653,8 +677,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:emerald_seeds",
-      "x": 12.0,
-      "y": 9.0,
+      "x": 9.55,
+      "y": 6.9,
       "shape": "hexagon",
       "dependencies": [
         "53F2B4BB80936E3E"
@@ -680,7 +704,8 @@
           "item": "minecraft:golden_carrot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "2B628FCC32911843",
@@ -690,9 +715,9 @@
         "Soul jars preserve the creatures needed for living resource crops. Check the required soul before hunting and keep each filled jar labelled by its contents."
       ],
       "icon": "mysticalagriculture:soulium_dust",
-      "x": 0.0,
-      "y": 12.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 9.25,
+      "shape": "rsquare",
       "dependencies": [
         "70EDB537D8938B38"
       ],
@@ -711,7 +736,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "59BC5CB775B62D92",
@@ -719,8 +745,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:soulium_ingot",
-      "x": 2.0,
-      "y": 12.0,
+      "x": 3.35,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "2B628FCC32911843"
@@ -734,7 +760,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3A94B369CAAFCCF2",
@@ -742,8 +769,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:soulium_dagger",
-      "x": 4.0,
-      "y": 12.0,
+      "x": 4.9,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "59BC5CB775B62D92"
@@ -757,7 +784,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5FEFAFD28DB4C6BE",
@@ -765,8 +793,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:soul_jar",
-      "x": 6.0,
-      "y": 12.0,
+      "x": 6.45,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "3A94B369CAAFCCF2"
@@ -786,7 +814,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "3ADA0F7AC914B090",
@@ -795,7 +824,7 @@
       "description": [],
       "icon": "mysticalagriculture:soulium_seed_base",
       "x": 8.0,
-      "y": 12.0,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "5FEFAFD28DB4C6BE"
@@ -809,7 +838,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0F453AB9EF2BD0C5",
@@ -817,8 +847,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:cow_seeds",
-      "x": 10.0,
-      "y": 12.0,
+      "x": 9.55,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "3ADA0F7AC914B090"
@@ -832,7 +862,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "55250FD8BE87BAD6",
@@ -840,8 +871,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:skeleton_seeds",
-      "x": 12.0,
-      "y": 12.0,
+      "x": 9.55,
+      "y": 10.8,
       "shape": "circle",
       "dependencies": [
         "0F453AB9EF2BD0C5"
@@ -861,7 +892,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "05ABEFF78874500C",
@@ -869,8 +901,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:enderman_seeds",
-      "x": 14.0,
-      "y": 12.0,
+      "x": 8.0,
+      "y": 10.8,
       "shape": "hexagon",
       "dependencies": [
         "55250FD8BE87BAD6"
@@ -896,7 +928,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "3F3AC0586C0AA0B7",
@@ -906,9 +939,9 @@
         "Improve the land beneath important crops. Plan the accelerator column around its working range and leave access for future upgrades."
       ],
       "icon": "mysticalagriculture:prudentium_farmland",
-      "x": 0.0,
-      "y": 15.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 5.35,
+      "shape": "rsquare",
       "dependencies": [
         "327AA9FD845509C3"
       ],
@@ -927,7 +960,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "0FF64D9787B011C2",
@@ -935,8 +969,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:tertium_farmland",
-      "x": 2.0,
-      "y": 15.0,
+      "x": -3.35,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "3F3AC0586C0AA0B7"
@@ -950,7 +984,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "78A5ED5A9BCA70B1",
@@ -958,8 +993,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:imperium_farmland",
-      "x": 4.0,
-      "y": 15.0,
+      "x": -4.9,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "0FF64D9787B011C2"
@@ -973,7 +1008,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "78FE4CE935B748EE",
@@ -981,8 +1017,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:supremium_farmland",
-      "x": 6.0,
-      "y": 15.0,
+      "x": -6.45,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "78A5ED5A9BCA70B1"
@@ -1002,7 +1038,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "7EC73E4D2D29FFFB",
@@ -1010,8 +1047,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:inferium_growth_accelerator",
-      "x": 8.0,
-      "y": 15.0,
+      "x": -8.0,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "78FE4CE935B748EE"
@@ -1025,7 +1062,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "495ED613FDEBE0EE",
@@ -1033,8 +1071,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:prudentium_growth_accelerator",
-      "x": 10.0,
-      "y": 15.0,
+      "x": -9.55,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "7EC73E4D2D29FFFB"
@@ -1048,7 +1086,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "26320EB7AB38D399",
@@ -1056,8 +1095,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:supremium_growth_accelerator",
-      "x": 12.0,
-      "y": 15.0,
+      "x": -9.55,
+      "y": 6.9,
       "shape": "hexagon",
       "dependencies": [
         "495ED613FDEBE0EE"
@@ -1083,7 +1122,8 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "7510509884BA8125",
@@ -1093,9 +1133,9 @@
         "Automate mature fields while keeping spare seeds. Reprocess excess stock only after the next planting is secure."
       ],
       "icon": "mysticalagriculture:machine_frame",
-      "x": 0.0,
-      "y": 18.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 13.15,
+      "shape": "rsquare",
       "dependencies": [
         "70EDB537D8938B38"
       ],
@@ -1114,7 +1154,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "15EE167360BF0520",
@@ -1122,8 +1163,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:harvester",
-      "x": 2.0,
-      "y": 18.0,
+      "x": 3.35,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "7510509884BA8125"
@@ -1137,7 +1178,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "36BE3D5D3341672B",
@@ -1145,8 +1187,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:seed_reprocessor",
-      "x": 4.0,
-      "y": 18.0,
+      "x": 4.9,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "15EE167360BF0520"
@@ -1160,7 +1202,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "29C55F0A5E05AA75",
@@ -1168,8 +1211,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:mystical_fertilizer",
-      "x": 6.0,
-      "y": 18.0,
+      "x": 6.45,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "36BE3D5D3341672B"
@@ -1189,7 +1232,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "2444B3E6E56245CF",
@@ -1198,7 +1242,7 @@
       "description": [],
       "icon": "mysticalagriculture:inferium_watering_can",
       "x": 8.0,
-      "y": 18.0,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "29C55F0A5E05AA75"
@@ -1212,7 +1256,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "790E872EEAE9B4DF",
@@ -1220,8 +1265,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:supremium_watering_can",
-      "x": 10.0,
-      "y": 18.0,
+      "x": 9.55,
+      "y": 13.15,
       "shape": "hexagon",
       "dependencies": [
         "2444B3E6E56245CF"
@@ -1247,7 +1292,8 @@
           "item": "minecraft:amethyst_shard",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "6611E276AC618396",
@@ -1257,9 +1303,9 @@
         "Refined essence can strengthen equipment as well as crops. Prepare the right material tier before choosing augments for your next expedition."
       ],
       "icon": "mysticalagriculture:prosperity_ingot",
-      "x": 0.0,
-      "y": 21.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 9.25,
+      "shape": "rsquare",
       "dependencies": [
         "543E69DC2C62BA61"
       ],
@@ -1278,7 +1324,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "6953F0CFD18C7267",
@@ -1286,8 +1333,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:inferium_ingot",
-      "x": 2.0,
-      "y": 21.0,
+      "x": -3.35,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "6611E276AC618396"
@@ -1301,7 +1348,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3A2B41A963C1735F",
@@ -1309,8 +1357,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:prudentium_ingot",
-      "x": 4.0,
-      "y": 21.0,
+      "x": -4.9,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "6953F0CFD18C7267"
@@ -1324,7 +1372,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4BACF3F210D92D46",
@@ -1332,8 +1381,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:tertium_ingot",
-      "x": 6.0,
-      "y": 21.0,
+      "x": -6.45,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "3A2B41A963C1735F"
@@ -1353,7 +1402,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "0D60CBA292E08A6B",
@@ -1361,8 +1411,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:imperium_ingot",
-      "x": 8.0,
-      "y": 21.0,
+      "x": -8.0,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "4BACF3F210D92D46"
@@ -1376,7 +1426,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "47A401A8BD7F1F0D",
@@ -1384,8 +1435,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:supremium_ingot",
-      "x": 10.0,
-      "y": 21.0,
+      "x": -9.55,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "0D60CBA292E08A6B"
@@ -1399,7 +1450,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "763E552EC711DBCE",
@@ -1407,8 +1459,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:tinkering_table",
-      "x": 12.0,
-      "y": 21.0,
+      "x": -9.55,
+      "y": 10.8,
       "shape": "circle",
       "dependencies": [
         "47A401A8BD7F1F0D"
@@ -1428,7 +1480,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "3973EB4218A5AC42",
@@ -1436,8 +1489,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:unattuned_augment",
-      "x": 14.0,
-      "y": 21.0,
+      "x": -8.0,
+      "y": 10.8,
       "shape": "hexagon",
       "dependencies": [
         "763E552EC711DBCE"
@@ -1463,7 +1516,8 @@
           "item": "minecraft:golden_carrot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "5A26A06B4AF40270",
@@ -1473,9 +1527,9 @@
         "Awakening is a separate ritual with demanding ingredients. Lay out the complete recipe and prepare its supporting essence before committing your equipment."
       ],
       "icon": "mysticalagriculture:awakening_altar",
-      "x": 0.0,
-      "y": 24.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 13.15,
+      "shape": "rsquare",
       "dependencies": [
         "47A401A8BD7F1F0D"
       ],
@@ -1494,7 +1548,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "17EED1E09EE64DB9",
@@ -1502,8 +1557,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:awakening_pedestal",
-      "x": 2.0,
-      "y": 24.0,
+      "x": -3.35,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "5A26A06B4AF40270"
@@ -1517,7 +1572,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1B42C352074A54B9",
@@ -1525,8 +1581,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:awakened_supremium_essence",
-      "x": 4.0,
-      "y": 24.0,
+      "x": -4.9,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "17EED1E09EE64DB9"
@@ -1540,7 +1596,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "047A1EF38A9919E5",
@@ -1548,8 +1605,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:awakened_supremium_ingot",
-      "x": 6.0,
-      "y": 24.0,
+      "x": -6.45,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "1B42C352074A54B9"
@@ -1569,7 +1626,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "549EC9583CED76AA",
@@ -1577,8 +1635,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:awakened_supremium_upgrade",
-      "x": 8.0,
-      "y": 24.0,
+      "x": -8.0,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "047A1EF38A9919E5"
@@ -1592,7 +1650,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7C6DBAFB3E5CEECC",
@@ -1600,8 +1659,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mysticalagriculture:flight_augment",
-      "x": 10.0,
-      "y": 24.0,
+      "x": -9.55,
+      "y": 13.15,
       "shape": "hexagon",
       "dependencies": [
         "549EC9583CED76AA"
@@ -1627,8 +1686,11 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.24
     }
   ],
+  "icon": "mysticalagriculture:prosperity_shard",
+  "autofocus_id": "54F61A6A02A01DDF",
   "filename": "wc_mystical_agriculture"
 }

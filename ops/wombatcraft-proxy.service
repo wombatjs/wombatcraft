@@ -1,0 +1,13 @@
+[Unit]
+Description=Wombatcraft TCP relay over WireGuard
+Requires=wombatcraft-proxy.socket
+After=wombatcraft-proxy.socket
+
+[Service]
+ExecStart=/usr/lib/systemd/systemd-socket-proxyd --exit-idle-time=2min 10.77.5.2:25565
+DynamicUser=yes
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+Nice=-5

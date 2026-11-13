@@ -13,8 +13,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "aquaculture:neptunium_sword",
-      "x": 2.86,
-      "y": 22.86,
+      "x": -1.55,
+      "y": 25.3,
       "shape": "circle",
       "dependencies": [
         "0B854A8F4842ABCF"
@@ -34,7 +34,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0E17785A2C3A493F",
@@ -44,8 +45,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "aquaculture:sushi",
-      "x": 4.29,
-      "y": 22.86,
+      "x": 0.0,
+      "y": 25.3,
       "shape": "circle",
       "dependencies": [
         "0B6ECACC69BC62FD"
@@ -65,7 +66,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0BC486B7C7A83C7C",
@@ -75,9 +77,9 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "aquaculture:bobber",
-      "x": 5.71,
-      "y": 22.86,
-      "shape": "circle",
+      "x": 1.55,
+      "y": 25.3,
+      "shape": "rsquare",
       "dependencies": [
         "0E17785A2C3A493F"
       ],
@@ -96,7 +98,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0B854A8F4842ABCF",
@@ -107,9 +110,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "aquaculture:neptunium_sword",
-      "x": 1.43,
-      "y": 22.86,
-      "shape": "square",
+      "x": 0.0,
+      "y": 23.5,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -117,7 +120,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0ABEDF463AD4837E",
@@ -127,8 +131,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "botanypots:terracotta_botany_pot",
-      "x": 2.86,
-      "y": 14.29,
+      "x": -1.55,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "0EB7B320737FA500"
@@ -148,7 +152,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "012A1D8CEBEAC427",
@@ -158,8 +163,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "botanypots:red_concrete_botany_pot",
-      "x": 4.29,
-      "y": 14.29,
+      "x": 0.0,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "0ABEDF463AD4837E"
@@ -179,7 +184,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0AC9A0700D741F22",
@@ -189,9 +195,9 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "botanypots:cyan_concrete_botany_pot",
-      "x": 5.71,
-      "y": 14.29,
-      "shape": "circle",
+      "x": 1.55,
+      "y": 15.9,
+      "shape": "rsquare",
       "dependencies": [
         "012A1D8CEBEAC427"
       ],
@@ -210,7 +216,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0EB7B320737FA500",
@@ -221,9 +228,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "botanypots:terracotta_botany_pot",
-      "x": 1.43,
-      "y": 14.29,
-      "shape": "square",
+      "x": 0.0,
+      "y": 14.1,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -231,7 +238,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "094687F9CB229A67",
@@ -241,9 +249,9 @@
         "Explore the features added by Botany Trees and record one useful discovery. This is a manual objective; mark it after trying the feature."
       ],
       "icon": "minecraft:writable_book",
-      "x": 2.86,
-      "y": 15.71,
-      "shape": "square",
+      "x": 10.0,
+      "y": 15.9,
+      "shape": "rsquare",
       "dependencies": [
         "0BE25CE0E92CD069"
       ],
@@ -253,7 +261,8 @@
           "type": "checkmark",
           "title": "I have tested this feature"
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0BE25CE0E92CD069",
@@ -264,9 +273,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:writable_book",
-      "x": 1.43,
-      "y": 15.71,
-      "shape": "square",
+      "x": 10.0,
+      "y": 14.1,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -274,7 +283,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0CF2254E83881AF9",
@@ -284,8 +294,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "bountiful:decree",
-      "x": 2.86,
-      "y": 4.29,
+      "x": -10.78,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "088F2E5D31F9D228"
@@ -305,7 +315,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "01487D82D6956EA3",
@@ -315,9 +326,9 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "bountiful:bountyboard",
-      "x": 4.29,
-      "y": 4.29,
-      "shape": "circle",
+      "x": -9.22,
+      "y": 6.5,
+      "shape": "rsquare",
       "dependencies": [
         "0CF2254E83881AF9"
       ],
@@ -336,7 +347,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "088F2E5D31F9D228",
@@ -347,9 +359,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "bountiful:decree",
-      "x": 1.43,
-      "y": 4.29,
-      "shape": "square",
+      "x": -10.0,
+      "y": 4.7,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -357,7 +369,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "010C2CF026B13B3C",
@@ -367,8 +380,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "croptopia:meringue",
-      "x": 2.86,
-      "y": 21.43,
+      "x": -11.55,
+      "y": 25.3,
       "shape": "circle",
       "dependencies": [
         "0D35E9AE976F4A99"
@@ -388,7 +401,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "02D113E7B803B42E",
@@ -398,8 +412,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "croptopia:cooking_pot",
-      "x": 4.29,
-      "y": 21.43,
+      "x": -10.0,
+      "y": 25.3,
       "shape": "circle",
       "dependencies": [
         "010C2CF026B13B3C"
@@ -419,7 +433,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "07F59CB579B3B148",
@@ -429,9 +444,9 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "croptopia:onion_rings",
-      "x": 5.71,
-      "y": 21.43,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 25.3,
+      "shape": "rsquare",
       "dependencies": [
         "02D113E7B803B42E"
       ],
@@ -450,7 +465,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0D35E9AE976F4A99",
@@ -461,9 +477,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "croptopia:meringue",
-      "x": 1.43,
-      "y": 21.43,
-      "shape": "square",
+      "x": -10.0,
+      "y": 23.5,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -471,7 +487,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "011F70D3A94CD88E",
@@ -481,8 +498,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "culturaldelights:elote",
-      "x": 2.86,
-      "y": 2.86,
+      "x": 8.45,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "0E01906F293B7343"
@@ -502,7 +519,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0765DB6B04DE0A6D",
@@ -512,8 +530,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "culturaldelights:pickle",
-      "x": 4.29,
-      "y": 2.86,
+      "x": 10.0,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "011F70D3A94CD88E"
@@ -533,7 +551,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "04956FB876859A2D",
@@ -543,9 +562,9 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "culturaldelights:avocado",
-      "x": 5.71,
-      "y": 2.86,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 1.8,
+      "shape": "rsquare",
       "dependencies": [
         "0765DB6B04DE0A6D"
       ],
@@ -564,7 +583,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0E01906F293B7343",
@@ -575,9 +595,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "culturaldelights:elote",
-      "x": 1.43,
-      "y": 2.86,
-      "shape": "square",
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -585,7 +605,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "03A8F3483FA805A4",
@@ -595,9 +616,9 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "farmersdelight:stuffed_potato",
-      "x": 2.86,
-      "y": 1.43,
-      "shape": "circle",
+      "x": 0.0,
+      "y": 1.8,
+      "shape": "rsquare",
       "dependencies": [
         "0ED44D25B0E3C7F4"
       ],
@@ -616,7 +637,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0ED44D25B0E3C7F4",
@@ -627,9 +649,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "farmersdelight:stuffed_potato",
-      "x": 1.43,
-      "y": 1.43,
-      "shape": "square",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -637,7 +659,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "05D5EF08C461E677",
@@ -647,9 +670,9 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "easy_piglins:barterer",
-      "x": 2.86,
-      "y": 18.57,
-      "shape": "circle",
+      "x": 0.0,
+      "y": 20.6,
+      "shape": "rsquare",
       "dependencies": [
         "09ACFABD5AC29373"
       ],
@@ -668,7 +691,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "09ACFABD5AC29373",
@@ -679,9 +703,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "easy_piglins:barterer",
-      "x": 1.43,
-      "y": 18.57,
-      "shape": "square",
+      "x": 0.0,
+      "y": 18.8,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -689,7 +713,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0D5F5E64708E5BEB",
@@ -699,8 +724,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "easy_villagers:farmer",
-      "x": 2.86,
-      "y": 17.14,
+      "x": -11.55,
+      "y": 20.6,
       "shape": "circle",
       "dependencies": [
         "063FE18A4BEB56DC"
@@ -720,7 +745,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0EE3CCE6A0586D06",
@@ -730,8 +756,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "easy_villagers:trader",
-      "x": 4.29,
-      "y": 17.14,
+      "x": -10.0,
+      "y": 20.6,
       "shape": "circle",
       "dependencies": [
         "0D5F5E64708E5BEB"
@@ -751,7 +777,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0A3AD7756F3467F9",
@@ -761,9 +788,9 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "easy_villagers:breeder",
-      "x": 5.71,
-      "y": 17.14,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 20.6,
+      "shape": "rsquare",
       "dependencies": [
         "0EE3CCE6A0586D06"
       ],
@@ -782,7 +809,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "063FE18A4BEB56DC",
@@ -793,9 +821,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "easy_villagers:farmer",
-      "x": 1.43,
-      "y": 17.14,
-      "shape": "square",
+      "x": -10.0,
+      "y": 18.8,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -803,7 +831,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "08557E3EA1716CCB",
@@ -813,8 +842,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "ends_delight:end_stove",
-      "x": 2.86,
-      "y": 5.71,
+      "x": -1.55,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "0AA2F0A2CA561ABD"
@@ -834,7 +863,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0146D4124F5BD217",
@@ -844,8 +874,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "ends_delight:bubble_tea",
-      "x": 4.29,
-      "y": 5.71,
+      "x": 0.0,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "08557E3EA1716CCB"
@@ -865,7 +895,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0BB854536FF255D8",
@@ -875,9 +906,9 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "ends_delight:chorus_sauce",
-      "x": 5.71,
-      "y": 5.71,
-      "shape": "circle",
+      "x": 1.55,
+      "y": 6.5,
+      "shape": "rsquare",
       "dependencies": [
         "0146D4124F5BD217"
       ],
@@ -896,7 +927,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0AA2F0A2CA561ABD",
@@ -907,9 +939,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "ends_delight:end_stove",
-      "x": 1.43,
-      "y": 5.71,
-      "shape": "square",
+      "x": 0.0,
+      "y": 4.7,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -917,7 +949,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0954E884116E0DF1",
@@ -927,8 +960,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "farmersrespite:kettle",
-      "x": 2.86,
-      "y": 0.0,
+      "x": -11.55,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "02BC9516173109F0"
@@ -948,7 +981,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "07A5F847F87DF1BA",
@@ -958,8 +992,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "farmersrespite:black_cod",
-      "x": 4.29,
-      "y": 0.0,
+      "x": -10.0,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "0954E884116E0DF1"
@@ -979,7 +1013,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "03BF6A1870019C27",
@@ -989,9 +1024,9 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "farmersrespite:tea_curry",
-      "x": 5.71,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 1.8,
+      "shape": "rsquare",
       "dependencies": [
         "07A5F847F87DF1BA"
       ],
@@ -1010,7 +1045,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "02BC9516173109F0",
@@ -1021,9 +1057,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "farmersrespite:kettle",
-      "x": 1.43,
+      "x": -10.0,
       "y": 0.0,
-      "shape": "square",
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1031,7 +1067,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0187147FEE319595",
@@ -1041,8 +1078,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "farmingforblockheads:market",
-      "x": 2.86,
-      "y": 20.0,
+      "x": 8.45,
+      "y": 20.6,
       "shape": "circle",
       "dependencies": [
         "0A2A59D2BA41B706"
@@ -1062,7 +1099,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0B5DA3F1C6D85E21",
@@ -1072,8 +1110,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "farmingforblockheads:chicken_nest",
-      "x": 4.29,
-      "y": 20.0,
+      "x": 10.0,
+      "y": 20.6,
       "shape": "circle",
       "dependencies": [
         "0187147FEE319595"
@@ -1093,7 +1131,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0BC367E5F614E52A",
@@ -1103,9 +1142,9 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "farmingforblockheads:feeding_trough",
-      "x": 5.71,
-      "y": 20.0,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 20.6,
+      "shape": "rsquare",
       "dependencies": [
         "0B5DA3F1C6D85E21"
       ],
@@ -1124,7 +1163,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0A2A59D2BA41B706",
@@ -1135,9 +1175,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "farmingforblockheads:market",
-      "x": 1.43,
-      "y": 20.0,
-      "shape": "square",
+      "x": 10.0,
+      "y": 18.8,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1145,7 +1185,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0D7755B525E77A0E",
@@ -1155,8 +1196,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "twilightforest:cicada",
-      "x": 2.86,
-      "y": 11.43,
+      "x": 8.45,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "0D8B57E47D2A5C09"
@@ -1176,7 +1217,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0701E8EBA3904661",
@@ -1186,8 +1228,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "twilightforest:firefly",
-      "x": 4.29,
-      "y": 11.43,
+      "x": 10.0,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "0D7755B525E77A0E"
@@ -1207,7 +1249,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0CD84C2C44672485",
@@ -1217,9 +1260,9 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "twilightforest:liveroot",
-      "x": 5.71,
-      "y": 11.43,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 11.2,
+      "shape": "rsquare",
       "dependencies": [
         "0701E8EBA3904661"
       ],
@@ -1238,7 +1281,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0D8B57E47D2A5C09",
@@ -1249,9 +1293,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "twilightforest:cicada",
-      "x": 1.43,
-      "y": 11.43,
-      "shape": "square",
+      "x": 10.0,
+      "y": 9.4,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1259,7 +1303,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "03A132D0D95F4F91",
@@ -1269,8 +1314,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "mob_grinding_utils:fan",
-      "x": 2.86,
-      "y": 12.86,
+      "x": -11.55,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "0EFA4B82DCCAB04B"
@@ -1290,7 +1335,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "08D1F3936CCB8C19",
@@ -1300,8 +1346,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "mob_grinding_utils:saw",
-      "x": 4.29,
-      "y": 12.86,
+      "x": -10.0,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "03A132D0D95F4F91"
@@ -1321,7 +1367,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0D90E64CB6D3CDDE",
@@ -1331,9 +1378,9 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "mob_grinding_utils:tank",
-      "x": 5.71,
-      "y": 12.86,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 15.9,
+      "shape": "rsquare",
       "dependencies": [
         "08D1F3936CCB8C19"
       ],
@@ -1352,7 +1399,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0EFA4B82DCCAB04B",
@@ -1363,9 +1411,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "mob_grinding_utils:fan",
-      "x": 1.43,
-      "y": 12.86,
-      "shape": "square",
+      "x": -10.0,
+      "y": 14.1,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1373,7 +1421,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "08EFF3502DA7D1D1",
@@ -1383,8 +1432,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "powah:crystal_nitro",
-      "x": 2.86,
-      "y": 7.14,
+      "x": 8.45,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "0B229F364ED68A7A"
@@ -1404,7 +1453,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "02FEC15383FAA647",
@@ -1414,8 +1464,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "botania:life_essence",
-      "x": 4.29,
-      "y": 7.14,
+      "x": 10.0,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "08EFF3502DA7D1D1"
@@ -1435,7 +1485,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0F742FB02FA80592",
@@ -1445,9 +1496,9 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "mysticalagradditions:tertium_coal",
-      "x": 5.71,
-      "y": 7.14,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 6.5,
+      "shape": "rsquare",
       "dependencies": [
         "02FEC15383FAA647"
       ],
@@ -1466,7 +1517,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0B229F364ED68A7A",
@@ -1477,9 +1529,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "powah:crystal_nitro",
-      "x": 1.43,
-      "y": 7.14,
-      "shape": "square",
+      "x": 10.0,
+      "y": 4.7,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1487,7 +1539,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "03D444BB10EA792D",
@@ -1497,8 +1550,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "productivebees:wax",
-      "x": 2.86,
-      "y": 8.57,
+      "x": -11.55,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "0A635DC974C1719B"
@@ -1518,7 +1571,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "036ADD5CADC39048",
@@ -1528,8 +1582,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "patchouli:guide_book",
-      "x": 4.29,
-      "y": 8.57,
+      "x": -10.0,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "03D444BB10EA792D"
@@ -1549,7 +1603,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "050DAE823D6E8E02",
@@ -1559,9 +1614,9 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "productivebees:feeder",
-      "x": 5.71,
-      "y": 8.57,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 11.2,
+      "shape": "rsquare",
       "dependencies": [
         "036ADD5CADC39048"
       ],
@@ -1580,7 +1635,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0A635DC974C1719B",
@@ -1591,9 +1647,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "productivebees:wax",
-      "x": 1.43,
-      "y": 8.57,
-      "shape": "square",
+      "x": -10.0,
+      "y": 9.4,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1601,7 +1657,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "03AE5A5416CD494D",
@@ -1611,8 +1668,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "productivetrees:ash_door",
-      "x": 2.86,
-      "y": 10.0,
+      "x": -1.55,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "0B1AD8BC916755E0"
@@ -1632,7 +1689,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "016423AB29BDD7B2",
@@ -1642,8 +1700,8 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "productivetrees:elm_door",
-      "x": 4.29,
-      "y": 10.0,
+      "x": 0.0,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "03AE5A5416CD494D"
@@ -1663,7 +1721,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "08038F711F870B61",
@@ -1673,9 +1732,9 @@
         "Craft this item and use it in your kitchen or garden. Set up a repeatable ingredient supply before making large batches."
       ],
       "icon": "productivetrees:ipe_door",
-      "x": 5.71,
-      "y": 10.0,
-      "shape": "circle",
+      "x": 1.55,
+      "y": 11.2,
+      "shape": "rsquare",
       "dependencies": [
         "016423AB29BDD7B2"
       ],
@@ -1694,7 +1753,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0B1AD8BC916755E0",
@@ -1705,9 +1765,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "productivetrees:ash_door",
-      "x": 1.43,
-      "y": 10.0,
-      "shape": "square",
+      "x": 0.0,
+      "y": 9.4,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1715,8 +1775,10 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     }
   ],
-  "filename": "23_food_farming"
+  "filename": "23_food_farming",
+  "autofocus_id": "0ED44D25B0E3C7F4"
 }

@@ -13,9 +13,9 @@
         "Build a reliable supply before attempting a reactor. Different generators need different conditions; maintain a backup source for pumps and control systems."
       ],
       "icon": "mekanismgenerators:heat_generator",
-      "x": 0.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -4.95,
+      "y": 0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -32,7 +32,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.5
     },
     {
       "id": "22D2E4378402946D",
@@ -40,9 +41,9 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:solar_panel",
-      "x": 2.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -3.3,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "77C080F1391C8892"
       ],
@@ -55,7 +56,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "541CC5FAF59AE5AC",
@@ -63,9 +65,9 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:solar_generator",
-      "x": 4.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -1.65,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "22D2E4378402946D"
       ],
@@ -78,7 +80,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "527618BD3E21173D",
@@ -86,9 +89,9 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:advanced_solar_generator",
-      "x": 6.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 0.0,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "541CC5FAF59AE5AC"
       ],
@@ -107,7 +110,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "4E5D1ACBE9A349B2",
@@ -115,9 +119,9 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:wind_generator",
-      "x": 8.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 1.65,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "527618BD3E21173D"
       ],
@@ -130,7 +134,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "2D2F5FA5115CCCCD",
@@ -138,9 +143,9 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:bio_generator",
-      "x": 10.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 3.3,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "4E5D1ACBE9A349B2"
       ],
@@ -153,7 +158,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "5360834A80AD71A5",
@@ -161,9 +167,9 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:gas_burning_generator",
-      "x": 12.0,
-      "y": 0.0,
-      "shape": "hexagon",
+      "x": 4.95,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "2D2F5FA5115CCCCD"
       ],
@@ -188,7 +194,8 @@
           "item": "minecraft:iron_ingot",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "29993755A6CFE41F",
@@ -198,9 +205,9 @@
         "Build the vessel with fuel assemblies and control rods, then configure its ports. Arrange cooling and waste storage before introducing fuel."
       ],
       "icon": "mekanismgenerators:fission_reactor_casing",
-      "x": 0.0,
+      "x": -1.8,
       "y": 3.0,
-      "shape": "circle",
+      "shape": "rsquare",
       "dependencies": [
         "5360834A80AD71A5"
       ],
@@ -219,7 +226,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "087A4F4E155F92C9",
@@ -227,7 +235,7 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:fission_fuel_assembly",
-      "x": 2.0,
+      "x": -3.35,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -242,7 +250,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4B5AF9EE278650BB",
@@ -250,7 +259,7 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:control_rod_assembly",
-      "x": 4.0,
+      "x": -4.9,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -265,7 +274,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "614CE04B1C0CA5CF",
@@ -273,7 +283,7 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:reactor_glass",
-      "x": 6.0,
+      "x": -6.45,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -294,7 +304,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "7E710309C08E4ED6",
@@ -302,7 +313,7 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:fission_reactor_port",
-      "x": 8.0,
+      "x": -8.0,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -317,7 +328,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6F8B075EFE575437",
@@ -325,7 +337,7 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:fission_reactor_logic_adapter",
-      "x": 10.0,
+      "x": -9.55,
       "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
@@ -352,7 +364,8 @@
           "item": "minecraft:redstone",
           "count": 16
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "2CE8E415C32B71DE",
@@ -362,9 +375,9 @@
         "Treat radioactive waste as a separate production line. Keep containment intact and inspect storage capacity before running the reactor for an extended period."
       ],
       "icon": "mekanism:radioactive_waste_barrel",
-      "x": 0.0,
-      "y": 6.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 5.35,
+      "shape": "rsquare",
       "dependencies": [
         "7E710309C08E4ED6"
       ],
@@ -383,7 +396,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "6D3513E450F87CB6",
@@ -391,8 +405,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanism:solar_neutron_activator",
-      "x": 2.0,
-      "y": 6.0,
+      "x": -3.35,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "2CE8E415C32B71DE"
@@ -406,7 +420,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "589ABEE798F68523",
@@ -414,8 +429,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanism:pressurized_reaction_chamber",
-      "x": 4.0,
-      "y": 6.0,
+      "x": -4.9,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "6D3513E450F87CB6"
@@ -429,7 +444,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "091F5AFE7D21E660",
@@ -437,8 +453,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanism:pellet_polonium",
-      "x": 6.0,
-      "y": 6.0,
+      "x": -6.45,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "589ABEE798F68523"
@@ -458,7 +474,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "45FE5958AD3ADF39",
@@ -466,8 +483,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanism:pellet_plutonium",
-      "x": 8.0,
-      "y": 6.0,
+      "x": -8.0,
+      "y": 5.35,
       "shape": "hexagon",
       "dependencies": [
         "091F5AFE7D21E660"
@@ -493,7 +510,8 @@
           "item": "minecraft:gold_ingot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "387A3D8BB644930C",
@@ -503,9 +521,9 @@
         "Assemble the turbine around its central rotor and coils. Match steam input, venting and water recovery to the reactor's output."
       ],
       "icon": "mekanismgenerators:turbine_casing",
-      "x": 0.0,
-      "y": 9.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 12.4,
+      "shape": "rsquare",
       "dependencies": [
         "29993755A6CFE41F"
       ],
@@ -524,7 +542,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "4E62ECB4D62E0DAD",
@@ -532,8 +551,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:turbine_valve",
-      "x": 2.0,
-      "y": 9.0,
+      "x": -3.35,
+      "y": 12.4,
       "shape": "circle",
       "dependencies": [
         "387A3D8BB644930C"
@@ -547,7 +566,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5441021F2402E1FD",
@@ -555,8 +575,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:turbine_rotor",
-      "x": 4.0,
-      "y": 9.0,
+      "x": -4.9,
+      "y": 12.4,
       "shape": "circle",
       "dependencies": [
         "4E62ECB4D62E0DAD"
@@ -570,7 +590,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "414806EE37D6362D",
@@ -578,8 +599,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:turbine_blade",
-      "x": 6.0,
-      "y": 9.0,
+      "x": -6.45,
+      "y": 12.4,
       "shape": "circle",
       "dependencies": [
         "5441021F2402E1FD"
@@ -599,7 +620,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "5A3A1ED0A1EE9ED0",
@@ -607,8 +629,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:rotational_complex",
-      "x": 8.0,
-      "y": 9.0,
+      "x": -8.0,
+      "y": 12.4,
       "shape": "circle",
       "dependencies": [
         "414806EE37D6362D"
@@ -622,7 +644,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6B6225B972D5C724",
@@ -630,8 +653,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:electromagnetic_coil",
-      "x": 10.0,
-      "y": 9.0,
+      "x": -9.55,
+      "y": 12.4,
       "shape": "circle",
       "dependencies": [
         "5A3A1ED0A1EE9ED0"
@@ -645,7 +668,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "29004E951E6C43B2",
@@ -653,8 +677,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:turbine_vent",
-      "x": 12.0,
-      "y": 9.0,
+      "x": -9.55,
+      "y": 13.95,
       "shape": "circle",
       "dependencies": [
         "6B6225B972D5C724"
@@ -674,7 +698,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "5BA6179DFFAA7721",
@@ -682,8 +707,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:saturating_condenser",
-      "x": 14.0,
-      "y": 9.0,
+      "x": -8.0,
+      "y": 13.95,
       "shape": "hexagon",
       "dependencies": [
         "29004E951E6C43B2"
@@ -709,7 +734,8 @@
           "item": "minecraft:quartz",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "68AF87D10C3D52B5",
@@ -719,9 +745,9 @@
         "Prepare the fuel supply, ignition system and cooling before starting fusion. The reactor should not depend on its own output to keep essential support machinery running."
       ],
       "icon": "mekanismgenerators:fusion_reactor_frame",
-      "x": 0.0,
-      "y": 12.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 7.7,
+      "shape": "rsquare",
       "dependencies": [
         "091F5AFE7D21E660"
       ],
@@ -740,7 +766,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "1517ADF9E27708A2",
@@ -748,8 +775,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:fusion_reactor_controller",
-      "x": 2.0,
-      "y": 12.0,
+      "x": -3.35,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "68AF87D10C3D52B5"
@@ -763,7 +790,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "490BBC1C262340ED",
@@ -771,8 +799,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:fusion_reactor_port",
-      "x": 4.0,
-      "y": 12.0,
+      "x": -4.9,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "1517ADF9E27708A2"
@@ -786,7 +814,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5B238E1C30E238B6",
@@ -794,8 +823,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:fusion_reactor_logic_adapter",
-      "x": 6.0,
-      "y": 12.0,
+      "x": -6.45,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "490BBC1C262340ED"
@@ -815,7 +844,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "38D5ADA3CBDCD570",
@@ -823,8 +853,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:laser_focus_matrix",
-      "x": 8.0,
-      "y": 12.0,
+      "x": -8.0,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "5B238E1C30E238B6"
@@ -838,7 +868,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7C743C0876C55083",
@@ -846,8 +877,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanismgenerators:hohlraum",
-      "x": 10.0,
-      "y": 12.0,
+      "x": -9.55,
+      "y": 7.7,
       "shape": "hexagon",
       "dependencies": [
         "38D5ADA3CBDCD570"
@@ -873,7 +904,8 @@
           "item": "minecraft:iron_ingot",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "016F983E7A905E04",
@@ -883,9 +915,9 @@
         "The supercritical phase shifter is a late workshop project. Prepare its feedstock and a substantial energy supply before committing to a long production run."
       ],
       "icon": "mekanism:sps_casing",
-      "x": 0.0,
-      "y": 15.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 10.05,
+      "shape": "rsquare",
       "dependencies": [
         "1517ADF9E27708A2"
       ],
@@ -904,7 +936,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "5B81A6ABE7272C89",
@@ -912,8 +945,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanism:sps_port",
-      "x": 2.0,
-      "y": 15.0,
+      "x": -3.35,
+      "y": 10.05,
       "shape": "circle",
       "dependencies": [
         "016F983E7A905E04"
@@ -927,7 +960,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6C9B2E94AD569971",
@@ -935,8 +969,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanism:supercharged_coil",
-      "x": 4.0,
-      "y": 15.0,
+      "x": -4.9,
+      "y": 10.05,
       "shape": "circle",
       "dependencies": [
         "5B81A6ABE7272C89"
@@ -950,7 +984,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "60B68B2D0DEA42A1",
@@ -958,8 +993,8 @@
       "subtitle": "",
       "description": [],
       "icon": "mekanism:pellet_antimatter",
-      "x": 6.0,
-      "y": 15.0,
+      "x": -6.45,
+      "y": 10.05,
       "shape": "hexagon",
       "dependencies": [
         "6C9B2E94AD569971"
@@ -985,8 +1020,11 @@
           "item": "minecraft:redstone",
           "count": 16
         }
-      ]
+      ],
+      "size": 1.24
     }
   ],
+  "icon": "mekanismgenerators:heat_generator",
+  "autofocus_id": "77C080F1391C8892",
   "filename": "wc_reactor_engineering"
 }

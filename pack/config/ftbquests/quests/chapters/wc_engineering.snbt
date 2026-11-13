@@ -13,9 +13,9 @@
         "Reserve a yard for large machines. Form the coke oven and blast furnace from the manual's diagrams, then put both solid and fluid outputs to work."
       ],
       "icon": "immersiveengineering:manual",
-      "x": 0.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -5.77,
+      "y": 0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -32,7 +32,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.5
     },
     {
       "id": "773EB9D78D844688",
@@ -40,9 +41,9 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:hammer",
-      "x": 2.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -4.12,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "10AF5B04F8E5FE9E"
       ],
@@ -55,7 +56,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "518E3BA3EB55BF65",
@@ -63,9 +65,9 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:wirecutter",
-      "x": 4.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -2.47,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "773EB9D78D844688"
       ],
@@ -78,7 +80,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "304BC684FFCBA4EE",
@@ -86,9 +89,9 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:cokebrick",
-      "x": 6.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "518E3BA3EB55BF65"
       ],
@@ -107,7 +110,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "4A044FF5DD07B02D",
@@ -115,9 +119,9 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:creosote_bucket",
-      "x": 8.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "304BC684FFCBA4EE"
       ],
@@ -130,7 +134,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "05499BDDD2E9D008",
@@ -138,9 +143,9 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:blastbrick",
-      "x": 10.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 2.47,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "4A044FF5DD07B02D"
       ],
@@ -153,7 +158,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "6F760FAE664F1FC3",
@@ -161,9 +167,9 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:coal_coke",
-      "x": 12.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 4.12,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "05499BDDD2E9D008"
       ],
@@ -182,7 +188,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "419E41AB89E3F6CB",
@@ -190,9 +197,9 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:ingot_steel",
-      "x": 14.0,
-      "y": 0.0,
-      "shape": "hexagon",
+      "x": 5.77,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "6F760FAE664F1FC3"
       ],
@@ -217,7 +224,8 @@
           "item": "minecraft:iron_ingot",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "1607161F9F0609FF",
@@ -227,9 +235,9 @@
         "Keep uninsulated wires away from walkways. Measure the network and provide a buffer before adding heavy machinery."
       ],
       "icon": "immersiveengineering:dynamo",
-      "x": 0.0,
+      "x": -1.8,
       "y": 3.0,
-      "shape": "circle",
+      "shape": "rsquare",
       "dependencies": [
         "419E41AB89E3F6CB"
       ],
@@ -248,7 +256,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "3E58016D283322A3",
@@ -256,7 +265,7 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:watermill",
-      "x": 2.0,
+      "x": -3.35,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -271,7 +280,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "55264FECF0D4EE86",
@@ -279,7 +289,7 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:windmill",
-      "x": 4.0,
+      "x": -4.9,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -294,7 +304,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "29D7E838546BF844",
@@ -302,7 +313,7 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:wirecoil_copper",
-      "x": 6.0,
+      "x": -6.45,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -323,7 +334,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "436DD2591A2A490C",
@@ -331,7 +343,7 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:connector_lv",
-      "x": 8.0,
+      "x": -8.0,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -346,7 +358,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "00CDFC7AE9DB33DC",
@@ -354,7 +367,7 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:connector_lv_relay",
-      "x": 10.0,
+      "x": -9.55,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -369,7 +382,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "23A206E68CB8A9F9",
@@ -377,8 +391,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:capacitor_lv",
-      "x": 12.0,
-      "y": 3.0,
+      "x": -9.55,
+      "y": 4.55,
       "shape": "circle",
       "dependencies": [
         "00CDFC7AE9DB33DC"
@@ -398,7 +412,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "718B2BD2360670F4",
@@ -406,8 +421,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:voltmeter",
-      "x": 14.0,
-      "y": 3.0,
+      "x": -8.0,
+      "y": 4.55,
       "shape": "hexagon",
       "dependencies": [
         "23A206E68CB8A9F9"
@@ -433,7 +448,8 @@
           "item": "minecraft:redstone",
           "count": 16
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "5083CE378936A8BE",
@@ -443,9 +459,9 @@
         "A reinforced furnace supports a larger steel supply. Keep coke production and creosote storage ahead of demand."
       ],
       "icon": "immersiveengineering:blastbrick_reinforced",
-      "x": 0.0,
-      "y": 6.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 3.0,
+      "shape": "rsquare",
       "dependencies": [
         "419E41AB89E3F6CB"
       ],
@@ -464,7 +480,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "0C9B977C2015156D",
@@ -472,8 +489,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:blastfurnace_preheater",
-      "x": 2.0,
-      "y": 6.0,
+      "x": 3.35,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "5083CE378936A8BE"
@@ -487,7 +504,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0504E9F7C27B9475",
@@ -495,8 +513,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:alloybrick",
-      "x": 4.0,
-      "y": 6.0,
+      "x": 4.9,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "0C9B977C2015156D"
@@ -510,7 +528,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "287F4B5BF099F4F9",
@@ -518,8 +537,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:ingot_electrum",
-      "x": 6.0,
-      "y": 6.0,
+      "x": 6.45,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "0504E9F7C27B9475"
@@ -539,7 +558,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "64AC7AEB079BFD9E",
@@ -548,7 +568,7 @@
       "description": [],
       "icon": "immersiveengineering:ingot_constantan",
       "x": 8.0,
-      "y": 6.0,
+      "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
         "287F4B5BF099F4F9"
@@ -574,7 +594,8 @@
           "item": "minecraft:gold_ingot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "0F2F4296CFD3817F",
@@ -584,9 +605,9 @@
         "Prepare common construction components in batches. Leave maintenance space around every multiblock."
       ],
       "icon": "immersiveengineering:plate_iron",
-      "x": 0.0,
-      "y": 9.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 5.35,
+      "shape": "rsquare",
       "dependencies": [
         "773EB9D78D844688"
       ],
@@ -605,7 +626,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "63BA833561CE6374",
@@ -613,8 +635,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:component_iron",
-      "x": 2.0,
-      "y": 9.0,
+      "x": 3.35,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "0F2F4296CFD3817F"
@@ -628,7 +650,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4148AA2F3C56859B",
@@ -636,8 +659,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:light_engineering",
-      "x": 4.0,
-      "y": 9.0,
+      "x": 4.9,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "63BA833561CE6374"
@@ -651,7 +674,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "68672A102C4606BF",
@@ -659,8 +683,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:rs_engineering",
-      "x": 6.0,
-      "y": 9.0,
+      "x": 6.45,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "4148AA2F3C56859B"
@@ -680,7 +704,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "4B3051743BF63D85",
@@ -689,7 +714,7 @@
       "description": [],
       "icon": "immersiveengineering:component_steel",
       "x": 8.0,
-      "y": 9.0,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "68672A102C4606BF"
@@ -703,7 +728,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6299E3223A69F574",
@@ -711,8 +737,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:heavy_engineering",
-      "x": 10.0,
-      "y": 9.0,
+      "x": 9.55,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "4B3051743BF63D85"
@@ -726,7 +752,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4D8DB3FC152ACE48",
@@ -734,8 +761,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:steel_scaffolding_standard",
-      "x": 12.0,
-      "y": 9.0,
+      "x": 9.55,
+      "y": 6.9,
       "shape": "hexagon",
       "dependencies": [
         "6299E3223A69F574"
@@ -761,7 +788,8 @@
           "item": "minecraft:quartz",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "4DA5A0F87930E73C",
@@ -771,9 +799,9 @@
         "Build a visible route from input to storage. Guard against overflow before connecting a machine that produces continuously."
       ],
       "icon": "immersiveengineering:conveyor_basic",
-      "x": 0.0,
-      "y": 12.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 9.25,
+      "shape": "rsquare",
       "dependencies": [
         "4148AA2F3C56859B"
       ],
@@ -792,7 +820,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "6B1F5C7E35B2636E",
@@ -800,8 +829,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:conveyor_extract",
-      "x": 2.0,
-      "y": 12.0,
+      "x": 3.35,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "4DA5A0F87930E73C"
@@ -815,7 +844,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "20BE1BC2480FDCB9",
@@ -823,8 +853,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:conveyor_dropper",
-      "x": 4.0,
-      "y": 12.0,
+      "x": 4.9,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "6B1F5C7E35B2636E"
@@ -838,7 +868,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6F751C6023756851",
@@ -846,8 +877,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:conveyor_vertical",
-      "x": 6.0,
-      "y": 12.0,
+      "x": 6.45,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "20BE1BC2480FDCB9"
@@ -867,7 +898,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "2F077B938B5041C9",
@@ -876,7 +908,7 @@
       "description": [],
       "icon": "immersiveengineering:conveyor_splitter",
       "x": 8.0,
-      "y": 12.0,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "6F751C6023756851"
@@ -890,7 +922,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "65B1BCF5D6FF2173",
@@ -898,8 +931,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:sorter",
-      "x": 10.0,
-      "y": 12.0,
+      "x": 9.55,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "2F077B938B5041C9"
@@ -913,7 +946,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5B22599283F97D08",
@@ -921,8 +955,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:item_batcher",
-      "x": 12.0,
-      "y": 12.0,
+      "x": 9.55,
+      "y": 10.8,
       "shape": "hexagon",
       "dependencies": [
         "65B1BCF5D6FF2173"
@@ -948,7 +982,8 @@
           "item": "minecraft:iron_ingot",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "2EF0E6C000809FBF",
@@ -958,9 +993,9 @@
         "Separate fuels and process fluids. Mark tanks clearly and keep a portable container for maintenance."
       ],
       "icon": "immersiveengineering:fluid_pipe",
-      "x": 0.0,
-      "y": 15.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 13.15,
+      "shape": "rsquare",
       "dependencies": [
         "4148AA2F3C56859B"
       ],
@@ -979,7 +1014,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "2C58D4E0C1472415",
@@ -987,8 +1023,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:fluid_pump",
-      "x": 2.0,
-      "y": 15.0,
+      "x": 3.35,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "2EF0E6C000809FBF"
@@ -1002,7 +1038,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1355F512CA28E9BA",
@@ -1010,8 +1047,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:wooden_barrel",
-      "x": 4.0,
-      "y": 15.0,
+      "x": 4.9,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "2C58D4E0C1472415"
@@ -1025,7 +1062,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0F7BBF725A85DDA8",
@@ -1033,8 +1071,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:metal_barrel",
-      "x": 6.0,
-      "y": 15.0,
+      "x": 6.45,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "1355F512CA28E9BA"
@@ -1054,7 +1092,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "4743B94024A3BA85",
@@ -1063,7 +1102,7 @@
       "description": [],
       "icon": "immersiveengineering:fluid_sorter",
       "x": 8.0,
-      "y": 15.0,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "0F7BBF725A85DDA8"
@@ -1077,7 +1116,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "73CF04849075FD28",
@@ -1085,8 +1125,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:jerrycan",
-      "x": 10.0,
-      "y": 15.0,
+      "x": 9.55,
+      "y": 13.15,
       "shape": "hexagon",
       "dependencies": [
         "4743B94024A3BA85"
@@ -1112,7 +1152,8 @@
           "item": "minecraft:redstone",
           "count": 16
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "7B803033B571DEA5",
@@ -1122,9 +1163,9 @@
         "Step voltage down before reaching lower-tier equipment. Place dangerous cables above normal paths and isolate the yard."
       ],
       "icon": "immersiveengineering:wirecoil_electrum",
-      "x": 0.0,
-      "y": 18.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 6.9,
+      "shape": "rsquare",
       "dependencies": [
         "23A206E68CB8A9F9"
       ],
@@ -1143,7 +1184,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "0E92AD3381BA8CE7",
@@ -1151,8 +1193,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:connector_mv",
-      "x": 2.0,
-      "y": 18.0,
+      "x": -3.35,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "7B803033B571DEA5"
@@ -1166,7 +1208,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "61ECF62AE0BE5DC0",
@@ -1174,8 +1217,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:capacitor_mv",
-      "x": 4.0,
-      "y": 18.0,
+      "x": -4.9,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "0E92AD3381BA8CE7"
@@ -1189,7 +1232,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2E11B4BC35911E53",
@@ -1197,8 +1241,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:transformer",
-      "x": 6.0,
-      "y": 18.0,
+      "x": -6.45,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "61ECF62AE0BE5DC0"
@@ -1218,7 +1262,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "2ECBDE1CE7EEB9BD",
@@ -1226,8 +1271,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:wirecoil_steel",
-      "x": 8.0,
-      "y": 18.0,
+      "x": -8.0,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "2E11B4BC35911E53"
@@ -1241,7 +1286,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2E13216F1F172204",
@@ -1249,8 +1295,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:connector_hv",
-      "x": 10.0,
-      "y": 18.0,
+      "x": -9.55,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "2ECBDE1CE7EEB9BD"
@@ -1264,7 +1310,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "48FDFD7038790102",
@@ -1272,8 +1319,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:capacitor_hv",
-      "x": 12.0,
-      "y": 18.0,
+      "x": -9.55,
+      "y": 8.45,
       "shape": "circle",
       "dependencies": [
         "2E13216F1F172204"
@@ -1293,7 +1340,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "14CAAACF374A05A8",
@@ -1301,8 +1349,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:transformer_hv",
-      "x": 14.0,
-      "y": 18.0,
+      "x": -8.0,
+      "y": 8.45,
       "shape": "hexagon",
       "dependencies": [
         "48FDFD7038790102"
@@ -1328,7 +1376,8 @@
           "item": "minecraft:gold_ingot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "35F79A2E981678A5",
@@ -1338,9 +1387,9 @@
         "The workbench turns prepared components into specialised equipment. Keep blueprints nearby and stock their common ingredients."
       ],
       "icon": "immersiveengineering:workbench",
-      "x": 0.0,
-      "y": 21.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 15.5,
+      "shape": "rsquare",
       "dependencies": [
         "4B3051743BF63D85"
       ],
@@ -1359,7 +1408,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "556605E3C7260CD1",
@@ -1367,8 +1417,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:blueprint",
-      "x": 2.0,
-      "y": 21.0,
+      "x": 3.35,
+      "y": 15.5,
       "shape": "circle",
       "dependencies": [
         "35F79A2E981678A5"
@@ -1382,7 +1432,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2719AD085E98A931",
@@ -1390,8 +1441,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:component_electronic",
-      "x": 4.0,
-      "y": 21.0,
+      "x": 4.9,
+      "y": 15.5,
       "shape": "circle",
       "dependencies": [
         "556605E3C7260CD1"
@@ -1405,7 +1456,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5CF86590444EA178",
@@ -1413,8 +1465,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:component_electronic_adv",
-      "x": 6.0,
-      "y": 21.0,
+      "x": 6.45,
+      "y": 15.5,
       "shape": "circle",
       "dependencies": [
         "2719AD085E98A931"
@@ -1434,7 +1486,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "6E584380621F334F",
@@ -1443,7 +1496,7 @@
       "description": [],
       "icon": "immersiveengineering:circuit_board",
       "x": 8.0,
-      "y": 21.0,
+      "y": 15.5,
       "shape": "circle",
       "dependencies": [
         "5CF86590444EA178"
@@ -1457,7 +1510,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2C49F8E8FEC7B6FC",
@@ -1465,8 +1519,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:logic_unit",
-      "x": 10.0,
-      "y": 21.0,
+      "x": 9.55,
+      "y": 15.5,
       "shape": "hexagon",
       "dependencies": [
         "6E584380621F334F"
@@ -1492,7 +1546,8 @@
           "item": "minecraft:quartz",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "38D253228F0A2C21",
@@ -1502,9 +1557,9 @@
         "Fuel and charge tools before leaving the yard. Keep spare consumables where they can be reached during a long job."
       ],
       "icon": "immersiveengineering:drill",
-      "x": 0.0,
-      "y": 24.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 17.85,
+      "shape": "rsquare",
       "dependencies": [
         "35F79A2E981678A5"
       ],
@@ -1523,7 +1578,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "5D3B02231CE4AA7F",
@@ -1531,8 +1587,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:drillhead_iron",
-      "x": 2.0,
-      "y": 24.0,
+      "x": 3.35,
+      "y": 17.85,
       "shape": "circle",
       "dependencies": [
         "38D253228F0A2C21"
@@ -1546,7 +1602,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "47510341EE2F144A",
@@ -1554,8 +1611,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:drillhead_steel",
-      "x": 4.0,
-      "y": 24.0,
+      "x": 4.9,
+      "y": 17.85,
       "shape": "circle",
       "dependencies": [
         "5D3B02231CE4AA7F"
@@ -1569,7 +1626,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "628D043817E54ED3",
@@ -1577,8 +1635,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:buzzsaw",
-      "x": 6.0,
-      "y": 24.0,
+      "x": 6.45,
+      "y": 17.85,
       "shape": "circle",
       "dependencies": [
         "47510341EE2F144A"
@@ -1598,7 +1656,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "368D8CF58B50D7AC",
@@ -1607,7 +1666,7 @@
       "description": [],
       "icon": "immersiveengineering:sawblade",
       "x": 8.0,
-      "y": 24.0,
+      "y": 17.85,
       "shape": "circle",
       "dependencies": [
         "628D043817E54ED3"
@@ -1621,7 +1680,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2D1279201490D585",
@@ -1629,8 +1689,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:powerpack",
-      "x": 10.0,
-      "y": 24.0,
+      "x": 9.55,
+      "y": 17.85,
       "shape": "circle",
       "dependencies": [
         "368D8CF58B50D7AC"
@@ -1644,7 +1704,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "634DD40A0FD43909",
@@ -1652,8 +1713,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:skyhook",
-      "x": 12.0,
-      "y": 24.0,
+      "x": 9.55,
+      "y": 19.4,
       "shape": "hexagon",
       "dependencies": [
         "2D1279201490D585"
@@ -1679,7 +1740,8 @@
           "item": "minecraft:iron_ingot",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "2B6213F99C46429E",
@@ -1689,9 +1751,9 @@
         "Garden cloches need water, power and suitable soil. Route their harvest into the processes that depend on it."
       ],
       "icon": "immersiveengineering:cloche",
-      "x": 0.0,
-      "y": 27.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 21.75,
+      "shape": "rsquare",
       "dependencies": [
         "4148AA2F3C56859B"
       ],
@@ -1710,7 +1772,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "2F9AD27520A1DFD3",
@@ -1718,8 +1781,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:fertilizer",
-      "x": 2.0,
-      "y": 27.0,
+      "x": 3.35,
+      "y": 21.75,
       "shape": "circle",
       "dependencies": [
         "2B6213F99C46429E"
@@ -1733,7 +1796,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1825301184DE90F7",
@@ -1741,8 +1805,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:seed",
-      "x": 4.0,
-      "y": 27.0,
+      "x": 4.9,
+      "y": 21.75,
       "shape": "circle",
       "dependencies": [
         "2F9AD27520A1DFD3"
@@ -1756,7 +1820,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "709D5EACC7C0EF45",
@@ -1764,8 +1829,8 @@
       "subtitle": "",
       "description": [],
       "icon": "immersiveengineering:hemp_fiber",
-      "x": 6.0,
-      "y": 27.0,
+      "x": 6.45,
+      "y": 21.75,
       "shape": "circle",
       "dependencies": [
         "1825301184DE90F7"
@@ -1785,7 +1850,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "0D0BA3A34B086632",
@@ -1794,7 +1860,7 @@
       "description": [],
       "icon": "immersiveengineering:hemp_fabric",
       "x": 8.0,
-      "y": 27.0,
+      "y": 21.75,
       "shape": "hexagon",
       "dependencies": [
         "709D5EACC7C0EF45"
@@ -1820,8 +1886,11 @@
           "item": "minecraft:redstone",
           "count": 16
         }
-      ]
+      ],
+      "size": 1.24
     }
   ],
+  "icon": "immersiveengineering:manual",
+  "autofocus_id": "10AF5B04F8E5FE9E",
   "filename": "wc_engineering"
 }

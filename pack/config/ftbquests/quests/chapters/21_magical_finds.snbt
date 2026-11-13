@@ -13,8 +13,8 @@
         "Enter the tower leaf structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 2.86,
-      "y": 2.86,
+      "x": -1.55,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "05F75DF5E126909F"
@@ -32,7 +32,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0BCB8382373E6B8D",
@@ -42,8 +43,8 @@
         "Enter the tower main structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 4.29,
-      "y": 2.86,
+      "x": 0.0,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "0DBD2099FD0949C1"
@@ -61,7 +62,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "052EF160CCE60B08",
@@ -71,9 +73,9 @@
         "Enter the tower sand structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 5.71,
-      "y": 2.86,
-      "shape": "circle",
+      "x": 1.55,
+      "y": 1.8,
+      "shape": "rsquare",
       "dependencies": [
         "0BCB8382373E6B8D"
       ],
@@ -90,7 +92,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "05F75DF5E126909F",
@@ -101,9 +104,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
-      "x": 1.43,
-      "y": 2.86,
-      "shape": "square",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -111,7 +114,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0A94DE3119EAF2F8",
@@ -121,8 +125,8 @@
         "Enter the arcane library structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 2.86,
-      "y": 14.29,
+      "x": 8.45,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "00094D6387FAA05F"
@@ -140,7 +144,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0F81617ECF65B98C",
@@ -150,8 +155,8 @@
         "Enter the nexus tower structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 4.29,
-      "y": 14.29,
+      "x": 10.0,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "0A94DE3119EAF2F8"
@@ -169,7 +174,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "035E986BE05A23CE",
@@ -179,9 +185,9 @@
         "Enter the ruined portal structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 5.71,
-      "y": 14.29,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 11.2,
+      "shape": "rsquare",
       "dependencies": [
         "0F81617ECF65B98C"
       ],
@@ -198,7 +204,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "00094D6387FAA05F",
@@ -209,9 +216,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
-      "x": 1.43,
-      "y": 14.29,
-      "shape": "square",
+      "x": 10.0,
+      "y": 9.4,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -219,7 +226,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0169FD0836B2ED53",
@@ -229,9 +237,9 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "ars_creo:starbuncle_wheel",
-      "x": 2.86,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -10.0,
+      "y": 1.8,
+      "shape": "rsquare",
       "dependencies": [
         "0BCDEBC40F89C051"
       ],
@@ -250,7 +258,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0BCDEBC40F89C051",
@@ -261,9 +270,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "ars_creo:starbuncle_wheel",
-      "x": 1.43,
+      "x": -10.0,
       "y": 0.0,
-      "shape": "square",
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -271,7 +280,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0722C80733C34D7D",
@@ -281,9 +291,9 @@
         "Enter the starbuncle shrine structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 2.86,
-      "y": 20.0,
-      "shape": "circle",
+      "x": -10.0,
+      "y": 20.6,
+      "shape": "rsquare",
       "dependencies": [
         "0E58A35E87685516"
       ],
@@ -300,7 +310,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0E58A35E87685516",
@@ -311,9 +322,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
-      "x": 1.43,
-      "y": 20.0,
-      "shape": "square",
+      "x": -10.0,
+      "y": 18.8,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -321,7 +332,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0A95B2AB3FAEA436",
@@ -331,8 +343,8 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "arseng:portable_source_cell_1k",
-      "x": 2.86,
-      "y": 15.71,
+      "x": -11.55,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "0BEF8248754EDEB6"
@@ -352,7 +364,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "07C13567DA86BB55",
@@ -362,8 +375,8 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "arseng:portable_source_cell_4k",
-      "x": 4.29,
-      "y": 15.71,
+      "x": -10.0,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "0A95B2AB3FAEA436"
@@ -383,7 +396,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "01D2F6F5A497CC3E",
@@ -393,9 +407,9 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "arseng:portable_source_cell_16k",
-      "x": 5.71,
-      "y": 15.71,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 15.9,
+      "shape": "rsquare",
       "dependencies": [
         "07C13567DA86BB55"
       ],
@@ -414,7 +428,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0BEF8248754EDEB6",
@@ -425,9 +440,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "arseng:portable_source_cell_1k",
-      "x": 1.43,
-      "y": 15.71,
-      "shape": "square",
+      "x": -10.0,
+      "y": 14.1,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -435,7 +450,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "07DE73635C01DE72",
@@ -445,9 +461,9 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "artifacts:eternal_steak",
-      "x": 2.86,
-      "y": 11.43,
-      "shape": "circle",
+      "x": -10.0,
+      "y": 11.2,
+      "shape": "rsquare",
       "dependencies": [
         "03D4624EB19DD491"
       ],
@@ -466,7 +482,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "03D4624EB19DD491",
@@ -477,9 +494,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "artifacts:eternal_steak",
-      "x": 1.43,
-      "y": 11.43,
-      "shape": "square",
+      "x": -10.0,
+      "y": 9.4,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -487,7 +504,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "06546B6C3DA785EE",
@@ -497,8 +515,8 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "cataclysm_spellbooks:frozen_tablet",
-      "x": 2.86,
-      "y": 18.57,
+      "x": 8.45,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "08FFC0C5F07C4489"
@@ -518,7 +536,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0F8D1FC07D00FE3D",
@@ -528,8 +547,8 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "cataclysm_spellbooks:void_staff",
-      "x": 4.29,
-      "y": 18.57,
+      "x": 10.0,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "06546B6C3DA785EE"
@@ -549,7 +568,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "07F732396621E778",
@@ -559,9 +579,9 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "cataclysm_spellbooks:coral_staff",
-      "x": 5.71,
-      "y": 18.57,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 15.9,
+      "shape": "rsquare",
       "dependencies": [
         "0F8D1FC07D00FE3D"
       ],
@@ -580,7 +600,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "08FFC0C5F07C4489",
@@ -591,9 +612,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "cataclysm_spellbooks:frozen_tablet",
-      "x": 1.43,
-      "y": 18.57,
-      "shape": "square",
+      "x": 10.0,
+      "y": 14.1,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -601,7 +622,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0240A6A0D439DCD7",
@@ -611,8 +633,8 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "enchanted:kettle",
-      "x": 2.86,
-      "y": 10.0,
+      "x": 8.45,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "0EE8B259B0AC1C75"
@@ -632,7 +654,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "02A9CDC3CEE91814",
@@ -642,8 +665,8 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "enchanted:poppet_shelf",
-      "x": 4.29,
-      "y": 10.0,
+      "x": 10.0,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "0240A6A0D439DCD7"
@@ -663,7 +686,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "07BD6AB114EEEF10",
@@ -673,9 +697,9 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "enchanted:altar",
-      "x": 5.71,
-      "y": 10.0,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 6.5,
+      "shape": "rsquare",
       "dependencies": [
         "02A9CDC3CEE91814"
       ],
@@ -694,7 +718,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0EE8B259B0AC1C75",
@@ -705,9 +730,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "enchanted:kettle",
-      "x": 1.43,
-      "y": 10.0,
-      "shape": "square",
+      "x": 10.0,
+      "y": 4.7,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -715,7 +740,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "053EA2F824AA42B6",
@@ -725,9 +751,9 @@
         "Enter the dark temple structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 2.86,
-      "y": 7.14,
-      "shape": "circle",
+      "x": 0.0,
+      "y": 6.5,
+      "shape": "rsquare",
       "dependencies": [
         "0495F37EF2224C9E"
       ],
@@ -744,7 +770,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0495F37EF2224C9E",
@@ -755,9 +782,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
-      "x": 1.43,
-      "y": 7.14,
-      "shape": "square",
+      "x": 0.0,
+      "y": 4.7,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -765,7 +792,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "01DDCDEFF6D24E68",
@@ -775,9 +803,9 @@
         "Visit this biome. Carry a compass and record a useful return point on your map."
       ],
       "icon": "minecraft:compass",
-      "x": 2.86,
-      "y": 21.43,
-      "shape": "circle",
+      "x": 0.0,
+      "y": 20.6,
+      "shape": "rsquare",
       "dependencies": [
         "0582E259B9C76B4D"
       ],
@@ -794,7 +822,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0582E259B9C76B4D",
@@ -805,9 +834,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:compass",
-      "x": 1.43,
-      "y": 21.43,
-      "shape": "square",
+      "x": 0.0,
+      "y": 18.8,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -815,7 +844,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0D5CDE6474CFDF1C",
@@ -825,8 +855,8 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "mysticalagriculture:wand",
-      "x": 2.86,
-      "y": 4.29,
+      "x": 8.45,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "0998E56D28B94B80"
@@ -846,7 +876,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0A9D18DA151A947C",
@@ -856,8 +887,8 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "ae2:engineering_processor_press",
-      "x": 4.29,
-      "y": 4.29,
+      "x": 10.0,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "0D5CDE6474CFDF1C"
@@ -877,7 +908,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "01AC65582F799796",
@@ -887,9 +919,9 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "mysticalagriculture:watering_can",
-      "x": 5.71,
-      "y": 4.29,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 1.8,
+      "shape": "rsquare",
       "dependencies": [
         "0A9D18DA151A947C"
       ],
@@ -908,7 +940,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0998E56D28B94B80",
@@ -919,9 +952,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "mysticalagriculture:wand",
-      "x": 1.43,
-      "y": 4.29,
-      "shape": "square",
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -929,7 +962,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0FB7F62B21A334E1",
@@ -939,9 +973,9 @@
         "Explore the features added by Origins (Forge) and record one useful discovery. This is a manual objective; mark it after trying the feature."
       ],
       "icon": "minecraft:writable_book",
-      "x": 2.86,
-      "y": 17.14,
-      "shape": "square",
+      "x": 0.0,
+      "y": 15.9,
+      "shape": "rsquare",
       "dependencies": [
         "0EA2B7123C4F36E3"
       ],
@@ -951,7 +985,8 @@
           "type": "checkmark",
           "title": "I have tested this feature"
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0EA2B7123C4F36E3",
@@ -962,9 +997,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:writable_book",
-      "x": 1.43,
-      "y": 17.14,
-      "shape": "square",
+      "x": 0.0,
+      "y": 14.1,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -972,7 +1007,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "04B377D5101C0D07",
@@ -982,8 +1018,8 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "reliquary:magicbane",
-      "x": 2.86,
-      "y": 5.71,
+      "x": -11.55,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "03C44060AB34EBD8"
@@ -1003,7 +1039,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "08E38ABE9F2C8FC4",
@@ -1013,8 +1050,8 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "reliquary:void_tear",
-      "x": 4.29,
-      "y": 5.71,
+      "x": -10.0,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "04B377D5101C0D07"
@@ -1034,7 +1071,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "00D1C416DD7535FB",
@@ -1044,9 +1082,9 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "reliquary:ender_staff",
-      "x": 5.71,
-      "y": 5.71,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 6.5,
+      "shape": "rsquare",
       "dependencies": [
         "08E38ABE9F2C8FC4"
       ],
@@ -1065,7 +1103,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "03C44060AB34EBD8",
@@ -1076,9 +1115,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "reliquary:magicbane",
-      "x": 1.43,
-      "y": 5.71,
-      "shape": "square",
+      "x": -10.0,
+      "y": 4.7,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1086,7 +1125,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0A7E0F737E44768F",
@@ -1096,8 +1136,8 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "silentgear:ring",
-      "x": 2.86,
-      "y": 24.29,
+      "x": 8.45,
+      "y": 20.6,
       "shape": "circle",
       "dependencies": [
         "07F24B377B0B2186"
@@ -1117,7 +1157,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "045B40D29F0F1133",
@@ -1127,8 +1168,8 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "silentgear:sword",
-      "x": 4.29,
-      "y": 24.29,
+      "x": 10.0,
+      "y": 20.6,
       "shape": "circle",
       "dependencies": [
         "0A7E0F737E44768F"
@@ -1148,7 +1189,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0305B711488B6C3B",
@@ -1158,9 +1200,9 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "silentgear:hammer",
-      "x": 5.71,
-      "y": 24.29,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 20.6,
+      "shape": "rsquare",
       "dependencies": [
         "045B40D29F0F1133"
       ],
@@ -1179,7 +1221,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "07F24B377B0B2186",
@@ -1190,9 +1233,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "silentgear:ring",
-      "x": 1.43,
-      "y": 24.29,
-      "shape": "square",
+      "x": 10.0,
+      "y": 18.8,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1200,7 +1243,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "062E51D26C217971",
@@ -1210,8 +1254,8 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "simplyswords:gold_sai",
-      "x": 2.86,
-      "y": 12.86,
+      "x": -1.55,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "061762B2E1EB2463"
@@ -1231,7 +1275,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "04142007C1D2D8FE",
@@ -1241,8 +1286,8 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "simplyswords:runic_sai",
-      "x": 4.29,
-      "y": 12.86,
+      "x": 0.0,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "062E51D26C217971"
@@ -1262,7 +1307,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "02F58A058C38DC7C",
@@ -1272,9 +1318,9 @@
         "Obtain this item and inspect its uses before investing rare materials in the rest of the branch."
       ],
       "icon": "simplyswords:gold_spear",
-      "x": 5.71,
-      "y": 12.86,
-      "shape": "circle",
+      "x": 1.55,
+      "y": 11.2,
+      "shape": "rsquare",
       "dependencies": [
         "04142007C1D2D8FE"
       ],
@@ -1293,7 +1339,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "061762B2E1EB2463",
@@ -1304,9 +1351,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "simplyswords:gold_sai",
-      "x": 1.43,
-      "y": 12.86,
-      "shape": "square",
+      "x": 0.0,
+      "y": 9.4,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1314,7 +1361,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "08194874FD935A17",
@@ -1324,8 +1372,8 @@
         "Enter the blood island structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 2.86,
-      "y": 25.71,
+      "x": -11.55,
+      "y": 25.3,
       "shape": "circle",
       "dependencies": [
         "0C0F0BC02224AB7D"
@@ -1343,7 +1391,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0088431F749119FE",
@@ -1353,8 +1402,8 @@
         "Enter the clay island structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 4.29,
-      "y": 25.71,
+      "x": -10.0,
+      "y": 25.3,
       "shape": "circle",
       "dependencies": [
         "08194874FD935A17"
@@ -1372,7 +1421,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0E5F26211192C8A5",
@@ -1382,9 +1432,9 @@
         "Enter the earth slime island structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 5.71,
-      "y": 25.71,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 25.3,
+      "shape": "rsquare",
       "dependencies": [
         "0088431F749119FE"
       ],
@@ -1401,7 +1451,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0C0F0BC02224AB7D",
@@ -1412,9 +1463,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
-      "x": 1.43,
-      "y": 25.71,
-      "shape": "square",
+      "x": -10.0,
+      "y": 23.5,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1422,8 +1473,10 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     }
   ],
-  "filename": "21_magical_finds"
+  "filename": "21_magical_finds",
+  "autofocus_id": "05F75DF5E126909F"
 }

@@ -13,9 +13,9 @@
         "Place a fluid extractor against suitable wood, then pipe latex into a processing unit with water and power. Dry rubber is the bridge to plastic machinery."
       ],
       "icon": "industrialforegoing:iron_gear",
-      "x": 0.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -4.95,
+      "y": 0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -32,7 +32,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.5
     },
     {
       "id": "66A5E1B88E72D316",
@@ -40,9 +41,9 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:machine_frame_pity",
-      "x": 2.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -3.3,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "546CA7643D66F6BE"
       ],
@@ -55,7 +56,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "66988966E046CCC5",
@@ -63,9 +65,9 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:fluid_extractor",
-      "x": 4.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -1.65,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "66A5E1B88E72D316"
       ],
@@ -78,7 +80,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "534EFCAF926B5193",
@@ -86,9 +89,9 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:latex_processing_unit",
-      "x": 6.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 0.0,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "66988966E046CCC5"
       ],
@@ -107,7 +110,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "424B7830BABFC412",
@@ -115,9 +119,9 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:tinydryrubber",
-      "x": 8.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 1.65,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "534EFCAF926B5193"
       ],
@@ -130,7 +134,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "429EEAF095576B09",
@@ -138,9 +143,9 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:dryrubber",
-      "x": 10.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 3.3,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "424B7830BABFC412"
       ],
@@ -153,7 +158,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "0EF0A0C25BD2ABDF",
@@ -161,9 +167,9 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:plastic",
-      "x": 12.0,
-      "y": 0.0,
-      "shape": "hexagon",
+      "x": 4.95,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "429EEAF095576B09"
       ],
@@ -188,7 +194,8 @@
           "item": "minecraft:iron_ingot",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "3A7D99A5815EF805",
@@ -198,9 +205,9 @@
         "The dissolution chamber makes advanced frames. Check the recipe's fluid as well as its item ingredients; an incorrect fluid can block the next craft."
       ],
       "icon": "industrialforegoing:gold_gear",
-      "x": 0.0,
+      "x": -1.8,
       "y": 3.0,
-      "shape": "circle",
+      "shape": "rsquare",
       "dependencies": [
         "0EF0A0C25BD2ABDF"
       ],
@@ -219,7 +226,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "3DDA95DB46D94F7D",
@@ -227,7 +235,7 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:dissolution_chamber",
-      "x": 2.0,
+      "x": -3.35,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -242,7 +250,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6DD4A34140091E78",
@@ -250,7 +259,7 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:machine_frame_simple",
-      "x": 4.0,
+      "x": -4.9,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -265,7 +274,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "694356FB369A77F2",
@@ -273,7 +283,7 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:diamond_gear",
-      "x": 6.0,
+      "x": -6.45,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -294,7 +304,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "576E1B58C596934D",
@@ -302,7 +313,7 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:machine_frame_advanced",
-      "x": 8.0,
+      "x": -8.0,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -317,7 +328,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5A6A94A428425530",
@@ -325,7 +337,7 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:machine_frame_supreme",
-      "x": 10.0,
+      "x": -9.55,
       "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
@@ -352,7 +364,8 @@
           "item": "minecraft:redstone",
           "count": 16
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "51F94A4DFC10A55C",
@@ -362,9 +375,9 @@
         "Keep planting, harvesting and fertilising in balance. Reserve seed stock and handle sludge so the harvest line can keep moving."
       ],
       "icon": "industrialforegoing:plant_sower",
-      "x": 0.0,
-      "y": 6.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 5.35,
+      "shape": "rsquare",
       "dependencies": [
         "6DD4A34140091E78"
       ],
@@ -383,7 +396,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "6D49752AE9413344",
@@ -391,8 +405,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:plant_gatherer",
-      "x": 2.0,
-      "y": 6.0,
+      "x": -3.35,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "51F94A4DFC10A55C"
@@ -406,7 +420,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "02EF9DBDD7A694F9",
@@ -414,8 +429,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:plant_fertilizer",
-      "x": 4.0,
-      "y": 6.0,
+      "x": -4.9,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "6D49752AE9413344"
@@ -429,7 +444,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "54A2578F6473A6F9",
@@ -437,8 +453,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:fertilizer",
-      "x": 6.0,
-      "y": 6.0,
+      "x": -6.45,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "02EF9DBDD7A694F9"
@@ -458,7 +474,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "420A26405EEE03BA",
@@ -466,8 +483,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:sludge_refiner",
-      "x": 8.0,
-      "y": 6.0,
+      "x": -8.0,
+      "y": 5.35,
       "shape": "hexagon",
       "dependencies": [
         "54A2578F6473A6F9"
@@ -493,7 +510,8 @@
           "item": "minecraft:gold_ingot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "099DEB5111D42812",
@@ -503,9 +521,9 @@
         "Separate the breeding pen from collection areas. Supply the right feed and leave space for newborn animals before automating the pasture."
       ],
       "icon": "industrialforegoing:animal_feeder",
-      "x": 0.0,
-      "y": 9.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 7.7,
+      "shape": "rsquare",
       "dependencies": [
         "6DD4A34140091E78"
       ],
@@ -524,7 +542,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "1966C636D6BCD93D",
@@ -532,8 +551,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:animal_baby_separator",
-      "x": 2.0,
-      "y": 9.0,
+      "x": -3.35,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "099DEB5111D42812"
@@ -547,7 +566,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4D35CFB4F9906FAD",
@@ -555,8 +575,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:animal_rancher",
-      "x": 4.0,
-      "y": 9.0,
+      "x": -4.9,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "1966C636D6BCD93D"
@@ -570,7 +590,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3AF41FD4ED706C9C",
@@ -578,8 +599,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:sewer",
-      "x": 6.0,
-      "y": 9.0,
+      "x": -6.45,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "4D35CFB4F9906FAD"
@@ -599,7 +620,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "1DBEE3515A36B0E9",
@@ -607,8 +629,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:sewage_composter",
-      "x": 8.0,
-      "y": 9.0,
+      "x": -8.0,
+      "y": 7.7,
       "shape": "hexagon",
       "dependencies": [
         "3AF41FD4ED706C9C"
@@ -634,7 +656,8 @@
           "item": "minecraft:quartz",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "3A0319D19B1EAB11",
@@ -644,9 +667,9 @@
         "Build a contained chamber with a clear shutdown control. Slaughter and crushing produce different resources; choose the machine that supplies the next process."
       ],
       "icon": "industrialforegoing:mob_imprisonment_tool",
-      "x": 0.0,
-      "y": 12.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 10.05,
+      "shape": "rsquare",
       "dependencies": [
         "6DD4A34140091E78"
       ],
@@ -665,7 +688,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "1DFD8ABE4E1B9133",
@@ -673,8 +697,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:mob_slaughter_factory",
-      "x": 2.0,
-      "y": 12.0,
+      "x": -3.35,
+      "y": 10.05,
       "shape": "circle",
       "dependencies": [
         "3A0319D19B1EAB11"
@@ -688,7 +712,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4E11BB365B6F8A20",
@@ -696,8 +721,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:pink_slime",
-      "x": 4.0,
-      "y": 12.0,
+      "x": -4.9,
+      "y": 10.05,
       "shape": "circle",
       "dependencies": [
         "1DFD8ABE4E1B9133"
@@ -711,7 +736,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6A70F18F65776AE3",
@@ -719,8 +745,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:mob_crusher",
-      "x": 6.0,
-      "y": 12.0,
+      "x": -6.45,
+      "y": 10.05,
       "shape": "circle",
       "dependencies": [
         "4E11BB365B6F8A20"
@@ -740,7 +766,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "6E30089ABDB80B05",
@@ -748,8 +775,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:mob_duplicator",
-      "x": 8.0,
-      "y": 12.0,
+      "x": -8.0,
+      "y": 10.05,
       "shape": "circle",
       "dependencies": [
         "6A70F18F65776AE3"
@@ -763,7 +790,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6C7AAD9BC1FA6800",
@@ -771,8 +799,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:mob_detector",
-      "x": 10.0,
-      "y": 12.0,
+      "x": -9.55,
+      "y": 10.05,
       "shape": "hexagon",
       "dependencies": [
         "6E30089ABDB80B05"
@@ -798,7 +826,8 @@
           "item": "minecraft:iron_ingot",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "5D734F7311E6D6AB",
@@ -808,9 +837,9 @@
         "Laser drills support a central base. Check the base's operating requirements and provide storage for every output before leaving it unattended."
       ],
       "icon": "industrialforegoing:ore_laser_base",
-      "x": 0.0,
-      "y": 15.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 12.4,
+      "shape": "rsquare",
       "dependencies": [
         "576E1B58C596934D"
       ],
@@ -829,7 +858,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "4FFC139161D6234C",
@@ -837,8 +867,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:laser_drill",
-      "x": 2.0,
-      "y": 15.0,
+      "x": -3.35,
+      "y": 12.4,
       "shape": "circle",
       "dependencies": [
         "5D734F7311E6D6AB"
@@ -852,7 +882,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5800708ECE67906E",
@@ -860,8 +891,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:fluid_laser_base",
-      "x": 4.0,
-      "y": 15.0,
+      "x": -4.9,
+      "y": 12.4,
       "shape": "circle",
       "dependencies": [
         "4FFC139161D6234C"
@@ -875,7 +906,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1BB556B4C6870DEA",
@@ -883,8 +915,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:fluid_sieving_machine",
-      "x": 6.0,
-      "y": 15.0,
+      "x": -6.45,
+      "y": 12.4,
       "shape": "circle",
       "dependencies": [
         "5800708ECE67906E"
@@ -904,7 +936,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "2EC623DFD0028795",
@@ -912,8 +945,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:washing_factory",
-      "x": 8.0,
-      "y": 15.0,
+      "x": -8.0,
+      "y": 12.4,
       "shape": "circle",
       "dependencies": [
         "1BB556B4C6870DEA"
@@ -927,7 +960,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "74504AC933D51D1A",
@@ -935,8 +969,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:fermentation_station",
-      "x": 10.0,
-      "y": 15.0,
+      "x": -9.55,
+      "y": 12.4,
       "shape": "hexagon",
       "dependencies": [
         "2EC623DFD0028795"
@@ -962,7 +996,8 @@
           "item": "minecraft:redstone",
           "count": 16
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "2B3F755D18C775EA",
@@ -972,9 +1007,9 @@
         "Separate extraction, storage and application. Keep valuable equipment out of the general input line and test the routing with an expendable item first."
       ],
       "icon": "industrialforegoing:enchantment_extractor",
-      "x": 0.0,
-      "y": 18.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 14.75,
+      "shape": "rsquare",
       "dependencies": [
         "576E1B58C596934D"
       ],
@@ -993,7 +1028,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "60B4145F83C64F01",
@@ -1001,8 +1037,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:enchantment_factory",
-      "x": 2.0,
-      "y": 18.0,
+      "x": -3.35,
+      "y": 14.75,
       "shape": "circle",
       "dependencies": [
         "2B3F755D18C775EA"
@@ -1016,7 +1052,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "47D8B3B5A5F9CA86",
@@ -1024,8 +1061,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:enchantment_applicator",
-      "x": 4.0,
-      "y": 18.0,
+      "x": -4.9,
+      "y": 14.75,
       "shape": "circle",
       "dependencies": [
         "60B4145F83C64F01"
@@ -1039,7 +1076,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7DD670DF47054469",
@@ -1047,8 +1085,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:enchantment_sorter",
-      "x": 6.0,
-      "y": 18.0,
+      "x": -6.45,
+      "y": 14.75,
       "shape": "hexagon",
       "dependencies": [
         "47D8B3B5A5F9CA86"
@@ -1074,7 +1112,8 @@
           "item": "minecraft:gold_ingot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "5BD8311B8EE8C5F8",
@@ -1084,9 +1123,9 @@
         "Lay out the route before adding extraction upgrades. Test each junction and give the final destination enough room to accept a full harvest."
       ],
       "icon": "industrialforegoing:conveyor",
-      "x": 0.0,
-      "y": 21.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 3.0,
+      "shape": "rsquare",
       "dependencies": [
         "0EF0A0C25BD2ABDF"
       ],
@@ -1105,7 +1144,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "426077ED03987216",
@@ -1113,8 +1153,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:conveyor_extraction_upgrade",
-      "x": 2.0,
-      "y": 21.0,
+      "x": 3.35,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "5BD8311B8EE8C5F8"
@@ -1128,7 +1168,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5A21C3A9EB315118",
@@ -1136,8 +1177,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:conveyor_insertion_upgrade",
-      "x": 4.0,
-      "y": 21.0,
+      "x": 4.9,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "426077ED03987216"
@@ -1151,7 +1192,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "042182A1E5C9A12B",
@@ -1159,8 +1201,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:conveyor_splitting_upgrade",
-      "x": 6.0,
-      "y": 21.0,
+      "x": 6.45,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "5A21C3A9EB315118"
@@ -1180,7 +1222,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "127DE7A940BAFCFF",
@@ -1189,7 +1232,7 @@
       "description": [],
       "icon": "industrialforegoing:conveyor_detection_upgrade",
       "x": 8.0,
-      "y": 21.0,
+      "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
         "042182A1E5C9A12B"
@@ -1215,7 +1258,8 @@
           "item": "minecraft:quartz",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "285FDCD9719C70CA",
@@ -1225,9 +1269,9 @@
         "A larger working area and faster processing both increase demand. Measure power, fluid and storage capacity before fitting the next upgrade."
       ],
       "icon": "industrialforegoing:range_addon1",
-      "x": 0.0,
-      "y": 24.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 17.1,
+      "shape": "rsquare",
       "dependencies": [
         "576E1B58C596934D"
       ],
@@ -1246,7 +1290,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "6007E76184BE5A0D",
@@ -1254,8 +1299,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:range_addon4",
-      "x": 2.0,
-      "y": 24.0,
+      "x": -3.35,
+      "y": 17.1,
       "shape": "circle",
       "dependencies": [
         "285FDCD9719C70CA"
@@ -1269,7 +1314,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "65754C5E4CCAB710",
@@ -1277,8 +1323,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:range_addon8",
-      "x": 4.0,
-      "y": 24.0,
+      "x": -4.9,
+      "y": 17.1,
       "shape": "circle",
       "dependencies": [
         "6007E76184BE5A0D"
@@ -1292,7 +1338,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5D34C3FA5D5C7AE6",
@@ -1300,8 +1347,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:speed_addon_1",
-      "x": 6.0,
-      "y": 24.0,
+      "x": -6.45,
+      "y": 17.1,
       "shape": "circle",
       "dependencies": [
         "65754C5E4CCAB710"
@@ -1321,7 +1368,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "76B3C39B9D57170E",
@@ -1329,8 +1377,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:speed_addon_2",
-      "x": 8.0,
-      "y": 24.0,
+      "x": -8.0,
+      "y": 17.1,
       "shape": "circle",
       "dependencies": [
         "5D34C3FA5D5C7AE6"
@@ -1344,7 +1392,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3459B27875FAD7C2",
@@ -1352,8 +1401,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:efficiency_addon_1",
-      "x": 10.0,
-      "y": 24.0,
+      "x": -9.55,
+      "y": 17.1,
       "shape": "circle",
       "dependencies": [
         "76B3C39B9D57170E"
@@ -1367,7 +1416,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "44D56B4AEA481D67",
@@ -1375,8 +1425,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:efficiency_addon_2",
-      "x": 12.0,
-      "y": 24.0,
+      "x": -9.55,
+      "y": 18.65,
       "shape": "circle",
       "dependencies": [
         "3459B27875FAD7C2"
@@ -1396,7 +1446,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "4C120F506CB7313E",
@@ -1404,8 +1455,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:processing_addon_1",
-      "x": 14.0,
-      "y": 24.0,
+      "x": -8.0,
+      "y": 18.65,
       "shape": "circle",
       "dependencies": [
         "44D56B4AEA481D67"
@@ -1419,7 +1470,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "63529237C26EF5C7",
@@ -1427,8 +1479,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:processing_addon_2",
-      "x": 16.0,
-      "y": 24.0,
+      "x": -6.45,
+      "y": 18.65,
       "shape": "hexagon",
       "dependencies": [
         "4C120F506CB7313E"
@@ -1454,7 +1506,8 @@
           "item": "minecraft:iron_ingot",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "4D95EB82042E7948",
@@ -1464,9 +1517,9 @@
         "Give valuable crops their own production line. Prepare the required inputs and compare output with the cost of keeping the bed running."
       ],
       "icon": "industrialforegoing:hydroponic_bed",
-      "x": 0.0,
-      "y": 27.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 21.0,
+      "shape": "rsquare",
       "dependencies": [
         "5A6A94A428425530"
       ],
@@ -1485,7 +1538,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "746277425BDFBD58",
@@ -1493,8 +1547,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:hydroponic_simulation_processor",
-      "x": 2.0,
-      "y": 27.0,
+      "x": -3.35,
+      "y": 21.0,
       "shape": "circle",
       "dependencies": [
         "4D95EB82042E7948"
@@ -1508,7 +1562,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6147859D97EB3272",
@@ -1516,8 +1571,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:simulated_hydroponic_bed",
-      "x": 4.0,
-      "y": 27.0,
+      "x": -4.9,
+      "y": 21.0,
       "shape": "circle",
       "dependencies": [
         "746277425BDFBD58"
@@ -1531,7 +1586,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "727A226A7E4C527C",
@@ -1539,8 +1595,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:spores_recreator",
-      "x": 6.0,
-      "y": 27.0,
+      "x": -6.45,
+      "y": 21.0,
       "shape": "hexagon",
       "dependencies": [
         "6147859D97EB3272"
@@ -1566,7 +1622,8 @@
           "item": "minecraft:redstone",
           "count": 16
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "2844DD685C1AA964",
@@ -1576,9 +1633,9 @@
         "Infinity equipment rewards a substantial energy investment. Charge tools at home and tune their working area before using them near a settlement."
       ],
       "icon": "industrialforegoing:infinity_charger",
-      "x": 0.0,
-      "y": 30.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 23.35,
+      "shape": "rsquare",
       "dependencies": [
         "5A6A94A428425530"
       ],
@@ -1597,7 +1654,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "55AF0D88E0DC6AB1",
@@ -1605,8 +1663,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:infinity_drill",
-      "x": 2.0,
-      "y": 30.0,
+      "x": -3.35,
+      "y": 23.35,
       "shape": "circle",
       "dependencies": [
         "2844DD685C1AA964"
@@ -1620,7 +1678,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "01DB59AC8D4CAF31",
@@ -1628,8 +1687,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:infinity_saw",
-      "x": 4.0,
-      "y": 30.0,
+      "x": -4.9,
+      "y": 23.35,
       "shape": "circle",
       "dependencies": [
         "55AF0D88E0DC6AB1"
@@ -1643,7 +1702,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3D862586B947B5DD",
@@ -1651,8 +1711,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:infinity_hammer",
-      "x": 6.0,
-      "y": 30.0,
+      "x": -6.45,
+      "y": 23.35,
       "shape": "circle",
       "dependencies": [
         "01DB59AC8D4CAF31"
@@ -1672,7 +1732,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "2C61F6AA56124E51",
@@ -1680,8 +1741,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:infinity_backpack",
-      "x": 8.0,
-      "y": 30.0,
+      "x": -8.0,
+      "y": 23.35,
       "shape": "hexagon",
       "dependencies": [
         "3D862586B947B5DD"
@@ -1707,7 +1768,8 @@
           "item": "minecraft:gold_ingot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "0CE32552C52F5982",
@@ -1717,9 +1779,9 @@
         "The mycelial reactor depends on its supporting generators. Plan renewable supplies for each fuel and keep every generator operating."
       ],
       "icon": "industrialforegoing:mycelial_furnace",
-      "x": 0.0,
-      "y": 33.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 25.7,
+      "shape": "rsquare",
       "dependencies": [
         "5A6A94A428425530"
       ],
@@ -1738,7 +1800,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "4D6DCA1F9DF257FE",
@@ -1746,8 +1809,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:mycelial_culinary",
-      "x": 2.0,
-      "y": 33.0,
+      "x": -3.35,
+      "y": 25.7,
       "shape": "circle",
       "dependencies": [
         "0CE32552C52F5982"
@@ -1761,7 +1824,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "39448DDB999075CE",
@@ -1769,8 +1833,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:mycelial_magma",
-      "x": 4.0,
-      "y": 33.0,
+      "x": -4.9,
+      "y": 25.7,
       "shape": "circle",
       "dependencies": [
         "4D6DCA1F9DF257FE"
@@ -1784,7 +1848,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7F41802E4DB0F848",
@@ -1792,8 +1857,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:mycelial_potion",
-      "x": 6.0,
-      "y": 33.0,
+      "x": -6.45,
+      "y": 25.7,
       "shape": "circle",
       "dependencies": [
         "39448DDB999075CE"
@@ -1813,7 +1878,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "70A548B5DDD7D4AE",
@@ -1821,8 +1887,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:mycelial_disenchantment",
-      "x": 8.0,
-      "y": 33.0,
+      "x": -8.0,
+      "y": 25.7,
       "shape": "circle",
       "dependencies": [
         "7F41802E4DB0F848"
@@ -1836,7 +1902,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2A46F5FBEA9DE54A",
@@ -1844,8 +1911,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:mycelial_ender",
-      "x": 10.0,
-      "y": 33.0,
+      "x": -9.55,
+      "y": 25.7,
       "shape": "circle",
       "dependencies": [
         "70A548B5DDD7D4AE"
@@ -1859,7 +1926,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2832290D17F9E1E7",
@@ -1867,8 +1935,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:mycelial_explosive",
-      "x": 12.0,
-      "y": 33.0,
+      "x": -9.55,
+      "y": 27.25,
       "shape": "circle",
       "dependencies": [
         "2A46F5FBEA9DE54A"
@@ -1888,7 +1956,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "18E461D3C256627B",
@@ -1896,8 +1965,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:mycelial_frosty",
-      "x": 14.0,
-      "y": 33.0,
+      "x": -8.0,
+      "y": 27.25,
       "shape": "hexagon",
       "dependencies": [
         "2832290D17F9E1E7"
@@ -1923,7 +1992,8 @@
           "item": "minecraft:quartz",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "016DFE639084AE48",
@@ -1933,9 +2003,9 @@
         "Complete the remaining generator network before starting the reactor. A missing fuel supply can interrupt the whole system; monitor each station separately."
       ],
       "icon": "industrialforegoing:mycelial_death",
-      "x": 0.0,
-      "y": 36.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 29.6,
+      "shape": "rsquare",
       "dependencies": [
         "18E461D3C256627B"
       ],
@@ -1954,7 +2024,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "5C6243810D8DB921",
@@ -1962,8 +2033,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:mycelial_halitosis",
-      "x": 2.0,
-      "y": 36.0,
+      "x": -3.35,
+      "y": 29.6,
       "shape": "circle",
       "dependencies": [
         "016DFE639084AE48"
@@ -1977,7 +2048,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3B5582D2AEF84DED",
@@ -1985,8 +2057,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:mycelial_meatallurgic",
-      "x": 4.0,
-      "y": 36.0,
+      "x": -4.9,
+      "y": 29.6,
       "shape": "circle",
       "dependencies": [
         "5C6243810D8DB921"
@@ -2000,7 +2072,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "27A2EC6973F690B1",
@@ -2008,8 +2081,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:mycelial_netherstar",
-      "x": 6.0,
-      "y": 36.0,
+      "x": -6.45,
+      "y": 29.6,
       "shape": "circle",
       "dependencies": [
         "3B5582D2AEF84DED"
@@ -2029,7 +2102,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "543657B64CF8C785",
@@ -2037,8 +2111,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:mycelial_pink",
-      "x": 8.0,
-      "y": 36.0,
+      "x": -8.0,
+      "y": 29.6,
       "shape": "circle",
       "dependencies": [
         "27A2EC6973F690B1"
@@ -2052,7 +2126,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3A60DA634A4BB043",
@@ -2060,8 +2135,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:mycelial_rocket",
-      "x": 10.0,
-      "y": 36.0,
+      "x": -9.55,
+      "y": 29.6,
       "shape": "circle",
       "dependencies": [
         "543657B64CF8C785"
@@ -2075,7 +2150,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1EEAE674C1F16717",
@@ -2083,8 +2159,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:mycelial_slimey",
-      "x": 12.0,
-      "y": 36.0,
+      "x": -9.55,
+      "y": 31.15,
       "shape": "circle",
       "dependencies": [
         "3A60DA634A4BB043"
@@ -2104,7 +2180,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "769FF63EAB218533",
@@ -2112,8 +2189,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:mycelial_crimed",
-      "x": 14.0,
-      "y": 36.0,
+      "x": -8.0,
+      "y": 31.15,
       "shape": "circle",
       "dependencies": [
         "1EEAE674C1F16717"
@@ -2127,7 +2204,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4E7E573E5D27872F",
@@ -2135,8 +2213,8 @@
       "subtitle": "",
       "description": [],
       "icon": "industrialforegoing:mycelial_reactor",
-      "x": 16.0,
-      "y": 36.0,
+      "x": -6.45,
+      "y": 31.15,
       "shape": "hexagon",
       "dependencies": [
         "769FF63EAB218533"
@@ -2162,8 +2240,11 @@
           "item": "minecraft:iron_ingot",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     }
   ],
+  "icon": "industrialforegoing:iron_gear",
+  "autofocus_id": "546CA7643D66F6BE",
   "filename": "wc_automation"
 }

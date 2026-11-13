@@ -4,7 +4,7 @@ A shared frontier of industry, spellcraft, exploration and settlement for Minecr
 
 ## Development status
 
-The pack contains 286 pinned mod files and 1,936 quests across 42 chapters. Discord Rich Presence adds two client mods when activated. Twenty-three major-mod chapters have authored progression branches. Automated release validation boots a fresh Forge world and checks quest IDs, item references, endgame recipes and server commands, then repeats the check after a clean restart.
+The pack contains 285 pinned mod files and 1,968 quests across 43 chapters. Discord Rich Presence adds two client mods when activated. The quest book includes optional workshop projects, boss hunts, planetary landings and a Twilight Forest campaign. Automated release validation boots a fresh Forge world and checks quest IDs, item references, endgame recipes and server commands, then repeats the check after a clean restart.
 
 The public server is `74.208.117.88:25565`, hosted in Pterodactyl through the existing proxy. Download the Windows launcher from [Releases](https://github.com/wombatjs/wombatcraft/releases/latest).
 
@@ -17,6 +17,8 @@ Click **Play** in Wombatcraft to check and install the current pack. If you're s
 ## Graphics and multiplayer
 
 Embeddium, ImmediatelyFast and Dynamic FPS are included. To enable Complementary Reimagined, open **Options → Video Settings → Shader Packs** and turn shaders on. Shaders are off by default.
+
+Open the FTB Chunks map for navigation, waypoints and land claims. Fresh installs bind it to **F7**. Existing installs keep their map key. Earlier installations may still have JourneyMap waypoints in the instance's `journeymap` folder.
 
 Members can set three homes with `/sethome`. Use `/home`, `/spawn`, `/tpa` and `/warp` to get around. FTB Chunks manages claims and Lightman’s Currency provides coins and player shops. Titles unlock through advancements, and Cosmetic Armor lets players change the appearance of their armor.
 

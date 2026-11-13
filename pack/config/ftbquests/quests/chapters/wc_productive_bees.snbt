@@ -13,9 +13,9 @@
         "Find wild bees in their preferred habitats. Prepare a hive and the correct flowering material before bringing them home."
       ],
       "icon": "productivebees:bee_cage",
-      "x": 0.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -4.12,
+      "y": 0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -32,7 +32,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.5
     },
     {
       "id": "2996B21F4F54BD73",
@@ -40,9 +41,9 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:nest_locator",
-      "x": 2.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -2.47,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "3EF41A7BD72FC8B7"
       ],
@@ -55,7 +56,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "14A8E6252D182781",
@@ -63,9 +65,9 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:honey_treat",
-      "x": 4.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "2996B21F4F54BD73"
       ],
@@ -78,7 +80,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "35A24D971A992C4D",
@@ -86,9 +89,9 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:sturdy_bee_cage",
-      "x": 6.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "14A8E6252D182781"
       ],
@@ -107,7 +110,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "3AF37C3A4871245B",
@@ -115,9 +119,9 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:advanced_oak_beehive",
-      "x": 8.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 2.47,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "35A24D971A992C4D"
       ],
@@ -130,7 +134,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "09420B03CB278896",
@@ -138,9 +143,9 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:expansion_box_oak",
-      "x": 10.0,
-      "y": 0.0,
-      "shape": "hexagon",
+      "x": 4.12,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "3AF37C3A4871245B"
       ],
@@ -165,7 +170,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "0902321970E5E412",
@@ -175,9 +181,9 @@
         "Process combs and collect the honey. Upgrade the line only after the hive has a steady supply of healthy workers."
       ],
       "icon": "productivebees:centrifuge",
-      "x": 0.0,
+      "x": -1.8,
       "y": 3.0,
-      "shape": "circle",
+      "shape": "rsquare",
       "dependencies": [
         "3AF37C3A4871245B"
       ],
@@ -196,7 +202,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "2341CFA93CF13D50",
@@ -204,7 +211,7 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:powered_centrifuge",
-      "x": 2.0,
+      "x": -3.35,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -219,7 +226,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "010EEF4D13E4C86C",
@@ -227,7 +235,7 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:heated_centrifuge",
-      "x": 4.0,
+      "x": -4.9,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -242,7 +250,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5C1EB6A1D2E65253",
@@ -250,7 +259,7 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:bottler",
-      "x": 6.0,
+      "x": -6.45,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -271,7 +280,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "359C9BD437121593",
@@ -279,7 +289,7 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:honey_generator",
-      "x": 8.0,
+      "x": -8.0,
       "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
@@ -306,7 +316,8 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "7BFBB37D723E30F8",
@@ -316,9 +327,9 @@
         "Control the bees' working area and keep it safe. A feeder makes the flowering layout easier to manage."
       ],
       "icon": "productivebees:feeder",
-      "x": 0.0,
-      "y": 6.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 3.0,
+      "shape": "rsquare",
       "dependencies": [
         "3AF37C3A4871245B"
       ],
@@ -337,7 +348,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "1E1F6668E9B54750",
@@ -345,8 +357,8 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:catcher",
-      "x": 2.0,
-      "y": 6.0,
+      "x": 3.35,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "7BFBB37D723E30F8"
@@ -360,7 +372,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4F4BF48457A2A8FF",
@@ -368,8 +381,8 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:upgrade_base",
-      "x": 4.0,
-      "y": 6.0,
+      "x": 4.9,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "1E1F6668E9B54750"
@@ -383,7 +396,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5B4FE095DB844B81",
@@ -391,8 +405,8 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:upgrade_range",
-      "x": 6.0,
-      "y": 6.0,
+      "x": 6.45,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "4F4BF48457A2A8FF"
@@ -412,7 +426,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "3A5385BC4FD99D94",
@@ -421,7 +436,7 @@
       "description": [],
       "icon": "productivebees:upgrade_filter",
       "x": 8.0,
-      "y": 6.0,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "5B4FE095DB844B81"
@@ -435,7 +450,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "251AA7AE7CB6B615",
@@ -443,8 +459,8 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:upgrade_anti_teleport",
-      "x": 10.0,
-      "y": 6.0,
+      "x": 9.55,
+      "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
         "3A5385BC4FD99D94"
@@ -470,7 +486,8 @@
           "item": "minecraft:amethyst_shard",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "3DCA919C0A39B829",
@@ -480,9 +497,9 @@
         "Keep breeding records and preserve useful traits. Test one new pairing before committing the whole apiary."
       ],
       "icon": "productivebees:breeding_chamber",
-      "x": 0.0,
-      "y": 9.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 5.35,
+      "shape": "rsquare",
       "dependencies": [
         "14A8E6252D182781"
       ],
@@ -501,7 +518,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "15F1B282422C75B2",
@@ -509,8 +527,8 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:incubator",
-      "x": 2.0,
-      "y": 9.0,
+      "x": -3.35,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "3DCA919C0A39B829"
@@ -524,7 +542,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "00406BB6C85C5931",
@@ -532,8 +551,8 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:gene_bottle",
-      "x": 4.0,
-      "y": 9.0,
+      "x": -4.9,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "15F1B282422C75B2"
@@ -547,7 +566,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "414763D7F372039D",
@@ -555,8 +575,8 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:gene",
-      "x": 6.0,
-      "y": 9.0,
+      "x": -6.45,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "00406BB6C85C5931"
@@ -576,7 +596,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "66584E21954AAED1",
@@ -584,8 +605,8 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:gene_indexer",
-      "x": 8.0,
-      "y": 9.0,
+      "x": -8.0,
+      "y": 5.35,
       "shape": "hexagon",
       "dependencies": [
         "414763D7F372039D"
@@ -611,7 +632,8 @@
           "item": "minecraft:golden_carrot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "6BA28ACB8DDBA741",
@@ -621,9 +643,9 @@
         "Expand the processing line alongside the hives. Simulated production still needs the correct arrangement and supplies."
       ],
       "icon": "productivebees:upgrade_productivity",
-      "x": 0.0,
-      "y": 12.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 5.35,
+      "shape": "rsquare",
       "dependencies": [
         "4F4BF48457A2A8FF"
       ],
@@ -642,7 +664,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "33476CCE1B93AB5E",
@@ -650,8 +673,8 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:upgrade_productivity_2",
-      "x": 2.0,
-      "y": 12.0,
+      "x": 3.35,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "6BA28ACB8DDBA741"
@@ -665,7 +688,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2BE17959A9D1F86C",
@@ -673,8 +697,8 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:upgrade_productivity_3",
-      "x": 4.0,
-      "y": 12.0,
+      "x": 4.9,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "33476CCE1B93AB5E"
@@ -688,7 +712,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0C21F90F65D6909D",
@@ -696,8 +721,8 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:upgrade_productivity_4",
-      "x": 6.0,
-      "y": 12.0,
+      "x": 6.45,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "2BE17959A9D1F86C"
@@ -717,7 +742,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "75EFC667D090B46D",
@@ -726,7 +752,7 @@
       "description": [],
       "icon": "productivebees:upgrade_simulator",
       "x": 8.0,
-      "y": 12.0,
+      "y": 5.35,
       "shape": "hexagon",
       "dependencies": [
         "0C21F90F65D6909D"
@@ -752,7 +778,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "6CA750D40D2CDB38",
@@ -762,9 +789,9 @@
         "Some bees belong to distant and dangerous places. Prepare their habitats before beginning the expedition."
       ],
       "icon": "productivebees:nether_quartz_nest",
-      "x": 0.0,
-      "y": 15.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 7.7,
+      "shape": "rsquare",
       "dependencies": [
         "2996B21F4F54BD73"
       ],
@@ -783,7 +810,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "3943F46BCCE09322",
@@ -791,8 +819,8 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:nether_gold_nest",
-      "x": 2.0,
-      "y": 15.0,
+      "x": -3.35,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "6CA750D40D2CDB38"
@@ -806,7 +834,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "747A292A769F372F",
@@ -814,8 +843,8 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:soul_sand_nest",
-      "x": 4.0,
-      "y": 15.0,
+      "x": -4.9,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "3943F46BCCE09322"
@@ -829,7 +858,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7FE61DD29F32DCD2",
@@ -837,8 +867,8 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:end_stone_nest",
-      "x": 6.0,
-      "y": 15.0,
+      "x": -6.45,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "747A292A769F372F"
@@ -858,7 +888,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "60CFCD55D34BBB00",
@@ -866,8 +897,8 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:obsidian_nest",
-      "x": 8.0,
-      "y": 15.0,
+      "x": -8.0,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "7FE61DD29F32DCD2"
@@ -881,7 +912,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "74B5F4DCC372DFF2",
@@ -889,8 +921,8 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:dragon_egg_hive",
-      "x": 10.0,
-      "y": 15.0,
+      "x": -9.55,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "60CFCD55D34BBB00"
@@ -904,7 +936,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "626C62717AB9445B",
@@ -912,8 +945,8 @@
       "subtitle": "",
       "description": [],
       "icon": "productivebees:draconic_dust",
-      "x": 12.0,
-      "y": 15.0,
+      "x": -9.55,
+      "y": 9.25,
       "shape": "hexagon",
       "dependencies": [
         "74B5F4DCC372DFF2"
@@ -939,8 +972,11 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     }
   ],
+  "icon": "productivebees:bee_cage",
+  "autofocus_id": "3EF41A7BD72FC8B7",
   "filename": "wc_productive_bees"
 }

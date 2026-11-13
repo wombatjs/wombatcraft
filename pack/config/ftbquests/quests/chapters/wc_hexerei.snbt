@@ -13,9 +13,9 @@
         "Plant a varied herb garden and dry its harvest. Keep a labelled supply near the cauldron."
       ],
       "icon": "hexerei:book_of_shadows",
-      "x": 0.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -5.77,
+      "y": 0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -32,7 +32,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.5
     },
     {
       "id": "5251CFE835C70403",
@@ -40,9 +41,9 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:sage",
-      "x": 2.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -4.12,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "7B8CC4EA2F00EAAF"
       ],
@@ -55,7 +56,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "710D16B68787C79A",
@@ -63,9 +65,9 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:belladonna_flowers",
-      "x": 4.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -2.47,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "5251CFE835C70403"
       ],
@@ -78,7 +80,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "19F39ABABA57EB12",
@@ -86,9 +89,9 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:mandrake_root",
-      "x": 6.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "710D16B68787C79A"
       ],
@@ -107,7 +110,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "788539EB592E7FF3",
@@ -115,9 +119,9 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:mugwort_flowers",
-      "x": 8.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "19F39ABABA57EB12"
       ],
@@ -130,7 +134,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "5E247FD5410E6917",
@@ -138,9 +143,9 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:yellow_dock_flowers",
-      "x": 10.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 2.47,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "788539EB592E7FF3"
       ],
@@ -153,7 +158,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "5D0F1774F629F7BF",
@@ -161,9 +167,9 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:herb_drying_rack",
-      "x": 12.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 4.12,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "5E247FD5410E6917"
       ],
@@ -182,7 +188,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "720DA1FEA6911657",
@@ -190,9 +197,9 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:herb_jar",
-      "x": 14.0,
-      "y": 0.0,
-      "shape": "hexagon",
+      "x": 5.77,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "5D0F1774F629F7BF"
       ],
@@ -217,7 +224,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "7D7D1D7FB9E6AAB7",
@@ -227,9 +235,9 @@
         "Work through the book's mixtures with the right heat and ingredients. Prepare small batches before filling the shelves."
       ],
       "icon": "hexerei:mixing_cauldron",
-      "x": 0.0,
+      "x": -1.8,
       "y": 3.0,
-      "shape": "circle",
+      "shape": "rsquare",
       "dependencies": [
         "720DA1FEA6911657"
       ],
@@ -248,7 +256,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "6E66EBF7B16DD555",
@@ -256,7 +265,7 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:pestle_and_mortar",
-      "x": 2.0,
+      "x": -3.35,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -271,7 +280,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3D06BD944F2AD8DC",
@@ -279,7 +289,7 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:dried_sage",
-      "x": 4.0,
+      "x": -4.9,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -294,7 +304,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2A98E40429650FA6",
@@ -302,7 +313,7 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:sage_bundle",
-      "x": 6.0,
+      "x": -6.45,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -323,7 +334,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "14E0B5E3ACD4B6F9",
@@ -331,7 +343,7 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:sage_burning_plate",
-      "x": 8.0,
+      "x": -8.0,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -346,7 +358,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5B5FEB3DF219B5E4",
@@ -354,7 +367,7 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:moon_dust",
-      "x": 10.0,
+      "x": -9.55,
       "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
@@ -381,7 +394,8 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "49CCFB3CC2E1B775",
@@ -391,9 +405,9 @@
         "Dip candles and prepare wax in a dedicated work area. Keep ingredients close enough to compare each mixture."
       ],
       "icon": "hexerei:animal_fat",
-      "x": 0.0,
-      "y": 6.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 5.35,
+      "shape": "rsquare",
       "dependencies": [
         "7D7D1D7FB9E6AAB7"
       ],
@@ -412,7 +426,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "7FB23F778D6BD7D4",
@@ -420,8 +435,8 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:tallow_bottle",
-      "x": 2.0,
-      "y": 6.0,
+      "x": -3.35,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "49CCFB3CC2E1B775"
@@ -435,7 +450,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "617CBC5BCB2818E0",
@@ -443,8 +459,8 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:candle",
-      "x": 4.0,
-      "y": 6.0,
+      "x": -4.9,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "7FB23F778D6BD7D4"
@@ -458,7 +474,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6D011AACCBF238EA",
@@ -466,8 +483,8 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:candle_dipper",
-      "x": 6.0,
-      "y": 6.0,
+      "x": -6.45,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "617CBC5BCB2818E0"
@@ -487,7 +504,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "718AA1D7BD463515",
@@ -495,8 +513,8 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:wax_blend",
-      "x": 8.0,
-      "y": 6.0,
+      "x": -8.0,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "6D011AACCBF238EA"
@@ -510,7 +528,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "35AB5EE9A73AA527",
@@ -518,8 +537,8 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:waxing_kit",
-      "x": 10.0,
-      "y": 6.0,
+      "x": -9.55,
+      "y": 5.35,
       "shape": "hexagon",
       "dependencies": [
         "718AA1D7BD463515"
@@ -545,7 +564,8 @@
           "item": "minecraft:amethyst_shard",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "11BEB65F9ACA2A0C",
@@ -555,9 +575,9 @@
         "Fit a brush before taking flight. Test handling over safe ground and keep the whistle at hand."
       ],
       "icon": "hexerei:broom_brush",
-      "x": 0.0,
-      "y": 9.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 7.7,
+      "shape": "rsquare",
       "dependencies": [
         "5B5FEB3DF219B5E4"
       ],
@@ -576,7 +596,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "3843B20EE811BE4C",
@@ -584,8 +605,8 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:mahogany_broom",
-      "x": 2.0,
-      "y": 9.0,
+      "x": -3.35,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "11BEB65F9ACA2A0C"
@@ -599,7 +620,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "32150C581E96A005",
@@ -607,8 +629,8 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:broom_whistle",
-      "x": 4.0,
-      "y": 9.0,
+      "x": -4.9,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "3843B20EE811BE4C"
@@ -622,7 +644,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7E6574EFA73E9E73",
@@ -630,8 +653,8 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:broom_seat",
-      "x": 6.0,
-      "y": 9.0,
+      "x": -6.45,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "32150C581E96A005"
@@ -651,7 +674,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "363DFE8A1256EA23",
@@ -659,8 +683,8 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:herb_enhanced_broom_brush",
-      "x": 8.0,
-      "y": 9.0,
+      "x": -8.0,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "7E6574EFA73E9E73"
@@ -674,7 +698,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "37E88380B3A1787B",
@@ -682,8 +707,8 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:broom_waterproof_tip",
-      "x": 10.0,
-      "y": 9.0,
+      "x": -9.55,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "363DFE8A1256EA23"
@@ -697,7 +722,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "60702A52F14C21FC",
@@ -705,8 +731,8 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:broom_netherite_tip",
-      "x": 12.0,
-      "y": 9.0,
+      "x": -9.55,
+      "y": 9.25,
       "shape": "hexagon",
       "dependencies": [
         "37E88380B3A1787B"
@@ -732,7 +758,8 @@
           "item": "minecraft:golden_carrot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "36ADDAB073F03BC7",
@@ -742,9 +769,9 @@
         "Prepare both ends of a delivery route. Test a small parcel before trusting the post with valuable supplies."
       ],
       "icon": "hexerei:crow_flute",
-      "x": 0.0,
-      "y": 12.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 11.6,
+      "shape": "rsquare",
       "dependencies": [
         "7D7D1D7FB9E6AAB7"
       ],
@@ -763,7 +790,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "2AE8D880A7E615E8",
@@ -771,8 +799,8 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:courier_letter",
-      "x": 2.0,
-      "y": 12.0,
+      "x": -3.35,
+      "y": 11.6,
       "shape": "circle",
       "dependencies": [
         "36ADDAB073F03BC7"
@@ -786,7 +814,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3D7B6909ECFB150A",
@@ -794,8 +823,8 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:courier_package",
-      "x": 4.0,
-      "y": 12.0,
+      "x": -4.9,
+      "y": 11.6,
       "shape": "circle",
       "dependencies": [
         "2AE8D880A7E615E8"
@@ -809,7 +838,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "70B2620B738BA107",
@@ -817,8 +847,8 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:mahogany_courier_depot",
-      "x": 6.0,
-      "y": 12.0,
+      "x": -6.45,
+      "y": 11.6,
       "shape": "circle",
       "dependencies": [
         "3D7B6909ECFB150A"
@@ -838,7 +868,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "7E7BA91E9FC89E4A",
@@ -846,8 +877,8 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:crow_blank_amulet",
-      "x": 8.0,
-      "y": 12.0,
+      "x": -8.0,
+      "y": 11.6,
       "shape": "circle",
       "dependencies": [
         "70B2620B738BA107"
@@ -861,7 +892,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0B84EF06DCFEA906",
@@ -869,8 +901,8 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:crow_ankh_amulet",
-      "x": 10.0,
-      "y": 12.0,
+      "x": -9.55,
+      "y": 11.6,
       "shape": "hexagon",
       "dependencies": [
         "7E7BA91E9FC89E4A"
@@ -896,7 +928,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "573731F667F7BEC7",
@@ -906,9 +939,9 @@
         "Build a reading corner beside the workshop. Carry a satchel for gathering and leave space for unexpected finds."
       ],
       "icon": "hexerei:book_of_shadows_altar",
-      "x": 0.0,
-      "y": 15.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 3.0,
+      "shape": "rsquare",
       "dependencies": [
         "7B8CC4EA2F00EAAF"
       ],
@@ -927,7 +960,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "112B9E0AF5EF449F",
@@ -935,8 +969,8 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:crystal_ball",
-      "x": 2.0,
-      "y": 15.0,
+      "x": 3.35,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "573731F667F7BEC7"
@@ -950,7 +984,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2D7178D511175FED",
@@ -958,8 +993,8 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:dowsing_rod",
-      "x": 4.0,
-      "y": 15.0,
+      "x": 4.9,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "112B9E0AF5EF449F"
@@ -973,7 +1008,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6C5848319B070184",
@@ -981,8 +1017,8 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:small_satchel",
-      "x": 6.0,
-      "y": 15.0,
+      "x": 6.45,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "2D7178D511175FED"
@@ -1002,7 +1038,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "718724E5A234EAFD",
@@ -1011,7 +1048,7 @@
       "description": [],
       "icon": "hexerei:medium_satchel",
       "x": 8.0,
-      "y": 15.0,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "6C5848319B070184"
@@ -1025,7 +1062,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "07F9E0AC53873FE2",
@@ -1033,8 +1071,8 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:large_satchel",
-      "x": 10.0,
-      "y": 15.0,
+      "x": 9.55,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "718724E5A234EAFD"
@@ -1048,7 +1086,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "53362CE0D5551BEE",
@@ -1056,8 +1095,8 @@
       "subtitle": "",
       "description": [],
       "icon": "hexerei:ender_satchel",
-      "x": 12.0,
-      "y": 15.0,
+      "x": 9.55,
+      "y": 4.55,
       "shape": "hexagon",
       "dependencies": [
         "07F9E0AC53873FE2"
@@ -1083,8 +1122,11 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     }
   ],
+  "icon": "hexerei:book_of_shadows",
+  "autofocus_id": "7B8CC4EA2F00EAAF",
   "filename": "wc_hexerei"
 }

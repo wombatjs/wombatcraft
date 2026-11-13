@@ -13,9 +13,9 @@
         "Study draconic machinery before building it. Draconium begins the path, but its greater workings demand power and trophies from beyond the workshop."
       ],
       "icon": "draconicevolution:info_tablet",
-      "x": 0.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -2.47,
+      "y": 0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -32,7 +32,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.5
     },
     {
       "id": "23C1C2A2917EB0D2",
@@ -40,9 +41,9 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:draconium_ingot",
-      "x": 2.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "27045B649AF7B744"
       ],
@@ -55,7 +56,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "735E8E86B7C2E969",
@@ -63,9 +65,9 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:draconium_core",
-      "x": 4.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "23C1C2A2917EB0D2"
       ],
@@ -78,7 +80,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "55CA5ECBAA575D83",
@@ -86,9 +89,9 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:wyvern_core",
-      "x": 6.0,
-      "y": 0.0,
-      "shape": "hexagon",
+      "x": 2.47,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "735E8E86B7C2E969"
       ],
@@ -113,7 +116,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "1D5842409B7C92F9",
@@ -123,9 +127,9 @@
         "Arrange injectors around a crafting core with space for their beams. Supply power to the injectors and check their tier against the intended recipe."
       ],
       "icon": "draconicevolution:crafting_core",
-      "x": 0.0,
+      "x": -1.8,
       "y": 3.0,
-      "shape": "circle",
+      "shape": "rsquare",
       "dependencies": [
         "55CA5ECBAA575D83"
       ],
@@ -144,7 +148,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "02DD79B78AF930A1",
@@ -152,7 +157,7 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:basic_crafting_injector",
-      "x": 2.0,
+      "x": -3.35,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -167,7 +172,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "33018CC5D4CE0F56",
@@ -175,7 +181,7 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:wyvern_crafting_injector",
-      "x": 4.0,
+      "x": -4.9,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -190,7 +196,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1FE33060C0952EDE",
@@ -198,7 +205,7 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:awakened_crafting_injector",
-      "x": 6.0,
+      "x": -6.45,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -219,7 +226,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "4910396FD943F11A",
@@ -227,7 +235,7 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:chaotic_crafting_injector",
-      "x": 8.0,
+      "x": -8.0,
       "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
@@ -254,7 +262,8 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "07A541957084023B",
@@ -264,9 +273,9 @@
         "A dragon's heart is the foundation of awakened draconium. Prepare the fusion ingredients and energy reserve before beginning the craft."
       ],
       "icon": "draconicevolution:dragon_heart",
-      "x": 0.0,
-      "y": 6.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 5.35,
+      "shape": "rsquare",
       "dependencies": [
         "33018CC5D4CE0F56"
       ],
@@ -285,7 +294,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "35203DDD9853636F",
@@ -293,8 +303,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:awakened_draconium_ingot",
-      "x": 2.0,
-      "y": 6.0,
+      "x": -3.35,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "07A541957084023B"
@@ -308,7 +318,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "13D55D08B72C1CAF",
@@ -316,8 +327,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:awakened_core",
-      "x": 4.0,
-      "y": 6.0,
+      "x": -4.9,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "35203DDD9853636F"
@@ -331,7 +342,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1D812B7CCA7C5B08",
@@ -339,8 +351,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:draconic_energy_core",
-      "x": 6.0,
-      "y": 6.0,
+      "x": -6.45,
+      "y": 5.35,
       "shape": "hexagon",
       "dependencies": [
         "13D55D08B72C1CAF"
@@ -366,7 +378,8 @@
           "item": "minecraft:amethyst_shard",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "5A6A90042602782D",
@@ -376,9 +389,9 @@
         "Build a storage core with correctly placed stabilizers and pylons. Set transfer limits deliberately and test charging before connecting the whole settlement."
       ],
       "icon": "draconicevolution:energy_core",
-      "x": 0.0,
-      "y": 9.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 3.0,
+      "shape": "rsquare",
       "dependencies": [
         "735E8E86B7C2E969"
       ],
@@ -397,7 +410,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "39B37A707F71A698",
@@ -405,8 +419,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:energy_core_stabilizer",
-      "x": 2.0,
-      "y": 9.0,
+      "x": 3.35,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "5A6A90042602782D"
@@ -420,7 +434,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1AE59E527E627396",
@@ -428,8 +443,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:energy_pylon",
-      "x": 4.0,
-      "y": 9.0,
+      "x": 4.9,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "39B37A707F71A698"
@@ -443,7 +458,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6B2907A313AD6AF6",
@@ -451,8 +467,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:flux_gate",
-      "x": 6.0,
-      "y": 9.0,
+      "x": 6.45,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "1AE59E527E627396"
@@ -472,7 +488,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "145B0C82EE9E84CA",
@@ -481,7 +498,7 @@
       "description": [],
       "icon": "draconicevolution:energy_transfuser",
       "x": 8.0,
-      "y": 9.0,
+      "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
         "6B2907A313AD6AF6"
@@ -507,7 +524,8 @@
           "item": "minecraft:golden_carrot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "553A444423D50E9D",
@@ -517,9 +535,9 @@
         "Bind each crystal link and check its direction. Relay crystals bridge distance; wireless connections serve nearby machines without a cable at every face."
       ],
       "icon": "draconicevolution:crystal_binder",
-      "x": 0.0,
-      "y": 12.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 5.35,
+      "shape": "rsquare",
       "dependencies": [
         "735E8E86B7C2E969"
       ],
@@ -538,7 +556,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "50EE1667A4842006",
@@ -546,8 +565,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:basic_io_crystal",
-      "x": 2.0,
-      "y": 12.0,
+      "x": 3.35,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "553A444423D50E9D"
@@ -561,7 +580,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4FDE6FD5EC6619CD",
@@ -569,8 +589,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:basic_relay_crystal",
-      "x": 4.0,
-      "y": 12.0,
+      "x": 4.9,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "50EE1667A4842006"
@@ -584,7 +604,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5A26E45FCBB28608",
@@ -592,8 +613,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:basic_wireless_crystal",
-      "x": 6.0,
-      "y": 12.0,
+      "x": 6.45,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "4FDE6FD5EC6619CD"
@@ -613,7 +634,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "244C9533573F3335",
@@ -622,7 +644,7 @@
       "description": [],
       "icon": "draconicevolution:wyvern_io_crystal",
       "x": 8.0,
-      "y": 12.0,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "5A26E45FCBB28608"
@@ -636,7 +658,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "057A149EF043BA06",
@@ -644,8 +667,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:wyvern_relay_crystal",
-      "x": 10.0,
-      "y": 12.0,
+      "x": 9.55,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "244C9533573F3335"
@@ -659,7 +682,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0B4EF81846C154D8",
@@ -667,8 +691,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:draconic_io_crystal",
-      "x": 12.0,
-      "y": 12.0,
+      "x": 9.55,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "057A149EF043BA06"
@@ -688,7 +712,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "45B93CE572300178",
@@ -696,8 +721,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:draconic_relay_crystal",
-      "x": 14.0,
-      "y": 12.0,
+      "x": 8.0,
+      "y": 6.9,
       "shape": "hexagon",
       "dependencies": [
         "0B4EF81846C154D8"
@@ -723,7 +748,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "120D384B1BF89F18",
@@ -733,9 +759,9 @@
         "Build the equipment and its modules as a system. Charge it fully and test the shield before relying on it during a difficult fight."
       ],
       "icon": "draconicevolution:wyvern_capacitor",
-      "x": 0.0,
-      "y": 15.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 9.25,
+      "shape": "rsquare",
       "dependencies": [
         "55CA5ECBAA575D83"
       ],
@@ -754,7 +780,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "26AEA93A3ECA38CC",
@@ -762,8 +789,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:wyvern_pickaxe",
-      "x": 2.0,
-      "y": 15.0,
+      "x": 3.35,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "120D384B1BF89F18"
@@ -777,7 +804,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7DC9B9AC1E7DFB00",
@@ -785,8 +813,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:wyvern_sword",
-      "x": 4.0,
-      "y": 15.0,
+      "x": 4.9,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "26AEA93A3ECA38CC"
@@ -800,7 +828,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "50BD8269B52C56D7",
@@ -808,8 +837,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:wyvern_bow",
-      "x": 6.0,
-      "y": 15.0,
+      "x": 6.45,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "7DC9B9AC1E7DFB00"
@@ -829,7 +858,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "4736AE94EA660564",
@@ -838,7 +868,7 @@
       "description": [],
       "icon": "draconicevolution:wyvern_chestpiece",
       "x": 8.0,
-      "y": 15.0,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "50BD8269B52C56D7"
@@ -852,7 +882,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "173572D1BEB3470F",
@@ -860,8 +891,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:item_wyvern_energy",
-      "x": 10.0,
-      "y": 15.0,
+      "x": 9.55,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "4736AE94EA660564"
@@ -875,7 +906,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4F23B79A08FC3840",
@@ -883,8 +915,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:item_wyvern_shield_control",
-      "x": 12.0,
-      "y": 15.0,
+      "x": 9.55,
+      "y": 10.8,
       "shape": "circle",
       "dependencies": [
         "173572D1BEB3470F"
@@ -904,7 +936,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "362DF97AC7F33A3C",
@@ -912,8 +945,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:item_wyvern_shield_capacity",
-      "x": 14.0,
-      "y": 15.0,
+      "x": 8.0,
+      "y": 10.8,
       "shape": "hexagon",
       "dependencies": [
         "4F23B79A08FC3840"
@@ -939,7 +972,8 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "2901DC40D2176EE4",
@@ -949,9 +983,9 @@
         "Awakened equipment supports more demanding modules. Balance energy, movement and defence instead of filling every space with damage upgrades."
       ],
       "icon": "draconicevolution:draconic_capacitor",
-      "x": 0.0,
-      "y": 18.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 7.7,
+      "shape": "rsquare",
       "dependencies": [
         "13D55D08B72C1CAF"
       ],
@@ -970,7 +1004,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "6435F1FEFBAEE870",
@@ -978,8 +1013,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:draconic_pickaxe",
-      "x": 2.0,
-      "y": 18.0,
+      "x": -3.35,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "2901DC40D2176EE4"
@@ -993,7 +1028,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4AD7049E2D87E568",
@@ -1001,8 +1037,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:draconic_sword",
-      "x": 4.0,
-      "y": 18.0,
+      "x": -4.9,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "6435F1FEFBAEE870"
@@ -1016,7 +1052,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6E6638AA9B6BF812",
@@ -1024,8 +1061,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:draconic_bow",
-      "x": 6.0,
-      "y": 18.0,
+      "x": -6.45,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "4AD7049E2D87E568"
@@ -1045,7 +1082,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "202BB65D2DD215A1",
@@ -1053,8 +1091,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:draconic_chestpiece",
-      "x": 8.0,
-      "y": 18.0,
+      "x": -8.0,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "6E6638AA9B6BF812"
@@ -1068,7 +1106,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0D97E6015979BEE5",
@@ -1076,8 +1115,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:draconic_staff",
-      "x": 10.0,
-      "y": 18.0,
+      "x": -9.55,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "202BB65D2DD215A1"
@@ -1091,7 +1130,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "703C0B491868F918",
@@ -1099,8 +1139,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:item_draconic_flight",
-      "x": 12.0,
-      "y": 18.0,
+      "x": -9.55,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "0D97E6015979BEE5"
@@ -1120,7 +1160,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "360034F620CF7546",
@@ -1128,8 +1169,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:item_draconic_undying",
-      "x": 14.0,
-      "y": 18.0,
+      "x": -8.0,
+      "y": 9.25,
       "shape": "hexagon",
       "dependencies": [
         "703C0B491868F918"
@@ -1155,7 +1196,8 @@
           "item": "minecraft:amethyst_shard",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "377CF0B8EEC484F8",
@@ -1165,9 +1207,9 @@
         "Mark safe destinations and preserve a route home. Keep arrival spaces clear, especially where other travellers share the same doorway."
       ],
       "icon": "draconicevolution:dislocator",
-      "x": 0.0,
-      "y": 21.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 13.15,
+      "shape": "rsquare",
       "dependencies": [
         "735E8E86B7C2E969"
       ],
@@ -1186,7 +1228,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "76183A595E2A9B15",
@@ -1194,8 +1237,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:dislocator_pedestal",
-      "x": 2.0,
-      "y": 21.0,
+      "x": 3.35,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "377CF0B8EEC484F8"
@@ -1209,7 +1252,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "38D53D834F2E784E",
@@ -1217,8 +1261,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:advanced_dislocator",
-      "x": 4.0,
-      "y": 21.0,
+      "x": 4.9,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "76183A595E2A9B15"
@@ -1232,7 +1276,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "46029F344D5ACB52",
@@ -1240,8 +1285,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:dislocator_receptacle",
-      "x": 6.0,
-      "y": 21.0,
+      "x": 6.45,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "38D53D834F2E784E"
@@ -1261,7 +1306,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "506752D7E819E414",
@@ -1270,7 +1316,7 @@
       "description": [],
       "icon": "draconicevolution:dislocation_inhibitor",
       "x": 8.0,
-      "y": 21.0,
+      "y": 13.15,
       "shape": "hexagon",
       "dependencies": [
         "46029F344D5ACB52"
@@ -1296,7 +1342,8 @@
           "item": "minecraft:golden_carrot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "0AE2C2187942A3E4",
@@ -1306,9 +1353,9 @@
         "Prepare carefully before seeking chaos. Carry a return route, a charged defensive system and equipment you can recover from a failed expedition."
       ],
       "icon": "draconicevolution:chaos_shard",
-      "x": 0.0,
-      "y": 24.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 11.6,
+      "shape": "rsquare",
       "dependencies": [
         "202BB65D2DD215A1"
       ],
@@ -1327,7 +1374,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "063754CBE3C02CEB",
@@ -1335,8 +1383,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:chaotic_core",
-      "x": 2.0,
-      "y": 24.0,
+      "x": -3.35,
+      "y": 11.6,
       "shape": "circle",
       "dependencies": [
         "0AE2C2187942A3E4"
@@ -1350,7 +1398,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4FE819C2ECC42360",
@@ -1358,8 +1407,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:chaotic_energy_core",
-      "x": 4.0,
-      "y": 24.0,
+      "x": -4.9,
+      "y": 11.6,
       "shape": "circle",
       "dependencies": [
         "063754CBE3C02CEB"
@@ -1373,7 +1422,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6351880C26A27005",
@@ -1381,8 +1431,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:chaotic_capacitor",
-      "x": 6.0,
-      "y": 24.0,
+      "x": -6.45,
+      "y": 11.6,
       "shape": "circle",
       "dependencies": [
         "4FE819C2ECC42360"
@@ -1402,7 +1452,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "01180082349CA01A",
@@ -1410,8 +1461,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:chaotic_chestpiece",
-      "x": 8.0,
-      "y": 24.0,
+      "x": -8.0,
+      "y": 11.6,
       "shape": "circle",
       "dependencies": [
         "6351880C26A27005"
@@ -1425,7 +1476,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "67F335B5AB7F6DA8",
@@ -1433,8 +1485,8 @@
       "subtitle": "",
       "description": [],
       "icon": "draconicevolution:chaotic_staff",
-      "x": 10.0,
-      "y": 24.0,
+      "x": -9.55,
+      "y": 11.6,
       "shape": "hexagon",
       "dependencies": [
         "01180082349CA01A"
@@ -1460,8 +1512,11 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.24
     }
   ],
+  "icon": "draconicevolution:info_tablet",
+  "autofocus_id": "27045B649AF7B744",
   "filename": "wc_draconic_evolution"
 }

@@ -13,9 +13,9 @@
         "Offer blood carefully and allow time to recover. The divination sigil reveals the altar's reserve and your soul network."
       ],
       "icon": "bloodmagic:sacrificialdagger",
-      "x": 0.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -3.3,
+      "y": 0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -32,7 +32,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.5
     },
     {
       "id": "5F531AE553948ECA",
@@ -40,9 +41,9 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:altar",
-      "x": 2.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -1.65,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "531D383CEC86FEC8"
       ],
@@ -55,7 +56,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "0DF31BC24DAD5B17",
@@ -63,9 +65,9 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:blankslate",
-      "x": 4.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 0.0,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "5F531AE553948ECA"
       ],
@@ -78,7 +80,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "1E3C9EF56C2481A6",
@@ -86,9 +89,9 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:weakbloodorb",
-      "x": 6.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 1.65,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "0DF31BC24DAD5B17"
       ],
@@ -107,7 +110,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "2701722D0B68D5B8",
@@ -115,9 +119,9 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:divinationsigil",
-      "x": 8.0,
-      "y": 0.0,
-      "shape": "hexagon",
+      "x": 3.3,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "1E3C9EF56C2481A6"
       ],
@@ -142,7 +146,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "43F02F6BAB8098E0",
@@ -152,9 +157,9 @@
         "Expand the altar structure before attempting higher-tier work. More speed is useful only when the blood supply can keep up."
       ],
       "icon": "bloodmagic:blankrune",
-      "x": 0.0,
+      "x": -1.8,
       "y": 3.0,
-      "shape": "circle",
+      "shape": "rsquare",
       "dependencies": [
         "1E3C9EF56C2481A6"
       ],
@@ -173,7 +178,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "7E198C2AB409BC1F",
@@ -181,7 +187,7 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:speedrune",
-      "x": 2.0,
+      "x": -3.35,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -196,7 +202,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "09A8320F407E2287",
@@ -204,7 +211,7 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:selfsacrificerune",
-      "x": 4.0,
+      "x": -4.9,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -219,7 +226,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "299384F7DFBE4754",
@@ -227,7 +235,7 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:reinforcedslate",
-      "x": 6.0,
+      "x": -6.45,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -248,7 +256,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "3AA86057B7E896C7",
@@ -256,7 +265,7 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:apprenticebloodorb",
-      "x": 8.0,
+      "x": -8.0,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -271,7 +280,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3783CAE3F3105D8B",
@@ -279,7 +289,7 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:daggerofsacrifice",
-      "x": 10.0,
+      "x": -9.55,
       "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
@@ -306,7 +316,8 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "5085511970A95F38",
@@ -316,9 +327,9 @@
         "Alchemy supplies reagents for sigils. Keep the bound orb available and watch the cost charged to your network."
       ],
       "icon": "bloodmagic:alchemytable",
-      "x": 0.0,
-      "y": 6.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 5.35,
+      "shape": "rsquare",
       "dependencies": [
         "3AA86057B7E896C7"
       ],
@@ -337,7 +348,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "2E96125620F20693",
@@ -345,8 +357,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:arcaneashes",
-      "x": 2.0,
-      "y": 6.0,
+      "x": -3.35,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "5085511970A95F38"
@@ -360,7 +372,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5AE40F96FEB66F49",
@@ -368,8 +381,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:reagentwater",
-      "x": 4.0,
-      "y": 6.0,
+      "x": -4.9,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "2E96125620F20693"
@@ -383,7 +396,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "616D8820E412AF6D",
@@ -391,8 +405,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:watersigil",
-      "x": 6.0,
-      "y": 6.0,
+      "x": -6.45,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "5AE40F96FEB66F49"
@@ -412,7 +426,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "52ECF06CACB11AA2",
@@ -420,8 +435,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:reagentlava",
-      "x": 8.0,
-      "y": 6.0,
+      "x": -8.0,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "616D8820E412AF6D"
@@ -435,7 +450,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6300F0906992DF06",
@@ -443,8 +459,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:lavasigil",
-      "x": 10.0,
-      "y": 6.0,
+      "x": -9.55,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "52ECF06CACB11AA2"
@@ -458,7 +474,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "262E2D3763C368C8",
@@ -466,8 +483,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:reagentair",
-      "x": 12.0,
-      "y": 6.0,
+      "x": -9.55,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "6300F0906992DF06"
@@ -487,7 +504,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "6F59C4657C35821D",
@@ -495,8 +513,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:airsigil",
-      "x": 14.0,
-      "y": 6.0,
+      "x": -8.0,
+      "y": 6.9,
       "shape": "hexagon",
       "dependencies": [
         "262E2D3763C368C8"
@@ -522,7 +540,8 @@
           "item": "minecraft:amethyst_shard",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "38AC0FF0812C60B3",
@@ -532,9 +551,9 @@
         "Snares begin the collection of demonic will. A sentient weapon and tartaric gems turn it into a renewable resource."
       ],
       "icon": "bloodmagic:soulsnare",
-      "x": 0.0,
-      "y": 9.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 3.0,
+      "shape": "rsquare",
       "dependencies": [
         "1E3C9EF56C2481A6"
       ],
@@ -553,7 +572,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "6005B041C278BC66",
@@ -561,8 +581,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:basemonstersoul",
-      "x": 2.0,
-      "y": 9.0,
+      "x": 3.35,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "38AC0FF0812C60B3"
@@ -576,7 +596,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5CDE6FF1034DD565",
@@ -584,8 +605,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:soulforge",
-      "x": 4.0,
-      "y": 9.0,
+      "x": 4.9,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "6005B041C278BC66"
@@ -599,7 +620,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3663F2AA3B3B413E",
@@ -607,8 +629,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:soulgempetty",
-      "x": 6.0,
-      "y": 9.0,
+      "x": 6.45,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "5CDE6FF1034DD565"
@@ -628,7 +650,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "6DD8414D5543FEA8",
@@ -637,7 +660,7 @@
       "description": [],
       "icon": "bloodmagic:soulsword",
       "x": 8.0,
-      "y": 9.0,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "3663F2AA3B3B413E"
@@ -651,7 +674,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "326A4982A84E02B2",
@@ -659,8 +683,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:soulgemlesser",
-      "x": 10.0,
-      "y": 9.0,
+      "x": 9.55,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "6DD8414D5543FEA8"
@@ -674,7 +698,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "01A236DBB801FBBA",
@@ -682,8 +707,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:soulgemcommon",
-      "x": 12.0,
-      "y": 9.0,
+      "x": 9.55,
+      "y": 4.55,
       "shape": "circle",
       "dependencies": [
         "326A4982A84E02B2"
@@ -703,7 +728,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "514FD16162FECC9D",
@@ -711,8 +737,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:soulgemgreater",
-      "x": 14.0,
-      "y": 9.0,
+      "x": 8.0,
+      "y": 4.55,
       "shape": "hexagon",
       "dependencies": [
         "01A236DBB801FBBA"
@@ -738,7 +764,8 @@
           "item": "minecraft:golden_carrot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "3DFF912074D9F0D7",
@@ -748,9 +775,9 @@
         "Upgrade the full altar structure at each tier. Keep a generous reserve before attempting a long infusion."
       ],
       "icon": "bloodmagic:infusedslate",
-      "x": 0.0,
-      "y": 12.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 9.25,
+      "shape": "rsquare",
       "dependencies": [
         "299384F7DFBE4754"
       ],
@@ -769,7 +796,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "676D6927041CBA80",
@@ -777,8 +805,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:magicianbloodorb",
-      "x": 2.0,
-      "y": 12.0,
+      "x": -3.35,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "3DFF912074D9F0D7"
@@ -792,7 +820,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "51B0BC28ED4AF730",
@@ -800,8 +829,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:bloodstonebrick",
-      "x": 4.0,
-      "y": 12.0,
+      "x": -4.9,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "676D6927041CBA80"
@@ -815,7 +844,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4B27E71D5AB60576",
@@ -823,8 +853,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:masterbloodorb",
-      "x": 6.0,
-      "y": 12.0,
+      "x": -6.45,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "51B0BC28ED4AF730"
@@ -844,7 +874,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "2C9EF328BF572355",
@@ -852,8 +883,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:etherealslate",
-      "x": 8.0,
-      "y": 12.0,
+      "x": -8.0,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "4B27E71D5AB60576"
@@ -867,7 +898,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "009D591A6B278D65",
@@ -875,8 +907,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:archmagebloodorb",
-      "x": 10.0,
-      "y": 12.0,
+      "x": -9.55,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "2C9EF328BF572355"
@@ -890,7 +922,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0BA2D2FA51A1AFE4",
@@ -898,8 +931,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:demonslate",
-      "x": 12.0,
-      "y": 12.0,
+      "x": -9.55,
+      "y": 10.8,
       "shape": "hexagon",
       "dependencies": [
         "009D591A6B278D65"
@@ -925,7 +958,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "277EE98B99D455ED",
@@ -935,9 +969,9 @@
         "The diviner lays out a ritual from supplied stones. Inspect its range and running cost before activation."
       ],
       "icon": "bloodmagic:ritualstone",
-      "x": 0.0,
-      "y": 15.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 13.15,
+      "shape": "rsquare",
       "dependencies": [
         "676D6927041CBA80"
       ],
@@ -956,7 +990,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "1B60DECFB988B7F4",
@@ -964,8 +999,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:masterritualstone",
-      "x": 2.0,
-      "y": 15.0,
+      "x": -3.35,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "277EE98B99D455ED"
@@ -979,7 +1014,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0E4B6920C1B87246",
@@ -987,8 +1023,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:ritualdiviner",
-      "x": 4.0,
-      "y": 15.0,
+      "x": -4.9,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "1B60DECFB988B7F4"
@@ -1002,7 +1038,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3ACD1A0B8968AC4F",
@@ -1010,8 +1047,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:activationcrystalweak",
-      "x": 6.0,
-      "y": 15.0,
+      "x": -6.45,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "0E4B6920C1B87246"
@@ -1031,7 +1068,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "76572DEC4A5618F1",
@@ -1039,8 +1077,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:ritualtinkerer",
-      "x": 8.0,
-      "y": 15.0,
+      "x": -8.0,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "3ACD1A0B8968AC4F"
@@ -1054,7 +1092,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "285FAEA052F3D0CE",
@@ -1062,8 +1101,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:duskscribetool",
-      "x": 10.0,
-      "y": 15.0,
+      "x": -9.55,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "76572DEC4A5618F1"
@@ -1077,7 +1116,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1224B97AEDF5AF11",
@@ -1085,8 +1125,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:ritualdivinerdusk",
-      "x": 12.0,
-      "y": 15.0,
+      "x": -9.55,
+      "y": 14.7,
       "shape": "circle",
       "dependencies": [
         "285FAEA052F3D0CE"
@@ -1106,7 +1146,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "258DFE8DD39EC870",
@@ -1114,8 +1155,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:activationcrystalawakened",
-      "x": 14.0,
-      "y": 15.0,
+      "x": -8.0,
+      "y": 14.7,
       "shape": "hexagon",
       "dependencies": [
         "1224B97AEDF5AF11"
@@ -1141,7 +1182,8 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "2DF5716C2D119001",
@@ -1151,9 +1193,9 @@
         "Living armour learns from your actions. Train it deliberately and preserve useful upgrades before changing its role."
       ],
       "icon": "bloodmagic:livinghelmet",
-      "x": 0.0,
-      "y": 18.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 6.9,
+      "shape": "rsquare",
       "dependencies": [
         "5CDE6FF1034DD565"
       ],
@@ -1172,7 +1214,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "3D5A457D0483D213",
@@ -1180,8 +1223,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:livingplate",
-      "x": 2.0,
-      "y": 18.0,
+      "x": 3.35,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "2DF5716C2D119001"
@@ -1195,7 +1238,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "282F1C39E023EC3B",
@@ -1203,8 +1247,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:livingleggings",
-      "x": 4.0,
-      "y": 18.0,
+      "x": 4.9,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "3D5A457D0483D213"
@@ -1218,7 +1262,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "537D3AD15314762C",
@@ -1226,8 +1271,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:livingboots",
-      "x": 6.0,
-      "y": 18.0,
+      "x": 6.45,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "282F1C39E023EC3B"
@@ -1247,7 +1292,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "0E88AEEA1BB5C353",
@@ -1256,7 +1302,7 @@
       "description": [],
       "icon": "bloodmagic:upgradetome",
       "x": 8.0,
-      "y": 18.0,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "537D3AD15314762C"
@@ -1270,7 +1316,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "128448F1E17DB4B9",
@@ -1278,8 +1325,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:upgradetrainer",
-      "x": 10.0,
-      "y": 18.0,
+      "x": 9.55,
+      "y": 6.9,
       "shape": "hexagon",
       "dependencies": [
         "0E88AEEA1BB5C353"
@@ -1305,7 +1352,8 @@
           "item": "minecraft:amethyst_shard",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "09A18FC210B0EC4E",
@@ -1315,9 +1363,9 @@
         "Crucibles release will into the surrounding area. Separate specialised crystal work so one process does not starve another."
       ],
       "icon": "bloodmagic:demoncrucible",
-      "x": 0.0,
-      "y": 21.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 9.25,
+      "shape": "rsquare",
       "dependencies": [
         "01A236DBB801FBBA"
       ],
@@ -1336,7 +1384,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "095B6E1FCD32F334",
@@ -1344,8 +1393,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:demoncrystallizer",
-      "x": 2.0,
-      "y": 21.0,
+      "x": 3.35,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "09A18FC210B0EC4E"
@@ -1359,7 +1408,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5CDB3933EA1946D6",
@@ -1367,8 +1417,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:rawdemoncrystal",
-      "x": 4.0,
-      "y": 21.0,
+      "x": 4.9,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "095B6E1FCD32F334"
@@ -1382,7 +1432,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6BAF77B705AE6705",
@@ -1390,8 +1441,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:steadfastdemoncrystal",
-      "x": 6.0,
-      "y": 21.0,
+      "x": 6.45,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "5CDB3933EA1946D6"
@@ -1411,7 +1462,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "22861CF7055A5E8D",
@@ -1420,7 +1472,7 @@
       "description": [],
       "icon": "bloodmagic:destructivedemoncrystal",
       "x": 8.0,
-      "y": 21.0,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "6BAF77B705AE6705"
@@ -1434,7 +1486,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1FB5A81721655253",
@@ -1442,8 +1495,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:vengefuldemoncrystal",
-      "x": 10.0,
-      "y": 21.0,
+      "x": 9.55,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "22861CF7055A5E8D"
@@ -1457,7 +1510,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "22F10E1514B0D39F",
@@ -1465,8 +1519,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:corrosivedemoncrystal",
-      "x": 12.0,
-      "y": 21.0,
+      "x": 9.55,
+      "y": 10.8,
       "shape": "hexagon",
       "dependencies": [
         "1FB5A81721655253"
@@ -1492,7 +1546,8 @@
           "item": "minecraft:golden_carrot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "0FE42E84614BF74E",
@@ -1502,9 +1557,9 @@
         "Prepare supplies before crossing into the dungeon. Bring its materials home to develop more advanced alchemy."
       ],
       "icon": "bloodmagic:simplekey",
-      "x": 0.0,
-      "y": 24.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 17.05,
+      "shape": "rsquare",
       "dependencies": [
         "4B27E71D5AB60576"
       ],
@@ -1523,7 +1578,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "11DDFCE33CA9FA03",
@@ -1531,8 +1587,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:mineentrancekey",
-      "x": 2.0,
-      "y": 24.0,
+      "x": -3.35,
+      "y": 17.05,
       "shape": "circle",
       "dependencies": [
         "0FE42E84614BF74E"
@@ -1546,7 +1602,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7782F37339A6BAB6",
@@ -1554,8 +1611,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:rawdemonite",
-      "x": 4.0,
-      "y": 24.0,
+      "x": -4.9,
+      "y": 17.05,
       "shape": "circle",
       "dependencies": [
         "11DDFCE33CA9FA03"
@@ -1569,7 +1626,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "045B1CA327014978",
@@ -1577,8 +1635,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:ingot_hellforged",
-      "x": 6.0,
-      "y": 24.0,
+      "x": -6.45,
+      "y": 17.05,
       "shape": "circle",
       "dependencies": [
         "7782F37339A6BAB6"
@@ -1598,7 +1656,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "7565241C9B58C3FC",
@@ -1606,8 +1665,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:hellforgedparts",
-      "x": 8.0,
-      "y": 24.0,
+      "x": -8.0,
+      "y": 17.05,
       "shape": "circle",
       "dependencies": [
         "045B1CA327014978"
@@ -1621,7 +1680,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "13726ED6D913D9DB",
@@ -1629,8 +1689,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:alchemicalreactionchamber",
-      "x": 10.0,
-      "y": 24.0,
+      "x": -9.55,
+      "y": 17.05,
       "shape": "hexagon",
       "dependencies": [
         "7565241C9B58C3FC"
@@ -1656,7 +1716,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "37613C5C3162538B",
@@ -1666,9 +1727,9 @@
         "Tune capacity, transfer and production together. A larger buffer cannot compensate for an altar that never refills."
       ],
       "icon": "bloodmagic:altarcapacityrune",
-      "x": 0.0,
-      "y": 27.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 19.4,
+      "shape": "rsquare",
       "dependencies": [
         "4B27E71D5AB60576"
       ],
@@ -1687,7 +1748,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "0618A54AE772508E",
@@ -1695,8 +1757,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:bettercapacityrune",
-      "x": 2.0,
-      "y": 27.0,
+      "x": -3.35,
+      "y": 19.4,
       "shape": "circle",
       "dependencies": [
         "37613C5C3162538B"
@@ -1710,7 +1772,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0702434919996D32",
@@ -1718,8 +1781,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:sacrificerune",
-      "x": 4.0,
-      "y": 27.0,
+      "x": -4.9,
+      "y": 19.4,
       "shape": "circle",
       "dependencies": [
         "0618A54AE772508E"
@@ -1733,7 +1796,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "44F89F592A5557CD",
@@ -1741,8 +1805,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:orbcapacityrune",
-      "x": 6.0,
-      "y": 27.0,
+      "x": -6.45,
+      "y": 19.4,
       "shape": "circle",
       "dependencies": [
         "0702434919996D32"
@@ -1762,7 +1826,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "7BEF265BEDFDB11E",
@@ -1770,8 +1835,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:accelerationrune",
-      "x": 8.0,
-      "y": 27.0,
+      "x": -8.0,
+      "y": 19.4,
       "shape": "circle",
       "dependencies": [
         "44F89F592A5557CD"
@@ -1785,7 +1850,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "44DBBAD36487C99F",
@@ -1793,8 +1859,8 @@
       "subtitle": "",
       "description": [],
       "icon": "bloodmagic:chargingrune",
-      "x": 10.0,
-      "y": 27.0,
+      "x": -9.55,
+      "y": 19.4,
       "shape": "hexagon",
       "dependencies": [
         "7BEF265BEDFDB11E"
@@ -1820,8 +1886,11 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     }
   ],
+  "icon": "bloodmagic:sacrificialdagger",
+  "autofocus_id": "531D383CEC86FEC8",
   "filename": "wc_blood_magic"
 }

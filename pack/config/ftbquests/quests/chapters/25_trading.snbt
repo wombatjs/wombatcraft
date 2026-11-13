@@ -13,8 +13,8 @@
         "Craft this item and test the trading interaction with a small transaction first."
       ],
       "icon": "domum_ornamentum:blockbarreldeco_onside",
-      "x": 2.86,
-      "y": 11.43,
+      "x": 8.45,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "0C4090AA09D44B61"
@@ -34,7 +34,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "07571162917B0B54",
@@ -44,8 +45,8 @@
         "Craft this item and test the trading interaction with a small transaction first."
       ],
       "icon": "domum_ornamentum:blockbarreldeco_standing",
-      "x": 4.29,
-      "y": 11.43,
+      "x": 10.0,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "01788A170AE5E71E"
@@ -65,7 +66,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "09875E03FC45BED5",
@@ -75,9 +77,9 @@
         "Craft this item and test the trading interaction with a small transaction first."
       ],
       "icon": "domum_ornamentum:brick_extra",
-      "x": 5.71,
-      "y": 11.43,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 11.2,
+      "shape": "rsquare",
       "dependencies": [
         "07571162917B0B54"
       ],
@@ -96,7 +98,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0C4090AA09D44B61",
@@ -107,9 +110,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "domum_ornamentum:blockbarreldeco_onside",
-      "x": 1.43,
-      "y": 11.43,
-      "shape": "square",
+      "x": 10.0,
+      "y": 9.4,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -117,7 +120,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0399CEA98D16ECFB",
@@ -127,9 +131,9 @@
         "Explore the features added by FTB Chunks (NeoForge) and record one useful discovery. This is a manual objective; mark it after trying the feature."
       ],
       "icon": "minecraft:writable_book",
-      "x": 2.86,
-      "y": 14.29,
-      "shape": "square",
+      "x": 0.0,
+      "y": 15.9,
+      "shape": "rsquare",
       "dependencies": [
         "0FE6FA3F297BF60A"
       ],
@@ -139,7 +143,8 @@
           "type": "checkmark",
           "title": "I have tested this feature"
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0FE6FA3F297BF60A",
@@ -150,9 +155,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:writable_book",
-      "x": 1.43,
-      "y": 14.29,
-      "shape": "square",
+      "x": 0.0,
+      "y": 14.1,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -160,7 +165,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "08945106667F8E6E",
@@ -170,9 +176,9 @@
         "Explore the features added by FTB Essentials (Forge & Fabric) and record one useful discovery. This is a manual objective; mark it after trying the feature."
       ],
       "icon": "minecraft:writable_book",
-      "x": 2.86,
-      "y": 1.43,
-      "shape": "square",
+      "x": 0.0,
+      "y": 1.8,
+      "shape": "rsquare",
       "dependencies": [
         "02747476E255668E"
       ],
@@ -182,7 +188,8 @@
           "type": "checkmark",
           "title": "I have tested this feature"
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "02747476E255668E",
@@ -193,9 +200,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:writable_book",
-      "x": 1.43,
-      "y": 1.43,
-      "shape": "square",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -203,7 +210,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0D283D86F40D71DA",
@@ -213,8 +221,8 @@
         "Craft this item and test the trading interaction with a small transaction first."
       ],
       "icon": "ftbquests:book",
-      "x": 2.86,
-      "y": 15.71,
+      "x": 8.45,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "0E59378EE6FDB13E"
@@ -234,7 +242,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0CC8693E5A786BAC",
@@ -244,8 +253,8 @@
         "Craft this item and test the trading interaction with a small transaction first."
       ],
       "icon": "ftbquests:screen_1",
-      "x": 4.29,
-      "y": 15.71,
+      "x": 10.0,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "0D283D86F40D71DA"
@@ -265,7 +274,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0208B9EC11EC9FA3",
@@ -275,9 +285,9 @@
         "Craft this item and test the trading interaction with a small transaction first."
       ],
       "icon": "ftbquests:screen_3",
-      "x": 5.71,
-      "y": 15.71,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 15.9,
+      "shape": "rsquare",
       "dependencies": [
         "0CC8693E5A786BAC"
       ],
@@ -296,7 +306,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0E59378EE6FDB13E",
@@ -307,9 +318,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "ftbquests:book",
-      "x": 1.43,
-      "y": 15.71,
-      "shape": "square",
+      "x": 10.0,
+      "y": 14.1,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -317,7 +328,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0DAFC9D1BB03E999",
@@ -327,9 +339,9 @@
         "Explore the features added by FTB Ranks (NeoForge) and record one useful discovery. This is a manual objective; mark it after trying the feature."
       ],
       "icon": "minecraft:writable_book",
-      "x": 2.86,
-      "y": 0.0,
-      "shape": "square",
+      "x": -10.0,
+      "y": 1.8,
+      "shape": "rsquare",
       "dependencies": [
         "013BE7BC24E24A78"
       ],
@@ -339,7 +351,8 @@
           "type": "checkmark",
           "title": "I have tested this feature"
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "013BE7BC24E24A78",
@@ -350,9 +363,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:writable_book",
-      "x": 1.43,
+      "x": -10.0,
       "y": 0.0,
-      "shape": "square",
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -360,7 +373,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0050DEF673D1D20F",
@@ -370,9 +384,9 @@
         "Explore the features added by FTB Teams (NeoForge) and record one useful discovery. This is a manual objective; mark it after trying the feature."
       ],
       "icon": "minecraft:writable_book",
-      "x": 2.86,
-      "y": 12.86,
-      "shape": "square",
+      "x": -10.0,
+      "y": 15.9,
+      "shape": "rsquare",
       "dependencies": [
         "0F119A08A3BB7C2B"
       ],
@@ -382,7 +396,8 @@
           "type": "checkmark",
           "title": "I have tested this feature"
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0F119A08A3BB7C2B",
@@ -393,9 +408,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:writable_book",
-      "x": 1.43,
-      "y": 12.86,
-      "shape": "square",
+      "x": -10.0,
+      "y": 14.1,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -403,7 +418,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0C4314FEC6AF8D44",
@@ -413,9 +429,9 @@
         "Explore the features added by FTB XMod Compat and record one useful discovery. This is a manual objective; mark it after trying the feature."
       ],
       "icon": "minecraft:writable_book",
-      "x": 2.86,
-      "y": 2.86,
-      "shape": "square",
+      "x": 10.0,
+      "y": 1.8,
+      "shape": "rsquare",
       "dependencies": [
         "03C2BB14E4E40A5F"
       ],
@@ -425,7 +441,8 @@
           "type": "checkmark",
           "title": "I have tested this feature"
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "03C2BB14E4E40A5F",
@@ -436,9 +453,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:writable_book",
-      "x": 1.43,
-      "y": 2.86,
-      "shape": "square",
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -446,7 +463,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "058291711E1896CB",
@@ -456,8 +474,8 @@
         "Craft this item and test the trading interaction with a small transaction first."
       ],
       "icon": "lightmanscurrency:shelf_oak",
-      "x": 2.86,
-      "y": 4.29,
+      "x": -11.55,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "028BAEBFF7F08417"
@@ -477,7 +495,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "086909F17A37690C",
@@ -487,8 +506,8 @@
         "Craft this item and test the trading interaction with a small transaction first."
       ],
       "icon": "lightmanscurrency:shelf_birch",
-      "x": 4.29,
-      "y": 4.29,
+      "x": -10.0,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "058291711E1896CB"
@@ -508,7 +527,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "02D080BAA8AD6F89",
@@ -518,9 +538,9 @@
         "Craft this item and test the trading interaction with a small transaction first."
       ],
       "icon": "lightmanscurrency:portable_atm",
-      "x": 5.71,
-      "y": 4.29,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 6.5,
+      "shape": "rsquare",
       "dependencies": [
         "086909F17A37690C"
       ],
@@ -539,7 +559,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "028BAEBFF7F08417",
@@ -550,9 +571,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "lightmanscurrency:shelf_oak",
-      "x": 1.43,
-      "y": 4.29,
-      "shape": "square",
+      "x": -10.0,
+      "y": 4.7,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -560,7 +581,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0E7C9BDBE8182152",
@@ -570,8 +592,8 @@
         "Enter the amazon camp structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 2.86,
-      "y": 8.57,
+      "x": -11.55,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "079D23AC87866206"
@@ -589,7 +611,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "01F0196DCF89E190",
@@ -599,8 +622,8 @@
         "Enter the asian colony structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 4.29,
-      "y": 8.57,
+      "x": -10.0,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "0E7C9BDBE8182152"
@@ -618,7 +641,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0B6418972B606B38",
@@ -628,9 +652,9 @@
         "Enter the barbarian camp structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 5.71,
-      "y": 8.57,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 11.2,
+      "shape": "rsquare",
       "dependencies": [
         "01F0196DCF89E190"
       ],
@@ -647,7 +671,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "079D23AC87866206",
@@ -658,9 +683,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
-      "x": 1.43,
-      "y": 8.57,
-      "shape": "square",
+      "x": -10.0,
+      "y": 9.4,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -668,7 +693,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0FE8471E99F92705",
@@ -678,8 +704,8 @@
         "Craft this item and test the trading interaction with a small transaction first."
       ],
       "icon": "securitycraft:portable_radar",
-      "x": 2.86,
-      "y": 7.14,
+      "x": 8.45,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "0243EDDB55B32DB5"
@@ -699,7 +725,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "08A2367C64C38634",
@@ -709,8 +736,8 @@
         "Craft this item and test the trading interaction with a small transaction first."
       ],
       "icon": "securitycraft:keypad_door_item",
-      "x": 4.29,
-      "y": 7.14,
+      "x": 10.0,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "0FE8471E99F92705"
@@ -730,7 +757,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "084CB776369B9DB1",
@@ -740,9 +768,9 @@
         "Craft this item and test the trading interaction with a small transaction first."
       ],
       "icon": "securitycraft:scanner_trapdoor",
-      "x": 5.71,
-      "y": 7.14,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 6.5,
+      "shape": "rsquare",
       "dependencies": [
         "08A2367C64C38634"
       ],
@@ -761,7 +789,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0243EDDB55B32DB5",
@@ -772,9 +801,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "securitycraft:portable_radar",
-      "x": 1.43,
-      "y": 7.14,
-      "shape": "square",
+      "x": 10.0,
+      "y": 4.7,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -782,7 +811,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0776CB4255164B23",
@@ -792,9 +822,9 @@
         "Explore the features added by Simple Voice Chat and record one useful discovery. This is a manual objective; mark it after trying the feature."
       ],
       "icon": "minecraft:writable_book",
-      "x": 2.86,
-      "y": 5.71,
-      "shape": "square",
+      "x": 0.0,
+      "y": 6.5,
+      "shape": "rsquare",
       "dependencies": [
         "00A8B78B09F709ED"
       ],
@@ -804,7 +834,8 @@
           "type": "checkmark",
           "title": "I have tested this feature"
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "00A8B78B09F709ED",
@@ -815,9 +846,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:writable_book",
-      "x": 1.43,
-      "y": 5.71,
-      "shape": "square",
+      "x": 0.0,
+      "y": 4.7,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -825,7 +856,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0013F5B95E8C477A",
@@ -835,8 +867,8 @@
         "Craft this item and test the trading interaction with a small transaction first."
       ],
       "icon": "structurize:caliper",
-      "x": 2.86,
-      "y": 10.0,
+      "x": -1.55,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "02FD193966D7E532"
@@ -856,7 +888,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0C9070E56ABD1132",
@@ -866,8 +899,8 @@
         "Craft this item and test the trading interaction with a small transaction first."
       ],
       "icon": "structurize:sceptergold",
-      "x": 4.29,
-      "y": 10.0,
+      "x": 0.0,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "0013F5B95E8C477A"
@@ -887,7 +920,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "09E909505263CC78",
@@ -897,9 +931,9 @@
         "Craft this item and test the trading interaction with a small transaction first."
       ],
       "icon": "structurize:sceptersteel",
-      "x": 5.71,
-      "y": 10.0,
-      "shape": "circle",
+      "x": 1.55,
+      "y": 11.2,
+      "shape": "rsquare",
       "dependencies": [
         "0C9070E56ABD1132"
       ],
@@ -918,7 +952,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "02FD193966D7E532",
@@ -929,9 +964,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "structurize:caliper",
-      "x": 1.43,
-      "y": 10.0,
-      "shape": "square",
+      "x": 0.0,
+      "y": 9.4,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -939,8 +974,10 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     }
   ],
-  "filename": "25_trading"
+  "filename": "25_trading",
+  "autofocus_id": "02747476E255668E"
 }

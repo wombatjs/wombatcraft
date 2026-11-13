@@ -13,8 +13,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "advanced_ae:portable_workbench_card",
-      "x": 2.86,
-      "y": 25.71,
+      "x": -11.55,
+      "y": 20.6,
       "shape": "circle",
       "dependencies": [
         "0BC5D3CA5223CE85"
@@ -34,7 +34,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "07E417FBDE6DF9FA",
@@ -44,8 +45,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "advanced_ae:luck_card",
-      "x": 4.29,
-      "y": 25.71,
+      "x": -10.0,
+      "y": 20.6,
       "shape": "circle",
       "dependencies": [
         "08ECECFC6259F334"
@@ -65,7 +66,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0E5D65EB877DA916",
@@ -75,9 +77,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "advanced_ae:reach_card",
-      "x": 5.71,
-      "y": 25.71,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 20.6,
+      "shape": "rsquare",
       "dependencies": [
         "07E417FBDE6DF9FA"
       ],
@@ -96,7 +98,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0BC5D3CA5223CE85",
@@ -107,9 +110,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "advanced_ae:portable_workbench_card",
-      "x": 1.43,
-      "y": 25.71,
-      "shape": "square",
+      "x": -10.0,
+      "y": 18.8,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -117,7 +120,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "04BDE49A7F6BBE2F",
@@ -127,8 +131,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "patchouli:guide_book",
-      "x": 2.86,
-      "y": 41.43,
+      "x": -1.55,
+      "y": 34.7,
       "shape": "circle",
       "dependencies": [
         "01002A820DCDF1DC"
@@ -148,7 +152,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0C624E349C8DCE72",
@@ -158,8 +163,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "advancedperipherals:chat_box",
-      "x": 4.29,
-      "y": 41.43,
+      "x": 0.0,
+      "y": 34.7,
       "shape": "circle",
       "dependencies": [
         "04BDE49A7F6BBE2F"
@@ -179,7 +184,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0BA985261203E51E",
@@ -189,9 +195,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "advancedperipherals:geo_scanner",
-      "x": 5.71,
-      "y": 41.43,
-      "shape": "circle",
+      "x": 1.55,
+      "y": 34.7,
+      "shape": "rsquare",
       "dependencies": [
         "0C624E349C8DCE72"
       ],
@@ -210,7 +216,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "01002A820DCDF1DC",
@@ -221,9 +228,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "patchouli:guide_book",
-      "x": 1.43,
-      "y": 41.43,
-      "shape": "square",
+      "x": 0.0,
+      "y": 32.9,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -231,7 +238,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "09BC60E397C58F6A",
@@ -241,8 +249,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "ae2additions:super_cell_1k",
-      "x": 2.86,
-      "y": 27.14,
+      "x": -1.55,
+      "y": 20.6,
       "shape": "circle",
       "dependencies": [
         "01FCCD8B0B98E280"
@@ -262,7 +270,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "03D653C8A075CD2C",
@@ -272,8 +281,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "ae2additions:super_cell_4k",
-      "x": 4.29,
-      "y": 27.14,
+      "x": 0.0,
+      "y": 20.6,
       "shape": "circle",
       "dependencies": [
         "09BC60E397C58F6A"
@@ -293,7 +302,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "098C224E7259452C",
@@ -303,9 +313,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "ae2additions:super_cell_16k",
-      "x": 5.71,
-      "y": 27.14,
-      "shape": "circle",
+      "x": 1.55,
+      "y": 20.6,
+      "shape": "rsquare",
       "dependencies": [
         "03D653C8A075CD2C"
       ],
@@ -324,7 +334,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "01FCCD8B0B98E280",
@@ -335,9 +346,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "ae2additions:super_cell_1k",
-      "x": 1.43,
-      "y": 27.14,
-      "shape": "square",
+      "x": 0.0,
+      "y": 18.8,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -345,7 +356,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0BE5ABA8DE56D661",
@@ -355,8 +367,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "createdeco:zinc_door",
-      "x": 2.86,
-      "y": 1.43,
+      "x": -1.55,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "0773C28111BDDE25"
@@ -376,7 +388,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0C5589560C365D58",
@@ -386,8 +399,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "createdeco:brass_door",
-      "x": 4.29,
-      "y": 1.43,
+      "x": 0.0,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "0BE5ABA8DE56D661"
@@ -407,7 +420,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0397EDB0210CD267",
@@ -417,9 +431,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "createdeco:copper_door",
-      "x": 5.71,
-      "y": 1.43,
-      "shape": "circle",
+      "x": 1.55,
+      "y": 1.8,
+      "shape": "rsquare",
       "dependencies": [
         "0C5589560C365D58"
       ],
@@ -438,7 +452,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0773C28111BDDE25",
@@ -449,9 +464,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "createdeco:zinc_door",
-      "x": 1.43,
-      "y": 1.43,
-      "shape": "square",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -459,7 +474,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0284592DFAD0E210",
@@ -469,8 +485,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "create_enchantment_industry:printer",
-      "x": 2.86,
-      "y": 0.0,
+      "x": -11.55,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "0F12CBA18AEAAFD4"
@@ -490,7 +506,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0072526889B7851F",
@@ -500,8 +517,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "create_enchantment_industry:disenchanter",
-      "x": 4.29,
-      "y": 0.0,
+      "x": -10.0,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "0284592DFAD0E210"
@@ -521,7 +538,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0BDDB21B01ABEE6D",
@@ -531,9 +549,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "create_enchantment_industry:enchanting_guide",
-      "x": 5.71,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 1.8,
+      "shape": "rsquare",
       "dependencies": [
         "0072526889B7851F"
       ],
@@ -552,7 +570,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0F12CBA18AEAAFD4",
@@ -563,9 +582,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "create_enchantment_industry:printer",
-      "x": 1.43,
+      "x": -10.0,
       "y": 0.0,
-      "shape": "square",
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -573,7 +592,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0B47253BD1CA01F0",
@@ -583,8 +603,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "entangled:item",
-      "x": 2.86,
-      "y": 21.43,
+      "x": -10.78,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "096D77B7282FADD6"
@@ -604,7 +624,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0DCFF3411AFFF0F8",
@@ -614,9 +635,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "entangled:block",
-      "x": 4.29,
-      "y": 21.43,
-      "shape": "circle",
+      "x": -9.22,
+      "y": 15.9,
+      "shape": "rsquare",
       "dependencies": [
         "0B47253BD1CA01F0"
       ],
@@ -635,7 +656,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "096D77B7282FADD6",
@@ -646,9 +668,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "entangled:item",
-      "x": 1.43,
-      "y": 21.43,
-      "shape": "square",
+      "x": -10.0,
+      "y": 14.1,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -656,7 +678,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "05389D81485649C8",
@@ -666,8 +689,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "bigreactors:basic_turbinerotorbearing",
-      "x": 2.86,
-      "y": 31.43,
+      "x": -11.55,
+      "y": 25.3,
       "shape": "circle",
       "dependencies": [
         "0E23280A329AD47D"
@@ -687,7 +710,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0F25D34FEC35DDFA",
@@ -697,8 +721,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "bigreactors:basic_turbinefluidport_forge_active",
-      "x": 4.29,
-      "y": 31.43,
+      "x": -10.0,
+      "y": 25.3,
       "shape": "circle",
       "dependencies": [
         "05389D81485649C8"
@@ -718,7 +742,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "001D78CAFF32D880",
@@ -728,9 +753,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "bigreactors:basic_turbinefluidport_forge_passive",
-      "x": 5.71,
-      "y": 31.43,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 25.3,
+      "shape": "rsquare",
       "dependencies": [
         "0F25D34FEC35DDFA"
       ],
@@ -749,7 +774,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0E23280A329AD47D",
@@ -760,9 +786,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "bigreactors:basic_turbinerotorbearing",
-      "x": 1.43,
-      "y": 31.43,
-      "shape": "square",
+      "x": -10.0,
+      "y": 23.5,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -770,7 +796,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "03B89572E087618E",
@@ -780,8 +807,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "fluxnetworks:flux_core",
-      "x": 2.86,
-      "y": 35.71,
+      "x": -11.55,
+      "y": 30.0,
       "shape": "circle",
       "dependencies": [
         "0AE8B055F33E6C18"
@@ -801,7 +828,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0AF5F555A4BE2C02",
@@ -811,8 +839,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "fluxnetworks:flux_plug",
-      "x": 4.29,
-      "y": 35.71,
+      "x": -10.0,
+      "y": 30.0,
       "shape": "circle",
       "dependencies": [
         "03B89572E087618E"
@@ -832,7 +860,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "052F5A6DD3A6F3C8",
@@ -842,9 +871,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "fluxnetworks:flux_block",
-      "x": 5.71,
-      "y": 35.71,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 30.0,
+      "shape": "rsquare",
       "dependencies": [
         "0AF5F555A4BE2C02"
       ],
@@ -863,7 +892,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0AE8B055F33E6C18",
@@ -874,9 +904,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "fluxnetworks:flux_core",
-      "x": 1.43,
-      "y": 35.71,
-      "shape": "square",
+      "x": -10.0,
+      "y": 28.2,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -884,7 +914,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0C40B606250DCAB1",
@@ -894,9 +925,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "functionalstorage:netherite_upgrade",
-      "x": 2.86,
-      "y": 38.57,
-      "shape": "circle",
+      "x": 10.0,
+      "y": 30.0,
+      "shape": "rsquare",
       "dependencies": [
         "0001340F31DFF17F"
       ],
@@ -915,7 +946,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0001340F31DFF17F",
@@ -926,9 +958,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "functionalstorage:netherite_upgrade",
-      "x": 1.43,
-      "y": 38.57,
-      "shape": "square",
+      "x": 10.0,
+      "y": 28.2,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -936,7 +968,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0090244A8D000CFE",
@@ -946,9 +979,9 @@
         "Visit this biome. Carry a compass and record a useful return point on your map."
       ],
       "icon": "minecraft:compass",
-      "x": 2.86,
-      "y": 32.86,
-      "shape": "circle",
+      "x": 0.0,
+      "y": 25.3,
+      "shape": "rsquare",
       "dependencies": [
         "0A8F6A54A2A91D14"
       ],
@@ -965,7 +998,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0A8F6A54A2A91D14",
@@ -976,9 +1010,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:compass",
-      "x": 1.43,
-      "y": 32.86,
-      "shape": "square",
+      "x": 0.0,
+      "y": 23.5,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -986,7 +1020,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0F1EC1E6C49811E2",
@@ -996,8 +1031,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "integratedtunnels:part_exporter_item",
-      "x": 2.86,
-      "y": 34.29,
+      "x": 8.45,
+      "y": 25.3,
       "shape": "circle",
       "dependencies": [
         "0EFD5C7CC2FE0DA0"
@@ -1017,7 +1052,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "074029F45AE7FA85",
@@ -1027,8 +1063,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "integratedtunnels:part_importer_item",
-      "x": 4.29,
-      "y": 34.29,
+      "x": 10.0,
+      "y": 25.3,
       "shape": "circle",
       "dependencies": [
         "0F1EC1E6C49811E2"
@@ -1048,7 +1084,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0611A23C6E4BCFB0",
@@ -1058,9 +1095,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "integratedtunnels:part_exporter_fluid",
-      "x": 5.71,
-      "y": 34.29,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 25.3,
+      "shape": "rsquare",
       "dependencies": [
         "074029F45AE7FA85"
       ],
@@ -1079,7 +1116,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0EFD5C7CC2FE0DA0",
@@ -1090,9 +1128,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "integratedtunnels:part_exporter_item",
-      "x": 1.43,
-      "y": 34.29,
-      "shape": "square",
+      "x": 10.0,
+      "y": 23.5,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1100,7 +1138,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0A3074BAC11FC597",
@@ -1110,8 +1149,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "megacells:portable_item_cell_1m",
-      "x": 2.86,
-      "y": 24.29,
+      "x": 8.45,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "0268C70287AD15A3"
@@ -1131,7 +1170,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "022BA4CDDC7D4394",
@@ -1141,8 +1181,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "megacells:portable_item_cell_4m",
-      "x": 4.29,
-      "y": 24.29,
+      "x": 10.0,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "0A3074BAC11FC597"
@@ -1162,7 +1202,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "038A8F4CBE3C1102",
@@ -1172,9 +1213,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "megacells:portable_fluid_cell_1m",
-      "x": 5.71,
-      "y": 24.29,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 15.9,
+      "shape": "rsquare",
       "dependencies": [
         "022BA4CDDC7D4394"
       ],
@@ -1193,7 +1234,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0268C70287AD15A3",
@@ -1204,9 +1246,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "megacells:portable_item_cell_1m",
-      "x": 1.43,
-      "y": 24.29,
-      "shape": "square",
+      "x": 10.0,
+      "y": 14.1,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1214,7 +1256,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "089FF687E93B64FF",
@@ -1224,8 +1267,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "mekanismtools:steel_sword",
-      "x": 2.86,
-      "y": 4.29,
+      "x": 8.45,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "0E28D25DE37F8A92"
@@ -1245,7 +1288,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0D9348C5FAEC7BBC",
@@ -1255,8 +1299,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "mekanismtools:bronze_sword",
-      "x": 4.29,
-      "y": 4.29,
+      "x": 10.0,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "089FF687E93B64FF"
@@ -1276,7 +1320,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "01C2DE0502345859",
@@ -1286,9 +1331,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "mekanismtools:osmium_sword",
-      "x": 5.71,
-      "y": 4.29,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 1.8,
+      "shape": "rsquare",
       "dependencies": [
         "0D9348C5FAEC7BBC"
       ],
@@ -1307,7 +1352,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0E28D25DE37F8A92",
@@ -1318,9 +1364,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "mekanismtools:steel_sword",
-      "x": 1.43,
-      "y": 4.29,
-      "shape": "square",
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1328,7 +1374,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "07C7ACFBB31AAF00",
@@ -1338,8 +1385,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "modularrouters:mod_filter",
-      "x": 2.86,
-      "y": 22.86,
+      "x": -1.55,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "0E2758B4EA984438"
@@ -1359,7 +1406,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0BFEC53B07286B47",
@@ -1369,8 +1417,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "modularrouters:tag_filter",
-      "x": 4.29,
-      "y": 22.86,
+      "x": 0.0,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "07C7ACFBB31AAF00"
@@ -1390,7 +1438,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0A2B2BA13A668039",
@@ -1400,9 +1449,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "modularrouters:void_module",
-      "x": 5.71,
-      "y": 22.86,
-      "shape": "circle",
+      "x": 1.55,
+      "y": 15.9,
+      "shape": "rsquare",
       "dependencies": [
         "0BFEC53B07286B47"
       ],
@@ -1421,7 +1470,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0E2758B4EA984438",
@@ -1432,9 +1482,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "modularrouters:mod_filter",
-      "x": 1.43,
-      "y": 22.86,
-      "shape": "square",
+      "x": 0.0,
+      "y": 14.1,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1442,7 +1492,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0AA5C385AE4E463B",
@@ -1452,8 +1503,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "pipez:wrench",
-      "x": 2.86,
-      "y": 40.0,
+      "x": -11.55,
+      "y": 34.7,
       "shape": "circle",
       "dependencies": [
         "0D021D62A5259264"
@@ -1473,7 +1524,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0D1DE5955D4F5F57",
@@ -1483,8 +1535,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "pipez:gas_pipe",
-      "x": 4.29,
-      "y": 40.0,
+      "x": -10.0,
+      "y": 34.7,
       "shape": "circle",
       "dependencies": [
         "0AA5C385AE4E463B"
@@ -1504,7 +1556,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0F558A036132D1BE",
@@ -1514,9 +1567,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "pipez:item_pipe",
-      "x": 5.71,
-      "y": 40.0,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 34.7,
+      "shape": "rsquare",
       "dependencies": [
         "0D1DE5955D4F5F57"
       ],
@@ -1535,7 +1588,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0D021D62A5259264",
@@ -1546,9 +1600,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "pipez:wrench",
-      "x": 1.43,
-      "y": 40.0,
-      "shape": "square",
+      "x": -10.0,
+      "y": 32.9,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1556,7 +1610,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0742D7671C275735",
@@ -1566,8 +1621,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "rftoolsbase:tablet",
-      "x": 2.86,
-      "y": 12.86,
+      "x": -11.55,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "029CE9319B309D53"
@@ -1587,7 +1642,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0E98644DCB50EF10",
@@ -1597,8 +1653,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "rftoolsbase:manual",
-      "x": 4.29,
-      "y": 12.86,
+      "x": -10.0,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "0742D7671C275735"
@@ -1618,7 +1674,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0FE431CF0FCBAF90",
@@ -1628,9 +1685,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "rftoolsbase:smartwrench",
-      "x": 5.71,
-      "y": 12.86,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 6.5,
+      "shape": "rsquare",
       "dependencies": [
         "0E98644DCB50EF10"
       ],
@@ -1649,7 +1706,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "029CE9319B309D53",
@@ -1660,9 +1718,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "rftoolsbase:tablet",
-      "x": 1.43,
-      "y": 12.86,
-      "shape": "square",
+      "x": -10.0,
+      "y": 4.7,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1670,7 +1728,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "00F12F904A861A6F",
@@ -1680,8 +1739,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "rftoolsbuilder:mover",
-      "x": 2.86,
-      "y": 15.71,
+      "x": 8.45,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "05C0916C46F02BDC"
@@ -1701,7 +1760,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "011169A4F2DB8A26",
@@ -1711,8 +1771,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "rftoolsbuilder:builder",
-      "x": 4.29,
-      "y": 15.71,
+      "x": 10.0,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "00F12F904A861A6F"
@@ -1732,7 +1792,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "05CD72FBD0399DF2",
@@ -1742,9 +1803,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "rftoolsbuilder:scanner",
-      "x": 5.71,
-      "y": 15.71,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 6.5,
+      "shape": "rsquare",
       "dependencies": [
         "011169A4F2DB8A26"
       ],
@@ -1763,7 +1824,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "05C0916C46F02BDC",
@@ -1774,9 +1836,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "rftoolsbuilder:mover",
-      "x": 1.43,
-      "y": 15.71,
-      "shape": "square",
+      "x": 10.0,
+      "y": 4.7,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1784,7 +1846,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "08FAE0F99FAE062B",
@@ -1794,8 +1857,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "rftoolsstorage:dump_module",
-      "x": 2.86,
-      "y": 17.14,
+      "x": -11.55,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "09AE95269558AD05"
@@ -1815,7 +1878,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "08D099E68BA3D984",
@@ -1825,8 +1889,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "rftoolsstorage:modular_storage",
-      "x": 4.29,
-      "y": 17.14,
+      "x": -10.0,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "08FAE0F99FAE062B"
@@ -1846,7 +1910,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "01BCC636245608F8",
@@ -1856,9 +1921,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "rftoolsstorage:storage_module0",
-      "x": 5.71,
-      "y": 17.14,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 11.2,
+      "shape": "rsquare",
       "dependencies": [
         "08D099E68BA3D984"
       ],
@@ -1877,7 +1942,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "09AE95269558AD05",
@@ -1888,9 +1954,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "rftoolsstorage:dump_module",
-      "x": 1.43,
-      "y": 17.14,
-      "shape": "square",
+      "x": -10.0,
+      "y": 9.4,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1898,7 +1964,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "02D09A462F94A148",
@@ -1908,8 +1975,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "rftoolsutility:syringe",
-      "x": 2.86,
-      "y": 14.29,
+      "x": -1.55,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "09540E42FBA6B3B8"
@@ -1929,7 +1996,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0662D2ADAB38342F",
@@ -1939,8 +2007,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "rftoolsutility:tank",
-      "x": 4.29,
-      "y": 14.29,
+      "x": 0.0,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "02D09A462F94A148"
@@ -1960,7 +2028,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "081E74BD2C190D7F",
@@ -1970,9 +2039,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "rftoolsutility:wire",
-      "x": 5.71,
-      "y": 14.29,
-      "shape": "circle",
+      "x": 1.55,
+      "y": 6.5,
+      "shape": "rsquare",
       "dependencies": [
         "0662D2ADAB38342F"
       ],
@@ -1991,7 +2060,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "09540E42FBA6B3B8",
@@ -2002,9 +2072,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "rftoolsutility:syringe",
-      "x": 1.43,
-      "y": 14.29,
-      "shape": "square",
+      "x": 0.0,
+      "y": 4.7,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -2012,7 +2082,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0F0D04BA158F7E70",
@@ -2022,8 +2093,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "sophisticatedbackpacks:chipped/loom_table_upgrade",
-      "x": 2.86,
-      "y": 18.57,
+      "x": -1.55,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "08B32DA0F62B4E2F"
@@ -2043,7 +2114,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "07D162505B1661B9",
@@ -2053,8 +2125,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "sophisticatedbackpacks:chipped/mason_table_upgrade",
-      "x": 4.29,
-      "y": 18.57,
+      "x": 0.0,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "0F0D04BA158F7E70"
@@ -2074,7 +2146,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "080CC26A6E93B818",
@@ -2084,9 +2157,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "sophisticatedbackpacks:chipped/alchemy_bench_upgrade",
-      "x": 5.71,
-      "y": 18.57,
-      "shape": "circle",
+      "x": 1.55,
+      "y": 11.2,
+      "shape": "rsquare",
       "dependencies": [
         "07D162505B1661B9"
       ],
@@ -2105,7 +2178,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "08B32DA0F62B4E2F",
@@ -2116,9 +2190,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "sophisticatedbackpacks:chipped/loom_table_upgrade",
-      "x": 1.43,
-      "y": 18.57,
-      "shape": "square",
+      "x": 0.0,
+      "y": 9.4,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -2126,7 +2200,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0C5C9175AE9A438C",
@@ -2136,8 +2211,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "sophisticatedstorage:barrel",
-      "x": 2.86,
-      "y": 37.14,
+      "x": -1.55,
+      "y": 30.0,
       "shape": "circle",
       "dependencies": [
         "0586E11B980085FE"
@@ -2157,7 +2232,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "02258AA0690CAA3E",
@@ -2167,8 +2243,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "sophisticatedstorage:copper_barrel",
-      "x": 4.29,
-      "y": 37.14,
+      "x": 0.0,
+      "y": 30.0,
       "shape": "circle",
       "dependencies": [
         "0C5C9175AE9A438C"
@@ -2188,7 +2264,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0AF64269A93321D6",
@@ -2198,9 +2275,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "sophisticatedstorage:decoration_table",
-      "x": 5.71,
-      "y": 37.14,
-      "shape": "circle",
+      "x": 1.55,
+      "y": 30.0,
+      "shape": "rsquare",
       "dependencies": [
         "02258AA0690CAA3E"
       ],
@@ -2219,7 +2296,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0586E11B980085FE",
@@ -2230,9 +2308,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "sophisticatedstorage:barrel",
-      "x": 1.43,
-      "y": 37.14,
-      "shape": "square",
+      "x": 0.0,
+      "y": 28.2,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -2240,7 +2318,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "01758414441E9EC5",
@@ -2250,8 +2329,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "storagedrawers:framing_table",
-      "x": 2.86,
-      "y": 20.0,
+      "x": 8.45,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "0592069E2E55F3A0"
@@ -2271,7 +2350,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "03DBA2609A0BE789",
@@ -2281,8 +2361,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "storagedrawers:oak_trim",
-      "x": 4.29,
-      "y": 20.0,
+      "x": 10.0,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "01758414441E9EC5"
@@ -2302,7 +2382,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0A4CB8998DAB7BF8",
@@ -2312,9 +2393,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "storagedrawers:controller",
-      "x": 5.71,
-      "y": 20.0,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 11.2,
+      "shape": "rsquare",
       "dependencies": [
         "03DBA2609A0BE789"
       ],
@@ -2333,7 +2414,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0592069E2E55F3A0",
@@ -2344,9 +2426,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "storagedrawers:framing_table",
-      "x": 1.43,
-      "y": 20.0,
-      "shape": "square",
+      "x": 10.0,
+      "y": 9.4,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -2354,7 +2436,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "062F5266CC9F7A2D",
@@ -2364,8 +2447,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "thermal_extra:lumium_sword",
-      "x": 2.86,
-      "y": 30.0,
+      "x": 8.45,
+      "y": 20.6,
       "shape": "circle",
       "dependencies": [
         "0FF518A9CBB489E0"
@@ -2385,7 +2468,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0E75E824C60B5D54",
@@ -2395,8 +2479,8 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "thermal_extra:abyssal_sword",
-      "x": 4.29,
-      "y": 30.0,
+      "x": 10.0,
+      "y": 20.6,
       "shape": "circle",
       "dependencies": [
         "062F5266CC9F7A2D"
@@ -2416,7 +2500,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0B8989BAB2F46A3E",
@@ -2426,9 +2511,9 @@
         "Craft this component, inspect its uses in JEI, and integrate it into your workshop."
       ],
       "icon": "thermal_extra:lumium_hammer",
-      "x": 5.71,
-      "y": 30.0,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 20.6,
+      "shape": "rsquare",
       "dependencies": [
         "0E75E824C60B5D54"
       ],
@@ -2447,7 +2532,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0FF518A9CBB489E0",
@@ -2458,9 +2544,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "thermal_extra:lumium_sword",
-      "x": 1.43,
-      "y": 30.0,
-      "shape": "square",
+      "x": 10.0,
+      "y": 18.8,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -2468,8 +2554,10 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     }
   ],
-  "filename": "20_tech_addons"
+  "filename": "20_tech_addons",
+  "autofocus_id": "0773C28111BDDE25"
 }

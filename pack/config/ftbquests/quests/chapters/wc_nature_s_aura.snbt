@@ -13,9 +13,9 @@
         "Cultivate golden leaves and collect their gifts. Lay out a quiet ritual grove with room for the ancient tree to grow."
       ],
       "icon": "naturesaura:gold_fiber",
-      "x": 0.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -4.12,
+      "y": 0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -32,7 +32,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.5
     },
     {
       "id": "2720A14D783DCA95",
@@ -40,9 +41,9 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:golden_leaves",
-      "x": 2.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -2.47,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "28DAF3F7044ECD9A"
       ],
@@ -55,7 +56,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "719BACA849558C22",
@@ -63,9 +65,9 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:gold_leaf",
-      "x": 4.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "2720A14D783DCA95"
       ],
@@ -78,7 +80,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "139F4271F2792CE6",
@@ -86,9 +89,9 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:gold_powder",
-      "x": 6.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "719BACA849558C22"
       ],
@@ -107,7 +110,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "5A8423921E31B06F",
@@ -115,9 +119,9 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:wood_stand",
-      "x": 8.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 2.47,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "139F4271F2792CE6"
       ],
@@ -130,7 +134,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "41EF78BF109CDB40",
@@ -138,9 +143,9 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:ancient_sapling",
-      "x": 10.0,
-      "y": 0.0,
-      "shape": "hexagon",
+      "x": 4.12,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "5A8423921E31B06F"
       ],
@@ -165,7 +170,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "602840AF63B164A4",
@@ -175,9 +181,9 @@
         "Aura belongs to the land around the altar. Watch the local supply and restore what the grove spends instead of draining one place indefinitely."
       ],
       "icon": "naturesaura:ancient_log",
-      "x": 0.0,
+      "x": -1.8,
       "y": 3.0,
-      "shape": "circle",
+      "shape": "rsquare",
       "dependencies": [
         "41EF78BF109CDB40"
       ],
@@ -196,7 +202,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "024C7EC921212512",
@@ -204,7 +211,7 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:ancient_stick",
-      "x": 2.0,
+      "x": -3.35,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -219,7 +226,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "57ADD460F81C9128",
@@ -227,7 +235,7 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:nature_altar",
-      "x": 4.0,
+      "x": -4.9,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -242,7 +250,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "079C4C98A688EA0D",
@@ -250,7 +259,7 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:infused_iron",
-      "x": 6.0,
+      "x": -6.45,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -271,7 +280,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "59792C12C449A131",
@@ -279,7 +289,7 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:infused_stone",
-      "x": 8.0,
+      "x": -8.0,
       "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
@@ -306,7 +316,8 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "34819B65B3977BB8",
@@ -316,9 +327,9 @@
         "Learn to see and measure the grove's reserves. A limiter can help a machine stop before its surroundings are exhausted."
       ],
       "icon": "naturesaura:eye",
-      "x": 0.0,
-      "y": 6.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 5.35,
+      "shape": "rsquare",
       "dependencies": [
         "57ADD460F81C9128"
       ],
@@ -337,7 +348,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "31BEF935D55B4D8A",
@@ -345,8 +357,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:eye_improved",
-      "x": 2.0,
-      "y": 6.0,
+      "x": -3.35,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "34819B65B3977BB8"
@@ -360,7 +372,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5E5A0D32CE8C8433",
@@ -368,8 +381,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:aura_detector",
-      "x": 4.0,
-      "y": 6.0,
+      "x": -4.9,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "31BEF935D55B4D8A"
@@ -383,7 +396,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "501899D86FCFF53F",
@@ -391,8 +405,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:aura_timer",
-      "x": 6.0,
-      "y": 6.0,
+      "x": -6.45,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "5E5A0D32CE8C8433"
@@ -412,7 +426,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "466DC232843FA232",
@@ -420,8 +435,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:range_visualizer",
-      "x": 8.0,
-      "y": 6.0,
+      "x": -8.0,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "501899D86FCFF53F"
@@ -435,7 +450,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0EC1DF69F89DC0BD",
@@ -443,8 +459,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:lower_limiter",
-      "x": 10.0,
-      "y": 6.0,
+      "x": -9.55,
+      "y": 5.35,
       "shape": "hexagon",
       "dependencies": [
         "466DC232843FA232"
@@ -470,7 +486,8 @@
           "item": "minecraft:amethyst_shard",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "4B0C63F16A2FD3DD",
@@ -480,9 +497,9 @@
         "Choose a source of aura that your settlement can sustain. Give generation its own supplies and compare recovery with the altar's consumption."
       ],
       "icon": "naturesaura:flower_generator",
-      "x": 0.0,
-      "y": 9.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 7.7,
+      "shape": "rsquare",
       "dependencies": [
         "57ADD460F81C9128"
       ],
@@ -501,7 +518,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "261021D66F8436A5",
@@ -509,8 +527,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:oak_generator",
-      "x": 2.0,
-      "y": 9.0,
+      "x": -3.35,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "4B0C63F16A2FD3DD"
@@ -524,7 +542,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2EAC0AFA6F4E7E53",
@@ -532,8 +551,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:animal_generator",
-      "x": 4.0,
-      "y": 9.0,
+      "x": -4.9,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "261021D66F8436A5"
@@ -547,7 +566,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7FE97C35710CEDBB",
@@ -555,8 +575,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:potion_generator",
-      "x": 6.0,
-      "y": 9.0,
+      "x": -6.45,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "2EAC0AFA6F4E7E53"
@@ -576,7 +596,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "7566CD57AF9661AD",
@@ -584,8 +605,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:firework_generator",
-      "x": 8.0,
-      "y": 9.0,
+      "x": -8.0,
+      "y": 7.7,
       "shape": "hexagon",
       "dependencies": [
         "7FE97C35710CEDBB"
@@ -611,7 +632,8 @@
           "item": "minecraft:golden_carrot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "307E8836F275A5B6",
@@ -621,9 +643,9 @@
         "Carry a reserve for work beyond the grove. Keep the main altar supplied while filling portable storage."
       ],
       "icon": "naturesaura:bottle_two_the_rebottling",
-      "x": 0.0,
-      "y": 12.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 10.05,
+      "shape": "rsquare",
       "dependencies": [
         "079C4C98A688EA0D"
       ],
@@ -642,7 +664,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "0543212E8BED6A77",
@@ -650,8 +673,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:aura_bottle",
-      "x": 2.0,
-      "y": 12.0,
+      "x": -3.35,
+      "y": 10.05,
       "shape": "circle",
       "dependencies": [
         "307E8836F275A5B6"
@@ -665,7 +688,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1B00ED46E35580C3",
@@ -673,8 +697,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:aura_cache",
-      "x": 4.0,
-      "y": 12.0,
+      "x": -4.9,
+      "y": 10.05,
       "shape": "circle",
       "dependencies": [
         "0543212E8BED6A77"
@@ -688,7 +712,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2BA1032D1A783EA2",
@@ -696,8 +721,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:aura_trove",
-      "x": 6.0,
-      "y": 12.0,
+      "x": -6.45,
+      "y": 10.05,
       "shape": "hexagon",
       "dependencies": [
         "1B00ED46E35580C3"
@@ -723,7 +748,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "4632A8A02DC8DF6B",
@@ -733,9 +759,9 @@
         "Offerings open another branch of the art. Check the required token and prepare its ingredients before making the journey."
       ],
       "icon": "naturesaura:offering_table",
-      "x": 0.0,
-      "y": 15.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 12.4,
+      "shape": "rsquare",
       "dependencies": [
         "57ADD460F81C9128"
       ],
@@ -754,7 +780,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "73C99211BE322CD5",
@@ -762,8 +789,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:token_joy",
-      "x": 2.0,
-      "y": 15.0,
+      "x": -3.35,
+      "y": 12.4,
       "shape": "circle",
       "dependencies": [
         "4632A8A02DC8DF6B"
@@ -777,7 +804,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "010BF7FA14067AA2",
@@ -785,8 +813,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:token_fear",
-      "x": 4.0,
-      "y": 15.0,
+      "x": -4.9,
+      "y": 12.4,
       "shape": "circle",
       "dependencies": [
         "73C99211BE322CD5"
@@ -800,7 +828,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6762845E7643F3D9",
@@ -808,8 +837,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:token_sorrow",
-      "x": 6.0,
-      "y": 15.0,
+      "x": -6.45,
+      "y": 12.4,
       "shape": "circle",
       "dependencies": [
         "010BF7FA14067AA2"
@@ -829,7 +858,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "251367FFEFC9E32B",
@@ -837,8 +867,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:token_anger",
-      "x": 8.0,
-      "y": 15.0,
+      "x": -8.0,
+      "y": 12.4,
       "shape": "circle",
       "dependencies": [
         "6762845E7643F3D9"
@@ -852,7 +882,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "721D865A930FF023",
@@ -860,8 +891,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:sky_ingot",
-      "x": 10.0,
-      "y": 15.0,
+      "x": -9.55,
+      "y": 12.4,
       "shape": "hexagon",
       "dependencies": [
         "251367FFEFC9E32B"
@@ -887,7 +918,8 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "5874E71C728AD7D9",
@@ -897,9 +929,9 @@
         "Use aura where it solves a real workshop problem. Route ingredients and outputs carefully so a full container cannot stall the grove."
       ],
       "icon": "naturesaura:furnace_heater",
-      "x": 0.0,
-      "y": 18.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 17.1,
+      "shape": "rsquare",
       "dependencies": [
         "079C4C98A688EA0D"
       ],
@@ -918,7 +950,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "423EF480C0643101",
@@ -926,8 +959,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:blast_furnace_booster",
-      "x": 2.0,
-      "y": 18.0,
+      "x": -3.35,
+      "y": 17.1,
       "shape": "circle",
       "dependencies": [
         "5874E71C728AD7D9"
@@ -941,7 +974,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0346F1340CF6288A",
@@ -949,8 +983,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:crushing_catalyst",
-      "x": 4.0,
-      "y": 18.0,
+      "x": -4.9,
+      "y": 17.1,
       "shape": "circle",
       "dependencies": [
         "423EF480C0643101"
@@ -964,7 +998,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "73CF951785D6F532",
@@ -972,8 +1007,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:conversion_catalyst",
-      "x": 6.0,
-      "y": 18.0,
+      "x": -6.45,
+      "y": 17.1,
       "shape": "circle",
       "dependencies": [
         "0346F1340CF6288A"
@@ -993,7 +1028,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "68DF784BE8042A4A",
@@ -1001,8 +1037,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:auto_crafter",
-      "x": 8.0,
-      "y": 18.0,
+      "x": -8.0,
+      "y": 17.1,
       "shape": "circle",
       "dependencies": [
         "73CF951785D6F532"
@@ -1016,7 +1052,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7691DE04A8C1339B",
@@ -1024,8 +1061,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:item_distributor",
-      "x": 10.0,
-      "y": 18.0,
+      "x": -9.55,
+      "y": 17.1,
       "shape": "hexagon",
       "dependencies": [
         "68DF784BE8042A4A"
@@ -1051,7 +1088,8 @@
           "item": "minecraft:amethyst_shard",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "40C3EFA6595D1184",
@@ -1061,9 +1099,9 @@
         "The mature grove reaches beyond crafting. Experiment with each working near home before carrying it into unfamiliar lands."
       ],
       "icon": "naturesaura:light_staff",
-      "x": 0.0,
-      "y": 21.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 14.75,
+      "shape": "rsquare",
       "dependencies": [
         "721D865A930FF023"
       ],
@@ -1082,7 +1120,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "169189DF9D7A0EE0",
@@ -1090,8 +1129,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:farming_stencil",
-      "x": 2.0,
-      "y": 21.0,
+      "x": -3.35,
+      "y": 14.75,
       "shape": "circle",
       "dependencies": [
         "40C3EFA6595D1184"
@@ -1105,7 +1144,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2E6FC4A6CDCFE2FA",
@@ -1113,8 +1153,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:spawn_lamp",
-      "x": 4.0,
-      "y": 21.0,
+      "x": -4.9,
+      "y": 14.75,
       "shape": "circle",
       "dependencies": [
         "169189DF9D7A0EE0"
@@ -1128,7 +1168,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5FCF6B3A0CCCFB2F",
@@ -1136,8 +1177,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:weather_changer",
-      "x": 6.0,
-      "y": 21.0,
+      "x": -6.45,
+      "y": 14.75,
       "shape": "circle",
       "dependencies": [
         "2E6FC4A6CDCFE2FA"
@@ -1157,7 +1198,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "60758F11DD9D958C",
@@ -1165,8 +1207,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:time_changer",
-      "x": 8.0,
-      "y": 21.0,
+      "x": -8.0,
+      "y": 14.75,
       "shape": "circle",
       "dependencies": [
         "5FCF6B3A0CCCFB2F"
@@ -1180,7 +1222,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5B7D96EADEC59A10",
@@ -1188,8 +1231,8 @@
       "subtitle": "",
       "description": [],
       "icon": "naturesaura:pet_reviver",
-      "x": 10.0,
-      "y": 21.0,
+      "x": -9.55,
+      "y": 14.75,
       "shape": "hexagon",
       "dependencies": [
         "60758F11DD9D958C"
@@ -1215,8 +1258,11 @@
           "item": "minecraft:golden_carrot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     }
   ],
+  "icon": "naturesaura:gold_fiber",
+  "autofocus_id": "28DAF3F7044ECD9A",
   "filename": "wc_nature_s_aura"
 }

@@ -13,9 +13,9 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "amendments:dragon_charge",
-      "x": 2.86,
-      "y": 4.29,
-      "shape": "circle",
+      "x": -10.0,
+      "y": 6.5,
+      "shape": "rsquare",
       "dependencies": [
         "0D466563E5C33EAE"
       ],
@@ -34,7 +34,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0D466563E5C33EAE",
@@ -45,9 +46,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "amendments:dragon_charge",
-      "x": 1.43,
-      "y": 4.29,
-      "shape": "square",
+      "x": -10.0,
+      "y": 4.7,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -55,7 +56,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0541356C63C8C382",
@@ -65,8 +67,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "buildinggadgets2:gadget_building",
-      "x": 2.86,
-      "y": 24.29,
+      "x": 8.45,
+      "y": 25.3,
       "shape": "circle",
       "dependencies": [
         "02FC3419E4BBE5DE"
@@ -86,7 +88,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0971D781579ED906",
@@ -96,8 +99,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "buildinggadgets2:gadget_cut_paste",
-      "x": 4.29,
-      "y": 24.29,
+      "x": 10.0,
+      "y": 25.3,
       "shape": "circle",
       "dependencies": [
         "0541356C63C8C382"
@@ -117,7 +120,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0EC6DB300E6D11F7",
@@ -127,9 +131,9 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "buildinggadgets2:template_manager",
-      "x": 5.71,
-      "y": 24.29,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 25.3,
+      "shape": "rsquare",
       "dependencies": [
         "0971D781579ED906"
       ],
@@ -148,7 +152,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "02FC3419E4BBE5DE",
@@ -159,9 +164,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "buildinggadgets2:gadget_building",
-      "x": 1.43,
-      "y": 24.29,
-      "shape": "square",
+      "x": 10.0,
+      "y": 23.5,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -169,7 +174,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "064FCC9CBC62131E",
@@ -179,8 +185,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "chipped:loom_table",
-      "x": 2.86,
-      "y": 1.43,
+      "x": -1.55,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "071AA7B61441C1DE"
@@ -200,7 +206,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "021B836A4C01629F",
@@ -210,8 +217,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "chipped:mason_table",
-      "x": 4.29,
-      "y": 1.43,
+      "x": 0.0,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "064FCC9CBC62131E"
@@ -231,7 +238,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0F782941C815F0D3",
@@ -241,9 +249,9 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "chipped:alchemy_bench",
-      "x": 5.71,
-      "y": 1.43,
-      "shape": "circle",
+      "x": 1.55,
+      "y": 1.8,
+      "shape": "rsquare",
       "dependencies": [
         "021B836A4C01629F"
       ],
@@ -262,7 +270,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "071AA7B61441C1DE",
@@ -273,9 +282,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "chipped:loom_table",
-      "x": 1.43,
-      "y": 1.43,
-      "shape": "square",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -283,7 +292,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "01A2569415E09B72",
@@ -293,8 +303,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "decorative_blocks:chain",
-      "x": 2.86,
-      "y": 21.43,
+      "x": -11.55,
+      "y": 25.3,
       "shape": "circle",
       "dependencies": [
         "06571853B5AC2B79"
@@ -314,7 +324,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0D2027A8F1B5C6D4",
@@ -324,8 +335,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "decorative_blocks:brazier",
-      "x": 4.29,
-      "y": 21.43,
+      "x": -10.0,
+      "y": 25.3,
       "shape": "circle",
       "dependencies": [
         "01A2569415E09B72"
@@ -345,7 +356,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "02FB45CC42150C19",
@@ -355,9 +367,9 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "decorative_blocks:lattice",
-      "x": 5.71,
-      "y": 21.43,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 25.3,
+      "shape": "rsquare",
       "dependencies": [
         "0D2027A8F1B5C6D4"
       ],
@@ -376,7 +388,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "06571853B5AC2B79",
@@ -387,9 +400,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "decorative_blocks:chain",
-      "x": 1.43,
-      "y": 21.43,
-      "shape": "square",
+      "x": -10.0,
+      "y": 23.5,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -397,7 +410,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "065369C8DE3553E2",
@@ -407,8 +421,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "framedblocks:framed_door",
-      "x": 2.86,
-      "y": 18.57,
+      "x": -1.55,
+      "y": 20.6,
       "shape": "circle",
       "dependencies": [
         "0A1FC379A32FECFE"
@@ -428,7 +442,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0A9526903BE3DFE8",
@@ -438,8 +453,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "framedblocks:framed_hammer",
-      "x": 4.29,
-      "y": 18.57,
+      "x": 0.0,
+      "y": 20.6,
       "shape": "circle",
       "dependencies": [
         "065369C8DE3553E2"
@@ -459,7 +474,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "06AC4940071F29FF",
@@ -469,9 +485,9 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "framedblocks:framed_trapdoor",
-      "x": 5.71,
-      "y": 18.57,
-      "shape": "circle",
+      "x": 1.55,
+      "y": 20.6,
+      "shape": "rsquare",
       "dependencies": [
         "0A9526903BE3DFE8"
       ],
@@ -490,7 +506,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0A1FC379A32FECFE",
@@ -501,9 +518,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "framedblocks:framed_door",
-      "x": 1.43,
-      "y": 18.57,
-      "shape": "square",
+      "x": 0.0,
+      "y": 18.8,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -511,7 +528,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "015A9EB57CC45431",
@@ -521,8 +539,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "handcrafted:bench",
-      "x": 2.86,
-      "y": 0.0,
+      "x": -11.55,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "002AA8E84636941B"
@@ -542,7 +560,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0F5F8AAB8267CC62",
@@ -552,8 +571,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "handcrafted:hammer",
-      "x": 4.29,
-      "y": 0.0,
+      "x": -10.0,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "015A9EB57CC45431"
@@ -573,7 +592,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0241D551D0AE56CB",
@@ -583,9 +603,9 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "handcrafted:oak_chair",
-      "x": 5.71,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 1.8,
+      "shape": "rsquare",
       "dependencies": [
         "0F5F8AAB8267CC62"
       ],
@@ -604,7 +624,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "002AA8E84636941B",
@@ -615,9 +636,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "handcrafted:bench",
-      "x": 1.43,
+      "x": -10.0,
       "y": 0.0,
-      "shape": "square",
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -625,7 +646,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0751E3208FF4A581",
@@ -635,8 +657,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwbridges:pliers",
-      "x": 2.86,
-      "y": 5.71,
+      "x": -1.55,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "0E6481128C61D541"
@@ -656,7 +678,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0380C655F45C8760",
@@ -666,8 +689,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwbridges:iron_bridge",
-      "x": 4.29,
-      "y": 5.71,
+      "x": 0.0,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "0751E3208FF4A581"
@@ -687,7 +710,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "032715092F08EC3F",
@@ -697,9 +721,9 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwbridges:brick_bridge",
-      "x": 5.71,
-      "y": 5.71,
-      "shape": "circle",
+      "x": 1.55,
+      "y": 6.5,
+      "shape": "rsquare",
       "dependencies": [
         "0380C655F45C8760"
       ],
@@ -718,7 +742,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0E6481128C61D541",
@@ -729,9 +754,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "mcwbridges:pliers",
-      "x": 1.43,
-      "y": 5.71,
-      "shape": "square",
+      "x": 0.0,
+      "y": 4.7,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -739,7 +764,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "04AE19BE1031340A",
@@ -749,8 +775,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwdoors:jail_door",
-      "x": 2.86,
-      "y": 7.14,
+      "x": 8.45,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "0B71E1B0082234D2"
@@ -770,7 +796,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0484A5097D8D4A9F",
@@ -780,8 +807,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwdoors:print_oak",
-      "x": 4.29,
-      "y": 7.14,
+      "x": 10.0,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "04AE19BE1031340A"
@@ -801,7 +828,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "011E88A737EE136F",
@@ -811,9 +839,9 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwdoors:metal_door",
-      "x": 5.71,
-      "y": 7.14,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 6.5,
+      "shape": "rsquare",
       "dependencies": [
         "0484A5097D8D4A9F"
       ],
@@ -832,7 +860,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0B71E1B0082234D2",
@@ -843,9 +872,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "mcwdoors:jail_door",
-      "x": 1.43,
-      "y": 7.14,
-      "shape": "square",
+      "x": 10.0,
+      "y": 4.7,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -853,7 +882,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0659893703AA4EF0",
@@ -863,8 +893,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwfences:flowering_azalea_hedge",
-      "x": 2.86,
-      "y": 8.57,
+      "x": -11.55,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "07B26F1834358452"
@@ -884,7 +914,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0A94AFE356CB3461",
@@ -894,8 +925,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwfences:oak_hedge",
-      "x": 4.29,
-      "y": 8.57,
+      "x": -10.0,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "0659893703AA4EF0"
@@ -915,7 +946,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0A30C7C7913FB156",
@@ -925,9 +957,9 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwfences:azalea_hedge",
-      "x": 5.71,
-      "y": 8.57,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 11.2,
+      "shape": "rsquare",
       "dependencies": [
         "0A94AFE356CB3461"
       ],
@@ -946,7 +978,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "07B26F1834358452",
@@ -957,9 +990,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "mcwfences:flowering_azalea_hedge",
-      "x": 1.43,
-      "y": 8.57,
-      "shape": "square",
+      "x": -10.0,
+      "y": 9.4,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -967,7 +1000,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "03C5E24D05D5F905",
@@ -977,8 +1011,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwfurnitures:oak_chair",
-      "x": 2.86,
-      "y": 10.0,
+      "x": -1.55,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "01AD9764BC40D22E"
@@ -998,7 +1032,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "00A4F586B6BCE695",
@@ -1008,8 +1043,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwfurnitures:oak_table",
-      "x": 4.29,
-      "y": 10.0,
+      "x": 0.0,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "03C5E24D05D5F905"
@@ -1029,7 +1064,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "01EB4ECA26594A01",
@@ -1039,9 +1075,9 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwfurnitures:cabinet_door",
-      "x": 5.71,
-      "y": 10.0,
-      "shape": "circle",
+      "x": 1.55,
+      "y": 11.2,
+      "shape": "rsquare",
       "dependencies": [
         "00A4F586B6BCE695"
       ],
@@ -1060,7 +1096,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "01AD9764BC40D22E",
@@ -1071,9 +1108,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "mcwfurnitures:oak_chair",
-      "x": 1.43,
-      "y": 10.0,
-      "shape": "square",
+      "x": 0.0,
+      "y": 9.4,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1081,7 +1118,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0DF58AE009060ADD",
@@ -1091,8 +1129,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwlights:red_lamp",
-      "x": 2.86,
-      "y": 11.43,
+      "x": 8.45,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "09633898E7A9C07D"
@@ -1112,7 +1150,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "00EA65C182F8F3D8",
@@ -1122,8 +1161,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwlights:cyan_lamp",
-      "x": 4.29,
-      "y": 11.43,
+      "x": 10.0,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "0DF58AE009060ADD"
@@ -1143,7 +1182,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "05ACEED7DC34E5A1",
@@ -1153,9 +1193,9 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwlights:gray_lamp",
-      "x": 5.71,
-      "y": 11.43,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 11.2,
+      "shape": "rsquare",
       "dependencies": [
         "00EA65C182F8F3D8"
       ],
@@ -1174,7 +1214,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "09633898E7A9C07D",
@@ -1185,9 +1226,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "mcwlights:red_lamp",
-      "x": 1.43,
-      "y": 11.43,
-      "shape": "square",
+      "x": 10.0,
+      "y": 9.4,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1195,7 +1236,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "077136844DBDB910",
@@ -1205,8 +1247,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwpaths:brick_flagstone",
-      "x": 2.86,
-      "y": 12.86,
+      "x": -11.55,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "0503C3C517A9302E"
@@ -1226,7 +1268,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "098F5C4674E4DC62",
@@ -1236,8 +1279,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwpaths:dirt_path_block",
-      "x": 4.29,
-      "y": 12.86,
+      "x": -10.0,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "077136844DBDB910"
@@ -1257,7 +1300,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0DBF1B2838009F30",
@@ -1267,9 +1311,9 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwpaths:oak_planks_path",
-      "x": 5.71,
-      "y": 12.86,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 15.9,
+      "shape": "rsquare",
       "dependencies": [
         "098F5C4674E4DC62"
       ],
@@ -1288,7 +1332,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0503C3C517A9302E",
@@ -1299,9 +1344,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "mcwpaths:brick_flagstone",
-      "x": 1.43,
-      "y": 12.86,
-      "shape": "square",
+      "x": -10.0,
+      "y": 14.1,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1309,7 +1354,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "095C1FDCFC4A920B",
@@ -1319,8 +1365,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwroofs:roofing_hammer",
-      "x": 2.86,
-      "y": 14.29,
+      "x": -1.55,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "068C435BC1872110"
@@ -1340,7 +1386,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "00DCA6CB68FD10A7",
@@ -1350,8 +1397,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwroofs:oak_roof",
-      "x": 4.29,
-      "y": 14.29,
+      "x": 0.0,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "095C1FDCFC4A920B"
@@ -1371,7 +1418,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0BED9CC550EDF086",
@@ -1381,9 +1429,9 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwroofs:base_roof",
-      "x": 5.71,
-      "y": 14.29,
-      "shape": "circle",
+      "x": 1.55,
+      "y": 15.9,
+      "shape": "rsquare",
       "dependencies": [
         "00DCA6CB68FD10A7"
       ],
@@ -1402,7 +1450,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "068C435BC1872110",
@@ -1413,9 +1462,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "mcwroofs:roofing_hammer",
-      "x": 1.43,
-      "y": 14.29,
-      "shape": "square",
+      "x": 0.0,
+      "y": 14.1,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1423,7 +1472,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "016B765149DB24DD",
@@ -1433,8 +1483,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwtrpdoors:print_beach",
-      "x": 2.86,
-      "y": 15.71,
+      "x": 8.45,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "001D47720F03B8AD"
@@ -1454,7 +1504,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0F815A5619C65EF6",
@@ -1464,8 +1515,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwtrpdoors:print_paper",
-      "x": 4.29,
-      "y": 15.71,
+      "x": 10.0,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "016B765149DB24DD"
@@ -1485,7 +1536,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0CEB0F217E34FD62",
@@ -1495,9 +1547,9 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwtrpdoors:print_swamp",
-      "x": 5.71,
-      "y": 15.71,
-      "shape": "circle",
+      "x": 11.55,
+      "y": 15.9,
+      "shape": "rsquare",
       "dependencies": [
         "0F815A5619C65EF6"
       ],
@@ -1516,7 +1568,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "001D47720F03B8AD",
@@ -1527,9 +1580,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "mcwtrpdoors:print_beach",
-      "x": 1.43,
-      "y": 15.71,
-      "shape": "square",
+      "x": 10.0,
+      "y": 14.1,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1537,7 +1590,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "055F22B7835F225F",
@@ -1547,8 +1601,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwwindows:hammer",
-      "x": 2.86,
-      "y": 17.14,
+      "x": -11.55,
+      "y": 20.6,
       "shape": "circle",
       "dependencies": [
         "035BEAB5F25222DA"
@@ -1568,7 +1622,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0B01604C37499F21",
@@ -1578,8 +1633,8 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwwindows:key",
-      "x": 4.29,
-      "y": 17.14,
+      "x": -10.0,
+      "y": 20.6,
       "shape": "circle",
       "dependencies": [
         "055F22B7835F225F"
@@ -1599,7 +1654,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0058061B8B85902A",
@@ -1609,9 +1665,9 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "mcwwindows:oak_blinds",
-      "x": 5.71,
-      "y": 17.14,
-      "shape": "circle",
+      "x": -8.45,
+      "y": 20.6,
+      "shape": "rsquare",
       "dependencies": [
         "0B01604C37499F21"
       ],
@@ -1630,7 +1686,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "035BEAB5F25222DA",
@@ -1641,9 +1698,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "mcwwindows:hammer",
-      "x": 1.43,
-      "y": 17.14,
-      "shape": "square",
+      "x": -10.0,
+      "y": 18.8,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1651,7 +1708,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0FDBD97891922720",
@@ -1661,9 +1719,9 @@
         "Visit this biome. Carry a compass and record a useful return point on your map."
       ],
       "icon": "minecraft:compass",
-      "x": 2.86,
-      "y": 22.86,
-      "shape": "circle",
+      "x": 0.0,
+      "y": 25.3,
+      "shape": "rsquare",
       "dependencies": [
         "08FBE339020D5AA9"
       ],
@@ -1680,7 +1738,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "08FBE339020D5AA9",
@@ -1691,9 +1750,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:compass",
-      "x": 1.43,
-      "y": 22.86,
-      "shape": "square",
+      "x": 0.0,
+      "y": 23.5,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1701,7 +1760,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0523E72EC34FE422",
@@ -1711,9 +1771,9 @@
         "Craft this piece and use it in a room, walkway or facade. Combine it with nearby materials so the build looks intentional."
       ],
       "icon": "rechiseled:chisel",
-      "x": 2.86,
-      "y": 20.0,
-      "shape": "circle",
+      "x": 10.0,
+      "y": 20.6,
+      "shape": "rsquare",
       "dependencies": [
         "00460CCC6DE1143A"
       ],
@@ -1732,7 +1792,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "00460CCC6DE1143A",
@@ -1743,9 +1804,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "rechiseled:chisel",
-      "x": 1.43,
-      "y": 20.0,
-      "shape": "square",
+      "x": 10.0,
+      "y": 18.8,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1753,7 +1814,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0008987E9AAD4EF3",
@@ -1763,9 +1825,9 @@
         "Enter the way sign structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 2.86,
-      "y": 2.86,
-      "shape": "circle",
+      "x": 10.0,
+      "y": 1.8,
+      "shape": "rsquare",
       "dependencies": [
         "0B648412DC5D34E7"
       ],
@@ -1782,7 +1844,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.94
     },
     {
       "id": "0B648412DC5D34E7",
@@ -1793,9 +1856,9 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
-      "x": 1.43,
-      "y": 2.86,
-      "shape": "square",
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -1803,7 +1866,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0A5DB2FB5E3D5E2A",
@@ -1812,15 +1876,17 @@
         "Use the Mechanical Chisel to automate decorative block variants. Connect rotational power and provide the source blocks; inspect available variants in JEI."
       ],
       "icon": "minecraft:book",
-      "x": 0.0,
-      "y": 40.0,
+      "x": -10.0,
+      "y": 28.2,
       "dependencies": [],
       "tasks": [
         {
           "id": "0B76C346A63B93C4",
           "type": "checkmark"
         }
-      ]
+      ],
+      "shape": "octagon",
+      "size": 1.28
     },
     {
       "id": "006C6C3A0B8FBD63",
@@ -1829,8 +1895,8 @@
         "Craft the machine, supply rotation and test one block before feeding it a bulk supply."
       ],
       "icon": "rechiseledcreate:mechanical_chisel",
-      "x": 2.0,
-      "y": 40.0,
+      "x": -10.78,
+      "y": 30.0,
       "dependencies": [
         "0A5DB2FB5E3D5E2A"
       ],
@@ -1841,7 +1907,9 @@
           "item": "rechiseledcreate:mechanical_chisel",
           "consume_items": false
         }
-      ]
+      ],
+      "shape": "circle",
+      "size": 0.94
     },
     {
       "id": "04060BDB979C96C6",
@@ -1850,8 +1918,8 @@
         "Use a consistent palette of chiseled Create materials around your machines. Leave maintenance access and space for expansion."
       ],
       "icon": "minecraft:writable_book",
-      "x": 4.0,
-      "y": 40.0,
+      "x": -9.22,
+      "y": 30.0,
       "dependencies": [
         "006C6C3A0B8FBD63"
       ],
@@ -1860,8 +1928,11 @@
           "id": "0C99CC4D306A27FA",
           "type": "checkmark"
         }
-      ]
+      ],
+      "shape": "rsquare",
+      "size": 0.94
     }
   ],
-  "filename": "24_building"
+  "filename": "24_building",
+  "autofocus_id": "071AA7B61441C1DE"
 }

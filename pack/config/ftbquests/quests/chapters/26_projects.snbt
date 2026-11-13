@@ -12,10 +12,10 @@
       "description": [
         "Build a repeatable production line with an input supply, processing and output storage. Run it long enough to spot a blocked output."
       ],
-      "icon": "minecraft:nether_star",
-      "x": 1.43,
-      "y": 0.0,
-      "shape": "square",
+      "icon": "create:mechanical_press",
+      "x": -3.5,
+      "y": -1.7,
+      "shape": "hexagon",
       "dependencies": [
         "3FA3BA68CEC4E8B7",
         "309DD644DC97FFAB"
@@ -26,7 +26,8 @@
           "type": "checkmark",
           "title": "Project tested"
         }
-      ]
+      ],
+      "size": 1.45
     },
     {
       "id": "023808F2AA654626",
@@ -35,10 +36,10 @@
       "description": [
         "Build a furnished home with bulk storage, a kitchen, protected land and a marked return point."
       ],
-      "icon": "minecraft:nether_star",
-      "x": 3.43,
-      "y": 0.0,
-      "shape": "square",
+      "icon": "minecraft:lantern",
+      "x": -3.5,
+      "y": 1.7,
+      "shape": "hexagon",
       "dependencies": [
         "05A6207B7856AA6B"
       ],
@@ -48,7 +49,8 @@
           "type": "checkmark",
           "title": "Project tested"
         }
-      ]
+      ],
+      "size": 1.45
     },
     {
       "id": "03414DA64A0FFBCE",
@@ -57,10 +59,10 @@
       "description": [
         "Prepare a vessel for a journey, reach an unfamiliar destination and bring your discoveries safely home."
       ],
-      "icon": "minecraft:nether_star",
-      "x": 5.43,
-      "y": 0.0,
-      "shape": "square",
+      "icon": "minecraft:spyglass",
+      "x": 3.5,
+      "y": -1.7,
+      "shape": "hexagon",
       "dependencies": [
         "0D781CFB7B516C4B"
       ],
@@ -70,7 +72,8 @@
           "type": "checkmark",
           "title": "Project tested"
         }
-      ]
+      ],
+      "size": 1.45
     },
     {
       "id": "08636940C6A5B18E",
@@ -79,10 +82,10 @@
       "description": [
         "Welcome a companion into your team, secure a home and complete a trade. A settlement becomes stronger when its members can rely on one another."
       ],
-      "icon": "minecraft:nether_star",
-      "x": 7.43,
-      "y": 0.0,
-      "shape": "square",
+      "icon": "minecraft:bell",
+      "x": 3.5,
+      "y": 1.7,
+      "shape": "hexagon",
       "dependencies": [
         "0A61808FE40FEB8B"
       ],
@@ -92,8 +95,11 @@
           "type": "checkmark",
           "title": "Project tested"
         }
-      ]
+      ],
+      "size": 1.45
     }
   ],
-  "filename": "26_projects"
+  "filename": "26_projects",
+  "icon": "minecraft:lantern",
+  "autofocus_id": "003FCF5AEA79BD0B"
 }

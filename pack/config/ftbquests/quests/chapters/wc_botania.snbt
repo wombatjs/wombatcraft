@@ -13,9 +13,9 @@
         "The Pure Daisy transforms nearby stone and wood. Give it room, then prepare the living materials for a mana garden."
       ],
       "icon": "botania:lexicon",
-      "x": 0.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -4.12,
+      "y": 0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -32,7 +32,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.5
     },
     {
       "id": "3B3C226317183C1B",
@@ -40,9 +41,9 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:apothecary_default",
-      "x": 2.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -2.47,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "7EEB16D136BD6F3C"
       ],
@@ -55,7 +56,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "0CE7AD0C114BF59E",
@@ -63,9 +65,9 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:pure_daisy",
-      "x": 4.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "3B3C226317183C1B"
       ],
@@ -78,7 +80,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "1C289356FF38B77A",
@@ -86,9 +89,9 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:livingrock",
-      "x": 6.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "0CE7AD0C114BF59E"
       ],
@@ -107,7 +110,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "7DDFE5D56858CC86",
@@ -115,9 +119,9 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:livingwood_log",
-      "x": 8.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 2.47,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "1C289356FF38B77A"
       ],
@@ -130,7 +134,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "4A42A05B66D996D0",
@@ -138,9 +143,9 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:twig_wand",
-      "x": 10.0,
-      "y": 0.0,
-      "shape": "hexagon",
+      "x": 4.12,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "7DDFE5D56858CC86"
       ],
@@ -165,7 +170,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "7336CF36A96DF7E9",
@@ -175,9 +181,9 @@
         "Feed generating flowers and bind them to a spreader. Aim the spreader at the pool before supplying fuel."
       ],
       "icon": "botania:endoflame",
-      "x": 0.0,
+      "x": -1.8,
       "y": 3.0,
-      "shape": "circle",
+      "shape": "rsquare",
       "dependencies": [
         "4A42A05B66D996D0"
       ],
@@ -196,7 +202,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "3B55BA07633DCDA8",
@@ -204,7 +211,7 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:mana_spreader",
-      "x": 2.0,
+      "x": -3.35,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -219,7 +226,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4556D96C36F3BDB3",
@@ -227,7 +235,7 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:mana_pool",
-      "x": 4.0,
+      "x": -4.9,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -242,7 +250,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7A8179E6883160F1",
@@ -250,7 +259,7 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:mana_diamond",
-      "x": 6.0,
+      "x": -6.45,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -271,7 +280,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "06ACA2A2C496E68F",
@@ -279,7 +289,7 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:mana_pearl",
-      "x": 8.0,
+      "x": -8.0,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -294,7 +304,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "78D80CA9FF2836B6",
@@ -302,7 +313,7 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:manasteel_ingot",
-      "x": 10.0,
+      "x": -9.55,
       "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
@@ -329,7 +340,8 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "27C622D35289162B",
@@ -339,9 +351,9 @@
         "Deliver mana to the altar and place the required ingredients. Finish the rite with livingrock and the wand."
       ],
       "icon": "botania:runic_altar",
-      "x": 0.0,
-      "y": 6.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 5.35,
+      "shape": "rsquare",
       "dependencies": [
         "4556D96C36F3BDB3"
       ],
@@ -360,7 +372,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "14CC092734DD4925",
@@ -368,8 +381,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:rune_water",
-      "x": 2.0,
-      "y": 6.0,
+      "x": -3.35,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "27C622D35289162B"
@@ -383,7 +396,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "53619C79E3E79DDA",
@@ -391,8 +405,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:rune_fire",
-      "x": 4.0,
-      "y": 6.0,
+      "x": -4.9,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "14CC092734DD4925"
@@ -406,7 +420,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4BE00D511E39D26E",
@@ -414,8 +429,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:rune_earth",
-      "x": 6.0,
-      "y": 6.0,
+      "x": -6.45,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "53619C79E3E79DDA"
@@ -435,7 +450,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "735FE3436963B54A",
@@ -443,8 +459,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:rune_air",
-      "x": 8.0,
-      "y": 6.0,
+      "x": -8.0,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "4BE00D511E39D26E"
@@ -458,7 +474,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0E1A20FF79A62F64",
@@ -466,8 +483,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:rune_spring",
-      "x": 10.0,
-      "y": 6.0,
+      "x": -9.55,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "735FE3436963B54A"
@@ -481,7 +498,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "752F3D78A6A278F2",
@@ -489,8 +507,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:rune_summer",
-      "x": 12.0,
-      "y": 6.0,
+      "x": -9.55,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "0E1A20FF79A62F64"
@@ -510,7 +528,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "706AD864BECF170F",
@@ -518,8 +537,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:rune_autumn",
-      "x": 14.0,
-      "y": 6.0,
+      "x": -8.0,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "752F3D78A6A278F2"
@@ -533,7 +552,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "398F9E16BE0503E0",
@@ -541,8 +561,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:rune_winter",
-      "x": 16.0,
-      "y": 6.0,
+      "x": -6.45,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "706AD864BECF170F"
@@ -556,7 +576,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "093B6AEE4EEA08D6",
@@ -564,8 +585,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:rune_mana",
-      "x": 18.0,
-      "y": 6.0,
+      "x": -4.9,
+      "y": 6.9,
       "shape": "hexagon",
       "dependencies": [
         "398F9E16BE0503E0"
@@ -591,7 +612,8 @@
           "item": "minecraft:amethyst_shard",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "5434236AD4B918C7",
@@ -601,9 +623,9 @@
         "Different flowers consume different resources. Build the supply around the flower rather than leaving it hungry beside an impressive pool."
       ],
       "icon": "botania:hydroangeas",
-      "x": 0.0,
-      "y": 9.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 9.25,
+      "shape": "rsquare",
       "dependencies": [
         "27C622D35289162B"
       ],
@@ -622,7 +644,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "6A3E3312FE0C6B6C",
@@ -630,8 +653,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:thermalily",
-      "x": 2.0,
-      "y": 9.0,
+      "x": -3.35,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "5434236AD4B918C7"
@@ -645,7 +668,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6A1E744FA3E8E5B8",
@@ -653,8 +677,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:gourmaryllis",
-      "x": 4.0,
-      "y": 9.0,
+      "x": -4.9,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "6A3E3312FE0C6B6C"
@@ -668,7 +692,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1F30F353B08AA202",
@@ -676,8 +701,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:rosa_arcana",
-      "x": 6.0,
-      "y": 9.0,
+      "x": -6.45,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "6A1E744FA3E8E5B8"
@@ -697,7 +722,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "206682815E67F42D",
@@ -705,8 +731,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:munchdew",
-      "x": 8.0,
-      "y": 9.0,
+      "x": -8.0,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "1F30F353B08AA202"
@@ -720,7 +746,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "75E188BA0462055E",
@@ -728,8 +755,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:entropinnyum",
-      "x": 10.0,
-      "y": 9.0,
+      "x": -9.55,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "206682815E67F42D"
@@ -743,7 +770,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6A04BEE316DFF7C8",
@@ -751,8 +779,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:kekimurus",
-      "x": 12.0,
-      "y": 9.0,
+      "x": -9.55,
+      "y": 10.8,
       "shape": "circle",
       "dependencies": [
         "75E188BA0462055E"
@@ -772,7 +800,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "58ACA96B202B67CC",
@@ -780,8 +809,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:spectrolus",
-      "x": 14.0,
-      "y": 9.0,
+      "x": -8.0,
+      "y": 10.8,
       "shape": "hexagon",
       "dependencies": [
         "6A04BEE316DFF7C8"
@@ -807,7 +836,8 @@
           "item": "minecraft:golden_carrot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "0BD34CF0B5C96604",
@@ -817,9 +847,9 @@
         "Functional flowers spend mana to work on their surroundings. Mark their range and test the collection path before scaling up."
       ],
       "icon": "botania:hopperhock",
-      "x": 0.0,
-      "y": 12.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 24.9,
+      "shape": "rsquare",
       "dependencies": [
         "78D80CA9FF2836B6"
       ],
@@ -838,7 +868,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "5FC239F20C915740",
@@ -846,8 +877,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:rannuncarpus",
-      "x": 2.0,
-      "y": 12.0,
+      "x": -3.35,
+      "y": 24.9,
       "shape": "circle",
       "dependencies": [
         "0BD34CF0B5C96604"
@@ -861,7 +892,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "719F900DE4F0AD78",
@@ -869,8 +901,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:agricarnation",
-      "x": 4.0,
-      "y": 12.0,
+      "x": -4.9,
+      "y": 24.9,
       "shape": "circle",
       "dependencies": [
         "5FC239F20C915740"
@@ -884,7 +916,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "21CD54D6DF9C9B41",
@@ -892,8 +925,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:clayconia",
-      "x": 6.0,
-      "y": 12.0,
+      "x": -6.45,
+      "y": 24.9,
       "shape": "circle",
       "dependencies": [
         "719F900DE4F0AD78"
@@ -913,7 +946,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "555788EE5743914E",
@@ -921,8 +955,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:orechid",
-      "x": 8.0,
-      "y": 12.0,
+      "x": -8.0,
+      "y": 24.9,
       "shape": "circle",
       "dependencies": [
         "21CD54D6DF9C9B41"
@@ -936,7 +970,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "75F9B2D092201BD3",
@@ -944,8 +979,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:exoflame",
-      "x": 10.0,
-      "y": 12.0,
+      "x": -9.55,
+      "y": 24.9,
       "shape": "circle",
       "dependencies": [
         "555788EE5743914E"
@@ -959,7 +994,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4625B752219A8929",
@@ -967,8 +1003,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:solegnolia",
-      "x": 12.0,
-      "y": 12.0,
+      "x": -9.55,
+      "y": 26.45,
       "shape": "circle",
       "dependencies": [
         "75F9B2D092201BD3"
@@ -988,7 +1024,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "43148A40B2756C35",
@@ -996,8 +1033,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:daffomill",
-      "x": 14.0,
-      "y": 12.0,
+      "x": -8.0,
+      "y": 26.45,
       "shape": "hexagon",
       "dependencies": [
         "4625B752219A8929"
@@ -1023,7 +1060,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "4D5EBAE8036C5FC9",
@@ -1033,9 +1071,9 @@
         "Sparks move mana between compatible blocks. Use transfer priorities to keep critical consumers supplied."
       ],
       "icon": "botania:spark",
-      "x": 0.0,
-      "y": 15.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 28.8,
+      "shape": "rsquare",
       "dependencies": [
         "7A8179E6883160F1"
       ],
@@ -1054,7 +1092,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "259AE4AC9627DE20",
@@ -1062,8 +1101,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:spark_upgrade_dominant",
-      "x": 2.0,
-      "y": 15.0,
+      "x": -3.35,
+      "y": 28.8,
       "shape": "circle",
       "dependencies": [
         "4D5EBAE8036C5FC9"
@@ -1077,7 +1116,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "488112F0C37143AB",
@@ -1085,8 +1125,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:spark_upgrade_recessive",
-      "x": 4.0,
-      "y": 15.0,
+      "x": -4.9,
+      "y": 28.8,
       "shape": "circle",
       "dependencies": [
         "259AE4AC9627DE20"
@@ -1100,7 +1140,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6DE46D839ECA6DDD",
@@ -1108,8 +1149,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:spark_upgrade_dispersive",
-      "x": 6.0,
-      "y": 15.0,
+      "x": -6.45,
+      "y": 28.8,
       "shape": "circle",
       "dependencies": [
         "488112F0C37143AB"
@@ -1129,7 +1170,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "00639C565BB7570C",
@@ -1137,8 +1179,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:mana_distributor",
-      "x": 8.0,
-      "y": 15.0,
+      "x": -8.0,
+      "y": 28.8,
       "shape": "circle",
       "dependencies": [
         "6DE46D839ECA6DDD"
@@ -1152,7 +1194,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4C242399C360242F",
@@ -1160,8 +1203,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:mana_void",
-      "x": 10.0,
-      "y": 15.0,
+      "x": -9.55,
+      "y": 28.8,
       "shape": "hexagon",
       "dependencies": [
         "00639C565BB7570C"
@@ -1187,7 +1230,8 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "5D8EE20DEC3ACD1F",
@@ -1197,9 +1241,9 @@
         "Prepare a charged mana reserve before the terrestrial rite. Do not remove its ingredients while the plate is working."
       ],
       "icon": "botania:terra_plate",
-      "x": 0.0,
-      "y": 18.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 13.15,
+      "shape": "rsquare",
       "dependencies": [
         "27C622D35289162B"
       ],
@@ -1218,7 +1262,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "0262D0BC8D63949B",
@@ -1226,8 +1271,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:terrasteel_ingot",
-      "x": 2.0,
-      "y": 18.0,
+      "x": -3.35,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "5D8EE20DEC3ACD1F"
@@ -1241,7 +1286,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "610878671ED16E4C",
@@ -1249,8 +1295,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:terrasteel_helmet",
-      "x": 4.0,
-      "y": 18.0,
+      "x": -4.9,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "0262D0BC8D63949B"
@@ -1264,7 +1310,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1D8A239EE4D29713",
@@ -1272,8 +1319,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:terrasteel_chestplate",
-      "x": 6.0,
-      "y": 18.0,
+      "x": -6.45,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "610878671ED16E4C"
@@ -1293,7 +1340,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "4A6DC33980AF7F1A",
@@ -1301,8 +1349,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:terrasteel_leggings",
-      "x": 8.0,
-      "y": 18.0,
+      "x": -8.0,
+      "y": 13.15,
       "shape": "circle",
       "dependencies": [
         "1D8A239EE4D29713"
@@ -1316,7 +1364,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4F569B6D4FB7D8CF",
@@ -1324,8 +1373,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:terrasteel_boots",
-      "x": 10.0,
-      "y": 18.0,
+      "x": -9.55,
+      "y": 13.15,
       "shape": "hexagon",
       "dependencies": [
         "4A6DC33980AF7F1A"
@@ -1351,7 +1400,8 @@
           "item": "minecraft:amethyst_shard",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "36F50C1366FB7592",
@@ -1361,9 +1411,9 @@
         "Open the gateway with the required mana support. Exchange a small batch first and keep the return area clear."
       ],
       "icon": "botania:alfheim_portal",
-      "x": 0.0,
-      "y": 21.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 15.5,
+      "shape": "rsquare",
       "dependencies": [
         "0262D0BC8D63949B"
       ],
@@ -1382,7 +1432,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "4B64479361C970A9",
@@ -1390,8 +1441,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:elementium_ingot",
-      "x": 2.0,
-      "y": 21.0,
+      "x": -3.35,
+      "y": 15.5,
       "shape": "circle",
       "dependencies": [
         "36F50C1366FB7592"
@@ -1405,7 +1456,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "66AD254400D9041C",
@@ -1413,8 +1465,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:dragonstone",
-      "x": 4.0,
-      "y": 21.0,
+      "x": -4.9,
+      "y": 15.5,
       "shape": "circle",
       "dependencies": [
         "4B64479361C970A9"
@@ -1428,7 +1480,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7EE1D347F990A245",
@@ -1436,8 +1489,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:pixie_dust",
-      "x": 6.0,
-      "y": 21.0,
+      "x": -6.45,
+      "y": 15.5,
       "shape": "circle",
       "dependencies": [
         "66AD254400D9041C"
@@ -1457,7 +1510,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "28A831E248968E01",
@@ -1465,8 +1519,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:dreamwood_log",
-      "x": 8.0,
-      "y": 21.0,
+      "x": -8.0,
+      "y": 15.5,
       "shape": "circle",
       "dependencies": [
         "7EE1D347F990A245"
@@ -1480,7 +1534,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5FA642F4083EAA21",
@@ -1488,8 +1543,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:elven_spreader",
-      "x": 10.0,
-      "y": 21.0,
+      "x": -9.55,
+      "y": 15.5,
       "shape": "hexagon",
       "dependencies": [
         "28A831E248968E01"
@@ -1515,7 +1570,8 @@
           "item": "minecraft:golden_carrot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "68D81BBB9390E657",
@@ -1525,9 +1581,9 @@
         "Carry a mana supply when relying on these tools. Understand a tool's special action before using it near finished builds."
       ],
       "icon": "botania:manasteel_pick",
-      "x": 0.0,
-      "y": 24.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 31.15,
+      "shape": "rsquare",
       "dependencies": [
         "78D80CA9FF2836B6"
       ],
@@ -1546,7 +1602,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "57F3975173A7F139",
@@ -1554,8 +1611,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:manasteel_axe",
-      "x": 2.0,
-      "y": 24.0,
+      "x": -3.35,
+      "y": 31.15,
       "shape": "circle",
       "dependencies": [
         "68D81BBB9390E657"
@@ -1569,7 +1626,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "01130BCBFE99313E",
@@ -1577,8 +1635,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:manasteel_shovel",
-      "x": 4.0,
-      "y": 24.0,
+      "x": -4.9,
+      "y": 31.15,
       "shape": "circle",
       "dependencies": [
         "57F3975173A7F139"
@@ -1592,7 +1650,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "754BAE889050AC14",
@@ -1600,8 +1659,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:manasteel_shears",
-      "x": 6.0,
-      "y": 24.0,
+      "x": -6.45,
+      "y": 31.15,
       "shape": "circle",
       "dependencies": [
         "01130BCBFE99313E"
@@ -1621,7 +1680,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "7CA54D4C67261C13",
@@ -1629,8 +1689,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:terra_pick",
-      "x": 8.0,
-      "y": 24.0,
+      "x": -8.0,
+      "y": 31.15,
       "shape": "circle",
       "dependencies": [
         "754BAE889050AC14"
@@ -1644,7 +1704,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "44259C7964CB8D44",
@@ -1652,8 +1713,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:terra_axe",
-      "x": 10.0,
-      "y": 24.0,
+      "x": -9.55,
+      "y": 31.15,
       "shape": "circle",
       "dependencies": [
         "7CA54D4C67261C13"
@@ -1667,7 +1728,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "346AAE4FD591F37E",
@@ -1675,8 +1737,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:terra_sword",
-      "x": 12.0,
-      "y": 24.0,
+      "x": -9.55,
+      "y": 32.7,
       "shape": "hexagon",
       "dependencies": [
         "44259C7964CB8D44"
@@ -1702,7 +1764,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "46340A9B0FD94705",
@@ -1712,9 +1775,9 @@
         "Mana equipment draws from your carried reserve. Match accessories to the journey and keep spare food and a return route."
       ],
       "icon": "botania:mana_tablet",
-      "x": 0.0,
-      "y": 27.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 35.05,
+      "shape": "rsquare",
       "dependencies": [
         "06ACA2A2C496E68F"
       ],
@@ -1733,7 +1796,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "156531DE5E0C2471",
@@ -1741,8 +1805,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:mana_ring",
-      "x": 2.0,
-      "y": 27.0,
+      "x": -3.35,
+      "y": 35.05,
       "shape": "circle",
       "dependencies": [
         "46340A9B0FD94705"
@@ -1756,7 +1820,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "183414F04787BC56",
@@ -1764,8 +1829,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:travel_belt",
-      "x": 4.0,
-      "y": 27.0,
+      "x": -4.9,
+      "y": 35.05,
       "shape": "circle",
       "dependencies": [
         "156531DE5E0C2471"
@@ -1779,7 +1844,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "60EA8B1857AEFF73",
@@ -1787,8 +1853,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:cloud_pendant",
-      "x": 6.0,
-      "y": 27.0,
+      "x": -6.45,
+      "y": 35.05,
       "shape": "circle",
       "dependencies": [
         "183414F04787BC56"
@@ -1808,7 +1874,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "6B11FA8F8CF79316",
@@ -1816,8 +1883,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:lava_pendant",
-      "x": 8.0,
-      "y": 27.0,
+      "x": -8.0,
+      "y": 35.05,
       "shape": "circle",
       "dependencies": [
         "60EA8B1857AEFF73"
@@ -1831,7 +1898,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "75A91507753955A2",
@@ -1839,8 +1907,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:water_ring",
-      "x": 10.0,
-      "y": 27.0,
+      "x": -9.55,
+      "y": 35.05,
       "shape": "circle",
       "dependencies": [
         "6B11FA8F8CF79316"
@@ -1854,7 +1922,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2574BB4E5E3A79D8",
@@ -1862,8 +1931,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:magnet_ring",
-      "x": 12.0,
-      "y": 27.0,
+      "x": -9.55,
+      "y": 36.6,
       "shape": "hexagon",
       "dependencies": [
         "75A91507753955A2"
@@ -1889,7 +1958,8 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "148D5C310970EA8F",
@@ -1899,9 +1969,9 @@
         "Brew useful effects before a dangerous expedition. The enchanter offers a separate route for transferring enchantments."
       ],
       "icon": "botania:brewery",
-      "x": 0.0,
-      "y": 30.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 22.55,
+      "shape": "rsquare",
       "dependencies": [
         "27C622D35289162B"
       ],
@@ -1920,7 +1990,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "1CD08D72942B4D03",
@@ -1928,8 +1999,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:vial",
-      "x": 2.0,
-      "y": 30.0,
+      "x": -3.35,
+      "y": 22.55,
       "shape": "circle",
       "dependencies": [
         "148D5C310970EA8F"
@@ -1943,7 +2014,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4B00887F615D8029",
@@ -1951,8 +2023,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:brew_vial",
-      "x": 4.0,
-      "y": 30.0,
+      "x": -4.9,
+      "y": 22.55,
       "shape": "circle",
       "dependencies": [
         "1CD08D72942B4D03"
@@ -1966,7 +2038,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "193BFAE010354099",
@@ -1974,8 +2047,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:flask",
-      "x": 6.0,
-      "y": 30.0,
+      "x": -6.45,
+      "y": 22.55,
       "shape": "circle",
       "dependencies": [
         "4B00887F615D8029"
@@ -1995,7 +2068,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "2007E52441DD0882",
@@ -2003,8 +2077,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:brew_flask",
-      "x": 8.0,
-      "y": 30.0,
+      "x": -8.0,
+      "y": 22.55,
       "shape": "circle",
       "dependencies": [
         "193BFAE010354099"
@@ -2018,7 +2092,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "04E5CE83603EC192",
@@ -2026,8 +2101,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:enchanter",
-      "x": 10.0,
-      "y": 30.0,
+      "x": -9.55,
+      "y": 22.55,
       "shape": "hexagon",
       "dependencies": [
         "2007E52441DD0882"
@@ -2053,7 +2128,8 @@
           "item": "minecraft:amethyst_shard",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "2E2B3319AD057AFA",
@@ -2063,9 +2139,9 @@
         "Connect inventories with sparks and test a request from the index. Keep overflow and failed requests visible."
       ],
       "icon": "botania:corporea_spark",
-      "x": 0.0,
-      "y": 33.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 17.85,
+      "shape": "rsquare",
       "dependencies": [
         "7EE1D347F990A245"
       ],
@@ -2084,7 +2160,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "25D0C103DFD2C21F",
@@ -2092,8 +2169,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:corporea_spark_master",
-      "x": 2.0,
-      "y": 33.0,
+      "x": -3.35,
+      "y": 17.85,
       "shape": "circle",
       "dependencies": [
         "2E2B3319AD057AFA"
@@ -2107,7 +2184,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1D77C1BA101DD865",
@@ -2115,8 +2193,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:corporea_index",
-      "x": 4.0,
-      "y": 33.0,
+      "x": -4.9,
+      "y": 17.85,
       "shape": "circle",
       "dependencies": [
         "25D0C103DFD2C21F"
@@ -2130,7 +2208,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "07B76516B4FE8656",
@@ -2138,8 +2217,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:corporea_funnel",
-      "x": 6.0,
-      "y": 33.0,
+      "x": -6.45,
+      "y": 17.85,
       "shape": "circle",
       "dependencies": [
         "1D77C1BA101DD865"
@@ -2159,7 +2238,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "544B59A9A60471C6",
@@ -2167,8 +2247,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:corporea_interceptor",
-      "x": 8.0,
-      "y": 33.0,
+      "x": -8.0,
+      "y": 17.85,
       "shape": "circle",
       "dependencies": [
         "07B76516B4FE8656"
@@ -2182,7 +2262,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "690C07557A1141A2",
@@ -2190,8 +2271,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:corporea_retainer",
-      "x": 10.0,
-      "y": 33.0,
+      "x": -9.55,
+      "y": 17.85,
       "shape": "hexagon",
       "dependencies": [
         "544B59A9A60471C6"
@@ -2217,7 +2298,8 @@
           "item": "minecraft:golden_carrot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "0C83ABD427E3FB80",
@@ -2227,9 +2309,9 @@
         "Prepare the ritual arena and equipment before challenging Gaia. Keep the fighting space clear for every participant."
       ],
       "icon": "botania:life_essence",
-      "x": 0.0,
-      "y": 36.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 20.2,
+      "shape": "rsquare",
       "dependencies": [
         "4B64479361C970A9"
       ],
@@ -2248,7 +2330,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "5DD498537058C2A0",
@@ -2256,8 +2339,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:gaia_ingot",
-      "x": 2.0,
-      "y": 36.0,
+      "x": -3.35,
+      "y": 20.2,
       "shape": "circle",
       "dependencies": [
         "0C83ABD427E3FB80"
@@ -2271,7 +2354,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2B2BB7B4238DEDF6",
@@ -2279,8 +2363,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:gaia_spreader",
-      "x": 4.0,
-      "y": 36.0,
+      "x": -4.9,
+      "y": 20.2,
       "shape": "circle",
       "dependencies": [
         "5DD498537058C2A0"
@@ -2294,7 +2378,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "29D5019DA5B3C4A9",
@@ -2302,8 +2387,8 @@
       "subtitle": "",
       "description": [],
       "icon": "botania:flight_tiara",
-      "x": 6.0,
-      "y": 36.0,
+      "x": -6.45,
+      "y": 20.2,
       "shape": "hexagon",
       "dependencies": [
         "2B2BB7B4238DEDF6"
@@ -2329,8 +2414,84 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.24
+    },
+    {
+      "id": "0CD47FAA045B98E0",
+      "title": "An Open Gateway",
+      "description": [
+        "Set up the elven gateway with charged mana pools and pylons. Open it and send a small offering through before stocking the exchange."
+      ],
+      "icon": "botania:alfheim_portal",
+      "dependencies": [
+        "36F50C1366FB7592",
+        "4556D96C36F3BDB3"
+      ],
+      "tasks": [
+        {
+          "id": "38970339CEF691E7",
+          "type": "advancement",
+          "advancement": "botania:main/elf_portal_open"
+        }
+      ],
+      "optional": true,
+      "rewards": [
+        {
+          "id": "3357D3D7FB607491",
+          "type": "item",
+          "item": "botania:livingrock",
+          "count": 24
+        },
+        {
+          "id": "127819C5C6C0C55F",
+          "type": "xp",
+          "xp": 40
+        }
+      ],
+      "x": -1.55,
+      "y": 39.2,
+      "shape": "diamond",
+      "size": 1.42
+    },
+    {
+      "id": "46B7B4C21FBB1475",
+      "title": "Gaia Unbound",
+      "description": [
+        "Clear the ritual arena, bring a Gaia Spirit Ingot and keep a supply of food and mana on hand for the stronger guardian."
+      ],
+      "icon": "botania:gaia_ingot",
+      "dependencies": [
+        "5DD498537058C2A0"
+      ],
+      "tasks": [
+        {
+          "id": "0E2519E5E8FAF4E4",
+          "type": "advancement",
+          "advancement": "botania:challenge/gaia_guardian_hardmode"
+        }
+      ],
+      "optional": true,
+      "rewards": [
+        {
+          "id": "4FC5AE0B243FB1CB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 16
+        },
+        {
+          "id": "002D25483D5CF202",
+          "type": "xp",
+          "xp": 40
+        }
+      ],
+      "x": 1.55,
+      "y": 39.2,
+      "shape": "diamond",
+      "size": 1.42
     }
   ],
+  "icon": "botania:lexicon",
+  "autofocus_id": "7EEB16D136BD6F3C",
   "filename": "wc_botania"
 }

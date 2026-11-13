@@ -13,9 +13,9 @@
         "Build a powered processing pair and configure its faces. Keep fuel and output extraction simple until the line is reliable."
       ],
       "icon": "thermal:wrench",
-      "x": 0.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -4.95,
+      "y": 0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -32,7 +32,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.5
     },
     {
       "id": "21271D3838D62A98",
@@ -40,9 +41,9 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:rf_coil",
-      "x": 2.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -3.3,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "74909E2579EF25AB"
       ],
@@ -55,7 +56,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "4038C993FE58DC6E",
@@ -63,9 +65,9 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:redstone_servo",
-      "x": 4.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -1.65,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "21271D3838D62A98"
       ],
@@ -78,7 +80,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "43406228DEA85400",
@@ -86,9 +89,9 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:machine_frame",
-      "x": 6.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 0.0,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "4038C993FE58DC6E"
       ],
@@ -107,7 +110,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "14BC925362B894D3",
@@ -115,9 +119,9 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:dynamo_stirling",
-      "x": 8.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 1.65,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "43406228DEA85400"
       ],
@@ -130,7 +134,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "4F1278B15FD308B1",
@@ -138,9 +143,9 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:machine_furnace",
-      "x": 10.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 3.3,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "14BC925362B894D3"
       ],
@@ -153,7 +158,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "37698683A125F820",
@@ -161,9 +167,9 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:machine_pulverizer",
-      "x": 12.0,
-      "y": 0.0,
-      "shape": "hexagon",
+      "x": 4.95,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "4F1278B15FD308B1"
       ],
@@ -188,7 +194,8 @@
           "item": "minecraft:iron_ingot",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "5229279272C2DB4F",
@@ -198,9 +205,9 @@
         "Prepare alloys in useful batches. Dies give the press specialised work; switch them to match your current production needs."
       ],
       "icon": "thermal:invar_ingot",
-      "x": 0.0,
+      "x": -1.8,
       "y": 3.0,
-      "shape": "circle",
+      "shape": "rsquare",
       "dependencies": [
         "37698683A125F820"
       ],
@@ -219,7 +226,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "785FFC41F645BA12",
@@ -227,7 +235,7 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:electrum_ingot",
-      "x": 2.0,
+      "x": -3.35,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -242,7 +250,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2AA1AF3415409759",
@@ -250,7 +259,7 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:bronze_ingot",
-      "x": 4.0,
+      "x": -4.9,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -265,7 +274,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4D0708389486D0BD",
@@ -273,7 +283,7 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:machine_smelter",
-      "x": 6.0,
+      "x": -6.45,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -294,7 +304,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "5A9E8E0748B6A303",
@@ -302,7 +313,7 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:machine_press",
-      "x": 8.0,
+      "x": -8.0,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -317,7 +328,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3101979D235953FB",
@@ -325,7 +337,7 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:press_gear_die",
-      "x": 10.0,
+      "x": -9.55,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -340,7 +352,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "03FA49A6D287DE48",
@@ -348,8 +361,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:press_coin_die",
-      "x": 12.0,
-      "y": 3.0,
+      "x": -9.55,
+      "y": 4.55,
       "shape": "hexagon",
       "dependencies": [
         "3101979D235953FB"
@@ -375,7 +388,8 @@
           "item": "minecraft:redstone",
           "count": 16
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "5B8C78478AED6EFC",
@@ -385,9 +399,9 @@
         "Melting, cooling and bottling form a separate fluid workshop. Store hot products safely and keep incompatible fluids apart."
       ],
       "icon": "thermal:machine_crucible",
-      "x": 0.0,
-      "y": 6.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 6.9,
+      "shape": "rsquare",
       "dependencies": [
         "4D0708389486D0BD"
       ],
@@ -406,7 +420,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "3B659F54A938FC4A",
@@ -414,8 +429,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:machine_chiller",
-      "x": 2.0,
-      "y": 6.0,
+      "x": -3.35,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "5B8C78478AED6EFC"
@@ -429,7 +444,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2F0495AF93FB17D4",
@@ -437,8 +453,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:machine_bottler",
-      "x": 4.0,
-      "y": 6.0,
+      "x": -4.9,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "3B659F54A938FC4A"
@@ -452,7 +468,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "725D880A0579AF29",
@@ -460,8 +477,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:fluid_cell",
-      "x": 6.0,
-      "y": 6.0,
+      "x": -6.45,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "2F0495AF93FB17D4"
@@ -481,7 +498,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "1B5FEDCDA14D287F",
@@ -489,8 +507,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:fluid_reservoir",
-      "x": 8.0,
-      "y": 6.0,
+      "x": -8.0,
+      "y": 6.9,
       "shape": "hexagon",
       "dependencies": [
         "725D880A0579AF29"
@@ -516,7 +534,8 @@
           "item": "minecraft:gold_ingot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "3A59BAB24CD4F8A4",
@@ -526,9 +545,9 @@
         "Turn a managed grove into a renewable supply. Collect every output so a full by-product tank cannot halt production."
       ],
       "icon": "thermal:device_tree_extractor",
-      "x": 0.0,
-      "y": 9.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 3.0,
+      "shape": "rsquare",
       "dependencies": [
         "43406228DEA85400"
       ],
@@ -547,7 +566,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "45BCA75C6868045A",
@@ -555,8 +575,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:resin_bucket",
-      "x": 2.0,
-      "y": 9.0,
+      "x": 3.35,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "3A59BAB24CD4F8A4"
@@ -570,7 +590,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4FE26460B2FB65A8",
@@ -578,8 +599,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:rubber",
-      "x": 4.0,
-      "y": 9.0,
+      "x": 4.9,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "45BCA75C6868045A"
@@ -593,7 +614,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "33160C164B7B1B38",
@@ -601,8 +623,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:cured_rubber",
-      "x": 6.0,
-      "y": 9.0,
+      "x": 6.45,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "4FE26460B2FB65A8"
@@ -622,7 +644,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "2C358773C1868D4D",
@@ -631,7 +654,7 @@
       "description": [],
       "icon": "thermal:machine_sawmill",
       "x": 8.0,
-      "y": 9.0,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "33160C164B7B1B38"
@@ -645,7 +668,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5FBA26DAA09909B7",
@@ -653,8 +677,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:machine_pyrolyzer",
-      "x": 10.0,
-      "y": 9.0,
+      "x": 9.55,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "2C358773C1868D4D"
@@ -668,7 +692,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "756127A30215B7A3",
@@ -676,8 +701,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:coal_coke",
-      "x": 12.0,
-      "y": 9.0,
+      "x": 9.55,
+      "y": 4.55,
       "shape": "hexagon",
       "dependencies": [
         "5FBA26DAA09909B7"
@@ -703,7 +728,8 @@
           "item": "minecraft:quartz",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "14BFAAC45DF42167",
@@ -713,9 +739,9 @@
         "Refining creates several useful fractions. Size storage for all of them before feeding the plant continuously."
       ],
       "icon": "thermal:crude_oil_bucket",
-      "x": 0.0,
-      "y": 12.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 9.25,
+      "shape": "rsquare",
       "dependencies": [
         "5B8C78478AED6EFC"
       ],
@@ -734,7 +760,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "2B08E38CDF550FB2",
@@ -742,8 +769,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:machine_refinery",
-      "x": 2.0,
-      "y": 12.0,
+      "x": -3.35,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "14BFAAC45DF42167"
@@ -757,7 +784,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0758D24F88DCB56E",
@@ -765,8 +793,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:heavy_oil_bucket",
-      "x": 4.0,
-      "y": 12.0,
+      "x": -4.9,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "2B08E38CDF550FB2"
@@ -780,7 +808,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5AE793A01C7D4AB1",
@@ -788,8 +817,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:light_oil_bucket",
-      "x": 6.0,
-      "y": 12.0,
+      "x": -6.45,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "0758D24F88DCB56E"
@@ -809,7 +838,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "46B4AE7F8193EFF4",
@@ -817,8 +847,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:refined_fuel_bucket",
-      "x": 8.0,
-      "y": 12.0,
+      "x": -8.0,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "5AE793A01C7D4AB1"
@@ -832,7 +862,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "3E66095307C20775",
@@ -840,8 +871,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:dynamo_compression",
-      "x": 10.0,
-      "y": 12.0,
+      "x": -9.55,
+      "y": 9.25,
       "shape": "hexagon",
       "dependencies": [
         "46B4AE7F8193EFF4"
@@ -867,7 +898,8 @@
           "item": "minecraft:iron_ingot",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "340A4726A1670A7E",
@@ -877,9 +909,9 @@
         "Match generation to a resource you can replenish. Valuable fuel is not always the most economical fuel."
       ],
       "icon": "thermal:dynamo_magmatic",
-      "x": 0.0,
-      "y": 15.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 6.9,
+      "shape": "rsquare",
       "dependencies": [
         "14BC925362B894D3"
       ],
@@ -898,7 +930,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "0F9E6A4EC9F65B08",
@@ -906,8 +939,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:dynamo_lapidary",
-      "x": 2.0,
-      "y": 15.0,
+      "x": 3.35,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "340A4726A1670A7E"
@@ -921,7 +954,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7261DA88A25F79D9",
@@ -929,8 +963,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:dynamo_numismatic",
-      "x": 4.0,
-      "y": 15.0,
+      "x": 4.9,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "0F9E6A4EC9F65B08"
@@ -944,7 +978,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6EC005C8AF344B3B",
@@ -952,8 +987,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:dynamo_disenchantment",
-      "x": 6.0,
-      "y": 15.0,
+      "x": 6.45,
+      "y": 6.9,
       "shape": "circle",
       "dependencies": [
         "7261DA88A25F79D9"
@@ -973,7 +1008,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "05AA1A75D2081EDC",
@@ -982,7 +1018,7 @@
       "description": [],
       "icon": "thermal:dynamo_gourmand",
       "x": 8.0,
-      "y": 15.0,
+      "y": 6.9,
       "shape": "hexagon",
       "dependencies": [
         "6EC005C8AF344B3B"
@@ -1008,7 +1044,8 @@
           "item": "minecraft:redstone",
           "count": 16
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "2C20566A687D0BBA",
@@ -1018,9 +1055,9 @@
         "Buffer the workshop and carry a reserve for tools. Keep transfer limits in mind when a busy line draws more power."
       ],
       "icon": "thermal:energy_cell_frame",
-      "x": 0.0,
-      "y": 18.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 9.25,
+      "shape": "rsquare",
       "dependencies": [
         "21271D3838D62A98"
       ],
@@ -1039,7 +1076,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "0A5F02D3783E0FCE",
@@ -1047,8 +1085,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:energy_cell",
-      "x": 2.0,
-      "y": 18.0,
+      "x": 3.35,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "2C20566A687D0BBA"
@@ -1062,7 +1100,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "67CFB32C2EB99449",
@@ -1070,8 +1109,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:energy_duct",
-      "x": 4.0,
-      "y": 18.0,
+      "x": 4.9,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "0A5F02D3783E0FCE"
@@ -1085,7 +1124,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "18106956A9E197C9",
@@ -1093,8 +1133,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:flux_capacitor",
-      "x": 6.0,
-      "y": 18.0,
+      "x": 6.45,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "67CFB32C2EB99449"
@@ -1114,7 +1154,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "2DD7142C6F3E53D2",
@@ -1123,7 +1164,7 @@
       "description": [],
       "icon": "thermal:charge_bench",
       "x": 8.0,
-      "y": 18.0,
+      "y": 9.25,
       "shape": "hexagon",
       "dependencies": [
         "18106956A9E197C9"
@@ -1149,7 +1190,8 @@
           "item": "minecraft:gold_ingot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "271893EED314740B",
@@ -1159,9 +1201,9 @@
         "Advanced alloys support stronger components. Establish the material chain before upgrading every machine at once."
       ],
       "icon": "thermal:signalum_ingot",
-      "x": 0.0,
-      "y": 21.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 11.6,
+      "shape": "rsquare",
       "dependencies": [
         "4D0708389486D0BD"
       ],
@@ -1180,7 +1222,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "038D75D3498400CD",
@@ -1188,8 +1231,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:lumium_ingot",
-      "x": 2.0,
-      "y": 21.0,
+      "x": -3.35,
+      "y": 11.6,
       "shape": "circle",
       "dependencies": [
         "271893EED314740B"
@@ -1203,7 +1246,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "297B866E4AD50D41",
@@ -1211,8 +1255,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:enderium_ingot",
-      "x": 4.0,
-      "y": 21.0,
+      "x": -4.9,
+      "y": 11.6,
       "shape": "circle",
       "dependencies": [
         "038D75D3498400CD"
@@ -1226,7 +1270,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "62FCFAC83E05DA2B",
@@ -1234,8 +1279,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:signalum_gear",
-      "x": 6.0,
-      "y": 21.0,
+      "x": -6.45,
+      "y": 11.6,
       "shape": "circle",
       "dependencies": [
         "297B866E4AD50D41"
@@ -1255,7 +1300,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "18D978259AA5F20D",
@@ -1263,8 +1309,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:lumium_gear",
-      "x": 8.0,
-      "y": 21.0,
+      "x": -8.0,
+      "y": 11.6,
       "shape": "circle",
       "dependencies": [
         "62FCFAC83E05DA2B"
@@ -1278,7 +1324,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "01B1D713441499BB",
@@ -1286,8 +1333,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:enderium_gear",
-      "x": 10.0,
-      "y": 21.0,
+      "x": -9.55,
+      "y": 11.6,
       "shape": "hexagon",
       "dependencies": [
         "18D978259AA5F20D"
@@ -1313,7 +1360,8 @@
           "item": "minecraft:quartz",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "0B8779CA2B513466",
@@ -1323,9 +1371,9 @@
         "Speed, efficiency and output upgrades solve different problems. Measure the bottleneck before filling upgrade slots."
       ],
       "icon": "thermal:machine_speed_augment",
-      "x": 0.0,
-      "y": 24.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 13.95,
+      "shape": "rsquare",
       "dependencies": [
         "297B866E4AD50D41"
       ],
@@ -1344,7 +1392,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "27D405AE6A3E6AC6",
@@ -1352,8 +1401,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:machine_efficiency_augment",
-      "x": 2.0,
-      "y": 24.0,
+      "x": -3.35,
+      "y": 13.95,
       "shape": "circle",
       "dependencies": [
         "0B8779CA2B513466"
@@ -1367,7 +1416,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2AD57025418EE8E3",
@@ -1375,8 +1425,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:machine_output_augment",
-      "x": 4.0,
-      "y": 24.0,
+      "x": -4.9,
+      "y": 13.95,
       "shape": "circle",
       "dependencies": [
         "27D405AE6A3E6AC6"
@@ -1390,7 +1440,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7E12B959E4142DBE",
@@ -1398,8 +1449,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:machine_cycle_augment",
-      "x": 6.0,
-      "y": 24.0,
+      "x": -6.45,
+      "y": 13.95,
       "shape": "circle",
       "dependencies": [
         "2AD57025418EE8E3"
@@ -1419,7 +1470,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "3EB1D022E22F5896",
@@ -1427,8 +1479,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:dynamo_output_augment",
-      "x": 8.0,
-      "y": 24.0,
+      "x": -8.0,
+      "y": 13.95,
       "shape": "circle",
       "dependencies": [
         "7E12B959E4142DBE"
@@ -1442,7 +1494,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "385BE19320CA1990",
@@ -1450,8 +1503,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:dynamo_fuel_augment",
-      "x": 10.0,
-      "y": 24.0,
+      "x": -9.55,
+      "y": 13.95,
       "shape": "hexagon",
       "dependencies": [
         "3EB1D022E22F5896"
@@ -1477,7 +1530,8 @@
           "item": "minecraft:iron_ingot",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "36BD2C08AB623950",
@@ -1487,9 +1541,9 @@
         "Supply water and fertiliser alongside seeds. Keep enough produce to restart the garden after a storage mistake."
       ],
       "icon": "thermal:phytogro",
-      "x": 0.0,
-      "y": 27.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 11.6,
+      "shape": "rsquare",
       "dependencies": [
         "43406228DEA85400"
       ],
@@ -1508,7 +1562,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "03F367CB3291E7E7",
@@ -1516,8 +1571,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:machine_insolator",
-      "x": 2.0,
-      "y": 27.0,
+      "x": 3.35,
+      "y": 11.6,
       "shape": "circle",
       "dependencies": [
         "36BD2C08AB623950"
@@ -1531,7 +1586,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7380074B1C127087",
@@ -1539,8 +1595,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:device_water_gen",
-      "x": 4.0,
-      "y": 27.0,
+      "x": 4.9,
+      "y": 11.6,
       "shape": "circle",
       "dependencies": [
         "03F367CB3291E7E7"
@@ -1554,7 +1610,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "27238673FB5EB749",
@@ -1562,8 +1619,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:device_composter",
-      "x": 6.0,
-      "y": 27.0,
+      "x": 6.45,
+      "y": 11.6,
       "shape": "circle",
       "dependencies": [
         "7380074B1C127087"
@@ -1583,7 +1640,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "3DD0E839E785F6D8",
@@ -1592,7 +1650,7 @@
       "description": [],
       "icon": "thermal:device_soil_infuser",
       "x": 8.0,
-      "y": 27.0,
+      "y": 11.6,
       "shape": "hexagon",
       "dependencies": [
         "27238673FB5EB749"
@@ -1618,7 +1676,8 @@
           "item": "minecraft:redstone",
           "count": 16
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "2C4EBD519F92BD93",
@@ -1628,9 +1687,9 @@
         "Recover value from the workshop's side streams. Reserve disposal for genuine excess after useful products have been extracted."
       ],
       "icon": "thermal:machine_centrifuge",
-      "x": 0.0,
-      "y": 30.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 13.95,
+      "shape": "rsquare",
       "dependencies": [
         "37698683A125F820"
       ],
@@ -1649,7 +1708,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "3548255D44E03CB5",
@@ -1657,8 +1717,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:machine_brewer",
-      "x": 2.0,
-      "y": 30.0,
+      "x": 3.35,
+      "y": 13.95,
       "shape": "circle",
       "dependencies": [
         "2C4EBD519F92BD93"
@@ -1672,7 +1732,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "237EDBAE465EE7C4",
@@ -1680,8 +1741,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:device_fisher",
-      "x": 4.0,
-      "y": 30.0,
+      "x": 4.9,
+      "y": 13.95,
       "shape": "circle",
       "dependencies": [
         "3548255D44E03CB5"
@@ -1695,7 +1756,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5BCE1C6FB8E1A74B",
@@ -1703,8 +1765,8 @@
       "subtitle": "",
       "description": [],
       "icon": "thermal:device_collector",
-      "x": 6.0,
-      "y": 30.0,
+      "x": 6.45,
+      "y": 13.95,
       "shape": "circle",
       "dependencies": [
         "237EDBAE465EE7C4"
@@ -1724,7 +1786,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "0C74EF62489D9F9A",
@@ -1733,7 +1796,7 @@
       "description": [],
       "icon": "thermal:device_xp_condenser",
       "x": 8.0,
-      "y": 30.0,
+      "y": 13.95,
       "shape": "hexagon",
       "dependencies": [
         "5BCE1C6FB8E1A74B"
@@ -1759,8 +1822,11 @@
           "item": "minecraft:gold_ingot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     }
   ],
+  "icon": "thermal:wrench",
+  "autofocus_id": "74909E2579EF25AB",
   "filename": "wc_thermal_workshop"
 }

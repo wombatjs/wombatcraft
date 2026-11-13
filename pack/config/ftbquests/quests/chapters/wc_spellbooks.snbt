@@ -13,9 +13,9 @@
         "Collect scrolls and inscribe a spellbook. A spell's school, level and mana cost matter more than its colour alone."
       ],
       "icon": "irons_spellbooks:arcane_essence",
-      "x": 0.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -4.12,
+      "y": 0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -32,7 +32,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.5
     },
     {
       "id": "44493B7EBECCE27F",
@@ -40,9 +41,9 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:common_ink",
-      "x": 2.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -2.47,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "0A41F77E091CBFE9"
       ],
@@ -55,7 +56,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "64BBD63CA5350214",
@@ -63,9 +65,9 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:scroll",
-      "x": 4.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "44493B7EBECCE27F"
       ],
@@ -78,7 +80,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "2BE79A72B057D1CB",
@@ -86,9 +89,9 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:inscription_table",
-      "x": 6.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 0.82,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "64BBD63CA5350214"
       ],
@@ -107,7 +110,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "323930B0412815F2",
@@ -115,9 +119,9 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:copper_spell_book",
-      "x": 8.0,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 2.47,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "2BE79A72B057D1CB"
       ],
@@ -130,7 +134,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 1.05
     },
     {
       "id": "73D9AE5D41E53733",
@@ -138,9 +143,9 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:scroll_forge",
-      "x": 10.0,
-      "y": 0.0,
-      "shape": "hexagon",
+      "x": 4.12,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "323930B0412815F2"
       ],
@@ -165,7 +170,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.05
     },
     {
       "id": "5F001A8F5FE6C667",
@@ -175,9 +181,9 @@
         "More capable books leave room for a balanced spell selection. Carry healing or escape alongside damage."
       ],
       "icon": "irons_spellbooks:iron_spell_book",
-      "x": 0.0,
+      "x": -1.8,
       "y": 3.0,
-      "shape": "circle",
+      "shape": "rsquare",
       "dependencies": [
         "323930B0412815F2"
       ],
@@ -196,7 +202,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "2AF2F62D38CC718B",
@@ -204,7 +211,7 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:gold_spell_book",
-      "x": 2.0,
+      "x": -3.35,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -219,7 +226,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5221768AF46B2381",
@@ -227,7 +235,7 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:diamond_spell_book",
-      "x": 4.0,
+      "x": -4.9,
       "y": 3.0,
       "shape": "circle",
       "dependencies": [
@@ -242,7 +250,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "62AB6D03A7DD58A9",
@@ -250,7 +259,7 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:netherite_spell_book",
-      "x": 6.0,
+      "x": -6.45,
       "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
@@ -277,7 +286,8 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "65AED1CCFEA59032",
@@ -287,9 +297,9 @@
         "Preserve valuable ink for spells you intend to use. Compare the forge's available scrolls before spending it."
       ],
       "icon": "irons_spellbooks:uncommon_ink",
-      "x": 0.0,
-      "y": 6.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 3.0,
+      "shape": "rsquare",
       "dependencies": [
         "73D9AE5D41E53733"
       ],
@@ -308,7 +318,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "616494FADF0B6CB3",
@@ -316,8 +327,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:rare_ink",
-      "x": 2.0,
-      "y": 6.0,
+      "x": 3.35,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "65AED1CCFEA59032"
@@ -331,7 +342,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "4577451F0E31137C",
@@ -339,8 +351,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:epic_ink",
-      "x": 4.0,
-      "y": 6.0,
+      "x": 4.9,
+      "y": 3.0,
       "shape": "circle",
       "dependencies": [
         "616494FADF0B6CB3"
@@ -354,7 +366,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5BD70E23D5D2706E",
@@ -362,8 +375,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:legendary_ink",
-      "x": 6.0,
-      "y": 6.0,
+      "x": 6.45,
+      "y": 3.0,
       "shape": "hexagon",
       "dependencies": [
         "4577451F0E31137C"
@@ -389,7 +402,8 @@
           "item": "minecraft:amethyst_shard",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "4410BBBF9060C5DC",
@@ -399,9 +413,9 @@
         "Specialise equipment at the arcane anvil. Build around a school or a useful casting rhythm rather than spreading upgrades at random."
       ],
       "icon": "irons_spellbooks:arcane_anvil",
-      "x": 0.0,
-      "y": 9.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 5.35,
+      "shape": "rsquare",
       "dependencies": [
         "0A41F77E091CBFE9"
       ],
@@ -420,7 +434,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "0739EAB6E205AD27",
@@ -428,8 +443,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:blank_rune",
-      "x": 2.0,
-      "y": 9.0,
+      "x": 3.35,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "4410BBBF9060C5DC"
@@ -443,7 +458,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2E628FF5B8418E78",
@@ -451,8 +467,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:upgrade_orb",
-      "x": 4.0,
-      "y": 9.0,
+      "x": 4.9,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "0739EAB6E205AD27"
@@ -466,7 +482,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0BC57E5260F5697D",
@@ -474,8 +491,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:mana_upgrade_orb",
-      "x": 6.0,
-      "y": 9.0,
+      "x": 6.45,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "2E628FF5B8418E78"
@@ -495,7 +512,8 @@
           "type": "xp",
           "xp": 25
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "307F690CF93353E8",
@@ -504,7 +522,7 @@
       "description": [],
       "icon": "irons_spellbooks:cooldown_upgrade_orb",
       "x": 8.0,
-      "y": 9.0,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "0BC57E5260F5697D"
@@ -518,7 +536,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "52FF47A838013640",
@@ -526,8 +545,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:protection_upgrade_orb",
-      "x": 10.0,
-      "y": 9.0,
+      "x": 9.55,
+      "y": 5.35,
       "shape": "hexagon",
       "dependencies": [
         "307F690CF93353E8"
@@ -553,7 +572,8 @@
           "item": "minecraft:golden_carrot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "2320CDF189DC6554",
@@ -563,9 +583,9 @@
         "Each school has a different role. Choose one to develop while keeping a practical answer to resistant enemies."
       ],
       "icon": "irons_spellbooks:fire_rune",
-      "x": 0.0,
-      "y": 12.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 7.7,
+      "shape": "rsquare",
       "dependencies": [
         "0739EAB6E205AD27"
       ],
@@ -584,7 +604,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "0A4243279373F0FB",
@@ -592,8 +613,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:ice_rune",
-      "x": 2.0,
-      "y": 12.0,
+      "x": 3.35,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "2320CDF189DC6554"
@@ -607,7 +628,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "061917872E696F25",
@@ -615,8 +637,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:lightning_rune",
-      "x": 4.0,
-      "y": 12.0,
+      "x": 4.9,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "0A4243279373F0FB"
@@ -630,7 +652,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2F66405EDAADD7A3",
@@ -638,8 +661,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:holy_rune",
-      "x": 6.0,
-      "y": 12.0,
+      "x": 6.45,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "061917872E696F25"
@@ -659,7 +682,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "08E02FD283ED7095",
@@ -668,7 +692,7 @@
       "description": [],
       "icon": "irons_spellbooks:ender_rune",
       "x": 8.0,
-      "y": 12.0,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "2F66405EDAADD7A3"
@@ -682,7 +706,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "644FD9272D9EF3B1",
@@ -690,8 +715,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:blood_rune",
-      "x": 10.0,
-      "y": 12.0,
+      "x": 9.55,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "08E02FD283ED7095"
@@ -705,7 +730,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "1D0E29CD82525CB8",
@@ -713,8 +739,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:evocation_rune",
-      "x": 12.0,
-      "y": 12.0,
+      "x": 9.55,
+      "y": 9.25,
       "shape": "circle",
       "dependencies": [
         "644FD9272D9EF3B1"
@@ -734,7 +760,8 @@
           "type": "xp",
           "xp": 30
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "4FB96747A7482A1E",
@@ -742,8 +769,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:nature_rune",
-      "x": 14.0,
-      "y": 12.0,
+      "x": 8.0,
+      "y": 9.25,
       "shape": "hexagon",
       "dependencies": [
         "1D0E29CD82525CB8"
@@ -769,7 +796,8 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "2134AA8CF33B4F8F",
@@ -779,9 +807,9 @@
         "Equipment can improve how often and how safely you cast. Test the full loadout before taking it into a dungeon."
       ],
       "icon": "irons_spellbooks:wizard_helmet",
-      "x": 0.0,
-      "y": 15.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 5.35,
+      "shape": "rsquare",
       "dependencies": [
         "5F001A8F5FE6C667"
       ],
@@ -800,7 +828,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "04DBE09A9778FBFA",
@@ -808,8 +837,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:wizard_boots",
-      "x": 2.0,
-      "y": 15.0,
+      "x": -3.35,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "2134AA8CF33B4F8F"
@@ -823,7 +852,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "6606B5D5043A2CA6",
@@ -831,8 +861,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:mana_ring",
-      "x": 4.0,
-      "y": 15.0,
+      "x": -4.9,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "04DBE09A9778FBFA"
@@ -846,7 +876,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "538BC88E5EF33C69",
@@ -854,8 +885,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:cooldown_ring",
-      "x": 6.0,
-      "y": 15.0,
+      "x": -6.45,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "6606B5D5043A2CA6"
@@ -875,7 +906,8 @@
           "type": "xp",
           "xp": 35
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "782A5A870AF9C1B7",
@@ -883,8 +915,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:cast_time_ring",
-      "x": 8.0,
-      "y": 15.0,
+      "x": -8.0,
+      "y": 5.35,
       "shape": "circle",
       "dependencies": [
         "538BC88E5EF33C69"
@@ -898,7 +930,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "435709D53F8C5926",
@@ -906,8 +939,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:concentration_amulet",
-      "x": 10.0,
-      "y": 15.0,
+      "x": -9.55,
+      "y": 5.35,
       "shape": "hexagon",
       "dependencies": [
         "782A5A870AF9C1B7"
@@ -933,7 +966,8 @@
           "item": "minecraft:book",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "78C04442F1E98790",
@@ -943,9 +977,9 @@
         "Some books demand dangerous materials or exploration. Follow the recipe or discovery route for the relic you seek."
       ],
       "icon": "irons_spellbooks:blaze_spell_book",
-      "x": 0.0,
-      "y": 18.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 7.7,
+      "shape": "rsquare",
       "dependencies": [
         "5221768AF46B2381"
       ],
@@ -964,7 +998,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "1DC69925927B5CED",
@@ -972,8 +1007,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:ice_spell_book",
-      "x": 2.0,
-      "y": 18.0,
+      "x": -3.35,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "78C04442F1E98790"
@@ -987,7 +1022,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5079E292D571C107",
@@ -995,8 +1031,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:evoker_spell_book",
-      "x": 4.0,
-      "y": 18.0,
+      "x": -4.9,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "1DC69925927B5CED"
@@ -1010,7 +1046,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "00FF4F32C5C05311",
@@ -1018,8 +1055,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:necronomicon_spell_book",
-      "x": 6.0,
-      "y": 18.0,
+      "x": -6.45,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "5079E292D571C107"
@@ -1039,7 +1076,8 @@
           "type": "xp",
           "xp": 40
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "6D6473805C207478",
@@ -1047,8 +1085,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:dragonskin_spell_book",
-      "x": 8.0,
-      "y": 18.0,
+      "x": -8.0,
+      "y": 7.7,
       "shape": "circle",
       "dependencies": [
         "00FF4F32C5C05311"
@@ -1062,7 +1100,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "5EA464AE460BDC50",
@@ -1070,8 +1109,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:legendary_spell_book",
-      "x": 10.0,
-      "y": 18.0,
+      "x": -9.55,
+      "y": 7.7,
       "shape": "hexagon",
       "dependencies": [
         "6D6473805C207478"
@@ -1097,7 +1136,8 @@
           "item": "minecraft:amethyst_shard",
           "count": 8
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "222E5139A6979F2F",
@@ -1107,9 +1147,9 @@
         "Prepare provisions before crossing a dungeon threshold. Keep recovery supplies in a reachable slot."
       ],
       "icon": "irons_spellbooks:alchemist_cauldron",
-      "x": 0.0,
-      "y": 21.0,
-      "shape": "circle",
+      "x": 1.8,
+      "y": 11.6,
+      "shape": "rsquare",
       "dependencies": [
         "4410BBBF9060C5DC"
       ],
@@ -1128,7 +1168,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "338E580C3C3DDA09",
@@ -1136,8 +1177,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:oakskin_elixir",
-      "x": 2.0,
-      "y": 21.0,
+      "x": 3.35,
+      "y": 11.6,
       "shape": "circle",
       "dependencies": [
         "222E5139A6979F2F"
@@ -1151,7 +1192,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "2027D7BC8311F263",
@@ -1159,8 +1201,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:invisibility_elixir",
-      "x": 4.0,
-      "y": 21.0,
+      "x": 4.9,
+      "y": 11.6,
       "shape": "circle",
       "dependencies": [
         "338E580C3C3DDA09"
@@ -1174,7 +1216,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "7C31A28592B1E719",
@@ -1182,8 +1225,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:greater_healing_potion",
-      "x": 6.0,
-      "y": 21.0,
+      "x": 6.45,
+      "y": 11.6,
       "shape": "circle",
       "dependencies": [
         "2027D7BC8311F263"
@@ -1203,7 +1246,8 @@
           "type": "xp",
           "xp": 45
         }
-      ]
+      ],
+      "size": 0.9
     },
     {
       "id": "23016D81F0F3DD53",
@@ -1212,7 +1256,7 @@
       "description": [],
       "icon": "irons_spellbooks:greater_oakskin_elixir",
       "x": 8.0,
-      "y": 21.0,
+      "y": 11.6,
       "shape": "hexagon",
       "dependencies": [
         "7C31A28592B1E719"
@@ -1238,7 +1282,8 @@
           "item": "minecraft:golden_carrot",
           "count": 4
         }
-      ]
+      ],
+      "size": 1.24
     },
     {
       "id": "6FF52A0700FBD2A6",
@@ -1248,9 +1293,9 @@
         "The deepest arcane relics belong to dangerous places. Bring allies, spare equipment and a plan for retreat."
       ],
       "icon": "irons_spellbooks:ancient_knowledge_fragment",
-      "x": 0.0,
-      "y": 24.0,
-      "shape": "circle",
+      "x": -1.8,
+      "y": 10.05,
+      "shape": "rsquare",
       "dependencies": [
         "5EA464AE460BDC50"
       ],
@@ -1269,7 +1314,8 @@
           "type": "xp",
           "xp": 50
         }
-      ]
+      ],
+      "size": 1.22
     },
     {
       "id": "548235AC9D487779",
@@ -1277,8 +1323,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:eldritch_manuscript",
-      "x": 2.0,
-      "y": 24.0,
+      "x": -3.35,
+      "y": 10.05,
       "shape": "circle",
       "dependencies": [
         "6FF52A0700FBD2A6"
@@ -1292,7 +1338,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "0283F32982FDB198",
@@ -1300,8 +1347,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:dead_king_phylactery_shard",
-      "x": 4.0,
-      "y": 24.0,
+      "x": -4.9,
+      "y": 10.05,
       "shape": "circle",
       "dependencies": [
         "548235AC9D487779"
@@ -1315,7 +1362,8 @@
           "consume_items": false
         }
       ],
-      "rewards": []
+      "rewards": [],
+      "size": 0.9
     },
     {
       "id": "29176EBE0CCF9C75",
@@ -1323,8 +1371,8 @@
       "subtitle": "",
       "description": [],
       "icon": "irons_spellbooks:dead_king_phylactery",
-      "x": 6.0,
-      "y": 24.0,
+      "x": -6.45,
+      "y": 10.05,
       "shape": "hexagon",
       "dependencies": [
         "0283F32982FDB198"
@@ -1350,8 +1398,122 @@
           "item": "minecraft:lapis_lazuli",
           "count": 12
         }
-      ]
+      ],
+      "size": 1.24
+    },
+    {
+      "id": "54993B7AA5593DF1",
+      "title": "The Last King",
+      "description": [
+        "Follow the Wayward Compass into the catacombs. Save mana for the later phases and keep a clear route around the chamber."
+      ],
+      "icon": "irons_spellbooks:dead_king_phylactery",
+      "dependencies": [
+        "29176EBE0CCF9C75"
+      ],
+      "tasks": [
+        {
+          "id": "4950B2C0486AD04A",
+          "type": "kill",
+          "entity": "irons_spellbooks:dead_king",
+          "value": 1
+        }
+      ],
+      "optional": true,
+      "rewards": [
+        {
+          "id": "29B287BCED428C1E",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 10
+        },
+        {
+          "id": "0B17DEAE5A7DCB7F",
+          "type": "xp",
+          "xp": 40
+        }
+      ],
+      "x": -3.25,
+      "y": 14.2,
+      "shape": "diamond",
+      "size": 1.45
+    },
+    {
+      "id": "4700690BF5D777A3",
+      "title": "Fire in the Citadel",
+      "description": [
+        "Bring fire resistance and a spell that works at range. Clear space around the arena before committing to the fight."
+      ],
+      "icon": "irons_spellbooks:scroll_forge",
+      "dependencies": [
+        "73D9AE5D41E53733"
+      ],
+      "tasks": [
+        {
+          "id": "251DB8C7C2DE5F68",
+          "type": "kill",
+          "entity": "irons_spellbooks:pyromancer",
+          "value": 1
+        }
+      ],
+      "optional": true,
+      "rewards": [
+        {
+          "id": "48E02F15D7C8F49F",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 10
+        },
+        {
+          "id": "0F5A365F30C32566",
+          "type": "xp",
+          "xp": 40
+        }
+      ],
+      "x": 0.0,
+      "y": 14.2,
+      "shape": "diamond",
+      "size": 1.45
+    },
+    {
+      "id": "648C9AC7C5CE44B0",
+      "title": "A Cold Reception",
+      "description": [
+        "Carry healing and a movement spell. Fight on firm ground and leave room to sidestep frost attacks."
+      ],
+      "icon": "irons_spellbooks:inscription_table",
+      "dependencies": [
+        "2BE79A72B057D1CB"
+      ],
+      "tasks": [
+        {
+          "id": "6F45910B77E97687",
+          "type": "kill",
+          "entity": "irons_spellbooks:cryomancer",
+          "value": 1
+        }
+      ],
+      "optional": true,
+      "rewards": [
+        {
+          "id": "41D0CEFE9A8A9178",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 10
+        },
+        {
+          "id": "3C36F636789967C0",
+          "type": "xp",
+          "xp": 40
+        }
+      ],
+      "x": 3.25,
+      "y": 14.2,
+      "shape": "diamond",
+      "size": 1.45
     }
   ],
+  "icon": "irons_spellbooks:arcane_essence",
+  "autofocus_id": "0A41F77E091CBFE9",
   "filename": "wc_spellbooks"
 }

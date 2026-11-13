@@ -13,9 +13,9 @@
         "Open the doors and step into your vessel. Leave the outside world behind, then return through the same doorway."
       ],
       "icon": "minecraft:ender_pearl",
-      "x": 2.69,
-      "y": 2.86,
-      "shape": "square",
+      "x": -2.5,
+      "y": -0.5,
+      "shape": "diamond",
       "dependencies": [
         "071FD56642578AA6"
       ],
@@ -25,7 +25,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.2
     },
     {
       "id": "0C039A3819E8F7E5",
@@ -35,9 +36,9 @@
         "Some forgotten vessels are far larger within than their weathered shells suggest. Study the Type 40 Manual before seeking a ship of your own."
       ],
       "icon": "tardis:manual",
-      "x": 2.69,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 0,
+      "y": 0,
+      "shape": "rsquare",
       "dependencies": [
         "071FD56642578AA6"
       ],
@@ -56,7 +57,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 1.15
     },
     {
       "id": "09C889C6FAF75287",
@@ -66,8 +68,8 @@
         "Inspect an abandoned timeship with the diagnostic tool. Learn which offerings it likes before trying to gain its trust."
       ],
       "icon": "tardis:tools/diagnostic_tool",
-      "x": 3.94,
-      "y": 0.0,
+      "x": 0,
+      "y": 1.7,
       "shape": "circle",
       "dependencies": [
         "0C039A3819E8F7E5"
@@ -87,7 +89,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 1.0
     },
     {
       "id": "0C997C342C4F26B6",
@@ -97,9 +100,9 @@
         "Use the manual to understand repairs and rift equipment. Keep useful materials ready before a long journey."
       ],
       "icon": "tardis:tools/sonic_welder",
-      "x": 5.2,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 0,
+      "y": 3.4,
+      "shape": "rsquare",
       "dependencies": [
         "09C889C6FAF75287"
       ],
@@ -118,7 +121,8 @@
           "type": "xp",
           "xp": 15
         }
-      ]
+      ],
+      "size": 1.08
     },
     {
       "id": "0D781CFB7B516C4B",
@@ -128,9 +132,9 @@
         "Learn the sonic's modes and interactions. Test it around your workshop before using it on ship systems."
       ],
       "icon": "tardis:tools/sonic",
-      "x": 6.46,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 0,
+      "y": 5.1,
+      "shape": "rsquare",
       "dependencies": [
         "0C997C342C4F26B6"
       ],
@@ -149,7 +153,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 1.13
     },
     {
       "id": "057BF75CDC3D6441",
@@ -159,9 +164,9 @@
         "Inspect the engine and its component slots. Replace missing or damaged systems using the manual's instructions."
       ],
       "icon": "tardis:components/demat_circuit",
-      "x": 7.71,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -2.25,
+      "y": 6.75,
+      "shape": "hexagon",
       "dependencies": [
         "0D781CFB7B516C4B"
       ],
@@ -180,7 +185,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 1.2
     },
     {
       "id": "04197DDB66180B9B",
@@ -190,9 +196,9 @@
         "Learn the chameleon system and unlock options through normal progression. Check doorway alignment after changing the exterior."
       ],
       "icon": "tardis:components/chameleon_circuit",
-      "x": 2.69,
-      "y": 1.43,
-      "shape": "circle",
+      "x": 2.25,
+      "y": 6.75,
+      "shape": "hexagon",
       "dependencies": [
         "057BF75CDC3D6441"
       ],
@@ -211,7 +217,8 @@
           "type": "xp",
           "xp": 20
         }
-      ]
+      ],
+      "size": 1.2
     },
     {
       "id": "071FD56642578AA6",
@@ -221,9 +228,9 @@
         "Find a derelict timeship or follow the rift-summoning path, gain its trust, then learn its controls. The NTM Immersive Portals addon supplies the seamless doorway."
       ],
       "icon": "tardis:manual",
-      "x": 1.43,
-      "y": 0.0,
-      "shape": "square",
+      "x": 0,
+      "y": -2,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -231,8 +238,11 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.4
     }
   ],
-  "filename": "01_tardis"
+  "filename": "01_tardis",
+  "icon": "tardis:manual",
+  "autofocus_id": "071FD56642578AA6"
 }

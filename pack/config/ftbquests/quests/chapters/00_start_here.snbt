@@ -10,16 +10,15 @@
       "title": "Make a home together",
       "subtitle": "",
       "description": [
-        "Found a team and claim land for your settlement. Invite trusted companions and protect the stores that sustain your home.",
-        "",
-        "Build a market with Lightman's Currency. Set a price, stock a shop and trade with fellow travellers."
+        "Open the FTB Chunks map and claim your home. Invite companions to your team before sharing tools and storage.",
+        "When you have goods to spare, use Lightman's Currency to stock a shop and set a price."
       ],
       "icon": "minecraft:shield",
-      "x": 3.94,
-      "y": 1.43,
-      "shape": "square",
+      "x": 4.1,
+      "y": 1.65,
+      "shape": "hexagon",
       "dependencies": [
-        "0179D27BC15B2ADF"
+        "028B610E33922C6C"
       ],
       "tasks": [
         {
@@ -27,20 +26,20 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "07DC886E17A90B87",
-      "title": "The doorway test",
+      "title": "Mark the Way Home",
       "subtitle": "",
       "description": [
-        "Open the TARDIS doors and view the interior from outside. Walk in, look out, and return. This is an explicit playtest checklist; tick it only after checking the effect.",
-        "Renderer and shader changes need their own portal test. Keep the pinned core versions when trying new content."
+        "Open the FTB Chunks map and mark your camp. Carry a bed and food when you travel beyond familiar ground."
       ],
-      "icon": "minecraft:ender_pearl",
-      "x": 5.2,
-      "y": 1.43,
-      "shape": "square",
+      "icon": "minecraft:compass",
+      "x": 2.2,
+      "y": -1.65,
+      "shape": "circle",
       "dependencies": [
         "0179D27BC15B2ADF"
       ],
@@ -48,9 +47,10 @@
         {
           "id": "0CC0B195F3135A4E",
           "type": "checkmark",
-          "title": "Read and continue"
+          "title": "Mark your camp"
         }
-      ]
+      ],
+      "size": 1.0
     },
     {
       "id": "063B8BD59A482879",
@@ -61,9 +61,9 @@
         "Follow recipes through intermediate materials before building a production line. Polymorph handles overlapping crafting recipes."
       ],
       "icon": "minecraft:knowledge_book",
-      "x": 2.69,
-      "y": 1.43,
-      "shape": "square",
+      "x": 0,
+      "y": -2.55,
+      "shape": "circle",
       "dependencies": [
         "0179D27BC15B2ADF"
       ],
@@ -73,7 +73,8 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.12
     },
     {
       "id": "0EA8707A02B8D8D4",
@@ -83,9 +84,9 @@
         "Set up a workbench and shelter before setting out."
       ],
       "icon": "minecraft:crafting_table",
-      "x": 2.69,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -2.15,
+      "y": -1.65,
+      "shape": "rsquare",
       "dependencies": [
         "0179D27BC15B2ADF"
       ],
@@ -104,7 +105,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.18
     },
     {
       "id": "0919D581FCDD2595",
@@ -114,11 +116,11 @@
         "Smelt basic materials. Keep iron, copper, redstone and coal for the machines ahead."
       ],
       "icon": "minecraft:furnace",
-      "x": 3.94,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -4.0,
+      "y": -1.65,
+      "shape": "rsquare",
       "dependencies": [
-        "0179D27BC15B2ADF"
+        "0EA8707A02B8D8D4"
       ],
       "tasks": [
         {
@@ -135,7 +137,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.18
     },
     {
       "id": "00E53C8030F81AA8",
@@ -145,11 +148,11 @@
         "Bring food, torches and spare tools. Modded ores support different branches; keep samples."
       ],
       "icon": "minecraft:iron_pickaxe",
-      "x": 5.2,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -5.85,
+      "y": -1.65,
+      "shape": "diamond",
       "dependencies": [
-        "0179D27BC15B2ADF"
+        "0919D581FCDD2595"
       ],
       "tasks": [
         {
@@ -166,7 +169,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.28
     },
     {
       "id": "0C2B641A6F487192",
@@ -176,9 +180,9 @@
         "Organize your discoveries by purpose. The Storage chapter offers drawers, terminals and eventually digital storage."
       ],
       "icon": "minecraft:chest",
-      "x": 6.46,
-      "y": 0.0,
-      "shape": "circle",
+      "x": -2.2,
+      "y": 1.65,
+      "shape": "rsquare",
       "dependencies": [
         "0179D27BC15B2ADF"
       ],
@@ -197,7 +201,8 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.18
     },
     {
       "id": "028B610E33922C6C",
@@ -207,9 +212,9 @@
         "Set a spawn point before exploring. Sleeping bags are for travel; a bed is your home anchor."
       ],
       "icon": "minecraft:white_bed",
-      "x": 7.71,
-      "y": 0.0,
-      "shape": "circle",
+      "x": 2.2,
+      "y": 1.65,
+      "shape": "hexagon",
       "dependencies": [
         "0179D27BC15B2ADF"
       ],
@@ -228,20 +233,21 @@
           "type": "xp",
           "xp": 10
         }
-      ]
+      ],
+      "size": 1.35
     },
     {
       "id": "0179D27BC15B2ADF",
       "title": "A foothold in Wombatcraft",
       "subtitle": "",
       "description": [
-        "Raise a workshop, study the arcane, chart distant lands or build a thriving settlement. Each path has its own discoveries.",
-        "Their greatest works meet at the Convergence. Begin with a shelter and follow the branch that calls to you."
+        "Find a place to sleep and put down a workbench. Then take whichever path calls to you.",
+        "Build a workshop with Create, learn spellcraft in Ars Nouveau, or follow the expeditions beyond the Overworld."
       ],
       "icon": "minecraft:compass",
-      "x": 1.43,
-      "y": 0.0,
-      "shape": "square",
+      "x": 0,
+      "y": 0,
+      "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
@@ -249,8 +255,20 @@
           "type": "checkmark",
           "title": "Read and continue"
         }
-      ]
+      ],
+      "size": 1.75
     }
   ],
-  "filename": "00_start_here"
+  "filename": "00_start_here",
+  "icon": "minecraft:compass",
+  "autofocus_id": "0179D27BC15B2ADF",
+  "images": [
+    {
+      "x": -1.0,
+      "y": -4.65,
+      "width": 7.8,
+      "height": 1.3,
+      "image": "wombatcraft:textures/questbook/frontier.png"
+    }
+  ]
 }
