@@ -4,6 +4,8 @@ from PySide6.QtCore import Qt,QObject,Signal,QRunnable,QThreadPool,QTimer,QLockF
 from PySide6.QtGui import QPainter,QPixmap,QColor,QLinearGradient,QFontDatabase,QFont
 from PySide6.QtWidgets import QApplication,QWidget,QVBoxLayout,QHBoxLayout,QLabel,QPushButton,QProgressBar,QSpinBox,QMessageBox
 import minecraft_launcher_lib as mc
+from requests.exceptions import ConnectionError as RequestsConnectionError, Timeout as RequestsTimeout
+from urllib3.exceptions import ProtocolError, ReadTimeoutError
 import auth,updater,server_status,interface,launcher_update,official_launcher
 import discord_presence
 
@@ -18,6 +20,7 @@ DATA=Path(os.environ.get('LOCALAPPDATA',str(Path.home()/'.local/share')))/'Womba
 DATA.mkdir(parents=True,exist_ok=True)
 INSTANCE=DATA/'instance';RUNTIME=DATA/'minecraft'
 LAUNCHER_UPDATES = DATA / 'launcher-updates'
+SETUP_NETWORK_ERRORS = (RequestsConnectionError, RequestsTimeout, ProtocolError, ReadTimeoutError)
 
 class Signals(QObject):
  status=Signal(str);success=Signal(object);error=Signal(str)
@@ -30,7 +33,7 @@ class Work(QRunnable):
    self.signals.sign_in_required.emit(str(error))
   except Exception as e:
    # Authentication tokens and full HTTP bodies must never be shown or logged.
-   message=str(e) if isinstance(e,(RuntimeError,ValueError)) else 'The operation could not finish. Check your connection and retry.'
+   message=str(e) if isinstance(e,(RuntimeError,ValueError,updater.DownloadInterrupted)) else 'The operation could not finish. Check your connection and retry.'
    if updater.disk_full(e):message='The Wombatcraft drive is full. Free up disk space, then retry.'
    if isinstance(e,urllib.error.HTTPError) and e.code==404:message='The first public release is being prepared. Check Releases for availability.'
    self.signals.error.emit(message[:500])
@@ -199,20 +202,30 @@ class Window(QWidget):
   callback = {'setStatus': progress}
   java=mc.runtime.get_executable_path('java-runtime-gamma',str(RUNTIME))
   if not java:
-   mc.runtime.install_jvm_runtime('java-runtime-gamma',str(RUNTIME),callback);java=mc.runtime.get_executable_path('java-runtime-gamma',str(RUNTIME))
+   updater.retry_download(
+    lambda: mc.runtime.install_jvm_runtime('java-runtime-gamma',str(RUNTIME),callback),
+    'Java 17', network_errors=SETUP_NETWORK_ERRORS,
+   )
+   java=mc.runtime.get_executable_path('java-runtime-gamma',str(RUNTIME))
   if not java:raise RuntimeError('Java 17 installation did not finish. Retry installation.')
   version=m['minecraft']+'-'+m['forge'];installed=mc.forge.forge_to_installed_version(version)
   if not official_launcher.forge_ready(runtime, m['minecraft'], m['forge'], installed):
-   mc.forge.install_forge_version(version,str(runtime),callback,java=java)
+   updater.retry_download(
+    lambda: mc.forge.install_forge_version(version,str(runtime),callback,java=java),
+    'Minecraft and Forge', network_errors=SETUP_NETWORK_ERRORS,
+   )
    if not official_launcher.forge_ready(runtime, m['minecraft'], m['forge'], installed):
     raise RuntimeError('Forge installation did not finish. Retry Play to repair it.')
   # Tell Windows to prefer the high-performance GPU for this Java runtime.
   if sys.platform=='win32':
    import winreg
-   with winreg.CreateKey(winreg.HKEY_CURRENT_USER,r'Software\Microsoft\DirectX\UserGpuPreferences') as key:
-    for executable in (Path(java), Path(java).with_name('javaw.exe')):
-     if executable.is_file():
-      winreg.SetValueEx(key, str(executable.resolve()), 0, winreg.REG_SZ, 'GpuPreference=2;')
+   try:
+    with winreg.CreateKey(winreg.HKEY_CURRENT_USER,r'Software\Microsoft\DirectX\UserGpuPreferences') as key:
+     for executable in (Path(java), Path(java).with_name('javaw.exe')):
+      if executable.is_file():
+       winreg.SetValueEx(key, str(executable.resolve()), 0, winreg.REG_SZ, 'GpuPreference=2;')
+   except PermissionError:
+    pass
   return dict(manifest=m,java=java,version=installed)
 
  def prepare_official(self, progress, memory):

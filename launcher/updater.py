@@ -1,9 +1,12 @@
 """Verified staging and recoverable activation shared by client and server tooling."""
-import concurrent.futures,errno,hashlib,json,os,shutil,urllib.request,zipfile
+import concurrent.futures,errno,hashlib,http.client,json,os,shutil,time,urllib.request,zipfile
 from pathlib import Path,PurePosixPath
 
 RELEASE='https://github.com/wombatjs/wombatcraft/releases/latest/download/manifest.json'
 ALLOWED={'mods','config','kubejs','resourcepacks','packmenu','defaultconfigs','shaderpacks'}
+
+class DownloadInterrupted(OSError):
+ pass
 
 # Earlier releases seeded these bindings or left the mods' defaults in place.
 OLD_KEYS = {
@@ -79,10 +82,36 @@ def disk_full(error):
 
 def fetch_json(url):
  if not url.startswith('https://'):raise ValueError('HTTPS is required')
- with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'Wombatcraft/0.1'}),timeout=45) as r:return json.load(r)
+ def fetch():
+  with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'Wombatcraft/0.1'}),timeout=45) as response:
+   return json.load(response)
+ return retry_download(fetch, 'the release manifest')
+
+def retry_download(action, label, *, network_errors=()):
+ for attempt in range(3):
+  try:
+   return action()
+  except urllib.error.HTTPError as error:
+   if error.code not in {408, 429, 500, 502, 503, 504}:
+    raise
+  except network_errors:
+   pass
+  except (urllib.error.URLError, TimeoutError, ConnectionError, http.client.HTTPException):
+   pass
+  except OSError as error:
+   # A reset during a Windows response read may surface as plain OSError.
+   if getattr(error, 'winerror', None) not in {10051, 10053, 10054, 10060, 10065}:
+    raise
+  if attempt < 2:
+   time.sleep(2 ** attempt)
+ raise DownloadInterrupted(f'Connection interrupted while downloading {label}. Retry Play to resume.') from None
 
 def download(record,target):
  if target.exists() and target.stat().st_size==record['size'] and digest(target)==record['sha512']:return
+ label = PurePosixPath(record['path']).name if 'path' in record else 'the pack configuration'
+ retry_download(lambda: download_once(record,target,label), label)
+
+def download_once(record,target,label):
  if not record['url'].startswith('https://'):raise ValueError('HTTPS is required')
  target.parent.mkdir(parents=True,exist_ok=True);part=target.with_suffix(target.suffix+'.part')
  try:
@@ -92,7 +121,8 @@ def download(record,target):
     size+=len(chunk)
     if size>record['size']:raise ValueError('Download exceeded declared size')
     out.write(chunk)
-  if size!=record['size'] or digest(part)!=record['sha512']:raise ValueError('Download verification failed: '+target.name)
+  if size < record['size']:raise http.client.IncompleteRead(b'',record['size']-size)
+  if digest(part)!=record['sha512']:raise ValueError(f'Download checksum failed for {label}.')
   os.replace(part,target)
  finally:
   if part.exists():part.unlink()

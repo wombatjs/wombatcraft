@@ -1,10 +1,29 @@
-import errno,hashlib,json,sys,tempfile,unittest,zipfile
+import errno,hashlib,io,json,sys,tempfile,unittest,zipfile
 from pathlib import Path
 from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'launcher'))
 import updater
 
 class UpdateTests(unittest.TestCase):
+ def test_pack_download_retries_truncated_and_reset_connections(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   target=Path(tmp)/'cached'
+   contents=b'complete jar'
+   record={'path':'mods/example.jar','url':'https://example.com/example.jar',
+           'size':len(contents),'sha512':hashlib.sha512(contents).hexdigest()}
+   with patch.object(updater.time,'sleep'),patch.object(
+    updater.urllib.request,'urlopen',
+    side_effect=[ConnectionAbortedError(),io.BytesIO(contents[:4]),io.BytesIO(contents)],
+   ) as request:
+    updater.download(record,target)
+   self.assertEqual(request.call_count,3)
+   self.assertEqual(target.read_bytes(),contents)
+   self.assertFalse(target.with_suffix('.part').exists())
+   with patch.object(updater.time,'sleep'),patch.object(
+    updater.urllib.request,'urlopen',side_effect=ConnectionAbortedError(),
+   ),self.assertRaisesRegex(updater.DownloadInterrupted,'example.jar'):
+    updater.download(record,Path(tmp)/'other')
+
  def test_controls_migrate_once_without_overwriting_custom_bindings(self):
   with tempfile.TemporaryDirectory() as tmp:
    root=Path(tmp)
