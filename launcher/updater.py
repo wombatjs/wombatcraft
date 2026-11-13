@@ -1,12 +1,14 @@
 """Verified staging and recoverable activation shared by client and server tooling."""
-import concurrent.futures,errno,hashlib,http.client,json,os,shutil,time,urllib.request,zipfile
+import concurrent.futures,errno,hashlib,http.client,json,os,shutil,threading,time,urllib.parse,urllib.request,zipfile
 from pathlib import Path,PurePosixPath
 
 RELEASE='https://github.com/wombatjs/wombatcraft/releases/latest/download/manifest.json'
 ALLOWED={'mods','config','kubejs','resourcepacks','packmenu','defaultconfigs','shaderpacks'}
 
 class DownloadInterrupted(OSError):
- pass
+ def __init__(self, label, reason):
+  self.reason = reason
+  super().__init__(f'Could not download {label} ({reason}). Retry Play to resume.')
 
 # Earlier releases seeded these bindings or left the mods' defaults in place.
 OLD_KEYS = {
@@ -88,52 +90,92 @@ def fetch_json(url):
  return retry_download(fetch, 'the release manifest')
 
 def retry_download(action, label, *, network_errors=()):
+ reason = 'connection interrupted'
  for attempt in range(3):
   try:
    return action()
   except urllib.error.HTTPError as error:
    if error.code not in {408, 429, 500, 502, 503, 504}:
     raise
-  except network_errors:
-   pass
-  except (urllib.error.URLError, TimeoutError, ConnectionError, http.client.HTTPException):
-   pass
+   reason = f'HTTP {error.code}'
+  except (*network_errors, urllib.error.URLError, TimeoutError, ConnectionError, http.client.HTTPException) as error:
+   cause = error.reason if isinstance(error, urllib.error.URLError) else error
+   code = getattr(cause, 'winerror', None) or getattr(cause, 'errno', None)
+   reason = type(cause).__name__ + (f' {code}' if isinstance(code, int) else '')
   except OSError as error:
    # A reset during a Windows response read may surface as plain OSError.
    if getattr(error, 'winerror', None) not in {10051, 10053, 10054, 10060, 10065}:
     raise
+   reason = f'Windows socket error {error.winerror}'
   if attempt < 2:
    time.sleep(2 ** attempt)
- raise DownloadInterrupted(f'Connection interrupted while downloading {label}. Retry Play to resume.') from None
+ raise DownloadInterrupted(label, reason) from None
 
-def download(record,target):
+def download(record,target, unavailable=None, lock=None):
  if target.exists() and target.stat().st_size==record['size'] and digest(target)==record['sha512']:return
  label = PurePosixPath(record['path']).name if 'path' in record else 'the pack configuration'
- urls = [record['url'], *record.get('fallback_urls', [])]
+ primary = urllib.parse.urlsplit(record['url'])
+ urls = [record['url']]
+ if primary.scheme == 'https' and primary.netloc == 'cdn.modrinth.com' and primary.path.startswith('/data/'):
+  urls.append(primary._replace(netloc='cdn-raw.modrinth.com').geturl())
+ urls.extend(record.get('fallback_urls', []))
+ if unavailable is not None:
+  with lock:
+   urls.sort(key=lambda url: urllib.parse.urlsplit(url).hostname in unavailable)
+ failures = []
  for index, url in enumerate(urls):
   source = {**record, 'url': url}
+  host = urllib.parse.urlsplit(url).hostname
   try:
    retry_download(lambda: download_once(source,target,label), label)
    return
-  except (DownloadInterrupted, urllib.error.HTTPError):
+  except (DownloadInterrupted, urllib.error.HTTPError) as error:
+   if isinstance(error, DownloadInterrupted) and unavailable is not None:
+    with lock:
+     unavailable.add(host)
+   reason = f'HTTP {error.code}' if isinstance(error, urllib.error.HTTPError) else error.reason
+   failures.append(f'{host}: {reason}')
    if index == len(urls) - 1:
+    if len(urls) > 1:
+     raise DownloadInterrupted(label, ' | '.join(failures)) from None
     raise
 
 def download_once(record,target,label):
  if not record['url'].startswith('https://'):raise ValueError('HTTPS is required')
  target.parent.mkdir(parents=True,exist_ok=True);part=target.with_suffix(target.suffix+'.part')
- try:
-  with urllib.request.urlopen(urllib.request.Request(record['url'],headers={'User-Agent':'Wombatcraft/0.1'}),timeout=90) as r,part.open('wb') as out:
-   size=0
-   while chunk:=r.read(1024*1024):
-    size+=len(chunk)
-    if size>record['size']:raise ValueError('Download exceeded declared size')
+ expected = record['size']
+ size = part.stat().st_size if part.is_file() else 0
+ if size >= expected:
+  if matches(part, record):
+   os.replace(part,target)
+   return
+  part.unlink(missing_ok=True)
+  size = 0
+ headers = {'User-Agent':'Wombatcraft/0.1', 'Accept-Encoding':'identity'}
+ if size:
+  headers['Range'] = f'bytes={size}-'
+ request = urllib.request.Request(record['url'], headers=headers)
+ with urllib.request.urlopen(request,timeout=35) as response:
+  if response.getcode() == 206:
+   if response.headers.get('Content-Range') != f'bytes {size}-{expected-1}/{expected}':
+    raise http.client.HTTPException('Unexpected download range')
+  else:
+   size = 0
+  with part.open('ab' if size else 'wb') as out:
+   while chunk := response.read1(256*1024):
+    size += len(chunk)
+    if size > expected:
+     break
     out.write(chunk)
-  if size < record['size']:raise http.client.IncompleteRead(b'',record['size']-size)
-  if digest(part)!=record['sha512']:raise ValueError(f'Download checksum failed for {label}.')
-  os.replace(part,target)
- finally:
-  if part.exists():part.unlink()
+ if size > expected:
+  part.unlink(missing_ok=True)
+  raise ValueError('Download exceeded declared size')
+ if size < expected:
+  raise http.client.IncompleteRead(b'',expected-size)
+ if not matches(part,record):
+  part.unlink(missing_ok=True)
+  raise ValueError(f'Download checksum failed for {label}. Retry Play to redownload it.')
+ os.replace(part,target)
 
 def validate_manifest(m):
  if m.get('schema')!=1 or m.get('minecraft')!='1.20.1' or m.get('forge')!='47.4.28':raise ValueError('Unsupported release format or game version')
@@ -147,13 +189,20 @@ def validate_manifest(m):
 def stage(m,stage_dir,cache,side='client',progress=lambda s:None,installed=None):
  validate_manifest(m);stage_dir.mkdir(parents=True,exist_ok=True);cache.mkdir(parents=True,exist_ok=True)
  files=[f for f in m['files'] if f[side]]
+ unavailable = set()
+ lock = threading.Lock()
+ downloads = {}
+ for file in files:
+  downloads.setdefault(file['sha512'], threading.Lock())
  def one(f):
   if installed is not None and matches(safe_path(installed,f['path']),f):return
   target=safe_path(stage_dir,f['path'])
   if matches(target,f):return
-  blob=cache/f['sha512'];download(f,blob)
+  blob=cache/f['sha512']
+  with downloads[f['sha512']]:
+   download(f,blob,unavailable,lock)
   target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(blob,target)
- with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+ with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
   for n,_ in enumerate(pool.map(one,files),1):progress(f'Preparing mods {n} / {len(files)}')
  archive=cache/(m['overrides']['sha512']+'.zip');download(m['overrides'],archive)
  with zipfile.ZipFile(archive) as z:

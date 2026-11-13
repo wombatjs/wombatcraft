@@ -1,8 +1,17 @@
-import errno,hashlib,io,json,sys,tempfile,unittest,zipfile
+import errno,hashlib,io,json,sys,tempfile,threading,unittest,zipfile
 from pathlib import Path
 from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'launcher'))
 import updater
+
+class Response(io.BytesIO):
+ def __init__(self, contents, status=200, headers=None):
+  super().__init__(contents)
+  self.status=status
+  self.headers=headers or {}
+
+ def getcode(self):
+  return self.status
 
 class UpdateTests(unittest.TestCase):
  def test_download_fails_over_and_verifies_the_same_hash(self):
@@ -17,7 +26,7 @@ class UpdateTests(unittest.TestCase):
     if request.full_url == primary:
      raise ConnectionAbortedError()
     self.assertEqual(request.full_url,fallback)
-    return io.BytesIO(contents)
+    return Response(contents)
    with patch.object(updater.time,'sleep'),patch.object(
     updater.urllib.request,'urlopen',side_effect=open_url,
    ) as request:
@@ -33,7 +42,7 @@ class UpdateTests(unittest.TestCase):
            'size':len(contents),'sha512':hashlib.sha512(contents).hexdigest()}
    with patch.object(updater.time,'sleep'),patch.object(
     updater.urllib.request,'urlopen',
-    side_effect=[ConnectionAbortedError(),io.BytesIO(contents[:4]),io.BytesIO(contents)],
+    side_effect=[ConnectionAbortedError(),Response(contents[:4]),Response(contents)],
    ) as request:
     updater.download(record,target)
    self.assertEqual(request.call_count,3)
@@ -43,6 +52,32 @@ class UpdateTests(unittest.TestCase):
     updater.urllib.request,'urlopen',side_effect=ConnectionAbortedError(),
    ),self.assertRaisesRegex(updater.DownloadInterrupted,'example.jar'):
     updater.download(record,Path(tmp)/'other')
+
+ def test_modrinth_download_resumes_on_alternate_and_reuses_host(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   root=Path(tmp)
+   contents=b'downloaded in two pieces'
+   record={'url':'https://cdn.modrinth.com/data/project/versions/version/test.jar',
+           'size':len(contents),'sha512':hashlib.sha512(contents).hexdigest()}
+   unavailable=set()
+   lock=threading.Lock()
+   requests=[]
+   def open_url(request, **options):
+    requests.append(request.host)
+    if request.host == 'cdn.modrinth.com':
+     if request.get_header('Range') is None:
+      return Response(contents[:6])
+     raise ConnectionAbortedError()
+    if request.get_header('Range'):
+     self.assertEqual(request.get_header('Range'),'bytes=6-')
+     return Response(contents[6:],206,{'Content-Range':f'bytes 6-{len(contents)-1}/{len(contents)}'})
+    return Response(contents)
+   with patch.object(updater.time,'sleep'),patch.object(updater.urllib.request,'urlopen',side_effect=open_url):
+    updater.download(record,root/'first',unavailable,lock)
+    updater.download(record,root/'second',unavailable,lock)
+   self.assertEqual(requests,['cdn.modrinth.com']*3+['cdn-raw.modrinth.com']*2)
+   self.assertEqual((root/'first').read_bytes(),contents)
+   self.assertEqual((root/'second').read_bytes(),contents)
 
  def test_controls_migrate_once_without_overwriting_custom_bindings(self):
   with tempfile.TemporaryDirectory() as tmp:
