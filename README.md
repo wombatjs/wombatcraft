@@ -18,7 +18,7 @@ Click **Play** in Wombatcraft to check and install the current pack. If you're s
 
 Embeddium, ImmediatelyFast and Dynamic FPS are included. To enable Complementary Reimagined, open **Options → Video Settings → Shader Packs** and turn shaders on. Shaders are off by default.
 
-Open the FTB Chunks map for navigation, waypoints and land claims. Fresh installs bind it to **F7**. Existing installs keep their map key. Earlier installations may still have JourneyMap waypoints in the instance's `journeymap` folder.
+Open the FTB Chunks map with **M**. Cobblemon uses **,** for the party summary, **'** to hide the party display, and **R** to send out or recall Pokémon. Press **F10** to open the shader menu. Shader reload and toggle shortcuts can be assigned in Controls. Earlier installations may still have JourneyMap waypoints in the instance's `journeymap` folder.
 
 Members can set three homes with `/sethome`. Use `/home`, `/spawn`, `/tpa` and `/warp` to get around. FTB Chunks manages claims and Lightman’s Currency provides coins and player shops. Titles unlock through advancements, and Cosmetic Armor lets players change the appearance of their armor.
 

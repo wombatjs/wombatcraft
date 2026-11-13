@@ -145,7 +145,7 @@ class Window(QWidget):
  def pack_ready(self, manifest):
   try:
    installed = json.loads((INSTANCE / '.wombatcraft.json').read_text(encoding='utf-8'))
-   if installed.get('commit') != manifest['commit']:
+   if installed.get('commit') != manifest['commit'] or not installed.get('controls_migrated'):
     return False
    for file in manifest['files']:
     if file['client']:

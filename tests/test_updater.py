@@ -5,6 +5,33 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'launcher'))
 import updater
 
 class UpdateTests(unittest.TestCase):
+ def test_controls_migrate_once_without_overwriting_custom_bindings(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   root=Path(tmp)
+   instance=root/'game';instance.mkdir()
+   stage=root/'stage';stage.mkdir()
+   options=instance/'options.txt'
+   options.write_bytes(
+    b'renderDistance:12\r\nkey_key.ftbchunks.map:key.keyboard.m\r\n'
+    b'key_key.cobblemon.summary:key.keyboard.m\r\nkey_iris.keybind.reload:key.keyboard.r\r\n'
+    b'key_key.cobblemon.hideparty:key.keyboard.f4\r\nkey_player_custom:key.keyboard.semicolon\r\n'
+    b'key_keybinds.combatroll.roll:key.keyboard.r\r\n'
+   )
+   defaults=stage/'options.txt'
+   defaults.write_bytes((Path(__file__).resolve().parents[1]/'pack/options.txt').read_bytes())
+   record={'path':'options.txt','seed_only':True,'size':defaults.stat().st_size,'sha512':updater.digest(defaults)}
+   updater.activate({'commit':'new'},[record],stage,instance,root/'transaction')
+   migrated=options.read_bytes()
+   self.assertIn(b'key_key.cobblemon.summary:key.keyboard.comma\r\n',migrated)
+   self.assertIn(b'key_iris.keybind.reload:key.keyboard.unknown\r\n',migrated)
+   self.assertIn(b'key_key.cobblemon.hideparty:key.keyboard.f4\r\n',migrated)
+   self.assertIn(b'key_keybinds.combatroll.roll:key.keyboard.r\r\n',migrated)
+   self.assertIn(b'renderDistance:12\r\n',migrated)
+   custom=migrated.replace(b'key_iris.keybind.reload:key.keyboard.unknown',b'key_iris.keybind.reload:key.keyboard.r')
+   options.write_bytes(custom)
+   updater.activate({'commit':'later'},[record],stage,instance,root/'transaction')
+   self.assertEqual(options.read_bytes(),custom)
+
  def test_existing_verified_mod_is_neither_staged_nor_backed_up(self):
   with tempfile.TemporaryDirectory() as tmp:
    root=Path(tmp);instance=root/'game';stage=root/'stage';cache=root/'cache';transaction=root/'transaction'
