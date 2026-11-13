@@ -19,6 +19,8 @@ files=[]
 for record in lock['mods']:
  if record.get('requires_discord_app') and not discord_enabled:continue
  f=record['file'];files.append(dict(path='mods/'+f['filename'],url=f['url'],sha512=f['hashes']['sha512'],size=f['size'],client=record.get('client',True),server=record.get('server',record['project'].get('server_side')!='unsupported')))
+ if 'fallback_urls' in record:
+  files[-1]['fallback_urls']=record['fallback_urls']
 for f in lock.get('shaderpacks',[]):
  files.append(dict(path='shaderpacks/'+f['filename'],url=f['url'],sha512=f['hashes']['sha512'],size=f['size'],client=True,server=False))
 overrides=[]

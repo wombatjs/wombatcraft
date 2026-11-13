@@ -5,6 +5,26 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'launcher'))
 import updater
 
 class UpdateTests(unittest.TestCase):
+ def test_download_fails_over_and_verifies_the_same_hash(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   target=Path(tmp)/'cached'
+   contents=b'complete jar'
+   primary='https://primary.example/test.jar'
+   fallback='https://mirror.example/test.jar'
+   record={'url':primary,'fallback_urls':[fallback],
+           'size':len(contents),'sha512':hashlib.sha512(contents).hexdigest()}
+   def open_url(request, **options):
+    if request.full_url == primary:
+     raise ConnectionAbortedError()
+    self.assertEqual(request.full_url,fallback)
+    return io.BytesIO(contents)
+   with patch.object(updater.time,'sleep'),patch.object(
+    updater.urllib.request,'urlopen',side_effect=open_url,
+   ) as request:
+    updater.download(record,target)
+   self.assertEqual(request.call_count,4)
+   self.assertEqual(target.read_bytes(),contents)
+
  def test_pack_download_retries_truncated_and_reset_connections(self):
   with tempfile.TemporaryDirectory() as tmp:
    target=Path(tmp)/'cached'

@@ -7,7 +7,7 @@ dest=ROOT/'dist/server-smoke';dest.mkdir(parents=True,exist_ok=True)
 lock=json.loads((ROOT/'mod-lock.json').read_text());mods=dest/'mods';mods.mkdir(exist_ok=True)
 for r in lock['mods']:
  if not r.get('server',r['project'].get('server_side')!='unsupported'):continue
- f=r['file'];updater.download(dict(url=f['url'],sha512=f['hashes']['sha512'],size=f['size']),mods/f['filename'])
+ f=r['file'];updater.download(dict(path='mods/'+f['filename'],url=f['url'],fallback_urls=r.get('fallback_urls',[]),sha512=f['hashes']['sha512'],size=f['size']),mods/f['filename'])
 (mods/PATCH_NAME).write_bytes(build_portal_patch())
 for name in ['config','kubejs','defaultconfigs']:
  if (ROOT/'pack'/name).exists():shutil.copytree(ROOT/'pack'/name,dest/name,dirs_exist_ok=True,ignore=shutil.ignore_patterns('simple-rpc','oculus.properties'))

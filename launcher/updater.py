@@ -109,7 +109,15 @@ def retry_download(action, label, *, network_errors=()):
 def download(record,target):
  if target.exists() and target.stat().st_size==record['size'] and digest(target)==record['sha512']:return
  label = PurePosixPath(record['path']).name if 'path' in record else 'the pack configuration'
- retry_download(lambda: download_once(record,target,label), label)
+ urls = [record['url'], *record.get('fallback_urls', [])]
+ for index, url in enumerate(urls):
+  source = {**record, 'url': url}
+  try:
+   retry_download(lambda: download_once(source,target,label), label)
+   return
+  except (DownloadInterrupted, urllib.error.HTTPError):
+   if index == len(urls) - 1:
+    raise
 
 def download_once(record,target,label):
  if not record['url'].startswith('https://'):raise ValueError('HTTPS is required')

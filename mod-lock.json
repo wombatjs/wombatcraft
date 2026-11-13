@@ -121,6 +121,9 @@
         "dependencies": []
       },
       "category": "Core",
+      "fallback_urls": [
+        "https://mediafilez.forgecdn.net/files/8968/249/Tardis-Mod-1.20.1-1.1.6.jar"
+      ],
       "file": {
         "id": "40AIapxS",
         "hashes": {
