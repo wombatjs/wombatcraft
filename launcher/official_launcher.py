@@ -62,9 +62,9 @@ def launcher_running():
 
 
 def game_running(runtime):
-    runtime = runtime.resolve()
+    roots = (runtime.resolve(), minecraft_directory().resolve())
     return any(
-        executable and name in {'java.exe', 'javaw.exe'} and Path(executable).resolve().is_relative_to(runtime)
+        executable and name in {'java.exe', 'javaw.exe'} and any(Path(executable).resolve().is_relative_to(root) for root in roots)
         for name, executable in _processes()
     )
 

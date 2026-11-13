@@ -1,4 +1,7 @@
-import json,os,subprocess,sys,threading,webbrowser,urllib.error
+import truststore
+truststore.inject_into_ssl()
+
+import json,os,sys,webbrowser,urllib.error
 from pathlib import Path
 from PySide6.QtCore import Qt,QObject,Signal,QRunnable,QThreadPool,QTimer,QLockFile,QRect
 from PySide6.QtGui import QPainter,QPixmap,QColor,QLinearGradient,QFontDatabase,QFont
@@ -6,7 +9,7 @@ from PySide6.QtWidgets import QApplication,QWidget,QVBoxLayout,QHBoxLayout,QLabe
 import minecraft_launcher_lib as mc
 from requests.exceptions import ConnectionError as RequestsConnectionError, Timeout as RequestsTimeout
 from urllib3.exceptions import ProtocolError, ReadTimeoutError
-import auth,updater,server_status,interface,launcher_update,official_launcher
+import updater,server_status,interface,launcher_update,official_launcher
 import discord_presence
 
 BASE=Path(getattr(sys,'_MEIPASS',Path(__file__).resolve().parent))
@@ -24,13 +27,10 @@ SETUP_NETWORK_ERRORS = (RequestsConnectionError, RequestsTimeout, ProtocolError,
 
 class Signals(QObject):
  status=Signal(str);success=Signal(object);error=Signal(str)
- sign_in_required = Signal(str)
 class Work(QRunnable):
  def __init__(self,fn):super().__init__();self.fn=fn;self.signals=Signals()
  def run(self):
   try:self.signals.success.emit(self.fn(self.signals.status.emit))
-  except auth.SignInRequired as error:
-   self.signals.sign_in_required.emit(str(error))
   except Exception as e:
    # Authentication tokens and full HTTP bodies must never be shown or logged.
    message=str(e) if isinstance(e,(RuntimeError,ValueError,updater.DownloadInterrupted)) else 'The operation could not finish. Check your connection and retry.'
@@ -40,7 +40,7 @@ class Work(QRunnable):
 
 class Window(QWidget):
  def __init__(self):
-  super().__init__();self.account=None;self.busy=False;self.game=None;self.log=None;self.release_available=False;self.checking_server=False
+  super().__init__();self.busy=False;self.game=None;self.release_available=False;self.checking_server=False
   interface.build(self,BRAND,CONFIG,DATA,discord_configured=bool(DISCORD_APP_ID))
   self.discord = None
   if DISCORD_APP_ID and '--smoke-test' not in sys.argv:
@@ -55,19 +55,16 @@ class Window(QWidget):
  def set_busy(self,busy):
   self.busy=busy
   idle=not busy and self.game is None
-  self.sign.setEnabled(idle and bool(CONFIG['microsoft_client_id']))
   self.play.setEnabled(idle)
   self.official_play.setEnabled(idle)
   self.install.setEnabled(idle);self.memory.setEnabled(idle)
   self.install.setText('Install / check for updates' if self.release_available else 'Check for a release')
-  self.logout_button.setEnabled(idle and self.account is not None)
   self.launcher_update_button.setEnabled(idle and PACKAGED)
   self.progress.setRange(0,0 if busy else 1);self.progress.setValue(0)
  def run(self,fn,success):
   if self.busy or self.game:return
   self.set_busy(True);self.worker=Work(fn);self.worker.signals.status.connect(self.status.setText);self.worker.signals.error.connect(self.failed)
   self.worker.signals.success.connect(lambda value:(self.set_busy(False),success(value)))
-  self.worker.signals.sign_in_required.connect(self.show_sign_in)
   QThreadPool.globalInstance().start(self.worker)
  def failed(self,message):self.set_busy(False);self.status.setText(message)
  def check_launcher_release(self):
@@ -129,16 +126,6 @@ class Window(QWidget):
  def server_checked(self,result):
   self.checking_server=False;players=result.get('players',{});self.server_label.setText(f'Online · {players.get("online",0)} / {players.get("max",0)} players')
  def server_unavailable(self):self.checking_server=False;self.server_label.setText('Status unavailable')
- def show_sign_in(self, message):
-  self.set_busy(False)
-  interface.show_page(self, 2)
-  self.status.setText(message)
-
- def sign_in(self):
-  self.status.setText('Complete sign-in in your browser.');self.run(lambda progress:auth.login(CONFIG,DATA),self.signed_in)
- def signed_in(self,account):self.account=account;self.account_label.setText('Welcome, '+account['name']);self.sign.setText('Switch Microsoft account');self.set_busy(False);self.status.setText('Signed in. Play will check and install the latest release.' if self.release_available else 'Signed in. Check Releases for pack availability.')
- def sign_out(self):
-  auth.logout(DATA);self.account=None;self.account_label.setText('Your next expedition starts here.');self.sign.setText('Sign in with Microsoft');self.set_busy(False);self.status.setText('Signed out on this computer.')
  def pack_manifest(self, progress):
   progress('Checking the latest published release…')
   manifest = updater.fetch_json(CONFIG['manifest_url'])
@@ -156,7 +143,8 @@ class Window(QWidget):
      if not updater.matches(path, file):
       return False
    return all(
-    updater.safe_path(INSTANCE, file['path']).is_file()
+    (updater.safe_path(INSTANCE, file['path']).is_file() if file.get('seed_only')
+     else updater.matches(updater.safe_path(INSTANCE, file['path']),file))
     for file in manifest['overrides']['files'] if file['client']
    )
   except (OSError, ValueError, TypeError):
@@ -268,30 +256,13 @@ class Window(QWidget):
  def installed(self,result):
   self.release_available=True;self.set_busy(False);self.status.setText('Release '+result['manifest']['commit'][:8]+' is installed. Choose Play to continue.');self.progress.setValue(1)
  def play_game(self):
-  memory=self.memory.value()
-  def launch(progress):
-   progress('Checking your Microsoft session…')
-   try:
-    account = auth.refresh(CONFIG, DATA)
-   except auth.SignInRequired:
-    return self.prepare_official(progress, memory)
-   result = self.prepare(progress)
-   self.require_game_closed()
-   options={'username':account['name'],'uuid':account['id'],'token':account['access_token'],'executablePath':result['java'],'gameDirectory':str(INSTANCE),'jvmArguments':['-Xms2G',f'-Xmx{memory}G'],'launcherName':'Wombatcraft','launcherVersion':'0.1.0','server':CONFIG['server_address'].split(':')[0],'port':CONFIG['server_address'].split(':')[1]}
-   command=mc.command.get_minecraft_command(result['version'],str(RUNTIME),options)
-   log=(DATA/'game.log').open('w',encoding='utf-8');process=subprocess.Popen(command,cwd=INSTANCE,stdout=log,stderr=subprocess.STDOUT,creationflags=subprocess.CREATE_NO_WINDOW)
-   return process,log,account
-  self.run(launch,self.play_ready)
- def play_ready(self, result):
-  if isinstance(result, str):
-   self.status.setText(result)
-  else:
-   self.started(result)
- def started(self,result):
-  self.game,self.log,self.account=result;self.set_busy(False);self.status.setText('Minecraft is starting. The first launch can take several minutes.');self.play.setText('Minecraft is running')
+  self.play_with_official()
  def poll_game(self):
-  if self.game and self.game.poll() is not None:
-   code=self.game.returncode;self.game=None;self.log.close();self.log=None;self.set_busy(False);self.play.setText('Play Wombatcraft');self.status.setText('Minecraft closed.' if code==0 else 'Minecraft stopped unexpectedly. Open Files and check game.log before retrying.')
+  running = official_launcher.game_running(RUNTIME)
+  if running != bool(self.game):
+   self.game = running
+   self.set_busy(self.busy)
+   self.play.setText('Minecraft is running' if running else 'Play Wombatcraft')
  def closeEvent(self,event):
   if self.busy or self.game:
    QMessageBox.information(self,'Wombatcraft','Close Minecraft or let the current operation finish before closing the launcher.');event.ignore()

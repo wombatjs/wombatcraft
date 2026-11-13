@@ -61,7 +61,7 @@ def build(window, brand, config, data, *, discord_configured=False):
  w.pages=QStackedWidget();w.nav=[]
  for index,title in enumerate(['Home','Your pack','Account','Settings','About']):
   nav=QPushButton(title);nav.setObjectName('nav');nav.setCheckable(True);nav.clicked.connect(lambda checked=False,i=index:show_page(w,i));side.addWidget(nav);w.nav.append(nav)
- side.addStretch();motto=label('Play. Mod. Wombat.','muted');motto.setAlignment(Qt.AlignCenter);side.addWidget(motto);side.addWidget(label('Preview 0.1','muted'),alignment=Qt.AlignCenter);root.addWidget(sidebar)
+ side.addStretch();motto=label('Play. Mod. Wombat.','muted');motto.setAlignment(Qt.AlignCenter);side.addWidget(motto);side.addWidget(label('Minecraft Java Edition','muted'),alignment=Qt.AlignCenter);root.addWidget(sidebar)
  main=QVBoxLayout();main.setContentsMargins(24,22,24,18);main.setSpacing(14);root.addLayout(main,1);main.addWidget(w.pages,1)
 
  home=QWidget();hl=QVBoxLayout(home);hl.setContentsMargins(0,0,0,0);hl.setSpacing(14);hl.addWidget(Banner(brand),1)
@@ -75,7 +75,12 @@ def build(window, brand, config, data, *, discord_configured=False):
  pack=QWidget();pl=QVBoxLayout(pack);pl.setContentsMargins(0,0,0,0);pl.setSpacing(18);pl.addWidget(label('Your pack','heading'));pl.addWidget(label('Wombatcraft · Minecraft Java 1.20.1 · Forge 47.4.28','muted'))
  card,cl=surface();cl.addWidget(label('Technology, magic & discovery','heading'));cl.addWidget(label('Build moving factories, master spellcraft, explore distant realms and grow a thriving settlement. The quest book connects each branch through the Convergence.',wrap=True));cl.addWidget(label('Updates are checked before Play. Your worlds, screenshots and personal options stay in your installation.',wrap=True));w.install=button('Check for a release',lambda:w.run(w.install_pack,w.installed) if w.release_available else w.check_release());cl.addWidget(w.install);cl.addWidget(button('Open installation files',lambda:os.startfile(str(data))));cl.addWidget(button('Release notes',lambda:webbrowser.open('https://github.com/wombatjs/wombatcraft/releases')));pl.addWidget(card);pl.addStretch();w.pages.addWidget(pack)
 
- account=QWidget();al=QVBoxLayout(account);al.setContentsMargins(0,0,0,0);al.addWidget(label('Your account','heading'));card,cl=surface();w.account_label=label('Sign in to join the adventure.','heading');cl.addWidget(w.account_label);cl.addWidget(label('Use the Microsoft account that owns Minecraft Java Edition.',wrap=True));w.official_play=button('Play with Minecraft Launcher',w.play_with_official);cl.addWidget(w.official_play);w.sign=button('Sign in with Microsoft in Wombatcraft',w.sign_in);w.sign.setVisible(bool(config['microsoft_client_id']));cl.addWidget(w.sign);w.logout_button=button('Sign out of Wombatcraft',w.sign_out);w.logout_button.setVisible(bool(config['microsoft_client_id']));cl.addWidget(w.logout_button);al.addWidget(card);al.addStretch();w.pages.addWidget(account)
+ account=QWidget();al=QVBoxLayout(account);al.setContentsMargins(0,0,0,0);al.addWidget(label('Minecraft account','heading'))
+ card,cl=surface()
+ cl.addWidget(label('Sign in with Minecraft Launcher','heading'))
+ cl.addWidget(label('Wombatcraft prepares the pack and opens Minecraft Launcher. Choose Java Edition, sign in with the account that owns the game, and select the Wombatcraft installation.',wrap=True))
+ w.official_play=button('Prepare & open Minecraft Launcher',w.play_with_official)
+ cl.addWidget(w.official_play);al.addWidget(card);al.addStretch();w.pages.addWidget(account)
 
  settings=QWidget();st=QVBoxLayout(settings);st.setContentsMargins(0,0,0,0);st.addWidget(label('Settings','heading'));card,cl=surface();cl.addWidget(label('Minecraft memory','heading'));cl.addWidget(label('10 GB is the default for this pack. Leave memory available for Windows and your other apps.',wrap=True));w.memory=QSpinBox();w.memory.setRange(6,16);w.memory.setSuffix(' GB');w.memory.setValue(10)
  settings_path=data/'settings.json'

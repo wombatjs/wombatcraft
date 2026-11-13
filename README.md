@@ -10,7 +10,7 @@ The public server is `74.208.117.88:25565`, hosted in Pterodactyl through the ex
 
 Extract the complete Windows launcher ZIP before opening `Wombatcraft.exe`. The launcher checks GitHub Releases at startup and restarts into a newer launcher after verifying the download and testing that it opens. You can also check from **About → Check for launcher updates**. Older launcher ZIPs need a one-time manual replacement to gain this feature.
 
-Click **Play** in Wombatcraft to check and install the current pack. If you're signed out, Wombatcraft prepares its Java Edition installation and opens the official Minecraft Launcher. Sign in there and select **Wombatcraft** to play. If Minecraft Launcher is new, open Java Edition once to complete setup before returning to Wombatcraft. Direct sign-in inside Wombatcraft still needs Minecraft API approval and a licensed account test.
+Click **Play** in Wombatcraft to check and install the current pack. Wombatcraft prepares its Java Edition installation and opens the official Minecraft Launcher. Sign in there and select **Wombatcraft** to play. If Minecraft Launcher is new, open Java Edition once to complete setup before returning to Wombatcraft.
 
 `pack/` contains distributable configuration, original quests and scripts. `mod-lock.json` pins upstream downloads and hashes; third-party mod binaries are not stored in Git. The earlier Fabric pack remains a separate backup.
 
@@ -32,8 +32,10 @@ Only a validated release for a commit on `main` becomes an update. Client and se
 
 Server updates stage separately, wait for an empty server, take a stopped-world backup and then activate. A daily restart also provides a maintenance window. Failed startup rolls back the pack and its matching world snapshot. Empty-server maintenance runs once for a pending update or daily restart; it does not repeatedly restart an idle server.
 
-The custom launcher uses Microsoft browser authentication. A Wombatcraft app registration and Minecraft API approval are required before public sign-in is enabled. No borrowed launcher client ID, offline authentication or passwords collected by this application.
+Microsoft sign-in and game authentication are handled by the official Minecraft Launcher. Wombatcraft installs the pinned pack and registers its Java Edition profile.
 
 ## Attribution
 
 ATM9's publicly viewable quest structure is a research reference, not redistributed content. Its quests, rewards, scripts and menu assets are All Rights Reserved. Wombatcraft quest text, layouts, branding and reward design are original. Third-party mods retain their respective licenses.
+
+Downloads use the Windows certificate trust system, resume interrupted transfers, and verify the published size and SHA-512 before activation. Cached files are reused across updates. If the primary Modrinth host fails, the installer tries its alternate host and remembers that route for the current installation. Play verifies managed files and repairs missing or corrupted downloads.
