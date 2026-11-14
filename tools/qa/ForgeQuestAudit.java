@@ -10,7 +10,20 @@ public class ForgeQuestAudit {
  public ForgeQuestAudit(){
   try { Object bus=Class.forName("net.minecraftforge.common.MinecraftForge").getField("EVENT_BUS").get(null);Class.forName("net.minecraftforge.eventbus.api.IEventBus").getMethod("register",Object.class).invoke(bus,this); } catch(Exception e){throw new RuntimeException(e);}
  }
- @SubscribeEvent public void started(ServerStartedEvent event){audit();auditRecipes(event);auditCommands(event);auditPortalChunkTracking(event);auditPortalPolicy();}
+ @SubscribeEvent public void started(ServerStartedEvent event){audit();auditRecipes(event);auditAdvancements(event);auditCommands(event);auditPortalChunkTracking(event);auditPortalPolicy();}
+ static void auditAdvancements(Object event){
+  try{
+   Object server=call(event,"getServer"),manager=null;
+   for(Method m:server.getClass().getMethods())if(m.getParameterCount()==0 && m.getReturnType().getName().equals("net.minecraft.server.ServerAdvancementManager")){manager=m.invoke(server);break;}
+   if(manager==null)throw new IllegalStateException("Advancement manager not found");
+   Collection<?> all=null;
+   for(Method m:manager.getClass().getMethods())if(m.getParameterCount()==0 && m.getReturnType()==Collection.class){all=(Collection<?>)m.invoke(manager);break;}
+   if(all==null)throw new IllegalStateException("Advancement collection not found");
+   Method id=null;for(Method m:Class.forName("net.minecraft.advancements.Advancement").getMethods())if(m.getParameterCount()==0 && m.getReturnType().getName().equals("net.minecraft.resources.ResourceLocation")){id=m;break;}
+   List<String> ids=new ArrayList<>();for(Object advancement:all)ids.add(id.invoke(advancement).toString());Collections.sort(ids);Files.write(Path.of("advancement-registry.txt"),ids);
+   System.out.println("ADVANCEMENT_AUDIT_COMPLETE advancements="+ids.size());
+  }catch(Exception e){throw new IllegalStateException("Advancement audit failed",e);}
+ }
  static void auditPortalPolicy(){
   try{
    Class<?> global=Class.forName("qouteall.imm_ptl.core.IPGlobal");
@@ -97,6 +110,16 @@ public class ForgeQuestAudit {
    java.util.Set<?> keys=(java.util.Set<?>)Class.forName("net.minecraftforge.registries.IForgeRegistry").getMethod("getKeys").invoke(registry);
    List<String> ids=new ArrayList<>();for(Object id:keys)ids.add(id.toString());Collections.sort(ids);Files.write(Path.of("item-registry.txt"),ids);
    System.out.println("REGISTRY_AUDIT_COMPLETE items="+ids.size());
+   // Verify the sickle fix through the actual loaded item implementation.
+   Class<?> location=Class.forName("net.minecraft.resources.ResourceLocation");
+   Class<?> stack=Class.forName("net.minecraft.world.item.ItemStack");
+   Method lookup=Class.forName("net.minecraftforge.registries.IForgeRegistry").getMethod("getValue",location);
+   for(String name:List.of("silentwood_sickle","aurorian_stone_sickle","moonstone_sickle")){
+    Object item=lookup.invoke(registry,location.getConstructor(String.class).newInstance("theaurorian:"+name));
+    Object defaultStack=item.getClass().getMethod("m_7968_").invoke(item);
+    if(item.getClass().getMethod("getCraftingRemainingItem",stack).invoke(item,defaultStack)==null)throw new IllegalStateException("Null sickle crafting remainder: "+name);
+   }
+   System.out.println("AURORIAN_CRAFTING_AUDIT_COMPLETE");
    Object entityRegistry=Class.forName("net.minecraftforge.registries.ForgeRegistries").getField("ENTITY_TYPES").get(null);
    Set<?> entityKeys=(Set<?>)Class.forName("net.minecraftforge.registries.IForgeRegistry").getMethod("getKeys").invoke(entityRegistry);
    List<String> entityIds=new ArrayList<>();for(Object id:entityKeys)entityIds.add(id.toString());Collections.sort(entityIds);Files.write(Path.of("entity-registry.txt"),entityIds);
@@ -109,6 +132,6 @@ public class ForgeQuestAudit {
    }
    Files.write(Path.of("quest-runtime-audit.tsv"),lines);
    System.out.println("QUEST_AUDIT_COMPLETE quests="+lines.size());
-  }catch(Exception e){e.printStackTrace();}
+  }catch(Exception e){throw new IllegalStateException("Quest registry audit failed",e);}
  }
 }

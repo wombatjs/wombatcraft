@@ -1,7 +1,7 @@
 """Boot a disposable dedicated server and validate live quest/item/recipe registries."""
 import hashlib,json,os,shutil,subprocess,sys,time,urllib.request,zipfile
 from pathlib import Path
-from portal_patch import PATCH_NAME, build_portal_patch
+from portal_patch import PATCH_NAME, AURORIAN_PATCH_NAME, build_portal_patch
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'launcher'));import updater
 dest=ROOT/'dist/server-smoke';dest.mkdir(parents=True,exist_ok=True)
 lock=json.loads((ROOT/'mod-lock.json').read_text());mods=dest/'mods';mods.mkdir(exist_ok=True)
@@ -10,6 +10,7 @@ for r in lock['mods']:
  if not r.get('server',r['project'].get('server_side')!='unsupported'):continue
  f=r['file'];updater.download(dict(path='mods/'+f['filename'],url=f['url'],fallback_urls=r.get('fallback_urls',[]),sha512=f['hashes']['sha512'],size=f['size']),mods/f['filename'])
 (mods/PATCH_NAME).write_bytes(build_portal_patch())
+(mods/AURORIAN_PATCH_NAME).write_bytes(build_portal_patch('aurorian-compat'))
 print('Mod downloads verified; auditing expedition targets.',flush=True)
 # Audit expedition targets against the exact release jars, not an old web wiki.
 advancements=set();dimensions=set();structures=set()
@@ -72,12 +73,16 @@ for boot in range(2):
    entities=set((dest/'entity-registry.txt').read_text().splitlines())
    targets={t['entity'] for q in quests for t in q.get('tasks',[]) if t.get('type')=='kill'}
    assert not targets-entities,'Missing runtime entities: '+str(sorted(targets-entities))
+   loaded_advancements=set((dest/'advancement-registry.txt').read_text().splitlines())
+   requested={t['advancement'] for c in chapters if c['filename'].startswith('wc_dimension_exp_') for q in c['quests'] for t in q['tasks'] if t['type']=='advancement'}
+   assert not requested-loaded_advancements,'Unloaded expedition advancements: '+str(sorted(requested-loaded_advancements))
    recipes=set((dest/'recipe-registry.txt').read_text().splitlines());endgame={'kubejs:endgame/'+name for name in ['industrial_sigil','arcane_sigil','voyager_sigil','prosperity_sigil','convergence_core']};assert endgame<=recipes,'Missing endgame recipes'
    assert 'Parsing error loading recipe' not in text,'Recipe parse errors'
    assert 'mekanism:crushing/venus_sandstone_to_venus_sand' in recipes,'Missing Venus sandstone recipe'
    assert 'Incomplete recipe detected: mekanism:crushing/venus_sandstone_to_venus_sand' not in text,'Broken Venus sandstone ingredient'
    assert 'Wombatcraft portal chunk guard applied' in text,'Portal chunk guard did not load'
    assert 'Wombatcraft Aurorian dedicated-server packet guard applied' in text,'Aurorian server packet guard did not load'
+   assert 'Wombatcraft Aurorian crafting remainder fix applied' in text,'Aurorian crafting fix did not load'
    assert 'PORTAL_POLICY_AUDIT_COMPLETE' in text,'Portal policy or serializer synchronization did not load'
    commands=set((dest/'command-registry.txt').read_text().splitlines())
    required_commands={'home','sethome','spawn','tpa','tpaccept','tpdeny','tab','warp','mute','unmute','ftbranks','ftbchunks','lcadmin','spark','chunky','pp','servercore'}
@@ -89,16 +94,25 @@ for boot in range(2):
    if boot==0:
     for index,d in enumerate(expansion['destinations']):
      if not d['dimension']:continue
-     marker='WOMBAT_DIMENSION_QA_'+str(index)+'_DONE'
-     before=len((dest/'console.log').read_text(errors='replace'))
-     process.stdin.write(('execute in '+d['dimension']+' run setblock 0 100 0 minecraft:gold_block\nsay '+marker+'\n').encode());process.stdin.flush()
+     process.stdin.write(('execute in '+d['dimension']+' run forceload add 0 0\n').encode());process.stdin.flush()
      deadline=time.monotonic()+150
+     attempt=0
      while time.monotonic()<deadline:
       if process.poll() is not None:raise RuntimeError('Server exited generating '+d['dimension'])
+      attempt+=1
+      marker='WOMBAT_DIMENSION_QA_'+str(index)+'_'+str(attempt)+'_DONE'
+      before=len((dest/'console.log').read_text(errors='replace'))
+      process.stdin.write(('execute in '+d['dimension']+' run setblock 0 100 0 minecraft:gold_block\nsay '+marker+'\n').encode());process.stdin.flush()
+      while time.monotonic()<deadline:
+       segment=(dest/'console.log').read_text(errors='replace')[before:]
+       if marker in segment:break
+       if process.poll() is not None:raise RuntimeError('Server exited generating '+d['dimension'])
+       time.sleep(1)
       segment=(dest/'console.log').read_text(errors='replace')[before:]
-      if marker in segment:
-       assert 'Changed the block at' in segment or 'Could not set the block' in segment, 'Dimension chunk generation failed: '+d['dimension']+'\n'+segment[-2500:]
+      if 'Changed the block at' in segment or 'Could not set the block' in segment:
+       process.stdin.write(('execute in '+d['dimension']+' run forceload remove 0 0\n').encode());process.stdin.flush()
        explored.append(d['dimension']);break
+      assert 'Unknown dimension' not in segment,'Dimension unavailable: '+d['dimension']
       time.sleep(2)
      else:raise TimeoutError('Dimension generation timed out: '+d['dimension'])
      print('Generated destination',d['dimension'],flush=True)

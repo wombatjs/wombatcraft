@@ -34,4 +34,6 @@ Aeroblender 1.0.1 is included as the Deep Aether dependency. Exact official down
 
 ## Validation
 
+Aurorian Reborn 1.0.1-fix requires two compatibility corrections: its dedicated-server channel references a handler removed by its client-only annotation, and its sickles return null instead of an empty crafting remainder. Small source-controlled Forge patches correct these without modifying the upstream jar. Packet IDs and codecs are preserved; the client retains its normal boss-bar handler. The crafting correction ships to both client and server.
+
 Static graph and layout checks and the local test suite pass. Dedicated-server validation checks real item/entity registries, quest IDs and recipes, boots twice, and generates a chunk in each new static destination. Client boot and in-game checks are separate acceptance steps. A survival playthrough of all campaigns is not claimed.
