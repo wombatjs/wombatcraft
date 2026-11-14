@@ -1,3 +1,4 @@
 {
-  "wombatcraft_portal_chunk_tracking": "coremods/portal_chunk_tracking.js"
+  "wombatcraft_portal_chunk_tracking": "coremods/portal_chunk_tracking.js",
+  "wombatcraft_aurorian_server_network": "coremods/aurorian_server_network.js"
 }

@@ -5,10 +5,12 @@ from portal_patch import PATCH_NAME, build_portal_patch
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'launcher'));import updater
 dest=ROOT/'dist/server-smoke';dest.mkdir(parents=True,exist_ok=True)
 lock=json.loads((ROOT/'mod-lock.json').read_text());mods=dest/'mods';mods.mkdir(exist_ok=True)
+print('Verifying and downloading pinned server mods...',flush=True)
 for r in lock['mods']:
  if not r.get('server',r['project'].get('server_side')!='unsupported'):continue
  f=r['file'];updater.download(dict(path='mods/'+f['filename'],url=f['url'],fallback_urls=r.get('fallback_urls',[]),sha512=f['hashes']['sha512'],size=f['size']),mods/f['filename'])
 (mods/PATCH_NAME).write_bytes(build_portal_patch())
+print('Mod downloads verified; auditing expedition targets.',flush=True)
 # Audit expedition targets against the exact release jars, not an old web wiki.
 advancements=set();dimensions=set();structures=set()
 for jar in mods.glob('*.jar'):
@@ -49,6 +51,7 @@ with zipfile.ZipFile(mods/'forge-quest-audit.jar','w') as z:
 (dest/'eula.txt').write_text('eula=true\n');(dest/'server.properties').write_text('server-ip=127.0.0.1\nserver-port=25577\nlevel-name=smoke-world\nonline-mode=true\nview-distance=4\nsimulation-distance=4\nmax-tick-time=180000\n')
 args='win_args.txt' if os.name=='nt' else 'unix_args.txt'
 for boot in range(2):
+ print('Starting dedicated server pass',boot+1,flush=True)
  with (dest/'console.log').open('w') as log:
   process=subprocess.Popen(['java','-Xms1G','-Xmx5G',f'@libraries/net/minecraftforge/forge/{version}/{args}','nogui'],cwd=dest,stdin=subprocess.PIPE,stdout=log,stderr=subprocess.STDOUT)
   try:
@@ -56,6 +59,7 @@ for boot in range(2):
    while time.monotonic()<deadline:
     if process.poll() is not None:raise RuntimeError('Dedicated server exited before startup completed')
     text=(dest/'console.log').read_text(errors='replace')
+    if 'Failed to start the minecraft server' in text or 'Mod Loading has failed' in text:raise RuntimeError('Fatal mod loading failure; see console.log')
     if ')! For help, type ' in text and all(marker in text for marker in ('QUEST_AUDIT_COMPLETE','RECIPE_AUDIT_COMPLETE','COMMAND_AUDIT_COMPLETE','PORTAL_CHUNK_AUDIT_COMPLETE')):break
     time.sleep(5)
    else:raise TimeoutError('Dedicated server startup timed out')
@@ -73,6 +77,7 @@ for boot in range(2):
    assert 'mekanism:crushing/venus_sandstone_to_venus_sand' in recipes,'Missing Venus sandstone recipe'
    assert 'Incomplete recipe detected: mekanism:crushing/venus_sandstone_to_venus_sand' not in text,'Broken Venus sandstone ingredient'
    assert 'Wombatcraft portal chunk guard applied' in text,'Portal chunk guard did not load'
+   assert 'Wombatcraft Aurorian dedicated-server packet guard applied' in text,'Aurorian server packet guard did not load'
    assert 'PORTAL_POLICY_AUDIT_COMPLETE' in text,'Portal policy or serializer synchronization did not load'
    commands=set((dest/'command-registry.txt').read_text().splitlines())
    required_commands={'home','sethome','spawn','tpa','tpaccept','tpdeny','tab','warp','mute','unmute','ftbranks','ftbchunks','lcadmin','spark','chunky','pp','servercore'}
@@ -96,6 +101,7 @@ for boot in range(2):
        explored.append(d['dimension']);break
       time.sleep(2)
      else:raise TimeoutError('Dimension generation timed out: '+d['dimension'])
+     print('Generated destination',d['dimension'],flush=True)
     (ROOT/'dist/dimension-generation.json').write_text(json.dumps(explored,indent=2))
    (ROOT/'dist/server-validation.json').write_text(json.dumps(dict(quests=len(quests),registry_items=len(registry),recipes=len(recipes),endgame_recipes=sorted(endgame),server_commands=sorted(required_commands),portal_chunk_tracking_verified=True,fresh_world_started=True,restarted_cleanly=boot==1),indent=2))
    print('Dedicated server, quest registry and endgame recipe validation passed.')
