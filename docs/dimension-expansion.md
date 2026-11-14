@@ -38,4 +38,6 @@ Aurorian Reborn 1.0.1-fix requires two compatibility corrections: its dedicated-
 
 The restart test also exposed an intermittent shared-cache race: KubeJS constructed Quark rune recipes in parallel while Universal Enchants initialized a non-thread-safe enchantment map. A runtime patch makes the two recipe-construction streams sequential without removing recipes or changing enchantments. The thread dump documenting the failure is retained with the local test artifacts.
 
+Targeted Forge tag removals discard stale references shipped by DivineRPG, Call from the Depths and the Eternal Starlight backport. Other mods' tag contributions remain intact, including the vanilla impermeable-glass tag. These repairs remove references to nonexistent entries; they do not remove registered items or blocks.
+
 Static graph and layout checks and the local test suite pass. Dedicated-server validation checks real item/entity registries, quest IDs and recipes, boots twice, and generates a chunk in each new static destination. Client boot and in-game checks are separate acceptance steps. A survival playthrough of all campaigns is not claimed.
