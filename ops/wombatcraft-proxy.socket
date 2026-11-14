@@ -1,3 +1,4 @@
+# Legacy socket-proxyd rollback definition. Keep disabled with the HAProxy service.
 [Unit]
 Description=Wombatcraft public Minecraft listener
 After=network-online.target fivem-wg.service
