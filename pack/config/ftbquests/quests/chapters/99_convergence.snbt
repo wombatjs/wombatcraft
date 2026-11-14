@@ -24,7 +24,21 @@
           "consume_items": false
         }
       ],
-      "size": 1.38
+      "size": 1.38,
+      "rewards": [
+        {
+          "id": "1C22EB5C177D3D21",
+          "type": "item",
+          "item": "minecraft:netherite_ingot",
+          "count": 4
+        },
+        {
+          "id": "402D60204CF309A6",
+          "type": "item",
+          "item": "minecraft:diamond_block",
+          "count": 2
+        }
+      ]
     },
     {
       "id": "0F68366FED1B407B",
@@ -45,7 +59,21 @@
           "consume_items": false
         }
       ],
-      "size": 1.38
+      "size": 1.38,
+      "rewards": [
+        {
+          "id": "0F1F350F44F2675A",
+          "type": "item",
+          "item": "minecraft:enchanted_golden_apple",
+          "count": 4
+        },
+        {
+          "id": "29FBE652B9FDF2FF",
+          "type": "item",
+          "item": "minecraft:totem_of_undying",
+          "count": 2
+        }
+      ]
     },
     {
       "id": "05742B300F1756FE",
@@ -66,7 +94,21 @@
           "consume_items": false
         }
       ],
-      "size": 1.38
+      "size": 1.38,
+      "rewards": [
+        {
+          "id": "489BB45FB9DE9ADB",
+          "type": "item",
+          "item": "minecraft:elytra",
+          "count": 1
+        },
+        {
+          "id": "3F04B19F80169810",
+          "type": "item",
+          "item": "minecraft:firework_rocket",
+          "count": 64
+        }
+      ]
     },
     {
       "id": "05E20ECC04CC71D2",
@@ -87,7 +129,21 @@
           "consume_items": false
         }
       ],
-      "size": 1.38
+      "size": 1.38,
+      "rewards": [
+        {
+          "id": "097C35CA6606D7EC",
+          "type": "item",
+          "item": "minecraft:emerald_block",
+          "count": 8
+        },
+        {
+          "id": "53F6A5C5DFCB7BBD",
+          "type": "item",
+          "item": "minecraft:gold_block",
+          "count": 4
+        }
+      ]
     },
     {
       "id": "07880F2BE7FAFE56",
@@ -118,8 +174,14 @@
         {
           "id": "2909AA6C94E6176A",
           "type": "item",
-          "item": "minecraft:firework_rocket",
-          "count": 32
+          "item": "minecraft:beacon",
+          "count": 1
+        },
+        {
+          "id": "45B86EDBC1AA8873",
+          "type": "item",
+          "item": "minecraft:netherite_block",
+          "count": 1
         }
       ]
     }

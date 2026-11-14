@@ -38,8 +38,14 @@
         {
           "id": "1CD8D5D71E1E0166",
           "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "1E85071A250B55C3",
+          "type": "item",
           "item": "minecraft:diamond",
-          "count": 2
+          "count": 4
         }
       ]
     },
@@ -74,8 +80,14 @@
         {
           "id": "60B2F935BD97FA9E",
           "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "2CF8D3B206E0AA6B",
+          "type": "item",
           "item": "minecraft:diamond",
-          "count": 2
+          "count": 4
         }
       ]
     },
@@ -110,8 +122,8 @@
         {
           "id": "0855D1D004FD0E04",
           "type": "item",
-          "item": "minecraft:cooked_beef",
-          "count": 4
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -146,8 +158,8 @@
         {
           "id": "5667C9FD6E9CA601",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 3
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ]
     },
@@ -182,8 +194,8 @@
         {
           "id": "014EADAD35C53ECB",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 16
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -218,8 +230,8 @@
         {
           "id": "08E74E8FA3DF7CEE",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 3
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ]
     },
@@ -254,8 +266,8 @@
         {
           "id": "06BEA9862B8B72AC",
           "type": "item",
-          "item": "minecraft:cooked_beef",
-          "count": 4
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -290,8 +302,8 @@
         {
           "id": "3FFB36054C583C7D",
           "type": "item",
-          "item": "minecraft:cooked_beef",
-          "count": 4
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -326,8 +338,8 @@
         {
           "id": "487E54CB1292A90D",
           "type": "item",
-          "item": "minecraft:cooked_beef",
-          "count": 4
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -362,7 +374,13 @@
         {
           "id": "36E337FF6B71BB7C",
           "type": "item",
-          "item": "minecraft:diamond",
+          "item": "minecraft:totem_of_undying",
+          "count": 1
+        },
+        {
+          "id": "70A3617FA290313B",
+          "type": "item",
+          "item": "minecraft:enchanted_golden_apple",
           "count": 2
         }
       ]
@@ -398,8 +416,8 @@
         {
           "id": "5011A6573892C677",
           "type": "item",
-          "item": "minecraft:ender_pearl",
-          "count": 1
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -434,8 +452,8 @@
         {
           "id": "04702FEB50925299",
           "type": "item",
-          "item": "minecraft:ender_pearl",
-          "count": 1
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -470,8 +488,8 @@
         {
           "id": "4668F77CEED12A8A",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 16
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -506,8 +524,8 @@
         {
           "id": "508C6236010B5F91",
           "type": "item",
-          "item": "minecraft:cooked_beef",
-          "count": 4
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -542,8 +560,8 @@
         {
           "id": "053D08E88A88183F",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ]
     },
@@ -578,8 +596,8 @@
         {
           "id": "25673ECDE9A5D229",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 3
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -615,7 +633,7 @@
           "id": "051B5BB3B6BE866E",
           "type": "item",
           "item": "minecraft:torch",
-          "count": 16
+          "count": 24
         }
       ]
     },
@@ -650,8 +668,8 @@
         {
           "id": "0592366161C1FAA0",
           "type": "item",
-          "item": "minecraft:ender_pearl",
-          "count": 1
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -686,7 +704,7 @@
         {
           "id": "78DD15F8C2AE7CF5",
           "type": "item",
-          "item": "minecraft:redstone",
+          "item": "minecraft:cooked_beef",
           "count": 8
         }
       ]
@@ -722,8 +740,8 @@
         {
           "id": "3901153D7B520737",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 16
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -759,7 +777,7 @@
           "id": "0AB0E4D6953ED736",
           "type": "item",
           "item": "minecraft:cooked_beef",
-          "count": 4
+          "count": 8
         }
       ]
     },
@@ -794,7 +812,7 @@
         {
           "id": "07A07C5268542F53",
           "type": "item",
-          "item": "minecraft:redstone",
+          "item": "minecraft:cooked_beef",
           "count": 8
         }
       ]
@@ -830,8 +848,8 @@
         {
           "id": "449E4D6A351BF835",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 16
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ]
     },
@@ -866,8 +884,8 @@
         {
           "id": "538F40E12A6F71DB",
           "type": "item",
-          "item": "minecraft:redstone",
-          "count": 8
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -902,8 +920,8 @@
         {
           "id": "6B1FE10730083FA2",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 3
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -938,8 +956,8 @@
         {
           "id": "6D23448ABA86E2FF",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -974,8 +992,8 @@
         {
           "id": "36C648C82A3A406B",
           "type": "item",
-          "item": "minecraft:cooked_beef",
-          "count": 4
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -1010,8 +1028,8 @@
         {
           "id": "679108AAE3B85924",
           "type": "item",
-          "item": "minecraft:cooked_beef",
-          "count": 4
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -1046,8 +1064,8 @@
         {
           "id": "568C194381322E0C",
           "type": "item",
-          "item": "minecraft:redstone",
-          "count": 8
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -1082,8 +1100,8 @@
         {
           "id": "12349E62016B88BD",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 16
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -1119,7 +1137,7 @@
           "id": "5E4801DC542025FF",
           "type": "item",
           "item": "minecraft:cooked_beef",
-          "count": 4
+          "count": 8
         }
       ]
     },
@@ -1154,8 +1172,8 @@
         {
           "id": "000827593E6C8541",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 16
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -1190,8 +1208,8 @@
         {
           "id": "2EF3016C6C520999",
           "type": "item",
-          "item": "minecraft:ender_pearl",
-          "count": 1
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -1226,7 +1244,7 @@
         {
           "id": "37D9D28D00A4F0AD",
           "type": "item",
-          "item": "minecraft:redstone",
+          "item": "minecraft:cooked_beef",
           "count": 8
         }
       ]
@@ -1262,8 +1280,8 @@
         {
           "id": "2F8E25EFF1C0B7D4",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 3
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ]
     },
@@ -1299,7 +1317,7 @@
           "id": "02FAAF9A4B3887DC",
           "type": "item",
           "item": "minecraft:cooked_beef",
-          "count": 4
+          "count": 8
         }
       ]
     },
@@ -1334,8 +1352,8 @@
         {
           "id": "59C042096DC001B3",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 3
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ]
     },
@@ -1370,8 +1388,8 @@
         {
           "id": "15F900F550714956",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 3
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -1406,8 +1424,8 @@
         {
           "id": "350B8A673D07821E",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 16
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ]
     },
@@ -1442,8 +1460,8 @@
         {
           "id": "370FA8B957C07BEA",
           "type": "item",
-          "item": "minecraft:redstone",
-          "count": 8
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -1478,8 +1496,8 @@
         {
           "id": "6EF311F007932354",
           "type": "item",
-          "item": "minecraft:redstone",
-          "count": 8
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -1514,8 +1532,8 @@
         {
           "id": "0FEBCD9B98398183",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 3
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -1550,8 +1568,8 @@
         {
           "id": "7A9EF16A99CF85E4",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 16
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -1586,8 +1604,8 @@
         {
           "id": "6D5A8CBD48162B5E",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 16
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -1622,8 +1640,8 @@
         {
           "id": "27563BF01C83B21F",
           "type": "item",
-          "item": "minecraft:ender_pearl",
-          "count": 1
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -1658,8 +1676,8 @@
         {
           "id": "65730D2BEFABA7E6",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 3
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ]
     },
@@ -1694,8 +1712,8 @@
         {
           "id": "070C566E3A7E1DA3",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 16
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -1730,8 +1748,8 @@
         {
           "id": "3B719D37149207EE",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -1766,8 +1784,8 @@
         {
           "id": "11789576063C731C",
           "type": "item",
-          "item": "minecraft:ender_pearl",
-          "count": 1
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -1802,7 +1820,7 @@
         {
           "id": "31903D36733C6F2B",
           "type": "item",
-          "item": "minecraft:redstone",
+          "item": "minecraft:cooked_beef",
           "count": 8
         }
       ]
@@ -1838,8 +1856,8 @@
         {
           "id": "38219F94E7210030",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -1872,8 +1890,8 @@
         {
           "id": "005BBC3AAE65FA80",
           "type": "item",
-          "item": "minecraft:cooked_beef",
-          "count": 4
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -1908,8 +1926,8 @@
         {
           "id": "33B9EF4AAA629A29",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ]
     },
@@ -1944,8 +1962,8 @@
         {
           "id": "7EDD8EDE1C55F3CC",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ]
     },
@@ -1980,8 +1998,8 @@
         {
           "id": "12A3A5B6CB2349B3",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -2016,7 +2034,7 @@
         {
           "id": "43AD829BAF13E69C",
           "type": "item",
-          "item": "minecraft:redstone",
+          "item": "minecraft:cooked_beef",
           "count": 8
         }
       ]
@@ -2053,7 +2071,7 @@
           "id": "5347C87A9398488D",
           "type": "item",
           "item": "minecraft:torch",
-          "count": 16
+          "count": 24
         }
       ]
     },
@@ -2088,8 +2106,8 @@
         {
           "id": "779EDE4AAAD200EE",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 16
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ]
     },
@@ -2124,8 +2142,14 @@
         {
           "id": "4EEF90F6CA3A7779",
           "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "171467ED4FA4D9B1",
+          "type": "item",
           "item": "minecraft:diamond",
-          "count": 2
+          "count": 4
         }
       ]
     },
@@ -2160,8 +2184,8 @@
         {
           "id": "74DC62FA0E2701AF",
           "type": "item",
-          "item": "minecraft:ender_pearl",
-          "count": 1
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -2196,8 +2220,8 @@
         {
           "id": "727B9912CF157F0A",
           "type": "item",
-          "item": "minecraft:ender_pearl",
-          "count": 1
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -2251,8 +2275,8 @@
         {
           "id": "327DD13A0A5CFD69",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     }

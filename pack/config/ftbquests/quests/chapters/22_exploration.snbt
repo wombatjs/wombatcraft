@@ -31,6 +31,12 @@
           "id": "0FB4F9D3AE2373B5",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "26BF8D492364A682",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -61,6 +67,12 @@
           "id": "04C8DE95FDEC1F9E",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "6BF16DADDCB4EFEB",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -91,6 +103,12 @@
           "id": "09802445EB590EDC",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "1348959C8F7F7531",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ],
       "size": 0.94
@@ -145,6 +163,12 @@
           "id": "0193D3BD9437D640",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "47007F7E7CBB2CE7",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -177,6 +201,12 @@
           "id": "04CE67D28F3DC4A6",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "49300F4E708C1C30",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -209,6 +239,12 @@
           "id": "0894163762B66575",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "564E603E18959060",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -261,6 +297,12 @@
           "id": "0D1FF6369B44269D",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "12AAD0DCF84EB5D7",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ],
       "size": 0.94
@@ -291,6 +333,12 @@
           "id": "0D62F4C8D759FB88",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "7F135E40DCEC8EFF",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -321,6 +369,12 @@
           "id": "0ED9E8E78E811ACB",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "33DDCF9BDC228684",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -373,6 +427,12 @@
           "id": "0D7FD23BEE84FAAB",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "6CA560F47D8CC3B3",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -403,6 +463,12 @@
           "id": "0A8B1232D18B4A5C",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "476D7B6C183D97E0",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -433,6 +499,12 @@
           "id": "03425DCA3BD6B736",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "330517AD3DB558BF",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -485,6 +557,12 @@
           "id": "09F91F1A8D01C969",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "673402E8F79807E1",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -515,6 +593,12 @@
           "id": "0D33FC3F78F454C3",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "18C1A8B5621EC8CA",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -545,6 +629,12 @@
           "id": "0CD5EA5AA7526880",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "1C47AC5658304D0C",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -644,6 +734,12 @@
           "id": "06F20517E7C58FEE",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "333A6F230B0EBF07",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -676,6 +772,12 @@
           "id": "00734F77899E0B53",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "1C6B57C7A26E4824",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -708,6 +810,12 @@
           "id": "077E4B14997954DF",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "2F36B950D6CD0C24",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -760,6 +868,12 @@
           "id": "0AFB6BF28542A0F8",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "5895F01AB052FE0A",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -790,6 +904,12 @@
           "id": "0EAE1DE12EB37EF5",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "6D119646838A20DC",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -820,6 +940,12 @@
           "id": "0763AB348862CBF7",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "6B49ACBD71F60F71",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -872,6 +998,12 @@
           "id": "09DD16DED8B31FA8",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "557F94672A445A36",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ],
       "size": 0.94
@@ -926,6 +1058,12 @@
           "id": "0F390A4582FD23FC",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "7F046A0AD761DBAA",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -958,6 +1096,12 @@
           "id": "08C3F745BE7E3084",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "64BFB96517034161",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -1057,6 +1201,12 @@
           "id": "0E24B39D9F40A1C5",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "687120B8F5A2249E",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -1089,6 +1239,12 @@
           "id": "0FC56AA2A3EAA6D1",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "51D0F17015E742E4",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -1121,6 +1277,12 @@
           "id": "06035E57B9BAB90D",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "2C384F803C8FACE1",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ],
       "size": 0.94
@@ -1218,6 +1380,12 @@
           "id": "0007CB7C74817B0B",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "29D21B6806DE4570",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -1248,6 +1416,12 @@
           "id": "0D14D42AD8EE5F10",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "6246F252E15C0E78",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -1278,6 +1452,12 @@
           "id": "04C047F3CE81D0CF",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "1C47B902EA6178BC",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -1330,6 +1510,12 @@
           "id": "097142FC881DCEF8",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "77316F8078C1C22C",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -1360,6 +1546,12 @@
           "id": "00A09C3C9DBB129E",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "5DD794788FFEF2DF",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -1390,6 +1582,12 @@
           "id": "04C2C0907C82E735",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "56B5529727E8D2F3",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -1444,6 +1642,12 @@
           "id": "05A269C6330C71EB",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "0F2290E743151EA1",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -1476,6 +1680,12 @@
           "id": "0D68B573BFE4F3AA",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "4D2C970CE8BBD6C8",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -1508,6 +1718,12 @@
           "id": "09CF32AA29E367A0",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "3EE85E9167516BC5",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ],
       "size": 0.94
@@ -1560,6 +1776,12 @@
           "id": "0D0C399C6FEDF601",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "6462EDAFCC39C94A",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -1590,6 +1812,12 @@
           "id": "0A4D3E3FFDDFB4FA",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "1B5B95565B93C2D9",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -1620,6 +1848,12 @@
           "id": "0B517701889BAD83",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "6698EFAAD671E0AE",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -1674,6 +1908,12 @@
           "id": "07365C98E26637EA",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "1091C8BB6B520DD9",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -1706,6 +1946,12 @@
           "id": "01D832134980F7D8",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "3A825DF5E8C3BF1B",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -1738,6 +1984,12 @@
           "id": "02BD246CB161FE74",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "4DBB122DCF38F76E",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -1790,6 +2042,12 @@
           "id": "05894F0FC953783F",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "524AAD1C767B0A53",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -1820,6 +2078,12 @@
           "id": "019F018AE07950CF",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "37E0418B1A458E0B",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -1850,6 +2114,12 @@
           "id": "0187EBD007748C3E",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "2EB8FDB46D1E0899",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -1902,6 +2172,12 @@
           "id": "0ECEDAAF317B607A",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "17B71608ACEE6ACB",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -1932,6 +2208,12 @@
           "id": "0FB49C686E1032C3",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "0615CA80BA6F5A85",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -1962,6 +2244,12 @@
           "id": "0AE40E6B5F2C9D2B",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "173798A81E30E87A",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -2014,6 +2302,12 @@
           "id": "009B59FE0F901275",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "2AB942719111C6F1",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -2044,6 +2338,12 @@
           "id": "06E31CE400C5783B",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "01A4D2FE215A5BAD",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -2074,6 +2374,12 @@
           "id": "0736A50470756BFB",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "7C7F893557B6A660",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -2126,6 +2432,12 @@
           "id": "05806D723D22DEA5",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "0E8DF9B9B2CC3D73",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -2156,6 +2468,12 @@
           "id": "07DA60BD8B391C6D",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "5D6553C232E67120",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -2186,6 +2504,12 @@
           "id": "0A7A6F11A1C2AE7F",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "64D93F85DCB963A3",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -2238,6 +2562,12 @@
           "id": "013907D2132D6DCF",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "2C5E193F461EE64F",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -2268,6 +2598,12 @@
           "id": "01F3E50FD304DDCF",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "48C598F9F5B3F3CA",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -2298,6 +2634,12 @@
           "id": "0BC7ABA6B663B687",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "42CC15A875DC46A6",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -2350,6 +2692,12 @@
           "id": "0AF9257B620ED745",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "077274044357D756",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ],
       "size": 0.94
@@ -2402,6 +2750,12 @@
           "id": "0A195E2DF3571FD4",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "0F22391A7B3B22BB",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ],
       "size": 0.94
@@ -2432,6 +2786,12 @@
           "id": "091934B376CCCDD6",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "3360DA10C4EC9EFC",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -2462,6 +2822,12 @@
           "id": "04911A2F6A636A20",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "690E46326D00DC13",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -2559,6 +2925,12 @@
           "id": "0D3ACBE390F7F9F5",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "6ECDA022D7482AAC",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ],
       "size": 0.94
@@ -2611,6 +2983,12 @@
           "id": "0B97193A2C9687FC",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "4C62885FED0B3A63",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ],
       "size": 0.94
@@ -2641,6 +3019,12 @@
           "id": "0910398AC3147A83",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "7A6A50ACB9A7E564",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -2671,6 +3055,12 @@
           "id": "0215DFC6FD4B3F06",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "2901B377433179F1",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -2723,6 +3113,12 @@
           "id": "0E3652C60401E5D2",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "2A4796492059658F",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ],
       "size": 0.94
@@ -2775,6 +3171,12 @@
           "id": "0E605097DE451F17",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "7944B218F04E973B",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ],
       "size": 0.94
@@ -2827,6 +3229,12 @@
           "id": "026044AFAE57ADB2",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "13482F292F94FD2D",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -2857,6 +3265,12 @@
           "id": "07F2E620471BECE6",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "2449F0114D547ECA",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 0.94

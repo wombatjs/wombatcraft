@@ -34,6 +34,12 @@
           "id": "0E759012CC0B8CA1",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "5D7067D78FC1BB67",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -66,6 +72,12 @@
           "id": "0E44F5EE453337A3",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "6654BF8B95DB78A3",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ]
     },
@@ -119,6 +131,12 @@
           "id": "0FCF129EC51F18DF",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "255466128B5E3B98",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -172,6 +190,12 @@
           "id": "06C37ABFF940755F",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "271A907D5983BAC8",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -225,6 +249,12 @@
           "id": "00ECD2FD412F5E60",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "6CAC7FE0B0EC55BF",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -257,6 +287,12 @@
           "id": "0E2AF9F48F90C4CA",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "51F67CA3DC8FFACA",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -289,6 +325,12 @@
           "id": "05B76F81532B3941",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "67D94303CF0A4D51",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ]
     },
@@ -321,6 +363,12 @@
           "id": "0D7E0BD31910E0AF",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "145771F7C2B5392F",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ]
     },

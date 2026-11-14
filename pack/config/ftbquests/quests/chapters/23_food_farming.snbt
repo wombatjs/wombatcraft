@@ -33,6 +33,12 @@
           "id": "0BEC5E080FA830DA",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "0F480CD3BED37056",
+          "type": "item",
+          "item": "minecraft:honey_bottle",
+          "count": 4
         }
       ],
       "size": 0.94
@@ -65,6 +71,12 @@
           "id": "04405BB5B32F89AE",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "4DF3375BBAD0078A",
+          "type": "item",
+          "item": "minecraft:honey_bottle",
+          "count": 4
         }
       ],
       "size": 0.94
@@ -97,6 +109,12 @@
           "id": "08A26394B1E3AE17",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "48CC79686D7AB2EA",
+          "type": "item",
+          "item": "minecraft:honey_bottle",
+          "count": 4
         }
       ],
       "size": 0.94
@@ -151,6 +169,12 @@
           "id": "0D5C0D9C1274872D",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "4344479CCE7B658C",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 2
         }
       ],
       "size": 0.94
@@ -183,6 +207,12 @@
           "id": "07EDB331C75A4F50",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "3D37F72A3B20153D",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -215,6 +245,12 @@
           "id": "0F5F05E0A9FD7F31",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "0477C4615E6EE159",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 16
         }
       ],
       "size": 0.94
@@ -314,6 +350,12 @@
           "id": "0EBEF6852DD9A83F",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "59A8A4E6B0473A60",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 2
         }
       ],
       "size": 0.94
@@ -346,6 +388,12 @@
           "id": "0689EB377E727D77",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "7894EEC2BE632B21",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 2
         }
       ],
       "size": 0.94
@@ -400,6 +448,12 @@
           "id": "08EE1FF1805A74E0",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "585E38CA47687817",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 2
         }
       ],
       "size": 0.94
@@ -432,6 +486,12 @@
           "id": "005C10C78AE4A64A",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "3CF6DFAFF48BD5E7",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -464,6 +524,12 @@
           "id": "0CFBB2E956711991",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "0C4D9D82FFE5431D",
+          "type": "item",
+          "item": "minecraft:honey_bottle",
+          "count": 4
         }
       ],
       "size": 0.94
@@ -518,6 +584,12 @@
           "id": "0523AB285A33C1DD",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "72C5ED20D6A7772F",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 16
         }
       ],
       "size": 0.94
@@ -550,6 +622,12 @@
           "id": "0CCC17B7418C9BD4",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "4F45790FC3308802",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -582,6 +660,12 @@
           "id": "0BCE41F87462D51A",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "5B9CA7BB6B547A0A",
+          "type": "item",
+          "item": "minecraft:honey_bottle",
+          "count": 4
         }
       ],
       "size": 0.94
@@ -636,6 +720,12 @@
           "id": "0B85922E38BFA017",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "5823FE8DA256C218",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 16
         }
       ],
       "size": 0.94
@@ -690,6 +780,12 @@
           "id": "0730A179514D3F5E",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "6060689DED761B13",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 2
         }
       ],
       "size": 0.94
@@ -744,6 +840,12 @@
           "id": "07E4C7EADDB300DD",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "484B58A7B3426595",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 2
         }
       ],
       "size": 0.94
@@ -776,6 +878,12 @@
           "id": "0E032834AB57B30F",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "725ECD33B56F9811",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 16
         }
       ],
       "size": 0.94
@@ -808,6 +916,12 @@
           "id": "07CC6E4B5D8A65CC",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "7438A69EF25930C6",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -862,6 +976,12 @@
           "id": "09BCFCFE089B9C7C",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "405A101EFD6972CA",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -894,6 +1014,12 @@
           "id": "0B5A50BF6C50F411",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "3A09EC806A8B74C6",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 16
         }
       ],
       "size": 0.94
@@ -926,6 +1052,12 @@
           "id": "0324CB26467AF64E",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "45C5D05263BEDCE0",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -980,6 +1112,12 @@
           "id": "0ED9E4BF5119902F",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "0FCE9FB3247E87F3",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -1012,6 +1150,12 @@
           "id": "07AB20313E5CD8BB",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "3934E352249235D0",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -1044,6 +1188,12 @@
           "id": "04B546828975245B",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "4BBF1FB7EBB3D161",
+          "type": "item",
+          "item": "minecraft:honey_bottle",
+          "count": 4
         }
       ],
       "size": 0.94
@@ -1098,6 +1248,12 @@
           "id": "0C3327055DE0D653",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "26C87D6A8362CB5D",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 16
         }
       ],
       "size": 0.94
@@ -1130,6 +1286,12 @@
           "id": "03F75189687F6804",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "5FD85A749E6A0C67",
+          "type": "item",
+          "item": "minecraft:honey_bottle",
+          "count": 4
         }
       ],
       "size": 0.94
@@ -1162,6 +1324,12 @@
           "id": "0859298178A22B3D",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "79861F92C2483D4A",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 2
         }
       ],
       "size": 0.94
@@ -1216,6 +1384,12 @@
           "id": "0A48D20ECD20BC5E",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "5877A8B4B06C1C6A",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 2
         }
       ],
       "size": 0.94
@@ -1248,6 +1422,12 @@
           "id": "0F96284D587B7A94",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "5BA33CF66071CB63",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 16
         }
       ],
       "size": 0.94
@@ -1280,6 +1460,12 @@
           "id": "09ADDDCC5D692E90",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "5AEF22D05538260B",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 2
         }
       ],
       "size": 0.94
@@ -1334,6 +1520,12 @@
           "id": "0621519E7A26A9CB",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "6EB228442ADC9699",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 16
         }
       ],
       "size": 0.94
@@ -1366,6 +1558,12 @@
           "id": "0A97311975D8329D",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "1BE754A1AB247BD7",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 2
         }
       ],
       "size": 0.94
@@ -1398,6 +1596,12 @@
           "id": "036CA24D7CA9EEF4",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "44C0235CD358A098",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 2
         }
       ],
       "size": 0.94
@@ -1452,6 +1656,12 @@
           "id": "052CFFB3111E5232",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "378BB8C618230DE5",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 2
         }
       ],
       "size": 0.94
@@ -1484,6 +1694,12 @@
           "id": "0A30237A4FC1AC27",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "721DEA92DA8D397F",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -1516,6 +1732,12 @@
           "id": "04BBEC308496AC38",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "17F9C0711046C4F2",
+          "type": "item",
+          "item": "minecraft:honey_bottle",
+          "count": 4
         }
       ],
       "size": 0.94
@@ -1570,6 +1792,12 @@
           "id": "03659A2F2CF8F11D",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "551DA69BF47EDB40",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -1602,6 +1830,12 @@
           "id": "08FD11CB761AE64E",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "1B236EEA86053F30",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 2
         }
       ],
       "size": 0.94
@@ -1634,6 +1868,12 @@
           "id": "014834E46AA1B8B4",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "338B6E92EB294A35",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -1688,6 +1928,12 @@
           "id": "04E9870E7661D70B",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "54063E83D2B6E21F",
+          "type": "item",
+          "item": "minecraft:honey_bottle",
+          "count": 4
         }
       ],
       "size": 0.94
@@ -1720,6 +1966,12 @@
           "id": "02EF1D43660C7CE8",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "0CA1A715749ACBE6",
+          "type": "item",
+          "item": "minecraft:honey_bottle",
+          "count": 4
         }
       ],
       "size": 0.94
@@ -1752,6 +2004,12 @@
           "id": "08F226287A632932",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "5AFF414345ABD7FB",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 8
         }
       ],
       "size": 0.94

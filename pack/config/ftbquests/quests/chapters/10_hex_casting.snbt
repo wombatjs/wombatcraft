@@ -33,6 +33,12 @@
           "id": "092C117ECB79737E",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "07EDE9B69EEF8929",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
         }
       ]
     },
@@ -64,6 +70,12 @@
           "id": "02CEA8977F409421",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "092A882BBE9B55CA",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
         }
       ]
     },
@@ -95,6 +107,12 @@
           "id": "0907ACB9CA2E485F",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "4CA23659BC8D22F2",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 6
         }
       ]
     },
@@ -126,6 +144,12 @@
           "id": "0BF9DE236DA2F641",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "025B8A09B1A7F477",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 2
         }
       ]
     },
@@ -157,6 +181,12 @@
           "id": "0381032531A736E6",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "63B5C49CC7A2FF3B",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 6
         }
       ]
     },
@@ -188,6 +218,12 @@
           "id": "0F2FF213741954E9",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "505F380E1E0B7FD4",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 6
         }
       ]
     },
@@ -219,6 +255,12 @@
           "id": "0BCCDC63BD7AE760",
           "type": "xp",
           "xp": 25
+        },
+        {
+          "id": "1D69AACB9C0DE979",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 2
         }
       ]
     },
@@ -250,6 +292,12 @@
           "id": "0361D83A26D909DE",
           "type": "xp",
           "xp": 25
+        },
+        {
+          "id": "0692C59EE510F58F",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
         }
       ]
     },

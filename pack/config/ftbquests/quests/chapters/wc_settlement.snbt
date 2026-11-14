@@ -31,6 +31,12 @@
           "id": "0C0298F46D5CB53D",
           "type": "xp",
           "xp": 10
+        },
+        {
+          "id": "435DF08D59EC1122",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 6
         }
       ],
       "size": 1.5
@@ -109,6 +115,12 @@
           "id": "2BDF21B9B0B714D7",
           "type": "xp",
           "xp": 10
+        },
+        {
+          "id": "7B5DC378BE491D2F",
+          "type": "item",
+          "item": "minecraft:lantern",
+          "count": 8
         }
       ],
       "size": 1.05
@@ -191,8 +203,8 @@
         {
           "id": "49F8776D900A3998",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 12
+          "item": "minecraft:emerald",
+          "count": 4
         }
       ],
       "size": 1.05
@@ -225,6 +237,12 @@
           "id": "32E52381B57DF9C9",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "4DA3666108394995",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 16
         }
       ],
       "size": 1.22
@@ -274,7 +292,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "47F15E9A97A03C6C",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 6
+        }
+      ],
       "size": 0.9
     },
     {
@@ -303,6 +328,12 @@
           "id": "4C77B366B2338F0D",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "35D8AAE7468833FF",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 16
         }
       ],
       "size": 0.9
@@ -361,8 +392,8 @@
         {
           "id": "112CE0B94F60FF63",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 4
+          "item": "minecraft:emerald",
+          "count": 8
         }
       ],
       "size": 1.24
@@ -395,6 +426,12 @@
           "id": "67B811911318D32F",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "6064D6FEEEA80F79",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 16
         }
       ],
       "size": 1.22
@@ -444,7 +481,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "4E75C6000DCF52AA",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4
+        }
+      ],
       "size": 0.9
     },
     {
@@ -473,6 +517,12 @@
           "id": "5998180D31D1A51B",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "6664BA5E947CE3BB",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4
         }
       ],
       "size": 0.9
@@ -507,8 +557,8 @@
         {
           "id": "1E91E777C6F1BF9B",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
-          "count": 8
+          "item": "minecraft:lantern",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -541,6 +591,12 @@
           "id": "478B4984BA6258D8",
           "type": "xp",
           "xp": 25
+        },
+        {
+          "id": "56DCAC7785F548C8",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4
         }
       ],
       "size": 1.22
@@ -619,6 +675,12 @@
           "id": "011D4C2FEE2F4B90",
           "type": "xp",
           "xp": 25
+        },
+        {
+          "id": "42006BA3B7EF12C7",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4
         }
       ],
       "size": 0.9
@@ -677,8 +739,8 @@
         {
           "id": "1470493F36016963",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:paper",
+          "count": 32
         }
       ],
       "size": 1.24
@@ -711,6 +773,12 @@
           "id": "5E90D464AAAF9814",
           "type": "xp",
           "xp": 30
+        },
+        {
+          "id": "13EA8983BFC6B0C4",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4
         }
       ],
       "size": 1.22
@@ -789,6 +857,12 @@
           "id": "372E746CCEC09AA9",
           "type": "xp",
           "xp": 30
+        },
+        {
+          "id": "1EAE66A50B73ABD5",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4
         }
       ],
       "size": 0.9
@@ -823,8 +897,8 @@
         {
           "id": "1BF630BF213C1CA6",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 12
+          "item": "minecraft:lantern",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -857,6 +931,12 @@
           "id": "4E90EC3A7BBBB851",
           "type": "xp",
           "xp": 35
+        },
+        {
+          "id": "7C7C83EB1EA6C8AC",
+          "type": "item",
+          "item": "minecraft:lantern",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -882,7 +962,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "586B4928E135C3F1",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 16
+        }
+      ],
       "size": 0.9
     },
     {
@@ -935,6 +1022,12 @@
           "id": "590126EF92C08435",
           "type": "xp",
           "xp": 35
+        },
+        {
+          "id": "0B04D0BA2830B1D6",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 16
         }
       ],
       "size": 0.9
@@ -960,7 +1053,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "2911C2E8C4B17CD6",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 6
+        }
+      ],
       "size": 0.9
     },
     {
@@ -993,8 +1093,8 @@
         {
           "id": "562A5F943C00BFDE",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 4
+          "item": "minecraft:emerald",
+          "count": 8
         }
       ],
       "size": 1.24
@@ -1027,6 +1127,12 @@
           "id": "0BBEFA20CB509D05",
           "type": "xp",
           "xp": 40
+        },
+        {
+          "id": "7671D202FA2E728E",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 16
         }
       ],
       "size": 1.22
@@ -1052,7 +1158,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "4EA7401F1B891758",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1105,6 +1218,12 @@
           "id": "6221DB320B39C3A8",
           "type": "xp",
           "xp": 40
+        },
+        {
+          "id": "64F104A475F0B542",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 16
         }
       ],
       "size": 0.9
@@ -1130,7 +1249,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "51D62FE09619E775",
+          "type": "item",
+          "item": "minecraft:lantern",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1187,7 +1313,7 @@
         {
           "id": "0FDBB2BC39DCF938",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
+          "item": "minecraft:emerald",
           "count": 8
         }
       ],

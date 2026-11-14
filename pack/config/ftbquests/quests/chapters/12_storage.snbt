@@ -34,6 +34,12 @@
           "id": "07DB266F660EB322",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "6023387E7C51E32E",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 8
         }
       ]
     },
@@ -66,6 +72,12 @@
           "id": "0ABB9EEC15C48C9E",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "5EC6DE5974918609",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 6
         }
       ]
     },
@@ -98,6 +110,18 @@
           "id": "0B90B50AAB2D1A02",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "0B2FA46E64F05C86",
+          "type": "item",
+          "item": "minecraft:ender_chest",
+          "count": 1
+        },
+        {
+          "id": "338EAE75A6FFEB08",
+          "type": "item",
+          "item": "minecraft:chest",
+          "count": 8
         }
       ]
     },
@@ -130,6 +154,12 @@
           "id": "0F33E5B84A6B7EF9",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "02CA5F37C36E041C",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 6
         }
       ]
     },
@@ -182,6 +212,18 @@
           "id": "0FDA10195CCA40F1",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "5D8F58849965698B",
+          "type": "item",
+          "item": "comforts:sleeping_bag_blue",
+          "count": 1
+        },
+        {
+          "id": "436525ADEEF42C2C",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 16
         }
       ]
     },
@@ -213,6 +255,12 @@
           "id": "05EA2E4EC2C9F11A",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "53827EB40016F7B9",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
         }
       ]
     },

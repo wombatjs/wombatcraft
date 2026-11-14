@@ -31,6 +31,12 @@
           "id": "38FC83BD747672F4",
           "type": "xp",
           "xp": 10
+        },
+        {
+          "id": "0B96A645493CA363",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 8
         }
       ],
       "size": 1.5
@@ -109,6 +115,12 @@
           "id": "4BBCA7AE06065C67",
           "type": "xp",
           "xp": 10
+        },
+        {
+          "id": "62C8251F7E9E09A3",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 16
         }
       ],
       "size": 1.05
@@ -167,8 +179,8 @@
         {
           "id": "1DCFF597006A7E79",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 12
+          "item": "minecraft:glass_bottle",
+          "count": 8
         }
       ],
       "size": 1.05
@@ -201,6 +213,12 @@
           "id": "71A99F6E5250BBF4",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "371C03B71CF03A14",
+          "type": "item",
+          "item": "minecraft:glass",
+          "count": 16
         }
       ],
       "size": 1.22
@@ -279,6 +297,12 @@
           "id": "62803C04A572DC28",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "7450BE81266DD7F6",
+          "type": "item",
+          "item": "minecraft:glass",
+          "count": 16
         }
       ],
       "size": 0.9
@@ -313,8 +337,8 @@
         {
           "id": "562463E39548C101",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 4
+          "item": "minecraft:honeycomb",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -347,6 +371,12 @@
           "id": "593A8F65E3B41D31",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "060242EFD9DF4159",
+          "type": "item",
+          "item": "minecraft:glass",
+          "count": 16
         }
       ],
       "size": 1.22
@@ -372,7 +402,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "02927EB3FFE5369A",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 16
+        }
+      ],
       "size": 0.9
     },
     {
@@ -425,6 +462,12 @@
           "id": "20E93F92AA8D5116",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "0FCD99EA4F423482",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 16
         }
       ],
       "size": 0.9
@@ -450,7 +493,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "672588671C135C13",
+          "type": "item",
+          "item": "minecraft:glass",
+          "count": 16
+        }
+      ],
       "size": 0.9
     },
     {
@@ -483,8 +533,8 @@
         {
           "id": "53046C7789311A0A",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
-          "count": 8
+          "item": "minecraft:glass",
+          "count": 32
         }
       ],
       "size": 1.24
@@ -517,6 +567,12 @@
           "id": "7415213FA3BC4AA4",
           "type": "xp",
           "xp": 25
+        },
+        {
+          "id": "79E4EE1DA7DE29BB",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -542,7 +598,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "1D72196865AB5E54",
+          "type": "item",
+          "item": "minecraft:honeycomb",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -595,6 +658,12 @@
           "id": "0747D865006A1BA3",
           "type": "xp",
           "xp": 25
+        },
+        {
+          "id": "5CDD0D5E8D6E7AE1",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -629,8 +698,8 @@
         {
           "id": "03F2193AD571F9F2",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:honeycomb",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -663,6 +732,12 @@
           "id": "1728CCCA0B8253A2",
           "type": "xp",
           "xp": 30
+        },
+        {
+          "id": "5C91209D734F2903",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -712,7 +787,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "4A3BE2CA1F62B06F",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 16
+        }
+      ],
       "size": 0.9
     },
     {
@@ -741,6 +823,12 @@
           "id": "293483FE368DD443",
           "type": "xp",
           "xp": 30
+        },
+        {
+          "id": "66D751F7ED4F4502",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 16
         }
       ],
       "size": 0.9
@@ -775,8 +863,8 @@
         {
           "id": "0BDE6D53194AB6AD",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 12
+          "item": "minecraft:glass",
+          "count": 32
         }
       ],
       "size": 1.24
@@ -809,6 +897,12 @@
           "id": "009EFA467B14A8BE",
           "type": "xp",
           "xp": 35
+        },
+        {
+          "id": "541BCD3C63BDD43F",
+          "type": "item",
+          "item": "minecraft:glass",
+          "count": 16
         }
       ],
       "size": 1.22
@@ -887,6 +981,12 @@
           "id": "7E42660E89200041",
           "type": "xp",
           "xp": 35
+        },
+        {
+          "id": "6D801A57681769B3",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -969,8 +1069,8 @@
         {
           "id": "227E28BB9AB119B6",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 4
+          "item": "minecraft:honeycomb",
+          "count": 16
         }
       ],
       "size": 1.24

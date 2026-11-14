@@ -33,6 +33,18 @@
           "id": "05A68F6B354746E7",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "02C9C00F4C78D9EC",
+          "type": "item",
+          "item": "cobblemon:poke_ball",
+          "count": 8
+        },
+        {
+          "id": "3EC88A1D8CC70F4C",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ]
     },
@@ -64,6 +76,18 @@
           "id": "09AB51AA53FAE7BC",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "4E591FCC2956F192",
+          "type": "item",
+          "item": "cobblemon:poke_ball",
+          "count": 16
+        },
+        {
+          "id": "6E8D4831A6FFD850",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
         }
       ]
     },
@@ -95,6 +119,12 @@
           "id": "04ADE0F4407D8A17",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "670A2E9812F46D9A",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ]
     },
@@ -126,6 +156,18 @@
           "id": "0864DC2258B14521",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "692F3A4FF9F7CE4F",
+          "type": "item",
+          "item": "cobblemon:great_ball",
+          "count": 8
+        },
+        {
+          "id": "3FC1307A71244CC1",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 2
         }
       ]
     },
@@ -157,6 +199,18 @@
           "id": "01C0A3FB01A55148",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "441975BDE3DDE084",
+          "type": "item",
+          "item": "cobblemon:ultra_ball",
+          "count": 12
+        },
+        {
+          "id": "11D6FF18510084EB",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
         }
       ]
     },

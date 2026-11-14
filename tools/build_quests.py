@@ -8,6 +8,7 @@ from pathlib import Path
 from quest_content import refine_chapters
 from dimension_quests import add_dimensions
 from quest_layout import chapter_key, lay_out_atlas, lay_out_lanes
+from quest_rewards import apply_rewards
 ROOT=Path(__file__).resolve().parents[1]
 def uid(s):return f"{int(hashlib.sha256(('wombatcraft/'+s).encode()).hexdigest()[:16],16) & 0x7FFFFFFFFFFFFFFF:016X}"
 def save(p,d):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(d,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
@@ -129,6 +130,7 @@ def build(registry,names):
   book[p.stem]=d
  refine_chapters(book,uid)
  destinations=add_dimensions(book,uid)
+ apply_rewards(book,uid,registry)
  save(ROOT/'docs/dimension-atlas.json',destinations)
  for filename,d in book.items():save(chapters/(filename+'.snbt'),d)
  for entry in reports:entry['quests']=len(book[chapter_key(entry['chapter'])]['quests'])

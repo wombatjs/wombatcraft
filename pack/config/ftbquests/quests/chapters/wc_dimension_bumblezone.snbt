@@ -37,7 +37,7 @@
           "id": "03ACB4E4ADD1EBB0",
           "type": "item",
           "item": "minecraft:golden_carrot",
-          "count": 4
+          "count": 6
         }
       ]
     },
@@ -72,7 +72,13 @@
         {
           "id": "3444716286F8A064",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "5D2C022BA7CB6691",
+          "type": "item",
+          "item": "minecraft:diamond",
           "count": 4
         }
       ]
@@ -108,7 +114,13 @@
         {
           "id": "2CA3B5BE0A184E1F",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "56ADC090149C02CA",
+          "type": "item",
+          "item": "minecraft:diamond",
           "count": 4
         }
       ]
@@ -144,7 +156,13 @@
         {
           "id": "799C6C893AF247C8",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "7256AEC9DE31BE1B",
+          "type": "item",
+          "item": "minecraft:diamond",
           "count": 4
         }
       ]
@@ -180,7 +198,13 @@
         {
           "id": "3F6B12523DFEE787",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "1B8543FA490BC5F6",
+          "type": "item",
+          "item": "minecraft:diamond",
           "count": 4
         }
       ]
@@ -216,7 +240,13 @@
         {
           "id": "6C3ECD6BBE3A12D1",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "47D5BF429489EA7F",
+          "type": "item",
+          "item": "minecraft:diamond",
           "count": 4
         }
       ]
@@ -252,7 +282,13 @@
         {
           "id": "1C6FB6759DB69121",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "7AA6A8B00DF83C50",
+          "type": "item",
+          "item": "minecraft:diamond",
           "count": 4
         }
       ]
@@ -288,7 +324,13 @@
         {
           "id": "7D6346C7A5212415",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "2825B56F215D257E",
+          "type": "item",
+          "item": "minecraft:diamond",
           "count": 4
         }
       ]
@@ -324,7 +366,13 @@
         {
           "id": "56D44F92D58C5008",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "18B9EDBC2456B4D0",
+          "type": "item",
+          "item": "minecraft:diamond",
           "count": 4
         }
       ]
@@ -360,7 +408,13 @@
         {
           "id": "72454405068E01EC",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "02740C935BB4A5FE",
+          "type": "item",
+          "item": "minecraft:diamond",
           "count": 4
         }
       ]
@@ -396,7 +450,13 @@
         {
           "id": "3040BE39DCA28BE8",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "157EBC02A4CC7D91",
+          "type": "item",
+          "item": "minecraft:diamond",
           "count": 4
         }
       ]
@@ -449,6 +509,12 @@
           "id": "0AEFD8180A5EA8AD",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "53BC59DD9EA28BC4",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 1,
@@ -480,6 +546,12 @@
           "id": "03BA2073BF236534",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "301C6B2F45006004",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ],
       "size": 1,
@@ -511,6 +583,12 @@
           "id": "0CDC90C23711A653",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "7F4993346F3E2671",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 1,

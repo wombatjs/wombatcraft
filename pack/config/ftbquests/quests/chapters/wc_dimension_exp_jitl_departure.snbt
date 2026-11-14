@@ -37,8 +37,8 @@
         {
           "id": "32A3A23004B3710E",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 16
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ]
     },
@@ -74,7 +74,7 @@
         {
           "id": "46C93829168A05BA",
           "type": "item",
-          "item": "minecraft:redstone",
+          "item": "minecraft:cooked_beef",
           "count": 8
         }
       ]
@@ -111,8 +111,8 @@
         {
           "id": "60131A0EF07FE9AA",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 16
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ]
     },
@@ -146,8 +146,8 @@
         {
           "id": "4008EA7A27DC8D24",
           "type": "item",
-          "item": "minecraft:redstone",
-          "count": 8
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -183,8 +183,8 @@
         {
           "id": "3ED795D820EDE3F5",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -221,7 +221,7 @@
           "id": "711D1053B2EEDF66",
           "type": "item",
           "item": "minecraft:torch",
-          "count": 16
+          "count": 24
         }
       ]
     },
@@ -280,8 +280,8 @@
         {
           "id": "61A71C589E996E17",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 3
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ]
     },
@@ -317,8 +317,14 @@
         {
           "id": "19BABF2F34325346",
           "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "6A16F90F42A6A7FC",
+          "type": "item",
           "item": "minecraft:diamond",
-          "count": 2
+          "count": 4
         }
       ]
     },
@@ -354,8 +360,8 @@
         {
           "id": "7E7AA81A872C4D72",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 3
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -391,8 +397,14 @@
         {
           "id": "5F04D21B624C7AC2",
           "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "7D5CA5109BACA942",
+          "type": "item",
           "item": "minecraft:diamond",
-          "count": 2
+          "count": 4
         }
       ]
     },
@@ -428,8 +440,8 @@
         {
           "id": "7CDD02B8108FFB8E",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -465,8 +477,14 @@
         {
           "id": "788C67929FAABA98",
           "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "772E4A0E863FD657",
+          "type": "item",
           "item": "minecraft:diamond",
-          "count": 2
+          "count": 4
         }
       ]
     },
@@ -502,8 +520,8 @@
         {
           "id": "3EEDEE939C73D081",
           "type": "item",
-          "item": "minecraft:ender_pearl",
-          "count": 1
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -539,8 +557,14 @@
         {
           "id": "07BA241E59DEF63B",
           "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "33E0EE2CCAD5D1B4",
+          "type": "item",
           "item": "minecraft:diamond",
-          "count": 2
+          "count": 4
         }
       ]
     },
@@ -573,8 +597,8 @@
         {
           "id": "6C7C565F2C80F70B",
           "type": "item",
-          "item": "minecraft:cooked_beef",
-          "count": 4
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ]
     },
@@ -610,8 +634,14 @@
         {
           "id": "17F97CDFB9C58323",
           "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "1667214D5E8C835F",
+          "type": "item",
           "item": "minecraft:diamond",
-          "count": 2
+          "count": 4
         }
       ]
     },

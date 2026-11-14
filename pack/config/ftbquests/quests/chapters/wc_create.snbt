@@ -31,6 +31,12 @@
           "id": "67B88442BCCBFB34",
           "type": "xp",
           "xp": 10
+        },
+        {
+          "id": "7AFD68A1B622C702",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
         }
       ],
       "size": 1.5
@@ -109,6 +115,12 @@
           "id": "0EA305BBD81F5A9D",
           "type": "xp",
           "xp": 10
+        },
+        {
+          "id": "2AD8EFDCA516D983",
+          "type": "item",
+          "item": "minecraft:dried_kelp",
+          "count": 16
         }
       ],
       "size": 1.05
@@ -158,7 +170,20 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "3FD90DEDF3B5DA55",
+          "type": "item",
+          "item": "create:wrench",
+          "count": 1
+        },
+        {
+          "id": "62AE945DBFE875D3",
+          "type": "item",
+          "item": "create:cogwheel",
+          "count": 8
+        }
+      ],
       "size": 1.05
     },
     {
@@ -187,6 +212,12 @@
           "id": "24C80C39055FFC4E",
           "type": "xp",
           "xp": 10
+        },
+        {
+          "id": "4D2471C3783F5874",
+          "type": "item",
+          "item": "minecraft:dried_kelp",
+          "count": 16
         }
       ],
       "size": 1.05
@@ -212,7 +243,20 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "021815DCE2714AF3",
+          "type": "item",
+          "item": "create:goggles",
+          "count": 1
+        },
+        {
+          "id": "0AD0CF4E8161B850",
+          "type": "item",
+          "item": "create:shaft",
+          "count": 16
+        }
+      ],
       "size": 1.05
     },
     {
@@ -279,6 +323,12 @@
           "id": "175EBA02007C0F7E",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "49892E35126FF54C",
+          "type": "item",
+          "item": "minecraft:andesite",
+          "count": 16
         }
       ],
       "size": 1.22
@@ -357,6 +407,12 @@
           "id": "59D0B611086A0DBE",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "08CB4E273B14303C",
+          "type": "item",
+          "item": "minecraft:dried_kelp",
+          "count": 16
         }
       ],
       "size": 0.9
@@ -415,7 +471,7 @@
         {
           "id": "7479A600A73285C0",
           "type": "item",
-          "item": "minecraft:redstone",
+          "item": "minecraft:copper_ingot",
           "count": 16
         }
       ],
@@ -449,6 +505,12 @@
           "id": "473001B3D79E3857",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "1A861AD338A8E071",
+          "type": "item",
+          "item": "minecraft:dried_kelp",
+          "count": 16
         }
       ],
       "size": 1.22
@@ -527,6 +589,12 @@
           "id": "7E468F8BF7443A75",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "4C0E0801120A2B14",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -609,8 +677,8 @@
         {
           "id": "7CECC1A683DCF096",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 4
+          "item": "minecraft:copper_ingot",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -643,6 +711,12 @@
           "id": "3BA7260B24BA3BCE",
           "type": "xp",
           "xp": 25
+        },
+        {
+          "id": "2083704DE473F2A1",
+          "type": "item",
+          "item": "minecraft:dried_kelp",
+          "count": 16
         }
       ],
       "size": 1.22
@@ -692,7 +766,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "1A66EED74465BFD1",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -725,8 +806,8 @@
         {
           "id": "24D8CA6CF23A84C8",
           "type": "item",
-          "item": "minecraft:quartz",
-          "count": 8
+          "item": "minecraft:iron_ingot",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -759,6 +840,12 @@
           "id": "5F44312AFC6ABD3A",
           "type": "xp",
           "xp": 30
+        },
+        {
+          "id": "2CE278D1B8DD83F1",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -784,7 +871,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "7B9D87808CE37B4C",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -837,6 +931,12 @@
           "id": "3D20352D0A1E4FA1",
           "type": "xp",
           "xp": 30
+        },
+        {
+          "id": "412D62A94E2D9683",
+          "type": "item",
+          "item": "minecraft:andesite",
+          "count": 16
         }
       ],
       "size": 0.9
@@ -862,7 +962,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "4899A8183F3AF3DE",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -915,6 +1022,12 @@
           "id": "241ADE75AA75C025",
           "type": "xp",
           "xp": 30
+        },
+        {
+          "id": "1189E7E257603931",
+          "type": "item",
+          "item": "minecraft:andesite",
+          "count": 16
         }
       ],
       "size": 0.9
@@ -949,8 +1062,8 @@
         {
           "id": "5F174BF6C19335B3",
           "type": "item",
-          "item": "minecraft:iron_ingot",
-          "count": 8
+          "item": "minecraft:dried_kelp",
+          "count": 32
         }
       ],
       "size": 1.24
@@ -983,6 +1096,12 @@
           "id": "4A47D4FF9DD7CAE6",
           "type": "xp",
           "xp": 35
+        },
+        {
+          "id": "77B77DDA4EB698B0",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -1008,7 +1127,20 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "3DF4EEE3C1B90AC0",
+          "type": "item",
+          "item": "create:blue_toolbox",
+          "count": 1
+        },
+        {
+          "id": "23039DF76479917D",
+          "type": "item",
+          "item": "create:andesite_alloy",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1032,7 +1164,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "6B1693A9B25AF406",
+          "type": "item",
+          "item": "minecraft:dried_kelp",
+          "count": 16
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1061,6 +1200,12 @@
           "id": "6A089C5F9E4126F4",
           "type": "xp",
           "xp": 35
+        },
+        {
+          "id": "491174013C198226",
+          "type": "item",
+          "item": "minecraft:andesite",
+          "count": 16
         }
       ],
       "size": 0.9
@@ -1110,7 +1255,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "6A41F9EB920826C5",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1139,6 +1291,12 @@
           "id": "513BB63957A99AFE",
           "type": "xp",
           "xp": 35
+        },
+        {
+          "id": "6F944BA81D4CB936",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -1173,7 +1331,7 @@
         {
           "id": "3892621B70C81081",
           "type": "item",
-          "item": "minecraft:redstone",
+          "item": "minecraft:copper_ingot",
           "count": 16
         }
       ],
@@ -1207,6 +1365,12 @@
           "id": "18977EA57AF6F595",
           "type": "xp",
           "xp": 40
+        },
+        {
+          "id": "28B4D1CD7F9325AF",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -1285,6 +1449,12 @@
           "id": "1279FD7A4E21F315",
           "type": "xp",
           "xp": 40
+        },
+        {
+          "id": "00CA997DA5B1F2A6",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -1334,7 +1504,20 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "26242FF64EAB6755",
+          "type": "item",
+          "item": "create:precision_mechanism",
+          "count": 2
+        },
+        {
+          "id": "2C8D6016FCCA10C9",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1363,6 +1546,12 @@
           "id": "42D7159D1C24E4CC",
           "type": "xp",
           "xp": 40
+        },
+        {
+          "id": "1F4726BE86859E2F",
+          "type": "item",
+          "item": "minecraft:andesite",
+          "count": 16
         }
       ],
       "size": 0.9
@@ -1397,8 +1586,8 @@
         {
           "id": "0580D1B42721B328",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 4
+          "item": "minecraft:iron_ingot",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -1431,6 +1620,12 @@
           "id": "07A3BC52BEFA4E8E",
           "type": "xp",
           "xp": 45
+        },
+        {
+          "id": "57C49E00C9E2EFAB",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -1456,7 +1651,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "0AC69990A82F5C05",
+          "type": "item",
+          "item": "minecraft:dried_kelp",
+          "count": 16
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1513,8 +1715,8 @@
         {
           "id": "1ED30B7183A106E0",
           "type": "item",
-          "item": "minecraft:quartz",
-          "count": 8
+          "item": "minecraft:dried_kelp",
+          "count": 32
         }
       ],
       "size": 1.24
@@ -1547,6 +1749,12 @@
           "id": "367B52418868AD52",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "4DD01E465D416952",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -1625,6 +1833,12 @@
           "id": "61DEBAAEC4B3A411",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "770F06E82D03C6C1",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -1703,6 +1917,12 @@
           "id": "4DB4C58E0CE2699D",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "1E6BE6C8B5286D89",
+          "type": "item",
+          "item": "minecraft:dried_kelp",
+          "count": 16
         }
       ],
       "size": 0.9
@@ -1781,6 +2001,12 @@
           "id": "0E711045C52FE983",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "18ADB5A552244D07",
+          "type": "item",
+          "item": "minecraft:dried_kelp",
+          "count": 16
         }
       ],
       "size": 0.9
@@ -1815,8 +2041,8 @@
         {
           "id": "3A7EB111A906AB86",
           "type": "item",
-          "item": "minecraft:iron_ingot",
-          "count": 8
+          "item": "minecraft:copper_ingot",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -1849,6 +2075,12 @@
           "id": "3471BAAE11CFE608",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "72A9B31D3D0232B0",
+          "type": "item",
+          "item": "minecraft:andesite",
+          "count": 16
         }
       ],
       "size": 1.22
@@ -1874,7 +2106,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "28C855A04CF5C0C3",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1927,6 +2166,18 @@
           "id": "14C97B3293182152",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "2B819F1531EBE24D",
+          "type": "item",
+          "item": "create:track",
+          "count": 32
+        },
+        {
+          "id": "1A0FCAEB02C0C754",
+          "type": "item",
+          "item": "minecraft:lantern",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -1952,7 +2203,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "4F082B164CBB1EFA",
+          "type": "item",
+          "item": "minecraft:dried_kelp",
+          "count": 16
+        }
+      ],
       "size": 0.9
     },
     {
@@ -2005,6 +2263,12 @@
           "id": "0C4586B901D2D916",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "79DBC9D89C093BD5",
+          "type": "item",
+          "item": "minecraft:dried_kelp",
+          "count": 16
         }
       ],
       "size": 0.9
@@ -2039,7 +2303,7 @@
         {
           "id": "1E65E4B3E0B93B7B",
           "type": "item",
-          "item": "minecraft:redstone",
+          "item": "minecraft:copper_ingot",
           "count": 16
         }
       ],
@@ -2073,6 +2337,12 @@
           "id": "331197F912805DFE",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "7707FC0BCB28C563",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -2122,7 +2392,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "6DADF60E1B43D187",
+          "type": "item",
+          "item": "minecraft:andesite",
+          "count": 16
+        }
+      ],
       "size": 0.9
     },
     {
@@ -2151,6 +2428,12 @@
           "id": "60AEBA1C7C0BE14D",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "3EE565107FED5A48",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -2200,7 +2483,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "0A121E83DE66FC3D",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -2229,6 +2519,12 @@
           "id": "17CDCC9BB7A2FC64",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "1C1CF2FBE715B044",
+          "type": "item",
+          "item": "minecraft:andesite",
+          "count": 16
         }
       ],
       "size": 0.9
@@ -2263,8 +2559,8 @@
         {
           "id": "5DBE49236A8549CD",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 4
+          "item": "minecraft:iron_ingot",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -2297,6 +2593,12 @@
           "id": "228819A0D13EECA3",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "026E6B2542E3D13B",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -2355,8 +2657,8 @@
         {
           "id": "1E1019D0054AA4C1",
           "type": "item",
-          "item": "minecraft:quartz",
-          "count": 8
+          "item": "minecraft:copper_ingot",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -2384,8 +2686,8 @@
         {
           "id": "75A78A00F0B92E81",
           "type": "item",
-          "item": "minecraft:gravel",
-          "count": 32
+          "item": "minecraft:copper_ingot",
+          "count": 8
         },
         {
           "id": "34A4517577CEF1D1",
@@ -2421,8 +2723,8 @@
         {
           "id": "0D211F762F2573DE",
           "type": "item",
-          "item": "minecraft:wheat_seeds",
-          "count": 24
+          "item": "minecraft:copper_ingot",
+          "count": 8
         },
         {
           "id": "5174868B35DF618D",
@@ -2458,8 +2760,8 @@
         {
           "id": "4CACC5AE5F77ADC0",
           "type": "item",
-          "item": "create:brass_ingot",
-          "count": 8
+          "item": "minecraft:dried_kelp",
+          "count": 16
         },
         {
           "id": "142B85D30F008E1F",
@@ -2496,8 +2798,8 @@
         {
           "id": "02D108D98C49DD0B",
           "type": "item",
-          "item": "create:track",
-          "count": 32
+          "item": "minecraft:iron_ingot",
+          "count": 8
         },
         {
           "id": "1B0F62D6C900E63D",

@@ -31,6 +31,12 @@
           "id": "754C86C47455E8E1",
           "type": "xp",
           "xp": 10
+        },
+        {
+          "id": "321974DC8483EB54",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 8
         }
       ],
       "size": 1.5
@@ -109,6 +115,12 @@
           "id": "5B5CB0F3059DBCE2",
           "type": "xp",
           "xp": 10
+        },
+        {
+          "id": "7260998C964EF1CF",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 6
         }
       ],
       "size": 1.05
@@ -191,7 +203,7 @@
         {
           "id": "3B382846926C1559",
           "type": "item",
-          "item": "minecraft:iron_ingot",
+          "item": "minecraft:copper_ingot",
           "count": 8
         }
       ],
@@ -225,6 +237,12 @@
           "id": "1055C120F45B4396",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "2B106AA498A6864D",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
         }
       ],
       "size": 1.22
@@ -274,7 +292,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "1B072A9909E7F279",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -303,6 +328,12 @@
           "id": "08BB5F1AD2D0F223",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "00FC38A86D49B3DF",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -362,7 +393,7 @@
           "id": "4086753D67463341",
           "type": "item",
           "item": "minecraft:redstone",
-          "count": 16
+          "count": 24
         }
       ],
       "size": 1.24
@@ -395,6 +426,12 @@
           "id": "447DC406089C1F3D",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "6C9FCC6277ACC668",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -444,7 +481,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "49B1152BF207FF88",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
+        }
+      ],
       "size": 0.9
     },
     {
@@ -473,6 +517,12 @@
           "id": "4036341864965882",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "2C87A4B81865F4ED",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
         }
       ],
       "size": 0.9
@@ -507,8 +557,8 @@
         {
           "id": "771FD17FA38E5CE6",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 4
+          "item": "minecraft:copper_ingot",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -541,6 +591,12 @@
           "id": "64D936864B44E630",
           "type": "xp",
           "xp": 25
+        },
+        {
+          "id": "259F174AD2034B24",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -619,6 +675,12 @@
           "id": "1D0E27186DF0D12D",
           "type": "xp",
           "xp": 25
+        },
+        {
+          "id": "4A29776E1A1EA416",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
         }
       ],
       "size": 0.9
@@ -697,6 +759,12 @@
           "id": "6F65C0E47911C5B2",
           "type": "xp",
           "xp": 25
+        },
+        {
+          "id": "226332D166F2BB25",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 6
         }
       ],
       "size": 0.9
@@ -731,8 +799,8 @@
         {
           "id": "2E41F8A2E2A00AAB",
           "type": "item",
-          "item": "minecraft:quartz",
-          "count": 8
+          "item": "minecraft:coal",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -765,6 +833,12 @@
           "id": "7BBD922D484E213A",
           "type": "xp",
           "xp": 30
+        },
+        {
+          "id": "1BBCD5571C1D5C94",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -790,7 +864,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "049AD2E56F62A8AD",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
+        }
+      ],
       "size": 0.9
     },
     {
@@ -843,6 +924,12 @@
           "id": "5C3D8043BA315D59",
           "type": "xp",
           "xp": 30
+        },
+        {
+          "id": "37DB8C2BC9A2A569",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -868,7 +955,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "2B05D18BA239B09B",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -901,8 +995,8 @@
         {
           "id": "1CCDD5E679BDF454",
           "type": "item",
-          "item": "minecraft:iron_ingot",
-          "count": 8
+          "item": "minecraft:copper_ingot",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -935,6 +1029,12 @@
           "id": "03F860EA6D687990",
           "type": "xp",
           "xp": 35
+        },
+        {
+          "id": "7E606166E20A5A99",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -960,7 +1060,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "5EDA8A3B9A793E43",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1017,7 +1124,7 @@
         {
           "id": "7354D332A9100D6A",
           "type": "item",
-          "item": "minecraft:redstone",
+          "item": "minecraft:coal",
           "count": 16
         }
       ],

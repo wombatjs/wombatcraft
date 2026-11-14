@@ -34,6 +34,12 @@
           "id": "021288B5D2AA3831",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "1F725698AD2A1A13",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
         }
       ]
     },
@@ -66,6 +72,12 @@
           "id": "07F99B3F77AD8898",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "18F290D4F16B973B",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
         }
       ]
     },
@@ -98,6 +110,12 @@
           "id": "0E3063468A1DB8C9",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "144B83971E72CAEF",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
         }
       ]
     },

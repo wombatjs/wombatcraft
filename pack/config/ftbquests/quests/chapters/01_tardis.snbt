@@ -56,6 +56,12 @@
           "id": "0910AFB98647CE8C",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "4B02CFD0B1A82CC2",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 1.15
@@ -88,6 +94,12 @@
           "id": "06508C9445BD0A8B",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "32B03BBBD9EC5732",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ],
       "size": 1.0
@@ -120,6 +132,12 @@
           "id": "05AB244CF665C91A",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "41CD5EE0E69A5339",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 1.08
@@ -152,6 +170,12 @@
           "id": "04F4338ED7AC6FE5",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "146D384B7550C80C",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ],
       "size": 1.13
@@ -184,6 +208,18 @@
           "id": "057ADED5336384A2",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "4FA3EFAAF684685D",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "4B427B5E8180F60E",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 4
         }
       ],
       "size": 1.2
@@ -216,6 +252,18 @@
           "id": "07A01C965453F0F7",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "24B74170A9FD3A17",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "69791845E7734CF4",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 4
         }
       ],
       "size": 1.2

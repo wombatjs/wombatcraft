@@ -31,6 +31,12 @@
           "id": "7F7397D3579BA12A",
           "type": "xp",
           "xp": 10
+        },
+        {
+          "id": "1193612D97FCEADE",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 6
         }
       ],
       "size": 1.5
@@ -109,6 +115,12 @@
           "id": "291FDAFC4645DF1F",
           "type": "xp",
           "xp": 10
+        },
+        {
+          "id": "7E3AA97172FD686C",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 12
         }
       ],
       "size": 1.05
@@ -167,7 +179,7 @@
         {
           "id": "2B847327F400022A",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
+          "item": "minecraft:paper",
           "count": 12
         }
       ],
@@ -201,6 +213,18 @@
           "id": "6FDEDEC837DE68B8",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "1F8ADC94AE4D594F",
+          "type": "item",
+          "item": "irons_spellbooks:common_ink",
+          "count": 4
+        },
+        {
+          "id": "2781BF6D954182E0",
+          "type": "item",
+          "item": "irons_spellbooks:arcane_essence",
+          "count": 24
         }
       ],
       "size": 1.22
@@ -250,7 +274,20 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "58247A51521A3DC0",
+          "type": "item",
+          "item": "irons_spellbooks:rare_ink",
+          "count": 2
+        },
+        {
+          "id": "771276586679EB03",
+          "type": "item",
+          "item": "irons_spellbooks:greater_healing_potion",
+          "count": 4
+        }
+      ],
       "size": 0.9
     },
     {
@@ -283,8 +320,8 @@
         {
           "id": "75EAF79D3C5F517A",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 4
+          "item": "minecraft:lapis_lazuli",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -317,6 +354,12 @@
           "id": "768031B9C02AD91C",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "28EEF35B6BFE2EDE",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 12
         }
       ],
       "size": 1.22
@@ -366,7 +409,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "4ED5E14DE1DD66BB",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -399,8 +449,8 @@
         {
           "id": "1A8E2514852B82E4",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
-          "count": 8
+          "item": "irons_spellbooks:arcane_essence",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -433,6 +483,12 @@
           "id": "4D5755987081FE0E",
           "type": "xp",
           "xp": 25
+        },
+        {
+          "id": "1A2763E366DC85B9",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -458,7 +514,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "74563017FF5C4D55",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 6
+        }
+      ],
       "size": 0.9
     },
     {
@@ -511,6 +574,12 @@
           "id": "3837FE0A4EF109DA",
           "type": "xp",
           "xp": 25
+        },
+        {
+          "id": "1D80BA55D799BFD2",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 12
         }
       ],
       "size": 0.9
@@ -536,7 +605,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "31AEF67931AFD548",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -569,8 +645,8 @@
         {
           "id": "3AC938D429E60867",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "irons_spellbooks:arcane_essence",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -603,6 +679,12 @@
           "id": "31C60040CE070807",
           "type": "xp",
           "xp": 30
+        },
+        {
+          "id": "1EBB67990EFCD054",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 6
         }
       ],
       "size": 1.22
@@ -628,7 +710,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "53A037C2B28163AD",
+          "type": "item",
+          "item": "irons_spellbooks:arcane_essence",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -681,6 +770,12 @@
           "id": "1734095EC9A98483",
           "type": "xp",
           "xp": 30
+        },
+        {
+          "id": "37F13AB8A6160AA9",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 6
         }
       ],
       "size": 0.9
@@ -706,7 +801,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "4C8C551637A7EE13",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -759,6 +861,12 @@
           "id": "761EE6395DC5AE85",
           "type": "xp",
           "xp": 30
+        },
+        {
+          "id": "6B7EE2410F79C2F5",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -794,7 +902,7 @@
           "id": "40E4FCA3432C7DC6",
           "type": "item",
           "item": "minecraft:lapis_lazuli",
-          "count": 12
+          "count": 16
         }
       ],
       "size": 1.24
@@ -827,6 +935,12 @@
           "id": "5773C7D731D1C9EB",
           "type": "xp",
           "xp": 35
+        },
+        {
+          "id": "2FF7DE0BAE46996E",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 12
         }
       ],
       "size": 1.22
@@ -876,7 +990,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "39507CADD89016EF",
+          "type": "item",
+          "item": "irons_spellbooks:arcane_essence",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -905,6 +1026,12 @@
           "id": "5F4F305215D3C69D",
           "type": "xp",
           "xp": 35
+        },
+        {
+          "id": "1EFACA7B0CE120A2",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 6
         }
       ],
       "size": 0.9
@@ -963,8 +1090,8 @@
         {
           "id": "5BE2D7449A844B81",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 4
+          "item": "minecraft:lapis_lazuli",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -997,6 +1124,12 @@
           "id": "03DA4548EC19DC6E",
           "type": "xp",
           "xp": 40
+        },
+        {
+          "id": "7047B6C5E3293CBE",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -1046,7 +1179,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "6E3DB09DDA92C33E",
+          "type": "item",
+          "item": "irons_spellbooks:arcane_essence",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1075,6 +1215,12 @@
           "id": "6E017A2F20FF0991",
           "type": "xp",
           "xp": 40
+        },
+        {
+          "id": "6C6A6358872C2B0E",
+          "type": "item",
+          "item": "irons_spellbooks:arcane_essence",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -1133,8 +1279,8 @@
         {
           "id": "02A9F71A93FC80B9",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
-          "count": 8
+          "item": "minecraft:paper",
+          "count": 24
         }
       ],
       "size": 1.24
@@ -1167,6 +1313,12 @@
           "id": "0DBBB080E8E7D892",
           "type": "xp",
           "xp": 45
+        },
+        {
+          "id": "0DE9E1284A5492E4",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 12
         }
       ],
       "size": 1.22
@@ -1216,7 +1368,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "047769B0906620BE",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 12
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1245,6 +1404,12 @@
           "id": "7ABED7E70C35BC7C",
           "type": "xp",
           "xp": 45
+        },
+        {
+          "id": "6AF4A84F85D6172E",
+          "type": "item",
+          "item": "irons_spellbooks:arcane_essence",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -1279,8 +1444,8 @@
         {
           "id": "425C82F8B1D0FB5A",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:paper",
+          "count": 24
         }
       ],
       "size": 1.24
@@ -1313,6 +1478,12 @@
           "id": "54AE3A180233C783",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "68132C389C487D9F",
+          "type": "item",
+          "item": "irons_spellbooks:arcane_essence",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -1395,8 +1566,8 @@
         {
           "id": "64B96FB2EB6F3F2E",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 12
+          "item": "minecraft:paper",
+          "count": 24
         }
       ],
       "size": 1.24
@@ -1424,13 +1595,19 @@
         {
           "id": "29B287BCED428C1E",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 10
+          "item": "minecraft:enchanted_golden_apple",
+          "count": 1
         },
         {
           "id": "0B17DEAE5A7DCB7F",
           "type": "xp",
           "xp": 40
+        },
+        {
+          "id": "5919EB7762E8E81E",
+          "type": "item",
+          "item": "minecraft:totem_of_undying",
+          "count": 1
         }
       ],
       "x": -3.25,
@@ -1461,8 +1638,8 @@
         {
           "id": "48E02F15D7C8F49F",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 10
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
         },
         {
           "id": "0F5A365F30C32566",
@@ -1498,8 +1675,8 @@
         {
           "id": "41D0CEFE9A8A9178",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 10
+          "item": "irons_spellbooks:arcane_essence",
+          "count": 8
         },
         {
           "id": "3C36F636789967C0",

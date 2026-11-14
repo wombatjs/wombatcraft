@@ -31,6 +31,12 @@
           "id": "25C46CD241875DA8",
           "type": "xp",
           "xp": 10
+        },
+        {
+          "id": "37F8D1AD07B00C08",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 6
         }
       ],
       "size": 1.5
@@ -109,6 +115,12 @@
           "id": "3D1205CD1826AABF",
           "type": "xp",
           "xp": 10
+        },
+        {
+          "id": "42CA748CC324AB7D",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
         }
       ],
       "size": 1.05
@@ -167,8 +179,8 @@
         {
           "id": "43D9BD63D41600FE",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 12
+          "item": "minecraft:gold_ingot",
+          "count": 4
         }
       ],
       "size": 1.05
@@ -201,6 +213,12 @@
           "id": "68223DD60C23B044",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "23AF2F1D5ACC8FCA",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 2
         }
       ],
       "size": 1.22
@@ -279,6 +297,12 @@
           "id": "1C5C0A46D7AE80F2",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "20B26289A37C79D1",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
         }
       ],
       "size": 0.9
@@ -313,8 +337,8 @@
         {
           "id": "636EE3F0C6B007E2",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 4
+          "item": "minecraft:gold_ingot",
+          "count": 8
         }
       ],
       "size": 1.24
@@ -347,6 +371,12 @@
           "id": "3048D10AC1EBF0D5",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "6819057E5EECAE04",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 6
         }
       ],
       "size": 1.22
@@ -372,7 +402,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "398B6D93A9AE46CA",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -425,6 +462,12 @@
           "id": "3E3A643158486703",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "2850F999D85FB3ED",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 2
         }
       ],
       "size": 0.9
@@ -450,7 +493,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "515AC85BB4580BA3",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 2
+        }
+      ],
       "size": 0.9
     },
     {
@@ -483,8 +533,8 @@
         {
           "id": "7571BE3832886A9B",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
-          "count": 8
+          "item": "minecraft:lapis_lazuli",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -517,6 +567,12 @@
           "id": "34C711AF38FAAEB8",
           "type": "xp",
           "xp": 25
+        },
+        {
+          "id": "4F423D1B9A0B3C73",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 2
         }
       ],
       "size": 1.22
@@ -542,7 +598,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "0E86268C0753FFBF",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -595,6 +658,12 @@
           "id": "370B4D6368F122CC",
           "type": "xp",
           "xp": 25
+        },
+        {
+          "id": "51A1CAFC7B028779",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 6
         }
       ],
       "size": 0.9
@@ -629,8 +698,8 @@
         {
           "id": "44CBE9A642E35FBF",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:lapis_lazuli",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -663,6 +732,12 @@
           "id": "04291C06103010E1",
           "type": "xp",
           "xp": 30
+        },
+        {
+          "id": "0C822E66391FE3BF",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -712,7 +787,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "228390A2130FBEA4",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -745,7 +827,7 @@
         {
           "id": "4CED30F7147C0636",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
+          "item": "minecraft:amethyst_shard",
           "count": 12
         }
       ],
@@ -779,6 +861,12 @@
           "id": "27C2080CE41FC8CD",
           "type": "xp",
           "xp": 35
+        },
+        {
+          "id": "000483C1199C23CF",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
         }
       ],
       "size": 1.22
@@ -804,7 +892,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "4DCFD2FBD457FCA6",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -857,6 +952,12 @@
           "id": "14E5080367FFA91C",
           "type": "xp",
           "xp": 35
+        },
+        {
+          "id": "4F21E111BC48936D",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
         }
       ],
       "size": 0.9
@@ -882,7 +983,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "2D5E208F3AA1CEA5",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 6
+        }
+      ],
       "size": 0.9
     },
     {
@@ -949,6 +1057,12 @@
           "id": "3E1F6BC8BD0F7304",
           "type": "xp",
           "xp": 40
+        },
+        {
+          "id": "3E5B91E4E93FABAF",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
         }
       ],
       "size": 1.22
@@ -974,7 +1088,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "658A1D64E7E556B1",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 6
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1027,6 +1148,12 @@
           "id": "6DD0401FF9821E69",
           "type": "xp",
           "xp": 40
+        },
+        {
+          "id": "6774D822A8B94605",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 2
         }
       ],
       "size": 0.9
@@ -1052,7 +1179,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "5876AD0ADD36AFB5",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 6
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1085,8 +1219,8 @@
         {
           "id": "745EE42AC472283E",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
-          "count": 8
+          "item": "minecraft:lapis_lazuli",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -1119,6 +1253,12 @@
           "id": "12E3A7B4E5BD2A88",
           "type": "xp",
           "xp": 45
+        },
+        {
+          "id": "18F0AC31F7E0DBA5",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
         }
       ],
       "size": 1.22
@@ -1144,7 +1284,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "5E59AF5D8C4CB9EB",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1197,6 +1344,12 @@
           "id": "52694490B5414D55",
           "type": "xp",
           "xp": 45
+        },
+        {
+          "id": "3A74B2A8F2EE16A6",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
         }
       ],
       "size": 0.9
@@ -1222,7 +1375,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "68BEA0FF8CD32A9F",
+          "type": "item",
+          "item": "minecraft:book",
+          "count": 2
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1255,8 +1415,8 @@
         {
           "id": "190D55108A0A35BC",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:gold_ingot",
+          "count": 8
         }
       ],
       "size": 1.24

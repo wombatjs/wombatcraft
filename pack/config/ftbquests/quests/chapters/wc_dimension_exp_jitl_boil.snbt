@@ -38,7 +38,7 @@
           "id": "703BC7E4C4B763B7",
           "type": "item",
           "item": "minecraft:torch",
-          "count": 16
+          "count": 24
         }
       ]
     },
@@ -73,8 +73,8 @@
         {
           "id": "402A904D655AAC47",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -110,8 +110,8 @@
         {
           "id": "70F00313E692BBE7",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 16
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ]
     },
@@ -147,8 +147,8 @@
         {
           "id": "4F6C584F0CA7C972",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 3
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -184,7 +184,7 @@
           "id": "54D5B168B51C3914",
           "type": "item",
           "item": "minecraft:torch",
-          "count": 16
+          "count": 24
         }
       ]
     },

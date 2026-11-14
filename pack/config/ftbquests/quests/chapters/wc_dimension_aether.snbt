@@ -36,8 +36,8 @@
         {
           "id": "05D582779073EBDF",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -72,7 +72,13 @@
         {
           "id": "21379E1884402330",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "589C0A6B24944110",
+          "type": "item",
+          "item": "minecraft:diamond",
           "count": 4
         }
       ]
@@ -108,7 +114,13 @@
         {
           "id": "7FDF9A582AADA337",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "73FC726762C78E84",
+          "type": "item",
+          "item": "minecraft:diamond",
           "count": 4
         }
       ]
@@ -144,7 +156,13 @@
         {
           "id": "5E2FCC0CDADC5853",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "0BF51925798E32EA",
+          "type": "item",
+          "item": "minecraft:diamond",
           "count": 4
         }
       ]
@@ -180,7 +198,13 @@
         {
           "id": "26FDA6459F7FC179",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "08A3AADBEECAE81B",
+          "type": "item",
+          "item": "minecraft:diamond",
           "count": 4
         }
       ]
@@ -216,7 +240,13 @@
         {
           "id": "2BF154387181FB70",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "17218CBC777326B3",
+          "type": "item",
+          "item": "minecraft:diamond",
           "count": 4
         }
       ]
@@ -252,7 +282,13 @@
         {
           "id": "6FAA9A1B327A250F",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "4A9A502B6DE01FFE",
+          "type": "item",
+          "item": "minecraft:diamond",
           "count": 4
         }
       ]
@@ -288,7 +324,13 @@
         {
           "id": "43C555BD020C0424",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "6A91BBF90CC34FA8",
+          "type": "item",
+          "item": "minecraft:diamond",
           "count": 4
         }
       ]
@@ -324,7 +366,13 @@
         {
           "id": "70717369B4858982",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "755A7651BB5105EE",
+          "type": "item",
+          "item": "minecraft:diamond",
           "count": 4
         }
       ]
@@ -377,6 +425,12 @@
           "id": "0DCD66CD2B2030E3",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "7DB0F1382249D2C9",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ],
       "size": 1,
@@ -408,6 +462,12 @@
           "id": "0CE42E0275CCE7B4",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "3AFBA7901FF80952",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ],
       "size": 1,
@@ -439,6 +499,12 @@
           "id": "0503C6B2C3CC41D3",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "0CB25D8B98535108",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ],
       "size": 1,

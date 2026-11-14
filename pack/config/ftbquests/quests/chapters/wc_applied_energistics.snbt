@@ -31,6 +31,12 @@
           "id": "2B62A3DE3F572876",
           "type": "xp",
           "xp": 10
+        },
+        {
+          "id": "7295C45E038D0231",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
         }
       ],
       "size": 1.5
@@ -109,6 +115,12 @@
           "id": "6F0C8575C5E77B15",
           "type": "xp",
           "xp": 10
+        },
+        {
+          "id": "5083C8457EBF29C2",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
         }
       ],
       "size": 1.05
@@ -167,8 +179,14 @@
         {
           "id": "676FF8695F2E1788",
           "type": "item",
-          "item": "minecraft:iron_ingot",
-          "count": 8
+          "item": "ae2:certus_quartz_wrench",
+          "count": 1
+        },
+        {
+          "id": "098D29BE03C1493C",
+          "type": "item",
+          "item": "ae2:certus_quartz_crystal",
+          "count": 12
         }
       ],
       "size": 1.05
@@ -201,6 +219,12 @@
           "id": "0DA24A0CA6EA34E2",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "5DAC3FF981DF348D",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
         }
       ],
       "size": 1.22
@@ -279,6 +303,12 @@
           "id": "60E2D2B21411D13E",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "27D2DA5211E7E2B4",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -357,6 +387,12 @@
           "id": "7596F9751025703D",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "2F8EAB11549D1FD1",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
         }
       ],
       "size": 0.9
@@ -391,7 +427,7 @@
         {
           "id": "07495DF6C8071E34",
           "type": "item",
-          "item": "minecraft:redstone",
+          "item": "minecraft:iron_ingot",
           "count": 16
         }
       ],
@@ -425,6 +461,12 @@
           "id": "6A61EF7D193DA593",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "11653739A6A335CD",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -450,7 +492,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "4E76BD7835A7D0DA",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -503,6 +552,12 @@
           "id": "4B4103888FB4FBD4",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "06D22BF2ADCF2161",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -528,7 +583,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "2C064A968F7A6B68",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
+        }
+      ],
       "size": 0.9
     },
     {
@@ -581,6 +643,12 @@
           "id": "05E502663042DA23",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "28AD4A748563A621",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -615,8 +683,14 @@
         {
           "id": "4D4995A2B2C0B3CC",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 4
+          "item": "ae2:network_tool",
+          "count": 1
+        },
+        {
+          "id": "2AC1659EBFC89939",
+          "type": "item",
+          "item": "ae2:fluix_glass_cable",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -649,6 +723,12 @@
           "id": "793B118253BF0882",
           "type": "xp",
           "xp": 25
+        },
+        {
+          "id": "287515377332BB86",
+          "type": "item",
+          "item": "ae2:certus_quartz_crystal",
+          "count": 4
         }
       ],
       "size": 1.22
@@ -698,7 +778,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "2F6DE99F7009F730",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
+        }
+      ],
       "size": 0.9
     },
     {
@@ -727,6 +814,18 @@
           "id": "64DF6E90CCBCB000",
           "type": "xp",
           "xp": 25
+        },
+        {
+          "id": "3991533C267DE8A3",
+          "type": "item",
+          "item": "ae2:speed_card",
+          "count": 4
+        },
+        {
+          "id": "31D02F0FDF32E215",
+          "type": "item",
+          "item": "ae2:engineering_processor",
+          "count": 4
         }
       ],
       "size": 0.9
@@ -762,7 +861,7 @@
           "id": "2AAC78E18097B8AA",
           "type": "item",
           "item": "minecraft:quartz",
-          "count": 8
+          "count": 16
         }
       ],
       "size": 1.24
@@ -795,6 +894,12 @@
           "id": "2D153EB390A48858",
           "type": "xp",
           "xp": 30
+        },
+        {
+          "id": "15692CA4F2D6FD94",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
         }
       ],
       "size": 1.22
@@ -873,6 +978,12 @@
           "id": "0806F314385A36BE",
           "type": "xp",
           "xp": 30
+        },
+        {
+          "id": "0C7619A1FDF0FFE6",
+          "type": "item",
+          "item": "ae2:certus_quartz_crystal",
+          "count": 4
         }
       ],
       "size": 0.9
@@ -932,7 +1043,7 @@
           "id": "2103877EEAE48161",
           "type": "item",
           "item": "minecraft:iron_ingot",
-          "count": 8
+          "count": 16
         }
       ],
       "size": 1.24
@@ -965,6 +1076,12 @@
           "id": "48E8CA0272BD2BDC",
           "type": "xp",
           "xp": 35
+        },
+        {
+          "id": "14694977D73C9F28",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
         }
       ],
       "size": 1.22
@@ -1043,6 +1160,12 @@
           "id": "523D0AF9511E2A9F",
           "type": "xp",
           "xp": 35
+        },
+        {
+          "id": "3E7512A1175A761E",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
         }
       ],
       "size": 0.9
@@ -1125,8 +1248,8 @@
         {
           "id": "27D3776D4EA6EF47",
           "type": "item",
-          "item": "minecraft:redstone",
-          "count": 16
+          "item": "ae2:certus_quartz_crystal",
+          "count": 8
         }
       ],
       "size": 1.24
@@ -1159,6 +1282,12 @@
           "id": "1E6EFD62350611C8",
           "type": "xp",
           "xp": 40
+        },
+        {
+          "id": "00B965515FFFD0E2",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -1208,7 +1337,20 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "24934F0CC70C47F8",
+          "type": "item",
+          "item": "ae2:blank_pattern",
+          "count": 16
+        },
+        {
+          "id": "5983224274DB96B1",
+          "type": "item",
+          "item": "ae2:logic_processor",
+          "count": 4
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1237,6 +1379,12 @@
           "id": "3BFDDABBA672DEDA",
           "type": "xp",
           "xp": 40
+        },
+        {
+          "id": "19BED3E203C81BFF",
+          "type": "item",
+          "item": "ae2:certus_quartz_crystal",
+          "count": 4
         }
       ],
       "size": 0.9
@@ -1286,7 +1434,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "52E94BB95752A721",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1315,6 +1470,12 @@
           "id": "199E68CAAC8973D8",
           "type": "xp",
           "xp": 40
+        },
+        {
+          "id": "0339ED7F14C3598E",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -1349,8 +1510,8 @@
         {
           "id": "6E7B3F41AE246045",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 4
+          "item": "minecraft:quartz",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -1383,6 +1544,12 @@
           "id": "4275992BBC9BADBC",
           "type": "xp",
           "xp": 45
+        },
+        {
+          "id": "3213D09B8276CB38",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -1461,6 +1628,12 @@
           "id": "27D7962219ADC6B4",
           "type": "xp",
           "xp": 45
+        },
+        {
+          "id": "51216F9FE132933E",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -1543,7 +1716,7 @@
         {
           "id": "633B1D88F058F491",
           "type": "item",
-          "item": "minecraft:quartz",
+          "item": "ae2:certus_quartz_crystal",
           "count": 8
         }
       ],
@@ -1577,6 +1750,12 @@
           "id": "0C916E8B48E7E689",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "4956BE9B74929CB8",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -1626,7 +1805,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "643495C7C06CA170",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1655,6 +1841,12 @@
           "id": "07CCA3A699053AF6",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "672281DDBE5E2D0C",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
         }
       ],
       "size": 0.9
@@ -1704,7 +1896,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "26C4174FBCA08631",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1738,7 +1937,7 @@
           "id": "761FE695FAE1070D",
           "type": "item",
           "item": "minecraft:iron_ingot",
-          "count": 8
+          "count": 16
         }
       ],
       "size": 1.24
@@ -1771,6 +1970,12 @@
           "id": "09445B260635F544",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "5EF4CE349D83013A",
+          "type": "item",
+          "item": "ae2:certus_quartz_crystal",
+          "count": 4
         }
       ],
       "size": 1.22
@@ -1796,7 +2001,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "7F743533095E8A95",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1849,6 +2061,12 @@
           "id": "02CFF981ABCBE988",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "493DD63665E6FBA0",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -1874,7 +2092,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "584E6EB20D33788C",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1931,8 +2156,8 @@
         {
           "id": "15CB71DA9A1190A8",
           "type": "item",
-          "item": "minecraft:redstone",
-          "count": 16
+          "item": "ae2:certus_quartz_crystal",
+          "count": 8
         }
       ],
       "size": 1.24
@@ -1965,6 +2190,12 @@
           "id": "39AC25881054DFD6",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "5A3F5449365D6B9D",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -2043,6 +2274,12 @@
           "id": "1642654B22BECCE4",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "509D202ED3C3A77F",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
         }
       ],
       "size": 0.9
@@ -2101,8 +2338,8 @@
         {
           "id": "74C0D36EDBC2DFDB",
           "type": "item",
-          "item": "minecraft:gold_ingot",
-          "count": 4
+          "item": "minecraft:redstone",
+          "count": 24
         }
       ],
       "size": 1.24
@@ -2130,8 +2367,8 @@
         {
           "id": "026AFBF374982911",
           "type": "item",
-          "item": "ae2:fluix_glass_cable",
-          "count": 16
+          "item": "minecraft:quartz",
+          "count": 8
         },
         {
           "id": "6B0AF4927F558DA1",
@@ -2206,8 +2443,8 @@
         {
           "id": "744A71DA0E8E8866",
           "type": "item",
-          "item": "ae2:fluix_crystal",
-          "count": 16
+          "item": "ae2:certus_quartz_crystal",
+          "count": 4
         },
         {
           "id": "136640533B5A5E30",

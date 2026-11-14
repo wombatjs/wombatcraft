@@ -36,7 +36,13 @@
         {
           "id": "20DC1BFA94B3D953",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "01892C6271E7F67D",
+          "type": "item",
+          "item": "minecraft:diamond",
           "count": 4
         }
       ]
@@ -72,8 +78,8 @@
         {
           "id": "546CBCEF23AD0341",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ]
     },
@@ -131,8 +137,8 @@
         {
           "id": "2499DDC3F2FA4690",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -190,8 +196,8 @@
         {
           "id": "662323770026DA67",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -249,8 +255,8 @@
         {
           "id": "5CCCA3EB6B033A24",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -309,7 +315,7 @@
           "id": "5D927D027BA71E1E",
           "type": "item",
           "item": "minecraft:golden_carrot",
-          "count": 4
+          "count": 6
         }
       ]
     },
@@ -367,8 +373,8 @@
         {
           "id": "4A58AC4B31C4B74C",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -427,7 +433,7 @@
           "id": "7AFA7A02BA50F49F",
           "type": "item",
           "item": "minecraft:golden_carrot",
-          "count": 4
+          "count": 6
         }
       ]
     },
@@ -485,8 +491,8 @@
         {
           "id": "5CFCB6D2E25F9C59",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ]
     },
@@ -544,8 +550,8 @@
         {
           "id": "54CDE2639088A1CD",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },

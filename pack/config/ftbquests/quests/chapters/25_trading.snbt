@@ -33,6 +33,12 @@
           "id": "07F412B0AE65EAE0",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "5DDA36FC2A144D44",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 16
         }
       ],
       "size": 0.94
@@ -65,6 +71,12 @@
           "id": "0DDBDC5F86296744",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "146F52A9CF3D16CF",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 16
         }
       ],
       "size": 0.94
@@ -97,6 +109,12 @@
           "id": "0F059A8361E185E6",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "357378A0A0567F6A",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4
         }
       ],
       "size": 0.94
@@ -241,6 +259,12 @@
           "id": "0FBCFFDC1585CF83",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "4931A84133BBDBF8",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4
         }
       ],
       "size": 0.94
@@ -273,6 +297,12 @@
           "id": "07DABFF4D51BFB33",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "7E3CADE8C3E717B6",
+          "type": "item",
+          "item": "minecraft:lantern",
+          "count": 8
         }
       ],
       "size": 0.94
@@ -305,6 +335,12 @@
           "id": "0DEE67F664A9C2F9",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "454F18400CA45945",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 6
         }
       ],
       "size": 0.94
@@ -494,6 +530,12 @@
           "id": "025FE61B3BD0E007",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "4817E0F55AA59DC4",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 6
         }
       ],
       "size": 0.94
@@ -526,6 +568,12 @@
           "id": "0746F3F97FB40374",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "7F59A00CB352D38D",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4
         }
       ],
       "size": 0.94
@@ -558,6 +606,12 @@
           "id": "0E684FF889453961",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "5E3EB0543AA6DC66",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4
         }
       ],
       "size": 0.94
@@ -610,6 +664,12 @@
           "id": "05AB55F0B1D13916",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "46E26D5EA35F935E",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4
         }
       ],
       "size": 0.94
@@ -640,6 +700,12 @@
           "id": "03F2C7EFC9624E61",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "16A909965AF44935",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 16
         }
       ],
       "size": 0.94
@@ -670,6 +736,12 @@
           "id": "08949B01AB35DDE4",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "6E4E7842FA446BE0",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 16
         }
       ],
       "size": 0.94
@@ -724,6 +796,12 @@
           "id": "0E135F776BE53333",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "375E56603837D3E2",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4
         }
       ],
       "size": 0.94
@@ -756,6 +834,12 @@
           "id": "035D87760DA17250",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "5D5EA7762B8E98D7",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 6
         }
       ],
       "size": 0.94
@@ -788,6 +872,12 @@
           "id": "04F50A0AD34CDE04",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "2C0C2C7E21F01CEA",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4
         }
       ],
       "size": 0.94
@@ -887,6 +977,12 @@
           "id": "0BCA034E249EC694",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "65F816C5E26B55CD",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4
         }
       ],
       "size": 0.94
@@ -919,6 +1015,12 @@
           "id": "0E91C1E8E2137571",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "7BE3994C59694060",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4
         }
       ],
       "size": 0.94
@@ -951,6 +1053,12 @@
           "id": "0D03B87A84745FAA",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "7029FF69CF13E033",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4
         }
       ],
       "size": 0.94

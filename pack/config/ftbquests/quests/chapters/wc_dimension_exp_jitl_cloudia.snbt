@@ -37,8 +37,8 @@
         {
           "id": "109480A873B97341",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 3
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -73,8 +73,8 @@
         {
           "id": "726C45C8F0C7DBA4",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ]
     },
@@ -111,7 +111,7 @@
           "id": "2501EDFE548B245D",
           "type": "item",
           "item": "minecraft:cooked_beef",
-          "count": 4
+          "count": 8
         }
       ]
     },
@@ -147,8 +147,8 @@
         {
           "id": "56968E2978B482E9",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 3
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -185,7 +185,7 @@
           "id": "53E5720F75D90C49",
           "type": "item",
           "item": "minecraft:torch",
-          "count": 16
+          "count": 24
         }
       ]
     },
@@ -221,8 +221,14 @@
         {
           "id": "385692C65756E5CF",
           "type": "item",
-          "item": "minecraft:diamond",
-          "count": 2
+          "item": "artifacts:cloud_in_a_bottle",
+          "count": 1
+        },
+        {
+          "id": "415C63E7E7790AD3",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 6
         }
       ]
     },

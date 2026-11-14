@@ -33,6 +33,12 @@
           "id": "036350922EE463DD",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "58626C7F9BC5436B",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -64,6 +70,12 @@
           "id": "0EA8EC0D65A39FA5",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "015C9223E896EB1D",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -95,6 +107,12 @@
           "id": "00C12078651E8282",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "71F7FC337268E0E8",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -126,6 +144,12 @@
           "id": "027E3469E374454C",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "06543C0DA5F1B26F",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -178,8 +202,8 @@
         {
           "id": "5EB983B5B3E8B8A1",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ]
     },
@@ -213,7 +237,7 @@
           "id": "20590B8AEAF25E41",
           "type": "item",
           "item": "minecraft:golden_carrot",
-          "count": 4
+          "count": 6
         }
       ]
     },
@@ -246,8 +270,8 @@
         {
           "id": "0531E49B24C9D9FE",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:arrow",
+          "count": 24
         }
       ]
     },
@@ -280,8 +304,8 @@
         {
           "id": "2D821FB01FF72A68",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     }

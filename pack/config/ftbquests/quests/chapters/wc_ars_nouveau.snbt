@@ -31,6 +31,12 @@
           "id": "0F74A9D7C2214A9F",
           "type": "xp",
           "xp": 10
+        },
+        {
+          "id": "5C47146AF2B87E12",
+          "type": "item",
+          "item": "ars_nouveau:source_berry_pie",
+          "count": 2
         }
       ],
       "size": 1.5
@@ -56,7 +62,20 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "5B41134A4C4ECDB7",
+          "type": "item",
+          "item": "ars_nouveau:source_gem",
+          "count": 12
+        },
+        {
+          "id": "1BAF11B288C2137C",
+          "type": "item",
+          "item": "ars_nouveau:source_berry_pie",
+          "count": 4
+        }
+      ],
       "size": 1.05
     },
     {
@@ -109,6 +128,12 @@
           "id": "234D3D7CF5C2322D",
           "type": "xp",
           "xp": 10
+        },
+        {
+          "id": "5312BE1F9444EF63",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
         }
       ],
       "size": 1.05
@@ -144,7 +169,7 @@
           "id": "6BEE358F60C23923",
           "type": "item",
           "item": "minecraft:lapis_lazuli",
-          "count": 12
+          "count": 8
         }
       ],
       "size": 1.05
@@ -177,6 +202,12 @@
           "id": "4C87D56B630BA20B",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "47F00736C9101756",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -202,7 +233,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "4A268D6B21907CA1",
+          "type": "item",
+          "item": "ars_nouveau:source_gem",
+          "count": 4
+        }
+      ],
       "size": 0.9
     },
     {
@@ -255,6 +293,12 @@
           "id": "385F81004DF7798C",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "43285AB78542F45B",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -280,7 +324,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "6BB2F8710D5BE182",
+          "type": "item",
+          "item": "ars_nouveau:source_gem",
+          "count": 4
+        }
+      ],
       "size": 0.9
     },
     {
@@ -333,6 +384,12 @@
           "id": "5CE5897C074B3E04",
           "type": "xp",
           "xp": 15
+        },
+        {
+          "id": "748EE5AAAC1829F4",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -358,7 +415,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "6A3C86C5C3F1D510",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -391,8 +455,8 @@
         {
           "id": "48DB4B9398E81676",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 4
+          "item": "minecraft:lapis_lazuli",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -425,6 +489,12 @@
           "id": "22A1B1782C9F7111",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "4D665D5AED1B5401",
+          "type": "item",
+          "item": "ars_nouveau:source_berry_pie",
+          "count": 2
         }
       ],
       "size": 1.22
@@ -450,7 +520,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "1A5415AFA5C48CF6",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -503,6 +580,12 @@
           "id": "4C3A1AABC6AFC382",
           "type": "xp",
           "xp": 20
+        },
+        {
+          "id": "521E88551D800C5A",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -528,7 +611,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "70B0B85E1BDCD07E",
+          "type": "item",
+          "item": "ars_nouveau:source_gem",
+          "count": 4
+        }
+      ],
       "size": 0.9
     },
     {
@@ -561,8 +651,8 @@
         {
           "id": "3EDAEEED7CC2B470",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
-          "count": 8
+          "item": "minecraft:lapis_lazuli",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -595,6 +685,12 @@
           "id": "1F4B3194C3A61A32",
           "type": "xp",
           "xp": 25
+        },
+        {
+          "id": "1ED04330D25B6D8F",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -620,7 +716,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "6785CB024EFDDD14",
+          "type": "item",
+          "item": "ars_nouveau:source_berry_pie",
+          "count": 2
+        }
+      ],
       "size": 0.9
     },
     {
@@ -644,7 +747,20 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "47F6FC33F84449BC",
+          "type": "item",
+          "item": "ars_nouveau:air_essence",
+          "count": 2
+        },
+        {
+          "id": "3EBE70D1AD1AFA04",
+          "type": "item",
+          "item": "ars_nouveau:earth_essence",
+          "count": 2
+        }
+      ],
       "size": 0.9
     },
     {
@@ -673,6 +789,12 @@
           "id": "69996A9304F55209",
           "type": "xp",
           "xp": 25
+        },
+        {
+          "id": "39B5FC598B291CB7",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -698,7 +820,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "1EDBA7D219909F73",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -751,6 +880,12 @@
           "id": "122E2556F9BD2053",
           "type": "xp",
           "xp": 25
+        },
+        {
+          "id": "53D549CFC9FF53C7",
+          "type": "item",
+          "item": "ars_nouveau:source_berry_pie",
+          "count": 2
         }
       ],
       "size": 0.9
@@ -776,7 +911,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "2AD3A785073A9330",
+          "type": "item",
+          "item": "ars_nouveau:source_gem",
+          "count": 4
+        }
+      ],
       "size": 0.9
     },
     {
@@ -833,7 +975,7 @@
         {
           "id": "38F51EF1D2F06F35",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "ars_nouveau:source_berry_pie",
           "count": 4
         }
       ],
@@ -867,6 +1009,18 @@
           "id": "2607922EAE3D38D1",
           "type": "xp",
           "xp": 30
+        },
+        {
+          "id": "069E7A96A2EC3488",
+          "type": "item",
+          "item": "ars_nouveau:greater_experience_gem",
+          "count": 8
+        },
+        {
+          "id": "24C64F27E0A7375D",
+          "type": "item",
+          "item": "ars_nouveau:source_berry_pie",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -945,6 +1099,12 @@
           "id": "689457FF0035390E",
           "type": "xp",
           "xp": 30
+        },
+        {
+          "id": "0A852D9FA71645DD",
+          "type": "item",
+          "item": "ars_nouveau:source_berry_pie",
+          "count": 2
         }
       ],
       "size": 0.9
@@ -1023,6 +1183,12 @@
           "id": "7D217C691FD38783",
           "type": "xp",
           "xp": 30
+        },
+        {
+          "id": "2965C3C31AE32FA5",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -1081,8 +1247,8 @@
         {
           "id": "30C11FDCD599F06C",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 12
+          "item": "ars_nouveau:source_gem",
+          "count": 8
         }
       ],
       "size": 1.24
@@ -1115,6 +1281,12 @@
           "id": "36658D38F9B7BCCF",
           "type": "xp",
           "xp": 35
+        },
+        {
+          "id": "6320156190F134C7",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -1193,6 +1365,12 @@
           "id": "6DE080446A4270A5",
           "type": "xp",
           "xp": 35
+        },
+        {
+          "id": "38C45918C453DC80",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -1271,6 +1449,12 @@
           "id": "04F995E6EAAECA20",
           "type": "xp",
           "xp": 35
+        },
+        {
+          "id": "4A034675A602AD19",
+          "type": "item",
+          "item": "ars_nouveau:source_berry_pie",
+          "count": 2
         }
       ],
       "size": 0.9
@@ -1329,8 +1513,8 @@
         {
           "id": "7447B54DE37F8958",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 4
+          "item": "minecraft:lapis_lazuli",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -1363,6 +1547,12 @@
           "id": "2EB17B3BACA76AB7",
           "type": "xp",
           "xp": 40
+        },
+        {
+          "id": "4F70FA328BCD5346",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -1441,6 +1631,12 @@
           "id": "1AC919E26780E671",
           "type": "xp",
           "xp": 40
+        },
+        {
+          "id": "4039FC2D0CE1D889",
+          "type": "item",
+          "item": "ars_nouveau:source_gem",
+          "count": 4
         }
       ],
       "size": 0.9
@@ -1519,6 +1715,12 @@
           "id": "55F845D614BED7B1",
           "type": "xp",
           "xp": 40
+        },
+        {
+          "id": "12AEC471CBD611DF",
+          "type": "item",
+          "item": "ars_nouveau:source_berry_pie",
+          "count": 2
         }
       ],
       "size": 0.9
@@ -1577,8 +1779,8 @@
         {
           "id": "295B44082F60AABC",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
-          "count": 8
+          "item": "minecraft:lapis_lazuli",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -1611,6 +1813,12 @@
           "id": "1BD79048D9CB7467",
           "type": "xp",
           "xp": 45
+        },
+        {
+          "id": "03B0E78551CE0599",
+          "type": "item",
+          "item": "ars_nouveau:source_gem",
+          "count": 4
         }
       ],
       "size": 1.22
@@ -1689,6 +1897,12 @@
           "id": "5548301AB2E01729",
           "type": "xp",
           "xp": 45
+        },
+        {
+          "id": "070450A8C4559B64",
+          "type": "item",
+          "item": "ars_nouveau:source_berry_pie",
+          "count": 2
         }
       ],
       "size": 0.9
@@ -1771,8 +1985,8 @@
         {
           "id": "60BAC25F82F6555E",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:lapis_lazuli",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -1805,6 +2019,12 @@
           "id": "57806981EDBC4A48",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "15D736917FC01211",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -1854,7 +2074,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "009C20DEA1C40BD8",
+          "type": "item",
+          "item": "ars_nouveau:source_berry_pie",
+          "count": 2
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1883,6 +2110,12 @@
           "id": "6762C75E4F9A7FD1",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "265292E856FF6AA5",
+          "type": "item",
+          "item": "ars_nouveau:source_berry_pie",
+          "count": 2
         }
       ],
       "size": 0.9
@@ -1932,7 +2165,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "4C39979AB976D607",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -1961,6 +2201,12 @@
           "id": "3FC4ED0744CFC702",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "6439EB9251B81215",
+          "type": "item",
+          "item": "ars_nouveau:source_gem",
+          "count": 4
         }
       ],
       "size": 0.9
@@ -1996,7 +2242,7 @@
           "id": "08D282A8522FD3B5",
           "type": "item",
           "item": "minecraft:lapis_lazuli",
-          "count": 12
+          "count": 16
         }
       ],
       "size": 1.24
@@ -2029,6 +2275,12 @@
           "id": "62C678199EF8141B",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "782F6AD7BECDEF74",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -2107,6 +2359,12 @@
           "id": "7D13EE36A61E041A",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "2EE59E655FFB8D6D",
+          "type": "item",
+          "item": "ars_nouveau:source_gem",
+          "count": 4
         }
       ],
       "size": 0.9
@@ -2165,8 +2423,14 @@
         {
           "id": "43047A80133EB325",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 4
+          "item": "minecraft:totem_of_undying",
+          "count": 1
+        },
+        {
+          "id": "102BE3EC683F0457",
+          "type": "item",
+          "item": "ars_nouveau:greater_experience_gem",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -2199,6 +2463,12 @@
           "id": "1B5E18724EB6CB89",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "1820220C33A1FF94",
+          "type": "item",
+          "item": "ars_nouveau:source_berry_pie",
+          "count": 2
         }
       ],
       "size": 1.22
@@ -2277,6 +2547,12 @@
           "id": "3AA676CAA939D38A",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "4827F60FD778A0A0",
+          "type": "item",
+          "item": "ars_nouveau:source_gem",
+          "count": 4
         }
       ],
       "size": 0.9
@@ -2355,6 +2631,12 @@
           "id": "31012A0D41A215FF",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "0E66BE319CCD22FD",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -2413,8 +2695,8 @@
         {
           "id": "0FEB55AF1EFD10FE",
           "type": "item",
-          "item": "minecraft:amethyst_shard",
-          "count": 8
+          "item": "ars_nouveau:source_berry_pie",
+          "count": 4
         }
       ],
       "size": 1.24
@@ -2447,6 +2729,12 @@
           "id": "1EB8A64BCA1FD967",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "7EEB030CC12FEC51",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
         }
       ],
       "size": 1.22
@@ -2525,6 +2813,12 @@
           "id": "66E4D8ED7AB226DB",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "64195A700657D4DA",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -2603,6 +2897,12 @@
           "id": "25E617529C8CD7AE",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "6DFF9F33B537088A",
+          "type": "item",
+          "item": "ars_nouveau:source_gem",
+          "count": 4
         }
       ],
       "size": 0.9
@@ -2637,8 +2937,8 @@
         {
           "id": "07A267A87A6CD1F0",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:lapis_lazuli",
+          "count": 16
         }
       ],
       "size": 1.24
@@ -2671,6 +2971,12 @@
           "id": "04096A48240E6B88",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "1160BB12E91E1955",
+          "type": "item",
+          "item": "ars_nouveau:source_berry_pie",
+          "count": 2
         }
       ],
       "size": 1.22
@@ -2696,7 +3002,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "4AA76470525C6B1B",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -2749,6 +3062,12 @@
           "id": "5F59B4E0A02079D6",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "367FC13FAD4F0B3A",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -2774,7 +3093,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "66533468B8C4BC88",
+          "type": "item",
+          "item": "ars_nouveau:source_berry_pie",
+          "count": 2
+        }
+      ],
       "size": 0.9
     },
     {
@@ -2827,6 +3153,12 @@
           "id": "01C116A15567D661",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "34D379486B7C152F",
+          "type": "item",
+          "item": "ars_nouveau:source_berry_pie",
+          "count": 2
         }
       ],
       "size": 0.9
@@ -2852,7 +3184,14 @@
           "consume_items": false
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "id": "142B0F85FA5F0FFB",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ],
       "size": 0.9
     },
     {
@@ -2910,7 +3249,7 @@
           "id": "208ECD1454DA2F4C",
           "type": "item",
           "item": "minecraft:lapis_lazuli",
-          "count": 12
+          "count": 16
         }
       ],
       "size": 1.24
@@ -2943,6 +3282,12 @@
           "id": "3E388424E863931B",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "5784FBFC2AC6EE7F",
+          "type": "item",
+          "item": "ars_nouveau:source_berry_pie",
+          "count": 2
         }
       ],
       "size": 1.22
@@ -3021,6 +3366,12 @@
           "id": "01EA9484871D4764",
           "type": "xp",
           "xp": 50
+        },
+        {
+          "id": "144034DBF11B7A35",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
         }
       ],
       "size": 0.9
@@ -3079,8 +3430,8 @@
         {
           "id": "057A58B128B48108",
           "type": "item",
-          "item": "minecraft:book",
-          "count": 4
+          "item": "ars_nouveau:source_gem",
+          "count": 8
         }
       ],
       "size": 1.24
@@ -3109,7 +3460,7 @@
           "id": "67DBDAB55804AA8D",
           "type": "item",
           "item": "ars_nouveau:source_gem",
-          "count": 12
+          "count": 4
         },
         {
           "id": "552E4A5998CA4609",
@@ -3144,8 +3495,8 @@
         {
           "id": "4750D54AD3A9E029",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 12
+          "item": "minecraft:amethyst_shard",
+          "count": 8
         },
         {
           "id": "366A074386B0B75E",

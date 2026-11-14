@@ -37,8 +37,8 @@
         {
           "id": "02CE84D776ED3DD5",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ]
     },
@@ -73,8 +73,8 @@
         {
           "id": "7114E35D89FB203D",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ]
     },
@@ -110,8 +110,8 @@
         {
           "id": "6E7CD7B3A979AB3D",
           "type": "item",
-          "item": "minecraft:cooked_beef",
-          "count": 4
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ]
     },
@@ -147,8 +147,8 @@
         {
           "id": "7698FC1FF086216B",
           "type": "item",
-          "item": "minecraft:ender_pearl",
-          "count": 1
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -183,8 +183,8 @@
         {
           "id": "1D38A4DEF7DFA258",
           "type": "item",
-          "item": "minecraft:cooked_beef",
-          "count": 4
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ]
     },
@@ -220,8 +220,8 @@
         {
           "id": "50E3471F7D98443F",
           "type": "item",
-          "item": "minecraft:torch",
-          "count": 16
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ]
     },
@@ -257,8 +257,14 @@
         {
           "id": "724278B062402CE5",
           "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "28CF27971CCF247F",
+          "type": "item",
           "item": "minecraft:diamond",
-          "count": 2
+          "count": 4
         }
       ]
     },
@@ -294,8 +300,8 @@
         {
           "id": "24381BE9BC8078A1",
           "type": "item",
-          "item": "minecraft:ender_pearl",
-          "count": 1
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -331,8 +337,14 @@
         {
           "id": "49363D1FC99B2673",
           "type": "item",
+          "item": "minecraft:totem_of_undying",
+          "count": 1
+        },
+        {
+          "id": "08C249D82744AB53",
+          "type": "item",
           "item": "minecraft:diamond",
-          "count": 2
+          "count": 6
         }
       ]
     },

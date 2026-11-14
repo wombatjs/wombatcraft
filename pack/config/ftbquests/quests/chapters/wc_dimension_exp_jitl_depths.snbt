@@ -37,8 +37,8 @@
         {
           "id": "7FBBF6C651FF886D",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -73,8 +73,8 @@
         {
           "id": "7C0EBE6938F301EE",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 4
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -110,8 +110,8 @@
         {
           "id": "688EE0B5FB02D512",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ]
     },
@@ -147,8 +147,8 @@
         {
           "id": "47885851A23E0F6C",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ]
     },
@@ -183,8 +183,8 @@
         {
           "id": "51881839DE4BAA14",
           "type": "item",
-          "item": "minecraft:cooked_beef",
-          "count": 4
+          "item": "minecraft:golden_carrot",
+          "count": 6
         }
       ]
     },
@@ -220,8 +220,8 @@
         {
           "id": "59DC144527D241D3",
           "type": "item",
-          "item": "minecraft:leather",
-          "count": 3
+          "item": "minecraft:cooked_beef",
+          "count": 8
         }
       ]
     },
@@ -257,8 +257,14 @@
         {
           "id": "4BAB53B3FE2C41B5",
           "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "28FFDFB463D0CBF4",
+          "type": "item",
           "item": "minecraft:diamond",
-          "count": 2
+          "count": 4
         }
       ]
     },
@@ -294,8 +300,8 @@
         {
           "id": "3237F9E3FAEC400A",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:torch",
+          "count": 24
         }
       ]
     },
@@ -331,8 +337,14 @@
         {
           "id": "004B947582EC8174",
           "type": "item",
-          "item": "minecraft:diamond",
-          "count": 2
+          "item": "artifacts:umbrella",
+          "count": 1
+        },
+        {
+          "id": "78D286A0EAECAB36",
+          "type": "item",
+          "item": "waystones:warp_scroll",
+          "count": 4
         }
       ]
     },
