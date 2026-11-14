@@ -16,3 +16,7 @@ Banner prompt: Create an original wide 3:1 landscape banner illustration for Wom
 Mascot prompt: Create a polished original mascot logo image for Wombatcraft on a truly transparent background. Centered friendly brown wombat head and little upper chest, rounded ears pink interiors, broad dark rounded square nose, happy closed smiling eyes, tiny cheerful mouth. Soft warm brown fur with a few shaped tufts, clean thick dark purple outline, charming hand drawn game mascot, readable small app icon silhouette, not a bear, no hat no accessories, no text, no badge no surrounding shape. Symmetric three-quarter-front near front view. Warm light from top left. Fill canvas with generous transparent edge margin. Match a cute cartoon wombat in a purple Minecraft sunset launcher.
 
 Silkscreen font: Google Fonts `ofl/silkscreen`, bundled with its SIL Open Font License.
+
+## Copper wombat emblem (2026-11-13)
+Generated with OpenAI image generation for Wombatcraft. Source retained at `C:/Users/yeete/.codex/generated_images/01a1cdd5-6f6e-7841-a5e3-32ca993fb62c/exec-d1b20f79-de9f-44e7-9723-0a6126fd25b5.png`. Exported at 512px for Discord and 64px for the server icon.
+Prompt: A polished square Wombatcraft brand icon: bold friendly geometric wombat head, copper and cream, deep plum background, restrained violet rim, clear at 32 pixels, generous circular-crop margins, no scenery or text.

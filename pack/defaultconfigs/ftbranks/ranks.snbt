@@ -4,6 +4,8 @@
     power: 1
     condition: "always_active"
     ftbessentials.home.max: 3
+		ftbessentials.tpa.cooldown: 10
+		ftbessentials.tpa.warmup: 3
   }
   vip: {
     name: "VIP"

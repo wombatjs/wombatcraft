@@ -1,0 +1,4 @@
+_DEFAULT_:
+  tabprefix: "<#C8A4FF>"
+  tabsuffix: ""
+  customtabname: "%player%"

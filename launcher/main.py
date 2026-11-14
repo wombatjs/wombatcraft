@@ -11,6 +11,7 @@ from requests.exceptions import ConnectionError as RequestsConnectionError, Time
 from urllib3.exceptions import ProtocolError, ReadTimeoutError
 import updater,server_status,interface,launcher_update,official_launcher
 import discord_presence
+import server_list
 
 BASE=Path(getattr(sys,'_MEIPASS',Path(__file__).resolve().parent))
 BRAND=BASE/'branding' if (BASE/'branding').exists() else BASE.parent/'branding'
@@ -161,9 +162,11 @@ class Window(QWidget):
 
  def repair_game_discord(self):
   if DISCORD_APP_ID and not official_launcher.game_running(RUNTIME):
+   discord_presence.upgrade_game_config(INSTANCE/'config/simple-rpc', DISCORD_CONFIG.parent)
    discord_presence.repair_game_config(INSTANCE/'config/simple-rpc/simple-rpc.toml')
 
  def sync_pack(self, manifest, progress):
+  self.require_game_closed()
   progress('Checking installed Wombatcraft files…')
   if not self.pack_ready(manifest):
    self.require_pack_idle()
@@ -174,6 +177,7 @@ class Window(QWidget):
    updater.activate(manifest, records, stage, INSTANCE, DATA / 'transaction')
   launcher_update.prune(DATA / 'staging', keep=set())
   self.repair_game_discord()
+  server_list.ensure_official(INSTANCE)
 
  def install_pack(self, progress):
   manifest = self.pack_manifest(progress)

@@ -5,22 +5,22 @@ version = 3
 ip = "74.208.117.88:25565"
 [[entry.presence]]
 type = "PLAYING"
-description = "On the official server"
-state = "Building the frontier together"
-largeImageKey = ["wombatcraft_frontier"]
+description = "{{wombatcraft.details}}"
+state = "{{wombatcraft.state}}"
+largeImageKey = ["https://raw.githubusercontent.com/wombatjs/wombatcraft/main/discord/wombatcraft-logo-v2.png"]
 largeImageText = "The Wombatcraft Frontier"
-smallImageKey = ["wombatcraft"]
+smallImageKey = []
 smallImageText = "Wombatcraft"
-buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
+buttons = [{ label = "Download Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest/download/Wombatcraft-Launcher-Windows.zip" }]
 
 [[entry]]
 ip = "74.208.117.88"
 [[entry.presence]]
 type = "PLAYING"
-description = "On the official server"
-state = "Building the frontier together"
-largeImageKey = ["wombatcraft_frontier"]
+description = "{{wombatcraft.details}}"
+state = "{{wombatcraft.state}}"
+largeImageKey = ["https://raw.githubusercontent.com/wombatjs/wombatcraft/main/discord/wombatcraft-logo-v2.png"]
 largeImageText = "The Wombatcraft Frontier"
-smallImageKey = ["wombatcraft"]
+smallImageKey = []
 smallImageText = "Wombatcraft"
-buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
+buttons = [{ label = "Download Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest/download/Wombatcraft-Launcher-Windows.zip" }]

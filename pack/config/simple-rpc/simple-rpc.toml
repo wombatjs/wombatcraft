@@ -13,11 +13,11 @@ enabled = true
 type = "PLAYING"
 description = "Starting Minecraft"
 state = "Forge 1.20.1"
-largeImageKey = ["wombatcraft"]
+largeImageKey = ["https://raw.githubusercontent.com/wombatjs/wombatcraft/main/discord/wombatcraft-logo-v2.png"]
 largeImageText = "Wombatcraft"
 smallImageKey = []
 smallImageText = ""
-buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
+buttons = [{ label = "Download Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest/download/Wombatcraft-Launcher-Windows.zip" }]
 
 [main_menu]
 enabled = true
@@ -25,11 +25,11 @@ enabled = true
 type = "PLAYING"
 description = "At the main menu"
 state = "Ready to explore"
-largeImageKey = ["wombatcraft"]
+largeImageKey = ["https://raw.githubusercontent.com/wombatjs/wombatcraft/main/discord/wombatcraft-logo-v2.png"]
 largeImageText = "Wombatcraft"
 smallImageKey = []
 smallImageText = ""
-buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
+buttons = [{ label = "Download Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest/download/Wombatcraft-Launcher-Windows.zip" }]
 
 [server_list]
 enabled = true
@@ -37,11 +37,11 @@ enabled = true
 type = "PLAYING"
 description = "Browsing servers"
 state = "Multiplayer"
-largeImageKey = ["wombatcraft"]
+largeImageKey = ["https://raw.githubusercontent.com/wombatjs/wombatcraft/main/discord/wombatcraft-logo-v2.png"]
 largeImageText = "Wombatcraft"
 smallImageKey = []
 smallImageText = ""
-buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
+buttons = [{ label = "Download Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest/download/Wombatcraft-Launcher-Windows.zip" }]
 
 [join_game]
 enabled = true
@@ -49,35 +49,35 @@ enabled = true
 type = "PLAYING"
 description = "Entering the world"
 state = "Wombatcraft modpack"
-largeImageKey = ["wombatcraft"]
+largeImageKey = ["https://raw.githubusercontent.com/wombatjs/wombatcraft/main/discord/wombatcraft-logo-v2.png"]
 largeImageText = "Wombatcraft"
 smallImageKey = []
 smallImageText = ""
-buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
+buttons = [{ label = "Download Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest/download/Wombatcraft-Launcher-Windows.zip" }]
 
 [single_player]
 enabled = true
 [[single_player.presence]]
 type = "PLAYING"
-description = "Exploring the frontier"
-state = "Singleplayer"
-largeImageKey = ["wombatcraft"]
+description = "{{wombatcraft.details}}"
+state = "{{wombatcraft.state}}"
+largeImageKey = ["https://raw.githubusercontent.com/wombatjs/wombatcraft/main/discord/wombatcraft-logo-v2.png"]
 largeImageText = "Wombatcraft"
 smallImageKey = []
 smallImageText = ""
-buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
+buttons = [{ label = "Download Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest/download/Wombatcraft-Launcher-Windows.zip" }]
 
 [multi_player]
 enabled = true
 [[multi_player.presence]]
 type = "PLAYING"
-description = "Exploring with friends"
-state = "Multiplayer"
-largeImageKey = ["wombatcraft"]
+description = "{{wombatcraft.details}}"
+state = "{{wombatcraft.state}}"
+largeImageKey = ["https://raw.githubusercontent.com/wombatjs/wombatcraft/main/discord/wombatcraft-logo-v2.png"]
 largeImageText = "Wombatcraft"
 smallImageKey = []
 smallImageText = ""
-buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
+buttons = [{ label = "Download Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest/download/Wombatcraft-Launcher-Windows.zip" }]
 
 [paused]
 enabled = true
@@ -85,22 +85,22 @@ enabled = true
 type = "PLAYING"
 description = "Taking a breather"
 state = "Paused"
-largeImageKey = ["wombatcraft"]
+largeImageKey = ["https://raw.githubusercontent.com/wombatjs/wombatcraft/main/discord/wombatcraft-logo-v2.png"]
 largeImageText = "Wombatcraft"
 smallImageKey = []
 smallImageText = ""
-buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
+buttons = [{ label = "Download Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest/download/Wombatcraft-Launcher-Windows.zip" }]
 
 [generic]
 [[generic.presence]]
 type = "PLAYING"
 description = "Exploring the frontier"
 state = "Wombatcraft modpack"
-largeImageKey = ["wombatcraft"]
+largeImageKey = ["https://raw.githubusercontent.com/wombatjs/wombatcraft/main/discord/wombatcraft-logo-v2.png"]
 largeImageText = "Wombatcraft"
 smallImageKey = []
 smallImageText = ""
-buttons = [{ label = "Get Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest" }]
+buttons = [{ label = "Download Wombatcraft", url = "https://github.com/wombatjs/wombatcraft/releases/latest/download/Wombatcraft-Launcher-Windows.zip" }]
 
 [realms_list]
 enabled = false

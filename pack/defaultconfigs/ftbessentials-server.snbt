@@ -1,0 +1,5 @@
+{
+  teleportation: {
+    tpa: { enabled: true, cooldown: 10, warmup: 3 }
+  }
+}

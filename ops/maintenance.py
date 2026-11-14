@@ -5,6 +5,7 @@ from zoneinfo import ZoneInfo
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'launcher'))
 import updater
 from mc_status import status
+import server_branding
 
 STATE=Path('/var/lib/wombatcraft');STATE.mkdir(parents=True,exist_ok=True)
 CONFIG=Path('/etc/wombatcraft/production.json')
@@ -37,7 +38,7 @@ def wait_healthy(host,instance):
   time.sleep(10)
  raise RuntimeError('Minecraft did not become healthy within 15 minutes')
 def snapshot(instance,backup):
- roots=[p for p in instance.iterdir() if p.name not in {'libraries','mods','logs','crash-reports','cache','packmenu','resourcepacks'} and (p.is_dir() or p.name in {'.wombatcraft.json','server.properties','ops.json','whitelist.json','banned-players.json','banned-ips.json','usercache.json'})]
+ roots=[p for p in instance.iterdir() if p.name not in {'libraries','mods','logs','crash-reports','cache','packmenu','resourcepacks'} and (p.is_dir() or p.name in {'.wombatcraft.json','server.properties','server-icon.png','ops.json','whitelist.json','banned-players.json','banned-ips.json','usercache.json'})]
  size=sum(p.stat().st_size for r in roots for p in ([r] if r.is_file() else r.rglob('*')) if p.is_file())
  if shutil.disk_usage(backup.parent).free<size+5*1024**3:raise RuntimeError('Insufficient free space for a rollback snapshot')
  with tarfile.open(backup,'w:gz',compresslevel=1) as tar:
@@ -105,6 +106,7 @@ def main():
   raise
  try:
   if pending:updater.activate(m,records,stage,instance,STATE/'transaction')
+  server_branding.apply(instance)
   subprocess.run(['chown','-R',cfg['owner'],str(instance)],check=True)
   panel('start');wait_healthy(host,instance)
  except Exception:

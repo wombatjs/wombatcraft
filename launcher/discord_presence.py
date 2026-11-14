@@ -12,7 +12,47 @@ import tomllib
 import official_launcher
 
 
-RELEASES = 'https://github.com/wombatjs/wombatcraft/releases/latest'
+RELEASES = 'https://github.com/wombatjs/wombatcraft/releases/latest/download/Wombatcraft-Launcher-Windows.zip'
+LOGO = 'https://raw.githubusercontent.com/wombatjs/wombatcraft/main/discord/wombatcraft-logo-v2.png'
+
+
+def upgrade_game_config(directory, templates):
+    """One-time branding migration; preserve opt-out and non-Wombatcraft apps."""
+    import shutil
+    from tomlkit import parse, dumps
+    marker = directory / '.wombatcraft-v2'
+    if marker.exists():
+        return
+    path = directory / 'simple-rpc.toml'
+    try:
+        old = parse(path.read_text(encoding='utf-8'))
+        template = parse((templates / 'simple-rpc.toml').read_text(encoding='utf-8'))
+        server_template = templates / 'server-entries.toml'
+        if old['general']['applicationID'] != template['general']['applicationID']:
+            return
+        template['general']['enabled'] = old['general'].get('enabled', True)
+        shutil.copy2(path, directory / 'simple-rpc.before-wombatcraft-v2.toml')
+        temporary = directory / 'simple-rpc.new'
+        temporary.write_text(dumps(template), encoding='utf-8')
+        temporary.replace(path)
+        server = directory / 'server-entries.toml'
+        if server_template.is_file():
+            if server.exists():
+                shutil.copy2(server, directory / 'server-entries.before-wombatcraft-v2.toml')
+                existing = parse(server.read_text(encoding='utf-8'))
+                replacement = parse(server_template.read_text(encoding='utf-8'))
+                official = {'74.208.117.88', '74.208.117.88:25565'}
+                for entry in existing.get('entry', []):
+                    if entry.get('ip') not in official:
+                        replacement['entry'].append(entry)
+                replacement['enabled'] = existing.get('enabled', True)
+                server.write_text(dumps(replacement), encoding='utf-8')
+            else:
+                shutil.copy2(server_template, server)
+        marker.write_text('2\n')
+    except (OSError, ValueError, KeyError):
+        # Optional Discord customization must never block Play.
+        return
 
 
 def application_id(path):
@@ -105,11 +145,11 @@ class LauncherPresence:
                     if loop.time() >= next_update:
                         await client.update(
                             details='In the Wombatcraft Launcher',
-                            state='Getting ready to play',
+                            state=('Your next adventure awaits', 'Industry, spellcraft and discovery', 'Join the shared frontier')[int((time() - self.started_at) // 60) % 3],
                             start=self.started_at,
-                            large_image='wombatcraft',
+                            large_image=LOGO,
                             large_text='Wombatcraft',
-                            buttons=[{'label': 'Get Wombatcraft', 'url': RELEASES}],
+                            buttons=[{'label': 'Download Wombatcraft', 'url': RELEASES}],
                         )
                         published = True
                         next_update = loop.time() + 30

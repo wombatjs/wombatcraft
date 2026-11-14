@@ -1,0 +1,7 @@
+FrontierTip:
+  change-interval: 60000
+  texts:
+    - "<#D9AE7B>/tpa <player> &7to visit"
+    - "<#C8A4FF>/sethome &7to mark home"
+    - "<#AFCB9A>Open your quest book"
+    - "<#D9AE7B>/tpaccept &7to welcome friends"
