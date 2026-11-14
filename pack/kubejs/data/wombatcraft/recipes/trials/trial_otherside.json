@@ -1,0 +1,24 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "wombatcraft_trials",
+  "pattern": [
+    " O ",
+    "EKE",
+    " O "
+  ],
+  "key": {
+    "O": {
+      "item": "deeperdarker:resonarium_plate"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "K": {
+      "item": "deeperdarker:reinforced_echo_shard"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "wombatcraft:trial_otherside"
+}

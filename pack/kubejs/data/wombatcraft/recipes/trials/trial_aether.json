@@ -1,0 +1,24 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "wombatcraft_trials",
+  "pattern": [
+    " O ",
+    "EKE",
+    " O "
+  ],
+  "key": {
+    "O": {
+      "item": "aether:ambrosium_shard"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "K": {
+      "item": "aether:enchanted_gravitite"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "wombatcraft:trial_aether"
+}

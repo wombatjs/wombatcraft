@@ -1,0 +1,448 @@
+{
+  "id": "15E7846D9DDC0388",
+  "filename": "wc_frontier_trials",
+  "title": "Wombatcraft Trials",
+  "group": "0F095C8E4FA42163",
+  "icon": "gateways:gate_pearl",
+  "order_index": 60,
+  "default_quest_shape": "circle",
+  "autofocus_id": "4999924E2FFE8F0F",
+  "quests": [
+    {
+      "id": "4999924E2FFE8F0F",
+      "title": "The Muster",
+      "icon": "gateways:gate_pearl",
+      "description": [
+        "Bring a shield and food, then choose an expedition. Open each gate in clear terrain away from your settlement. Fight together and collect the crest after the last wave."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "diamond",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "62E44C573F231C2D",
+          "type": "item",
+          "item": "minecraft:shield",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "44126017AEEFAC57",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
+        },
+        {
+          "id": "435E37D775F4E3CF",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "0EFCFB65979AD639",
+      "title": "The Thornwood Supplies",
+      "icon": "twilightforest:ironwood_ingot",
+      "description": [
+        "A forest's iron and a trophy forged in flame open the gate. Expect wraiths among the redcaps."
+      ],
+      "subtitle": "",
+      "x": -5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "4999924E2FFE8F0F"
+      ],
+      "tasks": [
+        {
+          "id": "2024C2D84369D94B",
+          "type": "item",
+          "item": "twilightforest:ironwood_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2EE2FFCC54CA52A2",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "575331F8B1239B9E",
+      "title": "The Thornwood Gate",
+      "icon": "twilightforest:fiery_ingot",
+      "description": [
+        "Combine two of the listed supply, this material and two ender pearls in a crafting table. Find the matching trial pearl in JEI."
+      ],
+      "subtitle": "",
+      "x": -5,
+      "y": 5,
+      "shape": "rsquare",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "0EFCFB65979AD639"
+      ],
+      "tasks": [
+        {
+          "id": "2C1EED5F0A5109BA",
+          "type": "item",
+          "item": "twilightforest:fiery_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E49BA4E18D111CC",
+          "type": "item",
+          "item": "minecraft:ender_pearl",
+          "count": 2
+        },
+        {
+          "id": "6E41BDB0122F27F5",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "1A0E00B3F39FAA60",
+      "title": "The Thornwood Crest",
+      "icon": "kubejs:trial_twilight_crest",
+      "description": [
+        "Open the matching pearl and defeat all three waves. Pick up the crest to record the win, then keep it for the Convergence Forge."
+      ],
+      "subtitle": "",
+      "x": -5,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "575331F8B1239B9E"
+      ],
+      "tasks": [
+        {
+          "id": "22D3ECC29368B3DC",
+          "type": "item",
+          "item": "kubejs:trial_twilight_crest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D0D40F3832A59E3",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "5837EB81065A939E",
+          "type": "item",
+          "item": "artifacts:steadfast_spikes",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "5C21F6E815A9E015",
+      "title": "The High Sky Supplies",
+      "icon": "aether:ambrosium_shard",
+      "description": [
+        "Enchant gravitite at an Aether altar and pair it with ambrosium. Bring a bow for the cockatrices and give the sentries room."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "4999924E2FFE8F0F"
+      ],
+      "tasks": [
+        {
+          "id": "1551217E19546D21",
+          "type": "item",
+          "item": "aether:ambrosium_shard",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "45B9575B3B821876",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "02F9F8811A166178",
+      "title": "The High Sky Gate",
+      "icon": "aether:enchanted_gravitite",
+      "description": [
+        "Combine two of the listed supply, this material and two ender pearls in a crafting table. Find the matching trial pearl in JEI."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 5,
+      "shape": "rsquare",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "5C21F6E815A9E015"
+      ],
+      "tasks": [
+        {
+          "id": "5B01DB6CFF53AE01",
+          "type": "item",
+          "item": "aether:enchanted_gravitite",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "60FB2BAEDE5EA3E7",
+          "type": "item",
+          "item": "minecraft:ender_pearl",
+          "count": 2
+        },
+        {
+          "id": "7A6477B3E17D506E",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "6B9398940F4EEAC7",
+      "title": "The High Sky Crest",
+      "icon": "kubejs:trial_aether_crest",
+      "description": [
+        "Open the matching pearl and defeat all three waves. Pick up the crest to record the win, then keep it for the Convergence Forge."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "02F9F8811A166178"
+      ],
+      "tasks": [
+        {
+          "id": "23BFE9A034F9B633",
+          "type": "item",
+          "item": "kubejs:trial_aether_crest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "51A4C865BB10CBAE",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 12
+        },
+        {
+          "id": "6F25218AE492BAAB",
+          "type": "item",
+          "item": "artifacts:cloud_in_a_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0321EECF15E5B413",
+      "title": "The Echo Supplies",
+      "icon": "deeperdarker:resonarium_plate",
+      "description": [
+        "Return from the Otherside with resonarium plates and a reinforced echo shard. Keep clear of the stalkers as their pack closes in."
+      ],
+      "subtitle": "",
+      "x": 5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "4999924E2FFE8F0F"
+      ],
+      "tasks": [
+        {
+          "id": "330D22333969AB83",
+          "type": "item",
+          "item": "deeperdarker:resonarium_plate",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "368E5934DC3B0D6A",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "18A1B2D78106D5B4",
+      "title": "The Echo Gate",
+      "icon": "deeperdarker:reinforced_echo_shard",
+      "description": [
+        "Combine two of the listed supply, this material and two ender pearls in a crafting table. Find the matching trial pearl in JEI."
+      ],
+      "subtitle": "",
+      "x": 5,
+      "y": 5,
+      "shape": "rsquare",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "0321EECF15E5B413"
+      ],
+      "tasks": [
+        {
+          "id": "03EB376C0E4FF5B5",
+          "type": "item",
+          "item": "deeperdarker:reinforced_echo_shard",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7F6993072786ECBC",
+          "type": "item",
+          "item": "minecraft:ender_pearl",
+          "count": 2
+        },
+        {
+          "id": "5A250666DC0BCEAA",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "5218CF002ADDA218",
+      "title": "The Echo Crest",
+      "icon": "kubejs:trial_otherside_crest",
+      "description": [
+        "Open the matching pearl and defeat all three waves. Pick up the crest to record the win, then keep it for the Convergence Forge."
+      ],
+      "subtitle": "",
+      "x": 5,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "18A1B2D78106D5B4"
+      ],
+      "tasks": [
+        {
+          "id": "3B34D07E7A80C98B",
+          "type": "item",
+          "item": "kubejs:trial_otherside_crest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6B0EA2915E0C71A1",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "2D43BF8776094B87",
+          "type": "item",
+          "item": "artifacts:night_vision_goggles",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "7D9DF9D036479B33",
+      "title": "Three Gates, One Company",
+      "icon": "kubejs:trial_twilight_crest",
+      "description": [
+        "Bring the three crests together. After the quest records them, take them to the Forge to cast the Keystone."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 10,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "1A0E00B3F39FAA60",
+        "6B9398940F4EEAC7",
+        "5218CF002ADDA218"
+      ],
+      "tasks": [
+        {
+          "id": "113EAF90FCF807C2",
+          "type": "item",
+          "item": "kubejs:trial_twilight_crest",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "1159EE644E9BF09C",
+          "type": "item",
+          "item": "kubejs:trial_aether_crest",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "3ADC72ECB2A7E6F0",
+          "type": "item",
+          "item": "kubejs:trial_otherside_crest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "41C138E10E15B2C9",
+          "type": "item",
+          "item": "minecraft:totem_of_undying",
+          "count": 1
+        },
+        {
+          "id": "62F195C65E080288",
+          "type": "item",
+          "item": "minecraft:enchanted_golden_apple",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

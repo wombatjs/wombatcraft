@@ -45,7 +45,7 @@ assert hashlib.sha512(installer.read_bytes()).hexdigest()=='8fd435b269ea75a97340
 with (dest/'install.log').open('w') as log:subprocess.run(['java','-jar',str(installer),'--installServer'],cwd=dest,stdout=log,stderr=subprocess.STDOUT,check=True,timeout=600)
 classes=dest/'qa-classes';classes.mkdir(exist_ok=True)
 cp=os.pathsep.join(str(p) for folder in ['net/minecraftforge/forge','net/minecraftforge/javafmllanguage','net/minecraftforge/eventbus'] for p in (dest/'libraries'/folder).rglob('*.jar') if not any(k in p.name for k in ['sources','installer','client','extra']))
-subprocess.run(['javac','-proc:none','-cp',cp,'-d',str(classes),str(ROOT/'tools/qa/ForgeQuestAudit.java')],check=True)
+subprocess.run(['javac','-proc:none','-cp',cp,'-d',str(classes),*(str(source) for source in sorted((ROOT/'tools/qa').glob('*.java')))],check=True)
 with zipfile.ZipFile(mods/'forge-quest-audit.jar','w') as z:
  z.writestr('META-INF/mods.toml','modLoader="javafml"\nloaderVersion="[47,)"\nlicense="MIT"\n[[mods]]\nmodId="forge_quest_audit"\nversion="1.0.0"\ndisplayName="Wombatcraft CI audit"\n')
  for p in classes.rglob('*.class'):z.write(p,p.relative_to(classes).as_posix())
@@ -60,8 +60,8 @@ for boot in range(2):
    while time.monotonic()<deadline:
     if process.poll() is not None:raise RuntimeError('Dedicated server exited before startup completed')
     text=(dest/'console.log').read_text(errors='replace')
-    if 'Failed to start the minecraft server' in text or 'Mod Loading has failed' in text:raise RuntimeError('Fatal mod loading failure; see console.log')
-    if ')! For help, type ' in text and all(marker in text for marker in ('QUEST_AUDIT_COMPLETE','RECIPE_AUDIT_COMPLETE','COMMAND_AUDIT_COMPLETE','PORTAL_CHUNK_AUDIT_COMPLETE')):break
+    if any(error in text for error in ('Failed to start the minecraft server', 'Mod Loading has failed', 'Frontier gameplay audit failed')):raise RuntimeError('Fatal mod loading failure; see console.log')
+    if ')! For help, type ' in text and all(marker in text for marker in ('QUEST_AUDIT_COMPLETE','RECIPE_AUDIT_COMPLETE','COMMAND_AUDIT_COMPLETE','PORTAL_CHUNK_AUDIT_COMPLETE','FRONTIER_GAMEPLAY_AUDIT_COMPLETE')):break
     time.sleep(5)
    else:raise TimeoutError('Dedicated server startup timed out')
    chapters=[json.loads(p.read_text()) for p in (ROOT/'pack/config/ftbquests/quests/chapters').glob('*.snbt')];quests=[q for c in chapters for q in c['quests']]
@@ -74,9 +74,14 @@ for boot in range(2):
    targets={t['entity'] for q in quests for t in q.get('tasks',[]) if t.get('type')=='kill'}
    assert not targets-entities,'Missing runtime entities: '+str(sorted(targets-entities))
    loaded_advancements=set((dest/'advancement-registry.txt').read_text().splitlines())
-   requested={t['advancement'] for c in chapters if c['filename'].startswith('wc_dimension_exp_') for q in c['quests'] for t in q['tasks'] if t['type']=='advancement'}
-   assert not requested-loaded_advancements,'Unloaded expedition advancements: '+str(sorted(requested-loaded_advancements))
+   requested={t['advancement'] for c in chapters if c['filename'].startswith(('wc_dimension_exp_', 'wc_frontier_')) for q in c['quests'] for t in q['tasks'] if t['type']=='advancement'}
+   assert not requested-loaded_advancements,'Unloaded authored advancements: '+str(sorted(requested-loaded_advancements))
    recipes=set((dest/'recipe-registry.txt').read_text().splitlines());endgame={'kubejs:endgame/'+name for name in ['industrial_sigil','arcane_sigil','voyager_sigil','prosperity_sigil','convergence_core']};assert endgame<=recipes,'Missing endgame recipes'
+   frontier_recipes = {f'wombatcraft:convergence/{name}' for name in ('controller','alloy','lens','keystone','wayfarers_lens','trials_beacon')}
+   frontier_recipes |= {f'wombatcraft:trials/trial_{name}' for name in ('twilight','aether','otherside')}
+   assert frontier_recipes <= recipes, 'Missing frontier recipes: '+str(sorted(frontier_recipes-recipes))
+   for error in ("Couldn't parse element loot_tables:rctmod:", "Couldn't parse element loot_tables:idas:", "Couldn't parse spawner mob list idas:", "Couldn't load tag idas:"):
+    assert error not in text, 'Unresolved optional integration: '+error
    assert 'Parsing error loading recipe' not in text,'Recipe parse errors'
    assert 'mekanism:crushing/venus_sandstone_to_venus_sand' in recipes,'Missing Venus sandstone recipe'
    assert 'Incomplete recipe detected: mekanism:crushing/venus_sandstone_to_venus_sand' not in text,'Broken Venus sandstone ingredient'
@@ -120,7 +125,7 @@ for boot in range(2):
      else:raise TimeoutError('Dimension generation timed out: '+d['dimension'])
      print('Generated destination',d['dimension'],flush=True)
     (ROOT/'dist/dimension-generation.json').write_text(json.dumps(explored,indent=2))
-   (ROOT/'dist/server-validation.json').write_text(json.dumps(dict(quests=len(quests),registry_items=len(registry),recipes=len(recipes),endgame_recipes=sorted(endgame),server_commands=sorted(required_commands),portal_chunk_tracking_verified=True,fresh_world_started=True,restarted_cleanly=boot==1),indent=2))
+   (ROOT/'dist/server-validation.json').write_text(json.dumps(dict(quests=len(quests),registry_items=len(registry),recipes=len(recipes),endgame_recipes=sorted(endgame),server_commands=sorted(required_commands),portal_chunk_tracking_verified=True,frontier_trials_verified=3,convergence_forge_recipes_verified=3,fresh_world_started=True,restarted_cleanly=boot==1),indent=2))
    print('Dedicated server, quest registry and endgame recipe validation passed.')
   finally:
    if process.poll() is None:

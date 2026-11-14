@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_s"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:great_ball"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:revive"
+        }
+      ]
+    }
+  ]
+}

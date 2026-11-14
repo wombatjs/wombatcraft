@@ -9,13 +9,14 @@ from quest_content import refine_chapters
 from dimension_quests import add_dimensions
 from quest_layout import chapter_key, lay_out_atlas, lay_out_lanes
 from quest_rewards import apply_rewards
+from frontier_chapters import add_frontier_chapters
 ROOT=Path(__file__).resolve().parents[1]
 def uid(s):return f"{int(hashlib.sha256(('wombatcraft/'+s).encode()).hexdigest()[:16],16) & 0x7FFFFFFFFFFFFFFF:016X}"
 def save(p,d):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(d,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
 
 def build(registry,names):
  dest=ROOT/'pack/config/ftbquests/quests';chapters=dest/'chapters'
- groups=json.loads((dest/'chapter_groups.snbt').read_text())['chapter_groups']
+ groups=json.loads((dest/'chapter_groups.snbt').read_text(encoding='utf-8'))['chapter_groups']
  gids={g['title']:g['id'] for g in groups}
  lanes=collections.defaultdict(list)
  for line in (ROOT/'quests/progression.txt').read_text(encoding='utf-8').splitlines():
@@ -85,19 +86,19 @@ def build(registry,names):
   save(chapters/filename,chapter)
   reports.append(dict(chapter=title,quests=len(qs),lanes=len(ls)))
  # Player-facing starter copy stays in the world, with technical notes in README.
- p=chapters/'00_start_here.snbt';d=json.loads(p.read_text())
+ p=chapters/'00_start_here.snbt';d=json.loads(p.read_text(encoding='utf-8'))
  for q in d['quests']:
   if q['title']=='Choose your direction':
    q['title']='A foothold in Wombatcraft';q['description']=['Raise a workshop, study the arcane, chart distant lands or build a thriving settlement. Each path has its own discoveries.','', 'Their greatest works meet at the Convergence. Begin with a shelter and follow the branch that calls to you.']
  save(p,d)
- data=json.loads((dest/'data.snbt').read_text());data['title']='Wombatcraft';save(dest/'data.snbt',data)
+ data=json.loads((dest/'data.snbt').read_text(encoding='utf-8'));data['title']='Wombatcraft';save(dest/'data.snbt',data)
  replacement_goals={};chapter_heads={}
  for p in chapters.glob('wc_*.snbt'):
-  d=json.loads(p.read_text());chapter_heads[d['title']]=d['quests'][0]['id']
+  d=json.loads(p.read_text(encoding='utf-8'));chapter_heads[d['title']]=d['quests'][0]['id']
   for q in d['quests']:replacement_goals[q['tasks'][0]['item']]=q['id']
  book={}
  for p in chapters.glob('*.snbt'):
-  d=json.loads(p.read_text())
+  d=json.loads(p.read_text(encoding='utf-8'))
   d['title']=d['title'].replace(' & ',' and ')
   for q in d['quests']:
    q['title']=q['title'].replace(' & ',' and ')
@@ -130,6 +131,7 @@ def build(registry,names):
   book[p.stem]=d
  refine_chapters(book,uid)
  destinations=add_dimensions(book,uid)
+ add_frontier_chapters(book,uid,registry)
  apply_rewards(book,uid,registry)
  save(ROOT/'docs/dimension-atlas.json',destinations)
  for filename,d in book.items():save(chapters/(filename+'.snbt'),d)
@@ -143,4 +145,4 @@ def build(registry,names):
 
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--registry',required=True,type=Path);p.add_argument('--index',required=True,type=Path);a=p.parse_args()
- build(set(a.registry.read_text().splitlines()),json.loads(a.index.read_text())['items'])
+ build(set(a.registry.read_text(encoding='utf-8').splitlines()),json.loads(a.index.read_text(encoding='utf-8'))['items'])

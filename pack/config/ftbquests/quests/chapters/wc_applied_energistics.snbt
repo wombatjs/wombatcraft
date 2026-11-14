@@ -2226,7 +2226,7 @@
     },
     {
       "id": "7161F4040562B3C8",
-      "title": "2Â³ Spatial Component",
+      "title": "2³ Spatial Component",
       "subtitle": "",
       "description": [],
       "icon": "ae2:spatial_cell_component_2",
@@ -2250,7 +2250,7 @@
     },
     {
       "id": "6381BA58DD049245",
-      "title": "2Â³ Spatial Storage Cell",
+      "title": "2³ Spatial Storage Cell",
       "subtitle": "",
       "description": [],
       "icon": "ae2:spatial_storage_cell_2",
@@ -2286,7 +2286,7 @@
     },
     {
       "id": "779CE38C79F3B8A7",
-      "title": "16Â³ Spatial Storage Cell",
+      "title": "16³ Spatial Storage Cell",
       "subtitle": "",
       "description": [],
       "icon": "ae2:spatial_storage_cell_16",
@@ -2310,7 +2310,7 @@
     },
     {
       "id": "0432F44ADC230D05",
-      "title": "128Â³ Spatial Storage Cell",
+      "title": "128³ Spatial Storage Cell",
       "subtitle": "",
       "description": [],
       "icon": "ae2:spatial_storage_cell_128",

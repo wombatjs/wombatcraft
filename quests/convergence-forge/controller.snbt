@@ -1,0 +1,57 @@
+{
+  definition: {
+    id: "wombatcraft:convergence_forge",
+    stateMachine: {root: {
+      name: "base",
+      renderer: {enable: 1b, value: {_type: "json_model", modelLocation: "wombatcraft:block/convergence_forge"}},
+      children: [{name: "formed", children: [
+        {name: "working", lightLevel: {enable: 1b, value: 11}, children: [{name: "waiting"}]},
+        {name: "suspend"}
+      ]}]
+    }},
+    machineSettings: {traitDefinitions: [
+      {_type: "item_slot", name: "ingredients", slotSize: 6, recipeHandlerIO: "IN",
+       capabilityIO: {internal: "IN", frontIO: "IN", backIO: "IN", leftIO: "IN", rightIO: "IN", topIO: "IN", bottomIO: "IN"}},
+      {_type: "item_slot", name: "products", slotSize: 2, recipeHandlerIO: "OUT", guiIO: "OUT",
+       capabilityIO: {internal: "OUT", frontIO: "OUT", backIO: "OUT", leftIO: "OUT", rightIO: "OUT", topIO: "OUT", bottomIO: "OUT"}},
+      {_type: "forge_energy_storage", name: "charge", capacity: 4000000, maxReceive: 32768, maxExtract: 0},
+      {_type: "botania_mana_storage", name: "mana", capacity: 1000000}
+    ]},
+    recipeLogicSettings: {enable: 1b, recipeType: "wombatcraft:convergence_forging"}
+  },
+  resources: {"mbd2.gui.editor.group.predicate": {
+    frame: {_type: "blocks", blocks: [{t: 11b, p: "create:brass_block"}]},
+    cap: {_type: "blocks", blocks: [{t: 11b, p: "minecraft:crying_obsidian"}]}
+  }},
+  layer_axis: "Z",
+  aisle_repetitions: [I; 1, 1],
+  placeholders: {
+    x: 3, y: 2, z: 1,
+    holders: [
+      {predicates: ["frame"], facing: 2},
+      {predicates: ["cap"], facing: 2},
+      {isController: 1b, facing: 2}
+    ],
+    pattern: [I; 0, 1, 2, 0, 0, 1]
+  },
+  ui: {
+    size: {width: 176, height: 166},
+    background: {_type: "color_rect_texture", color: -11843495},
+    children: [
+      {type: "label", data: {selfPosition: {x: 8, y: 8}, text: "Convergence Forge", color: -2749}},
+      {type: "label", data: {selfPosition: {x: 8, y: 22}, text: "Ingredients", color: -1314826}},
+      {type: "label", data: {selfPosition: {x: 122, y: 22}, text: "Products", color: -1314826}},
+      {type: "item_slot", data: {id: "ui:ingredients_0", selfPosition: {x: 8, y: 34}}},
+      {type: "item_slot", data: {id: "ui:ingredients_1", selfPosition: {x: 26, y: 34}}},
+      {type: "item_slot", data: {id: "ui:ingredients_2", selfPosition: {x: 44, y: 34}}},
+      {type: "item_slot", data: {id: "ui:ingredients_3", selfPosition: {x: 62, y: 34}}},
+      {type: "item_slot", data: {id: "ui:ingredients_4", selfPosition: {x: 80, y: 34}}},
+      {type: "item_slot", data: {id: "ui:ingredients_5", selfPosition: {x: 98, y: 34}}},
+      {type: "item_slot", data: {id: "ui:products_0", selfPosition: {x: 124, y: 34}}},
+      {type: "item_slot", data: {id: "ui:products_1", selfPosition: {x: 142, y: 34}}},
+      {type: "progress", data: {id: "ui:progress_bar", selfPosition: {x: 8, y: 56}, size: {width: 152, height: 8}}},
+      {type: "label", data: {selfPosition: {x: 8, y: 69}, text: "Supply FE and aim a Mana Spreader here.", color: -1314826}},
+      {type: "player_inventory", data: {selfPosition: {x: 2, y: 80}}}
+    ]
+  }
+}

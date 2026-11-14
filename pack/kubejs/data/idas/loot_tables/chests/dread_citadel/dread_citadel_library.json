@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:permafrost"
+        }
+      ]
+    }
+  ]
+}

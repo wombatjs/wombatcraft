@@ -11,6 +11,8 @@ def apply_rewards(book, uid, registry):
     report = Counter()
     matched = set()
     for chapter in book.values():
+        if chapter.get('filename', '').startswith('wc_frontier_'):
+            continue
         group = groups.get(chapter.get('group'), '')
         for index, quest in enumerate(chapter['quests']):
             tasks = quest.get('tasks', [])

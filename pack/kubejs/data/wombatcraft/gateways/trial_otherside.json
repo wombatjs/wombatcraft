@@ -1,0 +1,94 @@
+{
+  "size": "medium",
+  "color": "#68CBC7",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "deeperdarker:shattered",
+          "count": 4
+        },
+        {
+          "entity": "deeperdarker:sculk_centipede",
+          "count": 3
+        }
+      ],
+      "modifiers": [],
+      "rewards": [],
+      "max_wave_time": 2400,
+      "setup_time": 120
+    },
+    {
+      "entities": [
+        {
+          "entity": "deeperdarker:sculk_snapper",
+          "count": 3
+        },
+        {
+          "entity": "deeperdarker:shattered",
+          "count": 4
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.2
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:stack",
+          "stack": {
+            "item": "minecraft:golden_carrot",
+            "count": 4
+          }
+        }
+      ],
+      "max_wave_time": 2400,
+      "setup_time": 120
+    },
+    {
+      "entities": [
+        {
+          "entity": "deeperdarker:stalker",
+          "count": 2
+        },
+        {
+          "entity": "deeperdarker:sculk_snapper",
+          "count": 4
+        },
+        {
+          "entity": "deeperdarker:sculk_centipede",
+          "count": 2
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.4
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 2400,
+      "setup_time": 120
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:stack",
+      "stack": {
+        "item": "kubejs:trial_otherside_crest",
+        "count": 1
+      }
+    }
+  ],
+  "rules": {
+    "player_damage_only": true,
+    "spacing": 48,
+    "spawn_range": 8,
+    "leash_range": 28,
+    "remove_mobs_on_failure": true
+  }
+}

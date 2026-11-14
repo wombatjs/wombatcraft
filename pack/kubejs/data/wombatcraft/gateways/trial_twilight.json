@@ -1,0 +1,94 @@
+{
+  "size": "medium",
+  "color": "#8BBB6C",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "twilightforest:kobold",
+          "count": 5
+        },
+        {
+          "entity": "twilightforest:skeleton_druid",
+          "count": 2
+        }
+      ],
+      "modifiers": [],
+      "rewards": [],
+      "max_wave_time": 2400,
+      "setup_time": 120
+    },
+    {
+      "entities": [
+        {
+          "entity": "twilightforest:redcap",
+          "count": 4
+        },
+        {
+          "entity": "twilightforest:redcap_sapper",
+          "count": 2
+        },
+        {
+          "entity": "twilightforest:wraith",
+          "count": 2
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.2
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:stack",
+          "stack": {
+            "item": "minecraft:arrow",
+            "count": 4
+          }
+        }
+      ],
+      "max_wave_time": 2400,
+      "setup_time": 120
+    },
+    {
+      "entities": [
+        {
+          "entity": "twilightforest:wraith",
+          "count": 4
+        },
+        {
+          "entity": "twilightforest:skeleton_druid",
+          "count": 3
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.max_health",
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.4
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 2400,
+      "setup_time": 120
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:stack",
+      "stack": {
+        "item": "kubejs:trial_twilight_crest",
+        "count": 1
+      }
+    }
+  ],
+  "rules": {
+    "player_damage_only": true,
+    "spacing": 48,
+    "spawn_range": 8,
+    "leash_range": 28,
+    "remove_mobs_on_failure": true
+  }
+}

@@ -1,0 +1,585 @@
+{
+  "id": "518F4CEA2EE5BF71",
+  "filename": "wc_frontier_expeditions",
+  "title": "Ruins and Expeditions",
+  "group": "00AA8F374274B5F3",
+  "icon": "minecraft:spyglass",
+  "order_index": 64,
+  "default_quest_shape": "circle",
+  "autofocus_id": "6E62A58C8B229C36",
+  "quests": [
+    {
+      "id": "6E62A58C8B229C36",
+      "title": "The Surveyor's Kit",
+      "icon": "minecraft:spyglass",
+      "description": [
+        "Bring a spyglass and a way home. Search uncharted lands with an Explorer's Compass and step inside each site to record it."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "diamond",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "12D512A695018BC6",
+          "type": "item",
+          "item": "minecraft:spyglass",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5B465E2E81D1F36D",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        },
+        {
+          "id": "2B489409D6B01D99",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "65E56D5E0D96CBE3",
+      "title": "The Hunter's Cabin",
+      "icon": "minecraft:campfire",
+      "description": [
+        "Survey the cabin and take stock before heading further from the road."
+      ],
+      "subtitle": "",
+      "x": -6,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "6E62A58C8B229C36"
+      ],
+      "tasks": [
+        {
+          "id": "3E1C01873665C3E9",
+          "type": "advancement",
+          "advancement": "idas:hunters_cabin"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6A4EEF20C489B194",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 2
+        },
+        {
+          "id": "29254652C952DB28",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "4F68F8E6D82F74A0",
+      "title": "The Ancient Mines",
+      "icon": "minecraft:iron_pickaxe",
+      "description": [
+        "Descend with light and spare pickaxes. Follow the workings into the lower galleries."
+      ],
+      "subtitle": "",
+      "x": -6,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "65E56D5E0D96CBE3"
+      ],
+      "tasks": [
+        {
+          "id": "47C2974B9B821305",
+          "type": "advancement",
+          "advancement": "idas:ancient_mines"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7958CB77300B220C",
+          "type": "item",
+          "item": "artifacts:digging_claws",
+          "count": 1
+        },
+        {
+          "id": "3972CE57ACC36A96",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "217F5A4327DE80BB",
+      "title": "Tinker's Workshop",
+      "icon": "create:precision_mechanism",
+      "description": [
+        "Investigate the old machinery. Follow moving parts from a safe position before crossing them."
+      ],
+      "subtitle": "",
+      "x": -6,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "4F68F8E6D82F74A0"
+      ],
+      "tasks": [
+        {
+          "id": "037041204445E03C",
+          "type": "advancement",
+          "advancement": "idas:tinkers_workshop"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18ADB8E87B7FFDAB",
+          "type": "item",
+          "item": "create:wrench",
+          "count": 1
+        },
+        {
+          "id": "39DD9B9E5B4463BD",
+          "type": "item",
+          "item": "create:precision_mechanism",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "18B56EA5ACB8D675",
+      "title": "The Tinker's Citadel",
+      "icon": "create:brass_block",
+      "description": [
+        "Reach the citadel and search its upper works. Carry a return route and keep a spare set of tools."
+      ],
+      "subtitle": "",
+      "x": -6,
+      "y": 10.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "217F5A4327DE80BB"
+      ],
+      "tasks": [
+        {
+          "id": "5C8AC83EC1ABF656",
+          "type": "advancement",
+          "advancement": "idas:tinkers_citadel"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5F305BF1CB3175D7",
+          "type": "item",
+          "item": "create:precision_mechanism",
+          "count": 8
+        },
+        {
+          "id": "43ED545D53622172",
+          "type": "item",
+          "item": "create:blaze_cake",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "3F969741280AF42B",
+      "title": "The Apothecary",
+      "icon": "minecraft:brewing_stand",
+      "description": [
+        "Step into the old apothecary and look for the tools of the local trade."
+      ],
+      "subtitle": "",
+      "x": -2,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "6E62A58C8B229C36"
+      ],
+      "tasks": [
+        {
+          "id": "7BA1C1ABE4072B14",
+          "type": "advancement",
+          "advancement": "idas:apothecary_abode"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05294DCFDF202C84",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 16
+        },
+        {
+          "id": "64FCE4E660019295",
+          "type": "item",
+          "item": "minecraft:glowstone_dust",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "135E783ACFAD4EBC",
+      "title": "The Archmage's Tower",
+      "icon": "ars_nouveau:source_gem",
+      "description": [
+        "Approach the tower with a way out. Search for supplies worth bringing back to your scriptorium."
+      ],
+      "subtitle": "",
+      "x": -2,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "3F969741280AF42B"
+      ],
+      "tasks": [
+        {
+          "id": "20348951BAF29C9F",
+          "type": "advancement",
+          "advancement": "idas:archmages_tower"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "120BEF07C00B5D27",
+          "type": "item",
+          "item": "ars_nouveau:source_gem",
+          "count": 12
+        },
+        {
+          "id": "63294D5539A41AA4",
+          "type": "item",
+          "item": "ars_nouveau:warp_scroll",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "47A60FACA988D81A",
+      "title": "The Necromancer's Spire",
+      "icon": "minecraft:soul_lantern",
+      "description": [
+        "Scale the spire and reach the heart of the ruin. Bring healing and room to retreat."
+      ],
+      "subtitle": "",
+      "x": -2,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "135E783ACFAD4EBC"
+      ],
+      "tasks": [
+        {
+          "id": "1F52898206D0AA2B",
+          "type": "advancement",
+          "advancement": "idas:necromancers_spire"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6555232DE039CB71",
+          "type": "item",
+          "item": "minecraft:totem_of_undying",
+          "count": 1
+        },
+        {
+          "id": "3286470D7EA90D8A",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "74897ACCEB0E020B",
+      "title": "Bearclaw Inn",
+      "icon": "minecraft:lantern",
+      "description": [
+        "Find the inn and establish a place to regroup before heading into hostile country."
+      ],
+      "subtitle": "",
+      "x": 2,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "6E62A58C8B229C36"
+      ],
+      "tasks": [
+        {
+          "id": "36EACF23FE878C79",
+          "type": "advancement",
+          "advancement": "idas:bearclaw_inn"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "300B0DA0FA61A71B",
+          "type": "item",
+          "item": "minecraft:lantern",
+          "count": 12
+        },
+        {
+          "id": "614E585B1C996FA6",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "44135FA5B6FD25C2",
+      "title": "Pillager Fortress",
+      "icon": "minecraft:crossbow",
+      "description": [
+        "Cross the perimeter and explore the fortress. Ranged cover helps in its exposed approaches."
+      ],
+      "subtitle": "",
+      "x": 2,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "74897ACCEB0E020B"
+      ],
+      "tasks": [
+        {
+          "id": "1D9D5D64F96ABE8A",
+          "type": "advancement",
+          "advancement": "idas:pillager_fortress"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D545503BA1EAC33",
+          "type": "item",
+          "item": "minecraft:spectral_arrow",
+          "count": 24
+        },
+        {
+          "id": "7918743C091F7B00",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "15CC54AACC24FEAC",
+      "title": "The Labyrinth",
+      "icon": "minecraft:compass",
+      "description": [
+        "Enter with spare light and mark your route through the maze."
+      ],
+      "subtitle": "",
+      "x": 2,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "44135FA5B6FD25C2"
+      ],
+      "tasks": [
+        {
+          "id": "4F90A9A1A9A8AA3E",
+          "type": "advancement",
+          "advancement": "idas:labyrinth"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3ADF65598D997935",
+          "type": "item",
+          "item": "artifacts:running_shoes",
+          "count": 1
+        },
+        {
+          "id": "29BF6810A0EA9090",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "0A36DFF3E68778D5",
+      "title": "Fisherman's Lodge",
+      "icon": "minecraft:fishing_rod",
+      "description": [
+        "Chart a lodge on the water and prepare supplies for your dive."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "6E62A58C8B229C36"
+      ],
+      "tasks": [
+        {
+          "id": "38B003932C89E2E7",
+          "type": "advancement",
+          "advancement": "idas:fishermans_lodge"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "43AE667B23CA4B02",
+          "type": "item",
+          "item": "minecraft:cooked_salmon",
+          "count": 12
+        },
+        {
+          "id": "291F9B740E93CFE2",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "4DB6C2F331FEDF24",
+      "title": "The Sunken Ship",
+      "icon": "minecraft:heart_of_the_sea",
+      "description": [
+        "Dive to the wreck. Look for pockets of air and check your route to the surface."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "0A36DFF3E68778D5"
+      ],
+      "tasks": [
+        {
+          "id": "3BB6695BE908FADE",
+          "type": "advancement",
+          "advancement": "idas:sunken_ship"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4564B6F73F9BDA94",
+          "type": "item",
+          "item": "artifacts:flippers",
+          "count": 1
+        },
+        {
+          "id": "16D46B8BC66F597F",
+          "type": "item",
+          "item": "minecraft:prismarine_crystals",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "0CE5FE7F9711C529",
+      "title": "The Ruins of the Deep",
+      "icon": "minecraft:conduit",
+      "description": [
+        "Reach the ruins below the sea and return with a route your crew can follow."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "4DB6C2F331FEDF24"
+      ],
+      "tasks": [
+        {
+          "id": "146AAE019C2A4422",
+          "type": "advancement",
+          "advancement": "idas:ruins_of_the_deep"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "72A12D44B66AB836",
+          "type": "item",
+          "item": "minecraft:heart_of_the_sea",
+          "count": 1
+        },
+        {
+          "id": "793D5C79D2EA4805",
+          "type": "item",
+          "item": "minecraft:prismarine",
+          "count": 24
+        }
+      ]
+    },
+    {
+      "id": "25C2D4AAE91C4C2F",
+      "title": "The Far Roads",
+      "icon": "minecraft:spyglass",
+      "description": [
+        "Record the four expeditions in your journal. Bring back a story from each route for the next traveler."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 13,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "18B56EA5ACB8D675",
+        "47A60FACA988D81A",
+        "15CC54AACC24FEAC",
+        "0CE5FE7F9711C529"
+      ],
+      "tasks": [
+        {
+          "id": "323864505F864DDB",
+          "type": "checkmark",
+          "title": "Close the survey"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "46ACF7781B8554F4",
+          "type": "item",
+          "item": "waystones:warp_stone",
+          "count": 1
+        },
+        {
+          "id": "083731397A9CC5DA",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 16
+        }
+      ]
+    }
+  ]
+}

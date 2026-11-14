@@ -1,0 +1,24 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "wombatcraft_trials",
+  "pattern": [
+    " O ",
+    "EKE",
+    " O "
+  ],
+  "key": {
+    "O": {
+      "item": "twilightforest:ironwood_ingot"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "K": {
+      "item": "twilightforest:fiery_ingot"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "wombatcraft:trial_twilight"
+}

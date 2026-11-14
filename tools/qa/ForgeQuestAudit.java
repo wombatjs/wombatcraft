@@ -10,7 +10,10 @@ public class ForgeQuestAudit {
  public ForgeQuestAudit(){
   try { Object bus=Class.forName("net.minecraftforge.common.MinecraftForge").getField("EVENT_BUS").get(null);Class.forName("net.minecraftforge.eventbus.api.IEventBus").getMethod("register",Object.class).invoke(bus,this); } catch(Exception e){throw new RuntimeException(e);}
  }
- @SubscribeEvent public void started(ServerStartedEvent event){audit();auditRecipes(event);auditAdvancements(event);auditCommands(event);auditPortalChunkTracking(event);auditPortalPolicy();}
+ @SubscribeEvent public void started(ServerStartedEvent event){audit();auditRecipes(event);auditAdvancements(event);auditCommands(event);auditPortalChunkTracking(event);auditPortalPolicy();
+  try { FrontierAudit.run(call(event, "getServer")); }
+  catch (Exception e) { throw new IllegalStateException("Frontier gameplay audit failed", e); }
+ }
  static void auditAdvancements(Object event){
   try{
    Object server=call(event,"getServer"),manager=null;

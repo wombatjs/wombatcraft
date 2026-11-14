@@ -1,0 +1,2455 @@
+[
+  {
+    "key": "trials",
+    "title": "Wombatcraft Trials",
+    "group": "convergence",
+    "icon": "gateways:gate_pearl",
+    "quests": [
+      {
+        "key": "field_kit",
+        "title": "The Muster",
+        "position": [
+          0,
+          0
+        ],
+        "description": [
+          "Bring a shield and food, then choose an expedition. Open each gate in clear terrain away from your settlement. Fight together and collect the crest after the last wave."
+        ],
+        "tasks": [
+          [
+            "item",
+            "minecraft:shield",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:cooked_beef",
+            8
+          ],
+          [
+            "minecraft:arrow",
+            16
+          ]
+        ],
+        "parents": [],
+        "shape": "diamond"
+      },
+      {
+        "key": "twilight_material",
+        "title": "The Thornwood Supplies",
+        "position": [
+          -5,
+          2.5
+        ],
+        "description": [
+          "A forest's iron and a trophy forged in flame open the gate. Expect wraiths among the redcaps."
+        ],
+        "tasks": [
+          [
+            "item",
+            "twilightforest:ironwood_ingot",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:cooked_beef",
+            6
+          ]
+        ],
+        "parents": [
+          "field_kit"
+        ],
+        "icon": "twilightforest:ironwood_ingot"
+      },
+      {
+        "key": "twilight_key",
+        "title": "The Thornwood Gate",
+        "position": [
+          -5,
+          5
+        ],
+        "description": [
+          "Combine two of the listed supply, this material and two ender pearls in a crafting table. Find the matching trial pearl in JEI."
+        ],
+        "tasks": [
+          [
+            "item",
+            "twilightforest:fiery_ingot",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:ender_pearl",
+            2
+          ],
+          [
+            "minecraft:arrow",
+            12
+          ]
+        ],
+        "parents": [
+          "twilight_material"
+        ],
+        "icon": "twilightforest:fiery_ingot",
+        "shape": "rsquare"
+      },
+      {
+        "key": "twilight_victory",
+        "title": "The Thornwood Crest",
+        "position": [
+          -5,
+          7.5
+        ],
+        "description": [
+          "Open the matching pearl and defeat all three waves. Pick up the crest to record the win, then keep it for the Convergence Forge."
+        ],
+        "tasks": [
+          [
+            "item",
+            "kubejs:trial_twilight_crest",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_apple",
+            4
+          ],
+          [
+            "artifacts:steadfast_spikes",
+            1
+          ]
+        ],
+        "parents": [
+          "twilight_key"
+        ],
+        "icon": "kubejs:trial_twilight_crest",
+        "shape": "hexagon"
+      },
+      {
+        "key": "aether_material",
+        "title": "The High Sky Supplies",
+        "position": [
+          0,
+          2.5
+        ],
+        "description": [
+          "Enchant gravitite at an Aether altar and pair it with ambrosium. Bring a bow for the cockatrices and give the sentries room."
+        ],
+        "tasks": [
+          [
+            "item",
+            "aether:ambrosium_shard",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:cooked_beef",
+            6
+          ]
+        ],
+        "parents": [
+          "field_kit"
+        ],
+        "icon": "aether:ambrosium_shard"
+      },
+      {
+        "key": "aether_key",
+        "title": "The High Sky Gate",
+        "position": [
+          0,
+          5
+        ],
+        "description": [
+          "Combine two of the listed supply, this material and two ender pearls in a crafting table. Find the matching trial pearl in JEI."
+        ],
+        "tasks": [
+          [
+            "item",
+            "aether:enchanted_gravitite",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:ender_pearl",
+            2
+          ],
+          [
+            "minecraft:arrow",
+            12
+          ]
+        ],
+        "parents": [
+          "aether_material"
+        ],
+        "icon": "aether:enchanted_gravitite",
+        "shape": "rsquare"
+      },
+      {
+        "key": "aether_victory",
+        "title": "The High Sky Crest",
+        "position": [
+          0,
+          7.5
+        ],
+        "description": [
+          "Open the matching pearl and defeat all three waves. Pick up the crest to record the win, then keep it for the Convergence Forge."
+        ],
+        "tasks": [
+          [
+            "item",
+            "kubejs:trial_aether_crest",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            12
+          ],
+          [
+            "artifacts:cloud_in_a_bottle",
+            1
+          ]
+        ],
+        "parents": [
+          "aether_key"
+        ],
+        "icon": "kubejs:trial_aether_crest",
+        "shape": "hexagon"
+      },
+      {
+        "key": "otherside_material",
+        "title": "The Echo Supplies",
+        "position": [
+          5,
+          2.5
+        ],
+        "description": [
+          "Return from the Otherside with resonarium plates and a reinforced echo shard. Keep clear of the stalkers as their pack closes in."
+        ],
+        "tasks": [
+          [
+            "item",
+            "deeperdarker:resonarium_plate",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:cooked_beef",
+            6
+          ]
+        ],
+        "parents": [
+          "field_kit"
+        ],
+        "icon": "deeperdarker:resonarium_plate"
+      },
+      {
+        "key": "otherside_key",
+        "title": "The Echo Gate",
+        "position": [
+          5,
+          5
+        ],
+        "description": [
+          "Combine two of the listed supply, this material and two ender pearls in a crafting table. Find the matching trial pearl in JEI."
+        ],
+        "tasks": [
+          [
+            "item",
+            "deeperdarker:reinforced_echo_shard",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:ender_pearl",
+            2
+          ],
+          [
+            "minecraft:arrow",
+            12
+          ]
+        ],
+        "parents": [
+          "otherside_material"
+        ],
+        "icon": "deeperdarker:reinforced_echo_shard",
+        "shape": "rsquare"
+      },
+      {
+        "key": "otherside_victory",
+        "title": "The Echo Crest",
+        "position": [
+          5,
+          7.5
+        ],
+        "description": [
+          "Open the matching pearl and defeat all three waves. Pick up the crest to record the win, then keep it for the Convergence Forge."
+        ],
+        "tasks": [
+          [
+            "item",
+            "kubejs:trial_otherside_crest",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_apple",
+            4
+          ],
+          [
+            "artifacts:night_vision_goggles",
+            1
+          ]
+        ],
+        "parents": [
+          "otherside_key"
+        ],
+        "icon": "kubejs:trial_otherside_crest",
+        "shape": "hexagon"
+      },
+      {
+        "key": "all_crests",
+        "title": "Three Gates, One Company",
+        "position": [
+          0,
+          10
+        ],
+        "description": [
+          "Bring the three crests together. After the quest records them, take them to the Forge to cast the Keystone."
+        ],
+        "tasks": [
+          [
+            "item",
+            "kubejs:trial_twilight_crest",
+            1
+          ],
+          [
+            "item",
+            "kubejs:trial_aether_crest",
+            1
+          ],
+          [
+            "item",
+            "kubejs:trial_otherside_crest",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:totem_of_undying",
+            1
+          ],
+          [
+            "minecraft:enchanted_golden_apple",
+            2
+          ]
+        ],
+        "parents": [
+          "twilight_victory",
+          "aether_victory",
+          "otherside_victory"
+        ],
+        "icon": "kubejs:trial_twilight_crest",
+        "shape": "hexagon"
+      }
+    ]
+  },
+  {
+    "key": "forge",
+    "title": "Convergence Forge",
+    "group": "convergence",
+    "icon": "wombatcraft:convergence_forge",
+    "quests": [
+      {
+        "key": "controller",
+        "title": "Found the Forge",
+        "position": [
+          0,
+          0
+        ],
+        "description": [
+          "Craft the Convergence Forge controller. Place it between two brass blocks. Above that row, place crying obsidian, brass, then crying obsidian. Face the controller outward."
+        ],
+        "tasks": [
+          [
+            "item",
+            "wombatcraft:convergence_forge",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "create:brass_block",
+            3
+          ],
+          [
+            "minecraft:crying_obsidian",
+            2
+          ]
+        ],
+        "parents": [],
+        "shape": "diamond"
+      },
+      {
+        "key": "power",
+        "title": "A Line from the Grid",
+        "position": [
+          -4,
+          2.5
+        ],
+        "description": [
+          "Run a Universal Cable from your energy network to an exposed face of the controller. A Mekanism cube can buffer the supply."
+        ],
+        "tasks": [
+          [
+            "item",
+            "mekanism:elite_energy_cube",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "mekanism:elite_universal_cable",
+            12
+          ]
+        ],
+        "parents": [
+          "controller"
+        ],
+        "icon": "mekanism:elite_energy_cube"
+      },
+      {
+        "key": "mana",
+        "title": "A Line from the Grove",
+        "position": [
+          4,
+          2.5
+        ],
+        "description": [
+          "Feed a Mana Spreader from a pool and bind the spreader to the controller with a Wand of the Forest. Give the spreader a clear shot at an exposed face."
+        ],
+        "tasks": [
+          [
+            "item",
+            "botania:mana_spreader",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "botania:manasteel_ingot",
+            8
+          ],
+          [
+            "minecraft:glowstone_dust",
+            6
+          ]
+        ],
+        "parents": [
+          "controller"
+        ],
+        "icon": "botania:mana_spreader"
+      },
+      {
+        "key": "alloy",
+        "title": "Metal from Two Worlds",
+        "position": [
+          0,
+          5
+        ],
+        "description": [
+          "Load eight brass ingots, one terrasteel ingot and two ostrum ingots. The Forge draws 200,000 FE and 12,000 mana to cast four Convergence Alloy."
+        ],
+        "tasks": [
+          [
+            "item",
+            "kubejs:convergence_alloy",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "ad_astra:ostrum_ingot",
+            4
+          ],
+          [
+            "botania:manasteel_ingot",
+            8
+          ]
+        ],
+        "parents": [
+          "power",
+          "mana"
+        ],
+        "icon": "kubejs:convergence_alloy"
+      },
+      {
+        "key": "lens",
+        "title": "Glass of the High Sky",
+        "position": [
+          0,
+          7.5
+        ],
+        "description": [
+          "Forge two alloy, eight ambrosium and two mana diamonds at 400,000 FE and 30,000 mana. A spare lens crafts into four Warp Stones with two amethyst shards."
+        ],
+        "tasks": [
+          [
+            "item",
+            "kubejs:convergence_lens",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "waystones:warp_scroll",
+            4
+          ],
+          [
+            "minecraft:amethyst_shard",
+            12
+          ]
+        ],
+        "parents": [
+          "alloy"
+        ],
+        "icon": "kubejs:convergence_lens"
+      },
+      {
+        "key": "keystone",
+        "title": "The Convergence Keystone",
+        "position": [
+          0,
+          10
+        ],
+        "description": [
+          "Load a lens, all three trial crests, two calorite ingots and one Gaia ingot. Give the Forge 1,000,000 FE and 75,000 mana. The finished Keystone can become a beacon with glass and obsidian."
+        ],
+        "tasks": [
+          [
+            "item",
+            "kubejs:convergence_keystone",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:netherite_ingot",
+            3
+          ],
+          [
+            "minecraft:dragon_breath",
+            8
+          ]
+        ],
+        "parents": [
+          "lens",
+          "trials/all_crests"
+        ],
+        "icon": "kubejs:convergence_keystone",
+        "shape": "hexagon"
+      }
+    ]
+  },
+  {
+    "key": "artifice",
+    "title": "Mana and Artifice",
+    "group": "magic",
+    "icon": "mna:vinteum_ingot",
+    "quests": [
+      {
+        "key": "codex",
+        "title": "The Vinteum Trade",
+        "position": [
+          0,
+          0
+        ],
+        "description": [
+          "Mine and refine vinteum. Trade the finished metal with a villager for the Codex Arcana, then follow its First Steps."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "mna:tier_0/codex_trade",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "mna:vinteum_dust",
+            8
+          ],
+          [
+            "minecraft:ink_sac",
+            4
+          ]
+        ],
+        "parents": [],
+        "icon": "mna:vinteum_ingot",
+        "shape": "diamond"
+      },
+      {
+        "key": "table",
+        "title": "Inscribe a Design",
+        "position": [
+          -4,
+          2.4
+        ],
+        "description": [
+          "Build an Inscription Table. Set the shape, components and reagents for a first spell."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "mna:tier_1/obtain_inscription_table",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:paper",
+            16
+          ],
+          [
+            "minecraft:feather",
+            8
+          ]
+        ],
+        "parents": [
+          "codex"
+        ],
+        "icon": "mna:inscription_table"
+      },
+      {
+        "key": "weave",
+        "title": "Trace the Weave",
+        "position": [
+          0,
+          2.4
+        ],
+        "description": [
+          "Follow a manaweave pattern from the Codex. Draw each line cleanly before beginning the next."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "mna:tier_1/draw_manaweave_pattern",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:lapis_lazuli",
+            8
+          ],
+          [
+            "mna:vinteum_dust",
+            6
+          ]
+        ],
+        "parents": [
+          "codex"
+        ],
+        "icon": "mna:manaweaving_altar"
+      },
+      {
+        "key": "construct",
+        "title": "Wake the Wood",
+        "position": [
+          4,
+          2.4
+        ],
+        "description": [
+          "Assemble a wickerwood construct with a head, torso, legs and arms. Animate it when the parts are in place."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "mna:tier_1/craft_wickerwood_construct",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "mna:constructs/construct_grabber_arm_left_wickerwood",
+            1
+          ],
+          [
+            "minecraft:oak_log",
+            16
+          ]
+        ],
+        "parents": [
+          "codex"
+        ],
+        "icon": "mna:constructs/construct_basic_head_wickerwood"
+      },
+      {
+        "key": "spell",
+        "title": "Give Shape to Mana",
+        "position": [
+          -4,
+          4.8
+        ],
+        "description": [
+          "Complete the first spell using the recipe written at the Inscription Table."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "mna:tier_1/craft_a_spell",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "mna:practitioners_pouch",
+            1
+          ],
+          [
+            "minecraft:lapis_lazuli",
+            12
+          ]
+        ],
+        "parents": [
+          "table"
+        ]
+      },
+      {
+        "key": "altar",
+        "title": "The Weaving Altar",
+        "position": [
+          0,
+          4.8
+        ],
+        "description": [
+          "Build the Manaweaving Altar and complete a recipe using its required patterns."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "mna:tier_1/craft_at_manaweave_altar",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "mna:vinteum_ingot",
+            6
+          ],
+          [
+            "minecraft:amethyst_shard",
+            8
+          ]
+        ],
+        "parents": [
+          "weave"
+        ],
+        "icon": "mna:manaweaving_altar"
+      },
+      {
+        "key": "jobs",
+        "title": "A Workshop with Hands",
+        "position": [
+          4,
+          4.8
+        ],
+        "description": [
+          "Use the Bell of Bidding to bind your construct to a Delegation Station or Lodestar. Give it a job it has the parts to perform."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "mna:tier_1/assign_delegation_station",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:hopper",
+            4
+          ],
+          [
+            "minecraft:chest",
+            8
+          ]
+        ],
+        "parents": [
+          "construct"
+        ],
+        "icon": "mna:bell_of_bidding",
+        "shape": "hexagon"
+      },
+      {
+        "key": "cast",
+        "title": "The First Casting",
+        "position": [
+          -4,
+          7.2
+        ],
+        "description": [
+          "Equip your completed spell and cast it on an appropriate target."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "mna:tier_1/cast_a_spell",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            6
+          ],
+          [
+            "minecraft:amethyst_shard",
+            8
+          ]
+        ],
+        "parents": [
+          "spell"
+        ]
+      },
+      {
+        "key": "tier2",
+        "title": "Apprentice",
+        "position": [
+          0,
+          7.2
+        ],
+        "description": [
+          "Fulfil the Codex's first tier requirements and perform its advancement ritual."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "mna:tier_1/advance_tier_2",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "mna:purified_vinteum_ingot",
+            4
+          ],
+          [
+            "minecraft:lapis_lazuli",
+            12
+          ]
+        ],
+        "parents": [
+          "altar"
+        ],
+        "shape": "diamond"
+      },
+      {
+        "key": "stone",
+        "title": "Wood and Stone",
+        "position": [
+          4,
+          7.2
+        ],
+        "description": [
+          "Advance to tier two and animate a construct with the stronger wood and stone parts."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "mna:tier_2/craft_wood_stone_construct",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            12
+          ],
+          [
+            "mna:vinteum_ingot",
+            8
+          ]
+        ],
+        "parents": [
+          "jobs",
+          "tier2"
+        ]
+      },
+      {
+        "key": "runes",
+        "title": "The Rune Forge",
+        "position": [
+          -4,
+          9.6
+        ],
+        "description": [
+          "Use the Rune Forge to make a rune and keep the pattern for later work."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "mna:tier_2/runeforge_rune",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "mna:purified_vinteum_ingot",
+            6
+          ],
+          [
+            "minecraft:amethyst_shard",
+            12
+          ]
+        ],
+        "parents": [
+          "cast",
+          "tier2"
+        ]
+      },
+      {
+        "key": "tier3",
+        "title": "Journeyman",
+        "position": [
+          0,
+          9.6
+        ],
+        "description": [
+          "Reach tier three through the Codex and choose the faction whose work suits you."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "mna:tier_2/advance_tier_3",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:gold_ingot",
+            12
+          ],
+          [
+            "mna:purified_vinteum_ingot",
+            6
+          ]
+        ],
+        "parents": [
+          "tier2"
+        ],
+        "shape": "diamond"
+      },
+      {
+        "key": "metal",
+        "title": "Iron and Gold",
+        "position": [
+          4,
+          9.6
+        ],
+        "description": [
+          "Build and animate an iron and gold construct to carry the workshop's harder jobs."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "mna:tier_3/craft_iron_gold_construct",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            3
+          ],
+          [
+            "minecraft:obsidian",
+            8
+          ]
+        ],
+        "parents": [
+          "stone",
+          "tier3"
+        ]
+      },
+      {
+        "key": "enchant",
+        "title": "An Etching that Holds",
+        "position": [
+          -4,
+          12
+        ],
+        "description": [
+          "Use runic enchanting to apply an enchantment to a piece of equipment."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "mna:tier_3/runic_enchant",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:experience_bottle",
+            16
+          ],
+          [
+            "minecraft:lapis_lazuli",
+            16
+          ]
+        ],
+        "parents": [
+          "runes",
+          "tier3"
+        ]
+      },
+      {
+        "key": "tier4",
+        "title": "Adept",
+        "position": [
+          0,
+          12
+        ],
+        "description": [
+          "Follow your faction's chapter through the next tier ritual."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "mna:tier_3/advance_tier_4",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:ender_pearl",
+            8
+          ],
+          [
+            "mna:purified_vinteum_ingot",
+            8
+          ]
+        ],
+        "parents": [
+          "tier3"
+        ],
+        "shape": "diamond"
+      },
+      {
+        "key": "diamond",
+        "title": "Obsidian Crew",
+        "position": [
+          4,
+          12
+        ],
+        "description": [
+          "Finish your construct line by animating a body of diamond and obsidian."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "mna:tier_4/craft_diamond_obsidian_construct",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "artifacts:universal_attractor",
+            1
+          ],
+          [
+            "minecraft:redstone_block",
+            4
+          ]
+        ],
+        "parents": [
+          "metal",
+          "tier4"
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "wellspring",
+        "title": "Catch the Wellspring",
+        "position": [
+          0,
+          14.4
+        ],
+        "description": [
+          "Find an Eldrin Wellspring and build the Codex's capture structure around it."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "mna:tier_4/capture_wellspring",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:amethyst_block",
+            8
+          ],
+          [
+            "mna:purified_vinteum_ingot",
+            8
+          ]
+        ],
+        "parents": [
+          "tier4"
+        ]
+      },
+      {
+        "key": "tier5",
+        "title": "Master Artificer",
+        "position": [
+          0,
+          16.8
+        ],
+        "description": [
+          "Complete the final tier ritual and take your place among the master artificers."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "mna:tier_4/advance_tier_5",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:nether_star",
+            1
+          ],
+          [
+            "mna:purified_vinteum_ingot",
+            12
+          ]
+        ],
+        "parents": [
+          "wellspring"
+        ],
+        "shape": "hexagon"
+      }
+    ]
+  },
+  {
+    "key": "trainers",
+    "title": "Cobblemon League",
+    "group": "exploration",
+    "icon": "rctmod:trainer_card",
+    "quests": [
+      {
+        "key": "card",
+        "title": "The Trainer Card",
+        "position": [
+          0,
+          0
+        ],
+        "description": [
+          "Craft a Trainer Card and read its standings. When it glows, follow the arrow toward your next key opponent."
+        ],
+        "tasks": [
+          [
+            "item",
+            "rctmod:trainer_card",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "cobblemon:poke_ball",
+            12
+          ],
+          [
+            "cobblemon:exp_candy_s",
+            4
+          ]
+        ],
+        "parents": [],
+        "shape": "diamond"
+      },
+      {
+        "key": "any",
+        "title": "The First Match",
+        "position": [
+          0,
+          2.5
+        ],
+        "description": [
+          "Challenge a roaming trainer and win your first match."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "rctmod:trainers/defeat_any",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "cobblemon:great_ball",
+            8
+          ],
+          [
+            "cobblemon:exp_candy_s",
+            8
+          ]
+        ],
+        "parents": [
+          "card"
+        ]
+      },
+      {
+        "key": "brock",
+        "title": "Brock",
+        "position": [
+          -2.4,
+          5
+        ],
+        "description": [
+          "Prepare an answer to rock types and clear your first leader battle."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "rctmod:trainers/defeat_leader_brock",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "cobblemon:great_ball",
+            6
+          ],
+          [
+            "cobblemon:exp_candy_m",
+            2
+          ]
+        ],
+        "parents": [
+          "any"
+        ],
+        "icon": "cobblemon:great_ball"
+      },
+      {
+        "key": "misty",
+        "title": "Misty",
+        "position": [
+          -4.8,
+          5
+        ],
+        "description": [
+          "Bring a team that can handle water opponents."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "rctmod:trainers/defeat_leader_misty",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "cobblemon:great_ball",
+            6
+          ],
+          [
+            "cobblemon:exp_candy_m",
+            2
+          ]
+        ],
+        "parents": [
+          "brock"
+        ],
+        "icon": "cobblemon:great_ball"
+      },
+      {
+        "key": "lt_surge",
+        "title": "Lt. Surge",
+        "position": [
+          -4.8,
+          7.5
+        ],
+        "description": [
+          "Train a ground-type answer before taking on the electric team."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "rctmod:trainers/defeat_leader_lt_surge",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "cobblemon:great_ball",
+            6
+          ],
+          [
+            "cobblemon:exp_candy_m",
+            3
+          ]
+        ],
+        "parents": [
+          "misty"
+        ],
+        "icon": "cobblemon:great_ball"
+      },
+      {
+        "key": "erika",
+        "title": "Erika",
+        "position": [
+          -2.4,
+          7.5
+        ],
+        "description": [
+          "Prepare for grass Pok\u00e9mon and status effects."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "rctmod:trainers/defeat_leader_erika",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "cobblemon:ultra_ball",
+            6
+          ],
+          [
+            "cobblemon:exp_candy_m",
+            3
+          ]
+        ],
+        "parents": [
+          "lt_surge"
+        ],
+        "icon": "cobblemon:ultra_ball"
+      },
+      {
+        "key": "koga",
+        "title": "Koga",
+        "position": [
+          0,
+          7.5
+        ],
+        "description": [
+          "Bring a plan for poison pressure and a team that can finish decisively."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "rctmod:trainers/defeat_leader_koga",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "cobblemon:ultra_ball",
+            6
+          ],
+          [
+            "cobblemon:exp_candy_m",
+            4
+          ]
+        ],
+        "parents": [
+          "erika"
+        ],
+        "icon": "cobblemon:ultra_ball"
+      },
+      {
+        "key": "sabrina",
+        "title": "Sabrina",
+        "position": [
+          2.4,
+          7.5
+        ],
+        "description": [
+          "Put a reliable psychic counter into your lineup."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "rctmod:trainers/defeat_leader_sabrina",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "cobblemon:ultra_ball",
+            6
+          ],
+          [
+            "cobblemon:exp_candy_m",
+            4
+          ]
+        ],
+        "parents": [
+          "koga"
+        ],
+        "icon": "cobblemon:ultra_ball"
+      },
+      {
+        "key": "blaine",
+        "title": "Blaine",
+        "position": [
+          4.8,
+          7.5
+        ],
+        "description": [
+          "Bring a team that can stay in the fight under fire."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "rctmod:trainers/defeat_leader_blaine",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "cobblemon:ultra_ball",
+            6
+          ],
+          [
+            "cobblemon:exp_candy_m",
+            5
+          ]
+        ],
+        "parents": [
+          "sabrina"
+        ],
+        "icon": "cobblemon:ultra_ball"
+      },
+      {
+        "key": "clair",
+        "title": "Clair",
+        "position": [
+          4.8,
+          5
+        ],
+        "description": [
+          "Prepare several answers to dragons before the last leader match."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "rctmod:trainers/defeat_leader_clair",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "cobblemon:ultra_ball",
+            6
+          ],
+          [
+            "cobblemon:exp_candy_m",
+            5
+          ]
+        ],
+        "parents": [
+          "blaine"
+        ],
+        "icon": "cobblemon:ultra_ball"
+      },
+      {
+        "key": "elite",
+        "title": "The Elite Four",
+        "position": [
+          4.8,
+          10
+        ],
+        "description": [
+          "Win four Elite Four matchups. Build a balanced roster with coverage for each fight."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "rctmod:trainers/defeat_elite_four",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "cobblemon:exp_candy_l",
+            6
+          ],
+          [
+            "cobblemon:ultra_ball",
+            12
+          ]
+        ],
+        "parents": [
+          "clair"
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "champion",
+        "title": "A League Champion",
+        "position": [
+          2.4,
+          12.5
+        ],
+        "description": [
+          "Defeat a Champion after the Elite Four. The Trainer Card tracks your next opponents."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "rctmod:trainers/defeat_champion",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "cobblemon:rare_candy",
+            5
+          ],
+          [
+            "cobblemon:exp_candy_xl",
+            4
+          ]
+        ],
+        "parents": [
+          "elite"
+        ],
+        "icon": "cobblemon:rare_candy",
+        "shape": "hexagon"
+      },
+      {
+        "key": "rival",
+        "title": "A Rival's Test",
+        "position": [
+          -4.8,
+          2.5
+        ],
+        "description": [
+          "Win the battle against Terry and keep training the Pok\u00e9mon that carried the match."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "rctmod:trainers/defeat_rival_terry",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "cobblemon:great_ball",
+            6
+          ],
+          [
+            "cobblemon:exp_candy_m",
+            4
+          ]
+        ],
+        "parents": [
+          "any"
+        ]
+      },
+      {
+        "key": "rocket",
+        "title": "Team Rocket",
+        "position": [
+          4.8,
+          2.5
+        ],
+        "description": [
+          "Beat a member of Team Rocket. Keep a spare team ready for encounters between leader matches."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "rctmod:trainers/defeat_team_rocket",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "cobblemon:exp_candy_m",
+            6
+          ],
+          [
+            "cobblemon:revive",
+            4
+          ]
+        ],
+        "parents": [
+          "any"
+        ]
+      },
+      {
+        "key": "giovanni",
+        "title": "The Rocket Boss",
+        "position": [
+          0,
+          12.5
+        ],
+        "description": [
+          "Defeat Giovanni in the first Rocket boss match when your Trainer Card points to him."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "rctmod:trainers/defeat_boss_giovanni_1",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "cobblemon:rare_candy",
+            3
+          ],
+          [
+            "cobblemon:ultra_ball",
+            10
+          ]
+        ],
+        "parents": [
+          "rocket"
+        ],
+        "shape": "hexagon"
+      }
+    ]
+  },
+  {
+    "key": "expeditions",
+    "title": "Ruins and Expeditions",
+    "group": "exploration",
+    "icon": "minecraft:spyglass",
+    "quests": [
+      {
+        "key": "kit",
+        "title": "The Surveyor's Kit",
+        "position": [
+          0,
+          0
+        ],
+        "description": [
+          "Bring a spyglass and a way home. Search uncharted lands with an Explorer's Compass and step inside each site to record it."
+        ],
+        "tasks": [
+          [
+            "item",
+            "minecraft:spyglass",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ],
+          [
+            "minecraft:cooked_beef",
+            8
+          ]
+        ],
+        "parents": [],
+        "shape": "diamond"
+      },
+      {
+        "key": "hunters_cabin",
+        "title": "The Hunter's Cabin",
+        "position": [
+          -6,
+          2.5
+        ],
+        "description": [
+          "Survey the cabin and take stock before heading further from the road."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "idas:hunters_cabin",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:lead",
+            2
+          ],
+          [
+            "minecraft:cooked_beef",
+            12
+          ]
+        ],
+        "parents": [
+          "kit"
+        ],
+        "icon": "minecraft:campfire"
+      },
+      {
+        "key": "ancient_mines",
+        "title": "The Ancient Mines",
+        "position": [
+          -6,
+          5.0
+        ],
+        "description": [
+          "Descend with light and spare pickaxes. Follow the workings into the lower galleries."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "idas:ancient_mines",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "artifacts:digging_claws",
+            1
+          ],
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "parents": [
+          "hunters_cabin"
+        ],
+        "icon": "minecraft:iron_pickaxe"
+      },
+      {
+        "key": "tinkers_workshop",
+        "title": "Tinker's Workshop",
+        "position": [
+          -6,
+          7.5
+        ],
+        "description": [
+          "Investigate the old machinery. Follow moving parts from a safe position before crossing them."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "idas:tinkers_workshop",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "create:wrench",
+            1
+          ],
+          [
+            "create:precision_mechanism",
+            4
+          ]
+        ],
+        "parents": [
+          "ancient_mines"
+        ],
+        "icon": "create:precision_mechanism"
+      },
+      {
+        "key": "tinkers_citadel",
+        "title": "The Tinker's Citadel",
+        "position": [
+          -6,
+          10.0
+        ],
+        "description": [
+          "Reach the citadel and search its upper works. Carry a return route and keep a spare set of tools."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "idas:tinkers_citadel",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "create:precision_mechanism",
+            8
+          ],
+          [
+            "create:blaze_cake",
+            4
+          ]
+        ],
+        "parents": [
+          "tinkers_workshop"
+        ],
+        "icon": "create:brass_block",
+        "shape": "hexagon"
+      },
+      {
+        "key": "apothecary_abode",
+        "title": "The Apothecary",
+        "position": [
+          -2,
+          2.5
+        ],
+        "description": [
+          "Step into the old apothecary and look for the tools of the local trade."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "idas:apothecary_abode",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:glass_bottle",
+            16
+          ],
+          [
+            "minecraft:glowstone_dust",
+            8
+          ]
+        ],
+        "parents": [
+          "kit"
+        ],
+        "icon": "minecraft:brewing_stand"
+      },
+      {
+        "key": "archmages_tower",
+        "title": "The Archmage's Tower",
+        "position": [
+          -2,
+          5.0
+        ],
+        "description": [
+          "Approach the tower with a way out. Search for supplies worth bringing back to your scriptorium."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "idas:archmages_tower",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "ars_nouveau:source_gem",
+            12
+          ],
+          [
+            "ars_nouveau:warp_scroll",
+            3
+          ]
+        ],
+        "parents": [
+          "apothecary_abode"
+        ],
+        "icon": "ars_nouveau:source_gem"
+      },
+      {
+        "key": "necromancers_spire",
+        "title": "The Necromancer's Spire",
+        "position": [
+          -2,
+          7.5
+        ],
+        "description": [
+          "Scale the spire and reach the heart of the ruin. Bring healing and room to retreat."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "idas:necromancers_spire",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:totem_of_undying",
+            1
+          ],
+          [
+            "minecraft:golden_apple",
+            4
+          ]
+        ],
+        "parents": [
+          "archmages_tower"
+        ],
+        "icon": "minecraft:soul_lantern",
+        "shape": "hexagon"
+      },
+      {
+        "key": "bearclaw_inn",
+        "title": "Bearclaw Inn",
+        "position": [
+          2,
+          2.5
+        ],
+        "description": [
+          "Find the inn and establish a place to regroup before heading into hostile country."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "idas:bearclaw_inn",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:lantern",
+            12
+          ],
+          [
+            "minecraft:cooked_beef",
+            12
+          ]
+        ],
+        "parents": [
+          "kit"
+        ],
+        "icon": "minecraft:lantern"
+      },
+      {
+        "key": "pillager_fortress",
+        "title": "Pillager Fortress",
+        "position": [
+          2,
+          5.0
+        ],
+        "description": [
+          "Cross the perimeter and explore the fortress. Ranged cover helps in its exposed approaches."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "idas:pillager_fortress",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:spectral_arrow",
+            24
+          ],
+          [
+            "minecraft:golden_apple",
+            3
+          ]
+        ],
+        "parents": [
+          "bearclaw_inn"
+        ],
+        "icon": "minecraft:crossbow"
+      },
+      {
+        "key": "labyrinth",
+        "title": "The Labyrinth",
+        "position": [
+          2,
+          7.5
+        ],
+        "description": [
+          "Enter with spare light and mark your route through the maze."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "idas:labyrinth",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "artifacts:running_shoes",
+            1
+          ],
+          [
+            "minecraft:golden_carrot",
+            12
+          ]
+        ],
+        "parents": [
+          "pillager_fortress"
+        ],
+        "icon": "minecraft:compass",
+        "shape": "hexagon"
+      },
+      {
+        "key": "fishermans_lodge",
+        "title": "Fisherman's Lodge",
+        "position": [
+          6,
+          2.5
+        ],
+        "description": [
+          "Chart a lodge on the water and prepare supplies for your dive."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "idas:fishermans_lodge",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:cooked_salmon",
+            12
+          ],
+          [
+            "minecraft:glass_bottle",
+            8
+          ]
+        ],
+        "parents": [
+          "kit"
+        ],
+        "icon": "minecraft:fishing_rod"
+      },
+      {
+        "key": "sunken_ship",
+        "title": "The Sunken Ship",
+        "position": [
+          6,
+          5.0
+        ],
+        "description": [
+          "Dive to the wreck. Look for pockets of air and check your route to the surface."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "idas:sunken_ship",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "artifacts:flippers",
+            1
+          ],
+          [
+            "minecraft:prismarine_crystals",
+            8
+          ]
+        ],
+        "parents": [
+          "fishermans_lodge"
+        ],
+        "icon": "minecraft:heart_of_the_sea"
+      },
+      {
+        "key": "ruins_of_the_deep",
+        "title": "The Ruins of the Deep",
+        "position": [
+          6,
+          7.5
+        ],
+        "description": [
+          "Reach the ruins below the sea and return with a route your crew can follow."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "idas:ruins_of_the_deep",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:heart_of_the_sea",
+            1
+          ],
+          [
+            "minecraft:prismarine",
+            24
+          ]
+        ],
+        "parents": [
+          "sunken_ship"
+        ],
+        "icon": "minecraft:conduit",
+        "shape": "hexagon"
+      },
+      {
+        "key": "atlas",
+        "title": "The Far Roads",
+        "position": [
+          0,
+          13
+        ],
+        "description": [
+          "Record the four expeditions in your journal. Bring back a story from each route for the next traveler."
+        ],
+        "tasks": [
+          [
+            "checkmark",
+            "Close the survey",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "waystones:warp_stone",
+            1
+          ],
+          [
+            "minecraft:golden_carrot",
+            16
+          ]
+        ],
+        "parents": [
+          "tinkers_citadel",
+          "necromancers_spire",
+          "labyrinth",
+          "ruins_of_the_deep"
+        ],
+        "shape": "hexagon"
+      }
+    ]
+  },
+  {
+    "key": "exposure",
+    "title": "The Frontier in Focus",
+    "group": "exploration",
+    "icon": "exposure:camera",
+    "quests": [
+      {
+        "key": "camera",
+        "title": "A Camera for the Road",
+        "position": [
+          0,
+          0
+        ],
+        "description": [
+          "Craft a camera and sneak-use it to fit a roll of film. Use the viewfinder to frame your first shot."
+        ],
+        "tasks": [
+          [
+            "item",
+            "exposure:camera",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "exposure:black_and_white_film",
+            2
+          ],
+          [
+            "minecraft:paper",
+            16
+          ]
+        ],
+        "parents": [],
+        "shape": "diamond"
+      },
+      {
+        "key": "first",
+        "title": "The First Frame",
+        "position": [
+          0,
+          2.5
+        ],
+        "description": [
+          "Expose a frame with a loaded camera."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "exposure:adventure/exposure",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:redstone_lamp",
+            1
+          ],
+          [
+            "minecraft:paper",
+            16
+          ]
+        ],
+        "parents": [
+          "camera"
+        ]
+      },
+      {
+        "key": "develop",
+        "title": "Into the Darkroom",
+        "position": [
+          0,
+          5
+        ],
+        "description": [
+          "Develop an exposed roll using the ingredients listed on its film tooltip."
+        ],
+        "tasks": [
+          [
+            "item",
+            "exposure:developed_black_and_white_film",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:black_dye",
+            12
+          ],
+          [
+            "minecraft:paper",
+            24
+          ]
+        ],
+        "parents": [
+          "first"
+        ],
+        "icon": "exposure:developed_black_and_white_film"
+      },
+      {
+        "key": "print",
+        "title": "A Print to Keep",
+        "position": [
+          0,
+          7.5
+        ],
+        "description": [
+          "Put the developed roll into a Lightroom and print a frame with paper and dye."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "exposure:adventure/moment_in_time",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "exposure:photograph_frame",
+            4
+          ],
+          [
+            "exposure:color_film",
+            2
+          ]
+        ],
+        "parents": [
+          "develop"
+        ],
+        "icon": "exposure:photograph"
+      },
+      {
+        "key": "color",
+        "title": "The Color of Home",
+        "position": [
+          -4,
+          10
+        ],
+        "description": [
+          "Expose and develop a roll of color film. Use cyan, magenta and yellow dyes to print a color frame."
+        ],
+        "tasks": [
+          [
+            "item",
+            "exposure:developed_color_film",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:cyan_dye",
+            6
+          ],
+          [
+            "minecraft:magenta_dye",
+            6
+          ],
+          [
+            "minecraft:yellow_dye",
+            6
+          ]
+        ],
+        "parents": [
+          "print"
+        ],
+        "icon": "exposure:color_film"
+      },
+      {
+        "key": "flash",
+        "title": "Light in the Dark",
+        "position": [
+          0,
+          10
+        ],
+        "description": [
+          "Attach a redstone lamp and use the flash to expose a frame in darkness."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "exposure:adventure/lights_up",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "exposure:high_sensitivity_black_and_white_film",
+            2
+          ],
+          [
+            "minecraft:torch",
+            16
+          ]
+        ],
+        "parents": [
+          "print"
+        ]
+      },
+      {
+        "key": "album",
+        "title": "An Album for the Crew",
+        "position": [
+          4,
+          10
+        ],
+        "description": [
+          "Craft an album and bind several of your expedition prints together."
+        ],
+        "tasks": [
+          [
+            "item",
+            "exposure:album",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "exposure:glass_photograph_frame",
+            4
+          ],
+          [
+            "minecraft:leather",
+            8
+          ]
+        ],
+        "parents": [
+          "print"
+        ],
+        "icon": "exposure:album"
+      },
+      {
+        "key": "end",
+        "title": "Light from the Void",
+        "position": [
+          0,
+          12.5
+        ],
+        "description": [
+          "Take a photograph in the End. Return with the film and develop it safely at home."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "exposure:adventure/void",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "exposure:high_sensitivity_color_film",
+            2
+          ],
+          [
+            "minecraft:firework_rocket",
+            24
+          ]
+        ],
+        "parents": [
+          "flash"
+        ],
+        "icon": "minecraft:end_stone",
+        "shape": "hexagon"
+      },
+      {
+        "key": "wildlife",
+        "title": "The Wildlife Archive",
+        "position": [
+          -4,
+          12.5
+        ],
+        "description": [
+          "Photograph the wild animals tracked by the Wildlife Archivist advancement."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "exposure:adventure/wildlife_archivist",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "exposure:color_film",
+            3
+          ],
+          [
+            "exposure:glass_photograph_frame",
+            6
+          ]
+        ],
+        "parents": [
+          "color"
+        ],
+        "icon": "exposure:camera_stand",
+        "shape": "hexagon"
+      },
+      {
+        "key": "gallery",
+        "title": "A Gallery of Worlds",
+        "position": [
+          4,
+          12.5
+        ],
+        "description": [
+          "Display a series of framed photos from three different dimensions. Leave captions with each location so visitors can follow your route."
+        ],
+        "tasks": [
+          [
+            "checkmark",
+            "Open your gallery to visitors",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "exposure:glass_photograph_frame",
+            8
+          ],
+          [
+            "minecraft:lantern",
+            16
+          ]
+        ],
+        "parents": [
+          "album",
+          "end"
+        ],
+        "icon": "exposure:glass_photograph_frame",
+        "shape": "hexagon"
+      }
+    ]
+  }
+]

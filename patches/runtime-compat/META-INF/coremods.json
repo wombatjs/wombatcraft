@@ -1,1 +1,5 @@
-{"wombatcraft_aurorian_sickle":"coremods/sickle.js","wombatcraft_serial_recipes":"coremods/serial_recipes.js"}
+{
+  "wombatcraft_aurorian_sickle": "coremods/sickle.js",
+  "wombatcraft_serial_recipes": "coremods/serial_recipes.js",
+  "wombatcraft_machine_projects": "coremods/mbd2_projects.js"
+}

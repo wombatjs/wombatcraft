@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_l",
+          "conditions": [
+            {
+              "condition": "rctmod:defeat_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:rare_candy",
+          "conditions": [
+            {
+              "condition": "rctmod:defeat_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

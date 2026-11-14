@@ -1,0 +1,582 @@
+{
+  "id": "1A6A3AAEE9921389",
+  "filename": "wc_frontier_trainers",
+  "title": "Cobblemon League",
+  "group": "00AA8F374274B5F3",
+  "icon": "rctmod:trainer_card",
+  "order_index": 63,
+  "default_quest_shape": "circle",
+  "autofocus_id": "247F84D405DE255E",
+  "quests": [
+    {
+      "id": "247F84D405DE255E",
+      "title": "The Trainer Card",
+      "icon": "rctmod:trainer_card",
+      "description": [
+        "Craft a Trainer Card and read its standings. When it glows, follow the arrow toward your next key opponent."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "diamond",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "2D9B65C98A9494AD",
+          "type": "item",
+          "item": "rctmod:trainer_card",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "223163E4D4F33EAA",
+          "type": "item",
+          "item": "cobblemon:poke_ball",
+          "count": 12
+        },
+        {
+          "id": "3B99CD3444227272",
+          "type": "item",
+          "item": "cobblemon:exp_candy_s",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "3E87257D457D6673",
+      "title": "The First Match",
+      "icon": "rctmod:trainer_card",
+      "description": [
+        "Challenge a roaming trainer and win your first match."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "247F84D405DE255E"
+      ],
+      "tasks": [
+        {
+          "id": "74EA350BA4416280",
+          "type": "advancement",
+          "advancement": "rctmod:trainers/defeat_any"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "74A85F6838884CDC",
+          "type": "item",
+          "item": "cobblemon:great_ball",
+          "count": 8
+        },
+        {
+          "id": "3244E3010750557B",
+          "type": "item",
+          "item": "cobblemon:exp_candy_s",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "41A1BA4CE0F41431",
+      "title": "Brock",
+      "icon": "cobblemon:great_ball",
+      "description": [
+        "Prepare an answer to rock types and clear your first leader battle."
+      ],
+      "subtitle": "",
+      "x": -2.4,
+      "y": 5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "3E87257D457D6673"
+      ],
+      "tasks": [
+        {
+          "id": "3AAD678C17658250",
+          "type": "advancement",
+          "advancement": "rctmod:trainers/defeat_leader_brock"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "57C86EB730369EAD",
+          "type": "item",
+          "item": "cobblemon:great_ball",
+          "count": 6
+        },
+        {
+          "id": "2F1A3F1D396EDDD5",
+          "type": "item",
+          "item": "cobblemon:exp_candy_m",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "1CBDB3261BB651BA",
+      "title": "Misty",
+      "icon": "cobblemon:great_ball",
+      "description": [
+        "Bring a team that can handle water opponents."
+      ],
+      "subtitle": "",
+      "x": -4.8,
+      "y": 5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "41A1BA4CE0F41431"
+      ],
+      "tasks": [
+        {
+          "id": "0830C298F5ABF7D3",
+          "type": "advancement",
+          "advancement": "rctmod:trainers/defeat_leader_misty"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3335D159066B7F58",
+          "type": "item",
+          "item": "cobblemon:great_ball",
+          "count": 6
+        },
+        {
+          "id": "03AB720D8425B5AB",
+          "type": "item",
+          "item": "cobblemon:exp_candy_m",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "50A75F588D6818FE",
+      "title": "Lt. Surge",
+      "icon": "cobblemon:great_ball",
+      "description": [
+        "Train a ground-type answer before taking on the electric team."
+      ],
+      "subtitle": "",
+      "x": -4.8,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "1CBDB3261BB651BA"
+      ],
+      "tasks": [
+        {
+          "id": "2973DCB4A451667E",
+          "type": "advancement",
+          "advancement": "rctmod:trainers/defeat_leader_lt_surge"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07449A9DFE20B34D",
+          "type": "item",
+          "item": "cobblemon:great_ball",
+          "count": 6
+        },
+        {
+          "id": "11EC9A40DDDA5259",
+          "type": "item",
+          "item": "cobblemon:exp_candy_m",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "0E12A7DA9F22C8D5",
+      "title": "Erika",
+      "icon": "cobblemon:ultra_ball",
+      "description": [
+        "Prepare for grass Pokémon and status effects."
+      ],
+      "subtitle": "",
+      "x": -2.4,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "50A75F588D6818FE"
+      ],
+      "tasks": [
+        {
+          "id": "17F2ECC180264931",
+          "type": "advancement",
+          "advancement": "rctmod:trainers/defeat_leader_erika"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "29EA826E7A8F341F",
+          "type": "item",
+          "item": "cobblemon:ultra_ball",
+          "count": 6
+        },
+        {
+          "id": "16AE698A45D2BA0F",
+          "type": "item",
+          "item": "cobblemon:exp_candy_m",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "3B85D02DBB27A380",
+      "title": "Koga",
+      "icon": "cobblemon:ultra_ball",
+      "description": [
+        "Bring a plan for poison pressure and a team that can finish decisively."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "0E12A7DA9F22C8D5"
+      ],
+      "tasks": [
+        {
+          "id": "705EC645E6CC72B6",
+          "type": "advancement",
+          "advancement": "rctmod:trainers/defeat_leader_koga"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "66DF3D7C4D1327E1",
+          "type": "item",
+          "item": "cobblemon:ultra_ball",
+          "count": 6
+        },
+        {
+          "id": "28759E70FDD5A310",
+          "type": "item",
+          "item": "cobblemon:exp_candy_m",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "3CAC8E8A32866EFD",
+      "title": "Sabrina",
+      "icon": "cobblemon:ultra_ball",
+      "description": [
+        "Put a reliable psychic counter into your lineup."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "3B85D02DBB27A380"
+      ],
+      "tasks": [
+        {
+          "id": "13701D5CC681CB63",
+          "type": "advancement",
+          "advancement": "rctmod:trainers/defeat_leader_sabrina"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3218347BF2F9F3CC",
+          "type": "item",
+          "item": "cobblemon:ultra_ball",
+          "count": 6
+        },
+        {
+          "id": "079F87CC5971A980",
+          "type": "item",
+          "item": "cobblemon:exp_candy_m",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "24DAA37D3E7FB378",
+      "title": "Blaine",
+      "icon": "cobblemon:ultra_ball",
+      "description": [
+        "Bring a team that can stay in the fight under fire."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "3CAC8E8A32866EFD"
+      ],
+      "tasks": [
+        {
+          "id": "1C9D6D109E090DC5",
+          "type": "advancement",
+          "advancement": "rctmod:trainers/defeat_leader_blaine"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A3E529CB89DF7A1",
+          "type": "item",
+          "item": "cobblemon:ultra_ball",
+          "count": 6
+        },
+        {
+          "id": "7C44235EBFA40A0F",
+          "type": "item",
+          "item": "cobblemon:exp_candy_m",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "3D6668354B5F55F4",
+      "title": "Clair",
+      "icon": "cobblemon:ultra_ball",
+      "description": [
+        "Prepare several answers to dragons before the last leader match."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "24DAA37D3E7FB378"
+      ],
+      "tasks": [
+        {
+          "id": "29A0DC9613B26057",
+          "type": "advancement",
+          "advancement": "rctmod:trainers/defeat_leader_clair"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "54FB5AFA3F92767C",
+          "type": "item",
+          "item": "cobblemon:ultra_ball",
+          "count": 6
+        },
+        {
+          "id": "4D4576BD1555881E",
+          "type": "item",
+          "item": "cobblemon:exp_candy_m",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "76C96284638A7AC4",
+      "title": "The Elite Four",
+      "icon": "rctmod:trainer_card",
+      "description": [
+        "Win four Elite Four matchups. Build a balanced roster with coverage for each fight."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 10,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "3D6668354B5F55F4"
+      ],
+      "tasks": [
+        {
+          "id": "2D2DD299F21C1F35",
+          "type": "advancement",
+          "advancement": "rctmod:trainers/defeat_elite_four"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "57E7B9904500C544",
+          "type": "item",
+          "item": "cobblemon:exp_candy_l",
+          "count": 6
+        },
+        {
+          "id": "149DB01E901C5B51",
+          "type": "item",
+          "item": "cobblemon:ultra_ball",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "2633AB916FE72D45",
+      "title": "A League Champion",
+      "icon": "cobblemon:rare_candy",
+      "description": [
+        "Defeat a Champion after the Elite Four. The Trainer Card tracks your next opponents."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 12.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "76C96284638A7AC4"
+      ],
+      "tasks": [
+        {
+          "id": "0360CBABC04E9293",
+          "type": "advancement",
+          "advancement": "rctmod:trainers/defeat_champion"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "62CBBA826875E80C",
+          "type": "item",
+          "item": "cobblemon:rare_candy",
+          "count": 5
+        },
+        {
+          "id": "5A8D0A21B2D1ED1C",
+          "type": "item",
+          "item": "cobblemon:exp_candy_xl",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "74BF5684D3435138",
+      "title": "A Rival's Test",
+      "icon": "rctmod:trainer_card",
+      "description": [
+        "Win the battle against Terry and keep training the Pokémon that carried the match."
+      ],
+      "subtitle": "",
+      "x": -4.8,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "3E87257D457D6673"
+      ],
+      "tasks": [
+        {
+          "id": "58B9FB855E91902A",
+          "type": "advancement",
+          "advancement": "rctmod:trainers/defeat_rival_terry"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7039E04D2A4E98DE",
+          "type": "item",
+          "item": "cobblemon:great_ball",
+          "count": 6
+        },
+        {
+          "id": "46827F2B70F3DE46",
+          "type": "item",
+          "item": "cobblemon:exp_candy_m",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "17543C0EB0CAFA53",
+      "title": "Team Rocket",
+      "icon": "rctmod:trainer_card",
+      "description": [
+        "Beat a member of Team Rocket. Keep a spare team ready for encounters between leader matches."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "3E87257D457D6673"
+      ],
+      "tasks": [
+        {
+          "id": "693285D2A0B54181",
+          "type": "advancement",
+          "advancement": "rctmod:trainers/defeat_team_rocket"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6FE97DF4038FADBF",
+          "type": "item",
+          "item": "cobblemon:exp_candy_m",
+          "count": 6
+        },
+        {
+          "id": "42A5B0B84C9BBA32",
+          "type": "item",
+          "item": "cobblemon:revive",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "749B7FFFCE018B41",
+      "title": "The Rocket Boss",
+      "icon": "rctmod:trainer_card",
+      "description": [
+        "Defeat Giovanni in the first Rocket boss match when your Trainer Card points to him."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 12.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "17543C0EB0CAFA53"
+      ],
+      "tasks": [
+        {
+          "id": "2C2693FF041BBFA2",
+          "type": "advancement",
+          "advancement": "rctmod:trainers/defeat_boss_giovanni_1"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D22F418D27B1C5B",
+          "type": "item",
+          "item": "cobblemon:rare_candy",
+          "count": 3
+        },
+        {
+          "id": "4DDB15D7B83790C4",
+          "type": "item",
+          "item": "cobblemon:ultra_ball",
+          "count": 10
+        }
+      ]
+    }
+  ]
+}

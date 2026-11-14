@@ -1,0 +1,246 @@
+{
+  "id": "1A6F83953EA32256",
+  "filename": "wc_frontier_forge",
+  "title": "Convergence Forge",
+  "group": "0F095C8E4FA42163",
+  "icon": "wombatcraft:convergence_forge",
+  "order_index": 61,
+  "default_quest_shape": "circle",
+  "autofocus_id": "3FF9A6907D4E540C",
+  "quests": [
+    {
+      "id": "3FF9A6907D4E540C",
+      "title": "Found the Forge",
+      "icon": "wombatcraft:convergence_forge",
+      "description": [
+        "Craft the Convergence Forge controller. Place it between two brass blocks. Above that row, place crying obsidian, brass, then crying obsidian. Face the controller outward."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "diamond",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "76B584454117643F",
+          "type": "item",
+          "item": "wombatcraft:convergence_forge",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "69765C58A288A874",
+          "type": "item",
+          "item": "create:brass_block",
+          "count": 3
+        },
+        {
+          "id": "5695EB5847EF7929",
+          "type": "item",
+          "item": "minecraft:crying_obsidian",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "5AE3F8A052E72A14",
+      "title": "A Line from the Grid",
+      "icon": "mekanism:elite_energy_cube",
+      "description": [
+        "Run a Universal Cable from your energy network to an exposed face of the controller. A Mekanism cube can buffer the supply."
+      ],
+      "subtitle": "",
+      "x": -4,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "3FF9A6907D4E540C"
+      ],
+      "tasks": [
+        {
+          "id": "6FB9278EB7C2817E",
+          "type": "item",
+          "item": "mekanism:elite_energy_cube",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "297C0DB9C670F538",
+          "type": "item",
+          "item": "mekanism:elite_universal_cable",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "7CFDF2962E3F8794",
+      "title": "A Line from the Grove",
+      "icon": "botania:mana_spreader",
+      "description": [
+        "Feed a Mana Spreader from a pool and bind the spreader to the controller with a Wand of the Forest. Give the spreader a clear shot at an exposed face."
+      ],
+      "subtitle": "",
+      "x": 4,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "3FF9A6907D4E540C"
+      ],
+      "tasks": [
+        {
+          "id": "09EEDF75776E61D5",
+          "type": "item",
+          "item": "botania:mana_spreader",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "61DAC5DDD441C17C",
+          "type": "item",
+          "item": "botania:manasteel_ingot",
+          "count": 8
+        },
+        {
+          "id": "14B2ED73E9892A68",
+          "type": "item",
+          "item": "minecraft:glowstone_dust",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "0206CA299EE605AB",
+      "title": "Metal from Two Worlds",
+      "icon": "kubejs:convergence_alloy",
+      "description": [
+        "Load eight brass ingots, one terrasteel ingot and two ostrum ingots. The Forge draws 200,000 FE and 12,000 mana to cast four Convergence Alloy."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "5AE3F8A052E72A14",
+        "7CFDF2962E3F8794"
+      ],
+      "tasks": [
+        {
+          "id": "70224B862DED768C",
+          "type": "item",
+          "item": "kubejs:convergence_alloy",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "764C00A884BD9D8F",
+          "type": "item",
+          "item": "ad_astra:ostrum_ingot",
+          "count": 4
+        },
+        {
+          "id": "12A0D0BE9F8436D2",
+          "type": "item",
+          "item": "botania:manasteel_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "139EF44D6A0FD76B",
+      "title": "Glass of the High Sky",
+      "icon": "kubejs:convergence_lens",
+      "description": [
+        "Forge two alloy, eight ambrosium and two mana diamonds at 400,000 FE and 30,000 mana. A spare lens crafts into four Warp Stones with two amethyst shards."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "0206CA299EE605AB"
+      ],
+      "tasks": [
+        {
+          "id": "4DECAC22D60BB7C5",
+          "type": "item",
+          "item": "kubejs:convergence_lens",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7CF66D385C4162A7",
+          "type": "item",
+          "item": "waystones:warp_scroll",
+          "count": 4
+        },
+        {
+          "id": "2937C83B722C7A8E",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "1E846677EED0C0D9",
+      "title": "The Convergence Keystone",
+      "icon": "kubejs:convergence_keystone",
+      "description": [
+        "Load a lens, all three trial crests, two calorite ingots and one Gaia ingot. Give the Forge 1,000,000 FE and 75,000 mana. The finished Keystone can become a beacon with glass and obsidian."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 10,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "139EF44D6A0FD76B",
+        "7D9DF9D036479B33"
+      ],
+      "tasks": [
+        {
+          "id": "1FFCA18CA71A8DE0",
+          "type": "item",
+          "item": "kubejs:convergence_keystone",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11DDA4C22ED83C47",
+          "type": "item",
+          "item": "minecraft:netherite_ingot",
+          "count": 3
+        },
+        {
+          "id": "51CAE47B65AB725B",
+          "type": "item",
+          "item": "minecraft:dragon_breath",
+          "count": 8
+        }
+      ]
+    }
+  ]
+}

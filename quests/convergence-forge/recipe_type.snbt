@@ -1,0 +1,23 @@
+{
+  recipe_type: {
+    registryName: "wombatcraft:convergence_forging",
+    icon: {_type: "resource_texture", imageLocation: "minecraft:textures/block/crying_obsidian.png"}
+  },
+  ui: {
+    size: {width: 162, height: 62},
+    children: [
+      {type: "item_slot", data: {id: "@item_import_0", selfPosition: {x: 4, y: 7}}},
+      {type: "item_slot", data: {id: "@item_import_1", selfPosition: {x: 22, y: 7}}},
+      {type: "item_slot", data: {id: "@item_import_2", selfPosition: {x: 40, y: 7}}},
+      {type: "item_slot", data: {id: "@item_import_3", selfPosition: {x: 58, y: 7}}},
+      {type: "item_slot", data: {id: "@item_import_4", selfPosition: {x: 76, y: 7}}},
+      {type: "item_slot", data: {id: "@item_import_5", selfPosition: {x: 94, y: 7}}},
+      {type: "progress", data: {id: "@progress_bar", selfPosition: {x: 113, y: 10}, size: {width: 22, height: 12}}},
+      {type: "item_slot", data: {id: "@item_export_0", selfPosition: {x: 140, y: 7}}},
+      {type: "label", data: {selfPosition: {x: 4, y: 33}, text: "FE", color: -12763843}},
+      {type: "progress", data: {id: "@forge_energy_import_0", selfPosition: {x: 32, y: 32}, size: {width: 65, height: 9}}},
+      {type: "label", data: {selfPosition: {x: 4, y: 49}, text: "Mana", color: -12763843}},
+      {type: "progress", data: {id: "@botania_mana_import_0", selfPosition: {x: 32, y: 48}, size: {width: 65, height: 9}}}
+    ]
+  }
+}

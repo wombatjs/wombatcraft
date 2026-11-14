@@ -1,0 +1,405 @@
+{
+  "id": "05E8117DBDC003AE",
+  "filename": "wc_frontier_exposure",
+  "title": "The Frontier in Focus",
+  "group": "00AA8F374274B5F3",
+  "icon": "exposure:camera",
+  "order_index": 65,
+  "default_quest_shape": "circle",
+  "autofocus_id": "2A4C28F12FE686B4",
+  "quests": [
+    {
+      "id": "2A4C28F12FE686B4",
+      "title": "A Camera for the Road",
+      "icon": "exposure:camera",
+      "description": [
+        "Craft a camera and sneak-use it to fit a roll of film. Use the viewfinder to frame your first shot."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "diamond",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "26970C249AF93692",
+          "type": "item",
+          "item": "exposure:camera",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "240618250A02B25A",
+          "type": "item",
+          "item": "exposure:black_and_white_film",
+          "count": 2
+        },
+        {
+          "id": "5CE4593BE614590E",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "2DE69BD7E2A1EB04",
+      "title": "The First Frame",
+      "icon": "exposure:camera",
+      "description": [
+        "Expose a frame with a loaded camera."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "2A4C28F12FE686B4"
+      ],
+      "tasks": [
+        {
+          "id": "584B94997589229A",
+          "type": "advancement",
+          "advancement": "exposure:adventure/exposure"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "28C211AB1857E514",
+          "type": "item",
+          "item": "minecraft:redstone_lamp",
+          "count": 1
+        },
+        {
+          "id": "33BEA8D478C6E9E5",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "4E8F4116418D8C6E",
+      "title": "Into the Darkroom",
+      "icon": "exposure:developed_black_and_white_film",
+      "description": [
+        "Develop an exposed roll using the ingredients listed on its film tooltip."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "2DE69BD7E2A1EB04"
+      ],
+      "tasks": [
+        {
+          "id": "15DD7559A8325E1E",
+          "type": "item",
+          "item": "exposure:developed_black_and_white_film",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E242BC651417EE0",
+          "type": "item",
+          "item": "minecraft:black_dye",
+          "count": 12
+        },
+        {
+          "id": "50A2C0F0560532C4",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 24
+        }
+      ]
+    },
+    {
+      "id": "5C19D9B2DE65BFED",
+      "title": "A Print to Keep",
+      "icon": "exposure:photograph",
+      "description": [
+        "Put the developed roll into a Lightroom and print a frame with paper and dye."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "4E8F4116418D8C6E"
+      ],
+      "tasks": [
+        {
+          "id": "2176F59929F717AA",
+          "type": "advancement",
+          "advancement": "exposure:adventure/moment_in_time"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0944B6F895E5FD37",
+          "type": "item",
+          "item": "exposure:photograph_frame",
+          "count": 4
+        },
+        {
+          "id": "34FC586C19D731BC",
+          "type": "item",
+          "item": "exposure:color_film",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "0E47817D7F94FF3F",
+      "title": "The Color of Home",
+      "icon": "exposure:color_film",
+      "description": [
+        "Expose and develop a roll of color film. Use cyan, magenta and yellow dyes to print a color frame."
+      ],
+      "subtitle": "",
+      "x": -4,
+      "y": 10,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "5C19D9B2DE65BFED"
+      ],
+      "tasks": [
+        {
+          "id": "3D080B71F74F3E28",
+          "type": "item",
+          "item": "exposure:developed_color_film",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "033B65A99C01B139",
+          "type": "item",
+          "item": "minecraft:cyan_dye",
+          "count": 6
+        },
+        {
+          "id": "19215640FEAD1F42",
+          "type": "item",
+          "item": "minecraft:magenta_dye",
+          "count": 6
+        },
+        {
+          "id": "2AADF315BB555086",
+          "type": "item",
+          "item": "minecraft:yellow_dye",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "5C9E2AC7342058E2",
+      "title": "Light in the Dark",
+      "icon": "exposure:camera",
+      "description": [
+        "Attach a redstone lamp and use the flash to expose a frame in darkness."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 10,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "5C19D9B2DE65BFED"
+      ],
+      "tasks": [
+        {
+          "id": "5EB9EEE251B51B2B",
+          "type": "advancement",
+          "advancement": "exposure:adventure/lights_up"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "567042D14AF46E29",
+          "type": "item",
+          "item": "exposure:high_sensitivity_black_and_white_film",
+          "count": 2
+        },
+        {
+          "id": "1D3C86D9E3488BF5",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "2ED82ED1AFFC7CF8",
+      "title": "An Album for the Crew",
+      "icon": "exposure:album",
+      "description": [
+        "Craft an album and bind several of your expedition prints together."
+      ],
+      "subtitle": "",
+      "x": 4,
+      "y": 10,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "5C19D9B2DE65BFED"
+      ],
+      "tasks": [
+        {
+          "id": "5CC41E3C8AE5A6C1",
+          "type": "item",
+          "item": "exposure:album",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3FDE28AA1C0F420D",
+          "type": "item",
+          "item": "exposure:glass_photograph_frame",
+          "count": 4
+        },
+        {
+          "id": "3C57ED630E83AB90",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "2E81519E1B448516",
+      "title": "Light from the Void",
+      "icon": "minecraft:end_stone",
+      "description": [
+        "Take a photograph in the End. Return with the film and develop it safely at home."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 12.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "5C9E2AC7342058E2"
+      ],
+      "tasks": [
+        {
+          "id": "344896E948FE8E6F",
+          "type": "advancement",
+          "advancement": "exposure:adventure/void"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19CD2B4FC430E2FB",
+          "type": "item",
+          "item": "exposure:high_sensitivity_color_film",
+          "count": 2
+        },
+        {
+          "id": "6F101B125DCE3DAE",
+          "type": "item",
+          "item": "minecraft:firework_rocket",
+          "count": 24
+        }
+      ]
+    },
+    {
+      "id": "025BBA3800938C95",
+      "title": "The Wildlife Archive",
+      "icon": "exposure:camera_stand",
+      "description": [
+        "Photograph the wild animals tracked by the Wildlife Archivist advancement."
+      ],
+      "subtitle": "",
+      "x": -4,
+      "y": 12.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "0E47817D7F94FF3F"
+      ],
+      "tasks": [
+        {
+          "id": "6A78D6CEA622682B",
+          "type": "advancement",
+          "advancement": "exposure:adventure/wildlife_archivist"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "521E0B086195597E",
+          "type": "item",
+          "item": "exposure:color_film",
+          "count": 3
+        },
+        {
+          "id": "43A69877F9252601",
+          "type": "item",
+          "item": "exposure:glass_photograph_frame",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "6536322C21B43CBC",
+      "title": "A Gallery of Worlds",
+      "icon": "exposure:glass_photograph_frame",
+      "description": [
+        "Display a series of framed photos from three different dimensions. Leave captions with each location so visitors can follow your route."
+      ],
+      "subtitle": "",
+      "x": 4,
+      "y": 12.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "2ED82ED1AFFC7CF8",
+        "2E81519E1B448516"
+      ],
+      "tasks": [
+        {
+          "id": "36B16BFF3821E5CC",
+          "type": "checkmark",
+          "title": "Open your gallery to visitors"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "055F20A97A83BD26",
+          "type": "item",
+          "item": "exposure:glass_photograph_frame",
+          "count": 8
+        },
+        {
+          "id": "3FB41956B9120A22",
+          "type": "item",
+          "item": "minecraft:lantern",
+          "count": 16
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,699 @@
+{
+  "id": "4FC1540A0D66791F",
+  "filename": "wc_frontier_artifice",
+  "title": "Mana and Artifice",
+  "group": "065A019E212476CF",
+  "icon": "mna:vinteum_ingot",
+  "order_index": 62,
+  "default_quest_shape": "circle",
+  "autofocus_id": "08C678F4D3FC8A67",
+  "quests": [
+    {
+      "id": "08C678F4D3FC8A67",
+      "title": "The Vinteum Trade",
+      "icon": "mna:vinteum_ingot",
+      "description": [
+        "Mine and refine vinteum. Trade the finished metal with a villager for the Codex Arcana, then follow its First Steps."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "diamond",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "1D0B82E8C7D9C47B",
+          "type": "advancement",
+          "advancement": "mna:tier_0/codex_trade"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "469E3C1009780DFC",
+          "type": "item",
+          "item": "mna:vinteum_dust",
+          "count": 8
+        },
+        {
+          "id": "4886C01D11778EEF",
+          "type": "item",
+          "item": "minecraft:ink_sac",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "72ADDCC05CDBF349",
+      "title": "Inscribe a Design",
+      "icon": "mna:inscription_table",
+      "description": [
+        "Build an Inscription Table. Set the shape, components and reagents for a first spell."
+      ],
+      "subtitle": "",
+      "x": -4,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "08C678F4D3FC8A67"
+      ],
+      "tasks": [
+        {
+          "id": "6027015BC1AA9DD8",
+          "type": "advancement",
+          "advancement": "mna:tier_1/obtain_inscription_table"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2F8861E9F1240DC6",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 16
+        },
+        {
+          "id": "531D4909860AD397",
+          "type": "item",
+          "item": "minecraft:feather",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "736E3EB97A5493B9",
+      "title": "Trace the Weave",
+      "icon": "mna:manaweaving_altar",
+      "description": [
+        "Follow a manaweave pattern from the Codex. Draw each line cleanly before beginning the next."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "08C678F4D3FC8A67"
+      ],
+      "tasks": [
+        {
+          "id": "08260D20914D147E",
+          "type": "advancement",
+          "advancement": "mna:tier_1/draw_manaweave_pattern"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "580FEEAD4810638D",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 8
+        },
+        {
+          "id": "38545E86F0CC8FC4",
+          "type": "item",
+          "item": "mna:vinteum_dust",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "4A8CEB89BBE0588A",
+      "title": "Wake the Wood",
+      "icon": "mna:constructs/construct_basic_head_wickerwood",
+      "description": [
+        "Assemble a wickerwood construct with a head, torso, legs and arms. Animate it when the parts are in place."
+      ],
+      "subtitle": "",
+      "x": 4,
+      "y": 2.4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "08C678F4D3FC8A67"
+      ],
+      "tasks": [
+        {
+          "id": "7E0B48E26079B87B",
+          "type": "advancement",
+          "advancement": "mna:tier_1/craft_wickerwood_construct"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2C5B2838D078E5FB",
+          "type": "item",
+          "item": "mna:constructs/construct_grabber_arm_left_wickerwood",
+          "count": 1
+        },
+        {
+          "id": "1B050C9EBAEECE59",
+          "type": "item",
+          "item": "minecraft:oak_log",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "6F64BBBA6A23E211",
+      "title": "Give Shape to Mana",
+      "icon": "mna:vinteum_ingot",
+      "description": [
+        "Complete the first spell using the recipe written at the Inscription Table."
+      ],
+      "subtitle": "",
+      "x": -4,
+      "y": 4.8,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "72ADDCC05CDBF349"
+      ],
+      "tasks": [
+        {
+          "id": "5FF5C187BB01F83F",
+          "type": "advancement",
+          "advancement": "mna:tier_1/craft_a_spell"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "735910C46701DADD",
+          "type": "item",
+          "item": "mna:practitioners_pouch",
+          "count": 1
+        },
+        {
+          "id": "0D3C618C141D72FB",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "38C2982541F070E9",
+      "title": "The Weaving Altar",
+      "icon": "mna:manaweaving_altar",
+      "description": [
+        "Build the Manaweaving Altar and complete a recipe using its required patterns."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 4.8,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "736E3EB97A5493B9"
+      ],
+      "tasks": [
+        {
+          "id": "6F91AE847A1A4915",
+          "type": "advancement",
+          "advancement": "mna:tier_1/craft_at_manaweave_altar"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3915357AD881DE21",
+          "type": "item",
+          "item": "mna:vinteum_ingot",
+          "count": 6
+        },
+        {
+          "id": "710B883AC6DCF605",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "1F99E6C062D6B857",
+      "title": "A Workshop with Hands",
+      "icon": "mna:bell_of_bidding",
+      "description": [
+        "Use the Bell of Bidding to bind your construct to a Delegation Station or Lodestar. Give it a job it has the parts to perform."
+      ],
+      "subtitle": "",
+      "x": 4,
+      "y": 4.8,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "4A8CEB89BBE0588A"
+      ],
+      "tasks": [
+        {
+          "id": "7DD5B2ED731D4D91",
+          "type": "advancement",
+          "advancement": "mna:tier_1/assign_delegation_station"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "28BCE26EDC895A4A",
+          "type": "item",
+          "item": "minecraft:hopper",
+          "count": 4
+        },
+        {
+          "id": "2154343E612045DA",
+          "type": "item",
+          "item": "minecraft:chest",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "35B85CA4CEAFD684",
+      "title": "The First Casting",
+      "icon": "mna:vinteum_ingot",
+      "description": [
+        "Equip your completed spell and cast it on an appropriate target."
+      ],
+      "subtitle": "",
+      "x": -4,
+      "y": 7.2,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "6F64BBBA6A23E211"
+      ],
+      "tasks": [
+        {
+          "id": "6C93F99368CB9CB3",
+          "type": "advancement",
+          "advancement": "mna:tier_1/cast_a_spell"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "275F1B80393CE459",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 6
+        },
+        {
+          "id": "65E9EF8C42D84A4C",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "631E8D486FE8854F",
+      "title": "Apprentice",
+      "icon": "mna:vinteum_ingot",
+      "description": [
+        "Fulfil the Codex's first tier requirements and perform its advancement ritual."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 7.2,
+      "shape": "diamond",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "38C2982541F070E9"
+      ],
+      "tasks": [
+        {
+          "id": "1EE7A1C66007D481",
+          "type": "advancement",
+          "advancement": "mna:tier_1/advance_tier_2"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "52469F8236CED5A7",
+          "type": "item",
+          "item": "mna:purified_vinteum_ingot",
+          "count": 4
+        },
+        {
+          "id": "7F99A0BE9EBDE218",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "03B1A685A81D4F60",
+      "title": "Wood and Stone",
+      "icon": "mna:vinteum_ingot",
+      "description": [
+        "Advance to tier two and animate a construct with the stronger wood and stone parts."
+      ],
+      "subtitle": "",
+      "x": 4,
+      "y": 7.2,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "1F99E6C062D6B857",
+        "631E8D486FE8854F"
+      ],
+      "tasks": [
+        {
+          "id": "68AAC997A8A808BB",
+          "type": "advancement",
+          "advancement": "mna:tier_2/craft_wood_stone_construct"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B0D0EE7CE3FE1D7",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 12
+        },
+        {
+          "id": "72E1C1BA70A01FCA",
+          "type": "item",
+          "item": "mna:vinteum_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "441764591DCA5933",
+      "title": "The Rune Forge",
+      "icon": "mna:vinteum_ingot",
+      "description": [
+        "Use the Rune Forge to make a rune and keep the pattern for later work."
+      ],
+      "subtitle": "",
+      "x": -4,
+      "y": 9.6,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "35B85CA4CEAFD684",
+        "631E8D486FE8854F"
+      ],
+      "tasks": [
+        {
+          "id": "60A874C1FB1E74CC",
+          "type": "advancement",
+          "advancement": "mna:tier_2/runeforge_rune"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0BC9B3DE63E5542C",
+          "type": "item",
+          "item": "mna:purified_vinteum_ingot",
+          "count": 6
+        },
+        {
+          "id": "2F538CDFC43E189E",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "369EA18BEE23B643",
+      "title": "Journeyman",
+      "icon": "mna:vinteum_ingot",
+      "description": [
+        "Reach tier three through the Codex and choose the faction whose work suits you."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 9.6,
+      "shape": "diamond",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "631E8D486FE8854F"
+      ],
+      "tasks": [
+        {
+          "id": "39157EA77000656E",
+          "type": "advancement",
+          "advancement": "mna:tier_2/advance_tier_3"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4F7C9F205135499D",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 12
+        },
+        {
+          "id": "3F29D12B2AEBD7FC",
+          "type": "item",
+          "item": "mna:purified_vinteum_ingot",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "6C05A0773E010A42",
+      "title": "Iron and Gold",
+      "icon": "mna:vinteum_ingot",
+      "description": [
+        "Build and animate an iron and gold construct to carry the workshop's harder jobs."
+      ],
+      "subtitle": "",
+      "x": 4,
+      "y": 9.6,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "03B1A685A81D4F60",
+        "369EA18BEE23B643"
+      ],
+      "tasks": [
+        {
+          "id": "25AD32A996C9BEA8",
+          "type": "advancement",
+          "advancement": "mna:tier_3/craft_iron_gold_construct"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4AC9A8430AC68330",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 3
+        },
+        {
+          "id": "3924D7C00DD76B83",
+          "type": "item",
+          "item": "minecraft:obsidian",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "1C50B19DCE731C62",
+      "title": "An Etching that Holds",
+      "icon": "mna:vinteum_ingot",
+      "description": [
+        "Use runic enchanting to apply an enchantment to a piece of equipment."
+      ],
+      "subtitle": "",
+      "x": -4,
+      "y": 12,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "441764591DCA5933",
+        "369EA18BEE23B643"
+      ],
+      "tasks": [
+        {
+          "id": "1761B3627B211D73",
+          "type": "advancement",
+          "advancement": "mna:tier_3/runic_enchant"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "075126091D76DDF6",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 16
+        },
+        {
+          "id": "41BEB3AAC36FB8A2",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "6F7EBDD8174394E1",
+      "title": "Adept",
+      "icon": "mna:vinteum_ingot",
+      "description": [
+        "Follow your faction's chapter through the next tier ritual."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 12,
+      "shape": "diamond",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "369EA18BEE23B643"
+      ],
+      "tasks": [
+        {
+          "id": "0BB4F9E118129559",
+          "type": "advancement",
+          "advancement": "mna:tier_3/advance_tier_4"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3CB9803AA47A83C9",
+          "type": "item",
+          "item": "minecraft:ender_pearl",
+          "count": 8
+        },
+        {
+          "id": "46A1544404E68746",
+          "type": "item",
+          "item": "mna:purified_vinteum_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "52A859FB09BC6A37",
+      "title": "Obsidian Crew",
+      "icon": "mna:vinteum_ingot",
+      "description": [
+        "Finish your construct line by animating a body of diamond and obsidian."
+      ],
+      "subtitle": "",
+      "x": 4,
+      "y": 12,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "6C05A0773E010A42",
+        "6F7EBDD8174394E1"
+      ],
+      "tasks": [
+        {
+          "id": "2A7E12EF1699C000",
+          "type": "advancement",
+          "advancement": "mna:tier_4/craft_diamond_obsidian_construct"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7BC41700316DD4D3",
+          "type": "item",
+          "item": "artifacts:universal_attractor",
+          "count": 1
+        },
+        {
+          "id": "5800EE2585DA21CF",
+          "type": "item",
+          "item": "minecraft:redstone_block",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "0890ED5AFAECDE64",
+      "title": "Catch the Wellspring",
+      "icon": "mna:vinteum_ingot",
+      "description": [
+        "Find an Eldrin Wellspring and build the Codex's capture structure around it."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 14.4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "6F7EBDD8174394E1"
+      ],
+      "tasks": [
+        {
+          "id": "1AC007E40A33BEEE",
+          "type": "advancement",
+          "advancement": "mna:tier_4/capture_wellspring"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E077B05251D8BCF",
+          "type": "item",
+          "item": "minecraft:amethyst_block",
+          "count": 8
+        },
+        {
+          "id": "733D23D0ED950066",
+          "type": "item",
+          "item": "mna:purified_vinteum_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "0A98D1019B775F1C",
+      "title": "Master Artificer",
+      "icon": "mna:vinteum_ingot",
+      "description": [
+        "Complete the final tier ritual and take your place among the master artificers."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 16.8,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "0890ED5AFAECDE64"
+      ],
+      "tasks": [
+        {
+          "id": "66ED717793B711DC",
+          "type": "advancement",
+          "advancement": "mna:tier_4/advance_tier_5"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "56A009325E5E2BDF",
+          "type": "item",
+          "item": "minecraft:nether_star",
+          "count": 1
+        },
+        {
+          "id": "5DECEEE50DBC9955",
+          "type": "item",
+          "item": "mna:purified_vinteum_ingot",
+          "count": 12
+        }
+      ]
+    }
+  ]
+}

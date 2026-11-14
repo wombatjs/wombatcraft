@@ -1,0 +1,5 @@
+# The Forge has three recipes. Keep their inventory and resource checks on the server tick.
+asyncRecipeSearching = false
+useVBO = true
+multiblockPreviewDuration = 10
+multiblockPatternErrorPosDuration = 10
