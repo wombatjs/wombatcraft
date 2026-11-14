@@ -17,8 +17,13 @@ ClientEvents.tick(event => {
   wcNextSample = now + 1000
   try {
     const engine = WCPlaceholderEngine.INSTANCE
-    engine.registerPlaceholder('wombatcraft.details', 'Exploring the frontier', () => wcDetails.get())
-    engine.registerPlaceholder('wombatcraft.state', 'A world worth making yours', () => wcState.get())
+    // Simple RPC rejects duplicate registrations and clears these on config reload.
+    if (String(engine.resolvePlaceholders('{{wombatcraft.details}}')) === 'Unknown Placeholder') {
+      engine.registerPlaceholder('wombatcraft.details', 'Exploring the frontier', () => wcDetails.get())
+    }
+    if (String(engine.resolvePlaceholders('{{wombatcraft.state}}')) === 'Unknown Placeholder') {
+      engine.registerPlaceholder('wombatcraft.state', 'A world worth making yours', () => wcState.get())
+    }
     const player = Client.player
     if (!player) {
       wcJoinedAt = 0
