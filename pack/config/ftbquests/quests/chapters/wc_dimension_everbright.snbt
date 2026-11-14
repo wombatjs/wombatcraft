@@ -258,6 +258,28 @@
       ]
     },
     {
+      "id": "0FBE5AB21E22FDE4",
+      "title": "Blue Skies",
+      "subtitle": "Field survey",
+      "description": [
+        "Seek a Gatekeeper and consult the Blue Journal. Carry a Zeal Lighter to open the Everbright portal; local tools matter in this cold realm."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "023C0132EC8172FD",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
       "id": "0946545B4603BE07",
       "title": "Everbright Blinding Dungeon",
       "subtitle": "Field survey",
@@ -266,7 +288,7 @@
       ],
       "icon": "minecraft:map",
       "x": 8,
-      "y": 3.0,
+      "y": 2.2,
       "shape": "circle",
       "dependencies": [
         "0FBE5AB21E22FDE4"
@@ -297,7 +319,7 @@
       ],
       "icon": "minecraft:map",
       "x": 8,
-      "y": 5.2,
+      "y": 4.4,
       "shape": "circle",
       "dependencies": [
         "0BA6F463D0657EE1"
@@ -314,28 +336,6 @@
           "id": "0933F6AF5D41B2AB",
           "type": "xp",
           "xp": 15
-        }
-      ],
-      "size": 1,
-      "optional": true
-    },
-    {
-      "id": "0FBE5AB21E22FDE4",
-      "title": "Blue Skies",
-      "subtitle": "Field survey",
-      "description": [
-        "Seek a Gatekeeper and consult the Blue Journal. Carry a Zeal Lighter to open the Everbright portal; local tools matter in this cold realm."
-      ],
-      "icon": "minecraft:map",
-      "x": 8,
-      "y": 7.4,
-      "shape": "circle",
-      "dependencies": [],
-      "tasks": [
-        {
-          "id": "023C0132EC8172FD",
-          "type": "checkmark",
-          "title": "Read and continue"
         }
       ],
       "size": 1,

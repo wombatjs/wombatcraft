@@ -338,7 +338,7 @@
       ],
       "icon": "minecraft:map",
       "x": 8,
-      "y": 3.0,
+      "y": 0.0,
       "shape": "circle",
       "dependencies": [
         "0946545B4603BE07"

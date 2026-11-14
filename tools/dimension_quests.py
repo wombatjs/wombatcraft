@@ -78,7 +78,8 @@ def add_dimensions(book, uid):
         for q in source['quests']:
             if q['id'] in selected:
                 selected.update(q.get('dependencies',[]))
-        moved=[q for q in source['quests'] if q['id'] in selected]
+        moved=sorted([q for q in source['quests'] if q['id'] in selected],
+                     key=lambda q: q['tasks'][0]['type']!='checkmark')
         source['quests']=[q for q in source['quests'] if q['id'] not in selected]
         for q in moved:
             dest=book['wc_dimension_'+('everdawn' if ns=='blue_skies' and 'Everdawn' in q['title'] else key)]
@@ -86,7 +87,7 @@ def add_dimensions(book, uid):
             q['subtitle']='Field survey'
             if q['tasks'][0]['type']=='checkmark':
                 q['description']=[EXPEDITIONS[key][3]]
-            mark(q,8,3+sum(1 for v in dest['quests'] if v['x']==8)*2.2,'circle',1)
+            mark(q,8,2.2*sum(1 for v in dest['quests'] if v['x']==8),'circle',1)
             dest['quests'].append(q)
 
     for key in ['11_ad_astra','01_tardis','28_pocket_worlds','wc_twilight_forest']:
@@ -188,7 +189,8 @@ def add_dimensions(book, uid):
             changed=len(selected)!=before
         dest=book[target]
         row=max(q['y'] for q in dest['quests'])+3
-        for q in [v for v in source['quests'] if v['id'] in selected]:
+        for q in sorted([v for v in source['quests'] if v['id'] in selected],
+                        key=lambda q: q['tasks'][0]['type']!='checkmark'):
             mark(q,0,row,'circle',1)
             q['optional']=True
             row+=2

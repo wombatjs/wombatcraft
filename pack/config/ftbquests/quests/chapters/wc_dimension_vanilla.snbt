@@ -436,6 +436,29 @@
       ]
     },
     {
+      "id": "01517794F311EFC3",
+      "title": "Incendium Legacy",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Incendium Legacy. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 0,
+      "y": 14.8,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "09A0FC63CA9A7385",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
       "id": "0D8ED2976CE9615B",
       "title": "Abandoned Tower",
       "subtitle": "",
@@ -444,7 +467,7 @@
       ],
       "icon": "minecraft:map",
       "x": 0,
-      "y": 14.8,
+      "y": 16.8,
       "shape": "circle",
       "dependencies": [
         "01517794F311EFC3"
@@ -475,7 +498,7 @@
       ],
       "icon": "minecraft:map",
       "x": 0,
-      "y": 16.8,
+      "y": 18.8,
       "shape": "circle",
       "dependencies": [
         "0D8ED2976CE9615B"
@@ -506,7 +529,7 @@
       ],
       "icon": "minecraft:map",
       "x": 0,
-      "y": 18.8,
+      "y": 20.8,
       "shape": "circle",
       "dependencies": [
         "0BEF6E8D8DFDCCAD"
@@ -529,21 +552,21 @@
       "optional": true
     },
     {
-      "id": "01517794F311EFC3",
-      "title": "Incendium Legacy",
+      "id": "0B2D0B1486748AFF",
+      "title": "Nullscape",
       "subtitle": "Optional branch",
       "description": [
-        "This optional branch introduces Incendium Legacy. Follow its connected goals when it fits your current project.",
+        "This optional branch introduces Nullscape. Follow its connected goals when it fits your current project.",
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
       "x": 0,
-      "y": 20.8,
+      "y": 23.8,
       "shape": "circle",
       "dependencies": [],
       "tasks": [
         {
-          "id": "09A0FC63CA9A7385",
+          "id": "0B4E54ACFBCDE463",
           "type": "checkmark",
           "title": "Read and continue"
         }
@@ -560,7 +583,7 @@
       ],
       "icon": "minecraft:map",
       "x": 0,
-      "y": 23.8,
+      "y": 25.8,
       "shape": "circle",
       "dependencies": [
         "0B2D0B1486748AFF"
@@ -583,21 +606,21 @@
       "optional": true
     },
     {
-      "id": "0B2D0B1486748AFF",
-      "title": "Nullscape",
+      "id": "04C86411B70B104A",
+      "title": "YUNG's Better Nether Fortresses",
       "subtitle": "Optional branch",
       "description": [
-        "This optional branch introduces Nullscape. Follow its connected goals when it fits your current project.",
+        "This optional branch introduces YUNG's Better Nether Fortresses. Follow its connected goals when it fits your current project.",
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
       "x": 0,
-      "y": 25.8,
+      "y": 28.8,
       "shape": "circle",
       "dependencies": [],
       "tasks": [
         {
-          "id": "0B4E54ACFBCDE463",
+          "id": "05BD66549CD2E735",
           "type": "checkmark",
           "title": "Read and continue"
         }
@@ -614,7 +637,7 @@
       ],
       "icon": "minecraft:map",
       "x": 0,
-      "y": 28.8,
+      "y": 30.8,
       "shape": "circle",
       "dependencies": [
         "04C86411B70B104A"
@@ -631,29 +654,6 @@
           "id": "0E3C9C748D26E671",
           "type": "xp",
           "xp": 15
-        }
-      ],
-      "size": 1,
-      "optional": true
-    },
-    {
-      "id": "04C86411B70B104A",
-      "title": "YUNG's Better Nether Fortresses",
-      "subtitle": "Optional branch",
-      "description": [
-        "This optional branch introduces YUNG's Better Nether Fortresses. Follow its connected goals when it fits your current project.",
-        "The main technology and magic chapters remain available independently."
-      ],
-      "icon": "minecraft:map",
-      "x": 0,
-      "y": 30.8,
-      "shape": "circle",
-      "dependencies": [],
-      "tasks": [
-        {
-          "id": "05BD66549CD2E735",
-          "type": "checkmark",
-          "title": "Read and continue"
         }
       ],
       "size": 1,

@@ -330,6 +330,28 @@
       ]
     },
     {
+      "id": "072D29B73450C8D4",
+      "title": "The Aether",
+      "subtitle": "Field survey",
+      "description": [
+        "Build a glowstone gateway and pour water into its frame. The islands hold three dungeon tiers, enchanted minerals and moa companions."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "031E2FFBC8DD9CAC",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
       "id": "0F774E6A6EC16A11",
       "title": "Bronze Dungeon",
       "subtitle": "Field survey",
@@ -338,7 +360,7 @@
       ],
       "icon": "minecraft:map",
       "x": 8,
-      "y": 3.0,
+      "y": 2.2,
       "shape": "circle",
       "dependencies": [
         "072D29B73450C8D4"
@@ -369,7 +391,7 @@
       ],
       "icon": "minecraft:map",
       "x": 8,
-      "y": 5.2,
+      "y": 4.4,
       "shape": "circle",
       "dependencies": [
         "0F774E6A6EC16A11"
@@ -400,7 +422,7 @@
       ],
       "icon": "minecraft:map",
       "x": 8,
-      "y": 7.4,
+      "y": 6.6,
       "shape": "circle",
       "dependencies": [
         "033E5F7DCA349D44"
@@ -417,28 +439,6 @@
           "id": "0503C6B2C3CC41D3",
           "type": "xp",
           "xp": 15
-        }
-      ],
-      "size": 1,
-      "optional": true
-    },
-    {
-      "id": "072D29B73450C8D4",
-      "title": "The Aether",
-      "subtitle": "Field survey",
-      "description": [
-        "Build a glowstone gateway and pour water into its frame. The islands hold three dungeon tiers, enchanted minerals and moa companions."
-      ],
-      "icon": "minecraft:map",
-      "x": 8,
-      "y": 9.6,
-      "shape": "circle",
-      "dependencies": [],
-      "tasks": [
-        {
-          "id": "031E2FFBC8DD9CAC",
-          "type": "checkmark",
-          "title": "Read and continue"
         }
       ],
       "size": 1,

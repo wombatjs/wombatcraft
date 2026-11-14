@@ -367,6 +367,29 @@
       "size": 1.35
     },
     {
+      "id": "0BBDD123BF4A1E9F",
+      "title": "The Twilight Forest",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces The Twilight Forest. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 0,
+      "y": 10.3,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "03449C4B926D3112",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
       "id": "0A754381126522F5",
       "title": "Aurora Palace",
       "subtitle": "",
@@ -375,7 +398,7 @@
       ],
       "icon": "minecraft:map",
       "x": 0,
-      "y": 10.3,
+      "y": 12.3,
       "shape": "circle",
       "dependencies": [
         "0BBDD123BF4A1E9F"
@@ -406,7 +429,7 @@
       ],
       "icon": "minecraft:map",
       "x": 0,
-      "y": 12.3,
+      "y": 14.3,
       "shape": "circle",
       "dependencies": [
         "0A754381126522F5"
@@ -437,7 +460,7 @@
       ],
       "icon": "minecraft:map",
       "x": 0,
-      "y": 14.3,
+      "y": 16.3,
       "shape": "circle",
       "dependencies": [
         "08EB496F96E45734"
@@ -454,29 +477,6 @@
           "id": "044B27767F3317E0",
           "type": "xp",
           "xp": 15
-        }
-      ],
-      "size": 1,
-      "optional": true
-    },
-    {
-      "id": "0BBDD123BF4A1E9F",
-      "title": "The Twilight Forest",
-      "subtitle": "Optional branch",
-      "description": [
-        "This optional branch introduces The Twilight Forest. Follow its connected goals when it fits your current project.",
-        "The main technology and magic chapters remain available independently."
-      ],
-      "icon": "minecraft:map",
-      "x": 0,
-      "y": 16.3,
-      "shape": "circle",
-      "dependencies": [],
-      "tasks": [
-        {
-          "id": "03449C4B926D3112",
-          "type": "checkmark",
-          "title": "Read and continue"
         }
       ],
       "size": 1,

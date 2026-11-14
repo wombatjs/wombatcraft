@@ -402,6 +402,28 @@
       ]
     },
     {
+      "id": "04EEF63ADBC98FCB",
+      "title": "The Bumblezone - NeoForge/Forge",
+      "subtitle": "Field survey",
+      "description": [
+        "Throw an ender pearl into a bee nest or hive. The honeycomb world holds royal trades, ancient structures and trials; treat its inhabitants carefully."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0615CDD6EF96B218",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
       "id": "042FDF5DF6044A4B",
       "title": "Ancient Hoops",
       "subtitle": "Field survey",
@@ -410,7 +432,7 @@
       ],
       "icon": "minecraft:map",
       "x": 8,
-      "y": 3.0,
+      "y": 2.2,
       "shape": "circle",
       "dependencies": [
         "04EEF63ADBC98FCB"
@@ -441,7 +463,7 @@
       ],
       "icon": "minecraft:map",
       "x": 8,
-      "y": 5.2,
+      "y": 4.4,
       "shape": "circle",
       "dependencies": [
         "042FDF5DF6044A4B"
@@ -472,7 +494,7 @@
       ],
       "icon": "minecraft:map",
       "x": 8,
-      "y": 7.4,
+      "y": 6.6,
       "shape": "circle",
       "dependencies": [
         "062FA834E3CF775C"
@@ -489,28 +511,6 @@
           "id": "0CDC90C23711A653",
           "type": "xp",
           "xp": 15
-        }
-      ],
-      "size": 1,
-      "optional": true
-    },
-    {
-      "id": "04EEF63ADBC98FCB",
-      "title": "The Bumblezone - NeoForge/Forge",
-      "subtitle": "Field survey",
-      "description": [
-        "Throw an ender pearl into a bee nest or hive. The honeycomb world holds royal trades, ancient structures and trials; treat its inhabitants carefully."
-      ],
-      "icon": "minecraft:map",
-      "x": 8,
-      "y": 9.6,
-      "shape": "circle",
-      "dependencies": [],
-      "tasks": [
-        {
-          "id": "0615CDD6EF96B218",
-          "type": "checkmark",
-          "title": "Read and continue"
         }
       ],
       "size": 1,

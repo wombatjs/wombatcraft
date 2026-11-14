@@ -258,6 +258,28 @@
       ]
     },
     {
+      "id": "0B56867656A040B1",
+      "title": "Deeper and Darker",
+      "subtitle": "Field survey",
+      "description": [
+        "Seek an Ancient City and the Warden's Heart. Open its great frame and descend with spare light, protection and room for echo-rich discoveries."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "02F186C6B81ED8FD",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
       "id": "08BB03AD648ADF0B",
       "title": "Ancient Temple",
       "subtitle": "Field survey",
@@ -266,7 +288,7 @@
       ],
       "icon": "minecraft:map",
       "x": 8,
-      "y": 3.0,
+      "y": 2.2,
       "shape": "circle",
       "dependencies": [
         "0B56867656A040B1"
@@ -283,28 +305,6 @@
           "id": "0297E997C536397C",
           "type": "xp",
           "xp": 15
-        }
-      ],
-      "size": 1,
-      "optional": true
-    },
-    {
-      "id": "0B56867656A040B1",
-      "title": "Deeper and Darker",
-      "subtitle": "Field survey",
-      "description": [
-        "Seek an Ancient City and the Warden's Heart. Open its great frame and descend with spare light, protection and room for echo-rich discoveries."
-      ],
-      "icon": "minecraft:map",
-      "x": 8,
-      "y": 5.2,
-      "shape": "circle",
-      "dependencies": [],
-      "tasks": [
-        {
-          "id": "02F186C6B81ED8FD",
-          "type": "checkmark",
-          "title": "Read and continue"
         }
       ],
       "size": 1,

@@ -402,6 +402,28 @@
       ]
     },
     {
+      "id": "02EFA6DEE08B8B6C",
+      "title": "The Undergarden",
+      "subtitle": "Field survey",
+      "description": [
+        "Craft a Catalyst and awaken a stone-brick portal. Beneath the surface lie strange crops, Stoneborn traders and forgotten metal guarded in the catacombs."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 0.0,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "023202CCD7CC8423",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
       "id": "042DDA0299CDFB2D",
       "title": "Catacombs",
       "subtitle": "Field survey",
@@ -410,7 +432,7 @@
       ],
       "icon": "minecraft:map",
       "x": 8,
-      "y": 3.0,
+      "y": 2.2,
       "shape": "circle",
       "dependencies": [
         "02EFA6DEE08B8B6C"
@@ -441,7 +463,7 @@
       ],
       "icon": "minecraft:map",
       "x": 8,
-      "y": 5.2,
+      "y": 4.4,
       "shape": "circle",
       "dependencies": [
         "042DDA0299CDFB2D"
@@ -458,28 +480,6 @@
           "id": "0BD93812C9D5DFB3",
           "type": "xp",
           "xp": 15
-        }
-      ],
-      "size": 1,
-      "optional": true
-    },
-    {
-      "id": "02EFA6DEE08B8B6C",
-      "title": "The Undergarden",
-      "subtitle": "Field survey",
-      "description": [
-        "Craft a Catalyst and awaken a stone-brick portal. Beneath the surface lie strange crops, Stoneborn traders and forgotten metal guarded in the catacombs."
-      ],
-      "icon": "minecraft:map",
-      "x": 8,
-      "y": 7.4,
-      "shape": "circle",
-      "dependencies": [],
-      "tasks": [
-        {
-          "id": "023202CCD7CC8423",
-          "type": "checkmark",
-          "title": "Read and continue"
         }
       ],
       "size": 1,
