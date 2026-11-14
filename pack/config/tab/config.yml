@@ -1,23 +1,22 @@
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Header-&-Footer
 header-footer:
   enabled: true
-  designs:
-    default:
-      header:
-        - ""
-        - "<#C8A4FF>&lW O M B A T C R A F T"
-        - "<#D9AE7B>Industry &8| <#C8A4FF>Spellcraft &8| <#AFCB9A>Adventure"
-        - ""
-      footer:
-        - ""
-        - "&7Together on the frontier &8• &f%online% &7online"
-        - "&7Connection &f%ping%ms &8• &7World &f%world%"
-        - "<#D9AE7B>/tpa <player> &8• <#C8A4FF>/home &8• <#AFCB9A>/spawn"
-        - ""
+  header:
+    - ""
+    - "<#C8A4FF>&lW O M B A T C R A F T"
+    - "<#D9AE7B>Industry &8| <#C8A4FF>Spellcraft &8| <#AFCB9A>Adventure"
+    - ""
+  footer:
+    - ""
+    - "&7Together on the frontier &8â€¢ &f%online% &7online"
+    - "&7Connection &f%ping%ms &8â€¢ &7World &f%world%"
+    - "<#D9AE7B>/tpa <player> &8â€¢ <#C8A4FF>/home &8â€¢ <#AFCB9A>/spawn"
+    - ""
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Tablist-name-formatting
 tablist-name-formatting:
   enabled: true
+  anti-override: true
   disable-condition: '%world%=disabledworld'
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Nametags
@@ -25,6 +24,7 @@ scoreboard-teams:
   enabled: false
   enable-collision: true
   invisible-nametags: false
+  anti-override: true
   # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Sorting-players-in-tablist
   sorting-types:
     - "GROUPS:owner,admin,mod,helper,builder,vip,default"
@@ -46,9 +46,9 @@ playerlist-objective:
 belowname-objective:
   enabled: false
   value: "%health%"
+  title: "&cHealth"
   fancy-value: "&c%health%"
   fancy-value-default: "NPC"
-  title: "&cHealth"
   disable-condition: '%world%=disabledworld'
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Spectator-fix
@@ -93,13 +93,12 @@ scoreboard:
 layout:
   enabled: false
   direction: COLUMNS
-  default-skin: mineskin:37e93c8e12cd426cb28fce31969e0674
+  default-skin: mineskin:383747683
   enable-remaining-players-text: true
   remaining-players-text: '... and %s more'
   empty-slot-ping-value: 1000
   layouts:
     default:
-      slot-count: 80
       fixed-slots:
         - '1|&3Website&f:'
         - '2|&bmyserver.net'
@@ -120,7 +119,7 @@ layout:
         - '43|&8&m                       '
       groups:
         staff:
-          display-condition: permission:tab.staff
+          condition: permission:tab.staff
           slots:
             - 24-40
         players:
@@ -131,24 +130,6 @@ layout:
 ping-spoof:
   enabled: false
   value: 0
-
-# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Global-playerlist
-global-playerlist:
-  enabled: false
-  display-others-as-spectators: false
-  display-vanished-players-as-spectators: true
-  isolate-unlisted-servers: false
-  update-latency: false
-  spy-servers:
-    - spyserver1
-    - spyserver2
-  server-groups:
-    lobbies:
-      - lobby1
-      - lobby2
-    group2:
-      - server1
-      - server2
 
 placeholders:
   date-format: "dd.MM.yyyy"
@@ -167,8 +148,8 @@ conditions:
   nick: # use it with %condition:nick%
     conditions:
       - "%player%=%essentials_nickname%"
-    true: "%player%"
-    false: "~%essentials_nickname%"
+    yes: "%player%"
+    no: "~%essentials_nickname%"
 
 placeholder-refresh-intervals:
   default-refresh-interval: 2000
@@ -211,10 +192,8 @@ mysql:
   password: password
   useSSL: true
 
-# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Multi-server-support
 proxy-support:
   enabled: false
-  channel-name-suffix: "TAB"
   # Supported types: PLUGIN, REDIS, RABBITMQ
   type: PLUGIN
   plugin:
@@ -226,13 +205,6 @@ proxy-support:
   rabbitmq:
     exchange: 'plugin'
     url: 'amqp://guest:guest@localhost:5672/%2F'
-
-components:
-  minimessage-support: true
-  disable-shadow-for-heads: true
-
-# Internal value, do not change this
-config-version: 5
 
 ########################################################################
 # BUKKIT ONLY - THE FOLLOWING SECTION IS ONLY FOR BACKEND INSTALLATION #
@@ -260,6 +232,24 @@ compensate-for-packetevents-bug: false
 #####################################################################
 # PROXY ONLY - THE FOLLOWING SECTION IS ONLY FOR PROXY INSTALLATION #
 #####################################################################
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Global-playerlist
+global-playerlist:
+  enabled: false
+  display-others-as-spectators: false
+  display-vanished-players-as-spectators: true
+  isolate-unlisted-servers: false
+  update-latency: false
+  spy-servers:
+    - spyserver1
+    - spyserver2
+  server-groups:
+    lobbies:
+      - lobby1
+      - lobby2
+    group2:
+      - server1
+      - server2
 
 # Take permissions and groups from backend server instead of proxy
 use-bukkit-permissions-manager: false

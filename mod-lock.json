@@ -114062,53 +114062,61 @@
       },
       "version": {
         "game_versions": [
-          "1.20",
           "1.20.1"
         ],
         "loaders": [
+          "bukkit",
+          "bungeecord",
           "fabric",
-          "forge"
+          "folia",
+          "forge",
+          "paper",
+          "purpur",
+          "quilt",
+          "spigot",
+          "velocity",
+          "waterfall"
         ],
-        "environment": "dedicated_server_only",
-        "id": "2iO5cz27",
+        "environment": "unknown",
+        "id": "V7GeYs2K",
         "project_id": "gG7VFbG0",
         "author_id": "EL5xafeu",
         "featured": false,
-        "name": "5.5.0 (1.20 - 1.20.1)",
-        "version_number": "5.5.0",
-        "changelog": "Backported Fabric and Forge to 1.20 - 1.20.1.",
+        "name": "5.2.1 (1.20.1)",
+        "version_number": "5.2.1",
+        "changelog": "Backported Fabric and Forge to 1.20.1.",
         "changelog_url": null,
-        "date_published": "2026-02-21T17:28:58.000984Z",
-        "downloads": 7507,
+        "date_published": "2025-05-22T20:01:39.003065Z",
+        "downloads": 13819,
         "version_type": "release",
         "status": "listed",
         "requested_status": null,
         "files": [
           {
-            "id": "t7lwyaKG",
+            "id": "wYdvxDN6",
             "hashes": {
-              "sha1": "6b9d8693e3a5f04e2ebf423012befa0e0fab5cde",
-              "sha512": "ea96f18946628100430cd60504bb89aabd378d81922a325a82b9ea43358a44b1c7809008edb0fc97162d8151555f58cc1b48647ef1f8ba3f7e7752db675f91ad"
+              "sha512": "d3926ce8c649d3a4a020de91dfd4705083c90284bdecceab5bd839dd53f55fdb64153a02929b93704714e7281322ac5aa5d6a31fe606f17b61c828f16f8b34e6",
+              "sha1": "d47fb65ce586d9c3c57dda5ecd8e7a8baa5a8a7f"
             },
-            "url": "https://cdn.modrinth.com/data/gG7VFbG0/versions/2iO5cz27/TAB%20v5.5.0%201.20%20-%201.20.1.jar",
-            "filename": "TAB v5.5.0 1.20 - 1.20.1.jar",
+            "url": "https://cdn.modrinth.com/data/gG7VFbG0/versions/V7GeYs2K/TAB%20v5.2.1%201.20.1.jar",
+            "filename": "TAB v5.2.1 1.20.1.jar",
             "primary": true,
-            "size": 4024457,
+            "size": 3515674,
             "file_type": null
           }
         ],
         "dependencies": []
       },
       "file": {
-        "id": "t7lwyaKG",
+        "id": "wYdvxDN6",
         "hashes": {
-          "sha1": "6b9d8693e3a5f04e2ebf423012befa0e0fab5cde",
-          "sha512": "ea96f18946628100430cd60504bb89aabd378d81922a325a82b9ea43358a44b1c7809008edb0fc97162d8151555f58cc1b48647ef1f8ba3f7e7752db675f91ad"
+          "sha512": "d3926ce8c649d3a4a020de91dfd4705083c90284bdecceab5bd839dd53f55fdb64153a02929b93704714e7281322ac5aa5d6a31fe606f17b61c828f16f8b34e6",
+          "sha1": "d47fb65ce586d9c3c57dda5ecd8e7a8baa5a8a7f"
         },
-        "url": "https://cdn.modrinth.com/data/gG7VFbG0/versions/2iO5cz27/TAB%20v5.5.0%201.20%20-%201.20.1.jar",
-        "filename": "TAB v5.5.0 1.20 - 1.20.1.jar",
+        "url": "https://cdn.modrinth.com/data/gG7VFbG0/versions/V7GeYs2K/TAB%20v5.2.1%201.20.1.jar",
+        "filename": "TAB v5.2.1 1.20.1.jar",
         "primary": true,
-        "size": 4024457,
+        "size": 3515674,
         "file_type": null
       },
       "metadata": {},
