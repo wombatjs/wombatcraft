@@ -5,7 +5,7 @@ This branch stages all fourteen requested exploration additions for Forge 1.20.1
 | Addition | Pinned file | Expedition quests |
 |---|---|---|
 | Journey Into the Light [JITL] | JITL - 1.20.1 - 2.2.4.jar | 84 |
-| Deep Aether | deep_aether-1.20.1-1.1.7.jar | 20 |
+| Deep Aether | deep_aether-1.20.1-1.1.7.jar | 21 |
 | Dimensional Dungeons | dimdungeons-207-neoforge-1.20.1.jar | 14 |
 | DivineRPG (Official) | divinerpg-1.10.7.5.jar | 85 |
 | Eternal Starlight Forge | EternalStarlight-0.9.0-hotfix.jar | 63 |
@@ -23,7 +23,7 @@ Aeroblender 1.0.1 is included as the Deep Aether dependency. Exact official down
 
 ## Quest design
 
-- 511 new expedition quests in 26 chapters, plus 29 new atlas entries. Total: 2,656 quests in 80 chapters.
+- 512 new expedition quests in 26 chapters, plus 29 new atlas entries. Total: 2,657 quests in 80 chapters.
 - All 2,116 previously published quest IDs are retained. The destination inventory now contains 66 data-defined worlds; pocket spaces and internal worlds are distinguished from adventure campaigns.
 - The Dimensions group contains arrival, equipment, guardian, discovery and settlement routes. JITL has a departure chapter and one route per realm. DivineRPG separates its major campaigns. Deep Aether extends the existing Aether.
 - Advancement objectives follow triggers in the pinned jars. JITL uses item, structure and boss-kill tasks because its jar does not provide a gameplay advancement tree.
@@ -38,6 +38,8 @@ Aurorian Reborn 1.0.1-fix requires two compatibility corrections: its dedicated-
 
 The restart test also exposed an intermittent shared-cache race: KubeJS constructed Quark rune recipes in parallel while Universal Enchants initialized a non-thread-safe enchantment map. A runtime patch makes the two recipe-construction streams sequential without removing recipes or changing enchantments. The thread dump documenting the failure is retained with the local test artifacts.
 
-Targeted Forge tag removals discard stale references shipped by DivineRPG, Call from the Depths and the Eternal Starlight backport. Other mods' tag contributions remain intact, including the vanilla impermeable-glass tag. These repairs remove references to nonexistent entries; they do not remove registered items or blocks.
+Targeted KubeJS tag callbacks discard stale references shipped by DivineRPG, Call from the Depths and the Eternal Starlight backport before tag resolution. Other mods' tag contributions remain intact, including the vanilla impermeable-glass tag. These repairs remove references to nonexistent entries; they do not remove registered items or blocks.
 
 Static graph and layout checks and the local test suite pass. Dedicated-server validation checks real item/entity registries, quest IDs and recipes, boots twice, and generates a chunk in each new static destination. Client boot and in-game checks are separate acceptance steps. A survival playthrough of all campaigns is not claimed.
+
+Client testing exposed heap exhaustion at 8 GB during recipe indexing. The release retains the launcher's existing 10 GB default and enables ModernFix's on-demand model loading. Comparative live-object histograms measured 7.80 GiB before versus 6.20 GiB after this change (different points in recipe initialization, not a controlled benchmark). The full content list and JEI background loader remain installed. The branded menu, integrated world, Dimensions chapter list and connected Deep Aether route were inspected in-game.

@@ -41,6 +41,7 @@ jobs:
             dist/server-smoke/install.log
             dist/server-smoke/*-registry.txt
             dist/server-smoke/quest-runtime-audit.tsv
+            dist/server-smoke/shutdown-threads.txt
       - uses: actions/upload-artifact@v4
         with:
           name: pack-release

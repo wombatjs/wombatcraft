@@ -7,12 +7,26 @@
       "icon": "deep_aether:skyjade",
       "nodes": [
         {
+          "key": "deepaether/return",
+          "title": "Beyond the Familiar Clouds",
+          "kind": "dimension",
+          "target": "aether:the_aether",
+          "note": "Return to the Aether. Unexplored islands hold Skyjade, new gardens and the storms that conceal a brass dungeon.",
+          "parents": [],
+          "icon": "deep_aether:skyjade",
+          "count": 1,
+          "challenge": false
+        },
+        {
           "key": "adv/deep_aether:aether_champion",
           "title": "Champion Of The Aether",
           "kind": "advancement",
           "target": "deep_aether:aether_champion",
           "note": "Defeat all Aether bosses without taking a single hit",
-          "parents": [],
+          "parents": [
+            "adv/deep_aether:brass_dungeon",
+            "adv/deep_aether:explore_aether"
+          ],
           "icon": "aether:aether_portal_frame",
           "count": 1,
           "challenge": true
@@ -23,10 +37,12 @@
           "kind": "advancement",
           "target": "deep_aether:brass_dungeon",
           "note": "Defeat the brass boss",
-          "parents": [],
+          "parents": [
+            "deepaether/skyjade/skyjade_pickaxe"
+          ],
           "icon": "deep_aether:brass_dungeon_key",
           "count": 1,
-          "challenge": false
+          "challenge": true
         },
         {
           "key": "adv/deep_aether:explore_aether",
@@ -34,7 +50,9 @@
           "kind": "advancement",
           "target": "deep_aether:explore_aether",
           "note": "Explore all Aether biomes",
-          "parents": [],
+          "parents": [
+            "deepaether/return"
+          ],
           "icon": "deep_aether:roseroot_sapling",
           "count": 1,
           "challenge": true
@@ -45,7 +63,9 @@
           "kind": "advancement",
           "target": "deep_aether:stratus_armor",
           "note": "Get a full set of Stratus Armor",
-          "parents": [],
+          "parents": [
+            "deepaether/stratus/stratus_smithing_template"
+          ],
           "icon": "deep_aether:stratus_chestplate",
           "count": 1,
           "challenge": true
@@ -56,7 +76,9 @@
           "kind": "advancement",
           "target": "deep_aether:transform_poison",
           "note": "Transform an item by throwing it into Poison",
-          "parents": [],
+          "parents": [
+            "deepaether/return"
+          ],
           "icon": "deep_aether:poison_bucket",
           "count": 1,
           "challenge": false
@@ -67,7 +89,9 @@
           "kind": "item",
           "target": "deep_aether:skyjade",
           "note": "Mine Skyjade in Aether terrain and put it into service before the next dungeon.",
-          "parents": [],
+          "parents": [
+            "deepaether/return"
+          ],
           "icon": "deep_aether:skyjade",
           "count": 1,
           "challenge": false
@@ -208,7 +232,9 @@
           "kind": "item",
           "target": "deep_aether:squash_seeds",
           "note": "Establish a small Aether garden and keep feed and antidotes beside your expedition stores.",
-          "parents": [],
+          "parents": [
+            "deepaether/return"
+          ],
           "icon": "deep_aether:squash_seeds",
           "count": 1,
           "challenge": false

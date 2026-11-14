@@ -126,5 +126,15 @@ for boot in range(2):
    if process.poll() is None:
     process.stdin.write(b'stop\n');process.stdin.flush()
     try:process.wait(timeout=120)
-    except subprocess.TimeoutExpired:process.terminate();process.wait(timeout=30)
+    except subprocess.TimeoutExpired:
+     # Preserve evidence if draining generated chunks stalls during shutdown.
+     jcmd=shutil.which('jcmd')
+     if jcmd:
+      with (dest/'shutdown-threads.txt').open('w') as dump:
+       try:subprocess.run([jcmd,str(process.pid),'Thread.print'],stdout=dump,stderr=subprocess.STDOUT,timeout=20)
+       except subprocess.TimeoutExpired:pass
+     try:process.wait(timeout=180)
+     except subprocess.TimeoutExpired:
+      process.kill();process.wait(timeout=30)
+      raise RuntimeError('Server did not shut down cleanly; inspect shutdown-threads.txt')
  if boot==0:shutil.copy2(dest/'console.log',dest/'console-first-start.log')

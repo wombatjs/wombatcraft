@@ -8,6 +8,40 @@
   "default_quest_shape": "circle",
   "quests": [
     {
+      "id": "7812B7212B711BF0",
+      "title": "Beyond the Familiar Clouds",
+      "description": [
+        "Return to the Aether. Unexplored islands hold Skyjade, new gardens and the storms that conceal a brass dungeon."
+      ],
+      "icon": "deep_aether:skyjade",
+      "tasks": [
+        {
+          "id": "45EC2A23F73D6F6D",
+          "type": "dimension",
+          "dimension": "aether:the_aether"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": -1.25,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "5440C760A6BF8462",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "66C306612AB66CF0",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
       "id": "652F9FCC13CCF284",
       "title": "Champion Of The Aether",
       "description": [
@@ -22,9 +56,12 @@
         }
       ],
       "optional": true,
-      "dependencies": [],
-      "x": -8.75,
-      "y": 0.0,
+      "dependencies": [
+        "1CF3B577643FB472",
+        "627BCDEE602378F8"
+      ],
+      "x": -3.75,
+      "y": 10.0,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -56,22 +93,24 @@
         }
       ],
       "optional": true,
-      "dependencies": [],
-      "x": -6.25,
-      "y": 0.0,
-      "shape": "circle",
-      "size": 1,
+      "dependencies": [
+        "0FD05B171C4487E2"
+      ],
+      "x": -3.75,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
       "rewards": [
         {
           "id": "6DA9A8C45AB7798B",
           "type": "xp",
-          "xp": 60
+          "xp": 250
         },
         {
           "id": "110F712C2157F009",
           "type": "item",
-          "item": "minecraft:lapis_lazuli",
-          "count": 4
+          "item": "minecraft:diamond",
+          "count": 2
         }
       ]
     },
@@ -90,9 +129,11 @@
         }
       ],
       "optional": true,
-      "dependencies": [],
+      "dependencies": [
+        "7812B7212B711BF0"
+      ],
       "x": -3.75,
-      "y": 0.0,
+      "y": 2.5,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -124,9 +165,11 @@
         }
       ],
       "optional": true,
-      "dependencies": [],
-      "x": -1.25,
-      "y": 0.0,
+      "dependencies": [
+        "69B63F5D6C5D53E7"
+      ],
+      "x": 0.0,
+      "y": 15.0,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -158,9 +201,11 @@
         }
       ],
       "optional": true,
-      "dependencies": [],
-      "x": 1.25,
-      "y": 0.0,
+      "dependencies": [
+        "7812B7212B711BF0"
+      ],
+      "x": -1.25,
+      "y": 2.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -193,9 +238,11 @@
         }
       ],
       "optional": true,
-      "dependencies": [],
-      "x": 3.75,
-      "y": 0.0,
+      "dependencies": [
+        "7812B7212B711BF0"
+      ],
+      "x": 1.25,
+      "y": 2.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -231,8 +278,8 @@
       "dependencies": [
         "0EC25FAACDF7C0D4"
       ],
-      "x": 0.0,
-      "y": 2.5,
+      "x": -1.25,
+      "y": 5.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -269,7 +316,7 @@
         "0FD05B171C4487E2"
       ],
       "x": -1.25,
-      "y": 5.0,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -305,8 +352,8 @@
       "dependencies": [
         "1E3D4E7DCA3E34B1"
       ],
-      "x": 0.0,
-      "y": 7.5,
+      "x": 1.25,
+      "y": 10.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -343,7 +390,7 @@
         "0FD05B171C4487E2"
       ],
       "x": 1.25,
-      "y": 5.0,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -379,8 +426,8 @@
       "dependencies": [
         "12175158B7F1BC1D"
       ],
-      "x": 2.5,
-      "y": 7.5,
+      "x": 3.75,
+      "y": 10.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -416,8 +463,8 @@
       "dependencies": [
         "27A90E222A63A2FC"
       ],
-      "x": 0.0,
-      "y": 10.0,
+      "x": 1.25,
+      "y": 12.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -453,8 +500,8 @@
       "dependencies": [
         "69B63F5D6C5D53E7"
       ],
-      "x": 0.0,
-      "y": 12.5,
+      "x": 2.5,
+      "y": 15.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -490,8 +537,8 @@
       "dependencies": [
         "1CF3B577643FB472"
       ],
-      "x": -2.5,
-      "y": 2.5,
+      "x": -1.25,
+      "y": 10.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -527,8 +574,8 @@
       "dependencies": [
         "6D7F3FBFCD2BD3F3"
       ],
-      "x": -3.75,
-      "y": 5.0,
+      "x": -1.25,
+      "y": 12.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -565,7 +612,7 @@
         "34F658595DBE7826"
       ],
       "x": -2.5,
-      "y": 7.5,
+      "y": 15.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -598,9 +645,11 @@
         }
       ],
       "optional": true,
-      "dependencies": [],
-      "x": 6.25,
-      "y": 0.0,
+      "dependencies": [
+        "7812B7212B711BF0"
+      ],
+      "x": 3.75,
+      "y": 2.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -636,8 +685,8 @@
       "dependencies": [
         "588641946CA9CC1F"
       ],
-      "x": 2.5,
-      "y": 2.5,
+      "x": 1.25,
+      "y": 5.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -674,7 +723,7 @@
         "06CBFE032A9BF998"
       ],
       "x": 3.75,
-      "y": 5.0,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -707,7 +756,7 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 8.75,
+      "x": 1.25,
       "y": 0.0,
       "shape": "rsquare",
       "size": 1
