@@ -1,0 +1,449 @@
+{
+  "filename": "wc_dimension_aether",
+  "id": "09DD74B49CBB6520",
+  "title": "The Aether",
+  "icon": "aether:zanite_gemstone",
+  "group": "3E91144EB73CBA91",
+  "order_index": 2,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "5C10F1CF484DE5CB",
+      "title": "Into The Aether",
+      "description": [
+        "Build a glowstone gateway and pour water into its frame. The islands hold three dungeon tiers, enchanted minerals and moa companions."
+      ],
+      "icon": "aether:zanite_gemstone",
+      "tasks": [
+        {
+          "id": "6FC1608F9026C56C",
+          "type": "dimension",
+          "dimension": "aether:the_aether"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0,
+      "y": 0,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "503B5C8B57A57DCC",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "05D582779073EBDF",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "4A694562A5135AFB",
+      "title": "A Scholar Among Clouds",
+      "description": [
+        "Read the Book of Lore before testing unfamiliar tools."
+      ],
+      "icon": "aether:zanite_gemstone",
+      "tasks": [
+        {
+          "id": "09517F5664B13099",
+          "type": "advancement",
+          "advancement": "aether:read_lore"
+        }
+      ],
+      "dependencies": [
+        "5C10F1CF484DE5CB"
+      ],
+      "optional": true,
+      "x": -4.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "5A59E8379F80BCD9",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "21379E1884402330",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "6447BABEF4660AE5",
+      "title": "The Altar's Craft",
+      "description": [
+        "Build an altar to work with the sky's minerals."
+      ],
+      "icon": "aether:zanite_gemstone",
+      "tasks": [
+        {
+          "id": "1327265A0678508D",
+          "type": "advancement",
+          "advancement": "aether:craft_altar"
+        }
+      ],
+      "dependencies": [
+        "4A694562A5135AFB"
+      ],
+      "optional": true,
+      "x": -4.0,
+      "y": 5.2,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "092AFC2B017B9CEB",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "7FDF9A582AADA337",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "6876D11A2D5A03F7",
+      "title": "Weightless Wealth",
+      "description": [
+        "Refine gravitite at the altar; bring the result home for your next equipment project."
+      ],
+      "icon": "aether:zanite_gemstone",
+      "tasks": [
+        {
+          "id": "060DEB7FA4AF0C63",
+          "type": "advancement",
+          "advancement": "aether:enchanted_gravitite"
+        }
+      ],
+      "dependencies": [
+        "6447BABEF4660AE5"
+      ],
+      "optional": true,
+      "x": -4.0,
+      "y": 7.4,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "55D73A9F638DE8D8",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "5E2FCC0CDADC5853",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1A45BEEB73E4A54C",
+      "title": "The Stone Sentinel",
+      "description": [
+        "Defeat the Slider in a bronze dungeon; ordinary weapon swings are not the answer."
+      ],
+      "icon": "aether:zanite_gemstone",
+      "tasks": [
+        {
+          "id": "6E44A80D8483C1D4",
+          "type": "advancement",
+          "advancement": "aether:bronze_dungeon"
+        }
+      ],
+      "dependencies": [
+        "5C10F1CF484DE5CB"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "7FB4A1D8E94815E6",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "26FDA6459F7FC179",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "01A18BCCCF2B7FA4",
+      "title": "A Queen's Challenge",
+      "description": [
+        "Earn the right to challenge the Valkyrie Queen and defeat her."
+      ],
+      "icon": "aether:zanite_gemstone",
+      "tasks": [
+        {
+          "id": "3F27D1ECE3A12C6D",
+          "type": "advancement",
+          "advancement": "aether:silver_dungeon"
+        }
+      ],
+      "dependencies": [
+        "1A45BEEB73E4A54C"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": 5.2,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "72CF657178406D0E",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "2BF154387181FB70",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "5036CB77B4BAAC51",
+      "title": "Fire Above the Clouds",
+      "description": [
+        "Challenge the Sun Spirit. Watch its projectiles and use the arena to your advantage."
+      ],
+      "icon": "aether:zanite_gemstone",
+      "tasks": [
+        {
+          "id": "45CA31D6A7F46CAC",
+          "type": "advancement",
+          "advancement": "aether:gold_dungeon"
+        }
+      ],
+      "dependencies": [
+        "01A18BCCCF2B7FA4"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": 7.4,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "29284785A7B945DD",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "6FAA9A1B327A250F",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "00D3C50C69B6F6C5",
+      "title": "A Nest of Your Own",
+      "description": [
+        "Find a moa egg and bring it safely back to camp."
+      ],
+      "icon": "aether:zanite_gemstone",
+      "tasks": [
+        {
+          "id": "05DBCC1802D6B661",
+          "type": "advancement",
+          "advancement": "aether:obtain_egg"
+        }
+      ],
+      "dependencies": [
+        "5C10F1CF484DE5CB"
+      ],
+      "optional": true,
+      "x": 4.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "2BA2E225F797B97A",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "43C555BD020C0424",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "52EFA7C6F877AE03",
+      "title": "Wings for the Expedition",
+      "description": [
+        "Hatch a moa with an incubator. Raise your travelling companion before setting out again."
+      ],
+      "icon": "aether:zanite_gemstone",
+      "tasks": [
+        {
+          "id": "5CAB2A0BC7A8F5A6",
+          "type": "advancement",
+          "advancement": "aether:incubate_moa"
+        }
+      ],
+      "dependencies": [
+        "00D3C50C69B6F6C5"
+      ],
+      "optional": true,
+      "x": 4.0,
+      "y": 5.2,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "51C54DD9D3745044",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "70717369B4858982",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "0F774E6A6EC16A11",
+      "title": "Bronze Dungeon",
+      "subtitle": "Field survey",
+      "description": [
+        "Enter the bronze dungeon structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "072D29B73450C8D4"
+      ],
+      "tasks": [
+        {
+          "id": "02E00C36DD280E3E",
+          "type": "structure",
+          "structure": "aether:bronze_dungeon"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DCD66CD2B2030E3",
+          "type": "xp",
+          "xp": 15
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
+      "id": "033E5F7DCA349D44",
+      "title": "Gold Dungeon",
+      "subtitle": "Field survey",
+      "description": [
+        "Enter the gold dungeon structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 5.2,
+      "shape": "circle",
+      "dependencies": [
+        "0F774E6A6EC16A11"
+      ],
+      "tasks": [
+        {
+          "id": "04676ADD9ED41233",
+          "type": "structure",
+          "structure": "aether:gold_dungeon"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0CE42E0275CCE7B4",
+          "type": "xp",
+          "xp": 15
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
+      "id": "096DAFBB23BDB5DA",
+      "title": "Large Aercloud",
+      "subtitle": "Field survey",
+      "description": [
+        "Enter the large aercloud structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 7.4,
+      "shape": "circle",
+      "dependencies": [
+        "033E5F7DCA349D44"
+      ],
+      "tasks": [
+        {
+          "id": "02BD1BFDFBFC72DC",
+          "type": "structure",
+          "structure": "aether:large_aercloud"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0503C6B2C3CC41D3",
+          "type": "xp",
+          "xp": 15
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
+      "id": "072D29B73450C8D4",
+      "title": "The Aether",
+      "subtitle": "Field survey",
+      "description": [
+        "Build a glowstone gateway and pour water into its frame. The islands hold three dungeon tiers, enchanted minerals and moa companions."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 9.6,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "031E2FFBC8DD9CAC",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ],
+      "size": 1,
+      "optional": true
+    }
+  ],
+  "autofocus_id": "5C10F1CF484DE5CB"
+}

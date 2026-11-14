@@ -1,0 +1,353 @@
+{
+  "filename": "wc_dimension_orbits",
+  "id": "13F8EFBF2983E2C5",
+  "title": "Orbital Stations",
+  "icon": "minecraft:glass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 14,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "09EC642260D98832",
+      "title": "Earth Orbit",
+      "description": [
+        "Reach this orbit through Ad Astra navigation. Carry oxygen and a return plan; orbit is station space, not a second planetary surface."
+      ],
+      "icon": "minecraft:glass",
+      "tasks": [
+        {
+          "id": "7BC8931DCE955851",
+          "type": "dimension",
+          "dimension": "ad_astra:earth_orbit"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -5,
+      "y": 0,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "19107EBE0FC7C5BD",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "07317358C5F7D377",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "15867AFCA6FEBE1B",
+      "title": "Station: Earth",
+      "description": [
+        "Build a sealed, oxygenated station with power and emergency supplies. Check its life support and make a successful return trip before recording the commission."
+      ],
+      "icon": "minecraft:glass",
+      "tasks": [
+        {
+          "id": "19FD40BC0D623D0D",
+          "type": "checkmark",
+          "title": "Record the expedition"
+        }
+      ],
+      "dependencies": [
+        "09EC642260D98832"
+      ],
+      "optional": true,
+      "x": -5,
+      "y": 2,
+      "shape": "rsquare",
+      "size": 1.2
+    },
+    {
+      "id": "6D8FED52A6A1BE29",
+      "title": "Moon Orbit",
+      "description": [
+        "Reach this orbit through Ad Astra navigation. Carry oxygen and a return plan; orbit is station space, not a second planetary surface."
+      ],
+      "icon": "minecraft:glass",
+      "tasks": [
+        {
+          "id": "589BF9F5B8F5AC82",
+          "type": "dimension",
+          "dimension": "ad_astra:moon_orbit"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0,
+      "y": 0,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "2738562D47F074C5",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "4F8D7B98B5AC68A1",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "148AF31C9ED457FD",
+      "title": "Station: Moon",
+      "description": [
+        "Build a sealed, oxygenated station with power and emergency supplies. Check its life support and make a successful return trip before recording the commission."
+      ],
+      "icon": "minecraft:glass",
+      "tasks": [
+        {
+          "id": "6A12B39D0EED4F27",
+          "type": "checkmark",
+          "title": "Record the expedition"
+        }
+      ],
+      "dependencies": [
+        "6D8FED52A6A1BE29"
+      ],
+      "optional": true,
+      "x": 0,
+      "y": 2,
+      "shape": "rsquare",
+      "size": 1.2
+    },
+    {
+      "id": "2D5F0D6291A751A9",
+      "title": "Mars Orbit",
+      "description": [
+        "Reach this orbit through Ad Astra navigation. Carry oxygen and a return plan; orbit is station space, not a second planetary surface."
+      ],
+      "icon": "minecraft:glass",
+      "tasks": [
+        {
+          "id": "5B71382773938C9B",
+          "type": "dimension",
+          "dimension": "ad_astra:mars_orbit"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 5,
+      "y": 0,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "12F0E7A5D1F52433",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "110368B5B0686557",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1C14FB27BF10584F",
+      "title": "Station: Mars",
+      "description": [
+        "Build a sealed, oxygenated station with power and emergency supplies. Check its life support and make a successful return trip before recording the commission."
+      ],
+      "icon": "minecraft:glass",
+      "tasks": [
+        {
+          "id": "16B8B8AB8CF77EC2",
+          "type": "checkmark",
+          "title": "Record the expedition"
+        }
+      ],
+      "dependencies": [
+        "2D5F0D6291A751A9"
+      ],
+      "optional": true,
+      "x": 5,
+      "y": 2,
+      "shape": "rsquare",
+      "size": 1.2
+    },
+    {
+      "id": "6DBE9F7DD0C88714",
+      "title": "Mercury Orbit",
+      "description": [
+        "Reach this orbit through Ad Astra navigation. Carry oxygen and a return plan; orbit is station space, not a second planetary surface."
+      ],
+      "icon": "minecraft:glass",
+      "tasks": [
+        {
+          "id": "3E03FA454B07209E",
+          "type": "dimension",
+          "dimension": "ad_astra:mercury_orbit"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -5,
+      "y": 5,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "7A7427AF3BF48686",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "57FAF847A1A5686C",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "4C2FE4AD535F8ED1",
+      "title": "Station: Mercury",
+      "description": [
+        "Build a sealed, oxygenated station with power and emergency supplies. Check its life support and make a successful return trip before recording the commission."
+      ],
+      "icon": "minecraft:glass",
+      "tasks": [
+        {
+          "id": "464229A0FF86D78D",
+          "type": "checkmark",
+          "title": "Record the expedition"
+        }
+      ],
+      "dependencies": [
+        "6DBE9F7DD0C88714"
+      ],
+      "optional": true,
+      "x": -5,
+      "y": 7,
+      "shape": "rsquare",
+      "size": 1.2
+    },
+    {
+      "id": "462041E8F8000E48",
+      "title": "Venus Orbit",
+      "description": [
+        "Reach this orbit through Ad Astra navigation. Carry oxygen and a return plan; orbit is station space, not a second planetary surface."
+      ],
+      "icon": "minecraft:glass",
+      "tasks": [
+        {
+          "id": "3757822C3A0772AF",
+          "type": "dimension",
+          "dimension": "ad_astra:venus_orbit"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0,
+      "y": 5,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "33C7A932015B3BAE",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "4340919F67652740",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "5E04BDF34ED31D50",
+      "title": "Station: Venus",
+      "description": [
+        "Build a sealed, oxygenated station with power and emergency supplies. Check its life support and make a successful return trip before recording the commission."
+      ],
+      "icon": "minecraft:glass",
+      "tasks": [
+        {
+          "id": "5E01BFA7271C3D98",
+          "type": "checkmark",
+          "title": "Record the expedition"
+        }
+      ],
+      "dependencies": [
+        "462041E8F8000E48"
+      ],
+      "optional": true,
+      "x": 0,
+      "y": 7,
+      "shape": "rsquare",
+      "size": 1.2
+    },
+    {
+      "id": "4F2699B0FE4CAC7A",
+      "title": "Glacio Orbit",
+      "description": [
+        "Reach this orbit through Ad Astra navigation. Carry oxygen and a return plan; orbit is station space, not a second planetary surface."
+      ],
+      "icon": "minecraft:glass",
+      "tasks": [
+        {
+          "id": "1CC507CA1F24BD79",
+          "type": "dimension",
+          "dimension": "ad_astra:glacio_orbit"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 5,
+      "y": 5,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "05E0D60F076F96CD",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "527D15361DFD7129",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "602DB6ED8C68948C",
+      "title": "Station: Glacio",
+      "description": [
+        "Build a sealed, oxygenated station with power and emergency supplies. Check its life support and make a successful return trip before recording the commission."
+      ],
+      "icon": "minecraft:glass",
+      "tasks": [
+        {
+          "id": "0B3A174C32F259EA",
+          "type": "checkmark",
+          "title": "Record the expedition"
+        }
+      ],
+      "dependencies": [
+        "4F2699B0FE4CAC7A"
+      ],
+      "optional": true,
+      "x": 5,
+      "y": 7,
+      "shape": "rsquare",
+      "size": 1.2
+    }
+  ]
+}

@@ -9,6 +9,24 @@ for r in lock['mods']:
  if not r.get('server',r['project'].get('server_side')!='unsupported'):continue
  f=r['file'];updater.download(dict(path='mods/'+f['filename'],url=f['url'],fallback_urls=r.get('fallback_urls',[]),sha512=f['hashes']['sha512'],size=f['size']),mods/f['filename'])
 (mods/PATCH_NAME).write_bytes(build_portal_patch())
+# Audit expedition targets against the exact release jars, not an old web wiki.
+advancements=set();dimensions=set()
+for jar in mods.glob('*.jar'):
+ with zipfile.ZipFile(jar) as archive:
+  for name in archive.namelist():
+   parts=name.split('/')
+   if len(parts)>=4 and parts[0]=='data' and name.endswith('.json'):
+    target=parts[1]+':'+('/'.join(parts[3:]))[:-5]
+    if parts[2]=='advancements':advancements.add(target)
+    if parts[2]=='dimension':dimensions.add(target)
+for path in (ROOT/'pack/config/ftbquests/quests/chapters').glob('wc_dimension*.snbt'):
+ for q in json.loads(path.read_text())['quests']:
+  for task in q['tasks']:
+   if task['type']=='advancement' and not task['advancement'].startswith('minecraft:'):
+    assert task['advancement'] in advancements, 'Unknown expedition advancement: '+task['advancement']
+   if task['type']=='dimension' and not task['dimension'].startswith('minecraft:'):
+    assert task['dimension'] in dimensions, 'Unknown expedition dimension: '+task['dimension']
+assert set(json.loads((ROOT/'quests/dimension-inventory.json').read_text())) <= dimensions, 'Dimension inventory differs from release jars'
 for name in ['config','kubejs','defaultconfigs']:
  if (ROOT/'pack'/name).exists():shutil.copytree(ROOT/'pack'/name,dest/name,dirs_exist_ok=True,ignore=shutil.ignore_patterns('simple-rpc','oculus.properties'))
 version='1.20.1-47.4.28';installer=dest/'installer.jar'

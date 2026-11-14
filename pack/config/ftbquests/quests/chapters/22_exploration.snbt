@@ -6,118 +6,6 @@
   "default_quest_shape": "circle",
   "quests": [
     {
-      "id": "0F774E6A6EC16A11",
-      "title": "Bronze Dungeon",
-      "subtitle": "",
-      "description": [
-        "Enter the bronze dungeon structure. This objective detects your location. Bring light, supplies and a way home."
-      ],
-      "icon": "minecraft:map",
-      "x": -11.55,
-      "y": 6.5,
-      "shape": "circle",
-      "dependencies": [
-        "072D29B73450C8D4"
-      ],
-      "tasks": [
-        {
-          "id": "02E00C36DD280E3E",
-          "type": "structure",
-          "structure": "aether:bronze_dungeon"
-        }
-      ],
-      "rewards": [
-        {
-          "id": "0DCD66CD2B2030E3",
-          "type": "xp",
-          "xp": 15
-        }
-      ],
-      "size": 0.94
-    },
-    {
-      "id": "033E5F7DCA349D44",
-      "title": "Gold Dungeon",
-      "subtitle": "",
-      "description": [
-        "Enter the gold dungeon structure. This objective detects your location. Bring light, supplies and a way home."
-      ],
-      "icon": "minecraft:map",
-      "x": -10.0,
-      "y": 6.5,
-      "shape": "circle",
-      "dependencies": [
-        "0F774E6A6EC16A11"
-      ],
-      "tasks": [
-        {
-          "id": "04676ADD9ED41233",
-          "type": "structure",
-          "structure": "aether:gold_dungeon"
-        }
-      ],
-      "rewards": [
-        {
-          "id": "0CE42E0275CCE7B4",
-          "type": "xp",
-          "xp": 15
-        }
-      ],
-      "size": 0.94
-    },
-    {
-      "id": "096DAFBB23BDB5DA",
-      "title": "Large Aercloud",
-      "subtitle": "",
-      "description": [
-        "Enter the large aercloud structure. This objective detects your location. Bring light, supplies and a way home."
-      ],
-      "icon": "minecraft:map",
-      "x": -8.45,
-      "y": 6.5,
-      "shape": "rsquare",
-      "dependencies": [
-        "033E5F7DCA349D44"
-      ],
-      "tasks": [
-        {
-          "id": "02BD1BFDFBFC72DC",
-          "type": "structure",
-          "structure": "aether:large_aercloud"
-        }
-      ],
-      "rewards": [
-        {
-          "id": "0503C6B2C3CC41D3",
-          "type": "xp",
-          "xp": 15
-        }
-      ],
-      "size": 0.94
-    },
-    {
-      "id": "072D29B73450C8D4",
-      "title": "The Aether",
-      "subtitle": "Optional branch",
-      "description": [
-        "This optional branch introduces The Aether. Follow its connected goals when it fits your current project.",
-        "The main technology and magic chapters remain available independently."
-      ],
-      "icon": "minecraft:map",
-      "x": -10.0,
-      "y": 4.7,
-      "shape": "octagon",
-      "dependencies": [],
-      "tasks": [
-        {
-          "id": "031E2FFBC8DD9CAC",
-          "type": "checkmark",
-          "title": "Read and continue"
-        }
-      ],
-      "size": 1.28
-    },
-    {
       "id": "067DED7AD46A96A1",
       "title": "Abyssal Ruins",
       "subtitle": "",
@@ -125,8 +13,8 @@
         "Enter the abyssal ruins structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": -1.55,
-      "y": 11.2,
+      "x": -11.55,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "042DF1A6C0A02279"
@@ -155,8 +43,8 @@
         "Enter the acid pit structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 0.0,
-      "y": 11.2,
+      "x": -10.0,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "067DED7AD46A96A1"
@@ -185,8 +73,8 @@
         "Enter the cake cave structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 1.55,
-      "y": 11.2,
+      "x": -8.45,
+      "y": 1.8,
       "shape": "rsquare",
       "dependencies": [
         "032E02F49EA18250"
@@ -216,8 +104,8 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
-      "x": 0.0,
-      "y": 9.4,
+      "x": -10.0,
+      "y": 0.0,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -237,8 +125,8 @@
         "Obtain this item during your travels and inspect its uses in JEI."
       ],
       "icon": "alexsmobs:transmutation_table",
-      "x": -11.55,
-      "y": 11.2,
+      "x": -1.55,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "0BC2543442CDDB26"
@@ -269,8 +157,8 @@
         "Obtain this item during your travels and inspect its uses in JEI."
       ],
       "icon": "alexsmobs:maraca",
-      "x": -10.0,
-      "y": 11.2,
+      "x": 0.0,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "0E70DBA66D740E51"
@@ -301,8 +189,8 @@
         "Obtain this item during your travels and inspect its uses in JEI."
       ],
       "icon": "alexsmobs:fish_oil",
-      "x": -8.45,
-      "y": 11.2,
+      "x": 1.55,
+      "y": 1.8,
       "shape": "rsquare",
       "dependencies": [
         "0F67AD1901597205"
@@ -334,8 +222,8 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "alexsmobs:transmutation_table",
-      "x": -10.0,
-      "y": 9.4,
+      "x": 0.0,
+      "y": 0.0,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -355,8 +243,8 @@
         "Enter the outpost structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": -11.55,
-      "y": 62.9,
+      "x": 8.45,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "02EC7C4F493DBC7E"
@@ -385,8 +273,8 @@
         "Enter the shelter structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": -10.0,
-      "y": 62.9,
+      "x": 10.0,
+      "y": 1.8,
       "shape": "circle",
       "dependencies": [
         "0A07E233F7F25B24"
@@ -415,8 +303,8 @@
         "Enter the ship structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": -8.45,
-      "y": 62.9,
+      "x": 11.55,
+      "y": 1.8,
       "shape": "rsquare",
       "dependencies": [
         "08631D7E6456F9A6"
@@ -446,8 +334,8 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
-      "x": -10.0,
-      "y": 61.1,
+      "x": 10.0,
+      "y": 0.0,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -467,8 +355,8 @@
         "Enter the archeologist camp grassy structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 8.45,
-      "y": 39.4,
+      "x": -11.55,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "0E36ABD0B7908B1A"
@@ -497,8 +385,8 @@
         "Enter the archeologist camp redsand structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 10.0,
-      "y": 39.4,
+      "x": -10.0,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "02D95D9883741831"
@@ -527,8 +415,8 @@
         "Enter the archeologist camp sand structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 11.55,
-      "y": 39.4,
+      "x": -8.45,
+      "y": 6.5,
       "shape": "rsquare",
       "dependencies": [
         "01E3044CA552B41D"
@@ -558,8 +446,8 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
-      "x": 10.0,
-      "y": 37.6,
+      "x": -10.0,
+      "y": 4.7,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -579,8 +467,8 @@
         "Visit this biome. Carry a compass and record a useful return point on your map."
       ],
       "icon": "minecraft:compass",
-      "x": -11.55,
-      "y": 58.2,
+      "x": -1.55,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "0EA40C671068FEA5"
@@ -609,8 +497,8 @@
         "Visit this biome. Carry a compass and record a useful return point on your map."
       ],
       "icon": "minecraft:compass",
-      "x": -10.0,
-      "y": 58.2,
+      "x": 0.0,
+      "y": 6.5,
       "shape": "circle",
       "dependencies": [
         "0081D2CC4F87ACC0"
@@ -639,8 +527,8 @@
         "Visit this biome. Carry a compass and record a useful return point on your map."
       ],
       "icon": "minecraft:compass",
-      "x": -8.45,
-      "y": 58.2,
+      "x": 1.55,
+      "y": 6.5,
       "shape": "rsquare",
       "dependencies": [
         "0DD698B357C0A3FD"
@@ -670,125 +558,13 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:compass",
-      "x": -10.0,
-      "y": 56.4,
+      "x": 0.0,
+      "y": 4.7,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
           "id": "08EEEC7692E1D369",
-          "type": "checkmark",
-          "title": "Read and continue"
-        }
-      ],
-      "size": 1.28
-    },
-    {
-      "id": "0946545B4603BE07",
-      "title": "Everbright Blinding Dungeon",
-      "subtitle": "",
-      "description": [
-        "Enter the everbright blinding dungeon structure. This objective detects your location. Bring light, supplies and a way home."
-      ],
-      "icon": "minecraft:map",
-      "x": 8.45,
-      "y": 48.8,
-      "shape": "circle",
-      "dependencies": [
-        "0FBE5AB21E22FDE4"
-      ],
-      "tasks": [
-        {
-          "id": "02B0BCC6BC1C7E7B",
-          "type": "structure",
-          "structure": "blue_skies:everbright_blinding_dungeon"
-        }
-      ],
-      "rewards": [
-        {
-          "id": "01D5D1EC759870C8",
-          "type": "xp",
-          "xp": 15
-        }
-      ],
-      "size": 0.94
-    },
-    {
-      "id": "0BA6F463D0657EE1",
-      "title": "Everdawn Blinding Dungeon",
-      "subtitle": "",
-      "description": [
-        "Enter the everdawn blinding dungeon structure. This objective detects your location. Bring light, supplies and a way home."
-      ],
-      "icon": "minecraft:map",
-      "x": 10.0,
-      "y": 48.8,
-      "shape": "circle",
-      "dependencies": [
-        "0946545B4603BE07"
-      ],
-      "tasks": [
-        {
-          "id": "0F67CF496F6CEE96",
-          "type": "structure",
-          "structure": "blue_skies:everdawn_blinding_dungeon"
-        }
-      ],
-      "rewards": [
-        {
-          "id": "0B9B3A4D4AE6042E",
-          "type": "xp",
-          "xp": 15
-        }
-      ],
-      "size": 0.94
-    },
-    {
-      "id": "057C1DE9C423F014",
-      "title": "Frozen Bunker",
-      "subtitle": "",
-      "description": [
-        "Enter the frozen bunker structure. This objective detects your location. Bring light, supplies and a way home."
-      ],
-      "icon": "minecraft:map",
-      "x": 11.55,
-      "y": 48.8,
-      "shape": "rsquare",
-      "dependencies": [
-        "0BA6F463D0657EE1"
-      ],
-      "tasks": [
-        {
-          "id": "03643B4EA2F1E17D",
-          "type": "structure",
-          "structure": "blue_skies:frozen_bunker"
-        }
-      ],
-      "rewards": [
-        {
-          "id": "0933F6AF5D41B2AB",
-          "type": "xp",
-          "xp": 15
-        }
-      ],
-      "size": 0.94
-    },
-    {
-      "id": "0FBE5AB21E22FDE4",
-      "title": "Blue Skies",
-      "subtitle": "Optional branch",
-      "description": [
-        "This optional branch introduces Blue Skies. Follow its connected goals when it fits your current project.",
-        "The main technology and magic chapters remain available independently."
-      ],
-      "icon": "minecraft:map",
-      "x": 10.0,
-      "y": 47.0,
-      "shape": "octagon",
-      "dependencies": [],
-      "tasks": [
-        {
-          "id": "023C0132EC8172FD",
           "type": "checkmark",
           "title": "Read and continue"
         }
@@ -804,7 +580,7 @@
       ],
       "icon": "minecraft:writable_book",
       "x": 10.0,
-      "y": 34.7,
+      "y": 6.5,
       "shape": "rsquare",
       "dependencies": [
         "0DD903D87D5A191D"
@@ -828,7 +604,7 @@
       ],
       "icon": "minecraft:writable_book",
       "x": 10.0,
-      "y": 32.9,
+      "y": 4.7,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -849,7 +625,7 @@
       ],
       "icon": "crittersandcompanions:pearl_necklace_1",
       "x": -11.55,
-      "y": 44.1,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "011598FA6F9458ED"
@@ -881,7 +657,7 @@
       ],
       "icon": "crittersandcompanions:pearl_necklace_2",
       "x": -10.0,
-      "y": 44.1,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "0F680A3620D4C934"
@@ -913,7 +689,7 @@
       ],
       "icon": "crittersandcompanions:pearl_necklace_3",
       "x": -8.45,
-      "y": 44.1,
+      "y": 11.2,
       "shape": "rsquare",
       "dependencies": [
         "01A5F164DE680EBB"
@@ -946,7 +722,7 @@
       ],
       "icon": "crittersandcompanions:pearl_necklace_1",
       "x": -10.0,
-      "y": 42.3,
+      "y": 9.4,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -967,7 +743,7 @@
       ],
       "icon": "minecraft:map",
       "x": -1.55,
-      "y": 58.2,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "034DF3A7653F0A67"
@@ -997,7 +773,7 @@
       ],
       "icon": "minecraft:map",
       "x": 0.0,
-      "y": 58.2,
+      "y": 11.2,
       "shape": "circle",
       "dependencies": [
         "02515EDDE6C3AD1F"
@@ -1027,7 +803,7 @@
       ],
       "icon": "minecraft:map",
       "x": 1.55,
-      "y": 58.2,
+      "y": 11.2,
       "shape": "rsquare",
       "dependencies": [
         "0A3FA551BD43D6BF"
@@ -1058,64 +834,12 @@
       ],
       "icon": "minecraft:map",
       "x": 0.0,
-      "y": 56.4,
+      "y": 9.4,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
           "id": "04CD826A7DBD5D48",
-          "type": "checkmark",
-          "title": "Read and continue"
-        }
-      ],
-      "size": 1.28
-    },
-    {
-      "id": "08BB03AD648ADF0B",
-      "title": "Ancient Temple",
-      "subtitle": "",
-      "description": [
-        "Enter the ancient temple structure. This objective detects your location. Bring light, supplies and a way home."
-      ],
-      "icon": "minecraft:map",
-      "x": 10.0,
-      "y": 6.5,
-      "shape": "rsquare",
-      "dependencies": [
-        "0B56867656A040B1"
-      ],
-      "tasks": [
-        {
-          "id": "0F7F5251AFB6FB1D",
-          "type": "structure",
-          "structure": "deeperdarker:ancient_temple"
-        }
-      ],
-      "rewards": [
-        {
-          "id": "0297E997C536397C",
-          "type": "xp",
-          "xp": 15
-        }
-      ],
-      "size": 0.94
-    },
-    {
-      "id": "0B56867656A040B1",
-      "title": "Deeper and Darker",
-      "subtitle": "Optional branch",
-      "description": [
-        "This optional branch introduces Deeper and Darker. Follow its connected goals when it fits your current project.",
-        "The main technology and magic chapters remain available independently."
-      ],
-      "icon": "minecraft:map",
-      "x": 10.0,
-      "y": 4.7,
-      "shape": "octagon",
-      "dependencies": [],
-      "tasks": [
-        {
-          "id": "02F186C6B81ED8FD",
           "type": "checkmark",
           "title": "Read and continue"
         }
@@ -1131,7 +855,7 @@
       ],
       "icon": "minecraft:map",
       "x": 10.0,
-      "y": 58.2,
+      "y": 11.2,
       "shape": "rsquare",
       "dependencies": [
         "0400E408E91A8386"
@@ -1162,7 +886,7 @@
       ],
       "icon": "minecraft:map",
       "x": 10.0,
-      "y": 56.4,
+      "y": 9.4,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -1183,7 +907,7 @@
       ],
       "icon": "endermanoverhaul:corrupted_blade",
       "x": -10.78,
-      "y": 39.4,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "04ED972B6733EF47"
@@ -1215,7 +939,7 @@
       ],
       "icon": "endermanoverhaul:corrupted_shield",
       "x": -9.22,
-      "y": 39.4,
+      "y": 15.9,
       "shape": "rsquare",
       "dependencies": [
         "077424A160821580"
@@ -1248,7 +972,7 @@
       ],
       "icon": "endermanoverhaul:corrupted_blade",
       "x": -10.0,
-      "y": 37.6,
+      "y": 14.1,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -1269,7 +993,7 @@
       ],
       "icon": "minecraft:writable_book",
       "x": 0.0,
-      "y": 34.7,
+      "y": 15.9,
       "shape": "rsquare",
       "dependencies": [
         "0780005D6B827260"
@@ -1293,7 +1017,7 @@
       ],
       "icon": "minecraft:writable_book",
       "x": 0.0,
-      "y": 32.9,
+      "y": 14.1,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -1313,8 +1037,8 @@
         "Obtain this item during your travels and inspect its uses in JEI."
       ],
       "icon": "immersive_aircraft:hull",
-      "x": -1.55,
-      "y": 44.1,
+      "x": 8.45,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "02A2D1F099E55E02"
@@ -1345,8 +1069,8 @@
         "Obtain this item during your travels and inspect its uses in JEI."
       ],
       "icon": "immersive_aircraft:sail",
-      "x": 0.0,
-      "y": 44.1,
+      "x": 10.0,
+      "y": 15.9,
       "shape": "circle",
       "dependencies": [
         "044EC43112A6E480"
@@ -1377,8 +1101,8 @@
         "Obtain this item during your travels and inspect its uses in JEI."
       ],
       "icon": "immersive_aircraft:boiler",
-      "x": 1.55,
-      "y": 44.1,
+      "x": 11.55,
+      "y": 15.9,
       "shape": "rsquare",
       "dependencies": [
         "0AC04D4AE11506DA"
@@ -1410,125 +1134,13 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "immersive_aircraft:hull",
-      "x": 0.0,
-      "y": 42.3,
+      "x": 10.0,
+      "y": 14.1,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
           "id": "054B80AAE3825446",
-          "type": "checkmark",
-          "title": "Read and continue"
-        }
-      ],
-      "size": 1.28
-    },
-    {
-      "id": "0D8ED2976CE9615B",
-      "title": "Abandoned Tower",
-      "subtitle": "",
-      "description": [
-        "Enter the abandoned tower structure. This objective detects your location. Bring light, supplies and a way home."
-      ],
-      "icon": "minecraft:map",
-      "x": -1.55,
-      "y": 1.8,
-      "shape": "circle",
-      "dependencies": [
-        "01517794F311EFC3"
-      ],
-      "tasks": [
-        {
-          "id": "08370C0D894457F4",
-          "type": "structure",
-          "structure": "incendium:abandoned_tower"
-        }
-      ],
-      "rewards": [
-        {
-          "id": "0E4F6FECE030B149",
-          "type": "xp",
-          "xp": 15
-        }
-      ],
-      "size": 0.94
-    },
-    {
-      "id": "0BEF6E8D8DFDCCAD",
-      "title": "Forbidden Castle",
-      "subtitle": "",
-      "description": [
-        "Enter the forbidden castle structure. This objective detects your location. Bring light, supplies and a way home."
-      ],
-      "icon": "minecraft:map",
-      "x": 0.0,
-      "y": 1.8,
-      "shape": "circle",
-      "dependencies": [
-        "0D8ED2976CE9615B"
-      ],
-      "tasks": [
-        {
-          "id": "0449640B4F6B62B0",
-          "type": "structure",
-          "structure": "incendium:forbidden_castle"
-        }
-      ],
-      "rewards": [
-        {
-          "id": "058A7200B111D6E7",
-          "type": "xp",
-          "xp": 15
-        }
-      ],
-      "size": 0.94
-    },
-    {
-      "id": "0CDCF131F9488285",
-      "title": "Infernal Altar",
-      "subtitle": "",
-      "description": [
-        "Enter the infernal altar structure. This objective detects your location. Bring light, supplies and a way home."
-      ],
-      "icon": "minecraft:map",
-      "x": 1.55,
-      "y": 1.8,
-      "shape": "rsquare",
-      "dependencies": [
-        "0BEF6E8D8DFDCCAD"
-      ],
-      "tasks": [
-        {
-          "id": "052940B0C5F13DD2",
-          "type": "structure",
-          "structure": "incendium:infernal_altar"
-        }
-      ],
-      "rewards": [
-        {
-          "id": "00911B030B1EAB84",
-          "type": "xp",
-          "xp": 15
-        }
-      ],
-      "size": 0.94
-    },
-    {
-      "id": "01517794F311EFC3",
-      "title": "Incendium Legacy",
-      "subtitle": "Optional branch",
-      "description": [
-        "This optional branch introduces Incendium Legacy. Follow its connected goals when it fits your current project.",
-        "The main technology and magic chapters remain available independently."
-      ],
-      "icon": "minecraft:map",
-      "x": 0.0,
-      "y": 0.0,
-      "shape": "octagon",
-      "dependencies": [],
-      "tasks": [
-        {
-          "id": "09A0FC63CA9A7385",
           "type": "checkmark",
           "title": "Read and continue"
         }
@@ -1543,8 +1155,8 @@
         "The marked chests hold a separate share for each adventurer. Gather your spoils and leave the container for those who follow."
       ],
       "icon": "minecraft:writable_book",
-      "x": 0.0,
-      "y": 39.4,
+      "x": -10.0,
+      "y": 20.6,
       "shape": "rsquare",
       "dependencies": [
         "0AA01E4CEC277FB3"
@@ -1567,8 +1179,8 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:writable_book",
-      "x": 0.0,
-      "y": 37.6,
+      "x": -10.0,
+      "y": 18.8,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -1588,8 +1200,8 @@
         "Locate and enter the Acropolis. Prepare armor, food and a return route; these sites contain dangerous enemies."
       ],
       "icon": "minecraft:map",
-      "x": -11.55,
-      "y": 48.8,
+      "x": -1.55,
+      "y": 20.6,
       "shape": "circle",
       "dependencies": [
         "0FA492AEF0AADCFD"
@@ -1618,8 +1230,8 @@
         "Locate and enter the Ancient Factory. Prepare armor, food and a return route; these sites contain dangerous enemies."
       ],
       "icon": "minecraft:map",
-      "x": -10.0,
-      "y": 48.8,
+      "x": 0.0,
+      "y": 20.6,
       "shape": "circle",
       "dependencies": [
         "09CAB58C868AE622"
@@ -1648,8 +1260,8 @@
         "Locate and enter the Burning Arena. Prepare armor, food and a return route; these sites contain dangerous enemies."
       ],
       "icon": "minecraft:map",
-      "x": -8.45,
-      "y": 48.8,
+      "x": 1.55,
+      "y": 20.6,
       "shape": "rsquare",
       "dependencies": [
         "06B1162067CD0EA1"
@@ -1679,8 +1291,8 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
-      "x": -10.0,
-      "y": 47.0,
+      "x": 0.0,
+      "y": 18.8,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -1700,8 +1312,8 @@
         "Enter the frostmaw spawn structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": -11.55,
-      "y": 53.5,
+      "x": 8.45,
+      "y": 20.6,
       "shape": "circle",
       "dependencies": [
         "0558EDF23B3D8CA2"
@@ -1730,8 +1342,8 @@
         "Enter the monastery structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": -10.0,
-      "y": 53.5,
+      "x": 10.0,
+      "y": 20.6,
       "shape": "circle",
       "dependencies": [
         "00203D4753889063"
@@ -1760,8 +1372,8 @@
         "Enter the umvuthana grove structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": -8.45,
-      "y": 53.5,
+      "x": 11.55,
+      "y": 20.6,
       "shape": "rsquare",
       "dependencies": [
         "0FA2A3B828A0BD17"
@@ -1791,8 +1403,8 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
-      "x": -10.0,
-      "y": 51.7,
+      "x": 10.0,
+      "y": 18.8,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -1813,7 +1425,7 @@
       ],
       "icon": "naturalist:bug_net",
       "x": -11.55,
-      "y": 34.7,
+      "y": 25.3,
       "shape": "circle",
       "dependencies": [
         "01861B907EA1010F"
@@ -1845,7 +1457,7 @@
       ],
       "icon": "naturalist:glow_goop",
       "x": -10.0,
-      "y": 34.7,
+      "y": 25.3,
       "shape": "circle",
       "dependencies": [
         "09423435F5DFE5FC"
@@ -1877,7 +1489,7 @@
       ],
       "icon": "naturalist:cooked_egg",
       "x": -8.45,
-      "y": 34.7,
+      "y": 25.3,
       "shape": "rsquare",
       "dependencies": [
         "0CD5BB99B9E2C851"
@@ -1910,64 +1522,12 @@
       ],
       "icon": "naturalist:bug_net",
       "x": -10.0,
-      "y": 32.9,
+      "y": 23.5,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
           "id": "0D98405686662333",
-          "type": "checkmark",
-          "title": "Read and continue"
-        }
-      ],
-      "size": 1.28
-    },
-    {
-      "id": "00DFA678A557DC1F",
-      "title": "Dragon Skeleton",
-      "subtitle": "",
-      "description": [
-        "Enter the dragon skeleton structure. This objective detects your location. Bring light, supplies and a way home."
-      ],
-      "icon": "minecraft:map",
-      "x": 10.0,
-      "y": 1.8,
-      "shape": "rsquare",
-      "dependencies": [
-        "0B2D0B1486748AFF"
-      ],
-      "tasks": [
-        {
-          "id": "019EA22F07AE67A5",
-          "type": "structure",
-          "structure": "nullscape:dragon_skeleton"
-        }
-      ],
-      "rewards": [
-        {
-          "id": "0DC9AB1071FC7BBB",
-          "type": "xp",
-          "xp": 15
-        }
-      ],
-      "size": 0.94
-    },
-    {
-      "id": "0B2D0B1486748AFF",
-      "title": "Nullscape",
-      "subtitle": "Optional branch",
-      "description": [
-        "This optional branch introduces Nullscape. Follow its connected goals when it fits your current project.",
-        "The main technology and magic chapters remain available independently."
-      ],
-      "icon": "minecraft:map",
-      "x": 10.0,
-      "y": 0.0,
-      "shape": "octagon",
-      "dependencies": [],
-      "tasks": [
-        {
-          "id": "0B4E54ACFBCDE463",
           "type": "checkmark",
           "title": "Read and continue"
         }
@@ -1983,7 +1543,7 @@
       ],
       "icon": "minecraft:map",
       "x": -1.55,
-      "y": 48.8,
+      "y": 25.3,
       "shape": "circle",
       "dependencies": [
         "00027094D5A01ABF"
@@ -2013,7 +1573,7 @@
       ],
       "icon": "minecraft:map",
       "x": 0.0,
-      "y": 48.8,
+      "y": 25.3,
       "shape": "circle",
       "dependencies": [
         "0E180A124443B9A4"
@@ -2043,7 +1603,7 @@
       ],
       "icon": "minecraft:map",
       "x": 1.55,
-      "y": 48.8,
+      "y": 25.3,
       "shape": "rsquare",
       "dependencies": [
         "0B2750664D9FF0DF"
@@ -2074,7 +1634,7 @@
       ],
       "icon": "minecraft:map",
       "x": 0.0,
-      "y": 47.0,
+      "y": 23.5,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -2095,7 +1655,7 @@
       ],
       "icon": "smallships:cannon",
       "x": 8.45,
-      "y": 44.1,
+      "y": 25.3,
       "shape": "circle",
       "dependencies": [
         "0A65D3082556E08D"
@@ -2127,7 +1687,7 @@
       ],
       "icon": "smallships:dockyard",
       "x": 10.0,
-      "y": 44.1,
+      "y": 25.3,
       "shape": "circle",
       "dependencies": [
         "0D576E22B214E759"
@@ -2159,7 +1719,7 @@
       ],
       "icon": "smallships:grape_shot",
       "x": 11.55,
-      "y": 44.1,
+      "y": 25.3,
       "shape": "rsquare",
       "dependencies": [
         "069FEC4160273BD4"
@@ -2192,7 +1752,7 @@
       ],
       "icon": "smallships:cannon",
       "x": 10.0,
-      "y": 42.3,
+      "y": 23.5,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -2212,8 +1772,8 @@
         "Enter the cartouche/red sandstone cartouche monument structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": -1.55,
-      "y": 62.9,
+      "x": -11.55,
+      "y": 30.0,
       "shape": "circle",
       "dependencies": [
         "062B972195D9351F"
@@ -2242,8 +1802,8 @@
         "Enter the cartouche/sandstone cartouche monument structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 0.0,
-      "y": 62.9,
+      "x": -10.0,
+      "y": 30.0,
       "shape": "circle",
       "dependencies": [
         "0FC4FE91F7CFF4AC"
@@ -2272,8 +1832,8 @@
         "Enter the cartouche/stone cartouche monument structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 1.55,
-      "y": 62.9,
+      "x": -8.45,
+      "y": 30.0,
       "shape": "rsquare",
       "dependencies": [
         "042555F8CC9C8DF5"
@@ -2303,8 +1863,8 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
-      "x": 0.0,
-      "y": 61.1,
+      "x": -10.0,
+      "y": 28.2,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -2324,8 +1884,8 @@
         "Enter the desert outpost structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": -11.55,
-      "y": 1.8,
+      "x": -1.55,
+      "y": 30.0,
       "shape": "circle",
       "dependencies": [
         "0FAFB1D16C14733A"
@@ -2354,8 +1914,8 @@
         "Enter the fortified desert village structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": -10.0,
-      "y": 1.8,
+      "x": 0.0,
+      "y": 30.0,
       "shape": "circle",
       "dependencies": [
         "021392505CD753DF"
@@ -2384,8 +1944,8 @@
         "Enter the fortified village structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": -8.45,
-      "y": 1.8,
+      "x": 1.55,
+      "y": 30.0,
       "shape": "rsquare",
       "dependencies": [
         "0DA9619E7AC2FCB2"
@@ -2415,125 +1975,13 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
-      "x": -10.0,
-      "y": 0.0,
+      "x": 0.0,
+      "y": 28.2,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
           "id": "08C852CA7F8BBB53",
-          "type": "checkmark",
-          "title": "Read and continue"
-        }
-      ],
-      "size": 1.28
-    },
-    {
-      "id": "042FDF5DF6044A4B",
-      "title": "Ancient Hoops",
-      "subtitle": "",
-      "description": [
-        "Enter the ancient hoops structure. This objective detects your location. Bring light, supplies and a way home."
-      ],
-      "icon": "minecraft:map",
-      "x": -1.55,
-      "y": 6.5,
-      "shape": "circle",
-      "dependencies": [
-        "04EEF63ADBC98FCB"
-      ],
-      "tasks": [
-        {
-          "id": "0A1D92EBB093D4B1",
-          "type": "structure",
-          "structure": "the_bumblezone:ancient_hoops"
-        }
-      ],
-      "rewards": [
-        {
-          "id": "0AEFD8180A5EA8AD",
-          "type": "xp",
-          "xp": 15
-        }
-      ],
-      "size": 0.94
-    },
-    {
-      "id": "062FA834E3CF775C",
-      "title": "Ancient Shrine",
-      "subtitle": "",
-      "description": [
-        "Enter the ancient shrine structure. This objective detects your location. Bring light, supplies and a way home."
-      ],
-      "icon": "minecraft:map",
-      "x": 0.0,
-      "y": 6.5,
-      "shape": "circle",
-      "dependencies": [
-        "042FDF5DF6044A4B"
-      ],
-      "tasks": [
-        {
-          "id": "0616BD40DBE0CE4A",
-          "type": "structure",
-          "structure": "the_bumblezone:ancient_shrine"
-        }
-      ],
-      "rewards": [
-        {
-          "id": "03BA2073BF236534",
-          "type": "xp",
-          "xp": 15
-        }
-      ],
-      "size": 0.94
-    },
-    {
-      "id": "0650612DE6A1A06E",
-      "title": "Battle Cubes",
-      "subtitle": "",
-      "description": [
-        "Enter the battle cubes structure. This objective detects your location. Bring light, supplies and a way home."
-      ],
-      "icon": "minecraft:map",
-      "x": 1.55,
-      "y": 6.5,
-      "shape": "rsquare",
-      "dependencies": [
-        "062FA834E3CF775C"
-      ],
-      "tasks": [
-        {
-          "id": "08C0B05D7A28C7EC",
-          "type": "structure",
-          "structure": "the_bumblezone:battle_cubes"
-        }
-      ],
-      "rewards": [
-        {
-          "id": "0CDC90C23711A653",
-          "type": "xp",
-          "xp": 15
-        }
-      ],
-      "size": 0.94
-    },
-    {
-      "id": "04EEF63ADBC98FCB",
-      "title": "The Bumblezone - NeoForge/Forge",
-      "subtitle": "Optional branch",
-      "description": [
-        "This optional branch introduces The Bumblezone - NeoForge/Forge. Follow its connected goals when it fits your current project.",
-        "The main technology and magic chapters remain available independently."
-      ],
-      "icon": "minecraft:map",
-      "x": 0.0,
-      "y": 4.7,
-      "shape": "octagon",
-      "dependencies": [],
-      "tasks": [
-        {
-          "id": "0615CDD6EF96B218",
           "type": "checkmark",
           "title": "Read and continue"
         }
@@ -2549,7 +1997,7 @@
       ],
       "icon": "minecraft:map",
       "x": 8.45,
-      "y": 62.9,
+      "y": 30.0,
       "shape": "circle",
       "dependencies": [
         "07E333639C8DF07F"
@@ -2579,7 +2027,7 @@
       ],
       "icon": "minecraft:map",
       "x": 10.0,
-      "y": 62.9,
+      "y": 30.0,
       "shape": "circle",
       "dependencies": [
         "0522A47DB109671E"
@@ -2609,7 +2057,7 @@
       ],
       "icon": "minecraft:map",
       "x": 11.55,
-      "y": 62.9,
+      "y": 30.0,
       "shape": "rsquare",
       "dependencies": [
         "0F5D13412EA40116"
@@ -2640,7 +2088,7 @@
       ],
       "icon": "minecraft:map",
       "x": 10.0,
-      "y": 61.1,
+      "y": 28.2,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -2660,8 +2108,8 @@
         "Enter the exclusives/pillager outpost classic structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 8.45,
-      "y": 30.0,
+      "x": -11.55,
+      "y": 34.7,
       "shape": "circle",
       "dependencies": [
         "0421FA5A4A5E85F0"
@@ -2690,8 +2138,8 @@
         "Enter the exclusives/pillager outpost iberian structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 10.0,
-      "y": 30.0,
+      "x": -10.0,
+      "y": 34.7,
       "shape": "circle",
       "dependencies": [
         "01505424DD73668E"
@@ -2720,8 +2168,8 @@
         "Enter the exclusives/pillager outpost mediterranean structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 11.55,
-      "y": 30.0,
+      "x": -8.45,
+      "y": 34.7,
       "shape": "rsquare",
       "dependencies": [
         "02271792ACA3DB45"
@@ -2751,207 +2199,13 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
-      "x": 10.0,
-      "y": 28.2,
+      "x": -10.0,
+      "y": 32.9,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
           "id": "07FE7F09ABB4F06B",
-          "type": "checkmark",
-          "title": "Read and continue"
-        }
-      ],
-      "size": 1.28
-    },
-    {
-      "id": "0A754381126522F5",
-      "title": "Aurora Palace",
-      "subtitle": "",
-      "description": [
-        "Enter the aurora palace structure. This objective detects your location. Bring light, supplies and a way home."
-      ],
-      "icon": "minecraft:map",
-      "x": -1.55,
-      "y": 53.5,
-      "shape": "circle",
-      "dependencies": [
-        "0BBDD123BF4A1E9F"
-      ],
-      "tasks": [
-        {
-          "id": "0371A02FE0C4D923",
-          "type": "structure",
-          "structure": "twilightforest:aurora_palace"
-        }
-      ],
-      "rewards": [
-        {
-          "id": "06CB5D7C1C3DACD2",
-          "type": "xp",
-          "xp": 15
-        }
-      ],
-      "size": 0.94
-    },
-    {
-      "id": "08EB496F96E45734",
-      "title": "Dark Tower",
-      "subtitle": "",
-      "description": [
-        "Enter the dark tower structure. This objective detects your location. Bring light, supplies and a way home."
-      ],
-      "icon": "minecraft:map",
-      "x": 0.0,
-      "y": 53.5,
-      "shape": "circle",
-      "dependencies": [
-        "0A754381126522F5"
-      ],
-      "tasks": [
-        {
-          "id": "0280CF981D1A811D",
-          "type": "structure",
-          "structure": "twilightforest:dark_tower"
-        }
-      ],
-      "rewards": [
-        {
-          "id": "0086C4E41CE45164",
-          "type": "xp",
-          "xp": 15
-        }
-      ],
-      "size": 0.94
-    },
-    {
-      "id": "0DB766EE5BAE91E4",
-      "title": "Final Castle",
-      "subtitle": "",
-      "description": [
-        "Enter the final castle structure. This objective detects your location. Bring light, supplies and a way home."
-      ],
-      "icon": "minecraft:map",
-      "x": 1.55,
-      "y": 53.5,
-      "shape": "rsquare",
-      "dependencies": [
-        "08EB496F96E45734"
-      ],
-      "tasks": [
-        {
-          "id": "07E843A7D8E74657",
-          "type": "structure",
-          "structure": "twilightforest:final_castle"
-        }
-      ],
-      "rewards": [
-        {
-          "id": "044B27767F3317E0",
-          "type": "xp",
-          "xp": 15
-        }
-      ],
-      "size": 0.94
-    },
-    {
-      "id": "0BBDD123BF4A1E9F",
-      "title": "The Twilight Forest",
-      "subtitle": "Optional branch",
-      "description": [
-        "This optional branch introduces The Twilight Forest. Follow its connected goals when it fits your current project.",
-        "The main technology and magic chapters remain available independently."
-      ],
-      "icon": "minecraft:map",
-      "x": 0.0,
-      "y": 51.7,
-      "shape": "octagon",
-      "dependencies": [],
-      "tasks": [
-        {
-          "id": "03449C4B926D3112",
-          "type": "checkmark",
-          "title": "Read and continue"
-        }
-      ],
-      "size": 1.28
-    },
-    {
-      "id": "042DDA0299CDFB2D",
-      "title": "Catacombs",
-      "subtitle": "",
-      "description": [
-        "Enter the catacombs structure. This objective detects your location. Bring light, supplies and a way home."
-      ],
-      "icon": "minecraft:map",
-      "x": 9.22,
-      "y": 53.5,
-      "shape": "circle",
-      "dependencies": [
-        "02EFA6DEE08B8B6C"
-      ],
-      "tasks": [
-        {
-          "id": "05C31176A8097E20",
-          "type": "structure",
-          "structure": "undergarden:catacombs"
-        }
-      ],
-      "rewards": [
-        {
-          "id": "09C5F71E97D21B57",
-          "type": "xp",
-          "xp": 15
-        }
-      ],
-      "size": 0.94
-    },
-    {
-      "id": "00F802F74909C794",
-      "title": "Forgotten Vestige",
-      "subtitle": "",
-      "description": [
-        "Enter the forgotten vestige structure. This objective detects your location. Bring light, supplies and a way home."
-      ],
-      "icon": "minecraft:map",
-      "x": 10.78,
-      "y": 53.5,
-      "shape": "rsquare",
-      "dependencies": [
-        "042DDA0299CDFB2D"
-      ],
-      "tasks": [
-        {
-          "id": "00224D8826A1B520",
-          "type": "structure",
-          "structure": "undergarden:forgotten_vestige"
-        }
-      ],
-      "rewards": [
-        {
-          "id": "0BD93812C9D5DFB3",
-          "type": "xp",
-          "xp": 15
-        }
-      ],
-      "size": 0.94
-    },
-    {
-      "id": "02EFA6DEE08B8B6C",
-      "title": "The Undergarden",
-      "subtitle": "Optional branch",
-      "description": [
-        "This optional branch introduces The Undergarden. Follow its connected goals when it fits your current project.",
-        "The main technology and magic chapters remain available independently."
-      ],
-      "icon": "minecraft:map",
-      "x": 10.0,
-      "y": 51.7,
-      "shape": "octagon",
-      "dependencies": [],
-      "tasks": [
-        {
-          "id": "023202CCD7CC8423",
           "type": "checkmark",
           "title": "Read and continue"
         }
@@ -2966,8 +2220,8 @@
         "Enter the abandoned temple structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 8.45,
-      "y": 11.2,
+      "x": -1.55,
+      "y": 34.7,
       "shape": "circle",
       "dependencies": [
         "0AC8AE96E9972E88"
@@ -2996,8 +2250,8 @@
         "Enter the aviary structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 10.0,
-      "y": 11.2,
+      "x": 0.0,
+      "y": 34.7,
       "shape": "circle",
       "dependencies": [
         "0BD83C75FAE1C8C4"
@@ -3026,8 +2280,8 @@
         "Enter the bandit towers structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 11.55,
-      "y": 11.2,
+      "x": 1.55,
+      "y": 34.7,
       "shape": "rsquare",
       "dependencies": [
         "056953C141CBD7F6"
@@ -3057,8 +2311,8 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
-      "x": 10.0,
-      "y": 9.4,
+      "x": 0.0,
+      "y": 32.9,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -3078,8 +2332,8 @@
         "Enter the desert temple structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": -10.0,
-      "y": 20.6,
+      "x": 10.0,
+      "y": 34.7,
       "shape": "rsquare",
       "dependencies": [
         "0FC8C72179E25956"
@@ -3109,8 +2363,8 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
-      "x": -10.0,
-      "y": 18.8,
+      "x": 10.0,
+      "y": 32.9,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -3130,8 +2384,8 @@
         "Enter the skeleton dungeon structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": -1.55,
-      "y": 15.9,
+      "x": -11.55,
+      "y": 39.4,
       "shape": "circle",
       "dependencies": [
         "03BE93BECBB2488E"
@@ -3160,8 +2414,8 @@
         "Enter the small dungeon structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 0.0,
-      "y": 15.9,
+      "x": -10.0,
+      "y": 39.4,
       "shape": "circle",
       "dependencies": [
         "0FB4670934BD490B"
@@ -3190,8 +2444,8 @@
         "Enter the small nether dungeon structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 1.55,
-      "y": 15.9,
+      "x": -8.45,
+      "y": 39.4,
       "shape": "rsquare",
       "dependencies": [
         "05A3E8E22BFDC573"
@@ -3221,8 +2475,8 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
-      "x": 0.0,
-      "y": 14.1,
+      "x": -10.0,
+      "y": 37.6,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -3242,8 +2496,8 @@
         "Visit the central End island and inspect the redesigned approach. Prepare for the dragon before arriving. This is a manual objective; mark it after trying the feature."
       ],
       "icon": "minecraft:writable_book",
-      "x": 10.0,
-      "y": 25.3,
+      "x": 0.0,
+      "y": 39.4,
       "shape": "rsquare",
       "dependencies": [
         "02D166B3AFF7B88E"
@@ -3266,8 +2520,8 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:writable_book",
-      "x": 10.0,
-      "y": 23.5,
+      "x": 0.0,
+      "y": 37.6,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -3287,8 +2541,8 @@
         "Enter the jungle temple structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 0.0,
-      "y": 20.6,
+      "x": 10.0,
+      "y": 39.4,
       "shape": "rsquare",
       "dependencies": [
         "0B2839214E086B2A"
@@ -3318,8 +2572,8 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
-      "x": 0.0,
-      "y": 18.8,
+      "x": 10.0,
+      "y": 37.6,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -3340,7 +2594,7 @@
       ],
       "icon": "minecraft:map",
       "x": -11.55,
-      "y": 15.9,
+      "y": 44.1,
       "shape": "circle",
       "dependencies": [
         "0487141C88EB3B70"
@@ -3370,7 +2624,7 @@
       ],
       "icon": "minecraft:map",
       "x": -10.0,
-      "y": 15.9,
+      "y": 44.1,
       "shape": "circle",
       "dependencies": [
         "030B0D1B39718F28"
@@ -3400,7 +2654,7 @@
       ],
       "icon": "minecraft:map",
       "x": -8.45,
-      "y": 15.9,
+      "y": 44.1,
       "shape": "rsquare",
       "dependencies": [
         "0D245F87BC09A0CB"
@@ -3431,64 +2685,12 @@
       ],
       "icon": "minecraft:map",
       "x": -10.0,
-      "y": 14.1,
+      "y": 42.3,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
         {
           "id": "0114F8A7A43CE84E",
-          "type": "checkmark",
-          "title": "Read and continue"
-        }
-      ],
-      "size": 1.28
-    },
-    {
-      "id": "005C50EB51F0624A",
-      "title": "Fortress",
-      "subtitle": "",
-      "description": [
-        "Enter the fortress structure. This objective detects your location. Bring light, supplies and a way home."
-      ],
-      "icon": "minecraft:map",
-      "x": -10.0,
-      "y": 25.3,
-      "shape": "rsquare",
-      "dependencies": [
-        "04C86411B70B104A"
-      ],
-      "tasks": [
-        {
-          "id": "071118EDFE16A5F0",
-          "type": "structure",
-          "structure": "betterfortresses:fortress"
-        }
-      ],
-      "rewards": [
-        {
-          "id": "0E3C9C748D26E671",
-          "type": "xp",
-          "xp": 15
-        }
-      ],
-      "size": 0.94
-    },
-    {
-      "id": "04C86411B70B104A",
-      "title": "YUNG's Better Nether Fortresses",
-      "subtitle": "Optional branch",
-      "description": [
-        "This optional branch introduces YUNG's Better Nether Fortresses. Follow its connected goals when it fits your current project.",
-        "The main technology and magic chapters remain available independently."
-      ],
-      "icon": "minecraft:map",
-      "x": -10.0,
-      "y": 23.5,
-      "shape": "octagon",
-      "dependencies": [],
-      "tasks": [
-        {
-          "id": "05BD66549CD2E735",
           "type": "checkmark",
           "title": "Read and continue"
         }
@@ -3503,8 +2705,8 @@
         "Enter the ocean monument structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 10.0,
-      "y": 20.6,
+      "x": 0.0,
+      "y": 44.1,
       "shape": "rsquare",
       "dependencies": [
         "0AB112BD4F73FF51"
@@ -3534,8 +2736,8 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
-      "x": 10.0,
-      "y": 18.8,
+      "x": 0.0,
+      "y": 42.3,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -3556,7 +2758,7 @@
       ],
       "icon": "minecraft:map",
       "x": 10.0,
-      "y": 15.9,
+      "y": 44.1,
       "shape": "rsquare",
       "dependencies": [
         "0A3548806AFE2462"
@@ -3587,7 +2789,7 @@
       ],
       "icon": "minecraft:map",
       "x": 10.0,
-      "y": 14.1,
+      "y": 42.3,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -3607,8 +2809,8 @@
         "Enter the witch circle structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": -0.78,
-      "y": 25.3,
+      "x": -10.78,
+      "y": 48.8,
       "shape": "circle",
       "dependencies": [
         "0EF46640EA4B2F0B"
@@ -3637,8 +2839,8 @@
         "Enter the witch hut structure. This objective detects your location. Bring light, supplies and a way home."
       ],
       "icon": "minecraft:map",
-      "x": 0.78,
-      "y": 25.3,
+      "x": -9.22,
+      "y": 48.8,
       "shape": "rsquare",
       "dependencies": [
         "0C30A22D24473F98"
@@ -3668,8 +2870,8 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:map",
-      "x": 0.0,
-      "y": 23.5,
+      "x": -10.0,
+      "y": 47.0,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -3689,8 +2891,8 @@
         "Explore the features added by YUNG's Bridges and record one useful discovery. This is a manual objective; mark it after trying the feature."
       ],
       "icon": "minecraft:writable_book",
-      "x": -10.0,
-      "y": 30.0,
+      "x": 0.0,
+      "y": 48.8,
       "shape": "rsquare",
       "dependencies": [
         "03E8D20AC98D0620"
@@ -3713,8 +2915,8 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:writable_book",
-      "x": -10.0,
-      "y": 28.2,
+      "x": 0.0,
+      "y": 47.0,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -3734,8 +2936,8 @@
         "Explore the features added by YUNG's Extras and record one useful discovery. This is a manual objective; mark it after trying the feature."
       ],
       "icon": "minecraft:writable_book",
-      "x": 0.0,
-      "y": 30.0,
+      "x": 10.0,
+      "y": 48.8,
       "shape": "rsquare",
       "dependencies": [
         "0E9A27FD31461DA9"
@@ -3758,8 +2960,8 @@
         "The main technology and magic chapters remain available independently."
       ],
       "icon": "minecraft:writable_book",
-      "x": 0.0,
-      "y": 28.2,
+      "x": 10.0,
+      "y": 47.0,
       "shape": "octagon",
       "dependencies": [],
       "tasks": [
@@ -3773,5 +2975,5 @@
     }
   ],
   "filename": "22_exploration",
-  "autofocus_id": "01517794F311EFC3"
+  "autofocus_id": "0BC2543442CDDB26"
 }

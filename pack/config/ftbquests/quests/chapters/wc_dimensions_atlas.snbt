@@ -1,0 +1,891 @@
+{
+  "filename": "wc_dimensions_atlas",
+  "id": "465057CD4638DFA0",
+  "title": "Atlas of Dimensions",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 0,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "3028EAF678F3B379",
+      "title": "Overworld",
+      "description": [
+        "Your home and departure point. Follow Exploration for Alex's Caves, Cataclysm ruins, settlements and underground expeditions.\n\nQuest route: Exploration."
+      ],
+      "icon": "minecraft:grass_block",
+      "tasks": [
+        {
+          "id": "08B1C4E99293232D",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -7.0,
+      "y": 0.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "7560A529EB9F93C4",
+      "title": "The Aether",
+      "description": [
+        "Build a glowstone gateway and pour water into its frame. The islands hold three dungeon tiers, enchanted minerals and moa companions.\n\nQuest route: The Aether."
+      ],
+      "icon": "aether:zanite_gemstone",
+      "tasks": [
+        {
+          "id": "0CC124123C6F3CBE",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -3.5,
+      "y": 0.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "7F0934018575F4E9",
+      "title": "Everbright",
+      "description": [
+        "Seek a Gatekeeper and consult the Blue Journal. Carry a Zeal Lighter to open the Everbright portal; local tools matter in this cold realm.\n\nQuest route: Everbright."
+      ],
+      "icon": "minecraft:blue_ice",
+      "tasks": [
+        {
+          "id": "732B385E29DD5FDD",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "41DEB46CF9F72671",
+      "title": "Everdawn",
+      "description": [
+        "Find the Gatekeeper's Everdawn portal and light it with a Zeal Lighter. This warmer sister realm has its own materials, alchemy and dungeon guardians.\n\nQuest route: Everdawn."
+      ],
+      "icon": "minecraft:red_sand",
+      "tasks": [
+        {
+          "id": "76616359703E8834",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 3.5,
+      "y": 0.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "442DDAE294671802",
+      "title": "The Undergarden",
+      "description": [
+        "Craft a Catalyst and awaken a stone-brick portal. Beneath the surface lie strange crops, Stoneborn traders and forgotten metal guarded in the catacombs.\n\nQuest route: The Undergarden."
+      ],
+      "icon": "undergarden:catalyst",
+      "tasks": [
+        {
+          "id": "3C37BF4CC2F8340F",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 7.0,
+      "y": 0.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "66FAC2694272D76A",
+      "title": "The Otherside",
+      "description": [
+        "Seek an Ancient City and the Warden's Heart. Open its great frame and descend with spare light, protection and room for echo-rich discoveries.\n\nQuest route: The Otherside."
+      ],
+      "icon": "minecraft:echo_shard",
+      "tasks": [
+        {
+          "id": "2F8EB31F56B00351",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -7.0,
+      "y": 2.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "1A285AE9E052C0ED",
+      "title": "The Bumblezone",
+      "description": [
+        "Throw an ender pearl into a bee nest or hive. The honeycomb world holds royal trades, ancient structures and trials; treat its inhabitants carefully.\n\nQuest route: The Bumblezone."
+      ],
+      "icon": "minecraft:honeycomb",
+      "tasks": [
+        {
+          "id": "5E43FF274ABCDBD7",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -3.5,
+      "y": 2.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "7A44180F09CD2352",
+      "title": "Twilight Forest",
+      "description": [
+        "Follow the courtyard, tower, swamp and glacier expeditions in Twilight Forest. Defeating each guardian opens the next reaches of the forest.\n\nQuest route: Twilight Forest."
+      ],
+      "icon": "twilightforest:magic_map",
+      "tasks": [
+        {
+          "id": "1BDC54AF7EB36A7C",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0.0,
+      "y": 2.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "132036436264C77B",
+      "title": "Abydos",
+      "description": [
+        "Survey the desert and record its gate address.\n\nQuest route: Through the Stargates."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "7B74B99FCB1C278C",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 3.5,
+      "y": 2.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "3E781A4C2EFC6B32",
+      "title": "Chulak",
+      "description": [
+        "Establish a safe return point on Chulak.\n\nQuest route: Through the Stargates."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "08B5EFC4E50251D2",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 7.0,
+      "y": 2.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "62769A8E80AEA33F",
+      "title": "Cavum Tenebrae",
+      "description": [
+        "Bring light and survey the dark terrain.\n\nQuest route: Through the Stargates."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "0CEA12AC5FF54307",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -7.0,
+      "y": 5.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "594CA454B13162AA",
+      "title": "Rima",
+      "description": [
+        "Scout a landing area before shipping machinery.\n\nQuest route: Through the Stargates."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "3C50434417EDBB0F",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -3.5,
+      "y": 5.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "52247FB8D6AFA3BC",
+      "title": "Tollan",
+      "description": [
+        "Survey Tollan and add it to your gate network.\n\nQuest route: Through the Stargates."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "0ADCBFB0111FE2E8",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0.0,
+      "y": 5.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "456B48F180BCB9FD",
+      "title": "Lantea",
+      "description": [
+        "Prepare for an ocean expedition before leaving the gate.\n\nQuest route: Through the Stargates."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "4677DC2457D3F3A9",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 3.5,
+      "y": 5.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "45547C6C1B06D392",
+      "title": "Athos",
+      "description": [
+        "Mark a safe campsite on Athos.\n\nQuest route: Through the Stargates."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "7384F94CC9DF9585",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 7.0,
+      "y": 5.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "0053D6EEA6C6C4D1",
+      "title": "Unitas",
+      "description": [
+        "Scout Unitas and record a route back.\n\nQuest route: Through the Stargates."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "24805C9AA7EE2D36",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -7.0,
+      "y": 7.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "5DEE30B40480CDF1",
+      "title": "Destiny",
+      "description": [
+        "Prepare for a distant journey and confirm a return route before departure.\n\nQuest route: Through the Stargates."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "04A49320FB0EE234",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -3.5,
+      "y": 7.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "6EDADADFDF9EEB1E",
+      "title": "Moon",
+      "description": [
+        "Follow the rocket tiers in Ad Astra. Pack oxygen, fuel and suitable protection. Bring desh home to advance the next rocket tier.\n\nQuest route: Ad Astra."
+      ],
+      "icon": "minecraft:firework_rocket",
+      "tasks": [
+        {
+          "id": "436643410E72CB5D",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0.0,
+      "y": 7.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "27580758DF3FD1A2",
+      "title": "Mars",
+      "description": [
+        "Follow the rocket tiers in Ad Astra. Pack oxygen, fuel and suitable protection. Bring ostrum home to advance the next rocket tier.\n\nQuest route: Ad Astra."
+      ],
+      "icon": "minecraft:firework_rocket",
+      "tasks": [
+        {
+          "id": "19311A08C961A6C4",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 3.5,
+      "y": 7.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "6135BF8F5F7DE557",
+      "title": "Venus",
+      "description": [
+        "Follow the rocket tiers in Ad Astra. Pack oxygen, fuel and suitable protection. Bring calorite home to advance the next rocket tier.\n\nQuest route: Ad Astra."
+      ],
+      "icon": "minecraft:firework_rocket",
+      "tasks": [
+        {
+          "id": "00A021175EB3B7E2",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 7.0,
+      "y": 7.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "7211AAAA540DEBC0",
+      "title": "Mercury",
+      "description": [
+        "Follow the rocket tiers in Ad Astra. Pack oxygen, fuel and suitable protection. Survey the terrain and establish a supplied expedition camp.\n\nQuest route: Ad Astra."
+      ],
+      "icon": "minecraft:firework_rocket",
+      "tasks": [
+        {
+          "id": "02F576EFF77A75A0",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -7.0,
+      "y": 10.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "17D378D14AE4BCF4",
+      "title": "Glacio",
+      "description": [
+        "Follow the rocket tiers in Ad Astra. Pack oxygen, fuel and suitable protection. Survey the terrain and establish a supplied expedition camp.\n\nQuest route: Ad Astra."
+      ],
+      "icon": "minecraft:firework_rocket",
+      "tasks": [
+        {
+          "id": "3F3D624810EB357C",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -3.5,
+      "y": 10.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "3513698B7A879CBF",
+      "title": "Earth Orbit",
+      "description": [
+        "Optional orbital station space. Open Orbital Stations for arrival and life-support projects.\n\nQuest route: Orbital Stations."
+      ],
+      "icon": "minecraft:glass",
+      "tasks": [
+        {
+          "id": "259F563A29CB99D5",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0.0,
+      "y": 10.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "7022B8122FD79B5E",
+      "title": "Moon Orbit",
+      "description": [
+        "Optional orbital station space. Open Orbital Stations for arrival and life-support projects.\n\nQuest route: Orbital Stations."
+      ],
+      "icon": "minecraft:glass",
+      "tasks": [
+        {
+          "id": "4868161345A58828",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 3.5,
+      "y": 10.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "70D4D6E609D5F8E2",
+      "title": "Mars Orbit",
+      "description": [
+        "Optional orbital station space. Open Orbital Stations for arrival and life-support projects.\n\nQuest route: Orbital Stations."
+      ],
+      "icon": "minecraft:glass",
+      "tasks": [
+        {
+          "id": "0DA7B29E45DEA4EA",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 7.0,
+      "y": 10.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "0BD2F55E6E60CC0F",
+      "title": "Mercury Orbit",
+      "description": [
+        "Optional orbital station space. Open Orbital Stations for arrival and life-support projects.\n\nQuest route: Orbital Stations."
+      ],
+      "icon": "minecraft:glass",
+      "tasks": [
+        {
+          "id": "554A28E698184C0D",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -7.0,
+      "y": 12.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "1ADABFB1E05B29D3",
+      "title": "Venus Orbit",
+      "description": [
+        "Optional orbital station space. Open Orbital Stations for arrival and life-support projects.\n\nQuest route: Orbital Stations."
+      ],
+      "icon": "minecraft:glass",
+      "tasks": [
+        {
+          "id": "7C128D0C9747ECF6",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -3.5,
+      "y": 12.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "449BC97E15B0B755",
+      "title": "Glacio Orbit",
+      "description": [
+        "Optional orbital station space. Open Orbital Stations for arrival and life-support projects.\n\nQuest route: Orbital Stations."
+      ],
+      "icon": "minecraft:glass",
+      "tasks": [
+        {
+          "id": "583F96646905A22C",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0.0,
+      "y": 12.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "1C7FDDE436FA88E3",
+      "title": "Nether",
+      "description": [
+        "Build an obsidian portal. Bring fire protection, spare blocks and a marked path home. Incendium adds further ruins to explore.\n\nQuest route: Nether and End Expeditions."
+      ],
+      "icon": "minecraft:obsidian",
+      "tasks": [
+        {
+          "id": "41BF661A77CE9843",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 3.5,
+      "y": 12.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "727CC20B0E24B3DE",
+      "title": "End",
+      "description": [
+        "Find a stronghold and open its gateway. Carry spare blocks and a return plan before facing the dragon.\n\nQuest route: Nether and End Expeditions."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "58C3A905B5D10582",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 7.0,
+      "y": 12.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "1A7C0E152989CC1E",
+      "title": "Dungeon Pockets",
+      "description": [
+        "Explore a dimensional dungeon through a rift. Watch each room before taking another door; the wrong turn can lead to Limbo.\n\nQuest route: Pocket Worlds."
+      ],
+      "icon": "minecraft:iron_door",
+      "tasks": [
+        {
+          "id": "67E1217FE42CA7D4",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -7.0,
+      "y": 15.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "56358C3ECE5CCA8D",
+      "title": "Personal Pockets",
+      "description": [
+        "Create a personal pocket through Dimensional Doors and establish a quiet workshop.\n\nQuest route: Pocket Worlds."
+      ],
+      "icon": "minecraft:iron_door",
+      "tasks": [
+        {
+          "id": "05C85FE4115822AF",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -3.5,
+      "y": 15.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "1A069230B3B88844",
+      "title": "Shared Pockets",
+      "description": [
+        "Create a shared pocket and test its doorway from both sides before storing valuables.\n\nQuest route: Pocket Worlds."
+      ],
+      "icon": "minecraft:iron_door",
+      "tasks": [
+        {
+          "id": "6BEC1021418C2D3C",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0.0,
+      "y": 15.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "668B7370C890388A",
+      "title": "Limbo",
+      "description": [
+        "A dangerous place beyond the doors. If you arrive here, concentrate on finding a way home; this journey is optional.\n\nQuest route: Pocket Worlds."
+      ],
+      "icon": "minecraft:iron_door",
+      "tasks": [
+        {
+          "id": "239C8F4BF510CA6C",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 3.5,
+      "y": 15.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "5943670FE6304F88",
+      "title": "Endless Realm",
+      "description": [
+        "Follow the Edge of the Hidden Realm ritual in Sanguine Scientiem. Explore the dungeon for materials that advance Blood Magic.\n\nQuest route: Sanctums and Pocket Realms."
+      ],
+      "icon": "minecraft:ender_chest",
+      "tasks": [
+        {
+          "id": "2EA058097761B072",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 7.0,
+      "y": 15.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "52D40236DE973B47",
+      "title": "Pocket Dimension",
+      "description": [
+        "Follow the Pocket Dimension spell in the spellbook. Establish a retreat and test the return before leaving equipment inside.\n\nQuest route: Sanctums and Pocket Realms."
+      ],
+      "icon": "minecraft:ender_chest",
+      "tasks": [
+        {
+          "id": "2B1A1528AAAC8378",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -7.0,
+      "y": 17.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "2EF4A891D6FF8BAA",
+      "title": "Reality Marble",
+      "description": [
+        "Study Reality Marble in the Mahou Tsukai guide. This is a magical ability space, not a conventional expedition world.\n\nQuest route: Sanctums and Pocket Realms."
+      ],
+      "icon": "minecraft:ender_chest",
+      "tasks": [
+        {
+          "id": "544FDADF007151E3",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -3.5,
+      "y": 17.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "0C89E6205651CE18",
+      "title": "TARDIS Interiors",
+      "description": [
+        "Each vessel has its own interior. Follow the TARDIS branch to enter, maintain and pilot yours.\n\nQuest route: TARDIS."
+      ],
+      "icon": "minecraft:clock",
+      "tasks": [
+        {
+          "id": "46DFF5B85AF9CF84",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0.0,
+      "y": 17.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "4DE01812C317B4D9",
+      "title": "Spatial Storage",
+      "description": [
+        "Spatial cells hold isolated spaces. Follow A Room in a Cell in Applied Energistics; test a small powered chamber before moving valuable machinery.\n\nQuest route: Applied Energistics."
+      ],
+      "icon": "ae2:spatial_storage_cell_2",
+      "tasks": [
+        {
+          "id": "72AEF756B9D712AD",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 3.5,
+      "y": 17.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "5D45B8888C58EFDE",
+      "title": "The Past",
+      "description": [
+        "A realm recorded by The Graveyard. It is not treated as an ordinary portal destination in this expedition atlas; no visit is required.\n\nQuest route: Sanctums and Pocket Realms."
+      ],
+      "icon": "minecraft:written_book",
+      "tasks": [
+        {
+          "id": "657D4DCE980DCD9F",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 7.0,
+      "y": 17.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    }
+  ]
+}

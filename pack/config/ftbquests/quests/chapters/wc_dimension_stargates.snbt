@@ -1,0 +1,576 @@
+{
+  "filename": "wc_dimension_stargates",
+  "id": "7AA68A05FBE53C53",
+  "title": "Through the Stargates",
+  "icon": "minecraft:ender_eye",
+  "group": "3E91144EB73CBA91",
+  "order_index": 13,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "69FED2CC98C4F1F5",
+      "title": "The Address Book",
+      "description": [
+        "Record discovered gate addresses and test the return connection before moving equipment. A powered gate network can link your distant outposts."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "2E5191E7CE16C259",
+          "type": "advancement",
+          "advancement": "sgjourney:adventure/use_stargate"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "389FC9686BDE15CD",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "20DC1BFA94B3D953",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1E38BDA42A9A0F9F",
+      "title": "Abydos",
+      "description": [
+        "Survey the desert and record its gate address."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "039B70296DE08197",
+          "type": "dimension",
+          "dimension": "sgjourney:abydos"
+        }
+      ],
+      "dependencies": [
+        "69FED2CC98C4F1F5"
+      ],
+      "optional": true,
+      "x": -5,
+      "y": 3,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "570C04EAB465EC55",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "546CBCEF23AD0341",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "4C932060B82F600A",
+      "title": "Abydos Field Station",
+      "description": [
+        "Survey the surroundings, mark the return gate and establish a stocked shelter. Complete this field record after testing a round trip."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "0E11C52BCE7ADF1A",
+          "type": "checkmark",
+          "title": "Record the expedition"
+        }
+      ],
+      "dependencies": [
+        "1E38BDA42A9A0F9F"
+      ],
+      "optional": true,
+      "x": -5,
+      "y": 5,
+      "shape": "rsquare",
+      "size": 1.2
+    },
+    {
+      "id": "2ABF4E1137512B89",
+      "title": "Chulak",
+      "description": [
+        "Establish a safe return point on Chulak."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "18616C6B013F70D5",
+          "type": "dimension",
+          "dimension": "sgjourney:chulak"
+        }
+      ],
+      "dependencies": [
+        "69FED2CC98C4F1F5"
+      ],
+      "optional": true,
+      "x": 0,
+      "y": 3,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "3C86BD317B8D4927",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "2499DDC3F2FA4690",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "39E8516FAF740994",
+      "title": "Chulak Field Station",
+      "description": [
+        "Survey the surroundings, mark the return gate and establish a stocked shelter. Complete this field record after testing a round trip."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "335E19CF51E9CBA0",
+          "type": "checkmark",
+          "title": "Record the expedition"
+        }
+      ],
+      "dependencies": [
+        "2ABF4E1137512B89"
+      ],
+      "optional": true,
+      "x": 0,
+      "y": 5,
+      "shape": "rsquare",
+      "size": 1.2
+    },
+    {
+      "id": "04574BE04F7FA4CA",
+      "title": "Cavum Tenebrae",
+      "description": [
+        "Bring light and survey the dark terrain."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "432C8FE022DF18B9",
+          "type": "dimension",
+          "dimension": "sgjourney:cavum_tenebrae"
+        }
+      ],
+      "dependencies": [
+        "69FED2CC98C4F1F5"
+      ],
+      "optional": true,
+      "x": 5,
+      "y": 3,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "44F55293BBA346EC",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "662323770026DA67",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1B32BD266D831FB7",
+      "title": "Cavum Tenebrae Field Station",
+      "description": [
+        "Survey the surroundings, mark the return gate and establish a stocked shelter. Complete this field record after testing a round trip."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "7B9C34DD9794BCD4",
+          "type": "checkmark",
+          "title": "Record the expedition"
+        }
+      ],
+      "dependencies": [
+        "04574BE04F7FA4CA"
+      ],
+      "optional": true,
+      "x": 5,
+      "y": 5,
+      "shape": "rsquare",
+      "size": 1.2
+    },
+    {
+      "id": "3BC3776585A39F9D",
+      "title": "Rima",
+      "description": [
+        "Scout a landing area before shipping machinery."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "290897C1FCBD6546",
+          "type": "dimension",
+          "dimension": "sgjourney:rima"
+        }
+      ],
+      "dependencies": [
+        "69FED2CC98C4F1F5"
+      ],
+      "optional": true,
+      "x": -5,
+      "y": 8,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "34083CE0879274C5",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "5CCCA3EB6B033A24",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "7B89445F09224003",
+      "title": "Rima Field Station",
+      "description": [
+        "Survey the surroundings, mark the return gate and establish a stocked shelter. Complete this field record after testing a round trip."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "572CFFC4FE9657F6",
+          "type": "checkmark",
+          "title": "Record the expedition"
+        }
+      ],
+      "dependencies": [
+        "3BC3776585A39F9D"
+      ],
+      "optional": true,
+      "x": -5,
+      "y": 10,
+      "shape": "rsquare",
+      "size": 1.2
+    },
+    {
+      "id": "348B9A1FA119B245",
+      "title": "Tollan",
+      "description": [
+        "Survey Tollan and add it to your gate network."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "09048A0AB43FABD8",
+          "type": "dimension",
+          "dimension": "sgjourney:tollan"
+        }
+      ],
+      "dependencies": [
+        "69FED2CC98C4F1F5"
+      ],
+      "optional": true,
+      "x": 0,
+      "y": 8,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "7C7E16F4F7929E09",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "5D927D027BA71E1E",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1F72496C202F9A7C",
+      "title": "Tollan Field Station",
+      "description": [
+        "Survey the surroundings, mark the return gate and establish a stocked shelter. Complete this field record after testing a round trip."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "5C260005AABBE2EA",
+          "type": "checkmark",
+          "title": "Record the expedition"
+        }
+      ],
+      "dependencies": [
+        "348B9A1FA119B245"
+      ],
+      "optional": true,
+      "x": 0,
+      "y": 10,
+      "shape": "rsquare",
+      "size": 1.2
+    },
+    {
+      "id": "0E1C2411516233A7",
+      "title": "Lantea",
+      "description": [
+        "Prepare for an ocean expedition before leaving the gate."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "7DE44ED3E5A0810E",
+          "type": "dimension",
+          "dimension": "sgjourney:lantea"
+        }
+      ],
+      "dependencies": [
+        "69FED2CC98C4F1F5"
+      ],
+      "optional": true,
+      "x": 5,
+      "y": 8,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "756D1595325AAF83",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "4A58AC4B31C4B74C",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "4E4002349FA52856",
+      "title": "Lantea Field Station",
+      "description": [
+        "Survey the surroundings, mark the return gate and establish a stocked shelter. Complete this field record after testing a round trip."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "44E4A51779FACE91",
+          "type": "checkmark",
+          "title": "Record the expedition"
+        }
+      ],
+      "dependencies": [
+        "0E1C2411516233A7"
+      ],
+      "optional": true,
+      "x": 5,
+      "y": 10,
+      "shape": "rsquare",
+      "size": 1.2
+    },
+    {
+      "id": "738F1168F1266589",
+      "title": "Athos",
+      "description": [
+        "Mark a safe campsite on Athos."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "28D66F274C3C55DF",
+          "type": "dimension",
+          "dimension": "sgjourney:athos"
+        }
+      ],
+      "dependencies": [
+        "69FED2CC98C4F1F5"
+      ],
+      "optional": true,
+      "x": -5,
+      "y": 13,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "1CED9093C288E8D6",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "7AFA7A02BA50F49F",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1946FF3045E5B4C6",
+      "title": "Athos Field Station",
+      "description": [
+        "Survey the surroundings, mark the return gate and establish a stocked shelter. Complete this field record after testing a round trip."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "71E9E87EAAFE2259",
+          "type": "checkmark",
+          "title": "Record the expedition"
+        }
+      ],
+      "dependencies": [
+        "738F1168F1266589"
+      ],
+      "optional": true,
+      "x": -5,
+      "y": 15,
+      "shape": "rsquare",
+      "size": 1.2
+    },
+    {
+      "id": "52E5E88E1CBFF674",
+      "title": "Unitas",
+      "description": [
+        "Scout Unitas and record a route back."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "4640045ABADFFF70",
+          "type": "dimension",
+          "dimension": "sgjourney:unitas"
+        }
+      ],
+      "dependencies": [
+        "69FED2CC98C4F1F5"
+      ],
+      "optional": true,
+      "x": 0,
+      "y": 13,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "5784F06AF96FD60A",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "5CFCB6D2E25F9C59",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "6B2921ABBFF32624",
+      "title": "Unitas Field Station",
+      "description": [
+        "Survey the surroundings, mark the return gate and establish a stocked shelter. Complete this field record after testing a round trip."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "3A4E0D3F8BAC2140",
+          "type": "checkmark",
+          "title": "Record the expedition"
+        }
+      ],
+      "dependencies": [
+        "52E5E88E1CBFF674"
+      ],
+      "optional": true,
+      "x": 0,
+      "y": 15,
+      "shape": "rsquare",
+      "size": 1.2
+    },
+    {
+      "id": "667A02EA08F19E01",
+      "title": "Destiny",
+      "description": [
+        "Prepare for a distant journey and confirm a return route before departure."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "4FD712F558089B0F",
+          "type": "dimension",
+          "dimension": "sgjourney:destiny"
+        }
+      ],
+      "dependencies": [
+        "69FED2CC98C4F1F5"
+      ],
+      "optional": true,
+      "x": 5,
+      "y": 13,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "16749D2E9D5E0312",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "54CDE2639088A1CD",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "184CF5A892B73A0E",
+      "title": "Destiny Field Station",
+      "description": [
+        "Survey the surroundings, mark the return gate and establish a stocked shelter. Complete this field record after testing a round trip."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "68692C019FBF56D2",
+          "type": "checkmark",
+          "title": "Record the expedition"
+        }
+      ],
+      "dependencies": [
+        "667A02EA08F19E01"
+      ],
+      "optional": true,
+      "x": 5,
+      "y": 15,
+      "shape": "rsquare",
+      "size": 1.2
+    }
+  ]
+}

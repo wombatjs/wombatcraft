@@ -1,0 +1,490 @@
+{
+  "filename": "wc_dimension_undergarden",
+  "id": "118E587FE7147818",
+  "title": "The Undergarden",
+  "icon": "undergarden:catalyst",
+  "group": "3E91144EB73CBA91",
+  "order_index": 5,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "6E71825EA6B3568B",
+      "title": "Into The Undergarden",
+      "description": [
+        "Craft a Catalyst and awaken a stone-brick portal. Beneath the surface lie strange crops, Stoneborn traders and forgotten metal guarded in the catacombs."
+      ],
+      "icon": "undergarden:catalyst",
+      "tasks": [
+        {
+          "id": "4BDB333ECD54A128",
+          "type": "dimension",
+          "dimension": "undergarden:undergarden"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0,
+      "y": 0,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "0B8EC323C8AFFE37",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "0AE67757497D7453",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "098F2C0E47D339DE",
+      "title": "Ores Beneath the Roots",
+      "description": [
+        "Mine a local ore and begin a supply cache."
+      ],
+      "icon": "undergarden:catalyst",
+      "tasks": [
+        {
+          "id": "0DF032D50431B566",
+          "type": "advancement",
+          "advancement": "undergarden:undergarden/mine_ore"
+        }
+      ],
+      "dependencies": [
+        "6E71825EA6B3568B"
+      ],
+      "optional": true,
+      "x": -4.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "7BE86D06A319478C",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "320F39E985AB1528",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "5BB29D29203CE2E7",
+      "title": "Cloggrum Field Armour",
+      "description": [
+        "Assemble the cloggrum armour set before the deeper expedition."
+      ],
+      "icon": "undergarden:catalyst",
+      "tasks": [
+        {
+          "id": "6E7F5C131D9797AA",
+          "type": "advancement",
+          "advancement": "undergarden:undergarden/cloggrum_armor"
+        }
+      ],
+      "dependencies": [
+        "098F2C0E47D339DE"
+      ],
+      "optional": true,
+      "x": -4.0,
+      "y": 5.2,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "58F804F58A45C911",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "52982A6A1F33F593",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "17409AD6827C6C22",
+      "title": "A Geologist's Collection",
+      "description": [
+        "Collect the realm's ore blocks for a geological display."
+      ],
+      "icon": "undergarden:catalyst",
+      "tasks": [
+        {
+          "id": "5D6BEBC9817522F3",
+          "type": "advancement",
+          "advancement": "undergarden:undergarden/all_ore_blocks"
+        }
+      ],
+      "dependencies": [
+        "5BB29D29203CE2E7"
+      ],
+      "optional": true,
+      "x": -4.0,
+      "y": 7.4,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "4F957611DE0662DF",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "4F934B90642BC8D1",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "0B79AC3A27BCCD1C",
+      "title": "The Catacombs",
+      "description": [
+        "Descend into the catacombs with lighting, food and a marked route out."
+      ],
+      "icon": "undergarden:catalyst",
+      "tasks": [
+        {
+          "id": "6C70A003628F8986",
+          "type": "advancement",
+          "advancement": "undergarden:undergarden/catacombs"
+        }
+      ],
+      "dependencies": [
+        "6E71825EA6B3568B"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "6C79C6F89D957001",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "348605E49A7EFA59",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "67EA77E70740D51D",
+      "title": "The Forgotten Guardian",
+      "description": [
+        "Defeat the Forgotten Guardian in its ancient halls."
+      ],
+      "icon": "undergarden:catalyst",
+      "tasks": [
+        {
+          "id": "4F58C9B33CA10AEC",
+          "type": "advancement",
+          "advancement": "undergarden:undergarden/kill_forgotten_guardian"
+        }
+      ],
+      "dependencies": [
+        "0B79AC3A27BCCD1C"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": 5.2,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "5B5EA46B6A163A39",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "55D8039EFA37C1D3",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "77A92781F4FD10FA",
+      "title": "Forgotten Metal",
+      "description": [
+        "Obtain a forgotten ingot for the tools beyond cloggrum."
+      ],
+      "icon": "undergarden:catalyst",
+      "tasks": [
+        {
+          "id": "0FE655EE333E3BB0",
+          "type": "advancement",
+          "advancement": "undergarden:undergarden/forgotten_ingot"
+        }
+      ],
+      "dependencies": [
+        "67EA77E70740D51D"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": 7.4,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "531F033C4CDD9543",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "0BFDF0A2BD2EEB0C",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "4AA13618CB455B7F",
+      "title": "Tools of a Lost Age",
+      "description": [
+        "Complete the forgotten tool collection."
+      ],
+      "icon": "undergarden:catalyst",
+      "tasks": [
+        {
+          "id": "1A2C3F6E47DBB502",
+          "type": "advancement",
+          "advancement": "undergarden:undergarden/forgotten_tools"
+        }
+      ],
+      "dependencies": [
+        "77A92781F4FD10FA"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": 9.6,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "74E7402EF1A587E1",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "165FE0E0915BA8F3",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "047C4F66840B6870",
+      "title": "Trade With the Stoneborn",
+      "description": [
+        "Complete a trade with a Stoneborn."
+      ],
+      "icon": "undergarden:catalyst",
+      "tasks": [
+        {
+          "id": "7F9D7EF10A5E08F9",
+          "type": "advancement",
+          "advancement": "undergarden:undergarden/stoneborn_trade"
+        }
+      ],
+      "dependencies": [
+        "6E71825EA6B3568B"
+      ],
+      "optional": true,
+      "x": 4.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "5511F55D57B7F586",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "066FD0F7A1D56388",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "4F8AFADD38CC3EE3",
+      "title": "A Garden Underground",
+      "description": [
+        "Plant a gloomgourd and establish a renewable food supply."
+      ],
+      "icon": "undergarden:catalyst",
+      "tasks": [
+        {
+          "id": "5AFAC00BB4A28FD5",
+          "type": "advancement",
+          "advancement": "undergarden:undergarden/plant_gloomgourd"
+        }
+      ],
+      "dependencies": [
+        "047C4F66840B6870"
+      ],
+      "optional": true,
+      "x": 4.0,
+      "y": 5.2,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "5CDA2F2DC79FFC88",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "6B8177C07BE1DE29",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "6AAF8DFB78569A41",
+      "title": "A Harvest for Home",
+      "description": [
+        "Bring together a full stack of gloomgourds."
+      ],
+      "icon": "undergarden:catalyst",
+      "tasks": [
+        {
+          "id": "6BE21C4C4511BA3C",
+          "type": "advancement",
+          "advancement": "undergarden:undergarden/stack_of_gloomgourds"
+        }
+      ],
+      "dependencies": [
+        "4F8AFADD38CC3EE3"
+      ],
+      "optional": true,
+      "x": 4.0,
+      "y": 7.4,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "11B5B0CE394A24CC",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "2244709825FFA8B2",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "042DDA0299CDFB2D",
+      "title": "Catacombs",
+      "subtitle": "Field survey",
+      "description": [
+        "Enter the catacombs structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "02EFA6DEE08B8B6C"
+      ],
+      "tasks": [
+        {
+          "id": "05C31176A8097E20",
+          "type": "structure",
+          "structure": "undergarden:catacombs"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09C5F71E97D21B57",
+          "type": "xp",
+          "xp": 15
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
+      "id": "00F802F74909C794",
+      "title": "Forgotten Vestige",
+      "subtitle": "Field survey",
+      "description": [
+        "Enter the forgotten vestige structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 5.2,
+      "shape": "circle",
+      "dependencies": [
+        "042DDA0299CDFB2D"
+      ],
+      "tasks": [
+        {
+          "id": "00224D8826A1B520",
+          "type": "structure",
+          "structure": "undergarden:forgotten_vestige"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0BD93812C9D5DFB3",
+          "type": "xp",
+          "xp": 15
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
+      "id": "02EFA6DEE08B8B6C",
+      "title": "The Undergarden",
+      "subtitle": "Field survey",
+      "description": [
+        "Craft a Catalyst and awaken a stone-brick portal. Beneath the surface lie strange crops, Stoneborn traders and forgotten metal guarded in the catacombs."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 7.4,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "023202CCD7CC8423",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ],
+      "size": 1,
+      "optional": true
+    }
+  ],
+  "autofocus_id": "6E71825EA6B3568B"
+}

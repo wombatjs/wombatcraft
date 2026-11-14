@@ -1,8 +1,8 @@
 {
   "id": "0DBD2B438BE09E8B",
-  "group": "00AA8F374274B5F3",
+  "group": "3E91144EB73CBA91",
   "title": "Pocket Worlds",
-  "order_index": 23,
+  "order_index": 18,
   "default_quest_shape": "circle",
   "quests": [
     {
@@ -146,6 +146,142 @@
           "id": "0B3851BE79C1F310",
           "type": "checkmark",
           "title": "Read and continue"
+        }
+      ]
+    },
+    {
+      "id": "429A4CE3DD56159C",
+      "title": "Dungeon Pockets",
+      "description": [
+        "Explore a dimensional dungeon through a rift. Watch each room before taking another door; the wrong turn can lead to Limbo."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "11CFDEAD045D4E71",
+          "type": "dimension",
+          "dimension": "dimdoors:dungeon_pockets"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0,
+      "y": 3.0,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "1B1CEACFF313D0A5",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "5EB983B5B3E8B8A1",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "7FE6B9A920FF0CE8",
+      "title": "Personal Pockets",
+      "description": [
+        "Create a personal pocket through Dimensional Doors and establish a quiet workshop."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "50EBB6E225C48812",
+          "type": "dimension",
+          "dimension": "dimdoors:personal_pockets"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 5,
+      "y": 3.0,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "37BD7F3DFC3EF503",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "20590B8AEAF25E41",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "18497B55A866D436",
+      "title": "Shared Pockets",
+      "description": [
+        "Create a shared pocket and test its doorway from both sides before storing valuables."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "3D8EDE1290CBFC1B",
+          "type": "dimension",
+          "dimension": "dimdoors:public_pockets"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0,
+      "y": 6.0,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "37881A4BD3890D55",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "0531E49B24C9D9FE",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "3A84A764A5EFFB10",
+      "title": "Limbo",
+      "description": [
+        "A dangerous place beyond the doors. If you arrive here, concentrate on finding a way home; this journey is optional."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "757AD12F5598AFF4",
+          "type": "dimension",
+          "dimension": "dimdoors:limbo"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 5,
+      "y": 6.0,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "09D3ACCCAD29B232",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "2D821FB01FF72A68",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
         }
       ]
     }

@@ -1,0 +1,521 @@
+{
+  "filename": "wc_dimension_bumblezone",
+  "id": "70639083785E1418",
+  "title": "The Bumblezone",
+  "icon": "minecraft:honeycomb",
+  "group": "3E91144EB73CBA91",
+  "order_index": 7,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "75603BF5890F42A4",
+      "title": "Into The Bumblezone",
+      "description": [
+        "Throw an ender pearl into a bee nest or hive. The honeycomb world holds royal trades, ancient structures and trials; treat its inhabitants carefully."
+      ],
+      "icon": "minecraft:honeycomb",
+      "tasks": [
+        {
+          "id": "55294A09085702A7",
+          "type": "dimension",
+          "dimension": "the_bumblezone:the_bumblezone"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0,
+      "y": 0,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "7B75862FBB4BAC18",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "03ACB4E4ADD1EBB0",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "2BE831190A298427",
+      "title": "A Compass Through Honey",
+      "description": [
+        "Craft a Honey Compass to guide the expedition."
+      ],
+      "icon": "minecraft:honeycomb",
+      "tasks": [
+        {
+          "id": "083AEE59090E8C01",
+          "type": "advancement",
+          "advancement": "the_bumblezone:tools/craft_honey_compass"
+        }
+      ],
+      "dependencies": [
+        "75603BF5890F42A4"
+      ],
+      "optional": true,
+      "x": -4.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "4E50A481A600B214",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "3444716286F8A064",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "49A2B317505F856C",
+      "title": "An Audience With Royalty",
+      "description": [
+        "Find a Throne Pillar and approach the Bee Queen."
+      ],
+      "icon": "minecraft:honeycomb",
+      "tasks": [
+        {
+          "id": "4D3A9B516C2B1CE2",
+          "type": "advancement",
+          "advancement": "the_bumblezone:structures/enter_throne_pillar"
+        }
+      ],
+      "dependencies": [
+        "2BE831190A298427"
+      ],
+      "optional": true,
+      "x": -4.0,
+      "y": 5.2,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "1D08CC8E0C0EAE6A",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "2CA3B5BE0A184E1F",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "462EA3869539DA3D",
+      "title": "The Queen's First Request",
+      "description": [
+        "Begin the Queen's Desire trading journey."
+      ],
+      "icon": "minecraft:honeycomb",
+      "tasks": [
+        {
+          "id": "3E4A8F6EF07B3E19",
+          "type": "advancement",
+          "advancement": "the_bumblezone:the_queens_desire/the_beginning"
+        }
+      ],
+      "dependencies": [
+        "49A2B317505F856C"
+      ],
+      "optional": true,
+      "x": -4.0,
+      "y": 7.4,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "0FF2B7F8F794D2B2",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "799C6C893AF247C8",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "413796B2E9EF3AB0",
+      "title": "The Queen's Long Commission",
+      "description": [
+        "Complete the Queen's Desire chain. Let your farms and workshop supply her requests."
+      ],
+      "icon": "minecraft:honeycomb",
+      "tasks": [
+        {
+          "id": "638966B0FE396042",
+          "type": "advancement",
+          "advancement": "the_bumblezone:the_queens_desire/journeys_end"
+        }
+      ],
+      "dependencies": [
+        "462EA3869539DA3D"
+      ],
+      "optional": true,
+      "x": -4.0,
+      "y": 9.6,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "1E31224FE653345F",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "3F6B12523DFEE787",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "3CEE7E4B0A644813",
+      "title": "The Cell Maze",
+      "description": [
+        "Find a Cell Maze and explore its passages."
+      ],
+      "icon": "minecraft:honeycomb",
+      "tasks": [
+        {
+          "id": "4781F1C82DD6FDB2",
+          "type": "advancement",
+          "advancement": "the_bumblezone:structures/enter_cell_maze"
+        }
+      ],
+      "dependencies": [
+        "75603BF5890F42A4"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "6C08DFB52F0DEFD6",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "6C3ECD6BBE3A12D1",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1299A9B22F5865BB",
+      "title": "The Sempiternal Sanctum",
+      "description": [
+        "Seek a Sempiternal Sanctum and investigate its trial."
+      ],
+      "icon": "minecraft:honeycomb",
+      "tasks": [
+        {
+          "id": "4530CC783115AE82",
+          "type": "advancement",
+          "advancement": "the_bumblezone:structures/enter_sempiternal_sanctum"
+        }
+      ],
+      "dependencies": [
+        "3CEE7E4B0A644813"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": 5.2,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "6504A9980A4C621B",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "1C6FB6759DB69121",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "64598A354430C5B9",
+      "title": "A Complete Honey Atlas",
+      "description": [
+        "Discover every structure in the Bumblezone's exploration record."
+      ],
+      "icon": "minecraft:honeycomb",
+      "tasks": [
+        {
+          "id": "2D292B01E6B33B35",
+          "type": "advancement",
+          "advancement": "the_bumblezone:structures/enter_all_structures"
+        }
+      ],
+      "dependencies": [
+        "1299A9B22F5865BB"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": 7.4,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "148FC83078F67FA3",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "7D6346C7A5212415",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "77B001BFBAFDADB0",
+      "title": "A Shield of Crystal",
+      "description": [
+        "Make a Honey Crystal Shield for the next expedition."
+      ],
+      "icon": "minecraft:honeycomb",
+      "tasks": [
+        {
+          "id": "72990D05F315882F",
+          "type": "advancement",
+          "advancement": "the_bumblezone:honey_crystal_shield/obtain_honey_crystal_shield"
+        }
+      ],
+      "dependencies": [
+        "75603BF5890F42A4"
+      ],
+      "optional": true,
+      "x": 4.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "29EA86A46C023549",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "56D44F92D58C5008",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "5640385E3F4D17F0",
+      "title": "A Stinger's Reach",
+      "description": [
+        "Obtain a Stinger Spear and learn its reach."
+      ],
+      "icon": "minecraft:honeycomb",
+      "tasks": [
+        {
+          "id": "2492720AD30AEBB3",
+          "type": "advancement",
+          "advancement": "the_bumblezone:stinger_spear/obtain_stinger_spear"
+        }
+      ],
+      "dependencies": [
+        "77B001BFBAFDADB0"
+      ],
+      "optional": true,
+      "x": 4.0,
+      "y": 5.2,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "3A0832E51660EDCE",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "72454405068E01EC",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "48A12E1F2CCA01B3",
+      "title": "A Returning Traveller",
+      "description": [
+        "Return from the hive world with your discoveries."
+      ],
+      "icon": "minecraft:honeycomb",
+      "tasks": [
+        {
+          "id": "5ED114D8A7EFD44D",
+          "type": "advancement",
+          "advancement": "the_bumblezone:teleportation/teleport_out_of_bumblezone"
+        }
+      ],
+      "dependencies": [
+        "5640385E3F4D17F0"
+      ],
+      "optional": true,
+      "x": 4.0,
+      "y": 7.4,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "6BBFD14AADF74CC7",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "3040BE39DCA28BE8",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "042FDF5DF6044A4B",
+      "title": "Ancient Hoops",
+      "subtitle": "Field survey",
+      "description": [
+        "Enter the ancient hoops structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "04EEF63ADBC98FCB"
+      ],
+      "tasks": [
+        {
+          "id": "0A1D92EBB093D4B1",
+          "type": "structure",
+          "structure": "the_bumblezone:ancient_hoops"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0AEFD8180A5EA8AD",
+          "type": "xp",
+          "xp": 15
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
+      "id": "062FA834E3CF775C",
+      "title": "Ancient Shrine",
+      "subtitle": "Field survey",
+      "description": [
+        "Enter the ancient shrine structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 5.2,
+      "shape": "circle",
+      "dependencies": [
+        "042FDF5DF6044A4B"
+      ],
+      "tasks": [
+        {
+          "id": "0616BD40DBE0CE4A",
+          "type": "structure",
+          "structure": "the_bumblezone:ancient_shrine"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03BA2073BF236534",
+          "type": "xp",
+          "xp": 15
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
+      "id": "0650612DE6A1A06E",
+      "title": "Battle Cubes",
+      "subtitle": "Field survey",
+      "description": [
+        "Enter the battle cubes structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 7.4,
+      "shape": "circle",
+      "dependencies": [
+        "062FA834E3CF775C"
+      ],
+      "tasks": [
+        {
+          "id": "08C0B05D7A28C7EC",
+          "type": "structure",
+          "structure": "the_bumblezone:battle_cubes"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0CDC90C23711A653",
+          "type": "xp",
+          "xp": 15
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
+      "id": "04EEF63ADBC98FCB",
+      "title": "The Bumblezone - NeoForge/Forge",
+      "subtitle": "Field survey",
+      "description": [
+        "Throw an ender pearl into a bee nest or hive. The honeycomb world holds royal trades, ancient structures and trials; treat its inhabitants carefully."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 9.6,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0615CDD6EF96B218",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ],
+      "size": 1,
+      "optional": true
+    }
+  ],
+  "autofocus_id": "75603BF5890F42A4"
+}

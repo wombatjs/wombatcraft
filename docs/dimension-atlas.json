@@ -1,0 +1,242 @@
+[
+  {
+    "title": "Overworld",
+    "dimension": "minecraft:overworld",
+    "chapter": "22_exploration",
+    "description": "Your home and departure point. Follow Exploration for Alex's Caves, Cataclysm ruins, settlements and underground expeditions."
+  },
+  {
+    "title": "The Aether",
+    "dimension": "aether:the_aether",
+    "chapter": "wc_dimension_aether",
+    "description": "Build a glowstone gateway and pour water into its frame. The islands hold three dungeon tiers, enchanted minerals and moa companions."
+  },
+  {
+    "title": "Everbright",
+    "dimension": "blue_skies:everbright",
+    "chapter": "wc_dimension_everbright",
+    "description": "Seek a Gatekeeper and consult the Blue Journal. Carry a Zeal Lighter to open the Everbright portal; local tools matter in this cold realm."
+  },
+  {
+    "title": "Everdawn",
+    "dimension": "blue_skies:everdawn",
+    "chapter": "wc_dimension_everdawn",
+    "description": "Find the Gatekeeper's Everdawn portal and light it with a Zeal Lighter. This warmer sister realm has its own materials, alchemy and dungeon guardians."
+  },
+  {
+    "title": "The Undergarden",
+    "dimension": "undergarden:undergarden",
+    "chapter": "wc_dimension_undergarden",
+    "description": "Craft a Catalyst and awaken a stone-brick portal. Beneath the surface lie strange crops, Stoneborn traders and forgotten metal guarded in the catacombs."
+  },
+  {
+    "title": "The Otherside",
+    "dimension": "deeperdarker:otherside",
+    "chapter": "wc_dimension_otherside",
+    "description": "Seek an Ancient City and the Warden's Heart. Open its great frame and descend with spare light, protection and room for echo-rich discoveries."
+  },
+  {
+    "title": "The Bumblezone",
+    "dimension": "the_bumblezone:the_bumblezone",
+    "chapter": "wc_dimension_bumblezone",
+    "description": "Throw an ender pearl into a bee nest or hive. The honeycomb world holds royal trades, ancient structures and trials; treat its inhabitants carefully."
+  },
+  {
+    "title": "Twilight Forest",
+    "dimension": "twilightforest:twilight_forest",
+    "chapter": "wc_twilight_forest",
+    "description": "Follow the courtyard, tower, swamp and glacier expeditions in Twilight Forest. Defeating each guardian opens the next reaches of the forest."
+  },
+  {
+    "title": "Abydos",
+    "dimension": "sgjourney:abydos",
+    "chapter": "wc_dimension_stargates",
+    "description": "Survey the desert and record its gate address."
+  },
+  {
+    "title": "Chulak",
+    "dimension": "sgjourney:chulak",
+    "chapter": "wc_dimension_stargates",
+    "description": "Establish a safe return point on Chulak."
+  },
+  {
+    "title": "Cavum Tenebrae",
+    "dimension": "sgjourney:cavum_tenebrae",
+    "chapter": "wc_dimension_stargates",
+    "description": "Bring light and survey the dark terrain."
+  },
+  {
+    "title": "Rima",
+    "dimension": "sgjourney:rima",
+    "chapter": "wc_dimension_stargates",
+    "description": "Scout a landing area before shipping machinery."
+  },
+  {
+    "title": "Tollan",
+    "dimension": "sgjourney:tollan",
+    "chapter": "wc_dimension_stargates",
+    "description": "Survey Tollan and add it to your gate network."
+  },
+  {
+    "title": "Lantea",
+    "dimension": "sgjourney:lantea",
+    "chapter": "wc_dimension_stargates",
+    "description": "Prepare for an ocean expedition before leaving the gate."
+  },
+  {
+    "title": "Athos",
+    "dimension": "sgjourney:athos",
+    "chapter": "wc_dimension_stargates",
+    "description": "Mark a safe campsite on Athos."
+  },
+  {
+    "title": "Unitas",
+    "dimension": "sgjourney:unitas",
+    "chapter": "wc_dimension_stargates",
+    "description": "Scout Unitas and record a route back."
+  },
+  {
+    "title": "Destiny",
+    "dimension": "sgjourney:destiny",
+    "chapter": "wc_dimension_stargates",
+    "description": "Prepare for a distant journey and confirm a return route before departure."
+  },
+  {
+    "title": "Moon",
+    "dimension": "ad_astra:moon",
+    "chapter": "11_ad_astra",
+    "description": "Follow the rocket tiers in Ad Astra. Pack oxygen, fuel and suitable protection. Bring desh home to advance the next rocket tier."
+  },
+  {
+    "title": "Mars",
+    "dimension": "ad_astra:mars",
+    "chapter": "11_ad_astra",
+    "description": "Follow the rocket tiers in Ad Astra. Pack oxygen, fuel and suitable protection. Bring ostrum home to advance the next rocket tier."
+  },
+  {
+    "title": "Venus",
+    "dimension": "ad_astra:venus",
+    "chapter": "11_ad_astra",
+    "description": "Follow the rocket tiers in Ad Astra. Pack oxygen, fuel and suitable protection. Bring calorite home to advance the next rocket tier."
+  },
+  {
+    "title": "Mercury",
+    "dimension": "ad_astra:mercury",
+    "chapter": "11_ad_astra",
+    "description": "Follow the rocket tiers in Ad Astra. Pack oxygen, fuel and suitable protection. Survey the terrain and establish a supplied expedition camp."
+  },
+  {
+    "title": "Glacio",
+    "dimension": "ad_astra:glacio",
+    "chapter": "11_ad_astra",
+    "description": "Follow the rocket tiers in Ad Astra. Pack oxygen, fuel and suitable protection. Survey the terrain and establish a supplied expedition camp."
+  },
+  {
+    "title": "Earth Orbit",
+    "dimension": "ad_astra:earth_orbit",
+    "chapter": "wc_dimension_orbits",
+    "description": "Optional orbital station space. Open Orbital Stations for arrival and life-support projects."
+  },
+  {
+    "title": "Moon Orbit",
+    "dimension": "ad_astra:moon_orbit",
+    "chapter": "wc_dimension_orbits",
+    "description": "Optional orbital station space. Open Orbital Stations for arrival and life-support projects."
+  },
+  {
+    "title": "Mars Orbit",
+    "dimension": "ad_astra:mars_orbit",
+    "chapter": "wc_dimension_orbits",
+    "description": "Optional orbital station space. Open Orbital Stations for arrival and life-support projects."
+  },
+  {
+    "title": "Mercury Orbit",
+    "dimension": "ad_astra:mercury_orbit",
+    "chapter": "wc_dimension_orbits",
+    "description": "Optional orbital station space. Open Orbital Stations for arrival and life-support projects."
+  },
+  {
+    "title": "Venus Orbit",
+    "dimension": "ad_astra:venus_orbit",
+    "chapter": "wc_dimension_orbits",
+    "description": "Optional orbital station space. Open Orbital Stations for arrival and life-support projects."
+  },
+  {
+    "title": "Glacio Orbit",
+    "dimension": "ad_astra:glacio_orbit",
+    "chapter": "wc_dimension_orbits",
+    "description": "Optional orbital station space. Open Orbital Stations for arrival and life-support projects."
+  },
+  {
+    "title": "Nether",
+    "dimension": "minecraft:the_nether",
+    "chapter": "wc_dimension_vanilla",
+    "description": "Build an obsidian portal. Bring fire protection, spare blocks and a marked path home. Incendium adds further ruins to explore."
+  },
+  {
+    "title": "End",
+    "dimension": "minecraft:the_end",
+    "chapter": "wc_dimension_vanilla",
+    "description": "Find a stronghold and open its gateway. Carry spare blocks and a return plan before facing the dragon."
+  },
+  {
+    "title": "Dungeon Pockets",
+    "dimension": "dimdoors:dungeon_pockets",
+    "chapter": "28_pocket_worlds",
+    "description": "Explore a dimensional dungeon through a rift. Watch each room before taking another door; the wrong turn can lead to Limbo."
+  },
+  {
+    "title": "Personal Pockets",
+    "dimension": "dimdoors:personal_pockets",
+    "chapter": "28_pocket_worlds",
+    "description": "Create a personal pocket through Dimensional Doors and establish a quiet workshop."
+  },
+  {
+    "title": "Shared Pockets",
+    "dimension": "dimdoors:public_pockets",
+    "chapter": "28_pocket_worlds",
+    "description": "Create a shared pocket and test its doorway from both sides before storing valuables."
+  },
+  {
+    "title": "Limbo",
+    "dimension": "dimdoors:limbo",
+    "chapter": "28_pocket_worlds",
+    "description": "A dangerous place beyond the doors. If you arrive here, concentrate on finding a way home; this journey is optional."
+  },
+  {
+    "title": "Endless Realm",
+    "dimension": "bloodmagic:dungeon",
+    "chapter": "wc_dimension_sanctums",
+    "description": "Follow the Edge of the Hidden Realm ritual in Sanguine Scientiem. Explore the dungeon for materials that advance Blood Magic."
+  },
+  {
+    "title": "Pocket Dimension",
+    "dimension": "irons_spellbooks:pocket_dimension",
+    "chapter": "wc_dimension_sanctums",
+    "description": "Follow the Pocket Dimension spell in the spellbook. Establish a retreat and test the return before leaving equipment inside."
+  },
+  {
+    "title": "Reality Marble",
+    "dimension": "mahoutsukai:reality_marble",
+    "chapter": "wc_dimension_sanctums",
+    "description": "Study Reality Marble in the Mahou Tsukai guide. This is a magical ability space, not a conventional expedition world."
+  },
+  {
+    "title": "TARDIS Interiors",
+    "dimension": null,
+    "chapter": "01_tardis",
+    "description": "Each vessel has its own interior. Follow the TARDIS branch to enter, maintain and pilot yours."
+  },
+  {
+    "title": "Spatial Storage",
+    "dimension": null,
+    "chapter": "wc_applied_energistics",
+    "description": "Spatial cells hold isolated spaces. Follow A Room in a Cell in Applied Energistics; test a small powered chamber before moving valuable machinery."
+  },
+  {
+    "title": "The Past",
+    "dimension": "graveyard:past",
+    "chapter": "wc_dimension_sanctums",
+    "description": "A realm recorded by The Graveyard. It is not treated as an ordinary portal destination in this expedition atlas; no visit is required."
+  }
+]

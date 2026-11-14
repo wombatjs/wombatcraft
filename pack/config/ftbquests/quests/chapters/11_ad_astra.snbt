@@ -1,8 +1,8 @@
 {
   "id": "0B716866A2FF66FA",
-  "group": "00AA8F374274B5F3",
+  "group": "3E91144EB73CBA91",
   "title": "Ad Astra",
-  "order_index": 9,
+  "order_index": 12,
   "default_quest_shape": "circle",
   "quests": [
     {
@@ -619,6 +619,40 @@
       "y": 16.0,
       "shape": "diamond",
       "size": 1.4
+    },
+    {
+      "id": "506961DA469630CE",
+      "title": "Mercury Survey",
+      "description": [
+        "Land on Mercury with suitable protection, oxygen and fuel for the return journey."
+      ],
+      "icon": "ad_astra:steel_ingot",
+      "tasks": [
+        {
+          "id": "79BE129F017E0310",
+          "type": "dimension",
+          "dimension": "ad_astra:mercury"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 4,
+      "y": 12,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "6873C6F09FB28377",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "02A416D3A3C17B9C",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
     }
   ],
   "filename": "11_ad_astra",

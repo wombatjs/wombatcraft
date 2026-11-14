@@ -1,0 +1,365 @@
+{
+  "filename": "wc_dimension_everdawn",
+  "id": "73D581FEDB5ED8D0",
+  "title": "Everdawn",
+  "icon": "minecraft:red_sand",
+  "group": "3E91144EB73CBA91",
+  "order_index": 4,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "7687A7FB6599C715",
+      "title": "Into Everdawn",
+      "description": [
+        "Find the Gatekeeper's Everdawn portal and light it with a Zeal Lighter. This warmer sister realm has its own materials, alchemy and dungeon guardians."
+      ],
+      "icon": "minecraft:red_sand",
+      "tasks": [
+        {
+          "id": "737C3F9393E3682E",
+          "type": "dimension",
+          "dimension": "blue_skies:everdawn"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0,
+      "y": 0,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "5AF3E6E44A5E9575",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "5C19DD8010257DCA",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "6FA28526E011DE3C",
+      "title": "Timber in the Dawn",
+      "description": [
+        "Gather local wood for a second expedition workshop."
+      ],
+      "icon": "minecraft:red_sand",
+      "tasks": [
+        {
+          "id": "6F0102F818F4C66C",
+          "type": "advancement",
+          "advancement": "blue_skies:everdawn/get_wood"
+        }
+      ],
+      "dependencies": [
+        "7687A7FB6599C715"
+      ],
+      "optional": true,
+      "x": -4.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "1FB73A4A4AE122E6",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "4739C99339B3CBEE",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "39E468ACB222E617",
+      "title": "Horizonite Veins",
+      "description": [
+        "Find horizonite and bring a sample back to camp."
+      ],
+      "icon": "minecraft:red_sand",
+      "tasks": [
+        {
+          "id": "368904A14F29BEED",
+          "type": "advancement",
+          "advancement": "blue_skies:everdawn/get_horizonite"
+        }
+      ],
+      "dependencies": [
+        "6FA28526E011DE3C"
+      ],
+      "optional": true,
+      "x": -4.0,
+      "y": 5.2,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "6FDD021B1EA35074",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "621503853BF8862B",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "7F6F14CB0F9F834E",
+      "title": "A Forge of the Dawn",
+      "description": [
+        "Build the horizonite forge for the materials found here."
+      ],
+      "icon": "minecraft:red_sand",
+      "tasks": [
+        {
+          "id": "237D464ADBDD8C72",
+          "type": "advancement",
+          "advancement": "blue_skies:everdawn/craft_horizonite_forge"
+        }
+      ],
+      "dependencies": [
+        "39E468ACB222E617"
+      ],
+      "optional": true,
+      "x": -4.0,
+      "y": 7.4,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "55ECD27315EE9C68",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "0B2F425973BC3141",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "68305E095990E099",
+      "title": "The Alchemist",
+      "description": [
+        "Enter the blinding dungeon with its keys and defeat the Alchemist."
+      ],
+      "icon": "minecraft:red_sand",
+      "tasks": [
+        {
+          "id": "61DB18CE2CBFD8ED",
+          "type": "advancement",
+          "advancement": "blue_skies:everdawn/kill_alchemist"
+        }
+      ],
+      "dependencies": [
+        "7687A7FB6599C715"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "72DE490E5E78913E",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "28D46D5B21885C6A",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "28A0E8DE72058D37",
+      "title": "The Poison Dungeon",
+      "description": [
+        "Prepare for poison and find the next dungeon."
+      ],
+      "icon": "minecraft:red_sand",
+      "tasks": [
+        {
+          "id": "30401B40E0B3B52E",
+          "type": "advancement",
+          "advancement": "blue_skies:everdawn/enter_poison_dungeon"
+        }
+      ],
+      "dependencies": [
+        "68305E095990E099"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": 5.2,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "7E57B34ED3C04004",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "702DF6180190CD4B",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "6581CD768822982D",
+      "title": "The Arachnarch",
+      "description": [
+        "Defeat the Arachnarch and claim the spoils of the dawn."
+      ],
+      "icon": "minecraft:red_sand",
+      "tasks": [
+        {
+          "id": "6E1A5A9D27B0AABF",
+          "type": "advancement",
+          "advancement": "blue_skies:everdawn/kill_arachnarch"
+        }
+      ],
+      "dependencies": [
+        "28A0E8DE72058D37"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": 7.4,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "748304464BCA64EF",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "4155BC932F54444D",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "52473B8686929DBE",
+      "title": "The Alchemy Table",
+      "description": [
+        "Put the alchemy table to work with local materials."
+      ],
+      "icon": "minecraft:red_sand",
+      "tasks": [
+        {
+          "id": "355407470C1CA1C7",
+          "type": "advancement",
+          "advancement": "blue_skies:everdawn/use_alchemy_table"
+        }
+      ],
+      "dependencies": [
+        "7687A7FB6599C715"
+      ],
+      "optional": true,
+      "x": 4.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "58138799D59E7266",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "190C831C1834931A",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "4247FCAEF409AC00",
+      "title": "An Alchemist's Fortune",
+      "description": [
+        "Complete the gold transmutation recorded in the Blue Journal."
+      ],
+      "icon": "minecraft:red_sand",
+      "tasks": [
+        {
+          "id": "64B18A87B7996D1F",
+          "type": "advancement",
+          "advancement": "blue_skies:everdawn/alchemy_gold"
+        }
+      ],
+      "dependencies": [
+        "52473B8686929DBE"
+      ],
+      "optional": true,
+      "x": 4.0,
+      "y": 5.2,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "4AE354A1912C744F",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "382A4ACD1D625C85",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "0BA6F463D0657EE1",
+      "title": "Everdawn Blinding Dungeon",
+      "subtitle": "Field survey",
+      "description": [
+        "Enter the everdawn blinding dungeon structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "0946545B4603BE07"
+      ],
+      "tasks": [
+        {
+          "id": "0F67CF496F6CEE96",
+          "type": "structure",
+          "structure": "blue_skies:everdawn_blinding_dungeon"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B9B3A4D4AE6042E",
+          "type": "xp",
+          "xp": 15
+        }
+      ],
+      "size": 1,
+      "optional": true
+    }
+  ],
+  "autofocus_id": "7687A7FB6599C715"
+}

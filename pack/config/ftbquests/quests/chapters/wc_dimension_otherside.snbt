@@ -1,0 +1,315 @@
+{
+  "filename": "wc_dimension_otherside",
+  "id": "4EAA8C4EBD5DFDA5",
+  "title": "The Otherside",
+  "icon": "minecraft:echo_shard",
+  "group": "3E91144EB73CBA91",
+  "order_index": 6,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "48EAF4DDE934E4B7",
+      "title": "Into The Otherside",
+      "description": [
+        "Seek an Ancient City and the Warden's Heart. Open its great frame and descend with spare light, protection and room for echo-rich discoveries."
+      ],
+      "icon": "minecraft:echo_shard",
+      "tasks": [
+        {
+          "id": "4DAFC0FE3E8AEC2D",
+          "type": "dimension",
+          "dimension": "deeperdarker:otherside"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0,
+      "y": 0,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "12BFE903C8C9588F",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "7D8A65A8E185FB21",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "740418C895D37208",
+      "title": "The Ancient Temple",
+      "description": [
+        "Find the Ancient Temple beyond the portal."
+      ],
+      "icon": "minecraft:echo_shard",
+      "tasks": [
+        {
+          "id": "65243CE595BB0ECC",
+          "type": "advancement",
+          "advancement": "deeperdarker:main/find_ancient_temple"
+        }
+      ],
+      "dependencies": [
+        "48EAF4DDE934E4B7"
+      ],
+      "optional": true,
+      "x": -2.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "256A8096E9B36C18",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "07C158B2A18D6BD1",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "4AE7C20CA14E9CCF",
+      "title": "A Reinforced Echo",
+      "description": [
+        "Recover a reinforced echo shard for deeper crafting."
+      ],
+      "icon": "minecraft:echo_shard",
+      "tasks": [
+        {
+          "id": "319F1ABDEFFABCB8",
+          "type": "advancement",
+          "advancement": "deeperdarker:main/obtain_reinforced_echo_shard"
+        }
+      ],
+      "dependencies": [
+        "740418C895D37208"
+      ],
+      "optional": true,
+      "x": -2.0,
+      "y": 5.2,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "0A21723CA1C273DD",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "472A4292F4FDFED6",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "7FA2456B20A118A7",
+      "title": "The Sonorous Staff",
+      "description": [
+        "Create the sonorous staff from your expedition's spoils."
+      ],
+      "icon": "minecraft:echo_shard",
+      "tasks": [
+        {
+          "id": "5A03A73B499FC976",
+          "type": "advancement",
+          "advancement": "deeperdarker:main/obtain_sonorous_staff"
+        }
+      ],
+      "dependencies": [
+        "4AE7C20CA14E9CCF"
+      ],
+      "optional": true,
+      "x": -2.0,
+      "y": 7.4,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "65236440E592A276",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "1BE0B9F532BD1D5E",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "274A61EF715A2FFF",
+      "title": "Survey of the Otherside",
+      "description": [
+        "Visit the Otherside's biomes; map a safe route between them."
+      ],
+      "icon": "minecraft:echo_shard",
+      "tasks": [
+        {
+          "id": "508B3788359DDDBD",
+          "type": "advancement",
+          "advancement": "deeperdarker:main/explore_otherside"
+        }
+      ],
+      "dependencies": [
+        "48EAF4DDE934E4B7"
+      ],
+      "optional": true,
+      "x": 2.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "65B7355289122CBD",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "6DB163E82D4C23AE",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "2D8C3617B1881D28",
+      "title": "Predators of the Sculk",
+      "description": [
+        "Defeat every sculk creature required by the realm's hunting record."
+      ],
+      "icon": "minecraft:echo_shard",
+      "tasks": [
+        {
+          "id": "4FB35860DC318A12",
+          "type": "advancement",
+          "advancement": "deeperdarker:main/kill_all_sculk_mobs"
+        }
+      ],
+      "dependencies": [
+        "274A61EF715A2FFF"
+      ],
+      "optional": true,
+      "x": 2.0,
+      "y": 5.2,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "2EFEF0FFCC6EF8A8",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "362A8CED4A05F2CF",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "645E8DCBDC4DC075",
+      "title": "Armour of the Deep",
+      "description": [
+        "Assemble the Warden armour set."
+      ],
+      "icon": "minecraft:echo_shard",
+      "tasks": [
+        {
+          "id": "4397C13D9EC55BB4",
+          "type": "advancement",
+          "advancement": "deeperdarker:main/warden_armor"
+        }
+      ],
+      "dependencies": [
+        "2D8C3617B1881D28"
+      ],
+      "optional": true,
+      "x": 2.0,
+      "y": 7.4,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "3B8A998AC7B9399B",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "7A3EB3DEBD297C22",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "08BB03AD648ADF0B",
+      "title": "Ancient Temple",
+      "subtitle": "Field survey",
+      "description": [
+        "Enter the ancient temple structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "0B56867656A040B1"
+      ],
+      "tasks": [
+        {
+          "id": "0F7F5251AFB6FB1D",
+          "type": "structure",
+          "structure": "deeperdarker:ancient_temple"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0297E997C536397C",
+          "type": "xp",
+          "xp": 15
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
+      "id": "0B56867656A040B1",
+      "title": "Deeper and Darker",
+      "subtitle": "Field survey",
+      "description": [
+        "Seek an Ancient City and the Warden's Heart. Open its great frame and descend with spare light, protection and room for echo-rich discoveries."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 5.2,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "02F186C6B81ED8FD",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ],
+      "size": 1,
+      "optional": true
+    }
+  ],
+  "autofocus_id": "48EAF4DDE934E4B7"
+}

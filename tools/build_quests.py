@@ -6,6 +6,7 @@ Existing addon chapters remain until they receive an authored replacement.
 import argparse,collections,hashlib,json,re,shutil
 from pathlib import Path
 from quest_content import refine_chapters
+from dimension_quests import add_dimensions
 from quest_layout import chapter_key, lay_out_atlas, lay_out_lanes
 ROOT=Path(__file__).resolve().parents[1]
 def uid(s):return f"{int(hashlib.sha256(('wombatcraft/'+s).encode()).hexdigest()[:16],16) & 0x7FFFFFFFFFFFFFFF:016X}"
@@ -127,6 +128,8 @@ def build(registry,names):
    lay_out_atlas(d)
   book[p.stem]=d
  refine_chapters(book,uid)
+ destinations=add_dimensions(book,uid)
+ save(ROOT/'docs/dimension-atlas.json',destinations)
  for filename,d in book.items():save(chapters/(filename+'.snbt'),d)
  for entry in reports:entry['quests']=len(book[chapter_key(entry['chapter'])]['quests'])
  allq=[q for chapter in book.values() for q in chapter['quests']]

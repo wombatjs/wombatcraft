@@ -1,0 +1,346 @@
+{
+  "filename": "wc_dimension_everbright",
+  "id": "0C6C785E02C23D18",
+  "title": "Everbright",
+  "icon": "minecraft:blue_ice",
+  "group": "3E91144EB73CBA91",
+  "order_index": 3,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "02B42722DDC4DCE3",
+      "title": "Into Everbright",
+      "description": [
+        "Seek a Gatekeeper and consult the Blue Journal. Carry a Zeal Lighter to open the Everbright portal; local tools matter in this cold realm."
+      ],
+      "icon": "minecraft:blue_ice",
+      "tasks": [
+        {
+          "id": "53F1AA02F04E2CE5",
+          "type": "dimension",
+          "dimension": "blue_skies:everbright"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0,
+      "y": 0,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "2C72319E6DD05DE6",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "4D1D2902ACA61402",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "5D5DE732F9253023",
+      "title": "A Foothold in the Frost",
+      "description": [
+        "Gather local timber and begin a sheltered workshop."
+      ],
+      "icon": "minecraft:blue_ice",
+      "tasks": [
+        {
+          "id": "00AC72ED0D702B17",
+          "type": "advancement",
+          "advancement": "blue_skies:everbright/get_wood"
+        }
+      ],
+      "dependencies": [
+        "02B42722DDC4DCE3"
+      ],
+      "optional": true,
+      "x": -2.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "1128A1669C220C32",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "3B56D7BB3A671F8F",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "3ED8D7C018A14D2C",
+      "title": "Ventium Expedition",
+      "description": [
+        "Search below the frozen surface for ventium."
+      ],
+      "icon": "minecraft:blue_ice",
+      "tasks": [
+        {
+          "id": "11D99717D45FDB10",
+          "type": "advancement",
+          "advancement": "blue_skies:everbright/get_ventium"
+        }
+      ],
+      "dependencies": [
+        "5D5DE732F9253023"
+      ],
+      "optional": true,
+      "x": -2.0,
+      "y": 5.2,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "38D96A70BEE7640E",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "4CBCB573394E332E",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "39EAC9033FDEDA8B",
+      "title": "Falsite Reserves",
+      "description": [
+        "Bring falsite back from the mines for local equipment."
+      ],
+      "icon": "minecraft:blue_ice",
+      "tasks": [
+        {
+          "id": "5E8717A7FE52D6F4",
+          "type": "advancement",
+          "advancement": "blue_skies:everbright/get_falsite"
+        }
+      ],
+      "dependencies": [
+        "3ED8D7C018A14D2C"
+      ],
+      "optional": true,
+      "x": -2.0,
+      "y": 7.4,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "0208079DE371840D",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "296037D996CECC4D",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "3C8B6FC41D45CAB7",
+      "title": "The Summoner's Tower",
+      "description": [
+        "Gather the keys, enter the blinding dungeon and defeat the Summoner."
+      ],
+      "icon": "minecraft:blue_ice",
+      "tasks": [
+        {
+          "id": "58CBFABE887918C2",
+          "type": "advancement",
+          "advancement": "blue_skies:everbright/kill_summoner"
+        }
+      ],
+      "dependencies": [
+        "02B42722DDC4DCE3"
+      ],
+      "optional": true,
+      "x": 2.0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "254977CB148E38F0",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "16644C8A103419E7",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "12C0696B721DF0FF",
+      "title": "Beneath the Roots",
+      "description": [
+        "Follow the next keys to the nature dungeon."
+      ],
+      "icon": "minecraft:blue_ice",
+      "tasks": [
+        {
+          "id": "16A9FE0A4B337BAA",
+          "type": "advancement",
+          "advancement": "blue_skies:everbright/enter_nature_dungeon"
+        }
+      ],
+      "dependencies": [
+        "3C8B6FC41D45CAB7"
+      ],
+      "optional": true,
+      "x": 2.0,
+      "y": 5.2,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "2F8B4A99B75F3598",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "554A38706C8F18B7",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "30B9F9D83C425CFF",
+      "title": "The Starlit Crusher",
+      "description": [
+        "Defeat the Starlit Crusher; prepare the right local tool before entering its chamber."
+      ],
+      "icon": "minecraft:blue_ice",
+      "tasks": [
+        {
+          "id": "285DDDC8BB1878AE",
+          "type": "advancement",
+          "advancement": "blue_skies:everbright/kill_starlit_crusher"
+        }
+      ],
+      "dependencies": [
+        "12C0696B721DF0FF"
+      ],
+      "optional": true,
+      "x": 2.0,
+      "y": 7.4,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "2ABEBD2647137058",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "55F3209E602B445B",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "0946545B4603BE07",
+      "title": "Everbright Blinding Dungeon",
+      "subtitle": "Field survey",
+      "description": [
+        "Enter the everbright blinding dungeon structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 3.0,
+      "shape": "circle",
+      "dependencies": [
+        "0FBE5AB21E22FDE4"
+      ],
+      "tasks": [
+        {
+          "id": "02B0BCC6BC1C7E7B",
+          "type": "structure",
+          "structure": "blue_skies:everbright_blinding_dungeon"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "01D5D1EC759870C8",
+          "type": "xp",
+          "xp": 15
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
+      "id": "057C1DE9C423F014",
+      "title": "Frozen Bunker",
+      "subtitle": "Field survey",
+      "description": [
+        "Enter the frozen bunker structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 5.2,
+      "shape": "circle",
+      "dependencies": [
+        "0BA6F463D0657EE1"
+      ],
+      "tasks": [
+        {
+          "id": "03643B4EA2F1E17D",
+          "type": "structure",
+          "structure": "blue_skies:frozen_bunker"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0933F6AF5D41B2AB",
+          "type": "xp",
+          "xp": 15
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
+      "id": "0FBE5AB21E22FDE4",
+      "title": "Blue Skies",
+      "subtitle": "Field survey",
+      "description": [
+        "Seek a Gatekeeper and consult the Blue Journal. Carry a Zeal Lighter to open the Everbright portal; local tools matter in this cold realm."
+      ],
+      "icon": "minecraft:map",
+      "x": 8,
+      "y": 7.4,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "023C0132EC8172FD",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ],
+      "size": 1,
+      "optional": true
+    }
+  ],
+  "autofocus_id": "02B42722DDC4DCE3"
+}

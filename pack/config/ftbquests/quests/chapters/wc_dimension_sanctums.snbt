@@ -1,0 +1,182 @@
+{
+  "filename": "wc_dimension_sanctums",
+  "id": "62829035D68C3FFD",
+  "title": "Sanctums and Pocket Realms",
+  "icon": "minecraft:ender_chest",
+  "group": "3E91144EB73CBA91",
+  "order_index": 17,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "7DC7BDCE4C17E418",
+      "title": "Endless Realm",
+      "description": [
+        "Follow the Edge of the Hidden Realm ritual in Sanguine Scientiem. Explore the dungeon for materials that advance Blood Magic."
+      ],
+      "icon": "minecraft:ender_chest",
+      "tasks": [
+        {
+          "id": "3B2ABF6CDA2B1716",
+          "type": "dimension",
+          "dimension": "bloodmagic:dungeon"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -5,
+      "y": 0,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "01233F68C7C53B08",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "544D68BFB766B3C2",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "586619D004B45078",
+      "title": "Endless Realm Return Journey",
+      "description": [
+        "Prepare supplies, use the realm through its own magic and return safely. Record the journey after bringing your discoveries home."
+      ],
+      "icon": "minecraft:ender_chest",
+      "tasks": [
+        {
+          "id": "0D6E088DE16909B0",
+          "type": "checkmark",
+          "title": "Record the expedition"
+        }
+      ],
+      "dependencies": [
+        "7DC7BDCE4C17E418"
+      ],
+      "optional": true,
+      "x": -5,
+      "y": 3,
+      "shape": "rsquare",
+      "size": 1.2
+    },
+    {
+      "id": "17B73D85F273905F",
+      "title": "Pocket Dimension",
+      "description": [
+        "Follow the Pocket Dimension spell in the spellbook. Establish a retreat and test the return before leaving equipment inside."
+      ],
+      "icon": "minecraft:ender_chest",
+      "tasks": [
+        {
+          "id": "123C22F474FB8704",
+          "type": "dimension",
+          "dimension": "irons_spellbooks:pocket_dimension"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0,
+      "y": 0,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "2C400F92BDFDD52A",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "4FB1371E1CC29085",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "0A51A54809F7E344",
+      "title": "Pocket Dimension Return Journey",
+      "description": [
+        "Prepare supplies, use the realm through its own magic and return safely. Record the journey after bringing your discoveries home."
+      ],
+      "icon": "minecraft:ender_chest",
+      "tasks": [
+        {
+          "id": "13603CBFE8A89E76",
+          "type": "checkmark",
+          "title": "Record the expedition"
+        }
+      ],
+      "dependencies": [
+        "17B73D85F273905F"
+      ],
+      "optional": true,
+      "x": 0,
+      "y": 3,
+      "shape": "rsquare",
+      "size": 1.2
+    },
+    {
+      "id": "5E85D0908B5645B5",
+      "title": "Reality Marble",
+      "description": [
+        "Study Reality Marble in the Mahou Tsukai guide. This is a magical ability space, not a conventional expedition world."
+      ],
+      "icon": "minecraft:ender_chest",
+      "tasks": [
+        {
+          "id": "1413A8056D5B8146",
+          "type": "dimension",
+          "dimension": "mahoutsukai:reality_marble"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 5,
+      "y": 0,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "22E0F6340F79B1D8",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "59578B57156E20A1",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "564057369B4AA19A",
+      "title": "Reality Marble Return Journey",
+      "description": [
+        "Prepare supplies, use the realm through its own magic and return safely. Record the journey after bringing your discoveries home."
+      ],
+      "icon": "minecraft:ender_chest",
+      "tasks": [
+        {
+          "id": "072232D97B2CF7D9",
+          "type": "checkmark",
+          "title": "Record the expedition"
+        }
+      ],
+      "dependencies": [
+        "5E85D0908B5645B5"
+      ],
+      "optional": true,
+      "x": 5,
+      "y": 3,
+      "shape": "rsquare",
+      "size": 1.2
+    }
+  ]
+}

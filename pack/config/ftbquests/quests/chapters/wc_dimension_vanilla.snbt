@@ -1,0 +1,663 @@
+{
+  "filename": "wc_dimension_vanilla",
+  "id": "23D8881B5C08C4B1",
+  "title": "Nether and End Expeditions",
+  "icon": "minecraft:ender_eye",
+  "group": "3E91144EB73CBA91",
+  "order_index": 10,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "2C6B183062D3B14D",
+      "title": "Into the Nether",
+      "description": [
+        "Build an obsidian portal. Bring fire protection, spare blocks and a marked path home. Incendium adds further ruins to explore."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "5F0C54FABB67BC67",
+          "type": "dimension",
+          "dimension": "minecraft:the_nether"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0,
+      "y": 0,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "23273460088F668A",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "07E1F9928D44BF14",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "4EE1E12A1F28819B",
+      "title": "The Fortress",
+      "description": [
+        "Find a Nether fortress and secure a route through its corridors."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "3EFC857A1F765CE7",
+          "type": "advancement",
+          "advancement": "minecraft:nether/find_fortress"
+        }
+      ],
+      "dependencies": [
+        "2C6B183062D3B14D"
+      ],
+      "optional": true,
+      "x": 0,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "294DA7041E4009D4",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "4C74062BDC021DAB",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "77E61C2256061618",
+      "title": "Blaze Supply",
+      "description": [
+        "Recover a blaze rod for brewing and the journey to the End."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "41990295118B6B5F",
+          "type": "advancement",
+          "advancement": "minecraft:nether/obtain_blaze_rod"
+        }
+      ],
+      "dependencies": [
+        "4EE1E12A1F28819B"
+      ],
+      "optional": true,
+      "x": 0,
+      "y": 5.2,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "75F56C6724161269",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "225C1A638A57E32A",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "170BBDA30FD583D2",
+      "title": "Ancient Debris",
+      "description": [
+        "Recover ancient debris for netherite equipment."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "0D5E80E5CDCC566F",
+          "type": "advancement",
+          "advancement": "minecraft:nether/obtain_ancient_debris"
+        }
+      ],
+      "dependencies": [
+        "77E61C2256061618"
+      ],
+      "optional": true,
+      "x": 0,
+      "y": 7.4,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "3EE37810CBD53714",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "616249EBE63D12CC",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "61C3070F197ABF4D",
+      "title": "The Wither",
+      "description": [
+        "Prepare an arena away from your home before summoning the Wither."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "28E7113739AB50DD",
+          "type": "advancement",
+          "advancement": "minecraft:nether/summon_wither"
+        }
+      ],
+      "dependencies": [
+        "170BBDA30FD583D2"
+      ],
+      "optional": true,
+      "x": 0,
+      "y": 9.6,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "5BE3F065D6158D8F",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "11419B7F1A9252A4",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "66EBFA5B85DFA22F",
+      "title": "Beacon Commission",
+      "description": [
+        "Build a beacon from the Nether Star and commission it at your base."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "6D0B4655A745A603",
+          "type": "advancement",
+          "advancement": "minecraft:nether/create_beacon"
+        }
+      ],
+      "dependencies": [
+        "61C3070F197ABF4D"
+      ],
+      "optional": true,
+      "x": 0,
+      "y": 11.8,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "1F75FC952358560F",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "4A6174B0BB86FFB7",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "130D78503D9E04F6",
+      "title": "Into the End",
+      "description": [
+        "Find a stronghold and open its gateway. Carry spare blocks and a return plan before facing the dragon."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "27C2FCD990E37DE9",
+          "type": "dimension",
+          "dimension": "minecraft:the_end"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 5,
+      "y": 0,
+      "shape": "diamond",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "19F9B57442FF6203",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "695FCD588A46B4B4",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "46CB11BA10915AD2",
+      "title": "The Dragon",
+      "description": [
+        "Defeat the Ender Dragon and open the outer-island route."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "13D17F67BCFD7C40",
+          "type": "advancement",
+          "advancement": "minecraft:end/kill_dragon"
+        }
+      ],
+      "dependencies": [
+        "130D78503D9E04F6"
+      ],
+      "optional": true,
+      "x": 5,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "1F9FB34B29CCBC4B",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "37CEAD557CFA5011",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "3FFCA6101D52C5AE",
+      "title": "Beyond the Gateway",
+      "description": [
+        "Travel through an End gateway to the outer islands."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "6093C0C47022FAF7",
+          "type": "advancement",
+          "advancement": "minecraft:end/enter_end_gateway"
+        }
+      ],
+      "dependencies": [
+        "46CB11BA10915AD2"
+      ],
+      "optional": true,
+      "x": 5,
+      "y": 5.2,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "580B3C7F316BCA3F",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "4402F43005874502",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "7BA7D85A4AFA928B",
+      "title": "An End City",
+      "description": [
+        "Find an End city among Nullscape terrain."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "11B133B2807BC6DC",
+          "type": "advancement",
+          "advancement": "minecraft:end/find_end_city"
+        }
+      ],
+      "dependencies": [
+        "3FFCA6101D52C5AE"
+      ],
+      "optional": true,
+      "x": 5,
+      "y": 7.4,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "27C2F9B6B633F85A",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "6452FE42A2CF0A74",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "38B93F5574FEF764",
+      "title": "Wings for the Return",
+      "description": [
+        "Recover an elytra from an End ship."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "2F4503A6935CC0AF",
+          "type": "advancement",
+          "advancement": "minecraft:end/elytra"
+        }
+      ],
+      "dependencies": [
+        "7BA7D85A4AFA928B"
+      ],
+      "optional": true,
+      "x": 5,
+      "y": 9.6,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "31C99318A1510AED",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "0FD6D81CDAD93429",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "09A3B0BDA25643B2",
+      "title": "The Dragon Reborn",
+      "description": [
+        "Prepare End crystals and summon the dragon again."
+      ],
+      "icon": "minecraft:ender_eye",
+      "tasks": [
+        {
+          "id": "7D03B7DDCE92CD5A",
+          "type": "advancement",
+          "advancement": "minecraft:end/respawn_dragon"
+        }
+      ],
+      "dependencies": [
+        "38B93F5574FEF764"
+      ],
+      "optional": true,
+      "x": 5,
+      "y": 11.8,
+      "shape": "hexagon",
+      "size": 1.2,
+      "rewards": [
+        {
+          "id": "349DFB080E991CAC",
+          "type": "xp",
+          "xp": 75
+        },
+        {
+          "id": "331213878BF513E3",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "0D8ED2976CE9615B",
+      "title": "Abandoned Tower",
+      "subtitle": "",
+      "description": [
+        "Enter the abandoned tower structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 0,
+      "y": 14.8,
+      "shape": "circle",
+      "dependencies": [
+        "01517794F311EFC3"
+      ],
+      "tasks": [
+        {
+          "id": "08370C0D894457F4",
+          "type": "structure",
+          "structure": "incendium:abandoned_tower"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E4F6FECE030B149",
+          "type": "xp",
+          "xp": 15
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
+      "id": "0BEF6E8D8DFDCCAD",
+      "title": "Forbidden Castle",
+      "subtitle": "",
+      "description": [
+        "Enter the forbidden castle structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 0,
+      "y": 16.8,
+      "shape": "circle",
+      "dependencies": [
+        "0D8ED2976CE9615B"
+      ],
+      "tasks": [
+        {
+          "id": "0449640B4F6B62B0",
+          "type": "structure",
+          "structure": "incendium:forbidden_castle"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "058A7200B111D6E7",
+          "type": "xp",
+          "xp": 15
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
+      "id": "0CDCF131F9488285",
+      "title": "Infernal Altar",
+      "subtitle": "",
+      "description": [
+        "Enter the infernal altar structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 0,
+      "y": 18.8,
+      "shape": "circle",
+      "dependencies": [
+        "0BEF6E8D8DFDCCAD"
+      ],
+      "tasks": [
+        {
+          "id": "052940B0C5F13DD2",
+          "type": "structure",
+          "structure": "incendium:infernal_altar"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "00911B030B1EAB84",
+          "type": "xp",
+          "xp": 15
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
+      "id": "01517794F311EFC3",
+      "title": "Incendium Legacy",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Incendium Legacy. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 0,
+      "y": 20.8,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "09A0FC63CA9A7385",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
+      "id": "00DFA678A557DC1F",
+      "title": "Dragon Skeleton",
+      "subtitle": "",
+      "description": [
+        "Enter the dragon skeleton structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 0,
+      "y": 23.8,
+      "shape": "circle",
+      "dependencies": [
+        "0B2D0B1486748AFF"
+      ],
+      "tasks": [
+        {
+          "id": "019EA22F07AE67A5",
+          "type": "structure",
+          "structure": "nullscape:dragon_skeleton"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DC9AB1071FC7BBB",
+          "type": "xp",
+          "xp": 15
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
+      "id": "0B2D0B1486748AFF",
+      "title": "Nullscape",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces Nullscape. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 0,
+      "y": 25.8,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0B4E54ACFBCDE463",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
+      "id": "005C50EB51F0624A",
+      "title": "Fortress",
+      "subtitle": "",
+      "description": [
+        "Enter the fortress structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 0,
+      "y": 28.8,
+      "shape": "circle",
+      "dependencies": [
+        "04C86411B70B104A"
+      ],
+      "tasks": [
+        {
+          "id": "071118EDFE16A5F0",
+          "type": "structure",
+          "structure": "betterfortresses:fortress"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E3C9C748D26E671",
+          "type": "xp",
+          "xp": 15
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
+      "id": "04C86411B70B104A",
+      "title": "YUNG's Better Nether Fortresses",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces YUNG's Better Nether Fortresses. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 0,
+      "y": 30.8,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "05BD66549CD2E735",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ],
+      "size": 1,
+      "optional": true
+    }
+  ]
+}

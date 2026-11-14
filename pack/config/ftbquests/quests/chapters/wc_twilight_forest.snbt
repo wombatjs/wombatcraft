@@ -2,8 +2,8 @@
   "filename": "wc_twilight_forest",
   "id": "2F069AE9C00E84AD",
   "title": "Twilight Forest",
-  "group": "00AA8F374274B5F3",
-  "order_index": 12,
+  "group": "3E91144EB73CBA91",
+  "order_index": 1,
   "default_quest_shape": "circle",
   "quests": [
     {
@@ -365,6 +365,122 @@
       "y": 7.3,
       "shape": "hexagon",
       "size": 1.35
+    },
+    {
+      "id": "0A754381126522F5",
+      "title": "Aurora Palace",
+      "subtitle": "",
+      "description": [
+        "Enter the aurora palace structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 0,
+      "y": 10.3,
+      "shape": "circle",
+      "dependencies": [
+        "0BBDD123BF4A1E9F"
+      ],
+      "tasks": [
+        {
+          "id": "0371A02FE0C4D923",
+          "type": "structure",
+          "structure": "twilightforest:aurora_palace"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "06CB5D7C1C3DACD2",
+          "type": "xp",
+          "xp": 15
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
+      "id": "08EB496F96E45734",
+      "title": "Dark Tower",
+      "subtitle": "",
+      "description": [
+        "Enter the dark tower structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 0,
+      "y": 12.3,
+      "shape": "circle",
+      "dependencies": [
+        "0A754381126522F5"
+      ],
+      "tasks": [
+        {
+          "id": "0280CF981D1A811D",
+          "type": "structure",
+          "structure": "twilightforest:dark_tower"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0086C4E41CE45164",
+          "type": "xp",
+          "xp": 15
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
+      "id": "0DB766EE5BAE91E4",
+      "title": "Final Castle",
+      "subtitle": "",
+      "description": [
+        "Enter the final castle structure. This objective detects your location. Bring light, supplies and a way home."
+      ],
+      "icon": "minecraft:map",
+      "x": 0,
+      "y": 14.3,
+      "shape": "circle",
+      "dependencies": [
+        "08EB496F96E45734"
+      ],
+      "tasks": [
+        {
+          "id": "07E843A7D8E74657",
+          "type": "structure",
+          "structure": "twilightforest:final_castle"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "044B27767F3317E0",
+          "type": "xp",
+          "xp": 15
+        }
+      ],
+      "size": 1,
+      "optional": true
+    },
+    {
+      "id": "0BBDD123BF4A1E9F",
+      "title": "The Twilight Forest",
+      "subtitle": "Optional branch",
+      "description": [
+        "This optional branch introduces The Twilight Forest. Follow its connected goals when it fits your current project.",
+        "The main technology and magic chapters remain available independently."
+      ],
+      "icon": "minecraft:map",
+      "x": 0,
+      "y": 16.3,
+      "shape": "circle",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "03449C4B926D3112",
+          "type": "checkmark",
+          "title": "Read and continue"
+        }
+      ],
+      "size": 1,
+      "optional": true
     }
   ],
   "icon": "twilightforest:magic_map",
