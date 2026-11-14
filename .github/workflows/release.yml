@@ -61,6 +61,7 @@ jobs:
             dist/Wombatcraft-Launcher-Windows.zip
             dist/launcher-build.json
   publish:
+    if: github.ref == 'refs/heads/main'
     needs: [validate, launcher]
     runs-on: ubuntu-latest
     steps:

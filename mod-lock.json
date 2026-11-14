@@ -114123,6 +114123,1098 @@
       "client": false,
       "server": true,
       "category": "Server utilities"
+    },
+    {
+      "project": {
+        "id": "cf-354673",
+        "slug": "jitl",
+        "title": "Journey Into the Light [JITL]",
+        "server_side": "required",
+        "source_url": "https://www.curseforge.com/minecraft/mc-mods/journey-into-the-light-mod"
+      },
+      "version": {
+        "id": "cf-6310095",
+        "version_number": "2.2.4",
+        "dependencies": []
+      },
+      "category": "Dimensions",
+      "metadata": {
+        "modLoader": "javafml",
+        "loaderVersion": "[0,)",
+        "license": "All Rights Reserved",
+        "mods": [
+          {
+            "modId": "jitl",
+            "version": "2.2.4",
+            "displayName": "Journey Into the Light",
+            "authors": "AllShamNoWow101(The_SlayerMC)",
+            "description": "A full progressional experience that adds Weapons, Mobs, Dimensions, Bosses, and much more to your game."
+          }
+        ],
+        "dependencies": {
+          "jitl": [
+            {
+              "modId": "forge",
+              "mandatory": true,
+              "versionRange": "[0,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "mandatory": true,
+              "versionRange": "[1.20,1.21)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            }
+          ]
+        }
+      },
+      "file": {
+        "filename": "JITL - 1.20.1 - 2.2.4.jar",
+        "url": "https://mediafilez.forgecdn.net/files/6310/95/JITL%20-%201.20.1%20-%202.2.4.jar",
+        "size": 93919885,
+        "hashes": {
+          "sha512": "18d53cfcf6e4ed3323924795c93ebed815bb19e04e310854250c5857c2f2e7cf066428efa55d9827c67fb10809afcf19f4f68b06aebb326bbf7e5b742df28601",
+          "sha1": "9fb04810e8102f60ea1b6c6564d07bfd3aaa42d1"
+        }
+      },
+      "source_page": "https://www.curseforge.com/minecraft/mc-mods/journey-into-the-light-mod/files/6310095",
+      "source": "curseforge",
+      "client": true,
+      "server": true
+    },
+    {
+      "project": {
+        "id": "cf-852465",
+        "slug": "deep-aether",
+        "title": "Deep Aether",
+        "server_side": "required",
+        "source_url": "https://www.curseforge.com/minecraft/mc-mods/deep-aether"
+      },
+      "version": {
+        "id": "cf-6839617",
+        "version_number": "1.20.1-1.1.7",
+        "dependencies": []
+      },
+      "category": "Dimensions",
+      "metadata": {
+        "modLoader": "javafml",
+        "loaderVersion": "[47,)",
+        "license": "Assets: All Rights Reserved; Code: GPL-3.0",
+        "issueTrackerURL": "https://github.com/RazorDevs/Deep-Aether/issues",
+        "mods": [
+          {
+            "modId": "deep_aether",
+            "version": "1.20.1-1.1.7",
+            "displayName": "Deep Aether",
+            "updateJSONURL": "https://github.com/RazorDevs/Deep-Aether/raw/1.20.1-1.1/update.json",
+            "displayURL": "https://modrinth.com/mod/deep-aether",
+            "logoFile": "deep_aether.png",
+            "credits": "Unofficial Add-on to the Aether mod. Textures by 345boneshoss and Aethyus. Code by TunefulTurnip and darksonic300. Contibutions from team members.",
+            "authors": "RazorDevs",
+            "description": "Deep Aether is an unofficial addon for the Aether Mod which aims to add extra content to the Aether Dimension in a similar fashion to the 1.16 Nether Expansion update.\nExtra content includes new blocks, items, plants, biomes, trees, mobs, and more!\nCreated by RazorDevs!"
+          }
+        ],
+        "dependencies": {
+          "deep_aether": [
+            {
+              "modId": "forge",
+              "mandatory": true,
+              "versionRange": "[47.1.0,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "mandatory": true,
+              "versionRange": "[1.20.1]",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "aether",
+              "mandatory": true,
+              "versionRange": "[1.5.0,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "aeroblender",
+              "mandatory": true,
+              "versionRange": "[1.0.1,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            }
+          ]
+        }
+      },
+      "file": {
+        "filename": "deep_aether-1.20.1-1.1.7.jar",
+        "url": "https://mediafilez.forgecdn.net/files/6839/617/deep_aether-1.20.1-1.1.7.jar",
+        "size": 40503987,
+        "hashes": {
+          "sha512": "9889ca280247a39d0053eeb25da8979bb57b48069428c95a546453cba63b1d3444fce8b63c73ab20fb96741b9e8d4cf98adc44aa61a234c6c3eec187454af7b5",
+          "sha1": "3f0240c6ae68eb55a16173d22c06689e78442f06"
+        }
+      },
+      "source_page": "https://www.curseforge.com/minecraft/mc-mods/deep-aether/files/6839617",
+      "source": "curseforge",
+      "client": true,
+      "server": true
+    },
+    {
+      "project": {
+        "id": "cf-352222",
+        "slug": "dimensional-dungeons",
+        "title": "Dimensional Dungeons",
+        "server_side": "required",
+        "source_url": "https://www.curseforge.com/minecraft/mc-mods/dimensional-dungeons"
+      },
+      "version": {
+        "id": "cf-7072245",
+        "version_number": "207",
+        "dependencies": []
+      },
+      "category": "Dimensions",
+      "metadata": {
+        "modLoader": "javafml",
+        "loaderVersion": "[46,)",
+        "license": "All Rights Reserved",
+        "issueTrackerURL": "https://github.com/AllenSeitz/DimDungeons/issues",
+        "mods": [
+          {
+            "modId": "dimdungeons",
+            "version": "207",
+            "displayName": "Dimensional Dungeons",
+            "logoFile": "mod-logo.png",
+            "credits": "mod by Catastrophe573 with help from the Forge community",
+            "authors": "Catastrophe573",
+            "description": "This mod implements limitless proceedurally generated dungeons! These dungeons are placed in their own single dimension. Hence the name: Dimensional Dungeons."
+          }
+        ],
+        "dependencies": {
+          "dimdungeons": [
+            {
+              "modId": "forge",
+              "mandatory": true,
+              "versionRange": "[46,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "mandatory": true,
+              "versionRange": "[1.20,1.20.2)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            }
+          ]
+        }
+      },
+      "file": {
+        "filename": "dimdungeons-207-neoforge-1.20.1.jar",
+        "url": "https://mediafilez.forgecdn.net/files/7072/245/dimdungeons-207-neoforge-1.20.1.jar",
+        "size": 2842585,
+        "hashes": {
+          "sha512": "b946f0fa6548705e0930f2a9132befcdf1c6a7f990f14ddf54e1c6f244be848f500f3146eae2b8c380c4557304e2acc8d6521d7cd1d942895d27caf11466e691",
+          "sha1": "893e35a36519a63d15e1f9664acef46118bc92ca"
+        }
+      },
+      "source_page": "https://www.curseforge.com/minecraft/mc-mods/dimensional-dungeons/files/7072245",
+      "source": "curseforge",
+      "client": true,
+      "server": true
+    },
+    {
+      "project": {
+        "id": "cf-363543",
+        "slug": "official-divinerpg",
+        "title": "DivineRPG (Official)",
+        "server_side": "required",
+        "source_url": "https://www.curseforge.com/minecraft/mc-mods/official-divinerpg"
+      },
+      "version": {
+        "id": "cf-5715606",
+        "version_number": "1.10.7.5",
+        "dependencies": []
+      },
+      "category": "Dimensions",
+      "metadata": {
+        "modLoader": "javafml",
+        "loaderVersion": "[46,)",
+        "license": "https://www.curseforge.com/project/363543/license",
+        "issueTrackerURL": "https://github.com/DivineRPG/DivineRPG/issues",
+        "mods": [
+          {
+            "modId": "divinerpg",
+            "version": "1.10.7.5",
+            "displayName": "DivineRPG",
+            "updateJSONURL": "https://raw.githubusercontent.com/DivineRPG/DivineRPG-Assets/main/divinerpg_update.json",
+            "displayURL": "https://www.curseforge.com/minecraft/mc-mods/official-divinerpg",
+            "logoFile": "logo.png",
+            "credits": "https://github.com/DivineRPG/DivineRPG-Assets/blob/main/credits.md",
+            "description": "Adds various dimensions, weapons, and mobs"
+          }
+        ],
+        "dependencies": {
+          "divinerpg": [
+            {
+              "modId": "forge",
+              "mandatory": true,
+              "versionRange": "46",
+              "ordering": "NONE",
+              "side": "BOTH"
+            }
+          ]
+        }
+      },
+      "file": {
+        "filename": "divinerpg-1.10.7.5.jar",
+        "url": "https://mediafilez.forgecdn.net/files/5715/606/divinerpg-1.10.7.5.jar",
+        "size": 28016649,
+        "hashes": {
+          "sha512": "a292787ae2c873c223021deb3a0622b05c2136873e22fccf19cecb849bde99b6a97abd2802c4d778ea18902a6c86235364e6d3115ae9f27b9b8d941efa2f9c26",
+          "sha1": "5c67025048dc95b979fd02430ded615b534175e6"
+        }
+      },
+      "source_page": "https://www.curseforge.com/minecraft/mc-mods/official-divinerpg/files/5715606",
+      "source": "curseforge",
+      "client": true,
+      "server": true
+    },
+    {
+      "project": {
+        "id": "cf-1567133",
+        "slug": "eternal-starlight-forge",
+        "title": "Eternal Starlight Forge",
+        "server_side": "required",
+        "source_url": "https://www.curseforge.com/minecraft/mc-mods/eternal-starlight-forge"
+      },
+      "version": {
+        "id": "cf-9022648",
+        "version_number": "0.9.0",
+        "dependencies": []
+      },
+      "category": "Dimensions",
+      "metadata": {
+        "modLoader": "javafml",
+        "loaderVersion": "[47,)",
+        "license": "MIT",
+        "mods": [
+          {
+            "modId": "eternal_starlight",
+            "version": "0.9.0",
+            "displayName": "EternalStarlight",
+            "authors": "LeoLezury, Estie",
+            "description": "Popper sells good things",
+            "logoFile": "icon.png"
+          }
+        ],
+        "dependencies": {
+          "eternal_starlight": [
+            {
+              "modId": "forge",
+              "mandatory": true,
+              "versionRange": "[47,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "mandatory": true,
+              "versionRange": "[1.20.1,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "biome_replacer",
+              "mandatory": false,
+              "versionRange": "[2.2,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        }
+      },
+      "file": {
+        "filename": "EternalStarlight-0.9.0-hotfix.jar",
+        "url": "https://mediafilez.forgecdn.net/files/9022/648/EternalStarlight-0.9.0-hotfix.jar",
+        "size": 58221488,
+        "hashes": {
+          "sha512": "6cdc631ee4ece62d82468c77acb2d73aa01473f9eed0b27728db245fc78e9f882b428e82a6bea388d07a942afb700932ef7067b79eae38ea6811219b95a3f0fa",
+          "sha1": "dc94b081efb644003ce8d5e46aa6de6ac773875f"
+        }
+      },
+      "source_page": "https://www.curseforge.com/minecraft/mc-mods/eternal-starlight-forge/files/9022648",
+      "source": "curseforge",
+      "client": true,
+      "server": true
+    },
+    {
+      "project": {
+        "id": "cf-982999",
+        "slug": "the-deep-void",
+        "title": "The Deep Void",
+        "server_side": "required",
+        "source_url": "https://www.curseforge.com/minecraft/mc-mods/the-deep-void"
+      },
+      "version": {
+        "id": "cf-9397793",
+        "version_number": "1.99.5",
+        "dependencies": []
+      },
+      "category": "Dimensions",
+      "metadata": {
+        "modLoader": "javafml",
+        "loaderVersion": "[47,)",
+        "license": "MIT License",
+        "mods": [
+          {
+            "modId": "the_deep_void",
+            "version": "1.99.5",
+            "displayName": "The Deep Void",
+            "displayURL": "https://www.curseforge.com/minecraft/mc-mods/the-deep-void",
+            "logoFile": "logo.png",
+            "credits": "Created using MCreator",
+            "authors": "Sombrius",
+            "description": "The Deep Void adds a new creepy dimension for you to explore with tons of new content centered around a desolate and forgotten Void."
+          }
+        ],
+        "dependencies": {
+          "the_deep_void": [
+            {
+              "modId": "minecraft",
+              "mandatory": true,
+              "versionRange": "[1.20.1]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "geckolib",
+              "mandatory": false,
+              "versionRange": "[0,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "jei",
+              "mandatory": false,
+              "versionRange": "[0,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            }
+          ]
+        }
+      },
+      "file": {
+        "filename": "the_deep_void-1.99.5-forge-1.20.1.jar",
+        "url": "https://mediafilez.forgecdn.net/files/9397/793/the_deep_void-1.99.5-forge-1.20.1.jar",
+        "size": 59499806,
+        "hashes": {
+          "sha512": "f6bbcab7d4f98559c5403ee805879d4a2e59f68febb3077ebea768f7ba9679932443a3df89b47c812e34f73f67a3511a6a6089d19e0a45880e1c64ad4cd190de",
+          "sha1": "f9e2950c6564e509af549458a398a23d2cc5a488"
+        }
+      },
+      "source_page": "https://www.curseforge.com/minecraft/mc-mods/the-deep-void/files/9397793",
+      "source": "curseforge",
+      "client": true,
+      "server": true
+    },
+    {
+      "project": {
+        "id": "cf-240950",
+        "slug": "rftools-dimensions",
+        "title": "RFTools Dimensions",
+        "server_side": "required",
+        "source_url": "https://www.curseforge.com/minecraft/mc-mods/rftools-dimensions"
+      },
+      "version": {
+        "id": "cf-8256179",
+        "version_number": "${file.jarVersion}",
+        "dependencies": []
+      },
+      "category": "Dimensions",
+      "metadata": {
+        "modLoader": "javafml",
+        "loaderVersion": "[47,)",
+        "license": "MIT License https://github.com/McJtyMods/RFToolsDimensions/blob/1.16/LICENCE",
+        "issueTrackerURL": "http://github.com/McJtyMods/RFToolsDimensions/issues",
+        "displayURL": "http://github.com/McJtyMods/RFToolsDimensions/",
+        "authors": "McJty",
+        "mods": [
+          {
+            "modId": "rftoolsdim",
+            "version": "${file.jarVersion}",
+            "displayName": "RFToolsDimensions",
+            "description": "Create dimensions and power them with Forge Energy\n"
+          }
+        ],
+        "dependencies": {
+          "rftoolsdim": [
+            {
+              "modId": "forge",
+              "mandatory": true,
+              "versionRange": "[47,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "mcjtylib",
+              "mandatory": true,
+              "versionRange": "[1.20-8.0.7,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "rftoolsbase",
+              "mandatory": true,
+              "versionRange": "[1.20-5.0.7,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        }
+      },
+      "file": {
+        "filename": "rftoolsdim-1.20-11.0.11.jar",
+        "url": "https://mediafilez.forgecdn.net/files/8256/179/rftoolsdim-1.20-11.0.11.jar",
+        "size": 1744752,
+        "hashes": {
+          "sha512": "e2ea23a33b412ed4c7a9a5d9f56e88d93d0e77b67d54725b8e69109f9e93af12992fc9fe2f3ae5e9c495e9ce7c9da951c679637bb4f71ef6bf7a36ed5b16e522",
+          "sha1": "a913170e22202759a10a21ab33167d7557db5df0"
+        }
+      },
+      "source_page": "https://www.curseforge.com/minecraft/mc-mods/rftools-dimensions/files/8256179",
+      "source": "curseforge",
+      "client": true,
+      "server": true
+    },
+    {
+      "project": {
+        "client_side": "required",
+        "server_side": "required",
+        "game_versions": [
+          "1.20.1"
+        ],
+        "environment": [
+          "client_and_server"
+        ],
+        "id": "zvRfOaRX",
+        "slug": "the-aurorian-reborn",
+        "project_type": "mod",
+        "team": "rAcsQTgT",
+        "organization": null,
+        "title": "The Aurorian Reborn",
+        "description": "A classic dimension mod reborn for Minecraft 1.20.1, which adds many new mobs, biomes, tools, and blocks.",
+        "body": "# The Aurorian Reborn\n\n**The Aurorian** is a dimension-exploration and dungeon-crawling mod, originally created by **shiroroku** for Minecraft 1.12.2. This port brings the full Aurorian experience to **Forge 1.20.1**: a brand-new dimension locked in eternal twilight, three sprawling dungeons, three bosses, and a self-contained ecosystem of ores, gear, machines, and progression.\n\n> \u26a0\ufe0f **About this version**: This is a community-maintained **port** (not an official release), currently at `1.0.0-beta`. It aims to faithfully recreate the 1.12.2 original, but some balance values, textures, and mechanics have been adapted along the way (see *Differences from the original* below).\n\n---\n\n## A New Dimension\n\nA strange world of silent forests and ancient ruins, frozen in a permanent **dusk** \u2014 soft sky light and low-hanging stars, neither as dark as a normal night nor as harsh as daylight.\n\n- **Portals**: build a frame from **Aurorian Portal Frames** and light it with a **Silentwood Stick** or flint & steel\n- **Biomes**: Aurorian Plains, Aurorian Forest, Aurorian Rough Forest, Weeping Willow Forest\n- **Terrain**: aurorian grass meadows, aurorian stone & deepslate hills, and a full cave system\n- **Ores**: aurorian coal, cerulean, moonstone, geode (crystal), and peridotite\n- **Moon Water**: a unique blue fluid \u2014 fill a Cerulean Bucket and take it home to the Overworld\n\n## Structures & Dungeons\n\n- **Runestone Tower** \u2014 a towering rune-stone keep with layered combat, crowned by the Keeper's lair\n- **Darkstone Dungeon** \u2014 a web-choked dungeon buried underground, ruled by the Spider Mother\n- **Moon Temple** \u2014 a temple floating in the sky; climb the spiral path to reach the Moon Queen\n- **Graveyard**, **Ruins**, and **Umbra Tower** \u2014 scattered points of interest with their own loot rooms\n\n## Mobs & Bosses\n\nThree bosses, each with unique mechanics and loot:\n\n- **The Keeper** \u2014 lord of the Runestone Tower; a fire-immune ancient archer\n- **The Moon Queen** \u2014 ruler of the floating Moon Temple\n- **The Spider Mother** \u2014 master of the Darkstone Dungeon; hangs from the ceiling and spits webbing\n\nAlong the way you'll meet the **Disturbed Hollow**, **Undead Knight**, **Aurorian Slime**, **Crystalline Sprite**, **Spirit**, and **Spiderling**\u2026 plus the peaceful Aurorian Pig, Sheep, and Rabbit.\n\n## Gear & Machines\n\nMultiple self-contained gear tiers, from **Aurorian Stone** and **Silentwood** up to **Moonstone**, **Cerulean**, **Aurorian Steel**, **Aurorianite**, **Crystalline**, and **Umbra**:\n\n- **Weapons**: swords, bows, axes, pickaxes, shovels, hoes, and sickles, each with its own gimmick \u2014 launching strikes, chargeable beams, whole-tree felling, durability-freeing enchants, and more\n- **Armor**: Cerulean, Aurorian Steel, and Crystalline sets, plus blocking shields such as the Moonstone, Crystalline, and Umbra Shields\n- **Dungeon keys**: Runestone Key, Darkstone Key, Moon Temple Key, and Moon Temple Cell Key for their matching keyholes \u2014 or try to pick the lock with Lockpicks\n- **Arcane items**: amulets, the Orb of Absorption, Living Divining Rod, Webbing, Bepsi, Weeping Willow Sap, Strange Meat, Slime Boots, Spectral Armor\u2026\n- **Teas & food**: four flavored teas (Lavender, Silkberry, Seedy, Petunia) with distinct effects, plus Silkberry, Silkberry Jam, Aurorian Bacon, and more\n- **Functional machines**:\n  - **Aurorian Furnace** \u2014 smelts faster, and even faster with Chimneys stacked above\n  - **Scrapper** \u2014 breaks down old tools into scrap (requires a crystal catalyst)\n  - **Moon Light Forge** \u2014 crafts advanced tools and transfers enchantments; works best under open sky with moonlight\n  - **Silentwood Chest** and **Silentwood Crafting Table**\n\n## Enchantments\n\n- **Lightning** \u2014 melee attacks deal bonus lightning damage\n- **Lightning Resistance** \u2014 fully negate lightning strikes; resistant armor won't conduct\n\n## Progression & Guidance\n\n- **Complete advancement tree**: 15 advancements leading from your first step into the dimension to toppling all three bosses\n- **Patchouli guide book**: illustrated walkthroughs for every system (requires Patchouli)\n- **Full loot tables & recipes**, plus an in-game config file covering structure density, boss stats, tool multipliers, and more\n\n---\n\n## Requirements\n\n|               |            |\n| ------------- | ---------- |\n| **Minecraft** | 1.20.1     |\n| **Loader**    | Forge 47+  |\n| **Version**   | 1.0.0-beta |\n\n**Optional dependencies** (core gameplay works without them):\n\n- **Patchouli** \u2014 enables the in-game guide book\n- **JEI** \u2014 adds recipe-viewing support for the furnace, scrapper, and moon light forge\n\n## Differences from the original\n\n- Community-maintained port, **not released by the original author** (shiroroku); licensed under **MIT**\n- Some balance values, textures, and mechanics have been adapted for 1.20.1 and may differ from the 1.12.2 original\n- Moon Water is a single simplified fluid; the structure generation for the Runestone Tower, Darkstone Dungeon, and Moon Temple has been rewritten\n- Localized into **English** and **\u7b80\u4f53\u4e2d\u6587 (Simplified Chinese)**\n- Beta release \u2014 feedback is welcome\n\n## FAQ\n\n- **Can't reach the Aurorian dimension?** Make sure the portal frame is built correctly and light it with a Silentwood Stick or flint & steel.\n- **Guide book missing?** Install the Patchouli mod first.\n- **Recipes not showing in JEI?** JEI is optional \u2014 everything works without it, it just adds a recipe viewer.",
+        "body_url": null,
+        "published": "2026-08-03T06:31:12.204355Z",
+        "updated": "2026-09-22T15:05:44.143483Z",
+        "approved": "2026-08-28T18:32:40.564287Z",
+        "queued": "2026-08-13T05:16:59.199203Z",
+        "status": "approved",
+        "requested_status": "approved",
+        "moderator_message": null,
+        "license": {
+          "id": "MIT",
+          "name": "MIT License",
+          "url": "https://opensource.org/licenses/MIT"
+        },
+        "downloads": 1016,
+        "followers": 3,
+        "categories": [
+          "adventure"
+        ],
+        "additional_categories": [
+          "mobs",
+          "worldgen"
+        ],
+        "loaders": [
+          "forge"
+        ],
+        "versions": [
+          "ye7w8yrn",
+          "eAhvUBLc",
+          "5YpRINUv",
+          "NT3gPd5Z",
+          "kjduecC8",
+          "Fg2e88XU"
+        ],
+        "icon_url": "https://cdn.modrinth.com/data/zvRfOaRX/09bca645c5e59566713948573fe37f33e8267dfd.png",
+        "raw_icon_url": "https://cdn.modrinth.com/data/zvRfOaRX/09bca645c5e59566713948573fe37f33e8267dfd.png",
+        "issues_url": "https://gitee.com/chenhai256/the-aurorian-reborn/issues",
+        "source_url": "https://gitee.com/chenhai256/the-aurorian-reborn",
+        "wiki_url": null,
+        "discord_url": null,
+        "donation_urls": [],
+        "gallery": [
+          {
+            "url": "https://cdn.modrinth.com/data/zvRfOaRX/images/156c9498fef42de4c2c52a80da72eba96688727a_350.webp",
+            "raw_url": "https://cdn.modrinth.com/data/zvRfOaRX/images/156c9498fef42de4c2c52a80da72eba96688727a.png",
+            "featured": false,
+            "title": "Darkstone dungeon",
+            "description": "A dangerous spider dungeon.",
+            "created": "2026-08-03T06:59:10.515223Z",
+            "ordering": 0
+          },
+          {
+            "url": "https://cdn.modrinth.com/data/zvRfOaRX/images/765cce197205eb359bb743458b79aa4e45d444f2_350.webp",
+            "raw_url": "https://cdn.modrinth.com/data/zvRfOaRX/images/765cce197205eb359bb743458b79aa4e45d444f2.png",
+            "featured": false,
+            "title": "forest.",
+            "description": "Beautiful silence tree forest.",
+            "created": "2026-08-03T07:00:41.592052Z",
+            "ordering": 0
+          },
+          {
+            "url": "https://cdn.modrinth.com/data/zvRfOaRX/images/e6c10c9e9af579a09514632e50f73c037be3efa7_350.webp",
+            "raw_url": "https://cdn.modrinth.com/data/zvRfOaRX/images/e6c10c9e9af579a09514632e50f73c037be3efa7.png",
+            "featured": false,
+            "title": "Graveyard",
+            "description": "A land where danger and opportunity coexist",
+            "created": "2026-08-03T07:01:51.609081Z",
+            "ordering": 0
+          },
+          {
+            "url": "https://cdn.modrinth.com/data/zvRfOaRX/images/c138454b75bea03b0a318ee4eed3205f9fb4c1de_350.webp",
+            "raw_url": "https://cdn.modrinth.com/data/zvRfOaRX/images/c138454b75bea03b0a318ee4eed3205f9fb4c1de.png",
+            "featured": false,
+            "title": "Runestone Dungeon",
+            "description": "a big tower",
+            "created": "2026-08-03T07:02:10.068645Z",
+            "ordering": 0
+          },
+          {
+            "url": "https://cdn.modrinth.com/data/zvRfOaRX/images/e4e49e03ba2773604da7634e7c658e693f607627_350.webp",
+            "raw_url": "https://cdn.modrinth.com/data/zvRfOaRX/images/e4e49e03ba2773604da7634e7c658e693f607627.png",
+            "featured": false,
+            "title": "moon temple",
+            "description": "The Final Boss's Lair",
+            "created": "2026-08-03T07:04:12.315752Z",
+            "ordering": 0
+          }
+        ],
+        "color": 725783,
+        "thread_id": "RHu1ztN2",
+        "monetization_status": "monetized"
+      },
+      "version": {
+        "game_versions": [
+          "1.20.1"
+        ],
+        "loaders": [
+          "forge"
+        ],
+        "environment": "client_and_server",
+        "id": "kjduecC8",
+        "project_id": "zvRfOaRX",
+        "author_id": "slxtNNgB",
+        "featured": false,
+        "name": "The Aurorian Reborn 1.0.1-fix",
+        "version_number": "1.0.1-fix",
+        "changelog": "Fix Many bugs about the Spider Mother",
+        "changelog_url": null,
+        "date_published": "2026-09-06T13:05:38.970166Z",
+        "downloads": 316,
+        "version_type": "release",
+        "status": "listed",
+        "requested_status": null,
+        "files": [
+          {
+            "id": "vboWsLX0",
+            "hashes": {
+              "sha1": "460947e4649010f7cb0929d057783b0128a6d770",
+              "sha512": "98b78b07554b0dc2c8989e6583a34d938417259541399caf74abb45f75da7a7de1f5d03c2a952850f63418bae725fb30eecc09b84f87ad42728206d08057bc82"
+            },
+            "url": "https://cdn.modrinth.com/data/zvRfOaRX/versions/kjduecC8/theaurorian-1.0.1-fix.jar",
+            "filename": "theaurorian-1.0.1-fix.jar",
+            "primary": true,
+            "size": 2957993,
+            "file_type": null
+          }
+        ],
+        "dependencies": []
+      },
+      "category": "Dimensions",
+      "metadata": {
+        "modLoader": "javafml",
+        "loaderVersion": "[47,)",
+        "license": "MIT",
+        "mods": [
+          {
+            "modId": "theaurorian",
+            "version": "1.0.1-fix",
+            "displayName": "The Aurorian",
+            "displayURL": "",
+            "credits": "",
+            "authors": "shiroroku"
+          }
+        ],
+        "dependencies": {
+          "theaurorian": [
+            {
+              "modId": "minecraft",
+              "mandatory": true,
+              "versionRange": "[1.20.1]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "jei",
+              "mandatory": false,
+              "versionRange": "[15,)",
+              "ordering": "AFTER",
+              "side": "CLIENT"
+            },
+            {
+              "modId": "patchouli",
+              "mandatory": false,
+              "versionRange": "[1.20.1-81,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        }
+      },
+      "file": {
+        "id": "vboWsLX0",
+        "hashes": {
+          "sha1": "460947e4649010f7cb0929d057783b0128a6d770",
+          "sha512": "98b78b07554b0dc2c8989e6583a34d938417259541399caf74abb45f75da7a7de1f5d03c2a952850f63418bae725fb30eecc09b84f87ad42728206d08057bc82"
+        },
+        "url": "https://cdn.modrinth.com/data/zvRfOaRX/versions/kjduecC8/theaurorian-1.0.1-fix.jar",
+        "filename": "theaurorian-1.0.1-fix.jar",
+        "primary": true,
+        "size": 2957993,
+        "file_type": null
+      },
+      "client": true,
+      "server": true
+    },
+    {
+      "project": {
+        "id": "cf-355418",
+        "slug": "atlantis",
+        "title": "Atlantis",
+        "server_side": "required",
+        "source_url": "https://www.curseforge.com/minecraft/mc-mods/atlantis"
+      },
+      "version": {
+        "id": "cf-9032587",
+        "version_number": "3.20.2026-1.20.1-10.0.3-forge",
+        "dependencies": []
+      },
+      "category": "Dimensions",
+      "metadata": {
+        "modLoader": "javafml",
+        "loaderVersion": "[47,)",
+        "license": "ARR",
+        "mods": [
+          {
+            "modId": "atlantis",
+            "version": "3.20.2026-1.20.1-10.0.3-forge",
+            "displayName": "Atlantis",
+            "displayURL": "https://www.curseforge.com/minecraft/mc-mods/atlantis",
+            "logoFile": "logo.png",
+            "credits": "TelepathicGrunt for his help with the JSON files,\nWaterPicker for his work on the fabric branch,\nLudoCrypt and Firel for the music on the music discs for atlantis,\nShe's Long for multiple textures, models, and jsons for assets,\nLimeShulkerBox for the Atlantean Portal and for removing the need for effects in the dimension,\nBooneraniaro for his work on the new Atlantean Structure and Revamps,\nand Mysticpasta1 for creating the mod.\n",
+            "authors": "RedRoseWarrior1, Divinity, Safe Of Arsenal",
+            "description": "An Underwater Dimension Mod.\n\nReport issues here:\nhttps://github.com/DimensionalDevelopment/atlantis/issues\n"
+          }
+        ],
+        "dependencies": {
+          "atlantis": [
+            {
+              "modId": "forge",
+              "mandatory": true,
+              "versionRange": "[47.+,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "mandatory": true,
+              "versionRange": "[1.20.1, 1.20.2)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "geckolib3",
+              "mandatory": false,
+              "versionRange": "[4.2.2,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            }
+          ]
+        }
+      },
+      "file": {
+        "filename": "atlantis-9.29.2026-1.20.1-10.1.4-forge.jar",
+        "url": "https://mediafilez.forgecdn.net/files/9032/587/atlantis-9.29.2026-1.20.1-10.1.4-forge.jar",
+        "size": 6985154,
+        "hashes": {
+          "sha512": "b227b0d174f0b3567f755655d1ae0ea2b89a07f0ad0932f1071208a86c34a5d1f511440f1c20bbe525f28daf7c19b99213b1d0809646bb822470fc4a8d6592b6",
+          "sha1": "8d81b3f958bff43c8a9744c1d56fc20b24f2ea8e"
+        }
+      },
+      "source_page": "https://www.curseforge.com/minecraft/mc-mods/atlantis/files/9032587",
+      "source": "curseforge",
+      "client": true,
+      "server": true
+    },
+    {
+      "project": {
+        "id": "cf-269024",
+        "slug": "the-lost-cities",
+        "title": "The Lost Cities",
+        "server_side": "required",
+        "source_url": "https://www.curseforge.com/minecraft/mc-mods/the-lost-cities"
+      },
+      "version": {
+        "id": "cf-9055133",
+        "version_number": "${file.jarVersion}",
+        "dependencies": []
+      },
+      "category": "Dimensions",
+      "metadata": {
+        "modLoader": "javafml",
+        "license": "MIT License https://github.com/McJtyMods/LostCities/blob/1.16/LICENCE",
+        "loaderVersion": "[47,)",
+        "issueTrackerURL": "http://github.com/McJtyMods/LostCities/issues",
+        "displayURL": "http://github.com/McJtyMods/LostCities/",
+        "authors": "McJty",
+        "mods": [
+          {
+            "modId": "lostcities",
+            "version": "${file.jarVersion}",
+            "displayName": "LostCities",
+            "description": "Generate cities all over the world\n"
+          }
+        ],
+        "dependencies": {
+          "lostcities": [
+            {
+              "modId": "forge",
+              "mandatory": true,
+              "versionRange": "[43.1.30,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            }
+          ]
+        }
+      },
+      "file": {
+        "filename": "lostcities-1.20-7.5.7.jar",
+        "url": "https://mediafilez.forgecdn.net/files/9055/133/lostcities-1.20-7.5.7.jar",
+        "size": 1442179,
+        "hashes": {
+          "sha512": "3f36e97d97a2909261a3784aeca1a10ce7d1644a4b1e46234362509a5c1bff70a08338907054f7a20a24ae311fef50ff53ced5981d2227a7e61e72af7f5ba371",
+          "sha1": "a92d8e537aa86297468629503f895c102ed132e5"
+        }
+      },
+      "source_page": "https://www.curseforge.com/minecraft/mc-mods/the-lost-cities/files/9055133",
+      "source": "curseforge",
+      "client": true,
+      "server": true
+    },
+    {
+      "project": {
+        "id": "cf-251730",
+        "slug": "voidscape",
+        "title": "Voidscape",
+        "server_side": "required",
+        "source_url": "https://www.curseforge.com/minecraft/mc-mods/voidscape"
+      },
+      "version": {
+        "id": "cf-5179872",
+        "version_number": "1.20.1-1.5.389",
+        "dependencies": []
+      },
+      "category": "Dimensions",
+      "metadata": {
+        "modLoader": "javafml",
+        "loaderVersion": "[47,)",
+        "issueTrackerURL": "https://github.com/Tamaized/Voidscape/issues",
+        "license": "All Rights Reserved",
+        "mods": [
+          {
+            "modId": "voidscape",
+            "version": "1.20.1-1.5.389",
+            "displayName": "Voidscape",
+            "credits": "",
+            "authors": "Tamaized",
+            "description": "\n"
+          }
+        ],
+        "dependencies": {
+          "voidscape": [
+            {
+              "modId": "forge",
+              "mandatory": true,
+              "versionRange": "[47,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            }
+          ]
+        }
+      },
+      "file": {
+        "filename": "Voidscape-1.20.1-1.5.389.jar",
+        "url": "https://mediafilez.forgecdn.net/files/5179/872/Voidscape-1.20.1-1.5.389.jar",
+        "size": 1844868,
+        "hashes": {
+          "sha512": "197e9e01f5cfdee4e23c0c589f1f570ecc2d9eadf0bbbe44e627c3b4ffe248b7037025338111b170f063e7f61a994f8b41ca1b1e39efb89c9b6439d3a6ccaab3",
+          "sha1": "794b864e1dd1bab20b8cc3f16f729b649e61abee"
+        }
+      },
+      "source_page": "https://www.curseforge.com/minecraft/mc-mods/voidscape/files/5179872",
+      "source": "curseforge",
+      "client": true,
+      "server": true
+    },
+    {
+      "project": {
+        "id": "cf-1013658",
+        "slug": "call-from-the-depths",
+        "title": "Call from the depths - Sculk Dimension",
+        "server_side": "required",
+        "source_url": "https://www.curseforge.com/minecraft/mc-mods/call-from-the-depths"
+      },
+      "version": {
+        "id": "cf-8608390",
+        "version_number": "1.22.1",
+        "dependencies": []
+      },
+      "category": "Dimensions",
+      "metadata": {
+        "modLoader": "javafml",
+        "loaderVersion": "[47,)",
+        "license": "Academic Free License v3.0",
+        "mods": [
+          {
+            "modId": "callfromthedepth_",
+            "version": "1.22.1",
+            "displayName": "CallFromTheDepth ",
+            "displayURL": "https://mcreator.net",
+            "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+            "authors": "RN6, MCreator"
+          }
+        ],
+        "dependencies": {
+          "callfromthedepth_": [
+            {
+              "modId": "minecraft",
+              "mandatory": true,
+              "versionRange": "[1.20.1]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            },
+            {
+              "modId": "geckolib",
+              "mandatory": false,
+              "versionRange": "[0,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            }
+          ]
+        }
+      },
+      "file": {
+        "filename": "callfromthedepth_-1.22.1-forge-1.20.1.jar",
+        "url": "https://mediafilez.forgecdn.net/files/8608/390/callfromthedepth_-1.22.1-forge-1.20.1.jar",
+        "size": 51977406,
+        "hashes": {
+          "sha512": "d7d848e053f0f08dc1766a41d35eddbdff8c7ee7c7d4c84cb1c22b17b3af8a3b000996ba9ce5f5e02cf5122e138fee263e8d7cbbf53c7e638233f6bc8ab8fc67",
+          "sha1": "bcbe0decae1c03b1dc245014ac9f9923b1a93c89"
+        }
+      },
+      "source_page": "https://www.curseforge.com/minecraft/mc-mods/call-from-the-depths/files/8608390",
+      "source": "curseforge",
+      "client": true,
+      "server": true
+    },
+    {
+      "project": {
+        "id": "cf-254794",
+        "slug": "tropicraft",
+        "title": "Tropicraft",
+        "server_side": "required",
+        "source_url": "https://www.curseforge.com/minecraft/mc-mods/tropicraft"
+      },
+      "version": {
+        "id": "cf-4811116",
+        "version_number": "9.6.3",
+        "dependencies": []
+      },
+      "category": "Dimensions",
+      "metadata": {
+        "modLoader": "javafml",
+        "loaderVersion": "[47,)",
+        "issueTrackerURL": "https://github.com/Tropicraft/Tropicraft/issues",
+        "license": "Mozilla Public License Version 2.0",
+        "mods": [
+          {
+            "modId": "tropicraft",
+            "version": "9.6.3",
+            "displayName": "Tropicraft",
+            "displayURL": "https://tropicraft.net",
+            "logoFile": "logo.png",
+            "credits": "Mr_okushama, MrRube, newthead, pablomittens, fotoply, and others who have contributed over the years <3",
+            "authors": "Cojomax99, Corosus, tterrag",
+            "description": "This is Tropicraft, the utopian idyllic getaway that you have been waiting for! Craft a pina colada, plop yourself down into a beach chair, take a sip at sunset, and drift away"
+          }
+        ],
+        "projects": {
+          "modrinth": "20zpzIT1",
+          "curseforge": 254794
+        }
+      },
+      "file": {
+        "filename": "Tropicraft-9.6.3.jar",
+        "url": "https://mediafilez.forgecdn.net/files/4811/116/Tropicraft-9.6.3.jar",
+        "size": 18966713,
+        "hashes": {
+          "sha512": "6dbe6147e40f188203f44cb1c915f0476593f09ead3b87e51a93546fce4e7fbb3003e6d3a881e9b2d5938173caa5b10c713f29d592d8b01be1bdc4a955b7c7ac",
+          "sha1": "f0fb2074976f0e201f1119fdde7e20914cd06712"
+        }
+      },
+      "source_page": "https://www.curseforge.com/minecraft/mc-mods/tropicraft/files/4811116",
+      "source": "curseforge",
+      "client": true,
+      "server": true
+    },
+    {
+      "project": {
+        "id": "cf-1095867",
+        "slug": "beyond-the-end-mod",
+        "title": "\u0412\u0435\u0443\u043end th\u0435 \u0415nd",
+        "server_side": "required",
+        "source_url": "https://www.curseforge.com/minecraft/mc-mods/beyond-the-end-mod"
+      },
+      "version": {
+        "id": "cf-5703407",
+        "version_number": "1.0.2",
+        "dependencies": []
+      },
+      "category": "Dimensions",
+      "metadata": {
+        "modLoader": "javafml",
+        "loaderVersion": "[47,)",
+        "license": "Not specified",
+        "mods": [
+          {
+            "modId": "beyond_the_end",
+            "version": "1.0.2",
+            "displayName": "Beyond the End",
+            "displayURL": "https://mcreator.net",
+            "logoFile": "logo.png",
+            "credits": "medilmods.",
+            "authors": "medilmods",
+            "description": "Go beyond the end.. \u00a7kDONOTGOINTHEREPLEASE"
+          }
+        ],
+        "dependencies": {
+          "beyond_the_end": [
+            {
+              "modId": "minecraft",
+              "mandatory": true,
+              "versionRange": "[1.20.1]",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        }
+      },
+      "file": {
+        "filename": "beyond_the_end-1.0.2-forge-1.20.1.jar",
+        "url": "https://mediafilez.forgecdn.net/files/5703/407/beyond_the_end-1.0.2-forge-1.20.1.jar",
+        "size": 11380063,
+        "hashes": {
+          "sha512": "56ee13596d10bacc2396d911f8a30c9996e80fda8b6046d7d2ec55129d18c3cc0d73d4a24b400945e5167905ec1a934e7c54d8396ace05066d95f2108bec151e",
+          "sha1": "a9981b99db126eb68b1ee2500793b41c6e0ae27b"
+        }
+      },
+      "source_page": "https://www.curseforge.com/minecraft/mc-mods/beyond-the-end-mod/files/5703407",
+      "source": "curseforge",
+      "client": true,
+      "server": true
+    },
+    {
+      "project": {
+        "id": "cf-879879",
+        "slug": "aeroblender",
+        "title": "AeroBlender",
+        "server_side": "required",
+        "source_url": "https://www.curseforge.com/minecraft/mc-mods/aeroblender"
+      },
+      "version": {
+        "id": "cf-4789008",
+        "version_number": "${file.jarVersion}",
+        "dependencies": []
+      },
+      "category": "Library",
+      "metadata": {
+        "modLoader": "javafml",
+        "loaderVersion": "[47,)",
+        "license": "LGPL-3.0",
+        "issueTrackerURL": "https://github.com/RazorDevs/AeroBlender/issues",
+        "mods": [
+          {
+            "modId": "aeroblender",
+            "version": "${file.jarVersion}",
+            "displayName": "AeroBlender",
+            "logoFile": "aeroblender.png",
+            "credits": "Credits goes to the terrablender team",
+            "authors": "RazorDevs",
+            "description": "AeroBlender is a library mod for adding biomes in a simple and compatible manner with Aether's biome/terrain system, using Terrablender.\n"
+          }
+        ],
+        "dependencies": {
+          "aeroblender": [
+            {
+              "modId": "forge",
+              "mandatory": true,
+              "versionRange": "[47.1.0,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "mandatory": true,
+              "versionRange": "[1.20,1.21)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "terrablender",
+              "mandatory": true,
+              "versionRange": "[3.0.0,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "aether",
+              "mandatory": true,
+              "versionRange": "[1.0.0-beta.6,)",
+              "ordering": "AFTER",
+              "side": "BOTH"
+            }
+          ]
+        }
+      },
+      "file": {
+        "filename": "aeroblender-1.20.1-1.0.1-neoforge.jar",
+        "url": "https://mediafilez.forgecdn.net/files/4789/8/aeroblender-1.20.1-1.0.1-neoforge.jar",
+        "size": 21641,
+        "hashes": {
+          "sha512": "2506564dc44df5ef8560b66e7a92b2086425fcaa9fa64e6b0dfcbefb676b5cb711ab68243302684e6979951bf5f41f0ceb908fbcdf9d9f91a3c526a102b3af52",
+          "sha1": "98e6a2a4c312f2aae0eb674ea5a923037378c7da"
+        }
+      },
+      "source_page": "https://www.curseforge.com/minecraft/mc-mods/aeroblender/files/4789008",
+      "source": "curseforge",
+      "client": true,
+      "server": true
     }
   ],
   "skipped": [],
