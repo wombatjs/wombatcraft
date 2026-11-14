@@ -1,0 +1,511 @@
+{
+  "filename": "wc_dimension_exp_official_divinerpg_iceika",
+  "id": "59A2FA4FBA0AD707",
+  "title": "Divine Realms: Iceika",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 23,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "693425077E18256B",
+      "title": "A Lil' Gift",
+      "description": [
+        "Trade with a Workshop Merchant"
+      ],
+      "icon": "divinerpg:snowflake",
+      "tasks": [
+        {
+          "id": "68D967CECCCC8467",
+          "type": "advancement",
+          "advancement": "divinerpg:iceika/a_lil_gift"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6A19E0BB836ED400"
+      ],
+      "x": 10.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "45F0B579BF0567B0",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "768D898C735877E4",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "190695F02DEB9121",
+      "title": "A Lil' Tinkering",
+      "description": [
+        "Trade with a Workshop Tinkerer"
+      ],
+      "icon": "divinerpg:frostking_sword",
+      "tasks": [
+        {
+          "id": "323847317D1A850A",
+          "type": "advancement",
+          "advancement": "divinerpg:iceika/a_lil_tinkering"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6A19E0BB836ED400"
+      ],
+      "x": 12.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "0714DEA0A704FFF8",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "7FB91C85BA5CA60F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "3A993F6FB9F24797",
+      "title": "The Whale Graveyard",
+      "description": [
+        "Come across a boneyard"
+      ],
+      "icon": "minecraft:bone_block",
+      "tasks": [
+        {
+          "id": "50C3B5F4BC4232D5",
+          "type": "advancement",
+          "advancement": "divinerpg:iceika/boneyard"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "5F5F71674826E8A4"
+      ],
+      "x": 1.25,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1EC0AFC8DC8563B2",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "66E251F58B949F90",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "485153F4A43E86A3",
+      "title": "A Chocolate Ore",
+      "description": [
+        "Smelt an Oxdrite Ingot"
+      ],
+      "icon": "divinerpg:oxdrite_ingot",
+      "tasks": [
+        {
+          "id": "26B1176E71F42AEF",
+          "type": "advancement",
+          "advancement": "divinerpg:iceika/chocolate_ore"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "5F5F71674826E8A4"
+      ],
+      "x": 5.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "6677EB36FFB2A374",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "120FB516D2083576",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "421CE05B5AFFF2F3",
+      "title": "A Frosty Stroll",
+      "description": [
+        "Explore all Iceika biomes"
+      ],
+      "icon": "divinerpg:frozen_grass",
+      "tasks": [
+        {
+          "id": "73C86E92644EDF14",
+          "type": "advancement",
+          "advancement": "divinerpg:iceika/explore_iceika"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3A993F6FB9F24797"
+      ],
+      "x": 0.0,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "5DC2A303F7F58902",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "14AC89E18C6D0E0E",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "1DD2AEB884773A6E",
+      "title": "Feed Them Brittle Glass Grass",
+      "description": [
+        "Breed two Mamoths"
+      ],
+      "icon": "divinerpg:brittle_grass",
+      "tasks": [
+        {
+          "id": "316C12FFCE48B893",
+          "type": "advancement",
+          "advancement": "divinerpg:iceika/feed_them_brittle_glass"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "5F5F71674826E8A4"
+      ],
+      "x": 7.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "0CA460BA138E9C56",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "659D37D1B0A8D5DE",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6A19E0BB836ED400",
+      "title": "Frozen Goods",
+      "description": [
+        "Obtain a Snowflake"
+      ],
+      "icon": "divinerpg:frosted_chest",
+      "tasks": [
+        {
+          "id": "0C7B389CCFD55CDC",
+          "type": "advancement",
+          "advancement": "divinerpg:iceika/frozen_goods"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "5F5F71674826E8A4"
+      ],
+      "x": 11.25,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "15EC557BC828A2AF",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "4F44DEDFC1DE1163",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "7FB5652F42EDE3CF",
+      "title": "The Icy Catacombs",
+      "description": [
+        "Enter an Iceika Dungeon"
+      ],
+      "icon": "divinerpg:chiseled_icy_bricks",
+      "tasks": [
+        {
+          "id": "6285D90290CF7AD1",
+          "type": "advancement",
+          "advancement": "divinerpg:iceika/icy_catacombs"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "5F5F71674826E8A4"
+      ],
+      "x": 15.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "38C45409ED5257DF",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "75A38ADE1359918C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2E187E248BC5232B",
+      "title": "An Invulnerable Whale",
+      "description": [
+        "Follow this expedition milestone in the advancement journal, then return to claim your supplies."
+      ],
+      "icon": "divinerpg:calcified_brain",
+      "tasks": [
+        {
+          "id": "77E22EEA49FB4423",
+          "type": "advancement",
+          "advancement": "divinerpg:iceika/kill_kitra"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3A993F6FB9F24797"
+      ],
+      "x": 2.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "33B668AEA2BF754E",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0C955179B518540D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "4F84351A9FAF3767",
+      "title": "Merry Xmas!",
+      "description": [
+        "Drink grog while wearing a Santa suit"
+      ],
+      "icon": "divinerpg:santa_helmet",
+      "tasks": [
+        {
+          "id": "7981C6AFC78FD44B",
+          "type": "advancement",
+          "advancement": "divinerpg:iceika/merry_xmas"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4C6A2E272397F950"
+      ],
+      "x": 17.5,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "711959C102E060C9",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "16487EBF6BD98712",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "5F5F71674826E8A4",
+      "title": "Iceika",
+      "description": [
+        "The frozen land"
+      ],
+      "icon": "divinerpg:snow_globe",
+      "tasks": [
+        {
+          "id": "47C7BA8DD39CBFC7",
+          "type": "advancement",
+          "advancement": "divinerpg:iceika/root"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 8.75,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "04D235E81599AE5A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0BB54AA942CB432B",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "25F70353C6A597A1",
+      "title": "A Sapphire Beast",
+      "description": [
+        "Obtain a Seng Fur"
+      ],
+      "icon": "divinerpg:seng_fur",
+      "tasks": [
+        {
+          "id": "5F9DCE5B36B62884",
+          "type": "advancement",
+          "advancement": "divinerpg:iceika/sapphire_beast"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "5F5F71674826E8A4"
+      ],
+      "x": 17.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "3EDD8F483703A0CF",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5DE133D3D1716D0C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "4C6A2E272397F950",
+      "title": "What Makes You Beautiful",
+      "description": [
+        "Get a full suit of Seng Fur armor"
+      ],
+      "icon": "divinerpg:seng_fur_helmet",
+      "tasks": [
+        {
+          "id": "3958487142278B1F",
+          "type": "advancement",
+          "advancement": "divinerpg:iceika/what_makes_you_beautiful"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "25F70353C6A597A1"
+      ],
+      "x": 17.5,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "33C8D7C9699FA3FC",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "4D7624E41BEB8987",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "305E8E1768BBC9CE",
+      "title": "Into Iceika",
+      "description": [
+        "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "04E248E827D9F726",
+          "type": "dimension",
+          "dimension": "divinerpg:iceika"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 0.0,
+      "y": 12.5,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "76C472D7D0D77472",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "7A395B98BCBC453E",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

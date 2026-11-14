@@ -1,0 +1,1180 @@
+{
+  "filename": "wc_dimension_exp_atlantis",
+  "id": "29438DF547DBA18F",
+  "title": "Atlantis",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 31,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0BBBC29D3BB56EEB",
+      "title": "The garden of the Atlanteans",
+      "description": [
+        "Locate the Atlantean Garden Biome"
+      ],
+      "icon": "atlantis:orb_of_atlantis",
+      "tasks": [
+        {
+          "id": "1627B6387C817385",
+          "type": "advancement",
+          "advancement": "atlantis:atlantean_garden_advancement"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4975AAEF3DC8333F"
+      ],
+      "x": 0.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "18A936A990C39F03",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "65201727516B79CC",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2009394538F32456",
+      "title": "Atlantis!",
+      "description": [
+        "Locate the Atlantis Biome"
+      ],
+      "icon": "atlantis:orb_of_atlantis",
+      "tasks": [
+        {
+          "id": "6537456CDAB506FB",
+          "type": "advancement",
+          "advancement": "atlantis:atlantis_biome_advancement"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4975AAEF3DC8333F"
+      ],
+      "x": 2.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "2F69D12613C0ED2E",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "6421F1E16E9E88CF",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2A9CA4CFD4474166",
+      "title": "Crab Raves",
+      "description": [
+        "Pick up a crab in a bucket"
+      ],
+      "icon": "atlantis:rubyclaw_crab_bucket",
+      "tasks": [
+        {
+          "id": "32F3DF216C6C5F2C",
+          "type": "advancement",
+          "advancement": "atlantis:crab_advancement"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0B8BC0198ADC453C"
+      ],
+      "x": 7.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "55F3E1EC24A98D31",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "21426E88AA44FC76",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "4975AAEF3DC8333F",
+      "title": "Welcome To Atlantis!!!",
+      "description": [
+        "Enter the Atlantis Dimension"
+      ],
+      "icon": "atlantis:orb_of_atlantis",
+      "tasks": [
+        {
+          "id": "5D2E9E6ED2B07DEC",
+          "type": "advancement",
+          "advancement": "atlantis:dimension_advancement"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 8.75,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "29BCF76F50ECACC8",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "240FBF4D161C4760",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6ECB2D0EF9AEC16A",
+      "title": "Gooey Goo Lagoons",
+      "description": [
+        "Locate the Goo Lagoons Biome"
+      ],
+      "icon": "atlantis:orb_of_atlantis",
+      "tasks": [
+        {
+          "id": "6B1EF30348087567",
+          "type": "advancement",
+          "advancement": "atlantis:goo_lagoons_advancement"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4975AAEF3DC8333F"
+      ],
+      "x": 5.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "4BD02519A2085D33",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "2D562D7D5F13C6C1",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0B8BC0198ADC453C",
+      "title": "Arg matey, There be land here",
+      "description": [
+        "Locate the Atlantean Islands Biome"
+      ],
+      "icon": "atlantis:orb_of_atlantis",
+      "tasks": [
+        {
+          "id": "2A01B244D7654C47",
+          "type": "advancement",
+          "advancement": "atlantis:island_atlantis_biome_advancement"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4975AAEF3DC8333F"
+      ],
+      "x": 8.75,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "27B38DA5EF0298DC",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "431F31B8E580C1F8",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6A99E95D0D3DE221",
+      "title": "Jellyshocked",
+      "description": [
+        "Get hurt by a Jellyfish"
+      ],
+      "icon": "atlantis:aquaiel_jellyfish_egg",
+      "tasks": [
+        {
+          "id": "5462960F38F47FFC",
+          "type": "advancement",
+          "advancement": "atlantis:jellyfish_advancement"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2392555398B9D376"
+      ],
+      "x": 12.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "3F96C92A2F26579B",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "06B1FF2171E102AB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "5099BBA38F0BD2C0",
+      "title": "Squishy Jellies",
+      "description": [
+        "Pick up a jellyfish in a bucket"
+      ],
+      "icon": "atlantis:aquaiel_jellyfish_bucket",
+      "tasks": [
+        {
+          "id": "3C515E7A030B4E35",
+          "type": "advancement",
+          "advancement": "atlantis:jellyfish_bucket_advancement"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6A99E95D0D3DE221"
+      ],
+      "x": 12.5,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "4683C4E730075568",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "4DBA8C216198711F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2392555398B9D376",
+      "title": "Jellyfishing, Jellyfishing",
+      "description": [
+        "Locate the Jellyfish Fields Biome"
+      ],
+      "icon": "atlantis:orb_of_atlantis",
+      "tasks": [
+        {
+          "id": "74C6B5A3DDA8B533",
+          "type": "advancement",
+          "advancement": "atlantis:jellyfish_fields_biome_advancement"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4975AAEF3DC8333F"
+      ],
+      "x": 13.75,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "117FB142D875840D",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "6D6EFDF0A25F8A43",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "50FE3ECBE9C86ECB",
+      "title": "The Phantom of The Depths",
+      "description": [
+        "Get hurt by a Leviathan"
+      ],
+      "icon": "atlantis:leviathan_egg",
+      "tasks": [
+        {
+          "id": "5884A15116CCA9E0",
+          "type": "advancement",
+          "advancement": "atlantis:leviathan_advancement"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2392555398B9D376"
+      ],
+      "x": 15.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "7CA1F904334BC0FE",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "61F7EF648F349468",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "312B27F35BC39AF2",
+      "title": "Shrimpify",
+      "description": [
+        "Pick up a shrimp in a bucket"
+      ],
+      "icon": "atlantis:glittertail_shrimp_bucket",
+      "tasks": [
+        {
+          "id": "0B6C90CCF33D7003",
+          "type": "advancement",
+          "advancement": "atlantis:shrimp_advancement"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0B8BC0198ADC453C"
+      ],
+      "x": 10.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "3693DF1E03CA300F",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "591B5954BC32A9C8",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2CC830985D443FBE",
+      "title": "Darker yet Darkest of seas",
+      "description": [
+        "Locate the Volcanic Darksea Biome"
+      ],
+      "icon": "atlantis:orb_of_atlantis",
+      "tasks": [
+        {
+          "id": "7A6664CEDCE544B6",
+          "type": "advancement",
+          "advancement": "atlantis:volcanic_darksea_advancement"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4975AAEF3DC8333F"
+      ],
+      "x": 17.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5D51A0AD7B9C450E",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "7168D008C5E56AB5",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "017E1A9347A4E211",
+      "title": "Atlantean Core",
+      "description": [
+        "Assemble the gateway from Atlantean Core blocks and open it with water."
+      ],
+      "icon": "atlantis:atlantean_core",
+      "tasks": [
+        {
+          "id": "1597CF5DA5C22A9E",
+          "type": "item",
+          "item": "atlantis:atlantean_core",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 0.0,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "729BCA667AE033FF",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "17F1EF67135E9D35",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0434EA126F47CFC3",
+      "title": "Aquamarine Gem",
+      "description": [
+        "Recover aquamarine, then equip a mining expedition for the ocean floor."
+      ],
+      "icon": "atlantis:aquamarine_gem",
+      "tasks": [
+        {
+          "id": "1A86E261E160CA29",
+          "type": "item",
+          "item": "atlantis:aquamarine_gem",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3E6C334449A97286"
+      ],
+      "x": 1.25,
+      "y": 20.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "3167015F143AC1A9",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "61181275D2796075",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "20C89FEA4A45C6F6",
+      "title": "Aquamarine Pickaxe",
+      "description": [
+        "Recover aquamarine, then equip a mining expedition for the ocean floor."
+      ],
+      "icon": "atlantis:aquamarine_pickaxe",
+      "tasks": [
+        {
+          "id": "6C8AF0393ADD6980",
+          "type": "item",
+          "item": "atlantis:aquamarine_pickaxe",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0434EA126F47CFC3"
+      ],
+      "x": 0.0,
+      "y": 22.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "2CF21C401B6DA77C",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "797471FAA5842375",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0054B76F310444DE",
+      "title": "Aquamarine Chestplate",
+      "description": [
+        "Recover aquamarine, then equip a mining expedition for the ocean floor."
+      ],
+      "icon": "atlantis:aquamarine_chestplate",
+      "tasks": [
+        {
+          "id": "4F6BBB16A14E0773",
+          "type": "item",
+          "item": "atlantis:aquamarine_chestplate",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "20C89FEA4A45C6F6"
+      ],
+      "x": 0.0,
+      "y": 25.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "59CF69E7A004A235",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "4192213CE1D54A5E",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "77BF8338EE410375",
+      "title": "Raw Ancient Cuprum",
+      "description": [
+        "Recover ancient cuprum and work through the Orichalcum recipes at your foundry. Preserve a reserve for future equipment."
+      ],
+      "icon": "atlantis:raw_ancient_cuprum",
+      "tasks": [
+        {
+          "id": "4E7B17AD959FCD75",
+          "type": "item",
+          "item": "atlantis:raw_ancient_cuprum",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0434EA126F47CFC3"
+      ],
+      "x": 2.5,
+      "y": 22.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "7BDF9F2D61A62D66",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "62C800FD2F2F14EB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "700DD4C294E47CF9",
+      "title": "Ancient Cuprum Ingot",
+      "description": [
+        "Recover ancient cuprum and work through the Orichalcum recipes at your foundry. Preserve a reserve for future equipment."
+      ],
+      "icon": "atlantis:ancient_cuprum_ingot",
+      "tasks": [
+        {
+          "id": "152CF285AAED7238",
+          "type": "item",
+          "item": "atlantis:ancient_cuprum_ingot",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "77BF8338EE410375"
+      ],
+      "x": 2.5,
+      "y": 25.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5656E31F9BDC1C51",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "253A018B19D43B43",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "30446F32BE335C70",
+      "title": "Orichalcum Blend",
+      "description": [
+        "Recover ancient cuprum and work through the Orichalcum recipes at your foundry. Preserve a reserve for future equipment."
+      ],
+      "icon": "atlantis:orichalcum_blend",
+      "tasks": [
+        {
+          "id": "391479C28C581B6E",
+          "type": "item",
+          "item": "atlantis:orichalcum_blend",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "700DD4C294E47CF9"
+      ],
+      "x": 2.5,
+      "y": 27.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "439F5E0D19190D45",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "45648316F25A5DD2",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "441BAA4D6319E12D",
+      "title": "Orichalcum Ingot",
+      "description": [
+        "Recover ancient cuprum and work through the Orichalcum recipes at your foundry. Preserve a reserve for future equipment."
+      ],
+      "icon": "atlantis:orichalcum_ingot",
+      "tasks": [
+        {
+          "id": "69602819BDAEB6EA",
+          "type": "item",
+          "item": "atlantis:orichalcum_ingot",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "30446F32BE335C70"
+      ],
+      "x": 2.5,
+      "y": 30.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "033C76B8CEE05F5F",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "26A11987B90482D0",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "7DB5053B80244571",
+      "title": "Orichalcum Chestplate",
+      "description": [
+        "Recover ancient cuprum and work through the Orichalcum recipes at your foundry. Preserve a reserve for future equipment."
+      ],
+      "icon": "atlantis:orichalcum_chestplate",
+      "tasks": [
+        {
+          "id": "3E780CCE1AA6A8E1",
+          "type": "item",
+          "item": "atlantis:orichalcum_chestplate",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "441BAA4D6319E12D"
+      ],
+      "x": 2.5,
+      "y": 32.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "679BD2A7A47325F5",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "6F9437BB07904A07",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "523DA3DF3B6B89D2",
+      "title": "Water Pill",
+      "description": [
+        "Prepare an underwater expedition and commission a submarine before ranging far from the gateway."
+      ],
+      "icon": "atlantis:water_pill",
+      "tasks": [
+        {
+          "id": "1BC2F3C0A2FAFB9F",
+          "type": "item",
+          "item": "atlantis:water_pill",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3E6C334449A97286"
+      ],
+      "x": 5.0,
+      "y": 20.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "52EB92195A4E8C67",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "72BAC5172EA9C6D5",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2270F5695D33B163",
+      "title": "Submarine",
+      "description": [
+        "Prepare an underwater expedition and commission a submarine before ranging far from the gateway."
+      ],
+      "icon": "atlantis:submarine",
+      "tasks": [
+        {
+          "id": "52D8694997B70314",
+          "type": "item",
+          "item": "atlantis:submarine",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "523DA3DF3B6B89D2"
+      ],
+      "x": 5.0,
+      "y": 22.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "64587F7800681C22",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "56A327BFD3C6075F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "72872F52FA592F25",
+      "title": "Fire Melon Seeds",
+      "description": [
+        "Cultivate a coastal crop and prepare a harvest for your expedition stores."
+      ],
+      "icon": "atlantis:fire_melon_fruit_seeds",
+      "tasks": [
+        {
+          "id": "782F7EFD922CB4E6",
+          "type": "item",
+          "item": "atlantis:fire_melon_fruit_seeds",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3E6C334449A97286"
+      ],
+      "x": 7.5,
+      "y": 20.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "3C13A57D5456223D",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "6991DBC7EC928E66",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "618DFAA546EC6817",
+      "title": "Fire Melon Jelly Bottle",
+      "description": [
+        "Cultivate a coastal crop and prepare a harvest for your expedition stores."
+      ],
+      "icon": "atlantis:fire_melon_jelly_bottle",
+      "tasks": [
+        {
+          "id": "29676DBDCC3372DD",
+          "type": "item",
+          "item": "atlantis:fire_melon_jelly_bottle",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "72872F52FA592F25"
+      ],
+      "x": 7.5,
+      "y": 22.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "19C5A0E326E4DB46",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "3C0AC3B0B27BE20C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "42FEB76859144A21",
+      "title": "Atlantean Amulet",
+      "description": [
+        "Recover the relics of Atlantis and prepare its spear for the next expedition."
+      ],
+      "icon": "atlantis:atlantean_amulet",
+      "tasks": [
+        {
+          "id": "50DE42136011B2CB",
+          "type": "item",
+          "item": "atlantis:atlantean_amulet",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3E6C334449A97286"
+      ],
+      "x": 10.0,
+      "y": 20.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "4AD4448F26459A2D",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "30F22A2BC8A296A6",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "76DC5B758110EA15",
+      "title": "Atlantean Spear",
+      "description": [
+        "Recover the relics of Atlantis and prepare its spear for the next expedition."
+      ],
+      "icon": "atlantis:atlantean_spear",
+      "tasks": [
+        {
+          "id": "297DA00FF191E150",
+          "type": "item",
+          "item": "atlantis:atlantean_spear",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "42FEB76859144A21"
+      ],
+      "x": 10.0,
+      "y": 22.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5C26A9A155A29229",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5DA6A47CD81B893F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "43A9826F594994DC",
+      "title": "Neighbours Beneath the Sea",
+      "description": [
+        "Reach an Atlantean village and mark a safe approach."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "23CEC56E60D1FCB0",
+          "type": "structure",
+          "structure": "atlantis:atlantean_village"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3E6C334449A97286"
+      ],
+      "x": 12.5,
+      "y": 20.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "0FB03E92BFFFCA58",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "677C6F00FBB0EAC0",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "4F094ED6D736F667",
+      "title": "The Sunken Temple",
+      "description": [
+        "Explore an Atlantean temple with breathing equipment and spare provisions."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "128408F751FDA2D0",
+          "type": "structure",
+          "structure": "atlantis:configured_atlantean_temple"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3E6C334449A97286"
+      ],
+      "x": 15.0,
+      "y": 20.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "203473311A877402",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "3292EFD4E97EA664",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "001ACEB01CD9F453",
+      "title": "An Ancient Spire",
+      "description": [
+        "Locate an Atlantean spire and survey its surroundings."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "43D4254488ED6655",
+          "type": "structure",
+          "structure": "atlantis:configured_atlantean_spire"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3E6C334449A97286"
+      ],
+      "x": 17.5,
+      "y": 20.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "7E65814410EB1708",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5B13B0A9202F7EE2",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2B47D3784E209AB0",
+      "title": "An Undersea Observatory",
+      "description": [
+        "Build a dry observation room overlooking the sea. Add a return route, equipment stores and a small processing workshop for the expedition."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "5B0CC7A99169B853",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2270F5695D33B163"
+      ],
+      "x": 5.0,
+      "y": 25.0,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "689BCDB3B0CA9C0E",
+      "title": "Atlantis Field Guide",
+      "description": [
+        "Build an Atlantean Core portal frame and open it with water. Prepare breathing equipment before crossing; ruins and treasure lie beneath the sea."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "7BBDBD0520A62480",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 5.0,
+      "y": 12.5,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "3E6C334449A97286",
+      "title": "Into Atlantis",
+      "description": [
+        "Build an Atlantean Core portal frame and open it with water. Prepare breathing equipment before crossing; ruins and treasure lie beneath the sea."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "56A69897229AE9B3",
+          "type": "dimension",
+          "dimension": "atlantis:atlantis"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 8.75,
+      "y": 17.5,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "23FD84895DAAE142",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "02ACCEC4753B8B3A",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

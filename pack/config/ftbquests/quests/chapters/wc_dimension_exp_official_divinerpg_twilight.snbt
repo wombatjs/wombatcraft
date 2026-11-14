@@ -1,0 +1,863 @@
+{
+  "filename": "wc_dimension_exp_official_divinerpg_twilight",
+  "id": "40F4819735E54095",
+  "title": "Divine Realms: Twilight",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 26,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "759C3A139A271E58",
+      "title": "1001 Possibilities",
+      "description": [
+        "Enter the Eden dimension"
+      ],
+      "icon": "divinerpg:eden_block",
+      "tasks": [
+        {
+          "id": "47F4DC26B64E4916",
+          "type": "advancement",
+          "advancement": "divinerpg:twilight/1001_possibilities"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2DB91DF11963FCF6"
+      ],
+      "x": 15.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "57D5FB32042008DA",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "04E530810635CFCB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "28C3723649A931A8",
+      "title": "Anger Management Problems",
+      "description": [
+        "Kill a Karot"
+      ],
+      "icon": "divinerpg:halite_phaser",
+      "tasks": [
+        {
+          "id": "1A12A7C940FE316C",
+          "type": "advancement",
+          "advancement": "divinerpg:twilight/anger_management_problems"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "23E0DF9A90ECBE87"
+      ],
+      "x": 7.5,
+      "y": 15.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "1B6AC895037218FC",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "49AC4EE4EBEB741A",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "19C93BF9AE2AAFDE",
+      "title": "Arachnophobia",
+      "description": [
+        "Kill a Soul Fiend"
+      ],
+      "icon": "divinerpg:halite_slicer",
+      "tasks": [
+        {
+          "id": "2ACCA996897AF2BE",
+          "type": "advancement",
+          "advancement": "divinerpg:twilight/arachnophobia"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "23E0DF9A90ECBE87"
+      ],
+      "x": 10.0,
+      "y": 15.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "4486BD0D05243F11",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "397C7D6B27282550",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "56195418E8CD908A",
+      "title": "Archaic Bowman",
+      "description": [
+        "Kill an Eternal Archer"
+      ],
+      "icon": "divinerpg:apalachia_heart",
+      "tasks": [
+        {
+          "id": "1B8A1C64B9937E21",
+          "type": "advancement",
+          "advancement": "divinerpg:twilight/archaic_bowman"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6D02038032942C07"
+      ],
+      "x": 5.0,
+      "y": 10.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "3E385D0BDA496F38",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "25C72D01305124F4",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "003B272C0D26F829",
+      "title": "Arrow to the Knee",
+      "description": [
+        "Get shot by a Twilight Archer"
+      ],
+      "icon": "divinerpg:twilight_bow",
+      "tasks": [
+        {
+          "id": "0730313FD53D7B0C",
+          "type": "advancement",
+          "advancement": "divinerpg:twilight/arrow_to_the_knee"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "23E0DF9A90ECBE87"
+      ],
+      "x": 12.5,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "2B5ED3CE8363F767",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "71925D5C0C34C813",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "56F5CE7ED04C4DC3",
+      "title": "Bicorn",
+      "description": [
+        "Kill a Vamacheron"
+      ],
+      "icon": "divinerpg:halite_blade",
+      "tasks": [
+        {
+          "id": "74DE797131BAE8A9",
+          "type": "advancement",
+          "advancement": "divinerpg:twilight/bicorn"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "23E0DF9A90ECBE87"
+      ],
+      "x": 15.0,
+      "y": 15.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "7C1D69634D3CA02E",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "2DDAEB255B48E41D",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "1BA4F27E09C9D049",
+      "title": "Champion of Light",
+      "description": [
+        "Kill the Sunstorm"
+      ],
+      "icon": "divinerpg:eden_heart",
+      "tasks": [
+        {
+          "id": "200547668403473D",
+          "type": "advancement",
+          "advancement": "divinerpg:twilight/champion_of_light"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "759C3A139A271E58"
+      ],
+      "x": 0.0,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "7FC38F8BAFBDDFED",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "764C4B6AA92709E5",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "6D76829ABFDE4895",
+      "title": "Colourless Land",
+      "description": [
+        "Enter the Skythern dimension"
+      ],
+      "icon": "divinerpg:skythern_block",
+      "tasks": [
+        {
+          "id": "248D70AA872942D6",
+          "type": "advancement",
+          "advancement": "divinerpg:twilight/colourless_land"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6D02038032942C07"
+      ],
+      "x": 16.25,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "0C99B8EB1D5DCA3D",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "1A6E4A10AD28FBD2",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "23E0DF9A90ECBE87",
+      "title": "Dark Another Day",
+      "description": [
+        "Enter the Mortum dimension"
+      ],
+      "icon": "divinerpg:mortum_block",
+      "tasks": [
+        {
+          "id": "2831C7C0F1F90848",
+          "type": "advancement",
+          "advancement": "divinerpg:twilight/dark_another_day"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6D76829ABFDE4895"
+      ],
+      "x": 15.0,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5EDBECC509ADE998",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "122B8E4201A533DD",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "11937E2817AC94D2",
+      "title": "Exorcism",
+      "description": [
+        "Kill a Twilight Demon"
+      ],
+      "icon": "divinerpg:halite_bow",
+      "tasks": [
+        {
+          "id": "13583B2913C2930F",
+          "type": "advancement",
+          "advancement": "divinerpg:twilight/exorcism"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "23E0DF9A90ECBE87"
+      ],
+      "x": 17.5,
+      "y": 15.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "72B6D85CA0B9EB9A",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "203D89AF18C8C2C5",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "7BE270A2F8C31728",
+      "title": "Five Heads are Better than One",
+      "description": [
+        "Kill the Densos"
+      ],
+      "icon": "divinerpg:halite_chestplate",
+      "tasks": [
+        {
+          "id": "5EFDD04B533F40FE",
+          "type": "advancement",
+          "advancement": "divinerpg:twilight/five_heads_are_better_than_one"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "23E0DF9A90ECBE87"
+      ],
+      "x": 20.0,
+      "y": 15.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "559D14B2E914B029",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "715F8AAAA186EA52",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "522E5B01DD9FCAD1",
+      "title": "Forest Islands",
+      "description": [
+        "Enter the Wildwood dimension"
+      ],
+      "icon": "divinerpg:wildwood_block",
+      "tasks": [
+        {
+          "id": "276B7E4785C9D49C",
+          "type": "advancement",
+          "advancement": "divinerpg:twilight/forest_islands"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "759C3A139A271E58"
+      ],
+      "x": 13.75,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "7C2C53EF73799307",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "1D3B83DED2BC0509",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0222E15D2721DD27",
+      "title": "Forest Scourge",
+      "description": [
+        "Kill the Termasect"
+      ],
+      "icon": "divinerpg:wildwood_heart",
+      "tasks": [
+        {
+          "id": "486AF9A30EC458D6",
+          "type": "advancement",
+          "advancement": "divinerpg:twilight/forest_scourge"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "522E5B01DD9FCAD1"
+      ],
+      "x": 2.5,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "441B174C1CCE73B7",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "58278621C403B2FE",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "467BE0CE77117B70",
+      "title": "Friend or Foe?",
+      "description": [
+        "Make a Glinthop angry"
+      ],
+      "icon": "divinerpg:eden_soul",
+      "tasks": [
+        {
+          "id": "5D2141C7C8123638",
+          "type": "advancement",
+          "advancement": "divinerpg:twilight/friend_or_foe"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "759C3A139A271E58"
+      ],
+      "x": 27.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1E2619FBEE03FC4B",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "7977F57B5BF5ECD2",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "7FC5FC5A96517776",
+      "title": "Legolas",
+      "description": [
+        "Kill the Reyvor"
+      ],
+      "icon": "divinerpg:halite_leggings",
+      "tasks": [
+        {
+          "id": "1884A5BBAAB7A192",
+          "type": "advancement",
+          "advancement": "divinerpg:twilight/legolas"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "23E0DF9A90ECBE87"
+      ],
+      "x": 22.5,
+      "y": 15.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "2B9DDFB2D04E6B9A",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "575CB299B5F8A504",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "4605543B00A4552E",
+      "title": "Observer of the Skies",
+      "description": [
+        "Kill the Experienced Cori"
+      ],
+      "icon": "divinerpg:skythern_heart",
+      "tasks": [
+        {
+          "id": "0FBED9444C55A83D",
+          "type": "advancement",
+          "advancement": "divinerpg:twilight/observer_of_the_skies"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6D76829ABFDE4895"
+      ],
+      "x": 25.0,
+      "y": 12.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "44537864E5C63B31",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "5AD6CF989162E79F",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "6D02038032942C07",
+      "title": "Purple Planet",
+      "description": [
+        "Enter the Apalachia dimension"
+      ],
+      "icon": "divinerpg:apalachia_block",
+      "tasks": [
+        {
+          "id": "6FB7EC45FBBE5510",
+          "type": "advancement",
+          "advancement": "divinerpg:twilight/purple_planet"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "522E5B01DD9FCAD1"
+      ],
+      "x": 15.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "01A6A6677EBC4488",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "50AF127DEE4E4B38",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2DB91DF11963FCF6",
+      "title": "Twilight Dimensions",
+      "description": [
+        "Taste the rainbow"
+      ],
+      "icon": "divinerpg:apalachia_blade",
+      "tasks": [
+        {
+          "id": "4000F95102F16F36",
+          "type": "advancement",
+          "advancement": "divinerpg:twilight/root"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 15.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "3B4DCB6DAD8B8747",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "538BEDEA3D63699C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6E774D401F08CA48",
+      "title": "What Have You Done?!",
+      "description": [
+        "Eat a Forbidden Fruit"
+      ],
+      "icon": "divinerpg:forbidden_fruit",
+      "tasks": [
+        {
+          "id": "6E2BD3B1896FABF8",
+          "type": "advancement",
+          "advancement": "divinerpg:twilight/what_have_you_done"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "759C3A139A271E58"
+      ],
+      "x": 30.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5C79897473D7D096",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "3E3D3EEA9C04DBFE",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2A90628A0C219593",
+      "title": "Into Apalachia",
+      "description": [
+        "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "06BBCD06BA3074F9",
+          "type": "dimension",
+          "dimension": "divinerpg:apalachia"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 0.0,
+      "y": 20.0,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "3D21A97BF63415DF",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5E0A6C679197CF15",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "475F997DA347AD8F",
+      "title": "Into Eden",
+      "description": [
+        "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "31B18FFE5A372DD3",
+          "type": "dimension",
+          "dimension": "divinerpg:eden"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 5.0,
+      "y": 20.0,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "25FDA73F45CB59C2",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "69B4211D6EC42F84",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "298DFB646D9F954F",
+      "title": "Into Mortum",
+      "description": [
+        "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "2E2D7214623EA2A5",
+          "type": "dimension",
+          "dimension": "divinerpg:mortum"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 10.0,
+      "y": 20.0,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "13DBDCF9B21F5D13",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "25393C1D829FDC86",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "7FB626EDC8509DB4",
+      "title": "Into Skythern",
+      "description": [
+        "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "6C8BB85D56CBC6AE",
+          "type": "dimension",
+          "dimension": "divinerpg:skythern"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 15.0,
+      "y": 20.0,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "701A85620C2CABA9",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "54273B97034494A4",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "225DE81A1D779CB4",
+      "title": "Into Wildwood",
+      "description": [
+        "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "64D29DDB4454B5FF",
+          "type": "dimension",
+          "dimension": "divinerpg:wildwood"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 0.0,
+      "y": 25.0,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "5799CABB67BB214B",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "182682F42FE0279E",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

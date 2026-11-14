@@ -1,0 +1,363 @@
+{
+  "filename": "wc_dimension_exp_jitl_corba",
+  "id": "76143AC75D6F2DD2",
+  "title": "Journey: Corba",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 41,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "7A7167FEE1528C7C",
+      "title": "Corba Portal Frame",
+      "description": [
+        "Use the Depths guardians' spoils to reach Corba. Save the Ancient Eye of Opening from the Sentry King."
+      ],
+      "icon": "jitl:corba_portal_frame",
+      "tasks": [
+        {
+          "id": "3EDDDAEC175A2205",
+          "type": "item",
+          "item": "jitl:corba_portal_frame",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 5.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "75AC5DC614C3D9A1",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "02CE84D776ED3DD5",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "489E3EFAEB48E4D1",
+      "title": "Into Corba",
+      "description": [
+        "Use the Depths guardians' spoils to reach Corba. Save the Ancient Eye of Opening from the Sentry King."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "0CDB3AFA6A3CDD59",
+          "type": "dimension",
+          "dimension": "jitl:corba"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "7A7167FEE1528C7C"
+      ],
+      "x": 5.0,
+      "y": 2.5,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "10081BFCF291D467",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "7114E35D89FB203D",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "5B900F6EF14547C6",
+      "title": "Corba Portal Gem",
+      "description": [
+        "Bring these discoveries back to your expedition workshop. Consult Essentia for their sources and uses."
+      ],
+      "icon": "jitl:corba_portal_gem",
+      "tasks": [
+        {
+          "id": "2908D5931E4B56D1",
+          "type": "item",
+          "item": "jitl:corba_portal_gem",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "489E3EFAEB48E4D1"
+      ],
+      "x": 0.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "128DBC4EBE6C468A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "6E7CD7B3A979AB3D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "34D4A39ACD16E13B",
+      "title": "Corba Furnace",
+      "description": [
+        "Bring these discoveries back to your expedition workshop. Consult Essentia for their sources and uses."
+      ],
+      "icon": "jitl:corba_furnace",
+      "tasks": [
+        {
+          "id": "11230051E79D6AFD",
+          "type": "item",
+          "item": "jitl:corba_furnace",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "5B900F6EF14547C6"
+      ],
+      "x": 0.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "220B2F54AED7A81A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "7698FC1FF086216B",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "4B4B83DA631261F4",
+      "title": "Corba Church",
+      "description": [
+        "Locate this landmark and mark a route back to your camp."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "4FA78DDF5B8716FC",
+          "type": "structure",
+          "structure": "jitl:corba_church"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "489E3EFAEB48E4D1"
+      ],
+      "x": 2.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5C2D7DA7A0196A39",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "1D38A4DEF7DFA258",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "623407C6E945E6D7",
+      "title": "Logger Orb",
+      "description": [
+        "Use the Depths guardians' spoils to reach Corba. Save the Ancient Eye of Opening from the Sentry King."
+      ],
+      "icon": "jitl:logger_orb",
+      "tasks": [
+        {
+          "id": "31E46252E844E5EA",
+          "type": "item",
+          "item": "jitl:logger_orb",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "489E3EFAEB48E4D1"
+      ],
+      "x": 5.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "0E1C6D1C5BF644C6",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "50E3471F7D98443F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "341D2E90C9D42CAB",
+      "title": "Logger",
+      "description": [
+        "Use the Depths guardians' spoils to reach Corba. Save the Ancient Eye of Opening from the Sentry King."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "293996F8BA15B0B4",
+          "type": "kill",
+          "entity": "jitl:logger",
+          "value": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "623407C6E945E6D7"
+      ],
+      "x": 5.0,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "735DB820ECF1708C",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "724278B062402CE5",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "006446801018CD93",
+      "title": "Sentry King Orb",
+      "description": [
+        "Use the Depths guardians' spoils to reach Corba. Save the Ancient Eye of Opening from the Sentry King."
+      ],
+      "icon": "jitl:sentry_king_orb",
+      "tasks": [
+        {
+          "id": "529D784735E5E24B",
+          "type": "item",
+          "item": "jitl:sentry_king_orb",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "489E3EFAEB48E4D1"
+      ],
+      "x": 7.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "415880258CA03D2C",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "24381BE9BC8078A1",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "3DBADBDB98BE2385",
+      "title": "Sentry King",
+      "description": [
+        "Use the Depths guardians' spoils to reach Corba. Save the Ancient Eye of Opening from the Sentry King."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "55A776CDEF0A57AA",
+          "type": "kill",
+          "entity": "jitl:sentry_king",
+          "value": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "006446801018CD93"
+      ],
+      "x": 7.5,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "1E3677917C51B488",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "49363D1FC99B2673",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "1BFDC36FD2AAA259",
+      "title": "An Outpost in Corba",
+      "description": [
+        "Establish a supplied shelter, mark its return route and bring one shipment home. Keep a charged tool, spare food and healing supplies here."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "0460E6ED4570F94B",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "489E3EFAEB48E4D1"
+      ],
+      "x": 10.0,
+      "y": 5.0,
+      "shape": "rsquare",
+      "size": 1
+    }
+  ]
+}

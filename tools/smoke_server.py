@@ -10,7 +10,7 @@ for r in lock['mods']:
  f=r['file'];updater.download(dict(path='mods/'+f['filename'],url=f['url'],fallback_urls=r.get('fallback_urls',[]),sha512=f['hashes']['sha512'],size=f['size']),mods/f['filename'])
 (mods/PATCH_NAME).write_bytes(build_portal_patch())
 # Audit expedition targets against the exact release jars, not an old web wiki.
-advancements=set();dimensions=set()
+advancements=set();dimensions=set();structures=set()
 for jar in mods.glob('*.jar'):
  with zipfile.ZipFile(jar) as archive:
   for name in archive.namelist():
@@ -19,6 +19,7 @@ for jar in mods.glob('*.jar'):
     target=parts[1]+':'+('/'.join(parts[3:]))[:-5]
     if parts[2]=='advancements':advancements.add(target)
     if parts[2]=='dimension':dimensions.add(target)
+    if len(parts)>4 and parts[2:4]==['worldgen','structure']:structures.add(parts[1]+':'+('/'.join(parts[4:]))[:-5])
 for path in (ROOT/'pack/config/ftbquests/quests/chapters').glob('wc_dimension*.snbt'):
  for q in json.loads(path.read_text())['quests']:
   for task in q['tasks']:
@@ -26,6 +27,8 @@ for path in (ROOT/'pack/config/ftbquests/quests/chapters').glob('wc_dimension*.s
     assert task['advancement'] in advancements, 'Unknown expedition advancement: '+task['advancement']
    if task['type']=='dimension' and not task['dimension'].startswith('minecraft:'):
     assert task['dimension'] in dimensions, 'Unknown expedition dimension: '+task['dimension']
+   if task['type']=='structure' and not task['structure'].startswith('minecraft:'):
+    assert task['structure'] in structures, 'Unknown expedition structure: '+task['structure']
 assert set(json.loads((ROOT/'quests/dimension-inventory.json').read_text())) <= dimensions, 'Dimension inventory differs from release jars'
 for name in ['config','kubejs','defaultconfigs']:
  if (ROOT/'pack'/name).exists():shutil.copytree(ROOT/'pack'/name,dest/name,dirs_exist_ok=True,ignore=shutil.ignore_patterns('simple-rpc','oculus.properties'))
@@ -62,6 +65,9 @@ for boot in range(2):
    refs|={t['item'] for q in quests for t in q.get('tasks',[]) if t.get('type')=='item' and isinstance(t.get('item'),str)}
    refs|={r['item'] for q in quests for r in q.get('rewards',[]) if r.get('type')=='item' and isinstance(r.get('item'),str)}
    assert not refs-registry,'Missing runtime items: '+str(sorted(refs-registry))
+   entities=set((dest/'entity-registry.txt').read_text().splitlines())
+   targets={t['entity'] for q in quests for t in q.get('tasks',[]) if t.get('type')=='kill'}
+   assert not targets-entities,'Missing runtime entities: '+str(sorted(targets-entities))
    recipes=set((dest/'recipe-registry.txt').read_text().splitlines());endgame={'kubejs:endgame/'+name for name in ['industrial_sigil','arcane_sigil','voyager_sigil','prosperity_sigil','convergence_core']};assert endgame<=recipes,'Missing endgame recipes'
    assert 'Parsing error loading recipe' not in text,'Recipe parse errors'
    assert 'mekanism:crushing/venus_sandstone_to_venus_sand' in recipes,'Missing Venus sandstone recipe'
@@ -71,6 +77,26 @@ for boot in range(2):
    commands=set((dest/'command-registry.txt').read_text().splitlines())
    required_commands={'home','sethome','spawn','tpa','tpaccept','tpdeny','tab','warp','mute','unmute','ftbranks','ftbchunks','lcadmin','spark','chunky','pp','servercore'}
    assert required_commands<=commands,'Missing server commands: '+str(sorted(required_commands-commands))
+   # Generate an actual chunk in every new destination on the disposable world.
+   # Console commands run in order: the following marker proves setblock returned.
+   explored=[]
+   expansion=json.loads((ROOT/'quests/expansion.json').read_text(encoding='utf-8'))
+   if boot==0:
+    for index,d in enumerate(expansion['destinations']):
+     if not d['dimension']:continue
+     marker='WOMBAT_DIMENSION_QA_'+str(index)+'_DONE'
+     before=len((dest/'console.log').read_text(errors='replace'))
+     process.stdin.write(('execute in '+d['dimension']+' run setblock 0 100 0 minecraft:gold_block\nsay '+marker+'\n').encode());process.stdin.flush()
+     deadline=time.monotonic()+150
+     while time.monotonic()<deadline:
+      if process.poll() is not None:raise RuntimeError('Server exited generating '+d['dimension'])
+      segment=(dest/'console.log').read_text(errors='replace')[before:]
+      if marker in segment:
+       assert 'Changed the block at' in segment or 'Could not set the block' in segment, 'Dimension chunk generation failed: '+d['dimension']+'\n'+segment[-2500:]
+       explored.append(d['dimension']);break
+      time.sleep(2)
+     else:raise TimeoutError('Dimension generation timed out: '+d['dimension'])
+    (ROOT/'dist/dimension-generation.json').write_text(json.dumps(explored,indent=2))
    (ROOT/'dist/server-validation.json').write_text(json.dumps(dict(quests=len(quests),registry_items=len(registry),recipes=len(recipes),endgame_recipes=sorted(endgame),server_commands=sorted(required_commands),portal_chunk_tracking_verified=True,fresh_world_started=True,restarted_cleanly=boot==1),indent=2))
    print('Dedicated server, quest registry and endgame recipe validation passed.')
   finally:

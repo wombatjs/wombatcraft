@@ -1,0 +1,2294 @@
+{
+  "filename": "wc_dimension_exp_the_deep_void",
+  "id": "2A6EF31BF3D4F2B0",
+  "title": "The Deep Void",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 29,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "3E65C66A76D300FF",
+      "title": "A Comforting Light",
+      "description": [
+        "Obtain a Ferryman's Lantern"
+      ],
+      "icon": "the_deep_void:ferryman_lantern",
+      "tasks": [
+        {
+          "id": "67C04B93888A8DB5",
+          "type": "advancement",
+          "advancement": "the_deep_void:a_comforting_light"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1CFEDD2F7C56B523"
+      ],
+      "x": 42.5,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "4B3347C48DFB22BF",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "673E2916D2479367",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "37DDF63F5C84DDED",
+      "title": "At Least I'm Not Dead",
+      "description": [
+        "Enter the Deep Void by falling in the void while in the End"
+      ],
+      "icon": "minecraft:ender_pearl",
+      "tasks": [
+        {
+          "id": "20C54D4EBEEC42A0",
+          "type": "advancement",
+          "advancement": "the_deep_void:at_least_im_not_dead"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "5B856169C89285A6"
+      ],
+      "x": 0.0,
+      "y": 2.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "2A34D588CB00A295",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "4E9A012A97F6D5FD",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "68AEA0A14AA236E6",
+      "title": "Bad To The Bone",
+      "description": [
+        "Obtain Rotten Bone"
+      ],
+      "icon": "the_deep_void:rotten_bone",
+      "tasks": [
+        {
+          "id": "305BCFD20D31DBC7",
+          "type": "advancement",
+          "advancement": "the_deep_void:bad_to_the_bone"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2FF04973E39732EF"
+      ],
+      "x": 3.75,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5A4AC7F8047770D9",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5E97DE31052D7578",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2FF04973E39732EF",
+      "title": "A Forsaken Place",
+      "description": [
+        "Enter the deepest parts of this world"
+      ],
+      "icon": "minecraft:deepslate",
+      "tasks": [
+        {
+          "id": "0E5795F37A28D475",
+          "type": "advancement",
+          "advancement": "the_deep_void:bone_bottom"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "5B856169C89285A6"
+      ],
+      "x": 41.25,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "187355D8BEE0CADE",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "47160B1203E4A119",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "5C3BA6C2BE736FF1",
+      "title": "Break 'em Bones!",
+      "description": [
+        "Craft a Gravedigger's Shovel to destroy bones"
+      ],
+      "icon": "the_deep_void:gravedigger_shovel",
+      "tasks": [
+        {
+          "id": "4FFC0DEC0DD3438C",
+          "type": "advancement",
+          "advancement": "the_deep_void:break_em_bones"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2E78932AB0CBDEE2"
+      ],
+      "x": 62.5,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "63BD2C542EA64BF5",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "39D11DEE3357B78A",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0826766F474D0205",
+      "title": "Haunting Chant",
+      "description": [
+        "Defeat the False Hydra"
+      ],
+      "icon": "the_deep_void:misted_heart",
+      "tasks": [
+        {
+          "id": "42C9DE67B62D98A3",
+          "type": "advancement",
+          "advancement": "the_deep_void:copycat"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0D71CE733B061338"
+      ],
+      "x": 60.0,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "403FC70112D12EF1",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "30540CB0FB83CDB6",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "4B8DD591C83E877E",
+      "title": "Corruption",
+      "description": [
+        "Place Voidrium Glass on top of a Beacon"
+      ],
+      "icon": "the_deep_void:voidrium_glass",
+      "tasks": [
+        {
+          "id": "79139BCFE0D4DC45",
+          "type": "advancement",
+          "advancement": "the_deep_void:corruption"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "59DE14390CFE1DFA"
+      ],
+      "x": 17.5,
+      "y": 20.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "02C50314DDD54A51",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "59B1A25C199E77D3",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "44F16E912FE2C5CA",
+      "title": "Cover Me With Onyx",
+      "description": [
+        "Wear a piece of Onyx Armor"
+      ],
+      "icon": "the_deep_void:onyx_armor_chestplate",
+      "tasks": [
+        {
+          "id": "5615EB718F20CE3B",
+          "type": "advancement",
+          "advancement": "the_deep_void:cover_me_with_onyx"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2E78932AB0CBDEE2"
+      ],
+      "x": 65.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "02F6FA0E78733BFC",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "666AF296FF3D9E14",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6B3DF78363E94BFB",
+      "title": "Cover Me With Voidrium",
+      "description": [
+        "Wear a full set of Voidrium Armor"
+      ],
+      "icon": "the_deep_void:voidrium_chestplate",
+      "tasks": [
+        {
+          "id": "0D60D9F77AA978DC",
+          "type": "advancement",
+          "advancement": "the_deep_void:cover_me_with_voidrium"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "44F16E912FE2C5CA"
+      ],
+      "x": 65.0,
+      "y": 10.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "28F781E5B3E0567D",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "6DADE34754A4DE0A",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "1ED2EAAB746D7811",
+      "title": "Crack 'n Shatter",
+      "description": [
+        "Craft a Shatterbone Pickaxe"
+      ],
+      "icon": "the_deep_void:reinforced_pickaxe",
+      "tasks": [
+        {
+          "id": "4BEE26848748DD08",
+          "type": "advancement",
+          "advancement": "the_deep_void:crack_and_shatter"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "794D11CC1C08AFAB"
+      ],
+      "x": 18.75,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1981978952F8617E",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "6AFA043B693CA439",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "36521B0077CDE2B4",
+      "title": "Creepy-Crawlies",
+      "description": [
+        "Find the Crawler Nest"
+      ],
+      "icon": "the_deep_void:covered_skull_pile",
+      "tasks": [
+        {
+          "id": "2A139E0DDF39E911",
+          "type": "advancement",
+          "advancement": "the_deep_void:creepy_crawlies"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2FF04973E39732EF"
+      ],
+      "x": 8.75,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "3284CE4AD4DA7115",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "08DC8ACF7CB30AE7",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "7E4DEFBD7F1A68C8",
+      "title": "Desecrating The Dead",
+      "description": [
+        "Finish off an undead mob with the Doom effect from a Tombstone"
+      ],
+      "icon": "minecraft:skeleton_skull",
+      "tasks": [
+        {
+          "id": "4DBE1551D982EE86",
+          "type": "advancement",
+          "advancement": "the_deep_void:desecrating_the_dead"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1298E1B6AB17F97F"
+      ],
+      "x": 75.0,
+      "y": 12.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "3BB144EE1C99FAF0",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "3320AAEC6FDBD9E0",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "6FEB994290939746",
+      "title": "Does It Hate?",
+      "description": [
+        "Find a Flesh Biome"
+      ],
+      "icon": "the_deep_void:flesh_block",
+      "tasks": [
+        {
+          "id": "277A45DB7B5CF0C0",
+          "type": "advancement",
+          "advancement": "the_deep_void:does_it_hate"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2FF04973E39732EF"
+      ],
+      "x": 17.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "227A076BD6AED0B7",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "04F92F2030FEFBF2",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "3B01144670612E1B",
+      "title": "Doesn't Come With Wifi",
+      "description": [
+        "Craft a Rooter"
+      ],
+      "icon": "the_deep_void:rooter_on",
+      "tasks": [
+        {
+          "id": "066643A2A900EDC9",
+          "type": "advancement",
+          "advancement": "the_deep_void:doesnt_come_with_wifi"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2FF04973E39732EF"
+      ],
+      "x": 25.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "18329804B6F63ACC",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "2A7698E82B1767D3",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "5C094EB38907949E",
+      "title": "Eyes On You",
+      "description": [
+        "Craft an Eye Of The Deep to locate an Abductor"
+      ],
+      "icon": "the_deep_void:forgotten_token",
+      "tasks": [
+        {
+          "id": "419A0276EED49EFA",
+          "type": "advancement",
+          "advancement": "the_deep_void:eyes_on_you"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "5B856169C89285A6"
+      ],
+      "x": 82.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "018EEA7F0939F249",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "2E8E0E6D4DF8B84F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "01C10DF48FFFDCAC",
+      "title": "Fast Travel",
+      "description": [
+        "Craft a Void Core to travel long distances instantaneously"
+      ],
+      "icon": "the_deep_void:void_core",
+      "tasks": [
+        {
+          "id": "3CFE56643169E0D9",
+          "type": "advancement",
+          "advancement": "the_deep_void:fast_travel"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "45501142DBE116DD"
+      ],
+      "x": 15.0,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "610853AB3EF945B4",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "746C5EBA2B2EF08C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "75C9951EE95B9F85",
+      "title": "Feeling Watched",
+      "description": [
+        "Find a Desolate Cave under the Windswept Hollow"
+      ],
+      "icon": "the_deep_void:desolate_soil",
+      "tasks": [
+        {
+          "id": "3EA990F6B6BBDB9E",
+          "type": "advancement",
+          "advancement": "the_deep_void:feeling_watched"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2FF04973E39732EF"
+      ],
+      "x": 27.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1D7870C1B361F0D9",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "06D5634C4D59A08F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1539B8294BB8FAAC",
+      "title": "What, Are We Gonna Fight The Sun?",
+      "description": [
+        "Slay a Voidling with a weapon enchanted with Radiance"
+      ],
+      "icon": "the_deep_void:solid_void",
+      "tasks": [
+        {
+          "id": "4BF555B9B63D7EB2",
+          "type": "advancement",
+          "advancement": "the_deep_void:fight_the_sun"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4B684845B2172DAE"
+      ],
+      "x": 32.5,
+      "y": 10.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "4FFB7C5E8377C960",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "14A5FB013C70C62E",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "32DBDB8E5463C25C",
+      "title": "Gave Your Tongue To The Cat",
+      "description": [
+        "Get a Bloody Tongue from a Licker"
+      ],
+      "icon": "the_deep_void:bloody_tongue",
+      "tasks": [
+        {
+          "id": "7885C5A652D630DA",
+          "type": "advancement",
+          "advancement": "the_deep_void:gave_your_tongue_to_the_cat"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6FEB994290939746"
+      ],
+      "x": 12.5,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "526845A70C9C0E3C",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5CDB8C24FB55A3EB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "31914581E83F791C",
+      "title": "Got Your... Eye?",
+      "description": [
+        "Get a Void Lens from a Void Watcher to fuse it with a Spyglass in a Smithing Table"
+      ],
+      "icon": "the_deep_void:void_lens",
+      "tasks": [
+        {
+          "id": "289645D25ED642DF",
+          "type": "advancement",
+          "advancement": "the_deep_void:got_your_eye"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "75C9951EE95B9F85"
+      ],
+      "x": 27.5,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "6C07EEA4EA2EBA3A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "62FE5895F56647A8",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1E0031F1759E6105",
+      "title": "Hammering It In",
+      "description": [
+        "Obtain the Hammer and Chisel from the Undertaker"
+      ],
+      "icon": "the_deep_void:hammer_and_chisel",
+      "tasks": [
+        {
+          "id": "5CF7C42C2BA50CC6",
+          "type": "advancement",
+          "advancement": "the_deep_void:hammering_it_in"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2FF04973E39732EF"
+      ],
+      "x": 30.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "6947AD273C227120",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "28BA00C5BA10825A",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "10CAABB13B55981E",
+      "title": "Hungry Fella",
+      "description": [
+        "Craft a Glutton Block to feed it meat, edible products, minerals or soil"
+      ],
+      "icon": "the_deep_void:glutton_block",
+      "tasks": [
+        {
+          "id": "79240CB7E2C2EB81",
+          "type": "advancement",
+          "advancement": "the_deep_void:hungry_fella"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "020134992732CD05"
+      ],
+      "x": 15.0,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "3C04264DF410F2A3",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5D5F0BEE1CB3A460",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6091D00F91093FE7",
+      "title": "Hunter Hunted",
+      "description": [
+        "There are more.."
+      ],
+      "icon": "the_deep_void:stalker_scythe_claw",
+      "tasks": [
+        {
+          "id": "31FA1FB92F4E3DBF",
+          "type": "advancement",
+          "advancement": "the_deep_void:hunter"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2FF04973E39732EF"
+      ],
+      "x": 35.0,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "7ACA7AD867F98C4F",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "421132B40C7ED000",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "6038A5BDFCAE555A",
+      "title": "I Am Become Death",
+      "description": [
+        "Wear a full set of Soul-Fused Voidrium Armor"
+      ],
+      "icon": "the_deep_void:sacred_voidrium_chestplate",
+      "tasks": [
+        {
+          "id": "6D72DD5FE10A7C9B",
+          "type": "advancement",
+          "advancement": "the_deep_void:i_am_become_death"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6B3DF78363E94BFB"
+      ],
+      "x": 65.0,
+      "y": 12.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "61721DBD9924388A",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "045D3898A4C7844F",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "6C057739153F588D",
+      "title": "I Call This Place Home",
+      "description": [
+        "Explore all Deep Void biomes"
+      ],
+      "icon": "the_deep_void:voidrium_boots",
+      "tasks": [
+        {
+          "id": "6F4E1696F93CC6AB",
+          "type": "advancement",
+          "advancement": "the_deep_void:i_call_this_place_home"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2FF04973E39732EF"
+      ],
+      "x": 40.0,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "005B76E7458D379C",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "52DD73DF5529E1F0",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "7243835A99822538",
+      "title": "I can't stop winning!",
+      "description": [
+        "Accumulate five adrenaline with Peril"
+      ],
+      "icon": "the_deep_void:peril",
+      "tasks": [
+        {
+          "id": "5AB55CC1FE71B891",
+          "type": "advancement",
+          "advancement": "the_deep_void:i_cant_stop_winning"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "18D4B449AE00404C"
+      ],
+      "x": 72.5,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "475D54CBAE271CA3",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "0E34F9420C6F616A",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "78E6F487E567AC4E",
+      "title": "Ichor Or Ichor?",
+      "description": [
+        "Craft an Ichor Carver"
+      ],
+      "icon": "the_deep_void:ichor_carver",
+      "tasks": [
+        {
+          "id": "37E64906538C0071",
+          "type": "advancement",
+          "advancement": "the_deep_void:ichor_or_ichor"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "506A385A71C5FBEA"
+      ],
+      "x": 18.75,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "02D19B51BF51577C",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "159CEAF18AB8FA12",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0B333713FF82B632",
+      "title": "If You Gaze Into An Abyss..",
+      "description": [
+        "Obtain a Void Mirror"
+      ],
+      "icon": "the_deep_void:void_mirror",
+      "tasks": [
+        {
+          "id": "2BF90B7FD934DDB8",
+          "type": "advancement",
+          "advancement": "the_deep_void:if_you_gaze_into_an_abyss"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4B684845B2172DAE"
+      ],
+      "x": 35.0,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "491D788F944AB2B5",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "76468B3CA9311654",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "020134992732CD05",
+      "title": "In Flesh And Bones",
+      "description": [
+        "Defeat the Misanthropic Hivemind"
+      ],
+      "icon": "the_deep_void:misanthropic_hivemind_treasure_bag",
+      "tasks": [
+        {
+          "id": "07756A796DA831CB",
+          "type": "advancement",
+          "advancement": "the_deep_void:in_flesh_and_bones"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6FEB994290939746"
+      ],
+      "x": 15.0,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "3B42FEE0B101CE3E",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "51586A441208550A",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "1CFEDD2F7C56B523",
+      "title": "Is It Amethyst?",
+      "description": [
+        "Obtain Lavendite"
+      ],
+      "icon": "the_deep_void:lavendite",
+      "tasks": [
+        {
+          "id": "06D90726D7DAC32D",
+          "type": "advancement",
+          "advancement": "the_deep_void:is_it_amethyst"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2FF04973E39732EF"
+      ],
+      "x": 43.75,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "11AD836E0725BEBD",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "698F54C8844A5977",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "000F204F32BF3ACD",
+      "title": "Git Gud!",
+      "description": [
+        "Defeat a boss without getting hit"
+      ],
+      "icon": "the_deep_void:head_of_the_apostle",
+      "tasks": [
+        {
+          "id": "69471F8E3A1AEEBF",
+          "type": "advancement",
+          "advancement": "the_deep_void:it_aint_hard"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2FF04973E39732EF"
+      ],
+      "x": 47.5,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "60DBD30F50D370DB",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "63A7BF33B9B5A5AB",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "35355F397DBBBB00",
+      "title": "It Wasn't There Before",
+      "description": [
+        "Find the Drifting Monoliths"
+      ],
+      "icon": "the_deep_void:cinnabar_ore",
+      "tasks": [
+        {
+          "id": "77F982752D0F3F02",
+          "type": "advancement",
+          "advancement": "the_deep_void:it_wasnt_there_before"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2FF04973E39732EF"
+      ],
+      "x": 51.25,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "02DDF2AA947BB325",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "57C82D108C39918D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "5539EE24BE771CB4",
+      "title": "It's Alive!",
+      "description": [
+        "Build your very own Overseer by using an Eye Of The Deep on a Monolithic Stone pillar"
+      ],
+      "icon": "the_deep_void:seer",
+      "tasks": [
+        {
+          "id": "124285A5AE21B69F",
+          "type": "advancement",
+          "advancement": "the_deep_void:its_alive"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "35355F397DBBBB00"
+      ],
+      "x": 50.0,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "4156B57E5BFC9B70",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "105F9BFC97C53F2C",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "488FBD043B99A864",
+      "title": "Keep It At Bay",
+      "description": [
+        "Use a Stalker Treat to deter the Stalker"
+      ],
+      "icon": "the_deep_void:stalker_treat",
+      "tasks": [
+        {
+          "id": "5C89484795495730",
+          "type": "advancement",
+          "advancement": "the_deep_void:keep_it_at_bay"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "68AEA0A14AA236E6"
+      ],
+      "x": 2.5,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1776B1928A803301",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "50D935270B1353E3",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "5EDD6EAD34469BA5",
+      "title": "Monster.",
+      "description": [
+        "Follow this expedition milestone in the advancement journal, then return to claim your supplies."
+      ],
+      "icon": "the_deep_void:knightfish",
+      "tasks": [
+        {
+          "id": "7683CB56DC94F24B",
+          "type": "advancement",
+          "advancement": "the_deep_void:knightfish_consume"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2FF04973E39732EF"
+      ],
+      "x": 55.0,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "779AA712EABAEC54",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "584C35F4FCB7A071",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "79EF4ADFD10D97E4",
+      "title": "Living Ingot",
+      "description": [
+        "Obtain Hard Flesh Ingots"
+      ],
+      "icon": "the_deep_void:hard_flesh_ingot",
+      "tasks": [
+        {
+          "id": "10AD2BD6CB3A4570",
+          "type": "advancement",
+          "advancement": "the_deep_void:living_ingot"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "29C0B2B880819434"
+      ],
+      "x": 22.5,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "3064ABD49BADC7F2",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "095741F798B5EDDB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2C4A2E39C5C00768",
+      "title": "Of Blood And Void",
+      "description": [
+        "Use an Onyx Needle in a cave while in total darkness"
+      ],
+      "icon": "the_deep_void:onyx_needle",
+      "tasks": [
+        {
+          "id": "7766A121906DF1E1",
+          "type": "advancement",
+          "advancement": "the_deep_void:may_needle_lead_blood"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2E78932AB0CBDEE2"
+      ],
+      "x": 67.5,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "056AAB00AD0FB6A2",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "732105648DB63AD8",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "3286C3B7A24A76F4",
+      "title": "Miracle Of Life",
+      "description": [
+        "Hatch a Bone Crawler Egg with the Hatching Enzyme and feed the Baby Bone Crawler bones to make it grow up"
+      ],
+      "icon": "the_deep_void:bone_crawler_egg",
+      "tasks": [
+        {
+          "id": "4E2AE083B4A823EB",
+          "type": "advancement",
+          "advancement": "the_deep_void:miracle_of_life"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "36521B0077CDE2B4"
+      ],
+      "x": 7.5,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "446C33D5724AD0B5",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "6810C4109231BDAB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "4B684845B2172DAE",
+      "title": "Nightmare Fuel",
+      "description": [
+        "Survive an encounter with the Voidborn to get the Voided Heart"
+      ],
+      "icon": "the_deep_void:voided_heart",
+      "tasks": [
+        {
+          "id": "4292B650DED8EF72",
+          "type": "advancement",
+          "advancement": "the_deep_void:nightmare_fuel"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6091D00F91093FE7"
+      ],
+      "x": 33.75,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "3DD9469AF88E6319",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "3213AB3291B239E1",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "78AAB62220067EA6",
+      "title": "Not My Cup Of Tea",
+      "description": [
+        "Return home after entering the Deep Void by using the Void Pendant"
+      ],
+      "icon": "the_deep_void:void_pendant",
+      "tasks": [
+        {
+          "id": "6C39DDB0D2F89F8E",
+          "type": "advancement",
+          "advancement": "the_deep_void:not_my_cup_of_tea"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2FF04973E39732EF"
+      ],
+      "x": 57.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "64C93BEE8F1895F4",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "046CD97B2E90B027",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "54A41FDFE71D3853",
+      "title": "Not The Crawlers!",
+      "description": [
+        "Defeat the Primordial Bone Crawler"
+      ],
+      "icon": "the_deep_void:primordial_crawler_treasure_bag",
+      "tasks": [
+        {
+          "id": "12C4B29B29CA15E1",
+          "type": "advancement",
+          "advancement": "the_deep_void:not_the_crawlers"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "36521B0077CDE2B4"
+      ],
+      "x": 10.0,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "3AB52F7D72480A2E",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "030EF320573772B1",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "0D71CE733B061338",
+      "title": "Ominous Fog",
+      "description": [
+        "Find the Misted Remnants"
+      ],
+      "icon": "the_deep_void:misted_remains",
+      "tasks": [
+        {
+          "id": "0DDCCFC69B06CCDA",
+          "type": "advancement",
+          "advancement": "the_deep_void:ominous_fog"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2FF04973E39732EF"
+      ],
+      "x": 60.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "731A977FAEEB6D01",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "2E759F637F0554E3",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "506A385A71C5FBEA",
+      "title": "Ommetaphobia",
+      "description": [
+        "Defeat the Hive's Watcher"
+      ],
+      "icon": "the_deep_void:hive_watcher_treasure_bag",
+      "tasks": [
+        {
+          "id": "0A2DB47190B3783B",
+          "type": "advancement",
+          "advancement": "the_deep_void:ommetaphobia"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6FEB994290939746"
+      ],
+      "x": 18.75,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "5834E5D5D27C5920",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "4A2EAB634D780827",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "45501142DBE116DD",
+      "title": "Onyx, But Bigger",
+      "description": [
+        "Get Ancient Onyx from feeding Desolate Soil to the Glutton Block"
+      ],
+      "icon": "the_deep_void:ancient_onyx",
+      "tasks": [
+        {
+          "id": "33DE200F93498757",
+          "type": "advancement",
+          "advancement": "the_deep_void:onyx_but_bigger"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "10CAABB13B55981E"
+      ],
+      "x": 15.0,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "4197D07F5E9C0148",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "62F5BF85FB81989D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "59DE14390CFE1DFA",
+      "title": "Pretty Gems",
+      "description": [
+        "Obtain Voidrium"
+      ],
+      "icon": "the_deep_void:voidrium_gem",
+      "tasks": [
+        {
+          "id": "7926B1C4701336CD",
+          "type": "advancement",
+          "advancement": "the_deep_void:pretty_gems"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1ED2EAAB746D7811"
+      ],
+      "x": 18.75,
+      "y": 17.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1073550740F45278",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "4654EFEEB30007D6",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "04E53886D0917A28",
+      "title": "Praying For Safe Travels",
+      "description": [
+        "Craft a Lurker Shrine to set your spawnpoint"
+      ],
+      "icon": "the_deep_void:lurker_shrine",
+      "tasks": [
+        {
+          "id": "57B7DB7FE85D1EF3",
+          "type": "advancement",
+          "advancement": "the_deep_void:safe_travels"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "68AEA0A14AA236E6"
+      ],
+      "x": 5.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1C6502892A3E446C",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "4B75D6CF10D38F0B",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2E78932AB0CBDEE2",
+      "title": "Darkness My Old Friend",
+      "description": [
+        "Follow this expedition milestone in the advancement journal, then return to claim your supplies."
+      ],
+      "icon": "the_deep_void:onyx",
+      "tasks": [
+        {
+          "id": "4D2BA9CEB8C89C54",
+          "type": "advancement",
+          "advancement": "the_deep_void:shining_darkness_in_deepest_parts"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2FF04973E39732EF"
+      ],
+      "x": 66.25,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "4F1828D4619FB7CE",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "1740EE55AC0A880D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1298E1B6AB17F97F",
+      "title": "Six Feet Under",
+      "description": [
+        "Craft a Tombstone"
+      ],
+      "icon": "the_deep_void:tombstone",
+      "tasks": [
+        {
+          "id": "736A59581E8DCDEF",
+          "type": "advancement",
+          "advancement": "the_deep_void:six_feet_under"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "594D702EA303B3F3"
+      ],
+      "x": 75.0,
+      "y": 10.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "41CD595938A540DD",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "47E9E2DE5CDA197F",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "594D702EA303B3F3",
+      "title": "Soul-Fused Netherite",
+      "description": [
+        "Obtain Soul-Fused Ingots by combining Soul Shards and Netherite Ingots in a Soul Forge"
+      ],
+      "icon": "the_deep_void:soul_fused_ingot",
+      "tasks": [
+        {
+          "id": "5153EF7D9860C1DF",
+          "type": "advancement",
+          "advancement": "the_deep_void:soul_fused_netherite"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "18D4B449AE00404C"
+      ],
+      "x": 75.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "284E4CCB9CE816C7",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "66AD1C71EEE5F91A",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "13F07A1472985026",
+      "title": "It's Over 9000!!",
+      "description": [
+        "Upgrade a sword with the Lavendite Smithing Upgrade"
+      ],
+      "icon": "the_deep_void:smithing_template_lavendite",
+      "tasks": [
+        {
+          "id": "45047974A7CEE472",
+          "type": "advancement",
+          "advancement": "the_deep_void:speed_its_over_9000"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1CFEDD2F7C56B523"
+      ],
+      "x": 45.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "238FB13F701E76C4",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "736153FED00F978C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "794D11CC1C08AFAB",
+      "title": "Steel, But Dark",
+      "description": [
+        "Obtain Dark Steel Scrap"
+      ],
+      "icon": "the_deep_void:dark_steel_scrap",
+      "tasks": [
+        {
+          "id": "30DAE6CEB3CFE99C",
+          "type": "advancement",
+          "advancement": "the_deep_void:steel_but_dark"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "78E6F487E567AC4E"
+      ],
+      "x": 18.75,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "61471F91FE4123DC",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "599EC5F2B61B06F6",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "5B856169C89285A6",
+      "title": "The Deep Void",
+      "description": [
+        "Forgotten lands and corrupted minds"
+      ],
+      "icon": "the_deep_void:block_of_bone_pile",
+      "tasks": [
+        {
+          "id": "6E840E52351A54DC",
+          "type": "advancement",
+          "advancement": "the_deep_void:the_deep_void_advancement"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 41.25,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1E432A70BD6D47CB",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "022B0AD374D63A4E",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "29C0B2B880819434",
+      "title": "Thousand Year Old Salami",
+      "description": [
+        "Obtain Ancient Flesh"
+      ],
+      "icon": "the_deep_void:flesh_chunk",
+      "tasks": [
+        {
+          "id": "044BF31FC084345C",
+          "type": "advancement",
+          "advancement": "the_deep_void:thousand_years_old_salami"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6FEB994290939746"
+      ],
+      "x": 22.5,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "66B7E7A8DAAB1028",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "076503CB478B4E71",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "79630E2695BEB58D",
+      "title": "Ultimate Dedication",
+      "description": [
+        "Craft a Voidrium Hoe. It's too late to reevaluate your life choices now"
+      ],
+      "icon": "the_deep_void:voidrium_hoe",
+      "tasks": [
+        {
+          "id": "1326B7803B78496A",
+          "type": "advancement",
+          "advancement": "the_deep_void:ultimate_dedication"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "59DE14390CFE1DFA"
+      ],
+      "x": 20.0,
+      "y": 20.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "3D87FE3C31177994",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "7C1BA380D3A218AE",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "18D4B449AE00404C",
+      "title": "Unholy Psalmody",
+      "description": [
+        "Defeat the Apostle Of Catastrophe"
+      ],
+      "icon": "the_deep_void:apostle_of_catastrophe_treasure_bag",
+      "tasks": [
+        {
+          "id": "2DEFE613FC809CFD",
+          "type": "advancement",
+          "advancement": "the_deep_void:unholy_psalmody"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2FF04973E39732EF"
+      ],
+      "x": 73.75,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "15C778E219CE965D",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "2EDB79C7B37375E6",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "308E96ABD0BAE3F0",
+      "title": "Watch It, Punk!",
+      "description": [
+        "Mercilessly slaughter a Stalker or a Voidborn with its own weapon"
+      ],
+      "icon": "the_deep_void:grim_scythe",
+      "tasks": [
+        {
+          "id": "5D689E636A46B509",
+          "type": "advancement",
+          "advancement": "the_deep_void:watch_it_punk"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6091D00F91093FE7"
+      ],
+      "x": 37.5,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "6A91C2274EB01AE2",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "461A8401FF5CE7CB",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "14664B3C0401F03F",
+      "title": "The Abomination Of A Forgotten Time",
+      "description": [
+        "Defeat the Weaver Of Souls"
+      ],
+      "icon": "the_deep_void:weaver_of_souls_treasure_bag",
+      "tasks": [
+        {
+          "id": "0A8456791E288042",
+          "type": "advancement",
+          "advancement": "the_deep_void:weave_at_no_end"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2FF04973E39732EF"
+      ],
+      "x": 77.5,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "55BF0B3488E9F205",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "4C28853A669E773B",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "5AE8EAA282CC3C97",
+      "title": "Weird Flex",
+      "description": [
+        "Craft Refined Onyx Stairs"
+      ],
+      "icon": "the_deep_void:refined_onyx_stairs",
+      "tasks": [
+        {
+          "id": "54A1C03C97B5346D",
+          "type": "advancement",
+          "advancement": "the_deep_void:weird_flex"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2E78932AB0CBDEE2"
+      ],
+      "x": 70.0,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "25076A0B0C0617B0",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "440687ADAA029C27",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "5FB72D99A7166E0F",
+      "title": "We've Hit Rock Bottom",
+      "description": [
+        "Reach the birth place of everything"
+      ],
+      "icon": "the_deep_void:primordial_stone",
+      "tasks": [
+        {
+          "id": "668F70882E00488E",
+          "type": "advancement",
+          "advancement": "the_deep_void:weve_hit_rock_bottom"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2FF04973E39732EF"
+      ],
+      "x": 80.0,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "38328947D43F789F",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "0B6BF84AAEBBF347",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "0D989B0CC8F76FD8",
+      "title": "What's A Skill Issue?",
+      "description": [
+        "Defeat every boss without getting hit once"
+      ],
+      "icon": "the_deep_void:head_of_the_weaver",
+      "tasks": [
+        {
+          "id": "25936DD477F9D1EA",
+          "type": "advancement",
+          "advancement": "the_deep_void:what_is_a_skill_issue"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "000F204F32BF3ACD"
+      ],
+      "x": 47.5,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "05170C6414FB904F",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "0E1B6E3EEB589D17",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "18EBD67850C3DDB0",
+      "title": "With A Slight Taste Of Cinnamon",
+      "description": [
+        "Eat a Cinnabar Roll"
+      ],
+      "icon": "the_deep_void:cinnabar_roll",
+      "tasks": [
+        {
+          "id": "5CA544E4D1D00461",
+          "type": "advancement",
+          "advancement": "the_deep_void:with_a_slight_taste_of_cinnamon"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "35355F397DBBBB00"
+      ],
+      "x": 52.5,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "04570C3079D4DB0E",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "4E1AADA99B3F957D",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "2D0091443747AE8B",
+      "title": "The Deep Void Field Guide",
+      "description": [
+        "Beyond the bedrock waits a hostile world. Carry light and supplies, then seek the means to make a Void Pendant for the return. Its guardians hold the road to stronger equipment."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "5EABE9D06BDF5FA2",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 0.0,
+      "y": 25.0,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "29BF873D3AD1FD2E",
+      "title": "Into Deep Void",
+      "description": [
+        "Beyond the bedrock waits a hostile world. Carry light and supplies, then seek the means to make a Void Pendant for the return. Its guardians hold the road to stronger equipment."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "7A1B6D19C28A01E6",
+          "type": "dimension",
+          "dimension": "the_deep_void:deep_void"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 5.0,
+      "y": 25.0,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "4F7150453FDE7BCD",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "6D854145E440DDB9",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "2A8893C5B14B2E20",
+      "title": "Into The Pit",
+      "description": [
+        "Follow the Deep Void's deepest expedition before attempting this dangerous destination."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "565708AA1295D325",
+          "type": "dimension",
+          "dimension": "the_deep_void:the_pit"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 10.0,
+      "y": 25.0,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "55E641AF305E42EA",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "1A76868C751A9C68",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

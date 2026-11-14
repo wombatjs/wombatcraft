@@ -1,0 +1,363 @@
+{
+  "filename": "wc_dimension_exp_jitl_depths",
+  "id": "5900C714E4581DBE",
+  "title": "Journey: The Depths",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 40,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "02DEA990D4663A68",
+      "title": "Depths Portal Frame",
+      "description": [
+        "Use the materials recovered from Euca guardians to form the horizontal Depths gateway shown in Essentia."
+      ],
+      "icon": "jitl:depths_portal_frame",
+      "tasks": [
+        {
+          "id": "5E31D0B3B11E22AB",
+          "type": "item",
+          "item": "jitl:depths_portal_frame",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 5.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1325D18E513CFE42",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "7FBBF6C651FF886D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "38BC452A8143A26E",
+      "title": "Into The Depths",
+      "description": [
+        "Use the materials recovered from Euca guardians to form the horizontal Depths gateway shown in Essentia."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "52E57217C0320DEF",
+          "type": "dimension",
+          "dimension": "jitl:depths"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "02DEA990D4663A68"
+      ],
+      "x": 5.0,
+      "y": 2.5,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "104B4C119E78B0B2",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "7C0EBE6938F301EE",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "6C87796A9BBD736C",
+      "title": "Depths Portal Gem",
+      "description": [
+        "Bring these discoveries back to your expedition workshop. Consult Essentia for their sources and uses."
+      ],
+      "icon": "jitl:depths_portal_gem",
+      "tasks": [
+        {
+          "id": "21D072B36B787AF1",
+          "type": "item",
+          "item": "jitl:depths_portal_gem",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "38BC452A8143A26E"
+      ],
+      "x": 0.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "77DD5A00D145569A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "688EE0B5FB02D512",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1731DDA056D26282",
+      "title": "Depths Furnace",
+      "description": [
+        "Bring these discoveries back to your expedition workshop. Consult Essentia for their sources and uses."
+      ],
+      "icon": "jitl:depths_furnace",
+      "tasks": [
+        {
+          "id": "7231C930E2031B2C",
+          "type": "item",
+          "item": "jitl:depths_furnace",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6C87796A9BBD736C"
+      ],
+      "x": 0.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "3092C87DF538C0C6",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "47885851A23E0F6C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1CAC10445EFEC3DC",
+      "title": "Depths Village",
+      "description": [
+        "Locate this landmark and mark a route back to your camp."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "35551F5979818B3B",
+          "type": "structure",
+          "structure": "jitl:depths_village"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "38BC452A8143A26E"
+      ],
+      "x": 2.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "77BEDC4297F6DE4A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "51881839DE4BAA14",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6101E683589067D4",
+      "title": "Scale Orb",
+      "description": [
+        "Use the materials recovered from Euca guardians to form the horizontal Depths gateway shown in Essentia."
+      ],
+      "icon": "jitl:scale_orb",
+      "tasks": [
+        {
+          "id": "3091FE7E826E84F5",
+          "type": "item",
+          "item": "jitl:scale_orb",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "38BC452A8143A26E"
+      ],
+      "x": 5.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "6D8AE39C7FCB5B0F",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "59DC144527D241D3",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "051D10E9D5511242",
+      "title": "Scale",
+      "description": [
+        "Use the materials recovered from Euca guardians to form the horizontal Depths gateway shown in Essentia."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "521331D959C84728",
+          "type": "kill",
+          "entity": "jitl:scale",
+          "value": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6101E683589067D4"
+      ],
+      "x": 5.0,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "4AFD2B22EFCC1497",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "4BAB53B3FE2C41B5",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "5D588607205D4CD6",
+      "title": "Thunderbird Orb",
+      "description": [
+        "Use the materials recovered from Euca guardians to form the horizontal Depths gateway shown in Essentia."
+      ],
+      "icon": "jitl:thunder_bird_orb",
+      "tasks": [
+        {
+          "id": "455AF0FDFABBE1B1",
+          "type": "item",
+          "item": "jitl:thunder_bird_orb",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "38BC452A8143A26E"
+      ],
+      "x": 7.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "2DA9FE039A155A11",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "3237F9E3FAEC400A",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "3291F2B4B4771C38",
+      "title": "Thunder Bird",
+      "description": [
+        "Use the materials recovered from Euca guardians to form the horizontal Depths gateway shown in Essentia."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "66F9B2F73F5FC4E2",
+          "type": "kill",
+          "entity": "jitl:thunder_bird",
+          "value": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "5D588607205D4CD6"
+      ],
+      "x": 7.5,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "25719629B12EE156",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "004B947582EC8174",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "60D0A0447A97AE13",
+      "title": "An Outpost in The Depths",
+      "description": [
+        "Establish a supplied shelter, mark its return route and bring one shipment home. Keep a charged tool, spare food and healing supplies here."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "19B8A5E3691758C4",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "38BC452A8143A26E"
+      ],
+      "x": 10.0,
+      "y": 5.0,
+      "shape": "rsquare",
+      "size": 1
+    }
+  ]
+}

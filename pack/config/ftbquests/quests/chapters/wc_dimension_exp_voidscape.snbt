@@ -1,0 +1,676 @@
+{
+  "filename": "wc_dimension_exp_voidscape",
+  "id": "2D6C611CBC5A9AE4",
+  "title": "Voidscape",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 32,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "7FA9A94BC6500DD2",
+      "title": "Voidic Protection",
+      "description": [
+        "Equip a piece of voidic armor to protect yourself from the Void's harmful effects"
+      ],
+      "icon": "voidscape:voidic_crystal_chest",
+      "tasks": [
+        {
+          "id": "2063AE8D77A3A0EC",
+          "type": "advancement",
+          "advancement": "voidscape:armor"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1C5BADE43396FBBF"
+      ],
+      "x": 3.75,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "42F6921523D8824A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "3BA97B6C0C2322CA",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "299AA8A7E4396F45",
+      "title": "Astral",
+      "description": [
+        "Use Astral Shards on an Anti Rock and break it after an Anti Bolt strikes it"
+      ],
+      "icon": "voidscape:astral_essence",
+      "tasks": [
+        {
+          "id": "244BD2CEE88B8136",
+          "type": "advancement",
+          "advancement": "voidscape:astral"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0BC19C2D32CC7C83"
+      ],
+      "x": 5.0,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "53B3834E2D216639",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "00A0E66E8233D8DF",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "139F3624B0CAA96E",
+      "title": "And The Stars Align",
+      "description": [
+        "Use Astral Essence on a Null Servant"
+      ],
+      "icon": "voidscape:astral_crystal",
+      "tasks": [
+        {
+          "id": "0F434D087C4B068A",
+          "type": "advancement",
+          "advancement": "voidscape:astral_crystal"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "299AA8A7E4396F45"
+      ],
+      "x": 5.0,
+      "y": 17.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "1519198D9DC0BC34",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "497F24A90E146210",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "0BC19C2D32CC7C83",
+      "title": "Broken Glass",
+      "description": [
+        "Throw a Strange Pearl at an End Crystal"
+      ],
+      "icon": "voidscape:astral_shards",
+      "tasks": [
+        {
+          "id": "03708498285AD110",
+          "type": "advancement",
+          "advancement": "voidscape:cracked"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2916807D52861988"
+      ],
+      "x": 5.0,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "106786F057308B69",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "36DABBB3CBFE959B",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0DB7E1FBDC601EA9",
+      "title": "Defused",
+      "description": [
+        "Stand near an active Defuser"
+      ],
+      "icon": "voidscape:machine_defuser",
+      "tasks": [
+        {
+          "id": "08F472E10553019D",
+          "type": "advancement",
+          "advancement": "voidscape:defused"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "297E7D3694A1EC3B"
+      ],
+      "x": 0.0,
+      "y": 10.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "7A9D2B0D9C5E56EA",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "72A47EB9A800BDAE",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "65A926C4F2B475B1",
+      "title": "Ethereal",
+      "description": [
+        "Obtain Ethereal Essence from a Monster and use it on Bedrock"
+      ],
+      "icon": "voidscape:ethereal_essence",
+      "tasks": [
+        {
+          "id": "1778E5935283FEAD",
+          "type": "advancement",
+          "advancement": "voidscape:essence"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1C5BADE43396FBBF"
+      ],
+      "x": 10.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "770E849B6B0ED393",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "411B70AD890AA2CC",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "01B935858B299CD5",
+      "title": "Hammer Time",
+      "description": [
+        "Mine blocks with a Charred War Hammer"
+      ],
+      "icon": "voidscape:charred_warhammer",
+      "tasks": [
+        {
+          "id": "5619A2C4CB8D9552",
+          "type": "advancement",
+          "advancement": "voidscape:hammer"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1C5BADE43396FBBF"
+      ],
+      "x": 12.5,
+      "y": 2.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "0A951D659A833366",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "337FD1BC2DA7C1E8",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "19C44450B7BF8058",
+      "title": "Green Thumb",
+      "description": [
+        "Use the fertilizing effect from a Titanite Hoe"
+      ],
+      "icon": "voidscape:titanite_hoe",
+      "tasks": [
+        {
+          "id": "187E46899C860F54",
+          "type": "advancement",
+          "advancement": "voidscape:hoe"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3F139CF313DF4174"
+      ],
+      "x": 2.5,
+      "y": 10.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "47F819D335452E94",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "4EA2B1576BEA0ABE",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "2916807D52861988",
+      "title": "Blood of the Gods",
+      "description": [
+        "Use Ichor on a Null Servant"
+      ],
+      "icon": "voidscape:ichor_crystal",
+      "tasks": [
+        {
+          "id": "343F32817F3E2D47",
+          "type": "advancement",
+          "advancement": "voidscape:ichor"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3F139CF313DF4174"
+      ],
+      "x": 6.25,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "0058BFF67779F803",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "51C9F550178E88B2",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "25466EC306C91DEC",
+      "title": "Infused",
+      "description": [
+        "Experience the full effects of Voidic Infusion"
+      ],
+      "icon": "voidscape:ethereal_fruit_void",
+      "tasks": [
+        {
+          "id": "735F24B8DC18FB2B",
+          "type": "advancement",
+          "advancement": "voidscape:infused"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1C5BADE43396FBBF"
+      ],
+      "x": 15.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "10BBBBDC406BD651",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "72CD1B0BAF6A3BC6",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "297E7D3694A1EC3B",
+      "title": "LIQUID!",
+      "description": [
+        "Stand near an active Liquifier"
+      ],
+      "icon": "voidscape:machine_liquifier",
+      "tasks": [
+        {
+          "id": "0423E2806D2CD5D7",
+          "type": "advancement",
+          "advancement": "voidscape:liquid"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3AD91E8578B3F8F4"
+      ],
+      "x": 0.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "66ABEC6167A7685D",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "09A63CFB7E6A6822",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "5FAA274966731896",
+      "title": "Dark Arts",
+      "description": [
+        "Open a portal to the Void using Voidic Crystal Blocks and a Charred Bone"
+      ],
+      "icon": "voidscape:voidic_crystal_block",
+      "tasks": [
+        {
+          "id": "286071E8AA84F006",
+          "type": "advancement",
+          "advancement": "voidscape:portal"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1C5BADE43396FBBF"
+      ],
+      "x": 17.5,
+      "y": 2.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "76B29BFFC4808CB8",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "089D2077137D3A3E",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "3AD91E8578B3F8F4",
+      "title": "Psychosis",
+      "description": [
+        "Experience the psychotic effects of the Void and defeat the Corrupted Pawn"
+      ],
+      "icon": "voidscape:tendril",
+      "tasks": [
+        {
+          "id": "6259A2ABE1F1AAB9",
+          "type": "advancement",
+          "advancement": "voidscape:psychosis"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "7FA9A94BC6500DD2"
+      ],
+      "x": 3.75,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "0281D31D7AC81DBB",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "6CD0C59206B4AF0A",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "3F139CF313DF4174",
+      "title": "Purified",
+      "description": [
+        "Use a Titanite Chunk on a Null Servant"
+      ],
+      "icon": "voidscape:titanite_shard",
+      "tasks": [
+        {
+          "id": "39E4C0732C047C0F",
+          "type": "advancement",
+          "advancement": "voidscape:purified"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3AD91E8578B3F8F4"
+      ],
+      "x": 5.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "37C79115D24E899A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "43437372E909ACD9",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1C5BADE43396FBBF",
+      "title": "The Void",
+      "description": [
+        "Get sucked into the Void"
+      ],
+      "icon": "voidscape:voidic_crystal",
+      "tasks": [
+        {
+          "id": "613FDBB0270ED330",
+          "type": "advancement",
+          "advancement": "voidscape:root"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 8.75,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "56A82E3AC96D4E43",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "6BE0F3B1633D7378",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "500D01FB14B9738C",
+      "title": "Terraformer",
+      "description": [
+        "Dig blocks with an Astral Shovel"
+      ],
+      "icon": "voidscape:astral_shovel",
+      "tasks": [
+        {
+          "id": "6DBD0E1D2EFB69D2",
+          "type": "advancement",
+          "advancement": "voidscape:terraform"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "139F3624B0CAA96E"
+      ],
+      "x": 5.0,
+      "y": 20.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "7670919672313465",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "64F2F8E95DE8CCBB",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "30F64BD9EC4383CD",
+      "title": "Voidmancer",
+      "description": [
+        "Collect every Spell Tome"
+      ],
+      "icon": "voidscape:voidic_tome",
+      "tasks": [
+        {
+          "id": "74F7F1F58AD4BDDA",
+          "type": "advancement",
+          "advancement": "voidscape:voidmancer"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2916807D52861988"
+      ],
+      "x": 7.5,
+      "y": 12.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "0BE77F27E0AB7B1C",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "10D1F68762A73D6A",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "25007031DF443ABD",
+      "title": "Voidscape Field Guide",
+      "description": [
+        "Remain near bedrock until the Void draws you in. Learn to resist its influence, then establish a proper gateway and work through its crystal and essence tiers."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "4CC4342933C771E6",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 0.0,
+      "y": 25.0,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "5E87251C306EFBCF",
+      "title": "Into Void",
+      "description": [
+        "Remain near bedrock until the Void draws you in. Learn to resist its influence, then establish a proper gateway and work through its crystal and essence tiers."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "1F20A1A9EE413A0B",
+          "type": "dimension",
+          "dimension": "voidscape:void"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 5.0,
+      "y": 25.0,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "3B41EE71D1DF0DB4",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "1FF0F4CD473245ED",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

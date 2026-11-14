@@ -1,0 +1,252 @@
+{
+  "filename": "wc_dimension_exp_jitl_terrania",
+  "id": "4EA6936F9183DF88",
+  "title": "Journey: Terrania",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 42,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "492D5CFE105AB577",
+      "title": "Terranian Portal Frame",
+      "description": [
+        "Corba's guardians hold the materials for this gateway. Prepare a strong expedition before facing the Terranian Protector."
+      ],
+      "icon": "jitl:terranian_portal_frame",
+      "tasks": [
+        {
+          "id": "13D63EAF204B57BF",
+          "type": "item",
+          "item": "jitl:terranian_portal_frame",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 3.75,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5B62C82AF4C9E1A9",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "494B2E359A721582",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "3B3040A6BF5C4488",
+      "title": "Into Terrania",
+      "description": [
+        "Corba's guardians hold the materials for this gateway. Prepare a strong expedition before facing the Terranian Protector."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "3264F186C968F4C4",
+          "type": "dimension",
+          "dimension": "jitl:terrania"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "492D5CFE105AB577"
+      ],
+      "x": 3.75,
+      "y": 2.5,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "730359555DD5CC8B",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0BEBB837A353A731",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "073ACB0E4348D012",
+      "title": "Terrania Portal Gem",
+      "description": [
+        "Bring these discoveries back to your expedition workshop. Consult Essentia for their sources and uses."
+      ],
+      "icon": "jitl:terrania_portal_gem",
+      "tasks": [
+        {
+          "id": "6A3A4B136AD33A10",
+          "type": "item",
+          "item": "jitl:terrania_portal_gem",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3B3040A6BF5C4488"
+      ],
+      "x": 0.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "461C9D38C6D16476",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "4E6B0FB456312D16",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "05E532698ED7A5ED",
+      "title": "Nature Tablet",
+      "description": [
+        "Bring these discoveries back to your expedition workshop. Consult Essentia for their sources and uses."
+      ],
+      "icon": "jitl:nature_tablet",
+      "tasks": [
+        {
+          "id": "400EA5A64B0FBDF2",
+          "type": "item",
+          "item": "jitl:nature_tablet",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "073ACB0E4348D012"
+      ],
+      "x": 0.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "4B39BC097409F353",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "10DFA5B58E157CE9",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1EEC1B7B2EDC4CA9",
+      "title": "Terranian Mega Tree",
+      "description": [
+        "Locate this landmark and mark a route back to your camp."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "40102E4359528AD5",
+          "type": "structure",
+          "structure": "jitl:terranian_mega_tree"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3B3040A6BF5C4488"
+      ],
+      "x": 2.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "23DF3E66FBEDFAB6",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "36F77ED3D71D80F6",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "04E5BE35A5B17A14",
+      "title": "Terranian Protector",
+      "description": [
+        "Corba's guardians hold the materials for this gateway. Prepare a strong expedition before facing the Terranian Protector."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "42ACB69AC27490F6",
+          "type": "kill",
+          "entity": "jitl:terranian_protector",
+          "value": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3B3040A6BF5C4488"
+      ],
+      "x": 5.0,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "32A988C2C0F3F4CA",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "3D4D605FD6E6C7F1",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "4EE8B810E38458CB",
+      "title": "An Outpost in Terrania",
+      "description": [
+        "Establish a supplied shelter, mark its return route and bring one shipment home. Keep a charged tool, spare food and healing supplies here."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "6134B5EE9D7C7CFB",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3B3040A6BF5C4488"
+      ],
+      "x": 7.5,
+      "y": 5.0,
+      "shape": "rsquare",
+      "size": 1
+    }
+  ]
+}

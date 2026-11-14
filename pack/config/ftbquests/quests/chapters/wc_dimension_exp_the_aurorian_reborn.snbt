@@ -1,0 +1,604 @@
+{
+  "filename": "wc_dimension_exp_the_aurorian_reborn",
+  "id": "2EC0149463495BEB",
+  "title": "The Aurorian",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 30,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "44A4C7BFB148BA12",
+      "title": "Ultimate Alloy!",
+      "description": [
+        "Craft Aurorian Steel"
+      ],
+      "icon": "theaurorian:aurorian_steel_ingot",
+      "tasks": [
+        {
+          "id": "27C98041988FA1DB",
+          "type": "advancement",
+          "advancement": "theaurorian:auroriansteel"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "08E1EBC79025F9E5"
+      ],
+      "x": 0.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "2EC2C4F4AC8ABCA0",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "44A0BD357B61C5D6",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "7FE3A62570E24D6D",
+      "title": "Conquering Arachnophobia",
+      "description": [
+        "Craft the Darkstone Key to access the Darkstone Dungeon"
+      ],
+      "icon": "theaurorian:darkstone_key",
+      "tasks": [
+        {
+          "id": "5DEDAC67E2A014AF",
+          "type": "advancement",
+          "advancement": "theaurorian:darkstonekey"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0BA9B0996DE014D3"
+      ],
+      "x": 5.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "6752DE1C39BFB4B9",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "51432844481F16A3",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "7D53089573445B64",
+      "title": "Dethroned",
+      "description": [
+        "Kill the Moon Queen"
+      ],
+      "icon": "theaurorian:trophy_moon_queen",
+      "tasks": [
+        {
+          "id": "0D2788763F745839",
+          "type": "advancement",
+          "advancement": "theaurorian:dethroned"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "484C2A667CC3E617"
+      ],
+      "x": 5.0,
+      "y": 15.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "719546D14700EFD7",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "58D57A03B696B649",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "64DD52ADF604335F",
+      "title": "Exterminated",
+      "description": [
+        "Kill the Spider Mother"
+      ],
+      "icon": "theaurorian:dark_amulet",
+      "tasks": [
+        {
+          "id": "492E2516138FD2D0",
+          "type": "advancement",
+          "advancement": "theaurorian:exterminated"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "7FE3A62570E24D6D"
+      ],
+      "x": 5.0,
+      "y": 10.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "5120EE1F929C892B",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "021DF098A27CC682",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "06650237EACB6EEC",
+      "title": "Geologist!",
+      "description": [
+        "Obtain Crystal, Aurorian Coal, Cerulean, and Moonstone Ingots"
+      ],
+      "icon": "theaurorian:moonstone_pickaxe",
+      "tasks": [
+        {
+          "id": "3BEA18E30BBFB246",
+          "type": "advancement",
+          "advancement": "theaurorian:geologist"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "58F5D039A8FF58B7"
+      ],
+      "x": 1.25,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "38F028369C04E82A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "23266AE95B604748",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2A5250B75F2F861E",
+      "title": "Blue, but eatable!",
+      "description": [
+        "Craft some Lavender Bread"
+      ],
+      "icon": "theaurorian:lavender_bread",
+      "tasks": [
+        {
+          "id": "6B7F7277ECE1EC16",
+          "type": "advancement",
+          "advancement": "theaurorian:lavenderbread"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "47ED08D7FAF184D3"
+      ],
+      "x": 7.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "6F683EF8FA8F3860",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "240FBDCC53FFC8E5",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0BA9B0996DE014D3",
+      "title": "Liberated!",
+      "description": [
+        "Kill the Dungeon Keeper"
+      ],
+      "icon": "theaurorian:keeper_amulet",
+      "tasks": [
+        {
+          "id": "59054DAA4F0E4DB4",
+          "type": "advancement",
+          "advancement": "theaurorian:liberated"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "03071A6EF07E07C2"
+      ],
+      "x": 5.0,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "3618D4E60A1EBEBB",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "2C975999221663DC",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "03071A6EF07E07C2",
+      "title": "Pick the Lock!",
+      "description": [
+        "Craft Lockpicks to enter the Runestone Dungeon"
+      ],
+      "icon": "theaurorian:lockpicks",
+      "tasks": [
+        {
+          "id": "580A3480CB511964",
+          "type": "advancement",
+          "advancement": "theaurorian:lockpicks"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "58F5D039A8FF58B7"
+      ],
+      "x": 5.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "7B177A3665E6C6DE",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "209A26405D994C27",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "575410AC217B92A2",
+      "title": "By the power of Khonsu!",
+      "description": [
+        "Craft the Moonlight Forge"
+      ],
+      "icon": "theaurorian:moon_light_forge",
+      "tasks": [
+        {
+          "id": "67ADB93E06BA08F2",
+          "type": "advancement",
+          "advancement": "theaurorian:moonlightforge"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "08E1EBC79025F9E5"
+      ],
+      "x": 2.5,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "7D58260E54ABA74D",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "1B3CA88A39113982",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "484C2A667CC3E617",
+      "title": "The next phase",
+      "description": [
+        "Craft the Moon Temple Key to access the Moon Temple"
+      ],
+      "icon": "theaurorian:moon_temple_key",
+      "tasks": [
+        {
+          "id": "32188A3A140D290A",
+          "type": "advancement",
+          "advancement": "theaurorian:moontemplekey"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "64DD52ADF604335F"
+      ],
+      "x": 5.0,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "0912F8D0173CAB7F",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "27751A2DFBA8FA08",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "58F5D039A8FF58B7",
+      "title": "The Aurorian",
+      "description": [
+        "Visit The Aurorian Dimension"
+      ],
+      "icon": "theaurorian:silentwood_sapling",
+      "tasks": [
+        {
+          "id": "3B79FE5B8A4ED4CE",
+          "type": "advancement",
+          "advancement": "theaurorian:root"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 6.25,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "51573438B5627362",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "4D7829543D045F4A",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "08E1EBC79025F9E5",
+      "title": "Scrapper",
+      "description": [
+        "Create an ingot from scrapped loot!"
+      ],
+      "icon": "theaurorian:aurorianite_ingot",
+      "tasks": [
+        {
+          "id": "6E4F781CCDAD3EE5",
+          "type": "advancement",
+          "advancement": "theaurorian:scrapper"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "06650237EACB6EEC"
+      ],
+      "x": 1.25,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "66E70A63F3954887",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "2A26B061F8E61A04",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "47ED08D7FAF184D3",
+      "title": "Glorified Shears!",
+      "description": [
+        "Craft a Sickle to harvest Lavender and Silkberries"
+      ],
+      "icon": "theaurorian:aurorian_stone_sickle",
+      "tasks": [
+        {
+          "id": "3BAF2EE50EF13224",
+          "type": "advancement",
+          "advancement": "theaurorian:sickle"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "58F5D039A8FF58B7"
+      ],
+      "x": 10.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "6B041A765AED6C6C",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "68F9ACAAB90A4794",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "39FCF416523AF748",
+      "title": "Not Blueberry",
+      "description": [
+        "Craft some Silkberry Jam"
+      ],
+      "icon": "theaurorian:silkberry_jam",
+      "tasks": [
+        {
+          "id": "65EF5F481A27BA27",
+          "type": "advancement",
+          "advancement": "theaurorian:silkberryjam"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "47ED08D7FAF184D3"
+      ],
+      "x": 10.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "04A17145F93FD915",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "78FFF40128E4F228",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6D755041900D119A",
+      "title": "Tea!",
+      "description": [
+        "Make some tea"
+      ],
+      "icon": "theaurorian:lavender_tea",
+      "tasks": [
+        {
+          "id": "641236CD2339F891",
+          "type": "advancement",
+          "advancement": "theaurorian:tea"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "47ED08D7FAF184D3"
+      ],
+      "x": 12.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "054A3A12077EDB14",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "1E62124846B843BC",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1A97091C88FC9BA0",
+      "title": "The Aurorian Field Guide",
+      "description": [
+        "Frame a gateway with Aurorian Portal Frames and awaken it with a Silentwood Stick. The Runestone Dungeon, Darkstone Dungeon and Moon Temple guard a path through moonlit metallurgy."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "2BC985FAD881C9ED",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 17.5,
+      "y": 0.0,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "385E89467D83E764",
+      "title": "Into Aurorian",
+      "description": [
+        "Frame a gateway with Aurorian Portal Frames and awaken it with a Silentwood Stick. The Runestone Dungeon, Darkstone Dungeon and Moon Temple guard a path through moonlit metallurgy."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "72B98739DF4C2DE1",
+          "type": "dimension",
+          "dimension": "theaurorian:aurorian"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 0.0,
+      "y": 20.0,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "4682A1FFB473A07D",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "33484BAE047F4B47",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

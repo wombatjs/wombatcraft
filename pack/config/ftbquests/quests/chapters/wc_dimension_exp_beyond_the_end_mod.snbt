@@ -1,0 +1,448 @@
+{
+  "filename": "wc_dimension_exp_beyond_the_end_mod",
+  "id": "600500F43AC4B2D1",
+  "title": "Beyond the End",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 34,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "7DA7869B9ADC9670",
+      "title": "Guards Of Heaven",
+      "description": [
+        "Killed the Void Guard mob"
+      ],
+      "icon": "beyond_the_end:haloshard",
+      "tasks": [
+        {
+          "id": "675E5F9644DE3304",
+          "type": "advancement",
+          "advancement": "beyond_the_end:shadows_of_heaven"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0B0008C32DBAD007"
+      ],
+      "x": 0.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1118CBC16D505886",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "2FA3B0541264B52C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "23046B7802992FFC",
+      "title": "The Final Dawn",
+      "description": [
+        "Finished Minecraft."
+      ],
+      "icon": "minecraft:grass_block",
+      "tasks": [
+        {
+          "id": "00B57257B4ADE34D",
+          "type": "advancement",
+          "advancement": "beyond_the_end:the_final_dawn"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0B0008C32DBAD007"
+      ],
+      "x": 2.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "15F5086181AD29FF",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0CCA6AEE41EAF589",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0B0008C32DBAD007",
+      "title": "The Real End?",
+      "description": [
+        "The End is near.."
+      ],
+      "icon": "beyond_the_end:the_beyond",
+      "tasks": [
+        {
+          "id": "478D13BA996040E3",
+          "type": "advancement",
+          "advancement": "beyond_the_end:the_real_end"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 1.25,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "797C654FDD2ABC8F",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "4CA3709EB8D3F877",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "53D5A8342DDB46DE",
+      "title": "Void Stone",
+      "description": [
+        "Smelt End Stone and recover the dragon's blood before building your gateway."
+      ],
+      "icon": "beyond_the_end:void_stone",
+      "tasks": [
+        {
+          "id": "3FB5FD712E8A6574",
+          "type": "item",
+          "item": "beyond_the_end:void_stone",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 7.5,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "66E6EBF050CA6345",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "51BC6A214A5DE614",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "41D8A8911AA1B953",
+      "title": "Blood",
+      "description": [
+        "Smelt End Stone and recover the dragon's blood before building your gateway."
+      ],
+      "icon": "beyond_the_end:the_beyond",
+      "tasks": [
+        {
+          "id": "7173E6741E31D5B1",
+          "type": "item",
+          "item": "beyond_the_end:the_beyond",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "53D5A8342DDB46DE"
+      ],
+      "x": 7.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "163E9E4B8A88B151",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "4B46CCF4EB107C68",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2908A25D3BC424DF",
+      "title": "Vermilith",
+      "description": [
+        "Mine Vermilith and craft its staff after reaching the Beyond."
+      ],
+      "icon": "beyond_the_end:vermilithgem",
+      "tasks": [
+        {
+          "id": "499FC2B41B95949F",
+          "type": "item",
+          "item": "beyond_the_end:vermilithgem",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 12.5,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "32B94ACDD91AD475",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "77F3C1FB3C16800E",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "288D86C4DC303011",
+      "title": "Vermilith Staff",
+      "description": [
+        "Mine Vermilith and craft its staff after reaching the Beyond."
+      ],
+      "icon": "beyond_the_end:vermilith_staff",
+      "tasks": [
+        {
+          "id": "05F70747022E0D6E",
+          "type": "item",
+          "item": "beyond_the_end:vermilith_staff",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2908A25D3BC424DF"
+      ],
+      "x": 12.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "6695DF3E0BDDA3D5",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "3BF78E85183C728F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1F1C9247647C4397",
+      "title": "Astrilith",
+      "description": [
+        "Recover Astrilith and turn it into a lightning staff."
+      ],
+      "icon": "beyond_the_end:astrilith",
+      "tasks": [
+        {
+          "id": "039E98BA3CAEA985",
+          "type": "item",
+          "item": "beyond_the_end:astrilith",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 17.5,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1E6C4DAEBE015F09",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0FBE8E9BEE7E6F4B",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1944947E5EF93D0F",
+      "title": "Astrilith Staff",
+      "description": [
+        "Recover Astrilith and turn it into a lightning staff."
+      ],
+      "icon": "beyond_the_end:astrilith_staff",
+      "tasks": [
+        {
+          "id": "139327C5C2F696F0",
+          "type": "item",
+          "item": "beyond_the_end:astrilith_staff",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1F1C9247647C4397"
+      ],
+      "x": 17.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5F0A4AA7D96955F3",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "7219514CC264C0A9",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "373659EDF01AB662",
+      "title": "Eclipzar",
+      "description": [
+        "Seek Eclipzar with your expedition equipment ready. Defeat the guardian and bring its spoils home."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "2133E8554FA10A16",
+          "type": "kill",
+          "entity": "beyond_the_end:eclipzar",
+          "value": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1944947E5EF93D0F"
+      ],
+      "x": 17.5,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "055522FA9B07D967",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "37FD37D5B9717AFD",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "7B1EBF3B1A4043B1",
+      "title": "The Last Observatory",
+      "description": [
+        "Build a sheltered observatory in the Beyond with supplies and a tested return route. Display the discoveries from your expedition."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "22057C8C3724CB24",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "373659EDF01AB662"
+      ],
+      "x": 17.5,
+      "y": 7.5,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "02320E46ECCFBCFD",
+      "title": "Beyond the End Field Guide",
+      "description": [
+        "Defeat the Ender Dragon and collect its blood. Smelt End Stone into Void Stone, build a portal frame and awaken it with the blood to enter the Beyond."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "380F905D2B65BCB2",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 0.0,
+      "y": 12.5,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "530A253197542684",
+      "title": "Into The Beyond",
+      "description": [
+        "Defeat the Ender Dragon and collect its blood. Smelt End Stone into Void Stone, build a portal frame and awaken it with the blood to enter the Beyond."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "0AAED25F9995CB54",
+          "type": "dimension",
+          "dimension": "beyond_the_end:the_beyond"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 5.0,
+      "y": 12.5,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "78102CDB8713CED0",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "1F5270DF37F6E6BF",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

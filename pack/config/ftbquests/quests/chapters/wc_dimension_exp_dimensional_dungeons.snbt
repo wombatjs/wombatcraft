@@ -1,0 +1,494 @@
+{
+  "filename": "wc_dimension_exp_dimensional_dungeons",
+  "id": "0AA8E8B31643F212",
+  "title": "Dimensional Dungeons",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 35,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "698B6E9C924850E0",
+      "title": "The Gilded Doorway",
+      "description": [
+        "Build the portal keyhole and assemble its frame according to the dungeon guide."
+      ],
+      "icon": "dimdungeons:block_portal_keyhole",
+      "tasks": [
+        {
+          "id": "4EBBA42C4E266EC1",
+          "type": "advancement",
+          "advancement": "dimdungeons:dungeons/root"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 6.25,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "2558535C28040AE5",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "41B6E1C734B8DAC6",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "17900ABD7DBC1480",
+      "title": "A Key With a Destination",
+      "description": [
+        "Activate a blank dungeon key at a qualifying structure. Keep the key for repeat visits."
+      ],
+      "icon": "dimdungeons:item_portal_key",
+      "tasks": [
+        {
+          "id": "14811DCDB915D23A",
+          "type": "advancement",
+          "advancement": "dimdungeons:dungeons/activate_basic_key"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "698B6E9C924850E0"
+      ],
+      "x": 2.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "036A069958FD8FA0",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "3D538EA2D23B53D9",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "3C72E62EA77F6F56",
+      "title": "First Expedition",
+      "description": [
+        "Open the portal with an activated key and enter a basic dungeon. Pack food, light alternatives and an empty inventory."
+      ],
+      "icon": "dimdungeons:block_gold_portal",
+      "tasks": [
+        {
+          "id": "1F454A42480DBF8A",
+          "type": "advancement",
+          "advancement": "dimdungeons:dungeons/enter_basic_dungeon"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "17900ABD7DBC1480"
+      ],
+      "x": 2.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "21E60AEA154D2A43",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "07FC01FCF27D4D2F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "3633A382C0048921",
+      "title": "The Next Lock",
+      "description": [
+        "Recover an advanced key from a dungeon expedition."
+      ],
+      "icon": "dimdungeons:item_portal_key",
+      "tasks": [
+        {
+          "id": "1AF1B1C5DE1AAE5A",
+          "type": "advancement",
+          "advancement": "dimdungeons:dungeons/find_advanced_key"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3C72E62EA77F6F56"
+      ],
+      "x": 0.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "72F3559CD0067585",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "20A082DB3496275C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "201D90D50CE04EB5",
+      "title": "Beyond the First Chambers",
+      "description": [
+        "Prepare the advanced portal crown and enter an advanced dungeon. Expect a harder expedition."
+      ],
+      "icon": "dimdungeons:block_gold_portal",
+      "tasks": [
+        {
+          "id": "6B6480A4609A92B4",
+          "type": "advancement",
+          "advancement": "dimdungeons:dungeons/enter_advanced_dungeon"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3633A382C0048921"
+      ],
+      "x": 0.0,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "75CA054015B4F873",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0B0E9A2070F6012F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2138E5EDC374251C",
+      "title": "The Trophy Gallery",
+      "description": [
+        "Recover the complete set of eight dungeon trophies. Display them at your expedition headquarters."
+      ],
+      "icon": "minecraft:item_frame",
+      "tasks": [
+        {
+          "id": "4AB8A7200C33E9B8",
+          "type": "advancement",
+          "advancement": "dimdungeons:dungeons/all_trophies"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3C72E62EA77F6F56"
+      ],
+      "x": 2.5,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "72431E90A2A97639",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "39028152153B1328",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "72185110D59EF287",
+      "title": "A Room Between Worlds",
+      "description": [
+        "Activate a personal dimension key and enter your own building space."
+      ],
+      "icon": "dimdungeons:item_key_build",
+      "tasks": [
+        {
+          "id": "78BD5E973F665F41",
+          "type": "advancement",
+          "advancement": "dimdungeons:dungeons/enter_personal_space"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "698B6E9C924850E0"
+      ],
+      "x": 7.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "611D7E5484E2D2A0",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "525BED7973B9690C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2D4BEAB2E98CD38F",
+      "title": "Listen for Secrets",
+      "description": [
+        "Recover a Bell of Secrets and use it while searching the chambers."
+      ],
+      "icon": "dimdungeons:item_secret_bell",
+      "tasks": [
+        {
+          "id": "26D49054679712FF",
+          "type": "advancement",
+          "advancement": "dimdungeons:dungeons/find_bell_1"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "698B6E9C924850E0"
+      ],
+      "x": 10.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "0DF8136918089E76",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "446EB3C4965BA07F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "45151054B4B77184",
+      "title": "A Crown for the Gateway",
+      "description": [
+        "Recover the portal crown needed for advanced expeditions."
+      ],
+      "icon": "dimdungeons:block_portal_crown",
+      "tasks": [
+        {
+          "id": "005409FCFDBACE27",
+          "type": "advancement",
+          "advancement": "dimdungeons:dungeons/find_crown"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3C72E62EA77F6F56"
+      ],
+      "x": 5.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "061BD21908D1FF9E",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "12620357963F1206",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0A15FD09D20124D2",
+      "title": "Keys for Tomorrow",
+      "description": [
+        "Recover a key charger and keep it ready for your next expedition."
+      ],
+      "icon": "dimdungeons:block_key_charger",
+      "tasks": [
+        {
+          "id": "44A40842926F2142",
+          "type": "advancement",
+          "advancement": "dimdungeons:dungeons/find_key_charger"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "698B6E9C924850E0"
+      ],
+      "x": 12.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "264F16F7A2E0AF2D",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5472FF35A5BBBC47",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2E4CA457B75DD68E",
+      "title": "The Meeting Place",
+      "description": [
+        "Recover a teleporter hub key from advanced dungeons."
+      ],
+      "icon": "dimdungeons:item_blank_teleporter_key",
+      "tasks": [
+        {
+          "id": "68405AFF2CBA3563",
+          "type": "advancement",
+          "advancement": "dimdungeons:dungeons/find_teleporter_key"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "201D90D50CE04EB5"
+      ],
+      "x": 0.0,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "58D179A4335CEE80",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "4374240DD55A4658",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "72A3F922604570FC",
+      "title": "Dimensional Dungeons Field Guide",
+      "description": [
+        "Raise a portal around a gilded keyhole. Each activated key leads to another expedition; keep your keys until every chamber has been searched. Walls protect these puzzles from ordinary building and mining."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "32A688DD4E64D426",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 17.5,
+      "y": 0.0,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "0E29719CAC4AC9E9",
+      "title": "Into Personal Building Space",
+      "description": [
+        "An optional personal building realm reached with its bound key."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "69609DFEB895CECF",
+          "type": "dimension",
+          "dimension": "dimdungeons:build_dimension"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 0.0,
+      "y": 17.5,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "40E76925E6DA372E",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "7762C6C695D6420F",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "7019C5A352DAB596",
+      "title": "Into Dungeon Dimension",
+      "description": [
+        "Raise a portal around a gilded keyhole. Each activated key leads to another expedition; keep your keys until every chamber has been searched. Walls protect these puzzles from ordinary building and mining."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "74C3C9D92F45EB6A",
+          "type": "dimension",
+          "dimension": "dimdungeons:dungeon_dimension"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 5.0,
+      "y": 17.5,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "0D337AF13C6B302C",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "021963E997B33E04",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

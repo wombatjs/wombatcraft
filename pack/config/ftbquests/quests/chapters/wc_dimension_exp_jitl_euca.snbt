@@ -1,0 +1,363 @@
+{
+  "filename": "wc_dimension_exp_jitl_euca",
+  "id": "2F9A3210880E3168",
+  "title": "Journey: Euca",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 39,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "39E8C23C16636039",
+      "title": "Euca Portal Frame",
+      "description": [
+        "Combine the fragments from Nether guardians to build the gateway. The Royal King at Euca Palace can provide Eudor's Crown in exchange for his requested offerings."
+      ],
+      "icon": "jitl:euca_portal_frame",
+      "tasks": [
+        {
+          "id": "2BD2AC160E086BBD",
+          "type": "item",
+          "item": "jitl:euca_portal_frame",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 5.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "65DB9398CD99AA9E",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "09969A3A9CB77974",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "50DEBBDDDC2BBF27",
+      "title": "Into Euca",
+      "description": [
+        "Combine the fragments from Nether guardians to build the gateway. The Royal King at Euca Palace can provide Eudor's Crown in exchange for his requested offerings."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "7C9154516D503530",
+          "type": "dimension",
+          "dimension": "jitl:euca"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "39E8C23C16636039"
+      ],
+      "x": 5.0,
+      "y": 2.5,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "41DC987AAE65F6AB",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5885DB9E0E96FF85",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "28B9CC0B04AEC9A5",
+      "title": "Euca Portal Gem",
+      "description": [
+        "Bring these discoveries back to your expedition workshop. Consult Essentia for their sources and uses."
+      ],
+      "icon": "jitl:euca_portal_gem",
+      "tasks": [
+        {
+          "id": "51542BFD513E8727",
+          "type": "item",
+          "item": "jitl:euca_portal_gem",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "50DEBBDDDC2BBF27"
+      ],
+      "x": 0.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "38EBAE0696F73A00",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "1F990E1D92F9102A",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2E81CAD83F70906E",
+      "title": "Goldite Furnace",
+      "description": [
+        "Bring these discoveries back to your expedition workshop. Consult Essentia for their sources and uses."
+      ],
+      "icon": "jitl:goldite_furnace",
+      "tasks": [
+        {
+          "id": "23C9444D542D0432",
+          "type": "item",
+          "item": "jitl:goldite_furnace",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "28B9CC0B04AEC9A5"
+      ],
+      "x": 0.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1DF28F368E0BA47A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "775ECF40663A0EB0",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1FFECDFC2C51CDB3",
+      "title": "Euca Palace",
+      "description": [
+        "Locate this landmark and mark a route back to your camp."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "41ECA8220A9136BB",
+          "type": "structure",
+          "structure": "jitl:euca_palace"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "50DEBBDDDC2BBF27"
+      ],
+      "x": 2.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1821EE5EA29CC7B1",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0D74A33344C34C8D",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "58C686A9BF75CACD",
+      "title": "Corallator Orb",
+      "description": [
+        "Combine the fragments from Nether guardians to build the gateway. The Royal King at Euca Palace can provide Eudor's Crown in exchange for his requested offerings."
+      ],
+      "icon": "jitl:corallator_orb",
+      "tasks": [
+        {
+          "id": "1647AE48BB5F7628",
+          "type": "item",
+          "item": "jitl:corallator_orb",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "50DEBBDDDC2BBF27"
+      ],
+      "x": 5.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1985096A05829DA2",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "4B5FF6E2ED82C099",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "32E4E4A3E26EA24B",
+      "title": "Corallator",
+      "description": [
+        "Combine the fragments from Nether guardians to build the gateway. The Royal King at Euca Palace can provide Eudor's Crown in exchange for his requested offerings."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "44696EC63DACBA8E",
+          "type": "kill",
+          "entity": "jitl:corallator",
+          "value": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "58C686A9BF75CACD"
+      ],
+      "x": 5.0,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "00EC84014415747F",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "5E462314FB7D38D9",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "022C7923C73BDD57",
+      "title": "Eudor's Crown",
+      "description": [
+        "Combine the fragments from Nether guardians to build the gateway. The Royal King at Euca Palace can provide Eudor's Crown in exchange for his requested offerings."
+      ],
+      "icon": "jitl:eudor_crown",
+      "tasks": [
+        {
+          "id": "77B7F37E6165C582",
+          "type": "item",
+          "item": "jitl:eudor_crown",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "50DEBBDDDC2BBF27"
+      ],
+      "x": 7.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "4D67C70C6A522F79",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0764776F993F8E4F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "46949C5DFBDE339C",
+      "title": "Eudor",
+      "description": [
+        "Combine the fragments from Nether guardians to build the gateway. The Royal King at Euca Palace can provide Eudor's Crown in exchange for his requested offerings."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "7B6B511B2E89E4A1",
+          "type": "kill",
+          "entity": "jitl:eudor",
+          "value": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "022C7923C73BDD57"
+      ],
+      "x": 7.5,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "60A96DF53DE098C3",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "63F88DBC4E186067",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "18255F0CD42184BC",
+      "title": "An Outpost in Euca",
+      "description": [
+        "Establish a supplied shelter, mark its return route and bring one shipment home. Keep a charged tool, spare food and healing supplies here."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "2E625C1FDB0192AF",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "50DEBBDDDC2BBF27"
+      ],
+      "x": 10.0,
+      "y": 5.0,
+      "shape": "rsquare",
+      "size": 1
+    }
+  ]
+}

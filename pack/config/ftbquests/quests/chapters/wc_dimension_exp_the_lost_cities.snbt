@@ -1,0 +1,486 @@
+{
+  "filename": "wc_dimension_exp_the_lost_cities",
+  "id": "0C6C1ECE5E3C7692",
+  "title": "The Lost Cities",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 47,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "335C5E4933C1CE89",
+      "title": "The Silent Skyline",
+      "description": [
+        "Place a bed on two diamond blocks and surround it with six skulls, then sleep to cross into the ruined city. Build a matching return bed before making a permanent outpost."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "257E963458841935",
+          "type": "dimension",
+          "dimension": "lostcities:lostcity"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 6.25,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "5AF007F6CD84FBCC",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "07DCAC008470F6F6",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "69883C8BCEC7AE88",
+      "title": "Bread",
+      "description": [
+        "Pack provisions and a way to control stairwells before searching occupied buildings."
+      ],
+      "icon": "minecraft:bread",
+      "tasks": [
+        {
+          "id": "0B0867999AD2957A",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "335C5E4933C1CE89"
+      ],
+      "x": 0.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "0E3514E3E0588B3B",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "2967766255DE982C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6D0A4F46704D45F6",
+      "title": "Torch",
+      "description": [
+        "Pack provisions and a way to control stairwells before searching occupied buildings."
+      ],
+      "icon": "minecraft:torch",
+      "tasks": [
+        {
+          "id": "0D8329C94D634625",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "69883C8BCEC7AE88"
+      ],
+      "x": 0.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "66EA860AC52FC68C",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "21CCC4DBC0B3F959",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "14784C4018DF14BD",
+      "title": "Ladder",
+      "description": [
+        "Pack provisions and a way to control stairwells before searching occupied buildings."
+      ],
+      "icon": "minecraft:ladder",
+      "tasks": [
+        {
+          "id": "12999176CB23CE7A",
+          "type": "item",
+          "item": "minecraft:ladder",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6D0A4F46704D45F6"
+      ],
+      "x": 0.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "333027619392A7EF",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "64E430C4565977E2",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "52B33302450E991B",
+      "title": "Iron Door",
+      "description": [
+        "Pack provisions and a way to control stairwells before searching occupied buildings."
+      ],
+      "icon": "minecraft:iron_door",
+      "tasks": [
+        {
+          "id": "38E355E0BD81A38B",
+          "type": "item",
+          "item": "minecraft:iron_door",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "14784C4018DF14BD"
+      ],
+      "x": 0.0,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "07EDD686A5B11445",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "3B98554112582EF6",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "5916527A8531EB2F",
+      "title": "A Bed on Both Sides",
+      "description": [
+        "Build and test a return bed before storing valuable equipment in the city."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "67D825965E947A92",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "335C5E4933C1CE89"
+      ],
+      "x": 3.75,
+      "y": 2.5,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "1DEA80454C5E2DB4",
+      "title": "One Safe Street",
+      "description": [
+        "Light a street, secure its entrances and mark a path between your return bed and an expedition store."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "6F215ABC789F9661",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "5916527A8531EB2F"
+      ],
+      "x": 3.75,
+      "y": 5.0,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "07BD45BDCF349475",
+      "title": "Roofline Survey",
+      "description": [
+        "Reach a tall building's roof and map the surrounding blocks. Leave a safe route back to street level."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "239128B87B6B37CB",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1DEA80454C5E2DB4"
+      ],
+      "x": 2.5,
+      "y": 7.5,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "5832C0CD33497048",
+      "title": "The Broken Railway",
+      "description": [
+        "Locate the old rail network and clear a short, safe section without damaging occupied builds."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "60A277F009831FC9",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1DEA80454C5E2DB4"
+      ],
+      "x": 5.0,
+      "y": 7.5,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "3CD0B359D021F934",
+      "title": "Reclaim a Workshop",
+      "description": [
+        "Convert a cleared building into a powered workshop with storage and a processing machine."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "2C1D47E2BBC96A07",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "07BD45BDCF349475"
+      ],
+      "x": 2.5,
+      "y": 10.0,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "6AB4E8CC75B3AD19",
+      "title": "Freight From the Ruins",
+      "description": [
+        "Deliver a shipment of recovered materials home and sort it into your storage network."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "37427CE67ED08BBD",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3CD0B359D021F934"
+      ],
+      "x": 2.5,
+      "y": 12.5,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "7F3B3C09EDE4D0BC",
+      "title": "A Living District",
+      "description": [
+        "Restore three neighbouring buildings with distinct uses: accommodation, workshop and expedition stores."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "1B430E5E6FD95FA3",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6AB4E8CC75B3AD19"
+      ],
+      "x": 2.5,
+      "y": 15.0,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "3E51FA0C0504FBA5",
+      "title": "Clear the Zombie Threat",
+      "description": [
+        "Defeat ten of these enemies during your expeditions. The hunting record counts kills wherever you meet them."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "483D0E53A2BDCD5B",
+          "type": "kill",
+          "entity": "minecraft:zombie",
+          "value": 10
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "335C5E4933C1CE89"
+      ],
+      "x": 7.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "7FD7EEA786C329F0",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "084036849A7362DE",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "444B25B1468EBE91",
+      "title": "Clear the Skeleton Threat",
+      "description": [
+        "Defeat ten of these enemies during your expeditions. The hunting record counts kills wherever you meet them."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "4B260C6663C25820",
+          "type": "kill",
+          "entity": "minecraft:skeleton",
+          "value": 10
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "335C5E4933C1CE89"
+      ],
+      "x": 10.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1DA826AAD088157C",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5C7E32487C7F4186",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "67100D774AA2E7F1",
+      "title": "Clear the Spider Threat",
+      "description": [
+        "Defeat ten of these enemies during your expeditions. The hunting record counts kills wherever you meet them."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "7AB5BA14C0F856F8",
+          "type": "kill",
+          "entity": "minecraft:spider",
+          "value": 10
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "335C5E4933C1CE89"
+      ],
+      "x": 12.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "16296D04CF1507E0",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "6A318AC839CD3BC4",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "7107A11ACA79526F",
+      "title": "The Lost Cities Field Guide",
+      "description": [
+        "Place a bed on two diamond blocks and surround it with six skulls, then sleep to cross into the ruined city. Build a matching return bed before making a permanent outpost."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "3CCC067B1D74ACD5",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 17.5,
+      "y": 0.0,
+      "shape": "rsquare",
+      "size": 1
+    }
+  ]
+}

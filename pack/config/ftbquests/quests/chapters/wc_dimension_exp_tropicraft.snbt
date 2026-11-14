@@ -1,0 +1,936 @@
+{
+  "filename": "wc_dimension_exp_tropicraft",
+  "id": "71DB92942EDC1173",
+  "title": "Tropicraft",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 46,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "6E9A050C512143A7",
+      "title": "Bamboo Mug",
+      "description": [
+        "Prepare a drink and a beach chair. Sit and drink the Pina Colada at sunset to reach the tropics."
+      ],
+      "icon": "tropicraft:bamboo_mug",
+      "tasks": [
+        {
+          "id": "4EF652366B101FC2",
+          "type": "item",
+          "item": "tropicraft:bamboo_mug",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "32C0458482DEAEDD",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "720AF9DD67388C79",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "5F542F1CB56F4C9C",
+      "title": "Piña Colada",
+      "description": [
+        "Prepare a drink and a beach chair. Sit and drink the Pina Colada at sunset to reach the tropics."
+      ],
+      "icon": "tropicraft:pina_colada",
+      "tasks": [
+        {
+          "id": "4F5483CF47179F5D",
+          "type": "item",
+          "item": "tropicraft:pina_colada",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6E9A050C512143A7"
+      ],
+      "x": 10.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5497EFAE8947245A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "098EA8226DB81865",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "32D5021BA0491441",
+      "title": "White Chair",
+      "description": [
+        "Prepare a drink and a beach chair. Sit and drink the Pina Colada at sunset to reach the tropics."
+      ],
+      "icon": "tropicraft:white_chair",
+      "tasks": [
+        {
+          "id": "3EA26F64DEC1563C",
+          "type": "item",
+          "item": "tropicraft:white_chair",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "5F542F1CB56F4C9C"
+      ],
+      "x": 10.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "4A1CCAB083D00078",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "70FBD3A722C85000",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "4E10B4B886209695",
+      "title": "Beyond the Sunset",
+      "description": [
+        "Prepare a Pina Colada and a beach chair. Drink while seated at sunset to reach the tropics. Establish a coastal camp before venturing into reefs and volcanic country."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "7D15D8DA68B82BC1",
+          "type": "dimension",
+          "dimension": "tropicraft:tropics"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "32D5021BA0491441"
+      ],
+      "x": 10.0,
+      "y": 7.5,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "183AF6936F9B146B",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "361125F7F772591D",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "27037A06254F9DE4",
+      "title": "Yellow Scuba Goggles",
+      "description": [
+        "Prepare a scuba set and fill the empty harness at an Air Compressor before diving."
+      ],
+      "icon": "tropicraft:yellow_scuba_goggles",
+      "tasks": [
+        {
+          "id": "205C50148CDF163C",
+          "type": "item",
+          "item": "tropicraft:yellow_scuba_goggles",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4E10B4B886209695"
+      ],
+      "x": 1.25,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "674631FCF734D462",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "75F028C1A1442970",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0DA5266A11A85E43",
+      "title": "Yellow Scuba Harness",
+      "description": [
+        "Prepare a scuba set and fill the empty harness at an Air Compressor before diving."
+      ],
+      "icon": "tropicraft:yellow_scuba_harness",
+      "tasks": [
+        {
+          "id": "330D89EC99701090",
+          "type": "item",
+          "item": "tropicraft:yellow_scuba_harness",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "27037A06254F9DE4"
+      ],
+      "x": 1.25,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "29D34FACEAE4DF7D",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "19E3B67BD5233110",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "34AD0D9C62C47CCC",
+      "title": "Air Compressor",
+      "description": [
+        "Prepare a scuba set and fill the empty harness at an Air Compressor before diving."
+      ],
+      "icon": "tropicraft:air_compressor",
+      "tasks": [
+        {
+          "id": "100DC49F8A0810E8",
+          "type": "item",
+          "item": "tropicraft:air_compressor",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0DA5266A11A85E43"
+      ],
+      "x": 1.25,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "6607216180432449",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "6E7DB3CA592C5F7A",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "4795C630CD7BFF76",
+      "title": "Yellow Scuba Flippers",
+      "description": [
+        "Prepare a scuba set and fill the empty harness at an Air Compressor before diving."
+      ],
+      "icon": "tropicraft:yellow_scuba_flippers",
+      "tasks": [
+        {
+          "id": "52DF214E3F441855",
+          "type": "item",
+          "item": "tropicraft:yellow_scuba_flippers",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "34AD0D9C62C47CCC"
+      ],
+      "x": 0.0,
+      "y": 17.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "535A34595839026C",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "73F236D26F520379",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "07F0CBEA36FB3B10",
+      "title": "Azurite Gem",
+      "description": [
+        "Collect the tropical minerals and refine a tool for your coastal workshop."
+      ],
+      "icon": "tropicraft:azurite_gem",
+      "tasks": [
+        {
+          "id": "6B18B3FA9355F24D",
+          "type": "item",
+          "item": "tropicraft:azurite_gem",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4E10B4B886209695"
+      ],
+      "x": 5.0,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "368E21549A01E893",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "529235D7CB5B5870",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "3F6BC50ABB0DDD65",
+      "title": "Eudialyte Gem",
+      "description": [
+        "Collect the tropical minerals and refine a tool for your coastal workshop."
+      ],
+      "icon": "tropicraft:eudialyte_gem",
+      "tasks": [
+        {
+          "id": "188171E58D7BDF8B",
+          "type": "item",
+          "item": "tropicraft:eudialyte_gem",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "07F0CBEA36FB3B10"
+      ],
+      "x": 5.0,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "26C5BD32E11892DD",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "7AEA733C37C34C15",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "7D4F3107BC696C22",
+      "title": "Zircon Gem",
+      "description": [
+        "Collect the tropical minerals and refine a tool for your coastal workshop."
+      ],
+      "icon": "tropicraft:zircon_gem",
+      "tasks": [
+        {
+          "id": "7ACDCCDDE2946A3F",
+          "type": "item",
+          "item": "tropicraft:zircon_gem",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3F6BC50ABB0DDD65"
+      ],
+      "x": 5.0,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "2FAE13021591D71D",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "602875DF87C5F5BB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6F6B1727D6136482",
+      "title": "Zirconium",
+      "description": [
+        "Collect the tropical minerals and refine a tool for your coastal workshop."
+      ],
+      "icon": "tropicraft:zirconium_gem",
+      "tasks": [
+        {
+          "id": "7FEC88876C0F097D",
+          "type": "item",
+          "item": "tropicraft:zirconium_gem",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "7D4F3107BC696C22"
+      ],
+      "x": 5.0,
+      "y": 17.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "0DBF08320738A3D1",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "3758CC91A7098588",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "28FFC5D46351422E",
+      "title": "Zirconium Pickaxe",
+      "description": [
+        "Collect the tropical minerals and refine a tool for your coastal workshop."
+      ],
+      "icon": "tropicraft:zirconium_pickaxe",
+      "tasks": [
+        {
+          "id": "1DEB7628C1CCA421",
+          "type": "item",
+          "item": "tropicraft:zirconium_pickaxe",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6F6B1727D6136482"
+      ],
+      "x": 5.0,
+      "y": 20.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "21A5A41416761D42",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "1157E1AF1242E8AA",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "4D79A40E16E0758D",
+      "title": "Coffee Berry",
+      "description": [
+        "Bring a varied coastal harvest home and prepare provisions for future voyages."
+      ],
+      "icon": "tropicraft:coffee_berry",
+      "tasks": [
+        {
+          "id": "50603B4B13EAFF62",
+          "type": "item",
+          "item": "tropicraft:coffee_berry",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4E10B4B886209695"
+      ],
+      "x": 7.5,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "457F12155E212E89",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "69F92B9DAE753FAF",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "48D1B834260B1786",
+      "title": "Black Coffee",
+      "description": [
+        "Bring a varied coastal harvest home and prepare provisions for future voyages."
+      ],
+      "icon": "tropicraft:black_coffee",
+      "tasks": [
+        {
+          "id": "708DE9566EEFD2D7",
+          "type": "item",
+          "item": "tropicraft:black_coffee",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4D79A40E16E0758D"
+      ],
+      "x": 7.5,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "0C89A5FDBEA895D8",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "71ACA0EE0DABCEA4",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0D91705795AEA530",
+      "title": "Toasted Nori",
+      "description": [
+        "Bring a varied coastal harvest home and prepare provisions for future voyages."
+      ],
+      "icon": "tropicraft:toasted_nori",
+      "tasks": [
+        {
+          "id": "26DD899C1AF14C42",
+          "type": "item",
+          "item": "tropicraft:toasted_nori",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "48D1B834260B1786"
+      ],
+      "x": 7.5,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "08D744959D6FF3A9",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "410E0A6A448D1B95",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "3A81748E11A08A9D",
+      "title": "Seared Marlin",
+      "description": [
+        "Bring a varied coastal harvest home and prepare provisions for future voyages."
+      ],
+      "icon": "tropicraft:seared_marlin",
+      "tasks": [
+        {
+          "id": "0FDCC5684AB1E0FE",
+          "type": "item",
+          "item": "tropicraft:seared_marlin",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0D91705795AEA530"
+      ],
+      "x": 7.5,
+      "y": 17.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "61DD0C759CEE4038",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "14BAFE9ACC750CFB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2229B3E9470F7160",
+      "title": "Sifter",
+      "description": [
+        "Set up a shore station and gather the sea's smaller treasures."
+      ],
+      "icon": "tropicraft:sifter",
+      "tasks": [
+        {
+          "id": "21492388E84CE2E9",
+          "type": "item",
+          "item": "tropicraft:sifter",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4E10B4B886209695"
+      ],
+      "x": 10.0,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5967025CCCD14B12",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0561CDF52DCC69D9",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1255B0AAC8B3BC06",
+      "title": "White Pearl",
+      "description": [
+        "Set up a shore station and gather the sea's smaller treasures."
+      ],
+      "icon": "tropicraft:white_pearl",
+      "tasks": [
+        {
+          "id": "51381B5027E3F79B",
+          "type": "item",
+          "item": "tropicraft:white_pearl",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2229B3E9470F7160"
+      ],
+      "x": 10.0,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5BEC6077686BD2C1",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "329C99CDF1268D3D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "09413135B6A2198C",
+      "title": "Black Pearl",
+      "description": [
+        "Set up a shore station and gather the sea's smaller treasures."
+      ],
+      "icon": "tropicraft:black_pearl",
+      "tasks": [
+        {
+          "id": "44A1687DAE98AD84",
+          "type": "item",
+          "item": "tropicraft:black_pearl",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1255B0AAC8B3BC06"
+      ],
+      "x": 10.0,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "73A411643555EF82",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0A478DFAC9460702",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "7912E16F993725D6",
+      "title": "Koa Village",
+      "description": [
+        "Meet the coastal inhabitants and leave their settlement intact."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "73238DF5A41AEC7E",
+          "type": "structure",
+          "structure": "tropicraft:koa_village"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4E10B4B886209695"
+      ],
+      "x": 12.5,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5F96E27594BDA124",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "2801542F73E1F862",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "70F7AED0E2F279C2",
+      "title": "Home Tree",
+      "description": [
+        "Find a Home Tree and explore its surroundings."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "3CE9913AD4324305",
+          "type": "structure",
+          "structure": "tropicraft:home_tree"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4E10B4B886209695"
+      ],
+      "x": 15.0,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1A9A5083B61316F4",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5A606B4AECB8F8AA",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "651CD054F7D20FE2",
+      "title": "Land Volcano",
+      "description": [
+        "Survey a land volcano from a safe approach."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "6DCE151837D57B62",
+          "type": "structure",
+          "structure": "tropicraft:land_volcano"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4E10B4B886209695"
+      ],
+      "x": 17.5,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5710F38DA05D9AC5",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "01716E82B2D509D7",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "273054D2A9839D8D",
+      "title": "Ocean Volcano",
+      "description": [
+        "Reach an ocean volcano with a reliable boat and breathing equipment."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "39185B274362BDCA",
+          "type": "structure",
+          "structure": "tropicraft:ocean_volcano"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4E10B4B886209695"
+      ],
+      "x": 20.0,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "781F3CE8F6DDBACA",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "472E4353C3045694",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "7834A42A81163613",
+      "title": "A Harbour Worth Returning To",
+      "description": [
+        "Build a sheltered dock, an air-compressor station and a stocked kitchen. Make a return journey with a companion before recording the harbour."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "553F34F40786AABA",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "34AD0D9C62C47CCC"
+      ],
+      "x": 2.5,
+      "y": 17.5,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "6FA20EAAD3783281",
+      "title": "Tropicraft Field Guide",
+      "description": [
+        "Prepare a Pina Colada and a beach chair. Drink while seated at sunset to reach the tropics. Establish a coastal camp before venturing into reefs and volcanic country."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "694C46DA0A4A1F39",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 0.0,
+      "y": 25.0,
+      "shape": "rsquare",
+      "size": 1
+    }
+  ]
+}

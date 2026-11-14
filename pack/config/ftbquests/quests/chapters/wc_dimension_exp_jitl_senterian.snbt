@@ -1,0 +1,326 @@
+{
+  "filename": "wc_dimension_exp_jitl_senterian",
+  "id": "672CC7B456E4F2D3",
+  "title": "Journey: Senterian",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 44,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "3C922EB85DCAAA22",
+      "title": "Into Senterian",
+      "description": [
+        "Use the Ancient Eye of Opening at an Ancient Tower. Within Senterian, offer Sentry Observers at the altar to call the smaller sentries that yield Sentacoins."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "530622E9D803B4E3",
+          "type": "dimension",
+          "dimension": "jitl:senterian"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 6.25,
+      "y": 0.0,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "0DE3DE60D0E688F7",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "52060EA318653F8C",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "31C53084BC9D3E42",
+      "title": "Ancient Eye Of Opening",
+      "description": [
+        "Bring these discoveries back to your expedition workshop. Consult Essentia for their sources and uses."
+      ],
+      "icon": "jitl:ancient_eye_of_opening",
+      "tasks": [
+        {
+          "id": "2559F5677543F9F9",
+          "type": "item",
+          "item": "jitl:ancient_eye_of_opening",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3C922EB85DCAAA22"
+      ],
+      "x": 0.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "33EF66000E1612D7",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "455008124CD21D86",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "3C97AAA516C20555",
+      "title": "Sentry Observer",
+      "description": [
+        "Bring these discoveries back to your expedition workshop. Consult Essentia for their sources and uses."
+      ],
+      "icon": "jitl:sentry_observer",
+      "tasks": [
+        {
+          "id": "06FA5350E4BFE062",
+          "type": "item",
+          "item": "jitl:sentry_observer",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "31C53084BC9D3E42"
+      ],
+      "x": 0.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "06171A53213E594E",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "766FF685286DE683",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "7C8DAA3CB2642BD2",
+      "title": "Sentacoin",
+      "description": [
+        "Bring these discoveries back to your expedition workshop. Consult Essentia for their sources and uses."
+      ],
+      "icon": "jitl:sentacoin",
+      "tasks": [
+        {
+          "id": "1A775BED0543FF88",
+          "type": "item",
+          "item": "jitl:sentacoin",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3C97AAA516C20555"
+      ],
+      "x": 0.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "419A8D736ADB2098",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "7BCCFEF9B7A51926",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6DC49C6F92C18166",
+      "title": "Ancient",
+      "description": [
+        "Locate this landmark and mark a route back to your camp."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "36BF8D561874FE73",
+          "type": "structure",
+          "structure": "jitl:ancient"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3C922EB85DCAAA22"
+      ],
+      "x": 2.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "4FADC6582BD879AE",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "51E0927D1FD39218",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "5380EBED85CDEACC",
+      "title": "Sentry Lord",
+      "description": [
+        "Use the Ancient Eye of Opening at an Ancient Tower. Within Senterian, offer Sentry Observers at the altar to call the smaller sentries that yield Sentacoins."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "6FC8E9523CBDE26E",
+          "type": "kill",
+          "entity": "jitl:sentry_lord",
+          "value": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3C922EB85DCAAA22"
+      ],
+      "x": 5.0,
+      "y": 2.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "2EE3A87F294B59A0",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "3350788DFBC4FF33",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "697046C196B23174",
+      "title": "Sentry Stalker",
+      "description": [
+        "Use the Ancient Eye of Opening at an Ancient Tower. Within Senterian, offer Sentry Observers at the altar to call the smaller sentries that yield Sentacoins."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "11D8ACAC5D4051AC",
+          "type": "kill",
+          "entity": "jitl:sentry_stalker",
+          "value": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3C922EB85DCAAA22"
+      ],
+      "x": 7.5,
+      "y": 2.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "2E431EC801F7A64A",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "6038018600C3BC3F",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "45F00F8BF2CD4399",
+      "title": "Sentry Walker",
+      "description": [
+        "Use the Ancient Eye of Opening at an Ancient Tower. Within Senterian, offer Sentry Observers at the altar to call the smaller sentries that yield Sentacoins."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "1D8837B2300FC3A7",
+          "type": "kill",
+          "entity": "jitl:sentry_walker",
+          "value": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3C922EB85DCAAA22"
+      ],
+      "x": 10.0,
+      "y": 2.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "2F0FBE4840A9B469",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "14EB25BC5520B75D",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "644C23A4CFC6E972",
+      "title": "An Outpost in Senterian",
+      "description": [
+        "Establish a supplied shelter, mark its return route and bring one shipment home. Keep a charged tool, spare food and healing supplies here."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "4C5110BEFF6DBA28",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3C922EB85DCAAA22"
+      ],
+      "x": 12.5,
+      "y": 2.5,
+      "shape": "rsquare",
+      "size": 1
+    }
+  ]
+}

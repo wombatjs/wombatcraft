@@ -1,0 +1,115 @@
+{
+  "filename": "wc_dimension_exp_official_divinerpg_end",
+  "id": "210E9C2720163FB0",
+  "title": "Divine Realms: End",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 22,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "20F85B3C21BB8453",
+      "title": "Blown Away",
+      "description": [
+        "Craft a Horde Horn"
+      ],
+      "icon": "divinerpg:horde_horn",
+      "tasks": [
+        {
+          "id": "786E71862A347C51",
+          "type": "advancement",
+          "advancement": "divinerpg:end/blown_away"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "61C7300D81072DA4",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "56C23BC64967FF7F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1C43F8D726F44CFE",
+      "title": "Swarm of the Void",
+      "description": [
+        "Kill the Ayeraco Horde"
+      ],
+      "icon": "divinerpg:ayeraco_statue",
+      "tasks": [
+        {
+          "id": "39046CB908676460",
+          "type": "advancement",
+          "advancement": "divinerpg:end/swarm_of_the_void"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "20F85B3C21BB8453"
+      ],
+      "x": 0.0,
+      "y": 2.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "7A93F23E3513DE13",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "00830B5E87204BA1",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "190537804611DC7A",
+      "title": "Triple the Danger",
+      "description": [
+        "Kill an Ender Triplet"
+      ],
+      "icon": "divinerpg:ender_shards",
+      "tasks": [
+        {
+          "id": "12B18A6B0278C517",
+          "type": "advancement",
+          "advancement": "divinerpg:end/triple_the_danger"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 5.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "6AA7615D3DCFFF34",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "27DC6D17B40E22F2",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

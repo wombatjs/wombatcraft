@@ -1,0 +1,253 @@
+{
+  "filename": "wc_dimension_exp_jitl_cloudia",
+  "id": "4A1098452F1D1C58",
+  "title": "Journey: Cloudia",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 43,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "6D9E21CED47AC2B0",
+      "title": "Cloudia Portal Frame",
+      "description": [
+        "Build the gateway from the Terranian Protector's spoils. Trade with the Starlight Villager for the Mysterious Disk that summons the Sky Stalker."
+      ],
+      "icon": "jitl:cloudia_portal_frame",
+      "tasks": [
+        {
+          "id": "5B99CAC73EE7D5C3",
+          "type": "item",
+          "item": "jitl:cloudia_portal_frame",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 2.5,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "3459B09531096B4C",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "109480A873B97341",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "30A4ECE6310B6C2B",
+      "title": "Into Cloudia",
+      "description": [
+        "Build the gateway from the Terranian Protector's spoils. Trade with the Starlight Villager for the Mysterious Disk that summons the Sky Stalker."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "0891581F2532D345",
+          "type": "dimension",
+          "dimension": "jitl:cloudia"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6D9E21CED47AC2B0"
+      ],
+      "x": 2.5,
+      "y": 2.5,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "0871D586D90B023E",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "726C45C8F0C7DBA4",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1C64BD4CFE607A3E",
+      "title": "Cloudia Portal Gem",
+      "description": [
+        "Bring these discoveries back to your expedition workshop. Consult Essentia for their sources and uses."
+      ],
+      "icon": "jitl:cloudia_portal_gem",
+      "tasks": [
+        {
+          "id": "3A7E0012750D6E11",
+          "type": "item",
+          "item": "jitl:cloudia_portal_gem",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "30A4ECE6310B6C2B"
+      ],
+      "x": 0.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "07F753CAB9B2917E",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "2501EDFE548B245D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "346914CB77343F38",
+      "title": "Mysterious Disk",
+      "description": [
+        "Bring these discoveries back to your expedition workshop. Consult Essentia for their sources and uses."
+      ],
+      "icon": "jitl:mysterious_disk",
+      "tasks": [
+        {
+          "id": "7FDB667F8722C758",
+          "type": "item",
+          "item": "jitl:mysterious_disk",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1C64BD4CFE607A3E"
+      ],
+      "x": 0.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "4387BDAB717A4B08",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "56968E2978B482E9",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2D3BFE8BA1668781",
+      "title": "Mysterious Disk",
+      "description": [
+        "Build the gateway from the Terranian Protector's spoils. Trade with the Starlight Villager for the Mysterious Disk that summons the Sky Stalker."
+      ],
+      "icon": "jitl:mysterious_disk",
+      "tasks": [
+        {
+          "id": "36D5461699AC0DCD",
+          "type": "item",
+          "item": "jitl:mysterious_disk",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "30A4ECE6310B6C2B"
+      ],
+      "x": 2.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "101756C9ABD03A01",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "53E5720F75D90C49",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1115909678C9AD4E",
+      "title": "Sky Stalker",
+      "description": [
+        "Build the gateway from the Terranian Protector's spoils. Trade with the Starlight Villager for the Mysterious Disk that summons the Sky Stalker."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "0D54D95385F8A88F",
+          "type": "kill",
+          "entity": "jitl:sky_stalker",
+          "value": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2D3BFE8BA1668781"
+      ],
+      "x": 2.5,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "19896DEC47C4F717",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "385692C65756E5CF",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "707B13E99296CBA2",
+      "title": "An Outpost in Cloudia",
+      "description": [
+        "Establish a supplied shelter, mark its return route and bring one shipment home. Keep a charged tool, spare food and healing supplies here."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "3799F1982F44FECF",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "30A4ECE6310B6C2B"
+      ],
+      "x": 5.0,
+      "y": 5.0,
+      "shape": "rsquare",
+      "size": 1
+    }
+  ]
+}

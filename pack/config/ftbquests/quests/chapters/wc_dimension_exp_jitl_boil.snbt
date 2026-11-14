@@ -1,0 +1,215 @@
+{
+  "filename": "wc_dimension_exp_jitl_boil",
+  "id": "7AD4EEAD677645EB",
+  "title": "Journey: Boiling Point",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 37,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0FDF4FA7155470DD",
+      "title": "Boiling Point Portal Frame",
+      "description": [
+        "Locate a Boil Lock and recover the portal frame blocks. Open the gateway with a Flame Coin."
+      ],
+      "icon": "jitl:boil_portal_frame",
+      "tasks": [
+        {
+          "id": "73557F014EC01AE6",
+          "type": "item",
+          "item": "jitl:boil_portal_frame",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 2.5,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "083DA2F5EB8F20F4",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "703BC7E4C4B763B7",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "14B30E2DAB04F23F",
+      "title": "Into Boiling Point",
+      "description": [
+        "Locate a Boil Lock and recover the portal frame blocks. Open the gateway with a Flame Coin."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "241F33F540263B3D",
+          "type": "dimension",
+          "dimension": "jitl:boil"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0FDF4FA7155470DD"
+      ],
+      "x": 2.5,
+      "y": 2.5,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "1B381E3B7B7FE229",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "402A904D655AAC47",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "628ECB1B5717EE41",
+      "title": "Boil Powder",
+      "description": [
+        "Bring these discoveries back to your expedition workshop. Consult Essentia for their sources and uses."
+      ],
+      "icon": "jitl:boil_powder",
+      "tasks": [
+        {
+          "id": "7B235FAD729CBD8D",
+          "type": "item",
+          "item": "jitl:boil_powder",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "14B30E2DAB04F23F"
+      ],
+      "x": 0.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "42C87928D620E99D",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "70F00313E692BBE7",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "238CF2F998844FD6",
+      "title": "Blazium Ingot",
+      "description": [
+        "Bring these discoveries back to your expedition workshop. Consult Essentia for their sources and uses."
+      ],
+      "icon": "jitl:blazium_ingot",
+      "tasks": [
+        {
+          "id": "3B8DCCE4BB50591A",
+          "type": "item",
+          "item": "jitl:blazium_ingot",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "628ECB1B5717EE41"
+      ],
+      "x": 0.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "00F20237AC3F3DB4",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "4F6C584F0CA7C972",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "423D27DDF214C243",
+      "title": "Boil Lock",
+      "description": [
+        "Locate this landmark and mark a route back to your camp."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "6C42FEC210688CB0",
+          "type": "structure",
+          "structure": "jitl:boil_lock"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "14B30E2DAB04F23F"
+      ],
+      "x": 2.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "649714F9980D7BF5",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "54D5B168B51C3914",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "276C055B7CB2861B",
+      "title": "An Outpost in Boiling Point",
+      "description": [
+        "Establish a supplied shelter, mark its return route and bring one shipment home. Keep a charged tool, spare food and healing supplies here."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "1305CE79882D8A89",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "14B30E2DAB04F23F"
+      ],
+      "x": 5.0,
+      "y": 5.0,
+      "shape": "rsquare",
+      "size": 1
+    }
+  ]
+}

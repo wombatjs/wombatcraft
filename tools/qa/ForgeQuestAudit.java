@@ -97,6 +97,9 @@ public class ForgeQuestAudit {
    java.util.Set<?> keys=(java.util.Set<?>)Class.forName("net.minecraftforge.registries.IForgeRegistry").getMethod("getKeys").invoke(registry);
    List<String> ids=new ArrayList<>();for(Object id:keys)ids.add(id.toString());Collections.sort(ids);Files.write(Path.of("item-registry.txt"),ids);
    System.out.println("REGISTRY_AUDIT_COMPLETE items="+ids.size());
+   Object entityRegistry=Class.forName("net.minecraftforge.registries.ForgeRegistries").getField("ENTITY_TYPES").get(null);
+   Set<?> entityKeys=(Set<?>)Class.forName("net.minecraftforge.registries.IForgeRegistry").getMethod("getKeys").invoke(entityRegistry);
+   List<String> entityIds=new ArrayList<>();for(Object id:entityKeys)entityIds.add(id.toString());Collections.sort(entityIds);Files.write(Path.of("entity-registry.txt"),entityIds);
    Object file=Class.forName("dev.ftb.mods.ftbquests.quest.ServerQuestFile").getField("INSTANCE").get(null);
    List<String> lines=new ArrayList<>();
    for(Object chapter:(Iterable<?>)call(file,"getAllChapters")){

@@ -1,0 +1,2260 @@
+{
+  "filename": "wc_dimension_exp_eternal_starlight_forge",
+  "id": "7DE5294D681574F6",
+  "title": "Eternal Starlight",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 28,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "3D04D31DAC550D2C",
+      "title": "Starlight Explorer",
+      "description": [
+        "Explore all Starlight biomes"
+      ],
+      "icon": "eternal_starlight:nightfall_grass_block",
+      "tasks": [
+        {
+          "id": "056060E93FC51339",
+          "type": "advancement",
+          "advancement": "eternal_starlight:all_starlight_biomes"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "56D80FA6D0CD0556"
+      ],
+      "x": 0.0,
+      "y": 10.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "2D3701459DBB0EDC",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "1CD8D5D71E1E0166",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "2E6A6FF4C72ACDF3",
+      "title": "It's just Friendly Fire",
+      "description": [
+        "Kill a Tangled Skull and use it's explosion to kill another"
+      ],
+      "icon": "eternal_starlight:tangled_skull",
+      "tasks": [
+        {
+          "id": "6845D732ED6E8D54",
+          "type": "advancement",
+          "advancement": "eternal_starlight:chain_tangled_skull_explosion"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "5225601565B302EB"
+      ],
+      "x": 47.5,
+      "y": 27.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "02876E009AC77F1F",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "60B2F935BD97FA9E",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "3F695B848289CB48",
+      "title": "Duke it out!",
+      "description": [
+        "Pass the gatekeeper's trial"
+      ],
+      "icon": "minecraft:diamond_sword",
+      "tasks": [
+        {
+          "id": "1CC335CA7CFC857D",
+          "type": "advancement",
+          "advancement": "eternal_starlight:challenge_gatekeeper"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0A25CDE64ACC98A2"
+      ],
+      "x": 42.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "29A1CA5ACCFEF2C2",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0855D1D004FD0E04",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6028C3CF169EE0B2",
+      "title": "The Backstabber",
+      "description": [
+        "Deactivate the Energy Block to make the Starlight Golem vulnerable to your attack"
+      ],
+      "icon": "eternal_starlight:energy_block",
+      "tasks": [
+        {
+          "id": "1ECBBDB256B8BD3B",
+          "type": "advancement",
+          "advancement": "eternal_starlight:deactivate_energy_block"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "25D0ABEB606A2B04"
+      ],
+      "x": 51.25,
+      "y": 17.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "0B6A5A9EF9AE6526",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5667C9FD6E9CA601",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "03199D22E3C353F9",
+      "title": "The Mariana Trench",
+      "description": [
+        "Enter the Abyss biome"
+      ],
+      "icon": "eternal_starlight:abysslate",
+      "tasks": [
+        {
+          "id": "6B0A0B159D4AB554",
+          "type": "advancement",
+          "advancement": "eternal_starlight:enter_abyss"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "56D80FA6D0CD0556"
+      ],
+      "x": 2.5,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "133E8C0D556D857A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "014EADAD35C53ECB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1CF9360D959608FA",
+      "title": "Castle of Glass",
+      "description": [
+        "Enter the Crystallized Desert biome"
+      ],
+      "icon": "eternal_starlight:blue_starlight_crystal_shard",
+      "tasks": [
+        {
+          "id": "5D40F1DAA928857B",
+          "type": "advancement",
+          "advancement": "eternal_starlight:enter_crystallized_desert"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "56D80FA6D0CD0556"
+      ],
+      "x": 12.5,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "7EB0DACD1430349B",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "08E74E8FA3DF7CEE",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2C3D0E59AF08F5AE",
+      "title": "Cradle of Legion",
+      "description": [
+        "Enter the Golem Forge"
+      ],
+      "icon": "eternal_starlight:golem_steel_pillar",
+      "tasks": [
+        {
+          "id": "5A61F91D8117D3C5",
+          "type": "advancement",
+          "advancement": "eternal_starlight:enter_golem_forge"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "77E482ECC155F1E9"
+      ],
+      "x": 52.5,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "20362177F67209D8",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "06BEA9862B8B72AC",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "56D80FA6D0CD0556",
+      "title": "Sky of a Million Stars",
+      "description": [
+        "Enter the starlight dimension"
+      ],
+      "icon": "eternal_starlight:lunar_log",
+      "tasks": [
+        {
+          "id": "5B7EA5ABFFB85899",
+          "type": "advancement",
+          "advancement": "eternal_starlight:enter_starlight"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "757EBF3E345EC487"
+      ],
+      "x": 42.5,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "01F52B3442161C7A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "3FFB36054C583C7D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "25D0ABEB606A2B04",
+      "title": "Chill Out, Buddy!",
+      "description": [
+        "Throw a Frozen Tube at the Starlight Golem to make it enter the charging state faster"
+      ],
+      "icon": "eternal_starlight:frozen_tube",
+      "tasks": [
+        {
+          "id": "3EB794BAF62687D5",
+          "type": "advancement",
+          "advancement": "eternal_starlight:freeze_starlight_golem"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2C3D0E59AF08F5AE"
+      ],
+      "x": 51.25,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "13E908EDE7E60F55",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "487E54CB1292A90D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6A9948CF2721B071",
+      "title": "Stepping into the Unseen",
+      "description": [
+        "Obtain a full set of Unrealium armor"
+      ],
+      "icon": "eternal_starlight:unrealium_helmet",
+      "tasks": [
+        {
+          "id": "32FFFA6F3E0F41E2",
+          "type": "advancement",
+          "advancement": "eternal_starlight:full_unrealium_armor"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "5225601565B302EB"
+      ],
+      "x": 50.0,
+      "y": 27.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "39E584C77BA97057",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "36E337FF6B71BB7C",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "5B335262B73DD5F7",
+      "title": "The Hammer of Justice",
+      "description": [
+        "Trigger your hammer's special attack by performing a critical attack with full attack strength using the hammer"
+      ],
+      "icon": "eternal_starlight:starfire_hammer",
+      "tasks": [
+        {
+          "id": "42260A177329D097",
+          "type": "advancement",
+          "advancement": "eternal_starlight:hammer_critical_hit"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "56D80FA6D0CD0556"
+      ],
+      "x": 22.5,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "208D00F6CB5B2F44",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5011A6573892C677",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "01E58D283EB5DA5B",
+      "title": "Anyone Can Cook",
+      "description": [
+        "Hire a Stranghoul for one day with a bowl of Pungency Stew"
+      ],
+      "icon": "eternal_starlight:pungency_stew",
+      "tasks": [
+        {
+          "id": "40D5EA0EE76AEE6E",
+          "type": "advancement",
+          "advancement": "eternal_starlight:hire_stranghoul"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "692A9476517F504F"
+      ],
+      "x": 85.0,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "12B5EC79ED2C93BA",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "04702FEB50925299",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "71C7621CDB8EE0A3",
+      "title": "Burn it to the Ground",
+      "description": [
+        "Ignite the Lunar Monstrosity to make it vulnerable to your attack"
+      ],
+      "icon": "eternal_starlight:saltpeter_matchbox",
+      "tasks": [
+        {
+          "id": "4D0951B834C93159",
+          "type": "advancement",
+          "advancement": "eternal_starlight:ignite_lunar_monstrosity"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3F9DBC9D10D07D3B"
+      ],
+      "x": 50.0,
+      "y": 22.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "2B0208DDA386FAE8",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "4668F77CEED12A8A",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2DD1D3AF33DB3206",
+      "title": "Whoever May Cry",
+      "description": [
+        "Ignite a Tear Bomb"
+      ],
+      "icon": "eternal_starlight:tear_bomb",
+      "tasks": [
+        {
+          "id": "57152BA45B9779C6",
+          "type": "advancement",
+          "advancement": "eternal_starlight:ignite_tear_bomb"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "56D80FA6D0CD0556"
+      ],
+      "x": 25.0,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "30A6A4F49FF23F54",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "508C6236010B5F91",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "567E5443C1E0F164",
+      "title": "Smells Like Hydrogen Ions",
+      "description": [
+        "Stand in the Ether fluid"
+      ],
+      "icon": "eternal_starlight:ether_bucket",
+      "tasks": [
+        {
+          "id": "5DE1DB85C375E8CB",
+          "type": "advancement",
+          "advancement": "eternal_starlight:in_ether_fluid"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "56D80FA6D0CD0556"
+      ],
+      "x": 28.75,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "554F84ED2F8914AA",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "053D08E88A88183F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6CD42CEA86176C80",
+      "title": "C'mon TARS!",
+      "description": [
+        "Defeat a Creteor, which falls from the sky during the meteor shower"
+      ],
+      "icon": "eternal_starlight:creteor_hide",
+      "tasks": [
+        {
+          "id": "538D66BE265F9F5F",
+          "type": "advancement",
+          "advancement": "eternal_starlight:kill_creteor"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "30335B04B02DCD07"
+      ],
+      "x": 80.0,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "763963495C3F678D",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "25673ECDE9A5D229",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "3F9DBC9D10D07D3B",
+      "title": "Ancient Wisdom",
+      "description": [
+        "Defeat the Starlight Golem"
+      ],
+      "icon": "eternal_starlight:chiseled_golem_steel_block",
+      "tasks": [
+        {
+          "id": "2F900FCFE406A002",
+          "type": "advancement",
+          "advancement": "eternal_starlight:kill_golem"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6028C3CF169EE0B2"
+      ],
+      "x": 51.25,
+      "y": 20.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "6612933AA4FC0D95",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "051B5BB3B6BE866E",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "5225601565B302EB",
+      "title": "Through the Thorns",
+      "description": [
+        "Defeat the Lunar Monstrosity"
+      ],
+      "icon": "eternal_starlight:parasol_grass",
+      "tasks": [
+        {
+          "id": "1DF86A1A66319693",
+          "type": "advancement",
+          "advancement": "eternal_starlight:kill_lunar_monstrosity"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "71C7621CDB8EE0A3"
+      ],
+      "x": 50.0,
+      "y": 25.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "047E30F9340D6512",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0592366161C1FAA0",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "02C8D93555BFDB73",
+      "title": "Winter is Leaving",
+      "description": [
+        "Defeat the Permafrost"
+      ],
+      "icon": "eternal_starlight:coldsnap",
+      "tasks": [
+        {
+          "id": "5867DB3C597E35E4",
+          "type": "advancement",
+          "advancement": "eternal_starlight:kill_permafrost"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2C3D0E59AF08F5AE"
+      ],
+      "x": 57.5,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "3A510FA19FCC75E8",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "78DD15F8C2AE7CF5",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6C0C0DE2075F619D",
+      "title": "Gift from the Sky",
+      "description": [
+        "Obtain an Aethersent Ingot"
+      ],
+      "icon": "eternal_starlight:aethersent_ingot",
+      "tasks": [
+        {
+          "id": "00B7E8D4D648A293",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_aethersent_ingot"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "30335B04B02DCD07"
+      ],
+      "x": 82.5,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "283B221ACEACFE1E",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "3901153D7B520737",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "35224FEA8251AEF4",
+      "title": "Cosmic Rainmaker",
+      "description": [
+        "Craft an Aetherstrike Rocket, which has the power to conjure a meteor shower"
+      ],
+      "icon": "eternal_starlight:aetherstrike_rocket",
+      "tasks": [
+        {
+          "id": "533C8F619F65EB75",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_aetherstrike_rocket"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6CD42CEA86176C80"
+      ],
+      "x": 80.0,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "4BCB56E64E56E28B",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0AB0E4D6953ED736",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "76365FC3A24547C3",
+      "title": "Final Masquerade",
+      "description": [
+        "Craft an Alchemist Mask"
+      ],
+      "icon": "eternal_starlight:alchemist_mask",
+      "tasks": [
+        {
+          "id": "1A0414712D7CEA30",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_alchemist_mask"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6AC1BE4EAAF7ED50"
+      ],
+      "x": 30.0,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "77BD5F8AC4AA83BB",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "07A07C5268542F53",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0602BCE57FC342DF",
+      "title": "Asking for Trouble",
+      "description": [
+        "Enrage an Aurora Deer, make it collide with some hard blocks and collect its antlers"
+      ],
+      "icon": "eternal_starlight:aurora_deer_antler",
+      "tasks": [
+        {
+          "id": "660786A4490ADD20",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_aurora_deer_antler"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "083097BDC3323E9F"
+      ],
+      "x": 70.0,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "044C544D4129EE7B",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "449E4D6A351BF835",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1DD9CDC989737C9F",
+      "title": "Nimble as a Squirrel",
+      "description": [
+        "Craft a bowl of Bouldershroom Stew, which enables you to climb anywhere"
+      ],
+      "icon": "eternal_starlight:bouldershroom_stew",
+      "tasks": [
+        {
+          "id": "17C2CC3146536E20",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_bouldershroom_stew"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "56D80FA6D0CD0556"
+      ],
+      "x": 32.5,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "0427BF19C0A7B491",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "538F40E12A6F71DB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "607A2B7FDDB7178C",
+      "title": "Complete Darkness",
+      "description": [
+        "Obtain Crescent Spear"
+      ],
+      "icon": "eternal_starlight:crescent_spear",
+      "tasks": [
+        {
+          "id": "1D44582FBD045351",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_crescent_spear"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "5225601565B302EB"
+      ],
+      "x": 52.5,
+      "y": 27.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "0F961DE76EE93A17",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "6B1FE10730083FA2",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6C57E15167E96D76",
+      "title": "A Grain of Crystal",
+      "description": [
+        "Obtain Crinoa Seeds"
+      ],
+      "icon": "eternal_starlight:crinoa_seeds",
+      "tasks": [
+        {
+          "id": "13E940BCDF43332C",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_crinoa_seeds"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1CF9360D959608FA"
+      ],
+      "x": 5.0,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5631FFA01B65FBCB",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "6D23448ABA86E2FF",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1546D9A33AAA2D18",
+      "title": "Crystal-Desertification",
+      "description": [
+        "Craft the Crystalborn Catalyst, a crystal-fueled and redstone-powered machine"
+      ],
+      "icon": "eternal_starlight:crystalborn_catalyst",
+      "tasks": [
+        {
+          "id": "776775B42D384849",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_crystalborn_catalyst"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "11037F5E7445CA6B"
+      ],
+      "x": 7.5,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "011318020F7423B2",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "36C648C82A3A406B",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "62287C78E77441CA",
+      "title": "Insatiable",
+      "description": [
+        "Craft a Dagger of Hunger"
+      ],
+      "icon": "eternal_starlight:dagger_of_hunger",
+      "tasks": [
+        {
+          "id": "674146CC615FFF8A",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_dagger_of_hunger"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "11037F5E7445CA6B"
+      ],
+      "x": 10.0,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "00F54A82D4457160",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "679108AAE3B85924",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "41195C98F0FFCF97",
+      "title": "Unstained in the Mud",
+      "description": [
+        "Obtain a Deepsilver Ingot"
+      ],
+      "icon": "eternal_starlight:deepsilver_ingot",
+      "tasks": [
+        {
+          "id": "32ED959A0CA8AEC9",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_deepsilver_ingot"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "56D80FA6D0CD0556"
+      ],
+      "x": 35.0,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "71C3528200F6BB4E",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "568C194381322E0C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "63BEC97082A5231D",
+      "title": "Ancient Tears",
+      "description": [
+        "Obtain a Dusted Shard, which can be found on the ocean floor"
+      ],
+      "icon": "eternal_starlight:dusted_shard",
+      "tasks": [
+        {
+          "id": "5B1F2176DAAC8A4E",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_dusted_shard"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "56D80FA6D0CD0556"
+      ],
+      "x": 37.5,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "2F6275D8D39C55B6",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "12349E62016B88BD",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "34126104A058506E",
+      "title": "Liquid Radiance",
+      "description": [
+        "Obtain a piece of Flowglaze by throwing Starfire at the sand"
+      ],
+      "icon": "eternal_starlight:flowglaze",
+      "tasks": [
+        {
+          "id": "0A1484D475B27E79",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_flowglaze"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4893A9B248CD98F5"
+      ],
+      "x": 67.5,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "55C055C6F96F5B30",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5E4801DC542025FF",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "00DB1AC7C94364B9",
+      "title": "Return to Oblivion",
+      "description": [
+        "Obtain a Forgotten Nocturnal Millet"
+      ],
+      "icon": "eternal_starlight:forgotten_nocturnal_millet",
+      "tasks": [
+        {
+          "id": "4E330A2AEBC32171",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_forgotten_nocturnal_millet"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "567E5443C1E0F164"
+      ],
+      "x": 27.5,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "2B12B89EF0DD90FA",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "000827593E6C8541",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "7E40B92936CFD19B",
+      "title": "Under a Sky of Dust",
+      "description": [
+        "Craft a Frozen Bomb"
+      ],
+      "icon": "eternal_starlight:frozen_bomb",
+      "tasks": [
+        {
+          "id": "3B0375603CD16B1B",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_frozen_bomb"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "083097BDC3323E9F"
+      ],
+      "x": 72.5,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "3A7629B6073DA5A0",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "2EF3016C6C520999",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "21918861F8CE9D39",
+      "title": "Snow Pea",
+      "description": [
+        "Craft a Glacite Arrow"
+      ],
+      "icon": "eternal_starlight:glacite_arrow",
+      "tasks": [
+        {
+          "id": "05997BFBF58A4AE5",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_glacite_arrow"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "504492BF0E5CCCD6"
+      ],
+      "x": 75.0,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "75D2A4CCDFF5F4CD",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "37D9D28D00A4F0AD",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "504492BF0E5CCCD6",
+      "title": "My December",
+      "description": [
+        "Obtain a Glacite Shard"
+      ],
+      "icon": "eternal_starlight:glacite_shard",
+      "tasks": [
+        {
+          "id": "71EB3FB132DCEF08",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_glacite_shard"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "083097BDC3323E9F"
+      ],
+      "x": 75.0,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "60A841A5F634E7AD",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "2F8E25EFF1C0B7D4",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6379D9084E46B086",
+      "title": "Redox Reactions",
+      "description": [
+        "Obtain Golem Steel Ingot"
+      ],
+      "icon": "eternal_starlight:golem_steel_ingot",
+      "tasks": [
+        {
+          "id": "720762728C720259",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_golem_steel_ingot"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3F9DBC9D10D07D3B"
+      ],
+      "x": 55.0,
+      "y": 22.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "59CB0F9C4CE13BC1",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "02FAAF9A4B3887DC",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6F5163504D67A71E",
+      "title": "Nature Patty",
+      "description": [
+        "Craft a Jinglestem Sandwich"
+      ],
+      "icon": "eternal_starlight:jinglestem_sandwich",
+      "tasks": [
+        {
+          "id": "181FBF570A8595DE",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_jinglestem_sandwich"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "56D80FA6D0CD0556"
+      ],
+      "x": 40.0,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "47A4537836CC4ADE",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "59C042096DC001B3",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0E93D1689507EACA",
+      "title": "I've Become so Numb",
+      "description": [
+        "Obtain the Numbness effect, which can temporarily absorb damage, from a Silver Pungency Fruit"
+      ],
+      "icon": "eternal_starlight:silver_pungency_fruit",
+      "tasks": [
+        {
+          "id": "131ECAD431838206",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_numbness_effect"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "41195C98F0FFCF97"
+      ],
+      "x": 35.0,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "076A8CE498521A45",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "15F900F550714956",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "757EBF3E345EC487",
+      "title": "The Deep Magic",
+      "description": [
+        "Obtain the Orb of Prophecy, which can be used to open the portal"
+      ],
+      "icon": "eternal_starlight:orb_of_prophecy",
+      "tasks": [
+        {
+          "id": "47A72DA151A677DA",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_orb_of_prophecy"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3F695B848289CB48"
+      ],
+      "x": 42.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "317AB1DC6AB3FCBF",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "350B8A673D07821E",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "7A774CF8875993BF",
+      "title": "Fastidious!",
+      "description": [
+        "Obtain a piece of Raw Amaramber by stripping Torreya logs"
+      ],
+      "icon": "eternal_starlight:raw_amaramber",
+      "tasks": [
+        {
+          "id": "492513324B0EBE78",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_raw_amaramber"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "56D80FA6D0CD0556"
+      ],
+      "x": 42.5,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "209CF14D332F2241",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "370FA8B957C07BEA",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "30D02B69A79FE545",
+      "title": "Abyssal Romance",
+      "description": [
+        "Obtain a Red Velvetumoss Flower"
+      ],
+      "icon": "eternal_starlight:red_velvetumoss_flower",
+      "tasks": [
+        {
+          "id": "69A61516E1D3FF82",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_red_velvetumoss_flower"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "03199D22E3C353F9"
+      ],
+      "x": 2.5,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "4DF9409933EE28B6",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "6EF311F007932354",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "560ACC3FE67AFDB0",
+      "title": "CHAOS, CHAOS",
+      "description": [
+        "Craft a scythe"
+      ],
+      "icon": "eternal_starlight:petal_scythe",
+      "tasks": [
+        {
+          "id": "036156594F0D830C",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_scythe"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "56D80FA6D0CD0556"
+      ],
+      "x": 45.0,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "28B061B05C962C7C",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0FEBCD9B98398183",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "77E482ECC155F1E9",
+      "title": "Guided by Starlight",
+      "description": [
+        "Obtain a Seeking Eye"
+      ],
+      "icon": "eternal_starlight:seeking_eye",
+      "tasks": [
+        {
+          "id": "71D8010FD0D29520",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_seeking_eye"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "56D80FA6D0CD0556"
+      ],
+      "x": 52.5,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "7286107F4DA1353B",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "7A9EF16A99CF85E4",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "4893A9B248CD98F5",
+      "title": "Crystalline Blaze",
+      "description": [
+        "Obtain a piece of Starfire by helping the Starfire Birds to breed"
+      ],
+      "icon": "eternal_starlight:starfire",
+      "tasks": [
+        {
+          "id": "08862A8D167177B5",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_starfire"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "66AB3482717331E6"
+      ],
+      "x": 67.5,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1B1DE2595E1EA482",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "6D5A8CBD48162B5E",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "68BCF15B39086EE3",
+      "title": "Ooo! Shiny!",
+      "description": [
+        "Obtain a Starlit Diamond"
+      ],
+      "icon": "eternal_starlight:starlit_diamond",
+      "tasks": [
+        {
+          "id": "176116F3A7EC8ABE",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_starlit_diamond"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "56D80FA6D0CD0556"
+      ],
+      "x": 60.0,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "6E55BFA3147CE52D",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "27563BF01C83B21F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "40E488FDAD668C36",
+      "title": "Lingering Heat",
+      "description": [
+        "Obtain a Stellagmite, which can be melted by lava, in the underground"
+      ],
+      "icon": "eternal_starlight:stellagmite",
+      "tasks": [
+        {
+          "id": "3D265C75E5BC4554",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_stellagmite"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "56D80FA6D0CD0556"
+      ],
+      "x": 62.5,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5292994365D3A1B0",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "65730D2BEFABA7E6",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "5C0DD54CBD4EB75D",
+      "title": "Watch Out for Hand Burns!",
+      "description": [
+        "Obtain Thermal Springtone. Tips: Only flames can destroy giant plants that live here..."
+      ],
+      "icon": "eternal_starlight:thermal_springstone",
+      "tasks": [
+        {
+          "id": "6D17CED02B951FB8",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_thermal_springstone"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "56D80FA6D0CD0556"
+      ],
+      "x": 65.0,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5EFA50D5DD8B0911",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "070C566E3A7E1DA3",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6AC1BE4EAAF7ED50",
+      "title": "Poorly Ether-Soluble",
+      "description": [
+        "Obtain a Thioquartz Shard"
+      ],
+      "icon": "eternal_starlight:thioquartz_shard",
+      "tasks": [
+        {
+          "id": "7274E21167AF765F",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_thioquartz_shard"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "567E5443C1E0F164"
+      ],
+      "x": 30.0,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "2303CA111D767C8A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "3B719D37149207EE",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "11037F5E7445CA6B",
+      "title": "Dental Surgery",
+      "description": [
+        "Obtain a Tooth of Hunger by killing a Thirst Walker or blocking its attack"
+      ],
+      "icon": "eternal_starlight:tooth_of_hunger",
+      "tasks": [
+        {
+          "id": "68F879E21DB4C558",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_tooth_of_hunger"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1CF9360D959608FA"
+      ],
+      "x": 10.0,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "3E21CDA81EA1B12C",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "11789576063C731C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "7CA5C8CB93B7AFB9",
+      "title": "Quackstarvers",
+      "description": [
+        "Craft Tooth of Hunger building blocks"
+      ],
+      "icon": "eternal_starlight:chiseled_tooth_of_hunger_tiles",
+      "tasks": [
+        {
+          "id": "550311491A81974E",
+          "type": "advancement",
+          "advancement": "eternal_starlight:obtain_tooth_of_hunger_blocks"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "11037F5E7445CA6B"
+      ],
+      "x": 12.5,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "68376294DCF53DB8",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "31903D36733C6F2B",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "66AB3482717331E6",
+      "title": "Nurturing Roots",
+      "description": [
+        "Put seeds into the Starfire Birds' nests to help the birds breed"
+      ],
+      "icon": "eternal_starlight:starfire_bird_nest",
+      "tasks": [
+        {
+          "id": "79A8B8D50379B71A",
+          "type": "advancement",
+          "advancement": "eternal_starlight:put_seeds_into_starfire_bird_nest"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "56D80FA6D0CD0556"
+      ],
+      "x": 67.5,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "171DAA890AD7000D",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "38219F94E7210030",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0A25CDE64ACC98A2",
+      "title": "Eternal Starlight",
+      "description": [
+        "Explore the starlight dimension!"
+      ],
+      "icon": "eternal_starlight:lunar_log",
+      "tasks": [
+        {
+          "id": "6363B4C91DA2EFB0",
+          "type": "advancement",
+          "advancement": "eternal_starlight:root"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 42.5,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "13A19955CAFA337A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "005BBC3AAE65FA80",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6A831401C3A08716",
+      "title": "Thanks for the Treat",
+      "description": [
+        "Keep attacking mobs to satiate the Dagger of Hunger"
+      ],
+      "icon": "eternal_starlight:dagger_of_hunger",
+      "tasks": [
+        {
+          "id": "4EFD01ACC26E941E",
+          "type": "advancement",
+          "advancement": "eternal_starlight:saturate_dagger_of_hunger"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "62287C78E77441CA"
+      ],
+      "x": 10.0,
+      "y": 17.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "23E50C33BC329567",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "33B9EF4AAA629A29",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6EA5B57BD7AA5AE2",
+      "title": "Planetary Protection Policy",
+      "description": [
+        "Summon an Aethersent Golem by putting a Carved Lunaris Cactus Fruit on a Aethersent Block"
+      ],
+      "icon": "eternal_starlight:starfall_longbow",
+      "tasks": [
+        {
+          "id": "56865BDF9C5D452C",
+          "type": "advancement",
+          "advancement": "eternal_starlight:summon_aethersent_golem"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6C0C0DE2075F619D"
+      ],
+      "x": 82.5,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "441A07A1FFCBB386",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "7EDD8EDE1C55F3CC",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6CE46D27357AE166",
+      "title": "Item Slate",
+      "description": [
+        "Summon a Grimstone Golem by putting a Carved Lunaris Cactus Fruit on a Grimstone Brick"
+      ],
+      "icon": "eternal_starlight:grimstone_bricks",
+      "tasks": [
+        {
+          "id": "077E7DF518438EE9",
+          "type": "advancement",
+          "advancement": "eternal_starlight:summon_grimstone_golem"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1CF9360D959608FA"
+      ],
+      "x": 15.0,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "09D1B649EEC3D7C5",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "12A3A5B6CB2349B3",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6FBDB49C6B4427F1",
+      "title": "Lost in the Echo",
+      "description": [
+        "Tame a Crystallized Moth, which have the ability to use sound waves to attack, with an enough amount of meat"
+      ],
+      "icon": "eternal_starlight:shivering_gel",
+      "tasks": [
+        {
+          "id": "3DC21B886EE22371",
+          "type": "advancement",
+          "advancement": "eternal_starlight:tame_crystallized_moth"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1CF9360D959608FA"
+      ],
+      "x": 17.5,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "0D3AD1A45250A2C9",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "43AD829BAF13E69C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2BFBFC7BA41A31B9",
+      "title": "Bloodletting Therapy",
+      "description": [
+        "Throw a Gleech's egg and hit a creature"
+      ],
+      "icon": "eternal_starlight:gleech_egg",
+      "tasks": [
+        {
+          "id": "1AF45C9CFBDEC92D",
+          "type": "advancement",
+          "advancement": "eternal_starlight:throw_gleech_egg"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1CF9360D959608FA"
+      ],
+      "x": 20.0,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "725FF23A7A177C49",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5347C87A9398488D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "083097BDC3323E9F",
+      "title": "Under the Permafrost",
+      "description": [
+        "Enter the Ashen Snow layer of the Permafrost Forest"
+      ],
+      "icon": "eternal_starlight:icicle",
+      "tasks": [
+        {
+          "id": "0626F98406176B8F",
+          "type": "advancement",
+          "advancement": "eternal_starlight:under_permafrost_forest"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "56D80FA6D0CD0556"
+      ],
+      "x": 72.5,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5096301E4F9E22E7",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "779EDE4AAAD200EE",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "7BAFA60ED4E889EC",
+      "title": "Swinging in the Boundless Milky Way",
+      "description": [
+        "To a thinker!"
+      ],
+      "icon": "eternal_starlight:blossom_of_stars",
+      "tasks": [
+        {
+          "id": "018CEAFC2D23587A",
+          "type": "advancement",
+          "advancement": "eternal_starlight:use_blossom_of_stars"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "56D80FA6D0CD0556"
+      ],
+      "x": 77.5,
+      "y": 10.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "387AAB69C78BD6EF",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "4EEF90F6CA3A7779",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "30335B04B02DCD07",
+      "title": "Wish upon a Star",
+      "description": [
+        "Witness a meteor shower"
+      ],
+      "icon": "eternal_starlight:raw_aethersent",
+      "tasks": [
+        {
+          "id": "1785FB2BF41EAA81",
+          "type": "advancement",
+          "advancement": "eternal_starlight:witness_meteor_shower"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "56D80FA6D0CD0556"
+      ],
+      "x": 81.25,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "791DFEC62EC7B6EA",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "74DC62FA0E2701AF",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "692A9476517F504F",
+      "title": "Even Death May Die",
+      "description": [
+        "Witness a Stranghoul hunt its prey"
+      ],
+      "icon": "eternal_starlight:malarite_sword",
+      "tasks": [
+        {
+          "id": "4EF9C71BBF19AC01",
+          "type": "advancement",
+          "advancement": "eternal_starlight:witness_stranghoul_hunt"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "56D80FA6D0CD0556"
+      ],
+      "x": 85.0,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "125D79A1B4E01DA1",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "727B9912CF157F0A",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "67AAA9EEF0EACF14",
+      "title": "Eternal Starlight Field Guide",
+      "description": [
+        "Find Starlight Portal Ruins and pass the Gatekeeper's trial. The Orb of Prophecy opens a realm of strange gardens, living crystals and ancient war machines."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "6B9F89588AF0DD9E",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 0.0,
+      "y": 32.5,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "2A31B48D15FFC481",
+      "title": "Into Starlight",
+      "description": [
+        "Find Starlight Portal Ruins and pass the Gatekeeper's trial. The Orb of Prophecy opens a realm of strange gardens, living crystals and ancient war machines."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "62DDF946055F5ABD",
+          "type": "dimension",
+          "dimension": "eternal_starlight:starlight"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 5.0,
+      "y": 32.5,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "5C1C169622E87795",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "327DD13A0A5CFD69",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

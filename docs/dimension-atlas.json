@@ -238,5 +238,179 @@
     "dimension": "graveyard:past",
     "chapter": "wc_dimension_sanctums",
     "description": "A realm recorded by The Graveyard. It is not treated as an ordinary portal destination in this expedition atlas; no visit is required."
+  },
+  {
+    "title": "Boil",
+    "dimension": "jitl:boil",
+    "chapter": "wc_dimension_exp_jitl_boil",
+    "description": "A chain of distant kingdoms lies beyond the old shrines. Study Essentia, build the summoning shrine and gather the portal fragments carried by each realm's guardians."
+  },
+  {
+    "title": "Cloudia",
+    "dimension": "jitl:cloudia",
+    "chapter": "wc_dimension_exp_jitl_cloudia",
+    "description": "A chain of distant kingdoms lies beyond the old shrines. Study Essentia, build the summoning shrine and gather the portal fragments carried by each realm's guardians."
+  },
+  {
+    "title": "Corba",
+    "dimension": "jitl:corba",
+    "chapter": "wc_dimension_exp_jitl_corba",
+    "description": "A chain of distant kingdoms lies beyond the old shrines. Study Essentia, build the summoning shrine and gather the portal fragments carried by each realm's guardians."
+  },
+  {
+    "title": "Depths",
+    "dimension": "jitl:depths",
+    "chapter": "wc_dimension_exp_jitl_depths",
+    "description": "A chain of distant kingdoms lies beyond the old shrines. Study Essentia, build the summoning shrine and gather the portal fragments carried by each realm's guardians."
+  },
+  {
+    "title": "Euca",
+    "dimension": "jitl:euca",
+    "chapter": "wc_dimension_exp_jitl_euca",
+    "description": "A chain of distant kingdoms lies beyond the old shrines. Study Essentia, build the summoning shrine and gather the portal fragments carried by each realm's guardians."
+  },
+  {
+    "title": "Frozen",
+    "dimension": "jitl:frozen",
+    "chapter": "wc_dimension_exp_jitl_frozen",
+    "description": "A chain of distant kingdoms lies beyond the old shrines. Study Essentia, build the summoning shrine and gather the portal fragments carried by each realm's guardians."
+  },
+  {
+    "title": "Senterian",
+    "dimension": "jitl:senterian",
+    "chapter": "wc_dimension_exp_jitl_senterian",
+    "description": "A chain of distant kingdoms lies beyond the old shrines. Study Essentia, build the summoning shrine and gather the portal fragments carried by each realm's guardians."
+  },
+  {
+    "title": "Terrania",
+    "dimension": "jitl:terrania",
+    "chapter": "wc_dimension_exp_jitl_terrania",
+    "description": "A chain of distant kingdoms lies beyond the old shrines. Study Essentia, build the summoning shrine and gather the portal fragments carried by each realm's guardians."
+  },
+  {
+    "title": "Personal Building Space",
+    "dimension": "dimdungeons:build_dimension",
+    "chapter": "wc_dimension_exp_dimensional_dungeons",
+    "description": "Raise a portal around a gilded keyhole. Each activated key leads to another expedition; keep your keys until every chamber has been searched. Walls protect these puzzles from ordinary building and mining."
+  },
+  {
+    "title": "Dungeon Dimension",
+    "dimension": "dimdungeons:dungeon_dimension",
+    "chapter": "wc_dimension_exp_dimensional_dungeons",
+    "description": "Raise a portal around a gilded keyhole. Each activated key leads to another expedition; keep your keys until every chamber has been searched. Walls protect these puzzles from ordinary building and mining."
+  },
+  {
+    "title": "Apalachia",
+    "dimension": "divinerpg:apalachia",
+    "chapter": "wc_dimension_exp_official_divinerpg_twilight",
+    "description": "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments."
+  },
+  {
+    "title": "Arcana",
+    "dimension": "divinerpg:arcana",
+    "chapter": "wc_dimension_exp_official_divinerpg_arcana",
+    "description": "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments."
+  },
+  {
+    "title": "Eden",
+    "dimension": "divinerpg:eden",
+    "chapter": "wc_dimension_exp_official_divinerpg_twilight",
+    "description": "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments."
+  },
+  {
+    "title": "Iceika",
+    "dimension": "divinerpg:iceika",
+    "chapter": "wc_dimension_exp_official_divinerpg_iceika",
+    "description": "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments."
+  },
+  {
+    "title": "Mortum",
+    "dimension": "divinerpg:mortum",
+    "chapter": "wc_dimension_exp_official_divinerpg_twilight",
+    "description": "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments."
+  },
+  {
+    "title": "Skythern",
+    "dimension": "divinerpg:skythern",
+    "chapter": "wc_dimension_exp_official_divinerpg_twilight",
+    "description": "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments."
+  },
+  {
+    "title": "Vethea",
+    "dimension": "divinerpg:vethea",
+    "chapter": "wc_dimension_exp_official_divinerpg_vethea",
+    "description": "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments."
+  },
+  {
+    "title": "Wildwood",
+    "dimension": "divinerpg:wildwood",
+    "chapter": "wc_dimension_exp_official_divinerpg_twilight",
+    "description": "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments."
+  },
+  {
+    "title": "Starlight",
+    "dimension": "eternal_starlight:starlight",
+    "chapter": "wc_dimension_exp_eternal_starlight_forge",
+    "description": "Find Starlight Portal Ruins and pass the Gatekeeper's trial. The Orb of Prophecy opens a realm of strange gardens, living crystals and ancient war machines."
+  },
+  {
+    "title": "Deep Void",
+    "dimension": "the_deep_void:deep_void",
+    "chapter": "wc_dimension_exp_the_deep_void",
+    "description": "Beyond the bedrock waits a hostile world. Carry light and supplies, then seek the means to make a Void Pendant for the return. Its guardians hold the road to stronger equipment."
+  },
+  {
+    "title": "The Pit",
+    "dimension": "the_deep_void:the_pit",
+    "chapter": "wc_dimension_exp_the_deep_void",
+    "description": "Beyond the bedrock waits a hostile world. Carry light and supplies, then seek the means to make a Void Pendant for the return. Its guardians hold the road to stronger equipment."
+  },
+  {
+    "title": "Aurorian",
+    "dimension": "theaurorian:aurorian",
+    "chapter": "wc_dimension_exp_the_aurorian_reborn",
+    "description": "Frame a gateway with Aurorian Portal Frames and awaken it with a Silentwood Stick. The Runestone Dungeon, Darkstone Dungeon and Moon Temple guard a path through moonlit metallurgy."
+  },
+  {
+    "title": "Atlantis",
+    "dimension": "atlantis:atlantis",
+    "chapter": "wc_dimension_exp_atlantis",
+    "description": "Build an Atlantean Core portal frame and open it with water. Prepare breathing equipment before crossing; ruins and treasure lie beneath the sea."
+  },
+  {
+    "title": "Lostcity",
+    "dimension": "lostcities:lostcity",
+    "chapter": "wc_dimension_exp_the_lost_cities",
+    "description": "Place a bed on two diamond blocks and surround it with six skulls, then sleep to cross into the ruined city. Build a matching return bed before making a permanent outpost."
+  },
+  {
+    "title": "Void",
+    "dimension": "voidscape:void",
+    "chapter": "wc_dimension_exp_voidscape",
+    "description": "Remain near bedrock until the Void draws you in. Learn to resist its influence, then establish a proper gateway and work through its crystal and essence tiers."
+  },
+  {
+    "title": "Depth",
+    "dimension": "callfromthedepth_:depth",
+    "chapter": "wc_dimension_exp_call_from_the_depths",
+    "description": "Forge a Depths Key and follow its gateway into the ancient depths. Gather local stone and souls, equip yourself for the ruins and uncover the relics left behind."
+  },
+  {
+    "title": "Tropics",
+    "dimension": "tropicraft:tropics",
+    "chapter": "wc_dimension_exp_tropicraft",
+    "description": "Prepare a Pina Colada and a beach chair. Drink while seated at sunset to reach the tropics. Establish a coastal camp before venturing into reefs and volcanic country."
+  },
+  {
+    "title": "The Beyond",
+    "dimension": "beyond_the_end:the_beyond",
+    "chapter": "wc_dimension_exp_beyond_the_end_mod",
+    "description": "Defeat the Ender Dragon and collect its blood. Smelt End Stone into Void Stone, build a portal frame and awaken it with the blood to enter the Beyond."
+  },
+  {
+    "title": "Created Worlds",
+    "dimension": null,
+    "chapter": "wc_dimension_exp_rftools_dimensions",
+    "description": "Your power grid can sustain a world. Begin with a modest dimension, learn its running cost and build a reserve before shaping richer terrain."
   }
 ]

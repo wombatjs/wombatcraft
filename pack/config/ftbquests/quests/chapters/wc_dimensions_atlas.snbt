@@ -886,6 +886,644 @@
       "shape": "rsquare",
       "size": 1.2,
       "subtitle": "Field guide"
+    },
+    {
+      "id": "6CD236E7946B8F1A",
+      "title": "Boil",
+      "description": [
+        "A chain of distant kingdoms lies beyond the old shrines. Study Essentia, build the summoning shrine and gather the portal fragments carried by each realm's guardians.\n\nQuest route: Journey: Boiling Point."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "3142EF239A665435",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -7.0,
+      "y": 20.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "2A1216F316AE4BB6",
+      "title": "Cloudia",
+      "description": [
+        "A chain of distant kingdoms lies beyond the old shrines. Study Essentia, build the summoning shrine and gather the portal fragments carried by each realm's guardians.\n\nQuest route: Journey: Cloudia."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "47AB2336CB412479",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -3.5,
+      "y": 20.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "03268113B8774AF7",
+      "title": "Corba",
+      "description": [
+        "A chain of distant kingdoms lies beyond the old shrines. Study Essentia, build the summoning shrine and gather the portal fragments carried by each realm's guardians.\n\nQuest route: Journey: Corba."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "11971A44190BFF1D",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0.0,
+      "y": 20.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "4E45B48D98E64F25",
+      "title": "Depths",
+      "description": [
+        "A chain of distant kingdoms lies beyond the old shrines. Study Essentia, build the summoning shrine and gather the portal fragments carried by each realm's guardians.\n\nQuest route: Journey: The Depths."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "491B1ABDBA368C29",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 3.5,
+      "y": 20.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "21E53CA0D5976B52",
+      "title": "Euca",
+      "description": [
+        "A chain of distant kingdoms lies beyond the old shrines. Study Essentia, build the summoning shrine and gather the portal fragments carried by each realm's guardians.\n\nQuest route: Journey: Euca."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "455A763C2EFFE79C",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 7.0,
+      "y": 20.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "52616934DF4A6EF2",
+      "title": "Frozen",
+      "description": [
+        "A chain of distant kingdoms lies beyond the old shrines. Study Essentia, build the summoning shrine and gather the portal fragments carried by each realm's guardians.\n\nQuest route: Journey: Frozen Lands."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "3F46973C99D4A41C",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -7.0,
+      "y": 22.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "6E454FE3F793DF61",
+      "title": "Senterian",
+      "description": [
+        "A chain of distant kingdoms lies beyond the old shrines. Study Essentia, build the summoning shrine and gather the portal fragments carried by each realm's guardians.\n\nQuest route: Journey: Senterian."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "3B35E5CA8B93A22B",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -3.5,
+      "y": 22.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "7CA5606C11699A27",
+      "title": "Terrania",
+      "description": [
+        "A chain of distant kingdoms lies beyond the old shrines. Study Essentia, build the summoning shrine and gather the portal fragments carried by each realm's guardians.\n\nQuest route: Journey: Terrania."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "66BFF1C408F083BA",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0.0,
+      "y": 22.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "18C4A34230999F30",
+      "title": "Personal Building Space",
+      "description": [
+        "Raise a portal around a gilded keyhole. Each activated key leads to another expedition; keep your keys until every chamber has been searched. Walls protect these puzzles from ordinary building and mining.\n\nQuest route: Dimensional Dungeons."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "4225D70E462DF1FB",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 3.5,
+      "y": 22.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "041C2863F44BFA09",
+      "title": "Dungeon Dimension",
+      "description": [
+        "Raise a portal around a gilded keyhole. Each activated key leads to another expedition; keep your keys until every chamber has been searched. Walls protect these puzzles from ordinary building and mining.\n\nQuest route: Dimensional Dungeons."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "7499DA07D64721AF",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 7.0,
+      "y": 22.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "07E3A02E4DC0B61F",
+      "title": "Apalachia",
+      "description": [
+        "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments.\n\nQuest route: Divine Realms: Twilight."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "7D4A2B95DA2783C9",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -7.0,
+      "y": 25.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "3D006847C91AF56A",
+      "title": "Arcana",
+      "description": [
+        "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments.\n\nQuest route: Divine Realms: Arcana."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "14E62A348D7C2E49",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -3.5,
+      "y": 25.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "2FC67C71751C2DF3",
+      "title": "Eden",
+      "description": [
+        "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments.\n\nQuest route: Divine Realms: Twilight."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "30E1AA3FC83F6F54",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0.0,
+      "y": 25.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "69691F8772DC8604",
+      "title": "Iceika",
+      "description": [
+        "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments.\n\nQuest route: Divine Realms: Iceika."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "7184B12059D7A71F",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 3.5,
+      "y": 25.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "6866E850010A72DB",
+      "title": "Mortum",
+      "description": [
+        "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments.\n\nQuest route: Divine Realms: Twilight."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "5660C8C75A0A3278",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 7.0,
+      "y": 25.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "7BDB448B68680A8E",
+      "title": "Skythern",
+      "description": [
+        "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments.\n\nQuest route: Divine Realms: Twilight."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "7A4EDD84D9A543F6",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -7.0,
+      "y": 27.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "3F895BAA650C1775",
+      "title": "Vethea",
+      "description": [
+        "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments.\n\nQuest route: Divine Realms: Vethea."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "1BA07C138A589E53",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -3.5,
+      "y": 27.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "7CEB51DFC281C824",
+      "title": "Wildwood",
+      "description": [
+        "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments.\n\nQuest route: Divine Realms: Twilight."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "734D0EE653B66686",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0.0,
+      "y": 27.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "2939B09B429B55E3",
+      "title": "Starlight",
+      "description": [
+        "Find Starlight Portal Ruins and pass the Gatekeeper's trial. The Orb of Prophecy opens a realm of strange gardens, living crystals and ancient war machines.\n\nQuest route: Eternal Starlight."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "512BAEC2C2549120",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 3.5,
+      "y": 27.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "1DC4D8AE24C57949",
+      "title": "Deep Void",
+      "description": [
+        "Beyond the bedrock waits a hostile world. Carry light and supplies, then seek the means to make a Void Pendant for the return. Its guardians hold the road to stronger equipment.\n\nQuest route: The Deep Void."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "5063BDA894B188F5",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 7.0,
+      "y": 27.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "78E65A2B7E558B52",
+      "title": "The Pit",
+      "description": [
+        "Beyond the bedrock waits a hostile world. Carry light and supplies, then seek the means to make a Void Pendant for the return. Its guardians hold the road to stronger equipment.\n\nQuest route: The Deep Void."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "00D372D63182545D",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -7.0,
+      "y": 30.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "41BCE3B43E6F764E",
+      "title": "Aurorian",
+      "description": [
+        "Frame a gateway with Aurorian Portal Frames and awaken it with a Silentwood Stick. The Runestone Dungeon, Darkstone Dungeon and Moon Temple guard a path through moonlit metallurgy.\n\nQuest route: The Aurorian."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "49367575C7AB9ED1",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -3.5,
+      "y": 30.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "2707228401E20ABF",
+      "title": "Atlantis",
+      "description": [
+        "Build an Atlantean Core portal frame and open it with water. Prepare breathing equipment before crossing; ruins and treasure lie beneath the sea.\n\nQuest route: Atlantis."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "43B541DD043E8B43",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0.0,
+      "y": 30.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "6507552922F6959E",
+      "title": "Lostcity",
+      "description": [
+        "Place a bed on two diamond blocks and surround it with six skulls, then sleep to cross into the ruined city. Build a matching return bed before making a permanent outpost.\n\nQuest route: The Lost Cities."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "547D6115BE313B6F",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 3.5,
+      "y": 30.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "126F15E3BF2DFF53",
+      "title": "Void",
+      "description": [
+        "Remain near bedrock until the Void draws you in. Learn to resist its influence, then establish a proper gateway and work through its crystal and essence tiers.\n\nQuest route: Voidscape."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "174CC2D2EB54B9F4",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 7.0,
+      "y": 30.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "4FD809387A42FB74",
+      "title": "Depth",
+      "description": [
+        "Forge a Depths Key and follow its gateway into the ancient depths. Gather local stone and souls, equip yourself for the ruins and uncover the relics left behind.\n\nQuest route: Call from the Depths."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "2AD14C41C93E6280",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -7.0,
+      "y": 32.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "55AC5C67B92C3C2A",
+      "title": "Tropics",
+      "description": [
+        "Prepare a Pina Colada and a beach chair. Drink while seated at sunset to reach the tropics. Establish a coastal camp before venturing into reefs and volcanic country.\n\nQuest route: Tropicraft."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "036CE89D69D31148",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -3.5,
+      "y": 32.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "331EF9AA883A53CE",
+      "title": "The Beyond",
+      "description": [
+        "Defeat the Ender Dragon and collect its blood. Smelt End Stone into Void Stone, build a portal frame and awaken it with the blood to enter the Beyond.\n\nQuest route: Beyond the End."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "566582FF148BE30F",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0.0,
+      "y": 32.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "1F22BCC90C7EF2AF",
+      "title": "Created Worlds",
+      "description": [
+        "Your power grid can sustain a world. Begin with a modest dimension, learn its running cost and build a reserve before shaping richer terrain.\n\nQuest route: Worldshapers."
+      ],
+      "icon": "minecraft:compass",
+      "tasks": [
+        {
+          "id": "19ECDC74C4693E11",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 3.5,
+      "y": 32.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
     }
   ]
 }

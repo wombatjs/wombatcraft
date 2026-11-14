@@ -1,0 +1,716 @@
+{
+  "filename": "wc_dimension_exp_deep_aether",
+  "id": "43A635464C9FAA5A",
+  "title": "Deep Aether",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 20,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "652F9FCC13CCF284",
+      "title": "Champion Of The Aether",
+      "description": [
+        "Defeat all Aether bosses without taking a single hit"
+      ],
+      "icon": "aether:aether_portal_frame",
+      "tasks": [
+        {
+          "id": "5A09885F5264342E",
+          "type": "advancement",
+          "advancement": "deep_aether:aether_champion"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "3D7F80E75DFED59D",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "6792212C66127D20",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "1CF3B577643FB472",
+      "title": "Storm Ruler",
+      "description": [
+        "Defeat the brass boss"
+      ],
+      "icon": "deep_aether:brass_dungeon_key",
+      "tasks": [
+        {
+          "id": "0B9236609A6FFB53",
+          "type": "advancement",
+          "advancement": "deep_aether:brass_dungeon"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 5.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "6DA9A8C45AB7798B",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "110F712C2157F009",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "627BCDEE602378F8",
+      "title": "Aether Explorer",
+      "description": [
+        "Explore all Aether biomes"
+      ],
+      "icon": "deep_aether:roseroot_sapling",
+      "tasks": [
+        {
+          "id": "7932F40C0562174B",
+          "type": "advancement",
+          "advancement": "deep_aether:explore_aether"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "2C657B3808A430B5",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "05B9DDBA5A034669",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "3A3F0AE4CAF8DDE1",
+      "title": "Cover Me in Sunshine",
+      "description": [
+        "Get a full set of Stratus Armor"
+      ],
+      "icon": "deep_aether:stratus_chestplate",
+      "tasks": [
+        {
+          "id": "450337B2A3522E47",
+          "type": "advancement",
+          "advancement": "deep_aether:stratus_armor"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 15.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "1B3224E19089784F",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "015759CAFB58460F",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "0B26BDAD9FBDB7D6",
+      "title": "Purple Magic",
+      "description": [
+        "Transform an item by throwing it into Poison"
+      ],
+      "icon": "deep_aether:poison_bucket",
+      "tasks": [
+        {
+          "id": "1103C8CC459BE489",
+          "type": "advancement",
+          "advancement": "deep_aether:transform_poison"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 0.0,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "65A5FF78066A566F",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5E1693C66C4F0ACE",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0EC25FAACDF7C0D4",
+      "title": "Skyjade Gemstone",
+      "description": [
+        "Mine Skyjade in Aether terrain and put it into service before the next dungeon."
+      ],
+      "icon": "deep_aether:skyjade",
+      "tasks": [
+        {
+          "id": "729888F80481702F",
+          "type": "item",
+          "item": "deep_aether:skyjade",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 6.25,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "11EF917E28971ABE",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "109FB9BA120D20EA",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0FD05B171C4487E2",
+      "title": "Skyjade Pickaxe",
+      "description": [
+        "Mine Skyjade in Aether terrain and put it into service before the next dungeon."
+      ],
+      "icon": "deep_aether:skyjade_pickaxe",
+      "tasks": [
+        {
+          "id": "6ED78F126D606E0F",
+          "type": "item",
+          "item": "deep_aether:skyjade_pickaxe",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0EC25FAACDF7C0D4"
+      ],
+      "x": 6.25,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "192B96E8E3E68650",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "1D14B592E8780691",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1E3D4E7DCA3E34B1",
+      "title": "Skyjade Chestplate",
+      "description": [
+        "Mine Skyjade in Aether terrain and put it into service before the next dungeon."
+      ],
+      "icon": "deep_aether:skyjade_chestplate",
+      "tasks": [
+        {
+          "id": "166480AD36CFFA91",
+          "type": "item",
+          "item": "deep_aether:skyjade_chestplate",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0FD05B171C4487E2"
+      ],
+      "x": 5.0,
+      "y": 17.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "526DC9B2E1A16BFF",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "2C0BB549CD83697E",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "39809FD46D6A2777",
+      "title": "Skyjade Moa Armor",
+      "description": [
+        "Mine Skyjade in Aether terrain and put it into service before the next dungeon."
+      ],
+      "icon": "deep_aether:skyjade_moa_armor",
+      "tasks": [
+        {
+          "id": "2F2759A5DB852FD2",
+          "type": "item",
+          "item": "deep_aether:skyjade_moa_armor",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1E3D4E7DCA3E34B1"
+      ],
+      "x": 5.0,
+      "y": 20.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "2C3E2CEC8F8C4264",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "045946AD29E4CF22",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "12175158B7F1BC1D",
+      "title": "Metal Mixture",
+      "description": [
+        "Gather the cloud-born materials and follow the Stratus recipes at your Aether workshop."
+      ],
+      "icon": "deep_aether:metal_mixture",
+      "tasks": [
+        {
+          "id": "060E1D34B28BEF86",
+          "type": "item",
+          "item": "deep_aether:metal_mixture",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0FD05B171C4487E2"
+      ],
+      "x": 7.5,
+      "y": 17.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "6655C13ADF5847E9",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "21FEC0CBD6BFF340",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "27A90E222A63A2FC",
+      "title": "Stratus Ingot",
+      "description": [
+        "Gather the cloud-born materials and follow the Stratus recipes at your Aether workshop."
+      ],
+      "icon": "deep_aether:stratus_ingot",
+      "tasks": [
+        {
+          "id": "79EF3178E0B54D79",
+          "type": "item",
+          "item": "deep_aether:stratus_ingot",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "12175158B7F1BC1D"
+      ],
+      "x": 7.5,
+      "y": 20.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "23678F6CD01E5524",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "432742C6E32E9059",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "69B63F5D6C5D53E7",
+      "title": "Smithing Template",
+      "description": [
+        "Gather the cloud-born materials and follow the Stratus recipes at your Aether workshop."
+      ],
+      "icon": "deep_aether:stratus_smithing_template",
+      "tasks": [
+        {
+          "id": "0CA545763FF58EBD",
+          "type": "item",
+          "item": "deep_aether:stratus_smithing_template",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "27A90E222A63A2FC"
+      ],
+      "x": 7.5,
+      "y": 22.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "0CE9AA8BB1C19158",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "14B310F5B74875A3",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "77CC0ADAB129753E",
+      "title": "Stratus Pickaxe",
+      "description": [
+        "Gather the cloud-born materials and follow the Stratus recipes at your Aether workshop."
+      ],
+      "icon": "deep_aether:stratus_pickaxe",
+      "tasks": [
+        {
+          "id": "18E96CEB9EC036C3",
+          "type": "item",
+          "item": "deep_aether:stratus_pickaxe",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "69B63F5D6C5D53E7"
+      ],
+      "x": 7.5,
+      "y": 25.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "7A101D928198894C",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "7B6F51331CF460DD",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6D7F3FBFCD2BD3F3",
+      "title": "Squall Plate",
+      "description": [
+        "Bring the brass dungeon's spoils to your smithing station and prepare stormforged equipment."
+      ],
+      "icon": "deep_aether:squall_plate",
+      "tasks": [
+        {
+          "id": "2916A9745179D7F9",
+          "type": "item",
+          "item": "deep_aether:squall_plate",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1CF3B577643FB472"
+      ],
+      "x": 5.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "3AE73B41FC3618E1",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5AF4171876684FAF",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "34F658595DBE7826",
+      "title": "Smithing Template",
+      "description": [
+        "Bring the brass dungeon's spoils to your smithing station and prepare stormforged equipment."
+      ],
+      "icon": "deep_aether:stormforged_smithing_template",
+      "tasks": [
+        {
+          "id": "3BE7BA3FB7FDED5D",
+          "type": "item",
+          "item": "deep_aether:stormforged_smithing_template",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6D7F3FBFCD2BD3F3"
+      ],
+      "x": 5.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1794DD479A69F3F3",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0E73135093897F83",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "5AB402F104B42EB2",
+      "title": "Stormforged Chestplate",
+      "description": [
+        "Bring the brass dungeon's spoils to your smithing station and prepare stormforged equipment."
+      ],
+      "icon": "deep_aether:stormforged_chestplate",
+      "tasks": [
+        {
+          "id": "31BC9B914A994D5B",
+          "type": "item",
+          "item": "deep_aether:stormforged_chestplate",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "34F658595DBE7826"
+      ],
+      "x": 5.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "11EEDCB32A7A3C8D",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "26ACAEB6E930FD62",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "588641946CA9CC1F",
+      "title": "Squash Seeds",
+      "description": [
+        "Establish a small Aether garden and keep feed and antidotes beside your expedition stores."
+      ],
+      "icon": "deep_aether:squash_seeds",
+      "tasks": [
+        {
+          "id": "7F03CF2870FFE7E6",
+          "type": "item",
+          "item": "deep_aether:squash_seeds",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 12.5,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "48D14E4F069CBB08",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "11B7917D27927E1F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "06CBFE032A9BF998",
+      "title": "Moa Fodder",
+      "description": [
+        "Establish a small Aether garden and keep feed and antidotes beside your expedition stores."
+      ],
+      "icon": "deep_aether:moa_fodder",
+      "tasks": [
+        {
+          "id": "6A0AFFB34FA73DC7",
+          "type": "item",
+          "item": "deep_aether:moa_fodder",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "588641946CA9CC1F"
+      ],
+      "x": 12.5,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "652764011D5414CF",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "593C429B97DB0F18",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1724419105884B46",
+      "title": "Antidote",
+      "description": [
+        "Establish a small Aether garden and keep feed and antidotes beside your expedition stores."
+      ],
+      "icon": "deep_aether:antidote",
+      "tasks": [
+        {
+          "id": "38E0ACF1BC8CF413",
+          "type": "item",
+          "item": "deep_aether:antidote",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "06CBFE032A9BF998"
+      ],
+      "x": 12.5,
+      "y": 17.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1432CCD5320FD7C3",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0DFF1F854FA8F784",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "00CA689045BF317D",
+      "title": "Deep Aether Field Guide",
+      "description": [
+        "Return to the Aether with climbing gear and room for new minerals. Seek Skyjade, refine Stratus and follow the storms to the brass dungeon."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "568A6266A1D1C850",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 17.5,
+      "y": 12.5,
+      "shape": "rsquare",
+      "size": 1
+    }
+  ]
+}

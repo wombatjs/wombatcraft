@@ -32,6 +32,7 @@ jobs:
           name: server-validation
           path: |
             dist/server-validation.json
+            dist/dimension-generation.json
             dist/server-smoke/console.log
             dist/server-smoke/install.log
             dist/server-smoke/*-registry.txt

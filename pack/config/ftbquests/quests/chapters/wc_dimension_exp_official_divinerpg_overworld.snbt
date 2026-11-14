@@ -1,0 +1,513 @@
+{
+  "filename": "wc_dimension_exp_official_divinerpg_overworld",
+  "id": "5775C6D5EA953CC5",
+  "title": "Divine Realms: Overworld",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 25,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "3A08F8B820F44B41",
+      "title": "A Divine Plan",
+      "description": [
+        "Craft a Divine Sword"
+      ],
+      "icon": "divinerpg:divine_sword",
+      "tasks": [
+        {
+          "id": "0896C0C9C658813E",
+          "type": "advancement",
+          "advancement": "divinerpg:overworld/a_divine_plan"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0364401B7B4CF395"
+      ],
+      "x": 0.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "65F13618175D3A70",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0425F8903548627B",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0F62DE829ED8570D",
+      "title": "A Meal to Remember",
+      "description": [
+        "Eat a Chicken Dinner"
+      ],
+      "icon": "divinerpg:chicken_dinner",
+      "tasks": [
+        {
+          "id": "2AA15B3A27816E9D",
+          "type": "advancement",
+          "advancement": "divinerpg:overworld/a_meal_to_remember"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0364401B7B4CF395"
+      ],
+      "x": 2.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "7DC3792C4B05AFA9",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "1345912AC182F273",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6DF428CFB3B4D71E",
+      "title": "Attempt at Ascension",
+      "description": [
+        "Craft all Divine armor and tools"
+      ],
+      "icon": "divinerpg:divine_helmet",
+      "tasks": [
+        {
+          "id": "31529D2C538F85DF",
+          "type": "advancement",
+          "advancement": "divinerpg:overworld/attempt_at_ascension"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "3A08F8B820F44B41"
+      ],
+      "x": 0.0,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "7D1C2393D2310A88",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "26D93060F73748D8",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "334C6A558F75F370",
+      "title": "bad idea right?",
+      "description": [
+        "Visit an ancient tomb"
+      ],
+      "icon": "minecraft:skeleton_skull",
+      "tasks": [
+        {
+          "id": "30D770B959F15740",
+          "type": "advancement",
+          "advancement": "divinerpg:overworld/bad_idea"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0364401B7B4CF395"
+      ],
+      "x": 5.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "0C02FE3FCAEACEEA",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "488EF50578615A17",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "05ABA0A41A3AF21D",
+      "title": "Eye of Evil",
+      "description": [
+        "Look into the eye of The Eye"
+      ],
+      "icon": "divinerpg:rupee_ingot",
+      "tasks": [
+        {
+          "id": "644B09A3F3A0A356",
+          "type": "advancement",
+          "advancement": "divinerpg:overworld/eye_of_evil"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0364401B7B4CF395"
+      ],
+      "x": 7.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "153A0F88AEDECC48",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "627107BA31E37CDB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "4A529923887DABBF",
+      "title": "Feeding on the Fish",
+      "description": [
+        "Kill a Shark"
+      ],
+      "icon": "divinerpg:shark_fin",
+      "tasks": [
+        {
+          "id": "5456B2FFB2E2E83D",
+          "type": "advancement",
+          "advancement": "divinerpg:overworld/feeding_on_the_fish"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0364401B7B4CF395"
+      ],
+      "x": 10.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "7C6A323C5044B287",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "6D2C92E481B493C3",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "15A778CF3C3C7A79",
+      "title": "Halloween Spirit",
+      "description": [
+        "Trade with a Jack o'Man"
+      ],
+      "icon": "divinerpg:scythe",
+      "tasks": [
+        {
+          "id": "61703B50EE28C1AB",
+          "type": "advancement",
+          "advancement": "divinerpg:overworld/halloween_spirit"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0364401B7B4CF395"
+      ],
+      "x": 12.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "60CB9283E218ADFD",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "4294A5BF4FA68189",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "369EB8E5019F509F",
+      "title": "Jungle Stegosaurus Slayer",
+      "description": [
+        "Kill a Jungle Dramcryx"
+      ],
+      "icon": "divinerpg:jungle_shards",
+      "tasks": [
+        {
+          "id": "753835C497E26686",
+          "type": "advancement",
+          "advancement": "divinerpg:overworld/jungle_stegosaurus_slayer"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0364401B7B4CF395"
+      ],
+      "x": 15.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "422DF92787457CC8",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "2192B89DE97F3C2F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "5A3C4D6549313F09",
+      "title": "Story of a Lonely Guy",
+      "description": [
+        "Trade with Diamond Dave"
+      ],
+      "icon": "divinerpg:realmite_pickaxe",
+      "tasks": [
+        {
+          "id": "38B637236BE8738D",
+          "type": "advancement",
+          "advancement": "divinerpg:overworld/lonely_guy"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0364401B7B4CF395"
+      ],
+      "x": 17.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "3D6A35BAB420681E",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "1D87C3920956FC33",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1334953C0ACAD0B0",
+      "title": "Perfectly Corrupted",
+      "description": [
+        "Use an Altar of Corruption"
+      ],
+      "icon": "divinerpg:altar_of_corruption",
+      "tasks": [
+        {
+          "id": "4327D349EEDA7C9C",
+          "type": "advancement",
+          "advancement": "divinerpg:overworld/perfectly_corrupted"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0364401B7B4CF395"
+      ],
+      "x": 20.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "3CBB5C2337368769",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "4846BF87985C031B",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0364401B7B4CF395",
+      "title": "DivineRPG",
+      "description": [
+        "The journey begins..."
+      ],
+      "icon": "divinerpg:rupee_shickaxe",
+      "tasks": [
+        {
+          "id": "51FF6E15B7A548FD",
+          "type": "advancement",
+          "advancement": "divinerpg:overworld/root"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 13.75,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "209E23D33276ABF0",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "50306F1A314013BA",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "56C9C3FFBC5B3C1B",
+      "title": "Things to Come?",
+      "description": [
+        "I don't remember what this is?"
+      ],
+      "icon": "divinerpg:seng_spawn_egg",
+      "tasks": [
+        {
+          "id": "502ED8316DA03190",
+          "type": "advancement",
+          "advancement": "divinerpg:overworld/seng"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0364401B7B4CF395"
+      ],
+      "x": 22.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "2C31D41E9089026F",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "6B2450569E03FC8C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "3E1F4AC19E5708D9",
+      "title": "Towering Guardian",
+      "description": [
+        "Kill the Ancient Entity"
+      ],
+      "icon": "divinerpg:sandslash",
+      "tasks": [
+        {
+          "id": "5424947B808CFC12",
+          "type": "advancement",
+          "advancement": "divinerpg:overworld/towering_guardian"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0364401B7B4CF395"
+      ],
+      "x": 25.0,
+      "y": 2.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "7D338B792BBADEE7",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "061E9A74F2BE84EF",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "117C5FBDCFA9F227",
+      "title": "When Pigs Fly",
+      "description": [
+        "Get a full suit of Angelic armor"
+      ],
+      "icon": "divinerpg:angelic_helmet",
+      "tasks": [
+        {
+          "id": "0A353B5042A403C1",
+          "type": "advancement",
+          "advancement": "divinerpg:overworld/when_pigs_fly"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0364401B7B4CF395"
+      ],
+      "x": 27.5,
+      "y": 2.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "39FC837C937933A5",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "3ACCD150552E2C9B",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

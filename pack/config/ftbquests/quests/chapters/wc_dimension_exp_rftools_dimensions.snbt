@@ -1,0 +1,875 @@
+{
+  "filename": "wc_dimension_exp_rftools_dimensions",
+  "id": "129722E7100961CE",
+  "title": "Worldshapers",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 45,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "2BE2A12593E2AB1A",
+      "title": "Energy Tablet",
+      "description": [
+        "Build a dedicated power reserve before connecting a Dimension Builder."
+      ],
+      "icon": "mekanism:energy_tablet",
+      "tasks": [
+        {
+          "id": "39BB46153D925E4C",
+          "type": "item",
+          "item": "mekanism:energy_tablet",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 2.5,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "487689784C135B5F",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "293D4E11FC5B56D7",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "005475540CC292C0",
+      "title": "Basic Energy Cube",
+      "description": [
+        "Build a dedicated power reserve before connecting a Dimension Builder."
+      ],
+      "icon": "mekanism:basic_energy_cube",
+      "tasks": [
+        {
+          "id": "596A7030EF19E994",
+          "type": "item",
+          "item": "mekanism:basic_energy_cube",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2BE2A12593E2AB1A"
+      ],
+      "x": 2.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "51A772A748702AF0",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "51007F0B58F8469E",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "013BC0EE08AA2AF5",
+      "title": "Empty Dimension Tab",
+      "description": [
+        "Enscribe a modest first world, supply its builder continuously and read its maintenance cost before entering."
+      ],
+      "icon": "rftoolsdim:empty_dimension_tab",
+      "tasks": [
+        {
+          "id": "3F66CA96EAF697A9",
+          "type": "item",
+          "item": "rftoolsdim:empty_dimension_tab",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "005475540CC292C0"
+      ],
+      "x": 2.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "3E9865F001663FF0",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "429728DE6931F378",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2CA26A2E76302A08",
+      "title": "Enscriber",
+      "description": [
+        "Enscribe a modest first world, supply its builder continuously and read its maintenance cost before entering."
+      ],
+      "icon": "rftoolsdim:enscriber",
+      "tasks": [
+        {
+          "id": "02B683222193E766",
+          "type": "item",
+          "item": "rftoolsdim:enscriber",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "013BC0EE08AA2AF5"
+      ],
+      "x": 2.5,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1988E144BCA2A78A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "48CF3FB4D729EDBB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0AA0FBD079437ADD",
+      "title": "Dimension Builder",
+      "description": [
+        "Enscribe a modest first world, supply its builder continuously and read its maintenance cost before entering."
+      ],
+      "icon": "rftoolsdim:dimension_builder",
+      "tasks": [
+        {
+          "id": "2E38627BB30F12E7",
+          "type": "item",
+          "item": "rftoolsdim:dimension_builder",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2CA26A2E76302A08"
+      ],
+      "x": 2.5,
+      "y": 10.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "39D0A19D26ED198E",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0A13341E3EF3E785",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0B9F25446A8E1257",
+      "title": "Realized Dimension Tab",
+      "description": [
+        "Enscribe a modest first world, supply its builder continuously and read its maintenance cost before entering."
+      ],
+      "icon": "rftoolsdim:realized_dimension_tab",
+      "tasks": [
+        {
+          "id": "55AF3246A7CF35A1",
+          "type": "item",
+          "item": "rftoolsdim:realized_dimension_tab",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0AA0FBD079437ADD"
+      ],
+      "x": 2.5,
+      "y": 12.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5BB75BB860EDD2C9",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "1C769A05A04A57E2",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "37D3FFC0EDFE59B0",
+      "title": "Dimension Monitor",
+      "description": [
+        "Enscribe a modest first world, supply its builder continuously and read its maintenance cost before entering."
+      ],
+      "icon": "rftoolsdim:dimension_monitor",
+      "tasks": [
+        {
+          "id": "47B23505CE795CAE",
+          "type": "item",
+          "item": "rftoolsdim:dimension_monitor",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0B9F25446A8E1257"
+      ],
+      "x": 0.0,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "708D104AF5C316AA",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "24481AE7F01DB70C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "50EFD6AB3DD39DD8",
+      "title": "Researcher",
+      "description": [
+        "Research Lost Knowledge, retain the results and use the workbench to prepare specific dimlets."
+      ],
+      "icon": "rftoolsdim:researcher",
+      "tasks": [
+        {
+          "id": "2ABA51BD0D0D224D",
+          "type": "item",
+          "item": "rftoolsdim:researcher",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 5.0,
+      "y": 27.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "66D0B30F585973DA",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "793D3542CD7BF755",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "4FBA2E96D29A42A9",
+      "title": "Knowledge Holder",
+      "description": [
+        "Research Lost Knowledge, retain the results and use the workbench to prepare specific dimlets."
+      ],
+      "icon": "rftoolsdim:knowledge_holder",
+      "tasks": [
+        {
+          "id": "59858B915C01DE9F",
+          "type": "item",
+          "item": "rftoolsdim:knowledge_holder",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "50EFD6AB3DD39DD8"
+      ],
+      "x": 3.75,
+      "y": 30.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "4D194E00B85D02AC",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "014482F63DE57A96",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "225A99FC521B7C67",
+      "title": "Dimlet Workbench",
+      "description": [
+        "Research Lost Knowledge, retain the results and use the workbench to prepare specific dimlets."
+      ],
+      "icon": "rftoolsdim:dimlet_workbench",
+      "tasks": [
+        {
+          "id": "51404F6418434E64",
+          "type": "item",
+          "item": "rftoolsdim:dimlet_workbench",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4FBA2E96D29A42A9"
+      ],
+      "x": 3.75,
+      "y": 32.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "7C4F2E3563597503",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "3F6E43742559893E",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "057C8A2C7F13329B",
+      "title": "Common Lost Knowledge",
+      "description": [
+        "Explore generated worlds and recover Lost Knowledge for your research collection."
+      ],
+      "icon": "rftoolsdim:common_lost_knowledge",
+      "tasks": [
+        {
+          "id": "076D60A224D8DB03",
+          "type": "item",
+          "item": "rftoolsdim:common_lost_knowledge",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "50EFD6AB3DD39DD8"
+      ],
+      "x": 10.0,
+      "y": 30.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "23CF346FAFA6655B",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "38E64A3505197BF7",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "61EE1A6E2B3E8B7B",
+      "title": "Uncommon Lost Knowledge",
+      "description": [
+        "Explore generated worlds and recover Lost Knowledge for your research collection."
+      ],
+      "icon": "rftoolsdim:uncommon_lost_knowledge",
+      "tasks": [
+        {
+          "id": "2435F29994244E33",
+          "type": "item",
+          "item": "rftoolsdim:uncommon_lost_knowledge",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "057C8A2C7F13329B"
+      ],
+      "x": 10.0,
+      "y": 32.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "7F2513DC1F2ACACC",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "4CEFF7B440436C1D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2BB2F84F24ADDC1F",
+      "title": "Rare Lost Knowledge",
+      "description": [
+        "Explore generated worlds and recover Lost Knowledge for your research collection."
+      ],
+      "icon": "rftoolsdim:rare_lost_knowledge",
+      "tasks": [
+        {
+          "id": "01A201F448DB2179",
+          "type": "item",
+          "item": "rftoolsdim:rare_lost_knowledge",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "61EE1A6E2B3E8B7B"
+      ],
+      "x": 10.0,
+      "y": 35.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5A81D139CA50078A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "2B2094A784DBFF91",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "16BB1E55D82AF3ED",
+      "title": "Legendary Lost Knowledge",
+      "description": [
+        "Explore generated worlds and recover Lost Knowledge for your research collection."
+      ],
+      "icon": "rftoolsdim:legendary_lost_knowledge",
+      "tasks": [
+        {
+          "id": "0463F34AA0DA3798",
+          "type": "item",
+          "item": "rftoolsdim:legendary_lost_knowledge",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2BB2F84F24ADDC1F"
+      ],
+      "x": 10.0,
+      "y": 37.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "70EA871433880A2E",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "777E6967C3DFE741",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "34EDE7E860A42D6D",
+      "title": "Block Absorber",
+      "description": [
+        "Capture block data to shape a resource world."
+      ],
+      "icon": "rftoolsdim:block_absorber",
+      "tasks": [
+        {
+          "id": "6471DDD44BFAE9B4",
+          "type": "item",
+          "item": "rftoolsdim:block_absorber",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "225A99FC521B7C67"
+      ],
+      "x": 0.0,
+      "y": 35.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "58AF38E00E35DA29",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "4441237C8D66031C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "67B7518FC0F95245",
+      "title": "Fluid Absorber",
+      "description": [
+        "Capture a fluid sample for a carefully budgeted fluid dimension."
+      ],
+      "icon": "rftoolsdim:fluid_absorber",
+      "tasks": [
+        {
+          "id": "461A6BEAD0854290",
+          "type": "item",
+          "item": "rftoolsdim:fluid_absorber",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "225A99FC521B7C67"
+      ],
+      "x": 2.5,
+      "y": 35.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5A397964C97F4E05",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5331673773E96EED",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "57F47C542E8B4B7F",
+      "title": "Biome Absorber",
+      "description": [
+        "Survey a biome with the absorber to reproduce its character."
+      ],
+      "icon": "rftoolsdim:biome_absorber",
+      "tasks": [
+        {
+          "id": "2D93D66D3E925FD6",
+          "type": "item",
+          "item": "rftoolsdim:biome_absorber",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "225A99FC521B7C67"
+      ],
+      "x": 5.0,
+      "y": 35.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "0925A5834E00B616",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "046EF4BCE5CC4718",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "351866BA31A4E6D5",
+      "title": "Structure Absorber",
+      "description": [
+        "Collect structure data for a more purposeful expedition world."
+      ],
+      "icon": "rftoolsdim:structure_absorber",
+      "tasks": [
+        {
+          "id": "40847D476BC183B5",
+          "type": "item",
+          "item": "rftoolsdim:structure_absorber",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "225A99FC521B7C67"
+      ],
+      "x": 7.5,
+      "y": 35.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1EFB7A730C5B42A0",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "688E1D2E42BAE78F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "4DE0D39F36DCDAF4",
+      "title": "Dimension Editor",
+      "description": [
+        "Prepare tools to maintain and inspect a created world. Keep emergency protection available before entering a world with uncertain power."
+      ],
+      "icon": "rftoolsdim:dimension_editor",
+      "tasks": [
+        {
+          "id": "756530D3BD925305",
+          "type": "item",
+          "item": "rftoolsdim:dimension_editor",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "37D3FFC0EDFE59B0"
+      ],
+      "x": 0.0,
+      "y": 17.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "629AF251A7A55C42",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "77EFB77D35DC8693",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "7B37564921790B83",
+      "title": "Phased Field Generator",
+      "description": [
+        "Prepare tools to maintain and inspect a created world. Keep emergency protection available before entering a world with uncertain power."
+      ],
+      "icon": "rftoolsdim:phased_field_generator",
+      "tasks": [
+        {
+          "id": "131AD57496BFC0A7",
+          "type": "item",
+          "item": "rftoolsdim:phased_field_generator",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4DE0D39F36DCDAF4"
+      ],
+      "x": 0.0,
+      "y": 20.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "7C92F28F664648FE",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "2410EFE7E93F5B2E",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "76AD921A4E34E09A",
+      "title": "Activity Probe",
+      "description": [
+        "Prepare tools to maintain and inspect a created world. Keep emergency protection available before entering a world with uncertain power."
+      ],
+      "icon": "rftoolsdim:activity_probe",
+      "tasks": [
+        {
+          "id": "2E86AFBC3D68C598",
+          "type": "item",
+          "item": "rftoolsdim:activity_probe",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "7B37564921790B83"
+      ],
+      "x": 0.0,
+      "y": 22.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "16A20A7C74015217",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0CF447201571B937",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "277969227C052418",
+      "title": "The First World Commission",
+      "description": [
+        "Create a modest dimension, visit it through your matter-transmitter route, return and verify its builder remains powered. Record its address and upkeep."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "1668978A3C4628C7",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0B9F25446A8E1257"
+      ],
+      "x": 3.75,
+      "y": 15.0,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "297495C7294FD194",
+      "title": "A World That Feeds the Factory",
+      "description": [
+        "Commission a resource world with a buffer sized for its upkeep. Bring a mining shipment home and process it through your factory without abandoning the world's power supply."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "344DE55DF1173623",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "277969227C052418",
+        "34EDE7E860A42D6D"
+      ],
+      "x": 2.5,
+      "y": 17.5,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "45F2BEAAF86F954E",
+      "title": "The Return Drill",
+      "description": [
+        "Test your return route while power is healthy. Store backup supplies at both endpoints and confirm a companion can use the route."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "384D4A89416F9814",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "277969227C052418"
+      ],
+      "x": 5.0,
+      "y": 17.5,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "5FE39D8E2AA0ECFA",
+      "title": "Worldshapers Field Guide",
+      "description": [
+        "Your power grid can sustain a world. Begin with a modest dimension, learn its running cost and build a reserve before shaping richer terrain."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "092C5AAFA5A8C258",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 15.0,
+      "y": 27.5,
+      "shape": "rsquare",
+      "size": 1
+    }
+  ]
+}

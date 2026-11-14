@@ -1,0 +1,583 @@
+{
+  "filename": "wc_dimension_exp_official_divinerpg_vethea",
+  "id": "1B5F17530E6D78A8",
+  "title": "Divine Realms: Vethea",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 27,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "0ED7CADDA93483A3",
+      "title": "An Elm on Nightmare Street",
+      "description": [
+        "Be careful when breaking trees"
+      ],
+      "icon": "divinerpg:hyrewood_log",
+      "tasks": [
+        {
+          "id": "404D960FE390E314",
+          "type": "advancement",
+          "advancement": "divinerpg:vethea/an_elm_on_nightmare_street"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "69F58DC66EE19DE7"
+      ],
+      "x": 0.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "01EC13794882E87A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "73C863414F5524BC",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "34E4CE672C91CA4B",
+      "title": "Crypt Raider",
+      "description": [
+        "Obtain an Amthirmis Lump from a crypt"
+      ],
+      "icon": "divinerpg:amthirmis_lump",
+      "tasks": [
+        {
+          "id": "558574CFD09BB252",
+          "type": "advancement",
+          "advancement": "divinerpg:vethea/crypt_raider"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "69F58DC66EE19DE7"
+      ],
+      "x": 2.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "755CB01D398B8404",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "792C080093D83A8C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6300AB8D2C24B3DE",
+      "title": "Everlasting",
+      "description": [
+        "Obtain every \"ever\" weapon from Lady Luna"
+      ],
+      "icon": "divinerpg:eversight",
+      "tasks": [
+        {
+          "id": "15785B15D3A793BE",
+          "type": "advancement",
+          "advancement": "divinerpg:vethea/everlasting"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "703AF6FB434D6F6A"
+      ],
+      "x": 7.5,
+      "y": 17.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "638398147B24B74A",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "204A7F8DA5F74639",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "69F58DC66EE19DE7",
+      "title": "For the Man Who Has Everything",
+      "description": [
+        "Find and trade with the Hunger"
+      ],
+      "icon": "divinerpg:dirty_pearls",
+      "tasks": [
+        {
+          "id": "6B5D1B2AE1B8DC0E",
+          "type": "advancement",
+          "advancement": "divinerpg:vethea/for_the_man_who_has_everything"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2825F1513866D099"
+      ],
+      "x": 7.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "45882A47267081C6",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "418A8157CD03419F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "413A7ECED46735E5",
+      "title": "Getting Out of Hand",
+      "description": [
+        "Follow this expedition milestone in the advancement journal, then return to claim your supplies."
+      ],
+      "icon": "divinerpg:quadrotic_lump",
+      "tasks": [
+        {
+          "id": "1E2D1B972A6F3E51",
+          "type": "advancement",
+          "advancement": "divinerpg:vethea/getting_out_of_hand"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "69F58DC66EE19DE7"
+      ],
+      "x": 6.25,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "738B9D070F4FAB17",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "44239BC3BA33A8AA",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "0DD1C1F3F8D06605",
+      "title": "I am Mad Scientist",
+      "description": [
+        "Kill Dr. Karos"
+      ],
+      "icon": "divinerpg:karos_lump",
+      "tasks": [
+        {
+          "id": "4C5F61C33E1C4945",
+          "type": "advancement",
+          "advancement": "divinerpg:vethea/i_am_mad_scientist"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "413A7ECED46735E5"
+      ],
+      "x": 6.25,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "2C896E3D0497A59F",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "38206529162D61B2",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "0B632C938D67D646",
+      "title": "Let Them Eat Cake",
+      "description": [
+        "Eat a Dream Cake"
+      ],
+      "icon": "divinerpg:dream_cake",
+      "tasks": [
+        {
+          "id": "2C390459DF283DA2",
+          "type": "advancement",
+          "advancement": "divinerpg:vethea/let_them_eat_cake"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "69F58DC66EE19DE7"
+      ],
+      "x": 10.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "73F3F1FB5B64E88A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "2A881780811CEB06",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "5F49A347D5B20E56",
+      "title": "Licensed to Kill",
+      "description": [
+        "Kill an L'heiva"
+      ],
+      "icon": "divinerpg:band_of_lheiva_hunting",
+      "tasks": [
+        {
+          "id": "022E1E2C2DD52876",
+          "type": "advancement",
+          "advancement": "divinerpg:vethea/licensed_to_kill"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "69F58DC66EE19DE7"
+      ],
+      "x": 12.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1BC4689E60D82B98",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0D9BAD0788EF9CAD",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "703AF6FB434D6F6A",
+      "title": "Lunar Emissary",
+      "description": [
+        "Kill Lady Luna"
+      ],
+      "icon": "divinerpg:moon_clock",
+      "tasks": [
+        {
+          "id": "04FB5A833C996D5F",
+          "type": "advancement",
+          "advancement": "divinerpg:vethea/lunar_emissary"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "344D074581E2AD5A"
+      ],
+      "x": 7.5,
+      "y": 15.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "045CB7BDA94E5026",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "1D37955F8ED3DD73",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "31E4FC1815730550",
+      "title": "One Maul to Rule Them All",
+      "description": [
+        "Obtain a Karos Rockmaul"
+      ],
+      "icon": "divinerpg:karos_rockmaul",
+      "tasks": [
+        {
+          "id": "23CA9AE6D170FCC6",
+          "type": "advancement",
+          "advancement": "divinerpg:vethea/one_maul_to_rule_them_all"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0DD1C1F3F8D06605"
+      ],
+      "x": 5.0,
+      "y": 10.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "29133C4D69BD8E1A",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "34AF8E5AB9D810C6",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "2825F1513866D099",
+      "title": "Vethea",
+      "description": [
+        "Dive into your dreams"
+      ],
+      "icon": "divinerpg:dream_grass",
+      "tasks": [
+        {
+          "id": "09FA259D2A8EC09B",
+          "type": "advancement",
+          "advancement": "divinerpg:vethea/root"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 7.5,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "062BE969F7AD95E1",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "713744535B7FA65B",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "3BB95558C0E1A99F",
+      "title": "Royal Beeswax",
+      "description": [
+        "Kill the Hive Queen"
+      ],
+      "icon": "divinerpg:hive_egg",
+      "tasks": [
+        {
+          "id": "040670FEF8F86AE8",
+          "type": "advancement",
+          "advancement": "divinerpg:vethea/royal_beeswax"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "69F58DC66EE19DE7"
+      ],
+      "x": 15.0,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "14069232AD8847B9",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "28EC7499E15968B2",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "779C88FCC565E226",
+      "title": "Swiss Cheese",
+      "description": [
+        "Kill Raglok Gog'dure"
+      ],
+      "icon": "divinerpg:heliosis_lump",
+      "tasks": [
+        {
+          "id": "5A5991EB59521193",
+          "type": "advancement",
+          "advancement": "divinerpg:vethea/swiss_cheese"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "0DD1C1F3F8D06605"
+      ],
+      "x": 7.5,
+      "y": 10.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "3FDF09D830C905A8",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "3620396A93283ADF",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "49AD823E11BEC6C4",
+      "title": "Temple of Doom",
+      "description": [
+        "Obtain a Cermile Lump from a temple"
+      ],
+      "icon": "divinerpg:cermile_lump",
+      "tasks": [
+        {
+          "id": "4BB1664DB04E88AE",
+          "type": "advancement",
+          "advancement": "divinerpg:vethea/temple_of_doom"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "34E4CE672C91CA4B"
+      ],
+      "x": 2.5,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5787BB816CAA01A2",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0CB13EE7675E1824",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "344D074581E2AD5A",
+      "title": "Unlimited Power",
+      "description": [
+        "Follow this expedition milestone in the advancement journal, then return to claim your supplies."
+      ],
+      "icon": "divinerpg:arksiane_lump",
+      "tasks": [
+        {
+          "id": "32B989DE4E48C174",
+          "type": "advancement",
+          "advancement": "divinerpg:vethea/unlimited_power"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "779C88FCC565E226"
+      ],
+      "x": 7.5,
+      "y": 12.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "7883261D6AE50B5B",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "4B733322C056ABBE",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "2DE9F042F0F69203",
+      "title": "Into Vethea",
+      "description": [
+        "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "0CCE0DB243C9BC40",
+          "type": "dimension",
+          "dimension": "divinerpg:vethea"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 0.0,
+      "y": 22.5,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "02B888DB32EBCFD9",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0E527D9E662E6E42",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

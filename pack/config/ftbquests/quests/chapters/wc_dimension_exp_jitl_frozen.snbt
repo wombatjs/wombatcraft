@@ -1,0 +1,252 @@
+{
+  "filename": "wc_dimension_exp_jitl_frozen",
+  "id": "23443871139D4C01",
+  "title": "Journey: Frozen Lands",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 38,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "6A1034DFB7E5A1A9",
+      "title": "Frozen Portal Frame",
+      "description": [
+        "Craft the Frozen Portal Frame and open it with a Flame Coin. The Spike Dungeon houses the Frost Golem."
+      ],
+      "icon": "jitl:frozen_portal_frame",
+      "tasks": [
+        {
+          "id": "27D5F3247154176A",
+          "type": "item",
+          "item": "jitl:frozen_portal_frame",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 3.75,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "0AA62AE8F99D4C0A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "4AD38E06D152A4CB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "75226547DA8A892F",
+      "title": "Into Frozen Lands",
+      "description": [
+        "Craft the Frozen Portal Frame and open it with a Flame Coin. The Spike Dungeon houses the Frost Golem."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "0B97A470ECE25326",
+          "type": "dimension",
+          "dimension": "jitl:frozen"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6A1034DFB7E5A1A9"
+      ],
+      "x": 3.75,
+      "y": 2.5,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "2373C046E8469643",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "1F7650CE71DE458E",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "6960794910A18E12",
+      "title": "Frost Gem",
+      "description": [
+        "Bring these discoveries back to your expedition workshop. Consult Essentia for their sources and uses."
+      ],
+      "icon": "jitl:frost_gem",
+      "tasks": [
+        {
+          "id": "5D1FCCEE271A6286",
+          "type": "item",
+          "item": "jitl:frost_gem",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "75226547DA8A892F"
+      ],
+      "x": 0.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "6ADF5AE8DB1FC91C",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "179E8736B370043F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2E198075B0CFEF49",
+      "title": "Permafrost Furnace",
+      "description": [
+        "Bring these discoveries back to your expedition workshop. Consult Essentia for their sources and uses."
+      ],
+      "icon": "jitl:permafrost_furnace",
+      "tasks": [
+        {
+          "id": "77F14C4D6F60F96B",
+          "type": "item",
+          "item": "jitl:permafrost_furnace",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6960794910A18E12"
+      ],
+      "x": 0.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "2732C81F01BEC3F7",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0360382FA15EAC4B",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "58503F929A9DE0E7",
+      "title": "Spike Dungeon",
+      "description": [
+        "Locate this landmark and mark a route back to your camp."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "278781C450935BBE",
+          "type": "structure",
+          "structure": "jitl:spike_dungeon"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "75226547DA8A892F"
+      ],
+      "x": 2.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "725187CF481B1765",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "16D971EDFE3D5424",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "77C951820C2D96BB",
+      "title": "Frost Golem",
+      "description": [
+        "Craft the Frozen Portal Frame and open it with a Flame Coin. The Spike Dungeon houses the Frost Golem."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "246E48EC26D58B84",
+          "type": "kill",
+          "entity": "jitl:frost_golem",
+          "value": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "75226547DA8A892F"
+      ],
+      "x": 5.0,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "444C5A33527F9475",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "0BF5C9D634D693F8",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "0F98200179ABDDB4",
+      "title": "An Outpost in Frozen Lands",
+      "description": [
+        "Establish a supplied shelter, mark its return route and bring one shipment home. Keep a charged tool, spare food and healing supplies here."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "777ECB4F48C3F901",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "75226547DA8A892F"
+      ],
+      "x": 7.5,
+      "y": 5.0,
+      "shape": "rsquare",
+      "size": 1
+    }
+  ]
+}

@@ -206,6 +206,8 @@ def add_dimensions(book, uid):
     for q in source['quests']:
         mark(q,0 if q['id']==root(q) else 1+source['quests'].index(q),roots.index(root(q)))
     lay_out_atlas(source)
+    from expansion_quests import add_expansion
+    destinations.extend(add_expansion(book, uid))
     for i,(title,dimension,target,note,icon) in enumerate(destinations):
         qid=quest(atlas,title,note+'\n\nQuest route: '+book[target]['title']+'.',
                   'checkmark',None,(i%5-2)*3.5,(i//5)*2.5,icon=icon,reward=False)

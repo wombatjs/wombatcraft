@@ -1,0 +1,1144 @@
+{
+  "filename": "wc_dimension_exp_call_from_the_depths",
+  "id": "7F0E4F7E1AEF33CA",
+  "title": "Call from the Depths",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 33,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "2DAB4117CF35627F",
+      "title": "Anger in the flesh",
+      "description": [
+        "Get agony soul item"
+      ],
+      "icon": "callfromthedepth_:soulofagony",
+      "tasks": [
+        {
+          "id": "76FC2802E8256293",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:agony"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "676B386D048551C2"
+      ],
+      "x": 20.0,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "64A4D1CF4E223EF2",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "41E8482A1B64E6B2",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "420364E054B8FDF1",
+      "title": "Stronger than the bedrock!",
+      "description": [
+        "Collect immemorial armor set"
+      ],
+      "icon": "callfromthedepth_:immemorialarmor_helmet",
+      "tasks": [
+        {
+          "id": "10E53D091B86E4D4",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:armor"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1F9A54BE721721A1"
+      ],
+      "x": 0.0,
+      "y": 2.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "51BBC160F6D63C6C",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "0BB19C5F5E282220",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "6004BDE905F481D3",
+      "title": "Soul force",
+      "description": [
+        "Get soul ingot"
+      ],
+      "icon": "callfromthedepth_:soulingot",
+      "tasks": [
+        {
+          "id": "16000C14FFF0858C",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:blade"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "7CDC89DFC4DC7F7D"
+      ],
+      "x": 40.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "79DEFAC94C334591",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "005ECBDDFC535EFB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "5C1E11A642B4345A",
+      "title": "Interesting stuff",
+      "description": [
+        "Get depths stone ingot"
+      ],
+      "icon": "callfromthedepth_:depthbrick",
+      "tasks": [
+        {
+          "id": "2E82B24A8D2F7E73",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:brick"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "7C518F2822B8A6A1"
+      ],
+      "x": 10.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "04E058975EBB2BD8",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "4952FA4815C36206",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6188E657E5E05BE5",
+      "title": "Culinary specialist",
+      "description": [
+        "Cook all the food from the depths"
+      ],
+      "icon": "callfromthedepth_:jawsapplepie",
+      "tasks": [
+        {
+          "id": "127A676F6EED39ED",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:culinaryspecialist"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "7F7CC27BCCDC8EAD"
+      ],
+      "x": 5.0,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "1E7BBB3A35EE7024",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "334EC1EA56209061",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "51BF2317A6ECC994",
+      "title": "Over the abyss",
+      "description": [
+        "Get soul of abyss"
+      ],
+      "icon": "callfromthedepth_:soulofabyss",
+      "tasks": [
+        {
+          "id": "579A8BA93137CA0B",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:deepdarkestspawnfall"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "676B386D048551C2"
+      ],
+      "x": 22.5,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "7DF2AF3CCA9AFF84",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "5088FF52C1D525C9",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "7C518F2822B8A6A1",
+      "title": "Exploring the Darkness",
+      "description": [
+        "Visit all depths biomes"
+      ],
+      "icon": "callfromthedepth_:abyssachieve",
+      "tasks": [
+        {
+          "id": "6282ED01526FCC40",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:depthsbiomestour"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "7F7CC27BCCDC8EAD"
+      ],
+      "x": 11.25,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "4741EE7B66C282CF",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "1850679AFE146863",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "7F7CC27BCCDC8EAD",
+      "title": "Ancients world",
+      "description": [
+        "Depths entrance"
+      ],
+      "icon": "callfromthedepth_:immemorialsword",
+      "tasks": [
+        {
+          "id": "02F492297E9D131C",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:depthsentrance"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1F9A54BE721721A1"
+      ],
+      "x": 20.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "2156FE4A78806DF2",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "251518DBC21AB6FE",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2F8C7FB368C9B069",
+      "title": "Main detail",
+      "description": [
+        "Get energy powder"
+      ],
+      "icon": "callfromthedepth_:energypowder",
+      "tasks": [
+        {
+          "id": "296EDE69978B7154",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:flame"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "7F7CC27BCCDC8EAD"
+      ],
+      "x": 15.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "17B65980D1F39717",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0A75C97BBE2E8DAC",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "32B1E96615599D89",
+      "title": "Flower lover",
+      "description": [
+        "Get all depth flowers"
+      ],
+      "icon": "callfromthedepth_:deepflower",
+      "tasks": [
+        {
+          "id": "6E04139A63056D3C",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:flowerlover"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "4525F1F671D53FA4"
+      ],
+      "x": 35.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "4529831E6F2327DF",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "462D9739A9292B60",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "4657FB62DD083D6C",
+      "title": "Magma mushroom",
+      "description": [
+        "Get magma mushroom"
+      ],
+      "icon": "callfromthedepth_:deepmagmamushroom",
+      "tasks": [
+        {
+          "id": "704197488C5E0D87",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:getmagmamushroom"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6188E657E5E05BE5"
+      ],
+      "x": 2.5,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5216278393FB0513",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "344B57D875979EA9",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "66FFC1A997DB6F24",
+      "title": "Heated stone",
+      "description": [
+        "Get heated stone"
+      ],
+      "icon": "callfromthedepth_:heatedstone",
+      "tasks": [
+        {
+          "id": "47A9191377CD513E",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:heatedstonegoal"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "7F7CC27BCCDC8EAD"
+      ],
+      "x": 17.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1F251E746412CB80",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "7914FEEED5426B3F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1DFA68102EBA4479",
+      "title": "Hymn for the lost souls",
+      "description": [
+        "Get all depths artifacts"
+      ],
+      "icon": "callfromthedepth_:hymnforthelostsoulsmusicdisc",
+      "tasks": [
+        {
+          "id": "776F37AE59E793D3",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:hymnforthelostsoulsgoal"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "381E0150D50DD7DB"
+      ],
+      "x": 12.5,
+      "y": 10.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "2115B3E22E584C7E",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "4788BED3120DD3AB",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "7CDC89DFC4DC7F7D",
+      "title": "Ancient artifact",
+      "description": [
+        "Get immemorial debris"
+      ],
+      "icon": "callfromthedepth_:immemorial_debris",
+      "tasks": [
+        {
+          "id": "051F5E0C35F7E1E2",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:immemorial"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1F9A54BE721721A1"
+      ],
+      "x": 41.25,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "0C0EF877989E4939",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "275482548B3627A0",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0C1EAD7A67EB96E4",
+      "title": "Dig and forge!",
+      "description": [
+        "Gei immemorial ingot"
+      ],
+      "icon": "callfromthedepth_:immemorialingot",
+      "tasks": [
+        {
+          "id": "1DA2CE2305CBE28B",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:ingot"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "7CDC89DFC4DC7F7D"
+      ],
+      "x": 42.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "32418B7606783A4E",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5741A5E8945E35B6",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "62FE2E273DF35864",
+      "title": "Strange biomass",
+      "description": [
+        "Get sculk catalyst"
+      ],
+      "icon": "minecraft:sculk_catalyst",
+      "tasks": [
+        {
+          "id": "17BE88820138FB91",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:key"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1F9A54BE721721A1"
+      ],
+      "x": 45.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "0FE2929FD8B09A66",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "75A52E623C6978E3",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "676B386D048551C2",
+      "title": "Lost souls",
+      "description": [
+        "Get soul shard"
+      ],
+      "icon": "callfromthedepth_:lostsoulitem",
+      "tasks": [
+        {
+          "id": "7E55431E25E2FC3F",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:lostsouls"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "7F7CC27BCCDC8EAD"
+      ],
+      "x": 23.75,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "349DB3A7BC7F3F47",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "199B3DADA5BB8BF5",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2C8EC75BD0465FE5",
+      "title": "Marble warrior",
+      "description": [
+        "Get marble armor set"
+      ],
+      "icon": "callfromthedepth_:marblearmor_helmet",
+      "tasks": [
+        {
+          "id": "16432BC3CD8073DE",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:marblearmorachieve"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "309790FCCF4654ED"
+      ],
+      "x": 30.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "3BCCC83932B1B37B",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "4B7243F13E2A9F2D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "309790FCCF4654ED",
+      "title": "Ancient stone",
+      "description": [
+        "Follow this expedition milestone in the advancement journal, then return to claim your supplies."
+      ],
+      "icon": "callfromthedepth_:marble_gem",
+      "tasks": [
+        {
+          "id": "1A3E6502B052C102",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:marblegoal"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "7F7CC27BCCDC8EAD"
+      ],
+      "x": 30.0,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "4DA435A417A79A59",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "38201EC24CE9D94A",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "381E0150D50DD7DB",
+      "title": "Sorrow memories",
+      "description": [
+        "Collect music disc memories pain"
+      ],
+      "icon": "callfromthedepth_:memoriespain",
+      "tasks": [
+        {
+          "id": "4A03EC3A4E022AF9",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:memory"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "7C518F2822B8A6A1"
+      ],
+      "x": 12.5,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "38949C31DEBA1BB0",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "27325D288A6429D9",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "1F9A54BE721721A1",
+      "title": "Call from the depths",
+      "description": [
+        "Craft Depths key"
+      ],
+      "icon": "callfromthedepth_:depth",
+      "tasks": [
+        {
+          "id": "304EC8CC570331EA",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:portal_key"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 22.5,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "105A227D89B188B5",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5DD412B9D350076E",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "6524552057C45B6E",
+      "title": "Alive,but not alive",
+      "description": [
+        "Get sculk heart"
+      ],
+      "icon": "callfromthedepth_:sculkhearth",
+      "tasks": [
+        {
+          "id": "378C7A33251C1577",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:skulkhearth"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "7F7CC27BCCDC8EAD"
+      ],
+      "x": 32.5,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "7747382D0A0D4A00",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "69D2C24830359467",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "28E6559B00CFE491",
+      "title": "Peace of mind",
+      "description": [
+        "Collect soul armor set"
+      ],
+      "icon": "callfromthedepth_:soularmor_helmet",
+      "tasks": [
+        {
+          "id": "4819C7281EE01194",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:soularmorchellenge"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6004BDE905F481D3"
+      ],
+      "x": 40.0,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "27737DB9C3E13AF9",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "73A98D3875AFD55C",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "4909181D17DA2A27",
+      "title": "Into the darkness",
+      "description": [
+        "Craft soul lamp"
+      ],
+      "icon": "callfromthedepth_:soullight",
+      "tasks": [
+        {
+          "id": "647EC36AD3208F93",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:soullamp"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "676B386D048551C2"
+      ],
+      "x": 25.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "29FCE06F5EE0221C",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "53F4CD7DD923E291",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "4CDA39F7E74996F2",
+      "title": "Sorrow and corruption",
+      "description": [
+        "Get soul of sorrow"
+      ],
+      "icon": "callfromthedepth_:soulofsorrow",
+      "tasks": [
+        {
+          "id": "7FA400F3F9194336",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:soulofsorrowchallange"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "676B386D048551C2"
+      ],
+      "x": 27.5,
+      "y": 7.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "778DDD608ADA1DF6",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "769ECFA8689CA1CE",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "1906CF36C365B839",
+      "title": "Soul rose",
+      "description": [
+        "Get Soul rose"
+      ],
+      "icon": "callfromthedepth_:soulrose",
+      "tasks": [
+        {
+          "id": "674D9CEBAD64D10B",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:soulroseachieve"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6188E657E5E05BE5"
+      ],
+      "x": 5.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "4B8C8545E962BEA4",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "7C155C16A9B01E4A",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "4525F1F671D53FA4",
+      "title": "I see the sun again!",
+      "description": [
+        "Step out of the depth dimension for the first time"
+      ],
+      "icon": "callfromthedepth_:deepflower",
+      "tasks": [
+        {
+          "id": "4C9E24D119071F60",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:sunlight"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "7F7CC27BCCDC8EAD"
+      ],
+      "x": 35.0,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "1BD1F4B8275608C0",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "6CF315FFA20EECE6",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "1E3093AAD9502CAF",
+      "title": "Poisonous swamps? I've seen them somewhere...",
+      "description": [
+        "Visit the acid swamp biome"
+      ],
+      "icon": "callfromthedepth_:poisonwater_bucket",
+      "tasks": [
+        {
+          "id": "3ABDA3E3CAA63BA2",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:swampbiome"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "7F7CC27BCCDC8EAD"
+      ],
+      "x": 37.5,
+      "y": 5.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "7D17FEC2F9E17213",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "380F53116332641A",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "308A36EB41F95EDA",
+      "title": "Toothy ingredient",
+      "description": [
+        "Get jaws apple"
+      ],
+      "icon": "callfromthedepth_:jawsappleeat",
+      "tasks": [
+        {
+          "id": "5B7115337C9B40B7",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:toothyingredient"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6188E657E5E05BE5"
+      ],
+      "x": 7.5,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "452B2A80A45EEB0A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "688177BDAE1B1FE1",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "01B95A3749712639",
+      "title": "Soul manipulator",
+      "description": [
+        "Craft Transmutation stone"
+      ],
+      "icon": "callfromthedepth_:transmutationstone",
+      "tasks": [
+        {
+          "id": "1EBDA478F264258C",
+          "type": "advancement",
+          "advancement": "callfromthedepth_:transmutationstonegoal"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "2F8C7FB368C9B069"
+      ],
+      "x": 15.0,
+      "y": 7.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "5A0432F08ED4F56B",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "77DA6BD6FA964639",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "073CED44F17E4C7A",
+      "title": "Call from the Depths Field Guide",
+      "description": [
+        "Forge a Depths Key and follow its gateway into the ancient depths. Gather local stone and souls, equip yourself for the ruins and uncover the relics left behind."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "38FDA5F2A8FC8481",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 0.0,
+      "y": 15.0,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "0E9CAA11CA86E489",
+      "title": "Into Depth",
+      "description": [
+        "Forge a Depths Key and follow its gateway into the ancient depths. Gather local stone and souls, equip yourself for the ruins and uncover the relics left behind."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "5C5CCAA7A309EADA",
+          "type": "dimension",
+          "dimension": "callfromthedepth_:depth"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 5.0,
+      "y": 15.0,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "523F9D744D9F67F6",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "555B5588E6DBBAC0",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

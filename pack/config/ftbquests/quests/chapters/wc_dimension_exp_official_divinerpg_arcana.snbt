@@ -1,0 +1,388 @@
+{
+  "filename": "wc_dimension_exp_official_divinerpg_arcana",
+  "id": "4C64C5958CEBD2F3",
+  "title": "Divine Realms: Arcana",
+  "icon": "minecraft:compass",
+  "group": "3E91144EB73CBA91",
+  "order_index": 21,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "72487DC83CF7D08C",
+      "title": "Disgusting!",
+      "description": [
+        "Buy a Weak Arcana Potion"
+      ],
+      "icon": "divinerpg:weak_arcana_potion",
+      "tasks": [
+        {
+          "id": "5B13FEA8DDAE7E45",
+          "type": "advancement",
+          "advancement": "divinerpg:arcana/disgusting"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "23AE11850431A78A"
+      ],
+      "x": 0.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "1655B1832A24C4A4",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "70399E02A7607644",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1EBC26EF8F3E2E01",
+      "title": "Dungeon Master",
+      "description": [
+        "Follow this expedition milestone in the advancement journal, then return to claim your supplies."
+      ],
+      "icon": "divinerpg:dungeon_tokens",
+      "tasks": [
+        {
+          "id": "08EE06F6E1A26532",
+          "type": "advancement",
+          "advancement": "divinerpg:arcana/dungeon_master"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "23AE11850431A78A"
+      ],
+      "x": 2.5,
+      "y": 2.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "70C4CF1A88DB8942",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "6825EADB836C1624",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "66D00E65AE440F45",
+      "title": "Evil Disease",
+      "description": [
+        "Kill Parasecta"
+      ],
+      "icon": "divinerpg:wizards_book",
+      "tasks": [
+        {
+          "id": "4E38F15BFF327F43",
+          "type": "advancement",
+          "advancement": "divinerpg:arcana/evil_disease"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "23AE11850431A78A"
+      ],
+      "x": 5.0,
+      "y": 2.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "7A0D1713AA0AE106",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "0FF0C6AB1DF14470",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "5FBAE6FDB2E84F2C",
+      "title": "The Tempest",
+      "description": [
+        "Buy a Storm Sword"
+      ],
+      "icon": "divinerpg:storm_sword",
+      "tasks": [
+        {
+          "id": "134CEDFCF2C942AD",
+          "type": "advancement",
+          "advancement": "divinerpg:arcana/get_storm_sword"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "23AE11850431A78A"
+      ],
+      "x": 7.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "68DDE3311F860F06",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "4B6B6A7CBB7BF626",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "2F037B3553619E80",
+      "title": "Hotter than Hell",
+      "description": [
+        "Touch a Heat Trap"
+      ],
+      "icon": "divinerpg:heat_trap",
+      "tasks": [
+        {
+          "id": "4B2E791C23CE7F49",
+          "type": "advancement",
+          "advancement": "divinerpg:arcana/hotter_than_hell"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "23AE11850431A78A"
+      ],
+      "x": 10.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "7FC3D86D093933D0",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "0E2F99FBE0CB6813",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1F9778245621CB76",
+      "title": "My Little Creature",
+      "description": [
+        "Tame a pet from Zelus"
+      ],
+      "icon": "divinerpg:seimer_spawn_egg",
+      "tasks": [
+        {
+          "id": "17EDAF7F00EA1C45",
+          "type": "advancement",
+          "advancement": "divinerpg:arcana/my_little_creature"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "23AE11850431A78A"
+      ],
+      "x": 12.5,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "18A1815121E5B62E",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "65CAE2C89A80D0B8",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "23AE11850431A78A",
+      "title": "Arcana",
+      "description": [
+        "What lies within?"
+      ],
+      "icon": "divinerpg:arcana_portal_frame",
+      "tasks": [
+        {
+          "id": "37B8671F62C96211",
+          "type": "advancement",
+          "advancement": "divinerpg:arcana/root"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 8.75,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "4204A8DCA94D443A",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "6EE30ADF4790FDB1",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "307A33C90557C977",
+      "title": "Sky High",
+      "description": [
+        "Jump on an Elevantium Block"
+      ],
+      "icon": "divinerpg:elevantium",
+      "tasks": [
+        {
+          "id": "0005DE9BB09E6CE5",
+          "type": "advancement",
+          "advancement": "divinerpg:arcana/sky_high"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "23AE11850431A78A"
+      ],
+      "x": 15.0,
+      "y": 2.5,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "14A948F98765049C",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "56CBDDB4C0311F51",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "40328F22F4EFBA38",
+      "title": "Total Demonization",
+      "description": [
+        "Use the Demon Furnace"
+      ],
+      "icon": "divinerpg:demon_furnace",
+      "tasks": [
+        {
+          "id": "55E6DA0B90CBA308",
+          "type": "advancement",
+          "advancement": "divinerpg:arcana/total_demonization"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "23AE11850431A78A"
+      ],
+      "x": 17.5,
+      "y": 2.5,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "5ABF93FAE06DC6EB",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "7EC0C63079454F72",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "334093F390A8CDF7",
+      "title": "Divine Realms Field Guide",
+      "description": [
+        "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "4A6F621B44BDD0EA",
+          "type": "checkmark",
+          "title": "Record the completed project"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 0.0,
+      "y": 7.5,
+      "shape": "rsquare",
+      "size": 1
+    },
+    {
+      "id": "5DE1144CFB7AC0F3",
+      "title": "Into Arcana",
+      "description": [
+        "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments."
+      ],
+      "icon": "minecraft:map",
+      "tasks": [
+        {
+          "id": "5538041E04A20167",
+          "type": "dimension",
+          "dimension": "divinerpg:arcana"
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 5.0,
+      "y": 7.5,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "0A81867B0FA2A18D",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "1A3B27AE526DD8E4",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}
