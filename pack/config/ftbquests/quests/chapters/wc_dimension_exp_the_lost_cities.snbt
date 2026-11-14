@@ -73,8 +73,8 @@
         {
           "id": "2967766255DE982C",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:cooked_beef",
+          "count": 4
         }
       ]
     },
@@ -110,8 +110,8 @@
         {
           "id": "21CCC4DBC0B3F959",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:leather",
+          "count": 3
         }
       ]
     },
@@ -147,8 +147,8 @@
         {
           "id": "64E430C4565977E2",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:torch",
+          "count": 16
         }
       ]
     },
@@ -184,8 +184,8 @@
         {
           "id": "3B98554112582EF6",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:torch",
+          "count": 16
         }
       ]
     },
@@ -382,8 +382,8 @@
         {
           "id": "084036849A7362DE",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:redstone",
+          "count": 8
         }
       ]
     },
@@ -419,8 +419,8 @@
         {
           "id": "5C7E32487C7F4186",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:torch",
+          "count": 16
         }
       ]
     },
@@ -456,8 +456,8 @@
         {
           "id": "6A318AC839CD3BC4",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:redstone",
+          "count": 8
         }
       ]
     },

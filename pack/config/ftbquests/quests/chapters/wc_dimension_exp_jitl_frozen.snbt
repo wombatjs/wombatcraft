@@ -37,8 +37,8 @@
         {
           "id": "4AD38E06D152A4CB",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:redstone",
+          "count": 8
         }
       ]
     },
@@ -110,8 +110,8 @@
         {
           "id": "179E8736B370043F",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:cooked_beef",
+          "count": 4
         }
       ]
     },
@@ -147,7 +147,7 @@
         {
           "id": "0360382FA15EAC4B",
           "type": "item",
-          "item": "minecraft:experience_bottle",
+          "item": "minecraft:ender_pearl",
           "count": 1
         }
       ]
@@ -183,7 +183,7 @@
         {
           "id": "16D971EDFE3D5424",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:ender_pearl",
           "count": 1
         }
       ]

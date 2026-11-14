@@ -4,7 +4,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'launcher'))
 from discord_presence import application_id
-from portal_patch import PATCH_NAME, AURORIAN_PATCH_NAME, build_portal_patch
+from portal_patch import PATCH_NAME, COMPAT_PATCH_NAME, build_portal_patch
 
 OUT=ROOT/'dist';OUT.mkdir(exist_ok=True)
 if subprocess.check_output(['git','-C',str(ROOT),'status','--porcelain'],text=True).strip():raise SystemExit('Commit source changes before building an immutable release.')
@@ -36,8 +36,8 @@ with zipfile.ZipFile(OUT/'overrides.zip','w',zipfile.ZIP_DEFLATED) as z:
  patch_path='mods/'+PATCH_NAME
  patch=build_portal_patch();z.writestr(patch_path,patch)
  overrides.append(dict(path=patch_path,sha512=hashlib.sha512(patch).hexdigest(),size=len(patch),client=False,server=True,seed_only=False))
- aurorian_path='mods/'+AURORIAN_PATCH_NAME
- aurorian_patch=build_portal_patch('aurorian-compat');z.writestr(aurorian_path,aurorian_patch)
+ aurorian_path='mods/'+COMPAT_PATCH_NAME
+ aurorian_patch=build_portal_patch('runtime-compat');z.writestr(aurorian_path,aurorian_patch)
  overrides.append(dict(path=aurorian_path,sha512=hashlib.sha512(aurorian_patch).hexdigest(),size=len(aurorian_patch),client=True,server=True,seed_only=False))
 archive=(OUT/'overrides.zip').read_bytes()
 manifest=dict(schema=1,name='Wombatcraft',commit=sha,minecraft='1.20.1',forge='47.4.28',server_address='74.208.117.88:25565',files=files,overrides=dict(url=base+'overrides.zip',sha512=hashlib.sha512(archive).hexdigest(),size=len(archive),files=overrides))

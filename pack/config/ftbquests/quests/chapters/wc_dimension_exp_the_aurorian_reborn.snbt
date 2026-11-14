@@ -38,8 +38,8 @@
         {
           "id": "44A0BD357B61C5D6",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:leather",
+          "count": 3
         }
       ]
     },
@@ -74,8 +74,8 @@
         {
           "id": "51432844481F16A3",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:torch",
+          "count": 16
         }
       ]
     },
@@ -182,8 +182,8 @@
         {
           "id": "23266AE95B604748",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:lapis_lazuli",
+          "count": 4
         }
       ]
     },
@@ -218,8 +218,8 @@
         {
           "id": "240FBDCC53FFC8E5",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:cooked_beef",
+          "count": 4
         }
       ]
     },
@@ -290,8 +290,8 @@
         {
           "id": "209A26405D994C27",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:lapis_lazuli",
+          "count": 4
         }
       ]
     },
@@ -326,8 +326,8 @@
         {
           "id": "1B3CA88A39113982",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:leather",
+          "count": 3
         }
       ]
     },
@@ -362,7 +362,7 @@
         {
           "id": "27751A2DFBA8FA08",
           "type": "item",
-          "item": "minecraft:experience_bottle",
+          "item": "minecraft:ender_pearl",
           "count": 1
         }
       ]
@@ -396,8 +396,8 @@
         {
           "id": "4D7829543D045F4A",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:redstone",
+          "count": 8
         }
       ]
     },
@@ -432,7 +432,7 @@
         {
           "id": "2A26B061F8E61A04",
           "type": "item",
-          "item": "minecraft:experience_bottle",
+          "item": "minecraft:ender_pearl",
           "count": 1
         }
       ]
@@ -468,7 +468,7 @@
         {
           "id": "68F9ACAAB90A4794",
           "type": "item",
-          "item": "minecraft:experience_bottle",
+          "item": "minecraft:ender_pearl",
           "count": 1
         }
       ]
@@ -504,8 +504,8 @@
         {
           "id": "78FFF40128E4F228",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:lapis_lazuli",
+          "count": 4
         }
       ]
     },
@@ -540,8 +540,8 @@
         {
           "id": "1E62124846B843BC",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:cooked_beef",
+          "count": 4
         }
       ]
     },

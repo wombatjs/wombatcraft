@@ -56,8 +56,11 @@ def add_expansion(book, uid):
                  1.3 if challenge or kind == 'dimension' else 1)
             if kind != 'checkmark':
                 quest['rewards'] = [dict(id=uid(key + '/xp'), type='xp', xp=250 if challenge else 60)]
-                reward = 'minecraft:diamond' if challenge else 'minecraft:golden_carrot' if kind in ('dimension', 'structure') else 'minecraft:experience_bottle'
-                quest['rewards'].append(dict(id=uid(key + '/supplies'), type='item', item=reward, count=2 if challenge else 4 if kind == 'dimension' else 1))
+                supplies = [('minecraft:cooked_beef',4),('minecraft:torch',16),
+                            ('minecraft:lapis_lazuli',4),('minecraft:ender_pearl',1),
+                            ('minecraft:leather',3),('minecraft:redstone',8)]
+                reward, count = ('minecraft:diamond',2) if challenge else ('minecraft:golden_carrot',4) if kind == 'dimension' else supplies[int(uid(key),16)%len(supplies)]
+                quest['rewards'].append(dict(id=uid(key + '/supplies'), type='item', item=reward, count=count))
             chapter['quests'].append(quest)
         book[route['key']] = chapter
     return [(d['title'], d['dimension'], d['chapter'], d['description'], book[d['chapter']]['icon']) for d in source['destinations']]

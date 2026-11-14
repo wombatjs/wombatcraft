@@ -38,8 +38,8 @@
         {
           "id": "2FA3B0541264B52C",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:lapis_lazuli",
+          "count": 4
         }
       ]
     },
@@ -74,8 +74,8 @@
         {
           "id": "0CCA6AEE41EAF589",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:cooked_beef",
+          "count": 4
         }
       ]
     },
@@ -108,7 +108,7 @@
         {
           "id": "4CA3709EB8D3F877",
           "type": "item",
-          "item": "minecraft:experience_bottle",
+          "item": "minecraft:ender_pearl",
           "count": 1
         }
       ]
@@ -143,8 +143,8 @@
         {
           "id": "51BC6A214A5DE614",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:leather",
+          "count": 3
         }
       ]
     },
@@ -180,8 +180,8 @@
         {
           "id": "4B46CCF4EB107C68",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:redstone",
+          "count": 8
         }
       ]
     },
@@ -215,8 +215,8 @@
         {
           "id": "77F3C1FB3C16800E",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:redstone",
+          "count": 8
         }
       ]
     },
@@ -252,8 +252,8 @@
         {
           "id": "3BF78E85183C728F",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:torch",
+          "count": 16
         }
       ]
     },
@@ -287,8 +287,8 @@
         {
           "id": "0FBE8E9BEE7E6F4B",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:torch",
+          "count": 16
         }
       ]
     },
@@ -324,7 +324,7 @@
         {
           "id": "7219514CC264C0A9",
           "type": "item",
-          "item": "minecraft:experience_bottle",
+          "item": "minecraft:ender_pearl",
           "count": 1
         }
       ]

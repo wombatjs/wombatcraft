@@ -1,7 +1,7 @@
 """Boot a disposable dedicated server and validate live quest/item/recipe registries."""
 import hashlib,json,os,shutil,subprocess,sys,time,urllib.request,zipfile
 from pathlib import Path
-from portal_patch import PATCH_NAME, AURORIAN_PATCH_NAME, build_portal_patch
+from portal_patch import PATCH_NAME, COMPAT_PATCH_NAME, build_portal_patch
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'launcher'));import updater
 dest=ROOT/'dist/server-smoke';dest.mkdir(parents=True,exist_ok=True)
 lock=json.loads((ROOT/'mod-lock.json').read_text());mods=dest/'mods';mods.mkdir(exist_ok=True)
@@ -10,7 +10,7 @@ for r in lock['mods']:
  if not r.get('server',r['project'].get('server_side')!='unsupported'):continue
  f=r['file'];updater.download(dict(path='mods/'+f['filename'],url=f['url'],fallback_urls=r.get('fallback_urls',[]),sha512=f['hashes']['sha512'],size=f['size']),mods/f['filename'])
 (mods/PATCH_NAME).write_bytes(build_portal_patch())
-(mods/AURORIAN_PATCH_NAME).write_bytes(build_portal_patch('aurorian-compat'))
+(mods/COMPAT_PATCH_NAME).write_bytes(build_portal_patch('runtime-compat'))
 print('Mod downloads verified; auditing expedition targets.',flush=True)
 # Audit expedition targets against the exact release jars, not an old web wiki.
 advancements=set();dimensions=set();structures=set()
@@ -83,6 +83,7 @@ for boot in range(2):
    assert 'Wombatcraft portal chunk guard applied' in text,'Portal chunk guard did not load'
    assert 'Wombatcraft Aurorian dedicated-server packet guard applied' in text,'Aurorian server packet guard did not load'
    assert 'Wombatcraft Aurorian crafting remainder fix applied' in text,'Aurorian crafting fix did not load'
+   assert 'Wombatcraft sequential recipe construction applied' in text,'Recipe construction guard did not load'
    assert 'PORTAL_POLICY_AUDIT_COMPLETE' in text,'Portal policy or serializer synchronization did not load'
    commands=set((dest/'command-registry.txt').read_text().splitlines())
    required_commands={'home','sethome','spawn','tpa','tpaccept','tpdeny','tab','warp','mute','unmute','ftbranks','ftbchunks','lcadmin','spark','chunky','pp','servercore'}

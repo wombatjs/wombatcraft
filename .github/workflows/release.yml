@@ -28,7 +28,7 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: dist/server-smoke/mods
-          key: server-mods-${{ runner.os }}-${{ hashFiles('mod-lock.json') }}
+          key: server-mods-${{ runner.os }}-${{ hashFiles('mod-lock.json', 'tools/portal_patch.py') }}
       - run: python -u tools/smoke_server.py
       - uses: actions/upload-artifact@v4
         if: always()
@@ -49,6 +49,7 @@ jobs:
             dist/overrides.zip
             dist/Wombatcraft.mrpack
             dist/server-validation.json
+            dist/dimension-generation.json
   launcher:
     runs-on: windows-latest
     timeout-minutes: 20

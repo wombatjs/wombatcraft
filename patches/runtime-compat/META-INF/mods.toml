@@ -1,0 +1,15 @@
+modLoader="lowcodefml"
+loaderVersion="[47,48)"
+license="MIT"
+[[mods]]
+modId="wombatcraft_runtime_fix"
+version="1.0.0"
+displayName="Wombatcraft Runtime Compatibility"
+displayTest="IGNORE_ALL_VERSION"
+description="Corrects Aurorian crafting remainders and avoids parallel recipe cache races."
+[[dependencies.wombatcraft_runtime_fix]]
+modId="theaurorian"
+mandatory=true
+versionRange="[1.0.1-fix]"
+ordering="AFTER"
+side="BOTH"

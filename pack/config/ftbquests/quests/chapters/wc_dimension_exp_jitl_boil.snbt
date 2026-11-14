@@ -37,8 +37,8 @@
         {
           "id": "703BC7E4C4B763B7",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:torch",
+          "count": 16
         }
       ]
     },
@@ -110,8 +110,8 @@
         {
           "id": "70F00313E692BBE7",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:torch",
+          "count": 16
         }
       ]
     },
@@ -147,8 +147,8 @@
         {
           "id": "4F6C584F0CA7C972",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:leather",
+          "count": 3
         }
       ]
     },
@@ -183,8 +183,8 @@
         {
           "id": "54D5B168B51C3914",
           "type": "item",
-          "item": "minecraft:golden_carrot",
-          "count": 1
+          "item": "minecraft:torch",
+          "count": 16
         }
       ]
     },

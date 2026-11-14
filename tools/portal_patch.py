@@ -7,7 +7,7 @@ from zipfile import ZIP_DEFLATED, ZipFile, ZipInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 PATCH_NAME = "wombatcraft-portal-fix.jar"
-AURORIAN_PATCH_NAME = "wombatcraft-aurorian-fix.jar"
+COMPAT_PATCH_NAME = "wombatcraft-runtime-fix.jar"
 
 
 def build_portal_patch(folder="portal-chunk-tracking"):

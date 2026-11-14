@@ -37,7 +37,7 @@
         {
           "id": "494B2E359A721582",
           "type": "item",
-          "item": "minecraft:experience_bottle",
+          "item": "minecraft:ender_pearl",
           "count": 1
         }
       ]
@@ -110,8 +110,8 @@
         {
           "id": "4E6B0FB456312D16",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:lapis_lazuli",
+          "count": 4
         }
       ]
     },
@@ -147,8 +147,8 @@
         {
           "id": "10DFA5B58E157CE9",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:redstone",
+          "count": 8
         }
       ]
     },
@@ -183,7 +183,7 @@
         {
           "id": "36F77ED3D71D80F6",
           "type": "item",
-          "item": "minecraft:golden_carrot",
+          "item": "minecraft:ender_pearl",
           "count": 1
         }
       ]

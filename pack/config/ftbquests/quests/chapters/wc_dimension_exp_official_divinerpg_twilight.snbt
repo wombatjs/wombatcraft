@@ -38,8 +38,8 @@
         {
           "id": "04E530810635CFCB",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:leather",
+          "count": 3
         }
       ]
     },
@@ -182,8 +182,8 @@
         {
           "id": "71925D5C0C34C813",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:redstone",
+          "count": 8
         }
       ]
     },
@@ -290,8 +290,8 @@
         {
           "id": "1A6E4A10AD28FBD2",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:redstone",
+          "count": 8
         }
       ]
     },
@@ -326,7 +326,7 @@
         {
           "id": "122B8E4201A533DD",
           "type": "item",
-          "item": "minecraft:experience_bottle",
+          "item": "minecraft:ender_pearl",
           "count": 1
         }
       ]
@@ -434,7 +434,7 @@
         {
           "id": "1D3B83DED2BC0509",
           "type": "item",
-          "item": "minecraft:experience_bottle",
+          "item": "minecraft:ender_pearl",
           "count": 1
         }
       ]
@@ -506,8 +506,8 @@
         {
           "id": "7977F57B5BF5ECD2",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:leather",
+          "count": 3
         }
       ]
     },
@@ -614,8 +614,8 @@
         {
           "id": "50AF127DEE4E4B38",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:redstone",
+          "count": 8
         }
       ]
     },
@@ -648,8 +648,8 @@
         {
           "id": "538BEDEA3D63699C",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:cooked_beef",
+          "count": 4
         }
       ]
     },
@@ -684,8 +684,8 @@
         {
           "id": "3E3D3EEA9C04DBFE",
           "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 1
+          "item": "minecraft:lapis_lazuli",
+          "count": 4
         }
       ]
     },
