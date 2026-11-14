@@ -47,6 +47,7 @@ for boot in range(2):
    recipes=set((dest/'recipe-registry.txt').read_text().splitlines());endgame={'kubejs:endgame/'+name for name in ['industrial_sigil','arcane_sigil','voyager_sigil','prosperity_sigil','convergence_core']};assert endgame<=recipes,'Missing endgame recipes'
    assert 'Parsing error loading recipe' not in text,'Recipe parse errors'
    assert 'Wombatcraft portal chunk guard applied' in text,'Portal chunk guard did not load'
+   assert 'PORTAL_POLICY_AUDIT_COMPLETE' in text,'Portal policy or serializer synchronization did not load'
    commands=set((dest/'command-registry.txt').read_text().splitlines())
    required_commands={'home','sethome','spawn','tpa','warp','mute','unmute','ftbranks','ftbchunks','lcadmin','spark','chunky','pp','servercore'}
    assert required_commands<=commands,'Missing server commands: '+str(sorted(required_commands-commands))

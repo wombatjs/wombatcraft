@@ -10,7 +10,18 @@ public class ForgeQuestAudit {
  public ForgeQuestAudit(){
   try { Object bus=Class.forName("net.minecraftforge.common.MinecraftForge").getField("EVENT_BUS").get(null);Class.forName("net.minecraftforge.eventbus.api.IEventBus").getMethod("register",Object.class).invoke(bus,this); } catch(Exception e){throw new RuntimeException(e);}
  }
- @SubscribeEvent public void started(ServerStartedEvent event){audit();auditRecipes(event);auditCommands(event);auditPortalChunkTracking(event);}
+ @SubscribeEvent public void started(ServerStartedEvent event){audit();auditRecipes(event);auditCommands(event);auditPortalChunkTracking(event);auditPortalPolicy();}
+ static void auditPortalPolicy(){
+  try{
+   Class<?> global=Class.forName("qouteall.imm_ptl.core.IPGlobal");
+   for(String name:List.of("netherPortalMode","endPortalMode"))
+    if(!global.getField(name).get(null).toString().equals("vanilla"))throw new IllegalStateException(name+" was not applied");
+   Class<?> serializers=Class.forName("com.dairymoose.sd.SerializerDebugCommon");
+   if(serializers.getField("ignoreSerializerError").getBoolean(null))throw new IllegalStateException("Serializer errors must not be suppressed");
+   if(!serializers.getField("reorderClientIds").getBoolean(null))throw new IllegalStateException("Serializer synchronization is disabled");
+   System.out.println("PORTAL_POLICY_AUDIT_COMPLETE");
+  }catch(Exception e){throw new IllegalStateException("Portal policy audit failed",e);}
+ }
  static void auditPortalChunkTracking(Object event){
   try{
    Object server=call(event,"getServer");

@@ -113679,6 +113679,29 @@
         },
         "size": 184030
       }
+    },
+    {
+      "project": {
+        "id": "curseforge-1166778",
+        "slug": "serializerdebug",
+        "title": "SerializerDebug",
+        "client_side": "required",
+        "server_side": "required"
+      },
+      "version": {
+        "version_number": "1.0.1"
+      },
+      "category": "Performance and compatibility",
+      "client": true,
+      "server": true,
+      "file": {
+        "filename": "serializer_debug-1.0.1.jar",
+        "url": "https://mediafilez.forgecdn.net/files/6028/801/serializer_debug-1.0.1.jar",
+        "size": 400461,
+        "hashes": {
+          "sha512": "c1218da08d70ce5ed0ade1937e93311320aa6348015249164b64342ccb7cc3d40effed5f6ff7a8d5d8ff13b7d072cc50934af77f0a73e8bd77845a13169c3f9c"
+        }
+      }
     }
   ],
   "skipped": [],

@@ -1,0 +1,4 @@
+ignore_serializer_error = false
+only_show_errors = true
+reorder_client_ids = true
+suppress_reorder_logging = true
