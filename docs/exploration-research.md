@@ -16,7 +16,7 @@ Start with **Journey Into the Light** as the candidate for a substantial new cam
 
 ## What was already installed
 
-The audited client jars contain **38 fixed dimension definitions**, including the three vanilla worlds, six orbital spaces, pocket realms and one internal Graveyard world. That is not 38 fully developed adventure campaigns. There are also dynamic TARDIS interiors and AE2 spatial storage, which cannot be represented as a single permanent world ID.
+The audited client jars contain **38 data-defined dimensions**, including the three vanilla worlds, six orbital spaces, pocket realms and one internal Graveyard world. That is not 38 fully developed adventure campaigns. The atlas also covers runtime-created TARDIS interiors and AE2 spatial storage. TARDIS interiors have individual identifiers; AE2's code defines `ae2:spatial_storage`, rather than supplying another dimension JSON in this jar.
 
 Aether, Blue Skies, Twilight Forest, Undergarden, Deeper and Darker, Bumblezone, Ad Astra and Stargate Journey were already present. Alex's Caves, Cataclysm, When Dungeons Arise, Incendium and Nullscape also already expand exploration; adding them again would not solve the discovery problem. Stargate worlds are useful destinations and outpost sites, but this review does not claim every one has a unique boss campaign.
 
@@ -24,7 +24,7 @@ The exact inventory is in `quests/dimension-inventory.json`; the player-facing d
 
 ## Implemented quest organisation
 
-- Added **Dimensions**, an atlas of all 38 fixed world definitions plus two dynamic-world families, and distinct expedition chapters.
+- Added **Dimensions**, an atlas of all 38 data-defined worlds plus TARDIS interiors and AE2 spatial storage, and distinct expedition chapters.
 - Preserved all 1,968 existing quest IDs, including the survey quests moved out of Exploration.
 - Added 148 entries: 40 field-guide entries and 108 arrival, advancement or expedition objectives. The book now contains 2,116 quests across 54 chapters.
 - Adventure branches use actual arrival and advancement detection for bosses, materials, discovery, royal trading and equipment progression. Optional station/outpost commissioning is explicitly self-recorded and gives no reward.
