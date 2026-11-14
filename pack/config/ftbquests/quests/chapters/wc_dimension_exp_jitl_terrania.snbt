@@ -2,9 +2,9 @@
   "filename": "wc_dimension_exp_jitl_terrania",
   "id": "4EA6936F9183DF88",
   "title": "Journey: Terrania",
-  "icon": "minecraft:compass",
+  "icon": "jitl:terranian_portal_frame",
   "group": "3E91144EB73CBA91",
-  "order_index": 42,
+  "order_index": 40,
   "default_quest_shape": "circle",
   "quests": [
     {
@@ -24,7 +24,7 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 3.75,
+      "x": 0.0,
       "y": 0.0,
       "shape": "circle",
       "size": 1,
@@ -60,7 +60,7 @@
       "dependencies": [
         "492D5CFE105AB577"
       ],
-      "x": 3.75,
+      "x": 0.0,
       "y": 2.5,
       "shape": "diamond",
       "size": 1.3,
@@ -97,7 +97,7 @@
       "dependencies": [
         "3B3040A6BF5C4488"
       ],
-      "x": 0.0,
+      "x": -3.75,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -170,7 +170,7 @@
       "dependencies": [
         "3B3040A6BF5C4488"
       ],
-      "x": 2.5,
+      "x": -1.25,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -207,7 +207,7 @@
       "dependencies": [
         "3B3040A6BF5C4488"
       ],
-      "x": 5.0,
+      "x": 1.25,
       "y": 5.0,
       "shape": "hexagon",
       "size": 1.3,
@@ -243,7 +243,7 @@
       "dependencies": [
         "3B3040A6BF5C4488"
       ],
-      "x": 7.5,
+      "x": 3.75,
       "y": 5.0,
       "shape": "rsquare",
       "size": 1

@@ -4,7 +4,7 @@
       "key": "wc_dimension_exp_deep_aether",
       "mod": "deep-aether",
       "title": "Deep Aether",
-      "icon": "minecraft:compass",
+      "icon": "deep_aether:skyjade",
       "nodes": [
         {
           "key": "adv/deep_aether:aether_champion",
@@ -256,7 +256,7 @@
       "key": "wc_dimension_exp_official_divinerpg_arcana",
       "mod": "official-divinerpg",
       "title": "Divine Realms: Arcana",
-      "icon": "minecraft:compass",
+      "icon": "divinerpg:weak_arcana_potion",
       "nodes": [
         {
           "key": "adv/divinerpg:arcana/disgusting",
@@ -276,7 +276,7 @@
           "title": "Dungeon Master",
           "kind": "advancement",
           "target": "divinerpg:arcana/dungeon_master",
-          "note": "Follow this expedition milestone in the advancement journal, then return to claim your supplies.",
+          "note": "Defeat Dramix in Arcana. Prepare your supplies before entering the dungeon.",
           "parents": [
             "adv/divinerpg:arcana/root"
           ],
@@ -398,10 +398,10 @@
       ]
     },
     {
-      "key": "wc_dimension_exp_official_divinerpg_end",
+      "key": "wc_dimension_exp_official_divinerpg_departure",
       "mod": "official-divinerpg",
-      "title": "Divine Realms: End",
-      "icon": "minecraft:compass",
+      "title": "Divine Realms: First Expeditions",
+      "icon": "divinerpg:horde_horn",
       "nodes": [
         {
           "key": "adv/divinerpg:end/blown_away",
@@ -437,201 +437,7 @@
           "icon": "divinerpg:ender_shards",
           "count": 1,
           "challenge": false
-        }
-      ]
-    },
-    {
-      "key": "wc_dimension_exp_official_divinerpg_iceika",
-      "mod": "official-divinerpg",
-      "title": "Divine Realms: Iceika",
-      "icon": "minecraft:compass",
-      "nodes": [
-        {
-          "key": "adv/divinerpg:iceika/a_lil_gift",
-          "title": "A Lil' Gift",
-          "kind": "advancement",
-          "target": "divinerpg:iceika/a_lil_gift",
-          "note": "Trade with a Workshop Merchant",
-          "parents": [
-            "adv/divinerpg:iceika/frozen_goods"
-          ],
-          "icon": "divinerpg:snowflake",
-          "count": 1,
-          "challenge": false
         },
-        {
-          "key": "adv/divinerpg:iceika/a_lil_tinkering",
-          "title": "A Lil' Tinkering",
-          "kind": "advancement",
-          "target": "divinerpg:iceika/a_lil_tinkering",
-          "note": "Trade with a Workshop Tinkerer",
-          "parents": [
-            "adv/divinerpg:iceika/frozen_goods"
-          ],
-          "icon": "divinerpg:frostking_sword",
-          "count": 1,
-          "challenge": false
-        },
-        {
-          "key": "adv/divinerpg:iceika/boneyard",
-          "title": "The Whale Graveyard",
-          "kind": "advancement",
-          "target": "divinerpg:iceika/boneyard",
-          "note": "Come across a boneyard",
-          "parents": [
-            "adv/divinerpg:iceika/root"
-          ],
-          "icon": "minecraft:bone_block",
-          "count": 1,
-          "challenge": false
-        },
-        {
-          "key": "adv/divinerpg:iceika/chocolate_ore",
-          "title": "A Chocolate Ore",
-          "kind": "advancement",
-          "target": "divinerpg:iceika/chocolate_ore",
-          "note": "Smelt an Oxdrite Ingot",
-          "parents": [
-            "adv/divinerpg:iceika/root"
-          ],
-          "icon": "divinerpg:oxdrite_ingot",
-          "count": 1,
-          "challenge": false
-        },
-        {
-          "key": "adv/divinerpg:iceika/explore_iceika",
-          "title": "A Frosty Stroll",
-          "kind": "advancement",
-          "target": "divinerpg:iceika/explore_iceika",
-          "note": "Explore all Iceika biomes",
-          "parents": [
-            "adv/divinerpg:iceika/boneyard"
-          ],
-          "icon": "divinerpg:frozen_grass",
-          "count": 1,
-          "challenge": true
-        },
-        {
-          "key": "adv/divinerpg:iceika/feed_them_brittle_glass",
-          "title": "Feed Them Brittle Glass Grass",
-          "kind": "advancement",
-          "target": "divinerpg:iceika/feed_them_brittle_glass",
-          "note": "Breed two Mamoths",
-          "parents": [
-            "adv/divinerpg:iceika/root"
-          ],
-          "icon": "divinerpg:brittle_grass",
-          "count": 1,
-          "challenge": false
-        },
-        {
-          "key": "adv/divinerpg:iceika/frozen_goods",
-          "title": "Frozen Goods",
-          "kind": "advancement",
-          "target": "divinerpg:iceika/frozen_goods",
-          "note": "Obtain a Snowflake",
-          "parents": [
-            "adv/divinerpg:iceika/root"
-          ],
-          "icon": "divinerpg:frosted_chest",
-          "count": 1,
-          "challenge": false
-        },
-        {
-          "key": "adv/divinerpg:iceika/icy_catacombs",
-          "title": "The Icy Catacombs",
-          "kind": "advancement",
-          "target": "divinerpg:iceika/icy_catacombs",
-          "note": "Enter an Iceika Dungeon",
-          "parents": [
-            "adv/divinerpg:iceika/root"
-          ],
-          "icon": "divinerpg:chiseled_icy_bricks",
-          "count": 1,
-          "challenge": false
-        },
-        {
-          "key": "adv/divinerpg:iceika/kill_kitra",
-          "title": "An Invulnerable Whale",
-          "kind": "advancement",
-          "target": "divinerpg:iceika/kill_kitra",
-          "note": "Follow this expedition milestone in the advancement journal, then return to claim your supplies.",
-          "parents": [
-            "adv/divinerpg:iceika/boneyard"
-          ],
-          "icon": "divinerpg:calcified_brain",
-          "count": 1,
-          "challenge": false
-        },
-        {
-          "key": "adv/divinerpg:iceika/merry_xmas",
-          "title": "Merry Xmas!",
-          "kind": "advancement",
-          "target": "divinerpg:iceika/merry_xmas",
-          "note": "Drink grog while wearing a Santa suit",
-          "parents": [
-            "adv/divinerpg:iceika/what_makes_you_beautiful"
-          ],
-          "icon": "divinerpg:santa_helmet",
-          "count": 1,
-          "challenge": true
-        },
-        {
-          "key": "adv/divinerpg:iceika/root",
-          "title": "Iceika",
-          "kind": "advancement",
-          "target": "divinerpg:iceika/root",
-          "note": "The frozen land",
-          "parents": [],
-          "icon": "divinerpg:snow_globe",
-          "count": 1,
-          "challenge": false
-        },
-        {
-          "key": "adv/divinerpg:iceika/sapphire_beast",
-          "title": "A Sapphire Beast",
-          "kind": "advancement",
-          "target": "divinerpg:iceika/sapphire_beast",
-          "note": "Obtain a Seng Fur",
-          "parents": [
-            "adv/divinerpg:iceika/root"
-          ],
-          "icon": "divinerpg:seng_fur",
-          "count": 1,
-          "challenge": false
-        },
-        {
-          "key": "adv/divinerpg:iceika/what_makes_you_beautiful",
-          "title": "What Makes You Beautiful",
-          "kind": "advancement",
-          "target": "divinerpg:iceika/what_makes_you_beautiful",
-          "note": "Get a full suit of Seng Fur armor",
-          "parents": [
-            "adv/divinerpg:iceika/sapphire_beast"
-          ],
-          "icon": "divinerpg:seng_fur_helmet",
-          "count": 1,
-          "challenge": true
-        },
-        {
-          "key": "visit/divinerpg:iceika",
-          "title": "Into Iceika",
-          "kind": "dimension",
-          "target": "divinerpg:iceika",
-          "note": "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments.",
-          "parents": [],
-          "icon": "minecraft:map",
-          "count": 1,
-          "challenge": false
-        }
-      ]
-    },
-    {
-      "key": "wc_dimension_exp_official_divinerpg_nether",
-      "mod": "official-divinerpg",
-      "title": "Divine Realms: Nether",
-      "icon": "minecraft:compass",
-      "nodes": [
         {
           "key": "adv/divinerpg:nether/eternal_flame",
           "title": "Eternal Flame",
@@ -664,15 +470,7 @@
           "icon": "divinerpg:soulfire_stone",
           "count": 1,
           "challenge": true
-        }
-      ]
-    },
-    {
-      "key": "wc_dimension_exp_official_divinerpg_overworld",
-      "mod": "official-divinerpg",
-      "title": "Divine Realms: Overworld",
-      "icon": "minecraft:compass",
-      "nodes": [
+        },
         {
           "key": "adv/divinerpg:overworld/a_divine_plan",
           "title": "A Divine Plan",
@@ -856,10 +654,196 @@
       ]
     },
     {
+      "key": "wc_dimension_exp_official_divinerpg_iceika",
+      "mod": "official-divinerpg",
+      "title": "Divine Realms: Iceika",
+      "icon": "divinerpg:snowflake",
+      "nodes": [
+        {
+          "key": "adv/divinerpg:iceika/a_lil_gift",
+          "title": "A Lil' Gift",
+          "kind": "advancement",
+          "target": "divinerpg:iceika/a_lil_gift",
+          "note": "Trade with a Workshop Merchant",
+          "parents": [
+            "adv/divinerpg:iceika/frozen_goods"
+          ],
+          "icon": "divinerpg:snowflake",
+          "count": 1,
+          "challenge": false
+        },
+        {
+          "key": "adv/divinerpg:iceika/a_lil_tinkering",
+          "title": "A Lil' Tinkering",
+          "kind": "advancement",
+          "target": "divinerpg:iceika/a_lil_tinkering",
+          "note": "Trade with a Workshop Tinkerer",
+          "parents": [
+            "adv/divinerpg:iceika/frozen_goods"
+          ],
+          "icon": "divinerpg:frostking_sword",
+          "count": 1,
+          "challenge": false
+        },
+        {
+          "key": "adv/divinerpg:iceika/boneyard",
+          "title": "The Whale Graveyard",
+          "kind": "advancement",
+          "target": "divinerpg:iceika/boneyard",
+          "note": "Come across a boneyard",
+          "parents": [
+            "adv/divinerpg:iceika/root"
+          ],
+          "icon": "minecraft:bone_block",
+          "count": 1,
+          "challenge": false
+        },
+        {
+          "key": "adv/divinerpg:iceika/chocolate_ore",
+          "title": "A Chocolate Ore",
+          "kind": "advancement",
+          "target": "divinerpg:iceika/chocolate_ore",
+          "note": "Smelt an Oxdrite Ingot",
+          "parents": [
+            "adv/divinerpg:iceika/root"
+          ],
+          "icon": "divinerpg:oxdrite_ingot",
+          "count": 1,
+          "challenge": false
+        },
+        {
+          "key": "adv/divinerpg:iceika/explore_iceika",
+          "title": "A Frosty Stroll",
+          "kind": "advancement",
+          "target": "divinerpg:iceika/explore_iceika",
+          "note": "Explore all Iceika biomes",
+          "parents": [
+            "adv/divinerpg:iceika/boneyard"
+          ],
+          "icon": "divinerpg:frozen_grass",
+          "count": 1,
+          "challenge": true
+        },
+        {
+          "key": "adv/divinerpg:iceika/feed_them_brittle_glass",
+          "title": "Feed Them Brittle Glass Grass",
+          "kind": "advancement",
+          "target": "divinerpg:iceika/feed_them_brittle_glass",
+          "note": "Breed two Mamoths",
+          "parents": [
+            "adv/divinerpg:iceika/root"
+          ],
+          "icon": "divinerpg:brittle_grass",
+          "count": 1,
+          "challenge": false
+        },
+        {
+          "key": "adv/divinerpg:iceika/frozen_goods",
+          "title": "Frozen Goods",
+          "kind": "advancement",
+          "target": "divinerpg:iceika/frozen_goods",
+          "note": "Obtain a Snowflake",
+          "parents": [
+            "adv/divinerpg:iceika/root"
+          ],
+          "icon": "divinerpg:frosted_chest",
+          "count": 1,
+          "challenge": false
+        },
+        {
+          "key": "adv/divinerpg:iceika/icy_catacombs",
+          "title": "The Icy Catacombs",
+          "kind": "advancement",
+          "target": "divinerpg:iceika/icy_catacombs",
+          "note": "Enter an Iceika Dungeon",
+          "parents": [
+            "adv/divinerpg:iceika/root"
+          ],
+          "icon": "divinerpg:chiseled_icy_bricks",
+          "count": 1,
+          "challenge": false
+        },
+        {
+          "key": "adv/divinerpg:iceika/kill_kitra",
+          "title": "An Invulnerable Whale",
+          "kind": "advancement",
+          "target": "divinerpg:iceika/kill_kitra",
+          "note": "Seek Kitra beyond the Boneyard and defeat the frozen realm's guardian.",
+          "parents": [
+            "adv/divinerpg:iceika/boneyard"
+          ],
+          "icon": "divinerpg:calcified_brain",
+          "count": 1,
+          "challenge": false
+        },
+        {
+          "key": "adv/divinerpg:iceika/merry_xmas",
+          "title": "Merry Xmas!",
+          "kind": "advancement",
+          "target": "divinerpg:iceika/merry_xmas",
+          "note": "Drink grog while wearing a Santa suit",
+          "parents": [
+            "adv/divinerpg:iceika/what_makes_you_beautiful"
+          ],
+          "icon": "divinerpg:santa_helmet",
+          "count": 1,
+          "challenge": true
+        },
+        {
+          "key": "adv/divinerpg:iceika/root",
+          "title": "Iceika",
+          "kind": "advancement",
+          "target": "divinerpg:iceika/root",
+          "note": "The frozen land",
+          "parents": [],
+          "icon": "divinerpg:snow_globe",
+          "count": 1,
+          "challenge": false
+        },
+        {
+          "key": "adv/divinerpg:iceika/sapphire_beast",
+          "title": "A Sapphire Beast",
+          "kind": "advancement",
+          "target": "divinerpg:iceika/sapphire_beast",
+          "note": "Obtain a Seng Fur",
+          "parents": [
+            "adv/divinerpg:iceika/root"
+          ],
+          "icon": "divinerpg:seng_fur",
+          "count": 1,
+          "challenge": false
+        },
+        {
+          "key": "adv/divinerpg:iceika/what_makes_you_beautiful",
+          "title": "What Makes You Beautiful",
+          "kind": "advancement",
+          "target": "divinerpg:iceika/what_makes_you_beautiful",
+          "note": "Get a full suit of Seng Fur armor",
+          "parents": [
+            "adv/divinerpg:iceika/sapphire_beast"
+          ],
+          "icon": "divinerpg:seng_fur_helmet",
+          "count": 1,
+          "challenge": true
+        },
+        {
+          "key": "visit/divinerpg:iceika",
+          "title": "Into Iceika",
+          "kind": "dimension",
+          "target": "divinerpg:iceika",
+          "note": "The paths divide between frozen Iceika, the island realms, Arcana and dreaming Vethea. Prepare equipment for each journey and consult the crafting records before spending rare fragments.",
+          "parents": [],
+          "icon": "minecraft:map",
+          "count": 1,
+          "challenge": false
+        }
+      ]
+    },
+    {
       "key": "wc_dimension_exp_official_divinerpg_twilight",
       "mod": "official-divinerpg",
       "title": "Divine Realms: Twilight",
-      "icon": "minecraft:compass",
+      "icon": "divinerpg:eden_block",
       "nodes": [
         {
           "key": "adv/divinerpg:twilight/1001_possibilities",
@@ -1167,7 +1151,7 @@
       "key": "wc_dimension_exp_official_divinerpg_vethea",
       "mod": "official-divinerpg",
       "title": "Divine Realms: Vethea",
-      "icon": "minecraft:compass",
+      "icon": "divinerpg:hyrewood_log",
       "nodes": [
         {
           "key": "adv/divinerpg:vethea/an_elm_on_nightmare_street",
@@ -1226,7 +1210,7 @@
           "title": "Getting Out of Hand",
           "kind": "advancement",
           "target": "divinerpg:vethea/getting_out_of_hand",
-          "note": "Follow this expedition milestone in the advancement journal, then return to claim your supplies.",
+          "note": "Defeat Quadro during the Vethea campaign and recover its spoils.",
           "parents": [
             "adv/divinerpg:vethea/for_the_man_who_has_everything"
           ],
@@ -1354,7 +1338,7 @@
           "title": "Unlimited Power",
           "kind": "advancement",
           "target": "divinerpg:vethea/unlimited_power",
-          "note": "Follow this expedition milestone in the advancement journal, then return to claim your supplies.",
+          "note": "Defeat Wreck in Vethea with equipment forged along the dream-world route.",
           "parents": [
             "adv/divinerpg:vethea/swiss_cheese"
           ],
@@ -1379,7 +1363,7 @@
       "key": "wc_dimension_exp_eternal_starlight_forge",
       "mod": "eternal-starlight-forge",
       "title": "Eternal Starlight",
-      "icon": "minecraft:compass",
+      "icon": "eternal_starlight:nightfall_grass_block",
       "nodes": [
         {
           "key": "adv/eternal_starlight:all_starlight_biomes",
@@ -2200,7 +2184,7 @@
       "key": "wc_dimension_exp_the_deep_void",
       "mod": "the-deep-void",
       "title": "The Deep Void",
-      "icon": "minecraft:compass",
+      "icon": "the_deep_void:ferryman_lantern",
       "nodes": [
         {
           "key": "adv/the_deep_void:a_comforting_light",
@@ -2649,7 +2633,7 @@
           "title": "Monster.",
           "kind": "advancement",
           "target": "the_deep_void:knightfish_consume",
-          "note": "Follow this expedition milestone in the advancement journal, then return to claim your supplies.",
+          "note": "An optional field curiosity: consume a Knightfish from the deep.",
           "parents": [
             "adv/the_deep_void:bone_bottom"
           ],
@@ -2805,7 +2789,7 @@
           "title": "Darkness My Old Friend",
           "kind": "advancement",
           "target": "the_deep_void:shining_darkness_in_deepest_parts",
-          "note": "Follow this expedition milestone in the advancement journal, then return to claim your supplies.",
+          "note": "Recover Onyx beneath the darkness. Its crafting routes lead to armour, tools and a Ferryman Lantern.",
           "parents": [
             "adv/the_deep_void:bone_bottom"
           ],
@@ -3032,7 +3016,7 @@
       "key": "wc_dimension_exp_the_aurorian_reborn",
       "mod": "the-aurorian-reborn",
       "title": "The Aurorian",
-      "icon": "minecraft:compass",
+      "icon": "theaurorian:aurorian_steel_ingot",
       "nodes": [
         {
           "key": "adv/theaurorian:auroriansteel",
@@ -3255,7 +3239,7 @@
       "key": "wc_dimension_exp_atlantis",
       "mod": "atlantis",
       "title": "Atlantis",
-      "icon": "minecraft:compass",
+      "icon": "atlantis:orb_of_atlantis",
       "nodes": [
         {
           "key": "adv/atlantis:atlantean_garden_advancement",
@@ -3684,7 +3668,7 @@
       "key": "wc_dimension_exp_voidscape",
       "mod": "voidscape",
       "title": "Voidscape",
-      "icon": "minecraft:compass",
+      "icon": "voidscape:voidic_crystal_chest",
       "nodes": [
         {
           "key": "adv/voidscape:armor",
@@ -3933,7 +3917,7 @@
       "key": "wc_dimension_exp_call_from_the_depths",
       "mod": "call-from-the-depths",
       "title": "Call from the Depths",
-      "icon": "minecraft:compass",
+      "icon": "callfromthedepth_:soulofagony",
       "nodes": [
         {
           "key": "adv/callfromthedepth_:agony",
@@ -4174,7 +4158,7 @@
           "title": "Ancient stone",
           "kind": "advancement",
           "target": "callfromthedepth_:marblegoal",
-          "note": "Follow this expedition milestone in the advancement journal, then return to claim your supplies.",
+          "note": "Recover a single Marble Gem from the depths to begin the ancient-stone crafting route. Keep one gem in a stack when recording this discovery.",
           "parents": [
             "adv/callfromthedepth_:depthsentrance"
           ],
@@ -4351,7 +4335,7 @@
       "key": "wc_dimension_exp_beyond_the_end_mod",
       "mod": "beyond-the-end-mod",
       "title": "Beyond the End",
-      "icon": "minecraft:compass",
+      "icon": "beyond_the_end:haloshard",
       "nodes": [
         {
           "key": "adv/beyond_the_end:shadows_of_heaven",
@@ -4516,7 +4500,7 @@
       "key": "wc_dimension_exp_dimensional_dungeons",
       "mod": "dimensional-dungeons",
       "title": "Dimensional Dungeons",
-      "icon": "minecraft:compass",
+      "icon": "dimdungeons:block_portal_keyhole",
       "nodes": [
         {
           "key": "adv/dimdungeons:dungeons/root",
@@ -4698,7 +4682,7 @@
       "key": "wc_dimension_exp_jitl_departure",
       "mod": "jitl",
       "title": "Journey: The First Shrines",
-      "icon": "minecraft:compass",
+      "icon": "jitl:flame_coin",
       "nodes": [
         {
           "key": "jitl/departure/flame_coin",
@@ -4932,7 +4916,7 @@
       "key": "wc_dimension_exp_jitl_boil",
       "mod": "jitl",
       "title": "Journey: Boiling Point",
-      "icon": "minecraft:compass",
+      "icon": "jitl:boil_portal_frame",
       "nodes": [
         {
           "key": "jitl/frame/boil/boil_portal_frame",
@@ -5016,7 +5000,7 @@
       "key": "wc_dimension_exp_jitl_frozen",
       "mod": "jitl",
       "title": "Journey: Frozen Lands",
-      "icon": "minecraft:compass",
+      "icon": "jitl:frozen_portal_frame",
       "nodes": [
         {
           "key": "jitl/frame/frozen/frozen_portal_frame",
@@ -5113,7 +5097,7 @@
       "key": "wc_dimension_exp_jitl_euca",
       "mod": "jitl",
       "title": "Journey: Euca",
-      "icon": "minecraft:compass",
+      "icon": "jitl:euca_portal_frame",
       "nodes": [
         {
           "key": "jitl/frame/euca/euca_portal_frame",
@@ -5249,7 +5233,7 @@
       "key": "wc_dimension_exp_jitl_depths",
       "mod": "jitl",
       "title": "Journey: The Depths",
-      "icon": "minecraft:compass",
+      "icon": "jitl:depths_portal_frame",
       "nodes": [
         {
           "key": "jitl/frame/depths/depths_portal_frame",
@@ -5385,7 +5369,7 @@
       "key": "wc_dimension_exp_jitl_corba",
       "mod": "jitl",
       "title": "Journey: Corba",
-      "icon": "minecraft:compass",
+      "icon": "jitl:corba_portal_frame",
       "nodes": [
         {
           "key": "jitl/frame/corba/corba_portal_frame",
@@ -5521,7 +5505,7 @@
       "key": "wc_dimension_exp_jitl_terrania",
       "mod": "jitl",
       "title": "Journey: Terrania",
-      "icon": "minecraft:compass",
+      "icon": "jitl:terranian_portal_frame",
       "nodes": [
         {
           "key": "jitl/frame/terrania/terranian_portal_frame",
@@ -5618,7 +5602,7 @@
       "key": "wc_dimension_exp_jitl_cloudia",
       "mod": "jitl",
       "title": "Journey: Cloudia",
-      "icon": "minecraft:compass",
+      "icon": "jitl:cloudia_portal_frame",
       "nodes": [
         {
           "key": "jitl/frame/cloudia/cloudia_portal_frame",
@@ -5715,7 +5699,7 @@
       "key": "wc_dimension_exp_jitl_senterian",
       "mod": "jitl",
       "title": "Journey: Senterian",
-      "icon": "minecraft:compass",
+      "icon": "jitl:ancient_eye_of_opening",
       "nodes": [
         {
           "key": "visit/jitl:senterian",
@@ -5838,7 +5822,7 @@
       "key": "wc_dimension_exp_rftools_dimensions",
       "mod": "rftools-dimensions",
       "title": "Worldshapers",
-      "icon": "minecraft:compass",
+      "icon": "rftoolsdim:dimension_builder",
       "nodes": [
         {
           "key": "worlds/power/energy_tablet",
@@ -6166,7 +6150,7 @@
       "key": "wc_dimension_exp_tropicraft",
       "mod": "tropicraft",
       "title": "Tropicraft",
-      "icon": "minecraft:compass",
+      "icon": "tropicraft:bamboo_mug",
       "nodes": [
         {
           "key": "tropics/departure/bamboo_mug",

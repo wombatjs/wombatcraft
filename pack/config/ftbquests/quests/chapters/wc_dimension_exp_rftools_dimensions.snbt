@@ -2,9 +2,9 @@
   "filename": "wc_dimension_exp_rftools_dimensions",
   "id": "129722E7100961CE",
   "title": "Worldshapers",
-  "icon": "minecraft:compass",
+  "icon": "rftoolsdim:dimension_builder",
   "group": "3E91144EB73CBA91",
-  "order_index": 45,
+  "order_index": 43,
   "default_quest_shape": "circle",
   "quests": [
     {
@@ -24,7 +24,7 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 2.5,
+      "x": -2.5,
       "y": 0.0,
       "shape": "circle",
       "size": 1,
@@ -61,7 +61,7 @@
       "dependencies": [
         "2BE2A12593E2AB1A"
       ],
-      "x": 2.5,
+      "x": -2.5,
       "y": 2.5,
       "shape": "circle",
       "size": 1,
@@ -98,7 +98,7 @@
       "dependencies": [
         "005475540CC292C0"
       ],
-      "x": 2.5,
+      "x": -2.5,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -135,7 +135,7 @@
       "dependencies": [
         "013BC0EE08AA2AF5"
       ],
-      "x": 2.5,
+      "x": -6.25,
       "y": 7.5,
       "shape": "circle",
       "size": 1,
@@ -172,7 +172,7 @@
       "dependencies": [
         "2CA26A2E76302A08"
       ],
-      "x": 2.5,
+      "x": -1.25,
       "y": 10.0,
       "shape": "circle",
       "size": 1,
@@ -209,7 +209,7 @@
       "dependencies": [
         "0AA0FBD079437ADD"
       ],
-      "x": 2.5,
+      "x": 0.0,
       "y": 12.5,
       "shape": "circle",
       "size": 1,
@@ -246,7 +246,7 @@
       "dependencies": [
         "0B9F25446A8E1257"
       ],
-      "x": 0.0,
+      "x": -1.25,
       "y": 15.0,
       "shape": "circle",
       "size": 1,
@@ -281,8 +281,8 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 5.0,
-      "y": 27.5,
+      "x": 0.0,
+      "y": 0.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -318,8 +318,8 @@
       "dependencies": [
         "50EFD6AB3DD39DD8"
       ],
-      "x": 3.75,
-      "y": 30.0,
+      "x": 0.0,
+      "y": 2.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -355,8 +355,8 @@
       "dependencies": [
         "4FBA2E96D29A42A9"
       ],
-      "x": 3.75,
-      "y": 32.5,
+      "x": 0.0,
+      "y": 5.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -392,8 +392,8 @@
       "dependencies": [
         "50EFD6AB3DD39DD8"
       ],
-      "x": 10.0,
-      "y": 30.0,
+      "x": 2.5,
+      "y": 2.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -429,8 +429,8 @@
       "dependencies": [
         "057C8A2C7F13329B"
       ],
-      "x": 10.0,
-      "y": 32.5,
+      "x": 2.5,
+      "y": 5.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -466,8 +466,8 @@
       "dependencies": [
         "61EE1A6E2B3E8B7B"
       ],
-      "x": 10.0,
-      "y": 35.0,
+      "x": 6.25,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -503,8 +503,8 @@
       "dependencies": [
         "2BB2F84F24ADDC1F"
       ],
-      "x": 10.0,
-      "y": 37.5,
+      "x": 1.25,
+      "y": 10.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -540,8 +540,8 @@
       "dependencies": [
         "225A99FC521B7C67"
       ],
-      "x": 0.0,
-      "y": 35.0,
+      "x": -3.75,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -577,8 +577,8 @@
       "dependencies": [
         "225A99FC521B7C67"
       ],
-      "x": 2.5,
-      "y": 35.0,
+      "x": -1.25,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -614,8 +614,8 @@
       "dependencies": [
         "225A99FC521B7C67"
       ],
-      "x": 5.0,
-      "y": 35.0,
+      "x": 1.25,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -651,8 +651,8 @@
       "dependencies": [
         "225A99FC521B7C67"
       ],
-      "x": 7.5,
-      "y": 35.0,
+      "x": 3.75,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -688,7 +688,7 @@
       "dependencies": [
         "37D3FFC0EDFE59B0"
       ],
-      "x": 0.0,
+      "x": -2.5,
       "y": 17.5,
       "shape": "circle",
       "size": 1,
@@ -798,7 +798,7 @@
       "dependencies": [
         "0B9F25446A8E1257"
       ],
-      "x": 3.75,
+      "x": 1.25,
       "y": 15.0,
       "shape": "rsquare",
       "size": 1
@@ -822,7 +822,7 @@
         "277969227C052418",
         "34EDE7E860A42D6D"
       ],
-      "x": 2.5,
+      "x": 0.0,
       "y": 17.5,
       "shape": "rsquare",
       "size": 1
@@ -845,7 +845,7 @@
       "dependencies": [
         "277969227C052418"
       ],
-      "x": 5.0,
+      "x": 2.5,
       "y": 17.5,
       "shape": "rsquare",
       "size": 1
@@ -866,8 +866,8 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 15.0,
-      "y": 27.5,
+      "x": 2.5,
+      "y": 0.0,
       "shape": "rsquare",
       "size": 1
     }

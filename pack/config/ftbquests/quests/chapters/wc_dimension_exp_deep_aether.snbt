@@ -2,7 +2,7 @@
   "filename": "wc_dimension_exp_deep_aether",
   "id": "43A635464C9FAA5A",
   "title": "Deep Aether",
-  "icon": "minecraft:compass",
+  "icon": "deep_aether:skyjade",
   "group": "3E91144EB73CBA91",
   "order_index": 20,
   "default_quest_shape": "circle",
@@ -23,7 +23,7 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 0.0,
+      "x": -8.75,
       "y": 0.0,
       "shape": "hexagon",
       "size": 1.3,
@@ -57,7 +57,7 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 5.0,
+      "x": -6.25,
       "y": 0.0,
       "shape": "circle",
       "size": 1,
@@ -91,7 +91,7 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 10.0,
+      "x": -3.75,
       "y": 0.0,
       "shape": "hexagon",
       "size": 1.3,
@@ -125,7 +125,7 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 15.0,
+      "x": -1.25,
       "y": 0.0,
       "shape": "hexagon",
       "size": 1.3,
@@ -159,8 +159,8 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 0.0,
-      "y": 12.5,
+      "x": 1.25,
+      "y": 0.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -194,8 +194,8 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 6.25,
-      "y": 12.5,
+      "x": 3.75,
+      "y": 0.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -231,8 +231,8 @@
       "dependencies": [
         "0EC25FAACDF7C0D4"
       ],
-      "x": 6.25,
-      "y": 15.0,
+      "x": 0.0,
+      "y": 2.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -268,8 +268,8 @@
       "dependencies": [
         "0FD05B171C4487E2"
       ],
-      "x": 5.0,
-      "y": 17.5,
+      "x": -1.25,
+      "y": 5.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -305,8 +305,8 @@
       "dependencies": [
         "1E3D4E7DCA3E34B1"
       ],
-      "x": 5.0,
-      "y": 20.0,
+      "x": 0.0,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -342,8 +342,8 @@
       "dependencies": [
         "0FD05B171C4487E2"
       ],
-      "x": 7.5,
-      "y": 17.5,
+      "x": 1.25,
+      "y": 5.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -379,8 +379,8 @@
       "dependencies": [
         "12175158B7F1BC1D"
       ],
-      "x": 7.5,
-      "y": 20.0,
+      "x": 2.5,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -416,8 +416,8 @@
       "dependencies": [
         "27A90E222A63A2FC"
       ],
-      "x": 7.5,
-      "y": 22.5,
+      "x": 0.0,
+      "y": 10.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -453,8 +453,8 @@
       "dependencies": [
         "69B63F5D6C5D53E7"
       ],
-      "x": 7.5,
-      "y": 25.0,
+      "x": 0.0,
+      "y": 12.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -490,7 +490,7 @@
       "dependencies": [
         "1CF3B577643FB472"
       ],
-      "x": 5.0,
+      "x": -2.5,
       "y": 2.5,
       "shape": "circle",
       "size": 1,
@@ -527,7 +527,7 @@
       "dependencies": [
         "6D7F3FBFCD2BD3F3"
       ],
-      "x": 5.0,
+      "x": -3.75,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -564,7 +564,7 @@
       "dependencies": [
         "34F658595DBE7826"
       ],
-      "x": 5.0,
+      "x": -2.5,
       "y": 7.5,
       "shape": "circle",
       "size": 1,
@@ -599,8 +599,8 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 12.5,
-      "y": 12.5,
+      "x": 6.25,
+      "y": 0.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -636,8 +636,8 @@
       "dependencies": [
         "588641946CA9CC1F"
       ],
-      "x": 12.5,
-      "y": 15.0,
+      "x": 2.5,
+      "y": 2.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -673,8 +673,8 @@
       "dependencies": [
         "06CBFE032A9BF998"
       ],
-      "x": 12.5,
-      "y": 17.5,
+      "x": 3.75,
+      "y": 5.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -707,8 +707,8 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 17.5,
-      "y": 12.5,
+      "x": 8.75,
+      "y": 0.0,
       "shape": "rsquare",
       "size": 1
     }

@@ -2,9 +2,9 @@
   "filename": "wc_dimension_exp_atlantis",
   "id": "29438DF547DBA18F",
   "title": "Atlantis",
-  "icon": "minecraft:compass",
+  "icon": "atlantis:orb_of_atlantis",
   "group": "3E91144EB73CBA91",
-  "order_index": 31,
+  "order_index": 29,
   "default_quest_shape": "circle",
   "quests": [
     {
@@ -25,7 +25,7 @@
       "dependencies": [
         "4975AAEF3DC8333F"
       ],
-      "x": 0.0,
+      "x": -8.75,
       "y": 2.5,
       "shape": "circle",
       "size": 1,
@@ -61,7 +61,7 @@
       "dependencies": [
         "4975AAEF3DC8333F"
       ],
-      "x": 2.5,
+      "x": -6.25,
       "y": 2.5,
       "shape": "circle",
       "size": 1,
@@ -97,8 +97,8 @@
       "dependencies": [
         "0B8BC0198ADC453C"
       ],
-      "x": 7.5,
-      "y": 5.0,
+      "x": -3.75,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -131,7 +131,7 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 8.75,
+      "x": -3.75,
       "y": 0.0,
       "shape": "circle",
       "size": 1,
@@ -167,7 +167,7 @@
       "dependencies": [
         "4975AAEF3DC8333F"
       ],
-      "x": 5.0,
+      "x": -3.75,
       "y": 2.5,
       "shape": "circle",
       "size": 1,
@@ -203,7 +203,7 @@
       "dependencies": [
         "4975AAEF3DC8333F"
       ],
-      "x": 8.75,
+      "x": -1.25,
       "y": 2.5,
       "shape": "circle",
       "size": 1,
@@ -239,8 +239,8 @@
       "dependencies": [
         "2392555398B9D376"
       ],
-      "x": 12.5,
-      "y": 5.0,
+      "x": 1.25,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -275,8 +275,8 @@
       "dependencies": [
         "6A99E95D0D3DE221"
       ],
-      "x": 12.5,
-      "y": 7.5,
+      "x": -1.25,
+      "y": 12.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -311,7 +311,7 @@
       "dependencies": [
         "4975AAEF3DC8333F"
       ],
-      "x": 13.75,
+      "x": 1.25,
       "y": 2.5,
       "shape": "circle",
       "size": 1,
@@ -347,8 +347,8 @@
       "dependencies": [
         "2392555398B9D376"
       ],
-      "x": 15.0,
-      "y": 5.0,
+      "x": 3.75,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -383,8 +383,8 @@
       "dependencies": [
         "0B8BC0198ADC453C"
       ],
-      "x": 10.0,
-      "y": 5.0,
+      "x": -1.25,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -419,7 +419,7 @@
       "dependencies": [
         "4975AAEF3DC8333F"
       ],
-      "x": 17.5,
+      "x": 3.75,
       "y": 2.5,
       "shape": "circle",
       "size": 1,
@@ -454,8 +454,8 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 0.0,
-      "y": 12.5,
+      "x": -1.25,
+      "y": 0.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -491,8 +491,8 @@
       "dependencies": [
         "3E6C334449A97286"
       ],
-      "x": 1.25,
-      "y": 20.0,
+      "x": 6.25,
+      "y": 2.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -528,8 +528,8 @@
       "dependencies": [
         "0434EA126F47CFC3"
       ],
-      "x": 0.0,
-      "y": 22.5,
+      "x": 6.25,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -565,8 +565,8 @@
       "dependencies": [
         "20C89FEA4A45C6F6"
       ],
-      "x": 0.0,
-      "y": 25.0,
+      "x": 1.25,
+      "y": 12.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -602,8 +602,8 @@
       "dependencies": [
         "0434EA126F47CFC3"
       ],
-      "x": 2.5,
-      "y": 22.5,
+      "x": 8.75,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -639,8 +639,8 @@
       "dependencies": [
         "77BF8338EE410375"
       ],
-      "x": 2.5,
-      "y": 25.0,
+      "x": 3.75,
+      "y": 12.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -676,8 +676,8 @@
       "dependencies": [
         "700DD4C294E47CF9"
       ],
-      "x": 2.5,
-      "y": 27.5,
+      "x": 0.0,
+      "y": 15.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -713,8 +713,8 @@
       "dependencies": [
         "30446F32BE335C70"
       ],
-      "x": 2.5,
-      "y": 30.0,
+      "x": 0.0,
+      "y": 17.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -750,8 +750,8 @@
       "dependencies": [
         "441BAA4D6319E12D"
       ],
-      "x": 2.5,
-      "y": 32.5,
+      "x": 0.0,
+      "y": 20.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -787,8 +787,8 @@
       "dependencies": [
         "3E6C334449A97286"
       ],
-      "x": 5.0,
-      "y": 20.0,
+      "x": 8.75,
+      "y": 2.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -824,8 +824,8 @@
       "dependencies": [
         "523DA3DF3B6B89D2"
       ],
-      "x": 5.0,
-      "y": 22.5,
+      "x": 0.0,
+      "y": 10.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -861,8 +861,8 @@
       "dependencies": [
         "3E6C334449A97286"
       ],
-      "x": 7.5,
-      "y": 20.0,
+      "x": -5.0,
+      "y": 5.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -898,8 +898,8 @@
       "dependencies": [
         "72872F52FA592F25"
       ],
-      "x": 7.5,
-      "y": 22.5,
+      "x": -8.75,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -935,8 +935,8 @@
       "dependencies": [
         "3E6C334449A97286"
       ],
-      "x": 10.0,
-      "y": 20.0,
+      "x": -2.5,
+      "y": 5.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -972,8 +972,8 @@
       "dependencies": [
         "42FEB76859144A21"
       ],
-      "x": 10.0,
-      "y": 22.5,
+      "x": -6.25,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1008,8 +1008,8 @@
       "dependencies": [
         "3E6C334449A97286"
       ],
-      "x": 12.5,
-      "y": 20.0,
+      "x": 0.0,
+      "y": 5.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1044,8 +1044,8 @@
       "dependencies": [
         "3E6C334449A97286"
       ],
-      "x": 15.0,
-      "y": 20.0,
+      "x": 2.5,
+      "y": 5.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1080,8 +1080,8 @@
       "dependencies": [
         "3E6C334449A97286"
       ],
-      "x": 17.5,
-      "y": 20.0,
+      "x": 5.0,
+      "y": 5.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1116,8 +1116,8 @@
       "dependencies": [
         "2270F5695D33B163"
       ],
-      "x": 5.0,
-      "y": 25.0,
+      "x": -3.75,
+      "y": 12.5,
       "shape": "rsquare",
       "size": 1
     },
@@ -1137,8 +1137,8 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 5.0,
-      "y": 12.5,
+      "x": 1.25,
+      "y": 0.0,
       "shape": "rsquare",
       "size": 1
     },
@@ -1158,8 +1158,8 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 8.75,
-      "y": 17.5,
+      "x": 3.75,
+      "y": 0.0,
       "shape": "diamond",
       "size": 1.3,
       "rewards": [

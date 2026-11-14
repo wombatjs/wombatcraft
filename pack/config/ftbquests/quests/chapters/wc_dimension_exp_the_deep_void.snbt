@@ -2,9 +2,9 @@
   "filename": "wc_dimension_exp_the_deep_void",
   "id": "2A6EF31BF3D4F2B0",
   "title": "The Deep Void",
-  "icon": "minecraft:compass",
+  "icon": "the_deep_void:ferryman_lantern",
   "group": "3E91144EB73CBA91",
-  "order_index": 29,
+  "order_index": 27,
   "default_quest_shape": "circle",
   "quests": [
     {
@@ -25,8 +25,8 @@
       "dependencies": [
         "1CFEDD2F7C56B523"
       ],
-      "x": 42.5,
-      "y": 7.5,
+      "x": -8.75,
+      "y": 12.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -61,7 +61,7 @@
       "dependencies": [
         "5B856169C89285A6"
       ],
-      "x": 0.0,
+      "x": -2.5,
       "y": 2.5,
       "shape": "hexagon",
       "size": 1.3,
@@ -97,7 +97,7 @@
       "dependencies": [
         "2FF04973E39732EF"
       ],
-      "x": 3.75,
+      "x": -8.75,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -133,7 +133,7 @@
       "dependencies": [
         "5B856169C89285A6"
       ],
-      "x": 41.25,
+      "x": 0.0,
       "y": 2.5,
       "shape": "circle",
       "size": 1,
@@ -169,8 +169,8 @@
       "dependencies": [
         "2E78932AB0CBDEE2"
       ],
-      "x": 62.5,
-      "y": 7.5,
+      "x": 8.75,
+      "y": 15.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -205,8 +205,8 @@
       "dependencies": [
         "0D71CE733B061338"
       ],
-      "x": 60.0,
-      "y": 7.5,
+      "x": 6.25,
+      "y": 15.0,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -241,8 +241,8 @@
       "dependencies": [
         "59DE14390CFE1DFA"
       ],
-      "x": 17.5,
-      "y": 20.0,
+      "x": -1.25,
+      "y": 30.0,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -277,8 +277,8 @@
       "dependencies": [
         "2E78932AB0CBDEE2"
       ],
-      "x": 65.0,
-      "y": 7.5,
+      "x": -7.5,
+      "y": 17.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -313,8 +313,8 @@
       "dependencies": [
         "44F16E912FE2C5CA"
       ],
-      "x": 65.0,
-      "y": 10.0,
+      "x": -5.0,
+      "y": 20.0,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -349,8 +349,8 @@
       "dependencies": [
         "794D11CC1C08AFAB"
       ],
-      "x": 18.75,
-      "y": 15.0,
+      "x": 1.25,
+      "y": 25.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -385,7 +385,7 @@
       "dependencies": [
         "2FF04973E39732EF"
       ],
-      "x": 8.75,
+      "x": -6.25,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -421,8 +421,8 @@
       "dependencies": [
         "1298E1B6AB17F97F"
       ],
-      "x": 75.0,
-      "y": 12.5,
+      "x": 3.75,
+      "y": 22.5,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -457,7 +457,7 @@
       "dependencies": [
         "2FF04973E39732EF"
       ],
-      "x": 17.5,
+      "x": -3.75,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -493,7 +493,7 @@
       "dependencies": [
         "2FF04973E39732EF"
       ],
-      "x": 25.0,
+      "x": -1.25,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -529,7 +529,7 @@
       "dependencies": [
         "5B856169C89285A6"
       ],
-      "x": 82.5,
+      "x": 2.5,
       "y": 2.5,
       "shape": "circle",
       "size": 1,
@@ -565,8 +565,8 @@
       "dependencies": [
         "45501142DBE116DD"
       ],
-      "x": 15.0,
-      "y": 15.0,
+      "x": -1.25,
+      "y": 25.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -601,7 +601,7 @@
       "dependencies": [
         "2FF04973E39732EF"
       ],
-      "x": 27.5,
+      "x": 1.25,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -637,8 +637,8 @@
       "dependencies": [
         "4B684845B2172DAE"
       ],
-      "x": 32.5,
-      "y": 10.0,
+      "x": 0.0,
+      "y": 20.0,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -673,8 +673,8 @@
       "dependencies": [
         "6FEB994290939746"
       ],
-      "x": 12.5,
-      "y": 7.5,
+      "x": 8.75,
+      "y": 12.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -709,8 +709,8 @@
       "dependencies": [
         "75C9951EE95B9F85"
       ],
-      "x": 27.5,
-      "y": 7.5,
+      "x": 3.75,
+      "y": 15.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -745,7 +745,7 @@
       "dependencies": [
         "2FF04973E39732EF"
       ],
-      "x": 30.0,
+      "x": 3.75,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -781,8 +781,8 @@
       "dependencies": [
         "020134992732CD05"
       ],
-      "x": 15.0,
-      "y": 10.0,
+      "x": -7.5,
+      "y": 20.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -817,7 +817,7 @@
       "dependencies": [
         "2FF04973E39732EF"
       ],
-      "x": 35.0,
+      "x": 6.25,
       "y": 5.0,
       "shape": "hexagon",
       "size": 1.3,
@@ -853,8 +853,8 @@
       "dependencies": [
         "6B3DF78363E94BFB"
       ],
-      "x": 65.0,
-      "y": 12.5,
+      "x": -1.25,
+      "y": 22.5,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -889,7 +889,7 @@
       "dependencies": [
         "2FF04973E39732EF"
       ],
-      "x": 40.0,
+      "x": 8.75,
       "y": 5.0,
       "shape": "hexagon",
       "size": 1.3,
@@ -925,8 +925,8 @@
       "dependencies": [
         "18D4B449AE00404C"
       ],
-      "x": 72.5,
-      "y": 7.5,
+      "x": 5.0,
+      "y": 17.5,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -961,8 +961,8 @@
       "dependencies": [
         "506A385A71C5FBEA"
       ],
-      "x": 18.75,
-      "y": 10.0,
+      "x": -2.5,
+      "y": 20.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -997,8 +997,8 @@
       "dependencies": [
         "4B684845B2172DAE"
       ],
-      "x": 35.0,
-      "y": 10.0,
+      "x": 2.5,
+      "y": 20.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1033,8 +1033,8 @@
       "dependencies": [
         "6FEB994290939746"
       ],
-      "x": 15.0,
-      "y": 7.5,
+      "x": -8.75,
+      "y": 15.0,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -1069,8 +1069,8 @@
       "dependencies": [
         "2FF04973E39732EF"
       ],
-      "x": 43.75,
-      "y": 5.0,
+      "x": -8.75,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1105,8 +1105,8 @@
       "dependencies": [
         "2FF04973E39732EF"
       ],
-      "x": 47.5,
-      "y": 5.0,
+      "x": -6.25,
+      "y": 7.5,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -1141,8 +1141,8 @@
       "dependencies": [
         "2FF04973E39732EF"
       ],
-      "x": 51.25,
-      "y": 5.0,
+      "x": -3.75,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1177,8 +1177,8 @@
       "dependencies": [
         "35355F397DBBBB00"
       ],
-      "x": 50.0,
-      "y": 7.5,
+      "x": -6.25,
+      "y": 15.0,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -1213,8 +1213,8 @@
       "dependencies": [
         "68AEA0A14AA236E6"
       ],
-      "x": 2.5,
-      "y": 7.5,
+      "x": -6.25,
+      "y": 12.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1235,7 +1235,7 @@
       "id": "5EDD6EAD34469BA5",
       "title": "Monster.",
       "description": [
-        "Follow this expedition milestone in the advancement journal, then return to claim your supplies."
+        "An optional field curiosity: consume a Knightfish from the deep."
       ],
       "icon": "the_deep_void:knightfish",
       "tasks": [
@@ -1249,8 +1249,8 @@
       "dependencies": [
         "2FF04973E39732EF"
       ],
-      "x": 55.0,
-      "y": 5.0,
+      "x": -1.25,
+      "y": 7.5,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -1285,8 +1285,8 @@
       "dependencies": [
         "29C0B2B880819434"
       ],
-      "x": 22.5,
-      "y": 10.0,
+      "x": 5.0,
+      "y": 20.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1321,8 +1321,8 @@
       "dependencies": [
         "2E78932AB0CBDEE2"
       ],
-      "x": 67.5,
-      "y": 7.5,
+      "x": -5.0,
+      "y": 17.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1357,8 +1357,8 @@
       "dependencies": [
         "36521B0077CDE2B4"
       ],
-      "x": 7.5,
-      "y": 7.5,
+      "x": 1.25,
+      "y": 12.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1393,8 +1393,8 @@
       "dependencies": [
         "6091D00F91093FE7"
       ],
-      "x": 33.75,
-      "y": 7.5,
+      "x": -2.5,
+      "y": 17.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1429,8 +1429,8 @@
       "dependencies": [
         "2FF04973E39732EF"
       ],
-      "x": 57.5,
-      "y": 5.0,
+      "x": 1.25,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1465,8 +1465,8 @@
       "dependencies": [
         "36521B0077CDE2B4"
       ],
-      "x": 10.0,
-      "y": 7.5,
+      "x": 3.75,
+      "y": 12.5,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -1501,8 +1501,8 @@
       "dependencies": [
         "2FF04973E39732EF"
       ],
-      "x": 60.0,
-      "y": 5.0,
+      "x": 3.75,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1537,8 +1537,8 @@
       "dependencies": [
         "6FEB994290939746"
       ],
-      "x": 18.75,
-      "y": 7.5,
+      "x": -3.75,
+      "y": 15.0,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -1573,8 +1573,8 @@
       "dependencies": [
         "10CAABB13B55981E"
       ],
-      "x": 15.0,
-      "y": 12.5,
+      "x": -3.75,
+      "y": 22.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1609,8 +1609,8 @@
       "dependencies": [
         "1ED2EAAB746D7811"
       ],
-      "x": 18.75,
-      "y": 17.5,
+      "x": 0.0,
+      "y": 27.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1645,8 +1645,8 @@
       "dependencies": [
         "68AEA0A14AA236E6"
       ],
-      "x": 5.0,
-      "y": 7.5,
+      "x": -3.75,
+      "y": 12.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1667,7 +1667,7 @@
       "id": "2E78932AB0CBDEE2",
       "title": "Darkness My Old Friend",
       "description": [
-        "Follow this expedition milestone in the advancement journal, then return to claim your supplies."
+        "Recover Onyx beneath the darkness. Its crafting routes lead to armour, tools and a Ferryman Lantern."
       ],
       "icon": "the_deep_void:onyx",
       "tasks": [
@@ -1681,8 +1681,8 @@
       "dependencies": [
         "2FF04973E39732EF"
       ],
-      "x": 66.25,
-      "y": 5.0,
+      "x": 6.25,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1717,8 +1717,8 @@
       "dependencies": [
         "594D702EA303B3F3"
       ],
-      "x": 75.0,
-      "y": 10.0,
+      "x": 7.5,
+      "y": 20.0,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -1753,8 +1753,8 @@
       "dependencies": [
         "18D4B449AE00404C"
       ],
-      "x": 75.0,
-      "y": 7.5,
+      "x": 7.5,
+      "y": 17.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1789,8 +1789,8 @@
       "dependencies": [
         "1CFEDD2F7C56B523"
       ],
-      "x": 45.0,
-      "y": 7.5,
+      "x": -1.25,
+      "y": 12.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1825,8 +1825,8 @@
       "dependencies": [
         "78E6F487E567AC4E"
       ],
-      "x": 18.75,
-      "y": 12.5,
+      "x": 1.25,
+      "y": 22.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1859,7 +1859,7 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 41.25,
+      "x": -3.75,
       "y": 0.0,
       "shape": "circle",
       "size": 1,
@@ -1895,8 +1895,8 @@
       "dependencies": [
         "6FEB994290939746"
       ],
-      "x": 22.5,
-      "y": 7.5,
+      "x": -1.25,
+      "y": 15.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1931,8 +1931,8 @@
       "dependencies": [
         "59DE14390CFE1DFA"
       ],
-      "x": 20.0,
-      "y": 20.0,
+      "x": 1.25,
+      "y": 30.0,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -1967,8 +1967,8 @@
       "dependencies": [
         "2FF04973E39732EF"
       ],
-      "x": 73.75,
-      "y": 5.0,
+      "x": 8.75,
+      "y": 7.5,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -2003,8 +2003,8 @@
       "dependencies": [
         "6091D00F91093FE7"
       ],
-      "x": 37.5,
-      "y": 7.5,
+      "x": 0.0,
+      "y": 17.5,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -2039,8 +2039,8 @@
       "dependencies": [
         "2FF04973E39732EF"
       ],
-      "x": 77.5,
-      "y": 5.0,
+      "x": -1.25,
+      "y": 10.0,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -2075,8 +2075,8 @@
       "dependencies": [
         "2E78932AB0CBDEE2"
       ],
-      "x": 70.0,
-      "y": 7.5,
+      "x": 2.5,
+      "y": 17.5,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -2111,8 +2111,8 @@
       "dependencies": [
         "2FF04973E39732EF"
       ],
-      "x": 80.0,
-      "y": 5.0,
+      "x": 1.25,
+      "y": 10.0,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -2147,8 +2147,8 @@
       "dependencies": [
         "000F204F32BF3ACD"
       ],
-      "x": 47.5,
-      "y": 7.5,
+      "x": 6.25,
+      "y": 12.5,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -2183,8 +2183,8 @@
       "dependencies": [
         "35355F397DBBBB00"
       ],
-      "x": 52.5,
-      "y": 7.5,
+      "x": 1.25,
+      "y": 15.0,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -2217,8 +2217,8 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 0.0,
-      "y": 25.0,
+      "x": -1.25,
+      "y": 0.0,
       "shape": "rsquare",
       "size": 1
     },
@@ -2238,8 +2238,8 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 5.0,
-      "y": 25.0,
+      "x": 1.25,
+      "y": 0.0,
       "shape": "diamond",
       "size": 1.3,
       "rewards": [
@@ -2272,8 +2272,8 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 10.0,
-      "y": 25.0,
+      "x": 3.75,
+      "y": 0.0,
       "shape": "diamond",
       "size": 1.3,
       "rewards": [

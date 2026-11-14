@@ -10,40 +10,27 @@ def add_expansion(book, uid):
     source = json.loads((Path(__file__).resolve().parents[1] / 'quests/expansion.json').read_text(encoding='utf-8'))
     for order, route in enumerate(source['chapters'], 20):
         nodes = {n['key']: n for n in route['nodes']}
-        children = {key: [] for key in nodes}
-        roots = []
-        for key, node in nodes.items():
-            local = [p for p in node['parents'] if p in nodes]
-            if local:
-                children[local[0]].append(key)
-            else:
-                roots.append(key)
-        # Each subtree has its own strip; siblings spread out below a shared
-        # parent. Long routes grow down the page instead of crossing other lanes.
-        widths = {}
-        def width(key):
-            widths[key] = max(1, sum(width(k) for k in children[key]))
-            return widths[key]
-        for root in roots:
-            width(root)
+        depths = {}
+        def depth(key):
+            if key not in depths:
+                parents = [p for p in nodes[key]['parents'] if p in nodes]
+                depths[key] = 1 + max((depth(p) for p in parents), default=-1)
+            return depths[key]
+        for key in nodes:
+            depth(key)
         positions = {}
-        def place(key, left, depth):
-            positions[key] = (left + (widths[key] - 1) / 2, depth)
-            cursor = left
-            for child in children[key]:
-                place(child, cursor, depth + 1)
-                cursor += widths[child]
-        # Independent research lanes are arranged in bands of at most 8 leaves.
-        left = 0
-        top = 0
-        bottom = 0
-        for root in roots:
-            if left and left + widths[root] > 8:
-                left = 0
-                top = bottom + 2
-            place(root, left, top)
-            bottom = max(bottom, max(y for x, y in positions.values()))
-            left += widths[root] + 1
+        row = 0
+        for level in range(max(depths.values(), default=0) + 1):
+            layer = [key for key in nodes if depths[key] == level]
+            def parent_center(key):
+                points = [positions[p][0] for p in nodes[key]['parents'] if p in positions]
+                return sum(points) / len(points) if points else 0
+            layer.sort(key=parent_center)
+            for start in range(0, len(layer), 8):
+                band = layer[start:start+8]
+                for column, key in enumerate(band):
+                    positions[key] = (column - (len(band)-1)/2, row)
+                row += 1
         chapter = dict(filename=route['key'], id=uid('chapter/' + route['key']),
                        title=route['title'], icon=route['icon'], group=GROUP,
                        order_index=order, default_quest_shape='circle', quests=[])

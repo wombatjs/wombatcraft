@@ -1,6 +1,6 @@
 # Wombatcraft exploration review
 
-Researched 13 November 2026 for Forge 1.20.1. These are recommendations, not newly installed mods. File compatibility is not a successful multiplayer test.
+Historical research notes from 13 November 2026 for Forge 1.20.1. The later request to include all fourteen candidates is tracked in [dimension-expansion.md](dimension-expansion.md), which supersedes the shortlist and counts below. File compatibility is not a successful multiplayer test.
 
 ## Recommendation
 

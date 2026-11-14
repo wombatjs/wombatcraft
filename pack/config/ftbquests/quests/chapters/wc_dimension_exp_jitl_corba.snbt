@@ -2,9 +2,9 @@
   "filename": "wc_dimension_exp_jitl_corba",
   "id": "76143AC75D6F2DD2",
   "title": "Journey: Corba",
-  "icon": "minecraft:compass",
+  "icon": "jitl:corba_portal_frame",
   "group": "3E91144EB73CBA91",
-  "order_index": 41,
+  "order_index": 39,
   "default_quest_shape": "circle",
   "quests": [
     {
@@ -24,7 +24,7 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 5.0,
+      "x": 0.0,
       "y": 0.0,
       "shape": "circle",
       "size": 1,
@@ -60,7 +60,7 @@
       "dependencies": [
         "7A7167FEE1528C7C"
       ],
-      "x": 5.0,
+      "x": 0.0,
       "y": 2.5,
       "shape": "diamond",
       "size": 1.3,
@@ -97,7 +97,7 @@
       "dependencies": [
         "489E3EFAEB48E4D1"
       ],
-      "x": 0.0,
+      "x": -5.0,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -134,7 +134,7 @@
       "dependencies": [
         "5B900F6EF14547C6"
       ],
-      "x": 0.0,
+      "x": -2.5,
       "y": 7.5,
       "shape": "circle",
       "size": 1,
@@ -170,7 +170,7 @@
       "dependencies": [
         "489E3EFAEB48E4D1"
       ],
-      "x": 2.5,
+      "x": -2.5,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -207,7 +207,7 @@
       "dependencies": [
         "489E3EFAEB48E4D1"
       ],
-      "x": 5.0,
+      "x": 0.0,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -244,7 +244,7 @@
       "dependencies": [
         "623407C6E945E6D7"
       ],
-      "x": 5.0,
+      "x": 0.0,
       "y": 7.5,
       "shape": "hexagon",
       "size": 1.3,
@@ -281,7 +281,7 @@
       "dependencies": [
         "489E3EFAEB48E4D1"
       ],
-      "x": 7.5,
+      "x": 2.5,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -318,7 +318,7 @@
       "dependencies": [
         "006446801018CD93"
       ],
-      "x": 7.5,
+      "x": 2.5,
       "y": 7.5,
       "shape": "hexagon",
       "size": 1.3,
@@ -354,7 +354,7 @@
       "dependencies": [
         "489E3EFAEB48E4D1"
       ],
-      "x": 10.0,
+      "x": 5.0,
       "y": 5.0,
       "shape": "rsquare",
       "size": 1

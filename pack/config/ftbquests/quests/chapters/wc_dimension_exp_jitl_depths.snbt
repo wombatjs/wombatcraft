@@ -2,9 +2,9 @@
   "filename": "wc_dimension_exp_jitl_depths",
   "id": "5900C714E4581DBE",
   "title": "Journey: The Depths",
-  "icon": "minecraft:compass",
+  "icon": "jitl:depths_portal_frame",
   "group": "3E91144EB73CBA91",
-  "order_index": 40,
+  "order_index": 38,
   "default_quest_shape": "circle",
   "quests": [
     {
@@ -24,7 +24,7 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 5.0,
+      "x": 0.0,
       "y": 0.0,
       "shape": "circle",
       "size": 1,
@@ -60,7 +60,7 @@
       "dependencies": [
         "02DEA990D4663A68"
       ],
-      "x": 5.0,
+      "x": 0.0,
       "y": 2.5,
       "shape": "diamond",
       "size": 1.3,
@@ -97,7 +97,7 @@
       "dependencies": [
         "38BC452A8143A26E"
       ],
-      "x": 0.0,
+      "x": -5.0,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -134,7 +134,7 @@
       "dependencies": [
         "6C87796A9BBD736C"
       ],
-      "x": 0.0,
+      "x": -2.5,
       "y": 7.5,
       "shape": "circle",
       "size": 1,
@@ -170,7 +170,7 @@
       "dependencies": [
         "38BC452A8143A26E"
       ],
-      "x": 2.5,
+      "x": -2.5,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -207,7 +207,7 @@
       "dependencies": [
         "38BC452A8143A26E"
       ],
-      "x": 5.0,
+      "x": 0.0,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -244,7 +244,7 @@
       "dependencies": [
         "6101E683589067D4"
       ],
-      "x": 5.0,
+      "x": 0.0,
       "y": 7.5,
       "shape": "hexagon",
       "size": 1.3,
@@ -281,7 +281,7 @@
       "dependencies": [
         "38BC452A8143A26E"
       ],
-      "x": 7.5,
+      "x": 2.5,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -318,7 +318,7 @@
       "dependencies": [
         "5D588607205D4CD6"
       ],
-      "x": 7.5,
+      "x": 2.5,
       "y": 7.5,
       "shape": "hexagon",
       "size": 1.3,
@@ -354,7 +354,7 @@
       "dependencies": [
         "38BC452A8143A26E"
       ],
-      "x": 10.0,
+      "x": 5.0,
       "y": 5.0,
       "shape": "rsquare",
       "size": 1

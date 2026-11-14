@@ -2,9 +2,9 @@
   "filename": "wc_dimension_exp_jitl_frozen",
   "id": "23443871139D4C01",
   "title": "Journey: Frozen Lands",
-  "icon": "minecraft:compass",
+  "icon": "jitl:frozen_portal_frame",
   "group": "3E91144EB73CBA91",
-  "order_index": 38,
+  "order_index": 36,
   "default_quest_shape": "circle",
   "quests": [
     {
@@ -24,7 +24,7 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 3.75,
+      "x": 0.0,
       "y": 0.0,
       "shape": "circle",
       "size": 1,
@@ -60,7 +60,7 @@
       "dependencies": [
         "6A1034DFB7E5A1A9"
       ],
-      "x": 3.75,
+      "x": 0.0,
       "y": 2.5,
       "shape": "diamond",
       "size": 1.3,
@@ -97,7 +97,7 @@
       "dependencies": [
         "75226547DA8A892F"
       ],
-      "x": 0.0,
+      "x": -3.75,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -170,7 +170,7 @@
       "dependencies": [
         "75226547DA8A892F"
       ],
-      "x": 2.5,
+      "x": -1.25,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -207,7 +207,7 @@
       "dependencies": [
         "75226547DA8A892F"
       ],
-      "x": 5.0,
+      "x": 1.25,
       "y": 5.0,
       "shape": "hexagon",
       "size": 1.3,
@@ -243,7 +243,7 @@
       "dependencies": [
         "75226547DA8A892F"
       ],
-      "x": 7.5,
+      "x": 3.75,
       "y": 5.0,
       "shape": "rsquare",
       "size": 1

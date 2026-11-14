@@ -2,9 +2,9 @@
   "filename": "wc_dimension_exp_official_divinerpg_vethea",
   "id": "1B5F17530E6D78A8",
   "title": "Divine Realms: Vethea",
-  "icon": "minecraft:compass",
+  "icon": "divinerpg:hyrewood_log",
   "group": "3E91144EB73CBA91",
-  "order_index": 27,
+  "order_index": 25,
   "default_quest_shape": "circle",
   "quests": [
     {
@@ -25,7 +25,7 @@
       "dependencies": [
         "69F58DC66EE19DE7"
       ],
-      "x": 0.0,
+      "x": -6.25,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -61,7 +61,7 @@
       "dependencies": [
         "69F58DC66EE19DE7"
       ],
-      "x": 2.5,
+      "x": -3.75,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -97,7 +97,7 @@
       "dependencies": [
         "703AF6FB434D6F6A"
       ],
-      "x": 7.5,
+      "x": 0.0,
       "y": 17.5,
       "shape": "hexagon",
       "size": 1.3,
@@ -133,7 +133,7 @@
       "dependencies": [
         "2825F1513866D099"
       ],
-      "x": 7.5,
+      "x": 0.0,
       "y": 2.5,
       "shape": "circle",
       "size": 1,
@@ -155,7 +155,7 @@
       "id": "413A7ECED46735E5",
       "title": "Getting Out of Hand",
       "description": [
-        "Follow this expedition milestone in the advancement journal, then return to claim your supplies."
+        "Defeat Quadro during the Vethea campaign and recover its spoils."
       ],
       "icon": "divinerpg:quadrotic_lump",
       "tasks": [
@@ -169,7 +169,7 @@
       "dependencies": [
         "69F58DC66EE19DE7"
       ],
-      "x": 6.25,
+      "x": -1.25,
       "y": 5.0,
       "shape": "hexagon",
       "size": 1.3,
@@ -205,7 +205,7 @@
       "dependencies": [
         "413A7ECED46735E5"
       ],
-      "x": 6.25,
+      "x": 1.25,
       "y": 7.5,
       "shape": "hexagon",
       "size": 1.3,
@@ -241,7 +241,7 @@
       "dependencies": [
         "69F58DC66EE19DE7"
       ],
-      "x": 10.0,
+      "x": 1.25,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -277,7 +277,7 @@
       "dependencies": [
         "69F58DC66EE19DE7"
       ],
-      "x": 12.5,
+      "x": 3.75,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -313,7 +313,7 @@
       "dependencies": [
         "344D074581E2AD5A"
       ],
-      "x": 7.5,
+      "x": 0.0,
       "y": 15.0,
       "shape": "hexagon",
       "size": 1.3,
@@ -349,7 +349,7 @@
       "dependencies": [
         "0DD1C1F3F8D06605"
       ],
-      "x": 5.0,
+      "x": -1.25,
       "y": 10.0,
       "shape": "hexagon",
       "size": 1.3,
@@ -383,7 +383,7 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 7.5,
+      "x": -1.25,
       "y": 0.0,
       "shape": "circle",
       "size": 1,
@@ -419,7 +419,7 @@
       "dependencies": [
         "69F58DC66EE19DE7"
       ],
-      "x": 15.0,
+      "x": 6.25,
       "y": 5.0,
       "shape": "hexagon",
       "size": 1.3,
@@ -455,7 +455,7 @@
       "dependencies": [
         "0DD1C1F3F8D06605"
       ],
-      "x": 7.5,
+      "x": 1.25,
       "y": 10.0,
       "shape": "hexagon",
       "size": 1.3,
@@ -491,7 +491,7 @@
       "dependencies": [
         "34E4CE672C91CA4B"
       ],
-      "x": 2.5,
+      "x": -1.25,
       "y": 7.5,
       "shape": "circle",
       "size": 1,
@@ -513,7 +513,7 @@
       "id": "344D074581E2AD5A",
       "title": "Unlimited Power",
       "description": [
-        "Follow this expedition milestone in the advancement journal, then return to claim your supplies."
+        "Defeat Wreck in Vethea with equipment forged along the dream-world route."
       ],
       "icon": "divinerpg:arksiane_lump",
       "tasks": [
@@ -527,7 +527,7 @@
       "dependencies": [
         "779C88FCC565E226"
       ],
-      "x": 7.5,
+      "x": 0.0,
       "y": 12.5,
       "shape": "hexagon",
       "size": 1.3,
@@ -561,8 +561,8 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 0.0,
-      "y": 22.5,
+      "x": 1.25,
+      "y": 0.0,
       "shape": "diamond",
       "size": 1.3,
       "rewards": [

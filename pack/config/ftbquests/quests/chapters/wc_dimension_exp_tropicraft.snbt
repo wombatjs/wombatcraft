@@ -2,9 +2,9 @@
   "filename": "wc_dimension_exp_tropicraft",
   "id": "71DB92942EDC1173",
   "title": "Tropicraft",
-  "icon": "minecraft:compass",
+  "icon": "tropicraft:bamboo_mug",
   "group": "3E91144EB73CBA91",
-  "order_index": 46,
+  "order_index": 44,
   "default_quest_shape": "circle",
   "quests": [
     {
@@ -24,7 +24,7 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 10.0,
+      "x": -1.25,
       "y": 0.0,
       "shape": "circle",
       "size": 1,
@@ -61,7 +61,7 @@
       "dependencies": [
         "6E9A050C512143A7"
       ],
-      "x": 10.0,
+      "x": 0.0,
       "y": 2.5,
       "shape": "circle",
       "size": 1,
@@ -98,7 +98,7 @@
       "dependencies": [
         "5F542F1CB56F4C9C"
       ],
-      "x": 10.0,
+      "x": 0.0,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -134,7 +134,7 @@
       "dependencies": [
         "32D5021BA0491441"
       ],
-      "x": 10.0,
+      "x": 0.0,
       "y": 7.5,
       "shape": "diamond",
       "size": 1.3,
@@ -171,7 +171,7 @@
       "dependencies": [
         "4E10B4B886209695"
       ],
-      "x": 1.25,
+      "x": -8.75,
       "y": 10.0,
       "shape": "circle",
       "size": 1,
@@ -208,7 +208,7 @@
       "dependencies": [
         "27037A06254F9DE4"
       ],
-      "x": 1.25,
+      "x": -3.75,
       "y": 12.5,
       "shape": "circle",
       "size": 1,
@@ -245,7 +245,7 @@
       "dependencies": [
         "0DA5266A11A85E43"
       ],
-      "x": 1.25,
+      "x": -3.75,
       "y": 15.0,
       "shape": "circle",
       "size": 1,
@@ -282,7 +282,7 @@
       "dependencies": [
         "34AD0D9C62C47CCC"
       ],
-      "x": 0.0,
+      "x": -3.75,
       "y": 17.5,
       "shape": "circle",
       "size": 1,
@@ -319,7 +319,7 @@
       "dependencies": [
         "4E10B4B886209695"
       ],
-      "x": 5.0,
+      "x": -6.25,
       "y": 10.0,
       "shape": "circle",
       "size": 1,
@@ -356,7 +356,7 @@
       "dependencies": [
         "07F0CBEA36FB3B10"
       ],
-      "x": 5.0,
+      "x": -1.25,
       "y": 12.5,
       "shape": "circle",
       "size": 1,
@@ -393,7 +393,7 @@
       "dependencies": [
         "3F6BC50ABB0DDD65"
       ],
-      "x": 5.0,
+      "x": -1.25,
       "y": 15.0,
       "shape": "circle",
       "size": 1,
@@ -430,7 +430,7 @@
       "dependencies": [
         "7D4F3107BC696C22"
       ],
-      "x": 5.0,
+      "x": 1.25,
       "y": 17.5,
       "shape": "circle",
       "size": 1,
@@ -467,7 +467,7 @@
       "dependencies": [
         "6F6B1727D6136482"
       ],
-      "x": 5.0,
+      "x": 0.0,
       "y": 20.0,
       "shape": "circle",
       "size": 1,
@@ -504,7 +504,7 @@
       "dependencies": [
         "4E10B4B886209695"
       ],
-      "x": 7.5,
+      "x": -3.75,
       "y": 10.0,
       "shape": "circle",
       "size": 1,
@@ -541,7 +541,7 @@
       "dependencies": [
         "4D79A40E16E0758D"
       ],
-      "x": 7.5,
+      "x": 1.25,
       "y": 12.5,
       "shape": "circle",
       "size": 1,
@@ -578,7 +578,7 @@
       "dependencies": [
         "48D1B834260B1786"
       ],
-      "x": 7.5,
+      "x": 1.25,
       "y": 15.0,
       "shape": "circle",
       "size": 1,
@@ -615,7 +615,7 @@
       "dependencies": [
         "0D91705795AEA530"
       ],
-      "x": 7.5,
+      "x": 3.75,
       "y": 17.5,
       "shape": "circle",
       "size": 1,
@@ -652,7 +652,7 @@
       "dependencies": [
         "4E10B4B886209695"
       ],
-      "x": 10.0,
+      "x": -1.25,
       "y": 10.0,
       "shape": "circle",
       "size": 1,
@@ -689,7 +689,7 @@
       "dependencies": [
         "2229B3E9470F7160"
       ],
-      "x": 10.0,
+      "x": 3.75,
       "y": 12.5,
       "shape": "circle",
       "size": 1,
@@ -726,7 +726,7 @@
       "dependencies": [
         "1255B0AAC8B3BC06"
       ],
-      "x": 10.0,
+      "x": 3.75,
       "y": 15.0,
       "shape": "circle",
       "size": 1,
@@ -762,7 +762,7 @@
       "dependencies": [
         "4E10B4B886209695"
       ],
-      "x": 12.5,
+      "x": 1.25,
       "y": 10.0,
       "shape": "circle",
       "size": 1,
@@ -798,7 +798,7 @@
       "dependencies": [
         "4E10B4B886209695"
       ],
-      "x": 15.0,
+      "x": 3.75,
       "y": 10.0,
       "shape": "circle",
       "size": 1,
@@ -834,7 +834,7 @@
       "dependencies": [
         "4E10B4B886209695"
       ],
-      "x": 17.5,
+      "x": 6.25,
       "y": 10.0,
       "shape": "circle",
       "size": 1,
@@ -870,7 +870,7 @@
       "dependencies": [
         "4E10B4B886209695"
       ],
-      "x": 20.0,
+      "x": 8.75,
       "y": 10.0,
       "shape": "circle",
       "size": 1,
@@ -906,7 +906,7 @@
       "dependencies": [
         "34AD0D9C62C47CCC"
       ],
-      "x": 2.5,
+      "x": -1.25,
       "y": 17.5,
       "shape": "rsquare",
       "size": 1
@@ -927,8 +927,8 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 0.0,
-      "y": 25.0,
+      "x": 1.25,
+      "y": 0.0,
       "shape": "rsquare",
       "size": 1
     }

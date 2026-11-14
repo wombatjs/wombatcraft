@@ -2,9 +2,9 @@
   "filename": "wc_dimension_exp_call_from_the_depths",
   "id": "7F0E4F7E1AEF33CA",
   "title": "Call from the Depths",
-  "icon": "minecraft:compass",
+  "icon": "callfromthedepth_:soulofagony",
   "group": "3E91144EB73CBA91",
-  "order_index": 33,
+  "order_index": 31,
   "default_quest_shape": "circle",
   "quests": [
     {
@@ -25,8 +25,8 @@
       "dependencies": [
         "676B386D048551C2"
       ],
-      "x": 20.0,
-      "y": 7.5,
+      "x": 8.75,
+      "y": 10.0,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -61,7 +61,7 @@
       "dependencies": [
         "1F9A54BE721721A1"
       ],
-      "x": 0.0,
+      "x": -3.75,
       "y": 2.5,
       "shape": "hexagon",
       "size": 1.3,
@@ -97,8 +97,8 @@
       "dependencies": [
         "7CDC89DFC4DC7F7D"
       ],
-      "x": 40.0,
-      "y": 5.0,
+      "x": 0.0,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -133,8 +133,8 @@
       "dependencies": [
         "7C518F2822B8A6A1"
       ],
-      "x": 10.0,
-      "y": 7.5,
+      "x": -1.25,
+      "y": 10.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -169,7 +169,7 @@
       "dependencies": [
         "7F7CC27BCCDC8EAD"
       ],
-      "x": 5.0,
+      "x": -8.75,
       "y": 5.0,
       "shape": "hexagon",
       "size": 1.3,
@@ -205,8 +205,8 @@
       "dependencies": [
         "676B386D048551C2"
       ],
-      "x": 22.5,
-      "y": 7.5,
+      "x": -5.0,
+      "y": 12.5,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -241,7 +241,7 @@
       "dependencies": [
         "7F7CC27BCCDC8EAD"
       ],
-      "x": 11.25,
+      "x": -6.25,
       "y": 5.0,
       "shape": "hexagon",
       "size": 1.3,
@@ -277,7 +277,7 @@
       "dependencies": [
         "1F9A54BE721721A1"
       ],
-      "x": 20.0,
+      "x": -1.25,
       "y": 2.5,
       "shape": "circle",
       "size": 1,
@@ -313,7 +313,7 @@
       "dependencies": [
         "7F7CC27BCCDC8EAD"
       ],
-      "x": 15.0,
+      "x": -3.75,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -349,8 +349,8 @@
       "dependencies": [
         "4525F1F671D53FA4"
       ],
-      "x": 35.0,
-      "y": 7.5,
+      "x": 5.0,
+      "y": 12.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -385,8 +385,8 @@
       "dependencies": [
         "6188E657E5E05BE5"
       ],
-      "x": 2.5,
-      "y": 7.5,
+      "x": -8.75,
+      "y": 10.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -421,7 +421,7 @@
       "dependencies": [
         "7F7CC27BCCDC8EAD"
       ],
-      "x": 17.5,
+      "x": -1.25,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -457,8 +457,8 @@
       "dependencies": [
         "381E0150D50DD7DB"
       ],
-      "x": 12.5,
-      "y": 10.0,
+      "x": 0.0,
+      "y": 15.0,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -493,7 +493,7 @@
       "dependencies": [
         "1F9A54BE721721A1"
       ],
-      "x": 41.25,
+      "x": 1.25,
       "y": 2.5,
       "shape": "circle",
       "size": 1,
@@ -529,8 +529,8 @@
       "dependencies": [
         "7CDC89DFC4DC7F7D"
       ],
-      "x": 42.5,
-      "y": 5.0,
+      "x": 2.5,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -565,7 +565,7 @@
       "dependencies": [
         "1F9A54BE721721A1"
       ],
-      "x": 45.0,
+      "x": 3.75,
       "y": 2.5,
       "shape": "circle",
       "size": 1,
@@ -601,7 +601,7 @@
       "dependencies": [
         "7F7CC27BCCDC8EAD"
       ],
-      "x": 23.75,
+      "x": 1.25,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -637,8 +637,8 @@
       "dependencies": [
         "309790FCCF4654ED"
       ],
-      "x": 30.0,
-      "y": 7.5,
+      "x": 2.5,
+      "y": 12.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -659,7 +659,7 @@
       "id": "309790FCCF4654ED",
       "title": "Ancient stone",
       "description": [
-        "Follow this expedition milestone in the advancement journal, then return to claim your supplies."
+        "Recover a single Marble Gem from the depths to begin the ancient-stone crafting route. Keep one gem in a stack when recording this discovery."
       ],
       "icon": "callfromthedepth_:marble_gem",
       "tasks": [
@@ -673,7 +673,7 @@
       "dependencies": [
         "7F7CC27BCCDC8EAD"
       ],
-      "x": 30.0,
+      "x": 3.75,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -709,8 +709,8 @@
       "dependencies": [
         "7C518F2822B8A6A1"
       ],
-      "x": 12.5,
-      "y": 7.5,
+      "x": 1.25,
+      "y": 10.0,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -743,7 +743,7 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 22.5,
+      "x": -2.5,
       "y": 0.0,
       "shape": "circle",
       "size": 1,
@@ -779,7 +779,7 @@
       "dependencies": [
         "7F7CC27BCCDC8EAD"
       ],
-      "x": 32.5,
+      "x": 6.25,
       "y": 5.0,
       "shape": "hexagon",
       "size": 1.3,
@@ -815,8 +815,8 @@
       "dependencies": [
         "6004BDE905F481D3"
       ],
-      "x": 40.0,
-      "y": 7.5,
+      "x": 6.25,
+      "y": 10.0,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -851,8 +851,8 @@
       "dependencies": [
         "676B386D048551C2"
       ],
-      "x": 25.0,
-      "y": 7.5,
+      "x": -2.5,
+      "y": 12.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -887,8 +887,8 @@
       "dependencies": [
         "676B386D048551C2"
       ],
-      "x": 27.5,
-      "y": 7.5,
+      "x": 0.0,
+      "y": 12.5,
       "shape": "hexagon",
       "size": 1.3,
       "rewards": [
@@ -923,8 +923,8 @@
       "dependencies": [
         "6188E657E5E05BE5"
       ],
-      "x": 5.0,
-      "y": 7.5,
+      "x": -6.25,
+      "y": 10.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -959,7 +959,7 @@
       "dependencies": [
         "7F7CC27BCCDC8EAD"
       ],
-      "x": 35.0,
+      "x": 8.75,
       "y": 5.0,
       "shape": "hexagon",
       "size": 1.3,
@@ -995,8 +995,8 @@
       "dependencies": [
         "7F7CC27BCCDC8EAD"
       ],
-      "x": 37.5,
-      "y": 5.0,
+      "x": -2.5,
+      "y": 7.5,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1031,8 +1031,8 @@
       "dependencies": [
         "6188E657E5E05BE5"
       ],
-      "x": 7.5,
-      "y": 7.5,
+      "x": -3.75,
+      "y": 10.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1067,8 +1067,8 @@
       "dependencies": [
         "2F8C7FB368C9B069"
       ],
-      "x": 15.0,
-      "y": 7.5,
+      "x": 3.75,
+      "y": 10.0,
       "shape": "circle",
       "size": 1,
       "rewards": [
@@ -1102,7 +1102,7 @@
       "optional": true,
       "dependencies": [],
       "x": 0.0,
-      "y": 15.0,
+      "y": 0.0,
       "shape": "rsquare",
       "size": 1
     },
@@ -1122,8 +1122,8 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 5.0,
-      "y": 15.0,
+      "x": 2.5,
+      "y": 0.0,
       "shape": "diamond",
       "size": 1.3,
       "rewards": [

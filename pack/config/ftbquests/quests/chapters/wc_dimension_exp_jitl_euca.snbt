@@ -2,9 +2,9 @@
   "filename": "wc_dimension_exp_jitl_euca",
   "id": "2F9A3210880E3168",
   "title": "Journey: Euca",
-  "icon": "minecraft:compass",
+  "icon": "jitl:euca_portal_frame",
   "group": "3E91144EB73CBA91",
-  "order_index": 39,
+  "order_index": 37,
   "default_quest_shape": "circle",
   "quests": [
     {
@@ -24,7 +24,7 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 5.0,
+      "x": 0.0,
       "y": 0.0,
       "shape": "circle",
       "size": 1,
@@ -60,7 +60,7 @@
       "dependencies": [
         "39E8C23C16636039"
       ],
-      "x": 5.0,
+      "x": 0.0,
       "y": 2.5,
       "shape": "diamond",
       "size": 1.3,
@@ -97,7 +97,7 @@
       "dependencies": [
         "50DEBBDDDC2BBF27"
       ],
-      "x": 0.0,
+      "x": -5.0,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -134,7 +134,7 @@
       "dependencies": [
         "28B9CC0B04AEC9A5"
       ],
-      "x": 0.0,
+      "x": -2.5,
       "y": 7.5,
       "shape": "circle",
       "size": 1,
@@ -170,7 +170,7 @@
       "dependencies": [
         "50DEBBDDDC2BBF27"
       ],
-      "x": 2.5,
+      "x": -2.5,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -207,7 +207,7 @@
       "dependencies": [
         "50DEBBDDDC2BBF27"
       ],
-      "x": 5.0,
+      "x": 0.0,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -244,7 +244,7 @@
       "dependencies": [
         "58C686A9BF75CACD"
       ],
-      "x": 5.0,
+      "x": 0.0,
       "y": 7.5,
       "shape": "hexagon",
       "size": 1.3,
@@ -281,7 +281,7 @@
       "dependencies": [
         "50DEBBDDDC2BBF27"
       ],
-      "x": 7.5,
+      "x": 2.5,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -318,7 +318,7 @@
       "dependencies": [
         "022C7923C73BDD57"
       ],
-      "x": 7.5,
+      "x": 2.5,
       "y": 7.5,
       "shape": "hexagon",
       "size": 1.3,
@@ -354,7 +354,7 @@
       "dependencies": [
         "50DEBBDDDC2BBF27"
       ],
-      "x": 10.0,
+      "x": 5.0,
       "y": 5.0,
       "shape": "rsquare",
       "size": 1

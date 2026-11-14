@@ -2,9 +2,9 @@
   "filename": "wc_dimension_exp_jitl_boil",
   "id": "7AD4EEAD677645EB",
   "title": "Journey: Boiling Point",
-  "icon": "minecraft:compass",
+  "icon": "jitl:boil_portal_frame",
   "group": "3E91144EB73CBA91",
-  "order_index": 37,
+  "order_index": 35,
   "default_quest_shape": "circle",
   "quests": [
     {
@@ -24,7 +24,7 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 2.5,
+      "x": 0.0,
       "y": 0.0,
       "shape": "circle",
       "size": 1,
@@ -60,7 +60,7 @@
       "dependencies": [
         "0FDF4FA7155470DD"
       ],
-      "x": 2.5,
+      "x": 0.0,
       "y": 2.5,
       "shape": "diamond",
       "size": 1.3,
@@ -97,7 +97,7 @@
       "dependencies": [
         "14B30E2DAB04F23F"
       ],
-      "x": 0.0,
+      "x": -2.5,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -170,7 +170,7 @@
       "dependencies": [
         "14B30E2DAB04F23F"
       ],
-      "x": 2.5,
+      "x": 0.0,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -206,7 +206,7 @@
       "dependencies": [
         "14B30E2DAB04F23F"
       ],
-      "x": 5.0,
+      "x": 2.5,
       "y": 5.0,
       "shape": "rsquare",
       "size": 1

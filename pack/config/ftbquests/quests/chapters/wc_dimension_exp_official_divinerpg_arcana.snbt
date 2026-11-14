@@ -2,7 +2,7 @@
   "filename": "wc_dimension_exp_official_divinerpg_arcana",
   "id": "4C64C5958CEBD2F3",
   "title": "Divine Realms: Arcana",
-  "icon": "minecraft:compass",
+  "icon": "divinerpg:weak_arcana_potion",
   "group": "3E91144EB73CBA91",
   "order_index": 21,
   "default_quest_shape": "circle",
@@ -25,7 +25,7 @@
       "dependencies": [
         "23AE11850431A78A"
       ],
-      "x": 0.0,
+      "x": -8.75,
       "y": 2.5,
       "shape": "circle",
       "size": 1,
@@ -47,7 +47,7 @@
       "id": "1EBC26EF8F3E2E01",
       "title": "Dungeon Master",
       "description": [
-        "Follow this expedition milestone in the advancement journal, then return to claim your supplies."
+        "Defeat Dramix in Arcana. Prepare your supplies before entering the dungeon."
       ],
       "icon": "divinerpg:dungeon_tokens",
       "tasks": [
@@ -61,7 +61,7 @@
       "dependencies": [
         "23AE11850431A78A"
       ],
-      "x": 2.5,
+      "x": -6.25,
       "y": 2.5,
       "shape": "hexagon",
       "size": 1.3,
@@ -97,7 +97,7 @@
       "dependencies": [
         "23AE11850431A78A"
       ],
-      "x": 5.0,
+      "x": -3.75,
       "y": 2.5,
       "shape": "hexagon",
       "size": 1.3,
@@ -133,7 +133,7 @@
       "dependencies": [
         "23AE11850431A78A"
       ],
-      "x": 7.5,
+      "x": -1.25,
       "y": 2.5,
       "shape": "circle",
       "size": 1,
@@ -169,7 +169,7 @@
       "dependencies": [
         "23AE11850431A78A"
       ],
-      "x": 10.0,
+      "x": 1.25,
       "y": 2.5,
       "shape": "circle",
       "size": 1,
@@ -205,7 +205,7 @@
       "dependencies": [
         "23AE11850431A78A"
       ],
-      "x": 12.5,
+      "x": 3.75,
       "y": 2.5,
       "shape": "circle",
       "size": 1,
@@ -239,7 +239,7 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 8.75,
+      "x": -2.5,
       "y": 0.0,
       "shape": "circle",
       "size": 1,
@@ -275,7 +275,7 @@
       "dependencies": [
         "23AE11850431A78A"
       ],
-      "x": 15.0,
+      "x": 6.25,
       "y": 2.5,
       "shape": "circle",
       "size": 1,
@@ -311,7 +311,7 @@
       "dependencies": [
         "23AE11850431A78A"
       ],
-      "x": 17.5,
+      "x": 8.75,
       "y": 2.5,
       "shape": "hexagon",
       "size": 1.3,
@@ -346,7 +346,7 @@
       "optional": true,
       "dependencies": [],
       "x": 0.0,
-      "y": 7.5,
+      "y": 0.0,
       "shape": "rsquare",
       "size": 1
     },
@@ -366,8 +366,8 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 5.0,
-      "y": 7.5,
+      "x": 2.5,
+      "y": 0.0,
       "shape": "diamond",
       "size": 1.3,
       "rewards": [

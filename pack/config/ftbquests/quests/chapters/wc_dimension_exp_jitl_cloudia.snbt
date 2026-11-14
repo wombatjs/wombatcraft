@@ -2,9 +2,9 @@
   "filename": "wc_dimension_exp_jitl_cloudia",
   "id": "4A1098452F1D1C58",
   "title": "Journey: Cloudia",
-  "icon": "minecraft:compass",
+  "icon": "jitl:cloudia_portal_frame",
   "group": "3E91144EB73CBA91",
-  "order_index": 43,
+  "order_index": 41,
   "default_quest_shape": "circle",
   "quests": [
     {
@@ -24,7 +24,7 @@
       ],
       "optional": true,
       "dependencies": [],
-      "x": 2.5,
+      "x": 0.0,
       "y": 0.0,
       "shape": "circle",
       "size": 1,
@@ -60,7 +60,7 @@
       "dependencies": [
         "6D9E21CED47AC2B0"
       ],
-      "x": 2.5,
+      "x": 0.0,
       "y": 2.5,
       "shape": "diamond",
       "size": 1.3,
@@ -97,7 +97,7 @@
       "dependencies": [
         "30A4ECE6310B6C2B"
       ],
-      "x": 0.0,
+      "x": -2.5,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -134,7 +134,7 @@
       "dependencies": [
         "1C64BD4CFE607A3E"
       ],
-      "x": 0.0,
+      "x": -1.25,
       "y": 7.5,
       "shape": "circle",
       "size": 1,
@@ -171,7 +171,7 @@
       "dependencies": [
         "30A4ECE6310B6C2B"
       ],
-      "x": 2.5,
+      "x": 0.0,
       "y": 5.0,
       "shape": "circle",
       "size": 1,
@@ -208,7 +208,7 @@
       "dependencies": [
         "2D3BFE8BA1668781"
       ],
-      "x": 2.5,
+      "x": 1.25,
       "y": 7.5,
       "shape": "hexagon",
       "size": 1.3,
@@ -244,7 +244,7 @@
       "dependencies": [
         "30A4ECE6310B6C2B"
       ],
-      "x": 5.0,
+      "x": 2.5,
       "y": 5.0,
       "shape": "rsquare",
       "size": 1
