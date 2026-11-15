@@ -67,7 +67,8 @@ The requested list was compared to the installed lock. Only Akashic Tome and
 JourneyMap were missing and compatible. JourneyMap 5.10.3 is pinned because 6.x
 disables Create's built-in train map. JourneyMap is client-only; FTB Chunks
 remains responsible for claims and its default minimap. JourneyMap's two minimap
-presets start disabled, with its full-screen map on J. Missing new keybinds are
+presets start disabled, with its full-screen map on F6 (J is used by Journey
+Into the Light's stats). Missing new keybinds are
 seeded without replacing existing controls; an occupied custom key stays owned
 by its existing binding. Explored maps and waypoints are not managed release files.
 
@@ -87,6 +88,15 @@ WorldEdit available continuously or enabling it only for building sessions.
 Existing builds and schematics do not require WorldEdit to remain loaded.
 
 ## Verification
+
+The final 5.10.3 client completed a fresh dynamic TARDIS interior entry, survival
+item pickup, and death/respawn back into the overworld without disconnecting.
+Entry retained 20 health and the interior border measured 59,999,968 blocks.
+The test positioned the player at the shell threshold using RCON; it was not
+a manual walking benchmark. A settled 60-second multiplayer capture after this
+cycle averaged 88.67 FPS, with a 46.26 FPS 1% low, a 44.54 ms worst frame, and
+zero frames above 50 ms. This stationary capture does not measure exploration
+or public-network latency. Retained heap after collection was 6,777,496 KiB.
 
 - 26 launcher/update tests passed, including path restrictions, preservation of
   custom controls, repeat updates, and recovery behavior.

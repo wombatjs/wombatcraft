@@ -25,13 +25,15 @@ key_key.lightmanscurrency.open_wallet:key.keyboard.v:SHIFT
 key_key.drawMahoujin:key.keyboard.m:ALT
 key_key.mekanism.legs_mode:key.keyboard.j:ALT
 key_key.ars_elemental.open_pouch:key.keyboard.p:ALT
-key_key.journeymap.map_toggle_alt:key.keyboard.j
+key_key.journeymap.map_toggle_alt:key.keyboard.f6
 key_key.journeymap.create_waypoint:key.keyboard.unknown
 key_key.journeymap.zoom_in:key.keyboard.unknown
 key_key.journeymap.zoom_out:key.keyboard.unknown
 key_key.journeymap.minimap_type:key.keyboard.unknown
 key_key.journeymap.minimap_preset:key.keyboard.unknown
 key_key.journeymap.minimap_toggle_alt:key.keyboard.unknown
+key_key.journeymap.toggle_waypoints:key.keyboard.unknown
+key_key.journeymap.fullscreen_waypoints:key.keyboard.unknown
 guiScale:3
 tutorialStep:none
 maxFps:90
