@@ -112278,7 +112278,7 @@
           ]
         }
       },
-      "client": false
+      "client": true
     },
     {
       "project": {
@@ -117921,6 +117921,1150 @@
         "size": 715330,
         "file_type": null
       }
+    },
+    {
+      "project": {
+        "client_side": "optional",
+        "server_side": "optional",
+        "game_versions": [
+          "1.16.5",
+          "1.18.2",
+          "1.19.2",
+          "1.19.3",
+          "1.19.4",
+          "1.20.1",
+          "1.20.2",
+          "1.20.4",
+          "1.20.6",
+          "1.21.1"
+        ],
+        "environment": [
+          "client_or_server_prefers_both"
+        ],
+        "id": "2eT495vq",
+        "slug": "saturn",
+        "project_type": "mod",
+        "team": "kkfGN3VZ",
+        "organization": null,
+        "title": "Saturn",
+        "description": "A performance mod designed to optimize Minecraft's memory usage.",
+        "body": "### Saturn for Minecraft Forge\n**Saturn** is a performance optimization mod designed to optimize Minecraft's memory usage, It can be installed in either client, server or both.\n**Saturn** aims on optimizing memory usage in a lot of ways, such as fixing in-game memory leaks, reducing GC heap and more, if you want to see all the optimizations added by **Saturn**, press [here](https://github.com/AbdElAziz333/Saturn/wiki/Saturn-Optimizations).\n\n### Modpack Permissions\n\nOf Course, You can include it in your modpack.\n\n### Issues and Feature Requests\n\nPlease use the issue tracker linked at the bottom of the page to report bugs, crashes, and if you want to propose new features or otherwise contribute to the mod, i will gladly accept pull requests, as well!\n\nIf you want to support me, use my code **AbdElAziz333** to get 25% off your first month and enjoy playing with your friends!\n\n[![BisectHosting](https://i.imgur.com/ytD8AVA.png)](https://bisecthosting.com/AbdElAziz333)",
+        "body_url": null,
+        "published": "2022-11-02T05:46:48.474943Z",
+        "updated": "2025-01-30T17:18:06.747923Z",
+        "approved": "2022-11-02T22:39:45.095139Z",
+        "queued": null,
+        "status": "approved",
+        "requested_status": null,
+        "moderator_message": null,
+        "license": {
+          "id": "LGPL-3.0-only",
+          "name": "GNU Lesser General Public License v3.0 only",
+          "url": null
+        },
+        "downloads": 5800922,
+        "followers": 411,
+        "categories": [
+          "optimization"
+        ],
+        "additional_categories": [],
+        "loaders": [
+          "forge",
+          "neoforge"
+        ],
+        "versions": [
+          "n9eNLSEk",
+          "1J2B1Zuu",
+          "1Sxd3Dfx",
+          "vrHGjzxo",
+          "t8sUqMLe",
+          "aRSpYiR7",
+          "LPxDOi8w",
+          "zLfmsKLf",
+          "rH0YBt3K",
+          "GzMJm5um",
+          "JXNyz1Wl",
+          "1QChLfwp",
+          "bLcs8Z7e",
+          "dEvrMNvh",
+          "KJQxrQ3n",
+          "LWJBVlnH",
+          "1xzyttiP",
+          "UJWLNJQn",
+          "wNTr73ad",
+          "4I61BMnf",
+          "77sEBTsM",
+          "xBR7ZHSi",
+          "6oGzB9tY",
+          "PhVgkHZ2",
+          "YbITUhgt",
+          "lyz9Dbhn",
+          "jxFMUwfP",
+          "Gjr8oTTw",
+          "gexWPcDF",
+          "ir0yKJaP",
+          "LAASiLy4",
+          "FKQRS1Zp",
+          "GT9MG5ip",
+          "WiNuI1hm",
+          "zC86dN9S",
+          "4LIvgKPS",
+          "yBB0OtQl",
+          "Vr88cy5P",
+          "fkmmC5hv",
+          "v5bx8X5F",
+          "qYyTACUm",
+          "Qy0SuAGb",
+          "NeSyTWDU",
+          "lGTKnZaj",
+          "tS2CQfsV",
+          "DMMxcfqC",
+          "iyv9qOW4",
+          "4pUIeiDI",
+          "x6rsjDkq",
+          "k6rz9xn2",
+          "nlGrC8bG",
+          "xNIsLaWp",
+          "Yx85DYaG",
+          "HgUSGUf8",
+          "2HM7nHoH",
+          "np1EcSVx",
+          "XWdOuO9Z",
+          "V5lIEjKs"
+        ],
+        "icon_url": "https://cdn.modrinth.com/data/2eT495vq/e031d27b5a54e4a48c014f38407a8cca43f7d6f7_96.webp",
+        "raw_icon_url": "https://cdn.modrinth.com/data/2eT495vq/b358b3941ad98c17fb61e6d3ffeb8685da3840c3.png",
+        "issues_url": null,
+        "source_url": null,
+        "wiki_url": null,
+        "discord_url": null,
+        "donation_urls": [],
+        "gallery": [],
+        "color": 7042683,
+        "thread_id": "2eT495vq",
+        "monetization_status": "monetized"
+      },
+      "version": {
+        "game_versions": [
+          "1.20.1"
+        ],
+        "loaders": [
+          "forge"
+        ],
+        "environment": "client_or_server_prefers_both",
+        "id": "Yx85DYaG",
+        "project_id": "2eT495vq",
+        "author_id": "3AXCrCqA",
+        "featured": false,
+        "name": "Saturn 0.1.3 for MC 1.20.1",
+        "version_number": "mc1.20.1-0.1.3",
+        "changelog": "- This update adds a new config system, which allows you to enable or disable any optimization through a toml file.\n- You can find the config file in config\\saturn-optimizations.toml.\n\nAdditions\n\n- New: Cache ResourceLocation array creation in advancement usages to improve performance.\n- Change: Upgrade SheepMixin#createSheepColor() method visibility from private to public.",
+        "changelog_url": null,
+        "date_published": "2024-02-09T19:06:56.795182Z",
+        "downloads": 3050213,
+        "version_type": "release",
+        "status": "listed",
+        "requested_status": null,
+        "files": [
+          {
+            "id": "88C1bHHB",
+            "hashes": {
+              "sha1": "ad93f99d46714c46aaa6a4409aeca506e9fcac99",
+              "sha512": "8b4b9a69e7b55df8148e83a6d17ef381b9c412d8730d0068974bd48bbdae1a1a43837a5307471bc5dd2b41d3aa821d73c8683a3f480a9d987b2cf0969aa178cc"
+            },
+            "url": "https://cdn.modrinth.com/data/2eT495vq/versions/Yx85DYaG/saturn-mc1.20.1-0.1.3.jar",
+            "filename": "saturn-mc1.20.1-0.1.3.jar",
+            "primary": true,
+            "size": 92319,
+            "file_type": null
+          }
+        ],
+        "dependencies": [
+          {
+            "version_id": null,
+            "project_id": "qa2H4BS9",
+            "file_name": null,
+            "dependency_type": "optional"
+          },
+          {
+            "version_id": null,
+            "project_id": "I2K4u1Q7",
+            "file_name": null,
+            "dependency_type": "optional"
+          }
+        ]
+      },
+      "category": "Performance",
+      "metadata": {
+        "modLoader": "javafml",
+        "loaderVersion": "[47,)",
+        "license": "LGPL-3.0",
+        "issueTrackerURL": "https://github.com/AbdElAziz333/Saturn/issues",
+        "mods": [
+          {
+            "modId": "saturn",
+            "version": "0.1.3",
+            "displayName": "Saturn",
+            "updateJSONURL": "https://github.com/AbdElAziz333/Saturn/raw/mc1.20.1/dev/updates.json",
+            "displayURL": "https://legacy.curseforge.com/minecraft/mc-mods/saturn",
+            "logoFile": "logo.png",
+            "credits": "AbdElAziz",
+            "authors": "AbdElAziz",
+            "description": "A performance optimization mod designed to optimize Minecraft's memory usage."
+          }
+        ],
+        "dependencies": {
+          "saturn": [
+            {
+              "modId": "forge",
+              "mandatory": true,
+              "versionRange": "[47,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "mandatory": true,
+              "versionRange": "[1.20.1,1.21)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            }
+          ]
+        }
+      },
+      "file": {
+        "id": "88C1bHHB",
+        "hashes": {
+          "sha1": "ad93f99d46714c46aaa6a4409aeca506e9fcac99",
+          "sha512": "8b4b9a69e7b55df8148e83a6d17ef381b9c412d8730d0068974bd48bbdae1a1a43837a5307471bc5dd2b41d3aa821d73c8683a3f480a9d987b2cf0969aa178cc"
+        },
+        "url": "https://cdn.modrinth.com/data/2eT495vq/versions/Yx85DYaG/saturn-mc1.20.1-0.1.3.jar",
+        "filename": "saturn-mc1.20.1-0.1.3.jar",
+        "primary": true,
+        "size": 92319,
+        "file_type": null
+      },
+      "client": true,
+      "server": true
+    },
+    {
+      "project": {
+        "client_side": "unsupported",
+        "server_side": "required",
+        "game_versions": [
+          "1.20",
+          "1.20.1",
+          "1.20.2",
+          "1.20.3",
+          "1.20.4",
+          "1.20.5",
+          "1.20.6",
+          "1.21",
+          "1.21.1",
+          "1.21.2",
+          "1.21.3",
+          "1.21.4",
+          "1.21.5",
+          "1.21.6"
+        ],
+        "environment": [
+          "server_only"
+        ],
+        "id": "KuNKN7d2",
+        "slug": "noisium",
+        "project_type": "mod",
+        "team": "F6SbtU9z",
+        "organization": null,
+        "title": "Noisium",
+        "description": "Optimises worldgen performance for a better gameplay experience.",
+        "body": "![Noisium icon](https://github.com/Steveplays28/noisium/raw/24de632923c03864d65568a2cb5ce1e2cee0a304/docs/assets/icon/icon_128x128.png)\n\n# Noisium\n\nOptimises worldgen performance for a better gameplay experience.\n\nNoisium changes some world generation functions that other mods don't touch, to fill in the gaps left by other performance optimisation\nmods.\nMost notably, `NoiseChunkGenerator#populateNoise` is optimised to speed up block state placement when generating new chunks.  \nSetting the block state via abstractions/built-in functions is bypassed. Instead, the block states are set directly in the palette storage,\nthus bypassing calculations Minecraft does that are normally useful when block states are set, but when generating the world only slow it\ndown.  \nThere are also 3 other optimisations, that increase biome population speed, block state sampling speed and chunk unlocking speed (Minecraft\n1.21 and up) during world generation.\n\nNoisium has full 1:1 parity with vanilla Minecraft world generation (world generation without Noisium).\n\nThe performance difference is variable, between a few seconds to a few dozen seconds faster depending on the amount of chunks generated.  \nSee the below Spark profiles for the differences in performance:\n\n- [Vanilla](https://github.com/Steveplays28/noisium/blob/c4e8b51c06b77cfe6ac2e81580945c555aefb496/docs/benchmarks/vanilla_minecraft_1_20_1.sparkprofile)\n- [With Noisium](https://github.com/Steveplays28/noisium/blob/c4e8b51c06b77cfe6ac2e81580945c555aefb496/docs/benchmarks/noisium_minecraft_1_20_1.sparkprofile)\n\n## Dependencies\n\n### Required\n\nNone.\n\n## Compatibility info\n\n### Compatible mods\n\nNoisium should be compatible with most, if not all, of the popular optimisation mods currently on Modrinth/CurseForge for\nMinecraft `1.20.x`, since Noisium aims to fill in the gaps in performance optimisation left by other mods.\nThis includes (but is not limited to) C2ME, Lithium, Nvidium, and Sodium.\n\n- C2ME: every world generation thread runs faster. The biome population multithreading is also done in a much better/more performant way in\n  C2ME, so it's been removed from Noisium since `v1.0.2`. It's suggested to run C2ME alongside Noisium for even better world generation\n  performance.\n- Distant Horizons: Noisium speeds up LOD world generation threads, since LOD generation depends on Minecraft's world generation speed.\n- ReTerraForged: RTF has built-in compatibility with Noisium, to fully utilize the optimisations during RTF world generation.\n\n### Incompatibilities\n\nSee the [issue tracker](https://github.com/Steveplays28/noisium/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Acompatibility) for a list of incompatibilities.\n\n## Download\n\n[![GitHub](https://github.com/intergrav/devins-badges/raw/2dc967fc44dc73850eee42c133a55c8ffc5e30cb/assets/cozy/available/github_vector.svg)](https://github.com/Steveplays28/noisium)\n[![Modrinth](https://github.com/intergrav/devins-badges/raw/2dc967fc44dc73850eee42c133a55c8ffc5e30cb/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/mod/noisium)\n[![CurseForge](https://github.com/intergrav/devins-badges/raw/2dc967fc44dc73850eee42c133a55c8ffc5e30cb/assets/cozy/available/curseforge_vector.svg)](https://www.curseforge.com/minecraft/mc-mods/noisium)\n\n![Fabric](https://github.com/intergrav/devins-badges/raw/2dc967fc44dc73850eee42c133a55c8ffc5e30cb/assets/compact/supported/fabric_vector.svg)\n![Quilt](https://github.com/intergrav/devins-badges/raw/2dc967fc44dc73850eee42c133a55c8ffc5e30cb/assets/compact/supported/quilt_vector.svg)\n![Forge](https://github.com/intergrav/devins-badges/raw/2dc967fc44dc73850eee42c133a55c8ffc5e30cb/assets/compact/supported/forge_vector.svg)\n![NeoForge](https://github.com/Steveplays28/noisium/raw/24de632923c03864d65568a2cb5ce1e2cee0a304/docs/assets/badges/compact/supported/neoforge_vector.svg)\n\nSee the version info in the filename for the supported Minecraft versions.  \nMade for the Fabric, Quilt, Forge, and NeoForge modloaders.  \nServer-side.\n\n## FAQ\n\n- Q: Will you be backporting this mod to lower Minecraft versions?  \n  A: No.\n\n- Q: Does this mod work in multiplayer?  \n  A: Yes, but it'll only improve performance on the server.\n\n- Q: Does only the server need this mod or does the client need it too?  \n  A: Only the server needs this mod (but it works on the client too if you're going to host LAN or play singleplayer).\n\n## Attribution\n\n- Thank you to [Builderb0y](https://modrinth.com/user/Builderb0y) for giving great starting points and helping with issues\n- Thank you to [ishland](https://github.com/ishland) for helping with C2ME compatibility and benchmarking performance\n- Thank you to [Uniter](https://github.com/Uniter343) and [raccoonman2](https://github.com/racoonman2) for benchmarking performance\n\n## License\n\nThis project is licensed under LGPLv3, see [LICENSE](https://github.com/Steveplays28/noisium/blob/1.20-1.20.1/LICENSE).\n",
+        "body_url": null,
+        "published": "2023-10-30T16:01:00.818699Z",
+        "updated": "2025-06-24T21:01:43.862583Z",
+        "approved": "2023-11-01T03:54:07.304317Z",
+        "queued": "2023-10-30T16:14:58.045792Z",
+        "status": "unlisted",
+        "requested_status": "approved",
+        "moderator_message": null,
+        "license": {
+          "id": "LGPL-3.0-only",
+          "name": "GNU Lesser General Public License v3.0 only",
+          "url": null
+        },
+        "downloads": 25206446,
+        "followers": 3292,
+        "categories": [
+          "optimization",
+          "worldgen"
+        ],
+        "additional_categories": [],
+        "loaders": [
+          "fabric",
+          "forge",
+          "neoforge",
+          "quilt"
+        ],
+        "versions": [
+          "qbCZ1ELe",
+          "BcqAoKZi",
+          "7p5BqRHp",
+          "k1JxepR1",
+          "AfjBJbK1",
+          "QW2gKBHw",
+          "lloc2Q9r",
+          "ZgEmwDsG",
+          "gNpsN3Vw",
+          "Lb9x1xj2",
+          "Eie3f6ki",
+          "Wocv5ya7",
+          "rS9OSRtd",
+          "uTdy9g9c",
+          "EuQErqo9",
+          "lT2Jvcwv",
+          "4UzpW73F",
+          "ZXBMeSZ0",
+          "a8Lct5Zz",
+          "W8V2bkLB",
+          "P6U3Rw6d",
+          "yYC221hL",
+          "J0TGYoKa",
+          "XwoottNU",
+          "yiyoSmRX",
+          "LOBsEDwp",
+          "8EcAJbKS",
+          "xwm7o9FD",
+          "RmNpWBtf",
+          "ivLgwUFH",
+          "rjcZ5G3m",
+          "5LXPGdF1",
+          "erSJnRcq",
+          "4sGQgiu2",
+          "Oclohbu0",
+          "gbYUKrDP",
+          "nJBE6tif",
+          "M4c8aGZ4",
+          "rx8Lh6ko",
+          "9NHdQfkN",
+          "5JoGTWve",
+          "sUh67T4Y",
+          "O5zHGVkQ",
+          "V9mMIy0f",
+          "w7CLpegm"
+        ],
+        "icon_url": "https://cdn.modrinth.com/data/KuNKN7d2/7490b4d8e08bde8df44b2a71774edf2fe3176c83_96.webp",
+        "raw_icon_url": "https://cdn.modrinth.com/data/KuNKN7d2/6217fb8bc818c19fdd461a5d4e13ffbbbc95db6b.png",
+        "issues_url": "https://github.com/Steveplays28/noisium/issues",
+        "source_url": "https://github.com/Steveplays28/noisium",
+        "wiki_url": null,
+        "discord_url": "https://discord.gg/KbWxgGg",
+        "donation_urls": [
+          {
+            "id": "ko-fi",
+            "platform": "Ko-fi",
+            "url": "https://ko-fi.com/steveplays"
+          },
+          {
+            "id": "patreon",
+            "platform": "Patreon",
+            "url": "https://patreon.com/Steveplays28"
+          }
+        ],
+        "gallery": [
+          {
+            "url": "https://cdn.modrinth.com/data/KuNKN7d2/images/2797cee340d5b4747345d27d321966a3e58d3e9e_350.webp",
+            "raw_url": "https://cdn.modrinth.com/data/KuNKN7d2/images/6a66dffa28c076711a3e2462951dc1dd443b5344.png",
+            "featured": true,
+            "title": "Banner",
+            "description": "Alt text: Noisium - Minecraft mod that optimises worldgen performance for a better gameplay experience.",
+            "created": "2023-10-30T16:29:09.866304Z",
+            "ordering": 0
+          }
+        ],
+        "color": 7566449,
+        "thread_id": "EauwiWaj",
+        "monetization_status": "monetized"
+      },
+      "version": {
+        "game_versions": [
+          "1.20",
+          "1.20.1"
+        ],
+        "loaders": [
+          "forge",
+          "neoforge"
+        ],
+        "environment": "server_only",
+        "id": "gbYUKrDP",
+        "project_id": "KuNKN7d2",
+        "author_id": "90lgCfkO",
+        "featured": false,
+        "name": "2.3.0 (1.20-1.20.1)",
+        "version_number": "2.3.0+mc1.20-1.20.1",
+        "changelog": "### Added\n\n- Minecraft 1.21.1 compatibility\n\n### Changed\n\n- Marked [Biospherical Expansion](https://www.curseforge.com/minecraft/mc-mods/biospherical-expansion) as incompatible\n    - Fabric\n    - NeoForge (Minecraft 1.21-1.21.1)\n",
+        "changelog_url": null,
+        "date_published": "2024-08-21T17:24:14.967570Z",
+        "downloads": 6623307,
+        "version_type": "release",
+        "status": "listed",
+        "requested_status": null,
+        "files": [
+          {
+            "id": "bveiOxZi",
+            "hashes": {
+              "sha512": "5bc43bc1b748edcd63d074a8bb14d393d986c51e1933e1f38cd7a2dd2fd70dba5a46a6415f46d4a52c68e7e1e9ce101e54376ad04273df958608e2fdb43db502",
+              "sha1": "7da1cdf00c0ae5cad31e17f765f6ea021c8ac808"
+            },
+            "url": "https://cdn.modrinth.com/data/KuNKN7d2/versions/gbYUKrDP/noisium-forge-2.3.0%2Bmc1.20-1.20.1.jar",
+            "filename": "noisium-forge-2.3.0+mc1.20-1.20.1.jar",
+            "primary": true,
+            "size": 218152,
+            "file_type": null
+          },
+          {
+            "id": "e3DQ7Ivb",
+            "hashes": {
+              "sha1": "9a73427eea1c1b1960396bee17b1200eae9a5fae",
+              "sha512": "2d84e854ca905f02063728d2e648b167fe08e49366cc1b562531498ee9ade205a50329b4842d20079b7fb6dce06299e5f156d48f73e688ded96162b54d2ae5fc"
+            },
+            "url": "https://cdn.modrinth.com/data/KuNKN7d2/versions/gbYUKrDP/noisium-forge-2.3.0%2Bmc1.20-1.20.1-sources.jar",
+            "filename": "noisium-forge-2.3.0+mc1.20-1.20.1-sources.jar",
+            "primary": false,
+            "size": 40238,
+            "file_type": null
+          }
+        ],
+        "dependencies": []
+      },
+      "category": "Performance",
+      "metadata": {
+        "modLoader": "javafml",
+        "loaderVersion": ">=47.1.100",
+        "license": "LGPL-3.0",
+        "issueTrackerURL": "https://github.com/Steveplays28/noisium/issues",
+        "mods": [
+          {
+            "modId": "noisium",
+            "version": "2.3.0+mc1.20-1.20.1",
+            "displayName": "Noisium",
+            "authors": "Steveplays28",
+            "description": "Optimises worldgen performance for a better gameplay experience.\n",
+            "logoFile": "assets/noisium/icon.png",
+            "displayURL": "https://github.com/Steveplays28/noisium"
+          }
+        ],
+        "mc-publish": {
+          "loaders": [
+            "forge",
+            "neoforge"
+          ],
+          "curseforge": "930207",
+          "modrinth": "KuNKN7d2"
+        },
+        "dependencies": {
+          "noisium": [
+            {
+              "modId": "minecraft",
+              "mandatory": true,
+              "versionRange": ">=1.20 <=1.20.1",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "forge",
+              "mandatory": true,
+              "versionRange": ">=47.1.100",
+              "ordering": "NONE",
+              "side": "BOTH"
+            }
+          ]
+        }
+      },
+      "file": {
+        "id": "bveiOxZi",
+        "hashes": {
+          "sha1": "7da1cdf00c0ae5cad31e17f765f6ea021c8ac808",
+          "sha512": "5bc43bc1b748edcd63d074a8bb14d393d986c51e1933e1f38cd7a2dd2fd70dba5a46a6415f46d4a52c68e7e1e9ce101e54376ad04273df958608e2fdb43db502"
+        },
+        "url": "https://cdn.modrinth.com/data/KuNKN7d2/versions/gbYUKrDP/noisium-forge-2.3.0%2Bmc1.20-1.20.1.jar",
+        "filename": "noisium-forge-2.3.0+mc1.20-1.20.1.jar",
+        "primary": true,
+        "size": 218152,
+        "file_type": null
+      },
+      "client": true,
+      "server": true
+    },
+    {
+      "project": {
+        "client_side": "required",
+        "server_side": "unsupported",
+        "game_versions": [
+          "1.19.1",
+          "1.19.2",
+          "1.19.3",
+          "1.19.4",
+          "1.20.1",
+          "1.20.2",
+          "1.20.3",
+          "1.20.4",
+          "1.20.5",
+          "1.20.6",
+          "1.21",
+          "1.21.1",
+          "1.21.10",
+          "1.21.11",
+          "1.21.2",
+          "1.21.3",
+          "1.21.4",
+          "1.21.5",
+          "1.21.6",
+          "1.21.7",
+          "1.21.8",
+          "1.21.9",
+          "26.1",
+          "26.1.1",
+          "26.1.2",
+          "26.2",
+          "26.3"
+        ],
+        "environment": [
+          "client_only"
+        ],
+        "id": "g96Z4WVZ",
+        "slug": "badoptimizations",
+        "project_type": "mod",
+        "team": "8syA22fZ",
+        "organization": null,
+        "title": "BadOptimizations",
+        "description": "Optimization mod that focuses on things other than rendering",
+        "body": "  <img src=\"https://www.bisecthosting.com/partners/custom-banners/7714c6cf-b028-488b-a4d3-0ce8e73e777b.webp\">\n<p>\n  \n## BadOptimizations\nA collection of mostly micro optimizations that add up to something bigger!\n\n## What does it do?\nMultiple things:<p>\n\n- **Avoid updating lightmap**<p>\n  Updating lightmap textures are one of the most expensive parts of the client tick. During each tick, the client will do vector math to calculate lightmaps for blocks and the sky, then upload that new texture to the GPU. However, this can be completely avoided and cached if nothing affecting block brightness has changed. This mod will cancel lightmap updates if nothing that changes block brightness (e.g. gamma slider, potion effects, dimension) has changed. \n- **Don't do debug logic if we don't need to**<p>\n  Minecraft has four debug renderers that can be activated with a debug server: bees, game events, game test and villager AI. Even if there's nothing to process, the logic for these debug renderers are still executed. This mod will only execute them if debug is enabled and there is data from the server to process.\n- **Sky color calculation optimizations** (1.21.10 and below)<p>\n  Minecraft uses a cubic color sampler every frame to calculate the current sky color. This function loops 216 times to factor in surrounding biomes, even if all surrounding biomes are identical or have identical sky colors. This mod makes the color sampler only used if you are between biomes with different sky colors, and caches it for each tick. Otherwise, a shorter, simpler and faster sky color calculation is used.\n\n<p>\nThat's a few of them, at least.\nYou can disable any optimization in the config file if you need to.\n</p>\n\n## How much does it help?\nDepends on your system and luck, but on my own PC, an RTX 3060, intel i7 12700 and 4GB of allocated ram on Fabulously Optimized:<p>\nWithout toasts, it goes from *1926-1955 FPS*:<p>\n<img src=\"https://raw.githubusercontent.com/imthosea/images/refs/heads/master/badoptimizations/v1/image1.png\" width=\"400\"><p>\nTo 2008-2023 FPS:<p>\n<img src=\"https://raw.githubusercontent.com/imthosea/images/refs/heads/master/badoptimizations/v1/image2.png\" width=\"400\"><p>\nAnd with toasts, it goes from *1351-1384 FPS*:<p>\n<img src=\"https://raw.githubusercontent.com/imthosea/images/refs/heads/master/badoptimizations/v1/image3.png\" width=\"400\"><p>\nTo *1414-1458 FPS*:<p>\n<img src=\"https://raw.githubusercontent.com/imthosea/images/refs/heads/master/badoptimizations/v1/image4.png\" width=\"400\"><p>\n\n## My mod is incompatible!\nYou can [mark your mod as incompatible](https://github.com/imthosea/BadOptimizations/wiki/Marking-your-mod-as-incompatible-with-a-BadOptimizations-option) with specific BadOptimizations options. If your mod is present, BadOptimizations will automatically disable the specific options you specify.  \nYou can also add [hooks that tell BadOptimizations when the lightmap or sky color](https://github.com/imthosea/BadOptimizations/wiki/Adding-lightmap-skycolor-caching-hooks) needs to be updated instead of adding a hard incompatibility to the caching optimizations.\n\n## Dependencies?\nNone.\n\n*(Also available on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/badoptimizations), if that's your thing.)*",
+        "body_url": null,
+        "published": "2023-12-03T23:38:30.615171Z",
+        "updated": "2026-09-16T00:15:53.999159Z",
+        "approved": "2023-12-04T21:20:58.458128Z",
+        "queued": "2023-12-04T00:26:01.608056Z",
+        "status": "approved",
+        "requested_status": "approved",
+        "moderator_message": null,
+        "license": {
+          "id": "MIT",
+          "name": "MIT License",
+          "url": null
+        },
+        "downloads": 48261251,
+        "followers": 3550,
+        "categories": [
+          "optimization"
+        ],
+        "additional_categories": [],
+        "loaders": [
+          "fabric",
+          "forge",
+          "neoforge"
+        ],
+        "versions": [
+          "4iRxgKYG",
+          "7EtZn21b",
+          "LvWnmLrW",
+          "CMQm449N",
+          "QPNT0tat",
+          "ww747oVi",
+          "R5epQB48",
+          "7mkIryQX",
+          "N83O7mRY",
+          "tPcndzIs",
+          "Rya4Prxg",
+          "P1VV7yAB",
+          "osrW6S8S",
+          "5iiizW8v",
+          "NPtJUzCQ",
+          "xrCxVWjv",
+          "csMggyw8",
+          "pYctvKKH",
+          "ByJJBuGh",
+          "frxUrBuZ",
+          "f80P5Er3",
+          "ajq5p3Cr",
+          "lVUqygYP",
+          "6qzarF6r",
+          "py5wZc1k",
+          "9vTW5SzW",
+          "ouYuE0eo",
+          "RppoOA91",
+          "o0gYJCDi",
+          "x9zMt7t7",
+          "Tyi2q14M",
+          "QFKaP0NG",
+          "PY8WFC19",
+          "YPx40hkR",
+          "WZB4pQ3u",
+          "l5RWBdez",
+          "yK1K2DcH",
+          "pNkHByNm",
+          "tfPcVhXP",
+          "NepFM2XR",
+          "74fRkfKB",
+          "PXrqBQZG",
+          "O6GYJnvX",
+          "vJEBno3y",
+          "84AEMPgv",
+          "DkQi3drk",
+          "KWwNfrjN",
+          "wlqlZ5hE",
+          "37M8Rd4S",
+          "KeVurIPw",
+          "8JJc3kIM",
+          "r88RTaW8",
+          "Go4FoZir",
+          "dAVlOLS6",
+          "cpFHy43X",
+          "bOuSwVyc",
+          "aKkny43Y",
+          "918aozAU",
+          "zLWPzGCh",
+          "Gsub2Uuo",
+          "ydYsXrGL",
+          "eT6Jsaq5",
+          "zZYSuJ5b",
+          "bpmrr094",
+          "lqrDW4fz",
+          "V222vBVT",
+          "HPufvV6Z",
+          "2Aygc6Sx",
+          "faqoQF36",
+          "QitPsCFU",
+          "fPU2qEYo",
+          "Yvu9MYgX",
+          "YIdCgnz1",
+          "LJwG3VNe",
+          "eCxTPnVB",
+          "iULB5JCQ",
+          "FPQdPmAW",
+          "xhGlhCut",
+          "GydKiUd0",
+          "iXgx6zFq",
+          "j3hOwXG0",
+          "XYBqWKD2",
+          "DMQXCaTe",
+          "fujufj4Z",
+          "TVrB2P5x",
+          "htKsmrXC",
+          "DchDm00R",
+          "M0bM4C3I",
+          "ZQ1iIvpY",
+          "Q22v77Qo",
+          "gTsJRSdq",
+          "EPTfY6pQ",
+          "5kAwHDZz",
+          "W7g1s4Wx",
+          "NpcE98zy",
+          "pXtg3eQL",
+          "flRkZbyf",
+          "6Js5HJ5e",
+          "oZXISPou",
+          "UPUMYxWa",
+          "dVguFZN8",
+          "VLDb95oX",
+          "RPOjbIwJ",
+          "irRJRJN4",
+          "eMYWZlv2",
+          "AQrpXs3f",
+          "PGSmdolb",
+          "Zkvk6pH6",
+          "BKvbnpID",
+          "tQ1FNXaK",
+          "y7VPysv2",
+          "XVLS5Akn",
+          "GY6x0X6n",
+          "2uHHfSae",
+          "eH8pNf70",
+          "x2ze97am",
+          "6uGJM3JZ",
+          "NaycCZfQ",
+          "7JVYse6h",
+          "ILSbBvuM",
+          "hOzwELEY",
+          "PX1KGjg4",
+          "5MUW1VMO",
+          "swjXZyGP",
+          "oGXA8nrb",
+          "DIugITgU",
+          "2j7ZpIyw",
+          "bhv2XUvN",
+          "S2qthD5S",
+          "KsC2V6FQ",
+          "9s4ZpGFq",
+          "dOFYYhIv",
+          "Q3Dusz2j",
+          "MZd0Pqsf",
+          "gjIvugXc",
+          "IDYkXahy",
+          "JmPs4Wie",
+          "Sp0ctspw",
+          "i4wDPCKM"
+        ],
+        "icon_url": null,
+        "raw_icon_url": null,
+        "issues_url": "https://github.com/imthosea/BadOptimizations/issues",
+        "source_url": "https://github.com/imthosea/BadOptimizations/",
+        "wiki_url": "https://github.com/imthosea/BadOptimizations/wiki",
+        "discord_url": null,
+        "donation_urls": [],
+        "gallery": [],
+        "color": null,
+        "thread_id": "Pu25MPpk",
+        "monetization_status": "monetized"
+      },
+      "version": {
+        "game_versions": [
+          "1.20.1"
+        ],
+        "loaders": [
+          "fabric",
+          "forge"
+        ],
+        "environment": "client_only",
+        "id": "DIugITgU",
+        "project_id": "g96Z4WVZ",
+        "author_id": "MtdsrsRk",
+        "featured": true,
+        "name": "2.4.1 (1.20.1)",
+        "version_number": "2.4.1",
+        "changelog": "Version 2.4.1:\n - Migrate to Mojang Mappings\n - Change some comments in the config file\n - Update to 1.21.11\n   - Sky color is now data driven making sky color caching infeasible so it's been removed\n   - Lightmap caching remains but no longer directly uses time as a factor, so lightmap_time_change_needed_for_update no longer has any effect\n   - These changes don't apply to 1.21.10-",
+        "changelog_url": null,
+        "date_published": "2025-12-15T22:43:02.538022Z",
+        "downloads": 4741598,
+        "version_type": "release",
+        "status": "listed",
+        "requested_status": null,
+        "files": [
+          {
+            "id": "CqFjKWmn",
+            "hashes": {
+              "sha512": "5e02d9c5a5bc3dccfccbfac4809cda4eb755c015060063b696e92568e0be3d8354a01f6ac5dae99bd27111b7e20bb680512287119459ad069dcf3e7d17cace0f",
+              "sha1": "304007dcb0fb15ed1a1bc3771736470dafc5be0f"
+            },
+            "url": "https://cdn.modrinth.com/data/g96Z4WVZ/versions/DIugITgU/BadOptimizations-2.4.1-1.20.1.jar",
+            "filename": "BadOptimizations-2.4.1-1.20.1.jar",
+            "primary": true,
+            "size": 460234,
+            "file_type": null
+          }
+        ],
+        "dependencies": []
+      },
+      "category": "Performance",
+      "metadata": {
+        "modLoader": "javafml",
+        "loaderVersion": "[1,)",
+        "license": "MIT",
+        "issueTrackerURL": "https://github.com/imthosea/BadOptimizations/issues",
+        "logoFile": "badoptimizations-icon.png",
+        "logoBlur": false,
+        "mods": [
+          {
+            "modId": "badoptimizations",
+            "version": "2.4.1",
+            "displayName": "BadOptimizations",
+            "authors": "Thosea",
+            "description": "   Optimization mod that focuses on things other than rendering\n   "
+          }
+        ],
+        "dependencies": {
+          "badoptimizations": [
+            {
+              "modId": "minecraft",
+              "mandatory": true,
+              "versionRange": "1.20.1",
+              "ordering": "NONE",
+              "side": "CLIENT"
+            }
+          ]
+        },
+        "mixins": [
+          {
+            "config": "forge-badoptimizations.mixins.json"
+          }
+        ]
+      },
+      "file": {
+        "id": "CqFjKWmn",
+        "hashes": {
+          "sha1": "304007dcb0fb15ed1a1bc3771736470dafc5be0f",
+          "sha512": "5e02d9c5a5bc3dccfccbfac4809cda4eb755c015060063b696e92568e0be3d8354a01f6ac5dae99bd27111b7e20bb680512287119459ad069dcf3e7d17cace0f"
+        },
+        "url": "https://cdn.modrinth.com/data/g96Z4WVZ/versions/DIugITgU/BadOptimizations-2.4.1-1.20.1.jar",
+        "filename": "BadOptimizations-2.4.1-1.20.1.jar",
+        "primary": true,
+        "size": 460234,
+        "file_type": null
+      },
+      "client": true,
+      "server": false
+    },
+    {
+      "project": {
+        "client_side": "optional",
+        "server_side": "optional",
+        "game_versions": [
+          "1.14.4",
+          "1.15",
+          "1.15.1",
+          "1.15.2",
+          "1.16",
+          "1.16.1",
+          "1.16.2",
+          "1.16.3",
+          "1.16.4",
+          "1.16.5",
+          "1.17",
+          "1.17.1",
+          "1.18",
+          "1.18-pre1",
+          "1.18-pre2",
+          "1.18-pre3",
+          "1.18-pre4",
+          "1.18-pre5",
+          "1.18-pre6",
+          "1.18-pre7",
+          "1.18-pre8",
+          "1.18-rc1",
+          "1.18-rc2",
+          "1.18-rc3",
+          "1.18-rc4",
+          "1.18.1",
+          "1.18.1-pre1",
+          "1.18.1-rc1",
+          "1.18.1-rc2",
+          "1.18.1-rc3",
+          "1.18.2",
+          "1.18.2-pre1",
+          "1.18.2-pre2",
+          "1.18.2-pre3",
+          "1.18.2-rc1",
+          "1.19",
+          "1.19.1",
+          "1.19.2",
+          "1.19.3",
+          "1.19.4",
+          "1.20",
+          "1.20.1",
+          "1.20.2",
+          "1.20.3",
+          "1.20.4",
+          "21w37a",
+          "21w38a",
+          "21w39a",
+          "21w40a",
+          "21w41a",
+          "21w42a",
+          "21w43a",
+          "21w44a",
+          "22w03a",
+          "22w05a",
+          "22w06a",
+          "22w07a"
+        ],
+        "environment": [
+          "client_or_server_prefers_both"
+        ],
+        "id": "NRjRiSSD",
+        "slug": "memoryleakfix",
+        "project_type": "mod",
+        "team": "PxfoVTFT",
+        "organization": null,
+        "title": "Memory Leak Fix",
+        "description": "A mod that fixes random memory leaks for both the client and server",
+        "body": "# Memory Leak Fix\n\n### A mod that fixes multiple memory leaks in Minecraft. Both server-side & client-side\n\nFor the best performance & memory usage, I recommend using this mod with:\n\n- [lithium-fabric](https://github.com/CaffeineMC/lithium-fabric) - The best general performance mod\n- [FerriteCore](https://github.com/malte0811/FerriteCore) - Memory usage optimizations \n\n## My other optimizations/fixes\n* [MoreCulling](https://modrinth.com/mod/moreculling) - Changes how blockstate culling is handled to improve performance\n* [Carpet-Fixes](https://modrinth.com/mod/carpet-fixes) - Largest Server-Side bug fixing mod\n* [Blanket](https://modrinth.com/mod/blanket) - Client-side tweaks/fixes\n* [RailOptimization](https://modrinth.com/mod/rail-optimization) - Make powered rails less laggy\n\n## Minecraft 1.20.5+\nAll the memory leaks in minecraft previously fixed by MemoryLeakFix have been fixed. Making this mod obsolete in future versions of the game.\n\n## More Info \n  \nFeel free to contribute to the project!  \nI'm also fine if you use this mod in your modpacks, just make sure to mention it. \n\nHowever I don't allow clients or other projects to merge this mod without permission, if you would like to use this mod in your client or another project please contact me. \n\n---",
+        "body_url": null,
+        "published": "2022-05-25T14:57:06.172838Z",
+        "updated": "2024-01-06T15:23:23.935326Z",
+        "approved": "2022-05-25T14:57:06.172838Z",
+        "queued": null,
+        "status": "approved",
+        "requested_status": null,
+        "moderator_message": null,
+        "license": {
+          "id": "LGPL-2.1-only",
+          "name": "GNU Lesser General Public License v2.1 only",
+          "url": null
+        },
+        "downloads": 38980372,
+        "followers": 5782,
+        "categories": [
+          "optimization"
+        ],
+        "additional_categories": [],
+        "loaders": [
+          "fabric",
+          "forge",
+          "quilt"
+        ],
+        "versions": [
+          "XPnqFCe0",
+          "db1Qa6iF",
+          "NK8mmASH",
+          "uxqIlBiR",
+          "op83jsPA",
+          "bEzJ3d9Y",
+          "y1Kvwhgo",
+          "gPH2ZLuR",
+          "6WxBG7Wn",
+          "tXDxRppV",
+          "RZJVmohY",
+          "zmzNcLjP",
+          "Yw3hrc43",
+          "8vFow3y0",
+          "ju6d51G0",
+          "oZ1QFlkk",
+          "uvitUbpR",
+          "R4CYPhDX",
+          "S6zlvHPT",
+          "tlLtHh1w",
+          "fDYPSGrC",
+          "f12YQRLF",
+          "YtNQP5gX",
+          "UWqVNxls",
+          "xn2d7ltf",
+          "fn7KiVkh",
+          "PtXTwQt6",
+          "OiV4duYN",
+          "9UDEn8ja",
+          "lTJY9iYT",
+          "ES2a9WYG",
+          "gAsQptUE",
+          "nXoHagjH",
+          "FeW7TYVZ",
+          "7Pzm6RM2",
+          "s7Ked9u1",
+          "kQl1KJI6",
+          "kLyFtyv2",
+          "dGlflhb6",
+          "ojDQq9qm",
+          "AK7fR5Ja",
+          "IRQCDoh9",
+          "r62Eyd0k",
+          "MQLUUmbx",
+          "O5eLXvxa",
+          "PPpK82xV",
+          "UA5M7c5Y",
+          "zrOTRVmL",
+          "wgonbjM5",
+          "5eYju5dK",
+          "5xvCCRjJ",
+          "xYL9nIiR",
+          "X5MN9zOr",
+          "3w0IxNtk"
+        ],
+        "icon_url": "https://cdn.modrinth.com/data/NRjRiSSD/a279c19f9c3574339fa90f675aa8a94f8f6cff92_96.webp",
+        "raw_icon_url": "https://cdn.modrinth.com/data/NRjRiSSD/icon.png",
+        "issues_url": "https://github.com/fxmorin/memoryLeakFix/issues",
+        "source_url": "https://github.com/fxmorin/memoryLeakFix",
+        "wiki_url": null,
+        "discord_url": "https://discord.gg/rcTjvxq",
+        "donation_urls": [
+          {
+            "id": "github",
+            "platform": "Github",
+            "url": "https://github.com/sponsors/fxmorin"
+          }
+        ],
+        "gallery": [],
+        "color": 4948563,
+        "thread_id": "NRjRiSSD",
+        "monetization_status": "monetized"
+      },
+      "version": {
+        "game_versions": [
+          "1.17",
+          "1.17.1",
+          "1.18",
+          "1.18.1",
+          "1.18.2",
+          "1.19",
+          "1.19.1",
+          "1.19.2",
+          "1.19.3",
+          "1.19.4",
+          "1.20",
+          "1.20.1",
+          "1.20.2",
+          "1.20.3",
+          "1.20.4"
+        ],
+        "loaders": [
+          "forge"
+        ],
+        "environment": "client_or_server_prefers_both",
+        "id": "3w0IxNtk",
+        "project_id": "NRjRiSSD",
+        "author_id": "PdtUuAh6",
+        "featured": true,
+        "name": "MemoryLeakFix 1.1.5 [forge,1.17+]",
+        "version_number": "v1.1.5",
+        "changelog": "**Changes:**\r\n- Removed the custom payload memory leak fix\r\n\r\n**Update:**\r\nIve been really busy recently. So I don't have much time to maintain my mods, if you want this fix for versions below 1.20.2 I recommend using v1.1.2\r\n\r\nAll useable jars can be found here: https://modrinth.com/mod/memoryleakfix/versions",
+        "changelog_url": null,
+        "date_published": "2024-01-06T15:23:23.935326Z",
+        "downloads": 14082226,
+        "version_type": "release",
+        "status": "listed",
+        "requested_status": null,
+        "files": [
+          {
+            "id": "rJf6CDnS",
+            "hashes": {
+              "sha1": "9f60142dd94631800386a16a4ad70ad9e84cd78a",
+              "sha512": "f4d7b0eb70a605ffb81bebd24fd125d8c0bc7917c3e00f27bee64988836323de5a3d205e89a4a5f8ae75741ca874f62996e7c8e5ed489dc3c1824337e93d263f"
+            },
+            "url": "https://cdn.modrinth.com/data/NRjRiSSD/versions/3w0IxNtk/memoryleakfix-forge-1.17%2B-1.1.5.jar",
+            "filename": "memoryleakfix-forge-1.17+-1.1.5.jar",
+            "primary": true,
+            "size": 227925,
+            "file_type": null
+          },
+          {
+            "id": "YEGvNErU",
+            "hashes": {
+              "sha1": "25b6255d79917e11511404ddde25948d3cf3bde6",
+              "sha512": "f6ca51975f3d9a996cc63c07974f3d11d806a2f8e85e6cfd2b5096ee144ceb5fda60f1ef686350e3fd5da332e3aadfd143ea3e0bc47e211a7851414192d7a12a"
+            },
+            "url": "https://cdn.modrinth.com/data/NRjRiSSD/versions/3w0IxNtk/memoryleakfix-forge-1.17%2B-1.1.5-dev-shadow.jar",
+            "filename": "memoryleakfix-forge-1.17+-1.1.5-dev-shadow.jar",
+            "primary": false,
+            "size": 217538,
+            "file_type": null
+          },
+          {
+            "id": "mIGbQ3gu",
+            "hashes": {
+              "sha1": "aa4e3fd7879b3d34362199244d6e471e76c9b77a",
+              "sha512": "b867f3d9016937dd072c03ed4918095a3cfc5a815573498191cd657bd2813ba92b9019ec022bb8ce6cf82d067489b655873f57866ceac0a27885f5c94fb6be7a"
+            },
+            "url": "https://cdn.modrinth.com/data/NRjRiSSD/versions/3w0IxNtk/memoryleakfix-forge-1.17%2B-1.1.5-sources.jar",
+            "filename": "memoryleakfix-forge-1.17+-1.1.5-sources.jar",
+            "primary": false,
+            "size": 28092,
+            "file_type": null
+          }
+        ],
+        "dependencies": []
+      },
+      "category": "Performance",
+      "metadata": {
+        "modLoader": "javafml",
+        "loaderVersion": "*",
+        "issueTrackerURL": "https://github.com/fxmorin/memoryleakfix/issues",
+        "license": "LGPL-2.1-only",
+        "mods": [
+          {
+            "modId": "memoryleakfix",
+            "version": "1.1.5",
+            "displayName": "Memory Leak Fix",
+            "authors": "FX - PR0CESS",
+            "description": "A mod which fixes multiple memory leaks, both client-side & server-side\n",
+            "logoFile": "icon.png"
+          }
+        ],
+        "dependencies": {
+          "memoryleakfix": [
+            {
+              "modId": "forge",
+              "mandatory": true,
+              "versionRange": "[37,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            },
+            {
+              "modId": "minecraft",
+              "mandatory": true,
+              "versionRange": "[1.17,)",
+              "ordering": "NONE",
+              "side": "BOTH"
+            }
+          ]
+        },
+        "custom": {
+          "mc-publish": {
+            "curseforge": 627566,
+            "modrinth": "NRjRiSSD"
+          }
+        }
+      },
+      "file": {
+        "id": "rJf6CDnS",
+        "hashes": {
+          "sha512": "f4d7b0eb70a605ffb81bebd24fd125d8c0bc7917c3e00f27bee64988836323de5a3d205e89a4a5f8ae75741ca874f62996e7c8e5ed489dc3c1824337e93d263f",
+          "sha1": "9f60142dd94631800386a16a4ad70ad9e84cd78a"
+        },
+        "url": "https://cdn.modrinth.com/data/NRjRiSSD/versions/3w0IxNtk/memoryleakfix-forge-1.17%2B-1.1.5.jar",
+        "filename": "memoryleakfix-forge-1.17+-1.1.5.jar",
+        "primary": true,
+        "size": 227925,
+        "file_type": null
+      },
+      "client": true,
+      "server": true
+    },
+    {
+      "project": {
+        "slug": "radium-re-reforged",
+        "title": "Radium Re-Reforged",
+        "client_side": "optional",
+        "server_side": "optional",
+        "source_url": "https://www.curseforge.com/minecraft/mc-mods/radium-reforged"
+      },
+      "version": {
+        "version_number": "0.15.0",
+        "game_versions": [
+          "1.20.1"
+        ],
+        "loaders": [
+          "forge"
+        ],
+        "dependencies": [],
+        "files": [
+          {
+            "filename": "radium-re-reforged-mc1.20.1-0.15.0-git.626588c.jar",
+            "url": "https://mediafilez.forgecdn.net/files/9434/151/radium-re-reforged-mc1.20.1-0.15.0-git.626588c.jar",
+            "size": 745991,
+            "hashes": {
+              "sha512": "fa3166ada44e3f4c63ae09da3ff9244e760152580d0da02711d31e1c1917e3996bd6abf003bf5c9178a4bd873bbfcaf03ca0055304e972850a3cf8b42af1fe1c"
+            }
+          }
+        ]
+      },
+      "category": "Performance",
+      "metadata": {
+        "modLoader": "javafml",
+        "loaderVersion": "*",
+        "issueTrackerURL": "https://github.com/bigenergy/radium-reforged-patched/issues",
+        "license": "LGPL-3.0-only",
+        "mods": [
+          {
+            "modId": "radium",
+            "version": "0.15.0+git.626588c",
+            "displayName": "Radium Re-Reforged",
+            "logoFile": "icon.png",
+            "description": "A Forge port of mod designed to improve the general performance of Minecraft without breaking things",
+            "credits": "JellySquid, 2No2Name",
+            "authors": "dima_dencep, NanoLive, Big_Energy",
+            "displayURL": "https://www.curseforge.com/minecraft/mc-mods/radium-reforged",
+            "provides": [
+              "lithium"
+            ]
+          }
+        ]
+      },
+      "file": {
+        "filename": "radium-re-reforged-mc1.20.1-0.15.0-git.626588c.jar",
+        "url": "https://mediafilez.forgecdn.net/files/9434/151/radium-re-reforged-mc1.20.1-0.15.0-git.626588c.jar",
+        "size": 745991,
+        "hashes": {
+          "sha512": "fa3166ada44e3f4c63ae09da3ff9244e760152580d0da02711d31e1c1917e3996bd6abf003bf5c9178a4bd873bbfcaf03ca0055304e972850a3cf8b42af1fe1c"
+        }
+      },
+      "client": true,
+      "server": true
     }
   ],
   "skipped": [],

@@ -30,7 +30,7 @@
   "enableAlternateDimensions": true,
   "enableServerPerformanceAdjustment": true,
   "enableDatapackPortalGen": false,
-  "indirectLoadingRadiusCap": 4,
+  "indirectLoadingRadiusCap": 2,
   "regularPortalLengthLimit": 64,
   "scaleLimit": 30,
   "easeCreativePermission": true,

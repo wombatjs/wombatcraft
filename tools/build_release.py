@@ -26,7 +26,10 @@ for f in lock.get('shaderpacks',[]):
 overrides=[]
 generated={}
 client_defaults={'options.txt','config/oculus.properties','config/simple-rpc/simple-rpc.toml','config/simple-rpc/server-entries.toml'}
-client_only=client_defaults | {'config/jeioptimizations.properties','config/modernfix-mixins.properties'}
+client_only=client_defaults | {'config/jeioptimizations.properties','config/modernfix-mixins.properties',
+ 'config/spark/config.json','config/jei/client/default/jei-client.ini',
+ 'config/embeddium-options.json','config/entityculling.json','config/immediatelyfast.json',
+ 'config/badoptimizations.txt'}
 with zipfile.ZipFile(OUT/'overrides.zip','w',zipfile.ZIP_DEFLATED) as z:
  for p in sorted((ROOT/'pack').rglob('*')):
   if not p.is_file():continue

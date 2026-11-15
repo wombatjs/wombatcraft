@@ -6,7 +6,7 @@ modId="wombatcraft_runtime_fix"
 version="1.0.0"
 displayName="Wombatcraft Runtime Compatibility"
 displayTest="IGNORE_ALL_VERSION"
-description="Corrects Aurorian crafting remainders and avoids parallel recipe cache races."
+description="Corrects crafting remainders, recipe cache races, project paths, and title synchronization."
 [[dependencies.wombatcraft_runtime_fix]]
 modId="theaurorian"
 mandatory=true
