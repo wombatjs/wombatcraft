@@ -36,7 +36,7 @@ The exchange buys the following bundles for copper coins:
 | Valuable | Quantity | Copper |
 |---|---:|---:|
 | Diamond | 1 | 24 |
-| Emerald | 1 | 6 |
+| Emerald | 32 | 1 |
 | Gold Ingot | 1 | 4 |
 | Iron Ingot | 4 | 4 |
 | Copper Ingot | 16 | 1 |
@@ -52,3 +52,5 @@ The exchange buys the following bundles for copper coins:
 The server shop removes spent coins. Successful player auctions charge a 5% fee, removed from circulation rather than deposited into a server tax account. There is no listing fee. Players may have ten active auctions, lasting up to seven days. Buyback creates money; shop spending and auction fees are the sinks. These are initial prices, not a claim of immunity to every modded farm or recipe loop.
 
 Valuables prices are deliberately below the cost of directly recoverable materials from the server shop (for example, clocks and iron equipment). Review money generation as automation grows.
+
+Emeralds use a conservative bulk price because discounted villager trades can turn purchased logs, sticks or paper into emeralds. The normal and one-item discounted stick trade cannot return more copper than the server log bundle costs.

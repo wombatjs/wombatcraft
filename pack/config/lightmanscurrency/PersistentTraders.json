@@ -2591,7 +2591,7 @@
           "TradeType": "PURCHASE",
           "SellItem": {
             "ID": "minecraft:emerald",
-            "Count": 1
+            "Count": 32
           },
           "Price": {
             "type": "lightmanscurrency:coins",
@@ -2599,7 +2599,7 @@
             "Value": [
               {
                 "Coin": "lightmanscurrency:coin_copper",
-                "Amount": 6
+                "Amount": 1
               }
             ]
           }
