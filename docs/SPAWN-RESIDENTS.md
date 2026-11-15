@@ -17,11 +17,11 @@ Right-click a resident to open their menu. They are persistent, silent, invulner
 
 ## Market
 
-Bram opens Lightman's Currency's native shared Auction House. Players can browse/bid, create listings and retrieve items or proceeds using its storage tabs. The mod handles escrow, ownership, inventory capacity and payment. Server supplies are a separate persistent creative trader, ID `wombatcraft_supplies`, using the same coin currency and native trade interface.
+Bram opens Lightman's Currency's native shared Auction House. Players can browse/bid, create listings and retrieve items or proceeds using its storage tabs. The mod handles escrow, ownership, inventory capacity and payment. Server supplies use category-specific persistent creative traders with the same coin currency and native trade interface.
 
 The shop has 161 offers across seven categories: Food & Farming (23), Building Materials (27), Decoration & Lighting (33), Tools & Travel (25), Redstone & Utilities (34), Sell Counter (6), and Valuables Exchange (13). Stock includes crops, food, eight wood types, building stone, all sixteen dyes, lighting, iron tools, transport supplies, storage and redstone components. It does not sell diamond/netherite equipment, enchanted equipment, modded machines or endgame rewards.
 
-Prices live in `pack/config/lightmanscurrency/PersistentTraders.json`, with IDs `wombatcraft_food`, `wombatcraft_building`, `wombatcraft_decor`, `wombatcraft_gear`, `wombatcraft_utility`, and `wombatcraft_sell`. Player auctions remain player-priced. Put coins in a wallet or the native trader's coin slots to pay. Closing a trader returns unused loose coins. The sell counter pays 1 copper for 32 oak logs or 64 cobblestone/rotten flesh/sugar cane/bamboo; 64 wheat pays 2 copper. Buy prices exceed buyback prices.
+Prices live in `pack/config/lightmanscurrency/PersistentTraders.json`, with IDs `wombatcraft_food`, `wombatcraft_building`, `wombatcraft_decor`, `wombatcraft_gear`, `wombatcraft_utility`, `wombatcraft_sell`, and `wombatcraft_valuables`. Player auctions remain player-priced. Put coins in a wallet or the native trader's coin slots to pay. Closing a trader returns unused loose coins. The sell counter pays 1 copper for 32 oak logs or 64 cobblestone/rotten flesh/sugar cane/bamboo; 64 wheat pays 2 copper. Buy prices exceed buyback prices.
 
 Back up the persistent-traders file before adding other traders. Do not enable LC Admin Mode for ordinary players. Pricing is deliberately modest; review earnings as automated farms grow.
 

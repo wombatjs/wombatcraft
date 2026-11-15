@@ -87,7 +87,6 @@ function wcOpenMarket(player, kind) {
   const cache = WCTraderCache.TYPE.get(false);
   const trader = cache == null ? null : (kind === 'auctions' ? cache.getAuctionHouse() : cache.getTrader('wombatcraft_' + kind));
   if (trader == null) { player.tell(Text.of('The market is unavailable. Please tell a town administrator.').red()); return; }
-  player.closeMenu();
   trader.openTraderMenu(player);
 }
 function wcMarketMenu(player) {
