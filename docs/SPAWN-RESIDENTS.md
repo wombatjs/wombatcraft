@@ -1,0 +1,54 @@
+# Spawn safe zone and residents
+
+The dedicated `WombatcraftSpawn` FTB server team defines the safe zone (team `2de87e97-dce4-41d0-b02d-c24a395997a1`). Keep the castle and paths inside its claimed chunks. Adding or removing chunks changes the boundary automatically; ordinary player claims are unaffected.
+
+The server guard rejects hostile entity joins (including disk loads), removes hostiles that enter within one second without loot, cancels living damage and knockback inside, and prevents players inside from attacking targets outside. Fire visuals are cleared once per second. FTB retains ownership/build, interaction, PvP, explosion and mob-griefing permissions. Vanilla spawn-protection remains disabled so it cannot conflict with FTB ownership. This does not restore hunger or remove every status effect, and administrative commands are not a security boundary.
+
+## Place residents
+
+Stand on the floor at the desired position and run one command as an operator:
+
+- `/wcnpc place guide` — Mara, Welcome Guide: first steps, homes and claims.
+- `/wcnpc place market` — Bram, Market Steward: player auctions, server supplies and trading help.
+- `/wcnpc place travel` — Pip, Wayfinder: teleport requests, maps and dimension expeditions.
+- `/wcnpc place quests` — Iris, Quest Archivist: progression, Convergence and Trials.
+
+Right-click a resident to open their menu. They are persistent, silent, invulnerable villagers with AI disabled and Carry On pickup blocked. No extra NPC mod is required. `/wcnpc remove` removes only the closest tagged resident within three blocks; placement/removal require operator permission level 2. `/wcnpc menu <role>` opens the corresponding menu without placing another resident.
+
+## Market
+
+Bram opens Lightman's Currency's native shared Auction House. Players can browse/bid, create listings and retrieve items or proceeds using its storage tabs. The mod handles escrow, ownership, inventory capacity and payment. Server supplies are a separate persistent creative trader, ID `wombatcraft_supplies`, using the same coin currency and native trade interface.
+
+The shop has 161 offers across seven categories: Food & Farming (23), Building Materials (27), Decoration & Lighting (33), Tools & Travel (25), Redstone & Utilities (34), Sell Counter (6), and Valuables Exchange (13). Stock includes crops, food, eight wood types, building stone, all sixteen dyes, lighting, iron tools, transport supplies, storage and redstone components. It does not sell diamond/netherite equipment, enchanted equipment, modded machines or endgame rewards.
+
+Prices live in `pack/config/lightmanscurrency/PersistentTraders.json`, with IDs `wombatcraft_food`, `wombatcraft_building`, `wombatcraft_decor`, `wombatcraft_gear`, `wombatcraft_utility`, and `wombatcraft_sell`. Player auctions remain player-priced. Put coins in a wallet or the native trader's coin slots to pay. Closing a trader returns unused loose coins. The sell counter pays 1 copper for 32 oak logs or 64 cobblestone/rotten flesh/sugar cane/bamboo; 64 wheat pays 2 copper. Buy prices exceed buyback prices.
+
+Back up the persistent-traders file before adding other traders. Do not enable LC Admin Mode for ordinary players. Pricing is deliberately modest; review earnings as automated farms grow.
+
+## Performance and deployment
+
+All economy and spawn files are dedicated-server overrides, not singleplayer/client additions. The guard performs one loaded-overworld sweep per second, caches entity type classifications and never loads chunks. Residents have no pathfinding AI. A startup-script change needs a server restart; NPC server-script edits can be reloaded with KubeJS. Back up and retire the old live-only `spawn_claim_mobs.js` when deploying the new guard.
+
+## Valuables and currency sinks
+
+The exchange buys the following bundles for copper coins:
+
+| Valuable | Quantity | Copper |
+|---|---:|---:|
+| Diamond | 1 | 24 |
+| Emerald | 1 | 6 |
+| Gold Ingot | 1 | 4 |
+| Iron Ingot | 4 | 4 |
+| Copper Ingot | 16 | 1 |
+| Lapis Lazuli | 16 | 4 |
+| Amethyst Shard | 16 | 2 |
+| Quartz | 16 | 4 |
+| Nautilus Shell | 1 | 16 |
+| Heart Of The Sea | 1 | 64 |
+| Echo Shard | 1 | 16 |
+| Rabbit Foot | 1 | 8 |
+| Netherite Scrap | 1 | 64 |
+
+The server shop removes spent coins. Successful player auctions charge a 5% fee, removed from circulation rather than deposited into a server tax account. There is no listing fee. Players may have ten active auctions, lasting up to seven days. Buyback creates money; shop spending and auction fees are the sinks. These are initial prices, not a claim of immunity to every modded farm or recipe loop.
+
+Valuables prices are deliberately below the cost of directly recoverable materials from the server shop (for example, clocks and iron equipment). Review money generation as automation grows.

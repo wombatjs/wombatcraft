@@ -1,0 +1,2798 @@
+{
+  "Traders": [
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "wombatcraft_food",
+      "Name": "Bram | Food & Farming",
+      "OwnerName": "Wombatcraft",
+      "Trades": [
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:bread",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:cooked_beef",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:baked_potato",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:carrot",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:potato",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:apple",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:wheat_seeds",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 4
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:beetroot_seeds",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 4
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:melon_seeds",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:pumpkin_seeds",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:sugar_cane",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:bamboo",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:cactus",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:kelp",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:cocoa_beans",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:sweet_berries",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:brown_mushroom",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:red_mushroom",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:bone_meal",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 12
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:water_bucket",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 20
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:milk_bucket",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:hay_block",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:honey_bottle",
+            "Count": 4
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "wombatcraft_building",
+      "Name": "Bram | Building Materials",
+      "OwnerName": "Wombatcraft",
+      "Trades": [
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:cobblestone",
+            "Count": 64
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 4
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:stone",
+            "Count": 64
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:stone_bricks",
+            "Count": 64
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 12
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:dirt",
+            "Count": 64
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 4
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:sand",
+            "Count": 64
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 12
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:gravel",
+            "Count": 64
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 12
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:deepslate",
+            "Count": 64
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:cobbled_deepslate",
+            "Count": 64
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:deepslate_bricks",
+            "Count": 64
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 12
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:andesite",
+            "Count": 64
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:diorite",
+            "Count": 64
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:granite",
+            "Count": 64
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:tuff",
+            "Count": 64
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:calcite",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:clay_ball",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 12
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:bricks",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:terracotta",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:white_concrete",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:moss_block",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 12
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:oak_log",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:spruce_log",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:birch_log",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:jungle_log",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:acacia_log",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:dark_oak_log",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:mangrove_log",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:cherry_log",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "wombatcraft_decor",
+      "Name": "Bram | Decoration & Lighting",
+      "OwnerName": "Wombatcraft",
+      "Trades": [
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:torch",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 4
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:lantern",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:soul_lantern",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:glass",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 12
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:white_wool",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 12
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:white_carpet",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 6
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:chain",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:flower_pot",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:painting",
+            "Count": 4
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:item_frame",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:glow_item_frame",
+            "Count": 4
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:bookshelf",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 32
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:candle",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 12
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:oak_sign",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:oak_hanging_sign",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:scaffolding",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 12
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:ladder",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:white_dye",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:orange_dye",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:magenta_dye",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:light_blue_dye",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:yellow_dye",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:lime_dye",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:pink_dye",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:gray_dye",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:light_gray_dye",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:cyan_dye",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:purple_dye",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:blue_dye",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:brown_dye",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:green_dye",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:red_dye",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:black_dye",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "wombatcraft_gear",
+      "Name": "Bram | Tools & Travel",
+      "OwnerName": "Wombatcraft",
+      "Trades": [
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:iron_pickaxe",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 32
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:iron_axe",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 32
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:iron_shovel",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:iron_hoe",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:iron_sword",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:shield",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:bow",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:arrow",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:fishing_rod",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 12
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:shears",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:flint_and_steel",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:bucket",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:compass",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:clock",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 32
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:map",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:lead",
+            "Count": 4
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:saddle",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 48
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:name_tag",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 48
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:oak_boat",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:oak_chest_boat",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:minecart",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 32
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:rail",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 32
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:powered_rail",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 48
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:white_bed",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:leather_boots",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "wombatcraft_utility",
+      "Name": "Bram | Redstone & Utilities",
+      "OwnerName": "Wombatcraft",
+      "Trades": [
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:redstone",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:redstone_torch",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:repeater",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 32
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:comparator",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 48
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:piston",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 48
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:sticky_piston",
+            "Count": 4
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 48
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:observer",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 48
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:dispenser",
+            "Count": 4
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 32
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:dropper",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:hopper",
+            "Count": 4
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 64
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:lever",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 4
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:stone_button",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 4
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:stone_pressure_plate",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:target",
+            "Count": 4
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:daylight_detector",
+            "Count": 4
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 48
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:redstone_lamp",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 48
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:note_block",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:chest",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:barrel",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:crafting_table",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 2
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:furnace",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 4
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:smoker",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 12
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:blast_furnace",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 32
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:campfire",
+            "Count": 4
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:anvil",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 160
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:grindstone",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:stonecutter",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:smithing_table",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:cartography_table",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 12
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:loom",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 12
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:paper",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:book",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:string",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:leather",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "wombatcraft_sell",
+      "Name": "Bram | Sell Counter",
+      "OwnerName": "Wombatcraft",
+      "Trades": [
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:oak_log",
+            "Count": 32
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 1
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:cobblestone",
+            "Count": 64
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 1
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:wheat",
+            "Count": 64
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 2
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:rotten_flesh",
+            "Count": 64
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 1
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:sugar_cane",
+            "Count": 64
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 1
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:bamboo",
+            "Count": 64
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "wombatcraft_valuables",
+      "Name": "Bram | Valuables Exchange",
+      "OwnerName": "Wombatcraft",
+      "Trades": [
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:diamond",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:emerald",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 6
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:gold_ingot",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 4
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:iron_ingot",
+            "Count": 4
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 4
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:copper_ingot",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 1
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:lapis_lazuli",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 4
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:amethyst_shard",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 2
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:quartz",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 4
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:nautilus_shell",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:heart_of_the_sea",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 64
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:echo_shard",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:rabbit_foot",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:netherite_scrap",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 64
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "Auctions": []
+}

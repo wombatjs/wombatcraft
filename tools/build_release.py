@@ -32,13 +32,14 @@ client_only=client_defaults | {'config/jeioptimizations.properties','config/mode
  'config/spark/config.json','config/jei/client/default/jei-client.ini',
  'config/embeddium-options.json','config/entityculling.json','config/immediatelyfast.json',
  'config/badoptimizations.txt'}
+server_only={'config/lightmanscurrency-server.txt','config/lightmanscurrency/PersistentTraders.json','kubejs/startup_scripts/wombatcraft_spawn_guard.js','kubejs/server_scripts/wombatcraft_spawn_npcs.js'}
 with zipfile.ZipFile(OUT/'overrides.zip','w',zipfile.ZIP_DEFLATED) as z:
  for p in sorted((ROOT/'pack').rglob('*')):
   if not p.is_file():continue
   name=p.relative_to(ROOT/'pack').as_posix()
   if name.startswith('config/simple-rpc/') and not discord_enabled:continue
   data=p.read_bytes();z.writestr(name,data)
-  overrides.append(dict(path=name,sha512=hashlib.sha512(data).hexdigest(),size=len(data),client=not name.startswith(('config/tab/','config/wombatcraft/')),server=not name.startswith(('packmenu/','resourcepacks/','kubejs/assets/','kubejs/client_scripts/')) and name not in client_only,seed_only=name in client_defaults))
+  overrides.append(dict(path=name,sha512=hashlib.sha512(data).hexdigest(),size=len(data),client=name not in server_only and not name.startswith(('config/tab/','config/wombatcraft/')),server=not name.startswith(('packmenu/','resourcepacks/','kubejs/assets/','kubejs/client_scripts/')) and name not in client_only,seed_only=name in client_defaults))
  patch_path='mods/'+PATCH_NAME
  patch=build_portal_patch();z.writestr(patch_path,patch)
  overrides.append(dict(path=patch_path,sha512=hashlib.sha512(patch).hexdigest(),size=len(patch),client=False,server=True,seed_only=False))
