@@ -4,6 +4,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 GROUPS = {
+    "starter": "000BB10F5887BBEC",
+    "technology": "0DCB27D2C77209FB",
     "magic": "065A019E212476CF",
     "exploration": "00AA8F374274B5F3",
     "convergence": "0F095C8E4FA42163",
@@ -12,6 +14,7 @@ GROUPS = {
 
 def add_frontier_chapters(book, uid, registry):
     source = json.loads((ROOT / "quests/frontier_chapters.json").read_text(encoding="utf-8"))
+    source += json.loads((ROOT / "quests/workshop_chapters.json").read_text(encoding="utf-8"))
     for order, chapter in enumerate(source, 60):
         filename = "wc_frontier_" + chapter["key"]
         quests = []

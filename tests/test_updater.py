@@ -14,6 +14,29 @@ class Response(io.BytesIO):
   return self.status
 
 class UpdateTests(unittest.TestCase):
+ def test_new_map_controls_preserve_custom_keys_and_migrated_installations(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   root=Path(tmp);instance=root/'game';stage=root/'stage'
+   instance.mkdir();stage.mkdir()
+   (instance/'.wombatcraft.json').write_text(json.dumps({'managed':[], 'controls_migrated':True}))
+   current=b'renderDistance:8\nkey_custom:key.keyboard.j\nkey_key.journeymap.zoom_in:key.keyboard.f4\n'
+   (instance/'options.txt').write_bytes(current)
+   defaults=b'key_key.journeymap.map_toggle_alt:key.keyboard.j\nkey_key.journeymap.zoom_in:key.keyboard.unknown\n'
+   (stage/'options.txt').write_bytes(defaults)
+   record={'path':'options.txt','seed_only':True,'size':len(defaults),'sha512':updater.digest(stage/'options.txt')}
+   updater.activate({'commit':'new'},[record],stage,instance,root/'transaction')
+   actual=(instance/'options.txt').read_bytes()
+   self.assertEqual(actual,current+b'key_key.journeymap.map_toggle_alt:key.keyboard.unknown\n')
+   updater.activate({'commit':'again'},[record],stage,instance,root/'transaction')
+   self.assertEqual((instance/'options.txt').read_bytes(),actual)
+
+ def test_journeymap_defaults_cannot_manage_exploration_data(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   root=Path(tmp)
+   self.assertEqual(updater.safe_path(root,'journeymap/config/5.10/journeymap.minimap.config'),root/'journeymap/config/5.10/journeymap.minimap.config')
+   for name in ('journeymap/data/mp/server/waypoints/home.json','journeymap/config/5.10/../../../data/world','journeymap/config/5.10/other.config'):
+    with self.assertRaises(ValueError):updater.safe_path(root,name)
+
  def test_download_fails_over_and_verifies_the_same_hash(self):
   with tempfile.TemporaryDirectory() as tmp:
    target=Path(tmp)/'cached'

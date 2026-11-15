@@ -96,6 +96,9 @@ for boot in range(2):
    assert 'Wombatcraft Aurorian dedicated-server packet guard applied' in text,'Aurorian server packet guard did not load'
    assert 'Wombatcraft Aurorian crafting remainder fix applied' in text,'Aurorian crafting fix did not load'
    assert 'Wombatcraft sequential recipe construction applied' in text,'Recipe construction guard did not load'
+   assert 'Wombatcraft JITL idle synchronization applied' in text,'JITL synchronization optimization did not load'
+   for entity in ('EntityAequorea','EntityAyeraco'):
+    assert any('Wombatcraft DivineRPG entity data fixed:' in line and entity in line for line in text.splitlines()),'DivineRPG entity data fix did not load: '+entity
    assert 'PORTAL_POLICY_AUDIT_COMPLETE' in text,'Portal policy or serializer synchronization did not load'
    commands=set((dest/'command-registry.txt').read_text().splitlines())
    required_commands={'home','sethome','spawn','tpa','tpaccept','tpdeny','tab','warp','mute','unmute','ftbranks','ftbchunks','lcadmin','spark','chunky','pp','servercore'}

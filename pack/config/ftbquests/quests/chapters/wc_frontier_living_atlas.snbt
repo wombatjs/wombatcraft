@@ -1,0 +1,367 @@
+{
+  "id": "7D629CAF9EB69894",
+  "filename": "wc_frontier_living_atlas",
+  "title": "A Living Atlas",
+  "group": "00AA8F374274B5F3",
+  "icon": "naturescompass:naturescompass",
+  "order_index": 69,
+  "default_quest_shape": "circle",
+  "autofocus_id": "192E72024163018D",
+  "quests": [
+    {
+      "id": "192E72024163018D",
+      "title": "Beyond the familiar treeline",
+      "icon": "naturescompass:naturescompass",
+      "description": [
+        "Choose a Biomes O’ Plenty landscape you have not explored. Bring tools, food and room for saplings; the journey should leave a living souvenir."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "55350D85F089D405",
+          "type": "item",
+          "item": "naturescompass:naturescompass",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7AC663CF736F8891",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "6284DE1DB07BEDC8",
+      "title": "Among the firs",
+      "icon": "biomesoplenty:fir_sapling",
+      "description": [
+        "Bring home a sapling from your travels. Mark where it was found and grow a specimen where it has enough room."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "192E72024163018D"
+      ],
+      "tasks": [
+        {
+          "id": "68FBFF0CB817A9AE",
+          "type": "item",
+          "item": "biomesoplenty:fir_sapling",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "75D656528F7228F2",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "1F497D0A738BD53F",
+      "title": "Beneath the tall redwoods",
+      "icon": "biomesoplenty:redwood_sapling",
+      "description": [
+        "Bring home a sapling from your travels. Mark where it was found and grow a specimen where it has enough room."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "192E72024163018D"
+      ],
+      "tasks": [
+        {
+          "id": "233879DC00D80326",
+          "type": "item",
+          "item": "biomesoplenty:redwood_sapling",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "25003DC70446A9C6",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "47F4064A41632522",
+      "title": "A purple canopy",
+      "icon": "biomesoplenty:jacaranda_sapling",
+      "description": [
+        "Bring home a sapling from your travels. Mark where it was found and grow a specimen where it has enough room."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "192E72024163018D"
+      ],
+      "tasks": [
+        {
+          "id": "05446114F6E71CE5",
+          "type": "item",
+          "item": "biomesoplenty:jacaranda_sapling",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2FE15B84FBDD26BC",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "051F3085F39C24A6",
+      "title": "A warmer forest",
+      "icon": "biomesoplenty:mahogany_sapling",
+      "description": [
+        "Bring home a sapling from your travels. Mark where it was found and grow a specimen where it has enough room."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "192E72024163018D"
+      ],
+      "tasks": [
+        {
+          "id": "1B105DC09622BD6D",
+          "type": "item",
+          "item": "biomesoplenty:mahogany_sapling",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3F95789554E3B3A8",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "33A37D10A990A7F6",
+      "title": "Where the coast opens",
+      "icon": "biomesoplenty:palm_sapling",
+      "description": [
+        "Bring home a sapling from your travels. Mark where it was found and grow a specimen where it has enough room."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "192E72024163018D"
+      ],
+      "tasks": [
+        {
+          "id": "76CF0658CC72B3EE",
+          "type": "item",
+          "item": "biomesoplenty:palm_sapling",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4D7A37EA6F000171",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "350C30A953844087",
+      "title": "Beside quiet water",
+      "icon": "biomesoplenty:willow_sapling",
+      "description": [
+        "Bring home a sapling from your travels. Mark where it was found and grow a specimen where it has enough room."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "192E72024163018D"
+      ],
+      "tasks": [
+        {
+          "id": "1EE6A79F6F523ADA",
+          "type": "item",
+          "item": "biomesoplenty:willow_sapling",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "367FDA1481496136",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "55F589065ACCC087",
+      "title": "Flowers after sunset",
+      "icon": "biomesoplenty:glowflower",
+      "description": [
+        "Find glowflowers and bring a few back for a night garden. Leave the distant landscape worth revisiting."
+      ],
+      "subtitle": "",
+      "x": 9,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "1F497D0A738BD53F"
+      ],
+      "tasks": [
+        {
+          "id": "02FB7A55A6EE9E3B",
+          "type": "item",
+          "item": "biomesoplenty:glowflower",
+          "count": 3,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19EC1D26CB4B271B",
+          "type": "item",
+          "item": "minecraft:flower_pot",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "68D6FD9C6831AF5E",
+      "title": "Roots beyond the portal",
+      "icon": "biomesoplenty:hellbark_sapling",
+      "description": [
+        "Seek Hellbark in the Nether. Prepare a marked return route before collecting specimens in dangerous terrain."
+      ],
+      "subtitle": "",
+      "x": 9,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "33A37D10A990A7F6"
+      ],
+      "tasks": [
+        {
+          "id": "7EAAF7CE05828705",
+          "type": "item",
+          "item": "biomesoplenty:hellbark_sapling",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E023FC885CAACEA",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "66D4BC2985C8A82D",
+      "title": "A forest in miniature",
+      "icon": "minecraft:oak_sign",
+      "description": [
+        "Plant and label an arboretum with six different Biomes O’ Plenty trees. Add paths and a map of the places where your collection began."
+      ],
+      "subtitle": "",
+      "x": 12,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "6284DE1DB07BEDC8",
+        "1F497D0A738BD53F",
+        "47F4064A41632522",
+        "051F3085F39C24A6",
+        "33A37D10A990A7F6",
+        "350C30A953844087",
+        "55F589065ACCC087",
+        "68D6FD9C6831AF5E"
+      ],
+      "tasks": [
+        {
+          "id": "6260ECB8BA65A21C",
+          "type": "checkmark",
+          "title": "Grow and label six different tree species"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "063CA4857E15AD95",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 4
+        },
+        {
+          "id": "2784B0FD998615A6",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 32
+        },
+        {
+          "id": "1510C9CD5AEBC738",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

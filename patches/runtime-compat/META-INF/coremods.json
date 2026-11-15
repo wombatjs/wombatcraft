@@ -2,5 +2,10 @@
   "wombatcraft_aurorian_sickle": "coremods/sickle.js",
   "wombatcraft_serial_recipes": "coremods/serial_recipes.js",
   "wombatcraft_machine_projects": "coremods/mbd2_projects.js",
-  "wombatcraft_titles_sync": "coremods/titles_sync.js"
+  "wombatcraft_titles_sync": "coremods/titles_sync.js",
+  "wombatcraft_jitl_client_sync": "coremods/jitl_client_sync.js",
+  "wombatcraft_divinerpg_entity_data": "coremods/divinerpg_entity_data.js",
+  "wombatcraft_jei_runtime_cleanup": "coremods/jei_runtime_cleanup.js",
+  "wombatcraft_jitl_idle_sync": "coremods/jitl_idle_sync.js",
+  "wombatcraft_jei_enchantment_previews": "coremods/jei_enchantment_previews.js"
 }

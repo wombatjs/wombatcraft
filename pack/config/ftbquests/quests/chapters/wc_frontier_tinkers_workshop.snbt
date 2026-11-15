@@ -1,0 +1,1205 @@
+{
+  "id": "0C903EB6C85174DC",
+  "filename": "wc_frontier_tinkers_workshop",
+  "title": "The Tinker’s Workshop",
+  "group": "0DCB27D2C77209FB",
+  "icon": "tconstruct:tinkers_anvil",
+  "order_index": 67,
+  "default_quest_shape": "circle",
+  "autofocus_id": "3EDAFE94F1109EBA",
+  "quests": [
+    {
+      "id": "3EDAFE94F1109EBA",
+      "title": "Materials and possibility",
+      "icon": "tconstruct:materials_and_you",
+      "description": [
+        "Read Materials and You before choosing parts. A tool’s head, handle and binding contribute different properties."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "1E27060E910D9D83",
+          "type": "item",
+          "item": "tconstruct:materials_and_you",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "139BD5B8DAAF2796",
+          "type": "item",
+          "item": "minecraft:oak_log",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "5ECF774C4F1D1B3C",
+      "title": "The first pattern",
+      "icon": "tconstruct:pattern",
+      "description": [
+        "Make patterns for your first set of tool parts. Keep a small reserve beside the Part Builder."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "3EDAFE94F1109EBA"
+      ],
+      "tasks": [
+        {
+          "id": "1EFBE8F9AB71F249",
+          "type": "item",
+          "item": "tconstruct:pattern",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17412D85490822D5",
+          "type": "item",
+          "item": "minecraft:stick",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "2A07AE6DE6174BE0",
+      "title": "A bench for shaping",
+      "icon": "tconstruct:part_builder",
+      "description": [
+        "Place a Part Builder and inspect the materials it accepts. Begin with materials you can readily replace."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "5ECF774C4F1D1B3C"
+      ],
+      "tasks": [
+        {
+          "id": "63219CE7648F88B8",
+          "type": "item",
+          "item": "tconstruct:part_builder",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "506914EB45EC2712",
+          "type": "item",
+          "item": "minecraft:cobblestone",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "01965F43B18E7C41",
+      "title": "Fit the pieces together",
+      "icon": "tconstruct:tinker_station",
+      "description": [
+        "Assemble and repair tools at the Tinker Station. Match parts to the tool diagram rather than treating every shape as interchangeable."
+      ],
+      "subtitle": "",
+      "x": 9,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "2A07AE6DE6174BE0"
+      ],
+      "tasks": [
+        {
+          "id": "62608C24B80B69FF",
+          "type": "item",
+          "item": "tconstruct:tinker_station",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13ED67F1B4C8B3C5",
+          "type": "item",
+          "item": "minecraft:flint",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "05F2DAE05F9E2133",
+      "title": "Your first lasting pick",
+      "icon": "tconstruct:pickaxe",
+      "description": [
+        "Build a pickaxe with the materials you have. Repairs and replacement parts will let it grow with the workshop."
+      ],
+      "subtitle": "",
+      "x": 12,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "01965F43B18E7C41"
+      ],
+      "tasks": [
+        {
+          "id": "7A76796F2CFD3E02",
+          "type": "item",
+          "item": "tconstruct:pickaxe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EEF995F8F7D9B83",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "1BF4B61DE3471FD5",
+      "title": "Care for your tools",
+      "icon": "tconstruct:tinkers_chest",
+      "description": [
+        "Keep spare repair materials and unfinished parts beside your station. A prepared workshop wastes less time on broken tools."
+      ],
+      "subtitle": "",
+      "x": 15,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "05F2DAE05F9E2133"
+      ],
+      "tasks": [
+        {
+          "id": "4A15A1DCB136D230",
+          "type": "item",
+          "item": "tconstruct:tinkers_chest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "67B3E2A676750855",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "54B8B9D29FB5725F",
+      "title": "Clay, sand and gravel",
+      "icon": "tconstruct:grout",
+      "description": [
+        "Prepare grout and fire it into seared bricks. Plan the space for casting and fuel before expanding the furnace."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "5ECF774C4F1D1B3C"
+      ],
+      "tasks": [
+        {
+          "id": "0BCF0DAE5297002A",
+          "type": "item",
+          "item": "tconstruct:grout",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A4E22F98D592876",
+          "type": "item",
+          "item": "minecraft:clay_ball",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "0C9E01A08C727D35",
+      "title": "A modest beginning",
+      "icon": "tconstruct:puny_smelting",
+      "description": [
+        "Puny Smelting explains the small melter. Study its fuel and casting arrangements before pouring your first metal."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "54B8B9D29FB5725F"
+      ],
+      "tasks": [
+        {
+          "id": "44EC361852E8B4D5",
+          "type": "item",
+          "item": "tconstruct:puny_smelting",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11603CCE7BD8127E",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "20A4D8806813BB06",
+      "title": "A small pool of metal",
+      "icon": "tconstruct:seared_melter",
+      "description": [
+        "Set up a Seared Melter with a suitable heat source. Begin with a single metal so you can learn casting without unwanted alloys."
+      ],
+      "subtitle": "",
+      "x": 9,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "0C9E01A08C727D35"
+      ],
+      "tasks": [
+        {
+          "id": "73693EEC74581913",
+          "type": "item",
+          "item": "tconstruct:seared_melter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "77CCE0EAB2076351",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "7992FE63756E7728",
+      "title": "Guide the pour",
+      "icon": "tconstruct:seared_faucet",
+      "description": [
+        "A faucet directs molten material into the casting surface below. Leave access to the melter and its fuel supply."
+      ],
+      "subtitle": "",
+      "x": 12,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "20A4D8806813BB06"
+      ],
+      "tasks": [
+        {
+          "id": "1F170A8496ED4432",
+          "type": "item",
+          "item": "tconstruct:seared_faucet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7A8ADBD6C64FD18C",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1483769CD016B67A",
+      "title": "Small castings",
+      "icon": "tconstruct:seared_table",
+      "description": [
+        "Use a Casting Table for ingots and tool parts. Check the cast and fluid amount before opening the faucet."
+      ],
+      "subtitle": "",
+      "x": 15,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "7992FE63756E7728"
+      ],
+      "tasks": [
+        {
+          "id": "77659C34AEB2426F",
+          "type": "item",
+          "item": "tconstruct:seared_table",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5237C9CE78D34DB5",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "599596CF396B9EB9",
+      "title": "A reusable mould",
+      "icon": "tconstruct:ingot_cast",
+      "description": [
+        "Make a reusable Ingot Cast. Keep a separate casting surface free for new part shapes."
+      ],
+      "subtitle": "",
+      "x": 18,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "1483769CD016B67A"
+      ],
+      "tasks": [
+        {
+          "id": "58252B8E33CF75C6",
+          "type": "item",
+          "item": "tconstruct:ingot_cast",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7C4249F6BD53EAED",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "4EA1AADD2902D67E",
+      "title": "By the block",
+      "icon": "tconstruct:seared_basin",
+      "description": [
+        "A Casting Basin handles larger pours. Give the metal time to cool before collecting the result."
+      ],
+      "subtitle": "",
+      "x": 21,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "599596CF396B9EB9"
+      ],
+      "tasks": [
+        {
+          "id": "2F19DF4DCBDA5E26",
+          "type": "item",
+          "item": "tconstruct:seared_basin",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "714A7435C494D0F2",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "id": "75B72A20A814ACE3",
+      "title": "Think beyond the melter",
+      "icon": "tconstruct:mighty_smelting",
+      "description": [
+        "Mighty Smelting explains the multiblock smeltery and alloying. Read the construction guide before committing the bricks."
+      ],
+      "subtitle": "",
+      "x": 9,
+      "y": -8,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "20A4D8806813BB06"
+      ],
+      "tasks": [
+        {
+          "id": "0D4A03D9E4A96461",
+          "type": "item",
+          "item": "tconstruct:mighty_smelting",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "64E17B2FCE20E6A9",
+          "type": "item",
+          "item": "tconstruct:seared_brick",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "623FBAD5013946E5",
+      "title": "Raise the smeltery",
+      "icon": "tconstruct:smeltery_controller",
+      "description": [
+        "Build a complete smeltery around its controller. Include fuel access, a drain and a casting station; verify the controller opens its working inventory."
+      ],
+      "subtitle": "",
+      "x": 12,
+      "y": -8,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "75B72A20A814ACE3"
+      ],
+      "tasks": [
+        {
+          "id": "443D5B60BDDAFCBB",
+          "type": "item",
+          "item": "tconstruct:smeltery_controller",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "083AB5EFB99B33E6",
+          "type": "item",
+          "item": "minecraft:bucket",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1CF4C2BB43C2327B",
+      "title": "Keep the fire supplied",
+      "icon": "tconstruct:seared_fuel_tank",
+      "description": [
+        "Provide a fuel reserve the smeltery can reach. Check fuel temperature when a metal refuses to melt."
+      ],
+      "subtitle": "",
+      "x": 15,
+      "y": -8,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "623FBAD5013946E5"
+      ],
+      "tasks": [
+        {
+          "id": "3BD65AD1C687FCC1",
+          "type": "item",
+          "item": "tconstruct:seared_fuel_tank",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3BA8349D262E7D1D",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "021B01B0940E52F6",
+      "title": "A resilient alloy",
+      "icon": "tconstruct:slimesteel_ingot",
+      "description": [
+        "Consult the alloy recipe for Slimesteel and measure each ingredient before melting. Reserve some metal for repairs."
+      ],
+      "subtitle": "",
+      "x": 18,
+      "y": -8,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "1CF4C2BB43C2327B"
+      ],
+      "tasks": [
+        {
+          "id": "7935CC20E54D0689",
+          "type": "item",
+          "item": "tconstruct:slimesteel_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "010967DBDCE82B1B",
+          "type": "item",
+          "item": "minecraft:slime_ball",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "42AA0439589800A6",
+      "title": "A different balance",
+      "icon": "tconstruct:rose_gold_ingot",
+      "description": [
+        "Compare Rose Gold’s traits with your current parts. Faster or more flexible tools can be useful even when raw durability is lower."
+      ],
+      "subtitle": "",
+      "x": 21,
+      "y": -8,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "021B01B0940E52F6"
+      ],
+      "tasks": [
+        {
+          "id": "3A89DE75584FB8B7",
+          "type": "item",
+          "item": "tconstruct:rose_gold_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7E3730F2E478742F",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "6C6C00D95FF1BFAE",
+      "title": "Room for larger tools",
+      "icon": "tconstruct:tinkers_anvil",
+      "description": [
+        "Build a Tinker’s Anvil to work on the larger tool families. Choose its metal using the available recipe variants."
+      ],
+      "subtitle": "",
+      "x": 24,
+      "y": -8,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "42AA0439589800A6"
+      ],
+      "tasks": [
+        {
+          "id": "4C83140BBDBB96C3",
+          "type": "item",
+          "item": "tconstruct:tinkers_anvil",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07DE45B8F3C387D4",
+          "type": "item",
+          "item": "tconstruct:pattern",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "2817A2C24F3D6056",
+      "title": "A blade of your own",
+      "icon": "tconstruct:sword",
+      "description": [
+        "Assemble a sword and compare its material traits. Keep a repair plan as well as a damage target."
+      ],
+      "subtitle": "",
+      "x": 12,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "01965F43B18E7C41"
+      ],
+      "tasks": [
+        {
+          "id": "4A6461E8DD598D38",
+          "type": "item",
+          "item": "tconstruct:sword",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "509DD86026B67BA7",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "6249753F7851DB71",
+      "title": "Work around the homestead",
+      "icon": "tconstruct:mattock",
+      "description": [
+        "A Mattock combines useful jobs around the farm and workshop. Compare its actions with your ordinary tools."
+      ],
+      "subtitle": "",
+      "x": 15,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "2817A2C24F3D6056"
+      ],
+      "tasks": [
+        {
+          "id": "63D497BB32862CB5",
+          "type": "item",
+          "item": "tconstruct:mattock",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "63FD6B420FC47F90",
+          "type": "item",
+          "item": "minecraft:carrot",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "2038D40909710614",
+      "title": "A place for modifiers",
+      "icon": "tconstruct:modifier_worktable",
+      "description": [
+        "Build the Modifier Worktable and consult Tinker’s Gadgetry for the operations it supports. Some upgrades use the station or anvil instead."
+      ],
+      "subtitle": "",
+      "x": 18,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "6249753F7851DB71"
+      ],
+      "tasks": [
+        {
+          "id": "1C6D73232125E7CD",
+          "type": "item",
+          "item": "tconstruct:modifier_worktable",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6ACB282FDFD07F24",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "0B01D25E635D9C74",
+      "title": "More than a sharp edge",
+      "icon": "tconstruct:tinkers_gadgetry",
+      "description": [
+        "Study modifier slots, requirements and compatibility. Pick a purpose for a tool before spending its limited slots."
+      ],
+      "subtitle": "",
+      "x": 21,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "2038D40909710614"
+      ],
+      "tasks": [
+        {
+          "id": "5CCF43009AAF2A50",
+          "type": "item",
+          "item": "tconstruct:tinkers_gadgetry",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "31256149392E794C",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "1EBDB4C709BDC17E",
+      "title": "A longer working life",
+      "icon": "tconstruct:obsidian_reinforcement",
+      "description": [
+        "Prepare Obsidian Reinforcement and inspect its modifier recipe. Compare the durability benefit against the slots your tool needs for other work."
+      ],
+      "subtitle": "",
+      "x": 24,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "0B01D25E635D9C74"
+      ],
+      "tasks": [
+        {
+          "id": "389599F67DEEE0A0",
+          "type": "item",
+          "item": "tconstruct:obsidian_reinforcement",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6E10FBAC7C2DE8F0",
+          "type": "item",
+          "item": "minecraft:obsidian",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "4FE0DAB09A10C77B",
+      "title": "Open a broader face",
+      "icon": "tconstruct:sledge_hammer",
+      "description": [
+        "Build a Sledge Hammer for larger excavation. Test its area on ordinary stone before mining beside valuable machinery."
+      ],
+      "subtitle": "",
+      "x": 27,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "6C6C00D95FF1BFAE"
+      ],
+      "tasks": [
+        {
+          "id": "66AAEED0045208F3",
+          "type": "item",
+          "item": "tconstruct:sledge_hammer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03A1C4A5A2155054",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "5DC4A4D437629BAC",
+      "title": "Shape the earth",
+      "icon": "tconstruct:excavator",
+      "description": [
+        "Use an Excavator for suitable terrain. Keep precision tools nearby for work around foundations and cables."
+      ],
+      "subtitle": "",
+      "x": 27,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "6C6C00D95FF1BFAE"
+      ],
+      "tasks": [
+        {
+          "id": "79C48967C45D27E2",
+          "type": "item",
+          "item": "tconstruct:excavator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0478009E70A84347",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "4D909812BE9ACF2D",
+      "title": "A heavier blade",
+      "icon": "tconstruct:cleaver",
+      "description": [
+        "Compare the Cleaver with your smaller sword. Choose the tool whose speed and traits suit the fight."
+      ],
+      "subtitle": "",
+      "x": 27,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "6C6C00D95FF1BFAE"
+      ],
+      "tasks": [
+        {
+          "id": "4DB517DEE573AE90",
+          "type": "item",
+          "item": "tconstruct:cleaver",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "30375BEC0AD6B9C8",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "426B9F01794C1737",
+      "title": "Blue metal, fierce heat",
+      "icon": "tconstruct:cobalt_ingot",
+      "description": [
+        "Seek cobalt in the Nether and check the melting temperature. Bring suitable mining equipment and a reliable route home."
+      ],
+      "subtitle": "",
+      "x": 18,
+      "y": -12,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "1CF4C2BB43C2327B"
+      ],
+      "tasks": [
+        {
+          "id": "78BC4E037A662B5A",
+          "type": "item",
+          "item": "tconstruct:cobalt_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FCE231947142CE2",
+          "type": "item",
+          "item": "minecraft:obsidian",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "5506EC7FD1B614FA",
+      "title": "An alloy for demanding work",
+      "icon": "tconstruct:manyullyn_ingot",
+      "description": [
+        "Prepare Manyullyn through the alloying recipe. Spend your first batch on a deliberate upgrade and save material for its upkeep."
+      ],
+      "subtitle": "",
+      "x": 21,
+      "y": -12,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "426B9F01794C1737"
+      ],
+      "tasks": [
+        {
+          "id": "31895793E25AFA04",
+          "type": "item",
+          "item": "tconstruct:manyullyn_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "47B234FDF4A362DC",
+          "type": "item",
+          "item": "minecraft:ancient_debris",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "20147A9D9C4E4BB1",
+      "title": "Another answer to the forge",
+      "icon": "tconstruct:hepatizon_ingot",
+      "description": [
+        "Compare Hepatizon with your other alloys. Material traits reward different kinds of work; the most expensive option is not always the best fit."
+      ],
+      "subtitle": "",
+      "x": 24,
+      "y": -12,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "5506EC7FD1B614FA"
+      ],
+      "tasks": [
+        {
+          "id": "34563D3FF447AC2E",
+          "type": "item",
+          "item": "tconstruct:hepatizon_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3C3614968178E1B0",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "3BF6D971132B30F7",
+      "title": "Recover what others discard",
+      "icon": "tconstruct:fantastic_foundry",
+      "description": [
+        "Fantastic Foundry explains the foundry and its byproducts. Plan separate outputs before rebuilding your smelting line."
+      ],
+      "subtitle": "",
+      "x": 27,
+      "y": -12,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "20147A9D9C4E4BB1"
+      ],
+      "tasks": [
+        {
+          "id": "2D28AA0C97296638",
+          "type": "item",
+          "item": "tconstruct:fantastic_foundry",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "51E38B5FB735F59B",
+          "type": "item",
+          "item": "tconstruct:nether_grout",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "03C3DEA7B609A147",
+      "title": "The second furnace",
+      "icon": "tconstruct:foundry_controller",
+      "description": [
+        "Build a working foundry and compare its outputs with the smeltery. Give byproducts somewhere to go so a useful recovery does not become a blockage."
+      ],
+      "subtitle": "",
+      "x": 30,
+      "y": -12,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "3BF6D971132B30F7"
+      ],
+      "tasks": [
+        {
+          "id": "199E1693B237965E",
+          "type": "item",
+          "item": "tconstruct:foundry_controller",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3A890C327C5E8C45",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "48DC718110F169C6",
+      "title": "A familiar tool, improved",
+      "icon": "tconstruct:pickaxe",
+      "description": [
+        "Replace a part on an existing tool, then repair it. Inspect the new traits and keep the tool rather than crafting a fresh copy for every material."
+      ],
+      "subtitle": "",
+      "x": 18,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "1BF4B61DE3471FD5"
+      ],
+      "tasks": [
+        {
+          "id": "3F531EF0C5F318E9",
+          "type": "checkmark",
+          "title": "Replace a tool part and repair the tool"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "70694E7732BD9C57",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0258BF1A4F7073C7",
+      "title": "Build for a purpose",
+      "icon": "tconstruct:modifier_worktable",
+      "description": [
+        "Apply compatible modifiers to a tool with a clear job: excavation, farming or combat. Read the modifier requirements before committing materials."
+      ],
+      "subtitle": "",
+      "x": 24,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "48DC718110F169C6",
+        "1EBDB4C709BDC17E"
+      ],
+      "tasks": [
+        {
+          "id": "037A5E41D4113231",
+          "type": "checkmark",
+          "title": "Apply and test two useful modifiers"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7F84A5AE081A6CFC",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "2303C4A4D99EFB80",
+      "title": "The well-used workshop",
+      "icon": "tconstruct:encyclopedia",
+      "description": [
+        "Finish three specialised tools, keep repair supplies for each and organise your casts. Put every tool to work on a real build or expedition."
+      ],
+      "subtitle": "",
+      "x": 33,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "4FE0DAB09A10C77B",
+        "5DC4A4D437629BAC",
+        "4D909812BE9ACF2D",
+        "03C3DEA7B609A147",
+        "0258BF1A4F7073C7"
+      ],
+      "tasks": [
+        {
+          "id": "371D19D1E7E136F8",
+          "type": "checkmark",
+          "title": "Field-test three specialised tools and organise their repair supplies"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "75F3F976B60D3EB7",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 4
+        },
+        {
+          "id": "261355F1C4182EA8",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 16
+        }
+      ]
+    }
+  ]
+}

@@ -4,6 +4,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'launcher'))
 from discord_presence import application_id
+from updater import MAP_DEFAULTS
 from portal_patch import PATCH_NAME, COMPAT_PATCH_NAME, REFINED_PATCH_NAME, CLIENT_PATCH_NAME, build_portal_patch
 
 OUT=ROOT/'dist';OUT.mkdir(exist_ok=True)
@@ -26,6 +27,7 @@ for f in lock.get('shaderpacks',[]):
 overrides=[]
 generated={}
 client_defaults={'options.txt','config/oculus.properties','config/simple-rpc/simple-rpc.toml','config/simple-rpc/server-entries.toml'}
+client_defaults |= MAP_DEFAULTS
 client_only=client_defaults | {'config/jeioptimizations.properties','config/modernfix-mixins.properties',
  'config/spark/config.json','config/jei/client/default/jei-client.ini',
  'config/embeddium-options.json','config/entityculling.json','config/immediatelyfast.json',

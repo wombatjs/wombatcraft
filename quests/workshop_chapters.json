@@ -1,0 +1,2017 @@
+[
+  {
+    "key": "field_kit",
+    "title": "The Traveller’s Field Kit",
+    "group": "starter",
+    "icon": "akashictome:tome",
+    "quests": [
+      {
+        "key": "tome",
+        "title": "A library in your pocket",
+        "icon": "akashictome:tome",
+        "position": [
+          0,
+          0
+        ],
+        "parents": [],
+        "description": [
+          "Bind an Akashic Tome, then combine it with a guidebook in a crafting grid. Keep the manuals you actually use close at hand."
+        ],
+        "tasks": [
+          [
+            "item",
+            "akashictome:tome",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:book",
+            3
+          ],
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "library",
+        "title": "One binding, many voices",
+        "icon": "minecraft:bookshelf",
+        "position": [
+          3,
+          0
+        ],
+        "parents": [
+          "tome"
+        ],
+        "description": [
+          "Store at least three different manuals in your tome. Open one, return it to the tome and choose another."
+        ],
+        "tasks": [
+          [
+            "checkmark",
+            "Store and open three different manuals",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:experience_bottle",
+            6
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "recipes",
+        "title": "Read the workshop ledger",
+        "icon": "minecraft:crafting_table",
+        "position": [
+          0,
+          -4
+        ],
+        "parents": [
+          "tome"
+        ],
+        "description": [
+          "Search JEI for a tool you want to make. Open its crafting recipe, then inspect the uses of one ingredient. Your Controls menu lists the current recipe and uses keys."
+        ],
+        "tasks": [
+          [
+            "checkmark",
+            "Inspect a recipe and an ingredient’s uses",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "bookmark",
+        "title": "Keep the next project ready",
+        "icon": "minecraft:paper",
+        "position": [
+          3,
+          -4
+        ],
+        "parents": [
+          "recipes"
+        ],
+        "description": [
+          "Bookmark three recipes for your next project. Use @ followed by a mod name to narrow the ingredient list when a search becomes crowded."
+        ],
+        "tasks": [
+          [
+            "checkmark",
+            "Bookmark three project recipes",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            16
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "inventory",
+        "title": "A tidy travelling chest",
+        "icon": "minecraft:chest",
+        "position": [
+          6,
+          -4
+        ],
+        "parents": [
+          "bookmark"
+        ],
+        "description": [
+          "Use Mouse Tweaks to move a stack with the mouse wheel and distribute items by dragging. Practice with inexpensive materials before sorting valuables."
+        ],
+        "tasks": [
+          [
+            "checkmark",
+            "Practice scrolling and dragging stacks",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:chest",
+            2
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "nutrition",
+        "title": "A meal that lasts",
+        "icon": "minecraft:cooked_beef",
+        "position": [
+          0,
+          4
+        ],
+        "parents": [
+          "tome"
+        ],
+        "description": [
+          "AppleSkin shows how much hunger and saturation a meal can restore. Compare two foods and take the more sustaining meal on a short expedition."
+        ],
+        "tasks": [
+          [
+            "checkmark",
+            "Compare two foods and pack a travel meal",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:baked_potato",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "kitchen",
+        "title": "A kitchen with room to grow",
+        "icon": "cookingforblockheads:cooking_table",
+        "position": [
+          3,
+          4
+        ],
+        "parents": [
+          "nutrition"
+        ],
+        "description": [
+          "Place a Cooking Table beside your food stores. Build around the crops and meals you already grow; the kitchen helps you prepare them."
+        ],
+        "tasks": [
+          [
+            "item",
+            "cookingforblockheads:cooking_table",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:bucket",
+            1
+          ],
+          [
+            "minecraft:carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "drawers",
+        "title": "Give supplies a proper home",
+        "icon": "storagedrawers:oak_full_drawers_1",
+        "position": [
+          6,
+          4
+        ],
+        "parents": [
+          "kitchen"
+        ],
+        "description": [
+          "Use drawers for the materials that arrive by the stack. Reserve ordinary chests for mixed equipment and unusual finds."
+        ],
+        "tasks": [
+          [
+            "item",
+            "storagedrawers:oak_full_drawers_1",
+            4
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:oak_log",
+            16
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "atlas",
+        "title": "Chart your first route",
+        "icon": "minecraft:map",
+        "position": [
+          0,
+          8
+        ],
+        "parents": [
+          "tome"
+        ],
+        "description": [
+          "Open JourneyMap and mark your home. Keep one minimap visible; the claim map remains available for protecting your settlement."
+        ],
+        "tasks": [
+          [
+            "checkmark",
+            "Open JourneyMap and mark your home",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:compass",
+            1
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "waypoint",
+        "title": "Leave a trail worth following",
+        "icon": "minecraft:filled_map",
+        "position": [
+          3,
+          8
+        ],
+        "parents": [
+          "atlas"
+        ],
+        "description": [
+          "Mark a useful landmark and walk back home using your waypoints. Name markers after their purpose so a crowded map stays readable."
+        ],
+        "tasks": [
+          [
+            "checkmark",
+            "Mark a landmark and navigate home",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:bread",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "compass",
+        "title": "Follow the changing landscape",
+        "icon": "naturescompass:naturescompass",
+        "position": [
+          6,
+          8
+        ],
+        "parents": [
+          "waypoint"
+        ],
+        "description": [
+          "Choose an unfamiliar biome with Nature’s Compass. Check the distance before setting out, and leave space for specimens."
+        ],
+        "tasks": [
+          [
+            "item",
+            "naturescompass:naturescompass",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:lead",
+            2
+          ],
+          [
+            "minecraft:torch",
+            16
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "waystone",
+        "title": "A road you can fold",
+        "icon": "waystones:waystone",
+        "position": [
+          9,
+          8
+        ],
+        "parents": [
+          "compass"
+        ],
+        "description": [
+          "Establish a waystone at a place you expect to revisit. Activate destinations as you travel and give each a clear name."
+        ],
+        "tasks": [
+          [
+            "item",
+            "waystones:waystone",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "waystones:warp_dust",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "enchant",
+        "title": "The smith’s finishing touch",
+        "icon": "minecraft:anvil",
+        "position": [
+          9,
+          -4
+        ],
+        "parents": [
+          "inventory"
+        ],
+        "description": [
+          "Apply an enchanted book to compatible equipment at an anvil. JEI shows vanilla-equipment examples; modded equipment still follows its normal enchantment rules. Check the actual anvil output and level cost before taking it."
+        ],
+        "tasks": [
+          [
+            "checkmark",
+            "Enchant a piece of equipment at an anvil",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:lapis_lazuli",
+            12
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "outfitted",
+        "title": "Ready for a longer journey",
+        "icon": "minecraft:spyglass",
+        "position": [
+          12,
+          0
+        ],
+        "parents": [
+          "library",
+          "drawers",
+          "waystone",
+          "enchant"
+        ],
+        "description": [
+          "Prepare food, a spare tool, a route home and the manuals needed for your next undertaking. Travel light, but leave prepared."
+        ],
+        "tasks": [
+          [
+            "checkmark",
+            "Pack an expedition kit",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_apple",
+            2
+          ],
+          [
+            "minecraft:ender_pearl",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      }
+    ]
+  },
+  {
+    "key": "tinkers_workshop",
+    "title": "The Tinker’s Workshop",
+    "group": "technology",
+    "icon": "tconstruct:tinkers_anvil",
+    "quests": [
+      {
+        "key": "manual",
+        "title": "Materials and possibility",
+        "icon": "tconstruct:materials_and_you",
+        "position": [
+          0,
+          0
+        ],
+        "parents": [],
+        "description": [
+          "Read Materials and You before choosing parts. A tool’s head, handle and binding contribute different properties."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:materials_and_you",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:oak_log",
+            12
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "patterns",
+        "title": "The first pattern",
+        "icon": "tconstruct:pattern",
+        "position": [
+          3,
+          0
+        ],
+        "parents": [
+          "manual"
+        ],
+        "description": [
+          "Make patterns for your first set of tool parts. Keep a small reserve beside the Part Builder."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:pattern",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:stick",
+            16
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "parts",
+        "title": "A bench for shaping",
+        "icon": "tconstruct:part_builder",
+        "position": [
+          6,
+          0
+        ],
+        "parents": [
+          "patterns"
+        ],
+        "description": [
+          "Place a Part Builder and inspect the materials it accepts. Begin with materials you can readily replace."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:part_builder",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:cobblestone",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "station",
+        "title": "Fit the pieces together",
+        "icon": "tconstruct:tinker_station",
+        "position": [
+          9,
+          0
+        ],
+        "parents": [
+          "parts"
+        ],
+        "description": [
+          "Assemble and repair tools at the Tinker Station. Match parts to the tool diagram rather than treating every shape as interchangeable."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:tinker_station",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:flint",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "pickaxe",
+        "title": "Your first lasting pick",
+        "icon": "tconstruct:pickaxe",
+        "position": [
+          12,
+          0
+        ],
+        "parents": [
+          "station"
+        ],
+        "description": [
+          "Build a pickaxe with the materials you have. Repairs and replacement parts will let it grow with the workshop."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:pickaxe",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:coal",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "repair",
+        "title": "Care for your tools",
+        "icon": "tconstruct:tinkers_chest",
+        "position": [
+          15,
+          0
+        ],
+        "parents": [
+          "pickaxe"
+        ],
+        "description": [
+          "Keep spare repair materials and unfinished parts beside your station. A prepared workshop wastes less time on broken tools."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:tinkers_chest",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            6
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "grout",
+        "title": "Clay, sand and gravel",
+        "icon": "tconstruct:grout",
+        "position": [
+          3,
+          -4
+        ],
+        "parents": [
+          "patterns"
+        ],
+        "description": [
+          "Prepare grout and fire it into seared bricks. Plan the space for casting and fuel before expanding the furnace."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:grout",
+            8
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:clay_ball",
+            16
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "smallbook",
+        "title": "A modest beginning",
+        "icon": "tconstruct:puny_smelting",
+        "position": [
+          6,
+          -4
+        ],
+        "parents": [
+          "grout"
+        ],
+        "description": [
+          "Puny Smelting explains the small melter. Study its fuel and casting arrangements before pouring your first metal."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:puny_smelting",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:coal",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "melter",
+        "title": "A small pool of metal",
+        "icon": "tconstruct:seared_melter",
+        "position": [
+          9,
+          -4
+        ],
+        "parents": [
+          "smallbook"
+        ],
+        "description": [
+          "Set up a Seared Melter with a suitable heat source. Begin with a single metal so you can learn casting without unwanted alloys."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:seared_melter",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:copper_ingot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "faucet",
+        "title": "Guide the pour",
+        "icon": "tconstruct:seared_faucet",
+        "position": [
+          12,
+          -4
+        ],
+        "parents": [
+          "melter"
+        ],
+        "description": [
+          "A faucet directs molten material into the casting surface below. Leave access to the melter and its fuel supply."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:seared_faucet",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "table",
+        "title": "Small castings",
+        "icon": "tconstruct:seared_table",
+        "position": [
+          15,
+          -4
+        ],
+        "parents": [
+          "faucet"
+        ],
+        "description": [
+          "Use a Casting Table for ingots and tool parts. Check the cast and fluid amount before opening the faucet."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:seared_table",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:gold_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "ingotcast",
+        "title": "A reusable mould",
+        "icon": "tconstruct:ingot_cast",
+        "position": [
+          18,
+          -4
+        ],
+        "parents": [
+          "table"
+        ],
+        "description": [
+          "Make a reusable Ingot Cast. Keep a separate casting surface free for new part shapes."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:ingot_cast",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:gold_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "basin",
+        "title": "By the block",
+        "icon": "tconstruct:seared_basin",
+        "position": [
+          21,
+          -4
+        ],
+        "parents": [
+          "ingotcast"
+        ],
+        "description": [
+          "A Casting Basin handles larger pours. Give the metal time to cool before collecting the result."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:seared_basin",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:copper_ingot",
+            9
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "smeltingbook",
+        "title": "Think beyond the melter",
+        "icon": "tconstruct:mighty_smelting",
+        "position": [
+          9,
+          -8
+        ],
+        "parents": [
+          "melter"
+        ],
+        "description": [
+          "Mighty Smelting explains the multiblock smeltery and alloying. Read the construction guide before committing the bricks."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:mighty_smelting",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "tconstruct:seared_brick",
+            16
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "smeltery",
+        "title": "Raise the smeltery",
+        "icon": "tconstruct:smeltery_controller",
+        "position": [
+          12,
+          -8
+        ],
+        "parents": [
+          "smeltingbook"
+        ],
+        "description": [
+          "Build a complete smeltery around its controller. Include fuel access, a drain and a casting station; verify the controller opens its working inventory."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:smeltery_controller",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:bucket",
+            1
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "fuel",
+        "title": "Keep the fire supplied",
+        "icon": "tconstruct:seared_fuel_tank",
+        "position": [
+          15,
+          -8
+        ],
+        "parents": [
+          "smeltery"
+        ],
+        "description": [
+          "Provide a fuel reserve the smeltery can reach. Check fuel temperature when a metal refuses to melt."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:seared_fuel_tank",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "slimesteel",
+        "title": "A resilient alloy",
+        "icon": "tconstruct:slimesteel_ingot",
+        "position": [
+          18,
+          -8
+        ],
+        "parents": [
+          "fuel"
+        ],
+        "description": [
+          "Consult the alloy recipe for Slimesteel and measure each ingredient before melting. Reserve some metal for repairs."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:slimesteel_ingot",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:slime_ball",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "rosegold",
+        "title": "A different balance",
+        "icon": "tconstruct:rose_gold_ingot",
+        "position": [
+          21,
+          -8
+        ],
+        "parents": [
+          "slimesteel"
+        ],
+        "description": [
+          "Compare Rose Gold’s traits with your current parts. Faster or more flexible tools can be useful even when raw durability is lower."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:rose_gold_ingot",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:gold_ingot",
+            6
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "anvil",
+        "title": "Room for larger tools",
+        "icon": "tconstruct:tinkers_anvil",
+        "position": [
+          24,
+          -8
+        ],
+        "parents": [
+          "rosegold"
+        ],
+        "description": [
+          "Build a Tinker’s Anvil to work on the larger tool families. Choose its metal using the available recipe variants."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:tinkers_anvil",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "tconstruct:pattern",
+            16
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "sword",
+        "title": "A blade of your own",
+        "icon": "tconstruct:sword",
+        "position": [
+          12,
+          4
+        ],
+        "parents": [
+          "station"
+        ],
+        "description": [
+          "Assemble a sword and compare its material traits. Keep a repair plan as well as a damage target."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:sword",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:cooked_beef",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "mattock",
+        "title": "Work around the homestead",
+        "icon": "tconstruct:mattock",
+        "position": [
+          15,
+          4
+        ],
+        "parents": [
+          "sword"
+        ],
+        "description": [
+          "A Mattock combines useful jobs around the farm and workshop. Compare its actions with your ordinary tools."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:mattock",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:carrot",
+            12
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "upgrades",
+        "title": "A place for modifiers",
+        "icon": "tconstruct:modifier_worktable",
+        "position": [
+          18,
+          4
+        ],
+        "parents": [
+          "mattock"
+        ],
+        "description": [
+          "Build the Modifier Worktable and consult Tinker’s Gadgetry for the operations it supports. Some upgrades use the station or anvil instead."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:modifier_worktable",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:redstone",
+            16
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "gadgetry",
+        "title": "More than a sharp edge",
+        "icon": "tconstruct:tinkers_gadgetry",
+        "position": [
+          21,
+          4
+        ],
+        "parents": [
+          "upgrades"
+        ],
+        "description": [
+          "Study modifier slots, requirements and compatibility. Pick a purpose for a tool before spending its limited slots."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:tinkers_gadgetry",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:lapis_lazuli",
+            16
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "reinforce",
+        "title": "A longer working life",
+        "icon": "tconstruct:obsidian_reinforcement",
+        "position": [
+          24,
+          4
+        ],
+        "parents": [
+          "gadgetry"
+        ],
+        "description": [
+          "Prepare Obsidian Reinforcement and inspect its modifier recipe. Compare the durability benefit against the slots your tool needs for other work."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:obsidian_reinforcement",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:obsidian",
+            6
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "hammer",
+        "title": "Open a broader face",
+        "icon": "tconstruct:sledge_hammer",
+        "position": [
+          27,
+          -4
+        ],
+        "parents": [
+          "anvil"
+        ],
+        "description": [
+          "Build a Sledge Hammer for larger excavation. Test its area on ordinary stone before mining beside valuable machinery."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:sledge_hammer",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "excavator",
+        "title": "Shape the earth",
+        "icon": "tconstruct:excavator",
+        "position": [
+          27,
+          0
+        ],
+        "parents": [
+          "anvil"
+        ],
+        "description": [
+          "Use an Excavator for suitable terrain. Keep precision tools nearby for work around foundations and cables."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:excavator",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            12
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "cleaver",
+        "title": "A heavier blade",
+        "icon": "tconstruct:cleaver",
+        "position": [
+          27,
+          4
+        ],
+        "parents": [
+          "anvil"
+        ],
+        "description": [
+          "Compare the Cleaver with your smaller sword. Choose the tool whose speed and traits suit the fight."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:cleaver",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_apple",
+            2
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "cobalt",
+        "title": "Blue metal, fierce heat",
+        "icon": "tconstruct:cobalt_ingot",
+        "position": [
+          18,
+          -12
+        ],
+        "parents": [
+          "fuel"
+        ],
+        "description": [
+          "Seek cobalt in the Nether and check the melting temperature. Bring suitable mining equipment and a reliable route home."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:cobalt_ingot",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:obsidian",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "manyullyn",
+        "title": "An alloy for demanding work",
+        "icon": "tconstruct:manyullyn_ingot",
+        "position": [
+          21,
+          -12
+        ],
+        "parents": [
+          "cobalt"
+        ],
+        "description": [
+          "Prepare Manyullyn through the alloying recipe. Spend your first batch on a deliberate upgrade and save material for its upkeep."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:manyullyn_ingot",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:ancient_debris",
+            1
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "hepatizon",
+        "title": "Another answer to the forge",
+        "icon": "tconstruct:hepatizon_ingot",
+        "position": [
+          24,
+          -12
+        ],
+        "parents": [
+          "manyullyn"
+        ],
+        "description": [
+          "Compare Hepatizon with your other alloys. Material traits reward different kinds of work; the most expensive option is not always the best fit."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:hepatizon_ingot",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:gold_ingot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "foundrybook",
+        "title": "Recover what others discard",
+        "icon": "tconstruct:fantastic_foundry",
+        "position": [
+          27,
+          -12
+        ],
+        "parents": [
+          "hepatizon"
+        ],
+        "description": [
+          "Fantastic Foundry explains the foundry and its byproducts. Plan separate outputs before rebuilding your smelting line."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:fantastic_foundry",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "tconstruct:nether_grout",
+            16
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "foundry",
+        "title": "The second furnace",
+        "icon": "tconstruct:foundry_controller",
+        "position": [
+          30,
+          -12
+        ],
+        "parents": [
+          "foundrybook"
+        ],
+        "description": [
+          "Build a working foundry and compare its outputs with the smeltery. Give byproducts somewhere to go so a useful recovery does not become a blockage."
+        ],
+        "tasks": [
+          [
+            "item",
+            "tconstruct:foundry_controller",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            3
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "replace",
+        "title": "A familiar tool, improved",
+        "icon": "tconstruct:pickaxe",
+        "position": [
+          18,
+          0
+        ],
+        "parents": [
+          "repair"
+        ],
+        "description": [
+          "Replace a part on an existing tool, then repair it. Inspect the new traits and keep the tool rather than crafting a fresh copy for every material."
+        ],
+        "tasks": [
+          [
+            "checkmark",
+            "Replace a tool part and repair the tool",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            1
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "apply",
+        "title": "Build for a purpose",
+        "icon": "tconstruct:modifier_worktable",
+        "position": [
+          24,
+          0
+        ],
+        "parents": [
+          "replace",
+          "reinforce"
+        ],
+        "description": [
+          "Apply compatible modifiers to a tool with a clear job: excavation, farming or combat. Read the modifier requirements before committing materials."
+        ],
+        "tasks": [
+          [
+            "checkmark",
+            "Apply and test two useful modifiers",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:experience_bottle",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "master",
+        "title": "The well-used workshop",
+        "icon": "tconstruct:encyclopedia",
+        "position": [
+          33,
+          0
+        ],
+        "parents": [
+          "hammer",
+          "excavator",
+          "cleaver",
+          "foundry",
+          "apply"
+        ],
+        "description": [
+          "Finish three specialised tools, keep repair supplies for each and organise your casts. Put every tool to work on a real build or expedition."
+        ],
+        "tasks": [
+          [
+            "checkmark",
+            "Field-test three specialised tools and organise their repair supplies",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            4
+          ],
+          [
+            "minecraft:golden_carrot",
+            16
+          ]
+        ],
+        "shape": "hexagon"
+      }
+    ]
+  },
+  {
+    "key": "quark_craft",
+    "title": "Small Inventions, Better Homes",
+    "group": "exploration",
+    "icon": "quark:trowel",
+    "quests": [
+      {
+        "key": "trowel",
+        "title": "A little irregularity",
+        "icon": "quark:trowel",
+        "position": [
+          0,
+          0
+        ],
+        "parents": [],
+        "description": [
+          "Use the Trowel with a deliberate palette of building blocks. A few complementary textures make a wall feel less uniform."
+        ],
+        "tasks": [
+          [
+            "item",
+            "quark:trowel",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:stone_bricks",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "abacus",
+        "title": "Measure twice",
+        "icon": "quark:abacus",
+        "position": [
+          3,
+          -3
+        ],
+        "parents": [
+          "trowel"
+        ],
+        "description": [
+          "Use the Abacus to measure a planned wall or bridge. Mark its endpoints before placing the expensive materials."
+        ],
+        "tasks": [
+          [
+            "item",
+            "quark:abacus",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:oak_log",
+            16
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "rope",
+        "title": "A route down",
+        "icon": "quark:rope",
+        "position": [
+          3,
+          3
+        ],
+        "parents": [
+          "trowel"
+        ],
+        "description": [
+          "Carry rope for construction and exploration. Build a safe way down a ledge before carrying valuable supplies through it."
+        ],
+        "tasks": [
+          [
+            "item",
+            "quark:rope",
+            8
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:lead",
+            2
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "vertical",
+        "title": "Fit the narrow spaces",
+        "icon": "quark:stone_brick_vertical_slab",
+        "position": [
+          6,
+          -3
+        ],
+        "parents": [
+          "abacus"
+        ],
+        "description": [
+          "Use vertical slabs to give a narrow wall or doorway depth without filling the whole block."
+        ],
+        "tasks": [
+          [
+            "item",
+            "quark:stone_brick_vertical_slab",
+            16
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:stone_bricks",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "glass",
+        "title": "A window with character",
+        "icon": "quark:framed_glass",
+        "position": [
+          9,
+          -3
+        ],
+        "parents": [
+          "vertical"
+        ],
+        "description": [
+          "Build a framed window and check the view from both sides. Let the frame suit the materials around it."
+        ],
+        "tasks": [
+          [
+            "item",
+            "quark:framed_glass",
+            8
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:glass",
+            16
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "lantern",
+        "title": "Light the approach",
+        "icon": "quark:paper_lantern",
+        "position": [
+          6,
+          3
+        ],
+        "parents": [
+          "rope"
+        ],
+        "description": [
+          "Hang paper lanterns along a path or sheltered entrance. Keep practical lighting around the workshop as well."
+        ],
+        "tasks": [
+          [
+            "item",
+            "quark:paper_lantern",
+            4
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:lantern",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "chute",
+        "title": "Let gravity do the work",
+        "icon": "quark:chute",
+        "position": [
+          9,
+          3
+        ],
+        "parents": [
+          "lantern"
+        ],
+        "description": [
+          "Use a chute to drop items into a controlled collection point. Test with a small stack and keep loose items out of busy walkways."
+        ],
+        "tasks": [
+          [
+            "item",
+            "quark:chute",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:hopper",
+            2
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "palette",
+        "title": "Build a small landmark",
+        "icon": "quark:trowel",
+        "position": [
+          12,
+          0
+        ],
+        "parents": [
+          "glass",
+          "chute"
+        ],
+        "description": [
+          "Combine your measured footprint, mixed palette, framed windows and lighting in a small gatehouse or workshop. Make the entrance easy to find from the road."
+        ],
+        "tasks": [
+          [
+            "checkmark",
+            "Complete a small build using four Quark features",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:scaffolding",
+            32
+          ],
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "hexagon"
+      }
+    ]
+  },
+  {
+    "key": "living_atlas",
+    "title": "A Living Atlas",
+    "group": "exploration",
+    "icon": "naturescompass:naturescompass",
+    "quests": [
+      {
+        "key": "compass",
+        "title": "Beyond the familiar treeline",
+        "icon": "naturescompass:naturescompass",
+        "position": [
+          0,
+          0
+        ],
+        "parents": [],
+        "description": [
+          "Choose a Biomes O’ Plenty landscape you have not explored. Bring tools, food and room for saplings; the journey should leave a living souvenir."
+        ],
+        "tasks": [
+          [
+            "item",
+            "naturescompass:naturescompass",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:bread",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "fir",
+        "title": "Among the firs",
+        "icon": "biomesoplenty:fir_sapling",
+        "position": [
+          3,
+          -4
+        ],
+        "parents": [
+          "compass"
+        ],
+        "description": [
+          "Bring home a sapling from your travels. Mark where it was found and grow a specimen where it has enough room."
+        ],
+        "tasks": [
+          [
+            "item",
+            "biomesoplenty:fir_sapling",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:bone_meal",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "redwood",
+        "title": "Beneath the tall redwoods",
+        "icon": "biomesoplenty:redwood_sapling",
+        "position": [
+          6,
+          -4
+        ],
+        "parents": [
+          "compass"
+        ],
+        "description": [
+          "Bring home a sapling from your travels. Mark where it was found and grow a specimen where it has enough room."
+        ],
+        "tasks": [
+          [
+            "item",
+            "biomesoplenty:redwood_sapling",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:bone_meal",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "jacaranda",
+        "title": "A purple canopy",
+        "icon": "biomesoplenty:jacaranda_sapling",
+        "position": [
+          3,
+          0
+        ],
+        "parents": [
+          "compass"
+        ],
+        "description": [
+          "Bring home a sapling from your travels. Mark where it was found and grow a specimen where it has enough room."
+        ],
+        "tasks": [
+          [
+            "item",
+            "biomesoplenty:jacaranda_sapling",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:bone_meal",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "mahogany",
+        "title": "A warmer forest",
+        "icon": "biomesoplenty:mahogany_sapling",
+        "position": [
+          6,
+          0
+        ],
+        "parents": [
+          "compass"
+        ],
+        "description": [
+          "Bring home a sapling from your travels. Mark where it was found and grow a specimen where it has enough room."
+        ],
+        "tasks": [
+          [
+            "item",
+            "biomesoplenty:mahogany_sapling",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:bone_meal",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "palm",
+        "title": "Where the coast opens",
+        "icon": "biomesoplenty:palm_sapling",
+        "position": [
+          3,
+          4
+        ],
+        "parents": [
+          "compass"
+        ],
+        "description": [
+          "Bring home a sapling from your travels. Mark where it was found and grow a specimen where it has enough room."
+        ],
+        "tasks": [
+          [
+            "item",
+            "biomesoplenty:palm_sapling",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:bone_meal",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "willow",
+        "title": "Beside quiet water",
+        "icon": "biomesoplenty:willow_sapling",
+        "position": [
+          6,
+          4
+        ],
+        "parents": [
+          "compass"
+        ],
+        "description": [
+          "Bring home a sapling from your travels. Mark where it was found and grow a specimen where it has enough room."
+        ],
+        "tasks": [
+          [
+            "item",
+            "biomesoplenty:willow_sapling",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:bone_meal",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "glow",
+        "title": "Flowers after sunset",
+        "icon": "biomesoplenty:glowflower",
+        "position": [
+          9,
+          -4
+        ],
+        "parents": [
+          "redwood"
+        ],
+        "description": [
+          "Find glowflowers and bring a few back for a night garden. Leave the distant landscape worth revisiting."
+        ],
+        "tasks": [
+          [
+            "item",
+            "biomesoplenty:glowflower",
+            3
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:flower_pot",
+            6
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "hellbark",
+        "title": "Roots beyond the portal",
+        "icon": "biomesoplenty:hellbark_sapling",
+        "position": [
+          9,
+          4
+        ],
+        "parents": [
+          "palm"
+        ],
+        "description": [
+          "Seek Hellbark in the Nether. Prepare a marked return route before collecting specimens in dangerous terrain."
+        ],
+        "tasks": [
+          [
+            "item",
+            "biomesoplenty:hellbark_sapling",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_apple",
+            2
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "arboretum",
+        "title": "A forest in miniature",
+        "icon": "minecraft:oak_sign",
+        "position": [
+          12,
+          0
+        ],
+        "parents": [
+          "fir",
+          "redwood",
+          "jacaranda",
+          "mahogany",
+          "palm",
+          "willow",
+          "glow",
+          "hellbark"
+        ],
+        "description": [
+          "Plant and label an arboretum with six different Biomes O’ Plenty trees. Add paths and a map of the places where your collection began."
+        ],
+        "tasks": [
+          [
+            "checkmark",
+            "Grow and label six different tree species",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:lead",
+            4
+          ],
+          [
+            "minecraft:bone_meal",
+            32
+          ],
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      }
+    ]
+  }
+]

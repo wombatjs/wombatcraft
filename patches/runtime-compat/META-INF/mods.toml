@@ -6,7 +6,7 @@ modId="wombatcraft_runtime_fix"
 version="1.0.0"
 displayName="Wombatcraft Runtime Compatibility"
 displayTest="IGNORE_ALL_VERSION"
-description="Corrects crafting remainders, recipe cache races, project paths, and title synchronization."
+description="Repairs packet synchronization and recipe lifecycle issues, and reduces redundant recipe previews and stat updates."
 [[dependencies.wombatcraft_runtime_fix]]
 modId="theaurorian"
 mandatory=true

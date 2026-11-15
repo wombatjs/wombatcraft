@@ -4,6 +4,9 @@ from pathlib import Path,PurePosixPath
 
 RELEASE='https://github.com/wombatjs/wombatcraft/releases/latest/download/manifest.json'
 ALLOWED={'mods','config','kubejs','resourcepacks','packmenu','defaultconfigs','shaderpacks'}
+# Only these preferences are managed; JourneyMap's explored maps and waypoints
+# are player data and must never be accepted as release paths.
+MAP_DEFAULTS={f'journeymap/config/5.10/journeymap.{name}.config' for name in ('minimap','minimap2')}
 
 class DownloadInterrupted(OSError):
  def __init__(self, label, reason):
@@ -60,9 +63,23 @@ def migrate_controls(current, defaults):
 def safe_path(root,name):
  p=PurePosixPath(name)
  if not name or '\\' in name or ':' in name or p.is_absolute() or '..' in p.parts:raise ValueError('Unsafe release path')
- if p.parts[0] not in ALLOWED and name!='options.txt':raise ValueError('Unmanaged release path: '+name)
+ if p.parts[0] not in ALLOWED and name!='options.txt' and name not in MAP_DEFAULTS:raise ValueError('Unmanaged release path: '+name)
  result=root.joinpath(*p.parts)
  if not result.resolve().is_relative_to(root.resolve()):raise ValueError('Release path escapes instance')
+ return result
+
+def seed_journeymap_controls(current, defaults):
+ # New map bindings must not reset existing preferences or steal a custom key.
+ bindings = dict(line.split(b':', 1) for line in current.splitlines() if line.startswith(b'key_') and b':' in line)
+ result = current
+ for line in defaults.splitlines():
+  if not line.startswith(b'key_key.journeymap.') or b':' not in line:continue
+  name, target = line.split(b':', 1)
+  if name in bindings:continue
+  if target in bindings.values():target = b'key.keyboard.unknown'
+  if result and not result.endswith(b'\n'):result += b'\n'
+  result += name + b':' + target + b'\n'
+  bindings[name] = target
  return result
 
 def digest(path):
@@ -241,10 +258,11 @@ def activate(m,records,stage_dir,instance,transaction):
  migrated_options = None
  controls_migrated = old.get('controls_migrated', False)
  defaults = stage_dir/'options.txt'
- if seed and not controls_migrated and matches(defaults, seed):
+ if seed and matches(defaults, seed):
   if options.is_file():
    original = options.read_bytes()
-   migrated = migrate_controls(original, defaults.read_bytes())
+   migrated = original if controls_migrated else migrate_controls(original, defaults.read_bytes())
+   migrated = seed_journeymap_controls(migrated, defaults.read_bytes())
    if migrated != original:
     migrated_options = migrated
   controls_migrated = True

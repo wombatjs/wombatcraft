@@ -1,0 +1,287 @@
+{
+  "id": "662EA2DA101128DB",
+  "filename": "wc_frontier_quark_craft",
+  "title": "Small Inventions, Better Homes",
+  "group": "00AA8F374274B5F3",
+  "icon": "quark:trowel",
+  "order_index": 68,
+  "default_quest_shape": "circle",
+  "autofocus_id": "7D3339AD9EED1A5A",
+  "quests": [
+    {
+      "id": "7D3339AD9EED1A5A",
+      "title": "A little irregularity",
+      "icon": "quark:trowel",
+      "description": [
+        "Use the Trowel with a deliberate palette of building blocks. A few complementary textures make a wall feel less uniform."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0467F289249B74B4",
+          "type": "item",
+          "item": "quark:trowel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "604AE3283C20CA95",
+          "type": "item",
+          "item": "minecraft:stone_bricks",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "5E50D80B4A823F36",
+      "title": "Measure twice",
+      "icon": "quark:abacus",
+      "description": [
+        "Use the Abacus to measure a planned wall or bridge. Mark its endpoints before placing the expensive materials."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": -3,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "7D3339AD9EED1A5A"
+      ],
+      "tasks": [
+        {
+          "id": "0AB71BE7F8849936",
+          "type": "item",
+          "item": "quark:abacus",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "780115FFDAE513BE",
+          "type": "item",
+          "item": "minecraft:oak_log",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "40729C74E55479B1",
+      "title": "A route down",
+      "icon": "quark:rope",
+      "description": [
+        "Carry rope for construction and exploration. Build a safe way down a ledge before carrying valuable supplies through it."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 3,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "7D3339AD9EED1A5A"
+      ],
+      "tasks": [
+        {
+          "id": "51CA1280B5561B8D",
+          "type": "item",
+          "item": "quark:rope",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "27F428B71B0162B2",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "51199E201B2BE0D9",
+      "title": "Fit the narrow spaces",
+      "icon": "quark:stone_brick_vertical_slab",
+      "description": [
+        "Use vertical slabs to give a narrow wall or doorway depth without filling the whole block."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": -3,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "5E50D80B4A823F36"
+      ],
+      "tasks": [
+        {
+          "id": "099E48E9291A5F0E",
+          "type": "item",
+          "item": "quark:stone_brick_vertical_slab",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "268294DB04E741CD",
+          "type": "item",
+          "item": "minecraft:stone_bricks",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "7F507490A721EC01",
+      "title": "A window with character",
+      "icon": "quark:framed_glass",
+      "description": [
+        "Build a framed window and check the view from both sides. Let the frame suit the materials around it."
+      ],
+      "subtitle": "",
+      "x": 9,
+      "y": -3,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "51199E201B2BE0D9"
+      ],
+      "tasks": [
+        {
+          "id": "2B27899C4E8C1239",
+          "type": "item",
+          "item": "quark:framed_glass",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2E8DDB44A104126E",
+          "type": "item",
+          "item": "minecraft:glass",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "56154D6187E4BBDD",
+      "title": "Light the approach",
+      "icon": "quark:paper_lantern",
+      "description": [
+        "Hang paper lanterns along a path or sheltered entrance. Keep practical lighting around the workshop as well."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": 3,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "40729C74E55479B1"
+      ],
+      "tasks": [
+        {
+          "id": "121CB3D6ECE3A12B",
+          "type": "item",
+          "item": "quark:paper_lantern",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "61E5FABF492ECB99",
+          "type": "item",
+          "item": "minecraft:lantern",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "59DD46E64916F38B",
+      "title": "Let gravity do the work",
+      "icon": "quark:chute",
+      "description": [
+        "Use a chute to drop items into a controlled collection point. Test with a small stack and keep loose items out of busy walkways."
+      ],
+      "subtitle": "",
+      "x": 9,
+      "y": 3,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "56154D6187E4BBDD"
+      ],
+      "tasks": [
+        {
+          "id": "2E42BA939A69298C",
+          "type": "item",
+          "item": "quark:chute",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2266851FC9AD369D",
+          "type": "item",
+          "item": "minecraft:hopper",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "3959885C4891F487",
+      "title": "Build a small landmark",
+      "icon": "quark:trowel",
+      "description": [
+        "Combine your measured footprint, mixed palette, framed windows and lighting in a small gatehouse or workshop. Make the entrance easy to find from the road."
+      ],
+      "subtitle": "",
+      "x": 12,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "7F507490A721EC01",
+        "59DD46E64916F38B"
+      ],
+      "tasks": [
+        {
+          "id": "23915C0FA2715269",
+          "type": "checkmark",
+          "title": "Complete a small build using four Quark features"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17BEEDAF5E318456",
+          "type": "item",
+          "item": "minecraft:scaffolding",
+          "count": 32
+        },
+        {
+          "id": "1C136BA1C0ABBEF3",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    }
+  ]
+}
