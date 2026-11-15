@@ -54,3 +54,5 @@ The server shop removes spent coins. Successful player auctions charge a 5% fee,
 Valuables prices are deliberately below the cost of directly recoverable materials from the server shop (for example, clocks and iron equipment). Review money generation as automation grows.
 
 Emeralds use a conservative bulk price because discounted villager trades can turn purchased logs, sticks or paper into emeralds. The normal and one-item discounted stick trade cannot return more copper than the server log bundle costs.
+
+Resource-to-coin minting is disabled on the server so it cannot bypass the buyback economy. Coin exchange, wallets and player trading remain available. Coin melting remains disabled.

@@ -32,7 +32,7 @@ client_only=client_defaults | {'config/jeioptimizations.properties','config/mode
  'config/spark/config.json','config/jei/client/default/jei-client.ini',
  'config/embeddium-options.json','config/entityculling.json','config/immediatelyfast.json',
  'config/badoptimizations.txt'}
-server_only={'config/lightmanscurrency-server.txt','config/lightmanscurrency/PersistentTraders.json','kubejs/startup_scripts/wombatcraft_spawn_guard.js','kubejs/server_scripts/wombatcraft_spawn_npcs.js'}
+server_only={'config/lightmanscurrency-common.txt','config/lightmanscurrency-server.txt','config/lightmanscurrency/PersistentTraders.json','kubejs/startup_scripts/wombatcraft_spawn_guard.js','kubejs/server_scripts/wombatcraft_spawn_npcs.js'}
 with zipfile.ZipFile(OUT/'overrides.zip','w',zipfile.ZIP_DEFLATED) as z:
  for p in sorted((ROOT/'pack').rglob('*')):
   if not p.is_file():continue
