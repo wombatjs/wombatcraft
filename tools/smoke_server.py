@@ -1,16 +1,21 @@
 """Boot a disposable dedicated server and validate live quest/item/recipe registries."""
 import hashlib,json,os,shutil,subprocess,sys,time,urllib.request,zipfile
 from pathlib import Path
-from portal_patch import PATCH_NAME, COMPAT_PATCH_NAME, build_portal_patch
+from portal_patch import PATCH_NAME, COMPAT_PATCH_NAME, REFINED_PATCH_NAME, build_portal_patch
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'launcher'));import updater
 dest=ROOT/'dist/server-smoke';dest.mkdir(parents=True,exist_ok=True)
 lock=json.loads((ROOT/'mod-lock.json').read_text());mods=dest/'mods';mods.mkdir(exist_ok=True)
+# CI may restore an older cached mods directory. Do not load retired mods.
+expected={r['file']['filename'] for r in lock['mods'] if r.get('server',r['project'].get('server_side')!='unsupported')} | {PATCH_NAME,COMPAT_PATCH_NAME,REFINED_PATCH_NAME,'forge-quest-audit.jar'}
+for old in mods.glob('*.jar'):
+ if old.name not in expected:old.unlink()
 print('Verifying and downloading pinned server mods...',flush=True)
 for r in lock['mods']:
  if not r.get('server',r['project'].get('server_side')!='unsupported'):continue
  f=r['file'];updater.download(dict(path='mods/'+f['filename'],url=f['url'],fallback_urls=r.get('fallback_urls',[]),sha512=f['hashes']['sha512'],size=f['size']),mods/f['filename'])
 (mods/PATCH_NAME).write_bytes(build_portal_patch())
 (mods/COMPAT_PATCH_NAME).write_bytes(build_portal_patch('runtime-compat'))
+(mods/REFINED_PATCH_NAME).write_bytes(build_portal_patch('refined-dimension-sync'))
 print('Mod downloads verified; auditing expedition targets.',flush=True)
 # Audit expedition targets against the exact release jars, not an old web wiki.
 advancements=set();dimensions=set();structures=set()

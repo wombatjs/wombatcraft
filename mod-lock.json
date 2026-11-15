@@ -7,234 +7,253 @@
         "client_side": "required",
         "server_side": "required",
         "game_versions": [
-          "1.16.5",
-          "1.19.4",
-          "1.20.1"
+          "1.19.2",
+          "1.20.1",
+          "1.20.2"
         ],
         "environment": [
           "client_and_server"
         ],
-        "id": "dw2i4X0i",
-        "slug": "tardis-mod",
+        "id": "nqVt6aES",
+        "slug": "tardis-refined",
         "project_type": "mod",
-        "team": "Y5sL0vKk",
+        "team": "8QDaHnVs",
         "organization": null,
-        "title": "Tardis Mod",
-        "description": "Travel your world in an alien Timeship inspired by the Doctor Who TARDIS!",
-        "body": "<p style=\"text-align: center;\"><span style=\"font-size: 36px;\"><a title=\"New TARDIS Mod: An Introduction\" href=\"https://www.youtube.com/watch?v=QTsVFGX0vYI\" target=\"_blank\" rel=\"noopener noreferrer\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://i.imgur.com/aJxrhjb.png\" alt=\"\" width=\"650\" height=\"212\" /></a><img src=\"https://imgur.com/a/FQweOBm\" alt=\"\" /></span><span style=\"font-size: 14px;\">=========================================</span></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 14px;\"><em><a href=\"https://www.youtube.com/watch?v=QTsVFGX0vYI\">A long time ago</a>, or in days to come, there was a schism that raged throughout the stars. </em></span></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 14px;\"><em>A mighty Time War was fought between two powerful races that stretched across almost every dimension in time. </em></span></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 14px;\"><em>It cost these two races, <strong>everything</strong>. </em></span></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 14px;\"><em>Refugees and renegades scattered across the universe, fighting or fleeing for their lives. But where can one go to escape a universe on fire? </em></span></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 14px;\"><em>Some lucky few, in damaged timeships, limped into an unlikely haven; a strange voxellian realm seemingly untouched by the horrors they experienced. </em></span></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 14px;\"><em>There they abandoned their escape vessels, leaving them broken, alone and eventually, forgotten by time. </em></span></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 14px;\"><em>What became of these travelers is&hellip;unknown, but these fabled timeships of immense power remained&hellip;waiting to be rediscovered and yearning&hellip;to once again journey through <strong>Time And Relative Dimensions In Space</strong>!</em></span></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 14px;\">=========================================</span>&nbsp;</p>\n<p style=\"text-align: center;\"><a title=\"The New TARDIS Mod - Official Trailer\" href=\"https://www.youtube.com/watch?v=DDU0EEKMHE8\" target=\"_blank\" rel=\"noopener noreferrer\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://i.imgur.com/AEd4x4O.gif\" alt=\"\" width=\"600\" height=\"305\" /></a></p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<p><img src=\"https://i.imgur.com/AEd4x4O.gifv\" alt=\"\" /></p>\n<h2 id=\"h54sl105sqqlvfgcoz5m1if65cha0c\"><span style=\"font-weight: 400; font-size: 24px;\"><img src=\"https://i.imgur.com/X8DSUZc.png\" alt=\"wiki_logo\" width=\"30\" height=\"28\" />&nbsp;About</span></h2>\n<p><span style=\"font-size: 14px;\">The New TARDIS Mod is a technology mod that adds a pocket dimension which can act as a portable base, inspired by the eponymous time machine from the popular British television show, Doctor Who.</span></p>\n<p><span style=\"font-size: 14px;\">The mod works for singleplayer and multiplayer. It requires Minecraft Forge to be installed beforehand. </span></p>\n<p><span style=\"font-size: 14px;\">You do not need to know about the Doctor Who show to play this mod.</span></p>\n<h3 style=\"text-align: left;\"><span style=\"font-size: 24px;\"><img src=\"https://tardis-mod.com/uploads/images/gallery/2019-10/scaled-1680-/QuJ0YwYMTI9xUeiw-circuit-exotronic-jumbo.png\" width=\"30\" height=\"30\" />&nbsp;Features</span></h3>\n<ul>\n<li><span style=\"font-weight: 400; font-size: 14px;\">Sentient <strong>Timeship</strong> with interactive and influential <strong>Emotional</strong> and <strong>Traits</strong> <strong>systems.</strong></span></li>\n<li><span style=\"font-weight: 400; font-size: 14px;\"><strong>Travel to any dimension and location</strong>!</span>&nbsp;</li>\n<li><span style=\"font-weight: 400; font-size: 14px;\"><strong>Multiplayer friendly</strong> and <strong>Survival mode</strong> <strong>ready</strong>.</span></li>\n<li><span style=\"font-weight: 400; font-size: 14px;\"><strong>Hands-on</strong>, minimalist console <strong>control design</strong>!&nbsp;</span></li>\n<li><span style=\"font-weight: 400; font-size: 14px;\">Comprehensive <strong>In-game Documentation</strong>.&nbsp;</span></li>\n<li><span style=\"font-size: 14px;\"><strong>Infinitely sized</strong> interior <strong>pocket</strong> <strong>dimension</strong>.</span></li>\n<li><span style=\"font-weight: 400; font-size: 14px;\">Expandable&nbsp;<strong>Rooms</strong>&nbsp;and <strong>Corridors.</strong></span></li>\n<li><span style=\"font-weight: 400; font-size: 14px;\">'<strong>Bigger On The Inside</strong>' Non-Euclidean Portal Rendering (Since 2018).</span></li>\n<li><span style=\"font-weight: 400; font-size: 14px;\">Maintainable&nbsp;<strong>subsystems and useful</strong><strong>&nbsp;upgrades</strong></span></li>\n<li><span style=\"font-weight: 400; font-size: 14px;\">Multiple <strong>Flight Mode Difficulties</strong> and quick-time<strong>&nbsp;Flight Hazard Events</strong></span></li>\n<li><span style=\"font-weight: 400; font-size: 14px;\"><strong>Custom Dimensions and Structures</strong></span></li>\n<li><span style=\"font-weight: 400; font-size: 14px;\"><strong>Custom Mobs - </strong>Daleks, Security Drones, new Villager Professions and more!&nbsp;</span></li>\n<li><span style=\"font-weight: 400; font-size: 14px;\"><strong>Minigame puzzles</strong></span></li>\n<li><span style=\"font-size: 14px;\"><b><strong>Multi-stage quests</strong> (Mini Missions)&nbsp;</b></span></li>\n<li><span style=\"font-weight: 400; font-size: 14px;\">Customisable&nbsp;<strong>Console Units, Console Control Rooms, Exterior Disguises&nbsp;</strong>and <strong>multipurpose gadgets</strong></span></li>\n<li><span style=\"font-weight: 400; font-size: 14px;\"><strong>Chameleon Exterior Disguises that blend in with real blocks</strong></span></li>\n<li><span style=\"font-weight: 400; font-size: 14px;\"><strong>Unlockable Ingame Content</strong></span></li>\n<li><span style=\"font-weight: 400; font-size: 14px;\">Custom <strong>content support via</strong> Minecraft <strong>Datapacks</strong>.</span></li>\n<li><span style=\"font-weight: 400; font-size: 14px;\"><strong>Item, Fluid and Energy</strong> transfer <strong>support</strong></span></li>\n<li><span style=\"font-weight: 400; font-size: 14px;\"><strong>Visible Source</strong> and <strong>API support</strong> for add-ons and integrations!</span></li>\n<li><span style=\"font-size: 14px;\">Some Easter Eggs...and other surprises!&nbsp;</span></li>\n</ul>\n<p><span style=\"font-size: 14px;\"><em><strong>For more details, please visit our wiki</strong></em>: <a style=\"font-size: 14px; background-color: #ffffff;\" href=\"https://tardis-mod.com\"><span style=\"font-weight: 400;\">https://tardis-mod.com</span></a><span style=\"font-weight: 400;\">&nbsp;</span></span></p>\n<p>&nbsp;</p>\n<h2 style=\"text-align: left;\"><span style=\"font-weight: 400; font-size: 24px;\"><img src=\"https://tardis-mod.com/uploads/images/gallery/2021-11/scaled-1680-/8sOSb80wAlZEmx8B-console-steam.png\" width=\"50\" height=\"47\" />Mod Showcase</span></h2>\n<p><span style=\"font-weight: 400; font-size: 14px;\">Want to see the mod in action first? Check out an in-depth showcase of the mod in the below video!</span></p>\n<div class=\"spoiler\">\n<p>&nbsp;</p>\n<p><span style=\"font-size: 14px;\"><iframe allowfullscreen=\"allowfullscreen\" src=\"https://www.youtube.com/embed/L3mIHjDYKqM?wmode=transparent\" height=\"358\" width=\"638\"></iframe></span></p>\n</div>\n<p>&nbsp;<span style=\"font-weight: 400; font-size: 14px;\"><br /></span></p>\n<h2 style=\"text-align: left;\"><span style=\"font-weight: 400; font-size: 24px;\">Compatibilities/Addons/Integrations</span></h2>\n<div class=\"spoiler\">\n<p>&nbsp;<span style=\"font-size: 18px;\">Compatibilities</span></p>\n<p><span style=\"font-size: 14px;\">The Tardis Mod has added specific logic to be compatible with the following types of mods:</span></p>\n<p><span style=\"font-size: 14px;\"><strong>Just Enough Items Recipe Mod</strong></span><br /><span style=\"font-size: 14px;\">We have added compatibility with JEI to allow you to see our custom recipes!</span></p>\n<p><span style=\"font-size: 14px;\"><strong>Custom Dimensions</strong></span><br /><span style=\"font-size: 14px;\">The Tardis timeship can travel to any mod&rsquo;s dimensions. Dimensions can be blacklisted by adjusting the configuration file. </span></p>\n<p><span style=\"font-size: 14px;\"><strong>Forge Energy</strong></span></p>\n<p><span style=\"font-size: 14px;\">Transfer Forge Energy within the Tardis using a Roundel Tap, or pipe energy from the exterior to the interior!&nbsp;</span></p>\n<p><span style=\"font-size: 14px;\"><strong>Item</strong> <strong>Transfer</strong></span></p>\n<p><span style=\"font-size: 14px;\">Items can be transferred within the Tardis using the Item Access Panel!</span></p>\n<p><span style=\"font-size: 14px;\"><strong>Fluid</strong> <strong>Mechanics</strong></span></p>\n<p><span style=\"font-size: 14px;\">Fluids from the exterior of the Tardis can flow into the interior through the doors if the Shield Generator is not active!</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-size: 18px;\">Addons</span></p>\n<p><span style=\"font-size: 14px;\">These mods are designed to complement the Tardis Mod and require the Tardis Mod to be installed beforehand!</span></p>\n<p><span style=\"font-size: 14px;\"><strong>Handles Mod</strong>&nbsp;[ <a href=\"https://www.curseforge.com/minecraft/mc-mods/handles\">Link</a> ]&nbsp;</span></p>\n<p><span style=\"font-size: 14px;\">Allows you to program custom Tardis functions with the CC:Tweaked Mod!</span></p>\n<p><span style=\"font-size: 14px;\"><strong>Temporal Additions&nbsp;</strong>[&nbsp;<a href=\"https://www.curseforge.com/minecraft/mc-mods/t-additions\"><span style=\"text-decoration: underline;\"><strong>Link</strong></span>&nbsp;</a>]</span></p>\n<p><span style=\"font-size: 14px;\">Adds new upgrades, handy new gadgets and more expansion features!</span></p>\n<p><span style=\"font-size: 14px;\"><strong>The Master's</strong> <strong>Delight </strong>[ <a href=\"https://www.curseforge.com/minecraft/mc-mods/the-masters-delight-a-new-tardis-mod-add-on\">Link</a> ]</span></p>\n<p><span style=\"font-size: 14px;\">Adds additional features such as a mechanic to blacklist the End dimension until you kill an Ender Dragon, additional Console Rooms and Console Units.</span></p>\n<p><span style=\"font-size: 14px;\"><strong>Artron</strong> <strong>Converters</strong>&nbsp;[ <a href=\"https://www.curseforge.com/minecraft/mc-mods/artron-converters\">Link</a> ]</span></p>\n<p><span style=\"font-size: 14px;\">Adds a block that allows you to convert Tardis Artron Units to Forge Energy and vice versa.</span></p>\n<p><span style=\"font-size: 14px;\"><strong>More Time Capsules Mod</strong>&nbsp;[ <a href=\"https://www.curseforge.com/minecraft/mc-mods/moretimecapsulesmod\">Link</a> ]</span></p>\n<p><span style=\"font-size: 14px;\">Adds additional Exterior and Console Unit Models!</span></p>\n<p><span style=\"font-size: 14px;\"><strong>More Vortex Manipulators</strong>&nbsp;[ <a href=\"https://www.curseforge.com/minecraft/mc-mods/more-vortex-manipulators\">Link</a> ]</span></p>\n<p><span style=\"font-size: 14px;\">Adds more features to the Vortex Manipulator Item.</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-size: 18px;\">Integrations</span></p>\n<p><span style=\"font-size: 14px;\">These standalone mods add special behaviour that activates if the Tardis Mod is installed alongside them. They don't require the Tardis Mod to work.</span></p>\n<p><span style=\"font-size: 14px;\"><strong>Doctor Who - Weeping Angels</strong>&nbsp;[ <a href=\"https://www.curseforge.com/minecraft/mc-mods/weeping-angels-mod\">Link</a> ]</span></p>\n<p><span style=\"font-size: 14px;\">Weeping Angels can drain Tardis fuel if let inside the Console Room and can change the Tardis' destination! </span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\"><strong>Doctor Who - Regeneration</strong>&nbsp;[ <a href=\"https://www.curseforge.com/minecraft/mc-mods/regeneration\">Link</a> ]&nbsp;</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">Regenerating in the Tardis can damage it!</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\"><strong>Repurposed Structures</strong> [ <a href=\"https://www.curseforge.com/minecraft/mc-mods/repurposed-structures\">Link</a> ]</span></p>\n<p><span style=\"font-size: 14px;\">Adds new variants of the Observatory Structure to their custom Villages! Requires download of their <a href=\"https://www.curseforge.com/minecraft/texture-packs/repurposed-structures-new-tardis-mod-datapack\">compatibility datapack</a></span></p>\n<p><span style=\"font-size: 14px;\"><strong>K9 Mod</strong> [ <a href=\"https://minecraft.curseforge.com/projects/k9-mod\">Link</a> ]</span></p>\n<span style=\"font-size: 14px;\">Adds the eponymous K9 robot dog from Doctor Who! K9 can remotely pilot the Tardis and and repair it!</span></div>\n<p>&nbsp;</p>\n<p><span style=\"font-size: 24px;\">Known Incompatibilities</span></p>\n<div class=\"spoiler\" style=\"text-align: left;\">\n<h3><strong style=\"font-size: 18px;\">Optifine</strong></h3>\n<p><span style=\"font-size: 14px;\">Performance-enhancing mods such as <em>Optifine </em>are not compatible with our Bigger On the Inside portal and Tardis Interior Lighting feature. </span></p>\n<p><span style=\"font-size: 14px;\">This is because Optifine uses <strong>invasive techniques which changes alot of vanilla Minecraft engine code</strong>. They modify many systems, from lighting, rendering to even world generation. This means <strong>they may change or remove many systems this mod relies on</strong>. </span></p>\n<p><span style=\"font-size: 14px;\">Additionally, Optifine's <strong>source code is not publicly available</strong>, meaning we <strong>cannot work with their rendering changes.</strong></span></p>\n<p><span style=\"font-size: 14px;\">We <strong>recommend you use mods such as Magnesium</strong> (Forge version of Sodium) as they <strong>do not have the same issues as Optifine</strong>, provides <strong>better or equal performance</strong> and has source code that is publicly available.&nbsp;</span></p>\n<h4 style=\"text-align: left;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 18px;\"><strong>Immersive Portals/Better Portals</strong></span></span></h4>\n<p><span style=\"font-size: 14px;\">This mod is likely to be incompatible with Immersive Portals/Better Portals. This is because these mods also change alot of vanilla Minecraft code, so they may change or remove systems we rely on in this mod.&nbsp;</span></p>\n<p><span style=\"font-size: 14px;\">Hence, you may experience game crashes or rendering issues when using both mods togethor.&nbsp;</span></p>\n<p><span style=\"font-size: 14px;\">We likely cannot do anything about compatibility with these mods because they apply their changes early in the mod loading process.&nbsp;</span></p>\n<h4><span style=\"font-size: 18px;\"><strong>Better Weather</strong></span></h4>\n<p><span style=\"font-size: 14px;\">Better Weather stops a critical system of the Tardis Mod, Minecraft Forge Capabilities, from working. When this happens, the <strong>Tardis Engine block is disabled</strong> (You may see the message \"You can only use this inside the Tardis\" even if you are inside the Tardis), attunement of Tardis Keys and <strong>other systems may be non-functional and can cause a game crash</strong>.</span></p>\n<p><span style=\"font-size: 14px;\">This issue <a href=\"https://github.com/CorgiTaco/Better-Weather/issues/92\">is being worked on</a>, but until it is resolved, please do not use this mod with the Tardis Mod.</span></p>\n</div>\n<p style=\"text-align: left;\">&nbsp;</p>\n<h2 style=\"text-align: left;\"><span style=\"font-weight: 400; font-size: 24px;\">Community Datapacks</span></h2>\n<div class=\"spoiler\">\n<p><span style=\"font-size: 14px;\">Some of the community-made datapacks that add additional content to the mod!<br /></span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-size: 18px;\">Tardis Interiors (Console Rooms)</span></p>\n<p><span style=\"font-size: 18px;\"><img src=\"https://tardis-mod.com/uploads/images/gallery/2020-09/RoPJHJDqjLZIt8Pb-interior-coral.png\" alt=\"\" width=\"451\" height=\"232\" /></span></p>\n<p><span style=\"font-size: 18px;\"><span style=\"font-size: 14px;\">Custom made control rooms for the Tardis! Some may require the /tardis unlock command to unlock them for your Tardis.</span></span></p>\n<ul>\n<li><span style=\"font-size: 14px;\"><strong>Mechanical Interior by PlasticStraw</strong>&nbsp;[ <a href=\"https://www.planetminecraft.com/data-pack/new-tardis-mod-mechanical-interior-datapack/\">Link </a>]</span></li>\n<li><span style=\"font-size: 14px;\"><strong>8th Doctor's Interior by PlasticStraw</strong> [ <a href=\"https://www.planetminecraft.com/data-pack/new-tardis-mod-8th-doctor-s-tardis-interior-datapack-1-16-5-the-master-s-delight-port/\">Link</a> ]</span></li>\n<li><span style=\"font-size: 14px;\"><strong>Mesh Interior by PlasticStraw</strong> [ <a href=\"https://www.planetminecraft.com/data-pack/new-tardis-mod-mesh-interior-datapack-1-16/\">Link</a> ]</span></li>\n<li><span style=\"font-size: 14px;\"><strong>\"Junk\" Tardis Interior by FlatCake</strong> [ <a href=\"https://cdn.discordapp.com/attachments/919531236781854760/927623603296563220/JunkInteriorDatapack-1-16-v1.zip\">Discord Attachment Link</a> ]</span></li>\n<li><span style=\"font-size: 14px;\"><strong>\"Canon\" Doctor Who Interiors by Sheriff</strong> [ <a href=\"https://www.planetminecraft.com/data-pack/tardis-mod-1-4-canon-interiors-data-and-resource-pack/\">Link</a> ]</span></li>\n<li><span style=\"font-size: 14px;\"><strong>Bagely's Tardis Interiors by Bagely_</strong>&nbsp;[ <a href=\"https://www.curseforge.com/minecraft/mc-addons/bagelys-tardis-interiors\">Link</a> ]</span></li>\n<li><span style=\"font-size: 14px;\"><strong>Flatcake's Basic Interior by Flatcake&nbsp;</strong>[<a href=\"https://cdn.discordapp.com/attachments/919531236781854760/948282053022056458/BasicInteriorDatapack-1-16-v2.zip\">Discord Attachment Link</a>]</span></li>\n</ul>\n<p><span style=\"font-size: 18px;\">ARS Hallways/Rooms</span></p>\n<p><span style=\"font-size: 14px;\"><img src=\"https://tardis-mod.com/uploads/images/gallery/2021-10/Q7STgxBjeZvtH308-old-room-inside-compare.png\" alt=\"\" width=\"483\" height=\"124\" /></span></p>\n<p><span style=\"font-size: 14px;\">Custom made hallways and rooms that can be generated through the ARS Tablet item!</span></p>\n<ul>\n<li><span style=\"font-size: 14px;\"><strong>New Hallways by JoyfulBeatrix</strong> [ <a href=\"https://www.planetminecraft.com/data-pack/new-tardis-mod-1-16-new-hallways/\">Link</a> ]</span></li>\n<li><span style=\"font-size: 14px;\"><strong>Mesh Corridors by PlasticStraw</strong> [ <a href=\"https://www.planetminecraft.com/data-pack/new-tardis-mod-mesh-ars-corridor-rooms-datapack-1-16/\">Link</a> ]</span></li>\n</ul>\n</div>\n<p>&nbsp;</p>\n<h2 style=\"text-align: left;\"><span style=\"font-weight: 400; font-size: 24px;\">Frequently Asked Questions</span></h2>\n<div class=\"spoiler\" style=\"text-align: left;\">\n<h3><span style=\"font-size: 18px;\"><b>General</b></span></h3>\n<div class=\"spoiler\">\n<p><span style=\"font-weight: 400; font-size: 14px;\">Q: Is this mod a continuation of the original Tardis Mod by ShaneDarkholme?</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">A: No, while the New Tardis Mod was inspired by the original mod, it has no relation to it.</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">Q: Who made this mod?</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">A: The New Tardis Mod was created by Lilith and the current maintainers are the <a href=\"http://tardis-mod.com/books/home/page/meet-the-team%20.\">Tardis Team</a>.</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">Q: Why did you make this mod?&nbsp;</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">A: Lilith was a fan of the original Tardis Mod by ShaneDarkholme and was disappointed that it had not updated to newer Minecraft versions, so they made their own version!&nbsp;</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">Q: I was told by X that Y was added/implemented in this way. Why does it not work like that?</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">A: Your installed version of the mod may not match with the version the information is referring to, or the information may be inaccurate.</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">Q: What makes your Bigger On the Inside Portals different from mods such as Immersive Portals?&nbsp;</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">A: Our portal rendering implementation was created by Spectre0987 in early 2018. It is designed to have the best mod compatibility as possible. Unlike other implementations, it uses mainly vanilla Minecraft rendering systems and minimal coremodding techniques, meaning we do not interfere with other mods as much as other portal implementations do. However, being more aligned with vanilla Minecraft means our implementation will not offer the same types of features such as those in Immersive Portals.&nbsp;</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">Q: Why do the designs of your assets differ greatly from those seen in the Doctor Who television show?</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">A: The idea we are conveying is that this Tardis is not necessarily the Doctor's Tardis, but another Type 40 Tardis. Hence, while the aesthetic choices are inspired by the designs shown in the television show, they do not strictly adhere to them.</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">Q: Why are the Tardis controls in this mod so difficult to use? Why not make the experience based upon user-friendly GUIs?</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">A: The idea behind having button-based controls and minimal use of GUIs is to allow the user to experience a taste of how complex it would be to operate a time machine such as a Tardis. This hands-on approach is intended to help users question and explore their Tardis, learn about it, and respect it as if it were a living being, similar to how it is portrayed in the television show.</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">If you need more information, feel free to consult the in-game Tardis Manual Book or ask us!</span></p>\n</div>\n<p style=\"text-align: left;\">&nbsp;</p>\n<h3><span style=\"font-size: 18px;\"><b>Installation</b></span></h3>\n<div class=\"spoiler\">\n<p><span style=\"font-weight: 400; font-size: 14px;\">Q: Are library mods required?</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">A: No. You only need the Tardis mod jar file.</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">Q: Which version of Forge do I need?</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">A: We recommend you use the latest version of Forge. Make sure the Forge version matches that of the Minecraft Version. E.g. 1.14.4 Forge for Minecraft 1.14.4</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">Q: Will you add support for cracked versions?</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">A: No, the developers do not support cracked Minecraft versions.</span></p>\n</div>\n<p style=\"text-align: left;\">&nbsp;</p>\n<h3><span style=\"font-size: 18px;\"><b>Mod Usage</b></span></h3>\n<div class=\"spoiler\">\n<p id=\"bkmrk-q%3A-how-do-i-make-a-t\"><span style=\"font-size: 14px;\">Q: How do I obtain a TARDIS?&nbsp;</span></p>\n<p id=\"bkmrk-a%3A-tardis%27s-are-now-\"><span style=\"font-size: 14px;\">A: In the 1.14.4+ versions, Tardises are now obtained by finding them and encouraging them to open for you. In 1.12.2, you would craft a Tardis Coral and wait for it to grow.</span></p>\n<ul id=\"bkmrk-1.14-information%3A-ht\">\n<li><span style=\"font-size: 14px;\"><a href=\"https://tardis-mod.com/books/tutorials/page/obtaining-a-tardis\">1.16+ information</a></span></li>\n<li><span style=\"font-size: 14px;\"><a href=\"https://tardis-mod.com/books/deprecated-features/page/creating-your-tardis\">1.12 information</a></span></li>\n</ul>\n<p id=\"bkmrk-q%3A-why-is-the-tardis\"><span style=\"font-size: 14px;\">Q: Why is the Tardis not taking off/What are Sub-systems?</span></p>\n<p id=\"bkmrk-a%3A-the-tardis-requir\"><span style=\"font-size: 14px;\">A: The Tardis requires the installation of special components to make it operational for flight. Currently, it requires the Dematerialisation Circuit and Fluid Links. Other sub systems such as the Chameleon Circuit are required for some of the features in the Monitor. (As of Version 1.1 for Minecraft 1.14.4)</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">Q: How do I summon my TARDIS?</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">A: You will need to craft a Stattenheim Remote. If you are using the 1.12.2 version, you need to bind it to the Tardis by combining it with your Tardis key. In 1.14 you don't need to do this binding step. Finally, right-click a block with the remote. The Tardis will land roughly near the block&rsquo;s coordinates.</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">Q: How do I generate rooms?</span></p>\n<p dir=\"ltr\"><span style=\"font-size: 14px;\">A: This requires two items - an ARS Structure Start Block and the ARS Tablet. The ARS Structure Block determines where the corridor is generated while the ARS Tablet determines the type of room to generate.</span></p>\n<p dir=\"ltr\"><span style=\"font-size: 14px;\">1. To generate the room, first place an ARS Structure block two blocks up from the floor of the Tardis interior to work.</span><br /><span style=\"font-size: 14px;\">2. Next, hold the ARS Tablet and right click. This will bring up a room selection GUI.</span><br /><span style=\"font-size: 14px;\">3. Select the room type you want to generate by clicking on the button that corresponds to the room you want.&nbsp;</span><br /><span style=\"font-size: 14px;\">4. Finally, hold the ARS Tablet and right click on the ARS Structure Block. This will generate the selected room.</span></p>\n<p dir=\"ltr\"><span style=\"font-size: 14px;\">Q: Can you remove rooms that you create?</span><br /><span style=\"font-size: 14px;\"> A: Yes, right click with the ARS Tablet on the ARS Structure Void Block that is located at the entrance of a generated room. You will be asked to confirm your decision before the room gets deleted.&nbsp;</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">Q: Can I use more than one Tardis per world save?</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">A: As of 1.16.5+, you can operate multiple Tardises at a time. You don't actually \"own\" a Tardis anymore, every Tardis just has a certain level of loyalty towards you. Yes, this means you can even influence a Tardis to prefer you over all the other pilots!&nbsp;</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">Q: Can you remove the Tardis you own?&nbsp;</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">A: You cannot disown or remove your Tardis using an ingame method, because of technical consequences. There is a technical solution which involves removing the Tardis dimension folder and removing the entry for that dimension inside the level.dat file in the world save folder. However, we do not recommend this, nor support it because if done incorrectly, it may corrupt your world save.&nbsp;</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">Q: How do I unlock the Police Box Exterior?</span></p>\n<p><span style=\"font-weight: 400; font-size: 14px;\">A:&nbsp;</span><span style=\"font-weight: 400; font-size: 14px;\">There are two types of Police Box exteriors, the Classic Mk3 and Modern Mk7.&nbsp;</span></p>\n<p><span style=\"font-size: 14px;\">See this&nbsp;<a href=\"https://tardis-mod.com/books/tutorials/page/unlocking-exteriors\"><em>wiki article</em></a> for more information.</span></p>\n<p><span style=\"font-size: 14px;\">You may ask, why does the survival process seem so convoluted? The idea behind this feature is that the Tardis in this mod is damaged and missing many vital components, including knowledge of exterior designs to disguise itself with. The player is the only one who can help this Tardis discover more things in the Minecraft world, including exterior designs.&nbsp;</span></p>\n</div>\n<p>&nbsp;</p>\n<h3><span style=\"font-size: 18px;\"><strong>Future Plans</strong></span></h3>\n<div class=\"spoiler\">\n<p><span style=\"font-size: 14px;\">Q: Will you update/backport to Minecraft version X?</span></p>\n<p><span style=\"font-size: 14px;\">A: We can only update to a newer version of Minecraft if the Forge mod loader is available for that version and also includes the modding tools we need.</span></p>\n<p><span style=\"font-size: 14px;\">We will not backport the mod to 1.12.2 or older versions</span></p>\n<p><span style=\"font-size: 14px;\">We will aim to target the newest versions of Minecraft. Currently this is 1.16.5.&nbsp;</span></p>\n<p><span style=\"font-size: 14px;\">Q: Will you be updating to Forge version X? (E.g. 36.2.0)</span></p>\n<p><span style=\"font-size: 14px;\">A: We will update to a newer version of Forge if it contains the modding tools we need. If the newer versions of Forge don't have the system yet, we will likely take longer to update to that version.&nbsp;</span></p>\n<p><span style=\"font-size: 14px;\">Q: Will you port the Tardis Mod to the Fabric platform?</span></p>\n<p><span style=\"font-size: 14px;\">A: We don't have any current plans to port the Tardis Mod to the Fabric platform.</span></p>\n<p><span style=\"font-size: 14px;\">There are a number of tools we use in this mod which are missing in the Fabric API.</span></p>\n<p><span style=\"font-size: 14px;\">Additionally, there are a number of vanilla bugs not patched by Fabric which directly impact the gameplay experience of this mod.</span></p>\n<p><span style=\"font-size: 14px;\">We are also a small team so we don't have the time and resources to maintain a Fabric port alongside our Forge version, at the moment.</span></p>\n<p><span style=\"font-size: 14px;\">If anyone wants to make the port please reach out to the owner of this mod, Lilith.</span></p>\n</div>\n</div>\n<p style=\"text-align: left;\">&nbsp;</p>\n<h2 style=\"text-align: left;\"><span style=\"font-weight: 400; font-size: 24px;\">Terms of Use</span></h2>\n<div class=\"spoiler\" style=\"text-align: left;\">\n<h3 style=\"text-align: left;\"><span style=\"font-size: 18px;\"><b>General/distribution/mod packs:</b></span></h3>\n<p style=\"text-align: left;\"><span style=\"font-weight: 400; font-size: 14px;\">You are free to use this mod for personal use.</span></p>\n<p style=\"text-align: left;\"><span style=\"font-weight: 400; font-size: 14px;\">You may use it for non-commercial public use as well, as long as you link back to this thread or CurseForge page and use official download links.</span></p>\n<p style=\"text-align: left;\"><span style=\"font-weight: 400; font-size: 14px;\">If you wish to put this mod in a modpack that is redistributed commercially, please contact the owner (Lilith) about it so we can discuss this further.</span></p>\n<h3 style=\"text-align: left;\"><span style=\"font-size: 18px;\"><b>Modpacks</b></span></h3>\n<p style=\"text-align: left;\"><span style=\"font-weight: 400; font-size: 14px;\">You can use this mod in your modpack. You don&rsquo;t have to ask for permission as long as you credit the author.</span></p>\n<p style=\"text-align: left;\"><span style=\"font-weight: 400; font-size: 14px;\">You cannot upload this mod on other platforms.</span></p>\n<h3 style=\"text-align: left;\"><span style=\"font-size: 18px;\"><b>Licensing</b></span></h3>\n<p style=\"text-align: left;\"><span style=\"font-weight: 400; font-size: 14px;\">This project is licensed under All Rights Reserved. More information about this license can be found in the License.MD file within the GitLab repository.&nbsp;</span></p>\n<p style=\"text-align: left;\"><span style=\"font-weight: 400; font-size: 14px;\">You may NOT redistribute this mod by itself in a way that allows you to earn money off of it.</span></p>\n<p style=\"text-align: left;\"><span style=\"font-weight: 400; font-size: 14px;\">The source code is provided to allow for addon mods, but not redistribution of the code.</span></p>\n<p style=\"text-align: left;\"><span style=\"font-weight: 400; font-size: 14px;\">These terms can be subject to change.&nbsp;</span></p>\n</div>\n<p style=\"text-align: left;\">&nbsp;</p>\n<h2 style=\"text-align: left;\"><span style=\"font-weight: 400; font-size: 24px;\">Issues and Contributions</span></h2>\n<div class=\"spoiler\">\n<p>&nbsp;<span style=\"font-size: 18px;\"><strong>Issues</strong></span></p>\n<p><span style=\"font-size: 14px;\">If you would like to report an issue with the mod, please do so with our issue tracker. Please do so for the correct version of the mod.</span></p>\n<p><span style=\"font-size: 14px;\">Issue tracker:</span></p>\n<ul>\n<li><span style=\"font-size: 14px;\"><a href=\"https://gitlab.com/Spectre0987/TardisMod-1-14/-/issues\">https://gitlab.com/Spectre0987/TardisMod-1-14/-/issues</a></span></li>\n</ul>\n<span style=\"font-size: 18px;\"><strong>Contributions</strong></span>\n<p><span style=\"font-size: 14px;\">We really appreciate any contributions to the mod, whether its code or assets!</span></p>\n<h4><span style=\"font-size: 14px;\"><em>Code Contributions</em></span></h4>\n<p><span style=\"font-size: 14px;\">Please submit a pull request to our repository.</span></p>\n<p><span style=\"font-size: 14px;\">Code Repository</span></p>\n<ul>\n<li><span style=\"font-size: 14px;\"><a href=\"https://gitlab.com/Spectre0987/TardisMod-1-14/-/merge_requests\">https://gitlab.com/Spectre0987/TardisMod-1-14/-/merge_requests</a></span></li>\n</ul>\n<p><span style=\"font-size: 18px;\"><strong>Wiki and Documentation</strong></span></p>\n<p><span style=\"font-size: 14px;\">Our wiki is available for anyone to contribute to as long as they follow the <a href=\"https://tardis-mod.com/books/wiki-utils/page/wiki-documentation-guidelines\">contribution rules</a>.&nbsp;</span></p>\n</div>\n<p>&nbsp;</p>\n<h2 style=\"text-align: left;\"><span style=\"font-weight: 400; font-size: 24px;\">Mod Integration and API</span></h2>\n<div class=\"spoiler\">\n<p><span style=\"font-size: 14px;\">You can start to add compatibility with this mod by first adding it as a gradle dependency in your build.gradle file.</span></p>\n<p><span style=\"font-size: 14px;\">We currently do not own a public maven, but you can use sites such as <a href=\"https://jitpack.io/\">Jitpack</a> that offer similar functionality.&nbsp;</span></p>\n<p><span style=\"font-size: 14px;\">You can also create addon content through subscribing to our custom Forge registries in your code.&nbsp;</span></p>\n<p><span style=\"font-size: 14px;\">If you have any questions feel free to ask us via our Discord server linked at the bottom of this page!&nbsp;</span></p>\n</div>\n<p>&nbsp;</p>\n<h2 style=\"text-align: left;\"><span style=\"font-weight: 400; font-size: 24px;\">Credits</span></h2>\n<div class=\"spoiler\">\n<h3 style=\"text-align: left;\"><span style=\"font-size: 18px;\"><b>Programming</b></span></h3>\n<ul style=\"text-align: left;\">\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400; font-size: 14px;\">Snakefangox - Contributed to creating the Bigger On the Inside portal feature&nbsp;</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400; font-size: 14px;\">Honeyluck - Contributed to the Bigger on the Inside portal feature.&nbsp;</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400; font-size: 14px;\">CommandrMoose - Creating Gallifrey for 1.12, trailer videos and preview videos</span></li>\n</ul>\n<h3 style=\"text-align: left;\"><span style=\"font-size: 18px;\"><b>Assets</b></span></h3>\n<ul>\n<li style=\"text-align: left;\"><span style=\"font-weight: 400; font-size: 14px;\">dhi_awesome - Artist</span></li>\n<li style=\"text-align: left;\"><span style=\"font-weight: 400; font-size: 14px;\">Violet - Main Artist of the 1.12 versions</span></li>\n<li><span style=\"font-weight: 400; font-size: 14px;\">DocArcane - Main Artist and Music Composer of the 1.14+ versions.</span></li>\n</ul>\n<h3 style=\"text-align: left;\"><span style=\"font-size: 18px;\"><b>Translations</b></span></h3>\n<ul>\n<li><span style=\"font-weight: 400; font-size: 14px;\">Thekiborg - Spanish (Spain) translations</span></li>\n<li><span style=\"font-weight: 400; font-size: 14px;\">Dr.Zer0, FerrKy, Naoki Tempest and Klaus&nbsp; - Brazilian Portuguese translation</span></li>\n<li><span style=\"font-weight: 400; font-size: 14px;\">Alex-23 - Russian translations</span></li>\n<li><span style=\"font-weight: 400; font-size: 14px;\">Dithree - Chinese translation</span></li>\n</ul>\n<h3 style=\"text-align: left;\"><span style=\"font-size: 18px;\">Special Thanks</span></h3>\n<ul>\n<li><span style=\"font-size: 14px;\">TelepathicGrunt - Your advice and deep understanding of Minecraft world generation helped alot. Thank you so much.</span></li>\n</ul>\n</div>\n<p>&nbsp;</p>\n<h2><span style=\"font-weight: 400; font-size: 24px;\"><a href=\"https://tardis-mod.com\"><img src=\"https://tardis-mod.com/uploads/images/gallery/2020-09/scaled-1680-/TAC8mBTL6zfI0gbZ-manual.png\" width=\"35\" height=\"35\" /></a>Wiki</span></h2>\n<p><span style=\"font-size: 14px;\"><strong>Link</strong>: https://tardis-mod.com</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400; font-size: 24px;\"><img style=\"float: left;\" src=\"https://i.imgur.com/lE8wfUg.png\" alt=\"modpack-icon\" width=\"27\" height=\"30\" />&nbsp;Recommended Modpacks</span></p>\n<p><span style=\"font-size: 14px;\"><strong><img src=\"https://media.forgecdn.net/avatars/thumbnails/347/776/120/120/637498010205123274.png\" width=\"82\" height=\"82\" />&nbsp;Tardis Engineers 2</strong>: Minecraft Forge 1.16.5, Technology, Lightweight, Survival. 20-30 mods. [<a href=\"https://www.curseforge.com/minecraft/modpacks/tardis-engineers-2\" rel=\"nofollow\">Download Link</a>]</span></p>\n<p><span style=\"font-size: 14px;\"><strong><img src=\"https://raw.githubusercontent.com/Elfinlocks/Astral_Engineering/main/assets/logo.png\" alt=\"\" width=\"97\" height=\"52\" />Astral</strong> <strong>Engineering:</strong> Minecraft Forge 1.16.5, Technology, Medium Difficulty, Survival. 250+ mods [<a href=\"https://www.curseforge.com/minecraft/modpacks/astral-engineering\">Download Link</a>]</span><span style=\"font-size: 14px;\"><br /></span></p>\n<p><span style=\"font-size: 14px;\"><strong style=\"font-size: 14px;\"><img src=\"https://i.imgur.com/ZtSHUWL.png\" width=\"200\" height=\"36\" /></strong></span></p>\n<p><span style=\"font-size: 14px;\"><strong style=\"font-size: 14px;\">Engineer's Life 2</strong><span style=\"font-size: 14px;\">: Minecraft Forge 1.16.5, Technology, non-kitchen sink style. 250+ mods. [</span><a style=\"font-size: 14px; background-color: #ffffff;\" href=\"https://www.curseforge.com/minecraft/modpacks/engineers-life-2\">Download Link</a><span style=\"font-size: 14px;\">]&nbsp;</span></span><span style=\"font-size: 14px;\"><span style=\"font-size: 14px;\"><br /></span></span></p>\n<p><span style=\"font-size: 14px;\"><strong><img src=\"https://www.bisecthosting.com/images/CF/CrazyCraftUpdated/BH_CCU_Header.png\" width=\"167\" height=\"56\" /></strong></span></p>\n<p><span style=\"font-size: 14px;\"><strong>Crazy Craft</strong> <strong>Updated</strong>: Minecraft Forge 1.16.5, Mixed, Sandbox. 250+ mods [<a href=\"https://www.curseforge.com/minecraft/modpacks/crazy-craft-updated\">Download Link</a>]</span><span style=\"font-size: 14px;\">&nbsp;</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-size: 14px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 18px;\"><img src=\"https://i.imgur.com/VYo4vbn.png\" alt=\"server\" width=\"25\" height=\"48\" /></span><span style=\"font-size: 24px;\">&nbsp;Minecraft Server</span></span></span></p>\n<p><span style=\"font-size: 14px;\">We <strong>no longer host a public Minecraft Server</strong> as it is something we are not interested in.</span></p>\n<p><span style=\"font-size: 14px;\">However, we still <strong>host a private Minecraft Server</strong> for our Patreon supporters and development use.&nbsp;</span></p>\n<p style=\"text-align: left;\"><span style=\"font-size: 14px;\">To be whitelisted, please see our <a href=\"https://www.patreon.com/tardismod\">Patreon page</a> for more information.</span></p>\n<p style=\"text-align: left;\">&nbsp;</p>\n<p style=\"text-align: left;\"><span style=\"font-size: 24px;\"><a href=\"https://discord.gg/wdhbhTt\"><img src=\"https://i.imgur.com/fMqMsqN.png\" width=\"35\" height=\"35\" /></a>Contact Us On Discord</span></p>\n<p style=\"text-align: left;\"><span style=\"font-size: 14px;\">Need help, or have a question? Feel free to contact us via our public <a href=\"https://discord.gg/wdhbhTt\">Discord server</a>!</span></p>\n<p style=\"text-align: left;\"><span style=\"font-size: 14px;\">&nbsp;<a href=\"https://www.patreon.com/tardismod\"><img src=\"https://i.imgur.com/pqG5RzH.png\" alt=\"donate\" width=\"35\" height=\"35\" /></a><span style=\"font-size: 24px;\">Patreon/Donations</span></span></p>\n<p style=\"text-align: left;\"><span style=\"font-weight: 400; font-size: 14px;\">Like the mod? </span><span style=\"font-weight: 400; font-size: 14px;\">Consider donating to our&nbsp;</span><span style=\"font-weight: 400;\"><span style=\"font-weight: 400;\"><span style=\"font-size: 14px;\">Patreon page</span> [ </span></span><span style=\"font-weight: 400; font-size: 14px;\"><a style=\"font-size: 14px; font-weight: 400; background-color: #ffffff;\" href=\"https://www.patreon.com/tardismod\">here</a><span style=\"font-weight: 400;\"> ] !</span></span></p>",
+        "title": "TARDIS Refined",
+        "description": "Adds the Doctor Who TARDIS to your game!",
+        "body": "![Tardis Refined Logo](https://i.imgur.com/eIfAaYJ.png)\n\nThis mod adds the TARDIS from the BBC Television show \"DOCTOR WHO\", which acts as a portable dimension that players can occupy. Grow and advance your TARDIS to your liking with full customization options, allowing players to emulate their favorite parts of the show.  The mod aims to emulate the Vanilla playstyle, ensuring that it matches within the established gameplay rules of Minecraft.\n\n![The Default Shell](https://user-images.githubusercontent.com/34910888/209619086-39fc1d0a-f5cc-4b49-aa61-5cd4bb3b532a.png)\n\n## Features:\n* Travel anywhere, across dimensions and across the world!\n* Fully modelled Exterior Shells and Console Units\n* Fully functional controls - allowing you to travel anywhere!\n* Locking system.\n* Customization of the Exterior Shell, Desktop and Console Unit\n\n## Watch a trailer\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/aN96bZqCgAA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n## Issues\nPlease report any issues to the issue tracker linked on the left of this page.\n\n## Distribution\nYou are free to use this mod for personal use.\nYou may use it for non-commercial public use as well, as long as you link back to this CurseForge/Modrinth page and use official download links.\nYou may not reupload this mod on other platforms.\nThese terms can be subject to change.\n\n## Modpacks\nYou can use this mod in your modpack. You don\u2019t have to ask for permission as long as you credit the author.\nIt would be greatly appreciated if you included this mod in your modpack's \"Dependencies\" list. \nIf you wish to put this mod in a modpack that is redistributed commercially, please contact the owner about it so we can discuss this further.\nThese terms can be subject to change. \n\nYou can view our license here. All terms of this license are subject to change.\nhttps://github.com/WhoCraft/TardisRefined/blob/master/LICENSE",
         "body_url": null,
-        "published": "2023-07-06T22:16:18.521532Z",
-        "updated": "2026-09-25T00:27:03.289183Z",
-        "approved": "2023-07-08T03:39:30.077229Z",
-        "queued": "2023-07-06T22:22:45.019618Z",
+        "published": "2022-12-29T23:05:26.069659Z",
+        "updated": "2026-07-12T22:53:47.204124Z",
+        "approved": "2022-12-31T21:47:39.052499Z",
+        "queued": null,
         "status": "approved",
         "requested_status": "approved",
         "moderator_message": null,
         "license": {
-          "id": "LicenseRef-All-Rights-Reserved",
+          "id": "LicenseRef-Multiple",
           "name": "",
-          "url": null
+          "url": "https://github.com/WhoCraft/TardisRefined/blob/minecraft/1.20/LICENSE.MD"
         },
-        "downloads": 21628,
-        "followers": 77,
+        "downloads": 428975,
+        "followers": 378,
         "categories": [
-          "adventure",
           "technology",
-          "transportation"
-        ],
-        "additional_categories": [
-          "decoration",
-          "equipment",
-          "game-mechanics",
-          "minigame",
-          "utility",
+          "transportation",
           "worldgen"
         ],
+        "additional_categories": [
+          "adventure",
+          "game-mechanics",
+          "utility"
+        ],
         "loaders": [
-          "forge"
+          "fabric",
+          "forge",
+          "neoforge"
         ],
         "versions": [
-          "bHSWLQRc",
-          "L0PxF5KN",
-          "wFOY1OEA",
-          "7XSAa41L",
-          "npfVpQBh",
-          "4sFLsyL6",
-          "IwCT2GGn",
-          "A2R9BsSz",
-          "yUUXedUF",
-          "2PGjmhE6"
+          "rWN4dgkb",
+          "HGn4WO3P",
+          "4yTFrVUg",
+          "ZbssgjKM",
+          "OgVzxIeJ",
+          "I8A0Dhhj",
+          "9VeM1HY3",
+          "EvuquyXk",
+          "6Uj9q9N3",
+          "sUBZLekx",
+          "RHAVyVKP",
+          "uwESuARQ",
+          "xxkLr249",
+          "TSjBJepT",
+          "bbmSgRb7",
+          "qZ9YXYtA",
+          "rpoDc5vz",
+          "c2qdLF7V",
+          "qY7ZsAuS",
+          "kFkFwn9b",
+          "PODjsJUo",
+          "Ys3esTSe",
+          "CyOf77Ng",
+          "DO9MDvoX",
+          "XslSLwhy",
+          "Mbqa8ztt",
+          "DOEGnWZ9",
+          "DkqFSWhg",
+          "IWQF5Chr",
+          "5oOBtW8F",
+          "KvdVurye",
+          "ul64crHw",
+          "kfdrLfsa",
+          "9pQbYbqG",
+          "fjRLWqeJ",
+          "6lDAqZTn",
+          "2Gs24AUS",
+          "6uWjBQGy",
+          "YHwiyNry",
+          "T8gNaXs4",
+          "vdDLXi8J",
+          "j4lfbueA",
+          "TlbQNIOL",
+          "U0OG1rk0",
+          "peEuD0Kb",
+          "bXNDyi8S",
+          "8CtvWCHr",
+          "Lm8BhPBc",
+          "G9a6pwQa",
+          "Q776ciK9",
+          "dxGftbwr",
+          "W7xS4m7i",
+          "lqPLBhTR",
+          "2GHaI7KK",
+          "j0CPZGFB",
+          "Vs6AAcaI",
+          "Y2ktpWTb",
+          "5UJJFgoR",
+          "KPJuYXXg",
+          "iXhlqDIR",
+          "kn5NupVa",
+          "TwZf1vY4",
+          "BNSiQjTD"
         ],
-        "icon_url": "https://cdn.modrinth.com/data/dw2i4X0i/fe5bae0dc60de6e1a2fe5b224b80fb9cd49351dd_96.webp",
-        "raw_icon_url": "https://cdn.modrinth.com/data/dw2i4X0i/bd3eb300a62f132b7691c88b8b7c5ba3bd37c76d.png",
-        "issues_url": "https://gitlab.com/Spectre0987/TardisMod/issues",
-        "source_url": "https://gitlab.com/Spectre0987/TardisMod",
-        "wiki_url": "https://tardis-mod.com/",
-        "discord_url": null,
-        "donation_urls": [
-          {
-            "id": "patreon",
-            "platform": "Patreon",
-            "url": "https://www.patreon.com/tardismod"
-          }
-        ],
-        "gallery": [],
-        "color": 1970181,
-        "thread_id": "dw2i4X0i",
-        "monetization_status": "monetized"
-      },
-      "version": {
-        "game_versions": [
-          "1.20.1"
-        ],
-        "loaders": [
-          "forge"
-        ],
-        "environment": "client_and_server",
-        "id": "2PGjmhE6",
-        "project_id": "dw2i4X0i",
-        "author_id": "o4K10svf",
-        "featured": false,
-        "name": "Tardis Mod 1.20.1-1.1.6",
-        "version_number": "1.20.1-1.1.6",
-        "changelog": "# TARDIS Mod Changelog\n\n## 1.1.6\n\n### Fixes\n\nAdded TARDIS Controls to the Carry On mod's blacklist\n\nFixed Rift Pylons needing to be in the actual chunk the rift is in\n\nFixed new TARDIS Generation\n\n### Additions\n\nStonecutter recipes:\n+ Added the ability to exchange any roundel for any other\n+ Added the ability to craft 32 of any roundel from a circuit\n\nAdded new decoration blocks\n",
-        "changelog_url": null,
-        "date_published": "2026-09-25T00:27:03.289183Z",
-        "downloads": 569,
-        "version_type": "release",
-        "status": "listed",
-        "requested_status": null,
-        "files": [
-          {
-            "id": "40AIapxS",
-            "hashes": {
-              "sha512": "682789b29b20be10aab4acb14f8d1c48382da658e0ee4f8a54febbf5491a37af1e2555b8ed1de24e71dcebc16e86e173bacd92cef3bfff2e9967abdb5707ad62",
-              "sha1": "9274a3691042e3b9b659cac00486a2ba29006666"
-            },
-            "url": "https://cdn.modrinth.com/data/dw2i4X0i/versions/2PGjmhE6/Tardis-Mod-1.20.1-1.1.6.jar",
-            "filename": "Tardis-Mod-1.20.1-1.1.6.jar",
-            "primary": true,
-            "size": 29552363,
-            "file_type": null
-          }
-        ],
-        "dependencies": []
-      },
-      "category": "Core",
-      "fallback_urls": [
-        "https://mediafilez.forgecdn.net/files/8968/249/Tardis-Mod-1.20.1-1.1.6.jar"
-      ],
-      "file": {
-        "id": "40AIapxS",
-        "hashes": {
-          "sha512": "682789b29b20be10aab4acb14f8d1c48382da658e0ee4f8a54febbf5491a37af1e2555b8ed1de24e71dcebc16e86e173bacd92cef3bfff2e9967abdb5707ad62",
-          "sha1": "9274a3691042e3b9b659cac00486a2ba29006666"
-        },
-        "url": "https://cdn.modrinth.com/data/dw2i4X0i/versions/2PGjmhE6/Tardis-Mod-1.20.1-1.1.6.jar",
-        "filename": "Tardis-Mod-1.20.1-1.1.6.jar",
-        "primary": true,
-        "size": 29552363,
-        "file_type": null
-      },
-      "metadata": {
-        "modLoader": "javafml",
-        "loaderVersion": "[47,)",
-        "issueTrackerURL": "https://gitlab.com/Spectre0987/TardisMod/issues",
-        "license": "https://gitlab.com/Spectre0987/TardisMod/-/blob/1.19/LICENSE",
-        "mods": [
-          {
-            "modId": "tardis",
-            "version": "1.1.6",
-            "displayName": "Tardis Mod",
-            "displayURL": "https://tardis-mod.com/",
-            "logoFile": "logo.png",
-            "credits": "All the Asset Contributors and many others who've helped along the way!, Thanks to BoatBloke, our resident discord community manager!",
-            "authors": "Lilith, Jeryn, DocArcane, 50ap5ud5",
-            "description": "The New TARDIS Mod is a technology mod that adds a pocket dimension which can act as a portable base, inspired by the eponymous time machine from the popular British television show, Doctor Who. With unlimited build space and interaction with a variety of well known modded energy and piping systems, explore all of time and space in style!",
-            "displayTest": "MATCH_VERSION"
-          }
-        ],
-        "dependencies": {
-          "tardis": [
-            {
-              "modId": "forge",
-              "mandatory": true,
-              "versionRange": "[47.3.0,)",
-              "ordering": "BEFORE",
-              "side": "BOTH"
-            },
-            {
-              "modId": "minecraft",
-              "mandatory": true,
-              "versionRange": "[1.20.1,]",
-              "ordering": "NONE",
-              "side": "BOTH"
-            },
-            {
-              "modId": "jei",
-              "mandatory": false,
-              "versionRange": "[15.19.0.88,)",
-              "ordering": "AFTER",
-              "side": "BOTH"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "project": {
-        "client_side": "required",
-        "server_side": "required",
-        "game_versions": [
-          "1.20.1"
-        ],
-        "environment": [
-          "client_and_server"
-        ],
-        "id": "TjBaJxVl",
-        "slug": "ntm-immersive-portals",
-        "project_type": "mod",
-        "team": "uguVYphC",
-        "organization": null,
-        "title": "NTM Immersive Portals",
-        "description": "A Minecraft mod that makes the TARDIS in NTM use Immersive Portals for a bigger on the inside effect with seamless transitions!",
-        "body": "<img src=\"https://i.imgur.com/gBVSU6U.png\" alt = \"Logo\">\n\n[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)\n\n# NTM Immersive Portals\n**....is a Minecraft mod that makes the TARDIS in NTM use Immersive Portals for a bigger on the inside effect with seamless transitions!**\n\n***This mod may be used in any modpack.***\n\n**This mod needs to be installed on _BOTH_ the _SERVER_ and the _CLIENT_!**\n\n<img src=\"https://i.imgur.com/IW7tznS.gif\" alt = \"Short video example of mod\">\n\n### \u2795 Features\n\n- Seamless portals for the TARDIS :D\n- Allows for compatibility with addons that create custom exteriors\n\n### \ud83d\udc4f Credits\n- Thanks to Lilith and the rest of the dev team for making New TARDIS Mod!\n- Thanks to the team at Immersive Portals for making Forge support a thing!\n\n### \u2754 Motivation\nIf you didn't see already at the top, this mod was created for the Athena Awards! Without a further do, lemme yap about some things relating to this mod's creation.\n\n- Why make this mod?\n\nSo a while back, I created a mod identical to this for an older version of the TARDIS mod for me and my friends to play with personally. I thought it was an absolutely amazing feature because to me, it is just so awesome to be able to go between dimensions SEAMLESSLY without having to watch a boring loading screen. Hence, when New TARDIS Mod and Immersive Portals both released for 1.20.1, I took the opportunity to implement Immersive Portals into NTM for not only myself, but for people I know in the mod community who would love to use this mod as well!\n\n- How was it was created?\n\nUsing software such as Intellij IDEA, and tools like mixins, I was able to modify the methods within both mods and implement my own code in order to get the two to work together seamlessly. With that said, I also had to create individual portals for each TARDIS exterior to make sure the portals lined up perfectly. As a bonus, in the event that users were to add their own custom exteriors into NTM, the mod has a custom forge registry that allows for these addons to add their own portal sizes into my mod, allowing for complete compatibility!\n\n-  How did I struggle and what did I learn?\n\nI'll have to be honest, making this mod was tough! One of the major issues I had while developing the mod was dealing with Immersive Portals. Immersive Portals was a pain in the ass to get working 100%. Sometimes the mod would crash because it could not handle the dimension code that NTM used to create their dimensions. I often ran into packet issues which would persist even when I was almost complete with the mod. By then, I knew I had to get the bug fixed, otherwise it'd be a glaring issue that many would bring up to me. So.. I went ahead and fixed it.. by patching it in the **worst** way possible \ud83d\ude05. What I did is I ended up overwriting methods that were crashing in the mod to get them to work with NTM. This of course.. is not good practice as a modder because it's not like the modding community revolves around your mod! Though, at the moment, I cannot think of any other way to fix it, and.. well.. as a programmer once said.. \"if it ain't broke, don't fix it!\" On the flip side, I realized it was possible for users to develop their own exteriors while simultaneously adding compatibility with this mod, so I went ahead and coded the ability for that to happen into the mod!\n\nThank you Athena Awards for presenting me with this opportunity to make cool shit and get cool shit out of it :)\n",
-        "body_url": null,
-        "published": "2025-08-30T10:20:28.590886Z",
-        "updated": "2025-10-07T06:35:36.568302Z",
-        "approved": "2025-09-01T23:34:42.390592Z",
-        "queued": "2025-08-30T10:24:07.829252Z",
-        "status": "approved",
-        "requested_status": "approved",
-        "moderator_message": null,
-        "license": {
-          "id": "GPL-3.0-only",
-          "name": "GNU General Public License v3.0 only",
-          "url": null
-        },
-        "downloads": 3684,
-        "followers": 6,
-        "categories": [],
-        "additional_categories": [],
-        "loaders": [
-          "forge"
-        ],
-        "versions": [
-          "tgd4PjqY",
-          "5u66GB7R",
-          "b4h7blkk",
-          "5SNk53sh"
-        ],
-        "icon_url": "https://cdn.modrinth.com/data/TjBaJxVl/54c70e39b97a121200ba279abfbcbb8224532c5c_96.webp",
-        "raw_icon_url": "https://cdn.modrinth.com/data/TjBaJxVl/54c70e39b97a121200ba279abfbcbb8224532c5c.png",
-        "issues_url": "https://github.com/MianReplicate/NTM-Immersive-Portals/issues",
-        "source_url": "https://github.com/MianReplicate/NTM-Immersive-Portals",
-        "wiki_url": null,
-        "discord_url": "https://discord.gg/2h3pkECbdn",
+        "icon_url": "https://cdn.modrinth.com/data/nqVt6aES/f24930555b2256e434801069a2c9d9229326fded_96.webp",
+        "raw_icon_url": "https://cdn.modrinth.com/data/nqVt6aES/a4f3dab7cbbc738c54d9d4fb0a0eaae4e82b7320.png",
+        "issues_url": "https://github.com/Whocraft/TardisRefined/issues",
+        "source_url": "https://github.com/Whocraft/TardisRefined",
+        "wiki_url": "https://wiki.tardisrefined.net/",
+        "discord_url": "https://discord.gg/XGsGNG7cCD",
         "donation_urls": [],
-        "gallery": [],
-        "color": 2892059,
-        "thread_id": "bLwqaxmk",
+        "gallery": [
+          {
+            "url": "https://cdn.modrinth.com/data/nqVt6aES/images/06c2d14e3213bd8a2c0c78cbe595e635f7b7cc71_350.webp",
+            "raw_url": "https://cdn.modrinth.com/data/nqVt6aES/images/06c2d14e3213bd8a2c0c78cbe595e635f7b7cc71.png",
+            "featured": false,
+            "title": "The Perfect Disguise",
+            "description": null,
+            "created": "2022-12-29T23:17:31.454427Z",
+            "ordering": 0
+          },
+          {
+            "url": "https://cdn.modrinth.com/data/nqVt6aES/images/177dc5fc06499638c96fe82f34360955996049f8_350.webp",
+            "raw_url": "https://cdn.modrinth.com/data/nqVt6aES/images/177dc5fc06499638c96fe82f34360955996049f8.png",
+            "featured": false,
+            "title": "Travel anywhere in Time and Space...",
+            "description": "...including other mods dimensions!",
+            "created": "2023-10-17T22:52:12.390034Z",
+            "ordering": 0
+          },
+          {
+            "url": "https://cdn.modrinth.com/data/nqVt6aES/images/3a437b0fc68e50466ea461d7e4ba1d720d177b03_350.webp",
+            "raw_url": "https://cdn.modrinth.com/data/nqVt6aES/images/3a437b0fc68e50466ea461d7e4ba1d720d177b03.png",
+            "featured": false,
+            "title": "Into the Vortex!",
+            "description": "Stunning Visuals",
+            "created": "2024-12-19T23:25:56.000841Z",
+            "ordering": 0
+          },
+          {
+            "url": "https://cdn.modrinth.com/data/nqVt6aES/images/8cabe85cc537caed1f60304bf52fdb5a1a9abda9_350.webp",
+            "raw_url": "https://cdn.modrinth.com/data/nqVt6aES/images/8cabe85cc537caed1f60304bf52fdb5a1a9abda9.png",
+            "featured": false,
+            "title": "The Refurbished Desktop...",
+            "description": "It's...GORGEOUS ",
+            "created": "2025-01-22T11:56:26.383254Z",
+            "ordering": 0
+          },
+          {
+            "url": "https://cdn.modrinth.com/data/nqVt6aES/images/3fdd944f358690472e118a0c6c81417333115d9f_350.webp",
+            "raw_url": "https://cdn.modrinth.com/data/nqVt6aES/images/3fdd944f358690472e118a0c6c81417333115d9f.png",
+            "featured": false,
+            "title": "Unique Crafting!",
+            "description": "Use the Astral Manipulator to craft devices!",
+            "created": "2025-01-22T14:52:27.508163Z",
+            "ordering": 0
+          },
+          {
+            "url": "https://cdn.modrinth.com/data/nqVt6aES/images/8cbefd82d374b9259ab919b9dc85244370687899_350.webp",
+            "raw_url": "https://cdn.modrinth.com/data/nqVt6aES/images/8cbefd82d374b9259ab919b9dc85244370687899.png",
+            "featured": true,
+            "title": "The Factory Desktop",
+            "description": "The first desktop you'll gain",
+            "created": "2025-01-23T23:52:34.397983Z",
+            "ordering": 0
+          },
+          {
+            "url": "https://cdn.modrinth.com/data/nqVt6aES/images/31bd081a23fed3b92dbf862c92c81926b6bb0394_350.webp",
+            "raw_url": "https://cdn.modrinth.com/data/nqVt6aES/images/31bd081a23fed3b92dbf862c92c81926b6bb0394.png",
+            "featured": false,
+            "title": "Everything is configurable!",
+            "description": null,
+            "created": "2025-01-25T00:21:47.047879Z",
+            "ordering": 0
+          },
+          {
+            "url": "https://cdn.modrinth.com/data/nqVt6aES/images/7dffe07da708d32444404c4611a17e0aa2bbe06e_350.webp",
+            "raw_url": "https://cdn.modrinth.com/data/nqVt6aES/images/7dffe07da708d32444404c4611a17e0aa2bbe06e.png",
+            "featured": false,
+            "title": "This mod is about growth",
+            "description": null,
+            "created": "2025-01-25T00:23:15.174388Z",
+            "ordering": 0
+          },
+          {
+            "url": "https://cdn.modrinth.com/data/nqVt6aES/images/da1b6df93d84fdac582d0e3db6c22626018a377a_350.webp",
+            "raw_url": "https://cdn.modrinth.com/data/nqVt6aES/images/da1b6df93d84fdac582d0e3db6c22626018a377a.png",
+            "featured": false,
+            "title": "The Victorian Desktop",
+            "description": "One of the many available desktops",
+            "created": "2025-01-25T00:26:59.799012Z",
+            "ordering": 0
+          },
+          {
+            "url": "https://cdn.modrinth.com/data/nqVt6aES/images/03abc0fff84680f529545f0a55b41187f922eae8_350.webp",
+            "raw_url": "https://cdn.modrinth.com/data/nqVt6aES/images/03abc0fff84680f529545f0a55b41187f922eae8.png",
+            "featured": false,
+            "title": "Your adventure awaits!",
+            "description": null,
+            "created": "2025-01-25T00:28:11.902425Z",
+            "ordering": 0
+          },
+          {
+            "url": "https://cdn.modrinth.com/data/nqVt6aES/images/b8895c4086ee3e07d54a4eb4bad1f42051115a16_350.webp",
+            "raw_url": "https://cdn.modrinth.com/data/nqVt6aES/images/b8895c4086ee3e07d54a4eb4bad1f42051115a16.png",
+            "featured": false,
+            "title": "Explore the endless corridors!",
+            "description": null,
+            "created": "2025-01-25T00:31:56.877895Z",
+            "ordering": 0
+          },
+          {
+            "url": "https://cdn.modrinth.com/data/nqVt6aES/images/6670f00c2412fb85fc68022c2f3b0b8124891a22_350.webp",
+            "raw_url": "https://cdn.modrinth.com/data/nqVt6aES/images/6670f00c2412fb85fc68022c2f3b0b8124891a22.png",
+            "featured": false,
+            "title": "Progress via the upgrade tree",
+            "description": null,
+            "created": "2025-01-25T00:40:25.386700Z",
+            "ordering": 0
+          },
+          {
+            "url": "https://cdn.modrinth.com/data/nqVt6aES/images/b60cdd05bd2071f4ece13fb6d1f66d6186f19cb7_350.webp",
+            "raw_url": "https://cdn.modrinth.com/data/nqVt6aES/images/b60cdd05bd2071f4ece13fb6d1f66d6186f19cb7.png",
+            "featured": false,
+            "title": "The beginning of the long and winding road",
+            "description": null,
+            "created": "2025-01-25T00:41:35.208768Z",
+            "ordering": 0
+          },
+          {
+            "url": "https://cdn.modrinth.com/data/nqVt6aES/images/26aeb139365f5069c023ef1917fa49de221cdd35_350.webp",
+            "raw_url": "https://cdn.modrinth.com/data/nqVt6aES/images/26aeb139365f5069c023ef1917fa49de221cdd35.png",
+            "featured": false,
+            "title": "Play together",
+            "description": null,
+            "created": "2025-01-23T23:51:41.716009Z",
+            "ordering": 1
+          }
+        ],
+        "color": 2443883,
+        "thread_id": "nqVt6aES",
         "monetization_status": "monetized"
       },
       "version": {
@@ -242,112 +261,123 @@
           "1.20.1"
         ],
         "loaders": [
-          "forge"
+          "forge",
+          "neoforge"
         ],
         "environment": "client_and_server",
-        "id": "5SNk53sh",
-        "project_id": "TjBaJxVl",
-        "author_id": "oqcB0R4Z",
+        "id": "TwZf1vY4",
+        "project_id": "nqVt6aES",
+        "author_id": "1i697E0E",
         "featured": false,
-        "name": "1.0.4",
-        "version_number": "1.0.4",
-        "changelog": "Disabled interior door rendering from outside\n\nAdded support for some older Forge versions",
+        "name": "TARDIS Refined 2.1.7",
+        "version_number": "neoforge-mc1.20.1-v2.1.7",
+        "changelog": "Items\n\n    Added Grown Tardis Item.\n\nChanges\n\n    Amethyst Screwdriver tooltip now is colored gray.\n    Updated create-fabric integration to create 6.\n    Tweaked corridor generation to generate one chunk at a time for any new TARDIS created after this update. Should hopefully fix errors where corridors sometimes don't generate in some chunks. Any existing TARDIS created before this update will be unaffected.\n    Landing pad is now always considered a safe landing location, even when entrance blocked or above the nether roof.\n\nConfigs\n\n    New config option to disable teleportation for the Immersive Portals portal, instead teleporting the player directly as if Immersive Portals integration was disabled.\n    New config option to toggle the above setting separately when the door is on a Valkyrien Skies ship.\n    New config option to disable the collision box of the door while open with Immersive Portals integration enabled on Valkyrien Skies ships.\n    Banned Dimensions and Adventure Mode Defaults can now accept namespace, substring and regex entries.\n\nBug Fix\n\n    Bug fix: TARDIS exterior disappears when moved by other mods.\n\n    Bug fix: Taking off or landing a TARDIS on a Valkyrien Skies ship breaks the ship.\n\n    Bug fix: Impossible to enter TARDIS when on a Valkyrien Skies ship.\n\n    Bug fix: TARDIS shows shipyard coordinates when on a Valkyrien Skies ship.\n\n    Bug fix: Player does not face the right horizontal direction when entering/exiting a TARDIS on a Valkyrien Skies ship.\n\n    Bug fix: TARDIS does not take Valkyrien Skies ships into account when computing travel distance.\n\n    Bug fix: TARDIS does not automatically try to land on ships.\n\n    Bug fix: Flickering when spectating TARDIS exterior on a Valkyrien Skies ship.\n\n    Bug fix: Grown Tardis Item crashes the game if Valkyrien Skies is installed.\n\n    Bug fix: Immersive Portals portal is not rotated correctly when door is on a Valkyrien Skies ship.\n\n    Bug fix: Fixes Console Textures having left over prefabs\n\n    Bug fix: Fixes Forge not having the same access level as Fabric (#477)\n\n    Bug fix: Fixed Shulker shells not having correct texture paths\n\n    Bug fix: Fixed the TARDIS forgetting its current dimension on world reload\n\n    Bug fix: Fix materialize around upgrade not working.\n\n    Bug fix: Fixed TARDIS being broken when created in a non-overworld dimension.\n\n    Bug fix: Immersive Portals portal sometimes not spawning when opened from exterior.\n\n    Bug fix: Respawn Anchor and /spawnpoint command not working inside the TARDIS\n\n    Bug fix: Capability deserialization fails on Arclight\n\n    Bug fix: TARDIS removes forceloading when taking off and landing.\n\n    Bug fix: TARDIS takeoff sound plays from the interior door instead of the console.\n\n    Bug fix: Immersive Portals compatibility crashing the game on Forge.\n\n    Bug fix: Vortex not rendering in GUIs when Journeymap or Kilt is installed.\n\n    Bug fix: TARDIS cannot reach edges when moving in the vortex view on Forge.\n\n    Bug fix: Players can take damage or die while in shell view.\n\n    Bug fix: Players can receive new potion effects while in shell view.\n\n    Bug fix: Create TARDIS Summary does not display all lines correctly.\n\n    Bug fix: Crash when closing the game near a TARDIS Create display while Valkyrien Skies is installed.\n\n    Bug fix: Recently created TARDIS keeps printing \"Preparing spawn area: 100%\" every time a chunk loads until the server is restarted.\n\n    Bug fix: TARDIS gets stuck in flight when destination is reached and throttle is set to 0 before dematerialization is complete.\n\n    Bug fix: Flight events don't stop when throttle at 0%.\n\n    Bug fix: Flight events sometimes turn back on despite destination reached.\n\n    Bug fix: The back button in the Waypoint screen traps users in an infinite loop and deletes waypoints.\n\n    Bug fix: AR particles sometimes render below the control.\n\n    Bug fix: TARDIS does not respect logical height.\n\n    Bug fix: Broken TARDIS console smoke damages armor.\n",
         "changelog_url": null,
-        "date_published": "2025-10-07T06:35:36.568302Z",
-        "downloads": 3247,
+        "date_published": "2026-07-12T22:50:44.191101Z",
+        "downloads": 13118,
         "version_type": "release",
         "status": "listed",
         "requested_status": null,
         "files": [
           {
-            "id": "kQBQimh8",
+            "id": "PwQyIDwk",
             "hashes": {
-              "sha512": "809e2bebcf09a13a87dcca5174a43a1738a185b36a6b357f5dbc595273e43e2f6a6d6a7225213b2cd3af1525cc736988d5761e9e9f6f538fe6a1fe1b7837b965",
-              "sha1": "ef866a414621b5d8ff400e7c8b1391cc3e23f318"
+              "sha1": "6689865af34e59e839f83a68607c8ab16c728be5",
+              "sha512": "5a508177bda6a70043eef4526577486201b85e59807c94f1090f753c5f2ed6b649c048ec4503a3b69d79acf209e13b9c1d3547fbaaf50f913eecb2037369cdb8"
             },
-            "url": "https://cdn.modrinth.com/data/TjBaJxVl/versions/5SNk53sh/ntm_ip-1.0.4.jar",
-            "filename": "ntm_ip-1.0.4.jar",
+            "url": "https://cdn.modrinth.com/data/nqVt6aES/versions/TwZf1vY4/neoforge-tardis_refined-mc1.20.1-v2.1.7.jar",
+            "filename": "neoforge-tardis_refined-mc1.20.1-v2.1.7.jar",
             "primary": true,
-            "size": 161376,
+            "size": 22377634,
             "file_type": null
           }
         ],
         "dependencies": [
           {
             "version_id": null,
-            "project_id": "zf4Szzx2",
+            "project_id": "LNytGWDc",
             "file_name": null,
-            "dependency_type": "required"
+            "dependency_type": "optional"
           },
           {
             "version_id": null,
-            "project_id": "dw2i4X0i",
+            "project_id": "vvuO3ImH",
             "file_name": null,
-            "dependency_type": "required"
+            "dependency_type": "optional"
+          },
+          {
+            "version_id": null,
+            "project_id": "V5ujR2yw",
+            "file_name": null,
+            "dependency_type": "optional"
+          },
+          {
+            "version_id": null,
+            "project_id": "zf4Szzx2",
+            "file_name": null,
+            "dependency_type": "optional"
           }
         ]
       },
-      "category": "Core",
       "file": {
-        "id": "kQBQimh8",
+        "id": "PwQyIDwk",
         "hashes": {
-          "sha512": "809e2bebcf09a13a87dcca5174a43a1738a185b36a6b357f5dbc595273e43e2f6a6d6a7225213b2cd3af1525cc736988d5761e9e9f6f538fe6a1fe1b7837b965",
-          "sha1": "ef866a414621b5d8ff400e7c8b1391cc3e23f318"
+          "sha1": "6689865af34e59e839f83a68607c8ab16c728be5",
+          "sha512": "5a508177bda6a70043eef4526577486201b85e59807c94f1090f753c5f2ed6b649c048ec4503a3b69d79acf209e13b9c1d3547fbaaf50f913eecb2037369cdb8"
         },
-        "url": "https://cdn.modrinth.com/data/TjBaJxVl/versions/5SNk53sh/ntm_ip-1.0.4.jar",
-        "filename": "ntm_ip-1.0.4.jar",
+        "url": "https://cdn.modrinth.com/data/nqVt6aES/versions/TwZf1vY4/neoforge-tardis_refined-mc1.20.1-v2.1.7.jar",
+        "filename": "neoforge-tardis_refined-mc1.20.1-v2.1.7.jar",
         "primary": true,
-        "size": 161376,
+        "size": 22377634,
         "file_type": null
       },
       "metadata": {
         "modLoader": "javafml",
         "loaderVersion": "[47,)",
-        "license": "GNU GPL 3.0",
-        "issueTrackerURL": "https://github.com/MianReplicate/NTM-Immersive-Portals/issues",
+        "license": "https://github.com/Whocraft/TardisRefined/blob/minecraft/1.20.1/LICENSE.MD",
+        "issueTrackerURL": "https://github.com/Whocraft/TardisRefined/issues",
         "mods": [
           {
-            "modId": "ntm_ip",
-            "version": "1.0.4",
-            "displayName": "NTM Immersive Portals",
-            "authors": "MianReplicate",
-            "logoFile": "logo.png",
-            "description": "Adds Immersive Portals compatibility to New Tardis Mod"
+            "modId": "tardis_refined",
+            "version": "2.1.7",
+            "displayName": "TARDIS Refined",
+            "displayURL": "https://github.com/Whocraft/TardisRefined",
+            "logoFile": "tardis_refined.png",
+            "credits": "Commoble, Lucraft, starray1000000, Monsterwaill, TheJudge, LoxiGoose",
+            "authors": "River, Jeryn99, Magic Man, ILikePandas, Jacob K, 50ap5ud5, acuadragon100",
+            "description": "TARDIS: Refined is a Minecraft mod based on the world of Doctor Who that adds a personal, teleporting base to the game. The mod explores the nature of the TARDIS and how it operates and expresses its personality."
+          }
+        ],
+        "mixins": [
+          {
+            "config": "tardis_refined.mixins.json"
+          },
+          {
+            "config": "tardis_refined-common.mixins.json"
           }
         ],
         "dependencies": {
-          "ntm_ip": [
+          "tardis_refined": [
             {
               "modId": "forge",
               "mandatory": true,
-              "versionRange": "[47,)",
+              "versionRange": "[1.0.0, )",
               "ordering": "NONE",
               "side": "BOTH"
             },
             {
               "modId": "minecraft",
               "mandatory": true,
-              "versionRange": "[1.20.1,1.21)",
+              "versionRange": "[1.20.1,)",
               "ordering": "NONE",
-              "side": "BOTH"
-            },
-            {
-              "modId": "immersive_portals",
-              "mandatory": true,
-              "versionRange": "[3.0.7,)",
-              "ordering": "NONE",
-              "side": "BOTH"
-            },
-            {
-              "modId": "tardis",
-              "mandatory": true,
-              "versionRange": "[1.1.2,)",
-              "ordering": "AFTER",
               "side": "BOTH"
             }
           ]
         }
-      }
+      },
+      "category": "Exploration",
+      "client": true,
+      "server": true
     },
     {
       "project": {
@@ -110099,207 +110129,6 @@
         "client_side": "required",
         "server_side": "unsupported",
         "game_versions": [
-          "1.16.5",
-          "1.18.2",
-          "1.19",
-          "1.19.1",
-          "1.19.2",
-          "1.19.4",
-          "1.20",
-          "1.20.1"
-        ],
-        "environment": [
-          "client_only"
-        ],
-        "id": "GchcoXML",
-        "slug": "oculus",
-        "project_type": "mod",
-        "team": "zFcUWaYx",
-        "organization": null,
-        "title": "Oculus",
-        "description": "Unofficial Fork of \"Iris\", made to work with FML",
-        "body": "Unofficial Fork of \"Iris\", made to work with FML\n\nFeatures\n\n<details>\n  <summary>Features</summary>\n\n- Performance. Oculus should fully utilize your graphics card when paired with optimization mods like Rubidium.\n- Mod compatibility.\u00a0Oculus should make a best effort to be compatible with modded environments.\n- Backwards compatibility.\u00a0All existing ShadersMod / OptiFine shader packs should just work on Iris, without any modifications required.\n- A well-organized codebase.\u00a0I'd like for working with Iris code to be a pleasant experience overall.\n</details>\n\n\u00a0\nPlease, don't report Oculus' issues to the official Iris Github.",
-        "body_url": null,
-        "published": "2022-07-02T10:02:12.932789Z",
-        "updated": "2024-12-24T23:47:00.856809Z",
-        "approved": "2022-07-02T10:02:12.932789Z",
-        "queued": null,
-        "status": "approved",
-        "requested_status": null,
-        "moderator_message": null,
-        "license": {
-          "id": "LGPL-3.0-only",
-          "name": "GNU Lesser General Public License v3.0 only",
-          "url": null
-        },
-        "downloads": 38602061,
-        "followers": 1392,
-        "categories": [
-          "decoration",
-          "optimization"
-        ],
-        "additional_categories": [],
-        "loaders": [
-          "forge",
-          "neoforge"
-        ],
-        "versions": [
-          "Ti8TJ58B",
-          "rhj7Nexq",
-          "sl4bJ9He",
-          "E7vz516D",
-          "ZjN0wxRC",
-          "rR8ZrdCw",
-          "zxDW8JVW",
-          "9KaQ8Nei",
-          "YM91QDuZ",
-          "A6aEs4bJ",
-          "nApEYsZi",
-          "uNDmEO4n",
-          "zuJ1306r",
-          "KyxZ315g",
-          "mGoSRprD",
-          "Af4brqYV",
-          "HxUtDCCe",
-          "UynWw2df",
-          "Uz28Wi1p",
-          "4lE9D01D",
-          "6xfXhsvf",
-          "yUsIHXQX",
-          "ZFTuwymb",
-          "KexKV6k0",
-          "Bj8M79wL",
-          "SPCLqJn1",
-          "vVuYfukI",
-          "iQ1SwGc3",
-          "Mw8aFpWF"
-        ],
-        "icon_url": "https://cdn.modrinth.com/data/GchcoXML/09ef853cdfd3d467dead4faef37102535a2185d5_96.webp",
-        "raw_icon_url": "https://cdn.modrinth.com/data/GchcoXML/icon.png",
-        "issues_url": "https://github.com/Asek3/Oculus/issues",
-        "source_url": "https://github.com/Asek3/Oculus",
-        "wiki_url": null,
-        "discord_url": "https://discord.com/invite/UCsyn5RS4s",
-        "donation_urls": [
-          {
-            "id": "patreon",
-            "platform": "Patreon",
-            "url": "https://www.patreon.com/asek3"
-          }
-        ],
-        "gallery": [],
-        "color": 14825925,
-        "thread_id": "GchcoXML",
-        "monetization_status": "monetized"
-      },
-      "version": {
-        "game_versions": [
-          "1.20.1"
-        ],
-        "loaders": [
-          "forge",
-          "neoforge"
-        ],
-        "environment": "client_only",
-        "id": "iQ1SwGc3",
-        "project_id": "GchcoXML",
-        "author_id": "OGBzw79h",
-        "featured": false,
-        "name": "Oculus mc1.20.1-1.8.0",
-        "version_number": "1.20.1-1.8.0",
-        "changelog": "### **Fixed compatibility with Distant Horizons 2.2+**\n### **Fixed renderer of MekaSuit from Mekanism**",
-        "changelog_url": null,
-        "date_published": "2024-12-24T23:33:42.216148Z",
-        "downloads": 26054048,
-        "version_type": "release",
-        "status": "listed",
-        "requested_status": null,
-        "files": [
-          {
-            "id": "7aacZyV2",
-            "hashes": {
-              "sha1": "984f774e71790deaec674c7587bd24e0711871b2",
-              "sha512": "1bb4ac77400d6684347988ed298a692c2cb15cf7923693607eb8739b171a20fef7412259e9e157111d9ce21779badab386029956f7d2283a9e611722a373e9d5"
-            },
-            "url": "https://cdn.modrinth.com/data/GchcoXML/versions/iQ1SwGc3/oculus-mc1.20.1-1.8.0.jar",
-            "filename": "oculus-mc1.20.1-1.8.0.jar",
-            "primary": true,
-            "size": 2851119,
-            "file_type": null
-          }
-        ],
-        "dependencies": [
-          {
-            "version_id": null,
-            "project_id": "sk9rgfiA",
-            "file_name": null,
-            "dependency_type": "required"
-          }
-        ]
-      },
-      "file": {
-        "id": "7aacZyV2",
-        "hashes": {
-          "sha1": "984f774e71790deaec674c7587bd24e0711871b2",
-          "sha512": "1bb4ac77400d6684347988ed298a692c2cb15cf7923693607eb8739b171a20fef7412259e9e157111d9ce21779badab386029956f7d2283a9e611722a373e9d5"
-        },
-        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/iQ1SwGc3/oculus-mc1.20.1-1.8.0.jar",
-        "filename": "oculus-mc1.20.1-1.8.0.jar",
-        "primary": true,
-        "size": 2851119,
-        "file_type": null
-      },
-      "category": "Performance",
-      "metadata": {
-        "modLoader": "javafml",
-        "loaderVersion": "*",
-        "issueTrackerURL": "https://github.com/Asek3/Oculus/issues",
-        "license": "LGPL-3.0-only",
-        "mods": [
-          {
-            "modId": "oculus",
-            "version": "1.8.0",
-            "displayURL": "https://curseforge.com/minecraft/mc-mods/oculus",
-            "displayName": "Oculus",
-            "logoFile": "oculus-logo.png",
-            "authors": "NanoLive, dima_dencep, coderbot, IMS212, Justsnoopy30, FoundationGames",
-            "description": "Unofficial Fork of \"Iris\", made to work with FML\n",
-            "provides": [
-              "iris"
-            ],
-            "sodium:options": {
-              "mixin.features.render.world.sky": false,
-              "mixin.features.render.entity": false,
-              "mixin.features.render.gui.font": false
-            }
-          }
-        ],
-        "dependencies": {
-          "oculus": [
-            {
-              "modId": "minecraft",
-              "mandatory": true,
-              "versionRange": "[1.20.1]",
-              "ordering": "NONE",
-              "side": "BOTH"
-            },
-            {
-              "modId": "embeddium",
-              "mandatory": false,
-              "versionRange": "[0.3.1,)",
-              "ordering": "NONE",
-              "side": "CLIENT"
-            }
-          ]
-        }
-      },
-      "client": true
-    },
-    {
-      "project": {
-        "client_side": "required",
-        "server_side": "unsupported",
-        "game_versions": [
           "1.18.2",
           "1.19",
           "1.19.1",
@@ -118140,27 +117969,11 @@
     "graveyard": "Pinned 3.1; the 4.x trading-library dependency differs from the similarly named UI mod.",
     "reactor": "Extreme Reactors selected; Bigger Reactors omitted to avoid duplicate reactor systems.",
     "terrain": "Biomes O Plenty plus Terralith; Regions Unexplored and Tectonic not layered on top.",
-    "tardis": "New TARDIS Mod with NTM Immersive Portals; keep AIT as an alternative, not a second simultaneous TARDIS."
+    "tardis": "TARDIS Refined 2.1.7 with Immersive Portals 3.0.7, compatibility rendering and ITP traversal. Oculus excluded to match the accepted candidate."
   },
   "compatibility_pins": {
     "cataclysm": "3.16: newer versions removed classes used by Cataclysm Spellbooks 1.2.9",
     "lionfish-api": "2.8: Cataclysm 3.16 models use the iterable parts API. Lionfish 3.0 expects an incompatible root method."
   },
-  "shaderpacks": [
-    {
-      "id": "Ke546YQD",
-      "hashes": {
-        "sha1": "838139b54cddb56b2e83cd260d8efd960ac536d6",
-        "sha512": "45304b1d7862afdb2177b7e6226fc9c6737911d17a4ad46cc9c519ca4deb935f05072cd337cd8b19a15bb8062b57b54eceec7bdee4cd572d94858e2946d37d85"
-      },
-      "url": "https://cdn.modrinth.com/data/HVnmMxH1/versions/Bqen1mJX/ComplementaryReimagined_r5.9.3.zip",
-      "filename": "ComplementaryReimagined_r5.9.3.zip",
-      "primary": true,
-      "size": 553397,
-      "file_type": null,
-      "project": "complementary-reimagined",
-      "version": "r5.9.3",
-      "source_page": "https://modrinth.com/shader/complementary-reimagined/version/Bqen1mJX"
-    }
-  ]
+  "shaderpacks": []
 }

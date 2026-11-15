@@ -2,7 +2,7 @@
   "check_the_wiki_for_more_information": "https://qouteall.fun/immptl/wiki/Config-Options",
   "maxPortalLayer": 1,
   "lagAttackProof": true,
-  "compatibilityRenderMode": false,
+  "compatibilityRenderMode": true,
   "enableMirrorCreation": false,
   "enableCrossPortalSound": true,
   "pureMirror": false,

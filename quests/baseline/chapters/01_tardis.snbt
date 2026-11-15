@@ -1,44 +1,46 @@
 {
   "id": "010910DFEB58EBFA",
-  "group": "00AA8F374274B5F3",
-  "title": "TARDIS",
-  "order_index": 1,
+  "group": "3E91144EB73CBA91",
+  "title": "TARDIS Refined",
+  "order_index": 19,
   "default_quest_shape": "circle",
   "quests": [
     {
-      "id": "07AA1535F7EB28D4",
-      "title": "A bigger interior",
-      "subtitle": "",
+      "id": "071FD56642578AA6",
+      "title": "A ship beyond its shell",
       "description": [
-        "Open the exterior doors, view the interior, walk inside, look back outside, and return. Repeat after a flight or exterior change.",
-        "This is a manual test objective. Only mark it after checking the doorway in your own world."
+        "Deep beneath the surface, a forgotten vessel waits. Follow this branch from exploration to a home among the stars."
       ],
-      "icon": "minecraft:ender_pearl",
-      "x": 2.69,
-      "y": 2.86,
-      "shape": "square",
-      "dependencies": [
-        "071FD56642578AA6"
-      ],
+      "icon": "minecraft:clock",
+      "x": 0,
+      "y": -3,
+      "shape": "circle",
+      "dependencies": [],
       "tasks": [
         {
-          "id": "09E32D15BF69D679",
+          "id": "0F2C92C52C0F68BE",
           "type": "checkmark",
-          "title": "Read and continue"
+          "title": "Confirm journal milestone"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "125F05D95098EDE3",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
         }
       ]
     },
     {
       "id": "0C039A3819E8F7E5",
-      "title": "A different timeship",
-      "subtitle": "TARDIS Type 40 Manual",
+      "title": "Beneath the roots",
       "description": [
-        "This Forge pack uses New TARDIS Mod. Read the Type 40 Manual; Refined's roots and terraforming steps do not apply here.",
-        "Goal: obtain TARDIS Type 40 Manual. Keep it in your inventory until the quest records completion."
+        "Search unexplored caves for a Root Cluster. Mark the route home and bring food, torches and a Growth Drill. Confirm this journal entry after locating one."
       ],
-      "icon": "tardis:manual",
-      "x": 2.69,
-      "y": 0.0,
+      "icon": "minecraft:spyglass",
+      "x": 0,
+      "y": 0,
       "shape": "circle",
       "dependencies": [
         "071FD56642578AA6"
@@ -46,95 +48,119 @@
       "tasks": [
         {
           "id": "0A8D2231ECC32C24",
-          "type": "item",
-          "item": "tardis:manual",
-          "count": 1,
-          "consume_items": false
+          "type": "checkmark",
+          "title": "Confirm journal milestone"
         }
       ],
       "rewards": [
         {
-          "id": "0910AFB98647CE8C",
-          "type": "xp",
-          "xp": 15
-        }
-      ]
-    },
-    {
-      "id": "09C889C6FAF75287",
-      "title": "Read the ship's personality",
-      "subtitle": "Tools/Diagnostic Tool",
-      "description": [
-        "Inspect an abandoned timeship with the diagnostic tool. Learn which offerings it likes before trying to gain its trust.",
-        "Goal: obtain Tools/Diagnostic Tool. Keep it in your inventory until the quest records completion."
-      ],
-      "icon": "tardis:tools/diagnostic_tool",
-      "x": 3.94,
-      "y": 0.0,
-      "shape": "circle",
-      "dependencies": [
-        "0C039A3819E8F7E5"
-      ],
-      "tasks": [
-        {
-          "id": "06E39FD819CD55D4",
+          "id": "42080C77E85A927C",
           "type": "item",
-          "item": "tardis:tools/diagnostic_tool",
-          "count": 1,
-          "consume_items": false
-        }
-      ],
-      "rewards": [
-        {
-          "id": "06508C9445BD0A8B",
-          "type": "xp",
-          "xp": 15
+          "item": "minecraft:cooked_beef",
+          "count": 12
         }
       ]
     },
     {
       "id": "0C997C342C4F26B6",
-      "title": "Prepare a repair kit",
-      "subtitle": "Tools/Sonic Welder",
+      "title": "The Growth Drill",
       "description": [
-        "Use the manual to understand repairs and rift equipment. Keep useful materials ready before a long journey.",
-        "Goal: obtain Tools/Sonic Welder. Keep it in your inventory until the quest records completion."
+        "Craft a Growth Drill. The recipe calls for iron pickaxes, iron, cobblestone and redstone; the recipe viewer holds the exact pattern."
       ],
-      "icon": "tardis:tools/sonic_welder",
-      "x": 5.2,
-      "y": 0.0,
+      "icon": "tardis_refined:drill",
+      "x": -3,
+      "y": 0,
       "shape": "circle",
       "dependencies": [
-        "09C889C6FAF75287"
+        "071FD56642578AA6"
       ],
       "tasks": [
         {
           "id": "00AD6D1ADC421EA0",
           "type": "item",
-          "item": "tardis:tools/sonic_welder",
+          "item": "tardis_refined:drill",
           "count": 1,
           "consume_items": false
         }
       ],
       "rewards": [
         {
-          "id": "05AB244CF665C91A",
-          "type": "xp",
-          "xp": 15
+          "id": "07ADF72D21311C21",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "07AA1535F7EB28D4",
+      "title": "Across the threshold",
+      "description": [
+        "Enter your vessel and return safely through its doors. Confirm this entry after completing the crossing."
+      ],
+      "icon": "minecraft:ender_pearl",
+      "x": 0,
+      "y": 3,
+      "shape": "hexagon",
+      "dependencies": [
+        "0C039A3819E8F7E5"
+      ],
+      "tasks": [
+        {
+          "id": "09E32D15BF69D679",
+          "type": "checkmark",
+          "title": "Confirm journal milestone"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "692143A68810C750",
+          "type": "item",
+          "item": "minecraft:ender_pearl",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "09C889C6FAF75287",
+      "title": "A key of your own",
+      "description": [
+        "Craft a TARDIS Key and keep it close. A second key belongs somewhere safe."
+      ],
+      "icon": "tardis_refined:tardis_key",
+      "x": 3,
+      "y": 3,
+      "shape": "circle",
+      "dependencies": [
+        "07AA1535F7EB28D4"
+      ],
+      "tasks": [
+        {
+          "id": "06E39FD819CD55D4",
+          "type": "item",
+          "item": "tardis_refined:tardis_key",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "731931C0D8330F8B",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
         }
       ]
     },
     {
       "id": "0D781CFB7B516C4B",
-      "title": "A sonic of your own",
-      "subtitle": "Tools/Sonic",
+      "title": "An amethyst instrument",
       "description": [
-        "Learn the sonic's modes and interactions. Test it around your workshop before using it on ship systems.",
-        "Goal: obtain Tools/Sonic. Keep it in your inventory until the quest records completion."
+        "Combine amethyst, lapis, a stone button and a blaze rod into an Amethyst Screwdriver."
       ],
-      "icon": "tardis:tools/sonic",
-      "x": 6.46,
-      "y": 0.0,
+      "icon": "tardis_refined:amethyst_screwdriver",
+      "x": -3,
+      "y": 3,
       "shape": "circle",
       "dependencies": [
         "0C997C342C4F26B6"
@@ -143,30 +169,29 @@
         {
           "id": "0F9441B04F0A915A",
           "type": "item",
-          "item": "tardis:tools/sonic",
+          "item": "tardis_refined:amethyst_screwdriver",
           "count": 1,
           "consume_items": false
         }
       ],
       "rewards": [
         {
-          "id": "04F4338ED7AC6FE5",
-          "type": "xp",
-          "xp": 20
+          "id": "4221BE5B7C5DEDCD",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 12
         }
       ]
     },
     {
       "id": "057BF75CDC3D6441",
-      "title": "Maintain the engine",
-      "subtitle": "Components/Demat Circuit",
+      "title": "Zeiton reserves",
       "description": [
-        "Inspect the engine and its component slots. Replace missing or damaged systems using the manual's instructions.",
-        "Goal: obtain Components/Demat Circuit. Keep it in your inventory until the quest records completion."
+        "Acquire a Zeiton Ingot. Keep a reserve of this unusual material for your growing workshop."
       ],
-      "icon": "tardis:components/demat_circuit",
-      "x": 7.71,
-      "y": 0.0,
+      "icon": "tardis_refined:zeiton_ingot",
+      "x": -3,
+      "y": 6,
       "shape": "circle",
       "dependencies": [
         "0D781CFB7B516C4B"
@@ -175,71 +200,289 @@
         {
           "id": "078BACD19293490E",
           "type": "item",
-          "item": "tardis:components/demat_circuit",
+          "item": "tardis_refined:zeiton_ingot",
           "count": 1,
           "consume_items": false
         }
       ],
       "rewards": [
         {
-          "id": "057ADED5336384A2",
-          "type": "xp",
-          "xp": 20
+          "id": "4D62DEE1AA212C10",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 24
         }
       ]
     },
     {
       "id": "04197DDB66180B9B",
-      "title": "Choose your exterior",
-      "subtitle": "Components/Chameleon Circuit",
+      "title": "A face for the journey",
       "description": [
-        "Learn the chameleon system and unlock options through normal progression. Check doorway alignment after changing the exterior.",
-        "Goal: obtain Components/Chameleon Circuit. Keep it in your inventory until the quest records completion."
+        "Craft a Pattern Manipulator and explore the appearances available to your vessel."
       ],
-      "icon": "tardis:components/chameleon_circuit",
-      "x": 2.69,
-      "y": 1.43,
+      "icon": "tardis_refined:pattern_manipulator",
+      "x": 3,
+      "y": 6,
+      "shape": "circle",
+      "dependencies": [
+        "09C889C6FAF75287"
+      ],
+      "tasks": [
+        {
+          "id": "00316E34877C05ED",
+          "type": "item",
+          "item": "tardis_refined:pattern_manipulator",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "48F8097341855177",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "08C8CE58F0894EBF",
+      "title": "Read the console",
+      "description": [
+        "Learn the console controls before departure. Identify the destination and flight controls, then choose a nearby landing site. Confirm when ready."
+      ],
+      "icon": "minecraft:compass",
+      "x": 0,
+      "y": 6,
+      "shape": "circle",
+      "dependencies": [
+        "07AA1535F7EB28D4"
+      ],
+      "tasks": [
+        {
+          "id": "4F2797421E4FCD4F",
+          "type": "checkmark",
+          "title": "Confirm journal milestone"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10738C521F73B0D6",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "0D648CB16D5E60AB",
+      "title": "First safe landing",
+      "description": [
+        "Complete a short flight, leave the vessel and check your surroundings. Return aboard before marking this voyage complete."
+      ],
+      "icon": "minecraft:map",
+      "x": 0,
+      "y": 9,
+      "shape": "hexagon",
+      "dependencies": [
+        "08C8CE58F0894EBF"
+      ],
+      "tasks": [
+        {
+          "id": "437161C42A84221F",
+          "type": "checkmark",
+          "title": "Confirm journal milestone"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "35402084C4DEB130",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "1DE96B4F38977BF8",
+      "title": "An augmented view",
+      "description": [
+        "Craft a pair of AR Glasses for your travels."
+      ],
+      "icon": "tardis_refined:glasses",
+      "x": -3,
+      "y": 9,
       "shape": "circle",
       "dependencies": [
         "057BF75CDC3D6441"
       ],
       "tasks": [
         {
-          "id": "00316E34877C05ED",
+          "id": "01002EA2E7EC001E",
           "type": "item",
-          "item": "tardis:components/chameleon_circuit",
+          "item": "tardis_refined:glasses",
           "count": 1,
           "consume_items": false
         }
       ],
       "rewards": [
         {
-          "id": "07A01C965453F0F7",
-          "type": "xp",
-          "xp": 20
+          "id": "365FC86D85743CBB",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
         }
       ]
     },
     {
-      "id": "071FD56642578AA6",
-      "title": "Tardis Mod",
-      "subtitle": "Overview",
+      "id": "18BACD26D1A649A4",
+      "title": "Tools for shaping",
       "description": [
-        "Find a derelict timeship or follow the rift-summoning path, gain its trust, then learn its controls. The NTM Immersive Portals addon supplies the seamless doorway.",
-        "Follow the connected milestones from left to right. Item goals check your inventory without taking the item. Recipe details are available through JEI."
+        "Prepare a Mallet for your interior workshop."
       ],
-      "icon": "tardis:manual",
-      "x": 1.43,
-      "y": 0.0,
-      "shape": "square",
-      "dependencies": [],
+      "icon": "tardis_refined:mallet",
+      "x": 3,
+      "y": 9,
+      "shape": "circle",
+      "dependencies": [
+        "04197DDB66180B9B"
+      ],
       "tasks": [
         {
-          "id": "0F2C92C52C0F68BE",
+          "id": "0DACD7DB30EB2550",
+          "type": "item",
+          "item": "tardis_refined:mallet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2013B1D390FB1F42",
+          "type": "item",
+          "item": "minecraft:ender_pearl",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "7184605B6DEA681B",
+      "title": "A distant shore",
+      "description": [
+        "Land in an unfamiliar region. Bring back a local material and record a route worth visiting again. Confirm after returning safely."
+      ],
+      "icon": "minecraft:spyglass",
+      "x": 0,
+      "y": 12,
+      "shape": "circle",
+      "dependencies": [
+        "0D648CB16D5E60AB"
+      ],
+      "tasks": [
+        {
+          "id": "31D5D20468123946",
           "type": "checkmark",
-          "title": "Read and continue"
+          "title": "Confirm journal milestone"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "65BB4AE1ADA905E2",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "3E2784B8BDC9DC43",
+      "title": "A home within",
+      "description": [
+        "Fit out a sleeping area, storage and a small workshop inside your vessel. Confirm once your travelling home is ready."
+      ],
+      "icon": "minecraft:chest",
+      "x": -3,
+      "y": 12,
+      "shape": "circle",
+      "dependencies": [
+        "1DE96B4F38977BF8"
+      ],
+      "tasks": [
+        {
+          "id": "601BCB3F9F7FE309",
+          "type": "checkmark",
+          "title": "Confirm journal milestone"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3B39ECDD40E4FED4",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "1FCAB9821904F56C",
+      "title": "A shared voyage",
+      "description": [
+        "Take a companion on a round trip, or complete a second solo expedition. Everyone should leave and re-enter safely before you confirm this milestone."
+      ],
+      "icon": "minecraft:golden_carrot",
+      "x": 3,
+      "y": 12,
+      "shape": "circle",
+      "dependencies": [
+        "18BACD26D1A649A4"
+      ],
+      "tasks": [
+        {
+          "id": "757861CCA15F8B1D",
+          "type": "checkmark",
+          "title": "Confirm journal milestone"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "68A1C4E906CB0A45",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 24
+        }
+      ]
+    },
+    {
+      "id": "53252BA982135155",
+      "title": "There and back again",
+      "description": [
+        "Return to your departure point after a distant expedition. Keep a key, supplies and a route home ready for the next journey."
+      ],
+      "icon": "minecraft:lodestone",
+      "x": 0,
+      "y": 15,
+      "shape": "hexagon",
+      "dependencies": [
+        "7184605B6DEA681B"
+      ],
+      "tasks": [
+        {
+          "id": "5275E69C25E0088D",
+          "type": "checkmark",
+          "title": "Confirm journal milestone"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0278831A64183693",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 4
         }
       ]
     }
-  ]
+  ],
+  "filename": "01_tardis",
+  "icon": "tardis_refined:tardis_key",
+  "autofocus_id": "071FD56642578AA6"
 }

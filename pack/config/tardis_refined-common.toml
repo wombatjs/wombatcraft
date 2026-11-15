@@ -1,0 +1,9 @@
+
+[compatibility]
+	#Toggle Immersive Portals compatibility (TR 2.0+). 2.0 has limited support
+	immersive_portals_support = true
+
+	[compatibility.immersive_portals_valkyrien_skies]
+		#If false, the TARDIS door's collision box will be disabled when opened on a Valkyrien Skies ship if teleportation_mode_vs is set to PORTAL.
+		open_door_ship_collision = true
+

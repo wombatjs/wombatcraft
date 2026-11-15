@@ -1,0 +1,21 @@
+
+[travel]
+	#A list of Dimensions the TARDIS cannot land in.
+	banned_dimensions = ["example:dimension", "[substring]will_match_any_dimension_containing_this_substring", "[namespace]immersive_portals", "[regex]insert_regex_here"]
+	#A list of Dimensions that are automatically sampled
+	adventure_mode_defaults = ["minecraft:overworld"]
+	#Toggles whether players must discover and sample dimensions before they can travel there
+	adventure_mode = false
+
+[compatibility]
+
+	[compatibility.immersive_portals]
+		#Choose what teleportation method to use when walking through the TARDIS door. PORTAL is the normal immersive portals with maximum smoothness. ITP instead teleports the player directly similar to when Immersive Portals integration is disabled, making the boti effect purely visual.
+		#Allowed Values: PORTAL, ITP
+		teleportation_mode = "ITP"
+
+	[compatibility.immersive_portals_valkyrien_skies]
+		#Choose what teleportation method to use when walking through the TARDIS door on a Valkyrien Skies ship. PORTAL is the normal immersive portals with maximum smoothness. ITP instead teleports the player directly similar to when Immersive Portals integration is disabled, making the boti effect purely visual. ITP is recommended to avoid getting stuck in walls/the void when the ship is moving.
+		#Allowed Values: PORTAL, ITP
+		teleportation_mode_vs = "ITP"
+

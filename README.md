@@ -16,7 +16,7 @@ Click **Play** in Wombatcraft to check and install the current pack. Wombatcraft
 
 ## Graphics and multiplayer
 
-Embeddium, ImmediatelyFast and Dynamic FPS are included. To enable Complementary Reimagined, open **Options → Video Settings → Shader Packs** and turn shaders on. Shaders are off by default.
+Embeddium, ImmediatelyFast and Dynamic FPS are included. TARDIS Refined uses the tested Immersive Portals compatibility renderer with see-through doors and direct threshold traversal. Oculus and the bundled shader pack are excluded from this release to match the accepted portal setup.
 
 Open the FTB Chunks map with **M**. Cobblemon uses **,** for the party summary, **'** to hide the party display, and **R** to send out or recall Pokémon. Press **F10** to open the shader menu. Shader reload and toggle shortcuts can be assigned in Controls. Earlier installations may still have JourneyMap waypoints in the instance's `journeymap` folder.
 

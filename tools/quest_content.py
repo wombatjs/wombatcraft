@@ -230,16 +230,7 @@ def refine_chapters(chapters, uid):
                                                 "minecraft:spyglass", "minecraft:bell"), strict=True):
         quest["icon"] = icon
     projects["icon"] = "minecraft:lantern"
-    lay_out_authored_map(chapters["01_tardis"], {
-        "Tardis Mod": (0, -2, "octagon", 1.4),
-        "The Type 40 field guide": (0, 0, "rsquare", 1.15),
-        "Across the threshold": (-2.5, -0.5, "diamond", 1.2),
-        "Read the ship's personality": (0, 1.7, "circle", 1.0),
-        "Prepare a repair kit": (0, 3.4, "rsquare", 1.08),
-        "A sonic of your own": (0, 5.1, "rsquare", 1.13),
-        "Maintain the engine": (-2.25, 6.75, "hexagon", 1.2),
-        "Choose your exterior": (2.25, 6.75, "hexagon", 1.2),
-    })
+
 
     convergence = chapters["99_convergence"]
     lay_out_authored_map(convergence, {
