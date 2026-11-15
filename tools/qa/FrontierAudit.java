@@ -15,13 +15,31 @@ final class FrontierAudit {
     private static final Class<?> STACK = type("net.minecraft.world.item.ItemStack");
     private static final Class<?> ITEM_LIKE = type("net.minecraft.world.level.ItemLike");
 
-    static void run(Object server) throws Exception {
+    static void prepare(Object server) throws Exception {
+        Object source = call(server, "m_129893_");
+        Object commands = find(server, "net.minecraft.commands.Commands");
+        commands.getClass().getMethod("m_230957_", type("net.minecraft.commands.CommandSourceStack"), String.class)
+            .invoke(commands, source, "forceload add 0 0 24 24");
         Object world = call(server, "m_129783_");
         for (int x : new int[]{0, 16}) {
             for (int z : new int[]{0, 16}) {
                 world.getClass().getMethod("m_46745_", POSITION).invoke(world, position(x, 180, z));
             }
         }
+    }
+
+    static boolean ready(Object server) throws Exception {
+        Object world = call(server, "m_129783_");
+        for (int x = 0; x <= 1; x++) for (int z = 0; z <= 1; z++) {
+            long chunk = (x & 0xffffffffL) | ((z & 0xffffffffL) << 32);
+            if (!(Boolean) world.getClass().getMethod("m_143319_", long.class).invoke(world, chunk)) return false;
+            if (!(Boolean) world.getClass().getMethod("m_143340_", POSITION).invoke(world, position(x * 16, 180, z * 16))) return false;
+        }
+        return true;
+    }
+
+    static void run(Object server) throws Exception {
+        Object world = call(server, "m_129783_");
         Object source = call(server, "m_129893_");
         Object commands = find(server, "net.minecraft.commands.Commands");
         Method command = commands.getClass().getMethod("m_230957_", type("net.minecraft.commands.CommandSourceStack"), String.class);
@@ -32,6 +50,7 @@ final class FrontierAudit {
             for (String trial : TRIALS) auditGate(server, world, trial);
         } finally {
             command.invoke(commands, source, "fill 0 179 0 24 184 24 minecraft:air");
+            command.invoke(commands, source, "forceload remove 0 0 24 24");
         }
         System.out.println("FRONTIER_GAMEPLAY_AUDIT_COMPLETE forge_recipes=3 trials=3");
     }

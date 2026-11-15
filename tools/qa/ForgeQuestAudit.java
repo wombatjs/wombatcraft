@@ -2,17 +2,33 @@ package local.qa;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.server.ServerStartedEvent;
+import net.minecraftforge.event.TickEvent;
 import java.lang.reflect.*;
 import java.nio.file.*;
 import java.util.*;
 @Mod("forge_quest_audit")
 public class ForgeQuestAudit {
+ private Object frontierServer;
+ private int frontierWaitTicks;
  public ForgeQuestAudit(){
   try { Object bus=Class.forName("net.minecraftforge.common.MinecraftForge").getField("EVENT_BUS").get(null);Class.forName("net.minecraftforge.eventbus.api.IEventBus").getMethod("register",Object.class).invoke(bus,this); } catch(Exception e){throw new RuntimeException(e);}
  }
  @SubscribeEvent public void started(ServerStartedEvent event){audit();auditRecipes(event);auditAdvancements(event);auditCommands(event);auditPortalChunkTracking(event);auditPortalPolicy();
-  try { FrontierAudit.run(call(event, "getServer")); }
+  try { frontierServer = call(event, "getServer"); FrontierAudit.prepare(frontierServer); }
   catch (Exception e) { throw new IllegalStateException("Frontier gameplay audit failed", e); }
+ }
+ @SubscribeEvent public void tick(TickEvent.ServerTickEvent event){
+  if (event.phase != TickEvent.Phase.END || frontierServer == null) return;
+  try {
+   // Saved entity sections load asynchronously. ServerStartedEvent runs before
+   // normal ticks can make those sections visible to the reward entity query.
+   if (++frontierWaitTicks < 20 || !FrontierAudit.ready(frontierServer)) {
+    if (frontierWaitTicks > 600) throw new IllegalStateException("Trial fixture entity chunks did not become ready");
+    return;
+   }
+   Object server = frontierServer; frontierServer = null;
+   FrontierAudit.run(server);
+  } catch (Exception e) { throw new IllegalStateException("Frontier gameplay audit failed", e); }
  }
  static void auditAdvancements(Object event){
   try{

@@ -29,6 +29,7 @@ jobs:
         with:
           path: dist/server-smoke/mods
           key: server-mods-${{ runner.os }}-${{ hashFiles('mod-lock.json', 'tools/portal_patch.py') }}
+          restore-keys: server-mods-${{ runner.os }}-
       - run: python -u tools/smoke_server.py
       - uses: actions/upload-artifact@v4
         if: always()
