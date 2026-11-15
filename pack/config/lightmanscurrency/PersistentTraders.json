@@ -2790,6 +2790,567 @@
               }
             ]
           }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:nether_star",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 128
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:shulker_shell",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:wither_skeleton_skull",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 32
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:dragon_breath",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 4
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:ghast_tear",
+            "Count": 4
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:blaze_rod",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 4
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:ender_pearl",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 2
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:prismarine_crystals",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 2
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:sponge",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:ancient_debris",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 64
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:netherite_ingot",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 256
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:scute",
+            "Count": 4
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 4
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:totem_of_undying",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "aether:zanite_gemstone",
+            "Count": 4
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 4
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "aether:ambrosium_shard",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 2
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "deep_aether:skyjade",
+            "Count": 4
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "deep_aether:stratus_ingot",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 32
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "twilightforest:carminite",
+            "Count": 4
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "twilightforest:fiery_blood",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "twilightforest:fiery_tears",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 16
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "twilightforest:knightmetal_ingot",
+            "Count": 4
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "twilightforest:steeleaf_ingot",
+            "Count": 4
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 4
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "twilightforest:ironwood_ingot",
+            "Count": 8
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 2
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "botania:manasteel_ingot",
+            "Count": 4
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 4
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "botania:elementium_ingot",
+            "Count": 4
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "botania:terrasteel_ingot",
+            "Count": 1
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 24
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "botania:mana_pearl",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 2
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "ars_nouveau:source_gem",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 2
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "ae2:certus_quartz_crystal",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 2
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "ae2:fluix_crystal",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 4
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "mekanism:fluorite_gem",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 2
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "create:zinc_ingot",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 2
+              }
+            ]
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "create:brass_ingot",
+            "Count": 16
+          },
+          "Price": {
+            "type": "lightmanscurrency:coins",
+            "Chain": "main",
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 2
+              }
+            ]
+          }
         }
       ]
     }
