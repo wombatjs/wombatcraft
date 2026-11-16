@@ -66,3 +66,9 @@ The companion module now has 34 passing automated tests, including two-stage ele
 This supersedes the earlier statement that no contract settlement or mayor policy adapter exists. Remaining acceptance includes full inventories, populated performance, two-player permissions, policy transitions and the full modset server boot with WorldEdit. Arena duels and combat logout inventory adapters remain unfinished. No production deployment has occurred.
 
 The expanded content validates at 3,007 quests across 100 chapters and 328 locked mod files. Private startup exposed and resolved a Fossils/End's Delight class-compatibility error. Reconnecting the eight-GiB client also reached 99% heap usage before recovering; this is an unresolved performance warning, not release acceptance.
+
+## Published civic expansion
+
+Release `9a790e89c09e98ca3052996332d12cf44e9e5a2b` adds Easy NPC Bundle/Core/Config UI, bringing the upstream lock to 331 files. Full dedicated-server tests now include WorldEdit and pass startup, 3,007 quest references, 30 expansion destinations and restart checks. Tutorial arrival tests and a real-client return/cancellation test passed. The Easy NPC editor opened in multiplayer. Client testing used the launcher's normal ten-GiB allocation; lower-memory and populated stress testing are not claimed.
+
+The public server activated this release from a stopped-world backup on November 16, 2026. Elections and contracts are enabled; per-chunk policy replacement, arena duels and logout-body inventory handling remain disabled or unavailable. Startup health checks passed and an idle sample reported 20 TPS at 20.866 ms mean ticks. The installed local pack was also updated and its 566 managed files verified. Earlier staging-only statements above describe historical milestones.

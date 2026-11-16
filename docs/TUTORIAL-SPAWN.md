@@ -23,3 +23,7 @@ The location is intentionally not chosen during installation: the server owner p
 Easy NPC Bundle, Core and Config UI are pinned to Forge 1.20.1 version 7.19.0 and shipped to clients and the server. The bundle alone is not sufficient. NPC creation/configuration is available through the mod's spawn eggs, configuration wand and `/easy_npc` command tree. Only authorized administrators should configure NPC actions.
 
 The existing mayor and secretary remain persistent civic villagers with automatic election bindings. Installing Easy NPC does not replace or erase existing spawn NPCs.
+
+## Release verification
+
+Published and deployed in release `9a790e89c09e98ca3052996332d12cf44e9e5a2b`. Runtime checks passed for first arrival, returning-player behavior, state serialization and obstructed landings. In a real multiplayer client, the five-second return succeeded and movement cancelled a pending return. Easy NPC's configuration wand opened its editor on a spawned humanoid. Existing production player history was seeded and saved; the production tutorial location remains unset for the owner to choose.

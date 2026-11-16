@@ -1,6 +1,6 @@
 # Spawn civic residents
 
-Staging implementation; not yet deployed to the public server.
+Included in public release `9a790e89c09e98ca3052996332d12cf44e9e5a2b` (November 16, 2026).
 
 With the SMP module enabled, an operator standing inside the configured spawn claim can place residents:
 
@@ -26,4 +26,4 @@ Only tagged civic residents are tracked using weak references. There is no recur
 - Right-clicking the secretary opened the final ballot with the three qualified candidates.
 - A final vote was accepted through that screen and persisted in the world's election data.
 - Advancing only the private world's election epoch past the final deadline elected Brasswick. After restart and chunk load, the existing mayor resident automatically changed from Steward Hearth to `Mayor Brasswick | Town Mayor`, verified through the server's entity data. No replacement NPC command was needed.
-- Production rollout and full expansion performance acceptance remain pending.
+- Full-modset dedicated-server startup, dimension generation and restart validation passed, including WorldEdit. The release was deployed with a pre-update backup; the public server reported 20 TPS and approximately 21 ms mean ticks with no players online. This is not a populated stress test.
