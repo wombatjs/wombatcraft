@@ -1,0 +1,223 @@
+{
+  "schema": 1,
+  "status": "staging_not_activated",
+  "personal_choices_per_day": 3,
+  "community_projects_per_week": 1,
+  "faction_orders_per_week": 3,
+  "contracts": [
+    {
+      "id": "daily_stone",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "minecraft:stone_bricks": 128
+      },
+      "reward_copper": 8,
+      "tags": [
+        "building"
+      ]
+    },
+    {
+      "id": "daily_bread",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "minecraft:bread": 32
+      },
+      "reward_copper": 8,
+      "tags": [
+        "farming"
+      ]
+    },
+    {
+      "id": "daily_copper",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "minecraft:copper_ingot": 64
+      },
+      "reward_copper": 6,
+      "tags": [
+        "industry"
+      ]
+    },
+    {
+      "id": "daily_zanite",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "aether:zanite_gemstone": 8
+      },
+      "reward_copper": 12,
+      "tags": [
+        "exploration",
+        "aether"
+      ]
+    },
+    {
+      "id": "daily_source",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "ars_nouveau:source_gem": 32
+      },
+      "reward_copper": 8,
+      "tags": [
+        "magic",
+        "ars"
+      ]
+    },
+    {
+      "id": "daily_manasteel",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "botania:manasteel_ingot": 16
+      },
+      "reward_copper": 20,
+      "tags": [
+        "magic",
+        "botania"
+      ]
+    },
+    {
+      "id": "daily_cogs",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "create:cogwheel": 32
+      },
+      "reward_copper": 10,
+      "tags": [
+        "industry",
+        "create"
+      ]
+    },
+    {
+      "id": "daily_fluix",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "ae2:fluix_crystal": 32
+      },
+      "reward_copper": 12,
+      "tags": [
+        "industry",
+        "ae2"
+      ]
+    },
+    {
+      "id": "daily_carminite",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "twilightforest:carminite": 4
+      },
+      "reward_copper": 12,
+      "tags": [
+        "exploration",
+        "twilight"
+      ]
+    },
+    {
+      "id": "community_railworks",
+      "scope": "COMMUNITY",
+      "period": "weekly",
+      "requirements": {
+        "create:track": 4096,
+        "create:railway_casing": 512,
+        "minecraft:stone_bricks": 16384
+      },
+      "reward_copper": 4096,
+      "tags": [
+        "create",
+        "building"
+      ]
+    },
+    {
+      "id": "community_grid",
+      "scope": "COMMUNITY",
+      "period": "weekly",
+      "requirements": {
+        "mekanism:basic_control_circuit": 1024,
+        "ae2:logic_processor": 1024,
+        "minecraft:copper_ingot": 8192
+      },
+      "reward_copper": 6144,
+      "tags": [
+        "mekanism",
+        "ae2",
+        "industry"
+      ]
+    },
+    {
+      "id": "community_research",
+      "scope": "COMMUNITY",
+      "period": "weekly",
+      "requirements": {
+        "ars_nouveau:source_gem": 4096,
+        "botania:manasteel_ingot": 1024,
+        "aether:zanite_gemstone": 512
+      },
+      "reward_copper": 4096,
+      "tags": [
+        "magic",
+        "exploration"
+      ]
+    },
+    {
+      "id": "factory_precision",
+      "scope": "FACTION",
+      "period": "weekly",
+      "requirements": {
+        "create:precision_mechanism": 128
+      },
+      "reward_copper": 512,
+      "tags": [
+        "create",
+        "industry"
+      ]
+    },
+    {
+      "id": "factory_circuits",
+      "scope": "FACTION",
+      "period": "weekly",
+      "requirements": {
+        "mekanism:basic_control_circuit": 512
+      },
+      "reward_copper": 640,
+      "tags": [
+        "mekanism",
+        "industry"
+      ]
+    },
+    {
+      "id": "factory_processors",
+      "scope": "FACTION",
+      "period": "weekly",
+      "requirements": {
+        "ae2:logic_processor": 256,
+        "ae2:calculation_processor": 128
+      },
+      "reward_copper": 768,
+      "tags": [
+        "ae2",
+        "industry"
+      ]
+    },
+    {
+      "id": "factory_arcane",
+      "scope": "FACTION",
+      "period": "weekly",
+      "requirements": {
+        "ars_nouveau:source_gem": 1024,
+        "botania:manasteel_ingot": 256
+      },
+      "reward_copper": 512,
+      "tags": [
+        "magic",
+        "industry"
+      ]
+    }
+  ]
+}

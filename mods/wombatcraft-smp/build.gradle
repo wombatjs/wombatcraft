@@ -1,0 +1,37 @@
+plugins {
+    id 'java'
+    id 'net.minecraftforge.gradle' version '[6.0.24,6.2)'
+}
+group = 'net.wombatcraft'
+version = '0.1.0-staging'
+base.archivesName = 'wombatcraft-smp'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    copyIdeResources = true
+    runs {
+        server {
+            workingDirectory project.file('run')
+            args '--nogui'
+            mods { wombatcraft_smp { source sourceSets.main } }
+        }
+    }
+}
+repositories {
+    mavenCentral()
+    maven { url = 'https://maven.ftb.dev/releases' }
+    maven { url = 'https://maven.architectury.dev' }
+}
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.28'
+    compileOnly fg.deobf('dev.ftb.mods:ftb-library-forge:2001.2.13') { transitive = false }
+    compileOnly fg.deobf('dev.ftb.mods:ftb-teams-forge:2001.3.2') { transitive = false }
+    compileOnly fg.deobf('dev.ftb.mods:ftb-chunks-forge:2001.3.8') { transitive = false }
+    compileOnly fg.deobf('dev.architectury:architectury-forge:9.2.14') { transitive = false }
+    testImplementation platform('org.junit:junit-bom:5.10.3')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+test { useJUnitPlatform(); maxHeapSize = '256m' }
+jar.finalizedBy('reobfJar')
