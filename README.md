@@ -4,7 +4,7 @@ A shared frontier of industry, spellcraft, exploration and settlement for Minecr
 
 ## Development status
 
-The pack contains 285 pinned mod files and 1,968 quests across 43 chapters. Discord Rich Presence adds two client mods when activated. The quest book includes optional workshop projects, boss hunts, planetary landings and a Twilight Forest campaign. Automated release validation boots a fresh Forge world and checks quest IDs, item references, endgame recipes and server commands, then repeats the check after a clean restart.
+The pack contains 331 pinned upstream mod files and 3,007 quests across 100 chapters, plus Wombatcraft's generated compatibility and community modules. The quest book includes workshop projects, boss hunts, planetary landings, supernatural progression and archaeology. Automated release validation boots a Forge world and checks quest IDs, item references, endgame recipes and server commands, then repeats the check after a clean restart.
 
 The public server is `74.208.117.88:25565`, hosted in Pterodactyl through the existing proxy. Download the Windows launcher from [Releases](https://github.com/wombatjs/wombatcraft/releases/latest).
 
@@ -21,6 +21,10 @@ Embeddium, ImmediatelyFast and Dynamic FPS are included. TARDIS Refined uses the
 Open the FTB Chunks map with **M**. Cobblemon uses **,** for the party summary, **'** to hide the party display, and **R** to send out or recall Pokémon. Press **F10** to open the shader menu. Shader reload and toggle shortcuts can be assigned in Controls. Earlier installations may still have JourneyMap waypoints in the instance's `journeymap` folder.
 
 Members can set three homes with `/sethome`. Use `/home`, `/spawn`, `/tpa` and `/warp` to get around. FTB Chunks manages claims and Lightman’s Currency provides coins and player shops. Titles unlock through advancements, and Cosmetic Armor lets players change the appearance of their armor.
+
+Use `/faction` for community management and the town ballot. The election roster rotates 50 candidates through eight-candidate primaries and three-candidate finals. `/contracts` opens daily, community and factory orders at spawn. Staff can place the [mayor and secretary](docs/CIVIC-RESIDENTS.md).
+
+Easy NPC provides configurable residents. Staff set the first-visit tutorial entrance with `/settutorialspawn`; players return with `/tutorial`. See [tutorial arrivals](docs/TUTORIAL-SPAWN.md). Arena duels and combat-logout bodies remain unavailable; their unfinished adapters are not activated in this release.
 
 Staff can use `/spark` for profiling and `/pp` for PrismProtect block history and rollback. The Moderator rank grants chat moderation. Assign it through FTB Ranks when a staff member needs it.
 

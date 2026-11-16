@@ -15,6 +15,7 @@ GROUPS = {
 def add_frontier_chapters(book, uid, registry):
     source = json.loads((ROOT / "quests/frontier_chapters.json").read_text(encoding="utf-8"))
     source += json.loads((ROOT / "quests/workshop_chapters.json").read_text(encoding="utf-8"))
+    source += json.loads((ROOT / "quests/supernatural_chapters.json").read_text(encoding="utf-8"))
     for order, chapter in enumerate(source, 60):
         filename = "wc_frontier_" + chapter["key"]
         quests = []
@@ -26,6 +27,8 @@ def add_frontier_chapters(book, uid, registry):
                 task = {"id": uid(f"{key}/task/{index}"), "type": kind}
                 if kind == "checkmark":
                     task["title"] = target
+                elif kind == "kill":
+                    task.update(entity=target, value=count)
                 else:
                     task[kind] = target
                     if kind == "item":

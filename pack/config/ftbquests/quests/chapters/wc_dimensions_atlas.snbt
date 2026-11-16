@@ -1524,6 +1524,50 @@
       "shape": "rsquare",
       "size": 1.2,
       "subtitle": "Field guide"
+    },
+    {
+      "id": "61B6AD7F1A2481F8",
+      "title": "Anu's Lair",
+      "description": [
+        "Follow the Ancient Key into the lair of Anu. The Lost Ages chapter charts the excavation and restoration journey.\n\nQuest route: Fossils — Ancient Realms."
+      ],
+      "icon": "fossil:ancient_key",
+      "tasks": [
+        {
+          "id": "19BEF8E2553097F9",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 7.0,
+      "y": 32.5,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
+    },
+    {
+      "id": "24FDBEB754F09941",
+      "title": "The Ancient Treasury",
+      "description": [
+        "Complete the ancient trial and reach the sealed treasury.\n\nQuest route: Fossils — Ancient Realms."
+      ],
+      "icon": "fossil:ancient_key",
+      "tasks": [
+        {
+          "id": "2858E2849E91B1B7",
+          "type": "checkmark",
+          "title": "Read the field guide"
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": -7.0,
+      "y": 35.0,
+      "shape": "rsquare",
+      "size": 1.2,
+      "subtitle": "Field guide"
     }
   ]
 }

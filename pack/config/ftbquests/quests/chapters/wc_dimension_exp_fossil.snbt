@@ -1,0 +1,160 @@
+{
+  "filename": "wc_dimension_exp_fossil",
+  "id": "6931E500C9E8CDE7",
+  "title": "Fossils — Ancient Realms",
+  "icon": "fossil:ancient_key",
+  "group": "3E91144EB73CBA91",
+  "order_index": 46,
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "6FA70986C14B6D00",
+      "title": "The Ancient Key",
+      "description": [
+        "Recover the ancient key before seeking the doorway to Anu."
+      ],
+      "icon": "fossil:ancient_key",
+      "tasks": [
+        {
+          "id": "4FFA2C8DF91DDFD3",
+          "type": "item",
+          "item": "fossil:ancient_key",
+          "count": 1
+        }
+      ],
+      "optional": true,
+      "dependencies": [],
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1,
+      "rewards": [
+        {
+          "id": "6D58D3465BBDF255",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "5316E464BE3419A0",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "429D560B8B01269F",
+      "title": "The Lair of Anu",
+      "description": [
+        "Cross into Anu's realm with repaired equipment and a retreat plan."
+      ],
+      "icon": "fossil:ancient_sword",
+      "tasks": [
+        {
+          "id": "5AF16920C94F94F5",
+          "type": "dimension",
+          "dimension": "fossil:anu_lair"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "6FA70986C14B6D00"
+      ],
+      "x": 0.0,
+      "y": 2.5,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "7D1D8ACD92DECD34",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "1B24F6B1E1017D5D",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
+        }
+      ]
+    },
+    {
+      "id": "1225D803F573BEC4",
+      "title": "An Age Ends",
+      "description": [
+        "Defeat Anu. The Lost Ages chapter charts the excavation and restoration journey that brought you here."
+      ],
+      "icon": "fossil:ancient_sword",
+      "tasks": [
+        {
+          "id": "52DBE5B63F29CE54",
+          "type": "advancement",
+          "advancement": "fossil:fossil/kill_anu"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "429D560B8B01269F"
+      ],
+      "x": 0.0,
+      "y": 5.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "3B22AFB1C2E0573E",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "id": "32AD7E6D349C4FA9",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        },
+        {
+          "id": "52987F18A9401EDC",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "0F61008F5B2B4454",
+      "title": "The Sealed Treasury",
+      "description": [
+        "Reach the treasure room beyond the ancient trial."
+      ],
+      "icon": "fossil:ancient_chest",
+      "tasks": [
+        {
+          "id": "5EC7BBC32B6E9449",
+          "type": "dimension",
+          "dimension": "fossil:treasure_room"
+        }
+      ],
+      "optional": true,
+      "dependencies": [
+        "1225D803F573BEC4"
+      ],
+      "x": 0.0,
+      "y": 7.5,
+      "shape": "diamond",
+      "size": 1.3,
+      "rewards": [
+        {
+          "id": "675AB04D75EB4942",
+          "type": "xp",
+          "xp": 60
+        },
+        {
+          "id": "34EA1758A1637592",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 24
+        }
+      ]
+    }
+  ]
+}

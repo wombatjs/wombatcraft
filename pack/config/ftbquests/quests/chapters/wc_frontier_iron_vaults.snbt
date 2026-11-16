@@ -1,0 +1,414 @@
+{
+  "id": "533DAE32DF18370D",
+  "filename": "wc_frontier_iron_vaults",
+  "title": "Iron Chests - The Town Vault",
+  "group": "0DCB27D2C77209FB",
+  "icon": "ironchest:iron_chest",
+  "order_index": 70,
+  "default_quest_shape": "circle",
+  "autofocus_id": "46D7602E0F2B85C7",
+  "quests": [
+    {
+      "id": "46D7602E0F2B85C7",
+      "title": "A Copper Storehouse",
+      "icon": "ironchest:copper_chest",
+      "description": [
+        "Begin with an expanded chest for mixed supplies. Drawers still suit bulk goods; these chests hold varied stacks."
+      ],
+      "subtitle": "Capacity",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "7B37FA8E064B73CF",
+          "type": "item",
+          "item": "ironchest:copper_chest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "617B2F06C5A3AC42",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "54C1E35F2D3DDFBD",
+      "title": "An Iron Reserve",
+      "icon": "ironchest:iron_chest",
+      "description": [
+        "Upgrade your general storage before the workshop outgrows its walls."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "46D7602E0F2B85C7"
+      ],
+      "tasks": [
+        {
+          "id": "6A80D8C4EDD9FE39",
+          "type": "item",
+          "item": "ironchest:iron_chest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4016316D19433C7E",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "32BF4A200E120DE2",
+      "title": "A Golden Treasury",
+      "icon": "ironchest:gold_chest",
+      "description": [
+        "Move the tools and components you use most into a larger store."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "54C1E35F2D3DDFBD"
+      ],
+      "tasks": [
+        {
+          "id": "02D6C824A76133CD",
+          "type": "item",
+          "item": "ironchest:gold_chest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "43632D66EFD9AFEA",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "1A493218EDA6374D",
+      "title": "Room to Expand",
+      "icon": "ironchest:diamond_chest",
+      "description": [
+        "Reserve a diamond chest for the finished products of several production lines."
+      ],
+      "subtitle": "",
+      "x": 7.199999999999999,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "32BF4A200E120DE2"
+      ],
+      "tasks": [
+        {
+          "id": "177D97CE5BF036B1",
+          "type": "item",
+          "item": "ironchest:diamond_chest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6ECF7CC222132D3E",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "666A0A534E7B38FC",
+      "title": "The Strongroom",
+      "icon": "ironchest:obsidian_chest",
+      "description": [
+        "Finish a durable vault for valuable stock. Claims and trusted access remain your protection against other players."
+      ],
+      "subtitle": "",
+      "x": 9.6,
+      "y": 0.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "1A493218EDA6374D"
+      ],
+      "tasks": [
+        {
+          "id": "1B9744FDD16ACC7A",
+          "type": "item",
+          "item": "ironchest:obsidian_chest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3F0006220774C385",
+          "type": "item",
+          "item": "minecraft:obsidian",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "41664AF3AD9CC0D7",
+      "title": "Keep the Contents",
+      "icon": "ironchest:wood_to_copper_chest_upgrade",
+      "description": [
+        "Use an upgrade on an existing wooden chest instead of emptying its contents into a replacement."
+      ],
+      "subtitle": "Upgrades",
+      "x": 0.5,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "699EEF8C6464597C",
+          "type": "item",
+          "item": "ironchest:wood_to_copper_chest_upgrade",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "72BA6A04AFF013A4",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "105D437BC3F7F059",
+      "title": "A Growing Warehouse",
+      "icon": "ironchest:copper_to_iron_chest_upgrade",
+      "description": [
+        "Carry the same store forward into iron."
+      ],
+      "subtitle": "",
+      "x": 2.9,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "41664AF3AD9CC0D7"
+      ],
+      "tasks": [
+        {
+          "id": "7B65780044FD0C95",
+          "type": "item",
+          "item": "ironchest:copper_to_iron_chest_upgrade",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19C9F3F773CAE429",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "7C171501C79567E2",
+      "title": "Investment in Capacity",
+      "icon": "ironchest:iron_to_gold_chest_upgrade",
+      "description": [
+        "Expand the warehouse one tier at a time."
+      ],
+      "subtitle": "",
+      "x": 5.3,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "105D437BC3F7F059"
+      ],
+      "tasks": [
+        {
+          "id": "1A0454CC4534BD35",
+          "type": "item",
+          "item": "ironchest:iron_to_gold_chest_upgrade",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6A34731555F263EA",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "3D88C2B260626B85",
+      "title": "The Diamond Standard",
+      "icon": "ironchest:gold_to_diamond_chest_upgrade",
+      "description": [
+        "Prepare an in-place diamond upgrade for a busy store."
+      ],
+      "subtitle": "",
+      "x": 7.699999999999999,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "7C171501C79567E2"
+      ],
+      "tasks": [
+        {
+          "id": "5109B3C0F1A29166",
+          "type": "item",
+          "item": "ironchest:gold_to_diamond_chest_upgrade",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C6F1CCBE9FCB325",
+          "type": "item",
+          "item": "minecraft:hopper",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "164ADA529869AF08",
+      "title": "Reinforce the Vault",
+      "icon": "ironchest:diamond_to_obsidian_chest_upgrade",
+      "description": [
+        "Bring the final upgrade to the chest already serving your workshop."
+      ],
+      "subtitle": "",
+      "x": 10.1,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "3D88C2B260626B85"
+      ],
+      "tasks": [
+        {
+          "id": "7859DFB6DE1452CF",
+          "type": "item",
+          "item": "ironchest:diamond_to_obsidian_chest_upgrade",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "31C6120C27807F0B",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "4037D7457C38065B",
+      "title": "The Display Case",
+      "icon": "ironchest:crystal_chest",
+      "description": [
+        "A crystal chest shows its contents. Use a few for displays rather than a wall of rendered inventory."
+      ],
+      "subtitle": "Display",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "6D82E29E6ECCA9A4",
+          "type": "item",
+          "item": "ironchest:crystal_chest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4393B1F8243E1771",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "49A550BE8498A34D",
+      "title": "A Humble Beginning",
+      "icon": "ironchest:dirt_chest",
+      "description": [
+        "Even a vault has room for a little dirt."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 6.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "4037D7457C38065B"
+      ],
+      "tasks": [
+        {
+          "id": "63B95E29A2123B79",
+          "type": "item",
+          "item": "ironchest:dirt_chest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "61BFE03DBBA0B983",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

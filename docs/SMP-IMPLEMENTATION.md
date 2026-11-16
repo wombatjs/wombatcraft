@@ -57,4 +57,12 @@ Two full private clients joined simultaneously, but the second subsequently cras
 
 Inventory-bearing features remain release blockers. A logout body must account for Curios, backpacks, graves, soulbound rules and crash/restart recovery before activation. Contract payouts likewise require durable settlement before currency or items are granted. The existing state-machine tests do not provide these adapters.
 
-The private clients and QA server were stopped after this milestone to release memory. Source is on `smp-factions-staging`; `main` and the production release manifest are unchanged.
+The private clients and QA server were stopped after that milestone. They were restarted for the subsequent civic expansion below. Source is on `smp-factions-staging`; `main` and the production release manifest are unchanged.
+
+## Subsequent civic expansion (2026-11-16, staging)
+
+The companion module now has 34 passing automated tests, including two-stage elections and durable contract settlement. A private multiplayer client submitted a primary vote, delivered 64 stone, received 4.4 copper of credit and collected four Lightman's Currency coins, leaving the fractional balance intact. Restarted election data retained the primary vote and advanced to a three-candidate final. Right-clicking the placed secretary opened that final ballot and successfully recorded a final vote. See [Civic residents](CIVIC-RESIDENTS.md) for placement commands.
+
+This supersedes the earlier statement that no contract settlement or mayor policy adapter exists. Remaining acceptance includes full inventories, populated performance, two-player permissions, policy transitions and the full modset server boot with WorldEdit. Arena duels and combat logout inventory adapters remain unfinished. No production deployment has occurred.
+
+The expanded content validates at 3,007 quests across 100 chapters and 328 locked mod files. Private startup exposed and resolved a Fossils/End's Delight class-compatibility error. Reconnecting the eight-GiB client also reached 99% heap usage before recovering; this is an unresolved performance warning, not release acceptance.

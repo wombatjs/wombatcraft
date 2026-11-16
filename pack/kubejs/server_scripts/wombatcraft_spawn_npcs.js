@@ -93,6 +93,10 @@ function wcMarketMenu(player) {
   player.openChestGUI(Text.of('Bram | Town Market').gold(), 3, gui => {
     gui.playerSlots = false;
     gui.slot(0, 0, 8, 2, slot => { slot.item = Item.of('minecraft:gray_stained_glass_pane').withName(Text.of(' ')); });
+    gui.button(4, 0, Item.of('minecraft:paper'), Text.of('Town Contracts | Daily, community & factory orders').aqua(), click => {
+      player.closeMenu();
+      player.server.runCommandSilent('execute as ' + player.uuid + ' run contracts');
+    });
     gui.button(1, 1, Item.of('minecraft:gold_ingot'), Text.of('Auction House | Browse, bid & sell').yellow(), click => wcOpenMarket(player, 'auctions'));
     gui.button(3, 1, Item.of('minecraft:chest'), Text.of('Server Shop | Browse categories').yellow(), click => wcShopCategories(player));
     gui.button(5, 1, Item.of('minecraft:emerald'), Text.of('Sell Counter | Materials & valuables').yellow(), click => wcSellMenu(player));

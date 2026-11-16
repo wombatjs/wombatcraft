@@ -1,0 +1,6 @@
+enabled = true
+tpaGuard = true
+chunkPolicies = false
+elections = true
+contracts = true
+spawnTeam = "2de87e97-dce4-41d0-b02d-c24a395997a1"

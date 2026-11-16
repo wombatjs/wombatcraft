@@ -1,0 +1,252 @@
+{
+  "id": "2E37397DE990CCA3",
+  "filename": "wc_frontier_dragon_riders",
+  "title": "Dragon Mounts - A Bond in the Sky",
+  "group": "00AA8F374274B5F3",
+  "icon": "dragonmounts:dragon_egg",
+  "order_index": 78,
+  "default_quest_shape": "circle",
+  "autofocus_id": "5A95705955E9AA85",
+  "quests": [
+    {
+      "id": "5A95705955E9AA85",
+      "title": "Food for a Friend",
+      "icon": "minecraft:cod",
+      "description": [
+        "Prepare fish before approaching a young dragon."
+      ],
+      "subtitle": "Preparation",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "3DF3231B5ED07A0B",
+          "type": "item",
+          "item": "minecraft:cod",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E329E241BB9878C",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "03138A4CFF848E75",
+      "title": "A Safe Enclosure",
+      "icon": "minecraft:lead",
+      "description": [
+        "Prepare a lead and a roomy enclosure away from busy machines."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "5A95705955E9AA85"
+      ],
+      "tasks": [
+        {
+          "id": "24EE55272770532D",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "43631855661C0735",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "31B3D89A4A7761C7",
+      "title": "A Rider's Equipment",
+      "icon": "minecraft:saddle",
+      "description": [
+        "Prepare a saddle before your companion is ready to carry you."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 0.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "03138A4CFF848E75"
+      ],
+      "tasks": [
+        {
+          "id": "0E889DBC8ABD939A",
+          "type": "item",
+          "item": "minecraft:saddle",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B3B7CCB90A1B399",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "0AFFA4DD4239AFF3",
+      "title": "An Unhatched Promise",
+      "icon": "dragonmounts:dragon_egg",
+      "description": [
+        "Recover a dragon egg and choose a safe place to hatch it. Its surroundings can shape the breed."
+      ],
+      "subtitle": "Bond",
+      "x": 0.5,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "18C84931EB62103F",
+          "type": "item",
+          "item": "dragonmounts:dragon_egg",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7EB9520E033F0B5D",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "2836DDCD783ED74A",
+      "title": "Earn Its Trust",
+      "icon": "dragonmounts:dragon_egg",
+      "description": [
+        "Tame a Dragon Mounts dragon yourself."
+      ],
+      "subtitle": "",
+      "x": 2.9,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "0AFFA4DD4239AFF3"
+      ],
+      "tasks": [
+        {
+          "id": "20222B953F5F269E",
+          "type": "advancement",
+          "advancement": "wombatcraft:dragons/bond"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "28F3845B73FE74E0",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "514429BB5179CEF8",
+      "title": "The First Ride",
+      "icon": "dragonmounts:dragon_egg",
+      "description": [
+        "Mount a Dragon Mounts dragon."
+      ],
+      "subtitle": "",
+      "x": 5.3,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "2836DDCD783ED74A"
+      ],
+      "tasks": [
+        {
+          "id": "751E99BC302B7AED",
+          "type": "advancement",
+          "advancement": "wombatcraft:dragons/rider"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D9282C2CF9245CE",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "6ABD54362713FC58",
+      "title": "Above the Clouds",
+      "icon": "dragonmounts:dragon_egg",
+      "description": [
+        "Ride your dragon above Y150. Choose clear skies and keep a safe landing in sight."
+      ],
+      "subtitle": "",
+      "x": 7.699999999999999,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "514429BB5179CEF8"
+      ],
+      "tasks": [
+        {
+          "id": "5E43362ACCBF5033",
+          "type": "advancement",
+          "advancement": "wombatcraft:dragons/high_flight"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2FED0CC85011F10E",
+          "type": "item",
+          "item": "minecraft:lead",
+          "count": 4
+        },
+        {
+          "id": "0323E0F621D8E92B",
+          "type": "item",
+          "item": "minecraft:name_tag",
+          "count": 2
+        },
+        {
+          "id": "2C4982C57CB34BEB",
+          "type": "item",
+          "item": "minecraft:cod",
+          "count": 32
+        }
+      ]
+    }
+  ]
+}

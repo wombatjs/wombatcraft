@@ -1,9 +1,9 @@
 {
-  "item_slots": 2083,
-  "rewarded_quests": 1870,
+  "item_slots": 2088,
+  "rewarded_quests": 1874,
   "custom_milestones": 60,
-  "total_quests": 2807,
-  "quests_with_items": 2033,
+  "total_quests": 3007,
+  "quests_with_items": 2231,
   "xp_only_quests": 0,
   "matched_milestones": [
     "ae2:crafting_terminal",

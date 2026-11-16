@@ -18,13 +18,16 @@ public final class WombatcraftSmp {
     public static final String ID="wombatcraft_smp";
     public static final Logger LOGGER=LogUtils.getLogger();
     private static final ForgeConfigSpec SPEC;
-    static final ForgeConfigSpec.BooleanValue ENABLED, TPA_GUARD, CHUNK_POLICIES, ELECTIONS;
+    static final ForgeConfigSpec.BooleanValue ENABLED, TPA_GUARD, CHUNK_POLICIES, ELECTIONS, CONTRACTS;
+    static final ForgeConfigSpec.ConfigValue<String> SPAWN_TEAM;
     static {
         var b=new ForgeConfigSpec.Builder();
         ENABLED=b.comment("Staging gate. Do not enable on production before multiplayer acceptance.").define("enabled",false);
         TPA_GUARD=b.comment("Pinned FTB Essentials 2001.2.4 acceptance guard.").define("tpaGuard",true);
         CHUNK_POLICIES=b.comment("Staging-only per-chunk faction policy integration.").define("chunkPolicies",false);
         ELECTIONS=b.comment("Enable only after mayor policy adapters are verified.").define("elections",false);
+        CONTRACTS=b.comment("Spawn-only contract deliveries and currency collection.").define("contracts",false);
+        SPAWN_TEAM=b.comment("FTB server-team UUID owning the town claim.").define("spawnTeam", "2de87e97-dce4-41d0-b02d-c24a395997a1",v->v instanceof String && ((String)v).matches("[0-9a-fA-F-]{36}"));
         SPEC=b.build();
     }
     private final TpaGuard tpa=new TpaGuard();
@@ -33,14 +36,23 @@ public final class WombatcraftSmp {
         ModLoadingContext.get().registerConfig(ModConfig.Type.SERVER,SPEC);
         SmpNetwork.register();
         Factions.register();
+        CivicResidents.register();
+        MayorPolicies.register();
+        ExpansionGuard.register();
+        TutorialSpawn.register();
         MinecraftForge.EVENT_BUS.addListener(this::commands);
         MinecraftForge.EVENT_BUS.addListener(this::command);
         MinecraftForge.EVENT_BUS.addListener(this::stopped);
         MinecraftForge.EVENT_BUS.addListener((net.minecraftforge.event.entity.player.PlayerEvent.PlayerLoggedOutEvent e)->SmpNetwork.leave(e.getEntity().getUUID()));
     }
     private void command(CommandEvent event) {if(ENABLED.get()&&TPA_GUARD.get())tpa.command(event);}
-    private void stopped(ServerStoppedEvent event){tpa.clear();SmpNetwork.clear();}
+    private void stopped(ServerStoppedEvent event){tpa.clear();SmpNetwork.clear();ContractService.clear();}
     private void commands(RegisterCommandsEvent event) {
+        event.getDispatcher().register(Commands.literal("contracts").requires(s->ENABLED.get()&&CONTRACTS.get()).executes(c->{
+            var player=c.getSource().getPlayerOrException();
+            if(!SmpNetwork.atSpawn(player)){c.getSource().sendFailure(Component.literal("Visit the contract desk at spawn."));return 0;}
+            SmpNetwork.view(player,0,"",0,4);return 1;
+        }));
         event.getDispatcher().register(Commands.literal("faction").requires(s->ENABLED.get()).executes(c->{
             SmpNetwork.view(c.getSource().getPlayerOrException(),0,"");return 1;
         }));
@@ -48,7 +60,7 @@ public final class WombatcraftSmp {
                 .then(Commands.literal("audit").executes(c->StagingAudit.run(c.getSource())))
                 .then(Commands.literal("status").executes(c->{
                     c.getSource().sendSuccess(()->Component.literal("Wombatcraft Communities staging: "
-                            +(ENABLED.get()?"enabled":"disabled")+". Arena, inventory handoff and economy settlement are not activated."),false);
+                            +(ENABLED.get()?"enabled":"disabled")+". Elections: "+ELECTIONS.get()+"; contracts: "+CONTRACTS.get()+". Arena duels and logout inventory handoff remain unavailable."),false);
                     return 1;
                 })));
     }

@@ -1,0 +1,852 @@
+{
+  "id": "12389000D737A736",
+  "filename": "wc_frontier_moonbound",
+  "title": "Werewolves - The Moonbound",
+  "group": "065A019E212476CF",
+  "icon": "werewolves:werewolf_tooth",
+  "order_index": 74,
+  "default_quest_shape": "circle",
+  "autofocus_id": "2EE4F343B8F091F0",
+  "quests": [
+    {
+      "id": "2EE4F343B8F091F0",
+      "title": "The Mark of the Beast",
+      "icon": "werewolves:werewolf_tooth",
+      "description": [
+        "Find a werewolf tooth and study the path before accepting its changes."
+      ],
+      "subtitle": "Moon",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "4B1008AF7539DF76",
+          "type": "item",
+          "item": "werewolves:werewolf_tooth",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "127FBFEC370A125B",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "41B322EA8BDA9438",
+      "title": "A Place Beneath the Moon",
+      "icon": "werewolves:stone_altar",
+      "description": [
+        "Prepare a stone altar for werewolf progression."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "2EE4F343B8F091F0"
+      ],
+      "tasks": [
+        {
+          "id": "6CC44538E90CEF24",
+          "type": "item",
+          "item": "werewolves:stone_altar",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C6735BE19D65CD2",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "200B0860AA501D49",
+      "title": "Fire at the Altar",
+      "icon": "werewolves:stone_altar_fire_bowl",
+      "description": [
+        "Add the altar's fire bowl and follow the werewolf guide's rites."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "41B322EA8BDA9438"
+      ],
+      "tasks": [
+        {
+          "id": "6C263A364D0A836A",
+          "type": "item",
+          "item": "werewolves:stone_altar_fire_bowl",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DBD8827742CE6A0",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "3D02071960CCA58B",
+      "title": "A Bone-Wrought Charm",
+      "icon": "werewolves:bone_necklace",
+      "description": [
+        "Prepare a necklace for the path ahead."
+      ],
+      "subtitle": "",
+      "x": 7.199999999999999,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "200B0860AA501D49"
+      ],
+      "tasks": [
+        {
+          "id": "7B10E2198B2A9751",
+          "type": "item",
+          "item": "werewolves:bone_necklace",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DF917486E9B6151",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "6D432F9ED4E5DE53",
+      "title": "A Bound Charm",
+      "icon": "werewolves:charm_bracelet",
+      "description": [
+        "Add a charm bracelet to your equipment."
+      ],
+      "subtitle": "",
+      "x": 9.6,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "3D02071960CCA58B"
+      ],
+      "tasks": [
+        {
+          "id": "226552E55677D8C3",
+          "type": "item",
+          "item": "werewolves:charm_bracelet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7AE2D818C0EB7201",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "567ABF0C9E195A68",
+      "title": "Dreams Held Fast",
+      "icon": "werewolves:dream_catcher",
+      "description": [
+        "Craft a dream catcher for your moonbound collection."
+      ],
+      "subtitle": "",
+      "x": 12.0,
+      "y": 0.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "6D432F9ED4E5DE53"
+      ],
+      "tasks": [
+        {
+          "id": "52F46AF13930037A",
+          "type": "item",
+          "item": "werewolves:dream_catcher",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "195A4E499D817788",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "61075DDBA223EBD1",
+      "title": "A Pale Vein",
+      "icon": "werewolves:raw_silver",
+      "description": [
+        "Mine silver and reserve part of the yield for defensive supplies."
+      ],
+      "subtitle": "Silver",
+      "x": 0.5,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0293C26CF2C7B91A",
+          "type": "item",
+          "item": "werewolves:raw_silver",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6CA8468E43FFB263",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "7E2CDBDFA41DDA20",
+      "title": "Refined Moonlight",
+      "icon": "werewolves:silver_ingot",
+      "description": [
+        "Smelt a silver reserve."
+      ],
+      "subtitle": "",
+      "x": 2.9,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "61075DDBA223EBD1"
+      ],
+      "tasks": [
+        {
+          "id": "414E23FBA47D9349",
+          "type": "item",
+          "item": "werewolves:silver_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4E3A020E32C60846",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "3CFC063F087CFA37",
+      "title": "A Silver Edge",
+      "icon": "werewolves:silver_sword",
+      "description": [
+        "Prepare a silver weapon for encounters with werewolves."
+      ],
+      "subtitle": "",
+      "x": 5.3,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "7E2CDBDFA41DDA20"
+      ],
+      "tasks": [
+        {
+          "id": "3FA65996288DCC5F",
+          "type": "item",
+          "item": "werewolves:silver_sword",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "62B733CCF5117BAB",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "5AB9ECA6FA7CD98D",
+      "title": "A Hunter's Answer",
+      "icon": "werewolves:crossbow_arrow_silver_bolt",
+      "description": [
+        "Make silver ammunition for ranged defence."
+      ],
+      "subtitle": "",
+      "x": 7.699999999999999,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "3CFC063F087CFA37"
+      ],
+      "tasks": [
+        {
+          "id": "3CD28D58BB44D19E",
+          "type": "item",
+          "item": "werewolves:crossbow_arrow_silver_bolt",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "79A29CA1D4120DB0",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "017B60FB90002EBE",
+      "title": "Armour of Silver",
+      "icon": "werewolves:silver_chestplate",
+      "description": [
+        "Complete the core of your silver equipment."
+      ],
+      "subtitle": "",
+      "x": 10.1,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "5AB9ECA6FA7CD98D"
+      ],
+      "tasks": [
+        {
+          "id": "359DF9B4DCA4100E",
+          "type": "item",
+          "item": "werewolves:silver_chestplate",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "510E39FCD443DAE6",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "77A5F22E9B31F485",
+      "title": "A Hunter's Trophy",
+      "icon": "werewolves:pelt",
+      "description": [
+        "Gather a pelt from a dangerous encounter."
+      ],
+      "subtitle": "Pelts",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "6941F5DCA6B8DE25",
+          "type": "item",
+          "item": "werewolves:pelt",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3800F4833BCD1CB8",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "2D818062F639C79D",
+      "title": "Wild Armour",
+      "icon": "werewolves:pelt_chestplate",
+      "description": [
+        "Craft the first pelt chestplate."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "77A5F22E9B31F485"
+      ],
+      "tasks": [
+        {
+          "id": "4D149C9237FB68F6",
+          "type": "item",
+          "item": "werewolves:pelt_chestplate",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C267208D9575D5E",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "577ED1CFE3608C18",
+      "title": "A Darker Mantle",
+      "icon": "werewolves:dark_pelt_chestplate",
+      "description": [
+        "Advance into dark pelt equipment."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "2D818062F639C79D"
+      ],
+      "tasks": [
+        {
+          "id": "27386A6DD51D213C",
+          "type": "item",
+          "item": "werewolves:dark_pelt_chestplate",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "75C439FFC726E0AE",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "0308A5BBEFFDDBA7",
+      "title": "The White Pelt Pattern",
+      "icon": "werewolves:white_pelt_upgrade_smithing_template",
+      "description": [
+        "Recover the pattern needed for white pelt equipment."
+      ],
+      "subtitle": "",
+      "x": 7.199999999999999,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "577ED1CFE3608C18"
+      ],
+      "tasks": [
+        {
+          "id": "45D29C7E10BF2029",
+          "type": "item",
+          "item": "werewolves:white_pelt_upgrade_smithing_template",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "307DFE5179A9A999",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "78D31ECD873FC623",
+      "title": "Winter's Mantle",
+      "icon": "werewolves:white_pelt_chestplate",
+      "description": [
+        "Finish the white pelt chestplate."
+      ],
+      "subtitle": "",
+      "x": 9.6,
+      "y": 6.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "0308A5BBEFFDDBA7"
+      ],
+      "tasks": [
+        {
+          "id": "07AEA32D7C1988B3",
+          "type": "item",
+          "item": "werewolves:white_pelt_chestplate",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "34F35D5B46138DF8",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "2DA64C5BBBDADA57",
+      "title": "A Woodland Harvest",
+      "icon": "werewolves:wolf_berries",
+      "description": [
+        "Gather wolf berries for your supplies."
+      ],
+      "subtitle": "Wards",
+      "x": 0.5,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "395F76651F575ED2",
+          "type": "item",
+          "item": "werewolves:wolf_berries",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05A2CC36950F4A40",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "3235BDE933D18B40",
+      "title": "Find the Wolfsbane",
+      "icon": "werewolves:wolfsbane_finder",
+      "description": [
+        "Prepare a finder for the protective herb."
+      ],
+      "subtitle": "",
+      "x": 2.9,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "2DA64C5BBBDADA57"
+      ],
+      "tasks": [
+        {
+          "id": "56E136C2B95D7C06",
+          "type": "item",
+          "item": "werewolves:wolfsbane_finder",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4CAC7EBA28CD1024",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "44C9BFFA339CD49E",
+      "title": "A Defensive Core",
+      "icon": "werewolves:wolfsbane_diffuser_core",
+      "description": [
+        "Prepare a diffuser core for an established settlement."
+      ],
+      "subtitle": "",
+      "x": 5.3,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "3235BDE933D18B40"
+      ],
+      "tasks": [
+        {
+          "id": "3D268D86A6DE6143",
+          "type": "item",
+          "item": "werewolves:wolfsbane_diffuser_core",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2D7F5B615448B362",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "5FAAEED22E59B272",
+      "title": "A Stronger Ward",
+      "icon": "werewolves:wolfsbane_diffuser_core_improved",
+      "description": [
+        "Improve the core before extending your defences."
+      ],
+      "subtitle": "",
+      "x": 7.699999999999999,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "44C9BFFA339CD49E"
+      ],
+      "tasks": [
+        {
+          "id": "7CA7BD53C1E832EC",
+          "type": "item",
+          "item": "werewolves:wolfsbane_diffuser_core_improved",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "24B714F61166971F",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "2DB61C9A577D4EDA",
+      "title": "A Way Back",
+      "icon": "werewolves:injection_un_werewolf",
+      "description": [
+        "Keep the cure available if you decide to leave the werewolf path."
+      ],
+      "subtitle": "",
+      "x": 10.1,
+      "y": 9.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "5FAAEED22E59B272"
+      ],
+      "tasks": [
+        {
+          "id": "64C3439C35A36AAA",
+          "type": "item",
+          "item": "werewolves:injection_un_werewolf",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7AB7FD6A559D3E93",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "69AC8404772D13E0",
+      "title": "A Companion's Bond",
+      "icon": "werewolves:werewolf_minion_charm",
+      "description": [
+        "Prepare a charm for a single trusted minion."
+      ],
+      "subtitle": "Pack",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "10AD661B985AEFCB",
+          "type": "item",
+          "item": "werewolves:werewolf_minion_charm",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E171DBDA3B4C80F",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "1922DFB1F5DD3D4D",
+      "title": "Train the Pack",
+      "icon": "werewolves:werewolf_minion_upgrade_simple",
+      "description": [
+        "Begin with a simple minion upgrade."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 12.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "69AC8404772D13E0"
+      ],
+      "tasks": [
+        {
+          "id": "748FFCFB2F85D381",
+          "type": "item",
+          "item": "werewolves:werewolf_minion_upgrade_simple",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7FA51BA3119BB40F",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "29968440E689303A",
+      "title": "An Experienced Companion",
+      "icon": "werewolves:werewolf_minion_upgrade_enhanced",
+      "description": [
+        "Improve the same companion rather than filling your base with followers."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 12.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "1922DFB1F5DD3D4D"
+      ],
+      "tasks": [
+        {
+          "id": "6505091611E282F7",
+          "type": "item",
+          "item": "werewolves:werewolf_minion_upgrade_enhanced",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6E46A6292740D939",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "41C22E043B6AA28A",
+      "title": "An Exceptional Guardian",
+      "icon": "werewolves:werewolf_minion_upgrade_special",
+      "description": [
+        "Finish a specialised minion upgrade."
+      ],
+      "subtitle": "",
+      "x": 7.199999999999999,
+      "y": 12.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "29968440E689303A"
+      ],
+      "tasks": [
+        {
+          "id": "1380FE32C2FBC8F4",
+          "type": "item",
+          "item": "werewolves:werewolf_minion_upgrade_special",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "56294C0D1FAC346F",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

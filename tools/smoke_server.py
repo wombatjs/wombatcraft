@@ -6,10 +6,13 @@ ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'launcher'))
 dest=ROOT/'dist/server-smoke';dest.mkdir(parents=True,exist_ok=True)
 lock=json.loads((ROOT/'mod-lock.json').read_text());mods=dest/'mods';mods.mkdir(exist_ok=True)
 # CI may restore an older cached mods directory. Do not load retired mods.
-expected={r['file']['filename'] for r in lock['mods'] if r.get('server',r['project'].get('server_side')!='unsupported')} | {PATCH_NAME,COMPAT_PATCH_NAME,REFINED_PATCH_NAME,'forge-quest-audit.jar'}
+smp_jar=ROOT/'mods/wombatcraft-smp/build/libs/wombatcraft-smp-0.1.0-staging.jar'
+assert smp_jar.is_file(), 'Build the Communities module before the server smoke test'
+expected={r['file']['filename'] for r in lock['mods'] if r.get('server',r['project'].get('server_side')!='unsupported')} | {PATCH_NAME,COMPAT_PATCH_NAME,REFINED_PATCH_NAME,'forge-quest-audit.jar',smp_jar.name}
 for old in mods.glob('*.jar'):
  if old.name not in expected:old.unlink()
 print('Verifying and downloading pinned server mods...',flush=True)
+shutil.copy2(smp_jar,mods/smp_jar.name)
 for r in lock['mods']:
  if not r.get('server',r['project'].get('server_side')!='unsupported'):continue
  f=r['file'];updater.download(dict(path='mods/'+f['filename'],url=f['url'],fallback_urls=r.get('fallback_urls',[]),sha512=f['hashes']['sha512'],size=f['size']),mods/f['filename'])
@@ -59,7 +62,7 @@ args='win_args.txt' if os.name=='nt' else 'unix_args.txt'
 for boot in range(2):
  print('Starting dedicated server pass',boot+1,flush=True)
  with (dest/'console.log').open('w') as log:
-  process=subprocess.Popen(['java','-Xms1G','-Xmx5G',f'@libraries/net/minecraftforge/forge/{version}/{args}','nogui'],cwd=dest,stdin=subprocess.PIPE,stdout=log,stderr=subprocess.STDOUT)
+  process=subprocess.Popen(['java','-Dwombatcraft.qa=true','-Xms1G','-Xmx'+os.environ.get('WOMBATCRAFT_SMOKE_HEAP','8G'),f'@libraries/net/minecraftforge/forge/{version}/{args}','nogui'],cwd=dest,stdin=subprocess.PIPE,stdout=log,stderr=subprocess.STDOUT)
   try:
    deadline=time.monotonic()+900
    while time.monotonic()<deadline:
@@ -101,8 +104,13 @@ for boot in range(2):
     assert any('Wombatcraft DivineRPG entity data fixed:' in line and entity in line for line in text.splitlines()),'DivineRPG entity data fix did not load: '+entity
    assert 'PORTAL_POLICY_AUDIT_COMPLETE' in text,'Portal policy or serializer synchronization did not load'
    commands=set((dest/'command-registry.txt').read_text().splitlines())
-   required_commands={'home','sethome','spawn','tpa','tpaccept','tpdeny','tab','warp','mute','unmute','ftbranks','ftbchunks','lcadmin','spark','chunky','pp','servercore'}
+   required_commands={'home','sethome','spawn','tpa','tpaccept','tpdeny','tab','warp','mute','unmute','ftbranks','ftbchunks','lcadmin','spark','chunky','pp','servercore','tutorial','settutorialspawn','easy_npc'}
    assert required_commands<=commands,'Missing server commands: '+str(sorted(required_commands-commands))
+   process.stdin.write(b'wctutorialaudit\n');process.stdin.flush()
+   tutorial_deadline=time.monotonic()+30
+   while 'TUTORIAL_AUDIT_PASS:' not in (dest/'console.log').read_text(errors='replace'):
+    if time.monotonic()>tutorial_deadline:raise RuntimeError('Tutorial first-join audit failed; see console.log')
+    time.sleep(1)
    # Generate an actual chunk in every new destination on the disposable world.
    # Console commands run in order: the following marker proves setblock returned.
    explored=[]

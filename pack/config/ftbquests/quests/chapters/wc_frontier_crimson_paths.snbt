@@ -1,0 +1,946 @@
+{
+  "id": "4CBE11548DC2E566",
+  "filename": "wc_frontier_crimson_paths",
+  "title": "Vampirism - Blood and Oaths",
+  "group": "065A019E212476CF",
+  "icon": "vampirism:vampire_fang",
+  "order_index": 73,
+  "default_quest_shape": "circle",
+  "autofocus_id": "418F5615C9A4E514",
+  "quests": [
+    {
+      "id": "418F5615C9A4E514",
+      "title": "A Crimson Discovery",
+      "icon": "vampirism:vampire_fang",
+      "description": [
+        "Study a vampire fang before deciding whether to embrace the curse or hunt it."
+      ],
+      "subtitle": "Knowledge",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "36D1A1629F90B678",
+          "type": "item",
+          "item": "vampirism:vampire_fang",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "69C5D759A1539E04",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "1B404C1E20C13D79",
+      "title": "The Vampire Codex",
+      "icon": "guideapi_vp:vampirism-guidebook",
+      "description": [
+        "Keep the guide nearby. Vampire and hunter paths are alternatives; neither requires completing the other."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "418F5615C9A4E514"
+      ],
+      "tasks": [
+        {
+          "id": "68DC3969DAB516F2",
+          "type": "item",
+          "item": "guideapi_vp:vampirism-guidebook",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3EFD512883071507",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "29129C7CFA9320CE",
+      "title": "The Darkened Forest",
+      "icon": "vampirism:vampire_fang",
+      "description": [
+        "Find the vampire forest and prepare a route home."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 0.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "1B404C1E20C13D79"
+      ],
+      "tasks": [
+        {
+          "id": "4263B124288F15D0",
+          "type": "advancement",
+          "advancement": "vampirism:main/vampire_forest"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "045B7A5E4258753E",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "0C0391E621F105EE",
+      "title": "Accept the Night",
+      "icon": "vampirism:vampire_fang",
+      "description": [
+        "Choose the vampire path and complete its initiation."
+      ],
+      "subtitle": "Vampire",
+      "x": 0.5,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "2338DEE782F6D79C",
+          "type": "advancement",
+          "advancement": "vampirism:vampire/become_vampire"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6674186304A388BC",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "5BF7278B67A5E4F9",
+      "title": "The First Thirst",
+      "icon": "vampirism:vampire_fang",
+      "description": [
+        "Feed for the first time as a vampire."
+      ],
+      "subtitle": "",
+      "x": 2.9,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "0C0391E621F105EE"
+      ],
+      "tasks": [
+        {
+          "id": "360DEA553ACF95BA",
+          "type": "advancement",
+          "advancement": "vampirism:vampire/first_blood"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "345BBB3A8A2641A4",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "7BAE9D4C786F0882",
+      "title": "An Altar of Inspiration",
+      "icon": "vampirism:altar_inspiration",
+      "description": [
+        "Build the first altar for your vampire progression."
+      ],
+      "subtitle": "",
+      "x": 5.3,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "5BF7278B67A5E4F9"
+      ],
+      "tasks": [
+        {
+          "id": "5C9FAA72E626F7AC",
+          "type": "item",
+          "item": "vampirism:altar_inspiration",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5E91932509875218",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "22B6AC897F0FD0ED",
+      "title": "A Deeper Infusion",
+      "icon": "vampirism:altar_infusion",
+      "description": [
+        "Prepare the infusion altar and consult the guide for each rank's requirements."
+      ],
+      "subtitle": "",
+      "x": 7.699999999999999,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "7BAE9D4C786F0882"
+      ],
+      "tasks": [
+        {
+          "id": "075E4AB1BD24D90D",
+          "type": "item",
+          "item": "vampirism:altar_infusion",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "26AF2C269B3536F4",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "351EB68F179AB6F1",
+      "title": "Wings of Night",
+      "icon": "vampirism:vampire_fang",
+      "description": [
+        "Unlock the vampire's bat transformation."
+      ],
+      "subtitle": "",
+      "x": 10.1,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "22B6AC897F0FD0ED"
+      ],
+      "tasks": [
+        {
+          "id": "56BF7EF29D127B16",
+          "type": "advancement",
+          "advancement": "vampirism:vampire/bat"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "47EBB10C40800F8F",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "2CE5F9E700C6A808",
+      "title": "Master of the Night",
+      "icon": "vampirism:vampire_fang",
+      "description": [
+        "Reach the vampire path's maximum level."
+      ],
+      "subtitle": "",
+      "x": 12.5,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "351EB68F179AB6F1"
+      ],
+      "tasks": [
+        {
+          "id": "5728DB01911896DF",
+          "type": "advancement",
+          "advancement": "vampirism:vampire/max_level"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05EDC3AAEBA8A1DC",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 8
+        },
+        {
+          "id": "5A2393FA1773486A",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1EB72805D7C35659",
+      "title": "Take the Hunter's Oath",
+      "icon": "vampirism:vampire_fang",
+      "description": [
+        "Choose the hunter path. This branch is an alternative to becoming a vampire."
+      ],
+      "subtitle": "Hunter",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "269420D832B30C04",
+          "type": "advancement",
+          "advancement": "vampirism:hunter/become_hunter"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F8E0B710E1F0285",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "6CA397E477328D6B",
+      "title": "Wood Against Darkness",
+      "icon": "vampirism:stake",
+      "description": [
+        "Prepare a stake for your hunts."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "1EB72805D7C35659"
+      ],
+      "tasks": [
+        {
+          "id": "6FCF7CA978E57C92",
+          "type": "item",
+          "item": "vampirism:stake",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11D33A56BA1C0853",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "11198CFB2D55937F",
+      "title": "A Hunter's Bench",
+      "icon": "vampirism:hunter_table",
+      "description": [
+        "Build the station that supports your progression."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "6CA397E477328D6B"
+      ],
+      "tasks": [
+        {
+          "id": "3B18B6D90991D2FC",
+          "type": "item",
+          "item": "vampirism:hunter_table",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "36A627008CD66E3B",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "6F090E4141693E3A",
+      "title": "Keep Your Distance",
+      "icon": "vampirism:basic_crossbow",
+      "description": [
+        "Equip a basic crossbow and prepare ammunition."
+      ],
+      "subtitle": "",
+      "x": 7.199999999999999,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "11198CFB2D55937F"
+      ],
+      "tasks": [
+        {
+          "id": "5311E0BB3646D97F",
+          "type": "item",
+          "item": "vampirism:basic_crossbow",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F846007C5B1FB0D",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "4A2AF3A3BF4BDD4F",
+      "title": "A Seasoned Hunter",
+      "icon": "vampirism:enhanced_crossbow",
+      "description": [
+        "Upgrade your crossbow before facing stronger foes."
+      ],
+      "subtitle": "",
+      "x": 9.6,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "6F090E4141693E3A"
+      ],
+      "tasks": [
+        {
+          "id": "5175F1C1562D0FBA",
+          "type": "item",
+          "item": "vampirism:enhanced_crossbow",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "485AF5568DEE48E6",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "5929F6F9E4932083",
+      "title": "The Veteran's Oath",
+      "icon": "vampirism:vampire_fang",
+      "description": [
+        "Reach the hunter path's maximum level."
+      ],
+      "subtitle": "",
+      "x": 12.0,
+      "y": 6.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "4A2AF3A3BF4BDD4F"
+      ],
+      "tasks": [
+        {
+          "id": "2C97870FB9F187BD",
+          "type": "advancement",
+          "advancement": "vampirism:hunter/max_level"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6320DFF6B33A6A24",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 8
+        },
+        {
+          "id": "288845B7765F3D3E",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "6ADFA503C2A6AEC7",
+      "title": "A Stored Reserve",
+      "icon": "vampirism:blood_bottle",
+      "description": [
+        "Keep blood in bottles for the workings that need it."
+      ],
+      "subtitle": "Bloodcraft",
+      "x": 0.5,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "569AD19772F5599D",
+          "type": "item",
+          "item": "vampirism:blood_bottle",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D235B7F5C1CAA70",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "6931C76990FB802E",
+      "title": "A Proper Cellar",
+      "icon": "vampirism:blood_container",
+      "description": [
+        "Build a container for a larger blood supply."
+      ],
+      "subtitle": "",
+      "x": 2.9,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "6ADFA503C2A6AEC7"
+      ],
+      "tasks": [
+        {
+          "id": "601945F1A95F9F79",
+          "type": "item",
+          "item": "vampirism:blood_container",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03D5FFD0D783187F",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "0C3F39FFDCFD8452",
+      "title": "The Bloodworks",
+      "icon": "vampirism:blood_grinder",
+      "description": [
+        "Prepare a grinder as part of your blood-processing setup."
+      ],
+      "subtitle": "",
+      "x": 5.3,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "6931C76990FB802E"
+      ],
+      "tasks": [
+        {
+          "id": "749405C4A4B16FA8",
+          "type": "item",
+          "item": "vampirism:blood_grinder",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "24785242BC3D5512",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "31C95E38F018CC21",
+      "title": "Refine the Supply",
+      "icon": "vampirism:blood_sieve",
+      "description": [
+        "Add a sieve to complete the processing branch."
+      ],
+      "subtitle": "",
+      "x": 7.699999999999999,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "0C3F39FFDCFD8452"
+      ],
+      "tasks": [
+        {
+          "id": "51B8E8E5A7881F72",
+          "type": "item",
+          "item": "vampirism:blood_sieve",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19F3F6E6445DEB35",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "6A59BBA027E26746",
+      "title": "Metal and Blood",
+      "icon": "vampirism:blood_infused_iron_ingot",
+      "description": [
+        "Create blood-infused iron for specialised equipment."
+      ],
+      "subtitle": "",
+      "x": 10.1,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "31C95E38F018CC21"
+      ],
+      "tasks": [
+        {
+          "id": "6629D315FBE656A0",
+          "type": "item",
+          "item": "vampirism:blood_infused_iron_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4E4340C5F43AF63E",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "5115B4E3E1E1EFC3",
+      "title": "An Enhanced Alloy",
+      "icon": "vampirism:blood_infused_enhanced_iron_ingot",
+      "description": [
+        "Refine the infused metal further."
+      ],
+      "subtitle": "",
+      "x": 12.5,
+      "y": 9.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "6A59BBA027E26746"
+      ],
+      "tasks": [
+        {
+          "id": "75E91BA26A6B9890",
+          "type": "item",
+          "item": "vampirism:blood_infused_enhanced_iron_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "06DFD9B6F6FA209C",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "7D9B2E3ADC28A09B",
+      "title": "A Little Shade",
+      "icon": "vampirism:umbrella",
+      "description": [
+        "Carry an umbrella when sunlight threatens your journey."
+      ],
+      "subtitle": "Survival",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "45662280398E97C4",
+          "type": "item",
+          "item": "vampirism:umbrella",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13BD9E4888D14ACF",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "556794AF2AB3D63D",
+      "title": "Prepared for Daylight",
+      "icon": "vampirism:potion_table",
+      "description": [
+        "Prepare a potion table and consult the guide for daylight protection."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 12.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "7D9B2E3ADC28A09B"
+      ],
+      "tasks": [
+        {
+          "id": "55A52F846E79F6FA",
+          "type": "item",
+          "item": "vampirism:potion_table",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2CDB4A0AD25BF5D0",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "75EFFC7462F9E624",
+      "title": "A Sheltered Domain",
+      "icon": "vampirism:sunscreen_beacon",
+      "description": [
+        "Build a sunscreen beacon for a permanent refuge."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 12.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "556794AF2AB3D63D"
+      ],
+      "tasks": [
+        {
+          "id": "74D04982E2BED466",
+          "type": "item",
+          "item": "vampirism:sunscreen_beacon",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "239B3BFC67ADE093",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "2450A3C880CC7D11",
+      "title": "Another Choice",
+      "icon": "vampirism:oblivion_potion",
+      "description": [
+        "Study the potion of oblivion before choosing to leave your path."
+      ],
+      "subtitle": "",
+      "x": 7.199999999999999,
+      "y": 12.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "75EFFC7462F9E624"
+      ],
+      "tasks": [
+        {
+          "id": "327257725371DC10",
+          "type": "item",
+          "item": "vampirism:oblivion_potion",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "64005D4318C2E289",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "1F6275FE4D582F3F",
+      "title": "A Lord's Responsibility",
+      "icon": "vampirism:vampire_fang",
+      "description": [
+        "Earn lord status before recruiting a retinue."
+      ],
+      "subtitle": "Retinue",
+      "x": 0.5,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "63017CEDB7C76D7C",
+          "type": "advancement",
+          "advancement": "vampirism:minion/become_lord"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "08849B9EB80DFED4",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "3ED4CC9FA31C01AE",
+      "title": "Names Worth Remembering",
+      "icon": "minecraft:name_tag",
+      "description": [
+        "Give a companion a name rather than raising an unmanageable crowd."
+      ],
+      "subtitle": "",
+      "x": 2.9,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "1F6275FE4D582F3F"
+      ],
+      "tasks": [
+        {
+          "id": "0DF4F63ECBE6A216",
+          "type": "item",
+          "item": "minecraft:name_tag",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7FD3A33CC70EBDF7",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "4863B01EF3A08A58",
+      "title": "A Trusted Guardian",
+      "icon": "vampirism:vampire_fang",
+      "description": [
+        "Complete the guide's protection milestone with a minion."
+      ],
+      "subtitle": "",
+      "x": 5.3,
+      "y": 15.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "3ED4CC9FA31C01AE"
+      ],
+      "tasks": [
+        {
+          "id": "19A5A5956D27AE4F",
+          "type": "advancement",
+          "advancement": "vampirism:minion/protect_lord"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "20AAC19FA463BA9E",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

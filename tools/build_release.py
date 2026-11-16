@@ -1,5 +1,5 @@
 """Build immutable, hash-addressed release artifacts without redistributing mod jars."""
-import hashlib,json,subprocess,sys,zipfile
+import hashlib,json,subprocess,sys,zipfile,os
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'launcher'))
@@ -26,6 +26,11 @@ for f in lock.get('shaderpacks',[]):
  files.append(dict(path='shaderpacks/'+f['filename'],url=f['url'],sha512=f['hashes']['sha512'],size=f['size'],client=True,server=False))
 overrides=[]
 generated={}
+smp_root=ROOT/'mods/wombatcraft-smp'
+wrapper=str(smp_root/('gradlew.bat' if os.name=='nt' else 'gradlew'))
+subprocess.run(([wrapper] if os.name=='nt' else ['bash',wrapper])+['--no-daemon','test','build'],cwd=smp_root,check=True)
+smp_jar=smp_root/'build/libs/wombatcraft-smp-0.1.0-staging.jar'
+if not smp_jar.is_file():raise SystemExit('Communities module was not built')
 client_defaults={'options.txt','config/oculus.properties','config/simple-rpc/simple-rpc.toml','config/simple-rpc/server-entries.toml'}
 client_defaults |= MAP_DEFAULTS
 client_only=client_defaults | {'config/jeioptimizations.properties','config/modernfix-mixins.properties',
@@ -34,6 +39,8 @@ client_only=client_defaults | {'config/jeioptimizations.properties','config/mode
  'config/badoptimizations.txt'}
 server_only={'config/lightmanscurrency-common.txt','config/lightmanscurrency-server.txt','config/lightmanscurrency/PersistentTraders.json','kubejs/startup_scripts/wombatcraft_spawn_guard.js','kubejs/server_scripts/wombatcraft_spawn_npcs.js'}
 with zipfile.ZipFile(OUT/'overrides.zip','w',zipfile.ZIP_DEFLATED) as z:
+ name='mods/'+smp_jar.name;data=smp_jar.read_bytes();generated[name]=data;z.writestr(name,data)
+ overrides.append(dict(path=name,sha512=hashlib.sha512(data).hexdigest(),size=len(data),client=True,server=True,seed_only=False))
  for p in sorted((ROOT/'pack').rglob('*')):
   if not p.is_file():continue
   name=p.relative_to(ROOT/'pack').as_posix()

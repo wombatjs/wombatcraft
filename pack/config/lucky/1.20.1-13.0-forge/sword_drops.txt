@@ -1,0 +1,4 @@
+/ Brief combat effects; no terrain edits or projectile floods.
+type=effect,ID=slowness,target=hitEntity,amplifier=0,duration=3@luck=1
+type=effect,ID=weakness,target=hitEntity,amplifier=0,duration=3@luck=1
+type=effect,ID=poison,target=hitEntity,amplifier=0,duration=2@luck=2

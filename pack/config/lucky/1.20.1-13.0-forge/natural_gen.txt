@@ -1,0 +1,2 @@
+>minecraft:overworld
+type=block,ID=lucky:lucky_block@chance=1200

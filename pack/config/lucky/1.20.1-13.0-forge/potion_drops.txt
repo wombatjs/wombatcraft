@@ -1,0 +1,5 @@
+/ Short area effects; no instant kills, block replacement or item multiplication.
+type=effect,ID=speed,range=3,amplifier=0,duration=30@luck=1
+type=effect,ID=regeneration,range=3,amplifier=0,duration=8@luck=2
+type=effect,ID=slowness,range=3,amplifier=0,duration=10@luck=-1
+type=effect,ID=weakness,range=3,amplifier=0,duration=10@luck=-1

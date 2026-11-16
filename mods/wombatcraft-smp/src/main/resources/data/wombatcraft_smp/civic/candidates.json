@@ -1,0 +1,628 @@
+[
+  {
+    "id": "brasswick",
+    "name": "Mayor Brasswick",
+    "namespace": "create",
+    "policy": "Brassworks",
+    "description": "Create factory orders pay 20% more. Town charter grants Haste I while holding a Create wrench.",
+    "bonus_percent": 20,
+    "item_contains": [],
+    "scope": "",
+    "tag": "",
+    "boon_item": "create:wrench",
+    "boon_effect": "minecraft:haste"
+  },
+  {
+    "id": "flux",
+    "name": "Director Flux",
+    "namespace": "mekanism",
+    "policy": "Atomic Industry",
+    "description": "Mekanism factory orders pay 20% more. Town charter grants Haste I while holding an Atomic Disassembler.",
+    "bonus_percent": 20,
+    "item_contains": [],
+    "scope": "",
+    "tag": "",
+    "boon_item": "mekanism:atomic_disassembler",
+    "boon_effect": "minecraft:haste"
+  },
+  {
+    "id": "willow",
+    "name": "Archmage Willow",
+    "namespace": "ars_nouveau",
+    "policy": "Source Scholarship",
+    "description": "Ars Nouveau orders pay 20% more. Town charter grants night vision while holding Ars Nouveau equipment.",
+    "bonus_percent": 20,
+    "item_contains": [],
+    "scope": "",
+    "tag": "",
+    "boon_item": "ars_nouveau:",
+    "boon_effect": "minecraft:night_vision"
+  },
+  {
+    "id": "briar",
+    "name": "Ranger Briar",
+    "namespace": "twilightforest",
+    "policy": "Forest Expedition",
+    "description": "Twilight Forest deliveries pay 20% more.",
+    "bonus_percent": 20,
+    "item_contains": [],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "pebble",
+    "name": "Professor Pebble",
+    "namespace": "cobblemon",
+    "policy": "Field Research",
+    "description": "Cobblemon deliveries pay 20% more.",
+    "bonus_percent": 20,
+    "item_contains": [],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "hearth",
+    "name": "Steward Hearth",
+    "namespace": "minecraft",
+    "policy": "Town Renewal",
+    "description": "Vanilla building and supply orders pay 10% more.",
+    "bonus_percent": 10,
+    "item_contains": [],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "citrine",
+    "name": "Engineer Citrine",
+    "namespace": "ae2",
+    "policy": "Crystal Networks",
+    "description": "Applied Energistics orders pay 20% more.",
+    "bonus_percent": 20,
+    "item_contains": [],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "petal",
+    "name": "Druid Petal",
+    "namespace": "botania",
+    "policy": "Mana Renaissance",
+    "description": "Botania orders pay 20% more. Town charter grants Speed I while holding Botania equipment.",
+    "bonus_percent": 20,
+    "item_contains": [],
+    "scope": "",
+    "tag": "",
+    "boon_item": "botania:",
+    "boon_effect": "minecraft:speed"
+  },
+  {
+    "id": "rivet",
+    "name": "Foreman Rivet",
+    "namespace": "immersiveengineering",
+    "policy": "Steel Frontier",
+    "description": "Immersive Engineering orders pay 20% more. Town charter grants Haste I while holding an Engineer's Hammer.",
+    "bonus_percent": 20,
+    "item_contains": [],
+    "scope": "",
+    "tag": "",
+    "boon_item": "immersiveengineering:hammer",
+    "boon_effect": "minecraft:haste"
+  },
+  {
+    "id": "ember",
+    "name": "Smith Ember",
+    "namespace": "tconstruct",
+    "policy": "Foundry Season",
+    "description": "Tinkers component orders pay 20% more. Town charter grants fire resistance while holding Tinkers equipment.",
+    "bonus_percent": 20,
+    "item_contains": [],
+    "scope": "",
+    "tag": "",
+    "boon_item": "tconstruct:",
+    "boon_effect": "minecraft:fire_resistance"
+  },
+  {
+    "id": "marrow",
+    "name": "Professor Marrow",
+    "namespace": "fossil",
+    "policy": "Life Rediscovered",
+    "description": "Fossil laboratory orders pay 25% more. Town charter grants night vision while holding the Dinopedia.",
+    "bonus_percent": 25,
+    "item_contains": [],
+    "scope": "",
+    "tag": "",
+    "boon_item": "fossil:dinopedia",
+    "boon_effect": "minecraft:night_vision"
+  },
+  {
+    "id": "vesper",
+    "name": "Countess Vesper",
+    "namespace": "vampirism",
+    "policy": "Crimson Concord",
+    "description": "Vampirism supplies pay 25% more.",
+    "bonus_percent": 25,
+    "item_contains": [],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "fen",
+    "name": "Warden Fen",
+    "namespace": "werewolves",
+    "policy": "Moonlit Compact",
+    "description": "Werewolf and silver orders pay 25% more.",
+    "bonus_percent": 25,
+    "item_contains": [],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "rowan",
+    "name": "Witch Rowan",
+    "namespace": "enchanted",
+    "policy": "Old Ways",
+    "description": "Enchanted herb and ritual orders pay 25% more. Town charter grants night vision while holding an arthana.",
+    "bonus_percent": 25,
+    "item_contains": [],
+    "scope": "",
+    "tag": "",
+    "boon_item": "enchanted:arthana",
+    "boon_effect": "minecraft:night_vision"
+  },
+  {
+    "id": "morrow",
+    "name": "Curator Morrow",
+    "namespace": "moreartifacts",
+    "policy": "Relic Exchange",
+    "description": "More Artifacts deliveries pay 25% more.",
+    "bonus_percent": 25,
+    "item_contains": [],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "zephyr",
+    "name": "Captain Zephyr",
+    "namespace": "aether",
+    "policy": "Skyward Charter",
+    "description": "Aether deliveries pay 20% more. Town charter grants slow falling while holding Aether equipment.",
+    "bonus_percent": 20,
+    "item_contains": [],
+    "scope": "",
+    "tag": "",
+    "boon_item": "aether:",
+    "boon_effect": "minecraft:slow_falling"
+  },
+  {
+    "id": "vale",
+    "name": "Envoy Vale",
+    "namespace": "deep_aether",
+    "policy": "Cloud Gardens",
+    "description": "Deep Aether deliveries pay 25% more.",
+    "bonus_percent": 25,
+    "item_contains": [],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "sable",
+    "name": "Warden Sable",
+    "namespace": "deeperdarker",
+    "policy": "Echo Survey",
+    "description": "Deeper and Darker deliveries pay 25% more. Town charter grants night vision while holding Deeper and Darker equipment.",
+    "bonus_percent": 25,
+    "item_contains": [],
+    "scope": "",
+    "tag": "",
+    "boon_item": "deeperdarker:",
+    "boon_effect": "minecraft:night_vision"
+  },
+  {
+    "id": "sonnet",
+    "name": "Scholar Sonnet",
+    "namespace": "irons_spellbooks",
+    "policy": "Spellwright Guild",
+    "description": "Iron's Spells supplies pay 20% more. Town charter grants night vision while holding spellcraft equipment.",
+    "bonus_percent": 20,
+    "item_contains": [],
+    "scope": "",
+    "tag": "",
+    "boon_item": "irons_spellbooks:",
+    "boon_effect": "minecraft:night_vision"
+  },
+  {
+    "id": "quill",
+    "name": "Archivist Quill",
+    "namespace": "minecraft",
+    "policy": "Library Endowment",
+    "description": "Paper and book orders pay 30% more.",
+    "bonus_percent": 30,
+    "item_contains": [
+      "paper",
+      "book"
+    ],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "cinder",
+    "name": "Artificer Cinder",
+    "namespace": "thermal",
+    "policy": "Thermal Initiative",
+    "description": "Thermal orders pay 20% more. Town charter grants Haste I while holding a Thermal wrench.",
+    "bonus_percent": 20,
+    "item_contains": [],
+    "scope": "",
+    "tag": "",
+    "boon_item": "thermal:wrench",
+    "boon_effect": "minecraft:haste"
+  },
+  {
+    "id": "brook",
+    "name": "Farmer Brook",
+    "namespace": "farmersdelight",
+    "policy": "Community Kitchens",
+    "description": "Farmer's Delight orders pay 20% more. Town charter grants Speed I while carrying a Farmer's Delight item in hand.",
+    "bonus_percent": 20,
+    "item_contains": [],
+    "scope": "",
+    "tag": "",
+    "boon_item": "farmersdelight:",
+    "boon_effect": "minecraft:speed"
+  },
+  {
+    "id": "honey",
+    "name": "Apiarist Honey",
+    "namespace": "productivebees",
+    "policy": "Golden Harvest",
+    "description": "Productive Bees orders pay 20% more.",
+    "bonus_percent": 20,
+    "item_contains": [],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "grove",
+    "name": "Keeper Grove",
+    "namespace": "mysticalagriculture",
+    "policy": "Cultivation Grants",
+    "description": "Mystical Agriculture orders pay 20% more.",
+    "bonus_percent": 20,
+    "item_contains": [],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "meridian",
+    "name": "Navigator Meridian",
+    "namespace": "ad_astra",
+    "policy": "Orbital Ambition",
+    "description": "Ad Astra orders pay 25% more. Town charter grants Jump Boost I while holding Ad Astra equipment.",
+    "bonus_percent": 25,
+    "item_contains": [],
+    "scope": "",
+    "tag": "",
+    "boon_item": "ad_astra:",
+    "boon_effect": "minecraft:jump_boost"
+  },
+  {
+    "id": "dusk",
+    "name": "Explorer Dusk",
+    "namespace": "undergarden",
+    "policy": "Below the Roots",
+    "description": "Undergarden deliveries pay 25% more.",
+    "bonus_percent": 25,
+    "item_contains": [],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "opal",
+    "name": "Prospector Opal",
+    "namespace": "blue_skies",
+    "policy": "Twin Horizons",
+    "description": "Blue Skies deliveries pay 25% more.",
+    "bonus_percent": 25,
+    "item_contains": [],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "saffron",
+    "name": "Chef Saffron",
+    "namespace": "ends_delight",
+    "policy": "Ender Banquet",
+    "description": "End's Delight orders pay 25% more.",
+    "bonus_percent": 25,
+    "item_contains": [],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "cobalt",
+    "name": "Quartermaster Cobalt",
+    "namespace": "mekanism",
+    "policy": "Circuit Reserve",
+    "description": "Mekanism circuit orders pay 30% more.",
+    "bonus_percent": 30,
+    "item_contains": [
+      "circuit"
+    ],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "cogsworth",
+    "name": "Machinist Cogsworth",
+    "namespace": "create",
+    "policy": "Precision Campaign",
+    "description": "Create precision mechanism orders pay 30% more.",
+    "bonus_percent": 30,
+    "item_contains": [
+      "precision_mechanism"
+    ],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "aster",
+    "name": "Engineer Aster",
+    "namespace": "ae2",
+    "policy": "Processor Procurement",
+    "description": "AE2 processor orders pay 30% more.",
+    "bonus_percent": 30,
+    "item_contains": [
+      "processor"
+    ],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "linden",
+    "name": "Craftsman Linden",
+    "namespace": "minecraft",
+    "policy": "Carpenter's Charter",
+    "description": "Plank and log orders pay 25% more.",
+    "bonus_percent": 25,
+    "item_contains": [
+      "planks",
+      "log"
+    ],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "flint",
+    "name": "Mason Flint",
+    "namespace": "minecraft",
+    "policy": "Stoneworks",
+    "description": "Stone and brick orders pay 25% more.",
+    "bonus_percent": 25,
+    "item_contains": [
+      "stone",
+      "brick"
+    ],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "auric",
+    "name": "Treasurer Auric",
+    "namespace": "minecraft",
+    "policy": "Bullion Reserve",
+    "description": "Gold supply orders pay 25% more.",
+    "bonus_percent": 25,
+    "item_contains": [
+      "gold"
+    ],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "coral",
+    "name": "Diver Coral",
+    "namespace": "minecraft",
+    "policy": "Coastal Restoration",
+    "description": "Prismarine and kelp orders pay 25% more. Town charter grants water breathing while holding a prismarine shard.",
+    "bonus_percent": 25,
+    "item_contains": [
+      "prismarine",
+      "kelp"
+    ],
+    "scope": "",
+    "tag": "",
+    "boon_item": "minecraft:prismarine_shard",
+    "boon_effect": "minecraft:water_breathing"
+  },
+  {
+    "id": "hazel",
+    "name": "Grower Hazel",
+    "namespace": "minecraft",
+    "policy": "Harvest Festival",
+    "description": "Crop orders pay 25% more.",
+    "bonus_percent": 25,
+    "item_contains": [
+      "wheat",
+      "carrot",
+      "potato",
+      "beetroot"
+    ],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "fern",
+    "name": "Herbalist Fern",
+    "namespace": "enchanted",
+    "policy": "Apothecary Week",
+    "description": "Enchanted herb orders pay 30% more.",
+    "bonus_percent": 30,
+    "item_contains": [
+      "belladonna",
+      "mandrake",
+      "snowbell",
+      "water_artichoke",
+      "wolfsbane"
+    ],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "nimbus",
+    "name": "Professor Nimbus",
+    "namespace": "ars_nouveau",
+    "policy": "Source Reserve",
+    "description": "Source gem orders pay 30% more.",
+    "bonus_percent": 30,
+    "item_contains": [
+      "source_gem"
+    ],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "verdant",
+    "name": "Gardener Verdant",
+    "namespace": "botania",
+    "policy": "Living Metal",
+    "description": "Manasteel orders pay 30% more.",
+    "bonus_percent": 30,
+    "item_contains": [
+      "manasteel"
+    ],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "spark",
+    "name": "Technician Spark",
+    "namespace": "immersiveengineering",
+    "policy": "Wiring the Town",
+    "description": "Engineering wire orders pay 30% more.",
+    "bonus_percent": 30,
+    "item_contains": [
+      "wire"
+    ],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "obsidian",
+    "name": "Smith Obsidian",
+    "namespace": "ironchest",
+    "policy": "Secure Storage",
+    "description": "Iron Chests orders pay 25% more.",
+    "bonus_percent": 25,
+    "item_contains": [],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "bastion",
+    "name": "Captain Bastion",
+    "namespace": "mutantmonsters",
+    "policy": "Monster Bounties",
+    "description": "Mutant trophy deliveries pay 25% more. Town charter grants Resistance I while holding a mutant trophy or weapon.",
+    "bonus_percent": 25,
+    "item_contains": [],
+    "scope": "",
+    "tag": "",
+    "boon_item": "mutantmonsters:",
+    "boon_effect": "minecraft:resistance"
+  },
+  {
+    "id": "reed",
+    "name": "Naturalist Reed",
+    "namespace": "fossil",
+    "policy": "Paleobotany",
+    "description": "Restored seed and plant fossil orders pay 30% more.",
+    "bonus_percent": 30,
+    "item_contains": [
+      "seed",
+      "fossil_plant"
+    ],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "silver",
+    "name": "Sentinel Silver",
+    "namespace": "werewolves",
+    "policy": "Silver Standard",
+    "description": "Silver supply orders pay 30% more.",
+    "bonus_percent": 30,
+    "item_contains": [
+      "silver"
+    ],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "ruby",
+    "name": "Alchemist Ruby",
+    "namespace": "vampirism",
+    "policy": "Bloodcraft Research",
+    "description": "Blood-infused metal orders pay 30% more.",
+    "bonus_percent": 30,
+    "item_contains": [
+      "blood_infused"
+    ],
+    "scope": "",
+    "tag": ""
+  },
+  {
+    "id": "lark",
+    "name": "Broker Lark",
+    "namespace": "minecraft",
+    "policy": "Small Business",
+    "description": "Personal daily orders pay 15% more.",
+    "bonus_percent": 15,
+    "item_contains": [],
+    "scope": "PERSONAL",
+    "tag": ""
+  },
+  {
+    "id": "atlas",
+    "name": "Planner Atlas",
+    "namespace": "minecraft",
+    "policy": "Common Endeavour",
+    "description": "Weekly community deliveries pay 15% more.",
+    "bonus_percent": 15,
+    "item_contains": [],
+    "scope": "COMMUNITY",
+    "tag": ""
+  },
+  {
+    "id": "harbor",
+    "name": "Guildmaster Harbor",
+    "namespace": "minecraft",
+    "policy": "Industrial Cooperation",
+    "description": "Faction factory orders pay 15% more.",
+    "bonus_percent": 15,
+    "item_contains": [],
+    "scope": "FACTION",
+    "tag": ""
+  },
+  {
+    "id": "echo",
+    "name": "Scholar Echo",
+    "namespace": "minecraft",
+    "policy": "Discovery Grants",
+    "description": "Exploration-tagged orders pay 20% more.",
+    "bonus_percent": 20,
+    "item_contains": [],
+    "scope": "",
+    "tag": "exploration"
+  },
+  {
+    "id": "solstice",
+    "name": "Sage Solstice",
+    "namespace": "minecraft",
+    "policy": "Arcane Assembly",
+    "description": "Magic-tagged orders pay 20% more.",
+    "bonus_percent": 20,
+    "item_contains": [],
+    "scope": "",
+    "tag": "magic"
+  }
+]

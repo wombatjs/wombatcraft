@@ -1,0 +1,514 @@
+{
+  "id": "1365B0A56C2C990E",
+  "filename": "wc_frontier_mutant_hunts",
+  "title": "Mutant Monsters - Unnatural Hunts",
+  "group": "00AA8F374274B5F3",
+  "icon": "mutantmonsters:hulk_hammer",
+  "order_index": 75,
+  "default_quest_shape": "circle",
+  "autofocus_id": "23E36EB6E87E3F7D",
+  "quests": [
+    {
+      "id": "23E36EB6E87E3F7D",
+      "title": "Fire at Hand",
+      "icon": "minecraft:flint_and_steel",
+      "description": [
+        "Prepare fire before hunting a mutant zombie; a fallen foe may not stay down."
+      ],
+      "subtitle": "Preparation",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "10080C10DDE32DD4",
+          "type": "item",
+          "item": "minecraft:flint_and_steel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0879EEC75C9201A8",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "692714827F68F8C8",
+      "title": "A Hunter's Defence",
+      "icon": "minecraft:shield",
+      "description": [
+        "Bring a shield, food and a clear retreat route."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "23E36EB6E87E3F7D"
+      ],
+      "tasks": [
+        {
+          "id": "1DAC8672DF8E4BDF",
+          "type": "item",
+          "item": "minecraft:shield",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2DEDDFF6D1E7E2C0",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "18CA163D1886A543",
+      "title": "A Clean Slate",
+      "icon": "minecraft:milk_bucket",
+      "description": [
+        "Carry milk to remove harmful effects after the encounter. Remember that it also removes helpful effects."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 0.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "692714827F68F8C8"
+      ],
+      "tasks": [
+        {
+          "id": "79A75922411571CE",
+          "type": "item",
+          "item": "minecraft:milk_bucket",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "146319EDF754B885",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "70CDF2DFBFF2B35F",
+      "title": "Put It to Rest",
+      "icon": "mutantmonsters:hulk_hammer",
+      "description": [
+        "Defeat a mutant zombie and survive the entire encounter."
+      ],
+      "subtitle": "Zombie",
+      "x": 0.5,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "6AA85B149F52475C",
+          "type": "kill",
+          "entity": "mutantmonsters:mutant_zombie",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3B546C8CFBD49EA2",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "34CA6461BCA8FAFD",
+      "title": "A Heavy Answer",
+      "icon": "mutantmonsters:hulk_hammer",
+      "description": [
+        "Recover a hulk hammer from the hunt."
+      ],
+      "subtitle": "",
+      "x": 2.9,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "70CDF2DFBFF2B35F"
+      ],
+      "tasks": [
+        {
+          "id": "696D45EA8E824542",
+          "type": "item",
+          "item": "mutantmonsters:hulk_hammer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5C40B2A26C2EA9DF",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "74C00867E4758BE0",
+      "title": "A Storm of Arrows",
+      "icon": "mutantmonsters:hulk_hammer",
+      "description": [
+        "Defeat a mutant skeleton without drawing it toward another player's home."
+      ],
+      "subtitle": "Skeleton",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "47DE57F3CB401581",
+          "type": "kill",
+          "entity": "mutantmonsters:mutant_skeleton",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E56F1C3A10E0CE7",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "39B321D27FD21703",
+      "title": "The Archer's Skull",
+      "icon": "mutantmonsters:mutant_skeleton_skull",
+      "description": [
+        "Recover the skull for the armour branch."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "74C00867E4758BE0"
+      ],
+      "tasks": [
+        {
+          "id": "0FF37D4B91792FAA",
+          "type": "item",
+          "item": "mutantmonsters:mutant_skeleton_skull",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "33A3D94F6300518D",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "4F339B72445175F4",
+      "title": "Bones of the Hunt",
+      "icon": "mutantmonsters:mutant_skeleton_chestplate",
+      "description": [
+        "Assemble the mutant skeleton chestplate."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "39B321D27FD21703"
+      ],
+      "tasks": [
+        {
+          "id": "5AF80DF6156A0DAA",
+          "type": "item",
+          "item": "mutantmonsters:mutant_skeleton_chestplate",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "78ABCB5EB26FC32C",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "082C4DD1219C0703",
+      "title": "A Complete Pursuit",
+      "icon": "mutantmonsters:mutant_skeleton_leggings",
+      "description": [
+        "Continue the set with leggings."
+      ],
+      "subtitle": "",
+      "x": 7.199999999999999,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "4F339B72445175F4"
+      ],
+      "tasks": [
+        {
+          "id": "5458420C347C45A8",
+          "type": "item",
+          "item": "mutantmonsters:mutant_skeleton_leggings",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "66A4EC04EE4BE165",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "772EB0DA711BB495",
+      "title": "The Hunter's Stride",
+      "icon": "mutantmonsters:mutant_skeleton_boots",
+      "description": [
+        "Finish the armour branch with boots."
+      ],
+      "subtitle": "",
+      "x": 9.6,
+      "y": 6.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "082C4DD1219C0703"
+      ],
+      "tasks": [
+        {
+          "id": "76EFAE43DEF79935",
+          "type": "item",
+          "item": "mutantmonsters:mutant_skeleton_boots",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0FA35E45965D27CE",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "5628541EEF66B8C6",
+      "title": "Keep Your Distance",
+      "icon": "mutantmonsters:hulk_hammer",
+      "description": [
+        "Defeat a mutant creeper in an open wilderness area."
+      ],
+      "subtitle": "Creeper",
+      "x": 0.5,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "47156A553DB3B9F2",
+          "type": "kill",
+          "entity": "mutantmonsters:mutant_creeper",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "27668D28A64F742A",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "77DC5E3F1F3AD9F8",
+      "title": "A Volatile Trophy",
+      "icon": "mutantmonsters:creeper_shard",
+      "description": [
+        "Recover the shard left by the encounter."
+      ],
+      "subtitle": "",
+      "x": 2.9,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "5628541EEF66B8C6"
+      ],
+      "tasks": [
+        {
+          "id": "631B0632EBE0C15F",
+          "type": "item",
+          "item": "mutantmonsters:creeper_shard",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14CBB3042B262F52",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "087D357CA879C14D",
+      "title": "Track the Little One",
+      "icon": "mutantmonsters:creeper_minion_tracker",
+      "description": [
+        "Prepare a tracker before keeping a creeper minion."
+      ],
+      "subtitle": "",
+      "x": 5.3,
+      "y": 9.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "77DC5E3F1F3AD9F8"
+      ],
+      "tasks": [
+        {
+          "id": "145F1F42CFD68D8D",
+          "type": "item",
+          "item": "mutantmonsters:creeper_minion_tracker",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3C8C1423529983BB",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "2C91449ACFC6289E",
+      "title": "The Unnatural Enderman",
+      "icon": "mutantmonsters:hulk_hammer",
+      "description": [
+        "Defeat a mutant enderman and keep watch for its tricks."
+      ],
+      "subtitle": "Enderman",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "3FC0EB33143E15CA",
+          "type": "kill",
+          "entity": "mutantmonsters:mutant_enderman",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "06F6C0142F77E4CA",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "286F4908DBAA90ED",
+      "title": "A Hand Beyond Reach",
+      "icon": "mutantmonsters:endersoul_hand",
+      "description": [
+        "Recover the endersoul hand and learn its reach away from protected builds."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 12.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "2C91449ACFC6289E"
+      ],
+      "tasks": [
+        {
+          "id": "540763AF6999859C",
+          "type": "item",
+          "item": "mutantmonsters:endersoul_hand",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "53F0A38D67F6CE19",
+          "type": "item",
+          "item": "minecraft:ender_pearl",
+          "count": 8
+        },
+        {
+          "id": "23830E441D0DCE7F",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "milestone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "dragonmounts:dragon"
+          }
+        }
+      }
+    }
+  }
+}

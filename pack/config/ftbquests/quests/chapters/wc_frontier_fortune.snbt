@@ -1,0 +1,246 @@
+{
+  "id": "0664E4A07A40E0A0",
+  "filename": "wc_frontier_fortune",
+  "title": "Lucky Blocks - Fortune and Folly",
+  "group": "00AA8F374274B5F3",
+  "icon": "lucky:lucky_block",
+  "order_index": 71,
+  "default_quest_shape": "circle",
+  "autofocus_id": "51D10F4BFAAE6864",
+  "quests": [
+    {
+      "id": "51D10F4BFAAE6864",
+      "title": "Expect Trouble",
+      "icon": "minecraft:shield",
+      "description": [
+        "Bring a shield and leave valuables at home before opening a lucky block."
+      ],
+      "subtitle": "Preparation",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "5D0C6C5C0BE8CA2B",
+          "type": "item",
+          "item": "minecraft:shield",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B44DBC0FC1045F4",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "57ECC4F944055EC6",
+      "title": "An Escape Plan",
+      "icon": "minecraft:water_bucket",
+      "description": [
+        "Carry water for falls and fire. Luck can turn an ordinary outing into a rescue."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "51D10F4BFAAE6864"
+      ],
+      "tasks": [
+        {
+          "id": "5711F1DF777DCCE2",
+          "type": "item",
+          "item": "minecraft:water_bucket",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7DE13E014FA7A2CA",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "54DF6BF9C302BD78",
+      "title": "Emergency Rations",
+      "icon": "minecraft:golden_apple",
+      "description": [
+        "Keep an emergency meal on your hotbar."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "57ECC4F944055EC6"
+      ],
+      "tasks": [
+        {
+          "id": "384DD2E145791C2A",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D94B012A3B851CA",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "508C6222C19E251A",
+      "title": "A Roll of Fate",
+      "icon": "lucky:lucky_block",
+      "description": [
+        "Open lucky blocks away from settlements, machines and other players. A reward is never guaranteed."
+      ],
+      "subtitle": "",
+      "x": 7.199999999999999,
+      "y": 0.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "54DF6BF9C302BD78"
+      ],
+      "tasks": [
+        {
+          "id": "53D189C4634D5DA3",
+          "type": "item",
+          "item": "lucky:lucky_block",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12274202D5A49371",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "7E5B4171602B715E",
+      "title": "A Fortunate Blade",
+      "icon": "lucky:lucky_sword",
+      "description": [
+        "Recover a lucky sword and try its unpredictable effects in a safe wilderness clearing."
+      ],
+      "subtitle": "Prizes",
+      "x": 0.5,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "71EE03F0F080114A",
+          "type": "item",
+          "item": "lucky:lucky_sword",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4BB39B9717A7AF28",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "01ED7483CA5AAB2D",
+      "title": "An Uncertain Arrow",
+      "icon": "lucky:lucky_bow",
+      "description": [
+        "Recover a lucky bow. Treat every shot as an experiment and keep it away from protected builds."
+      ],
+      "subtitle": "",
+      "x": 2.9,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "7E5B4171602B715E"
+      ],
+      "tasks": [
+        {
+          "id": "4271E2499840F082",
+          "type": "item",
+          "item": "lucky:lucky_bow",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "231930F746F3B9B3",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "52B6D63CE31E6D7B",
+      "title": "Bottled Chance",
+      "icon": "lucky:lucky_potion",
+      "description": [
+        "Recover a lucky potion. Its name is no promise of safety."
+      ],
+      "subtitle": "",
+      "x": 5.3,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "01ED7483CA5AAB2D"
+      ],
+      "tasks": [
+        {
+          "id": "3BCF32FA2C4862E1",
+          "type": "item",
+          "item": "lucky:lucky_potion",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ADFB0CAA33CA217",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

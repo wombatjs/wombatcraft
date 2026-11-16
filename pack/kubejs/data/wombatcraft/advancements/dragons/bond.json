@@ -1,0 +1,12 @@
+{
+  "criteria": {
+    "milestone": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "dragonmounts:dragon"
+        }
+      }
+    }
+  }
+}

@@ -6725,6 +6725,64 @@
           "challenge": false
         }
       ]
+    },
+    {
+      "key": "wc_dimension_exp_fossil",
+      "mod": "fossils",
+      "title": "Fossils — Ancient Realms",
+      "icon": "fossil:ancient_key",
+      "nodes": [
+        {
+          "key": "fossil/key",
+          "title": "The Ancient Key",
+          "kind": "item",
+          "target": "fossil:ancient_key",
+          "note": "Recover the ancient key before seeking the doorway to Anu.",
+          "parents": [],
+          "icon": "fossil:ancient_key",
+          "count": 1,
+          "challenge": false
+        },
+        {
+          "key": "fossil/lair",
+          "title": "The Lair of Anu",
+          "kind": "dimension",
+          "target": "fossil:anu_lair",
+          "note": "Cross into Anu's realm with repaired equipment and a retreat plan.",
+          "parents": [
+            "fossil/key"
+          ],
+          "icon": "fossil:ancient_sword",
+          "count": 1,
+          "challenge": false
+        },
+        {
+          "key": "fossil/victory",
+          "title": "An Age Ends",
+          "kind": "advancement",
+          "target": "fossil:fossil/kill_anu",
+          "note": "Defeat Anu. The Lost Ages chapter charts the excavation and restoration journey that brought you here.",
+          "parents": [
+            "fossil/lair"
+          ],
+          "icon": "fossil:ancient_sword",
+          "count": 1,
+          "challenge": true
+        },
+        {
+          "key": "fossil/treasure",
+          "title": "The Sealed Treasury",
+          "kind": "dimension",
+          "target": "fossil:treasure_room",
+          "note": "Reach the treasure room beyond the ancient trial.",
+          "parents": [
+            "fossil/victory"
+          ],
+          "icon": "fossil:ancient_chest",
+          "count": 1,
+          "challenge": false
+        }
+      ]
     }
   ],
   "destinations": [
@@ -6901,6 +6959,18 @@
       "dimension": null,
       "chapter": "wc_dimension_exp_rftools_dimensions",
       "description": "Your power grid can sustain a world. Begin with a modest dimension, learn its running cost and build a reserve before shaping richer terrain."
+    },
+    {
+      "title": "Anu's Lair",
+      "dimension": "fossil:anu_lair",
+      "chapter": "wc_dimension_exp_fossil",
+      "description": "Follow the Ancient Key into the lair of Anu. The Lost Ages chapter charts the excavation and restoration journey."
+    },
+    {
+      "title": "The Ancient Treasury",
+      "dimension": "fossil:treasure_room",
+      "chapter": "wc_dimension_exp_fossil",
+      "description": "Complete the ancient trial and reach the sealed treasury."
     }
   ]
 }

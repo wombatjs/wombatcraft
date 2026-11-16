@@ -1,0 +1,4 @@
+/ Bounded projectile bursts; no terrain damage or entity-farm effects.
+type=entity,ID=arrow,pos=#bowPos,NBTTag=(Motion=#bowMotion(1.0,5.0),Color=-1),amount=3@luck=2
+type=entity,ID=lucky:lucky_projectile,pos=#bowPos,NBTTag=(Motion=#bowMotion,item=(id=iron_sword),damage=6.0)@luck=1
+type=entity,ID=arrow,pos=#bowPos,NBTTag=(Motion=#bowMotion(0.6,10.0),Color=-1),amount=1@luck=-1

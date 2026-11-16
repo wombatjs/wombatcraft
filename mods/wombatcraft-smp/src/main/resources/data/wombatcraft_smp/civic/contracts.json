@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "status": "staging_not_activated",
+  "status": "staging",
   "personal_choices_per_day": 3,
   "community_projects_per_week": 1,
   "faction_orders_per_week": 3,
@@ -217,6 +217,444 @@
       "tags": [
         "magic",
         "industry"
+      ]
+    },
+    {
+      "id": "daily_iron_store",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "ironchest:iron_chest": 4
+      },
+      "reward_copper": 24,
+      "tags": [
+        "industry"
+      ]
+    },
+    {
+      "id": "daily_herbs",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "enchanted:belladonna_flower": 64
+      },
+      "reward_copper": 16,
+      "tags": [
+        "magic"
+      ]
+    },
+    {
+      "id": "daily_mandrakes",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "enchanted:mandrake_root": 32
+      },
+      "reward_copper": 16,
+      "tags": [
+        "magic"
+      ]
+    },
+    {
+      "id": "daily_vampire_alloy",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "vampirism:blood_infused_iron_ingot": 32
+      },
+      "reward_copper": 32,
+      "tags": [
+        "magic"
+      ]
+    },
+    {
+      "id": "daily_silver",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "werewolves:silver_ingot": 32
+      },
+      "reward_copper": 16,
+      "tags": [
+        "industry"
+      ]
+    },
+    {
+      "id": "daily_fossil_analysis",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "fossil:fossil_bio": 16
+      },
+      "reward_copper": 24,
+      "tags": [
+        "exploration"
+      ]
+    },
+    {
+      "id": "daily_fossil_garden",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "fossil:fossil_plant": 16
+      },
+      "reward_copper": 24,
+      "tags": [
+        "exploration"
+      ]
+    },
+    {
+      "id": "daily_mutant_ribs",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "mutantmonsters:mutant_skeleton_rib": 4
+      },
+      "reward_copper": 32,
+      "tags": [
+        "exploration"
+      ]
+    },
+    {
+      "id": "daily_books",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "minecraft:book": 32
+      },
+      "reward_copper": 12,
+      "tags": [
+        "building"
+      ]
+    },
+    {
+      "id": "daily_paper",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "minecraft:paper": 128
+      },
+      "reward_copper": 8,
+      "tags": [
+        "building"
+      ]
+    },
+    {
+      "id": "daily_wood",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "minecraft:oak_log": 128
+      },
+      "reward_copper": 12,
+      "tags": [
+        "building"
+      ]
+    },
+    {
+      "id": "daily_gold",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "minecraft:gold_ingot": 32
+      },
+      "reward_copper": 24,
+      "tags": [
+        "industry"
+      ]
+    },
+    {
+      "id": "daily_coast",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "minecraft:prismarine_shard": 64
+      },
+      "reward_copper": 20,
+      "tags": [
+        "exploration"
+      ]
+    },
+    {
+      "id": "daily_wheat",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "minecraft:wheat": 128
+      },
+      "reward_copper": 12,
+      "tags": [
+        "farming"
+      ]
+    },
+    {
+      "id": "daily_engineering",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "immersiveengineering:ingot_steel": 32
+      },
+      "reward_copper": 24,
+      "tags": [
+        "industry"
+      ]
+    },
+    {
+      "id": "daily_wire",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "immersiveengineering:wirecoil_copper": 32
+      },
+      "reward_copper": 20,
+      "tags": [
+        "industry"
+      ]
+    },
+    {
+      "id": "factory_steel",
+      "scope": "FACTION",
+      "period": "weekly",
+      "requirements": {
+        "immersiveengineering:ingot_steel": 1024
+      },
+      "reward_copper": 512,
+      "tags": [
+        "industry"
+      ]
+    },
+    {
+      "id": "factory_storage",
+      "scope": "FACTION",
+      "period": "weekly",
+      "requirements": {
+        "ironchest:iron_chest": 64
+      },
+      "reward_copper": 384,
+      "tags": [
+        "industry"
+      ]
+    },
+    {
+      "id": "factory_blood_alloy",
+      "scope": "FACTION",
+      "period": "weekly",
+      "requirements": {
+        "vampirism:blood_infused_iron_ingot": 512
+      },
+      "reward_copper": 512,
+      "tags": [
+        "industry"
+      ]
+    },
+    {
+      "id": "factory_silver",
+      "scope": "FACTION",
+      "period": "weekly",
+      "requirements": {
+        "werewolves:silver_ingot": 1024
+      },
+      "reward_copper": 384,
+      "tags": [
+        "industry"
+      ]
+    },
+    {
+      "id": "factory_witch_jars",
+      "scope": "FACTION",
+      "period": "weekly",
+      "requirements": {
+        "enchanted:clay_jar": 1024
+      },
+      "reward_copper": 256,
+      "tags": [
+        "industry"
+      ]
+    },
+    {
+      "id": "daily_ad_astra_desh_ingot",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "ad_astra:desh_ingot": 32
+      },
+      "reward_copper": 40,
+      "tags": [
+        "industry"
+      ]
+    },
+    {
+      "id": "daily_blue_skies_diopside_gem",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "blue_skies:diopside_gem": 16
+      },
+      "reward_copper": 32,
+      "tags": [
+        "industry"
+      ]
+    },
+    {
+      "id": "daily_cobblemon_poke_ball",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "cobblemon:poke_ball": 32
+      },
+      "reward_copper": 24,
+      "tags": [
+        "industry"
+      ]
+    },
+    {
+      "id": "daily_deep_aether_stratus_ingot",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "deep_aether:stratus_ingot": 8
+      },
+      "reward_copper": 40,
+      "tags": [
+        "exploration",
+        "magic"
+      ]
+    },
+    {
+      "id": "daily_deeperdarker_soul_crystal",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "deeperdarker:soul_crystal": 8
+      },
+      "reward_copper": 40,
+      "tags": [
+        "exploration",
+        "magic"
+      ]
+    },
+    {
+      "id": "daily_ends_delight_chorus_fruit_grain",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "ends_delight:chorus_fruit_grain": 64
+      },
+      "reward_copper": 16,
+      "tags": [
+        "industry"
+      ]
+    },
+    {
+      "id": "daily_farmersdelight_honey_cookie",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "farmersdelight:honey_cookie": 64
+      },
+      "reward_copper": 16,
+      "tags": [
+        "industry"
+      ]
+    },
+    {
+      "id": "daily_irons_spellbooks_arcane_essence",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "irons_spellbooks:arcane_essence": 64
+      },
+      "reward_copper": 24,
+      "tags": [
+        "exploration",
+        "magic"
+      ]
+    },
+    {
+      "id": "daily_moreartifacts_shadow_dust",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "moreartifacts:shadow_dust": 8
+      },
+      "reward_copper": 32,
+      "tags": [
+        "exploration",
+        "magic"
+      ]
+    },
+    {
+      "id": "daily_mysticalagriculture_inferium_essence",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "mysticalagriculture:inferium_essence": 256
+      },
+      "reward_copper": 16,
+      "tags": [
+        "industry"
+      ]
+    },
+    {
+      "id": "daily_productivebees_honey_treat",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "productivebees:honey_treat": 32
+      },
+      "reward_copper": 24,
+      "tags": [
+        "industry"
+      ]
+    },
+    {
+      "id": "daily_tconstruct_cobalt_ingot",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "tconstruct:cobalt_ingot": 32
+      },
+      "reward_copper": 24,
+      "tags": [
+        "industry"
+      ]
+    },
+    {
+      "id": "daily_thermal_invar_ingot",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "thermal:invar_ingot": 32
+      },
+      "reward_copper": 24,
+      "tags": [
+        "industry"
+      ]
+    },
+    {
+      "id": "daily_undergarden_cloggrum_ingot",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "undergarden:cloggrum_ingot": 32
+      },
+      "reward_copper": 24,
+      "tags": [
+        "exploration",
+        "magic"
+      ]
+    },
+    {
+      "id": "daily_twilightforest_ironwood_ingot",
+      "scope": "PERSONAL",
+      "period": "daily",
+      "requirements": {
+        "twilightforest:ironwood_ingot": 32
+      },
+      "reward_copper": 24,
+      "tags": [
+        "exploration",
+        "magic"
       ]
     }
   ]

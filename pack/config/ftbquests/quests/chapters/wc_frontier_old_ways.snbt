@@ -1,0 +1,1330 @@
+{
+  "id": "148AC814B5CDA883",
+  "filename": "wc_frontier_old_ways",
+  "title": "Enchanted - The Old Ways",
+  "group": "065A019E212476CF",
+  "icon": "enchanted:witch_oven",
+  "order_index": 72,
+  "default_quest_shape": "circle",
+  "autofocus_id": "41E96303DEC90386",
+  "quests": [
+    {
+      "id": "41E96303DEC90386",
+      "title": "The Witch's Garden",
+      "icon": "enchanted:belladonna_seeds",
+      "description": [
+        "Establish a small belladonna bed for the first workings."
+      ],
+      "subtitle": "Garden",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "15CE76715799A72B",
+          "type": "item",
+          "item": "enchanted:belladonna_seeds",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "24CF2B8D338C4185",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "446CD59D6CC4E4E2",
+      "title": "A Restless Root",
+      "icon": "enchanted:mandrake_root",
+      "description": [
+        "Harvest mandrake with space to react to whatever the soil releases."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "41E96303DEC90386"
+      ],
+      "tasks": [
+        {
+          "id": "1BA3AA874B812682",
+          "type": "item",
+          "item": "enchanted:mandrake_root",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7EDC8D711E5388AD",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "688C0C77892851DD",
+      "title": "Winter in Bloom",
+      "icon": "enchanted:snowbell_seeds",
+      "description": [
+        "Grow snowbell alongside your other ritual herbs."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "446CD59D6CC4E4E2"
+      ],
+      "tasks": [
+        {
+          "id": "41851346151F71A9",
+          "type": "item",
+          "item": "enchanted:snowbell_seeds",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2F1C3560C6F21198",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "18BCAD5A8EC2E78B",
+      "title": "Roots in Water",
+      "icon": "enchanted:water_artichoke",
+      "description": [
+        "Add a water-grown herb to the garden."
+      ],
+      "subtitle": "",
+      "x": 7.199999999999999,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "688C0C77892851DD"
+      ],
+      "tasks": [
+        {
+          "id": "4435D8A16B76B34D",
+          "type": "item",
+          "item": "enchanted:water_artichoke",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "67F765DCA64A63AF",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "11F57E2FB17FC459",
+      "title": "A Rowan Grove",
+      "icon": "enchanted:rowan_sapling",
+      "description": [
+        "Set aside a grove of ritual trees outside your crowded workshop."
+      ],
+      "subtitle": "",
+      "x": 9.6,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "18BCAD5A8EC2E78B"
+      ],
+      "tasks": [
+        {
+          "id": "44300F166DA65ED6",
+          "type": "item",
+          "item": "enchanted:rowan_sapling",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "629F27A9FE542ED8",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "6E2E1BA23052E3CE",
+      "title": "The Alder Stand",
+      "icon": "enchanted:alder_sapling",
+      "description": [
+        "Keep a renewable supply of alder for later workings."
+      ],
+      "subtitle": "",
+      "x": 12.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "11F57E2FB17FC459"
+      ],
+      "tasks": [
+        {
+          "id": "458E89C96BADE9AE",
+          "type": "item",
+          "item": "enchanted:alder_sapling",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0041AAC324110B24",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1A4D75D44F15C801",
+      "title": "Thorns and Branches",
+      "icon": "enchanted:hawthorn_sapling",
+      "description": [
+        "Complete the three-tree garden with hawthorn."
+      ],
+      "subtitle": "",
+      "x": 14.399999999999999,
+      "y": 0.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "6E2E1BA23052E3CE"
+      ],
+      "tasks": [
+        {
+          "id": "467DF26030F046FF",
+          "type": "item",
+          "item": "enchanted:hawthorn_sapling",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6A1613A9897A620A",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "5BCB4AF3C00B702A",
+      "title": "Smoke and Ash",
+      "icon": "enchanted:witch_oven",
+      "description": [
+        "Build a witch's oven and keep jars available for its by-products."
+      ],
+      "subtitle": "Oven",
+      "x": 0.5,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "198834CD7701B9D9",
+          "type": "item",
+          "item": "enchanted:witch_oven",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "67DE232F63CE05B3",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "4ADD04C4E65CA7CE",
+      "title": "Catch the Vapour",
+      "icon": "enchanted:clay_jar",
+      "description": [
+        "Prepare fired jars before processing ingredients."
+      ],
+      "subtitle": "",
+      "x": 2.9,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "5BCB4AF3C00B702A"
+      ],
+      "tasks": [
+        {
+          "id": "3188C00A709E5AB8",
+          "type": "item",
+          "item": "enchanted:clay_jar",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3C4A2CD5D8D10BEF",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "344D8B1B292AD475",
+      "title": "What the Fire Leaves",
+      "icon": "enchanted:wood_ash",
+      "description": [
+        "Gather ash from the oven for your early mixtures."
+      ],
+      "subtitle": "",
+      "x": 5.3,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "4ADD04C4E65CA7CE"
+      ],
+      "tasks": [
+        {
+          "id": "51F819D063C1F3C7",
+          "type": "item",
+          "item": "enchanted:wood_ash",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3CD639DBD21F8F2A",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "0964272220804A93",
+      "title": "The Horned One's Breath",
+      "icon": "enchanted:exhale_of_the_horned_one",
+      "description": [
+        "Collect the first of the oven's named fumes."
+      ],
+      "subtitle": "",
+      "x": 7.699999999999999,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "344D8B1B292AD475"
+      ],
+      "tasks": [
+        {
+          "id": "3F5E85524A9209D3",
+          "type": "item",
+          "item": "enchanted:exhale_of_the_horned_one",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7599DCA046E9A927",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "2076142B2A338786",
+      "title": "A Gentler Breath",
+      "icon": "enchanted:breath_of_the_goddess",
+      "description": [
+        "Collect a second fume and keep the bottles sorted."
+      ],
+      "subtitle": "",
+      "x": 10.1,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "0964272220804A93"
+      ],
+      "tasks": [
+        {
+          "id": "40BCC0345143A17F",
+          "type": "item",
+          "item": "enchanted:breath_of_the_goddess",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "474A77B1B4BB4CE2",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "0045430DD03078B3",
+      "title": "A Trace of Magic",
+      "icon": "enchanted:whiff_of_magic",
+      "description": [
+        "Reserve this fume for the workings ahead."
+      ],
+      "subtitle": "",
+      "x": 12.5,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "2076142B2A338786"
+      ],
+      "tasks": [
+        {
+          "id": "328ECF740C482BDA",
+          "type": "item",
+          "item": "enchanted:whiff_of_magic",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6F19E3E7BF8F41EF",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "5A1B0344D824FFCF",
+      "title": "Guide the Smoke",
+      "icon": "enchanted:fume_funnel",
+      "description": [
+        "Improve the oven with a fume funnel."
+      ],
+      "subtitle": "",
+      "x": 14.899999999999999,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "0045430DD03078B3"
+      ],
+      "tasks": [
+        {
+          "id": "0D54EBBCA0B86392",
+          "type": "item",
+          "item": "enchanted:fume_funnel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "170565B87A48760B",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "16FD5312C7E1C263",
+      "title": "A Cleaner Harvest",
+      "icon": "enchanted:fume_funnel_filtered",
+      "description": [
+        "Finish the filtered funnel branch before scaling the apothecary."
+      ],
+      "subtitle": "",
+      "x": 17.3,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "5A1B0344D824FFCF"
+      ],
+      "tasks": [
+        {
+          "id": "633241694883D373",
+          "type": "item",
+          "item": "enchanted:fume_funnel_filtered",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6E3CDACCEA4A769C",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "225389613AD1130D",
+      "title": "A Place of Power",
+      "icon": "enchanted:altar",
+      "description": [
+        "Build an altar with a varied natural garden around it. Leave room for its supporting objects."
+      ],
+      "subtitle": "Altar",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "2A2C0433007B4FAA",
+          "type": "item",
+          "item": "enchanted:altar",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6700055B3D92F50F",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "142F54DF8455D2F0",
+      "title": "The Ritual Blade",
+      "icon": "enchanted:arthana",
+      "description": [
+        "Prepare an arthana for your altar and rituals."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "225389613AD1130D"
+      ],
+      "tasks": [
+        {
+          "id": "0E3D734F0F6E23C7",
+          "type": "item",
+          "item": "enchanted:arthana",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3FFFACB9ED3AC790",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "00E0234BDFFCD858",
+      "title": "An Offering Vessel",
+      "icon": "enchanted:chalice",
+      "description": [
+        "Add a chalice to your ritual equipment."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "142F54DF8455D2F0"
+      ],
+      "tasks": [
+        {
+          "id": "266C76F4319C6CDF",
+          "type": "item",
+          "item": "enchanted:chalice",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5D83E5E4241DF3D2",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "7BBF332F84D03738",
+      "title": "Three Small Flames",
+      "icon": "enchanted:candelabra",
+      "description": [
+        "Complete the altar furnishings with a candelabra."
+      ],
+      "subtitle": "",
+      "x": 7.199999999999999,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "00E0234BDFFCD858"
+      ],
+      "tasks": [
+        {
+          "id": "205B8F1FDE867827",
+          "type": "item",
+          "item": "enchanted:candelabra",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "00B06E5A54B6A3A9",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "427D005041259E74",
+      "title": "A Stone That Remembers",
+      "icon": "enchanted:attuned_stone",
+      "description": [
+        "Attune a stone for more demanding magic."
+      ],
+      "subtitle": "",
+      "x": 9.6,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "7BBF332F84D03738"
+      ],
+      "tasks": [
+        {
+          "id": "60FBB2A14A80D739",
+          "type": "item",
+          "item": "enchanted:attuned_stone",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6835E719746BEC33",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "2770BEF63BB836A0",
+      "title": "Stored Power",
+      "icon": "enchanted:attuned_stone_charged",
+      "description": [
+        "Charge the stone before attempting workings that require it."
+      ],
+      "subtitle": "",
+      "x": 12.0,
+      "y": 6.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "427D005041259E74"
+      ],
+      "tasks": [
+        {
+          "id": "2C5E98B08B38F7D7",
+          "type": "item",
+          "item": "enchanted:attuned_stone_charged",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2A131E6682628AD4",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "2EAABFBC93FE79F2",
+      "title": "Separate the Essence",
+      "icon": "enchanted:distillery",
+      "description": [
+        "Build a distillery and organise the ingredients it transforms."
+      ],
+      "subtitle": "Alchemy",
+      "x": 0.5,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "53FD74759CAC969D",
+          "type": "item",
+          "item": "enchanted:distillery",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4BED4A0A47F4EB4F",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "34ABFD54AFE3DF7F",
+      "title": "The First Brew",
+      "icon": "enchanted:kettle",
+      "description": [
+        "Prepare a kettle for brewing."
+      ],
+      "subtitle": "",
+      "x": 2.9,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "2EAABFBC93FE79F2"
+      ],
+      "tasks": [
+        {
+          "id": "06ED6C4F98C2236E",
+          "type": "item",
+          "item": "enchanted:kettle",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "01370BDAF727D592",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "7AC26C68FA7CEA01",
+      "title": "A Deeper Vessel",
+      "icon": "enchanted:witch_cauldron",
+      "description": [
+        "Move into cauldron workings once your herb supply is reliable."
+      ],
+      "subtitle": "",
+      "x": 5.3,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "34ABFD54AFE3DF7F"
+      ],
+      "tasks": [
+        {
+          "id": "2AAACDB1930A8782",
+          "type": "item",
+          "item": "enchanted:witch_cauldron",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "67ED63054E9E2081",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "0CF08DEE1277BA30",
+      "title": "Change Takes Root",
+      "icon": "enchanted:mutandis",
+      "description": [
+        "Use mutandis to seek new plants. Work in a contained garden."
+      ],
+      "subtitle": "",
+      "x": 7.699999999999999,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "7AC26C68FA7CEA01"
+      ],
+      "tasks": [
+        {
+          "id": "144F1B09BE99FABC",
+          "type": "item",
+          "item": "enchanted:mutandis",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5F05D19F45587917",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "55F68808B62C3CF5",
+      "title": "Stranger Growth",
+      "icon": "enchanted:mutandis_extremis",
+      "description": [
+        "Prepare the stronger mixture for the next stage of experimentation."
+      ],
+      "subtitle": "",
+      "x": 10.1,
+      "y": 9.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "0CF08DEE1277BA30"
+      ],
+      "tasks": [
+        {
+          "id": "05C163B837AB0AE8",
+          "type": "item",
+          "item": "enchanted:mutandis_extremis",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2E126696FD9B0F7C",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "1ACD38FA3A6B3C40",
+      "title": "Draw the Boundary",
+      "icon": "enchanted:ritual_chalk",
+      "description": [
+        "Mark a ritual space with chalk and leave its interior clear."
+      ],
+      "subtitle": "Circles",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "2D7A92990AFEFF7B",
+          "type": "item",
+          "item": "enchanted:ritual_chalk",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6209C1602C21B76C",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "4BDEA6280F3C8C65",
+      "title": "The Heart of the Circle",
+      "icon": "enchanted:golden_chalk",
+      "description": [
+        "Prepare golden chalk for the central marks."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 12.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "1ACD38FA3A6B3C40"
+      ],
+      "tasks": [
+        {
+          "id": "56F4CC7F87ECE7E1",
+          "type": "item",
+          "item": "enchanted:golden_chalk",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "37AEBF9639864846",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "3266D7FBA76D2202",
+      "title": "Fire in the Pattern",
+      "icon": "enchanted:nether_chalk",
+      "description": [
+        "Add nether chalk to your ritual supplies."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 12.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "4BDEA6280F3C8C65"
+      ],
+      "tasks": [
+        {
+          "id": "725DB5F1236A1A94",
+          "type": "item",
+          "item": "enchanted:nether_chalk",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7C42B4FCA0519D9F",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "5882A3952C10A127",
+      "title": "Beyond the Circle",
+      "icon": "enchanted:otherwhere_chalk",
+      "description": [
+        "Prepare otherwhere chalk for distant workings."
+      ],
+      "subtitle": "",
+      "x": 7.199999999999999,
+      "y": 12.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "3266D7FBA76D2202"
+      ],
+      "tasks": [
+        {
+          "id": "0555DA91B17557E4",
+          "type": "item",
+          "item": "enchanted:otherwhere_chalk",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6668F2B589DC0024",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "446002E93C1D7429",
+      "title": "A Pattern Preserved",
+      "icon": "enchanted:circle_talisman",
+      "description": [
+        "Store a circle pattern in a talisman."
+      ],
+      "subtitle": "",
+      "x": 9.6,
+      "y": 12.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "5882A3952C10A127"
+      ],
+      "tasks": [
+        {
+          "id": "335DABED7069256F",
+          "type": "item",
+          "item": "enchanted:circle_talisman",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3FDF246698575EF7",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "0A3DE06548DAD189",
+      "title": "A Small Guardian",
+      "icon": "enchanted:poppet",
+      "description": [
+        "Begin with a plain poppet before binding a protective working."
+      ],
+      "subtitle": "Wards",
+      "x": 0.5,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "5AD0D69601B85C9B",
+          "type": "item",
+          "item": "enchanted:poppet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2B5C068E6A9F9164",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "20F0EACDD36458FF",
+      "title": "A Personal Link",
+      "icon": "enchanted:taglock_kit",
+      "description": [
+        "Prepare a taglock kit. Bind protection to yourself or a willing companion."
+      ],
+      "subtitle": "",
+      "x": 2.9,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "0A3DE06548DAD189"
+      ],
+      "tasks": [
+        {
+          "id": "27BF5935DA9ABC76",
+          "type": "item",
+          "item": "enchanted:taglock_kit",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "77683E9A22816965",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "6857C689FB7221A5",
+      "title": "A Place for Wards",
+      "icon": "enchanted:poppet_shelf",
+      "description": [
+        "Keep active wards in an organised poppet shelf."
+      ],
+      "subtitle": "",
+      "x": 5.3,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "20F0EACDD36458FF"
+      ],
+      "tasks": [
+        {
+          "id": "13F785B7A21561BA",
+          "type": "item",
+          "item": "enchanted:poppet_shelf",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "58912F1F6FE8E0E9",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "615EE6777C344D24",
+      "title": "Against the Deep",
+      "icon": "enchanted:water_poppet",
+      "description": [
+        "Prepare a water protection poppet before long underwater journeys."
+      ],
+      "subtitle": "",
+      "x": 7.699999999999999,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "6857C689FB7221A5"
+      ],
+      "tasks": [
+        {
+          "id": "1527316C318ACD60",
+          "type": "item",
+          "item": "enchanted:water_poppet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6F8305E11BC555C6",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "63DC6619B6F2488B",
+      "title": "Against the Flame",
+      "icon": "enchanted:fire_poppet",
+      "description": [
+        "Prepare a fire protection poppet for dangerous expeditions."
+      ],
+      "subtitle": "",
+      "x": 10.1,
+      "y": 15.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "615EE6777C344D24"
+      ],
+      "tasks": [
+        {
+          "id": "5B0683ED3F8ABD1F",
+          "type": "item",
+          "item": "enchanted:fire_poppet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0FBA67DFF1EE59AA",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "6FF9753902E41C96",
+      "title": "A Familiar Shape",
+      "icon": "enchanted:broom",
+      "description": [
+        "Make the broom that will carry your next working."
+      ],
+      "subtitle": "Travel",
+      "x": 0.0,
+      "y": 18.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "6339F3BFC37636C4",
+          "type": "item",
+          "item": "enchanted:broom",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3644C42D02017B42",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "0E17DDB112D8C648",
+      "title": "The Flight Mixture",
+      "icon": "enchanted:flying_ointment",
+      "description": [
+        "Prepare flying ointment for the enchanted broomstick."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 18.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "6FF9753902E41C96"
+      ],
+      "tasks": [
+        {
+          "id": "23A332E1224D2E9D",
+          "type": "item",
+          "item": "enchanted:flying_ointment",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B1AB2D4159315FB",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "2693CBB75EA36B1E",
+      "title": "Above the Garden",
+      "icon": "enchanted:enchanted_broomstick",
+      "description": [
+        "Finish your broomstick and take the old road through the sky."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 18.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "0E17DDB112D8C648"
+      ],
+      "tasks": [
+        {
+          "id": "7DA360E220994501",
+          "type": "item",
+          "item": "enchanted:enchanted_broomstick",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2508DF55243EC726",
+          "type": "item",
+          "item": "minecraft:ender_pearl",
+          "count": 8
+        },
+        {
+          "id": "19F00241868925AB",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 16
+        }
+      ]
+    }
+  ]
+}

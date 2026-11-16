@@ -1,0 +1,1058 @@
+{
+  "id": "44F7EC8591828E32",
+  "filename": "wc_frontier_relic_craft",
+  "title": "More Artifacts - The Relic Workshop",
+  "group": "065A019E212476CF",
+  "icon": "moreartifacts:ankh_shield",
+  "order_index": 77,
+  "default_quest_shape": "circle",
+  "autofocus_id": "2F2127D6BF8961FC",
+  "quests": [
+    {
+      "id": "2F2127D6BF8961FC",
+      "title": "A Small Safeguard",
+      "icon": "moreartifacts:bezoar",
+      "description": [
+        "Recover a bezoar and inspect its protection before choosing your accessory slots."
+      ],
+      "subtitle": "Wards",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "3A45CFB6F7CE2BCD",
+          "type": "item",
+          "item": "moreartifacts:bezoar",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7C9263758DCBEB9A",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "66E9A4206A1210A2",
+      "title": "A Steady Constitution",
+      "icon": "moreartifacts:vitamins",
+      "description": [
+        "Add vitamins to the collection of protective relics."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "2F2127D6BF8961FC"
+      ],
+      "tasks": [
+        {
+          "id": "188B9B820DDA1CC3",
+          "type": "item",
+          "item": "moreartifacts:vitamins",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F5B2791154765C5",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "531FE0570F742804",
+      "title": "Cleanse the Affliction",
+      "icon": "moreartifacts:purification_charm",
+      "description": [
+        "Combine the appropriate relics into a purification charm."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "66E9A4206A1210A2"
+      ],
+      "tasks": [
+        {
+          "id": "1A8547DD0C05C9B0",
+          "type": "item",
+          "item": "moreartifacts:purification_charm",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2C2B4A8057A1E5CB",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "02146CEF1D6EF542",
+      "title": "The Ankh Pattern",
+      "icon": "moreartifacts:ankh_charm",
+      "description": [
+        "Complete the charm's component branches before assembling it."
+      ],
+      "subtitle": "",
+      "x": 7.199999999999999,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "531FE0570F742804"
+      ],
+      "tasks": [
+        {
+          "id": "04992F80386D5E2D",
+          "type": "item",
+          "item": "moreartifacts:ankh_charm",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "090E5F4F8AA718C6",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "0950FE83CE6D0520",
+      "title": "The Complete Ward",
+      "icon": "moreartifacts:ankh_shield",
+      "description": [
+        "Unite the ankh charm and shield branches."
+      ],
+      "subtitle": "",
+      "x": 9.6,
+      "y": 0.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "02146CEF1D6EF542"
+      ],
+      "tasks": [
+        {
+          "id": "6DAEA8B0D19690E8",
+          "type": "item",
+          "item": "moreartifacts:ankh_shield",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "69EF04EC8DF01408",
+          "type": "item",
+          "item": "minecraft:netherite_scrap",
+          "count": 2
+        },
+        {
+          "id": "2BCBF97D6E0B77D0",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "6FC301681AC82268",
+      "title": "Stand Your Ground",
+      "icon": "moreartifacts:cobalt_shield",
+      "description": [
+        "Recover a cobalt shield as the foundation of the defensive branch."
+      ],
+      "subtitle": "Shield",
+      "x": 0.5,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "4788BBF52AAC33EE",
+          "type": "item",
+          "item": "moreartifacts:cobalt_shield",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "70F0749A9A47287E",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "0CE21A4CC283B0C1",
+      "title": "A Darkened Skull",
+      "icon": "moreartifacts:obsidian_skull",
+      "description": [
+        "Prepare an obsidian skull for the next combination."
+      ],
+      "subtitle": "",
+      "x": 2.9,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "6FC301681AC82268"
+      ],
+      "tasks": [
+        {
+          "id": "2FD7F6B05E383E96",
+          "type": "item",
+          "item": "moreartifacts:obsidian_skull",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ADD8F12ABBF3300",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "4F7D662E0428FC52",
+      "title": "A Reinforced Guard",
+      "icon": "moreartifacts:obsidian_shield",
+      "description": [
+        "Combine the shield and skull into the obsidian shield."
+      ],
+      "subtitle": "",
+      "x": 5.3,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "0CE21A4CC283B0C1"
+      ],
+      "tasks": [
+        {
+          "id": "4BDD83685D8EC8CE",
+          "type": "item",
+          "item": "moreartifacts:obsidian_shield",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F7904E9C720D4FF",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1412AEB996CD86E3",
+      "title": "A Hero's Guard",
+      "icon": "moreartifacts:hero_shield",
+      "description": [
+        "Finish the hero shield branch."
+      ],
+      "subtitle": "",
+      "x": 7.699999999999999,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "4F7D662E0428FC52"
+      ],
+      "tasks": [
+        {
+          "id": "4870CF4E094B6111",
+          "type": "item",
+          "item": "moreartifacts:hero_shield",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4525CBC5E8F99EB1",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "578CED713A158337",
+      "title": "A Clearer View",
+      "icon": "moreartifacts:sunglasses",
+      "description": [
+        "Recover sunglasses for the sensory protection branch."
+      ],
+      "subtitle": "Senses",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "50CC6E968B44CFBF",
+          "type": "item",
+          "item": "moreartifacts:sunglasses",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "218FAC13834C42B1",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "478ABBF5B6B25F7F",
+      "title": "An Echoing Lens",
+      "icon": "moreartifacts:sculk_lens",
+      "description": [
+        "Find the sculk lens and study its effect."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "578CED713A158337"
+      ],
+      "tasks": [
+        {
+          "id": "1A63FB168D6C0445",
+          "type": "item",
+          "item": "moreartifacts:sculk_lens",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "290627235C7085FA",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "09A0A19561988C8C",
+      "title": "Shades of the Deep",
+      "icon": "moreartifacts:sculk_shades",
+      "description": [
+        "Combine the sensory relics into sculk shades."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "478ABBF5B6B25F7F"
+      ],
+      "tasks": [
+        {
+          "id": "3305BA5ED0EBA24C",
+          "type": "item",
+          "item": "moreartifacts:sculk_shades",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E2B98AEB51D33F0",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "355763DD9D9984F3",
+      "title": "A Weightless Heart",
+      "icon": "moreartifacts:shulker_heart",
+      "description": [
+        "Recover a shulker heart from your travels."
+      ],
+      "subtitle": "",
+      "x": 7.199999999999999,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "09A0A19561988C8C"
+      ],
+      "tasks": [
+        {
+          "id": "29EF250652C1B067",
+          "type": "item",
+          "item": "moreartifacts:shulker_heart",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2E76A2F3602D0C6E",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "46833E671799697E",
+      "title": "A Quickened Clock",
+      "icon": "moreartifacts:fast_clock",
+      "description": [
+        "Find the clock required by this branch."
+      ],
+      "subtitle": "",
+      "x": 9.6,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "355763DD9D9984F3"
+      ],
+      "tasks": [
+        {
+          "id": "7B748BD6F15011FF",
+          "type": "item",
+          "item": "moreartifacts:fast_clock",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14FAFE6E069D94FC",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "76FD2A22637273C2",
+      "title": "A Stranger Timepiece",
+      "icon": "moreartifacts:shulked_clock",
+      "description": [
+        "Combine the clock and heart into a shulked clock."
+      ],
+      "subtitle": "",
+      "x": 12.0,
+      "y": 6.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "46833E671799697E"
+      ],
+      "tasks": [
+        {
+          "id": "7DD27B57FA377AF2",
+          "type": "item",
+          "item": "moreartifacts:shulked_clock",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "250F0B39E9C4DBF1",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "75369954F79C7006",
+      "title": "The Mechanist's Grip",
+      "icon": "moreartifacts:mechanical_glove",
+      "description": [
+        "Build a mechanical glove and choose how it fits your combat equipment."
+      ],
+      "subtitle": "Combat",
+      "x": 0.5,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0A49CC49AF2DFC7D",
+          "type": "item",
+          "item": "moreartifacts:mechanical_glove",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7B633AF77DF720D6",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1BD804C1E7ADC132",
+      "title": "A Dragon's Claw",
+      "icon": "moreartifacts:ender_dragon_claw",
+      "description": [
+        "Recover the dragon claw for the next combination."
+      ],
+      "subtitle": "",
+      "x": 2.9,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "75369954F79C7006"
+      ],
+      "tasks": [
+        {
+          "id": "4B041F8F0D0F2858",
+          "type": "item",
+          "item": "moreartifacts:ender_dragon_claw",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1986BEEC3FD66E5A",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "2E1F915AEF3D8974",
+      "title": "A Sharper Machine",
+      "icon": "moreartifacts:mechanical_claw",
+      "description": [
+        "Complete the mechanical claw."
+      ],
+      "subtitle": "",
+      "x": 5.3,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "1BD804C1E7ADC132"
+      ],
+      "tasks": [
+        {
+          "id": "74941BF13E95DDAE",
+          "type": "item",
+          "item": "moreartifacts:mechanical_claw",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "597040816ACC1949",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "21CD330C4E0BAB40",
+      "title": "An Echoing Grip",
+      "icon": "moreartifacts:echo_glove",
+      "description": [
+        "Finish the echo glove branch."
+      ],
+      "subtitle": "",
+      "x": 7.699999999999999,
+      "y": 9.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "2E1F915AEF3D8974"
+      ],
+      "tasks": [
+        {
+          "id": "4930C566CA70C88B",
+          "type": "item",
+          "item": "moreartifacts:echo_glove",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2A6949D5941FF6C8",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "7C29BBBAD921A4F9",
+      "title": "An Archer's Relic",
+      "icon": "moreartifacts:magic_quiver",
+      "description": [
+        "Prepare a magic quiver for a ranged equipment set."
+      ],
+      "subtitle": "Quiver",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "4690CC4DED0FCD7C",
+          "type": "item",
+          "item": "moreartifacts:magic_quiver",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "188E6FC16AD2AAB8",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "67D3F05E58DA438D",
+      "title": "Poisoned Precision",
+      "icon": "moreartifacts:envenomed_quiver",
+      "description": [
+        "Advance into the venomous quiver branch."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 12.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "7C29BBBAD921A4F9"
+      ],
+      "tasks": [
+        {
+          "id": "69BF7A38BB9116E5",
+          "type": "item",
+          "item": "moreartifacts:envenomed_quiver",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3A80F1B809FD7C6C",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "12839CEB0888C85B",
+      "title": "Arrows of the Forge",
+      "icon": "moreartifacts:molten_quiver",
+      "description": [
+        "Complete a molten quiver as an alternative ranged specialisation."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 12.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "67D3F05E58DA438D"
+      ],
+      "tasks": [
+        {
+          "id": "0B4E90DC6B146B7A",
+          "type": "item",
+          "item": "moreartifacts:molten_quiver",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6BC2A98D4EDD6DA9",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "2940084AC7BE7B16",
+      "title": "A Lighter Step",
+      "icon": "moreartifacts:balloon",
+      "description": [
+        "Recover a balloon for movement-focused equipment."
+      ],
+      "subtitle": "Travel",
+      "x": 0.5,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "6A07B0671FACF04C",
+          "type": "item",
+          "item": "moreartifacts:balloon",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2FC02C5538334D34",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1FE94C12EACE2E70",
+      "title": "Above the Obstacles",
+      "icon": "moreartifacts:high_jumpers",
+      "description": [
+        "Prepare high jumpers for exploration."
+      ],
+      "subtitle": "",
+      "x": 2.9,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "2940084AC7BE7B16"
+      ],
+      "tasks": [
+        {
+          "id": "7FD2F3729AB7B647",
+          "type": "item",
+          "item": "moreartifacts:high_jumpers",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1024795369BFBD93",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "2DA986CD6C4BC4A5",
+      "title": "Across the Dunes",
+      "icon": "moreartifacts:dune_treads",
+      "description": [
+        "Build dune treads for the travel branch."
+      ],
+      "subtitle": "",
+      "x": 5.3,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "1FE94C12EACE2E70"
+      ],
+      "tasks": [
+        {
+          "id": "3BAA34A43AFD66D6",
+          "type": "item",
+          "item": "moreartifacts:dune_treads",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5E71CC9A79DEB2CD",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "679298A296002C33",
+      "title": "A Heated Path",
+      "icon": "moreartifacts:blazing_treads",
+      "description": [
+        "Advance into blazing treads."
+      ],
+      "subtitle": "",
+      "x": 7.699999999999999,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "2DA986CD6C4BC4A5"
+      ],
+      "tasks": [
+        {
+          "id": "3B44964224A5C4B8",
+          "type": "item",
+          "item": "moreartifacts:blazing_treads",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2CE417D7538E2442",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "69BFC92CA31800EE",
+      "title": "An Ender Road",
+      "icon": "moreartifacts:enderian_treads",
+      "description": [
+        "Complete enderian treads."
+      ],
+      "subtitle": "",
+      "x": 10.1,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "679298A296002C33"
+      ],
+      "tasks": [
+        {
+          "id": "17FC1884ADCE1397",
+          "type": "item",
+          "item": "moreartifacts:enderian_treads",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "33B1541D1ECECC55",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "2C44F3DB5C1BB95C",
+      "title": "The Wanderer's Mantle",
+      "icon": "moreartifacts:natures_mantle",
+      "description": [
+        "Finish a nature's mantle for your exploration collection."
+      ],
+      "subtitle": "",
+      "x": 12.5,
+      "y": 15.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "69BFC92CA31800EE"
+      ],
+      "tasks": [
+        {
+          "id": "36CB8B3637DC97D8",
+          "type": "item",
+          "item": "moreartifacts:natures_mantle",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6625B27D22D0F602",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "3D1B99086BE7D13F",
+      "title": "An Ender Warding",
+      "icon": "moreartifacts:enderian_scarf",
+      "description": [
+        "Recover an enderian scarf before pursuing its stronger forms."
+      ],
+      "subtitle": "Scarf",
+      "x": 0.0,
+      "y": 18.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "29877BC7B7916641",
+          "type": "item",
+          "item": "moreartifacts:enderian_scarf",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16A79C50DEAEEA50",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "2D5BC719CD6824FC",
+      "title": "A Truer Pattern",
+      "icon": "moreartifacts:true_enderian_scarf",
+      "description": [
+        "Complete the true enderian scarf."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 18.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "3D1B99086BE7D13F"
+      ],
+      "tasks": [
+        {
+          "id": "6CCB3A853C627210",
+          "type": "item",
+          "item": "moreartifacts:true_enderian_scarf",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "32E9C53E3E241B9D",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "7603E50E13C24932",
+      "title": "A Golden Finish",
+      "icon": "moreartifacts:gilded_scarf",
+      "description": [
+        "Finish the gilded scarf branch."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 18.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "2D5BC719CD6824FC"
+      ],
+      "tasks": [
+        {
+          "id": "07EBFC2BA2D80D86",
+          "type": "item",
+          "item": "moreartifacts:gilded_scarf",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "75BB35437FE65C11",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

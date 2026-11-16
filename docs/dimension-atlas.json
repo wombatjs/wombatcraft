@@ -412,5 +412,17 @@
     "dimension": null,
     "chapter": "wc_dimension_exp_rftools_dimensions",
     "description": "Your power grid can sustain a world. Begin with a modest dimension, learn its running cost and build a reserve before shaping richer terrain."
+  },
+  {
+    "title": "Anu's Lair",
+    "dimension": "fossil:anu_lair",
+    "chapter": "wc_dimension_exp_fossil",
+    "description": "Follow the Ancient Key into the lair of Anu. The Lost Ages chapter charts the excavation and restoration journey."
+  },
+  {
+    "title": "The Ancient Treasury",
+    "dimension": "fossil:treasure_room",
+    "chapter": "wc_dimension_exp_fossil",
+    "description": "Complete the ancient trial and reach the sealed treasury."
   }
 ]

@@ -1,0 +1,989 @@
+{
+  "id": "36878645B2A601DC",
+  "filename": "wc_frontier_lost_ages",
+  "title": "Fossils - The Lost Ages",
+  "group": "00AA8F374274B5F3",
+  "icon": "fossil:dinopedia",
+  "order_index": 76,
+  "default_quest_shape": "circle",
+  "autofocus_id": "15BA6E35076BB116",
+  "quests": [
+    {
+      "id": "15BA6E35076BB116",
+      "title": "Beneath the Stone",
+      "icon": "fossil:dinopedia",
+      "description": [
+        "Break a fossil deposit and begin an excavation collection."
+      ],
+      "subtitle": "Excavation",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "73C06095B491A4F3",
+          "type": "advancement",
+          "advancement": "fossil:fossil/break_fossil"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "25D6BAA76181E0CD",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "4730442F2C4E6BBA",
+      "title": "A Trace of Life",
+      "icon": "fossil:fossil_bio",
+      "description": [
+        "Separate biological material from the dig."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "15BA6E35076BB116"
+      ],
+      "tasks": [
+        {
+          "id": "4DFD5C64C3B9D8BF",
+          "type": "item",
+          "item": "fossil:fossil_bio",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "57EC71032C4A392A",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "399C47AB4D5B31E4",
+      "title": "A Lost Garden",
+      "icon": "fossil:fossil_plant",
+      "description": [
+        "Reserve plant fossils for the botanical branch."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "4730442F2C4E6BBA"
+      ],
+      "tasks": [
+        {
+          "id": "657DE06A865617C7",
+          "type": "item",
+          "item": "fossil:fossil_plant",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F5C96CC6F1E38FB",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "7D48ED016A6B932D",
+      "title": "Preserved in Tar",
+      "icon": "fossil:fossil_tar",
+      "description": [
+        "Recover tar-preserved material with room to escape the pit."
+      ],
+      "subtitle": "",
+      "x": 7.199999999999999,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "399C47AB4D5B31E4"
+      ],
+      "tasks": [
+        {
+          "id": "12DA484E2C44EF2D",
+          "type": "item",
+          "item": "fossil:fossil_tar",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6377A07A1DD478B2",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "33B031AB7D542254",
+      "title": "The Frozen Record",
+      "icon": "fossil:dinopedia",
+      "description": [
+        "Recover a specimen preserved in the cold."
+      ],
+      "subtitle": "",
+      "x": 9.6,
+      "y": 0.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "7D48ED016A6B932D"
+      ],
+      "tasks": [
+        {
+          "id": "32438C426D473AB9",
+          "type": "advancement",
+          "advancement": "fossil:fossil/frozen_meat"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7A5FAAAE5738266C",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "1F6327AB35C98414",
+      "title": "Read the Past",
+      "icon": "fossil:analyzer",
+      "description": [
+        "Build an analyzer and keep its outputs sorted.",
+        "The laboratory machines need a small Forge Energy supply. Connect them to your workshop power before starting a batch."
+      ],
+      "subtitle": "Laboratory",
+      "x": 0.5,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "216676224DC34A17",
+          "type": "item",
+          "item": "fossil:analyzer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "71C800F7032B646E",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "445EB0B235DA0898",
+      "title": "The Genetic Record",
+      "icon": "fossil:dinopedia",
+      "description": [
+        "Recover usable DNA through analysis."
+      ],
+      "subtitle": "",
+      "x": 2.9,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "1F6327AB35C98414"
+      ],
+      "tasks": [
+        {
+          "id": "628EE42B45398BDF",
+          "type": "advancement",
+          "advancement": "fossil:fossil/dna"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "39964806FCD9ABA5",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "7C618EFB335E0912",
+      "title": "Life in a Vessel",
+      "icon": "fossil:culture_vat",
+      "description": [
+        "Build a culture vat in a contained laboratory."
+      ],
+      "subtitle": "",
+      "x": 5.3,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "445EB0B235DA0898"
+      ],
+      "tasks": [
+        {
+          "id": "676FE8D25B97E267",
+          "type": "item",
+          "item": "fossil:culture_vat",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "32223919C781C6E3",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "6FB94D8E18D2DC6A",
+      "title": "A Second Beginning",
+      "icon": "fossil:dinopedia",
+      "description": [
+        "Produce a dinosaur egg through the laboratory chain."
+      ],
+      "subtitle": "",
+      "x": 7.699999999999999,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "7C618EFB335E0912"
+      ],
+      "tasks": [
+        {
+          "id": "35C1885CB28A213D",
+          "type": "advancement",
+          "advancement": "fossil:fossil/dino_eggs"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D47A196DE4EED82",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "78545AA5FA2995CF",
+      "title": "Know Your Animal",
+      "icon": "fossil:dinopedia",
+      "description": [
+        "Read the Dinopedia before hatching a creature. Prepare its food and enclosure first."
+      ],
+      "subtitle": "",
+      "x": 10.1,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "6FB94D8E18D2DC6A"
+      ],
+      "tasks": [
+        {
+          "id": "6A3C8CBCB25C7D25",
+          "type": "item",
+          "item": "fossil:dinopedia",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "51BE0E7259620E04",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "711E5479E5992383",
+      "title": "A Reliable Food Supply",
+      "icon": "fossil:feeder",
+      "description": [
+        "Place a feeder in the enclosure and keep it stocked."
+      ],
+      "subtitle": "",
+      "x": 12.5,
+      "y": 3.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "78545AA5FA2995CF"
+      ],
+      "tasks": [
+        {
+          "id": "66BDF38B7E563397",
+          "type": "item",
+          "item": "fossil:feeder",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2856ED7E342DD011",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "02E978E005FCA82A",
+      "title": "Another Branch of Life",
+      "icon": "fossil:dinopedia",
+      "description": [
+        "Produce an embryo for the mammal branch."
+      ],
+      "subtitle": "",
+      "x": 14.899999999999999,
+      "y": 3.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "711E5479E5992383"
+      ],
+      "tasks": [
+        {
+          "id": "719A3BE22301FC3E",
+          "type": "advancement",
+          "advancement": "fossil:fossil/embryos"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "297D68F3BE058C28",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "71C94955C7926FB8",
+      "title": "Seeds of Another Age",
+      "icon": "fossil:dinopedia",
+      "description": [
+        "Recover fossil seeds during analysis."
+      ],
+      "subtitle": "Botany",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0C9D6E0DFDF74F58",
+          "type": "advancement",
+          "advancement": "fossil:fossil/fossil_seeds"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2EEC07BF94271AD4",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "2AA5BC91FAE95941",
+      "title": "A Living Seed",
+      "icon": "fossil:dinopedia",
+      "description": [
+        "Restore ancient plant material."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "71C94955C7926FB8"
+      ],
+      "tasks": [
+        {
+          "id": "670F53332AD547A9",
+          "type": "advancement",
+          "advancement": "fossil:fossil/restored_seeds"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2DB811AAE9B2E690",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "31F8010CB7529DD4",
+      "title": "Calamites Records",
+      "icon": "fossil:fossil_sapling_calamites",
+      "description": [
+        "Recover the fossil sapling for the calamites branch."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "2AA5BC91FAE95941"
+      ],
+      "tasks": [
+        {
+          "id": "43D7FB85F454BFDF",
+          "type": "item",
+          "item": "fossil:fossil_sapling_calamites",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6402A96932B27B95",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "66866946410244B0",
+      "title": "Cordaites Records",
+      "icon": "fossil:fossil_sapling_cordaites",
+      "description": [
+        "Recover another ancient tree specimen."
+      ],
+      "subtitle": "",
+      "x": 7.199999999999999,
+      "y": 6.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "31F8010CB7529DD4"
+      ],
+      "tasks": [
+        {
+          "id": "5BC01E19BC67DABE",
+          "type": "item",
+          "item": "fossil:fossil_sapling_cordaites",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "24EEF51B050B1080",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1C1E2E25D64227A1",
+      "title": "A Prehistoric Palm",
+      "icon": "fossil:fossil_sapling_palm",
+      "description": [
+        "Add a palm specimen to the botanical collection."
+      ],
+      "subtitle": "",
+      "x": 9.6,
+      "y": 6.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "66866946410244B0"
+      ],
+      "tasks": [
+        {
+          "id": "21228051F296A9AA",
+          "type": "item",
+          "item": "fossil:fossil_sapling_palm",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "54D59CC020EF16B8",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "58086C4BBCB7D3D1",
+      "title": "A Broken Relic",
+      "icon": "fossil:dinopedia",
+      "description": [
+        "Find a damaged ancient weapon."
+      ],
+      "subtitle": "Archeology",
+      "x": 0.5,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "684013A0DB7BD31C",
+          "type": "advancement",
+          "advancement": "fossil:fossil/broken_sword"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7B79CF0CBAB15DFF",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "461872B413F42873",
+      "title": "The Restorer's Bench",
+      "icon": "fossil:dinopedia",
+      "description": [
+        "Build an archaeology worktable for damaged finds."
+      ],
+      "subtitle": "",
+      "x": 2.9,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "58086C4BBCB7D3D1"
+      ],
+      "tasks": [
+        {
+          "id": "22347E721BF8849F",
+          "type": "advancement",
+          "advancement": "fossil:fossil/worktable"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3BDFEF3F58F5F2A1",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "71B04714F20723C3",
+      "title": "An Edge Restored",
+      "icon": "fossil:dinopedia",
+      "description": [
+        "Restore an ancient sword."
+      ],
+      "subtitle": "",
+      "x": 5.3,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "461872B413F42873"
+      ],
+      "tasks": [
+        {
+          "id": "003D654857AD8A76",
+          "type": "advancement",
+          "advancement": "fossil:fossil/ancient_sword"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DB20462CCEC8AFE",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1DDA572777345E46",
+      "title": "Time Unearthed",
+      "icon": "fossil:dinopedia",
+      "description": [
+        "Restore an ancient clock."
+      ],
+      "subtitle": "",
+      "x": 7.699999999999999,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "71B04714F20723C3"
+      ],
+      "tasks": [
+        {
+          "id": "42E27617315F3434",
+          "type": "advancement",
+          "advancement": "fossil:fossil/ancient_clock"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C830CEC9A76A161",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "2A6417CF47A914E3",
+      "title": "Stories in Stone",
+      "icon": "fossil:dinopedia",
+      "description": [
+        "Recover a stone tablet for your museum."
+      ],
+      "subtitle": "",
+      "x": 10.1,
+      "y": 9.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "1DDA572777345E46"
+      ],
+      "tasks": [
+        {
+          "id": "3299CB79B91BC515",
+          "type": "advancement",
+          "advancement": "fossil:fossil/stone_tablet"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "69FE8EC82278023F",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "17FD7BBBF880BFD0",
+      "title": "Figures from the Past",
+      "icon": "fossil:dinopedia",
+      "description": [
+        "Begin a collection of ancient figurines."
+      ],
+      "subtitle": "",
+      "x": 12.5,
+      "y": 9.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "2A6417CF47A914E3"
+      ],
+      "tasks": [
+        {
+          "id": "15E739EB6430D596",
+          "type": "advancement",
+          "advancement": "fossil:fossil/figurines"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "033BEB2EEAC9C89D",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "6FB8D3D48C7E44E4",
+      "title": "The Scarab's Gleam",
+      "icon": "fossil:dinopedia",
+      "description": [
+        "Find a scarab gem before preparing the final expedition."
+      ],
+      "subtitle": "Expedition",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "2561E3D7DC493EAB",
+          "type": "advancement",
+          "advancement": "fossil:fossil/scarab_gem"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D5AB95F209ECAE8",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "5B22DEB349AAE44D",
+      "title": "Guardian of the Relic",
+      "icon": "fossil:dinopedia",
+      "description": [
+        "Face the Anubite and recover the path forward."
+      ],
+      "subtitle": "",
+      "x": 2.4,
+      "y": 12.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "6FB8D3D48C7E44E4"
+      ],
+      "tasks": [
+        {
+          "id": "1AE3C96D67C783B8",
+          "type": "advancement",
+          "advancement": "fossil:fossil/anubite"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "099F3E3885725BE6",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "35044F5FF32739BA",
+      "title": "A Door to the Past",
+      "icon": "fossil:ancient_key",
+      "description": [
+        "Recover the ancient key."
+      ],
+      "subtitle": "",
+      "x": 4.8,
+      "y": 12.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "5B22DEB349AAE44D"
+      ],
+      "tasks": [
+        {
+          "id": "5BF62D608CDCA36E",
+          "type": "item",
+          "item": "fossil:ancient_key",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6EDB22A979874F17",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "0050585FBD7C8102",
+      "title": "Beyond the Ancient Door",
+      "icon": "fossil:dinopedia",
+      "description": [
+        "Reach Anu's lair with your equipment repaired and supplies ready."
+      ],
+      "subtitle": "",
+      "x": 7.199999999999999,
+      "y": 12.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "35044F5FF32739BA"
+      ],
+      "tasks": [
+        {
+          "id": "3EAA0328992DF45E",
+          "type": "advancement",
+          "advancement": "fossil:fossil/anu_lair"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3306242CE1298160",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "14B112A0FC6BD4A3",
+      "title": "The End of an Age",
+      "icon": "fossil:dinopedia",
+      "description": [
+        "Defeat Anu and bring the story home."
+      ],
+      "subtitle": "",
+      "x": 9.6,
+      "y": 12.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "0050585FBD7C8102"
+      ],
+      "tasks": [
+        {
+          "id": "04D0F90B1D9E3B91",
+          "type": "advancement",
+          "advancement": "fossil:fossil/kill_anu"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5746A7F0DB3ECD9A",
+          "type": "item",
+          "item": "minecraft:netherite_ingot",
+          "count": 1
+        },
+        {
+          "id": "51C8BC935AE801F5",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "2C4F8EAF8A49EAF2",
+      "title": "The Egg Archive",
+      "icon": "fossil:dinopedia",
+      "description": [
+        "Complete the egg collection recorded by the Dinopedia's advancements."
+      ],
+      "subtitle": "Collection",
+      "x": 0.5,
+      "y": 15.0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "016C84E0A0993BA6",
+          "type": "advancement",
+          "advancement": "fossil:fossil/all_eggs"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "20FA26F67431C193",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "6C3F32F9AE5CE970",
+      "title": "The Mammalian Record",
+      "icon": "fossil:dinopedia",
+      "description": [
+        "Complete the embryo collection. A collection does not require keeping every creature loaded at once."
+      ],
+      "subtitle": "",
+      "x": 2.9,
+      "y": 15.0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [
+        "2C4F8EAF8A49EAF2"
+      ],
+      "tasks": [
+        {
+          "id": "7DD16929A82A7639",
+          "type": "advancement",
+          "advancement": "fossil:fossil/all_embryos"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "66C3E877D4EF2C2F",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,5 @@
-{"wombatcraft_faction_policy":"coremods/faction_policy.js","wombatcraft_arena_terrain":"coremods/arena_terrain.js"}
+{
+  "wombatcraft_faction_policy": "coremods/faction_policy.js",
+  "wombatcraft_arena_terrain": "coremods/arena_terrain.js",
+  "wombatcraft_fossil_food": "coremods/fossil_food.js"
+}

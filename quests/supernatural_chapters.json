@@ -1,0 +1,5841 @@
+[
+  {
+    "key": "iron_vaults",
+    "title": "Iron Chests - The Town Vault",
+    "group": "technology",
+    "icon": "ironchest:iron_chest",
+    "quests": [
+      {
+        "key": "capacity_0",
+        "title": "A Copper Storehouse",
+        "icon": "ironchest:copper_chest",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "parents": [],
+        "subtitle": "Capacity",
+        "description": [
+          "Begin with an expanded chest for mixed supplies. Drawers still suit bulk goods; these chests hold varied stacks."
+        ],
+        "tasks": [
+          [
+            "item",
+            "ironchest:copper_chest",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "capacity_1",
+        "title": "An Iron Reserve",
+        "icon": "ironchest:iron_chest",
+        "position": [
+          2.4,
+          0.0
+        ],
+        "parents": [
+          "capacity_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Upgrade your general storage before the workshop outgrows its walls."
+        ],
+        "tasks": [
+          [
+            "item",
+            "ironchest:iron_chest",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "capacity_2",
+        "title": "A Golden Treasury",
+        "icon": "ironchest:gold_chest",
+        "position": [
+          4.8,
+          0.0
+        ],
+        "parents": [
+          "capacity_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Move the tools and components you use most into a larger store."
+        ],
+        "tasks": [
+          [
+            "item",
+            "ironchest:gold_chest",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "capacity_3",
+        "title": "Room to Expand",
+        "icon": "ironchest:diamond_chest",
+        "position": [
+          7.199999999999999,
+          0.0
+        ],
+        "parents": [
+          "capacity_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Reserve a diamond chest for the finished products of several production lines."
+        ],
+        "tasks": [
+          [
+            "item",
+            "ironchest:diamond_chest",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "capacity_4",
+        "title": "The Strongroom",
+        "icon": "ironchest:obsidian_chest",
+        "position": [
+          9.6,
+          0.0
+        ],
+        "parents": [
+          "capacity_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Finish a durable vault for valuable stock. Claims and trusted access remain your protection against other players."
+        ],
+        "tasks": [
+          [
+            "item",
+            "ironchest:obsidian_chest",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:obsidian",
+            16
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "upgrades_0",
+        "title": "Keep the Contents",
+        "icon": "ironchest:wood_to_copper_chest_upgrade",
+        "position": [
+          0.5,
+          3.0
+        ],
+        "parents": [],
+        "subtitle": "Upgrades",
+        "description": [
+          "Use an upgrade on an existing wooden chest instead of emptying its contents into a replacement."
+        ],
+        "tasks": [
+          [
+            "item",
+            "ironchest:wood_to_copper_chest_upgrade",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "upgrades_1",
+        "title": "A Growing Warehouse",
+        "icon": "ironchest:copper_to_iron_chest_upgrade",
+        "position": [
+          2.9,
+          3.0
+        ],
+        "parents": [
+          "upgrades_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Carry the same store forward into iron."
+        ],
+        "tasks": [
+          [
+            "item",
+            "ironchest:copper_to_iron_chest_upgrade",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "upgrades_2",
+        "title": "Investment in Capacity",
+        "icon": "ironchest:iron_to_gold_chest_upgrade",
+        "position": [
+          5.3,
+          3.0
+        ],
+        "parents": [
+          "upgrades_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Expand the warehouse one tier at a time."
+        ],
+        "tasks": [
+          [
+            "item",
+            "ironchest:iron_to_gold_chest_upgrade",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "upgrades_3",
+        "title": "The Diamond Standard",
+        "icon": "ironchest:gold_to_diamond_chest_upgrade",
+        "position": [
+          7.699999999999999,
+          3.0
+        ],
+        "parents": [
+          "upgrades_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare an in-place diamond upgrade for a busy store."
+        ],
+        "tasks": [
+          [
+            "item",
+            "ironchest:gold_to_diamond_chest_upgrade",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:hopper",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "upgrades_4",
+        "title": "Reinforce the Vault",
+        "icon": "ironchest:diamond_to_obsidian_chest_upgrade",
+        "position": [
+          10.1,
+          3.0
+        ],
+        "parents": [
+          "upgrades_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Bring the final upgrade to the chest already serving your workshop."
+        ],
+        "tasks": [
+          [
+            "item",
+            "ironchest:diamond_to_obsidian_chest_upgrade",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "display_0",
+        "title": "The Display Case",
+        "icon": "ironchest:crystal_chest",
+        "position": [
+          0.0,
+          6.0
+        ],
+        "parents": [],
+        "subtitle": "Display",
+        "description": [
+          "A crystal chest shows its contents. Use a few for displays rather than a wall of rendered inventory."
+        ],
+        "tasks": [
+          [
+            "item",
+            "ironchest:crystal_chest",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "display_1",
+        "title": "A Humble Beginning",
+        "icon": "ironchest:dirt_chest",
+        "position": [
+          2.4,
+          6.0
+        ],
+        "parents": [
+          "display_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Even a vault has room for a little dirt."
+        ],
+        "tasks": [
+          [
+            "item",
+            "ironchest:dirt_chest",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      }
+    ]
+  },
+  {
+    "key": "fortune",
+    "title": "Lucky Blocks - Fortune and Folly",
+    "group": "exploration",
+    "icon": "lucky:lucky_block",
+    "quests": [
+      {
+        "key": "preparation_0",
+        "title": "Expect Trouble",
+        "icon": "minecraft:shield",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "parents": [],
+        "subtitle": "Preparation",
+        "description": [
+          "Bring a shield and leave valuables at home before opening a lucky block."
+        ],
+        "tasks": [
+          [
+            "item",
+            "minecraft:shield",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "preparation_1",
+        "title": "An Escape Plan",
+        "icon": "minecraft:water_bucket",
+        "position": [
+          2.4,
+          0.0
+        ],
+        "parents": [
+          "preparation_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Carry water for falls and fire. Luck can turn an ordinary outing into a rescue."
+        ],
+        "tasks": [
+          [
+            "item",
+            "minecraft:water_bucket",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "preparation_2",
+        "title": "Emergency Rations",
+        "icon": "minecraft:golden_apple",
+        "position": [
+          4.8,
+          0.0
+        ],
+        "parents": [
+          "preparation_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Keep an emergency meal on your hotbar."
+        ],
+        "tasks": [
+          [
+            "item",
+            "minecraft:golden_apple",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "preparation_3",
+        "title": "A Roll of Fate",
+        "icon": "lucky:lucky_block",
+        "position": [
+          7.199999999999999,
+          0.0
+        ],
+        "parents": [
+          "preparation_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Open lucky blocks away from settlements, machines and other players. A reward is never guaranteed."
+        ],
+        "tasks": [
+          [
+            "item",
+            "lucky:lucky_block",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "prizes_0",
+        "title": "A Fortunate Blade",
+        "icon": "lucky:lucky_sword",
+        "position": [
+          0.5,
+          3.0
+        ],
+        "parents": [],
+        "subtitle": "Prizes",
+        "description": [
+          "Recover a lucky sword and try its unpredictable effects in a safe wilderness clearing."
+        ],
+        "tasks": [
+          [
+            "item",
+            "lucky:lucky_sword",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "prizes_1",
+        "title": "An Uncertain Arrow",
+        "icon": "lucky:lucky_bow",
+        "position": [
+          2.9,
+          3.0
+        ],
+        "parents": [
+          "prizes_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Recover a lucky bow. Treat every shot as an experiment and keep it away from protected builds."
+        ],
+        "tasks": [
+          [
+            "item",
+            "lucky:lucky_bow",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "prizes_2",
+        "title": "Bottled Chance",
+        "icon": "lucky:lucky_potion",
+        "position": [
+          5.3,
+          3.0
+        ],
+        "parents": [
+          "prizes_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Recover a lucky potion. Its name is no promise of safety."
+        ],
+        "tasks": [
+          [
+            "item",
+            "lucky:lucky_potion",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      }
+    ]
+  },
+  {
+    "key": "old_ways",
+    "title": "Enchanted - The Old Ways",
+    "group": "magic",
+    "icon": "enchanted:witch_oven",
+    "quests": [
+      {
+        "key": "garden_0",
+        "title": "The Witch's Garden",
+        "icon": "enchanted:belladonna_seeds",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "parents": [],
+        "subtitle": "Garden",
+        "description": [
+          "Establish a small belladonna bed for the first workings."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:belladonna_seeds",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "garden_1",
+        "title": "A Restless Root",
+        "icon": "enchanted:mandrake_root",
+        "position": [
+          2.4,
+          0.0
+        ],
+        "parents": [
+          "garden_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Harvest mandrake with space to react to whatever the soil releases."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:mandrake_root",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "garden_2",
+        "title": "Winter in Bloom",
+        "icon": "enchanted:snowbell_seeds",
+        "position": [
+          4.8,
+          0.0
+        ],
+        "parents": [
+          "garden_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Grow snowbell alongside your other ritual herbs."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:snowbell_seeds",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "garden_3",
+        "title": "Roots in Water",
+        "icon": "enchanted:water_artichoke",
+        "position": [
+          7.199999999999999,
+          0.0
+        ],
+        "parents": [
+          "garden_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Add a water-grown herb to the garden."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:water_artichoke",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "garden_4",
+        "title": "A Rowan Grove",
+        "icon": "enchanted:rowan_sapling",
+        "position": [
+          9.6,
+          0.0
+        ],
+        "parents": [
+          "garden_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Set aside a grove of ritual trees outside your crowded workshop."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:rowan_sapling",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "garden_5",
+        "title": "The Alder Stand",
+        "icon": "enchanted:alder_sapling",
+        "position": [
+          12.0,
+          0.0
+        ],
+        "parents": [
+          "garden_4"
+        ],
+        "subtitle": "",
+        "description": [
+          "Keep a renewable supply of alder for later workings."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:alder_sapling",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "garden_6",
+        "title": "Thorns and Branches",
+        "icon": "enchanted:hawthorn_sapling",
+        "position": [
+          14.399999999999999,
+          0.0
+        ],
+        "parents": [
+          "garden_5"
+        ],
+        "subtitle": "",
+        "description": [
+          "Complete the three-tree garden with hawthorn."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:hawthorn_sapling",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "oven_0",
+        "title": "Smoke and Ash",
+        "icon": "enchanted:witch_oven",
+        "position": [
+          0.5,
+          3.0
+        ],
+        "parents": [],
+        "subtitle": "Oven",
+        "description": [
+          "Build a witch's oven and keep jars available for its by-products."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:witch_oven",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "oven_1",
+        "title": "Catch the Vapour",
+        "icon": "enchanted:clay_jar",
+        "position": [
+          2.9,
+          3.0
+        ],
+        "parents": [
+          "oven_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare fired jars before processing ingredients."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:clay_jar",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "oven_2",
+        "title": "What the Fire Leaves",
+        "icon": "enchanted:wood_ash",
+        "position": [
+          5.3,
+          3.0
+        ],
+        "parents": [
+          "oven_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Gather ash from the oven for your early mixtures."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:wood_ash",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "oven_3",
+        "title": "The Horned One's Breath",
+        "icon": "enchanted:exhale_of_the_horned_one",
+        "position": [
+          7.699999999999999,
+          3.0
+        ],
+        "parents": [
+          "oven_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Collect the first of the oven's named fumes."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:exhale_of_the_horned_one",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "oven_4",
+        "title": "A Gentler Breath",
+        "icon": "enchanted:breath_of_the_goddess",
+        "position": [
+          10.1,
+          3.0
+        ],
+        "parents": [
+          "oven_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Collect a second fume and keep the bottles sorted."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:breath_of_the_goddess",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "oven_5",
+        "title": "A Trace of Magic",
+        "icon": "enchanted:whiff_of_magic",
+        "position": [
+          12.5,
+          3.0
+        ],
+        "parents": [
+          "oven_4"
+        ],
+        "subtitle": "",
+        "description": [
+          "Reserve this fume for the workings ahead."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:whiff_of_magic",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "oven_6",
+        "title": "Guide the Smoke",
+        "icon": "enchanted:fume_funnel",
+        "position": [
+          14.899999999999999,
+          3.0
+        ],
+        "parents": [
+          "oven_5"
+        ],
+        "subtitle": "",
+        "description": [
+          "Improve the oven with a fume funnel."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:fume_funnel",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "oven_7",
+        "title": "A Cleaner Harvest",
+        "icon": "enchanted:fume_funnel_filtered",
+        "position": [
+          17.3,
+          3.0
+        ],
+        "parents": [
+          "oven_6"
+        ],
+        "subtitle": "",
+        "description": [
+          "Finish the filtered funnel branch before scaling the apothecary."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:fume_funnel_filtered",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "altar_0",
+        "title": "A Place of Power",
+        "icon": "enchanted:altar",
+        "position": [
+          0.0,
+          6.0
+        ],
+        "parents": [],
+        "subtitle": "Altar",
+        "description": [
+          "Build an altar with a varied natural garden around it. Leave room for its supporting objects."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:altar",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "altar_1",
+        "title": "The Ritual Blade",
+        "icon": "enchanted:arthana",
+        "position": [
+          2.4,
+          6.0
+        ],
+        "parents": [
+          "altar_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare an arthana for your altar and rituals."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:arthana",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "altar_2",
+        "title": "An Offering Vessel",
+        "icon": "enchanted:chalice",
+        "position": [
+          4.8,
+          6.0
+        ],
+        "parents": [
+          "altar_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Add a chalice to your ritual equipment."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:chalice",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "altar_3",
+        "title": "Three Small Flames",
+        "icon": "enchanted:candelabra",
+        "position": [
+          7.199999999999999,
+          6.0
+        ],
+        "parents": [
+          "altar_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Complete the altar furnishings with a candelabra."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:candelabra",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "altar_4",
+        "title": "A Stone That Remembers",
+        "icon": "enchanted:attuned_stone",
+        "position": [
+          9.6,
+          6.0
+        ],
+        "parents": [
+          "altar_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Attune a stone for more demanding magic."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:attuned_stone",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "altar_5",
+        "title": "Stored Power",
+        "icon": "enchanted:attuned_stone_charged",
+        "position": [
+          12.0,
+          6.0
+        ],
+        "parents": [
+          "altar_4"
+        ],
+        "subtitle": "",
+        "description": [
+          "Charge the stone before attempting workings that require it."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:attuned_stone_charged",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "alchemy_0",
+        "title": "Separate the Essence",
+        "icon": "enchanted:distillery",
+        "position": [
+          0.5,
+          9.0
+        ],
+        "parents": [],
+        "subtitle": "Alchemy",
+        "description": [
+          "Build a distillery and organise the ingredients it transforms."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:distillery",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "alchemy_1",
+        "title": "The First Brew",
+        "icon": "enchanted:kettle",
+        "position": [
+          2.9,
+          9.0
+        ],
+        "parents": [
+          "alchemy_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare a kettle for brewing."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:kettle",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "alchemy_2",
+        "title": "A Deeper Vessel",
+        "icon": "enchanted:witch_cauldron",
+        "position": [
+          5.3,
+          9.0
+        ],
+        "parents": [
+          "alchemy_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Move into cauldron workings once your herb supply is reliable."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:witch_cauldron",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "alchemy_3",
+        "title": "Change Takes Root",
+        "icon": "enchanted:mutandis",
+        "position": [
+          7.699999999999999,
+          9.0
+        ],
+        "parents": [
+          "alchemy_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Use mutandis to seek new plants. Work in a contained garden."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:mutandis",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "alchemy_4",
+        "title": "Stranger Growth",
+        "icon": "enchanted:mutandis_extremis",
+        "position": [
+          10.1,
+          9.0
+        ],
+        "parents": [
+          "alchemy_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare the stronger mixture for the next stage of experimentation."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:mutandis_extremis",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "circles_0",
+        "title": "Draw the Boundary",
+        "icon": "enchanted:ritual_chalk",
+        "position": [
+          0.0,
+          12.0
+        ],
+        "parents": [],
+        "subtitle": "Circles",
+        "description": [
+          "Mark a ritual space with chalk and leave its interior clear."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:ritual_chalk",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "circles_1",
+        "title": "The Heart of the Circle",
+        "icon": "enchanted:golden_chalk",
+        "position": [
+          2.4,
+          12.0
+        ],
+        "parents": [
+          "circles_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare golden chalk for the central marks."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:golden_chalk",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "circles_2",
+        "title": "Fire in the Pattern",
+        "icon": "enchanted:nether_chalk",
+        "position": [
+          4.8,
+          12.0
+        ],
+        "parents": [
+          "circles_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Add nether chalk to your ritual supplies."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:nether_chalk",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "circles_3",
+        "title": "Beyond the Circle",
+        "icon": "enchanted:otherwhere_chalk",
+        "position": [
+          7.199999999999999,
+          12.0
+        ],
+        "parents": [
+          "circles_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare otherwhere chalk for distant workings."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:otherwhere_chalk",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "circles_4",
+        "title": "A Pattern Preserved",
+        "icon": "enchanted:circle_talisman",
+        "position": [
+          9.6,
+          12.0
+        ],
+        "parents": [
+          "circles_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Store a circle pattern in a talisman."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:circle_talisman",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "wards_0",
+        "title": "A Small Guardian",
+        "icon": "enchanted:poppet",
+        "position": [
+          0.5,
+          15.0
+        ],
+        "parents": [],
+        "subtitle": "Wards",
+        "description": [
+          "Begin with a plain poppet before binding a protective working."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:poppet",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "wards_1",
+        "title": "A Personal Link",
+        "icon": "enchanted:taglock_kit",
+        "position": [
+          2.9,
+          15.0
+        ],
+        "parents": [
+          "wards_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare a taglock kit. Bind protection to yourself or a willing companion."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:taglock_kit",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "wards_2",
+        "title": "A Place for Wards",
+        "icon": "enchanted:poppet_shelf",
+        "position": [
+          5.3,
+          15.0
+        ],
+        "parents": [
+          "wards_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Keep active wards in an organised poppet shelf."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:poppet_shelf",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "wards_3",
+        "title": "Against the Deep",
+        "icon": "enchanted:water_poppet",
+        "position": [
+          7.699999999999999,
+          15.0
+        ],
+        "parents": [
+          "wards_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare a water protection poppet before long underwater journeys."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:water_poppet",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "wards_4",
+        "title": "Against the Flame",
+        "icon": "enchanted:fire_poppet",
+        "position": [
+          10.1,
+          15.0
+        ],
+        "parents": [
+          "wards_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare a fire protection poppet for dangerous expeditions."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:fire_poppet",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "travel_0",
+        "title": "A Familiar Shape",
+        "icon": "enchanted:broom",
+        "position": [
+          0.0,
+          18.0
+        ],
+        "parents": [],
+        "subtitle": "Travel",
+        "description": [
+          "Make the broom that will carry your next working."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:broom",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "travel_1",
+        "title": "The Flight Mixture",
+        "icon": "enchanted:flying_ointment",
+        "position": [
+          2.4,
+          18.0
+        ],
+        "parents": [
+          "travel_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare flying ointment for the enchanted broomstick."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:flying_ointment",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "travel_2",
+        "title": "Above the Garden",
+        "icon": "enchanted:enchanted_broomstick",
+        "position": [
+          4.8,
+          18.0
+        ],
+        "parents": [
+          "travel_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Finish your broomstick and take the old road through the sky."
+        ],
+        "tasks": [
+          [
+            "item",
+            "enchanted:enchanted_broomstick",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:ender_pearl",
+            8
+          ],
+          [
+            "minecraft:golden_carrot",
+            16
+          ]
+        ],
+        "shape": "hexagon"
+      }
+    ]
+  },
+  {
+    "key": "crimson_paths",
+    "title": "Vampirism - Blood and Oaths",
+    "group": "magic",
+    "icon": "vampirism:vampire_fang",
+    "quests": [
+      {
+        "key": "knowledge_0",
+        "title": "A Crimson Discovery",
+        "icon": "vampirism:vampire_fang",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "parents": [],
+        "subtitle": "Knowledge",
+        "description": [
+          "Study a vampire fang before deciding whether to embrace the curse or hunt it."
+        ],
+        "tasks": [
+          [
+            "item",
+            "vampirism:vampire_fang",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "knowledge_1",
+        "title": "The Vampire Codex",
+        "icon": "guideapi_vp:vampirism-guidebook",
+        "position": [
+          2.4,
+          0.0
+        ],
+        "parents": [
+          "knowledge_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Keep the guide nearby. Vampire and hunter paths are alternatives; neither requires completing the other."
+        ],
+        "tasks": [
+          [
+            "item",
+            "guideapi_vp:vampirism-guidebook",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "knowledge_2",
+        "title": "The Darkened Forest",
+        "icon": "vampirism:vampire_fang",
+        "position": [
+          4.8,
+          0.0
+        ],
+        "parents": [
+          "knowledge_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Find the vampire forest and prepare a route home."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "vampirism:main/vampire_forest",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "vampire_0",
+        "title": "Accept the Night",
+        "icon": "vampirism:vampire_fang",
+        "position": [
+          0.5,
+          3.0
+        ],
+        "parents": [],
+        "subtitle": "Vampire",
+        "description": [
+          "Choose the vampire path and complete its initiation."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "vampirism:vampire/become_vampire",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "vampire_1",
+        "title": "The First Thirst",
+        "icon": "vampirism:vampire_fang",
+        "position": [
+          2.9,
+          3.0
+        ],
+        "parents": [
+          "vampire_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Feed for the first time as a vampire."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "vampirism:vampire/first_blood",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "vampire_2",
+        "title": "An Altar of Inspiration",
+        "icon": "vampirism:altar_inspiration",
+        "position": [
+          5.3,
+          3.0
+        ],
+        "parents": [
+          "vampire_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Build the first altar for your vampire progression."
+        ],
+        "tasks": [
+          [
+            "item",
+            "vampirism:altar_inspiration",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "vampire_3",
+        "title": "A Deeper Infusion",
+        "icon": "vampirism:altar_infusion",
+        "position": [
+          7.699999999999999,
+          3.0
+        ],
+        "parents": [
+          "vampire_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare the infusion altar and consult the guide for each rank's requirements."
+        ],
+        "tasks": [
+          [
+            "item",
+            "vampirism:altar_infusion",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "vampire_4",
+        "title": "Wings of Night",
+        "icon": "vampirism:vampire_fang",
+        "position": [
+          10.1,
+          3.0
+        ],
+        "parents": [
+          "vampire_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Unlock the vampire's bat transformation."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "vampirism:vampire/bat",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "vampire_5",
+        "title": "Master of the Night",
+        "icon": "vampirism:vampire_fang",
+        "position": [
+          12.5,
+          3.0
+        ],
+        "parents": [
+          "vampire_4"
+        ],
+        "subtitle": "",
+        "description": [
+          "Reach the vampire path's maximum level."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "vampirism:vampire/max_level",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            8
+          ],
+          [
+            "minecraft:golden_apple",
+            4
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "hunter_0",
+        "title": "Take the Hunter's Oath",
+        "icon": "vampirism:vampire_fang",
+        "position": [
+          0.0,
+          6.0
+        ],
+        "parents": [],
+        "subtitle": "Hunter",
+        "description": [
+          "Choose the hunter path. This branch is an alternative to becoming a vampire."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "vampirism:hunter/become_hunter",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "hunter_1",
+        "title": "Wood Against Darkness",
+        "icon": "vampirism:stake",
+        "position": [
+          2.4,
+          6.0
+        ],
+        "parents": [
+          "hunter_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare a stake for your hunts."
+        ],
+        "tasks": [
+          [
+            "item",
+            "vampirism:stake",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "hunter_2",
+        "title": "A Hunter's Bench",
+        "icon": "vampirism:hunter_table",
+        "position": [
+          4.8,
+          6.0
+        ],
+        "parents": [
+          "hunter_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Build the station that supports your progression."
+        ],
+        "tasks": [
+          [
+            "item",
+            "vampirism:hunter_table",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "hunter_3",
+        "title": "Keep Your Distance",
+        "icon": "vampirism:basic_crossbow",
+        "position": [
+          7.199999999999999,
+          6.0
+        ],
+        "parents": [
+          "hunter_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Equip a basic crossbow and prepare ammunition."
+        ],
+        "tasks": [
+          [
+            "item",
+            "vampirism:basic_crossbow",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "hunter_4",
+        "title": "A Seasoned Hunter",
+        "icon": "vampirism:enhanced_crossbow",
+        "position": [
+          9.6,
+          6.0
+        ],
+        "parents": [
+          "hunter_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Upgrade your crossbow before facing stronger foes."
+        ],
+        "tasks": [
+          [
+            "item",
+            "vampirism:enhanced_crossbow",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "hunter_5",
+        "title": "The Veteran's Oath",
+        "icon": "vampirism:vampire_fang",
+        "position": [
+          12.0,
+          6.0
+        ],
+        "parents": [
+          "hunter_4"
+        ],
+        "subtitle": "",
+        "description": [
+          "Reach the hunter path's maximum level."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "vampirism:hunter/max_level",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            8
+          ],
+          [
+            "minecraft:golden_apple",
+            4
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "bloodcraft_0",
+        "title": "A Stored Reserve",
+        "icon": "vampirism:blood_bottle",
+        "position": [
+          0.5,
+          9.0
+        ],
+        "parents": [],
+        "subtitle": "Bloodcraft",
+        "description": [
+          "Keep blood in bottles for the workings that need it."
+        ],
+        "tasks": [
+          [
+            "item",
+            "vampirism:blood_bottle",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "bloodcraft_1",
+        "title": "A Proper Cellar",
+        "icon": "vampirism:blood_container",
+        "position": [
+          2.9,
+          9.0
+        ],
+        "parents": [
+          "bloodcraft_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Build a container for a larger blood supply."
+        ],
+        "tasks": [
+          [
+            "item",
+            "vampirism:blood_container",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "bloodcraft_2",
+        "title": "The Bloodworks",
+        "icon": "vampirism:blood_grinder",
+        "position": [
+          5.3,
+          9.0
+        ],
+        "parents": [
+          "bloodcraft_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare a grinder as part of your blood-processing setup."
+        ],
+        "tasks": [
+          [
+            "item",
+            "vampirism:blood_grinder",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "bloodcraft_3",
+        "title": "Refine the Supply",
+        "icon": "vampirism:blood_sieve",
+        "position": [
+          7.699999999999999,
+          9.0
+        ],
+        "parents": [
+          "bloodcraft_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Add a sieve to complete the processing branch."
+        ],
+        "tasks": [
+          [
+            "item",
+            "vampirism:blood_sieve",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "bloodcraft_4",
+        "title": "Metal and Blood",
+        "icon": "vampirism:blood_infused_iron_ingot",
+        "position": [
+          10.1,
+          9.0
+        ],
+        "parents": [
+          "bloodcraft_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Create blood-infused iron for specialised equipment."
+        ],
+        "tasks": [
+          [
+            "item",
+            "vampirism:blood_infused_iron_ingot",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "bloodcraft_5",
+        "title": "An Enhanced Alloy",
+        "icon": "vampirism:blood_infused_enhanced_iron_ingot",
+        "position": [
+          12.5,
+          9.0
+        ],
+        "parents": [
+          "bloodcraft_4"
+        ],
+        "subtitle": "",
+        "description": [
+          "Refine the infused metal further."
+        ],
+        "tasks": [
+          [
+            "item",
+            "vampirism:blood_infused_enhanced_iron_ingot",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "survival_0",
+        "title": "A Little Shade",
+        "icon": "vampirism:umbrella",
+        "position": [
+          0.0,
+          12.0
+        ],
+        "parents": [],
+        "subtitle": "Survival",
+        "description": [
+          "Carry an umbrella when sunlight threatens your journey."
+        ],
+        "tasks": [
+          [
+            "item",
+            "vampirism:umbrella",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "survival_1",
+        "title": "Prepared for Daylight",
+        "icon": "vampirism:potion_table",
+        "position": [
+          2.4,
+          12.0
+        ],
+        "parents": [
+          "survival_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare a potion table and consult the guide for daylight protection."
+        ],
+        "tasks": [
+          [
+            "item",
+            "vampirism:potion_table",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "survival_2",
+        "title": "A Sheltered Domain",
+        "icon": "vampirism:sunscreen_beacon",
+        "position": [
+          4.8,
+          12.0
+        ],
+        "parents": [
+          "survival_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Build a sunscreen beacon for a permanent refuge."
+        ],
+        "tasks": [
+          [
+            "item",
+            "vampirism:sunscreen_beacon",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "survival_3",
+        "title": "Another Choice",
+        "icon": "vampirism:oblivion_potion",
+        "position": [
+          7.199999999999999,
+          12.0
+        ],
+        "parents": [
+          "survival_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Study the potion of oblivion before choosing to leave your path."
+        ],
+        "tasks": [
+          [
+            "item",
+            "vampirism:oblivion_potion",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "retinue_0",
+        "title": "A Lord's Responsibility",
+        "icon": "vampirism:vampire_fang",
+        "position": [
+          0.5,
+          15.0
+        ],
+        "parents": [],
+        "subtitle": "Retinue",
+        "description": [
+          "Earn lord status before recruiting a retinue."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "vampirism:minion/become_lord",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "retinue_1",
+        "title": "Names Worth Remembering",
+        "icon": "minecraft:name_tag",
+        "position": [
+          2.9,
+          15.0
+        ],
+        "parents": [
+          "retinue_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Give a companion a name rather than raising an unmanageable crowd."
+        ],
+        "tasks": [
+          [
+            "item",
+            "minecraft:name_tag",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "retinue_2",
+        "title": "A Trusted Guardian",
+        "icon": "vampirism:vampire_fang",
+        "position": [
+          5.3,
+          15.0
+        ],
+        "parents": [
+          "retinue_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Complete the guide's protection milestone with a minion."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "vampirism:minion/protect_lord",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      }
+    ]
+  },
+  {
+    "key": "moonbound",
+    "title": "Werewolves - The Moonbound",
+    "group": "magic",
+    "icon": "werewolves:werewolf_tooth",
+    "quests": [
+      {
+        "key": "moon_0",
+        "title": "The Mark of the Beast",
+        "icon": "werewolves:werewolf_tooth",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "parents": [],
+        "subtitle": "Moon",
+        "description": [
+          "Find a werewolf tooth and study the path before accepting its changes."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:werewolf_tooth",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "moon_1",
+        "title": "A Place Beneath the Moon",
+        "icon": "werewolves:stone_altar",
+        "position": [
+          2.4,
+          0.0
+        ],
+        "parents": [
+          "moon_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare a stone altar for werewolf progression."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:stone_altar",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "moon_2",
+        "title": "Fire at the Altar",
+        "icon": "werewolves:stone_altar_fire_bowl",
+        "position": [
+          4.8,
+          0.0
+        ],
+        "parents": [
+          "moon_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Add the altar's fire bowl and follow the werewolf guide's rites."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:stone_altar_fire_bowl",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "moon_3",
+        "title": "A Bone-Wrought Charm",
+        "icon": "werewolves:bone_necklace",
+        "position": [
+          7.199999999999999,
+          0.0
+        ],
+        "parents": [
+          "moon_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare a necklace for the path ahead."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:bone_necklace",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "moon_4",
+        "title": "A Bound Charm",
+        "icon": "werewolves:charm_bracelet",
+        "position": [
+          9.6,
+          0.0
+        ],
+        "parents": [
+          "moon_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Add a charm bracelet to your equipment."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:charm_bracelet",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "moon_5",
+        "title": "Dreams Held Fast",
+        "icon": "werewolves:dream_catcher",
+        "position": [
+          12.0,
+          0.0
+        ],
+        "parents": [
+          "moon_4"
+        ],
+        "subtitle": "",
+        "description": [
+          "Craft a dream catcher for your moonbound collection."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:dream_catcher",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "silver_0",
+        "title": "A Pale Vein",
+        "icon": "werewolves:raw_silver",
+        "position": [
+          0.5,
+          3.0
+        ],
+        "parents": [],
+        "subtitle": "Silver",
+        "description": [
+          "Mine silver and reserve part of the yield for defensive supplies."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:raw_silver",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "silver_1",
+        "title": "Refined Moonlight",
+        "icon": "werewolves:silver_ingot",
+        "position": [
+          2.9,
+          3.0
+        ],
+        "parents": [
+          "silver_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Smelt a silver reserve."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:silver_ingot",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "silver_2",
+        "title": "A Silver Edge",
+        "icon": "werewolves:silver_sword",
+        "position": [
+          5.3,
+          3.0
+        ],
+        "parents": [
+          "silver_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare a silver weapon for encounters with werewolves."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:silver_sword",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "silver_3",
+        "title": "A Hunter's Answer",
+        "icon": "werewolves:crossbow_arrow_silver_bolt",
+        "position": [
+          7.699999999999999,
+          3.0
+        ],
+        "parents": [
+          "silver_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Make silver ammunition for ranged defence."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:crossbow_arrow_silver_bolt",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "silver_4",
+        "title": "Armour of Silver",
+        "icon": "werewolves:silver_chestplate",
+        "position": [
+          10.1,
+          3.0
+        ],
+        "parents": [
+          "silver_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Complete the core of your silver equipment."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:silver_chestplate",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "pelts_0",
+        "title": "A Hunter's Trophy",
+        "icon": "werewolves:pelt",
+        "position": [
+          0.0,
+          6.0
+        ],
+        "parents": [],
+        "subtitle": "Pelts",
+        "description": [
+          "Gather a pelt from a dangerous encounter."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:pelt",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "pelts_1",
+        "title": "Wild Armour",
+        "icon": "werewolves:pelt_chestplate",
+        "position": [
+          2.4,
+          6.0
+        ],
+        "parents": [
+          "pelts_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Craft the first pelt chestplate."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:pelt_chestplate",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "pelts_2",
+        "title": "A Darker Mantle",
+        "icon": "werewolves:dark_pelt_chestplate",
+        "position": [
+          4.8,
+          6.0
+        ],
+        "parents": [
+          "pelts_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Advance into dark pelt equipment."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:dark_pelt_chestplate",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "pelts_3",
+        "title": "The White Pelt Pattern",
+        "icon": "werewolves:white_pelt_upgrade_smithing_template",
+        "position": [
+          7.199999999999999,
+          6.0
+        ],
+        "parents": [
+          "pelts_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Recover the pattern needed for white pelt equipment."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:white_pelt_upgrade_smithing_template",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "pelts_4",
+        "title": "Winter's Mantle",
+        "icon": "werewolves:white_pelt_chestplate",
+        "position": [
+          9.6,
+          6.0
+        ],
+        "parents": [
+          "pelts_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Finish the white pelt chestplate."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:white_pelt_chestplate",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "wards_0",
+        "title": "A Woodland Harvest",
+        "icon": "werewolves:wolf_berries",
+        "position": [
+          0.5,
+          9.0
+        ],
+        "parents": [],
+        "subtitle": "Wards",
+        "description": [
+          "Gather wolf berries for your supplies."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:wolf_berries",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "wards_1",
+        "title": "Find the Wolfsbane",
+        "icon": "werewolves:wolfsbane_finder",
+        "position": [
+          2.9,
+          9.0
+        ],
+        "parents": [
+          "wards_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare a finder for the protective herb."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:wolfsbane_finder",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "wards_2",
+        "title": "A Defensive Core",
+        "icon": "werewolves:wolfsbane_diffuser_core",
+        "position": [
+          5.3,
+          9.0
+        ],
+        "parents": [
+          "wards_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare a diffuser core for an established settlement."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:wolfsbane_diffuser_core",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "wards_3",
+        "title": "A Stronger Ward",
+        "icon": "werewolves:wolfsbane_diffuser_core_improved",
+        "position": [
+          7.699999999999999,
+          9.0
+        ],
+        "parents": [
+          "wards_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Improve the core before extending your defences."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:wolfsbane_diffuser_core_improved",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "wards_4",
+        "title": "A Way Back",
+        "icon": "werewolves:injection_un_werewolf",
+        "position": [
+          10.1,
+          9.0
+        ],
+        "parents": [
+          "wards_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Keep the cure available if you decide to leave the werewolf path."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:injection_un_werewolf",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "pack_0",
+        "title": "A Companion's Bond",
+        "icon": "werewolves:werewolf_minion_charm",
+        "position": [
+          0.0,
+          12.0
+        ],
+        "parents": [],
+        "subtitle": "Pack",
+        "description": [
+          "Prepare a charm for a single trusted minion."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:werewolf_minion_charm",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "pack_1",
+        "title": "Train the Pack",
+        "icon": "werewolves:werewolf_minion_upgrade_simple",
+        "position": [
+          2.4,
+          12.0
+        ],
+        "parents": [
+          "pack_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Begin with a simple minion upgrade."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:werewolf_minion_upgrade_simple",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "pack_2",
+        "title": "An Experienced Companion",
+        "icon": "werewolves:werewolf_minion_upgrade_enhanced",
+        "position": [
+          4.8,
+          12.0
+        ],
+        "parents": [
+          "pack_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Improve the same companion rather than filling your base with followers."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:werewolf_minion_upgrade_enhanced",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "pack_3",
+        "title": "An Exceptional Guardian",
+        "icon": "werewolves:werewolf_minion_upgrade_special",
+        "position": [
+          7.199999999999999,
+          12.0
+        ],
+        "parents": [
+          "pack_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Finish a specialised minion upgrade."
+        ],
+        "tasks": [
+          [
+            "item",
+            "werewolves:werewolf_minion_upgrade_special",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      }
+    ]
+  },
+  {
+    "key": "mutant_hunts",
+    "title": "Mutant Monsters - Unnatural Hunts",
+    "group": "exploration",
+    "icon": "mutantmonsters:hulk_hammer",
+    "quests": [
+      {
+        "key": "preparation_0",
+        "title": "Fire at Hand",
+        "icon": "minecraft:flint_and_steel",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "parents": [],
+        "subtitle": "Preparation",
+        "description": [
+          "Prepare fire before hunting a mutant zombie; a fallen foe may not stay down."
+        ],
+        "tasks": [
+          [
+            "item",
+            "minecraft:flint_and_steel",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "preparation_1",
+        "title": "A Hunter's Defence",
+        "icon": "minecraft:shield",
+        "position": [
+          2.4,
+          0.0
+        ],
+        "parents": [
+          "preparation_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Bring a shield, food and a clear retreat route."
+        ],
+        "tasks": [
+          [
+            "item",
+            "minecraft:shield",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "preparation_2",
+        "title": "A Clean Slate",
+        "icon": "minecraft:milk_bucket",
+        "position": [
+          4.8,
+          0.0
+        ],
+        "parents": [
+          "preparation_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Carry milk to remove harmful effects after the encounter. Remember that it also removes helpful effects."
+        ],
+        "tasks": [
+          [
+            "item",
+            "minecraft:milk_bucket",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "zombie_0",
+        "title": "Put It to Rest",
+        "icon": "mutantmonsters:hulk_hammer",
+        "position": [
+          0.5,
+          3.0
+        ],
+        "parents": [],
+        "subtitle": "Zombie",
+        "description": [
+          "Defeat a mutant zombie and survive the entire encounter."
+        ],
+        "tasks": [
+          [
+            "kill",
+            "mutantmonsters:mutant_zombie",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "zombie_1",
+        "title": "A Heavy Answer",
+        "icon": "mutantmonsters:hulk_hammer",
+        "position": [
+          2.9,
+          3.0
+        ],
+        "parents": [
+          "zombie_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Recover a hulk hammer from the hunt."
+        ],
+        "tasks": [
+          [
+            "item",
+            "mutantmonsters:hulk_hammer",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "skeleton_0",
+        "title": "A Storm of Arrows",
+        "icon": "mutantmonsters:hulk_hammer",
+        "position": [
+          0.0,
+          6.0
+        ],
+        "parents": [],
+        "subtitle": "Skeleton",
+        "description": [
+          "Defeat a mutant skeleton without drawing it toward another player's home."
+        ],
+        "tasks": [
+          [
+            "kill",
+            "mutantmonsters:mutant_skeleton",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "skeleton_1",
+        "title": "The Archer's Skull",
+        "icon": "mutantmonsters:mutant_skeleton_skull",
+        "position": [
+          2.4,
+          6.0
+        ],
+        "parents": [
+          "skeleton_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Recover the skull for the armour branch."
+        ],
+        "tasks": [
+          [
+            "item",
+            "mutantmonsters:mutant_skeleton_skull",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "skeleton_2",
+        "title": "Bones of the Hunt",
+        "icon": "mutantmonsters:mutant_skeleton_chestplate",
+        "position": [
+          4.8,
+          6.0
+        ],
+        "parents": [
+          "skeleton_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Assemble the mutant skeleton chestplate."
+        ],
+        "tasks": [
+          [
+            "item",
+            "mutantmonsters:mutant_skeleton_chestplate",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "skeleton_3",
+        "title": "A Complete Pursuit",
+        "icon": "mutantmonsters:mutant_skeleton_leggings",
+        "position": [
+          7.199999999999999,
+          6.0
+        ],
+        "parents": [
+          "skeleton_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Continue the set with leggings."
+        ],
+        "tasks": [
+          [
+            "item",
+            "mutantmonsters:mutant_skeleton_leggings",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "skeleton_4",
+        "title": "The Hunter's Stride",
+        "icon": "mutantmonsters:mutant_skeleton_boots",
+        "position": [
+          9.6,
+          6.0
+        ],
+        "parents": [
+          "skeleton_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Finish the armour branch with boots."
+        ],
+        "tasks": [
+          [
+            "item",
+            "mutantmonsters:mutant_skeleton_boots",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "creeper_0",
+        "title": "Keep Your Distance",
+        "icon": "mutantmonsters:hulk_hammer",
+        "position": [
+          0.5,
+          9.0
+        ],
+        "parents": [],
+        "subtitle": "Creeper",
+        "description": [
+          "Defeat a mutant creeper in an open wilderness area."
+        ],
+        "tasks": [
+          [
+            "kill",
+            "mutantmonsters:mutant_creeper",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "creeper_1",
+        "title": "A Volatile Trophy",
+        "icon": "mutantmonsters:creeper_shard",
+        "position": [
+          2.9,
+          9.0
+        ],
+        "parents": [
+          "creeper_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Recover the shard left by the encounter."
+        ],
+        "tasks": [
+          [
+            "item",
+            "mutantmonsters:creeper_shard",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "creeper_2",
+        "title": "Track the Little One",
+        "icon": "mutantmonsters:creeper_minion_tracker",
+        "position": [
+          5.3,
+          9.0
+        ],
+        "parents": [
+          "creeper_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare a tracker before keeping a creeper minion."
+        ],
+        "tasks": [
+          [
+            "item",
+            "mutantmonsters:creeper_minion_tracker",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "enderman_0",
+        "title": "The Unnatural Enderman",
+        "icon": "mutantmonsters:hulk_hammer",
+        "position": [
+          0.0,
+          12.0
+        ],
+        "parents": [],
+        "subtitle": "Enderman",
+        "description": [
+          "Defeat a mutant enderman and keep watch for its tricks."
+        ],
+        "tasks": [
+          [
+            "kill",
+            "mutantmonsters:mutant_enderman",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "enderman_1",
+        "title": "A Hand Beyond Reach",
+        "icon": "mutantmonsters:endersoul_hand",
+        "position": [
+          2.4,
+          12.0
+        ],
+        "parents": [
+          "enderman_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Recover the endersoul hand and learn its reach away from protected builds."
+        ],
+        "tasks": [
+          [
+            "item",
+            "mutantmonsters:endersoul_hand",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:ender_pearl",
+            8
+          ],
+          [
+            "minecraft:golden_apple",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      }
+    ]
+  },
+  {
+    "key": "lost_ages",
+    "title": "Fossils - The Lost Ages",
+    "group": "exploration",
+    "icon": "fossil:dinopedia",
+    "quests": [
+      {
+        "key": "excavation_0",
+        "title": "Beneath the Stone",
+        "icon": "fossil:dinopedia",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "parents": [],
+        "subtitle": "Excavation",
+        "description": [
+          "Break a fossil deposit and begin an excavation collection."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "fossil:fossil/break_fossil",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "excavation_1",
+        "title": "A Trace of Life",
+        "icon": "fossil:fossil_bio",
+        "position": [
+          2.4,
+          0.0
+        ],
+        "parents": [
+          "excavation_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Separate biological material from the dig."
+        ],
+        "tasks": [
+          [
+            "item",
+            "fossil:fossil_bio",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "excavation_2",
+        "title": "A Lost Garden",
+        "icon": "fossil:fossil_plant",
+        "position": [
+          4.8,
+          0.0
+        ],
+        "parents": [
+          "excavation_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Reserve plant fossils for the botanical branch."
+        ],
+        "tasks": [
+          [
+            "item",
+            "fossil:fossil_plant",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "excavation_3",
+        "title": "Preserved in Tar",
+        "icon": "fossil:fossil_tar",
+        "position": [
+          7.199999999999999,
+          0.0
+        ],
+        "parents": [
+          "excavation_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Recover tar-preserved material with room to escape the pit."
+        ],
+        "tasks": [
+          [
+            "item",
+            "fossil:fossil_tar",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "excavation_4",
+        "title": "The Frozen Record",
+        "icon": "fossil:dinopedia",
+        "position": [
+          9.6,
+          0.0
+        ],
+        "parents": [
+          "excavation_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Recover a specimen preserved in the cold."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "fossil:fossil/frozen_meat",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "laboratory_0",
+        "title": "Read the Past",
+        "icon": "fossil:analyzer",
+        "position": [
+          0.5,
+          3.0
+        ],
+        "parents": [],
+        "subtitle": "Laboratory",
+        "description": [
+          "Build an analyzer and keep its outputs sorted.",
+          "The laboratory machines need a small Forge Energy supply. Connect them to your workshop power before starting a batch."
+        ],
+        "tasks": [
+          [
+            "item",
+            "fossil:analyzer",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "laboratory_1",
+        "title": "The Genetic Record",
+        "icon": "fossil:dinopedia",
+        "position": [
+          2.9,
+          3.0
+        ],
+        "parents": [
+          "laboratory_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Recover usable DNA through analysis."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "fossil:fossil/dna",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "laboratory_2",
+        "title": "Life in a Vessel",
+        "icon": "fossil:culture_vat",
+        "position": [
+          5.3,
+          3.0
+        ],
+        "parents": [
+          "laboratory_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Build a culture vat in a contained laboratory."
+        ],
+        "tasks": [
+          [
+            "item",
+            "fossil:culture_vat",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "laboratory_3",
+        "title": "A Second Beginning",
+        "icon": "fossil:dinopedia",
+        "position": [
+          7.699999999999999,
+          3.0
+        ],
+        "parents": [
+          "laboratory_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Produce a dinosaur egg through the laboratory chain."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "fossil:fossil/dino_eggs",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "laboratory_4",
+        "title": "Know Your Animal",
+        "icon": "fossil:dinopedia",
+        "position": [
+          10.1,
+          3.0
+        ],
+        "parents": [
+          "laboratory_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Read the Dinopedia before hatching a creature. Prepare its food and enclosure first."
+        ],
+        "tasks": [
+          [
+            "item",
+            "fossil:dinopedia",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "laboratory_5",
+        "title": "A Reliable Food Supply",
+        "icon": "fossil:feeder",
+        "position": [
+          12.5,
+          3.0
+        ],
+        "parents": [
+          "laboratory_4"
+        ],
+        "subtitle": "",
+        "description": [
+          "Place a feeder in the enclosure and keep it stocked."
+        ],
+        "tasks": [
+          [
+            "item",
+            "fossil:feeder",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "laboratory_6",
+        "title": "Another Branch of Life",
+        "icon": "fossil:dinopedia",
+        "position": [
+          14.899999999999999,
+          3.0
+        ],
+        "parents": [
+          "laboratory_5"
+        ],
+        "subtitle": "",
+        "description": [
+          "Produce an embryo for the mammal branch."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "fossil:fossil/embryos",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "botany_0",
+        "title": "Seeds of Another Age",
+        "icon": "fossil:dinopedia",
+        "position": [
+          0.0,
+          6.0
+        ],
+        "parents": [],
+        "subtitle": "Botany",
+        "description": [
+          "Recover fossil seeds during analysis."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "fossil:fossil/fossil_seeds",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "botany_1",
+        "title": "A Living Seed",
+        "icon": "fossil:dinopedia",
+        "position": [
+          2.4,
+          6.0
+        ],
+        "parents": [
+          "botany_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Restore ancient plant material."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "fossil:fossil/restored_seeds",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "botany_2",
+        "title": "Calamites Records",
+        "icon": "fossil:fossil_sapling_calamites",
+        "position": [
+          4.8,
+          6.0
+        ],
+        "parents": [
+          "botany_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Recover the fossil sapling for the calamites branch."
+        ],
+        "tasks": [
+          [
+            "item",
+            "fossil:fossil_sapling_calamites",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "botany_3",
+        "title": "Cordaites Records",
+        "icon": "fossil:fossil_sapling_cordaites",
+        "position": [
+          7.199999999999999,
+          6.0
+        ],
+        "parents": [
+          "botany_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Recover another ancient tree specimen."
+        ],
+        "tasks": [
+          [
+            "item",
+            "fossil:fossil_sapling_cordaites",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "botany_4",
+        "title": "A Prehistoric Palm",
+        "icon": "fossil:fossil_sapling_palm",
+        "position": [
+          9.6,
+          6.0
+        ],
+        "parents": [
+          "botany_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Add a palm specimen to the botanical collection."
+        ],
+        "tasks": [
+          [
+            "item",
+            "fossil:fossil_sapling_palm",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "archeology_0",
+        "title": "A Broken Relic",
+        "icon": "fossil:dinopedia",
+        "position": [
+          0.5,
+          9.0
+        ],
+        "parents": [],
+        "subtitle": "Archeology",
+        "description": [
+          "Find a damaged ancient weapon."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "fossil:fossil/broken_sword",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "archeology_1",
+        "title": "The Restorer's Bench",
+        "icon": "fossil:dinopedia",
+        "position": [
+          2.9,
+          9.0
+        ],
+        "parents": [
+          "archeology_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Build an archaeology worktable for damaged finds."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "fossil:fossil/worktable",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "archeology_2",
+        "title": "An Edge Restored",
+        "icon": "fossil:dinopedia",
+        "position": [
+          5.3,
+          9.0
+        ],
+        "parents": [
+          "archeology_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Restore an ancient sword."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "fossil:fossil/ancient_sword",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "archeology_3",
+        "title": "Time Unearthed",
+        "icon": "fossil:dinopedia",
+        "position": [
+          7.699999999999999,
+          9.0
+        ],
+        "parents": [
+          "archeology_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Restore an ancient clock."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "fossil:fossil/ancient_clock",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "archeology_4",
+        "title": "Stories in Stone",
+        "icon": "fossil:dinopedia",
+        "position": [
+          10.1,
+          9.0
+        ],
+        "parents": [
+          "archeology_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Recover a stone tablet for your museum."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "fossil:fossil/stone_tablet",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "archeology_5",
+        "title": "Figures from the Past",
+        "icon": "fossil:dinopedia",
+        "position": [
+          12.5,
+          9.0
+        ],
+        "parents": [
+          "archeology_4"
+        ],
+        "subtitle": "",
+        "description": [
+          "Begin a collection of ancient figurines."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "fossil:fossil/figurines",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "expedition_0",
+        "title": "The Scarab's Gleam",
+        "icon": "fossil:dinopedia",
+        "position": [
+          0.0,
+          12.0
+        ],
+        "parents": [],
+        "subtitle": "Expedition",
+        "description": [
+          "Find a scarab gem before preparing the final expedition."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "fossil:fossil/scarab_gem",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "expedition_1",
+        "title": "Guardian of the Relic",
+        "icon": "fossil:dinopedia",
+        "position": [
+          2.4,
+          12.0
+        ],
+        "parents": [
+          "expedition_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Face the Anubite and recover the path forward."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "fossil:fossil/anubite",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "expedition_2",
+        "title": "A Door to the Past",
+        "icon": "fossil:ancient_key",
+        "position": [
+          4.8,
+          12.0
+        ],
+        "parents": [
+          "expedition_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Recover the ancient key."
+        ],
+        "tasks": [
+          [
+            "item",
+            "fossil:ancient_key",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "expedition_3",
+        "title": "Beyond the Ancient Door",
+        "icon": "fossil:dinopedia",
+        "position": [
+          7.199999999999999,
+          12.0
+        ],
+        "parents": [
+          "expedition_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Reach Anu's lair with your equipment repaired and supplies ready."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "fossil:fossil/anu_lair",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "expedition_4",
+        "title": "The End of an Age",
+        "icon": "fossil:dinopedia",
+        "position": [
+          9.6,
+          12.0
+        ],
+        "parents": [
+          "expedition_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Defeat Anu and bring the story home."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "fossil:fossil/kill_anu",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:netherite_ingot",
+            1
+          ],
+          [
+            "minecraft:golden_carrot",
+            32
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "collection_0",
+        "title": "The Egg Archive",
+        "icon": "fossil:dinopedia",
+        "position": [
+          0.5,
+          15.0
+        ],
+        "parents": [],
+        "subtitle": "Collection",
+        "description": [
+          "Complete the egg collection recorded by the Dinopedia's advancements."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "fossil:fossil/all_eggs",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "collection_1",
+        "title": "The Mammalian Record",
+        "icon": "fossil:dinopedia",
+        "position": [
+          2.9,
+          15.0
+        ],
+        "parents": [
+          "collection_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Complete the embryo collection. A collection does not require keeping every creature loaded at once."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "fossil:fossil/all_embryos",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      }
+    ]
+  },
+  {
+    "key": "relic_craft",
+    "title": "More Artifacts - The Relic Workshop",
+    "group": "magic",
+    "icon": "moreartifacts:ankh_shield",
+    "quests": [
+      {
+        "key": "wards_0",
+        "title": "A Small Safeguard",
+        "icon": "moreartifacts:bezoar",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "parents": [],
+        "subtitle": "Wards",
+        "description": [
+          "Recover a bezoar and inspect its protection before choosing your accessory slots."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:bezoar",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "wards_1",
+        "title": "A Steady Constitution",
+        "icon": "moreartifacts:vitamins",
+        "position": [
+          2.4,
+          0.0
+        ],
+        "parents": [
+          "wards_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Add vitamins to the collection of protective relics."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:vitamins",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "wards_2",
+        "title": "Cleanse the Affliction",
+        "icon": "moreartifacts:purification_charm",
+        "position": [
+          4.8,
+          0.0
+        ],
+        "parents": [
+          "wards_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Combine the appropriate relics into a purification charm."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:purification_charm",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "wards_3",
+        "title": "The Ankh Pattern",
+        "icon": "moreartifacts:ankh_charm",
+        "position": [
+          7.199999999999999,
+          0.0
+        ],
+        "parents": [
+          "wards_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Complete the charm's component branches before assembling it."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:ankh_charm",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "wards_4",
+        "title": "The Complete Ward",
+        "icon": "moreartifacts:ankh_shield",
+        "position": [
+          9.6,
+          0.0
+        ],
+        "parents": [
+          "wards_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Unite the ankh charm and shield branches."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:ankh_shield",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:netherite_scrap",
+            2
+          ],
+          [
+            "minecraft:golden_apple",
+            4
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "shield_0",
+        "title": "Stand Your Ground",
+        "icon": "moreartifacts:cobalt_shield",
+        "position": [
+          0.5,
+          3.0
+        ],
+        "parents": [],
+        "subtitle": "Shield",
+        "description": [
+          "Recover a cobalt shield as the foundation of the defensive branch."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:cobalt_shield",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "shield_1",
+        "title": "A Darkened Skull",
+        "icon": "moreartifacts:obsidian_skull",
+        "position": [
+          2.9,
+          3.0
+        ],
+        "parents": [
+          "shield_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare an obsidian skull for the next combination."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:obsidian_skull",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "shield_2",
+        "title": "A Reinforced Guard",
+        "icon": "moreartifacts:obsidian_shield",
+        "position": [
+          5.3,
+          3.0
+        ],
+        "parents": [
+          "shield_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Combine the shield and skull into the obsidian shield."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:obsidian_shield",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "shield_3",
+        "title": "A Hero's Guard",
+        "icon": "moreartifacts:hero_shield",
+        "position": [
+          7.699999999999999,
+          3.0
+        ],
+        "parents": [
+          "shield_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Finish the hero shield branch."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:hero_shield",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "senses_0",
+        "title": "A Clearer View",
+        "icon": "moreartifacts:sunglasses",
+        "position": [
+          0.0,
+          6.0
+        ],
+        "parents": [],
+        "subtitle": "Senses",
+        "description": [
+          "Recover sunglasses for the sensory protection branch."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:sunglasses",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "senses_1",
+        "title": "An Echoing Lens",
+        "icon": "moreartifacts:sculk_lens",
+        "position": [
+          2.4,
+          6.0
+        ],
+        "parents": [
+          "senses_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Find the sculk lens and study its effect."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:sculk_lens",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "senses_2",
+        "title": "Shades of the Deep",
+        "icon": "moreartifacts:sculk_shades",
+        "position": [
+          4.8,
+          6.0
+        ],
+        "parents": [
+          "senses_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Combine the sensory relics into sculk shades."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:sculk_shades",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "senses_3",
+        "title": "A Weightless Heart",
+        "icon": "moreartifacts:shulker_heart",
+        "position": [
+          7.199999999999999,
+          6.0
+        ],
+        "parents": [
+          "senses_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Recover a shulker heart from your travels."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:shulker_heart",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "senses_4",
+        "title": "A Quickened Clock",
+        "icon": "moreartifacts:fast_clock",
+        "position": [
+          9.6,
+          6.0
+        ],
+        "parents": [
+          "senses_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Find the clock required by this branch."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:fast_clock",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "senses_5",
+        "title": "A Stranger Timepiece",
+        "icon": "moreartifacts:shulked_clock",
+        "position": [
+          12.0,
+          6.0
+        ],
+        "parents": [
+          "senses_4"
+        ],
+        "subtitle": "",
+        "description": [
+          "Combine the clock and heart into a shulked clock."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:shulked_clock",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "combat_0",
+        "title": "The Mechanist's Grip",
+        "icon": "moreartifacts:mechanical_glove",
+        "position": [
+          0.5,
+          9.0
+        ],
+        "parents": [],
+        "subtitle": "Combat",
+        "description": [
+          "Build a mechanical glove and choose how it fits your combat equipment."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:mechanical_glove",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "combat_1",
+        "title": "A Dragon's Claw",
+        "icon": "moreartifacts:ender_dragon_claw",
+        "position": [
+          2.9,
+          9.0
+        ],
+        "parents": [
+          "combat_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Recover the dragon claw for the next combination."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:ender_dragon_claw",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "combat_2",
+        "title": "A Sharper Machine",
+        "icon": "moreartifacts:mechanical_claw",
+        "position": [
+          5.3,
+          9.0
+        ],
+        "parents": [
+          "combat_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Complete the mechanical claw."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:mechanical_claw",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "combat_3",
+        "title": "An Echoing Grip",
+        "icon": "moreartifacts:echo_glove",
+        "position": [
+          7.699999999999999,
+          9.0
+        ],
+        "parents": [
+          "combat_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Finish the echo glove branch."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:echo_glove",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "quiver_0",
+        "title": "An Archer's Relic",
+        "icon": "moreartifacts:magic_quiver",
+        "position": [
+          0.0,
+          12.0
+        ],
+        "parents": [],
+        "subtitle": "Quiver",
+        "description": [
+          "Prepare a magic quiver for a ranged equipment set."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:magic_quiver",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "quiver_1",
+        "title": "Poisoned Precision",
+        "icon": "moreartifacts:envenomed_quiver",
+        "position": [
+          2.4,
+          12.0
+        ],
+        "parents": [
+          "quiver_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Advance into the venomous quiver branch."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:envenomed_quiver",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "quiver_2",
+        "title": "Arrows of the Forge",
+        "icon": "moreartifacts:molten_quiver",
+        "position": [
+          4.8,
+          12.0
+        ],
+        "parents": [
+          "quiver_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Complete a molten quiver as an alternative ranged specialisation."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:molten_quiver",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "travel_0",
+        "title": "A Lighter Step",
+        "icon": "moreartifacts:balloon",
+        "position": [
+          0.5,
+          15.0
+        ],
+        "parents": [],
+        "subtitle": "Travel",
+        "description": [
+          "Recover a balloon for movement-focused equipment."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:balloon",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "travel_1",
+        "title": "Above the Obstacles",
+        "icon": "moreartifacts:high_jumpers",
+        "position": [
+          2.9,
+          15.0
+        ],
+        "parents": [
+          "travel_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare high jumpers for exploration."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:high_jumpers",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "travel_2",
+        "title": "Across the Dunes",
+        "icon": "moreartifacts:dune_treads",
+        "position": [
+          5.3,
+          15.0
+        ],
+        "parents": [
+          "travel_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Build dune treads for the travel branch."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:dune_treads",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "travel_3",
+        "title": "A Heated Path",
+        "icon": "moreartifacts:blazing_treads",
+        "position": [
+          7.699999999999999,
+          15.0
+        ],
+        "parents": [
+          "travel_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Advance into blazing treads."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:blazing_treads",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "travel_4",
+        "title": "An Ender Road",
+        "icon": "moreartifacts:enderian_treads",
+        "position": [
+          10.1,
+          15.0
+        ],
+        "parents": [
+          "travel_3"
+        ],
+        "subtitle": "",
+        "description": [
+          "Complete enderian treads."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:enderian_treads",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "travel_5",
+        "title": "The Wanderer's Mantle",
+        "icon": "moreartifacts:natures_mantle",
+        "position": [
+          12.5,
+          15.0
+        ],
+        "parents": [
+          "travel_4"
+        ],
+        "subtitle": "",
+        "description": [
+          "Finish a nature's mantle for your exploration collection."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:natures_mantle",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "scarf_0",
+        "title": "An Ender Warding",
+        "icon": "moreartifacts:enderian_scarf",
+        "position": [
+          0.0,
+          18.0
+        ],
+        "parents": [],
+        "subtitle": "Scarf",
+        "description": [
+          "Recover an enderian scarf before pursuing its stronger forms."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:enderian_scarf",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "scarf_1",
+        "title": "A Truer Pattern",
+        "icon": "moreartifacts:true_enderian_scarf",
+        "position": [
+          2.4,
+          18.0
+        ],
+        "parents": [
+          "scarf_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Complete the true enderian scarf."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:true_enderian_scarf",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "scarf_2",
+        "title": "A Golden Finish",
+        "icon": "moreartifacts:gilded_scarf",
+        "position": [
+          4.8,
+          18.0
+        ],
+        "parents": [
+          "scarf_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Finish the gilded scarf branch."
+        ],
+        "tasks": [
+          [
+            "item",
+            "moreartifacts:gilded_scarf",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      }
+    ]
+  },
+  {
+    "key": "dragon_riders",
+    "title": "Dragon Mounts - A Bond in the Sky",
+    "group": "exploration",
+    "icon": "dragonmounts:dragon_egg",
+    "quests": [
+      {
+        "key": "preparation_0",
+        "title": "Food for a Friend",
+        "icon": "minecraft:cod",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "parents": [],
+        "subtitle": "Preparation",
+        "description": [
+          "Prepare fish before approaching a young dragon."
+        ],
+        "tasks": [
+          [
+            "item",
+            "minecraft:cod",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:golden_carrot",
+            8
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "preparation_1",
+        "title": "A Safe Enclosure",
+        "icon": "minecraft:lead",
+        "position": [
+          2.4,
+          0.0
+        ],
+        "parents": [
+          "preparation_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare a lead and a roomy enclosure away from busy machines."
+        ],
+        "tasks": [
+          [
+            "item",
+            "minecraft:lead",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "preparation_2",
+        "title": "A Rider's Equipment",
+        "icon": "minecraft:saddle",
+        "position": [
+          4.8,
+          0.0
+        ],
+        "parents": [
+          "preparation_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Prepare a saddle before your companion is ready to carry you."
+        ],
+        "tasks": [
+          [
+            "item",
+            "minecraft:saddle",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:diamond",
+            2
+          ]
+        ],
+        "shape": "hexagon"
+      },
+      {
+        "key": "bond_0",
+        "title": "An Unhatched Promise",
+        "icon": "dragonmounts:dragon_egg",
+        "position": [
+          0.5,
+          3.0
+        ],
+        "parents": [],
+        "subtitle": "Bond",
+        "description": [
+          "Recover a dragon egg and choose a safe place to hatch it. Its surroundings can shape the breed."
+        ],
+        "tasks": [
+          [
+            "item",
+            "dragonmounts:dragon_egg",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:iron_ingot",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "bond_1",
+        "title": "Earn Its Trust",
+        "icon": "dragonmounts:dragon_egg",
+        "position": [
+          2.9,
+          3.0
+        ],
+        "parents": [
+          "bond_0"
+        ],
+        "subtitle": "",
+        "description": [
+          "Tame a Dragon Mounts dragon yourself."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "wombatcraft:dragons/bond",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:torch",
+            32
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "bond_2",
+        "title": "The First Ride",
+        "icon": "dragonmounts:dragon_egg",
+        "position": [
+          5.3,
+          3.0
+        ],
+        "parents": [
+          "bond_1"
+        ],
+        "subtitle": "",
+        "description": [
+          "Mount a Dragon Mounts dragon."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "wombatcraft:dragons/rider",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:leather",
+            4
+          ]
+        ],
+        "shape": "circle"
+      },
+      {
+        "key": "bond_3",
+        "title": "Above the Clouds",
+        "icon": "dragonmounts:dragon_egg",
+        "position": [
+          7.699999999999999,
+          3.0
+        ],
+        "parents": [
+          "bond_2"
+        ],
+        "subtitle": "",
+        "description": [
+          "Ride your dragon above Y150. Choose clear skies and keep a safe landing in sight."
+        ],
+        "tasks": [
+          [
+            "advancement",
+            "wombatcraft:dragons/high_flight",
+            1
+          ]
+        ],
+        "rewards": [
+          [
+            "minecraft:lead",
+            4
+          ],
+          [
+            "minecraft:name_tag",
+            2
+          ],
+          [
+            "minecraft:cod",
+            32
+          ]
+        ],
+        "shape": "hexagon"
+      }
+    ]
+  }
+]

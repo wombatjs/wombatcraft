@@ -57,6 +57,8 @@ public final class SmpNetwork {
                         if(claim==null||claim.getTimeClaimed()!=r.revision||!territory(p).equals(r.territory))throw new IllegalStateException("Claim changed; refresh the territory page");
                         ClaimHooks.setPreset(p,r.target);
                     }
+                    case "deliver" -> {ContractService.get(p.server).deliver(p,r.target,r.revision);message="Delivery recorded. Earnings are ready at the contract desk.";}
+                    case "collect" -> {ContractService.get(p.server).collect(p);message="Coins collected.";}
                     case "vote" -> {
                         if(!WombatcraftSmp.ELECTIONS.get())throw new IllegalStateException("Voting is not open yet");
                         if(!atSpawn(p))throw new IllegalStateException("Visit the town hall at spawn to vote");
@@ -70,12 +72,13 @@ public final class SmpNetwork {
             view(p,Math.max(0,Math.min(63,r.page)),message,r.session);
         });ctx.setPacketHandled(true);
     }
-    static boolean atSpawn(ServerPlayer p){return Factions.owner(p.level(),p.blockPosition()).map(t->t.getId().toString().equals("2de87e97-dce4-41d0-b02d-c24a395997a1")).orElse(false);}
+    static boolean atSpawn(ServerPlayer p){return Factions.owner(p.level(),p.blockPosition()).map(t->t.getId().toString().equals(WombatcraftSmp.SPAWN_TEAM.get())).orElse(false);}
     static void view(ServerPlayer p,int page,String message){
         view(p,page,message,0);
     }
-    static void view(ServerPlayer p,int page,String message,long session){
-        JsonObject out=new JsonObject();out.addProperty("message",message);out.addProperty("at_spawn",atSpawn(p));out.addProperty("page",page);
+    static void view(ServerPlayer p,int page,String message,long session){view(p,page,message,session,-1);}
+    static void view(ServerPlayer p,int page,String message,long session,int openTab){
+        JsonObject out=new JsonObject();if(openTab>=0)out.addProperty("open_tab",openTab);out.addProperty("message",message);out.addProperty("at_spawn",atSpawn(p));out.addProperty("page",page);
         Optional<Team> found=Factions.playerTeam(p);JsonArray members=new JsonArray();
         if(found.isPresent()){
             Team team=found.get();out.addProperty("name",limit(team.getName().getString(),64));out.addProperty("role",Factions.role(team,p.getUUID()).name());
@@ -96,9 +99,15 @@ public final class SmpNetwork {
         out.addProperty("elections_open",WombatcraftSmp.ELECTIONS.get());
         if(WombatcraftSmp.ELECTIONS.get()){
             var civic=CivicState.get(p.server);civic.advance();var e=civic.election;
-            out.addProperty("mayor",e.mayor());out.addProperty("term",e.term());out.addProperty("election_at",e.nextElection());
-            out.addProperty("vote",e.snapshot().votes().getOrDefault(p.getUUID(),""));
+            out.addProperty("mayor",e.mayor());out.addProperty("term",e.revision());out.addProperty("election_at",e.nextElection());
+            out.addProperty("vote",e.voteOf(p.getUUID()));
+            out.addProperty("phase",e.phase().name());out.addProperty("phase_at",e.nextPhase());
+            out.addProperty("mayor_name",CandidateCatalog.ALL.get(e.mayor()).get("name").getAsString());
+            JsonArray candidates=new JsonArray();e.eligible().forEach(id->candidates.add(CandidateCatalog.ALL.get(id).deepCopy()));out.add("candidates",candidates);
         }
+        out.addProperty("contracts_open",WombatcraftSmp.CONTRACTS.get());
+        if(WombatcraftSmp.CONTRACTS.get())try {out.add("contracts",ContractService.get(p.server).view(p,page));}
+        catch(Exception e){WombatcraftSmp.LOGGER.error("Contract view failed",e);out.addProperty("contracts_open",false);out.addProperty("message","The contract desk is unavailable while its records are checked.");}
         CHANNEL.send(PacketDistributor.PLAYER.with(()->p),new View(out.toString(),session));
     }
     private static String territory(ServerPlayer p){return p.level().dimension().location()+"/"+p.chunkPosition().x+"/"+p.chunkPosition().z;}
