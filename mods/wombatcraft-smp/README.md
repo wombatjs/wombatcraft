@@ -1,6 +1,6 @@
-# Wombatcraft Communities (staging)
+# Wombatcraft Communities
 
-Forge 1.20.1 companion module. It is intentionally absent from the production pack manifest.
+Forge 1.20.1 companion module, packaged into both client and server release overrides.
 
 `gradlew.bat test build` builds a reobfuscated Forge jar and runs the rule tests. Java 17 is required. The wrapper comes from the Forge 47.4.28 MDK. The build pins the currently installed FTB API versions.
 
@@ -13,8 +13,8 @@ Features enabled in the private test server:
 - Immutable arena dimension terrain guards at both world and direct chunk block setters.
 - `/wcsmp audit` checks scoped arena editing and terrain protection on the disposable test server.
 
-Implemented but not activated: election persistence and ballots; contract reservation rules and content catalog; duel/exit/logout rule state machines. These do not yet constitute complete economy or combat-log integrations. In particular, no player inventory is moved into a logout body by this version.
+The release also includes two-stage elections, 50 candidates, mayor policies, spawn residents, durable contract deliveries/payouts, and first-join tutorial arrivals. See the civic and tutorial guides in `../../docs` for commands.
 
-Default server configuration is disabled. `chunkPolicies` and `elections` have independent gates. Do not enable elections before implementing and verifying policy effects. Do not publish the jar as a complete faction/arena release.
+Pack defaults enable the community UI, elections, contracts and TPA guard. Per-chunk policy replacement remains disabled pending two-player acceptance. Duel/exit/logout state machines do not yet have complete gameplay adapters: no player inventory is moved into a logout body, and arena duels are unavailable.
 
 See `../../docs/SMP-IMPLEMENTATION.md` for the acceptance matrix and remaining work.

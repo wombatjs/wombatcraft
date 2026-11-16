@@ -126,6 +126,12 @@ final class TutorialSpawn {
             level.setBlockAndUpdate(floor.above(2),net.minecraft.world.level.block.Blocks.AIR.defaultBlockState());
             s.dimension="minecraft:overworld";s.x=0.5;s.y=251;s.z=0.5;s.yaw=45;s.pitch=0;
             var newcomer=net.minecraftforge.common.util.FakePlayerFactory.get(level,new com.mojang.authlib.GameProfile(UUID.randomUUID(),"TutorialNewQA"));
+            // Forge's FakePlayer handler deliberately makes teleport a no-op. Use the real
+            // movement handler with an outbound packet sink for this server-only fixture.
+            newcomer.connection=new net.minecraft.server.network.ServerGamePacketListenerImpl(server,new net.minecraft.network.Connection(net.minecraft.network.protocol.PacketFlow.SERVERBOUND),newcomer){
+                @Override public void send(net.minecraft.network.protocol.Packet<?> packet){}
+                @Override public void send(net.minecraft.network.protocol.Packet<?> packet,net.minecraft.network.PacketSendListener listener){}
+            };
             newcomer.setPos(5,251,5);joined(new PlayerEvent.PlayerLoggedInEvent(newcomer));
             if(newcomer.position().distanceToSqr(new Vec3(s.x,s.y,s.z))>0.001)throw new IllegalStateException("New player did not arrive at tutorial");
             newcomer.setPos(5,251,5);joined(new PlayerEvent.PlayerLoggedInEvent(newcomer));
@@ -135,6 +141,8 @@ final class TutorialSpawn {
             level.setBlockAndUpdate(floor.above(),net.minecraft.world.level.block.Blocks.STONE.defaultBlockState());
             if(travel(newcomer,s)||newcomer.getX()!=5)throw new IllegalStateException("Unsafe landing was accepted");
             WombatcraftSmp.LOGGER.info("TUTORIAL_AUDIT_PASS: first arrival, returning account, persistence and obstructed landing");return 1;
+        }catch(RuntimeException ex){
+            WombatcraftSmp.LOGGER.error("Tutorial arrival audit failed",ex);throw ex;
         }finally{
             level.setBlockAndUpdate(floor,oldFloor);level.setBlockAndUpdate(floor.above(),oldFeet);level.setBlockAndUpdate(floor.above(2),oldHead);
             s.seen.clear();s.seen.addAll(original.seen);s.dimension=original.dimension;s.x=original.x;s.y=original.y;s.z=original.z;s.yaw=original.yaw;s.pitch=original.pitch;s.setDirty();

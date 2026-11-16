@@ -22,10 +22,10 @@ public final class WombatcraftSmp {
     static final ForgeConfigSpec.ConfigValue<String> SPAWN_TEAM;
     static {
         var b=new ForgeConfigSpec.Builder();
-        ENABLED=b.comment("Staging gate. Do not enable on production before multiplayer acceptance.").define("enabled",false);
+        ENABLED=b.comment("Enable community menus, civic residents and supported integrations.").define("enabled",false);
         TPA_GUARD=b.comment("Pinned FTB Essentials 2001.2.4 acceptance guard.").define("tpaGuard",true);
         CHUNK_POLICIES=b.comment("Staging-only per-chunk faction policy integration.").define("chunkPolicies",false);
-        ELECTIONS=b.comment("Enable only after mayor policy adapters are verified.").define("elections",false);
+        ELECTIONS=b.comment("Enable two-stage elections and current mayor policies.").define("elections",false);
         CONTRACTS=b.comment("Spawn-only contract deliveries and currency collection.").define("contracts",false);
         SPAWN_TEAM=b.comment("FTB server-team UUID owning the town claim.").define("spawnTeam", "2de87e97-dce4-41d0-b02d-c24a395997a1",v->v instanceof String && ((String)v).matches("[0-9a-fA-F-]{36}"));
         SPEC=b.build();
@@ -59,7 +59,7 @@ public final class WombatcraftSmp {
         event.getDispatcher().register(Commands.literal("wcsmp").requires(s->s.hasPermission(2))
                 .then(Commands.literal("audit").executes(c->StagingAudit.run(c.getSource())))
                 .then(Commands.literal("status").executes(c->{
-                    c.getSource().sendSuccess(()->Component.literal("Wombatcraft Communities staging: "
+                    c.getSource().sendSuccess(()->Component.literal("Wombatcraft Communities: "
                             +(ENABLED.get()?"enabled":"disabled")+". Elections: "+ELECTIONS.get()+"; contracts: "+CONTRACTS.get()+". Arena duels and logout inventory handoff remain unavailable."),false);
                     return 1;
                 })));
