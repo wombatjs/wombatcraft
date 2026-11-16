@@ -1,0 +1,248 @@
+{
+  "id": "1D895CACEE75147E",
+  "filename": "wc_frontier_simply_light",
+  "title": "Light for the Workshop",
+  "group": "000BB10F5887BBEC",
+  "icon": "simplylight:lightbulb",
+  "order_index": 83,
+  "default_quest_shape": "circle",
+  "autofocus_id": "60CD53BB04D79D38",
+  "quests": [
+    {
+      "id": "60CD53BB04D79D38",
+      "title": "A brighter bench",
+      "icon": "simplylight:lightbulb",
+      "description": [
+        "Fit a light bulb above a crafting bench or machine. These lights need no fuel supply."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "612E86381CEB24DA",
+          "type": "item",
+          "item": "simplylight:lightbulb",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3F22BCF15AF1FE5B",
+          "type": "item",
+          "item": "minecraft:glass",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "19177C86DCDCF0BE",
+      "title": "Fixtures and fittings",
+      "icon": "simplylight:wall_lamp",
+      "description": [
+        "Mount fixtures on walls, floors or ceilings. Keep walkways clear and work surfaces well lit."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "60CD53BB04D79D38"
+      ],
+      "tasks": [
+        {
+          "id": "12383785F39D0C39",
+          "type": "item",
+          "item": "simplylight:wall_lamp",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7F7C10D1AFAC6D9C",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "611B94056B7DF457",
+      "title": "Recessed lighting",
+      "icon": "simplylight:illuminant_panel",
+      "description": [
+        "Panels and slabs make neat inset lighting. Place a sample first to settle on the orientation."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "60CD53BB04D79D38"
+      ],
+      "tasks": [
+        {
+          "id": "677A25685C81AAD2",
+          "type": "item",
+          "item": "simplylight:illuminant_panel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "40226C553C86FCCA",
+          "type": "item",
+          "item": "minecraft:smooth_stone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "3D289FC83ABC75D8",
+      "title": "Follow the corridor",
+      "icon": "simplylight:edge_light",
+      "description": [
+        "Edge lights shape themselves around neighbouring blocks when placed. Temporary guide blocks help form a clean route."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "60CD53BB04D79D38"
+      ],
+      "tasks": [
+        {
+          "id": "26BAECE6D014C54B",
+          "type": "item",
+          "item": "simplylight:edge_light",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "56A80A789BD8F1DA",
+          "type": "item",
+          "item": "minecraft:glass",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "607443A6AE701365",
+      "title": "A low-profile glow",
+      "icon": "simplylight:illuminant_slab",
+      "description": [
+        "Fit luminous slabs into a floor or ceiling. Pair them with ordinary building materials to mark a safe route."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "19177C86DCDCF0BE"
+      ],
+      "tasks": [
+        {
+          "id": "17C7C40A6EFE70CF",
+          "type": "item",
+          "item": "simplylight:illuminant_slab",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DD1610EFF70CD11",
+          "type": "item",
+          "item": "minecraft:stone_slab",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "7732A5CECD14CC36",
+      "title": "Switchable lighting",
+      "icon": "simplylight:illuminant_block",
+      "description": [
+        "Try a redstone-controlled light block. The inverted version turns off when powered."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "611B94056B7DF457"
+      ],
+      "tasks": [
+        {
+          "id": "328652FF16995A3B",
+          "type": "item",
+          "item": "simplylight:illuminant_block",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6163BA283B0F5AA7",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "7BEB633575746489",
+      "title": "Finishing touches",
+      "icon": "simplylight:rodlamp",
+      "description": [
+        "Use rods to mark entrances, workstations and stairwells. A consistent lighting scheme makes a busy factory easier to navigate."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "3D289FC83ABC75D8"
+      ],
+      "tasks": [
+        {
+          "id": "10A74E87B243CEA3",
+          "type": "item",
+          "item": "simplylight:rodlamp",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2E69E467350905E3",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 8
+        }
+      ]
+    }
+  ]
+}

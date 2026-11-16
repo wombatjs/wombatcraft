@@ -1,0 +1,12 @@
+[General]
+beginnerTooltips = true
+blockOnlyNaturalSpawns = true
+blockVillageSieges = true
+megaTorchRadius = 32
+dreadLampRadius = 32
+feralFlareRadius = 8
+feralFlareTickRate = 20
+# Automatic invisible-light placement cannot be attributed to a player claim.
+feralFlareLanternLightCountHardcap = 0
+logSpawnChecks = false
+aggressiveSpawnChecks = false

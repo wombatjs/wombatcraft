@@ -4,7 +4,7 @@ A shared frontier of industry, spellcraft, exploration and settlement for Minecr
 
 ## Development status
 
-The pack contains 331 pinned upstream mod files and 3,007 quests across 100 chapters, plus Wombatcraft's generated compatibility and community modules. The quest book includes workshop projects, boss hunts, planetary landings, supernatural progression and archaeology. Automated release validation boots a Forge world and checks quest IDs, item references, endgame recipes and server commands, then repeats the check after a clean restart.
+The pack contains 342 pinned upstream mod files and 3,077 quests across 111 chapters, plus Wombatcraft's generated compatibility and community modules. The quest book includes workshop projects, boss hunts, planetary landings, supernatural progression and archaeology. Automated release validation boots a Forge world and checks quest IDs, item references, endgame recipes and server commands, then repeats the check after a clean restart.
 
 The public server is `74.208.117.88:25565`, hosted in Pterodactyl through the existing proxy. Download the Windows launcher from [Releases](https://github.com/wombatjs/wombatcraft/releases/latest).
 
@@ -29,6 +29,8 @@ Easy NPC provides configurable residents. Staff set the first-visit tutorial ent
 Staff can use `/spark` for profiling and `/pp` for PrismProtect block history and rollback. The Moderator rank grants chat moderation. Assign it through FTB Ranks when a staff member needs it.
 
 See the [Discord Rich Presence setup](discord/README.md) for the launcher and Minecraft activity cards and their artwork.
+
+Everyday utilities, lootable gravestones and the expanded vanilla market are documented in [Utility and market update](docs/UTILITY-MARKET.md).
 
 ## Release contract
 

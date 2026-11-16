@@ -1,0 +1,174 @@
+{
+  "id": "6304726EF003AFD1",
+  "filename": "wc_frontier_tool_belt",
+  "title": "A Place for Every Tool",
+  "group": "000BB10F5887BBEC",
+  "icon": "toolbelt:belt",
+  "order_index": 80,
+  "default_quest_shape": "circle",
+  "autofocus_id": "0369FF9F5D20D5DB",
+  "quests": [
+    {
+      "id": "0369FF9F5D20D5DB",
+      "title": "Wear your toolkit",
+      "icon": "toolbelt:belt",
+      "description": [
+        "A Tool Belt keeps tools together without filling your hotbar. Start with the tools you reach for most often."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0063980B2DB4FA1F",
+          "type": "item",
+          "item": "toolbelt:belt",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "676D554A3753572D",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "094CD66C5792C04E",
+      "title": "Draw the right tool",
+      "icon": "toolbelt:belt",
+      "description": [
+        "Use Alt+R to open the tool wheel. Add a pickaxe and a wrench, then practise switching between them. Change the shortcut if you prefer."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "0369FF9F5D20D5DB"
+      ],
+      "tasks": [
+        {
+          "id": "239166AFA8F4DB4D",
+          "type": "checkmark",
+          "title": "Draw the right tool"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3ACFB6AC2756550D",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "51D808D903662BA3",
+      "title": "Room to grow",
+      "icon": "toolbelt:pouch",
+      "description": [
+        "Craft a Belt Pouch. Combine it with the belt in an anvil to add capacity; follow the next upgrade cost shown by the anvil."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "0369FF9F5D20D5DB"
+      ],
+      "tasks": [
+        {
+          "id": "02D01971251CEFFD",
+          "type": "item",
+          "item": "toolbelt:pouch",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "115362B2ED3E7D06",
+          "type": "item",
+          "item": "minecraft:string",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "7E802BAE32FC0F5D",
+      "title": "The builder’s belt",
+      "icon": "toolbelt:belt",
+      "description": [
+        "Put a building tool, measuring aid or another frequently used non-stackable item in the belt. Leave fragile or irreplaceable tools at home when heading into combat."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "0369FF9F5D20D5DB"
+      ],
+      "tasks": [
+        {
+          "id": "5E35B2E6CFF7CA58",
+          "type": "checkmark",
+          "title": "The builder’s belt"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5EDC2C12E4945F36",
+          "type": "item",
+          "item": "minecraft:scaffolding",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "51B8C120AEDA9E4B",
+      "title": "One belt, one loadout",
+      "icon": "toolbelt:belt",
+      "description": [
+        "Arrange a complete set of tools for a project. The belt and its contents are part of your carried equipment: a lootable grave is not a private vault."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "094CD66C5792C04E"
+      ],
+      "tasks": [
+        {
+          "id": "5584A913BECD989C",
+          "type": "checkmark",
+          "title": "One belt, one loadout"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7FB4021AE92CDE26",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
+        }
+      ]
+    }
+  ]
+}

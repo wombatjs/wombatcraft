@@ -1,0 +1,280 @@
+{
+  "id": "7EC11FA4491FA6E2",
+  "filename": "wc_frontier_pocket_workshop",
+  "title": "The Pocket Workshop",
+  "group": "000BB10F5887BBEC",
+  "icon": "crafting_on_a_stick:crafting_table",
+  "order_index": 79,
+  "default_quest_shape": "circle",
+  "autofocus_id": "54EADEFDC0F3BE77",
+  "quests": [
+    {
+      "id": "54EADEFDC0F3BE77",
+      "title": "A workshop on the road",
+      "icon": "crafting_on_a_stick:crafting_table",
+      "description": [
+        "Combine a crafting table and a stick. Right-click the tool to craft without placing a workstation."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "089E837B73D13671",
+          "type": "item",
+          "item": "crafting_on_a_stick:crafting_table",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F2F6005083AA03F",
+          "type": "item",
+          "item": "minecraft:oak_log",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "5274C1331FD0EF53",
+      "title": "Keep a hand free",
+      "icon": "crafting_on_a_stick:crafting_table",
+      "description": [
+        "Equip a workstation in its Curios slot. Open it with Ctrl+V, or choose your own shortcut in Controls. Use the item directly if that shortcut is already assigned."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "54EADEFDC0F3BE77"
+      ],
+      "tasks": [
+        {
+          "id": "6B6C3170029550A1",
+          "type": "checkmark",
+          "title": "Keep a hand free"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0995D9B548890C7A",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "4CBE684C86197244",
+      "title": "Cut to measure",
+      "icon": "crafting_on_a_stick:stonecutter",
+      "description": [
+        "Carry a stonecutter for stairs and slabs. Check its recipes before cutting a whole stack; some conversions save materials."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "54EADEFDC0F3BE77"
+      ],
+      "tasks": [
+        {
+          "id": "0A5B7D756D7089B4",
+          "type": "item",
+          "item": "crafting_on_a_stick:stonecutter",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1985E278E3E32380",
+          "type": "item",
+          "item": "minecraft:stone",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "26FAA1DE4E3DB3CC",
+      "title": "Repairs in the field",
+      "icon": "crafting_on_a_stick:anvil",
+      "description": [
+        "A portable anvil still uses the normal repair and experience rules. Bring spare materials before a long expedition."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "54EADEFDC0F3BE77"
+      ],
+      "tasks": [
+        {
+          "id": "7E34CEDF67D1C125",
+          "type": "item",
+          "item": "crafting_on_a_stick:anvil",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "46A399384D240DC8",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "00F1B56CB05BEEF0",
+      "title": "A clean edge",
+      "icon": "crafting_on_a_stick:grindstone",
+      "description": [
+        "Use a grindstone to remove unwanted enchantments. Check the output carefully: useful enchantments are removed too."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "5274C1331FD0EF53"
+      ],
+      "tasks": [
+        {
+          "id": "43B8E0491C443A95",
+          "type": "item",
+          "item": "crafting_on_a_stick:grindstone",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "221990C922A07E0D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1012C57B075A8A38",
+      "title": "A travelling smith",
+      "icon": "crafting_on_a_stick:smithing_table",
+      "description": [
+        "Smithing follows the normal template and ingredient requirements. The handle makes the station portable, not the upgrade free."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "4CBE684C86197244"
+      ],
+      "tasks": [
+        {
+          "id": "79B520485AF82928",
+          "type": "item",
+          "item": "crafting_on_a_stick:smithing_table",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7A0F49EF1928692E",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "038D26F9AC82D937",
+      "title": "Your company colours",
+      "icon": "crafting_on_a_stick:loom",
+      "description": [
+        "Weave a banner for your settlement. A loom on a stick lets you work while travelling between market stalls and home."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "26FAA1DE4E3DB3CC"
+      ],
+      "tasks": [
+        {
+          "id": "06B7A4F9237C9484",
+          "type": "item",
+          "item": "crafting_on_a_stick:loom",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3921C69302A3DA30",
+          "type": "item",
+          "item": "minecraft:white_wool",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "21C1E67429050432",
+      "title": "Chart the frontier",
+      "icon": "crafting_on_a_stick:cartography_table",
+      "description": [
+        "Expand or copy a vanilla map at your portable cartography table. Keep a spare chart of important routes."
+      ],
+      "subtitle": "",
+      "x": 9,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "00F1B56CB05BEEF0"
+      ],
+      "tasks": [
+        {
+          "id": "2296D75CFFFC77EA",
+          "type": "item",
+          "item": "crafting_on_a_stick:cartography_table",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DAD5258EF6874DE",
+          "type": "item",
+          "item": "minecraft:paper",
+          "count": 16
+        }
+      ]
+    }
+  ]
+}

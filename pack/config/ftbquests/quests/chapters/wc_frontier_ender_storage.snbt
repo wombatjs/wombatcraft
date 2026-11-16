@@ -1,0 +1,246 @@
+{
+  "id": "426CC2BCC1712D89",
+  "filename": "wc_frontier_ender_storage",
+  "title": "Shared Frequencies",
+  "group": "0DCB27D2C77209FB",
+  "icon": "enderstorage:ender_chest",
+  "order_index": 84,
+  "default_quest_shape": "circle",
+  "autofocus_id": "651FC0B9E48E9614",
+  "quests": [
+    {
+      "id": "651FC0B9E48E9614",
+      "title": "A distant storehouse",
+      "icon": "enderstorage:ender_chest",
+      "description": [
+        "Matching colour frequencies share an inventory. Public frequencies are shared with other players, so do not store valuables there by accident."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "02C3D792F87BF13F",
+          "type": "item",
+          "item": "enderstorage:ender_chest",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "54AD56F846027DFB",
+          "type": "item",
+          "item": "minecraft:white_dye",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "32CF6B56F88C413A",
+      "title": "Set your own frequency",
+      "icon": "enderstorage:ender_chest",
+      "description": [
+        "Change the three colour bands on a chest with dyes. Set a second chest to the same pattern and move a small test stack through it."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "651FC0B9E48E9614"
+      ],
+      "tasks": [
+        {
+          "id": "4463D7A0CE19BB65",
+          "type": "checkmark",
+          "title": "Set your own frequency"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "28EA5CBB5D42DF57",
+          "type": "item",
+          "item": "minecraft:red_dye",
+          "count": 8
+        },
+        {
+          "id": "16AFE8EC38E719B8",
+          "type": "item",
+          "item": "minecraft:blue_dye",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "167D60318C2508FC",
+      "title": "Lock before loading",
+      "icon": "enderstorage:ender_chest",
+      "description": [
+        "Use a diamond on a chest’s latch to make its frequency private to you. Confirm the ownership information before adding valuable cargo."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "651FC0B9E48E9614"
+      ],
+      "tasks": [
+        {
+          "id": "45C24ACC0A93F720",
+          "type": "checkmark",
+          "title": "Lock before loading"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7DA40BB20F73089F",
+          "type": "item",
+          "item": "minecraft:obsidian",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "5738193F4FDAF38A",
+      "title": "Supplies on the road",
+      "icon": "enderstorage:ender_pouch",
+      "description": [
+        "Link an Ender Pouch to a chest by using it on that chest. Keep food, torches and building supplies close while travelling."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "651FC0B9E48E9614"
+      ],
+      "tasks": [
+        {
+          "id": "12A5F88326C64919",
+          "type": "item",
+          "item": "enderstorage:ender_pouch",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A07760AB91A6D5D",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "3EAECF34D6AC1775",
+      "title": "A liquid connection",
+      "icon": "enderstorage:ender_tank",
+      "description": [
+        "Matching Ender Tanks share fluid storage. Use separate frequencies for different fluids and check ownership before connecting pipes."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "32CF6B56F88C413A"
+      ],
+      "tasks": [
+        {
+          "id": "5A0BF8DC4A3C9DB6",
+          "type": "item",
+          "item": "enderstorage:ender_tank",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "75C260D8F0773EF6",
+          "type": "item",
+          "item": "minecraft:bucket",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "6ADEDB9545747C63",
+      "title": "A factory handoff",
+      "icon": "enderstorage:ender_chest",
+      "description": [
+        "Connect a deliberately shared frequency to a controlled input chest. Agree on its purpose with your teammates; public channels are not protected by the chest’s surrounding claim."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "167D60318C2508FC"
+      ],
+      "tasks": [
+        {
+          "id": "7882910ED8541E4B",
+          "type": "checkmark",
+          "title": "A factory handoff"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18A0C0BAEFD60EFB",
+          "type": "item",
+          "item": "minecraft:hopper",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "56D4286517B00BE0",
+      "title": "Travel light, fight fairly",
+      "icon": "enderstorage:ender_chest",
+      "description": [
+        "Ender Pouches cannot be opened in the arena or for 90 seconds after PvP damage. Remote storage must not become a way to hide combat loot."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "5738193F4FDAF38A"
+      ],
+      "tasks": [
+        {
+          "id": "132CEFCA2219812C",
+          "type": "checkmark",
+          "title": "Travel light, fight fairly"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "25FBF589B027235F",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

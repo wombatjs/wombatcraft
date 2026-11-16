@@ -1,0 +1,174 @@
+{
+  "id": "342AED3D0FA83CE9",
+  "filename": "wc_frontier_torchmaster",
+  "title": "A Quiet Homestead",
+  "group": "000BB10F5887BBEC",
+  "icon": "torchmaster:megatorch",
+  "order_index": 82,
+  "default_quest_shape": "circle",
+  "autofocus_id": "7E4DB011DFB277B9",
+  "quests": [
+    {
+      "id": "7E4DB011DFB277B9",
+      "title": "Keep the night at bay",
+      "icon": "torchmaster:megatorch",
+      "description": [
+        "A Mega Torch suppresses natural hostile spawning within 32 blocks in each direction. It does not form a wall: wandering monsters can still approach."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "7C83838492D2AC1D",
+          "type": "item",
+          "item": "torchmaster:megatorch",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "359CB2F884DC77D4",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "39186698BB32117B",
+      "title": "Respect your neighbours",
+      "icon": "torchmaster:megatorch",
+      "description": [
+        "Keep the torch’s protected radius away from claims you cannot edit. Placement is refused when its range overlaps such land."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "7E4DB011DFB277B9"
+      ],
+      "tasks": [
+        {
+          "id": "1A1DB902557E3266",
+          "type": "checkmark",
+          "title": "Respect your neighbours"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19EE479257A00D1C",
+          "type": "item",
+          "item": "minecraft:oak_fence",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "773DA1518E78B60B",
+      "title": "Keep the farm running",
+      "icon": "torchmaster:megatorch",
+      "description": [
+        "Natural spawning and spawner-driven farms are different. Mega Torches are configured to leave normal spawner operation alone."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "7E4DB011DFB277B9"
+      ],
+      "tasks": [
+        {
+          "id": "78F6877ABF751C15",
+          "type": "checkmark",
+          "title": "Keep the farm running"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "250249A43300BBAC",
+          "type": "item",
+          "item": "minecraft:iron_bars",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "7D0B1D6C409D0DED",
+      "title": "A different kind of quiet",
+      "icon": "torchmaster:dreadlamp",
+      "description": [
+        "Dread Lamps suppress natural passive spawning. Keep them away from areas where you want animals to appear."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "7E4DB011DFB277B9"
+      ],
+      "tasks": [
+        {
+          "id": "2263C23D77258E7E",
+          "type": "item",
+          "item": "torchmaster:dreadlamp",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "55C197BA105B0920",
+          "type": "item",
+          "item": "minecraft:glowstone_dust",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "5E80867379A83382",
+      "title": "Light with intention",
+      "icon": "torchmaster:megatorch",
+      "description": [
+        "Use ordinary lamps for illumination. Feral Flare Lanterns are unavailable here because their automatic invisible lights can reach across property boundaries."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "39186698BB32117B"
+      ],
+      "tasks": [
+        {
+          "id": "5C30569E1AF3B9EC",
+          "type": "checkmark",
+          "title": "Light with intention"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "013C433F56045BF7",
+          "type": "item",
+          "item": "minecraft:lantern",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

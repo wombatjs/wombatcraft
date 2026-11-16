@@ -40,3 +40,6 @@ maxFps:90
 biomeBlendRadius:1
 particles:1
 entityDistanceScaling:0.75
+key_key.toolbelt.open:key.keyboard.r:ALT
+key_crafting_on_a_stick.key.open_curios:key.keyboard.v:CONTROL
+key_key.inventoryessentials.sort_inventory:key.keyboard.unknown

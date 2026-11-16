@@ -1,0 +1,170 @@
+{
+  "id": "3BDE6E2F2D54F910",
+  "filename": "wc_frontier_graves",
+  "title": "What Remains",
+  "group": "000BB10F5887BBEC",
+  "icon": "gravestone:gravestone",
+  "order_index": 89,
+  "default_quest_shape": "circle",
+  "autofocus_id": "7FFA49AC5EDAD101",
+  "quests": [
+    {
+      "id": "7FFA49AC5EDAD101",
+      "title": "A marker on the trail",
+      "icon": "gravestone:gravestone",
+      "description": [
+        "Outside the arena, death leaves a grave when a safe, permitted space is available. Graves are lootable by anyone who has permission to break the block at that location."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "206C3704DC7195E2",
+          "type": "checkmark",
+          "title": "A marker on the trail"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03BD4B5FABC00CA5",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "5B8295DE18B2FB76",
+      "title": "Read the record",
+      "icon": "gravestone:gravestone",
+      "description": [
+        "An obituary records the death location when a grave is attempted. Read the dimension as well as the coordinates before travelling back. You do not need to die to complete this guide."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "7FFA49AC5EDAD101"
+      ],
+      "tasks": [
+        {
+          "id": "040736450122B589",
+          "type": "checkmark",
+          "title": "Read the record"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "243C19C0DA7BB132",
+          "type": "item",
+          "item": "minecraft:compass",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "3E61FFA85AD35251",
+      "title": "Recover carefully",
+      "icon": "gravestone:gravestone",
+      "description": [
+        "Break the grave to recover its contents. Make room in your inventory first. Sneaking over a grave does not retrieve it, so claim permissions cannot be bypassed that way."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "7FFA49AC5EDAD101"
+      ],
+      "tasks": [
+        {
+          "id": "3B76319CBBC79622",
+          "type": "checkmark",
+          "title": "Recover carefully"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4CCDF6B956B263BE",
+          "type": "item",
+          "item": "minecraft:chest",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "6E2BAFBDBB6DA32D",
+      "title": "Land still has an owner",
+      "icon": "gravestone:gravestone",
+      "description": [
+        "A grave cannot overwrite protected terrain. If placement is blocked by another claim, the world border or a lack of space, items remain ordinary drops. Ask the landowner for access when necessary."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "7FFA49AC5EDAD101"
+      ],
+      "tasks": [
+        {
+          "id": "7B442F77DD46B513",
+          "type": "checkmark",
+          "title": "Land still has an owner"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3977071AD27E8252",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "0F07F9F4F5583AD0",
+      "title": "The arena keeps its stakes",
+      "icon": "gravestone:gravestone",
+      "description": [
+        "Arena deaths leave ordinary loose drops rather than graves. Whoever collects those drops keeps them. Equipment stored in carried belts and storage items is still at risk."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "5B8295DE18B2FB76"
+      ],
+      "tasks": [
+        {
+          "id": "7F38EB2EBCC2D9BD",
+          "type": "checkmark",
+          "title": "The arena keeps its stakes"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "61E4CD060AE47320",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
+        }
+      ]
+    }
+  ]
+}

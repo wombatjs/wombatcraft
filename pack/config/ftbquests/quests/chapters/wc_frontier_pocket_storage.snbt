@@ -1,0 +1,210 @@
+{
+  "id": "1AD60E9746C5DF70",
+  "filename": "wc_frontier_pocket_storage",
+  "title": "Bulk Supplies",
+  "group": "000BB10F5887BBEC",
+  "icon": "pocketstorage:psu_1",
+  "order_index": 86,
+  "default_quest_shape": "circle",
+  "autofocus_id": "52C37D66058C7EBC",
+  "quests": [
+    {
+      "id": "52C37D66058C7EBC",
+      "title": "A pocket quarry",
+      "icon": "pocketstorage:psu_1",
+      "description": [
+        "Pocket Storage holds large quantities of a limited number of item types. Start with expendable building blocks."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "169EB06A8F3E70DD",
+          "type": "item",
+          "item": "pocketstorage:psu_1",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "593266FC669C493C",
+          "type": "item",
+          "item": "minecraft:cobblestone",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "7E48D30AF5B5D767",
+      "title": "Choose what to collect",
+      "icon": "pocketstorage:psu_1",
+      "description": [
+        "Set the unit up with the materials you want it to absorb. Check its pickup and overflow behaviour before carrying valuable drops."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "52C37D66058C7EBC"
+      ],
+      "tasks": [
+        {
+          "id": "4E56A2B357040723",
+          "type": "checkmark",
+          "title": "Choose what to collect"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0FCE7659A7D73C1B",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "483A0E18B1B51C84",
+      "title": "A longer expedition",
+      "icon": "pocketstorage:psu_2",
+      "description": [
+        "Upgrade to Tier 2 for more capacity. Check the recipe output and your stored contents before completing an upgrade."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "52C37D66058C7EBC"
+      ],
+      "tasks": [
+        {
+          "id": "4F07FC8114DFB814",
+          "type": "item",
+          "item": "pocketstorage:psu_2",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "31F0FD142A11C634",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "15A27FD631BC441B",
+      "title": "Overflow is not a backup",
+      "icon": "pocketstorage:psu_1",
+      "description": [
+        "Pocket Storage can void excess matching items. Keep scarce materials out of automatic overflow paths and check the unit before a long mining session."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "52C37D66058C7EBC"
+      ],
+      "tasks": [
+        {
+          "id": "7AADC21F1ACF63CB",
+          "type": "checkmark",
+          "title": "Overflow is not a backup"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5C3B8CE60EF59963",
+          "type": "item",
+          "item": "minecraft:chest",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "75BB92DFD0AB623C",
+      "title": "Supply the project",
+      "icon": "pocketstorage:psu_3",
+      "description": [
+        "Tier 3 is a useful companion for a large building job. Keep distinct materials organised so you can see what still needs collecting."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "7E48D30AF5B5D767"
+      ],
+      "tasks": [
+        {
+          "id": "10178E85BA8FEE23",
+          "type": "item",
+          "item": "pocketstorage:psu_3",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5C5F498B9047F7BE",
+          "type": "item",
+          "item": "minecraft:glass",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "2DD444A654BE47E1",
+      "title": "The travelling warehouse",
+      "icon": "pocketstorage:psu_4",
+      "description": [
+        "Tier 4 completes the storage line. Large capacity does not protect the contents from loss or other players looting your grave."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "483A0E18B1B51C84"
+      ],
+      "tasks": [
+        {
+          "id": "162120702876FEE3",
+          "type": "item",
+          "item": "pocketstorage:psu_4",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "634EA3879C3F83EE",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ]
+    }
+  ]
+}

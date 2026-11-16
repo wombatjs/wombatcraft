@@ -1,0 +1,418 @@
+{
+  "id": "776DBA9A71429AD2",
+  "filename": "wc_frontier_mining_gadgets",
+  "title": "The Surveyor’s Laser",
+  "group": "0DCB27D2C77209FB",
+  "icon": "mininggadgets:mininggadget_simple",
+  "order_index": 88,
+  "default_quest_shape": "circle",
+  "autofocus_id": "1F7B7139BAAE87E4",
+  "quests": [
+    {
+      "id": "1F7B7139BAAE87E4",
+      "title": "A powered pick",
+      "icon": "mininggadgets:mininggadget_simple",
+      "description": [
+        "Craft a Mining Gadget and charge it in an FE-compatible charger. Mine only where you have permission."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "7C3CFFAD7FF4D9FA",
+          "type": "item",
+          "item": "mininggadgets:mininggadget_simple",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "36167CDCDBC14F1D",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "1798E31783368B89",
+      "title": "The upgrade bench",
+      "icon": "mininggadgets:modificationtable",
+      "description": [
+        "A Modification Table fits upgrade modules to your gadget. Each module changes its abilities or operating costs."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "1F7B7139BAAE87E4"
+      ],
+      "tasks": [
+        {
+          "id": "48C037FAED770BA1",
+          "type": "item",
+          "item": "mininggadgets:modificationtable",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7BFC278C713218AC",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "01F0CF6CA7A253E3",
+      "title": "A blank canvas",
+      "icon": "mininggadgets:upgrade_empty",
+      "description": [
+        "Blank Upgrade Modules are the basis for specialised upgrades. Plan a loadout rather than installing everything immediately."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "1F7B7139BAAE87E4"
+      ],
+      "tasks": [
+        {
+          "id": "78D1302A26EF6AB7",
+          "type": "item",
+          "item": "mininggadgets:upgrade_empty",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2222AF17446B63E8",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "7F7637ABDA847E30",
+      "title": "A longer shift",
+      "icon": "mininggadgets:upgrade_battery_1",
+      "description": [
+        "A battery upgrade raises capacity. It still needs charging before the extra capacity is useful."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "1F7B7139BAAE87E4"
+      ],
+      "tasks": [
+        {
+          "id": "135C3F088D256EC1",
+          "type": "item",
+          "item": "mininggadgets:upgrade_battery_1",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12A21CEE925923C7",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "1141DD7AB017DA79",
+      "title": "Three by three",
+      "icon": "mininggadgets:upgrade_size_1",
+      "description": [
+        "The 3x3 module opens wider tunnels. Larger 5x5 and 7x7 upgrades are unavailable to keep mining bursts modest on the shared server."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "1798E31783368B89"
+      ],
+      "tasks": [
+        {
+          "id": "07B10F277620117C",
+          "type": "item",
+          "item": "mininggadgets:upgrade_size_1",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3909B29B2361C8B5",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "54950337093239DD",
+      "title": "A sharper beam",
+      "icon": "mininggadgets:upgrade_efficiency_1",
+      "description": [
+        "Efficiency speeds up mining while increasing energy use. Watch battery consumption during sustained work."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "01F0CF6CA7A253E3"
+      ],
+      "tasks": [
+        {
+          "id": "6A730D95EE97B48F",
+          "type": "item",
+          "item": "mininggadgets:upgrade_efficiency_1",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DF43B2C4ACAE597",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "63A9F62A66572B21",
+      "title": "Gather the spoils",
+      "icon": "mininggadgets:upgrade_magnet",
+      "description": [
+        "The magnet upgrade gathers mined drops. Leave room in your inventory for valuable finds."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "7F7637ABDA847E30"
+      ],
+      "tasks": [
+        {
+          "id": "38854DDFA26352D6",
+          "type": "item",
+          "item": "mininggadgets:upgrade_magnet",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "176A3A787B939B40",
+          "type": "item",
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "1F53D7305AA2983E",
+      "title": "Keep only what matters",
+      "icon": "mininggadgets:upgrade_void_junk",
+      "description": [
+        "Set the junk filter carefully. Test it on common stone before including materials you cannot easily replace."
+      ],
+      "subtitle": "",
+      "x": 9,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "1141DD7AB017DA79"
+      ],
+      "tasks": [
+        {
+          "id": "772D9697E534A6AB",
+          "type": "item",
+          "item": "mininggadgets:upgrade_void_junk",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0987F51DFA30E963",
+          "type": "item",
+          "item": "minecraft:barrel",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "749B053F24C6D298",
+      "title": "Leave a lit passage",
+      "icon": "mininggadgets:upgrade_light_placer",
+      "description": [
+        "The light-placement upgrade illuminates your route where you have building permission. It cannot place lights inside protected land or the arena."
+      ],
+      "subtitle": "",
+      "x": 9,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "54950337093239DD"
+      ],
+      "tasks": [
+        {
+          "id": "1BC03B05FA5A3EB9",
+          "type": "item",
+          "item": "mininggadgets:upgrade_light_placer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "39B4B059D2C17B1B",
+          "type": "item",
+          "item": "minecraft:glowstone_dust",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "6C7CB819F7F3B9F1",
+      "title": "Tame the hazards",
+      "icon": "mininggadgets:upgrade_freezing",
+      "description": [
+        "The freezing upgrade changes nearby liquid blocks only where you can build. Treat unknown liquids cautiously and keep an escape route."
+      ],
+      "subtitle": "",
+      "x": 9,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "63A9F62A66572B21"
+      ],
+      "tasks": [
+        {
+          "id": "7A8DD3A509EA2624",
+          "type": "item",
+          "item": "mininggadgets:upgrade_freezing",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7106352E8D4F0E7C",
+          "type": "item",
+          "item": "minecraft:bucket",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "739ED1E1434F8219",
+      "title": "A richer seam",
+      "icon": "mininggadgets:upgrade_fortune_1",
+      "description": [
+        "Fortune improves suitable drops. Compare its energy cost with the value of the material you are mining."
+      ],
+      "subtitle": "",
+      "x": 12,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "1F53D7305AA2983E"
+      ],
+      "tasks": [
+        {
+          "id": "1785390D672B8FB9",
+          "type": "item",
+          "item": "mininggadgets:upgrade_fortune_1",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5B308A226AFAB024",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "30549DEEC2F815FE",
+      "title": "Bring it home whole",
+      "icon": "mininggadgets:upgrade_silk",
+      "description": [
+        "Silk Touch preserves suitable blocks. Choose it or Fortune according to your task and verify the installed upgrade settings."
+      ],
+      "subtitle": "",
+      "x": 12,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "749B053F24C6D298"
+      ],
+      "tasks": [
+        {
+          "id": "7035C9ED68F63993",
+          "type": "item",
+          "item": "mininggadgets:upgrade_silk",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2B2D10E1F86053BA",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 8
+        }
+      ]
+    }
+  ]
+}

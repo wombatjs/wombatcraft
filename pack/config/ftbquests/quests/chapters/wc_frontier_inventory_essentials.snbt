@@ -1,0 +1,170 @@
+{
+  "id": "13328CD54623ACDA",
+  "filename": "wc_frontier_inventory_essentials",
+  "title": "An Orderly Inventory",
+  "group": "000BB10F5887BBEC",
+  "icon": "minecraft:chest",
+  "order_index": 85,
+  "default_quest_shape": "circle",
+  "autofocus_id": "44552EDFB2BD8290",
+  "quests": [
+    {
+      "id": "44552EDFB2BD8290",
+      "title": "Know your pockets",
+      "icon": "minecraft:chest",
+      "description": [
+        "Inventory Essentials adds transfer shortcuts. Check its entries in Controls before changing a carefully arranged inventory."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "28492A71C83FAE74",
+          "type": "checkmark",
+          "title": "Know your pockets"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4564537A0FDC681A",
+          "type": "item",
+          "item": "minecraft:chest",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "28F12ECD62FE34BD",
+      "title": "One item at a time",
+      "icon": "minecraft:chest",
+      "description": [
+        "Use the configured single-transfer shortcut to move one item rather than a whole stack. Practise with inexpensive materials."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "44552EDFB2BD8290"
+      ],
+      "tasks": [
+        {
+          "id": "209F6BD7849C0A1B",
+          "type": "checkmark",
+          "title": "One item at a time"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3715A36FE6A4FC09",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "17EE198838CD6938",
+      "title": "Clear the cobblestone",
+      "icon": "minecraft:chest",
+      "description": [
+        "Use the all-of-type transfer shortcut to move matching stacks. Confirm which inventory is receiving the items."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "44552EDFB2BD8290"
+      ],
+      "tasks": [
+        {
+          "id": "1C7FE7583005B06C",
+          "type": "checkmark",
+          "title": "Clear the cobblestone"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "69E9940097C5FD36",
+          "type": "item",
+          "item": "minecraft:barrel",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "2DEA7D7669EB1637",
+      "title": "Sweep the slots",
+      "icon": "minecraft:chest",
+      "description": [
+        "Try transfer-on-hover with a small chest. Avoid assigning the same gesture to multiple inventory mods."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "44552EDFB2BD8290"
+      ],
+      "tasks": [
+        {
+          "id": "2E3844C897F9FA87",
+          "type": "checkmark",
+          "title": "Sweep the slots"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "41D5EC88919E70BC",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "17E4D9138135BC17",
+      "title": "Sort on your terms",
+      "icon": "minecraft:chest",
+      "description": [
+        "Inventory Essentials sorting starts unbound to avoid competing with the existing sorting controls. Assign it in Controls only if you want to use it."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "28F12ECD62FE34BD"
+      ],
+      "tasks": [
+        {
+          "id": "2A65893BF3E2C5C8",
+          "type": "checkmark",
+          "title": "Sort on your terms"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2E78561BDF2BCC85",
+          "type": "item",
+          "item": "minecraft:item_frame",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

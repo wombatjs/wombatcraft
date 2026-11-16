@@ -1,0 +1,9 @@
+enable_obituary = true
+replaceable_blocks = []
+remove_obituary = true
+only_owners_can_break = false
+spawn_ghost = false
+friendly_ghost = true
+sneak_pickup = false
+break_pickup = true
+strict_placement = false

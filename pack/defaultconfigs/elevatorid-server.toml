@@ -1,0 +1,9 @@
+[General]
+sameColor = true
+range = 64
+precisionTarget = true
+mobSpawn = false
+resetPitchNormal = false
+resetPitchDirectional = true
+useXP = false
+XPPointsAmount = 1

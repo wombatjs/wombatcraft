@@ -1,5 +1,6 @@
 """Compile the authored Trials, Forge and new side routes into FTB Quests."""
 import json
+from utility_chapters import chapters as utility_chapters
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -16,6 +17,7 @@ def add_frontier_chapters(book, uid, registry):
     source = json.loads((ROOT / "quests/frontier_chapters.json").read_text(encoding="utf-8"))
     source += json.loads((ROOT / "quests/workshop_chapters.json").read_text(encoding="utf-8"))
     source += json.loads((ROOT / "quests/supernatural_chapters.json").read_text(encoding="utf-8"))
+    source += utility_chapters()
     for order, chapter in enumerate(source, 60):
         filename = "wc_frontier_" + chapter["key"]
         quests = []

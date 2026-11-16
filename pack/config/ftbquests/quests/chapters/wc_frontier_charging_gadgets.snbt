@@ -1,0 +1,172 @@
+{
+  "id": "62E359EEB849FF2B",
+  "filename": "wc_frontier_charging_gadgets",
+  "title": "Power Before the Grid",
+  "group": "0DCB27D2C77209FB",
+  "icon": "charginggadgets:charging_station",
+  "order_index": 87,
+  "default_quest_shape": "circle",
+  "autofocus_id": "584DB1EA3E6AFA6E",
+  "quests": [
+    {
+      "id": "584DB1EA3E6AFA6E",
+      "title": "A simple charging bench",
+      "icon": "charginggadgets:charging_station",
+      "description": [
+        "The Charging Station burns ordinary furnace fuel to charge Forge Energy equipment. Start with a little fuel and one tool."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "1E1E1D083D4BD818",
+          "type": "item",
+          "item": "charginggadgets:charging_station",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17C8B8D800A09A90",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "666EB6ADED096C09",
+      "title": "Watch the meter",
+      "icon": "charginggadgets:charging_station",
+      "description": [
+        "Insert a compatible tool and confirm its energy increases. Keep enough charge for the work ahead."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "584DB1EA3E6AFA6E"
+      ],
+      "tasks": [
+        {
+          "id": "4A89117BC9F7FAD7",
+          "type": "checkmark",
+          "title": "Watch the meter"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18D2B58653BDE5D0",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "422F987B53B63ABB",
+      "title": "Fuel with a purpose",
+      "icon": "charginggadgets:charging_station",
+      "description": [
+        "The station is a convenient early charger. Gather fuel sustainably rather than assuming powered tools run for free."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "584DB1EA3E6AFA6E"
+      ],
+      "tasks": [
+        {
+          "id": "4F9AD7CCB14D3D97",
+          "type": "checkmark",
+          "title": "Fuel with a purpose"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7E31A7E7C3E071D5",
+          "type": "item",
+          "item": "minecraft:charcoal",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "1FFC3A5481099887",
+      "title": "Ready for the road",
+      "icon": "charginggadgets:charging_station",
+      "description": [
+        "Charge a gadget before departing, then pack food and spare conventional tools. A depleted battery should not strand you."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "584DB1EA3E6AFA6E"
+      ],
+      "tasks": [
+        {
+          "id": "091EF3DF7D016C44",
+          "type": "checkmark",
+          "title": "Ready for the road"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CA62E7D1341F698",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "407DA8810E4B0351",
+      "title": "Connect to industry",
+      "icon": "charginggadgets:charging_station",
+      "description": [
+        "As your workshop grows, compare this fuel-powered charger with the charging options in Mekanism, Thermal and Powah."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "666EB6ADED096C09"
+      ],
+      "tasks": [
+        {
+          "id": "54C0B07D78F58F0A",
+          "type": "checkmark",
+          "title": "Connect to industry"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "195259CE7FCC36A3",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 8
+        }
+      ]
+    }
+  ]
+}

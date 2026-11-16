@@ -1,4 +1,5 @@
 const WCTraderCache = Java.loadClass('io.github.lightman314.lightmanscurrency.common.data.types.TraderDataCache');
+const WCMarketGuard = Java.loadClass('net.wombatcraft.smp.UtilityGuard');
 const WCSpawnResidents = {
   guide: {name: 'Mara | Welcome Guide', profession: 'librarian', icon: 'minecraft:compass', entries: [
     ['minecraft:book', 'Your first steps', 'Open the quest book, gather supplies, then choose a branch. Technology, magic and exploration all meet in the Convergence.'],
@@ -84,6 +85,7 @@ ServerEvents.commandRegistry(event => {
 
 // Use Lightman's native trader menus for payments, escrow and inventory checks.
 function wcOpenMarket(player, kind) {
+  if (!WCMarketGuard.market(player)) { player.tell(Text.of('Visit the Town Market at spawn after leaving combat to trade.').yellow()); return; }
   const cache = WCTraderCache.TYPE.get(false);
   const trader = cache == null ? null : (kind === 'auctions' ? cache.getAuctionHouse() : cache.getTrader('wombatcraft_' + kind));
   if (trader == null) { player.tell(Text.of('The market is unavailable. Please tell a town administrator.').red()); return; }
@@ -108,23 +110,169 @@ function wcMarketMenu(player) {
   });
 }
 
-function wcShopCategories(player) {
+function wcShopCategories(player, page) {
+  page = page || 0;
   const categories = [
-    ['food', 'minecraft:bread', 'Food & Farming'],
-    ['building', 'minecraft:bricks', 'Building Materials'],
-    ['decor', 'minecraft:lantern', 'Decoration & Lighting'],
-    ['gear', 'minecraft:iron_pickaxe', 'Tools & Travel'],
-    ['utility', 'minecraft:redstone', 'Redstone & Utilities'],
-    ['sell', 'minecraft:emerald', 'Bulk Materials Buyback'],
-    ['valuables', 'minecraft:diamond', 'Valuables Exchange']
-  ];
-  player.openChestGUI(Text.of("Bram | Server Shop").gold(), 5, gui => {
+    [
+        "food",
+        "minecraft:bread",
+        "Food & Farming | Essentials"
+    ],
+    [
+        "building",
+        "minecraft:bricks",
+        "Stone & Earth | Essentials"
+    ],
+    [
+        "decor",
+        "minecraft:lantern",
+        "Decoration & Lighting | Essentials"
+    ],
+    [
+        "gear",
+        "minecraft:iron_pickaxe",
+        "Tools & Travel | Essentials"
+    ],
+    [
+        "utility",
+        "minecraft:redstone",
+        "Redstone & Utilities | Essentials"
+    ],
+    [
+        "supply_food_1",
+        "minecraft:bread",
+        "Food & Farming"
+    ],
+    [
+        "supply_building_1",
+        "minecraft:bricks",
+        "Stone & Earth 1"
+    ],
+    [
+        "supply_building_2",
+        "minecraft:bricks",
+        "Stone & Earth 2"
+    ],
+    [
+        "supply_decor_1",
+        "minecraft:lantern",
+        "Decoration & Lighting 1"
+    ],
+    [
+        "supply_decor_2",
+        "minecraft:lantern",
+        "Decoration & Lighting 2"
+    ],
+    [
+        "supply_gear_1",
+        "minecraft:iron_pickaxe",
+        "Tools & Travel"
+    ],
+    [
+        "supply_utility_1",
+        "minecraft:redstone",
+        "Redstone & Utilities"
+    ],
+    [
+        "supply_wood_1",
+        "minecraft:oak_log",
+        "Timber & Carpentry 1"
+    ],
+    [
+        "supply_wood_2",
+        "minecraft:oak_log",
+        "Timber & Carpentry 2"
+    ],
+    [
+        "supply_wood_3",
+        "minecraft:oak_log",
+        "Timber & Carpentry 3"
+    ],
+    [
+        "supply_colours_1",
+        "minecraft:blue_concrete",
+        "Colourful Building 1"
+    ],
+    [
+        "supply_colours_2",
+        "minecraft:blue_concrete",
+        "Colourful Building 2"
+    ],
+    [
+        "supply_colours_3",
+        "minecraft:blue_concrete",
+        "Colourful Building 3"
+    ],
+    [
+        "supply_colours_4",
+        "minecraft:blue_concrete",
+        "Colourful Building 4"
+    ],
+    [
+        "supply_plants_1",
+        "minecraft:poppy",
+        "Flowers & Gardens"
+    ],
+    [
+        "supply_materials_1",
+        "minecraft:iron_ingot",
+        "Materials & Ingredients"
+    ],
+    [
+        "supply_nether_1",
+        "minecraft:netherrack",
+        "Nether Supplies 1"
+    ],
+    [
+        "supply_nether_2",
+        "minecraft:netherrack",
+        "Nether Supplies 2"
+    ],
+    [
+        "supply_end_1",
+        "minecraft:end_stone",
+        "End Building"
+    ],
+    [
+        "supply_ocean_1",
+        "minecraft:prismarine",
+        "Ocean Supplies"
+    ],
+    [
+        "supply_equipment_1",
+        "minecraft:iron_chestplate",
+        "Equipment & Clothing"
+    ],
+    [
+        "supply_transport_1",
+        "minecraft:minecart",
+        "Boats & Minecarts"
+    ],
+    [
+        "supply_records_1",
+        "minecraft:white_banner",
+        "Signs & Banners"
+    ],
+    [
+        "sell",
+        "minecraft:emerald",
+        "Bulk Materials Buyback"
+    ],
+    [
+        "valuables",
+        "minecraft:diamond",
+        "Valuables Exchange"
+    ]
+];
+  player.openChestGUI(Text.of("Bram | Server Shop").gold(), 6, gui => {
     gui.playerSlots = false;
-    gui.slot(0, 0, 8, 4, slot => { slot.item = Item.of('minecraft:gray_stained_glass_pane').withName(Text.of(' ')); });
-    categories.forEach((category, index) => {
-      gui.button(2 + (index % 3) * 2, 1 + Math.floor(index / 3), Item.of(category[1]), Text.of(category[2]).yellow(), click => wcOpenMarket(player, category[0]));
+    gui.slot(0, 0, 8, 5, slot => { slot.item = Item.of('minecraft:gray_stained_glass_pane').withName(Text.of(' ')); });
+    categories.slice(page * 28, (page + 1) * 28).forEach((category, index) => {
+      gui.button(1 + (index % 7), 1 + Math.floor(index / 7), Item.of(category[1]), Text.of(category[2]).yellow(), click => wcOpenMarket(player, category[0]));
     });
-    gui.button(4, 4, Item.of('minecraft:arrow'), Text.of('Back to the Town Market').aqua(), click => wcMarketMenu(player));
+    if (page > 0) gui.button(1, 5, Item.of('minecraft:arrow'), Text.of('Previous categories'), click => wcShopCategories(player, page - 1));
+    if ((page + 1) * 28 < categories.length) gui.button(7, 5, Item.of('minecraft:arrow'), Text.of('More categories'), click => wcShopCategories(player, page + 1));
+    gui.button(4, 5, Item.of('minecraft:arrow'), Text.of('Back to the Town Market').aqua(), click => wcMarketMenu(player));
   });
 }
 

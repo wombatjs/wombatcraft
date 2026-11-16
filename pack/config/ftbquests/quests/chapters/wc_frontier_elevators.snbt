@@ -1,0 +1,174 @@
+{
+  "id": "244EC4BD497BC181",
+  "filename": "wc_frontier_elevators",
+  "title": "Between Floors",
+  "group": "000BB10F5887BBEC",
+  "icon": "elevatorid:elevator_white",
+  "order_index": 81,
+  "default_quest_shape": "circle",
+  "autofocus_id": "5412337BC01B6282",
+  "quests": [
+    {
+      "id": "5412337BC01B6282",
+      "title": "The first landing",
+      "icon": "elevatorid:elevator_white",
+      "description": [
+        "Craft two elevators of the same colour. Place them directly above one another with clear landing space."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "3347B0438BEC3ECC",
+          "type": "item",
+          "item": "elevatorid:elevator_white",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3F7DFB9023DA3369",
+          "type": "item",
+          "item": "minecraft:white_wool",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "69FD76F8677EB458",
+      "title": "Up and down",
+      "icon": "elevatorid:elevator_white",
+      "description": [
+        "Stand on an elevator and jump to ascend; sneak to descend. Matching floors must be within 64 blocks. The destination must already be loaded."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "5412337BC01B6282"
+      ],
+      "tasks": [
+        {
+          "id": "57A8737A3F55D322",
+          "type": "checkmark",
+          "title": "Up and down"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "34EADFE25482110E",
+          "type": "item",
+          "item": "minecraft:ladder",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "03E462355951CBCF",
+      "title": "Colour your routes",
+      "icon": "elevatorid:elevator_blue",
+      "description": [
+        "Use matching colours to separate different elevator routes in the same shaft."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "5412337BC01B6282"
+      ],
+      "tasks": [
+        {
+          "id": "019386E7504912F1",
+          "type": "item",
+          "item": "elevatorid:elevator_blue",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A2016D6AF53E83C",
+          "type": "item",
+          "item": "minecraft:blue_dye",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "1851D0BA6665CC05",
+      "title": "A safe arrival",
+      "icon": "elevatorid:elevator_white",
+      "description": [
+        "Keep feet and head space clear above each landing. Check both directions before inviting visitors to use a shaft."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "5412337BC01B6282"
+      ],
+      "tasks": [
+        {
+          "id": "29B8BDDB337F688C",
+          "type": "checkmark",
+          "title": "A safe arrival"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04D57EBB834CBA8A",
+          "type": "item",
+          "item": "minecraft:lantern",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "6EFFD49228427FCA",
+      "title": "Open to invited guests",
+      "icon": "elevatorid:elevator_white",
+      "description": [
+        "Elevators follow interaction permissions at both ends. They cannot be used in the arena or during the 90-second PvP lockout."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "69FD76F8677EB458"
+      ],
+      "tasks": [
+        {
+          "id": "1348D90DE91A139B",
+          "type": "checkmark",
+          "title": "Open to invited guests"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D682A7F0028F658",
+          "type": "item",
+          "item": "minecraft:oak_sign",
+          "count": 6
+        }
+      ]
+    }
+  ]
+}
