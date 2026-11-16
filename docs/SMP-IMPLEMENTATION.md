@@ -48,7 +48,7 @@ Pure rule tests are not gameplay acceptance. Unverified features must remain dis
 - Without WorldEdit, the private server started and the first client joined in approximately 32 seconds after clicking connect. One-player sample reported 20 TPS and 21.5 ms mean overworld tick time.
 - `/wcsmp audit` passed on the running Forge server: arena world and direct chunk setters reject edits, scoped construction works, exceptions clear the bypass, and the overworld remains editable.
 - Faction screen rendered real FTB data in multiplayer. This exposed a nonexistent fallback GUI command, replaced with FTB's own `OpenGUIMessage`. The corrected build successfully opened the native creation screen, created a party, and returned its actual ownership/member count. A chunk was claimed through FTB's map and its private-factory policy was successfully changed through the custom screen.
-- FTB's wrapper did not render the injected vanilla map button. A render/input event bridge was added; its final visual check is pending.
+- FTB's wrapper did not render the injected vanilla map button. A render/input event bridge was added and verified in-game: the button appears at the bottom right and returns to the correct territory page. The saved claim and private-factory policy also survived client reconnect.
 - Additional hardening: chunk changes bind to both claim creation time and dimension/chunk coordinates; Builder role removed on leaving a party; delayed UI replies cannot reopen closed screens; contract reservation lookup uses indexed totals rather than scanning old operations.
 
 Not yet accepted: two-player permission/TPA scenarios, full modded arena attack matrix, durable inventory/payout settlement, actual logout-body lifecycle, full duels, mayor policy adapters, populated performance and production rollout.
@@ -56,3 +56,5 @@ Not yet accepted: two-player permission/TPA scenarios, full modded arena attack 
 Two full private clients joined simultaneously, but the second subsequently crashed in native `glfw.dll` on its render thread. The JVM report recorded approximately 1.5 GiB physical memory free; this is a possible contributing factor, not a proven diagnosis. Report: `work/wombatcraft/smp/client2/hs_err_pid27012.log` in the local workspace. No completed two-player acceptance is claimed. Both identities and all test claims belong only to the disposable offline QA world.
 
 Inventory-bearing features remain release blockers. A logout body must account for Curios, backpacks, graves, soulbound rules and crash/restart recovery before activation. Contract payouts likewise require durable settlement before currency or items are granted. The existing state-machine tests do not provide these adapters.
+
+The private clients and QA server were stopped after this milestone to release memory. Source is on `smp-factions-staging`; `main` and the production release manifest are unchanged.
