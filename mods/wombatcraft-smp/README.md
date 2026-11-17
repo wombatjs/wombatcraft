@@ -2,6 +2,8 @@
 
 Forge 1.20.1 companion module, packaged into both client and server release overrides.
 
+The local build also includes Public Landing Pads for TARDIS Refined 2.1.7: empty-hand pad settings, an owner-controlled public directory below Waypoints, and server-side occupancy/reservation guards. Both sides need the updated JAR. See `../../docs/PUBLIC-LANDING-PADS.md` for use and `../../docs/VERIFICATION-PUBLIC-PADS-2026-11-17.md` for test coverage and deployment status.
+
 `gradlew.bat test build` builds a reobfuscated Forge jar and runs the rule tests. Java 17 is required. The wrapper comes from the Forge 47.4.28 MDK. The build pins the currently installed FTB API versions.
 
 Features enabled in the private test server:

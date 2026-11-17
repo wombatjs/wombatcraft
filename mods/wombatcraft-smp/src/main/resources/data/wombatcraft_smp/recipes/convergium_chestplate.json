@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "wombatcraft_smp:astralium_chestplate"
+  },
+  "addition": {
+    "item": "wombatcraft_smp:convergent_armament"
+  },
+  "result": {
+    "item": "wombatcraft_smp:convergium_chestplate"
+  }
+}

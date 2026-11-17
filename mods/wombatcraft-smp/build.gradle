@@ -18,11 +18,13 @@ minecraft {
     }
 }
 repositories {
+    maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
     mavenCentral()
     maven { url = 'https://maven.ftb.dev/releases' }
     maven { url = 'https://maven.architectury.dev' }
 }
 dependencies {
+    compileOnly fg.deobf('maven.modrinth:tardis-refined:TwZf1vY4') { transitive = false }
     minecraft 'net.minecraftforge:forge:1.20.1-47.4.28'
     compileOnly fg.deobf('dev.ftb.mods:ftb-library-forge:2001.2.13') { transitive = false }
     compileOnly fg.deobf('dev.ftb.mods:ftb-teams-forge:2001.3.2') { transitive = false }

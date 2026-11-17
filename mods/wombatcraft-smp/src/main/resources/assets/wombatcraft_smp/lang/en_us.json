@@ -8,5 +8,21 @@
   "block.wombatcraft_smp.research_terminal": "Research Terminal",
   "item.wombatcraft_smp.astralium_boots": "Astralium Boots",
   "item.wombatcraft_smp.field_projector": "Expedition Field Projector",
-  "item.wombatcraft_smp.resonant_prospector": "Resonant Prospector"
+  "item.wombatcraft_smp.resonant_prospector": "Resonant Prospector",
+  "item.wombatcraft_smp.astralium_helmet": "Astralium Helmet",
+  "item.wombatcraft_smp.astralium_chestplate": "Astralium Chestplate",
+  "item.wombatcraft_smp.astralium_leggings": "Astralium Leggings",
+  "item.wombatcraft_smp.convergium_helmet": "Convergium Helmet",
+  "item.wombatcraft_smp.convergium_chestplate": "Convergium Chestplate",
+  "item.wombatcraft_smp.convergium_leggings": "Convergium Leggings",
+  "item.wombatcraft_smp.convergium_boots": "Convergium Boots",
+  "item.wombatcraft_smp.aetherium_saber": "Aetherium Saber",
+  "item.wombatcraft_smp.astralium_blade": "Astralium Blade",
+  "item.wombatcraft_smp.convergium_greatblade": "Convergium Greatblade",
+  "item.wombatcraft_smp.convergium_longbow": "Convergium Longbow",
+  "item.wombatcraft_smp.convergium_pickaxe": "Convergium Pickaxe",
+  "item.wombatcraft_smp.convergium_axe": "Convergium Axe",
+  "item.wombatcraft_smp.convergium_shovel": "Convergium Shovel",
+  "item.wombatcraft_smp.convergence_aegis": "Convergence Aegis",
+  "item.wombatcraft_smp.convergent_armament": "Convergent Armament"
 }

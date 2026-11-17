@@ -637,7 +637,7 @@
     "stage": 7,
     "stage_title": "The Convergence",
     "branch": "convergence",
-    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, then a Matrix that keeps specialist workshops useful."
+    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, a Matrix and your endgame arsenal."
   },
   {
     "quest": "4D24674B33D16DC2",
@@ -647,7 +647,7 @@
     "stage": 7,
     "stage_title": "The Convergence",
     "branch": "convergence",
-    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, then a Matrix that keeps specialist workshops useful."
+    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, a Matrix and your endgame arsenal."
   },
   {
     "quest": "2BB745DBC0662909",
@@ -657,7 +657,7 @@
     "stage": 7,
     "stage_title": "The Convergence",
     "branch": "convergence",
-    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, then a Matrix that keeps specialist workshops useful."
+    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, a Matrix and your endgame arsenal."
   },
   {
     "quest": "0209B29F8CFB053F",
@@ -667,7 +667,7 @@
     "stage": 7,
     "stage_title": "The Convergence",
     "branch": "convergence",
-    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, then a Matrix that keeps specialist workshops useful."
+    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, a Matrix and your endgame arsenal."
   },
   {
     "quest": "0F68366FED1B407B",
@@ -677,7 +677,7 @@
     "stage": 7,
     "stage_title": "The Convergence",
     "branch": "convergence",
-    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, then a Matrix that keeps specialist workshops useful."
+    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, a Matrix and your endgame arsenal."
   },
   {
     "quest": "05742B300F1756FE",
@@ -687,7 +687,7 @@
     "stage": 7,
     "stage_title": "The Convergence",
     "branch": "convergence",
-    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, then a Matrix that keeps specialist workshops useful."
+    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, a Matrix and your endgame arsenal."
   },
   {
     "quest": "05E20ECC04CC71D2",
@@ -697,7 +697,7 @@
     "stage": 7,
     "stage_title": "The Convergence",
     "branch": "convergence",
-    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, then a Matrix that keeps specialist workshops useful."
+    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, a Matrix and your endgame arsenal."
   },
   {
     "quest": "07880F2BE7FAFE56",
@@ -707,7 +707,7 @@
     "stage": 7,
     "stage_title": "The Convergence",
     "branch": "convergence",
-    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, then a Matrix that keeps specialist workshops useful."
+    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, a Matrix and your endgame arsenal."
   },
   {
     "quest": "2CA2D542DCE4A176",
@@ -717,6 +717,36 @@
     "stage": 7,
     "stage_title": "The Convergence",
     "branch": "convergence",
-    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, then a Matrix that keeps specialist workshops useful."
+    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, a Matrix and your endgame arsenal."
+  },
+  {
+    "quest": "1C7CFBF902BD7477",
+    "title": "Give the Matrix a purpose",
+    "chapter": "wc_convergence_arsenal",
+    "chapter_title": "Convergence: The Arsenal",
+    "stage": 7,
+    "stage_title": "The Convergence",
+    "branch": "convergence",
+    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, a Matrix and your endgame arsenal."
+  },
+  {
+    "quest": "23B094B66037ECD6",
+    "title": "The Convergence Greatblade",
+    "chapter": "wc_convergence_arsenal",
+    "chapter_title": "Convergence: The Arsenal",
+    "stage": 7,
+    "stage_title": "The Convergence",
+    "branch": "convergence",
+    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, a Matrix and your endgame arsenal."
+  },
+  {
+    "quest": "45E7A13D8231B628",
+    "title": "Convergium: the final set",
+    "chapter": "wc_convergence_arsenal",
+    "chapter_title": "Convergence: The Arsenal",
+    "stage": 7,
+    "stage_title": "The Convergence",
+    "branch": "convergence",
+    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, a Matrix and your endgame arsenal."
   }
 ]

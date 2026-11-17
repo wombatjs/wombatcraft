@@ -28,7 +28,9 @@ overrides=[]
 generated={}
 smp_root=ROOT/'mods/wombatcraft-smp'
 wrapper=str(smp_root/('gradlew.bat' if os.name=='nt' else 'gradlew'))
-subprocess.run(([wrapper] if os.name=='nt' else ['bash',wrapper])+['--no-daemon','test','build'],cwd=smp_root,check=True)
+skip_tests=os.environ.get('WOMBATCRAFT_SKIP_TESTS')=='1'
+gradle_tasks=['build','-x','test'] if skip_tests else ['test','build']
+subprocess.run(([wrapper] if os.name=='nt' else ['bash',wrapper])+['--no-daemon']+gradle_tasks,cwd=smp_root,check=True)
 smp_jar=smp_root/'build/libs/wombatcraft-smp-0.1.0-staging.jar'
 if not smp_jar.is_file():raise SystemExit('Communities module was not built')
 client_defaults={'options.txt','config/oculus.properties','config/simple-rpc/simple-rpc.toml','config/simple-rpc/server-entries.toml'}

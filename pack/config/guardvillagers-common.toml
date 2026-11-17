@@ -1,0 +1,4 @@
+# Preserve Guard Villagers' other defaults. Friendly arrows should not empty the village they defend.
+["guard stuff"]
+"Allow guard arrows to damage villagers, iron golems, or other guards? The i-frames will still be shown for them but they won't lose any health if this is set to false" = false
+"Have guards patrol the village regularly?" = true

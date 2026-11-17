@@ -1,0 +1,280 @@
+{
+  "id": "19844ED4C70D8D94",
+  "filename": "wc_convergence_arsenal",
+  "title": "Convergence: The Arsenal",
+  "group": "0F095C8E4FA42163",
+  "order_index": 61,
+  "icon": "wombatcraft_smp:convergium_greatblade",
+  "quests": [
+    {
+      "id": "271A411379F89468",
+      "title": "A blade worth forging",
+      "icon": "wombatcraft_smp:aetherium_saber",
+      "x": 0,
+      "y": 0,
+      "dependencies": [],
+      "description": [
+        "12 attack damage and 2 attacks per second before enchantments. Repair with netherite. Craft from Aetherium and an Arcane Core.",
+        "Progress is personal. Trade is welcome. These tasks do not consume equipment or award duplicate gear."
+      ],
+      "tasks": [
+        {
+          "id": "3F6F99723D95E06C",
+          "type": "item",
+          "item": "wombatcraft_smp:aetherium_saber",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "530A1C70AFAEDF9B",
+      "title": "Astralium expedition armor",
+      "icon": "wombatcraft_smp:astralium_helmet",
+      "x": 5,
+      "y": 0,
+      "dependencies": [],
+      "description": [
+        "24 armor, 12 toughness and 40% knockback resistance across the full set. Full set reduces ordinary non-player damage by 15%; boots halve fall damage. Repair with Astralium. Armor-bypassing damage and player attacks are excluded from the set bonus.",
+        "Progress is personal. Trade is welcome. These tasks do not consume equipment or award duplicate gear."
+      ],
+      "tasks": [
+        {
+          "id": "57C816E86722B5CC",
+          "type": "item",
+          "item": "wombatcraft_smp:astralium_helmet",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "3BDA8D9B8789F3AB",
+          "type": "item",
+          "item": "wombatcraft_smp:astralium_chestplate",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "68363E06018B7219",
+          "type": "item",
+          "item": "wombatcraft_smp:astralium_leggings",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "74788294E989BAD5",
+          "type": "item",
+          "item": "wombatcraft_smp:astralium_boots",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6186D4A372D4F0F0",
+      "title": "The Astralium edge",
+      "icon": "wombatcraft_smp:astralium_blade",
+      "x": 10,
+      "y": 0,
+      "dependencies": [
+        "271A411379F89468"
+      ],
+      "description": [
+        "18 attack damage and 1.8 attacks per second. Upgrade an Aetherium Saber at a smithing table using an Astralium ingot and Netherite Upgrade template; enchantments, name and damage are retained. Repair with netherite.",
+        "Progress is personal. Trade is welcome. These tasks do not consume equipment or award duplicate gear."
+      ],
+      "tasks": [
+        {
+          "id": "598A09673CB9D2B1",
+          "type": "item",
+          "item": "wombatcraft_smp:astralium_blade",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1C7CFBF902BD7477",
+      "title": "Give the Matrix a purpose",
+      "icon": "wombatcraft_smp:convergent_armament",
+      "x": 0,
+      "y": 5,
+      "dependencies": [
+        "2CA2D542DCE4A176"
+      ],
+      "description": [
+        "In the Convergence Matrix, bind 8 Convergium, 2 Ancient Cores, 2 Mechanized Cores, 2 Arcane Cores, 4 Stabilized Flux and 1 Living Relic. Costs 4,000,000 FE, 400,000 mana and 60 seconds. One armament upgrades one piece. The Matrix itself requires the Convergence Core.",
+        "Progress is personal. Trade is welcome. These tasks do not consume equipment or award duplicate gear."
+      ],
+      "tasks": [
+        {
+          "id": "029EA679AB4F44D0",
+          "type": "item",
+          "item": "wombatcraft_smp:convergent_armament",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "45E7A13D8231B628",
+      "title": "Convergium: the final set",
+      "icon": "wombatcraft_smp:convergium_helmet",
+      "x": 5,
+      "y": 5,
+      "dependencies": [
+        "1C7CFBF902BD7477",
+        "530A1C70AFAEDF9B"
+      ],
+      "description": [
+        "Smith each Astralium piece with an armament and Netherite Upgrade template. Full set: 30 armor, 16 toughness, 80% knockback resistance, 35% less ordinary non-player damage and 75% less fall damage. Enchantments are retained. Repair with Convergium. Void, sacrifice and armor-bypassing damage remain dangerous; no oxygen or creative flight is granted.",
+        "Progress is personal. Trade is welcome. These tasks do not consume equipment or award duplicate gear."
+      ],
+      "tasks": [
+        {
+          "id": "3201284F686341C4",
+          "type": "item",
+          "item": "wombatcraft_smp:convergium_helmet",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "75604A8E562D3ACA",
+          "type": "item",
+          "item": "wombatcraft_smp:convergium_chestplate",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "54B0877AA57BCC57",
+          "type": "item",
+          "item": "wombatcraft_smp:convergium_leggings",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "01A35C4BDBCEFED9",
+          "type": "item",
+          "item": "wombatcraft_smp:convergium_boots",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "23B094B66037ECD6",
+      "title": "The Convergence Greatblade",
+      "icon": "wombatcraft_smp:convergium_greatblade",
+      "x": 10,
+      "y": 5,
+      "dependencies": [
+        "1C7CFBF902BD7477",
+        "6186D4A372D4F0F0"
+      ],
+      "description": [
+        "Upgrade your Astralium Blade. 32 base attack damage, 1.4 attacks per second, 4096 durability. Uses the two-handed Better Combat claymore moveset; combo hits have their normal damage multipliers. Use one Field Charge for Strength III and Speed II for 10 seconds; 30-second cooldown. Attacks use normal combat and protection rules.",
+        "Progress is personal. Trade is welcome. These tasks do not consume equipment or award duplicate gear."
+      ],
+      "tasks": [
+        {
+          "id": "02EACA61DB8B99C6",
+          "type": "item",
+          "item": "wombatcraft_smp:convergium_greatblade",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4FFC2B5AD5F13461",
+      "title": "An endgame ranged weapon",
+      "icon": "wombatcraft_smp:convergium_longbow",
+      "x": 0,
+      "y": 10,
+      "dependencies": [
+        "1C7CFBF902BD7477"
+      ],
+      "description": [
+        "Upgrade a bow with an armament and Netherite Upgrade template. Arrows have 2.5 times base damage; normal draw speed, ammunition, enchantments and friendly-fire rules apply. 3072 durability; repair with Convergium.",
+        "Progress is personal. Trade is welcome. These tasks do not consume equipment or award duplicate gear."
+      ],
+      "tasks": [
+        {
+          "id": "6C2B721F5851F754",
+          "type": "item",
+          "item": "wombatcraft_smp:convergium_longbow",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "129E78BCA5512F32",
+      "title": "An industrial toolbelt",
+      "icon": "wombatcraft_smp:convergium_pickaxe",
+      "x": 5,
+      "y": 10,
+      "dependencies": [
+        "1C7CFBF902BD7477"
+      ],
+      "description": [
+        "Upgrade netherite tools with an armament and Netherite Upgrade template. Mining speed 18, 4096 durability, enchantability 24. Retains enchantments including Fortune or Silk Touch. No area breaking: ordinary block protection and drops apply. Repair with Convergium.",
+        "Progress is personal. Trade is welcome. These tasks do not consume equipment or award duplicate gear."
+      ],
+      "tasks": [
+        {
+          "id": "164EEFC66B4632B6",
+          "type": "item",
+          "item": "wombatcraft_smp:convergium_pickaxe",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "17D174105073B167",
+          "type": "item",
+          "item": "wombatcraft_smp:convergium_axe",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "07582BF25C2C8DC8",
+          "type": "item",
+          "item": "wombatcraft_smp:convergium_shovel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "237B4A0AE931D639",
+      "title": "A second wind",
+      "icon": "wombatcraft_smp:convergence_aegis",
+      "x": 10,
+      "y": 10,
+      "dependencies": [
+        "1C7CFBF902BD7477"
+      ],
+      "description": [
+        "Combine an armament, Living Relic and Totem of Undying. Use one Field Charge for 8 absorption hearts for 20 seconds and Regeneration II for 5 seconds. 60-second cooldown shared by all copies you carry. This is an active survival tool, not an automatic resurrection totem.",
+        "Progress is personal. Trade is welcome. These tasks do not consume equipment or award duplicate gear."
+      ],
+      "tasks": [
+        {
+          "id": "72F67DC62F06DCF2",
+          "type": "item",
+          "item": "wombatcraft_smp:convergence_aegis",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

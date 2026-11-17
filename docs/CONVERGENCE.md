@@ -11,6 +11,7 @@ Convergence is Wombatcraft's pack-specific progression backbone. It uses the exi
 5. Feed flux back into industry. Accelerated recipes retain their normal yield and raw inputs, run four times faster, and consume twice the direct FE/mana plus flux. They run in different stations from their ordinary counterparts so a machine cannot choose the wrong recipe.
 6. Combine all six disciplines into Convergium. Finish the existing four advanced sigils and craft the Convergence Core without consuming a dragon egg.
 7. Spend the Core on a Convergence Matrix. This produces post-mastery polonium, Gaia ingots, awakened essence and Nether Stars while continually consuming specialist cores, catalysts, flux and ordinary resources.
+8. Forge Convergent Armaments in the Matrix and upgrade your personal weapons, armor and tools. See [the Arsenal](CONVERGENCE-ARSENAL.md) for equipment statistics, abilities and recipes.
 
 The first Matrix still requires the pack's original antimatter, advanced magic/boss, planetary and awakened-agriculture milestones. Matrix production replaces repeated late-game grind after that investment. It does not erase initial progression. Additional matrices remain expensive cooperative projects.
 
@@ -68,7 +69,7 @@ Each Matrix batch takes 40 seconds and 3,000,000 FE. Gaia ingots cost 300,000 ma
 
 - **Resonant Prospector:** scans an eight-block cube for Resonant Ore in already loaded terrain. Five-second cooldown, 128 uses. Reports deposit coordinates. It neither generates chunks nor breaks terrain.
 - **Aetherium armor:** diamond defense, durability, enchantability and diamond repair. All four pieces reduce tagged non-player magic damage by 20%. The tag covers 24 explicit damage types from vanilla, Ars Nouveau, Iron's Spellbooks, Mana and Artifice and selected Cataclysm attacks. Player-attributed damage, Blood Magic sacrifice/ritual costs, Botania relic penalties and Heartstop are excluded.
-- **Astralium Boots:** diamond-level boots halve the fall-damage multiplier. They do not make falls harmless. Swapping them into an Aetherium set sacrifices that set's arcane bonus.
+- **Astralium Boots:** four armor and three toughness; halve the fall-damage multiplier. They now belong to the full Astralium expedition set and repair with Astralium. Swapping them into an Aetherium set sacrifices that set's arcane bonus.
 - **Expedition Field Projector:** consumes one carried Field Charge for three minutes of water breathing and night vision. Ten-second cooldown. No free effect without a charge in survival. It does not replace Ad Astra oxygen equipment or grant flight or invulnerability.
 - **Renewable elytra:** four Astralium, a Stellar Core, sixteen phantom membranes and thirty-two feathers in the Stabilizer. This also supplies the legacy Voyager Sigil without exhausting End ships.
 
@@ -82,11 +83,11 @@ Knowledge is stored in your personal FTB player record and saved by FTB. Faction
 
 The terminal ledger supplements FTB Quests; it is not a second roster or a claim that quest completion and terminal registration are the same event. Recipes use physical ingredient/controller gates and remain available for trade without private research restrictions.
 
-The two Convergence chapters contain 33 quests: 13 progression milestones and 20 workshop/expedition objectives. They are non-consuming, have stable IDs, and have no material rewards. The general reward compiler preserves that policy. The full pack now has 3,126 quests in 115 chapters.
+The three Convergence chapters contain 42 quests: 13 progression milestones, 20 workshop/expedition objectives and nine Arsenal objectives. They are non-consuming, have stable IDs, and have no material rewards. The general reward compiler preserves that policy. Including the navigation chapters, the full pack now has 3,151 quests in 118 chapters.
 
 ## Implementation and rebuild
 
-There are 47 progression recipes: 16 crafting recipes and 31 processing recipes across four stations. The original three Forge recipes remain, giving 34 machine recipes under runtime audit. There are fourteen KubeJS materials/components, plus Java ore, crystal, armor, tools and terminal content.
+There are 48 progression recipes: 16 crafting recipes and 32 processing recipes across four stations. The original three Forge recipes remain, giving 35 machine recipes under runtime audit. The Arsenal also adds 15 equipment crafting/smithing recipes in the companion mod. There are fourteen KubeJS materials/components, plus Java ore, crystal, armor, tools, armament and terminal content.
 
 - `tools/build_convergence_progression.py`: items, base recipes, equipment data, chapters and generated machine audit.
 - `tools/convergence_gameplay.py`: station definitions, extended production routes and workshop chapter.

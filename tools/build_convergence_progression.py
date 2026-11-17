@@ -3,6 +3,7 @@ import hashlib
 import json
 from pathlib import Path
 from convergence_gameplay import EXTRA_ITEMS, STATIONS, ARCANE_DAMAGE, build_stations, extend_recipes, recipe_type, add_workshop_chapter
+import convergence_arsenal
 
 ROOT = Path(__file__).resolve().parents[1]
 PREFIX = 'wombatcraft:progression/'
@@ -64,7 +65,7 @@ def recipes():
     forge('astralium_travel', 'minecraft:elytra', [('kubejs:astralium_ingot', 4), ('kubejs:stellar_core', 1), ('minecraft:phantom_membrane', 16), ('minecraft:feather', 32)], 1, 1000000, 60000, 600)
     forge('convergium_automation', 'create:precision_mechanism', [('kubejs:convergium_ingot', 1), ('minecraft:gold_ingot', 16), ('create:cogwheel', 16)], 16, 1000000, 60000, 400)
     forge('convergium_storage', 'ae2:singularity', [('kubejs:convergium_ingot', 4), ('ae2:fluix_crystal', 64)], 1, 2000000, 120000, 600)
-    return extend_recipes(result)
+    return convergence_arsenal.extend_recipes(extend_recipes(result))
 
 
 def add_chapter(book, uid):
@@ -102,6 +103,7 @@ def add_chapter(book, uid):
             if quest['title'] == 'Convergence Core':
                 quest['description'] = ['Combine the four legacy sigils with awakened cores, Nether Stars and Convergium. All six disciplines contribute to the alloy; specialists can trade their work.']
     add_workshop_chapter(book, uid)
+    convergence_arsenal.add_chapter(book, uid)
 
 
 def main():
@@ -124,6 +126,12 @@ def main():
     build_equipment()
     build_stations()
     build_machine_audit()
+    report_path = ROOT/'docs/quest-build.json'
+    if report_path.exists():
+        report = json.loads(report_path.read_text(encoding='utf-8'))
+        chapters = [json.loads(p.read_text(encoding='utf-8')) for p in (ROOT/'pack/config/ftbquests/quests/chapters').glob('*.snbt')]
+        report.update(total_quests=sum(len(c['quests']) for c in chapters), total_chapters=len(chapters))
+        report_path.write_text(json.dumps(report, indent=2)+'\n', encoding='utf-8')
 
 
 def build_machine_audit():
@@ -175,6 +183,7 @@ def build_equipment():
     for key, title, texture in [('astralium_boots', 'Astralium Boots', 'diamond_boots'), ('field_projector', 'Expedition Field Projector', 'spyglass'), ('resonant_prospector', 'Resonant Prospector', 'compass')]:
         labels[f'item.{ns}.{key}'] = title
         save(f'assets/{ns}/models/item/{key}.json', {'parent': 'minecraft:item/generated', 'textures': {'layer0': 'minecraft:item/'+texture}})
+    convergence_arsenal.build(ROOT, save, labels)
     save(f'assets/{ns}/lang/en_us.json', labels)
     save(f'data/{ns}/tags/damage_type/arcane_damage.json', {'replace': False, 'values': ARCANE_DAMAGE})
     save('data/minecraft/tags/blocks/mineable/pickaxe.json', {'replace': False, 'values': [ns+':resonant_ore', ns+':research_terminal']})

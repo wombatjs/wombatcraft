@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "A A",
+    "A A"
+  ],
+  "key": {
+    "A": {
+      "item": "kubejs:astralium_ingot"
+    }
+  },
+  "result": {
+    "item": "wombatcraft_smp:astralium_leggings"
+  }
+}

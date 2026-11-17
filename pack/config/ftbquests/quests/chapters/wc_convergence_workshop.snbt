@@ -218,7 +218,7 @@
       "x": 4,
       "y": 8,
       "description": [
-        "Diamond-level boots halve the fall damage multiplier. They do not prevent all fall damage. Wearing them replaces Aetherium Boots, so you lose the four-piece arcane protection bonus. Choose equipment for the expedition."
+        "Astralium Boots halve the fall damage multiplier and now belong to the full Astralium expedition set. They provide 4 armor and 3 toughness; repair with Astralium. Wearing them replaces Aetherium Boots, so you lose the four-piece arcane protection bonus. Visit Convergence: The Arsenal for the complete set and endgame upgrades."
       ],
       "dependencies": [
         "6235951CCD6B57FE"

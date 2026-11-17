@@ -15,8 +15,8 @@ class JourneyTest(unittest.TestCase):
     def test_original_content_is_unchanged(self):
         before=copy.deepcopy(self.book)
         catalog,inventory=build(self.book)
-        self.assertEqual(len(catalog),72)
-        self.assertEqual(len(inventory),3126)
+        self.assertEqual(len(catalog),75)
+        self.assertEqual(len(inventory),3135)
         for name in before.keys()-GENERATED:
             self.assertEqual(before[name],self.book[name],name)
 
@@ -32,8 +32,8 @@ class JourneyTest(unittest.TestCase):
         catalog,_=build(self.book)
         original={q['id'] for name,c in self.book.items() if name not in GENERATED for q in c['quests']}
         links=[link for name in GENERATED for link in self.book[name]['quest_links']]
-        self.assertEqual(len(links),91)
-        self.assertEqual(len({m['quest'] for m in catalog}),72)
+        self.assertEqual(len(links),94)
+        self.assertEqual(len({m['quest'] for m in catalog}),75)
         for link in links:
             self.assertIn(link['linked_quest'],original)
             self.assertNotIn('tasks',link)

@@ -66,6 +66,8 @@ class ConvergenceProgressionTest(unittest.TestCase):
         known = set(registry.read_text().splitlines()) | {'kubejs:'+name for name in ITEMS}
         known |= {'wombatcraft:'+name for name in STATIONS}
         known |= {'wombatcraft_smp:'+name for name in ('research_terminal','field_projector','resonant_prospector','astralium_boots')}
+        from convergence_arsenal import ITEMS as arsenal_items
+        known |= {'wombatcraft_smp:'+name for name in arsenal_items}
         for name, recipe in recipes().items():
             self.assertFalse((set(inputs(recipe)) | {output(recipe)}) - known, name)
 

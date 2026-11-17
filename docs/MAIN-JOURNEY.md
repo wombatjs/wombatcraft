@@ -1,6 +1,6 @@
 # Main Journey and Adventure Journal
 
-Wombatcraft keeps its 3,126 original quests and adds a navigation layer tailored to this pack. The resulting book has 3,142 quests in 117 chapters: the 16 additional quests are optional reading cards, with no material rewards. There are also 91 quest links, which refer to existing quests rather than creating new objectives.
+Wombatcraft keeps its original quests and adds a navigation layer tailored to this pack. With the Arsenal expansion, the book has 3,151 quests in 118 chapters: 16 are optional guidance cards with no material rewards. There are also 94 quest links, which refer to existing quests rather than creating new objectives.
 
 ## Player experience
 
@@ -10,7 +10,7 @@ Use **/journey** for live recommendations. It reads your individual progress, pr
 
 If a selected milestone is locked, the command follows its existing dependency graph to find an incomplete, visible prerequisite whose tasks you can start. Completed or excluded objectives are skipped. Suggestions indicate the milestone that the prerequisite leads toward. The command does not complete tasks, claim rewards, change pins or write progression data. Requests have a two-second cooldown.
 
-**Main Journey** presents 72 linked milestones in eight rows:
+**Main Journey** presents 75 linked milestones in eight rows:
 
 | Direction | Purpose |
 | --- | --- |
@@ -21,7 +21,7 @@ If a selected milestone is locked, the command follows its existing dependency g
 | Advanced Engineering | Automate storage, manufacturing, farming or a settlement |
 | Beyond the Stars | Produce fuel and oxygen, launch, then reach new planets |
 | Ancient Powers | Follow boss hunts and advanced renewable resource goals |
-| The Convergence | Combine specialist materials and sigils into the Core and Matrix |
+| The Convergence | Combine specialist materials and sigils into the Core, Matrix and personal endgame arsenal |
 
 These are directions rather than eight enforced stages. A player can specialize while teammates take other paths. Existing source quests retain their original prerequisites and reward rules. The new guide chapters are flexible; existing chapters are not globally changed to flexible progression. The detailed chapters remain the source for recipes, requirements and rewards.
 

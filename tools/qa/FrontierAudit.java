@@ -282,6 +282,10 @@ final class FrontierAudit {
         if (machineId.equals("convergence_matrix"))
         forge(logic, inputs, products, energy, mana, set, get, charge, fillMana, empty, 800, 3000000, 180000,
             "minecraft:nether_star", 4, new String[]{"kubejs:ancient_core","kubejs:stellar_core","kubejs:temporal_core","kubejs:stabilized_flux"}, new int[]{2,1,1,4});
+        // convergent_armament
+        if (machineId.equals("convergence_matrix"))
+        forge(logic, inputs, products, energy, mana, set, get, charge, fillMana, empty, 1200, 4000000, 400000,
+            "wombatcraft_smp:convergent_armament", 1, new String[]{"kubejs:convergium_ingot","kubejs:ancient_core","kubejs:mechanized_core","kubejs:arcane_core","kubejs:stabilized_flux","kubejs:living_relic"}, new int[]{8,2,2,2,4,1});
         // END GENERATED PROGRESSION AUDIT
     }
 

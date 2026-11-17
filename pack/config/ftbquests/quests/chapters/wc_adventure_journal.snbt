@@ -155,13 +155,13 @@
     },
     {
       "id": "5FD09BA4AE07491E",
-      "title": "Work toward the Matrix",
-      "icon": "kubejs:convergence_core",
+      "title": "Forge your endgame equipment",
+      "icon": "wombatcraft_smp:convergium_chestplate",
       "x": -4,
       "y": 28,
       "optional": true,
       "description": [
-        "The long-term goal connects specialists without requiring everyone to master every mod.",
+        "Build the Matrix, forge armaments and upgrade your personal armor and weapons. Trade connects all six specialties.",
         "Run /journey convergence to find an available step for you. These linked goals show entry, development and a long-term target."
       ],
       "tasks": [
@@ -295,15 +295,15 @@
       "size": 1.3
     },
     {
-      "id": "3782DC191F54D8D0",
-      "linked_quest": "0F68366FED1B407B",
+      "id": "603107B4CD96F25F",
+      "linked_quest": "05E20ECC04CC71D2",
       "x": 4,
       "y": 28,
       "size": 1.3
     },
     {
-      "id": "1D504C3231CE4BF0",
-      "linked_quest": "2CA2D542DCE4A176",
+      "id": "3629CE777FB0BC37",
+      "linked_quest": "45E7A13D8231B628",
       "x": 8,
       "y": 28,
       "size": 1.3

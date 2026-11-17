@@ -95,6 +95,8 @@ public final class ConvergenceGameplayAudit {
         personal1.markDirty(); personal2.markDirty(); manager.markDirty(); manager.saveNow();
         auditTools(p1);
         auditSpellDamage(p1,p2);
+        ConvergenceArsenalAudit.run(server);
+        GeneratedDataAudit.run();
         MESSAGES.clear();
         System.out.println("CONVERGENCE_GAMEPLAY_AUDIT_COMPLETE individual=true isolation=true serialized=true restored="+restored+" terminal_security=true tools=true");
     }

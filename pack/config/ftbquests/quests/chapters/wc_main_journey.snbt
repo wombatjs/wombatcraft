@@ -6,7 +6,7 @@
   "order_index": -20,
   "icon": "minecraft:map",
   "subtitle": [
-    "72 milestones across eight directions. Choose a branch; the detailed chapters remain your reference."
+    "75 milestones across eight directions. Choose a branch; the detailed chapters remain your reference."
   ],
   "progression_mode": "flexible",
   "autofocus_id": "11A063033D7F0CAE",
@@ -159,7 +159,7 @@
       "icon": "minecraft:map",
       "optional": true,
       "description": [
-        "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, then a Matrix that keeps specialist workshops useful.",
+        "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, a Matrix and your endgame arsenal.",
         "This row suggests a direction, not a requirement to finish every mod. Linked icons open the original quests and share their progress and rewards. Use /journey for a current recommendation."
       ],
       "tasks": [
@@ -674,6 +674,27 @@
       "id": "5BBC9F8E8F7F12FC",
       "linked_quest": "2CA2D542DCE4A176",
       "x": 24,
+      "y": 35,
+      "size": 1.15
+    },
+    {
+      "id": "502D93B81FEC0070",
+      "linked_quest": "1C7CFBF902BD7477",
+      "x": 27,
+      "y": 35,
+      "size": 1.15
+    },
+    {
+      "id": "39CD5D104372045E",
+      "linked_quest": "23B094B66037ECD6",
+      "x": 30,
+      "y": 35,
+      "size": 1.15
+    },
+    {
+      "id": "606B50B550B3FD55",
+      "linked_quest": "45E7A13D8231B628",
+      "x": 33,
       "y": 35,
       "size": 1.15
     }

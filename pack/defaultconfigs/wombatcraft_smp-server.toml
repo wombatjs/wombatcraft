@@ -3,4 +3,6 @@ tpaGuard = true
 chunkPolicies = false
 elections = true
 contracts = true
+villageSettlers = true
+villageResidentTarget = 24
 spawnTeam = "2de87e97-dce4-41d0-b02d-c24a395997a1"

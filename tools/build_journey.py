@@ -39,9 +39,10 @@ STAGES=[
   source('wc_twilight_forest',t) for t in ['Scales in the Courtyard',"The Lich's Tower",'The Fire Swamp']]+[
   source('wc_dimension_aether',t) for t in ['The Stone Sentinel',"A Queen's Challenge"]]+[
   source('wc_botania','Gaia Unbound'),source('wc_spellbooks','The Last King'),source('wc_mystical_agriculture','Awakened Supremium Essence'),source('wc_convergence_progression','Ancient Core')]),
- ('convergence','The Convergence','convergence','Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, then a Matrix that keeps specialist workshops useful.',[
+ ('convergence','The Convergence','convergence','Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, a Matrix and your endgame arsenal.',[
   source('wc_convergence_progression',t) for t in ['Aetherium Ingot','Astralium Ingot','Convergium Ingot']]+[
-  source('99_convergence',t) for t in ['Industrial Sigil','Arcane Sigil','Voyager Sigil','Prosperity Sigil','Convergence Core']]+[source('wc_convergence_workshop','Build the Convergence Matrix')]),
+  source('99_convergence',t) for t in ['Industrial Sigil','Arcane Sigil','Voyager Sigil','Prosperity Sigil','Convergence Core']]+[source('wc_convergence_workshop','Build the Convergence Matrix')]+[
+  source('wc_convergence_arsenal',t) for t in ['Give the Matrix a purpose','The Convergence Greatblade','Convergium: the final set']]),
 ]
 
 BRANCHES={
@@ -51,7 +52,7 @@ BRANCHES={
  'space':('Prepare for space','ad_astra:tier_1_rocket','Fuel, oxygen and protective equipment come before the launch.'),
  'nature':('Grow a renewable supply','mysticalagriculture:inferium_essence','Resource farming supports both your settlement and Convergence catalysts.'),
  'settlement':('Build a shared home','minecraft:emerald','Make a settlement, organize storage, trade with players and visit /contracts for repeatable work.'),
- 'convergence':('Work toward the Matrix','kubejs:convergence_core','The long-term goal connects specialists without requiring everyone to master every mod.'),
+ 'convergence':('Forge your endgame equipment','wombatcraft_smp:convergium_chestplate','Build the Matrix, forge armaments and upgrade your personal armor and weapons. Trade connects all six specialties.'),
 }
 
 
@@ -78,9 +79,9 @@ def build(book):
             links.append({'id':uid('main-link/'+qid),'linked_quest':qid,'x':col*3,'y':row*5,'size':1.15})
             catalog.append({'quest':qid,'title':quest['title'],'chapter':target['chapter'],'chapter_title':original[target['chapter']]['title'],
                             'stage':row,'stage_title':title,'branch':branch_for(target['chapter'],branch),'purpose':description})
-    assert len(catalog)==72
+    assert len(catalog)==75
     book['wc_main_journey']={'id':uid('chapter/main'),'filename':'wc_main_journey','title':'Main Journey','group':GROUP,'order_index':-20,
-        'icon':'minecraft:map','subtitle':['72 milestones across eight directions. Choose a branch; the detailed chapters remain your reference.'],
+        'icon':'minecraft:map','subtitle':['75 milestones across eight directions. Choose a branch; the detailed chapters remain your reference.'],
         'progression_mode':'flexible','autofocus_id':notes[0]['id'],'quests':notes,'quest_links':links}
     intro={'id':uid('journal/intro'),'title':'What should I do next?','x':-4,'y':0,'icon':'minecraft:book','optional':True,
         'description':['Use /journey for your individual progress, one available objective and alternative paths. Click a suggestion to open its original quest.',

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wombatcraft_smp:convergent_armament"
+    },
+    {
+      "item": "kubejs:living_relic"
+    },
+    {
+      "item": "minecraft:totem_of_undying"
+    }
+  ],
+  "result": {
+    "item": "wombatcraft_smp:convergence_aegis"
+  }
+}

@@ -20,6 +20,8 @@ public final class WombatcraftSmp {
     private static final ForgeConfigSpec SPEC;
     static final ForgeConfigSpec.BooleanValue ENABLED, TPA_GUARD, CHUNK_POLICIES, ELECTIONS, CONTRACTS;
     static final ForgeConfigSpec.ConfigValue<String> SPAWN_TEAM;
+    static final ForgeConfigSpec.BooleanValue VILLAGE_SETTLERS;
+    static final ForgeConfigSpec.IntValue VILLAGE_RESIDENT_TARGET;
     static {
         var b=new ForgeConfigSpec.Builder();
         ENABLED=b.comment("Enable community menus, civic residents and supported integrations.").define("enabled",false);
@@ -28,6 +30,8 @@ public final class WombatcraftSmp {
         ELECTIONS=b.comment("Enable two-stage elections and current mayor policies.").define("elections",false);
         CONTRACTS=b.comment("Spawn-only contract deliveries and currency collection.").define("contracts",false);
         SPAWN_TEAM=b.comment("FTB server-team UUID owning the town claim.").define("spawnTeam", "2de87e97-dce4-41d0-b02d-c24a395997a1",v->v instanceof String && ((String)v).matches("[0-9a-fA-F-]{36}"));
+        VILLAGE_SETTLERS=b.comment("Allow bounded daytime arrivals into existing, fully loaded natural villages with vacant unclaimed beds.").define("villageSettlers",true);
+        VILLAGE_RESIDENT_TARGET=b.comment("Target residents per generated village, capped by its actual beds. At most two arrivals per minute and eight per Minecraft day.").defineInRange("villageResidentTarget",24,2,48);
         SPEC=b.build();
     }
     private final TpaGuard tpa=new TpaGuard();
@@ -37,9 +41,11 @@ public final class WombatcraftSmp {
         ConvergenceResearch.register(net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext.get().getModEventBus());
         ModLoadingContext.get().registerConfig(ModConfig.Type.SERVER,SPEC);
         SmpNetwork.register();
+        PublicPads.register();
         Factions.register();
         MinecraftForge.EVENT_BUS.addListener((net.minecraftforge.event.server.ServerStartedEvent e)->PersonalProgress.initialize(e.getServer()));
         CivicResidents.register();
+        VillagePopulation.register();
         MayorPolicies.register();
         ExpansionGuard.register();
         TutorialSpawn.register();

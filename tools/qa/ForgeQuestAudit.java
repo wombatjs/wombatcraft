@@ -132,7 +132,7 @@ public class ForgeQuestAudit {
    Class<?> service=Class.forName("net.wombatcraft.smp.JourneyService");
    Object server=call(event,"getServer");
    List<?> catalog=(List<?>)service.getMethod("catalog",Class.forName("net.minecraft.server.MinecraftServer")).invoke(null,server);
-   if(catalog.size()!=72)throw new IllegalStateException("Journey catalog size");
+   if(catalog.size()!=75)throw new IllegalStateException("Journey catalog size");
    Method recommend=service.getMethod("recommend",Object.class,Object.class,List.class,String.class);
    String before=call(team,"serializeNBT").toString();
    List<?> suggestions=(List<?>)recommend.invoke(null,file,team,catalog,"all");
@@ -159,7 +159,7 @@ public class ForgeQuestAudit {
     if(id.equals(completed)&&!(Boolean)teamType.getMethod("isCompleted",objectType).invoke(team,target))throw new IllegalStateException("Resolved link lost source completion");
     links.add(call(link,"getCodeString")+"\t"+id);
    }
-   if(links.size()!=91)throw new IllegalStateException("Journey links missing: "+links.size());
+   if(links.size()!=94)throw new IllegalStateException("Journey links missing: "+links.size());
    int simulated=1;
    for(int wave=0;wave<4096;wave++){
     List<?> next=(List<?>)recommend.invoke(null,file,team,catalog,"all");

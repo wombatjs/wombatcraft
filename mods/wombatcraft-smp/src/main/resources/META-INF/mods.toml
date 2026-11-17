@@ -7,6 +7,12 @@ version="0.1.0-staging"
 displayName="Wombatcraft Communities"
 description='''Factions, civic life and arena rules for Wombatcraft.'''
 [[dependencies.wombatcraft_smp]]
+modId="tardis_refined"
+mandatory=true
+versionRange="[2.1.7]"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.wombatcraft_smp]]
 modId="forge"
 mandatory=true
 versionRange="[47.4.28,48)"

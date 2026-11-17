@@ -3,6 +3,7 @@ import hashlib,json,os,shutil,subprocess,sys,time,urllib.request,zipfile
 from pathlib import Path
 from portal_patch import PATCH_NAME, COMPAT_PATCH_NAME, REFINED_PATCH_NAME, build_portal_patch
 from build_convergence_progression import recipes as progression_recipes, ITEMS as progression_items
+from convergence_arsenal import ITEMS as arsenal_items
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'launcher'));import updater
 dest=ROOT/'dist/server-smoke';dest.mkdir(parents=True,exist_ok=True)
 lock=json.loads((ROOT/'mod-lock.json').read_text());mods=dest/'mods';mods.mkdir(exist_ok=True)
@@ -91,6 +92,9 @@ for boot in range(2):
    recipes=set((dest/'recipe-registry.txt').read_text().splitlines());endgame={'kubejs:endgame/'+name for name in ['industrial_sigil','arcane_sigil','voyager_sigil','prosperity_sigil','convergence_core']};assert endgame<=recipes,'Missing endgame recipes'
    assert {'wombatcraft:progression/'+name for name in progression_recipes()} <= recipes, 'Missing Convergence progression recipes'
    assert {'kubejs:'+name for name in progression_items} <= registry, 'Missing Convergence progression items'
+   assert {'wombatcraft_smp:'+name for name in arsenal_items} <= registry, 'Missing Arsenal items'
+   assert 'CONVERGENCE_ARSENAL_AUDIT_COMPLETE' in text, 'Arsenal behavior audit missing'
+   assert 'KUBEJS_GENERATED_DATA_AUDIT_COMPLETE' in text, 'Parallel resource regression audit missing'
    assert not {'torchmaster:feral_flare_lantern','torchmaster:frozen_pearl','mininggadgets:upgrade_size_2','mininggadgets:upgrade_size_3'} & recipes, 'Disabled utility recipes reappeared'
    frontier_recipes = {f'wombatcraft:convergence/{name}' for name in ('controller','alloy','lens','keystone','wayfarers_lens','trials_beacon')}
    frontier_recipes |= {f'wombatcraft:trials/trial_{name}' for name in ('twilight','aether','otherside')}

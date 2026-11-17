@@ -36,12 +36,7 @@ public final class ConvergenceContent {
     public static final RegistryObject<Item> CHESTPLATE = armor("aetherium_chestplate", ArmorItem.Type.CHESTPLATE);
     public static final RegistryObject<Item> LEGGINGS = armor("aetherium_leggings", ArmorItem.Type.LEGGINGS);
     public static final RegistryObject<Item> BOOTS = armor("aetherium_boots", ArmorItem.Type.BOOTS);
-    public static final RegistryObject<Item> ASTRAL_BOOTS = ITEMS.register("astralium_boots", () -> new ArmorItem(ArmorMaterials.DIAMOND, ArmorItem.Type.BOOTS, new Item.Properties()) {
-        @Override public void appendHoverText(net.minecraft.world.item.ItemStack stack, net.minecraft.world.level.Level level, java.util.List<net.minecraft.network.chat.Component> lines, net.minecraft.world.item.TooltipFlag flag) {
-            lines.add(net.minecraft.network.chat.Component.literal("Halves fall damage. Falls can still be fatal."));
-            lines.add(net.minecraft.network.chat.Component.literal("Does not count toward the Aetherium set bonus."));
-        }
-    });
+    public static final RegistryObject<Item> ASTRAL_BOOTS = ITEMS.register("astralium_boots", () -> ConvergenceArsenal.armor(ConvergenceArsenal.ASTRAL, ArmorItem.Type.BOOTS));
     public static final RegistryObject<Item> PROJECTOR = ITEMS.register("field_projector", ConvergenceTools.FieldProjector::new);
     public static final RegistryObject<Item> PROSPECTOR = ITEMS.register("resonant_prospector", ConvergenceTools.Prospector::new);
     private static final TagKey<DamageType> ARCANE = TagKey.create(Registries.DAMAGE_TYPE, new ResourceLocation(WombatcraftSmp.ID, "arcane_damage"));
@@ -59,6 +54,7 @@ public final class ConvergenceContent {
     }
 
     public static void register(IEventBus bus) {
+        ConvergenceArsenal.register(bus);
         BLOCKS.register(bus);
         ITEMS.register(bus);
         bus.addListener(ConvergenceContent::creative);

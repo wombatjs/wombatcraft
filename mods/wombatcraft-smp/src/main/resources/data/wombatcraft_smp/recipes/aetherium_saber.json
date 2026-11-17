@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    " A ",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "item": "kubejs:aetherium_ingot"
+    },
+    "C": {
+      "item": "kubejs:arcane_core"
+    }
+  },
+  "result": {
+    "item": "wombatcraft_smp:aetherium_saber"
+  }
+}

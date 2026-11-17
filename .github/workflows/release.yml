@@ -12,6 +12,8 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     timeout-minutes: 40
+    env:
+      WOMBATCRAFT_SKIP_TESTS: ${{ contains(github.event.head_commit.message, '[release-no-tests]') && '1' || '0' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -22,15 +24,21 @@ jobs:
           distribution: temurin
           java-version: '17'
       - run: python tools/validate.py
+        if: env.WOMBATCRAFT_SKIP_TESTS != '1'
       - run: python -m pip install nbtlib==2.0.4 tomlkit==0.15.2
       - run: python -m unittest discover -s tests -v
+        if: env.WOMBATCRAFT_SKIP_TESTS != '1'
       - run: python tools/build_release.py
+      - name: Record release status
+        run: python -c "import json,os,pathlib; pathlib.Path('dist/release-status.json').write_text(json.dumps(dict(commit=os.environ['GITHUB_SHA'],build_completed=True,tests_skipped=os.environ['WOMBATCRAFT_SKIP_TESTS']=='1',reason='Owner requested no testing' if os.environ['WOMBATCRAFT_SKIP_TESTS']=='1' else 'Normal validation workflow'),indent=2))"
       - uses: actions/cache@v4
+        if: env.WOMBATCRAFT_SKIP_TESTS != '1'
         with:
           path: dist/server-smoke/mods
           key: server-mods-${{ runner.os }}-${{ hashFiles('mod-lock.json', 'tools/portal_patch.py') }}
           restore-keys: server-mods-${{ runner.os }}-
       - run: python -u tools/smoke_server.py
+        if: env.WOMBATCRAFT_SKIP_TESTS != '1'
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -38,6 +46,7 @@ jobs:
           path: |
             dist/server-validation.json
             dist/dimension-generation.json
+            dist/release-status.json
             dist/server-smoke/console.log
             dist/server-smoke/install.log
             dist/server-smoke/*-registry.txt
@@ -50,6 +59,7 @@ jobs:
             dist/manifest.json
             dist/overrides.zip
             dist/Wombatcraft.mrpack
+            dist/release-status.json
             dist/server-validation.json
             dist/dimension-generation.json
   launcher:
@@ -81,9 +91,9 @@ jobs:
         with:
           name: launcher-release
           path: release
-      - name: Publish tested commit
+      - name: Publish release commit
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
         run: |
-          gh release create "build-${GITHUB_SHA}" release/* --target "${GITHUB_SHA}" --title "Wombatcraft ${GITHUB_SHA:0:8}" --notes "Validated client/server pack update. See server-validation.json for the automated smoke-test results." --latest
+          gh release create "build-${GITHUB_SHA}" release/* --target "${GITHUB_SHA}" --title "Wombatcraft ${GITHUB_SHA:0:8}" --notes "Client/server pack update. See release-status.json for build and test status; server-validation.json is included only when server tests ran." --latest
