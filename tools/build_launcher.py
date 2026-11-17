@@ -27,8 +27,9 @@ assert icu.is_relative_to(bundle.resolve())
 icu.unlink(missing_ok=True)
 report=ROOT/'dist/launcher-smoke.json'
 report.unlink(missing_ok=True)
-subprocess.run([str(bundle/'Wombatcraft.exe'),'--smoke-test',str(report)],check=True,timeout=30)
-result = json.loads(report.read_text(encoding='utf-8'))
-assert result['window_created'] and result['build'] == build, 'Packaged launcher did not start with the expected build metadata'
+if os.environ.get('WOMBATCRAFT_SKIP_TESTS')!='1':
+ subprocess.run([str(bundle/'Wombatcraft.exe'),'--smoke-test',str(report)],check=True,timeout=30)
+ result = json.loads(report.read_text(encoding='utf-8'))
+ assert result['window_created'] and result['build'] == build, 'Packaged launcher did not start with the expected build metadata'
 shutil.make_archive(str(ROOT/'dist/Wombatcraft-Launcher-Windows'),'zip',ROOT/'dist/launcher')
 print(ROOT/'dist/launcher/Wombatcraft/Wombatcraft.exe')

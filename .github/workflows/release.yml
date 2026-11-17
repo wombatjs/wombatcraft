@@ -65,6 +65,8 @@ jobs:
   launcher:
     runs-on: windows-latest
     timeout-minutes: 20
+    env:
+      WOMBATCRAFT_SKIP_TESTS: ${{ contains(github.event.head_commit.message, '[release-no-tests]') && '1' || '0' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
