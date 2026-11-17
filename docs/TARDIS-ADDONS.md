@@ -2,7 +2,7 @@
 
 Pinned Forge 1.20.1 addons: TARDIS Refined: Rooms 1.2.0 and TARDIS Refined: Flight 1.0.2. TARDIS Refined remains 2.1.7 and Immersive Portals is retained.
 
-Rooms: grow selected rooms and corridors with a sonic screwdriver at growth nodes. Expansion is free; players supply their own machines. The interface supports items, fluids, energy, redstone, Mekanism chemicals and AE2 networks. Automatic hub simplification is disabled to preserve existing interiors; already-generated corridors are not erased. Newly generated corridors use the expansion system. Ten quests explain growth, furnishing, transfers and renovation.
+Rooms: grow selected rooms and corridors with a sonic screwdriver at growth nodes. Expansion is free; players supply their own machines. The interface supports items, fluids, energy, redstone, Mekanism chemicals and AE2 networks. Automatic hub simplification is enabled. The operator-approved one-time corridor migration removes generated chunks outside the central console reserve, including their contents, after a stopped-server backup. The Eye of Harmony and hub regenerate with the room-growth layout; ship metadata, upgrades and the central console reserve remain. New terrain has no procedural ARS corridors. Ten quests explain growth, furnishing, transfers and renovation.
 
 Room growth/removal checks the affected chunk footprint against FTB edit permission, including adjacent passage panels. Interface changes and room renaming also check claims. Checks run on actions without loading chunks. Arena actions are rejected. Empty removable-block exemptions prevent configured container exemptions; the upstream explicit Remove all confirmation can still destroy contents. Do not confirm it unless intending to discard those contents.
 
