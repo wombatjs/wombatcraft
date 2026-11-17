@@ -127887,6 +127887,66 @@
       },
       "client": true,
       "server": true
+    },
+    {
+      "project": {
+        "id": "curseforge:1778201",
+        "slug": "tardis-refined-rooms",
+        "title": "TARDIS Refined: Rooms",
+        "server_side": "required",
+        "client_side": "required",
+        "source_url": "https://www.curseforge.com/minecraft/mc-mods/tardis-refined-rooms/files/9540058"
+      },
+      "version": {
+        "id": "9540058",
+        "game_versions": [
+          "1.20.1"
+        ],
+        "loaders": [
+          "forge"
+        ]
+      },
+      "file": {
+        "filename": "tardis_rooms-forge-1.20.1-1.2.0.jar",
+        "url": "https://mediafilez.forgecdn.net/files/9540/58/tardis_rooms-forge-1.20.1-1.2.0.jar",
+        "size": 740726,
+        "hashes": {
+          "sha512": "f25117326c67f99a562863d8ed46936f3b576e8d4d767426135601b40b30870fe6ca9721e6d1f8512a080becf99b908e2653ffe3cfdeb2256bc9c1fbe8ec08a6",
+          "sha1": "d78cb49b799d2f4ed05495a4d2506be9eeeb8985"
+        }
+      },
+      "client": true,
+      "server": true
+    },
+    {
+      "project": {
+        "id": "curseforge:1590174",
+        "slug": "tardis-refined-flight",
+        "title": "TARDIS Refined: Flight",
+        "server_side": "required",
+        "client_side": "required",
+        "source_url": "https://www.curseforge.com/minecraft/mc-mods/tardis-refined-flight/files/8945950"
+      },
+      "version": {
+        "id": "8945950",
+        "game_versions": [
+          "1.20.1"
+        ],
+        "loaders": [
+          "forge"
+        ]
+      },
+      "file": {
+        "filename": "tardis_refined_rwf-1.0.2-forge.jar",
+        "url": "https://mediafilez.forgecdn.net/files/8945/950/tardis_refined_rwf-1.0.2-forge.jar",
+        "size": 1645482,
+        "hashes": {
+          "sha512": "5c62176c5ec06619c8384f2e11edb6998a9e1ed594d39a7ef6ac13f868409ee3073ef901b89646e333f4f2b457c4be8b2b824f286a839311963b2ae3aee763df",
+          "sha1": "31f2957c391522828aaebafe150cd7473418493f"
+        }
+      },
+      "client": true,
+      "server": true
     }
   ],
   "skipped": [],

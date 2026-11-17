@@ -1,0 +1,202 @@
+{
+  "id": "6C0AA56A4BF4493C",
+  "filename": "wc_frontier_tardis_flight",
+  "title": "Take to the Skies",
+  "group": "00AA8F374274B5F3",
+  "icon": "minecraft:compass",
+  "order_index": 91,
+  "default_quest_shape": "circle",
+  "autofocus_id": "2B92934D3EA9A039",
+  "quests": [
+    {
+      "id": "2B92934D3EA9A039",
+      "title": "Flight clearance",
+      "icon": "minecraft:compass",
+      "description": [
+        "Unlock Flight Control System in your TARDIS upgrade tree. Real-world flight uses the ship you already own and its fuel supply."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "12154C5E9C9154E1",
+          "type": "checkmark",
+          "title": "Flight clearance"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2209CBEF92272703",
+          "type": "item",
+          "item": "minecraft:cooked_beef",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "028E0AB365DF1341",
+      "title": "A short first flight",
+      "icon": "minecraft:compass",
+      "description": [
+        "Begin over open ground with space to land. Use the scroll wheel to adjust flight speed and learn the controls before crossing rough terrain."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "2B92934D3EA9A039"
+      ],
+      "tasks": [
+        {
+          "id": "26F702A63E63F218",
+          "type": "checkmark",
+          "title": "A short first flight"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "66A956179F6822D9",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "31057E8AAEAAA8B5",
+      "title": "Return to the ground",
+      "icon": "minecraft:compass",
+      "description": [
+        "Check the Exit Flight binding in Controls and practise landing. Leave enough clear space for the exterior shell."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "2B92934D3EA9A039"
+      ],
+      "tasks": [
+        {
+          "id": "2958626CC91DC20B",
+          "type": "checkmark",
+          "title": "Return to the ground"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "696382F8A2EB4374",
+          "type": "item",
+          "item": "minecraft:lantern",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "2C09D00D7112A2DD",
+      "title": "A local hop",
+      "icon": "minecraft:compass",
+      "description": [
+        "Aim at a nearby clear landing position and use Local Hop. The hop has a delay and cooldown; it is not an escape from combat or a way into protected land."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "2B92934D3EA9A039"
+      ],
+      "tasks": [
+        {
+          "id": "144A80B4F6F02AF4",
+          "type": "checkmark",
+          "title": "A local hop"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1249BC24948304C6",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "247E153B9B4899B2",
+      "title": "Stretch the fuel reserve",
+      "icon": "minecraft:compass",
+      "description": [
+        "Work through the five Fuel Efficiency upgrade tiers. Keep a reserve for the trip home rather than spending the whole tank on exploration."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "028E0AB365DF1341"
+      ],
+      "tasks": [
+        {
+          "id": "0E1934CEB9B2A06E",
+          "type": "checkmark",
+          "title": "Stretch the fuel reserve"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6A61D35A850122DD",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "1C6E7C23519E5BAA",
+      "title": "An airborne expedition",
+      "icon": "minecraft:compass",
+      "description": [
+        "Plan a route, bring supplies and return safely. Approach new terrain at a modest speed so the world has time to load."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "31057E8AAEAAA8B5"
+      ],
+      "tasks": [
+        {
+          "id": "1E6F52C4B1FF90E0",
+          "type": "checkmark",
+          "title": "An airborne expedition"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "308631CEDDD561E9",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

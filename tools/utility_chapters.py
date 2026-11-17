@@ -92,4 +92,22 @@ def chapters():
       (None,'Recover carefully','Break the grave to recover its contents. Make room in your inventory first. Sneaking over a grave does not retrieve it, so claim permissions cannot be bypassed that way.',[['minecraft:chest',2]]),
       (None,'Land still has an owner','A grave cannot overwrite protected terrain. If placement is blocked by another claim, the world border or a lack of space, items remain ordinary drops. Ask the landowner for access when necessary.',[['minecraft:torch',16]]),
       (None,'The arena keeps its stakes','Arena deaths leave ordinary loose drops rather than graves. Whoever collects those drops keeps them. Equipment stored in carried belts and storage items is still at risk.',[['minecraft:cooked_beef',8]])])
+    chapter('tardis_rooms','A Home Beyond the Door','tardis_rooms:tardis_interface',[
+      (None,'Space to grow','Find a Room Growth Node in the corridor hub. Use your sonic screwdriver to open the room catalogue and inspect its floor map.',[['minecraft:lantern',8]]),
+      (None,'Your first chamber','Grow a small room from an available node. Expansion itself costs no materials; the workshop you build inside is yours to furnish.',[['minecraft:chest',4]]),
+      (None,'A network of passages','Add a corridor and a second room. Leave room for future branches and keep important routes connected to the hub.',[['minecraft:stone_bricks',32]]),
+      (None,'Room for industry','Choose a larger room for machines. Reserve separate areas for processing, storage and power before running cables.',[['minecraft:iron_ingot',8]]),
+      ('tardis_rooms:tardis_interface','Across the threshold','Craft a pair of TARDIS Interfaces. Give them matching link IDs and select input and output directions. Interfaces transfer resources; they do not store them.',[['minecraft:redstone',16]]),
+      (None,'Power and supplies','Connect a small energy or item transfer first. Configure each face deliberately, and disable unused sides before connecting valuable storage.',[['minecraft:copper_ingot',12]]),
+      (None,'A chemical laboratory','Select Mekanism chemical transfer on linked interfaces. Start with a small buffer and verify the destination accepts the correct chemical.',[['mekanism:basic_chemical_tank',1]]),
+      (None,'A connected archive','Connect AE2 ME networks through the interface. Keep the network powered and check channels and connected devices after linking.',[['ae2:fluix_crystal',8]]),
+      (None,'A workshop that travels','Link an exterior interface near the landed shell to an interior interface. Check the connection after moving the TARDIS; do not depend on unloaded destinations.',[['minecraft:gold_ingot',4]]),
+      (None,'Renovate with care','Use a Room Control Block to name or rearrange a room. Empty machines and storage before removal. The Remove all confirmation destroys remaining contents rather than dropping them.',[['minecraft:diamond',2]])],group='exploration')
+    chapter('tardis_flight','Take to the Skies','minecraft:compass',[
+      (None,'Flight clearance','Unlock Flight Control System in your TARDIS upgrade tree. Real-world flight uses the ship you already own and its fuel supply.',[['minecraft:cooked_beef',8]]),
+      (None,'A short first flight','Begin over open ground with space to land. Use the scroll wheel to adjust flight speed and learn the controls before crossing rough terrain.',[['minecraft:iron_ingot',6]]),
+      (None,'Return to the ground','Check the Exit Flight binding in Controls and practise landing. Leave enough clear space for the exterior shell.',[['minecraft:lantern',8]]),
+      (None,'A local hop','Aim at a nearby clear landing position and use Local Hop. The hop has a delay and cooldown; it is not an escape from combat or a way into protected land.',[['minecraft:redstone',12]]),
+      (None,'Stretch the fuel reserve','Work through the five Fuel Efficiency upgrade tiers. Keep a reserve for the trip home rather than spending the whole tank on exploration.',[['minecraft:gold_ingot',6]]),
+      (None,'An airborne expedition','Plan a route, bring supplies and return safely. Approach new terrain at a modest speed so the world has time to load.',[['minecraft:diamond',2]])],group='exploration')
     return result

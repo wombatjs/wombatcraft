@@ -1,0 +1,332 @@
+{
+  "id": "3FACFF2C8EA1600D",
+  "filename": "wc_frontier_tardis_rooms",
+  "title": "A Home Beyond the Door",
+  "group": "00AA8F374274B5F3",
+  "icon": "tardis_rooms:tardis_interface",
+  "order_index": 90,
+  "default_quest_shape": "circle",
+  "autofocus_id": "2AF37DFC90F69929",
+  "quests": [
+    {
+      "id": "2AF37DFC90F69929",
+      "title": "Space to grow",
+      "icon": "tardis_rooms:tardis_interface",
+      "description": [
+        "Find a Room Growth Node in the corridor hub. Use your sonic screwdriver to open the room catalogue and inspect its floor map."
+      ],
+      "subtitle": "",
+      "x": 0,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.3,
+      "optional": true,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "58B2B4F43F520C50",
+          "type": "checkmark",
+          "title": "Space to grow"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "51BDD90B71D3F7DC",
+          "type": "item",
+          "item": "minecraft:lantern",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "4ADC3ABC510526AA",
+      "title": "Your first chamber",
+      "icon": "tardis_rooms:tardis_interface",
+      "description": [
+        "Grow a small room from an available node. Expansion itself costs no materials; the workshop you build inside is yours to furnish."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "2AF37DFC90F69929"
+      ],
+      "tasks": [
+        {
+          "id": "0B0C441302CAFE13",
+          "type": "checkmark",
+          "title": "Your first chamber"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2F1DFF3C9FF23C49",
+          "type": "item",
+          "item": "minecraft:chest",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "228C712C1EAF2E58",
+      "title": "A network of passages",
+      "icon": "tardis_rooms:tardis_interface",
+      "description": [
+        "Add a corridor and a second room. Leave room for future branches and keep important routes connected to the hub."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "2AF37DFC90F69929"
+      ],
+      "tasks": [
+        {
+          "id": "05018F40F0E00029",
+          "type": "checkmark",
+          "title": "A network of passages"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5D4ECB3EBC4F0581",
+          "type": "item",
+          "item": "minecraft:stone_bricks",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "03AA7CD11D5AE78B",
+      "title": "Room for industry",
+      "icon": "tardis_rooms:tardis_interface",
+      "description": [
+        "Choose a larger room for machines. Reserve separate areas for processing, storage and power before running cables."
+      ],
+      "subtitle": "",
+      "x": 3,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "2AF37DFC90F69929"
+      ],
+      "tasks": [
+        {
+          "id": "4706BADC64585A27",
+          "type": "checkmark",
+          "title": "Room for industry"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "671A0231DB6AA5D8",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "065F7D7A794458FF",
+      "title": "Across the threshold",
+      "icon": "tardis_rooms:tardis_interface",
+      "description": [
+        "Craft a pair of TARDIS Interfaces. Give them matching link IDs and select input and output directions. Interfaces transfer resources; they do not store them."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "4ADC3ABC510526AA"
+      ],
+      "tasks": [
+        {
+          "id": "0A75B4851276053C",
+          "type": "item",
+          "item": "tardis_rooms:tardis_interface",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13B6E5C4F1DB3EB1",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "5201BCA666259292",
+      "title": "Power and supplies",
+      "icon": "tardis_rooms:tardis_interface",
+      "description": [
+        "Connect a small energy or item transfer first. Configure each face deliberately, and disable unused sides before connecting valuable storage."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "228C712C1EAF2E58"
+      ],
+      "tasks": [
+        {
+          "id": "1A5277FA16056B9D",
+          "type": "checkmark",
+          "title": "Power and supplies"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "344EEA4A4258C2E2",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "7A9D34AC843B7385",
+      "title": "A chemical laboratory",
+      "icon": "tardis_rooms:tardis_interface",
+      "description": [
+        "Select Mekanism chemical transfer on linked interfaces. Start with a small buffer and verify the destination accepts the correct chemical."
+      ],
+      "subtitle": "",
+      "x": 6,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "03AA7CD11D5AE78B"
+      ],
+      "tasks": [
+        {
+          "id": "1C8AEF74EAD031F7",
+          "type": "checkmark",
+          "title": "A chemical laboratory"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2C6D723C8C0D300E",
+          "type": "item",
+          "item": "mekanism:basic_chemical_tank",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "4376CBE0C4B29D85",
+      "title": "A connected archive",
+      "icon": "tardis_rooms:tardis_interface",
+      "description": [
+        "Connect AE2 ME networks through the interface. Keep the network powered and check channels and connected devices after linking."
+      ],
+      "subtitle": "",
+      "x": 9,
+      "y": -4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "065F7D7A794458FF"
+      ],
+      "tasks": [
+        {
+          "id": "67251EB49E7908B7",
+          "type": "checkmark",
+          "title": "A connected archive"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0036B1B1D81B9675",
+          "type": "item",
+          "item": "ae2:fluix_crystal",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "4BB017FE80C36E73",
+      "title": "A workshop that travels",
+      "icon": "tardis_rooms:tardis_interface",
+      "description": [
+        "Link an exterior interface near the landed shell to an interior interface. Check the connection after moving the TARDIS; do not depend on unloaded destinations."
+      ],
+      "subtitle": "",
+      "x": 9,
+      "y": 0,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "5201BCA666259292"
+      ],
+      "tasks": [
+        {
+          "id": "2F5CADE40966A962",
+          "type": "checkmark",
+          "title": "A workshop that travels"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18E3DA8A60640EF4",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "79ED41418D418B6E",
+      "title": "Renovate with care",
+      "icon": "tardis_rooms:tardis_interface",
+      "description": [
+        "Use a Room Control Block to name or rearrange a room. Empty machines and storage before removal. The Remove all confirmation destroys remaining contents rather than dropping them."
+      ],
+      "subtitle": "",
+      "x": 9,
+      "y": 4,
+      "shape": "circle",
+      "size": 1.05,
+      "optional": true,
+      "dependencies": [
+        "7A9D34AC843B7385"
+      ],
+      "tasks": [
+        {
+          "id": "0F977F85AC205781",
+          "type": "checkmark",
+          "title": "Renovate with care"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5C439EBD5E9E4912",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

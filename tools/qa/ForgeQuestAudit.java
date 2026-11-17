@@ -14,7 +14,9 @@ public class ForgeQuestAudit {
   try { Object bus=Class.forName("net.minecraftforge.common.MinecraftForge").getField("EVENT_BUS").get(null);Class.forName("net.minecraftforge.eventbus.api.IEventBus").getMethod("register",Object.class).invoke(bus,this); } catch(Exception e){throw new RuntimeException(e);}
  }
  @SubscribeEvent public void started(ServerStartedEvent event){audit();auditRecipes(event);auditAdvancements(event);auditCommands(event);auditPortalChunkTracking(event);auditPortalPolicy();
-  try { frontierServer = call(event, "getServer"); FrontierAudit.prepare(frontierServer); }
+  try {
+   for(String name:List.of("leonus.tardis_rooms.room.RoomGrowth","leonus.tardis_rooms.network.InterfacePayload","leonus.tardis_rooms.network.ManagePayloads$Rename","leonus.tardis_rooms.iface.InterfaceTools","dev.jeryn.mc.rwf.common.entity.FlightTracker")) Class.forName(name);
+   frontierServer = call(event, "getServer"); FrontierAudit.prepare(frontierServer); }
   catch (Exception e) { throw new IllegalStateException("Frontier gameplay audit failed", e); }
  }
  @SubscribeEvent public void tick(TickEvent.ServerTickEvent event){

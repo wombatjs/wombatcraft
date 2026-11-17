@@ -1,0 +1,8 @@
+disableProceduralRooms = true
+simplifyHub = false
+debug = false
+
+[compat]
+mekanism = true
+ae2 = true
+jade = true

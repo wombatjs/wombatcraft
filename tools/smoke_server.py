@@ -95,6 +95,7 @@ for boot in range(2):
    assert 'Incomplete recipe detected: mekanism:crushing/venus_sandstone_to_venus_sand' not in text,'Broken Venus sandstone ingredient'
    for tag in ['minecraft:impermeable','minecraft:arthropod','minecraft:enchantable/durability','minecraft:head_armor','minecraft:chest_armor','minecraft:leg_armor','minecraft:foot_armor','eternal_starlight:placeable']:
     assert "Couldn't load tag "+tag+' as' not in text,'Unresolved expansion tag: '+tag
+   assert text.count('Wombatcraft Rooms claim guard applied:')==4,'Rooms claim guards did not load'
    assert 'Wombatcraft portal chunk guard applied' in text,'Portal chunk guard did not load'
    assert 'Wombatcraft Aurorian dedicated-server packet guard applied' in text,'Aurorian server packet guard did not load'
    assert 'Wombatcraft Aurorian crafting remainder fix applied' in text,'Aurorian crafting fix did not load'

@@ -35,6 +35,9 @@ OLD_KEYS = {
  'key_key.lightmanscurrency.open_wallet': ('v',),
  'key_key.mekanism.legs_mode': ('j',),
  'key_key.ars_elemental.open_pouch': ('j',),
+ 'key_key.tardis_refined_rwf.exit_flight': ('tab',),
+ 'key_key.tardis_refined_rwf.free_fall': ('q',),
+ 'key_key.tardis_refined_rwf.local_hop': ('r',),
  'key_key.toolbelt.open': ('r',),
  'key_crafting_on_a_stick.key.open_curios': ('v',),
 }
@@ -75,7 +78,7 @@ def seed_journeymap_controls(current, defaults):
  bindings = dict(line.split(b':', 1) for line in current.splitlines() if line.startswith(b'key_') and b':' in line)
  result = current
  for line in defaults.splitlines():
-  if not line.startswith((b'key_key.journeymap.', b'key_key.toolbelt.', b'key_crafting_on_a_stick.', b'key_key.inventoryessentials.sort_inventory')) or b':' not in line:continue
+  if not line.startswith((b'key_key.journeymap.', b'key_key.toolbelt.', b'key_key.tardis_refined_rwf.', b'key_crafting_on_a_stick.', b'key_key.inventoryessentials.sort_inventory')) or b':' not in line:continue
   name, target = line.split(b':', 1)
   if name in bindings:continue
   if target in bindings.values():target = b'key.keyboard.unknown'

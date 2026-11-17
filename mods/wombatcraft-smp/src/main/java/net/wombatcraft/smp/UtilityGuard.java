@@ -47,6 +47,7 @@ public final class UtilityGuard {
             &&permitted(player,from,Protection.INTERACT_BLOCK)&&permitted(player,to,Protection.INTERACT_BLOCK);
     }
     private static boolean combat(ServerPlayer p){return COMBAT.getOrDefault(p.getUUID(),0L)>p.server.getTickCount();}
+    public static boolean travel(ServerPlayer p){return p!=null&&!ArenaGuard.arena(p.level())&&!combat(p);}
     public static boolean market(ServerPlayer p){return SmpNetwork.atSpawn(p)&&!ArenaGuard.arena(p.level())&&!combat(p);}
     @SubscribeEvent public static void hit(LivingHurtEvent e){
         if(!e.isCanceled()&&e.getAmount()>0&&e.getEntity() instanceof ServerPlayer victim&&e.getSource().getEntity() instanceof ServerPlayer attacker&&victim!=attacker){

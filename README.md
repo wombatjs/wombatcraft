@@ -4,7 +4,7 @@ A shared frontier of industry, spellcraft, exploration and settlement for Minecr
 
 ## Development status
 
-The pack contains 342 pinned upstream mod files and 3,077 quests across 111 chapters, plus Wombatcraft's generated compatibility and community modules. The quest book includes workshop projects, boss hunts, planetary landings, supernatural progression and archaeology. Automated release validation boots a Forge world and checks quest IDs, item references, endgame recipes and server commands, then repeats the check after a clean restart.
+The pack contains 344 pinned upstream mod files and 3,093 quests across 113 chapters, plus Wombatcraft's generated compatibility and community modules. The quest book includes workshop projects, boss hunts, planetary landings, supernatural progression and archaeology. Automated release validation boots a Forge world and checks quest IDs, item references, endgame recipes and server commands, then repeats the check after a clean restart.
 
 The public server is `74.208.117.88:25565`, hosted in Pterodactyl through the existing proxy. Download the Windows launcher from [Releases](https://github.com/wombatjs/wombatcraft/releases/latest).
 
