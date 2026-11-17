@@ -4,5 +4,14 @@
   "wombatcraft.convergence_forging": "Convergence Forge",
   "wombatcraft.trial_twilight": "Trial of the Thornwood",
   "wombatcraft.trial_aether": "Trial of the High Sky",
-  "wombatcraft.trial_otherside": "Trial of the Echo"
+  "wombatcraft.trial_otherside": "Trial of the Echo",
+  "block.wombatcraft.arcane_infuser": "Arcane Infuser",
+  "item.wombatcraft.arcane_infuser": "Arcane Infuser",
+  "wombatcraft.arcane_infuser": "Arcane Infuser",
+  "block.wombatcraft.dimensional_stabilizer": "Dimensional Stabilizer",
+  "item.wombatcraft.dimensional_stabilizer": "Dimensional Stabilizer",
+  "wombatcraft.dimensional_stabilizer": "Dimensional Stabilizer",
+  "block.wombatcraft.convergence_matrix": "Convergence Matrix",
+  "item.wombatcraft.convergence_matrix": "Convergence Matrix",
+  "wombatcraft.convergence_matrix": "Convergence Matrix"
 }

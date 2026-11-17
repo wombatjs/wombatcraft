@@ -4,7 +4,9 @@ A shared frontier of industry, spellcraft, exploration and settlement for Minecr
 
 ## Development status
 
-The pack contains 344 pinned upstream mod files and 3,093 quests across 113 chapters, plus Wombatcraft's generated compatibility and community modules. The quest book includes workshop projects, boss hunts, planetary landings, supernatural progression and archaeology. Automated release validation boots a Forge world and checks quest IDs, item references, endgame recipes and server commands, then repeats the check after a clean restart.
+The pack-specific [Convergence progression foundation](docs/CONVERGENCE.md) adds six disciplines, four material tiers, 47 progression recipes, four processing stations, individual research, two quest chapters, Resonant Ore and expedition equipment. See its acceptance notes before release.
+
+The pack contains 344 pinned upstream mod files and 3,142 quests across 117 chapters, plus Wombatcraft's generated compatibility and community modules. The quest book includes workshop projects, boss hunts, planetary landings, supernatural progression and archaeology. Automated release validation boots a Forge world and checks quest IDs, item references, endgame recipes and server commands, then repeats the check after a clean restart.
 
 The public server is `74.208.117.88:25565`, hosted in Pterodactyl through the existing proxy. Download the Windows launcher from [Releases](https://github.com/wombatjs/wombatcraft/releases/latest).
 
@@ -14,6 +16,8 @@ Click **Play** in Wombatcraft to check and install the current pack. Wombatcraft
 
 `pack/` contains distributable configuration, original quests and scripts. `mod-lock.json` pins upstream downloads and hashes; third-party mod binaries are not stored in Git. The earlier Fabric pack remains a separate backup.
 
+The [Main Journey and Adventure Journal](docs/MAIN-JOURNEY.md) preserve all 3,126 original quests, add 72 linked milestones and provide personal next objectives through `/journey`.
+
 ## Graphics and multiplayer
 
 Embeddium, ImmediatelyFast and Dynamic FPS are included. TARDIS Refined uses the tested Immersive Portals compatibility renderer with see-through doors and direct threshold traversal. Oculus and the bundled shader pack are excluded from this release to match the accepted portal setup.
@@ -22,7 +26,7 @@ Open the FTB Chunks map with **M**. Cobblemon uses **,** for the party summary, 
 
 Members can set three homes with `/sethome`. Use `/home`, `/spawn`, `/tpa` and `/warp` to get around. FTB Chunks manages claims and Lightman’s Currency provides coins and player shops. Titles unlock through advancements, and Cosmetic Armor lets players change the appearance of their armor.
 
-Use `/faction` for community management and the town ballot. The election roster rotates 50 candidates through eight-candidate primaries and three-candidate finals. `/contracts` opens daily, community and factory orders at spawn. Staff can place the [mayor and secretary](docs/CIVIC-RESIDENTS.md).
+Use `/faction` for faction members and shared land, `/townhall` for the town ballot, and `/contracts` for orders. Each has a separate pause-menu button. Quest and research progress belongs to each player, independently of factions. The election roster rotates 50 candidates through eight-candidate primaries and three-candidate finals. `/contracts` opens daily, community and factory orders at spawn. Staff can place the [mayor and secretary](docs/CIVIC-RESIDENTS.md).
 
 Easy NPC provides configurable residents. Staff set the first-visit tutorial entrance with `/settutorialspawn`; players return with `/tutorial`. See [tutorial arrivals](docs/TUTORIAL-SPAWN.md). Arena duels and combat-logout bodies remain unavailable; their unfinished adapters are not activated in this release.
 

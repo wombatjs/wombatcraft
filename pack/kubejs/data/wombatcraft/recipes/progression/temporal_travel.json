@@ -1,0 +1,58 @@
+{
+  "type": "wombatcraft:dimensional_stabilizer",
+  "duration": 200,
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:temporal_core"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 4,
+          "ingredient": {
+            "item": "minecraft:ender_pearl"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 8,
+          "ingredient": {
+            "item": "minecraft:amethyst_shard"
+          }
+        }
+      }
+    ],
+    "forge_energy": [
+      {
+        "content": 200000
+      }
+    ],
+    "botania_mana": [
+      {
+        "content": 12000
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "waystones:warp_stone"
+          }
+        }
+      }
+    ]
+  }
+}

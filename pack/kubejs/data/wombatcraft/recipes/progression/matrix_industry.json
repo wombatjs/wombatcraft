@@ -1,0 +1,58 @@
+{
+  "type": "wombatcraft:convergence_matrix",
+  "duration": 800,
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 2,
+          "ingredient": {
+            "item": "kubejs:mechanized_core"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 4,
+          "ingredient": {
+            "item": "kubejs:stabilized_flux"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 16,
+          "ingredient": {
+            "item": "mekanism:ingot_uranium"
+          }
+        }
+      }
+    ],
+    "forge_energy": [
+      {
+        "content": 3000000
+      }
+    ],
+    "botania_mana": [
+      {
+        "content": 180000
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 4,
+          "ingredient": {
+            "item": "mekanism:pellet_polonium"
+          }
+        }
+      }
+    ]
+  }
+}

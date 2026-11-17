@@ -1,0 +1,67 @@
+{
+  "type": "wombatcraft:dimensional_stabilizer",
+  "duration": 600,
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 4,
+          "ingredient": {
+            "item": "kubejs:astralium_ingot"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:stellar_core"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 16,
+          "ingredient": {
+            "item": "minecraft:phantom_membrane"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 32,
+          "ingredient": {
+            "item": "minecraft:feather"
+          }
+        }
+      }
+    ],
+    "forge_energy": [
+      {
+        "content": 1000000
+      }
+    ],
+    "botania_mana": [
+      {
+        "content": 60000
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "minecraft:elytra"
+          }
+        }
+      }
+    ]
+  }
+}

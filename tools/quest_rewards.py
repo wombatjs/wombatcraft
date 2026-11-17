@@ -12,7 +12,7 @@ def apply_rewards(book, uid, registry):
     matched = set()
     for chapter in book.values():
         # These routes already have authored rewards. Preserve them on rebuild.
-        if chapter.get('filename', '').startswith('wc_frontier_') or chapter.get('filename') == '01_tardis':
+        if chapter.get('filename', '').startswith(('wc_frontier_', 'wc_convergence_')) or chapter.get('filename') == '01_tardis':
             continue
         group = groups.get(chapter.get('group'), '')
         for index, quest in enumerate(chapter['quests']):

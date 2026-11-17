@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:magic",
+    "minecraft:indirect_magic",
+    "ars_nouveau:crush",
+    "ars_nouveau:flare",
+    "ars_nouveau:frost",
+    "ars_nouveau:spell",
+    "ars_nouveau:windshear",
+    "irons_spellbooks:blood_magic",
+    "irons_spellbooks:eldritch_magic",
+    "irons_spellbooks:ender_magic",
+    "irons_spellbooks:evocation_magic",
+    "irons_spellbooks:fire_magic",
+    "irons_spellbooks:holy_magic",
+    "irons_spellbooks:ice_magic",
+    "irons_spellbooks:lightning_magic",
+    "irons_spellbooks:nature_magic",
+    "mna:spell_briars",
+    "mna:spell_conflagrate",
+    "mna:spell_disperse",
+    "mna:spell_frost",
+    "mna:spell_lightning",
+    "cataclysm:abyssal_burn",
+    "cataclysm:flame_strike",
+    "cataclysm:maledictio_magicae"
+  ]
+}

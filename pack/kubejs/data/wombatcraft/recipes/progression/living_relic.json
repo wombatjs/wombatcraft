@@ -1,0 +1,49 @@
+{
+  "type": "wombatcraft:arcane_infuser",
+  "duration": 240,
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:ancient_core"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:primal_core"
+          }
+        }
+      }
+    ],
+    "forge_energy": [
+      {
+        "content": 400000
+      }
+    ],
+    "botania_mana": [
+      {
+        "content": 24000
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:living_relic"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -13,7 +13,7 @@ public class ForgeQuestAudit {
  public ForgeQuestAudit(){
   try { Object bus=Class.forName("net.minecraftforge.common.MinecraftForge").getField("EVENT_BUS").get(null);Class.forName("net.minecraftforge.eventbus.api.IEventBus").getMethod("register",Object.class).invoke(bus,this); } catch(Exception e){throw new RuntimeException(e);}
  }
- @SubscribeEvent public void started(ServerStartedEvent event){audit();auditRecipes(event);auditAdvancements(event);auditCommands(event);auditPortalChunkTracking(event);auditPortalPolicy();
+ @SubscribeEvent public void started(ServerStartedEvent event){audit();auditJourney(event);auditRecipes(event);auditAdvancements(event);auditCommands(event);auditPortalChunkTracking(event);auditPortalPolicy();
   try {
    for(String name:List.of("leonus.tardis_rooms.room.RoomGrowth","leonus.tardis_rooms.network.InterfacePayload","leonus.tardis_rooms.network.ManagePayloads$Rename","leonus.tardis_rooms.iface.InterfaceTools","dev.jeryn.mc.rwf.common.entity.FlightTracker")) Class.forName(name);
    frontierServer = call(event, "getServer"); FrontierAudit.prepare(frontierServer); }
@@ -124,6 +124,60 @@ public class ForgeQuestAudit {
   }catch(Exception e){e.printStackTrace();}
  }
  static Object call(Object o,String name)throws Exception{return o.getClass().getMethod(name).invoke(o);}
+ static void auditJourney(Object event){
+  try{
+   Object file=Class.forName("dev.ftb.mods.ftbquests.quest.ServerQuestFile").getField("INSTANCE").get(null);
+   Class<?> base=Class.forName("dev.ftb.mods.ftbquests.quest.BaseQuestFile"),teamType=Class.forName("dev.ftb.mods.ftbquests.quest.TeamData"),objectType=Class.forName("dev.ftb.mods.ftbquests.quest.QuestObject"),questType=Class.forName("dev.ftb.mods.ftbquests.quest.Quest");
+   Object team=teamType.getConstructor(UUID.class,base).newInstance(UUID.randomUUID(),file);
+   Class<?> service=Class.forName("net.wombatcraft.smp.JourneyService");
+   Object server=call(event,"getServer");
+   List<?> catalog=(List<?>)service.getMethod("catalog",Class.forName("net.minecraft.server.MinecraftServer")).invoke(null,server);
+   if(catalog.size()!=72)throw new IllegalStateException("Journey catalog size");
+   Method recommend=service.getMethod("recommend",Object.class,Object.class,List.class,String.class);
+   String before=call(team,"serializeNBT").toString();
+   List<?> suggestions=(List<?>)recommend.invoke(null,file,team,catalog,"all");
+   if(suggestions.isEmpty())throw new IllegalStateException("New team has no next objective");
+   for(Object suggestion:suggestions){
+    Object quest=file.getClass().getMethod("getQuest",long.class).invoke(file,Long.parseLong(call(suggestion,"id").toString(),16));
+    if(!(Boolean)teamType.getMethod("canStartTasks",questType).invoke(team,quest))throw new IllegalStateException("Unreachable suggestion");
+   }
+   for(Object suggestion:(List<?>)recommend.invoke(null,file,team,catalog,"magic"))
+    if(!call(suggestion,"branch").equals("magic"))throw new IllegalStateException("Branch filter failed");
+   if(!before.equals(call(team,"serializeNBT").toString()))throw new IllegalStateException("Recommendations mutated progress");
+   String completed=call(suggestions.get(0),"id").toString();
+   teamType.getMethod("setCompleted",long.class,Date.class).invoke(team,Long.parseLong(completed,16),new Date());
+   teamType.getMethod("clearCachedProgress").invoke(team);
+   for(Object suggestion:(List<?>)recommend.invoke(null,file,team,catalog,"all"))
+    if(call(suggestion,"id").equals(completed))throw new IllegalStateException("Completed quest suggested again");
+   List<String> links=new ArrayList<>();
+   for(Object chapter:(Iterable<?>)call(file,"getAllChapters"))for(Object link:(Iterable<?>)call(chapter,"getQuestLinks")){
+    Object target=((Optional<?>)call(link,"getQuest")).orElseThrow();
+    String id=call(target,"getCodeString").toString();
+    if(target!=file.getClass().getMethod("getQuest",long.class).invoke(file,Long.parseLong(id,16)))throw new IllegalStateException("Link cloned quest");
+    // QuestLink itself is a navigation wrapper with no task progress. Its
+    // resolved Quest is the same instance used by the source chapter and UI.
+    if(id.equals(completed)&&!(Boolean)teamType.getMethod("isCompleted",objectType).invoke(team,target))throw new IllegalStateException("Resolved link lost source completion");
+    links.add(call(link,"getCodeString")+"\t"+id);
+   }
+   if(links.size()!=91)throw new IllegalStateException("Journey links missing: "+links.size());
+   int simulated=1;
+   for(int wave=0;wave<4096;wave++){
+    List<?> next=(List<?>)recommend.invoke(null,file,team,catalog,"all");
+    if(next.isEmpty())break;
+    for(Object suggestion:next){
+     teamType.getMethod("setCompleted",long.class,Date.class).invoke(team,Long.parseLong(call(suggestion,"id").toString(),16),new Date());
+     simulated++;
+    }
+    teamType.getMethod("clearCachedProgress").invoke(team);
+   }
+   for(Object milestone:catalog){
+    Object quest=file.getClass().getMethod("getQuest",long.class).invoke(file,Long.parseLong(call(milestone,"id").toString(),16));
+    if(!(Boolean)teamType.getMethod("isCompleted",objectType).invoke(team,quest))throw new IllegalStateException("Guide cannot reach "+call(milestone,"title"));
+   }
+   Files.write(Path.of("quest-link-runtime-audit.tsv"),links);
+   System.out.println("JOURNEY_AUDIT_COMPLETE milestones="+catalog.size()+" links="+links.size()+" simulated_steps="+simulated+" read_only=true");
+  }catch(Exception e){throw new IllegalStateException("Journey audit failed",e);}
+ }
  static void audit(){
   try{
    // Registry IDs validate item goals independently of lenient quest codecs.

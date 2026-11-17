@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:resonant_alloy"
+    },
+    {
+      "item": "botania:mana_diamond"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    },
+    {
+      "item": "botania:manasteel_ingot"
+    }
+  ],
+  "result": {
+    "item": "kubejs:arcane_core",
+    "count": 1
+  }
+}

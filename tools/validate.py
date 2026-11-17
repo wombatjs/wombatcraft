@@ -5,14 +5,19 @@ chapters=[json.loads(p.read_text(encoding='utf-8')) for p in (ROOT/'pack/config/
 for p in (ROOT/'pack/config/ftbquests/quests/chapters').glob('*.snbt'):
  assert json.loads(p.read_text(encoding='utf-8')).get('filename')==p.stem,'Stable chapter filename is required'
 quests=[q for c in chapters for q in c['quests']];ids=[]
+quest_ids={q['id'] for q in quests}
 for c in chapters:
  positions=set();ids.append(c['id'])
- for q in c['quests']:
+ nodes=c['quests']+c.get('quest_links',[])
+ for link in c.get('quest_links',[]):
+  assert link['linked_quest'] in quest_ids,'Broken quest link '+link['id']
+  assert not link.get('tasks') and not link.get('rewards'),'Links must reuse original progress and rewards'
+ for q in nodes:
   point=(q['x'],q['y']);assert point not in positions,(c['title'],point);positions.add(point)
   ids.extend([q['id']]+[x['id'] for x in q.get('tasks',[])]+[x['id'] for x in q.get('rewards',[])])
- for left,right in itertools.combinations(c['quests'],2):
+ for left,right in itertools.combinations(nodes,2):
   spacing=(left.get('size',1)+right.get('size',1))/2
-  assert abs(left['x']-right['x'])>=spacing or abs(left['y']-right['y'])>=spacing,(c['title'],left['title'],right['title'])
+  assert abs(left['x']-right['x'])>=spacing or abs(left['y']-right['y'])>=spacing,(c['title'],left.get('title',left['id']),right.get('title',right['id']))
  if 'autofocus_id' in c:
   assert any(q['id']==c['autofocus_id'] for q in c['quests']),c['title']
  for image in c.get('images',[]):

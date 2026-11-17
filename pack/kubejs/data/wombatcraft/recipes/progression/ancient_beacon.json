@@ -1,0 +1,58 @@
+{
+  "type": "wombatcraft:convergence_forging",
+  "duration": 200,
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:ancient_core"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 3,
+          "ingredient": {
+            "item": "minecraft:obsidian"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 5,
+          "ingredient": {
+            "item": "minecraft:glass"
+          }
+        }
+      }
+    ],
+    "forge_energy": [
+      {
+        "content": 200000
+      }
+    ],
+    "botania_mana": [
+      {
+        "content": 12000
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "minecraft:beacon"
+          }
+        }
+      }
+    ]
+  }
+}

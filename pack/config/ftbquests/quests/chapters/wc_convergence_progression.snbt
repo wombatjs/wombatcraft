@@ -1,0 +1,341 @@
+{
+  "id": "53CF29F57CB8581F",
+  "filename": "wc_convergence_progression",
+  "title": "The Convergence: Six Disciplines",
+  "group": "0F095C8E4FA42163",
+  "order_index": 59,
+  "icon": "kubejs:resonant_alloy",
+  "quests": [
+    {
+      "id": "51FB071ECC6345D0",
+      "title": "Resonant Alloy",
+      "icon": "kubejs:resonant_alloy",
+      "x": 0,
+      "y": 0,
+      "description": [
+        "Start with Create and an amethyst discovery. Resonant Alloy supports circuits and railways. Choose a specialty or trade with another workshop.",
+        "Trade is welcome: these tasks detect items without consuming them. Quest progress belongs to you, even when you join or leave a faction. Recipes remain tradeable."
+      ],
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "12364B02E613EF05",
+          "type": "item",
+          "item": "kubejs:resonant_alloy",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "74F376FE41DB7380",
+      "title": "Mechanized Core",
+      "icon": "kubejs:mechanized_core",
+      "x": -6,
+      "y": 3,
+      "description": [
+        "Industry supplies circuits, precision mechanisms and processors. Spend Mechanized Cores on processor batches in the Forge.",
+        "Trade is welcome: these tasks detect items without consuming them. Quest progress belongs to you, even when you join or leave a faction. Recipes remain tradeable."
+      ],
+      "dependencies": [
+        "51FB071ECC6345D0"
+      ],
+      "tasks": [
+        {
+          "id": "71DFD0B8D19AA78D",
+          "type": "item",
+          "item": "kubejs:mechanized_core",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "46881BB70A10D7B4",
+      "title": "Arcane Core",
+      "icon": "kubejs:arcane_core",
+      "x": -3,
+      "y": 3,
+      "description": [
+        "Combine Botania and Ars Nouveau. Arcane Cores support bulk manasteel production and Aetherium.",
+        "Trade is welcome: these tasks detect items without consuming them. Quest progress belongs to you, even when you join or leave a faction. Recipes remain tradeable."
+      ],
+      "dependencies": [
+        "51FB071ECC6345D0"
+      ],
+      "tasks": [
+        {
+          "id": "4C487E31ED069F1D",
+          "type": "item",
+          "item": "kubejs:arcane_core",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "798E608AA0DC7C69",
+      "title": "Stellar Core",
+      "icon": "kubejs:stellar_core",
+      "x": 0,
+      "y": 3,
+      "description": [
+        "Explore the Ad Astra planets for desh, ostrum and calorite. Stellar Cores support Astralium and renewable calorite production.",
+        "Trade is welcome: these tasks detect items without consuming them. Quest progress belongs to you, even when you join or leave a faction. Recipes remain tradeable."
+      ],
+      "dependencies": [
+        "51FB071ECC6345D0"
+      ],
+      "tasks": [
+        {
+          "id": "6BBB54C02A4D923B",
+          "type": "item",
+          "item": "kubejs:stellar_core",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "40ECA6F77A74E065",
+      "title": "Ancient Core",
+      "icon": "kubejs:ancient_core",
+      "x": 3,
+      "y": 3,
+      "description": [
+        "Win the repeatable Thornwood Trial and defeat a Wither. Ancient Cores become beacons or Living Relics. An expensive Dimensional Stabilizer alternative supports repeat production.",
+        "Trade is welcome: these tasks detect items without consuming them. Quest progress belongs to you, even when you join or leave a faction. Recipes remain tradeable."
+      ],
+      "dependencies": [
+        "51FB071ECC6345D0"
+      ],
+      "tasks": [
+        {
+          "id": "1157BFF034661303",
+          "type": "item",
+          "item": "kubejs:ancient_core",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "379D8EE2C5116943",
+      "title": "Primal Core",
+      "icon": "kubejs:primal_core",
+      "x": 6,
+      "y": 3,
+      "description": [
+        "Grow Mystical Agriculture essence and maintain a farm. Primal Cores supply supremium farmland or bind ancient discoveries into Living Relics.",
+        "Trade is welcome: these tasks detect items without consuming them. Quest progress belongs to you, even when you join or leave a faction. Recipes remain tradeable."
+      ],
+      "dependencies": [
+        "51FB071ECC6345D0"
+      ],
+      "tasks": [
+        {
+          "id": "7E48248C43D8BFE3",
+          "type": "item",
+          "item": "kubejs:primal_core",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5B9DED36314DF341",
+      "title": "Temporal Core",
+      "icon": "kubejs:temporal_core",
+      "x": 9,
+      "y": 3,
+      "description": [
+        "Complete the repeatable High Sky and Echo Trials. Temporal Cores support travel and Aetherium; expensive industrial production becomes available after building the Dimensional Stabilizer.",
+        "Trade is welcome: these tasks detect items without consuming them. Quest progress belongs to you, even when you join or leave a faction. Recipes remain tradeable."
+      ],
+      "dependencies": [
+        "51FB071ECC6345D0"
+      ],
+      "tasks": [
+        {
+          "id": "798ED2B672906B9D",
+          "type": "item",
+          "item": "kubejs:temporal_core",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6AE86FABEBE1618D",
+      "title": "Aetherium Ingot",
+      "icon": "kubejs:aetherium_ingot",
+      "x": -3,
+      "y": 6,
+      "description": [
+        "Combine four Resonant Alloy with Arcane and Temporal Cores in the Convergence Forge. Supply 200,000 FE and 12,000 mana. Aetherium supports storage components and repeatable core production.",
+        "Trade is welcome: these tasks detect items without consuming them. Quest progress belongs to you, even when you join or leave a faction. Recipes remain tradeable."
+      ],
+      "dependencies": [
+        "46881BB70A10D7B4",
+        "5B9DED36314DF341"
+      ],
+      "tasks": [
+        {
+          "id": "5075C2E4053DA75B",
+          "type": "item",
+          "item": "kubejs:aetherium_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4D24674B33D16DC2",
+      "title": "Astralium Ingot",
+      "icon": "kubejs:astralium_ingot",
+      "x": 0,
+      "y": 9,
+      "description": [
+        "Combine four Aetherium with Stellar and Mechanized Cores. Supply 600,000 FE and 30,000 mana. Astralium can produce elytra from renewable materials, supplying explorers and the Voyager Sigil without exhausting End ships.",
+        "Trade is welcome: these tasks detect items without consuming them. Quest progress belongs to you, even when you join or leave a faction. Recipes remain tradeable."
+      ],
+      "dependencies": [
+        "6AE86FABEBE1618D",
+        "798E608AA0DC7C69",
+        "74F376FE41DB7380"
+      ],
+      "tasks": [
+        {
+          "id": "346AC390DCE2BC57",
+          "type": "item",
+          "item": "kubejs:astralium_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "617E71B7A0D595CA",
+      "title": "Living Relic",
+      "icon": "kubejs:living_relic",
+      "x": 6,
+      "y": 6,
+      "description": [
+        "Fuse Ancient and Primal Cores with 400,000 FE and 24,000 mana. This compact reagent brings adventure and nature into the final alloy.",
+        "Trade is welcome: these tasks detect items without consuming them. Quest progress belongs to you, even when you join or leave a faction. Recipes remain tradeable."
+      ],
+      "dependencies": [
+        "40ECA6F77A74E065",
+        "379D8EE2C5116943"
+      ],
+      "tasks": [
+        {
+          "id": "52D7CF56F987EDA2",
+          "type": "item",
+          "item": "kubejs:living_relic",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2BB745DBC0662909",
+      "title": "Convergium Ingot",
+      "icon": "kubejs:convergium_ingot",
+      "x": 3,
+      "y": 12,
+      "description": [
+        "All six disciplines meet here. Forge four Astralium, a Living Relic, and one each of the Mechanized, Arcane, Stellar and Temporal Cores with 2,000,000 FE and 120,000 mana. Spend Convergium on automation, singularities or the Convergence Core.",
+        "Trade is welcome: these tasks detect items without consuming them. Quest progress belongs to you, even when you join or leave a faction. Recipes remain tradeable."
+      ],
+      "dependencies": [
+        "4D24674B33D16DC2",
+        "617E71B7A0D595CA"
+      ],
+      "tasks": [
+        {
+          "id": "79D94703A53FF61E",
+          "type": "item",
+          "item": "kubejs:convergium_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3457BFD931A1B035",
+      "title": "Resonant deposits",
+      "icon": "wombatcraft_smp:resonant_ore",
+      "x": -3,
+      "y": 0,
+      "description": [
+        "Look for violet Resonant Ore in newly explored Overworld stone between Y 0 and 80. Mine with an iron pickaxe or better. Its crystals double the alloy yield. Existing worlds can use amethyst instead; no reset is needed."
+      ],
+      "tasks": [
+        {
+          "id": "2DA0CB4E55316AD8",
+          "type": "item",
+          "item": "wombatcraft_smp:resonant_crystal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "4D77B820F6DC2DEF",
+      "title": "Arcane field equipment",
+      "icon": "wombatcraft_smp:aetherium_chestplate",
+      "x": -6,
+      "y": 9,
+      "dependencies": [
+        "6AE86FABEBE1618D"
+      ],
+      "description": [
+        "Craft all four Aetherium armor pieces using the usual armor patterns. A complete set reduces magic and indirect magic damage from non-player sources by 20%. Defense and durability match diamond armor; repair with diamonds. Astralium Boots trade the full-set bonus for reduced fall damage."
+      ],
+      "tasks": [
+        {
+          "id": "46ADFF480798513B",
+          "type": "item",
+          "item": "wombatcraft_smp:aetherium_helmet",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "59F0AECB63F7C330",
+          "type": "item",
+          "item": "wombatcraft_smp:aetherium_chestplate",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "2E0BD837ACFC7F57",
+          "type": "item",
+          "item": "wombatcraft_smp:aetherium_leggings",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "08FC3FF7DEDE9401",
+          "type": "item",
+          "item": "wombatcraft_smp:aetherium_boots",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

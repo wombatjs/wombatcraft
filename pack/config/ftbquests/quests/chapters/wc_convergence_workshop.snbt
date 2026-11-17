@@ -1,0 +1,469 @@
+{
+  "id": "2124FCB4340EAC47",
+  "filename": "wc_convergence_workshop",
+  "title": "Convergence: Workshops and Expeditions",
+  "group": "0F095C8E4FA42163",
+  "order_index": 60,
+  "icon": "wombatcraft_smp:research_terminal",
+  "quests": [
+    {
+      "id": "78156914242DA3C4",
+      "title": "Research Terminal",
+      "icon": "wombatcraft_smp:research_terminal",
+      "x": 0,
+      "y": 0,
+      "description": [
+        "Carry discoveries to the terminal and press Record. Knowledge belongs to you and survives replacing the terminal or changing factions. Record your own carried evidence; recipes and materials remain tradeable."
+      ],
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "67FB3366A8A4A1A1",
+          "type": "item",
+          "item": "wombatcraft_smp:research_terminal",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5596CF6BD8AA3A4F",
+      "title": "Read the stone",
+      "icon": "wombatcraft_smp:resonant_prospector",
+      "x": 4,
+      "y": 0,
+      "description": [
+        "Use the prospector to locate Resonant Ore in an 8-block cube. It checks loaded terrain only, has 128 scans and a five-second cooldown. Amethyst crafting remains an alternative for established worlds."
+      ],
+      "dependencies": [
+        "78156914242DA3C4"
+      ],
+      "tasks": [
+        {
+          "id": "10B82118531A4620",
+          "type": "item",
+          "item": "wombatcraft_smp:resonant_prospector",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6FD1199C48023A5D",
+      "title": "Build the first workshop",
+      "icon": "wombatcraft:convergence_forge",
+      "x": 8,
+      "y": 0,
+      "description": [
+        "All four processing stations use a six-block wall. Facing the controller, build the bottom row: frame, controller, frame. The top row is cap, frame, cap. For this Forge use brass blocks as frames and crying obsidian as caps. Supply FE and aim a Botania Mana Spreader at the controller. Its six input slots and two output slots accept item pipes."
+      ],
+      "dependencies": [
+        "78156914242DA3C4"
+      ],
+      "tasks": [
+        {
+          "id": "66D8E8414A46D237",
+          "type": "item",
+          "item": "wombatcraft:convergence_forge",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6FA654F9522AD877",
+      "title": "Arcane Infuser",
+      "icon": "wombatcraft:arcane_infuser",
+      "x": 12,
+      "y": 0,
+      "description": [
+        "After your first Aetherium batch, build an Infuser. Use the same wall pattern with manasteel block frames and amethyst block caps. This station makes catalysts, Living Relics, farmland, mana metals, storage crystals and expedition supplies. Both FE and mana are required."
+      ],
+      "dependencies": [
+        "6FD1199C48023A5D"
+      ],
+      "tasks": [
+        {
+          "id": "6A4659F6AEC4C0AA",
+          "type": "item",
+          "item": "wombatcraft:arcane_infuser",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6217374E09662BC0",
+      "title": "A market for magic and nature",
+      "icon": "kubejs:infused_catalyst",
+      "x": 0,
+      "y": 4,
+      "description": [
+        "One Arcane Core, one Primal Core and eight source gems produce eight catalysts. Engineers and explorers consume them repeatedly. Set up a player shop or supply a teammate; catalysts are consumed, not permanent upgrades."
+      ],
+      "dependencies": [
+        "6FA654F9522AD877"
+      ],
+      "tasks": [
+        {
+          "id": "7E8D946188C149C9",
+          "type": "item",
+          "item": "kubejs:infused_catalyst",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1A3F0A3B5600F9E3",
+      "title": "Carry an expedition field",
+      "icon": "wombatcraft_smp:field_projector",
+      "x": 4,
+      "y": 4,
+      "description": [
+        "Right-click with a Field Charge in your inventory for three minutes of water breathing and night vision. Each use spends one charge. The ten-second cooldown prevents repeated activation. It does not supply space oxygen, flight or combat invulnerability."
+      ],
+      "dependencies": [
+        "6FA654F9522AD877"
+      ],
+      "tasks": [
+        {
+          "id": "6C36CEAF9084620A",
+          "type": "item",
+          "item": "wombatcraft_smp:field_projector",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5F88D847A8222C3B",
+      "title": "Keep expeditions supplied",
+      "icon": "kubejs:field_charge",
+      "x": 8,
+      "y": 4,
+      "description": [
+        "Infuse a catalyst, prismarine crystals and glowstone dust into eight Field Charges. Keep charges in your inventory; a projector with no charges does nothing in survival."
+      ],
+      "dependencies": [
+        "6217374E09662BC0"
+      ],
+      "tasks": [
+        {
+          "id": "57AFBA6E41C05398",
+          "type": "item",
+          "item": "kubejs:field_charge",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6235951CCD6B57FE",
+      "title": "Dimensional Stabilizer",
+      "icon": "wombatcraft:dimensional_stabilizer",
+      "x": 12,
+      "y": 4,
+      "description": [
+        "Craft this controller after reaching Astralium. Build its wall with ostrum block frames and crying obsidian caps. It handles renewable Ancient and Temporal Cores, planetary metals and travel equipment. Existing TARDIS travel is welcome but no ship ownership or ship parts are consumed."
+      ],
+      "dependencies": [
+        "6FA654F9522AD877"
+      ],
+      "tasks": [
+        {
+          "id": "2DC95723CEB60D0D",
+          "type": "item",
+          "item": "wombatcraft:dimensional_stabilizer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "0A1373D1F7D9214E",
+      "title": "Time becomes a consumable",
+      "icon": "kubejs:stabilized_flux",
+      "x": 0,
+      "y": 8,
+      "description": [
+        "Combine Temporal and Stellar Cores with ender pearls for eight flux. Flux enables accelerated batches and keeps the space and dimension specialists useful after initial exploration."
+      ],
+      "dependencies": [
+        "6235951CCD6B57FE"
+      ],
+      "tasks": [
+        {
+          "id": "1378BC86BD6F8B5E",
+          "type": "item",
+          "item": "kubejs:stabilized_flux",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "618D6453535547B1",
+      "title": "A controlled landing",
+      "icon": "wombatcraft_smp:astralium_boots",
+      "x": 4,
+      "y": 8,
+      "description": [
+        "Diamond-level boots halve the fall damage multiplier. They do not prevent all fall damage. Wearing them replaces Aetherium Boots, so you lose the four-piece arcane protection bonus. Choose equipment for the expedition."
+      ],
+      "dependencies": [
+        "6235951CCD6B57FE"
+      ],
+      "tasks": [
+        {
+          "id": "17EE3C6FF6C355CE",
+          "type": "item",
+          "item": "wombatcraft_smp:astralium_boots",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "6B2991097E14F192",
+      "title": "Renewable wings",
+      "icon": "minecraft:elytra",
+      "x": 8,
+      "y": 8,
+      "description": [
+        "Forge four Astralium, one Stellar Core, sixteen phantom membranes and thirty-two feathers in the Stabilizer. End ships are a discovery route rather than a permanent supply limit. This also supplies the Voyager Sigil."
+      ],
+      "dependencies": [
+        "0A1373D1F7D9214E"
+      ],
+      "tasks": [
+        {
+          "id": "69F198DB012E56EA",
+          "type": "item",
+          "item": "minecraft:elytra",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1530FB86E5EB509E",
+      "title": "Pay for throughput",
+      "icon": "ae2:engineering_processor",
+      "x": 12,
+      "y": 8,
+      "description": [
+        "The Infuser makes an eight-processor batch in 50 ticks with one flux, twice the FE and twice the mana of the 200-tick Forge recipe. The Stabilizer similarly reduces Astralium from 300 to 75 ticks. Yield stays unchanged; faster factories buy more power and flux."
+      ],
+      "dependencies": [
+        "0A1373D1F7D9214E"
+      ],
+      "tasks": [
+        {
+          "id": "664C79F9E9E90252",
+          "type": "item",
+          "item": "ae2:engineering_processor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "0A9FDDE1ECA26A33",
+      "title": "Keep the colonies supplied",
+      "icon": "ad_astra:ostrum_ingot",
+      "x": 0,
+      "y": 12,
+      "description": [
+        "Stellar Cores and flux turn iron into desh, then desh into ostrum. Calorite has its own costly reconstitution recipe. The first Stellar Cores still require all three planetary metals; automation follows discovery or trade."
+      ],
+      "dependencies": [
+        "0A1373D1F7D9214E"
+      ],
+      "tasks": [
+        {
+          "id": "499D427180E838A9",
+          "type": "item",
+          "item": "ad_astra:ostrum_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3696E5988A5E2061",
+      "title": "Expand the farms",
+      "icon": "mysticalagriculture:supremium_farmland",
+      "x": 4,
+      "y": 12,
+      "description": [
+        "Primal Cores turn dirt and wheat into four supremium farmland blocks. The Infuser can also make four supremium essence from one Primal Core, eight imperium essence and a catalyst. Crops and intermediate essence remain inputs; this is not free essence duplication."
+      ],
+      "dependencies": [
+        "6217374E09662BC0"
+      ],
+      "tasks": [
+        {
+          "id": "70A7CE93A0651A82",
+          "type": "item",
+          "item": "mysticalagriculture:supremium_farmland",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5204C334846C61A3",
+      "title": "Living history",
+      "icon": "kubejs:living_relic",
+      "x": 8,
+      "y": 12,
+      "description": [
+        "Bring Ancient and Primal Cores to the Infuser. This single component binds nature and adventure for the six-slot final alloy recipe."
+      ],
+      "dependencies": [
+        "6FA654F9522AD877"
+      ],
+      "tasks": [
+        {
+          "id": "3BC89F082A8CB6F9",
+          "type": "item",
+          "item": "kubejs:living_relic",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2CA2D542DCE4A176",
+      "title": "Build the Convergence Matrix",
+      "icon": "wombatcraft:convergence_matrix",
+      "x": 12,
+      "y": 12,
+      "description": [
+        "The final Core is infrastructure: spend it on a Convergence Matrix. Use netherite block frames and beacon caps in the same six-block wall. Both caps are ordinary beacon blocks; no pyramid is required for the machine. Stock FE, mana, specialist cores, catalysts and flux."
+      ],
+      "dependencies": [
+        "6235951CCD6B57FE",
+        "5204C334846C61A3"
+      ],
+      "tasks": [
+        {
+          "id": "1FF2D9168AF4084D",
+          "type": "item",
+          "item": "wombatcraft:convergence_matrix",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2CCC7262BA5E117D",
+      "title": "Industrial continuity",
+      "icon": "mekanism:pellet_polonium",
+      "x": 0,
+      "y": 16,
+      "description": [
+        "The Matrix makes four polonium pellets from Mechanized Cores, flux and uranium. The first Core still requires the original antimatter-era sigil; this is post-mastery production, not an early nuclear skip."
+      ],
+      "dependencies": [
+        "2CA2D542DCE4A176"
+      ],
+      "tasks": [
+        {
+          "id": "6D1A9313EB861460",
+          "type": "item",
+          "item": "mekanism:pellet_polonium",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1F3EB62982600CA9",
+      "title": "Arcane continuity",
+      "icon": "botania:gaia_ingot",
+      "x": 4,
+      "y": 16,
+      "description": [
+        "The Matrix turns Arcane and Ancient Cores, catalysts and terrasteel into Gaia ingots. The first Convergence Core still requires the original magic and boss progression. Repeated infrastructure can now use industrial supply."
+      ],
+      "dependencies": [
+        "2CA2D542DCE4A176"
+      ],
+      "tasks": [
+        {
+          "id": "08738842C6815BDC",
+          "type": "item",
+          "item": "botania:gaia_ingot",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1EDB3BD80A3294C1",
+      "title": "Nature continuity",
+      "icon": "mysticalagriculture:awakened_supremium_essence",
+      "x": 8,
+      "y": 16,
+      "description": [
+        "Primal Cores, catalysts and supremium supply awakened essence after the original awakening milestone. Nature remains a recurring supplier to the server economy."
+      ],
+      "dependencies": [
+        "2CA2D542DCE4A176"
+      ],
+      "tasks": [
+        {
+          "id": "176214D5E8198486",
+          "type": "item",
+          "item": "mysticalagriculture:awakened_supremium_essence",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2A9095DBA1038621",
+      "title": "Expedition continuity",
+      "icon": "minecraft:nether_star",
+      "x": 12,
+      "y": 16,
+      "description": [
+        "Ancient, Stellar and Temporal Cores plus flux produce four Nether Stars. This closes a renewable supply loop at a substantial FE, mana and specialist-material cost. Keep the Matrix fed by several workshops."
+      ],
+      "dependencies": [
+        "2CA2D542DCE4A176"
+      ],
+      "tasks": [
+        {
+          "id": "4C5C94C4E4B4B00E",
+          "type": "item",
+          "item": "minecraft:nether_star",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

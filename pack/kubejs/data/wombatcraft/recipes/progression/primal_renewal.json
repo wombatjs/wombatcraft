@@ -1,0 +1,58 @@
+{
+  "type": "wombatcraft:arcane_infuser",
+  "duration": 400,
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:primal_core"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 8,
+          "ingredient": {
+            "item": "mysticalagriculture:imperium_essence"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:infused_catalyst"
+          }
+        }
+      }
+    ],
+    "forge_energy": [
+      {
+        "content": 800000
+      }
+    ],
+    "botania_mana": [
+      {
+        "content": 60000
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 4,
+          "ingredient": {
+            "item": "mysticalagriculture:supremium_essence"
+          }
+        }
+      }
+    ]
+  }
+}

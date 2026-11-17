@@ -1,0 +1,58 @@
+{
+  "type": "wombatcraft:dimensional_stabilizer",
+  "duration": 400,
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:stellar_core"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:stabilized_flux"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 16,
+          "ingredient": {
+            "item": "minecraft:iron_ingot"
+          }
+        }
+      }
+    ],
+    "forge_energy": [
+      {
+        "content": 800000
+      }
+    ],
+    "botania_mana": [
+      {
+        "content": 48000
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 16,
+          "ingredient": {
+            "item": "ad_astra:desh_ingot"
+          }
+        }
+      }
+    ]
+  }
+}

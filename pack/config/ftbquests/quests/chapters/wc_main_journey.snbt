@@ -1,0 +1,681 @@
+{
+  "id": "4E345538E89DB616",
+  "filename": "wc_main_journey",
+  "title": "Main Journey",
+  "group": "000BB10F5887BBEC",
+  "order_index": -20,
+  "icon": "minecraft:map",
+  "subtitle": [
+    "72 milestones across eight directions. Choose a branch; the detailed chapters remain your reference."
+  ],
+  "progression_mode": "flexible",
+  "autofocus_id": "11A063033D7F0CAE",
+  "quests": [
+    {
+      "id": "11A063033D7F0CAE",
+      "title": "The Journey Begins",
+      "x": -4,
+      "y": 0,
+      "icon": "minecraft:map",
+      "optional": true,
+      "description": [
+        "Build a safe base, learn recipes and protect your supplies. These foundations support every path.",
+        "This row suggests a direction, not a requirement to finish every mod. Linked icons open the original quests and share their progress and rewards. Use /journey for a current recommendation."
+      ],
+      "tasks": [
+        {
+          "id": "7C3FA988771A358B",
+          "type": "checkmark",
+          "title": "Read this route"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "65DE0249563FC76F",
+      "title": "The Industrial Age",
+      "x": -4,
+      "y": 5,
+      "icon": "minecraft:map",
+      "optional": true,
+      "description": [
+        "Choose a power route and begin processing materials. Mechanical power, FE machines and Convergence research are complementary options.",
+        "This row suggests a direction, not a requirement to finish every mod. Linked icons open the original quests and share their progress and rewards. Use /journey for a current recommendation."
+      ],
+      "tasks": [
+        {
+          "id": "22CF583CB21C6DD5",
+          "type": "checkmark",
+          "title": "Read this route"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "743AE0720D8DE899",
+      "title": "Arcane Discovery",
+      "x": -4,
+      "y": 10,
+      "icon": "minecraft:map",
+      "optional": true,
+      "description": [
+        "Try a spellbook or a living-mana garden. These routes open utility spells, magical processing and trade with engineers.",
+        "This row suggests a direction, not a requirement to finish every mod. Linked icons open the original quests and share their progress and rewards. Use /journey for a current recommendation."
+      ],
+      "tasks": [
+        {
+          "id": "79B66351A2C8AA96",
+          "type": "checkmark",
+          "title": "Read this route"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "78F3DB4C54D24138",
+      "title": "Into the Unknown",
+      "x": -4,
+      "y": 15,
+      "icon": "minecraft:map",
+      "optional": true,
+      "description": [
+        "Prepare food, protection and a way home. Dimensional discoveries supply repeatable Trials and rare reagents; you can explore while friends build.",
+        "This row suggests a direction, not a requirement to finish every mod. Linked icons open the original quests and share their progress and rewards. Use /journey for a current recommendation."
+      ],
+      "tasks": [
+        {
+          "id": "5DACE49E4C6E498C",
+          "type": "checkmark",
+          "title": "Read this route"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "047535F9D3AD479D",
+      "title": "Advanced Engineering",
+      "x": -4,
+      "y": 20,
+      "icon": "minecraft:map",
+      "optional": true,
+      "description": [
+        "Automate work that you repeat. Storage networks, manufacturing, resource crops and settlements are parallel investments, not a checklist every player must finish.",
+        "This row suggests a direction, not a requirement to finish every mod. Linked icons open the original quests and share their progress and rewards. Use /journey for a current recommendation."
+      ],
+      "tasks": [
+        {
+          "id": "3B40E0BE32A649FD",
+          "type": "checkmark",
+          "title": "Read this route"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "789364E721F1C2F4",
+      "title": "Beyond the Stars",
+      "x": -4,
+      "y": 25,
+      "icon": "minecraft:map",
+      "optional": true,
+      "description": [
+        "Build fuel and oxygen infrastructure before launching. Planetary materials unlock Stellar Cores, Astralium and renewable late-game production.",
+        "This row suggests a direction, not a requirement to finish every mod. Linked icons open the original quests and share their progress and rewards. Use /journey for a current recommendation."
+      ],
+      "tasks": [
+        {
+          "id": "68E64B1695EA2CBB",
+          "type": "checkmark",
+          "title": "Read this route"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "44B2D9CF64634A46",
+      "title": "Ancient Powers",
+      "x": -4,
+      "y": 30,
+      "icon": "minecraft:map",
+      "optional": true,
+      "description": [
+        "Pick a hunt or master a renewable resource route. Boss progression supplies magic and industry, while advanced farming remains a valuable specialty.",
+        "This row suggests a direction, not a requirement to finish every mod. Linked icons open the original quests and share their progress and rewards. Use /journey for a current recommendation."
+      ],
+      "tasks": [
+        {
+          "id": "59B11F517DFDD97D",
+          "type": "checkmark",
+          "title": "Read this route"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1F20D6BB2E96769C",
+      "title": "The Convergence",
+      "x": -4,
+      "y": 35,
+      "icon": "minecraft:map",
+      "optional": true,
+      "description": [
+        "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, then a Matrix that keeps specialist workshops useful.",
+        "This row suggests a direction, not a requirement to finish every mod. Linked icons open the original quests and share their progress and rewards. Use /journey for a current recommendation."
+      ],
+      "tasks": [
+        {
+          "id": "64D13A70D8728EC3",
+          "type": "checkmark",
+          "title": "Read this route"
+        }
+      ],
+      "rewards": []
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "7C5521477EB28507",
+      "linked_quest": "0179D27BC15B2ADF",
+      "x": 0,
+      "y": 0,
+      "size": 1.15
+    },
+    {
+      "id": "4BF2FC2871A758E8",
+      "linked_quest": "0EA8707A02B8D8D4",
+      "x": 3,
+      "y": 0,
+      "size": 1.15
+    },
+    {
+      "id": "6C8762C20B4A9408",
+      "linked_quest": "0919D581FCDD2595",
+      "x": 6,
+      "y": 0,
+      "size": 1.15
+    },
+    {
+      "id": "477175B2BF3063F7",
+      "linked_quest": "00E53C8030F81AA8",
+      "x": 9,
+      "y": 0,
+      "size": 1.15
+    },
+    {
+      "id": "0C5EF20A29BC3232",
+      "linked_quest": "0C2B641A6F487192",
+      "x": 12,
+      "y": 0,
+      "size": 1.15
+    },
+    {
+      "id": "240FC1186E0F7398",
+      "linked_quest": "028B610E33922C6C",
+      "x": 15,
+      "y": 0,
+      "size": 1.15
+    },
+    {
+      "id": "54CDE547FE4AF5BA",
+      "linked_quest": "0A61808FE40FEB8B",
+      "x": 18,
+      "y": 0,
+      "size": 1.15
+    },
+    {
+      "id": "528B811E8C3A4FB3",
+      "linked_quest": "07DC886E17A90B87",
+      "x": 21,
+      "y": 0,
+      "size": 1.15
+    },
+    {
+      "id": "1B80254047FDE2BC",
+      "linked_quest": "063B8BD59A482879",
+      "x": 24,
+      "y": 0,
+      "size": 1.15
+    },
+    {
+      "id": "0CD980AC42A15994",
+      "linked_quest": "01E6C5BADB72D8C6",
+      "x": 0,
+      "y": 5,
+      "size": 1.15
+    },
+    {
+      "id": "626D75F0E4D81002",
+      "linked_quest": "3FA3BA68CEC4E8B7",
+      "x": 3,
+      "y": 5,
+      "size": 1.15
+    },
+    {
+      "id": "7068713877B27488",
+      "linked_quest": "348B017E378DB8CF",
+      "x": 6,
+      "y": 5,
+      "size": 1.15
+    },
+    {
+      "id": "510D476423B2E510",
+      "linked_quest": "3ABE5687E527D6E4",
+      "x": 9,
+      "y": 5,
+      "size": 1.15
+    },
+    {
+      "id": "45D76AA5BDECC705",
+      "linked_quest": "05179E5C316C9EAE",
+      "x": 12,
+      "y": 5,
+      "size": 1.15
+    },
+    {
+      "id": "5CFC4972980A146B",
+      "linked_quest": "11A6D5840C5819FF",
+      "x": 15,
+      "y": 5,
+      "size": 1.15
+    },
+    {
+      "id": "5347C61DE428F6C6",
+      "linked_quest": "23A5A2BFAD7E3DF5",
+      "x": 18,
+      "y": 5,
+      "size": 1.15
+    },
+    {
+      "id": "338012E3B9098703",
+      "linked_quest": "51FB071ECC6345D0",
+      "x": 21,
+      "y": 5,
+      "size": 1.15
+    },
+    {
+      "id": "369C62F8A4802139",
+      "linked_quest": "78156914242DA3C4",
+      "x": 24,
+      "y": 5,
+      "size": 1.15
+    },
+    {
+      "id": "0C4B6D2E278C7D4C",
+      "linked_quest": "275452C942D08D53",
+      "x": 0,
+      "y": 10,
+      "size": 1.15
+    },
+    {
+      "id": "3AD4ADB626650671",
+      "linked_quest": "3F9BCDCB912F88F6",
+      "x": 3,
+      "y": 10,
+      "size": 1.15
+    },
+    {
+      "id": "6A826E1DE8F76CBA",
+      "linked_quest": "70EF27A3F6CAB609",
+      "x": 6,
+      "y": 10,
+      "size": 1.15
+    },
+    {
+      "id": "7AD1FDA2393BEB3D",
+      "linked_quest": "232E24456054577F",
+      "x": 9,
+      "y": 10,
+      "size": 1.15
+    },
+    {
+      "id": "6F15F3D346153481",
+      "linked_quest": "3D2F2CB1C9E7405D",
+      "x": 12,
+      "y": 10,
+      "size": 1.15
+    },
+    {
+      "id": "221AFBBF29F3AC8E",
+      "linked_quest": "3B3C226317183C1B",
+      "x": 15,
+      "y": 10,
+      "size": 1.15
+    },
+    {
+      "id": "7CC0DBD9FF4CCFB6",
+      "linked_quest": "0CE7AD0C114BF59E",
+      "x": 18,
+      "y": 10,
+      "size": 1.15
+    },
+    {
+      "id": "6512B1C1DC3104C4",
+      "linked_quest": "4556D96C36F3BDB3",
+      "x": 21,
+      "y": 10,
+      "size": 1.15
+    },
+    {
+      "id": "10B9139EB760EB4C",
+      "linked_quest": "2BE79A72B057D1CB",
+      "x": 24,
+      "y": 10,
+      "size": 1.15
+    },
+    {
+      "id": "6305C5B541807F59",
+      "linked_quest": "09380102448A8D1F",
+      "x": 0,
+      "y": 15,
+      "size": 1.15
+    },
+    {
+      "id": "12521E62DBDDC7D3",
+      "linked_quest": "5C10F1CF484DE5CB",
+      "x": 3,
+      "y": 15,
+      "size": 1.15
+    },
+    {
+      "id": "6C7F012A5E4C44AC",
+      "linked_quest": "48EAF4DDE934E4B7",
+      "x": 6,
+      "y": 15,
+      "size": 1.15
+    },
+    {
+      "id": "2B7FF2161E947151",
+      "linked_quest": "4A694562A5135AFB",
+      "x": 9,
+      "y": 15,
+      "size": 1.15
+    },
+    {
+      "id": "194DEA10703C5365",
+      "linked_quest": "6447BABEF4660AE5",
+      "x": 12,
+      "y": 15,
+      "size": 1.15
+    },
+    {
+      "id": "495200FE15159203",
+      "linked_quest": "4AE7C20CA14E9CCF",
+      "x": 15,
+      "y": 15,
+      "size": 1.15
+    },
+    {
+      "id": "772B94A14FACFE13",
+      "linked_quest": "4999924E2FFE8F0F",
+      "x": 18,
+      "y": 15,
+      "size": 1.15
+    },
+    {
+      "id": "0301F57357F588A5",
+      "linked_quest": "6E62A58C8B229C36",
+      "x": 21,
+      "y": 15,
+      "size": 1.15
+    },
+    {
+      "id": "38A5DBA39EBAF676",
+      "linked_quest": "65E56D5E0D96CBE3",
+      "x": 24,
+      "y": 15,
+      "size": 1.15
+    },
+    {
+      "id": "36D3276FC39D9B04",
+      "linked_quest": "309DD644DC97FFAB",
+      "x": 0,
+      "y": 20,
+      "size": 1.15
+    },
+    {
+      "id": "195BD2248CAED46A",
+      "linked_quest": "1F805BC6BD1AD092",
+      "x": 3,
+      "y": 20,
+      "size": 1.15
+    },
+    {
+      "id": "258CA022D8DD200D",
+      "linked_quest": "72C2C42FD430FE87",
+      "x": 6,
+      "y": 20,
+      "size": 1.15
+    },
+    {
+      "id": "042FD48462B3D943",
+      "linked_quest": "1C5E6B03EC5F0834",
+      "x": 9,
+      "y": 20,
+      "size": 1.15
+    },
+    {
+      "id": "431EEB1B255F4CE3",
+      "linked_quest": "74AA6DB9A57548FF",
+      "x": 12,
+      "y": 20,
+      "size": 1.15
+    },
+    {
+      "id": "3D154577DCB255F7",
+      "linked_quest": "3CA7DC2E33A8DF20",
+      "x": 15,
+      "y": 20,
+      "size": 1.15
+    },
+    {
+      "id": "24446D01FEA44097",
+      "linked_quest": "2F7EE194561646A3",
+      "x": 18,
+      "y": 20,
+      "size": 1.15
+    },
+    {
+      "id": "11FE4B3704779FFE",
+      "linked_quest": "543E69DC2C62BA61",
+      "x": 21,
+      "y": 20,
+      "size": 1.15
+    },
+    {
+      "id": "52C7845D2FDB9CBA",
+      "linked_quest": "366AC06CCCE8005C",
+      "x": 24,
+      "y": 20,
+      "size": 1.15
+    },
+    {
+      "id": "1C66B3F2B42A2F01",
+      "linked_quest": "0576D08BEF9CA8FD",
+      "x": 0,
+      "y": 25,
+      "size": 1.15
+    },
+    {
+      "id": "05805C0FCB5FC266",
+      "linked_quest": "080A6699E1EFA66C",
+      "x": 3,
+      "y": 25,
+      "size": 1.15
+    },
+    {
+      "id": "05BEDA2FCED0E0DD",
+      "linked_quest": "0DCD1112B6462B8A",
+      "x": 6,
+      "y": 25,
+      "size": 1.15
+    },
+    {
+      "id": "451874BE0B1F91E1",
+      "linked_quest": "0D75261CE9AD3AC9",
+      "x": 9,
+      "y": 25,
+      "size": 1.15
+    },
+    {
+      "id": "601A56172EF1ACAF",
+      "linked_quest": "09A7884E98999818",
+      "x": 12,
+      "y": 25,
+      "size": 1.15
+    },
+    {
+      "id": "2B268AB08CB6D034",
+      "linked_quest": "0666D18E7E385A78",
+      "x": 15,
+      "y": 25,
+      "size": 1.15
+    },
+    {
+      "id": "0B53393A941AA285",
+      "linked_quest": "5BEA56F41C3C6E98",
+      "x": 18,
+      "y": 25,
+      "size": 1.15
+    },
+    {
+      "id": "75A3A00619A80446",
+      "linked_quest": "0D8BB5C48DDDA495",
+      "x": 21,
+      "y": 25,
+      "size": 1.15
+    },
+    {
+      "id": "130F8571CCC7A0D8",
+      "linked_quest": "6E244A8EB2E21FA3",
+      "x": 24,
+      "y": 25,
+      "size": 1.15
+    },
+    {
+      "id": "6EDF163E22A329D1",
+      "linked_quest": "128AA0619413B172",
+      "x": 0,
+      "y": 30,
+      "size": 1.15
+    },
+    {
+      "id": "123E291F28745DA7",
+      "linked_quest": "17AC570F3F24B5CB",
+      "x": 3,
+      "y": 30,
+      "size": 1.15
+    },
+    {
+      "id": "637C9BEC5012BF2E",
+      "linked_quest": "3934957461BF7F90",
+      "x": 6,
+      "y": 30,
+      "size": 1.15
+    },
+    {
+      "id": "525D216B8A41F935",
+      "linked_quest": "1A45BEEB73E4A54C",
+      "x": 9,
+      "y": 30,
+      "size": 1.15
+    },
+    {
+      "id": "7FCD26FD07719D43",
+      "linked_quest": "01A18BCCCF2B7FA4",
+      "x": 12,
+      "y": 30,
+      "size": 1.15
+    },
+    {
+      "id": "43DEDB1129CB4E3E",
+      "linked_quest": "46B7B4C21FBB1475",
+      "x": 15,
+      "y": 30,
+      "size": 1.15
+    },
+    {
+      "id": "7216DCFEE514A55A",
+      "linked_quest": "54993B7AA5593DF1",
+      "x": 18,
+      "y": 30,
+      "size": 1.15
+    },
+    {
+      "id": "769858815317A90D",
+      "linked_quest": "1B42C352074A54B9",
+      "x": 21,
+      "y": 30,
+      "size": 1.15
+    },
+    {
+      "id": "40F963F6B3F3F52E",
+      "linked_quest": "40ECA6F77A74E065",
+      "x": 24,
+      "y": 30,
+      "size": 1.15
+    },
+    {
+      "id": "5D667F2848A6C41B",
+      "linked_quest": "6AE86FABEBE1618D",
+      "x": 0,
+      "y": 35,
+      "size": 1.15
+    },
+    {
+      "id": "4CBDBDFBEC6D5B23",
+      "linked_quest": "4D24674B33D16DC2",
+      "x": 3,
+      "y": 35,
+      "size": 1.15
+    },
+    {
+      "id": "763551C12A79F893",
+      "linked_quest": "2BB745DBC0662909",
+      "x": 6,
+      "y": 35,
+      "size": 1.15
+    },
+    {
+      "id": "48AA887E9CB5991F",
+      "linked_quest": "0209B29F8CFB053F",
+      "x": 9,
+      "y": 35,
+      "size": 1.15
+    },
+    {
+      "id": "68268D30B64DF566",
+      "linked_quest": "0F68366FED1B407B",
+      "x": 12,
+      "y": 35,
+      "size": 1.15
+    },
+    {
+      "id": "3D951C5F4979D624",
+      "linked_quest": "05742B300F1756FE",
+      "x": 15,
+      "y": 35,
+      "size": 1.15
+    },
+    {
+      "id": "2E91DF60D332414A",
+      "linked_quest": "05E20ECC04CC71D2",
+      "x": 18,
+      "y": 35,
+      "size": 1.15
+    },
+    {
+      "id": "2DD640DF02B69F47",
+      "linked_quest": "07880F2BE7FAFE56",
+      "x": 21,
+      "y": 35,
+      "size": 1.15
+    },
+    {
+      "id": "5BBC9F8E8F7F12FC",
+      "linked_quest": "2CA2D542DCE4A176",
+      "x": 24,
+      "y": 35,
+      "size": 1.15
+    }
+  ]
+}

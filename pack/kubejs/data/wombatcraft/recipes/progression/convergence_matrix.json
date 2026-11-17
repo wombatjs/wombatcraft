@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:convergence_core"
+    },
+    {
+      "item": "kubejs:convergium_ingot"
+    },
+    {
+      "item": "kubejs:convergium_ingot"
+    },
+    {
+      "item": "kubejs:convergium_ingot"
+    },
+    {
+      "item": "kubejs:convergium_ingot"
+    },
+    {
+      "item": "kubejs:stellar_core"
+    },
+    {
+      "item": "kubejs:ancient_core"
+    },
+    {
+      "item": "kubejs:primal_core"
+    },
+    {
+      "item": "kubejs:temporal_core"
+    }
+  ],
+  "result": {
+    "item": "wombatcraft:convergence_matrix",
+    "count": 1
+  }
+}

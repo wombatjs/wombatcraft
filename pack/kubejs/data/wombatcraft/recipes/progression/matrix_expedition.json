@@ -1,0 +1,67 @@
+{
+  "type": "wombatcraft:convergence_matrix",
+  "duration": 800,
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 2,
+          "ingredient": {
+            "item": "kubejs:ancient_core"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:stellar_core"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:temporal_core"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 4,
+          "ingredient": {
+            "item": "kubejs:stabilized_flux"
+          }
+        }
+      }
+    ],
+    "forge_energy": [
+      {
+        "content": 3000000
+      }
+    ],
+    "botania_mana": [
+      {
+        "content": 180000
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 4,
+          "ingredient": {
+            "item": "minecraft:nether_star"
+          }
+        }
+      }
+    ]
+  }
+}

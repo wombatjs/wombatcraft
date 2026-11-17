@@ -22,24 +22,44 @@ public final class FactionScreen extends Screen {
     private static Screen mapOwner;
     private static Button mapLink;
     private static final int TEXT=0xfff5efff,MUTED=0xffc4b6d8;
-    private static final String[] TABS={"Faction","Members","Territory","Town hall","Contracts"};
+    private static final String[] TABS={"Faction","Members","Territory"};
     private JsonObject data=new JsonObject();
     private final Screen previous;
+    private final int mode;
     private final long session=UUID.randomUUID().getMostSignificantBits()|1L;
     private int ballotPage,tab,page,left,top,panelW,panelH,bodyX,bodyW;
+    private int ballotRows(){return panelH<280?3:4;}
     private long requestedAt=System.currentTimeMillis();
     private boolean waiting=true;
-    public FactionScreen(Screen previous){super(Component.literal("Wombatcraft Factions"));this.previous=previous;}
+    public FactionScreen(Screen previous){this(previous,0);}
+    public FactionScreen(Screen previous,int mode){super(Component.literal(mode==4?"Contracts":mode==3?"Town Hall":"Factions"));this.previous=previous;this.mode=mode;this.tab=mode;}
     public static void receive(String json,long session){
         Minecraft mc=Minecraft.getInstance();
         if(mc.player==null)return;
         if(session!=0 && (!(mc.screen instanceof FactionScreen s)||s.session!=session))return;
-        FactionScreen screen;
-        if(mc.screen instanceof FactionScreen existing)screen=existing;
-        else{screen=new FactionScreen(mc.screen);mc.setScreen(screen);}
-        try{screen.data=JsonParser.parseString(json).getAsJsonObject();if(screen.data.has("open_tab"))screen.tab=Math.max(0,Math.min(4,screen.data.get("open_tab").getAsInt()));screen.waiting=false;screen.rebuildWidgets();}
-        catch(RuntimeException e){screen.waiting=false;screen.data=new JsonObject();screen.data.addProperty("message","Could not read faction data. Refresh to retry.");}
+        try {
+            JsonObject data=JsonParser.parseString(json).getAsJsonObject();
+            int mode=data.has("menu")?data.get("menu").getAsInt():0;
+            FactionScreen screen;
+            if(mc.screen instanceof FactionScreen existing && existing.mode==mode)screen=existing;
+            else {screen=new FactionScreen(mc.screen,mode);mc.setScreen(screen);}
+            screen.data=data;screen.waiting=false;screen.rebuildWidgets();
+        } catch(RuntimeException e) {WombatcraftSmp.LOGGER.error("Could not read menu data",e);}
     }
+    @SubscribeEvent public static void pauseButtons(ScreenEvent.Init.Post event){
+        if(!(event.getScreen() instanceof net.minecraft.client.gui.screens.PauseScreen)||!WombatcraftSmp.clientEnabled())return;
+        String[] labels={"Factions","Contracts","Town Hall","Journey"};
+        String[] commands={"faction","contracts","townhall","journey"};
+        int w=Math.min(74,(event.getScreen().width-20)/4);
+        for(int i=0;i<labels.length;i++){
+            final String command=commands[i];
+            event.addListener(Button.builder(Component.literal(labels[i]),b->{
+                Minecraft mc=Minecraft.getInstance();mc.setScreen(null);
+                if(mc.player!=null)mc.player.connection.sendCommand(command);
+            }).bounds((event.getScreen().width-w*4)/2+i*w,event.getScreen().height-26,w-2,20).build());
+        }
+    }
+
     @SubscribeEvent public static void opening(ScreenEvent.Opening event){
         if(Minecraft.getInstance().level==null || !WombatcraftSmp.clientEnabled() || nativeOnce){nativeOnce=false;return;}
         if(event.getNewScreen() instanceof ScreenWrapper wrapper
@@ -67,8 +87,8 @@ public final class FactionScreen extends Screen {
     }
     @Override protected void init(){
         panelW=Math.min(490,width-16);panelH=Math.min(300,height-16);left=(width-panelW)/2;top=(height-panelH)/2;
-        bodyX=left+104;bodyW=panelW-116;
-        for(int i=0;i<TABS.length;i++){
+        bodyX=left+(mode==0?104:12);bodyW=panelW-(mode==0?116:24);
+        for(int i=0;mode==0&&i<TABS.length;i++){
             final int selected=i;Button button=button(left+8,top+40+i*25,86,TABS[i],()->{tab=selected;page=0;request("view","",0);});button.active=tab!=i;
         }
         button(left+8,top+panelH-27,86,"Close",this::onClose);
@@ -104,7 +124,7 @@ public final class FactionScreen extends Screen {
                 JsonObject contracts=data.getAsJsonObject("contracts");JsonArray orders=contracts.getAsJsonArray("orders");
                 for(int i=0;i<orders.size();i++){
                     JsonObject order=orders.get(i).getAsJsonObject();
-                    Button deliver=button(bodyX+bodyW-65,top+75+i*36,65,"Deliver",()->request("deliver",order.get("id").getAsString()+"|"+order.get("item").getAsString(),order.get("period").getAsLong()));
+                    Button deliver=button(bodyX+bodyW-65,top+69+i*24,65,"Deliver",()->request("deliver",order.get("id").getAsString()+"|"+order.get("item").getAsString(),order.get("period").getAsLong()));
                     deliver.active=bool("at_spawn")&&order.get("delivered").getAsLong()<order.get("required").getAsLong();
                     deliver.setTooltip(Tooltip.create(Component.literal("Deliver available plain items, up to the remaining demand. Earnings are proportional to your contribution. Full order base budget: "+order.get("reward").getAsLong()+" copper.")));
                 }
@@ -115,23 +135,23 @@ public final class FactionScreen extends Screen {
         }else{
             if(bool("elections_open")) {
                 JsonArray candidates=candidates();
-                for(int i=0;i<Math.min(4,candidates.size()-ballotPage*4);i++) {
-                    JsonObject c=candidates.get(ballotPage*4+i).getAsJsonObject();String id=c.get("id").getAsString();
-                    Button b=button(bodyX+bodyW-51,top+81+i*36,51,id.equals(string("vote"))?"Voted":"Vote",()->request("vote",id,number("term")));
+                for(int i=0;i<Math.min(ballotRows(),candidates.size()-ballotPage*ballotRows());i++) {
+                    JsonObject c=candidates.get(ballotPage*ballotRows()+i).getAsJsonObject();String id=c.get("id").getAsString();
+                    Button b=button(bodyX+bodyW-51,top+81+i*24,51,id.equals(string("vote"))?"Voted":"Vote",()->request("vote",id,number("term")));
                     b.active=bool("at_spawn")&&!id.equals(string("vote"));b.setHeight(18);
                     b.setTooltip(Tooltip.create(Component.literal(c.get("description").getAsString())));
                 }
                 button(bodyX,top+panelH-48,48,"Prev",()->{ballotPage--;rebuildWidgets();}).active=ballotPage>0;
-                button(bodyX+54,top+panelH-48,48,"Next",()->{ballotPage++;rebuildWidgets();}).active=(ballotPage+1)*4<candidates.size();
+                button(bodyX+54,top+panelH-48,48,"Next",()->{ballotPage++;rebuildWidgets();}).active=(ballotPage+1)*ballotRows()<candidates.size();
             }
         }
     }
     private JsonArray candidates(){
         JsonArray list=data.has("candidates")?data.getAsJsonArray("candidates"):new JsonArray();
-        ballotPage=Math.max(0,Math.min(ballotPage,Math.max(0,(list.size()-1)/4)));return list;
+        ballotPage=Math.max(0,Math.min(ballotPage,Math.max(0,(list.size()-1)/ballotRows())));return list;
     }
     private Button button(int x,int y,int w,String label,Runnable action){return addRenderableWidget(Button.builder(Component.literal(label),b->action.run()).bounds(x,y,w,20).build());}
-    private void request(String action,String target,long revision){waiting=true;requestedAt=System.currentTimeMillis();SmpNetwork.send(action,target,revision,page,session,string("territory_key"));}
+    private void request(String action,String target,long revision){waiting=true;requestedAt=System.currentTimeMillis();SmpNetwork.send(action,target,revision,page,session,string("territory_key"),mode);}
     private boolean bool(String key){return data.has(key)&&data.get(key).getAsBoolean();}
     private long number(String key){return data.has(key)?data.get(key).getAsLong():0;}
     private String string(String key){return data.has(key)?data.get(key).getAsString():"";}
@@ -139,15 +159,15 @@ public final class FactionScreen extends Screen {
     private static String label(String id){return switch(id){case "private_factory"->"Private factory";case "public_shop"->"Public shop";case "officer_storage"->"Officer storage";case "ftb_default"->"Existing FTB rules";default->id;};}
     private void line(GuiGraphics g,String text,int y,int color){g.drawString(font,font.plainSubstrByWidth(text,bodyW),bodyX,y,color,false);}
     @Override public void render(GuiGraphics g,int mx,int my,float partial){
-        renderBackground(g);g.fill(left,top,left+panelW,top+panelH,0xff171220);g.fill(left,top,left+98,top+panelH,0xff21192d);
-        g.fill(left+98,top,left+99,top+panelH,0xff59436e);g.drawString(font,"Wombatcraft Factions",left+10,top+15,TEXT,false);
-        if(waiting){line(g,System.currentTimeMillis()-requestedAt>5000?"No reply yet. Refresh to retry.":"Loading faction data...",top+49,MUTED);}
+        renderBackground(g);g.fill(left,top,left+panelW,top+panelH,0xff171220);if(mode==0)g.fill(left,top,left+98,top+panelH,0xff21192d);
+        if(mode==0)g.fill(left+98,top,left+99,top+panelH,0xff59436e);g.drawString(font,getTitle(),left+10,top+15,TEXT,false);
+        if(waiting){line(g,System.currentTimeMillis()-requestedAt>5000?"No reply yet. Refresh to retry.":"Loading...",top+49,MUTED);}
         else if(tab==0){
             line(g,bool("party")?string("name"):"Find your people",top+45,TEXT);
             line(g,bool("party")?"Your role: "+string("role").toLowerCase(Locale.ROOT):"Create a faction or accept an invitation.",top+61,MUTED);
             if(bool("party"))line(g,number("member_count")+(number("member_count")==1?" member":" members"),top+75,MUTED);
             line(g,"Faction chat",top+125,TEXT);
-            line(g,"Visit the Contracts tab for factory orders.",top+176,MUTED);
+            line(g,"Your faction manages members and shared land.",top+176,MUTED);
         }else if(tab==1){
             line(g,"Members",top+36,TEXT);var members=data.has("members")?data.getAsJsonArray("members"):new JsonArray();
             for(int i=0;i<members.size();i++){
@@ -158,15 +178,15 @@ public final class FactionScreen extends Screen {
             line(g,string("claim_owner"),top+39,TEXT);line(g,string("dimension")+" / "+string("chunk"),top+54,MUTED);
             line(g,"Policy: "+label(string("policy")),top+70,MUTED);
         }else if(tab==4){
-            line(g,"Town contracts",top+37,TEXT);
+            line(g,bool("at_spawn")?"Contracts":"Contracts - deliveries at spawn",top+37,TEXT);
             if(bool("contracts_open")&&data.has("contracts")){
                 JsonObject contracts=data.getAsJsonObject("contracts");
                 line(g,"Earnings: "+contracts.get("balance").getAsLong()+" copper",top+53,MUTED);
                 JsonArray orders=contracts.getAsJsonArray("orders");
                 for(int i=0;i<orders.size();i++){
                     JsonObject order=orders.get(i).getAsJsonObject();
-                    g.drawString(font,font.plainSubstrByWidth(order.get("name").getAsString(),bodyW-70),bodyX,top+77+i*36,TEXT,false);
-                    g.drawString(font,scopeLabel(order.get("scope").getAsString())+"  "+order.get("delivered").getAsLong()+" / "+order.get("required").getAsLong(),bodyX,top+89+i*36,MUTED,false);
+                    g.drawString(font,font.plainSubstrByWidth(order.get("name").getAsString(),bodyW-70),bodyX,top+71+i*24,TEXT,false);
+                    g.drawString(font,scopeLabel(order.get("scope").getAsString())+"  "+order.get("delivered").getAsLong()+" / "+order.get("required").getAsLong(),bodyX,top+83+i*24,MUTED,false);
                 }
             }else line(g,"The contract desk has not opened.",top+57,MUTED);
         }else{
@@ -177,10 +197,10 @@ public final class FactionScreen extends Screen {
                 long minutes=Math.max(0,(number("phase_at")-System.currentTimeMillis())/60000);
                 line(g,string("phase")+" closes in "+minutes/60+"h "+minutes%60+"m",top+65,MUTED);
                 JsonArray candidates=candidates();
-                for(int i=0;i<Math.min(4,candidates.size()-ballotPage*4);i++){
-                    JsonObject c=candidates.get(ballotPage*4+i).getAsJsonObject();
-                    g.drawString(font,font.plainSubstrByWidth(c.get("name").getAsString(),bodyW-60),bodyX,top+83+i*36,TEXT,false);
-                    g.drawString(font,font.plainSubstrByWidth(c.get("policy").getAsString(),bodyW-60),bodyX,top+95+i*36,MUTED,false);
+                for(int i=0;i<Math.min(ballotRows(),candidates.size()-ballotPage*ballotRows());i++){
+                    JsonObject c=candidates.get(ballotPage*ballotRows()+i).getAsJsonObject();
+                    g.drawString(font,font.plainSubstrByWidth(c.get("name").getAsString(),bodyW-60),bodyX,top+83+i*24,TEXT,false);
+                    g.drawString(font,font.plainSubstrByWidth(c.get("policy").getAsString(),bodyW-60),bodyX,top+95+i*24,MUTED,false);
                 }
             }
         }

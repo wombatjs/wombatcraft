@@ -1,0 +1,49 @@
+{
+  "type": "wombatcraft:convergence_forging",
+  "duration": 600,
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 4,
+          "ingredient": {
+            "item": "kubejs:convergium_ingot"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 64,
+          "ingredient": {
+            "item": "ae2:fluix_crystal"
+          }
+        }
+      }
+    ],
+    "forge_energy": [
+      {
+        "content": 2000000
+      }
+    ],
+    "botania_mana": [
+      {
+        "content": 120000
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "ae2:singularity"
+          }
+        }
+      }
+    ]
+  }
+}

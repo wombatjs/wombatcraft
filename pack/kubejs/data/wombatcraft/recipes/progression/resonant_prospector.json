@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:resonant_alloy"
+    },
+    {
+      "item": "kubejs:resonant_alloy"
+    },
+    {
+      "item": "kubejs:resonant_alloy"
+    },
+    {
+      "item": "kubejs:resonant_alloy"
+    },
+    {
+      "item": "minecraft:compass"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "result": {
+    "item": "wombatcraft_smp:resonant_prospector",
+    "count": 1
+  }
+}

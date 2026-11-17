@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:aetherium_ingot"
+    },
+    {
+      "item": "kubejs:aetherium_ingot"
+    },
+    {
+      "item": "kubejs:aetherium_ingot"
+    },
+    {
+      "item": "kubejs:primal_core"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:compass"
+    }
+  ],
+  "result": {
+    "item": "wombatcraft_smp:field_projector",
+    "count": 1
+  }
+}

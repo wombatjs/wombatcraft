@@ -45,16 +45,14 @@ final class ContractService {
         if(!Files.exists(path))return "";
         return NbtIo.readCompressed(path.toFile()).getCompound("ForgeData").getString(MARKER);
     }
-    private UUID faction(ServerPlayer player){return Factions.playerTeam(player).filter(t->t.isPartyTeam()).map(t->t.getId()).orElse(null);}
     private long period(JsonObject d){return Math.floorDiv(System.currentTimeMillis(),d.get("scope").getAsString().equals("PERSONAL")?86_400_000L:604_800_000L);}
     private String owner(JsonObject d,ServerPlayer p){return switch(d.get("scope").getAsString()){
         case "PERSONAL"->p.getUUID().toString();case "COMMUNITY"->"town";
-        case "FACTION"->Objects.requireNonNull(faction(p),"Join a faction for factory orders").toString();default->throw new IllegalArgumentException("Unknown contract scope");};}
+        case "FACTION"->"industrial/"+p.getUUID();default->throw new IllegalArgumentException("Unknown contract scope");};}
     private String key(JsonObject d,ServerPlayer p){return d.get("id").getAsString()+"/"+period(d)+"/"+owner(d,p);}
     private List<JsonObject> available(ServerPlayer p){
         List<JsonObject> result=new ArrayList<>();
         for(String scope:List.of("PERSONAL","COMMUNITY","FACTION")){
-            if(scope.equals("FACTION")&&faction(p)==null)continue;
             List<JsonObject> pool=definitions.stream().filter(d->d.get("scope").getAsString().equals(scope)).toList();
             if(pool.isEmpty())continue;
             long period=period(pool.get(0));String owner=owner(pool.get(0),p);

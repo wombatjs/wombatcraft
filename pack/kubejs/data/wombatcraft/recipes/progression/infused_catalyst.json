@@ -1,0 +1,58 @@
+{
+  "type": "wombatcraft:arcane_infuser",
+  "duration": 300,
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:arcane_core"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:primal_core"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 8,
+          "ingredient": {
+            "item": "ars_nouveau:source_gem"
+          }
+        }
+      }
+    ],
+    "forge_energy": [
+      {
+        "content": 400000
+      }
+    ],
+    "botania_mana": [
+      {
+        "content": 24000
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 8,
+          "ingredient": {
+            "item": "kubejs:infused_catalyst"
+          }
+        }
+      }
+    ]
+  }
+}

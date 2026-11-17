@@ -1,0 +1,312 @@
+{
+  "id": "65AB90C646221776",
+  "filename": "wc_adventure_journal",
+  "title": "What Should I Do?",
+  "group": "000BB10F5887BBEC",
+  "order_index": -30,
+  "icon": "minecraft:book",
+  "subtitle": [
+    "Choose a direction here; use /journey for live personal recommendations."
+  ],
+  "progression_mode": "flexible",
+  "autofocus_id": "396FF2AF3F1E43CA",
+  "quests": [
+    {
+      "id": "396FF2AF3F1E43CA",
+      "title": "What should I do next?",
+      "x": -4,
+      "y": 0,
+      "icon": "minecraft:book",
+      "optional": true,
+      "description": [
+        "Use /journey for your individual progress, one available objective and alternative paths. Click a suggestion to open its original quest.",
+        "Use /journey technology, magic, exploration, space, nature, settlement or convergence to focus on a specialty.",
+        "Pin the original quest with the quest-book pin control to keep your chosen objective on screen. Pinned tracking remains your choice.",
+        "The cards below are a curated map, not a live recommendation screen. Reading a card never grants an item or replaces the linked objective."
+      ],
+      "tasks": [
+        {
+          "id": "55027933609BDF8A",
+          "type": "checkmark",
+          "title": "Choose tonight's direction"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3FD355B28F0243BF",
+      "title": "Build an industry",
+      "icon": "minecraft:redstone",
+      "x": -4,
+      "y": 4,
+      "optional": true,
+      "description": [
+        "Power, processing and automation free time for bigger projects.",
+        "Run /journey technology to find an available step for you. These linked goals show entry, development and a long-term target."
+      ],
+      "tasks": [
+        {
+          "id": "3525CFEA543DFA77",
+          "type": "checkmark",
+          "title": "Read this path"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2A1470BFD12FE11C",
+      "title": "Learn magic",
+      "icon": "minecraft:enchanted_book",
+      "x": -4,
+      "y": 8,
+      "optional": true,
+      "description": [
+        "Choose spellcraft or mana production; sell supplies to other specialists.",
+        "Run /journey magic to find an available step for you. These linked goals show entry, development and a long-term target."
+      ],
+      "tasks": [
+        {
+          "id": "371B6E360724F492",
+          "type": "checkmark",
+          "title": "Read this path"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "79462DA7F716FD25",
+      "title": "Explore or hunt a boss",
+      "icon": "minecraft:compass",
+      "x": -4,
+      "y": 12,
+      "optional": true,
+      "description": [
+        "Follow dimensional arrivals, structures and boss chains at your own pace.",
+        "Run /journey exploration to find an available step for you. These linked goals show entry, development and a long-term target."
+      ],
+      "tasks": [
+        {
+          "id": "3B5DDFE84F45AB46",
+          "type": "checkmark",
+          "title": "Read this path"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5ACAAD3EF82CC3FF",
+      "title": "Prepare for space",
+      "icon": "ad_astra:tier_1_rocket",
+      "x": -4,
+      "y": 16,
+      "optional": true,
+      "description": [
+        "Fuel, oxygen and protective equipment come before the launch.",
+        "Run /journey space to find an available step for you. These linked goals show entry, development and a long-term target."
+      ],
+      "tasks": [
+        {
+          "id": "0CD44309EE1B0CD9",
+          "type": "checkmark",
+          "title": "Read this path"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "3351149018BE493F",
+      "title": "Grow a renewable supply",
+      "icon": "mysticalagriculture:inferium_essence",
+      "x": -4,
+      "y": 20,
+      "optional": true,
+      "description": [
+        "Resource farming supports both your settlement and Convergence catalysts.",
+        "Run /journey nature to find an available step for you. These linked goals show entry, development and a long-term target."
+      ],
+      "tasks": [
+        {
+          "id": "724B6D0044A05D82",
+          "type": "checkmark",
+          "title": "Read this path"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "2F53A13669B2D767",
+      "title": "Build a shared home",
+      "icon": "minecraft:emerald",
+      "x": -4,
+      "y": 24,
+      "optional": true,
+      "description": [
+        "Make a settlement, organize storage, trade with players and visit /contracts for repeatable work.",
+        "Run /journey settlement to find an available step for you. These linked goals show entry, development and a long-term target."
+      ],
+      "tasks": [
+        {
+          "id": "458E8EFA7B7ABDAA",
+          "type": "checkmark",
+          "title": "Read this path"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "5FD09BA4AE07491E",
+      "title": "Work toward the Matrix",
+      "icon": "kubejs:convergence_core",
+      "x": -4,
+      "y": 28,
+      "optional": true,
+      "description": [
+        "The long-term goal connects specialists without requiring everyone to master every mod.",
+        "Run /journey convergence to find an available step for you. These linked goals show entry, development and a long-term target."
+      ],
+      "tasks": [
+        {
+          "id": "249882F59D2EC25C",
+          "type": "checkmark",
+          "title": "Read this path"
+        }
+      ],
+      "rewards": []
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "1EB2CBD2A649F7B6",
+      "linked_quest": "01E6C5BADB72D8C6",
+      "x": 0,
+      "y": 4,
+      "size": 1.3
+    },
+    {
+      "id": "6C3BDA51699AD625",
+      "linked_quest": "51FB071ECC6345D0",
+      "x": 4,
+      "y": 4,
+      "size": 1.3
+    },
+    {
+      "id": "4B887A388F0C2913",
+      "linked_quest": "3CA7DC2E33A8DF20",
+      "x": 8,
+      "y": 4,
+      "size": 1.3
+    },
+    {
+      "id": "1403389AE199D348",
+      "linked_quest": "275452C942D08D53",
+      "x": 0,
+      "y": 8,
+      "size": 1.3
+    },
+    {
+      "id": "3C4E534759CAC785",
+      "linked_quest": "3D2F2CB1C9E7405D",
+      "x": 4,
+      "y": 8,
+      "size": 1.3
+    },
+    {
+      "id": "20F75F147CD3F264",
+      "linked_quest": "2BE79A72B057D1CB",
+      "x": 8,
+      "y": 8,
+      "size": 1.3
+    },
+    {
+      "id": "047F68002AA4F8F9",
+      "linked_quest": "09380102448A8D1F",
+      "x": 0,
+      "y": 12,
+      "size": 1.3
+    },
+    {
+      "id": "235CCA49BF3B011D",
+      "linked_quest": "65E56D5E0D96CBE3",
+      "x": 4,
+      "y": 12,
+      "size": 1.3
+    },
+    {
+      "id": "72A133D922C391B6",
+      "linked_quest": "40ECA6F77A74E065",
+      "x": 8,
+      "y": 12,
+      "size": 1.3
+    },
+    {
+      "id": "1C03E649499E7186",
+      "linked_quest": "0576D08BEF9CA8FD",
+      "x": 0,
+      "y": 16,
+      "size": 1.3
+    },
+    {
+      "id": "6FB6CFADB550B8A1",
+      "linked_quest": "09A7884E98999818",
+      "x": 4,
+      "y": 16,
+      "size": 1.3
+    },
+    {
+      "id": "03505F79845CC3FB",
+      "linked_quest": "6E244A8EB2E21FA3",
+      "x": 8,
+      "y": 16,
+      "size": 1.3
+    },
+    {
+      "id": "60B3E5ECEE196063",
+      "linked_quest": "2F7EE194561646A3",
+      "x": 0,
+      "y": 20,
+      "size": 1.3
+    },
+    {
+      "id": "72F310E341ED9983",
+      "linked_quest": "543E69DC2C62BA61",
+      "x": 4,
+      "y": 20,
+      "size": 1.3
+    },
+    {
+      "id": "529A226BCB169099",
+      "linked_quest": "1B42C352074A54B9",
+      "x": 8,
+      "y": 20,
+      "size": 1.3
+    },
+    {
+      "id": "740C98F163BAA16C",
+      "linked_quest": "366AC06CCCE8005C",
+      "x": 0,
+      "y": 24,
+      "size": 1.3
+    },
+    {
+      "id": "7FC31C1E834D7B9B",
+      "linked_quest": "6AE86FABEBE1618D",
+      "x": 0,
+      "y": 28,
+      "size": 1.3
+    },
+    {
+      "id": "3782DC191F54D8D0",
+      "linked_quest": "0F68366FED1B407B",
+      "x": 4,
+      "y": 28,
+      "size": 1.3
+    },
+    {
+      "id": "1D504C3231CE4BF0",
+      "linked_quest": "2CA2D542DCE4A176",
+      "x": 8,
+      "y": 28,
+      "size": 1.3
+    }
+  ]
+}

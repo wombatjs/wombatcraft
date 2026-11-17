@@ -1,0 +1,58 @@
+{
+  "type": "wombatcraft:arcane_infuser",
+  "duration": 300,
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:infused_catalyst"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 16,
+          "ingredient": {
+            "item": "minecraft:amethyst_shard"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 16,
+          "ingredient": {
+            "item": "minecraft:redstone"
+          }
+        }
+      }
+    ],
+    "forge_energy": [
+      {
+        "content": 300000
+      }
+    ],
+    "botania_mana": [
+      {
+        "content": 18000
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 16,
+          "ingredient": {
+            "item": "wombatcraft_smp:resonant_crystal"
+          }
+        }
+      }
+    ]
+  }
+}

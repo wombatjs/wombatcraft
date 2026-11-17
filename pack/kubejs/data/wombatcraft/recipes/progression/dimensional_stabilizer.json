@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:astralium_ingot"
+    },
+    {
+      "item": "kubejs:astralium_ingot"
+    },
+    {
+      "item": "kubejs:astralium_ingot"
+    },
+    {
+      "item": "kubejs:astralium_ingot"
+    },
+    {
+      "item": "kubejs:temporal_core"
+    },
+    {
+      "item": "ad_astra:ostrum_ingot"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "ae2:engineering_processor"
+    }
+  ],
+  "result": {
+    "item": "wombatcraft:dimensional_stabilizer",
+    "count": 1
+  }
+}

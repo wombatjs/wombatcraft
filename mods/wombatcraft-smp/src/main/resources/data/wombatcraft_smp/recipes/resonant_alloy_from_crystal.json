@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wombatcraft_smp:resonant_crystal"
+    },
+    {
+      "item": "create:andesite_alloy"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "result": {
+    "item": "kubejs:resonant_alloy",
+    "count": 8
+  }
+}

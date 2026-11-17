@@ -10,6 +10,8 @@ from dimension_quests import add_dimensions
 from quest_layout import chapter_key, lay_out_atlas, lay_out_lanes
 from quest_rewards import apply_rewards
 from frontier_chapters import add_frontier_chapters
+from build_convergence_progression import add_chapter as add_convergence_chapter
+from build_journey import export as add_journey
 ROOT=Path(__file__).resolve().parents[1]
 def uid(s):return f"{int(hashlib.sha256(('wombatcraft/'+s).encode()).hexdigest()[:16],16) & 0x7FFFFFFFFFFFFFFF:016X}"
 def save(p,d):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(d,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
@@ -132,7 +134,9 @@ def build(registry,names):
  refine_chapters(book,uid)
  destinations=add_dimensions(book,uid)
  add_frontier_chapters(book,uid,registry)
+ add_convergence_chapter(book,uid)
  apply_rewards(book,uid,registry)
+ add_journey(book)
  save(ROOT/'docs/dimension-atlas.json',destinations)
  for filename,d in book.items():save(chapters/(filename+'.snbt'),d)
  for entry in reports:entry['quests']=len(book[chapter_key(entry['chapter'])]['quests'])

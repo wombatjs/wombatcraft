@@ -1,0 +1,67 @@
+{
+  "type": "wombatcraft:arcane_infuser",
+  "duration": 600,
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 2,
+          "ingredient": {
+            "item": "kubejs:infused_catalyst"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 4,
+          "ingredient": {
+            "item": "botania:manasteel_ingot"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 4,
+          "ingredient": {
+            "item": "botania:mana_diamond"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 4,
+          "ingredient": {
+            "item": "botania:mana_pearl"
+          }
+        }
+      }
+    ],
+    "forge_energy": [
+      {
+        "content": 1200000
+      }
+    ],
+    "botania_mana": [
+      {
+        "content": 500000
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 4,
+          "ingredient": {
+            "item": "botania:terrasteel_ingot"
+          }
+        }
+      }
+    ]
+  }
+}

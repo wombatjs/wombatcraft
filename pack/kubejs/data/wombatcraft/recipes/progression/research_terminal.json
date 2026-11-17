@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:resonant_alloy"
+    },
+    {
+      "item": "kubejs:resonant_alloy"
+    },
+    {
+      "item": "kubejs:resonant_alloy"
+    },
+    {
+      "item": "kubejs:resonant_alloy"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "result": {
+    "item": "wombatcraft_smp:research_terminal",
+    "count": 1
+  }
+}

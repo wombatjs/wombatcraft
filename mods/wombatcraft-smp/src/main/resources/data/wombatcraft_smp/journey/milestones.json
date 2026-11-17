@@ -1,0 +1,722 @@
+[
+  {
+    "quest": "0179D27BC15B2ADF",
+    "title": "A foothold in Wombatcraft",
+    "chapter": "00_start_here",
+    "chapter_title": "Start Here",
+    "stage": 0,
+    "stage_title": "The Journey Begins",
+    "branch": "survival",
+    "purpose": "Build a safe base, learn recipes and protect your supplies. These foundations support every path."
+  },
+  {
+    "quest": "0EA8707A02B8D8D4",
+    "title": "A place to begin",
+    "chapter": "00_start_here",
+    "chapter_title": "Start Here",
+    "stage": 0,
+    "stage_title": "The Journey Begins",
+    "branch": "survival",
+    "purpose": "Build a safe base, learn recipes and protect your supplies. These foundations support every path."
+  },
+  {
+    "quest": "0919D581FCDD2595",
+    "title": "The first workshop",
+    "chapter": "00_start_here",
+    "chapter_title": "Start Here",
+    "stage": 0,
+    "stage_title": "The Journey Begins",
+    "branch": "survival",
+    "purpose": "Build a safe base, learn recipes and protect your supplies. These foundations support every path."
+  },
+  {
+    "quest": "00E53C8030F81AA8",
+    "title": "Below the surface",
+    "chapter": "00_start_here",
+    "chapter_title": "Start Here",
+    "stage": 0,
+    "stage_title": "The Journey Begins",
+    "branch": "survival",
+    "purpose": "Build a safe base, learn recipes and protect your supplies. These foundations support every path."
+  },
+  {
+    "quest": "0C2B641A6F487192",
+    "title": "Keep what matters",
+    "chapter": "00_start_here",
+    "chapter_title": "Start Here",
+    "stage": 0,
+    "stage_title": "The Journey Begins",
+    "branch": "survival",
+    "purpose": "Build a safe base, learn recipes and protect your supplies. These foundations support every path."
+  },
+  {
+    "quest": "028B610E33922C6C",
+    "title": "A safe return",
+    "chapter": "00_start_here",
+    "chapter_title": "Start Here",
+    "stage": 0,
+    "stage_title": "The Journey Begins",
+    "branch": "survival",
+    "purpose": "Build a safe base, learn recipes and protect your supplies. These foundations support every path."
+  },
+  {
+    "quest": "0A61808FE40FEB8B",
+    "title": "Make a home together",
+    "chapter": "00_start_here",
+    "chapter_title": "Start Here",
+    "stage": 0,
+    "stage_title": "The Journey Begins",
+    "branch": "survival",
+    "purpose": "Build a safe base, learn recipes and protect your supplies. These foundations support every path."
+  },
+  {
+    "quest": "07DC886E17A90B87",
+    "title": "Mark the Way Home",
+    "chapter": "00_start_here",
+    "chapter_title": "Start Here",
+    "stage": 0,
+    "stage_title": "The Journey Begins",
+    "branch": "survival",
+    "purpose": "Build a safe base, learn recipes and protect your supplies. These foundations support every path."
+  },
+  {
+    "quest": "063B8BD59A482879",
+    "title": "Recipes at your fingertips",
+    "chapter": "00_start_here",
+    "chapter_title": "Start Here",
+    "stage": 0,
+    "stage_title": "The Journey Begins",
+    "branch": "survival",
+    "purpose": "Build a safe base, learn recipes and protect your supplies. These foundations support every path."
+  },
+  {
+    "quest": "01E6C5BADB72D8C6",
+    "title": "Water Wheel",
+    "chapter": "wc_create",
+    "chapter_title": "Create",
+    "stage": 1,
+    "stage_title": "The Industrial Age",
+    "branch": "technology",
+    "purpose": "Choose a power route and begin processing materials. Mechanical power, FE machines and Convergence research are complementary options."
+  },
+  {
+    "quest": "3FA3BA68CEC4E8B7",
+    "title": "Mechanical Press",
+    "chapter": "wc_create",
+    "chapter_title": "Create",
+    "stage": 1,
+    "stage_title": "The Industrial Age",
+    "branch": "technology",
+    "purpose": "Choose a power route and begin processing materials. Mechanical power, FE machines and Convergence research are complementary options."
+  },
+  {
+    "quest": "348B017E378DB8CF",
+    "title": "Mechanical Mixer",
+    "chapter": "wc_create",
+    "chapter_title": "Create",
+    "stage": 1,
+    "stage_title": "The Industrial Age",
+    "branch": "technology",
+    "purpose": "Choose a power route and begin processing materials. Mechanical power, FE machines and Convergence research are complementary options."
+  },
+  {
+    "quest": "3ABE5687E527D6E4",
+    "title": "Brass Ingot",
+    "chapter": "wc_create",
+    "chapter_title": "Create",
+    "stage": 1,
+    "stage_title": "The Industrial Age",
+    "branch": "technology",
+    "purpose": "Choose a power route and begin processing materials. Mechanical power, FE machines and Convergence research are complementary options."
+  },
+  {
+    "quest": "05179E5C316C9EAE",
+    "title": "Metallurgic Infuser",
+    "chapter": "wc_mekanism",
+    "chapter_title": "Mekanism",
+    "stage": 1,
+    "stage_title": "The Industrial Age",
+    "branch": "technology",
+    "purpose": "Choose a power route and begin processing materials. Mechanical power, FE machines and Convergence research are complementary options."
+  },
+  {
+    "quest": "11A6D5840C5819FF",
+    "title": "Basic Energy Cube",
+    "chapter": "wc_mekanism",
+    "chapter_title": "Mekanism",
+    "stage": 1,
+    "stage_title": "The Industrial Age",
+    "branch": "technology",
+    "purpose": "Choose a power route and begin processing materials. Mechanical power, FE machines and Convergence research are complementary options."
+  },
+  {
+    "quest": "23A5A2BFAD7E3DF5",
+    "title": "Furnator (Starter)",
+    "chapter": "wc_power",
+    "chapter_title": "Power",
+    "stage": 1,
+    "stage_title": "The Industrial Age",
+    "branch": "technology",
+    "purpose": "Choose a power route and begin processing materials. Mechanical power, FE machines and Convergence research are complementary options."
+  },
+  {
+    "quest": "51FB071ECC6345D0",
+    "title": "Resonant Alloy",
+    "chapter": "wc_convergence_progression",
+    "chapter_title": "The Convergence: Six Disciplines",
+    "stage": 1,
+    "stage_title": "The Industrial Age",
+    "branch": "technology",
+    "purpose": "Choose a power route and begin processing materials. Mechanical power, FE machines and Convergence research are complementary options."
+  },
+  {
+    "quest": "78156914242DA3C4",
+    "title": "Research Terminal",
+    "chapter": "wc_convergence_workshop",
+    "chapter_title": "Convergence: Workshops and Expeditions",
+    "stage": 1,
+    "stage_title": "The Industrial Age",
+    "branch": "technology",
+    "purpose": "Choose a power route and begin processing materials. Mechanical power, FE machines and Convergence research are complementary options."
+  },
+  {
+    "quest": "275452C942D08D53",
+    "title": "Novice Spell Book",
+    "chapter": "wc_ars_nouveau",
+    "chapter_title": "Ars Nouveau",
+    "stage": 2,
+    "stage_title": "Arcane Discovery",
+    "branch": "magic",
+    "purpose": "Try a spellbook or a living-mana garden. These routes open utility spells, magical processing and trade with engineers."
+  },
+  {
+    "quest": "3F9BCDCB912F88F6",
+    "title": "Source Gem",
+    "chapter": "wc_ars_nouveau",
+    "chapter_title": "Ars Nouveau",
+    "stage": 2,
+    "stage_title": "Arcane Discovery",
+    "branch": "magic",
+    "purpose": "Try a spellbook or a living-mana garden. These routes open utility spells, magical processing and trade with engineers."
+  },
+  {
+    "quest": "70EF27A3F6CAB609",
+    "title": "Imbuement Chamber",
+    "chapter": "wc_ars_nouveau",
+    "chapter_title": "Ars Nouveau",
+    "stage": 2,
+    "stage_title": "Arcane Discovery",
+    "branch": "magic",
+    "purpose": "Try a spellbook or a living-mana garden. These routes open utility spells, magical processing and trade with engineers."
+  },
+  {
+    "quest": "232E24456054577F",
+    "title": "Source Jar",
+    "chapter": "wc_ars_nouveau",
+    "chapter_title": "Ars Nouveau",
+    "stage": 2,
+    "stage_title": "Arcane Discovery",
+    "branch": "magic",
+    "purpose": "Try a spellbook or a living-mana garden. These routes open utility spells, magical processing and trade with engineers."
+  },
+  {
+    "quest": "3D2F2CB1C9E7405D",
+    "title": "Enchanting Apparatus",
+    "chapter": "wc_ars_nouveau",
+    "chapter_title": "Ars Nouveau",
+    "stage": 2,
+    "stage_title": "Arcane Discovery",
+    "branch": "magic",
+    "purpose": "Try a spellbook or a living-mana garden. These routes open utility spells, magical processing and trade with engineers."
+  },
+  {
+    "quest": "3B3C226317183C1B",
+    "title": "Petal Apothecary",
+    "chapter": "wc_botania",
+    "chapter_title": "Botania",
+    "stage": 2,
+    "stage_title": "Arcane Discovery",
+    "branch": "magic",
+    "purpose": "Try a spellbook or a living-mana garden. These routes open utility spells, magical processing and trade with engineers."
+  },
+  {
+    "quest": "0CE7AD0C114BF59E",
+    "title": "Pure Daisy",
+    "chapter": "wc_botania",
+    "chapter_title": "Botania",
+    "stage": 2,
+    "stage_title": "Arcane Discovery",
+    "branch": "magic",
+    "purpose": "Try a spellbook or a living-mana garden. These routes open utility spells, magical processing and trade with engineers."
+  },
+  {
+    "quest": "4556D96C36F3BDB3",
+    "title": "Mana Pool",
+    "chapter": "wc_botania",
+    "chapter_title": "Botania",
+    "stage": 2,
+    "stage_title": "Arcane Discovery",
+    "branch": "magic",
+    "purpose": "Try a spellbook or a living-mana garden. These routes open utility spells, magical processing and trade with engineers."
+  },
+  {
+    "quest": "2BE79A72B057D1CB",
+    "title": "Inscription Table",
+    "chapter": "wc_spellbooks",
+    "chapter_title": "Spellbooks",
+    "stage": 2,
+    "stage_title": "Arcane Discovery",
+    "branch": "magic",
+    "purpose": "Try a spellbook or a living-mana garden. These routes open utility spells, magical processing and trade with engineers."
+  },
+  {
+    "quest": "09380102448A8D1F",
+    "title": "Where the Sun Stands Still",
+    "chapter": "wc_twilight_forest",
+    "chapter_title": "Twilight Forest",
+    "stage": 3,
+    "stage_title": "Into the Unknown",
+    "branch": "exploration",
+    "purpose": "Prepare food, protection and a way home. Dimensional discoveries supply repeatable Trials and rare reagents; you can explore while friends build."
+  },
+  {
+    "quest": "5C10F1CF484DE5CB",
+    "title": "Into The Aether",
+    "chapter": "wc_dimension_aether",
+    "chapter_title": "The Aether",
+    "stage": 3,
+    "stage_title": "Into the Unknown",
+    "branch": "exploration",
+    "purpose": "Prepare food, protection and a way home. Dimensional discoveries supply repeatable Trials and rare reagents; you can explore while friends build."
+  },
+  {
+    "quest": "48EAF4DDE934E4B7",
+    "title": "Into The Otherside",
+    "chapter": "wc_dimension_otherside",
+    "chapter_title": "The Otherside",
+    "stage": 3,
+    "stage_title": "Into the Unknown",
+    "branch": "exploration",
+    "purpose": "Prepare food, protection and a way home. Dimensional discoveries supply repeatable Trials and rare reagents; you can explore while friends build."
+  },
+  {
+    "quest": "4A694562A5135AFB",
+    "title": "A Scholar Among Clouds",
+    "chapter": "wc_dimension_aether",
+    "chapter_title": "The Aether",
+    "stage": 3,
+    "stage_title": "Into the Unknown",
+    "branch": "exploration",
+    "purpose": "Prepare food, protection and a way home. Dimensional discoveries supply repeatable Trials and rare reagents; you can explore while friends build."
+  },
+  {
+    "quest": "6447BABEF4660AE5",
+    "title": "The Altar's Craft",
+    "chapter": "wc_dimension_aether",
+    "chapter_title": "The Aether",
+    "stage": 3,
+    "stage_title": "Into the Unknown",
+    "branch": "exploration",
+    "purpose": "Prepare food, protection and a way home. Dimensional discoveries supply repeatable Trials and rare reagents; you can explore while friends build."
+  },
+  {
+    "quest": "4AE7C20CA14E9CCF",
+    "title": "A Reinforced Echo",
+    "chapter": "wc_dimension_otherside",
+    "chapter_title": "The Otherside",
+    "stage": 3,
+    "stage_title": "Into the Unknown",
+    "branch": "exploration",
+    "purpose": "Prepare food, protection and a way home. Dimensional discoveries supply repeatable Trials and rare reagents; you can explore while friends build."
+  },
+  {
+    "quest": "4999924E2FFE8F0F",
+    "title": "The Muster",
+    "chapter": "wc_frontier_trials",
+    "chapter_title": "Wombatcraft Trials",
+    "stage": 3,
+    "stage_title": "Into the Unknown",
+    "branch": "exploration",
+    "purpose": "Prepare food, protection and a way home. Dimensional discoveries supply repeatable Trials and rare reagents; you can explore while friends build."
+  },
+  {
+    "quest": "6E62A58C8B229C36",
+    "title": "The Surveyor's Kit",
+    "chapter": "wc_frontier_expeditions",
+    "chapter_title": "Ruins and Expeditions",
+    "stage": 3,
+    "stage_title": "Into the Unknown",
+    "branch": "exploration",
+    "purpose": "Prepare food, protection and a way home. Dimensional discoveries supply repeatable Trials and rare reagents; you can explore while friends build."
+  },
+  {
+    "quest": "65E56D5E0D96CBE3",
+    "title": "The Hunter's Cabin",
+    "chapter": "wc_frontier_expeditions",
+    "chapter_title": "Ruins and Expeditions",
+    "stage": 3,
+    "stage_title": "Into the Unknown",
+    "branch": "exploration",
+    "purpose": "Prepare food, protection and a way home. Dimensional discoveries supply repeatable Trials and rare reagents; you can explore while friends build."
+  },
+  {
+    "quest": "309DD644DC97FFAB",
+    "title": "ME Crafting Terminal",
+    "chapter": "wc_applied_energistics",
+    "chapter_title": "Applied Energistics",
+    "stage": 4,
+    "stage_title": "Advanced Engineering",
+    "branch": "technology",
+    "purpose": "Automate work that you repeat. Storage networks, manufacturing, resource crops and settlements are parallel investments, not a checklist every player must finish."
+  },
+  {
+    "quest": "1F805BC6BD1AD092",
+    "title": "ME Controller",
+    "chapter": "wc_applied_energistics",
+    "chapter_title": "Applied Energistics",
+    "stage": 4,
+    "stage_title": "Advanced Engineering",
+    "branch": "technology",
+    "purpose": "Automate work that you repeat. Storage networks, manufacturing, resource crops and settlements are parallel investments, not a checklist every player must finish."
+  },
+  {
+    "quest": "72C2C42FD430FE87",
+    "title": "ME Pattern Provider",
+    "chapter": "wc_applied_energistics",
+    "chapter_title": "Applied Energistics",
+    "stage": 4,
+    "stage_title": "Advanced Engineering",
+    "branch": "technology",
+    "purpose": "Automate work that you repeat. Storage networks, manufacturing, resource crops and settlements are parallel investments, not a checklist every player must finish."
+  },
+  {
+    "quest": "1C5E6B03EC5F0834",
+    "title": "Molecular Assembler",
+    "chapter": "wc_applied_energistics",
+    "chapter_title": "Applied Energistics",
+    "stage": 4,
+    "stage_title": "Advanced Engineering",
+    "branch": "technology",
+    "purpose": "Automate work that you repeat. Storage networks, manufacturing, resource crops and settlements are parallel investments, not a checklist every player must finish."
+  },
+  {
+    "quest": "74AA6DB9A57548FF",
+    "title": "Digital Miner",
+    "chapter": "wc_mekanism",
+    "chapter_title": "Mekanism",
+    "stage": 4,
+    "stage_title": "Advanced Engineering",
+    "branch": "technology",
+    "purpose": "Automate work that you repeat. Storage networks, manufacturing, resource crops and settlements are parallel investments, not a checklist every player must finish."
+  },
+  {
+    "quest": "3CA7DC2E33A8DF20",
+    "title": "Precision Mechanism",
+    "chapter": "wc_create",
+    "chapter_title": "Create",
+    "stage": 4,
+    "stage_title": "Advanced Engineering",
+    "branch": "technology",
+    "purpose": "Automate work that you repeat. Storage networks, manufacturing, resource crops and settlements are parallel investments, not a checklist every player must finish."
+  },
+  {
+    "quest": "2F7EE194561646A3",
+    "title": "Inferium Seeds",
+    "chapter": "wc_mystical_agriculture",
+    "chapter_title": "Mystical Agriculture",
+    "stage": 4,
+    "stage_title": "Advanced Engineering",
+    "branch": "nature",
+    "purpose": "Automate work that you repeat. Storage networks, manufacturing, resource crops and settlements are parallel investments, not a checklist every player must finish."
+  },
+  {
+    "quest": "543E69DC2C62BA61",
+    "title": "Supremium Essence",
+    "chapter": "wc_mystical_agriculture",
+    "chapter_title": "Mystical Agriculture",
+    "stage": 4,
+    "stage_title": "Advanced Engineering",
+    "branch": "nature",
+    "purpose": "Automate work that you repeat. Storage networks, manufacturing, resource crops and settlements are parallel investments, not a checklist every player must finish."
+  },
+  {
+    "quest": "366AC06CCCE8005C",
+    "title": "Warehouse",
+    "chapter": "wc_settlement",
+    "chapter_title": "Settlement",
+    "stage": 4,
+    "stage_title": "Advanced Engineering",
+    "branch": "settlement",
+    "purpose": "Automate work that you repeat. Storage networks, manufacturing, resource crops and settlements are parallel investments, not a checklist every player must finish."
+  },
+  {
+    "quest": "0576D08BEF9CA8FD",
+    "title": "Materials for space",
+    "chapter": "11_ad_astra",
+    "chapter_title": "Ad Astra",
+    "stage": 5,
+    "stage_title": "Beyond the Stars",
+    "branch": "space",
+    "purpose": "Build fuel and oxygen infrastructure before launching. Planetary materials unlock Stellar Cores, Astralium and renewable late-game production."
+  },
+  {
+    "quest": "080A6699E1EFA66C",
+    "title": "Pressure-rated parts",
+    "chapter": "11_ad_astra",
+    "chapter_title": "Ad Astra",
+    "stage": 5,
+    "stage_title": "Beyond the Stars",
+    "branch": "space",
+    "purpose": "Build fuel and oxygen infrastructure before launching. Planetary materials unlock Stellar Cores, Astralium and renewable late-game production."
+  },
+  {
+    "quest": "0DCD1112B6462B8A",
+    "title": "Prepare the fuel",
+    "chapter": "11_ad_astra",
+    "chapter_title": "Ad Astra",
+    "stage": 5,
+    "stage_title": "Beyond the Stars",
+    "branch": "space",
+    "purpose": "Build fuel and oxygen infrastructure before launching. Planetary materials unlock Stellar Cores, Astralium and renewable late-game production."
+  },
+  {
+    "quest": "0D75261CE9AD3AC9",
+    "title": "Breathing room",
+    "chapter": "11_ad_astra",
+    "chapter_title": "Ad Astra",
+    "stage": 5,
+    "stage_title": "Beyond the Stars",
+    "branch": "space",
+    "purpose": "Build fuel and oxygen infrastructure before launching. Planetary materials unlock Stellar Cores, Astralium and renewable late-game production."
+  },
+  {
+    "quest": "09A7884E98999818",
+    "title": "Dress for the journey",
+    "chapter": "11_ad_astra",
+    "chapter_title": "Ad Astra",
+    "stage": 5,
+    "stage_title": "Beyond the Stars",
+    "branch": "space",
+    "purpose": "Build fuel and oxygen infrastructure before launching. Planetary materials unlock Stellar Cores, Astralium and renewable late-game production."
+  },
+  {
+    "quest": "0666D18E7E385A78",
+    "title": "Assemble a rocket",
+    "chapter": "11_ad_astra",
+    "chapter_title": "Ad Astra",
+    "stage": 5,
+    "stage_title": "Beyond the Stars",
+    "branch": "space",
+    "purpose": "Build fuel and oxygen infrastructure before launching. Planetary materials unlock Stellar Cores, Astralium and renewable late-game production."
+  },
+  {
+    "quest": "5BEA56F41C3C6E98",
+    "title": "Footprints on the Moon",
+    "chapter": "11_ad_astra",
+    "chapter_title": "Ad Astra",
+    "stage": 5,
+    "stage_title": "Beyond the Stars",
+    "branch": "space",
+    "purpose": "Build fuel and oxygen infrastructure before launching. Planetary materials unlock Stellar Cores, Astralium and renewable late-game production."
+  },
+  {
+    "quest": "0D8BB5C48DDDA495",
+    "title": "The Red Frontier",
+    "chapter": "11_ad_astra",
+    "chapter_title": "Ad Astra",
+    "stage": 5,
+    "stage_title": "Beyond the Stars",
+    "branch": "space",
+    "purpose": "Build fuel and oxygen infrastructure before launching. Planetary materials unlock Stellar Cores, Astralium and renewable late-game production."
+  },
+  {
+    "quest": "6E244A8EB2E21FA3",
+    "title": "Beneath a Burning Sky",
+    "chapter": "11_ad_astra",
+    "chapter_title": "Ad Astra",
+    "stage": 5,
+    "stage_title": "Beyond the Stars",
+    "branch": "space",
+    "purpose": "Build fuel and oxygen infrastructure before launching. Planetary materials unlock Stellar Cores, Astralium and renewable late-game production."
+  },
+  {
+    "quest": "128AA0619413B172",
+    "title": "Scales in the Courtyard",
+    "chapter": "wc_twilight_forest",
+    "chapter_title": "Twilight Forest",
+    "stage": 6,
+    "stage_title": "Ancient Powers",
+    "branch": "exploration",
+    "purpose": "Pick a hunt or master a renewable resource route. Boss progression supplies magic and industry, while advanced farming remains a valuable specialty."
+  },
+  {
+    "quest": "17AC570F3F24B5CB",
+    "title": "The Lich's Tower",
+    "chapter": "wc_twilight_forest",
+    "chapter_title": "Twilight Forest",
+    "stage": 6,
+    "stage_title": "Ancient Powers",
+    "branch": "exploration",
+    "purpose": "Pick a hunt or master a renewable resource route. Boss progression supplies magic and industry, while advanced farming remains a valuable specialty."
+  },
+  {
+    "quest": "3934957461BF7F90",
+    "title": "The Fire Swamp",
+    "chapter": "wc_twilight_forest",
+    "chapter_title": "Twilight Forest",
+    "stage": 6,
+    "stage_title": "Ancient Powers",
+    "branch": "exploration",
+    "purpose": "Pick a hunt or master a renewable resource route. Boss progression supplies magic and industry, while advanced farming remains a valuable specialty."
+  },
+  {
+    "quest": "1A45BEEB73E4A54C",
+    "title": "The Stone Sentinel",
+    "chapter": "wc_dimension_aether",
+    "chapter_title": "The Aether",
+    "stage": 6,
+    "stage_title": "Ancient Powers",
+    "branch": "exploration",
+    "purpose": "Pick a hunt or master a renewable resource route. Boss progression supplies magic and industry, while advanced farming remains a valuable specialty."
+  },
+  {
+    "quest": "01A18BCCCF2B7FA4",
+    "title": "A Queen's Challenge",
+    "chapter": "wc_dimension_aether",
+    "chapter_title": "The Aether",
+    "stage": 6,
+    "stage_title": "Ancient Powers",
+    "branch": "exploration",
+    "purpose": "Pick a hunt or master a renewable resource route. Boss progression supplies magic and industry, while advanced farming remains a valuable specialty."
+  },
+  {
+    "quest": "46B7B4C21FBB1475",
+    "title": "Gaia Unbound",
+    "chapter": "wc_botania",
+    "chapter_title": "Botania",
+    "stage": 6,
+    "stage_title": "Ancient Powers",
+    "branch": "exploration",
+    "purpose": "Pick a hunt or master a renewable resource route. Boss progression supplies magic and industry, while advanced farming remains a valuable specialty."
+  },
+  {
+    "quest": "54993B7AA5593DF1",
+    "title": "The Last King",
+    "chapter": "wc_spellbooks",
+    "chapter_title": "Spellbooks",
+    "stage": 6,
+    "stage_title": "Ancient Powers",
+    "branch": "exploration",
+    "purpose": "Pick a hunt or master a renewable resource route. Boss progression supplies magic and industry, while advanced farming remains a valuable specialty."
+  },
+  {
+    "quest": "1B42C352074A54B9",
+    "title": "Awakened Supremium Essence",
+    "chapter": "wc_mystical_agriculture",
+    "chapter_title": "Mystical Agriculture",
+    "stage": 6,
+    "stage_title": "Ancient Powers",
+    "branch": "nature",
+    "purpose": "Pick a hunt or master a renewable resource route. Boss progression supplies magic and industry, while advanced farming remains a valuable specialty."
+  },
+  {
+    "quest": "40ECA6F77A74E065",
+    "title": "Ancient Core",
+    "chapter": "wc_convergence_progression",
+    "chapter_title": "The Convergence: Six Disciplines",
+    "stage": 6,
+    "stage_title": "Ancient Powers",
+    "branch": "exploration",
+    "purpose": "Pick a hunt or master a renewable resource route. Boss progression supplies magic and industry, while advanced farming remains a valuable specialty."
+  },
+  {
+    "quest": "6AE86FABEBE1618D",
+    "title": "Aetherium Ingot",
+    "chapter": "wc_convergence_progression",
+    "chapter_title": "The Convergence: Six Disciplines",
+    "stage": 7,
+    "stage_title": "The Convergence",
+    "branch": "convergence",
+    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, then a Matrix that keeps specialist workshops useful."
+  },
+  {
+    "quest": "4D24674B33D16DC2",
+    "title": "Astralium Ingot",
+    "chapter": "wc_convergence_progression",
+    "chapter_title": "The Convergence: Six Disciplines",
+    "stage": 7,
+    "stage_title": "The Convergence",
+    "branch": "convergence",
+    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, then a Matrix that keeps specialist workshops useful."
+  },
+  {
+    "quest": "2BB745DBC0662909",
+    "title": "Convergium Ingot",
+    "chapter": "wc_convergence_progression",
+    "chapter_title": "The Convergence: Six Disciplines",
+    "stage": 7,
+    "stage_title": "The Convergence",
+    "branch": "convergence",
+    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, then a Matrix that keeps specialist workshops useful."
+  },
+  {
+    "quest": "0209B29F8CFB053F",
+    "title": "Industrial Sigil",
+    "chapter": "99_convergence",
+    "chapter_title": "Convergence",
+    "stage": 7,
+    "stage_title": "The Convergence",
+    "branch": "convergence",
+    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, then a Matrix that keeps specialist workshops useful."
+  },
+  {
+    "quest": "0F68366FED1B407B",
+    "title": "Arcane Sigil",
+    "chapter": "99_convergence",
+    "chapter_title": "Convergence",
+    "stage": 7,
+    "stage_title": "The Convergence",
+    "branch": "convergence",
+    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, then a Matrix that keeps specialist workshops useful."
+  },
+  {
+    "quest": "05742B300F1756FE",
+    "title": "Voyager Sigil",
+    "chapter": "99_convergence",
+    "chapter_title": "Convergence",
+    "stage": 7,
+    "stage_title": "The Convergence",
+    "branch": "convergence",
+    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, then a Matrix that keeps specialist workshops useful."
+  },
+  {
+    "quest": "05E20ECC04CC71D2",
+    "title": "Prosperity Sigil",
+    "chapter": "99_convergence",
+    "chapter_title": "Convergence",
+    "stage": 7,
+    "stage_title": "The Convergence",
+    "branch": "convergence",
+    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, then a Matrix that keeps specialist workshops useful."
+  },
+  {
+    "quest": "07880F2BE7FAFE56",
+    "title": "Convergence Core",
+    "chapter": "99_convergence",
+    "chapter_title": "Convergence",
+    "stage": 7,
+    "stage_title": "The Convergence",
+    "branch": "convergence",
+    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, then a Matrix that keeps specialist workshops useful."
+  },
+  {
+    "quest": "2CA2D542DCE4A176",
+    "title": "Build the Convergence Matrix",
+    "chapter": "wc_convergence_workshop",
+    "chapter_title": "Convergence: Workshops and Expeditions",
+    "stage": 7,
+    "stage_title": "The Convergence",
+    "branch": "convergence",
+    "purpose": "Trade discoveries across the six disciplines. Material tiers and the four legacy sigils lead to the Core, then a Matrix that keeps specialist workshops useful."
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:astralium_ingot"
+    },
+    {
+      "item": "kubejs:astralium_ingot"
+    },
+    {
+      "item": "kubejs:astralium_ingot"
+    },
+    {
+      "item": "kubejs:astralium_ingot"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "kubejs:temporal_core"
+    }
+  ],
+  "result": {
+    "item": "wombatcraft_smp:astralium_boots",
+    "count": 1
+  }
+}

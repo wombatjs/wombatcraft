@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:aetherium_ingot"
+    },
+    {
+      "item": "kubejs:aetherium_ingot"
+    },
+    {
+      "item": "kubejs:aetherium_ingot"
+    },
+    {
+      "item": "kubejs:aetherium_ingot"
+    },
+    {
+      "item": "kubejs:arcane_core"
+    },
+    {
+      "item": "botania:mana_pool"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    },
+    {
+      "item": "create:precision_mechanism"
+    }
+  ],
+  "result": {
+    "item": "wombatcraft:arcane_infuser",
+    "count": 1
+  }
+}

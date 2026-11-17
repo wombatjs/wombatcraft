@@ -1,0 +1,58 @@
+{
+  "type": "wombatcraft:dimensional_stabilizer",
+  "duration": 400,
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:temporal_core"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:stellar_core"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 8,
+          "ingredient": {
+            "item": "minecraft:ender_pearl"
+          }
+        }
+      }
+    ],
+    "forge_energy": [
+      {
+        "content": 800000
+      }
+    ],
+    "botania_mana": [
+      {
+        "content": 48000
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 8,
+          "ingredient": {
+            "item": "kubejs:stabilized_flux"
+          }
+        }
+      }
+    ]
+  }
+}

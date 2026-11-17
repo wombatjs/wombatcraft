@@ -1,0 +1,58 @@
+{
+  "type": "wombatcraft:arcane_infuser",
+  "duration": 200,
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:aetherium_ingot"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 16,
+          "ingredient": {
+            "item": "ae2:certus_quartz_crystal"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 16,
+          "ingredient": {
+            "item": "minecraft:redstone"
+          }
+        }
+      }
+    ],
+    "forge_energy": [
+      {
+        "content": 200000
+      }
+    ],
+    "botania_mana": [
+      {
+        "content": 12000
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 32,
+          "ingredient": {
+            "item": "ae2:fluix_crystal"
+          }
+        }
+      }
+    ]
+  }
+}

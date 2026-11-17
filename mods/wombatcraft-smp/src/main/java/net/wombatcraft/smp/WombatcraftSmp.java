@@ -33,9 +33,12 @@ public final class WombatcraftSmp {
     private final TpaGuard tpa=new TpaGuard();
     public static boolean clientEnabled(){return ENABLED.get();}
     public WombatcraftSmp() {
+        ConvergenceContent.register(net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext.get().getModEventBus());
+        ConvergenceResearch.register(net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext.get().getModEventBus());
         ModLoadingContext.get().registerConfig(ModConfig.Type.SERVER,SPEC);
         SmpNetwork.register();
         Factions.register();
+        MinecraftForge.EVENT_BUS.addListener((net.minecraftforge.event.server.ServerStartedEvent e)->PersonalProgress.initialize(e.getServer()));
         CivicResidents.register();
         MayorPolicies.register();
         ExpansionGuard.register();
@@ -46,13 +49,14 @@ public final class WombatcraftSmp {
         MinecraftForge.EVENT_BUS.addListener((net.minecraftforge.event.entity.player.PlayerEvent.PlayerLoggedOutEvent e)->SmpNetwork.leave(e.getEntity().getUUID()));
     }
     private void command(CommandEvent event) {if(ENABLED.get()&&TPA_GUARD.get())tpa.command(event);}
-    private void stopped(ServerStoppedEvent event){tpa.clear();SmpNetwork.clear();ContractService.clear();}
+    private void stopped(ServerStoppedEvent event){tpa.clear();SmpNetwork.clear();ContractService.clear();JourneyService.clear();}
     private void commands(RegisterCommandsEvent event) {
+        JourneyService.register(event);
         event.getDispatcher().register(Commands.literal("contracts").requires(s->ENABLED.get()&&CONTRACTS.get()).executes(c->{
             var player=c.getSource().getPlayerOrException();
-            if(!SmpNetwork.atSpawn(player)){c.getSource().sendFailure(Component.literal("Visit the contract desk at spawn."));return 0;}
             SmpNetwork.view(player,0,"",0,4);return 1;
         }));
+        event.getDispatcher().register(Commands.literal("townhall").requires(s->ENABLED.get()&&ELECTIONS.get()).executes(c->{SmpNetwork.view(c.getSource().getPlayerOrException(),0,"",0,3);return 1;}));
         event.getDispatcher().register(Commands.literal("faction").requires(s->ENABLED.get()).executes(c->{
             SmpNetwork.view(c.getSource().getPlayerOrException(),0,"");return 1;
         }));

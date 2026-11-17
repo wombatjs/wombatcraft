@@ -1,0 +1,67 @@
+{
+  "type": "wombatcraft:dimensional_stabilizer",
+  "duration": 75,
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 4,
+          "ingredient": {
+            "item": "kubejs:aetherium_ingot"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:stellar_core"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:mechanized_core"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:stabilized_flux"
+          }
+        }
+      }
+    ],
+    "forge_energy": [
+      {
+        "content": 1200000
+      }
+    ],
+    "botania_mana": [
+      {
+        "content": 60000
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 4,
+          "ingredient": {
+            "item": "kubejs:astralium_ingot"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -3,5 +3,6 @@
   "wombatcraft_arena_terrain": "coremods/arena_terrain.js",
   "wombatcraft_fossil_food": "coremods/fossil_food.js",
   "wombatcraft_utility_guards": "coremods/utility_guards.js",
-  "wombatcraft_rooms_guard": "coremods/rooms_guard.js"
+  "wombatcraft_rooms_guard": "coremods/rooms_guard.js",
+  "wombatcraft_personal_progress": "coremods/personal_progress.js"
 }

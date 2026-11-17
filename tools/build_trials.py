@@ -51,8 +51,10 @@ def reward(item, count):
 
 
 def main():
-    translations = dict.fromkeys(["block.wombatcraft.convergence_forge",
-                                  "item.wombatcraft.convergence_forge", "wombatcraft.convergence_forging"], "Convergence Forge")
+    language = ROOT / "pack/kubejs/assets/wombatcraft/lang/en_us.json"
+    translations = json.loads(language.read_text()) if language.exists() else {}
+    translations.update(dict.fromkeys(["block.wombatcraft.convergence_forge",
+                                  "item.wombatcraft.convergence_forge", "wombatcraft.convergence_forging"], "Convergence Forge"))
     for key, trial in TRIALS.items():
         name = f"trial_{key}"
         translations[f"wombatcraft.{name}"] = trial["name"]

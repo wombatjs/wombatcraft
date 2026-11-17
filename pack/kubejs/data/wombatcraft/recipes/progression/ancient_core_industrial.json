@@ -1,0 +1,58 @@
+{
+  "type": "wombatcraft:dimensional_stabilizer",
+  "duration": 600,
+  "inputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 8,
+          "ingredient": {
+            "item": "kubejs:aetherium_ingot"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 4,
+          "ingredient": {
+            "item": "minecraft:nether_star"
+          }
+        }
+      },
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 4,
+          "ingredient": {
+            "item": "botania:terrasteel_ingot"
+          }
+        }
+      }
+    ],
+    "forge_energy": [
+      {
+        "content": 1000000
+      }
+    ],
+    "botania_mana": [
+      {
+        "content": 60000
+      }
+    ]
+  },
+  "outputs": {
+    "item": [
+      {
+        "content": {
+          "type": "mbd2:sized",
+          "count": 1,
+          "ingredient": {
+            "item": "kubejs:ancient_core"
+          }
+        }
+      }
+    ]
+  }
+}

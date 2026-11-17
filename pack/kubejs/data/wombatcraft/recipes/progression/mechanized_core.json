@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:resonant_alloy"
+    },
+    {
+      "item": "create:precision_mechanism"
+    },
+    {
+      "item": "mekanism:advanced_control_circuit"
+    },
+    {
+      "item": "ae2:engineering_processor"
+    }
+  ],
+  "result": {
+    "item": "kubejs:mechanized_core",
+    "count": 1
+  }
+}

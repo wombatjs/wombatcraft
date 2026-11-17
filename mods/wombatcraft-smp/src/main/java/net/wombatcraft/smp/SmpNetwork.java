@@ -14,11 +14,11 @@ import java.util.*;
 import java.util.function.Supplier;
 
 public final class SmpNetwork {
-    public static final SimpleChannel CHANNEL=NetworkRegistry.newSimpleChannel(new ResourceLocation(WombatcraftSmp.ID,"communities"),()->"1","1"::equals,"1"::equals);
+    public static final SimpleChannel CHANNEL=NetworkRegistry.newSimpleChannel(new ResourceLocation(WombatcraftSmp.ID,"communities"),()->"2","2"::equals,"2"::equals);
     private static final Map<UUID,Long> LAST_REQUEST=new HashMap<>();
-    public record Request(String action,String target,long revision,int page,long session,String territory) {
-        static Request read(FriendlyByteBuf b){return new Request(b.readUtf(32),b.readUtf(96),b.readVarLong(),b.readVarInt(),b.readLong(),b.readUtf(160));}
-        void write(FriendlyByteBuf b){b.writeUtf(action,32);b.writeUtf(target,96);b.writeVarLong(revision);b.writeVarInt(page);b.writeLong(session);b.writeUtf(territory,160);}
+    public record Request(String action,String target,long revision,int page,long session,String territory,int menu) {
+        static Request read(FriendlyByteBuf b){return new Request(b.readUtf(32),b.readUtf(96),b.readVarLong(),b.readVarInt(),b.readLong(),b.readUtf(160),b.readVarInt());}
+        void write(FriendlyByteBuf b){b.writeUtf(action,32);b.writeUtf(target,96);b.writeVarLong(revision);b.writeVarInt(page);b.writeLong(session);b.writeUtf(territory,160);b.writeVarInt(menu);}
     }
     public record View(String json,long session) {
         static View read(FriendlyByteBuf b){return new View(b.readUtf(16384),b.readLong());}
@@ -32,7 +32,8 @@ public final class SmpNetwork {
         },Optional.of(NetworkDirection.PLAY_TO_CLIENT));
     }
     public static void send(String action,String target,long revision,int page,long session){send(action,target,revision,page,session,"");}
-    public static void send(String action,String target,long revision,int page,long session,String territory){CHANNEL.sendToServer(new Request(action,target,revision,page,session,territory));}
+    public static void send(String action,String target,long revision,int page,long session,String territory){send(action,target,revision,page,session,territory,0);}
+    public static void send(String action,String target,long revision,int page,long session,String territory,int menu){CHANNEL.sendToServer(new Request(action,target,revision,page,session,territory,menu));}
     private static void request(Request r,Supplier<NetworkEvent.Context> context){
         var ctx=context.get();ctx.enqueueWork(()->{
             ServerPlayer p=ctx.getSender();if(p==null||!WombatcraftSmp.ENABLED.get())return;
@@ -41,6 +42,9 @@ public final class SmpNetwork {
             LAST_REQUEST.put(p.getUUID(),now);
             String message="";
             try {
+                if(r.menu!=0&&r.menu!=3&&r.menu!=4)throw new IllegalArgumentException("Unknown menu");
+                boolean allowed=switch(r.action){case "view"->true;case "vote"->r.menu==3;case "deliver","collect"->r.menu==4;default->r.menu==0;};
+                if(!allowed)throw new IllegalArgumentException("Action belongs to another menu");
                 switch(r.action){
                     case "view" -> {}
                     case "builder" -> Factions.builder(p,UUID.fromString(r.target),true);
@@ -69,7 +73,7 @@ public final class SmpNetwork {
                 }
             }catch(SecurityException|IllegalArgumentException|IllegalStateException e){message=e.getMessage();}
             catch(Exception e){WombatcraftSmp.LOGGER.error("Faction request failed",e);message="Unable to complete that action. Please contact an administrator.";}
-            view(p,Math.max(0,Math.min(63,r.page)),message,r.session);
+            view(p,Math.max(0,Math.min(63,r.page)),message,r.session,r.menu);
         });ctx.setPacketHandled(true);
     }
     static boolean atSpawn(ServerPlayer p){return Factions.owner(p.level(),p.blockPosition()).map(t->t.getId().toString().equals(WombatcraftSmp.SPAWN_TEAM.get())).orElse(false);}
@@ -78,7 +82,13 @@ public final class SmpNetwork {
     }
     static void view(ServerPlayer p,int page,String message,long session){view(p,page,message,session,-1);}
     static void view(ServerPlayer p,int page,String message,long session,int openTab){
-        JsonObject out=new JsonObject();if(openTab>=0)out.addProperty("open_tab",openTab);out.addProperty("message",message);out.addProperty("at_spawn",atSpawn(p));out.addProperty("page",page);
+        JsonObject out=snapshot(p,page,message,openTab);
+        CHANNEL.send(PacketDistributor.PLAYER.with(()->p),new View(out.toString(),session));
+    }
+    static JsonObject snapshot(ServerPlayer p,int page,String message,int openTab){
+        int menu=openTab==3||openTab==4?openTab:0;
+        JsonObject out=new JsonObject();out.addProperty("menu",menu);out.addProperty("message",message);out.addProperty("at_spawn",atSpawn(p));out.addProperty("page",page);
+        if(menu==0){
         Optional<Team> found=Factions.playerTeam(p);JsonArray members=new JsonArray();
         if(found.isPresent()){
             Team team=found.get();out.addProperty("name",limit(team.getName().getString(),64));out.addProperty("role",Factions.role(team,p.getUUID()).name());
@@ -96,6 +106,8 @@ public final class SmpNetwork {
         out.addProperty("territory_key",territory(p));out.addProperty("claim_revision",claim==null?0:claim.getTimeClaimed());out.addProperty("policies_open",WombatcraftSmp.CHUNK_POLICIES.get());
         out.addProperty("claim_owner",claim==null?"Unclaimed":limit(claim.getTeamData().getTeam().getName().getString(),64));
         out.addProperty("can_edit_claim",claim!=null&&!claim.getTeamData().getTeam().isServerTeam()&&claim.getTeamData().getTeam().getRankForPlayer(p.getUUID()).isOfficerOrBetter());
+        }
+        if(menu==3){
         out.addProperty("elections_open",WombatcraftSmp.ELECTIONS.get());
         if(WombatcraftSmp.ELECTIONS.get()){
             var civic=CivicState.get(p.server);civic.advance();var e=civic.election;
@@ -105,10 +117,13 @@ public final class SmpNetwork {
             out.addProperty("mayor_name",CandidateCatalog.ALL.get(e.mayor()).get("name").getAsString());
             JsonArray candidates=new JsonArray();e.eligible().forEach(id->candidates.add(CandidateCatalog.ALL.get(id).deepCopy()));out.add("candidates",candidates);
         }
+        }
+        if(menu==4){
         out.addProperty("contracts_open",WombatcraftSmp.CONTRACTS.get());
         if(WombatcraftSmp.CONTRACTS.get())try {out.add("contracts",ContractService.get(p.server).view(p,page));}
         catch(Exception e){WombatcraftSmp.LOGGER.error("Contract view failed",e);out.addProperty("contracts_open",false);out.addProperty("message","The contract desk is unavailable while its records are checked.");}
-        CHANNEL.send(PacketDistributor.PLAYER.with(()->p),new View(out.toString(),session));
+        }
+        return out;
     }
     private static String territory(ServerPlayer p){return p.level().dimension().location()+"/"+p.chunkPosition().x+"/"+p.chunkPosition().z;}
     private static String limit(String s,int length){return s.length()>length?s.substring(0,length):s;}

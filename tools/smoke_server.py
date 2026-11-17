@@ -2,6 +2,7 @@
 import hashlib,json,os,shutil,subprocess,sys,time,urllib.request,zipfile
 from pathlib import Path
 from portal_patch import PATCH_NAME, COMPAT_PATCH_NAME, REFINED_PATCH_NAME, build_portal_patch
+from build_convergence_progression import recipes as progression_recipes, ITEMS as progression_items
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'launcher'));import updater
 dest=ROOT/'dist/server-smoke';dest.mkdir(parents=True,exist_ok=True)
 lock=json.loads((ROOT/'mod-lock.json').read_text());mods=dest/'mods';mods.mkdir(exist_ok=True)
@@ -68,12 +69,15 @@ for boot in range(2):
    while time.monotonic()<deadline:
     if process.poll() is not None:raise RuntimeError('Dedicated server exited before startup completed')
     text=(dest/'console.log').read_text(errors='replace')
-    if any(error in text for error in ('Failed to start the minecraft server', 'Mod Loading has failed', 'Frontier gameplay audit failed')):raise RuntimeError('Fatal mod loading failure; see console.log')
-    if ')! For help, type ' in text and all(marker in text for marker in ('QUEST_AUDIT_COMPLETE','RECIPE_AUDIT_COMPLETE','COMMAND_AUDIT_COMPLETE','PORTAL_CHUNK_AUDIT_COMPLETE','FRONTIER_GAMEPLAY_AUDIT_COMPLETE')):break
+    if any(error in text for error in ('Failed to start the minecraft server', 'Mod Loading has failed', 'Failed to load datapacks, can\'t proceed', 'Frontier gameplay audit failed', 'Journey audit failed')):raise RuntimeError('Fatal mod loading failure; see console.log')
+    if ')! For help, type ' in text and all(marker in text for marker in ('PERSONAL_PROGRESSION_AUDIT_COMPLETE','JOURNEY_AUDIT_COMPLETE','QUEST_AUDIT_COMPLETE','RECIPE_AUDIT_COMPLETE','COMMAND_AUDIT_COMPLETE','PORTAL_CHUNK_AUDIT_COMPLETE','FRONTIER_GAMEPLAY_AUDIT_COMPLETE','CONVERGENCE_ARMOR_AUDIT_COMPLETE','CONVERGENCE_GAMEPLAY_AUDIT_COMPLETE')):break
     time.sleep(5)
    else:raise TimeoutError('Dedicated server startup timed out')
    chapters=[json.loads(p.read_text()) for p in (ROOT/'pack/config/ftbquests/quests/chapters').glob('*.snbt')];quests=[q for c in chapters for q in c['quests']]
    actual={line.split('\t')[0].upper() for line in (dest/'quest-runtime-audit.tsv').read_text().splitlines()};expected={q['id'].upper() for q in quests};assert actual==expected,'Runtime quest IDs differ from source: missing='+str(sorted(expected-actual)[:8])+' unexpected='+str(sorted(actual-expected)[:8])
+   expected_links={(l['id'].upper(),l['linked_quest'].upper()) for c in chapters for l in c.get('quest_links',[])}
+   actual_links={tuple(line.upper().split('\t')) for line in (dest/'quest-link-runtime-audit.tsv').read_text().splitlines()}
+   assert actual_links==expected_links,'Runtime quest links differ from source'
    registry=set((dest/'item-registry.txt').read_text().splitlines());refs={q['icon'] for q in quests if isinstance(q.get('icon'),str)}
    refs|={t['item'] for q in quests for t in q.get('tasks',[]) if t.get('type')=='item' and isinstance(t.get('item'),str)}
    refs|={r['item'] for q in quests for r in q.get('rewards',[]) if r.get('type')=='item' and isinstance(r.get('item'),str)}
@@ -85,6 +89,9 @@ for boot in range(2):
    requested={t['advancement'] for c in chapters if c['filename'].startswith(('wc_dimension_exp_', 'wc_frontier_')) for q in c['quests'] for t in q['tasks'] if t['type']=='advancement'}
    assert not requested-loaded_advancements,'Unloaded authored advancements: '+str(sorted(requested-loaded_advancements))
    recipes=set((dest/'recipe-registry.txt').read_text().splitlines());endgame={'kubejs:endgame/'+name for name in ['industrial_sigil','arcane_sigil','voyager_sigil','prosperity_sigil','convergence_core']};assert endgame<=recipes,'Missing endgame recipes'
+   assert {'wombatcraft:progression/'+name for name in progression_recipes()} <= recipes, 'Missing Convergence progression recipes'
+   assert {'kubejs:'+name for name in progression_items} <= registry, 'Missing Convergence progression items'
+   assert not {'torchmaster:feral_flare_lantern','torchmaster:frozen_pearl','mininggadgets:upgrade_size_2','mininggadgets:upgrade_size_3'} & recipes, 'Disabled utility recipes reappeared'
    frontier_recipes = {f'wombatcraft:convergence/{name}' for name in ('controller','alloy','lens','keystone','wayfarers_lens','trials_beacon')}
    frontier_recipes |= {f'wombatcraft:trials/trial_{name}' for name in ('twilight','aether','otherside')}
    assert frontier_recipes <= recipes, 'Missing frontier recipes: '+str(sorted(frontier_recipes-recipes))
@@ -105,7 +112,7 @@ for boot in range(2):
     assert any('Wombatcraft DivineRPG entity data fixed:' in line and entity in line for line in text.splitlines()),'DivineRPG entity data fix did not load: '+entity
    assert 'PORTAL_POLICY_AUDIT_COMPLETE' in text,'Portal policy or serializer synchronization did not load'
    commands=set((dest/'command-registry.txt').read_text().splitlines())
-   required_commands={'home','sethome','spawn','tpa','tpaccept','tpdeny','tab','warp','mute','unmute','ftbranks','ftbchunks','lcadmin','spark','chunky','pp','servercore','tutorial','settutorialspawn','easy_npc'}
+   required_commands={'townhall','contracts','faction','journey','home','sethome','spawn','tpa','tpaccept','tpdeny','tab','warp','mute','unmute','ftbranks','ftbchunks','lcadmin','spark','chunky','pp','servercore','tutorial','settutorialspawn','easy_npc'}
    assert required_commands<=commands,'Missing server commands: '+str(sorted(required_commands-commands))
    process.stdin.write(b'wctutorialaudit\n');process.stdin.flush()
    tutorial_deadline=time.monotonic()+30
@@ -142,7 +149,7 @@ for boot in range(2):
      else:raise TimeoutError('Dimension generation timed out: '+d['dimension'])
      print('Generated destination',d['dimension'],flush=True)
     (ROOT/'dist/dimension-generation.json').write_text(json.dumps(explored,indent=2))
-   (ROOT/'dist/server-validation.json').write_text(json.dumps(dict(quests=len(quests),registry_items=len(registry),recipes=len(recipes),endgame_recipes=sorted(endgame),server_commands=sorted(required_commands),portal_chunk_tracking_verified=True,frontier_trials_verified=3,convergence_forge_recipes_verified=3,fresh_world_started=True,restarted_cleanly=boot==1),indent=2))
+   (ROOT/'dist/server-validation.json').write_text(json.dumps(dict(quests=len(quests),registry_items=len(registry),recipes=len(recipes),endgame_recipes=sorted(endgame),server_commands=sorted(required_commands),portal_chunk_tracking_verified=True,frontier_trials_verified=3,convergence_forge_recipes_verified=3+sum("inputs" in r for r in progression_recipes().values()),convergence_progression_recipes_loaded=len(progression_recipes()),world_started=True,journey_links_verified=len(actual_links),journey_recommendations_verified=True,restarted_cleanly=boot==1),indent=2))
    print('Dedicated server, quest registry and endgame recipe validation passed.')
   finally:
    if process.poll() is None:
