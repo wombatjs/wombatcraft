@@ -49,3 +49,17 @@ mandatory=true
 versionRange="[2001.4.22]"
 ordering="AFTER"
 side="BOTH"
+
+[[dependencies.wombatcraft_smp]]
+modId="vampirism"
+mandatory=true
+versionRange="[1.10.17]"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.wombatcraft_smp]]
+modId="werewolves"
+mandatory=true
+versionRange="[2.0.2.7]"
+ordering="AFTER"
+side="BOTH"

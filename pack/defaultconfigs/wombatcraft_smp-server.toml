@@ -6,3 +6,9 @@ contracts = true
 villageSettlers = true
 villageResidentTarget = 24
 spawnTeam = "2de87e97-dce4-41d0-b02d-c24a395997a1"
+
+[moonblood]
+enabled = true
+minimumWerewolfLevel = 5
+feedingCooldownSeconds = 20
+sunDamage = 1.0

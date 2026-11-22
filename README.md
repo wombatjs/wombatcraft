@@ -36,6 +36,8 @@ See the [Discord Rich Presence setup](discord/README.md) for the launcher and Mi
 
 Everyday utilities, lootable gravestones and the expanded vanilla market are documented in [Utility and market update](docs/UTILITY-MARKET.md).
 
+Use `/moonblood` for hybrid progression. A level 5 werewolf can drink a Moonblood Draught to gain night sight and feed on hostile mobs in wolf form. A Sunward Charm held in either hand protects against the hybrid's sunlight damage. A Severing Tonic removes the bond and preserves werewolf levels. Server admins can tune Moonblood in the `[moonblood]` section of the world's `serverconfig/wombatcraft_smp-server.toml`.
+
 ## Release contract
 
 Only a validated release for a commit on `main` becomes an update. Client and server use the same pack manifest. The launcher installs executable updates in a separate folder under its application data, so the original shortcut keeps working and the instance, saves and settings stay in place.

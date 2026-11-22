@@ -93,6 +93,8 @@ for boot in range(2):
    assert {'wombatcraft:progression/'+name for name in progression_recipes()} <= recipes, 'Missing Convergence progression recipes'
    assert {'kubejs:'+name for name in progression_items} <= registry, 'Missing Convergence progression items'
    assert {'wombatcraft_smp:'+name for name in arsenal_items} <= registry, 'Missing Arsenal items'
+   moonblood_items={'wombatcraft_smp:'+name for name in ('moonblood_draught','severing_tonic','sunward_charm')}
+   assert moonblood_items <= registry and moonblood_items <= recipes, 'Missing Moonblood items or recipes'
    assert 'CONVERGENCE_ARSENAL_AUDIT_COMPLETE' in text, 'Arsenal behavior audit missing'
    assert 'KUBEJS_GENERATED_DATA_AUDIT_COMPLETE' in text, 'Parallel resource regression audit missing'
    assert not {'torchmaster:feral_flare_lantern','torchmaster:frozen_pearl','mininggadgets:upgrade_size_2','mininggadgets:upgrade_size_3'} & recipes, 'Disabled utility recipes reappeared'
@@ -116,7 +118,7 @@ for boot in range(2):
     assert any('Wombatcraft DivineRPG entity data fixed:' in line and entity in line for line in text.splitlines()),'DivineRPG entity data fix did not load: '+entity
    assert 'PORTAL_POLICY_AUDIT_COMPLETE' in text,'Portal policy or serializer synchronization did not load'
    commands=set((dest/'command-registry.txt').read_text().splitlines())
-   required_commands={'townhall','contracts','faction','journey','home','sethome','spawn','tpa','tpaccept','tpdeny','tab','warp','mute','unmute','ftbranks','ftbchunks','lcadmin','spark','chunky','pp','servercore','tutorial','settutorialspawn','easy_npc'}
+   required_commands={'townhall','contracts','faction','journey','home','sethome','spawn','tpa','tpaccept','tpdeny','tab','warp','mute','unmute','ftbranks','ftbchunks','lcadmin','spark','chunky','pp','servercore','tutorial','settutorialspawn','easy_npc','moonblood'}
    assert required_commands<=commands,'Missing server commands: '+str(sorted(required_commands-commands))
    process.stdin.write(b'wctutorialaudit\n');process.stdin.flush()
    tutorial_deadline=time.monotonic()+30
