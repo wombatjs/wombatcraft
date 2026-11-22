@@ -52,6 +52,7 @@ final class FrontierAudit {
             auditForge(world, commands, source, command, "convergence_matrix", "minecraft:netherite_block", "minecraft:beacon");
             auditArmor(server, world);
             type("net.wombatcraft.smp.ConvergenceGameplayAudit").getMethod("run", type("net.minecraft.server.MinecraftServer")).invoke(null, server);
+            type("net.wombatcraft.smp.HybridFactionsAudit").getMethod("run", type("net.minecraft.server.MinecraftServer")).invoke(null, server);
             for (String trial : TRIALS) auditGate(server, world, trial);
         } finally {
             command.invoke(commands, source, "fill 0 179 0 24 184 24 minecraft:air");

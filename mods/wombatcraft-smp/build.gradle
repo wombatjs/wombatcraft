@@ -39,3 +39,4 @@ dependencies {
 tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
 test { useJUnitPlatform(); maxHeapSize = '256m' }
 jar.finalizedBy('reobfJar')
+jar.manifest.attributes('MixinConfigs': 'wombatcraft-hybrid.mixins.json')

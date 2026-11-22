@@ -1,0 +1,29 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "net.wombatcraft.smp.mixin.hybrid",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "FactionPlayerHandlerMixin",
+    "WerewolfHelperMixin",
+    "WerewolfCureMixin",
+    "WerewolfCureInteractionMixin",
+    "FactionItemMixin",
+    "UnlockSkillPacketMixin",
+    "ToggleActionPacketMixin",
+    "SimpleInputPacketMixin",
+    "VampirismMenuMixin",
+    "TaskActionPacketMixin",
+    "DeleteRefinementPacketMixin",
+    "LordRewardMixin",
+    "BatFormMixin",
+    "WerewolfFormMixin"
+  ],
+  "client": [
+    "VampirismContainerScreenMixin",
+    "SkillsScreenMixin",
+    "SelectActionRadialScreenMixin",
+    "ModKeysMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

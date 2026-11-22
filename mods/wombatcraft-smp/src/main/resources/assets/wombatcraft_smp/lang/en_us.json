@@ -25,22 +25,5 @@
   "item.wombatcraft_smp.convergium_shovel": "Convergium Shovel",
   "item.wombatcraft_smp.convergence_aegis": "Convergence Aegis",
   "item.wombatcraft_smp.convergent_armament": "Convergent Armament",
-  "item.wombatcraft_smp.moonblood_draught": "Moonblood Draught",
-  "item.wombatcraft_smp.moonblood_draught.hint": "Drink as an experienced werewolf to become a hybrid. See /moonblood.",
-  "item.wombatcraft_smp.severing_tonic": "Severing Tonic",
-  "item.wombatcraft_smp.severing_tonic.hint": "Remove Moonblood and keep your werewolf levels.",
-  "item.wombatcraft_smp.sunward_charm": "Sunward Charm",
-  "item.wombatcraft_smp.sunward_charm.hint": "Hold in either hand to protect a Moonblood hybrid from sunlight.",
-  "moonblood.wombatcraft.disabled": "Moonblood is disabled on this server.",
-  "moonblood.wombatcraft.already_bound": "You are already a Moonblood hybrid.",
-  "moonblood.wombatcraft.requires_level": "Reach werewolf level %s before drinking this draught.",
-  "moonblood.wombatcraft.not_bound": "You are not a Moonblood hybrid.",
-  "moonblood.wombatcraft.bound": "You are now a Moonblood hybrid. Use /moonblood to see your powers.",
-  "moonblood.wombatcraft.severed": "Your Moonblood bond is gone.",
-  "moonblood.wombatcraft.fed": "You fed on your prey.",
-  "moonblood.wombatcraft.status_bound": "Moonblood hybrid. Finish hostile mobs in wolf form to feed. Use /moonblood sight to see in the dark. Carry a Sunward Charm in either hand for daylight.",
-  "moonblood.wombatcraft.status_unbound": "Reach werewolf level %s and drink a Moonblood Draught to become a hybrid.",
-  "moonblood.wombatcraft.sight_unavailable": "Night sight requires an active Moonblood hybrid in Survival or Adventure mode.",
-  "moonblood.wombatcraft.sight_hungry": "Feed before using night sight. You need at least four shanks.",
-  "moonblood.wombatcraft.sight_active": "Night vision is already active or cannot be applied."
+  "gui.wombatcraft.werewolf_menu": "Werewolf Menu"
 }

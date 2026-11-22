@@ -36,7 +36,7 @@ See the [Discord Rich Presence setup](discord/README.md) for the launcher and Mi
 
 Everyday utilities, lootable gravestones and the expanded vanilla market are documented in [Utility and market update](docs/UTILITY-MARKET.md).
 
-Use `/moonblood` for hybrid progression. A level 5 werewolf can drink a Moonblood Draught to gain night sight and feed on hostile mobs in wolf form. A Sunward Charm held in either hand protects against the hybrid's sunlight damage. A Severing Tonic removes the bond and preserves werewolf levels. Server admins can tune Moonblood in the `[moonblood]` section of the world's `serverconfig/wombatcraft_smp-server.toml`.
+Vampires and werewolves can add the other faction through its usual infection. Hybrids keep both skill trees and level through the original altars. Open either faction's menu from your inventory. Both factions' unlocked powers appear in the Vampirism action wheel. Each faction's normal cure removes that faction.
 
 ## Release contract
 
